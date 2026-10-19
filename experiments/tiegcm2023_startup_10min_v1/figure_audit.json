@@ -1,0 +1,12 @@
+{
+  "image": "results/figures/tiegcm2023_startup_10min_v1_native_fields.png",
+  "native_height_m": 400000,
+  "valid_columns": 2592,
+  "total_columns": 2592,
+  "density_range_kg_m3": [
+    3.7420065922518836e-13,
+    9.459703290795597e-13
+  ],
+  "height_datum": "native ZG only; not asserted equivalent to WGS84",
+  "spinup_complete": false
+}

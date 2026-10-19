@@ -1,0 +1,9 @@
+test_constant_driver_override_rejected (test_tiegcm2023_diagnostic.DiagnosticTests) ... ok
+test_date_separation_and_duration (test_tiegcm2023_diagnostic.DiagnosticTests) ... ok
+test_longer_run_rejected (test_tiegcm2023_diagnostic.DiagnosticTests) ... ok
+test_outside_workspace_rejected (test_tiegcm2023_diagnostic.DiagnosticTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.006s
+
+OK

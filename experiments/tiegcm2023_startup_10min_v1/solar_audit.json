@@ -1,0 +1,49 @@
+{
+  "kind": "separate function probe, not runtime instrumentation and not a model rerun",
+  "dates": [
+    "2023-03-18T00:00:00.000",
+    "2023-03-18T00:05:00.000",
+    "2023-03-18T00:10:00.000"
+  ],
+  "apex_lat_deg": [
+    -1.1434683106059005,
+    -1.142095309512687,
+    -1.1407223075678226
+  ],
+  "apex_lon_deg": [
+    -177.93036968300066,
+    -179.18062003316214,
+    179.56912960752857
+  ],
+  "astropy_geocentric_lat_deg": [
+    -1.1442336188659483,
+    -1.1428577671311548,
+    -1.1414819082213807
+  ],
+  "astropy_lon_deg": [
+    182.06191471133636,
+    180.81166534610665,
+    179.56141597347485
+  ],
+  "latitude_difference_deg": [
+    0.0007653082600478367,
+    0.0007624576184679377,
+    0.000759600653558179
+  ],
+  "longitude_difference_deg": [
+    0.00771560566295193,
+    0.0077146207312353,
+    0.007713634053715168
+  ],
+  "eop_check": {
+    "ut1_utc_s_min": -0.020132383333333333,
+    "ut1_utc_s_max": -0.0201299,
+    "xp_arcsec_min": -0.039037,
+    "xp_arcsec_max": -0.03903052083333334,
+    "yp_arcsec_min": 0.366856,
+    "yp_arcsec_max": 0.3668708541666667,
+    "all_status_iers_b": true
+  },
+  "passed": true,
+  "runtime_evidence": "actual year/day/UT output + original advance.F -> sunloc_apex -> subsol/cofrm call path; solar coordinates not explicitly logged inside model"
+}

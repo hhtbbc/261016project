@@ -154,3 +154,19 @@
 - git push -u origin main返回0；首次成功的本地与远端main均为b6c284cb181a83b48688f4bdbc18e8b4132ac69f，已实际比对。目标https://github.com/hhtbbc/261016project。
 - 本条及仓库说明补记一并提交推送；最终HEAD/远端一致性记录本地logs/github_push_verification.log。科研代码/数据/实验未改，原始数据、模型、环境等继续留在本地。
 - 推送已完成，后续科研任务仍等待用户指令。
+
+
+## 2023首次真实日历启动验证（2026-10-19，最新）
+- 用户只授权一次10分钟；已执行且停止：experiments/tiegcm2023_startup_10min_v1，START_YEAR2023/DOY77，SOURCE_START80 0 0只读2002初猜；4rank、60秒、10步、5°，未修改原源码/restart，未下载/安装环境。
+- returncode0、NORMAL EXIT，墙钟2.396588s，采样进程树RSS峰987189248字节（共享页重复计入/可能漏瞬时峰），两NetCDF67015120字节；60s超时/16GiB合计RSS/8GiB进程地址/512MiB输出/10GiB余盘门槛未触发，退出无残留模型进程。
+- 日历输出2023-03-18 00:00/00:05/00:10，day77/calendar_advance1。apex更新对象实际调用年份2023；GPI首步实际请求2023/77/60s。10个分钟日志/5与10分钟主次历史驱动核对通过，最大double差2.8422e-14，Kp2、POWER27.03880839GW、CTPOTEN48.2kV；00:10 F107137.07058677/F107A161.80066164。
+- 关键启动限制：t=0仍继承restart F107/F107A70、POWER18/CTPOTEN30，Kp缺失；从首步60s才用实际2023 GPI。不得将t0当2023驱动/平衡场，也不是固定配置覆盖。原日志CTPOTEN有旧Volts误标签，NetCDF/公式为kV。
+- DEN/ZG/TN/UN/VN/主成分基础检查通过：DEN全垂直域1.34999648e-13—1.19784682e-6kg/m³；TN147.773—787.067K；高度递增。5/10分钟顶高449.03812—510.97656/449.09100—512.38628km，仍有Swarm超顶风险。TN/风顶层padding显式掩码；成分顶层有值，不套同一掩码，主要mmr和≈1。
+- 相同apex.o独立subsol函数核对Astropy太阳/EOP通过（不是第二次模型运行/不是运行内太阳打点）；最大纬/经差0.00076531/0.00771561deg。原整数年apex初映射/分数年推进和太阳近似保留，未声称完整科学验证。
+- 新脚本run_tiegcm2023_diagnostic.py、audit_tiegcm2023_diagnostic.py、check_tiegcm2023_solar.py、plot_tiegcm2023_diagnostic.py；新4项门禁测试，合计35测试通过。一次launch_once拒绝同目录再次启动，所有新产物拒绝覆盖。
+- 首次静态错要求restart含N2、首次审计错将温度顶层掩码要求套到成分、太阳探针初次缺src导入路径：均已定位修正并保留失败说明/日志，未重复模型积分。659历史保护文件SHA未变。
+- 新报告reports/TIEGCM2023_STARTUP_DIAGNOSTIC.md、决策docs/TIEGCM2023_SPINUP_DECISION.md；原生ZG顶高/400km诊断图results/figures/tiegcm2023_startup_10min_v1_native_fields.png，明确NOT spun up。审计JSON/配置在运行目录；完整小日志和测试可入库，大NetCDF仍本地。
+- 决策：短时启动基础工程条件通过，尚未证明跨日/续算/多日稳定性和spin-up收敛；建议另授权有限更长/跨日续算兼容性验证，3/7天仍仅候选。Swarm参数/高度基准/机动风险未解决，不运行真实阻力或spin-up。
+- 本次按新增长期GitHub规则安全提交并推送main；最终提交/远端一致性见本地logs/tiegcm2023_startup_github_verification.log，认证/冲突失败必须如实报告。科研范围到此停止。
+
+关键命令：source scripts/activate_tiegcm.sh；python scripts/run_tiegcm2023_diagnostic.py --run-tag tiegcm2023_startup_10min_v1（静态）；同命令加--execute（本次唯一模型启动，已完成）；python scripts/inspect_tiegcm_outputs.py tiegcm2023_startup_10min_v1；python scripts/audit_tiegcm2023_diagnostic.py --run-tag tiegcm2023_startup_10min_v1；python scripts/check_tiegcm2023_solar.py --run-tag tiegcm2023_startup_10min_v1（仅函数）；source scripts/activate_orbit.sh；python -m unittest discover -s tests -v（35通过）；python scripts/plot_tiegcm2023_diagnostic.py --run-tag tiegcm2023_startup_10min_v1。此处记录用于接续，不授权重跑已消耗的模型运行。

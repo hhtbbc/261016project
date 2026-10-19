@@ -37,4 +37,7 @@ Swarm质量优先同期SC_ADYN的m_SC，473 kg仅发射质量；日内范围不�
 2.0原始树保留，当前GNU12构建有三个显式源补丁和nchist专用旧F77接口兼容选项。2002默认单日已运行不等于2023场可信；DEN在ilev且g/cm3→kg/m3乘1000，ZG在ilev且cm→m乘0.01。TN/风顶层缺失值必须显式掩码，默认场部分顶高低于Swarm，不外推。2023前仍须官方IGRF更新、真实驱动、完整初始场和独立spin-up验证。最新报告reports/TIEGCM2_ENVIRONMENT.md、DRAG_MODULE_VALIDATION.md；计划docs/TIEGCM2_EXECUTION_PLAN.md、DENSITY_COMPARISON_DESIGN.md。
 
 ## 2023适配准备后的长期门禁
-用户明确要求保留/root/.conda/environments.txt既有登记，不自动清理。TIE2023入口见STATUS最新段及reports/TIEGCM2023_*；只能使用已记录官方apex覆盖层，原2.0树不改。GPI为Fobs/中心81日平均及def Kp的hindcast，禁用固定KP/POWER/CTPOTEN等覆盖；实际util公式优先于旧注释，日期不可越界/传86400秒。尚未运行2023日历适配或spin-up；待授权有限短段验证，3/7天不得自动执行。姿态NaN、code4/推力/面积/Cd未闭合，实际2023顶高/高度基准未确认，不运行真实阻力精度实验，不外推。
+用户明确要求保留/root/.conda/environments.txt既有登记，不自动清理。TIE2023入口见STATUS最新段及reports/TIEGCM2023_*；只能使用已记录官方apex覆盖层，原2.0树不改。GPI为Fobs/中心81日平均及def Kp的hindcast，禁用固定KP/POWER/CTPOTEN等覆盖；实际util公式优先于旧注释，日期不可越界/传86400秒。2023-03-18一次10分钟日历/驱动诊断已通过，报告TIEGCM2023_STARTUP_DIAGNOSTIC.md；尚未完成spin-up。t0继承旧源标量、首步60s启用GPI；进一步短段/跨日验证与3/7天均须新授权，不自动执行。姿态NaN、code4/推力/面积/Cd未闭合，实际2023顶高/高度基准未确认，不运行真实阻力精度实验，不外推。
+
+## 每次科研任务结束后的GitHub同步（长期规则）
+用户已授权每次完成科研任务后安全同步到https://github.com/hhtbbc/261016project.git的main。先检查分支、工作区、正确remote和远端新提交；仅提交本任务的代码、文档、配置及适合公开的小型验证产物。检查.gitignore、文件大小、敏感信息/私人路径与凭据；环境、权重、原始大数据、大型NetCDF、缓存和凭据不得入库。已有实验不覆盖。推送前重新检查远端；遇到并发新提交/冲突停止报告，不强推。推送后逐字核对本地HEAD与远端main，记录提交与核验日志。认证失败保留本地提交并如实报告，不能声称成功，不将令牌/密码写文件、日志、URL。VS Code旧socket失效时可仅在Git进程环境使用同用户有效认证通道，不改全局配置、不存储或打印凭据。新会话必须读本规则并执行，无需再次询问是否同步。

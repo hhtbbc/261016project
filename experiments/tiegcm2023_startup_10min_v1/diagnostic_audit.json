@@ -1,0 +1,414 @@
+{
+  "files": [
+    {
+      "path": "experiments/tiegcm2023_startup_10min_v1/tiegcm2.0_res5.0_mareqx_smin_prim_001.nc",
+      "bytes": 50942504,
+      "sha256": "57f3cae1d8eb6674bc3ca35e1e5c5b351ff81a4f4c0c91b2b2e8e47e0628d9ad",
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            3,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 7776,
+          "min_valid": 147.7730079429047,
+          "max_valid": 787.0665992689981
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            3,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 7776,
+          "min_valid": -31743.283489185837,
+          "max_valid": 30111.733435439673
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            3,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 7776,
+          "min_valid": -29979.086403741087,
+          "max_valid": 30985.27215922723
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            3,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 0,
+          "min_valid": 0.00304866848632892,
+          "max_valid": 0.9517683779411473
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            3,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 0,
+          "min_valid": 2.8904977433046552e-05,
+          "max_valid": 0.23061050998664778
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            3,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 0,
+          "min_valid": 1.1522202090665667e-06,
+          "max_valid": 0.225701606507692
+        }
+      },
+      "dates": [
+        "2023-03-18 00:00:00",
+        "2023-03-18 00:05:00",
+        "2023-03-18 00:10:00"
+      ],
+      "inherited_initial_drivers": {
+        "f107d": 70.0,
+        "f107a": 70.0,
+        "Kp": 1e+36,
+        "hpower": 18.0,
+        "ctpoten": 30.0
+      }
+    },
+    {
+      "path": "experiments/tiegcm2023_startup_10min_v1/tiegcm2.0_res5.0_mareqx_smin_sech_001.nc",
+      "bytes": 16072616,
+      "sha256": "bf8ef2211401d589681b9a330b36fb41e312ebdf442e963bf49599bd7466c1b1",
+      "fields": {
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            2,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 0,
+          "min_valid": 1.3499964791224736e-16,
+          "max_valid": 1.1978468217321847e-09
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            2,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 0,
+          "min_valid": 9569454.0,
+          "max_valid": 51238628.0
+        },
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            2,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 5184,
+          "min_valid": 147.77301025390625,
+          "max_valid": 787.0665893554688
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            2,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 5184,
+          "min_valid": -31743.283203125,
+          "max_valid": 30111.734375
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            2,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 5184,
+          "min_valid": -29979.0859375,
+          "max_valid": 30985.271484375
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            2,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 0,
+          "min_valid": 0.003049096092581749,
+          "max_valid": 0.9517683982849121
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            2,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 0,
+          "min_valid": 2.8904976716148667e-05,
+          "max_valid": 0.23061050474643707
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            2,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 0,
+          "min_valid": 9.999999974752427e-07,
+          "max_valid": 0.7907953858375549
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "shape": [
+            2,
+            29,
+            36,
+            72
+          ],
+          "masked_count": 0,
+          "min_valid": 1.1522201930347364e-06,
+          "max_valid": 0.22570160031318665
+        }
+      },
+      "dates": [
+        "2023-03-18 00:05:00",
+        "2023-03-18 00:10:00"
+      ],
+      "density_range_kg_m3": [
+        1.3499964791224736e-13,
+        1.1978468217321847e-06
+      ],
+      "top_height_km_by_time": [
+        [
+          449.03812,
+          510.97656
+        ],
+        [
+          449.091,
+          512.38628
+        ]
+      ],
+      "major_mmr_sum_range": [
+        0.9999998807907104,
+        1.0000001192092896
+      ]
+    }
+  ],
+  "driver_comparisons": [
+    {
+      "seconds": 300,
+      "expected": {
+        "f107d": 137.04778276468772,
+        "f107a": 161.80079394609598,
+        "kp": 2.0,
+        "hpower": 27.03880838990928,
+        "ctpoten": 48.2
+      },
+      "actual_minus_expected": {
+        "f107d": 2.842170943040401e-14,
+        "f107a": 2.842170943040401e-14,
+        "Kp": 0.0,
+        "hpower": 3.552713678800501e-15,
+        "ctpoten": 0.0
+      }
+    },
+    {
+      "seconds": 600,
+      "expected": {
+        "f107d": 137.07058677027965,
+        "f107a": 161.80066163725982,
+        "kp": 2.0,
+        "hpower": 27.03880838990928,
+        "ctpoten": 48.2
+      },
+      "actual_minus_expected": {
+        "f107d": 0.0,
+        "f107a": 0.0,
+        "Kp": 0.0,
+        "hpower": 3.552713678800501e-15,
+        "ctpoten": 0.0
+      }
+    },
+    {
+      "seconds": 300,
+      "expected": {
+        "f107d": 137.04778276468772,
+        "f107a": 161.80079394609598,
+        "kp": 2.0,
+        "hpower": 27.03880838990928,
+        "ctpoten": 48.2
+      },
+      "actual_minus_expected": {
+        "f107d": 2.842170943040401e-14,
+        "f107a": 2.842170943040401e-14,
+        "Kp": 0.0,
+        "hpower": 3.552713678800501e-15,
+        "ctpoten": 0.0
+      }
+    },
+    {
+      "seconds": 600,
+      "expected": {
+        "f107d": 137.07058677027965,
+        "f107a": 161.80066163725982,
+        "kp": 2.0,
+        "hpower": 27.03880838990928,
+        "ctpoten": 48.2
+      },
+      "actual_minus_expected": {
+        "f107d": 0.0,
+        "f107a": 0.0,
+        "Kp": 0.0,
+        "hpower": 3.552713678800501e-15,
+        "ctpoten": 0.0
+      }
+    }
+  ],
+  "initial_record_is_inherited": true,
+  "suspicious_log_lines": [],
+  "log_unique_verified_seconds": [
+    60,
+    120,
+    180,
+    240,
+    300,
+    360,
+    420,
+    480,
+    540,
+    600
+  ],
+  "calendar_pass": true,
+  "drivers_pass": true,
+  "basic_fields_pass": true,
+  "engineering_short_startup_pass": true,
+  "spinup_complete": false,
+  "usable_for_swarm_validation": false,
+  "initial_record_warning": "t=0 contains inherited restart fields/scalars, GPI starts at 60 s",
+  "total_netcdf_bytes": 67015120
+}
