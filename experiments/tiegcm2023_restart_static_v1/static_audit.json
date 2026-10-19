@@ -1,0 +1,155 @@
+{
+  "status": "BLOCKED_STATIC_PRECONDITION",
+  "model_launches": 0,
+  "cases": {
+    "A_continuous": {
+      "start": [
+        77,
+        23,
+        50
+      ],
+      "stop": [
+        78,
+        0,
+        10
+      ],
+      "minutes": 20,
+      "start_year": 2023,
+      "start_day": 77,
+      "calendar_advance": 1,
+      "step_s": 60,
+      "mpi_ranks": 4,
+      "history_interval_minutes": 5,
+      "potential_model": "HEELIS",
+      "fixed_driver_overrides": false,
+      "source_start": [
+        80,
+        0,
+        0
+      ],
+      "source": "data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc",
+      "executable_launch_authorized_now": false,
+      "status": "DRAFT_NOT_RUN"
+    },
+    "B1_first": {
+      "start": [
+        77,
+        23,
+        50
+      ],
+      "stop": [
+        78,
+        0,
+        0
+      ],
+      "minutes": 10,
+      "start_year": 2023,
+      "start_day": 77,
+      "calendar_advance": 1,
+      "step_s": 60,
+      "mpi_ranks": 4,
+      "history_interval_minutes": 5,
+      "potential_model": "HEELIS",
+      "fixed_driver_overrides": false,
+      "source_start": [
+        80,
+        0,
+        0
+      ],
+      "source": "data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc",
+      "executable_launch_authorized_now": false,
+      "status": "DRAFT_NOT_RUN"
+    },
+    "B2_resume": {
+      "start": [
+        78,
+        0,
+        0
+      ],
+      "stop": [
+        78,
+        0,
+        10
+      ],
+      "minutes": 10,
+      "start_year": 2023,
+      "start_day": 78,
+      "calendar_advance": 1,
+      "step_s": 60,
+      "mpi_ranks": 4,
+      "history_interval_minutes": 5,
+      "potential_model": "HEELIS",
+      "fixed_driver_overrides": false,
+      "source_start": null,
+      "source": null,
+      "executable_launch_authorized_now": false,
+      "status": "DRAFT_NOT_RUN",
+      "restart_mode": "native continuation: omit SOURCE; search OUTPUT at START",
+      "output": "independent byte-identical copy of B1 complete primary (not created)",
+      "checkpoint_copy_sha_must_match": true,
+      "original_B1_must_remain_read_only": true,
+      "source_evidence": [
+        "rdsource.F:35-65",
+        "nchist.F:479-488",
+        "hist.F:210-218"
+      ]
+    }
+  },
+  "blocking_issues": [
+    "START hour/minute must equal SOURCE_START (input.F:948-960)",
+    "No existing complete primary restart at 23:50 in local inventory"
+  ],
+  "source_structure": {
+    "file": "/workspace/data/20261016/data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc",
+    "history_type": "primary",
+    "missing_required": [],
+    "selected_record_count": 1,
+    "available_mtime": [
+      [
+        80,
+        0,
+        0
+      ]
+    ],
+    "all_required_double": true,
+    "structure_complete": true,
+    "record_available": true,
+    "validated_continuation": false
+  },
+  "asset_hash_checks": {
+    "executable_sha256": {
+      "sha256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+      "matches_verified": true
+    },
+    "gpi_sha256": {
+      "sha256": "60fa18244fcdbd8b1bb5300bda86cde68abcca9a9152539bcdc5fc30377aa9f6",
+      "matches_verified": true
+    },
+    "restart_sha256": {
+      "sha256": "180475215a4922e9c55a77e80153cf641bc8fbb2b8d52633b4686ddee6942fff",
+      "matches_verified": true
+    }
+  },
+  "source_rule": {
+    "file": "third_party/TIEGCM2.0/src/input.F",
+    "lines": [
+      948,
+      960
+    ]
+  },
+  "resources": {
+    "free_disk_bytes": 716339937280,
+    "meminfo": [
+      "MemTotal:       2022951608 kB",
+      "MemFree:        175097924 kB",
+      "MemAvailable:   1928702712 kB"
+    ],
+    "wall_limit_per_launch_s": 90,
+    "total_output_limit_bytes": 536870912,
+    "aggregate_rss_soft_stop_bytes": 17179869184,
+    "disk_floor_bytes": 21474836480,
+    "estimated_three_run_netcdf_bytes": 272629760,
+    "output_estimate_basis": "conservative ~260 MiB: primary ~17 MB/frame, A 5 frames, B1/B2 3 each, secondary 4+2+2 frames; not measured"
+  },
+  "scope": "configuration/structure/arithmetic only; no continuous-versus-split physical metrics exist"
+}

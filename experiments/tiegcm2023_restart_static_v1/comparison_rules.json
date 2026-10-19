@@ -1,0 +1,16 @@
+{
+  "float64_rtol": 1e-10,
+  "float32_rtol": 1e-06,
+  "SI_atol": {
+    "DEN_kg_m3": 1e-25,
+    "ZG_m": 1e-05,
+    "TN_K": 1e-08,
+    "wind_m_s": 1e-08,
+    "composition_mmr": 1e-12
+  },
+  "time_and_grid": "exact agreement required",
+  "mask": "typed fill masks must match; any NaN/Inf fails",
+  "pass": "max abs delta/(atol+rtol*max(abs(a),abs(b))) <= 1",
+  "relative_error": "abs(delta/reference); zero reference excluded from relative maximum and counted",
+  "basis": "prior 2002 repeated-run double TN diff 3.07e-12 K, wind 1.29e-12 m/s; float32 rtol ~8.4 eps; never relax after observing restart mismatch"
+}

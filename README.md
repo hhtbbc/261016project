@@ -31,3 +31,8 @@ python --version
 仓库：https://github.com/hhtbbc/261016project
 
 仓库包含自研代码、配置/补丁、文档、实验图表和轻量审计结果。环境、缓存、模型权重、外部数据/第三方完整源码、编译产物和大型实验状态文件留在原工作区；克隆仓库不是完整数据备份。资产清单见[configs/external-assets.json](configs/external-assets.json)，恢复要求见[docs/REPOSITORY_GUIDE.md](docs/REPOSITORY_GUIDE.md)。本项目未为既有第三方资料重新授予许可证，沿用各原始来源的许可条件。
+
+
+## 最新：跨日/Restart验证在静态阶段受阻
+
+2023十分钟启动通过后，23:50跨日计划发现原源码要求START与SOURCE_START时/分一致，而现有完整restart没有23:50记录。因此本次0模型启动，未验证跨日/续算；42项单元/静态测试通过不代表Restart工程门禁通过。见[阻碍报告](reports/TIEGCM2023_RESTART_VALIDATION.md)和[spin-up就绪决策](docs/TIEGCM2023_SPINUP_READY.md)。需合法23:50主历史或另授权额外准备运行；不自动执行多日spin-up。

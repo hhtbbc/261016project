@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED_STATIC_PRECONDITION",
+  "blocking_issues": [
+    "START hour/minute must equal SOURCE_START (input.F:948-960)",
+    "No existing complete primary restart at 23:50 in local inventory"
+  ],
+  "model_launches": 0,
+  "output": "/workspace/data/20261016/experiments/tiegcm2023_restart_static_v1"
+}

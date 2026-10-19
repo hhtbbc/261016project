@@ -46,3 +46,8 @@
 ## 最新实际门禁：2023十分钟启动已完成
 
 已按用户授权完成唯一一次2023-03-18十分钟诊断（不是spin-up），日历/驱动/基础物理字段检查通过。t0继承2002源标量，首步60s才启用GPI。当前阶段由“等待首次2023启动”转为“等待跨日/续算及更长有限启动验证授权”，随后再申请3/7天候选spin-up比较。详见reports/TIEGCM2023_STARTUP_DIAGNOSTIC.md、docs/TIEGCM2023_SPINUP_DECISION.md；不按早期日程自动训练/长时仿真/真实阻力。每次科研任务结束按AGENTS新规则安全同步GitHub。
+
+
+## 跨日/Restart静态门禁修正
+
+发现初始场UT限制：SOURCE_START与START时/分必须一致，现有primary无23:50记录，原三段跨日验证未启动。当前先取得合法23:50完整restart或另授权额外初猜生成运行，再执行跨日/续算对照；正式3/7天spin-up仍未获执行条件。以reports/TIEGCM2023_RESTART_VALIDATION.md为接续依据。

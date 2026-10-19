@@ -1,0 +1,4 @@
+case,status,model_launches,position_or_field_difference,reason
+A_continuous,NOT_RUN,0,N/A,No legal complete 23:50 initial restart; B2 also requires verified B1
+B1_first,NOT_RUN,0,N/A,No legal complete 23:50 initial restart; B2 also requires verified B1
+B2_resume,NOT_RUN,0,N/A,No legal complete 23:50 initial restart; B2 also requires verified B1

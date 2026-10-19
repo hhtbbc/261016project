@@ -32,6 +32,8 @@ __pycache__/
 !/logs/tiegcm2023_startup_10min_v1.log
 !/logs/tiegcm2023_startup_all_tests.log
 !/logs/tiegcm2023_startup_static_tests.log
+!/logs/tiegcm2023_restart_all_tests.log
+!/logs/tiegcm2023_restart_static.log
 
 # Credentials and editor/OS files
 .env

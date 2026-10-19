@@ -170,3 +170,16 @@
 - 本次按新增长期GitHub规则安全提交并推送main；最终提交/远端一致性见本地logs/tiegcm2023_startup_github_verification.log，认证/冲突失败必须如实报告。科研范围到此停止。
 
 关键命令：source scripts/activate_tiegcm.sh；python scripts/run_tiegcm2023_diagnostic.py --run-tag tiegcm2023_startup_10min_v1（静态）；同命令加--execute（本次唯一模型启动，已完成）；python scripts/inspect_tiegcm_outputs.py tiegcm2023_startup_10min_v1；python scripts/audit_tiegcm2023_diagnostic.py --run-tag tiegcm2023_startup_10min_v1；python scripts/check_tiegcm2023_solar.py --run-tag tiegcm2023_startup_10min_v1（仅函数）；source scripts/activate_orbit.sh；python -m unittest discover -s tests -v（35通过）；python scripts/plot_tiegcm2023_diagnostic.py --run-tag tiegcm2023_startup_10min_v1。此处记录用于接续，不授权重跑已消耗的模型运行。
+
+
+## 2023跨日/Restart静态阻碍（2026-10-19，最新）
+- 本次用户最多授权A连续20分钟+B1十分钟+B2十分钟；**实际启动0次**。原input.F948—960要求START与SOURCE_START时/分一致，只有日可不同。原2002场仅80 0 0，目标77 23 50不合法；将SOURCE_START改80 23 50也没有可读记录。没有修改原源码/重标时间/拼接状态/伪造_NM，也未追加预积分。
+- 已检查data/experiments全部13个带mtime NetCDF，无23:50完整primary；logs/tiegcm2023_restart_inventory.json。可执行、GPI与原场SHA匹配前次成功诊断，logs/tiegcm2023_restart_asset_check.json。旧659保护文件与前次2023两NetCDF SHA不变，logs/tiegcm2023_restart_preservation.json。
+- primary完整结构34项：当前预报/诊断状态、10个_NM和6个下边界，float64；原文件结构合格不代表续算数值已验证。次历史不够。官方continuation路径是省略SOURCE、从OUTPUT按START检索完整主历史、保留initial_year/day/mtime并append；未来在独立目录使用完整checkpoint字节快照且保留原B1，不能只靠显式SOURCE重置origin就声称严格等价。
+- 新增src/atmosphere/restart_validation.py、tests/test_tiegcm2023_restart.py（7测试）；scripts/run_tiegcm2023_restart_validation.py是**仅静态准备入口，没有模型启动功能**，输出experiments/tiegcm2023_restart_static_v1/{static_audit,comparison_rules,tolerance_sensitivity}.json；A/B1/B2均DRAFT_NOT_RUN。全套42测试6.763s通过，logs/tiegcm2023_restart_all_tests.log。
+- 预注册float64 rtol1e-10/float32 1e-6及按SI物理量的atol；算术ULP敏感性检查而非模型数值敏感性实测。连续与分段实际DEN/ZG/TN/风/成分误差、跨日稳定性均N/A。只生成状态CSV与输入推导驱动期望CSV，未做伪零差图表。零点期望F107141.04375、F107A161.7550154321、Kp1.5、POWER22.3223714449GW、CTPOTEN39.3kV，尚非模型读取记录。
+- 报告reports/TIEGCM2023_RESTART_VALIDATION.md、决策docs/TIEGCM2023_SPINUP_READY.md。阻碍为合法起始状态，不是资源已超限；三段预计约260MiB输出、各数秒，预算已登记但未实测。
+- 下一步优先提供/取得合法23:50完整主历史；如需从现有初猜生成，建议另授权一次2002默认00:00→23:50准备运行，1430步/4rank、只存完整主历史初末约34MB、预计151s，墙钟上限申请300s。它是额外准备启动、超过本次最多3次及90s限制，未运行。不能宣布多日spin-up就绪。
+- 按长期规则提交/推送本次静态结果；实际HEAD/远端核对见本地logs/tiegcm2023_restart_github_verification.log，失败不得声称成功。本次科研工作停止，等待解除源时刻阻碍；不运行spin-up/Swarm真实阻力。
+
+本次关键命令：source scripts/activate_tiegcm.sh；读取input.F948—960、rdsource.F35—65、nchist.F479—488/1826与fields.F；python scripts/run_tiegcm2023_restart_validation.py --run-tag tiegcm2023_restart_static_v1（只静态，无--execute）；python -m unittest discover -s tests -v（42项）；原场/可执行/GPI SHA及13份NetCDF时标只读扫描。新输出拒绝已有run-tag；当前不是完成了模型续算执行器。
