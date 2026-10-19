@@ -47,3 +47,6 @@ Swarm质量优先同期SC_ADYN的m_SC，473 kg仅发射质量；日内范围不�
 
 ## 合法23:50检查点后的最新门禁（覆盖此前“没有23:50记录”的历史状态）
 已获新授权完成一次2023实际GPI的24h10连续诊断。experiments/tiegcm2023_crossday_24h10_v1/primary_002.nc为模型原生单记录23:50完整primary，SHA见checkpoint_2350_audit.json，无未来记录，不再需要之前建议的额外2002准备运行。不能修改或在原文件上append；下一次获准续算时复制完整文件到独立目录，核验SHA、时间/记录最大值<=START，省略SOURCE走原生continuation。原00:00 echo的iter/F107等仍继承冷源，暖态计数和驱动已核实，不手改元数据。当前仅跨日/基础场/检查点结构通过，未运行恢复/连续分段一致性/3或7天spin-up，后续必须等新授权。末段顶高545—677km只是本例原生ZG，不是目标Swarm日期实际覆盖率；高空基准/气动参数/机动问题仍须闭合。
+
+## 原生continuation最新门禁
+合法23:50检查点已解决；B1原生续算正常退出但28/34 primary及9/9 secondary超过预注册容差，B2未执行。当前阻碍为运行时状态恢复一致性，不是缺少检查点。34项primary完备不代表未序列化电动力内部数组已无损恢复。禁止放宽容差、重试、执行B2或spin-up；须新授权诊断和独立补丁验证。见reports/TIEGCM2023_CONTINUATION_VALIDATION.md。

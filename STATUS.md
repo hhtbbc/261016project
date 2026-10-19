@@ -140,3 +140,6 @@ ensurepip缺失；Python3.12与作者3.10/Windows配置有差异。权重/归一
 - 峰采样进程树RSS990973952B≈945.07MiB（共享页重计/可能漏瞬态），NetCDF92072344B≈87.807MiB；总输出512MiB/RSS16GiB/余盘20GiB/墙钟300s均未触发；每进程CPU300s，已替换旧60s限制；无GPU，无残留模型进程。963份旧文件哈希未变，原始2002场/可执行/GPI/apex哈希匹配，冷初始34字段与此前诊断逐位相同。
 - 新run/audit/plot_tiegcm2023_crossday.py、src/atmosphere/tiegcm_drivers.py与8项新测试；全50项6.582s通过。报告reports/TIEGCM2023_CROSSDAY_DIAGNOSTIC.md、方案docs/TIEGCM2023_RESTART_NEXT_STEP.md；配置/审计/资源/未来分支草案JSON在运行目录；真实驱动CSV/图在results，原始NetCDF留本地。
 - 下一步需新授权两个10分钟原生continuation分支B1（23:50→00:00）、B2（00:00→00:10），只比较本次保存的共同时刻；禁止把包含未来记录的连续参考放进可写OUTPUT。尚不宣布spin-up收敛/多日工程全通过，Swarm气动/机动/高度基准风险仍在。本次停止，安全GitHub同步结果见本地logs/tiegcm2023_crossday_github_verification.log。
+
+## 最新任务：2023原生continuation验证（2026-10-19会话）
+B1仅启动1次，2.183秒正常退出，时间/驱动/10步通过；完整primary 28/34超差，6项下边界相同，共同secondary 9/9超差。B2按门禁未运行。原23:50检查点及989项既有科学文件核验未变。56项自动化测试通过。当前不具备正式分段spin-up等价性条件；下一入口为reports/TIEGCM2023_CONTINUATION_VALIDATION.md与docs/TIEGCM2023_SPINUP_READY.md，等待授权定位原生电动力内部状态重建差异。未做spin-up/Swarm阻力实验。

@@ -1,0 +1,240 @@
+{
+  "TN": {
+    "native_unit": "K",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-08,
+    "SI_unit": "K",
+    "rtol": 1e-10
+  },
+  "UN": {
+    "native_unit": "cm/s",
+    "scale_to_SI": 0.01,
+    "atol_SI": 1e-08,
+    "SI_unit": "m/s",
+    "rtol": 1e-10
+  },
+  "VN": {
+    "native_unit": "cm/s",
+    "scale_to_SI": 0.01,
+    "atol_SI": 1e-08,
+    "SI_unit": "m/s",
+    "rtol": 1e-10
+  },
+  "O2": {
+    "native_unit": "mmr",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-12,
+    "SI_unit": "1",
+    "rtol": 1e-10
+  },
+  "O1": {
+    "native_unit": "mmr",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-12,
+    "SI_unit": "1",
+    "rtol": 1e-10
+  },
+  "N4S": {
+    "native_unit": "mmr",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-12,
+    "SI_unit": "1",
+    "rtol": 1e-10
+  },
+  "NO": {
+    "native_unit": "mmr",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-12,
+    "SI_unit": "1",
+    "rtol": 1e-10
+  },
+  "HE": {
+    "native_unit": "mmr",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-12,
+    "SI_unit": "1",
+    "rtol": 1e-10
+  },
+  "AR": {
+    "native_unit": "MMR",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-12,
+    "SI_unit": "1",
+    "rtol": 1e-10
+  },
+  "OP": {
+    "native_unit": "cm-3",
+    "scale_to_SI": 1000000.0,
+    "atol_SI": 1e-06,
+    "SI_unit": "m-3",
+    "rtol": 1e-10
+  },
+  "N2D": {
+    "native_unit": "mmr",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-12,
+    "SI_unit": "1",
+    "rtol": 1e-10
+  },
+  "TI": {
+    "native_unit": "K",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-08,
+    "SI_unit": "K",
+    "rtol": 1e-10
+  },
+  "TE": {
+    "native_unit": "K",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-08,
+    "SI_unit": "K",
+    "rtol": 1e-10
+  },
+  "NE": {
+    "native_unit": "cm-3",
+    "scale_to_SI": 1000000.0,
+    "atol_SI": 1e-06,
+    "SI_unit": "m-3",
+    "rtol": 1e-10
+  },
+  "O2P": {
+    "native_unit": "cm-3",
+    "scale_to_SI": 1000000.0,
+    "atol_SI": 1e-06,
+    "SI_unit": "m-3",
+    "rtol": 1e-10
+  },
+  "OMEGA": {
+    "native_unit": "s-1",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-14,
+    "SI_unit": "s-1",
+    "rtol": 1e-10
+  },
+  "Z": {
+    "native_unit": "cm",
+    "scale_to_SI": 0.01,
+    "atol_SI": 1e-05,
+    "SI_unit": "m",
+    "rtol": 1e-10
+  },
+  "POTEN": {
+    "native_unit": "volts",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-08,
+    "SI_unit": "V",
+    "rtol": 1e-10
+  },
+  "TN_NM": {
+    "native_unit": "K",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-08,
+    "SI_unit": "K",
+    "rtol": 1e-10
+  },
+  "UN_NM": {
+    "native_unit": "cm/s",
+    "scale_to_SI": 0.01,
+    "atol_SI": 1e-08,
+    "SI_unit": "m/s",
+    "rtol": 1e-10
+  },
+  "VN_NM": {
+    "native_unit": "cm/s",
+    "scale_to_SI": 0.01,
+    "atol_SI": 1e-08,
+    "SI_unit": "m/s",
+    "rtol": 1e-10
+  },
+  "O2_NM": {
+    "native_unit": "mmr",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-12,
+    "SI_unit": "1",
+    "rtol": 1e-10
+  },
+  "O1_NM": {
+    "native_unit": "mmr",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-12,
+    "SI_unit": "1",
+    "rtol": 1e-10
+  },
+  "N4S_NM": {
+    "native_unit": "mmr",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-12,
+    "SI_unit": "1",
+    "rtol": 1e-10
+  },
+  "NO_NM": {
+    "native_unit": "mmr",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-12,
+    "SI_unit": "1",
+    "rtol": 1e-10
+  },
+  "OP_NM": {
+    "native_unit": "cm-3",
+    "scale_to_SI": 1000000.0,
+    "atol_SI": 1e-06,
+    "SI_unit": "m-3",
+    "rtol": 1e-10
+  },
+  "HE_NM": {
+    "native_unit": "mmr",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-12,
+    "SI_unit": "1",
+    "rtol": 1e-10
+  },
+  "AR_NM": {
+    "native_unit": "MMR",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-12,
+    "SI_unit": "1",
+    "rtol": 1e-10
+  },
+  "TLBC": {
+    "native_unit": "K",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-08,
+    "SI_unit": "K",
+    "rtol": 1e-10
+  },
+  "ULBC": {
+    "native_unit": "cm/s",
+    "scale_to_SI": 0.01,
+    "atol_SI": 1e-08,
+    "SI_unit": "m/s",
+    "rtol": 1e-10
+  },
+  "VLBC": {
+    "native_unit": "cm/s",
+    "scale_to_SI": 0.01,
+    "atol_SI": 1e-08,
+    "SI_unit": "m/s",
+    "rtol": 1e-10
+  },
+  "TLBC_NM": {
+    "native_unit": "K",
+    "scale_to_SI": 1.0,
+    "atol_SI": 1e-08,
+    "SI_unit": "K",
+    "rtol": 1e-10
+  },
+  "ULBC_NM": {
+    "native_unit": "cm/s",
+    "scale_to_SI": 0.01,
+    "atol_SI": 1e-08,
+    "SI_unit": "m/s",
+    "rtol": 1e-10
+  },
+  "VLBC_NM": {
+    "native_unit": "cm/s",
+    "scale_to_SI": 0.01,
+    "atol_SI": 1e-08,
+    "SI_unit": "m/s",
+    "rtol": 1e-10
+  }
+}

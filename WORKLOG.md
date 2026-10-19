@@ -196,3 +196,7 @@
 - 下一步需新授权两个10分钟原生continuation分支B1（23:50→00:00）、B2（00:00→00:10），只比较本次保存的共同时刻；禁止把包含未来记录的连续参考放进可写OUTPUT。尚不宣布spin-up收敛/多日工程全通过，Swarm气动/机动/高度基准风险仍在。本次停止，安全GitHub同步结果见本地logs/tiegcm2023_crossday_github_verification.log。
 
 关键命令：source scripts/activate_tiegcm.sh；python scripts/run_tiegcm2023_crossday.py --run-tag tiegcm2023_crossday_24h10_v1（静态）；同命令--execute（本次唯一积分，已完成）；python scripts/audit_tiegcm2023_crossday.py --run-tag tiegcm2023_crossday_24h10_v1（只读）；source scripts/activate_orbit.sh；python -m unittest discover -s tests -v（50通过）；python scripts/plot_tiegcm2023_crossday.py --run-tag tiegcm2023_crossday_24h10_v1。新产物拒绝已有run-tag，运行独占launch_once。没有环境安装/下载/原源码修改。Git提交/推送按照长期安全规则进行，实际成功以最终HEAD核对日志为准。
+
+## 2026-10-19：原生continuation B1门禁失败，停止B2
+目标：复用23:50完整primary验证B1/B2，无24h重跑。新增run_tiegcm2023_continuation.py及6项测试，生成独立配置、冻结容差、资源/驱动/状态审计。activate_tiegcm环境4rank/5°/60s，实际仅B1一次10分钟，2.183秒，采样RSS932.43MiB，正常退出。34项primary有28项超差；TN最大差0.442936K、VN1.362064m/s、POTEN9.452503V；DEN最大差3.878842e-12kg/m³、ZG368.6m。初始副本与原件SHA一致、989项既有文件未变；10步及实际GPI核验通过。全套56测试通过，原生数值等价失败，B2未创建未执行，不重试。
+关键命令及逐项指标见reports/TIEGCM2023_CONTINUATION_VALIDATION.md、experiments/tiegcm2023_continuation_v1*/和results/metrics/tiegcm2023_continuation_v1_B1_errors.csv；图results/figures/tiegcm2023_continuation_v1_B1_errors.png。保留旧记录并更新SPINUP_READY/STATUS/AGENTS/README。源码发现首步重建未序列化磁坐标势/电场的不同路径，仅为候选原因，未改原源码或运行推测修复。下一步待授权诊断首次分歧，不开展spin-up。任务成果按规则提交推送，提交哈希以Git及最终汇报为准。

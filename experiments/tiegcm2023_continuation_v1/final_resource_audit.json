@@ -1,0 +1,15 @@
+{
+  "model_launches": 1,
+  "B2_launches": 0,
+  "B2_directory_exists": false,
+  "suite_and_B1_bytes": 42182935,
+  "output_budget_bytes": 536870912,
+  "within_budget": true,
+  "original_checkpoint_SHA256": "d0aab5804eeab7680977f0fa9ad1de165600fd884bde2ddc1e0c6754c5ab9a4f",
+  "returncode": 0,
+  "elapsed_s": 2.1832357700914145,
+  "stop_reason": null,
+  "peak_sampled_tree_rss_bytes": 977723392,
+  "normal_exit_count": 4,
+  "original_seed_unchanged": true
+}

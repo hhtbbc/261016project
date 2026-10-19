@@ -47,3 +47,7 @@ __pycache__/
 credentials.json
 .DS_Store
 .vscode/
+
+!/logs/tiegcm2023_continuation_v1_B1.log
+!/logs/tiegcm2023_continuation_all_tests.log
+!/logs/tiegcm2023_continuation_static_tests.log

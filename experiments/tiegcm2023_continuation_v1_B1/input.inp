@@ -1,0 +1,25 @@
+&tgcm_input
+ LABEL = '2023 native continuation B1; no cold reinitialization request'
+ START_YEAR = 2023
+ START_DAY = 77
+ CALENDAR_ADVANCE = 1
+ START = 77 23 50
+ STOP = 78 0 0
+ STEP  = 60
+ HIST = 0 0 10
+ OUTPUT = 'branch_primary_001.nc'
+ MXHIST_PRIM = 3
+ SECSTART = 78 0 0
+ SECSTOP = 78 0 0
+ SECHIST = 0 0 10
+ SECOUT = 'branch_secondary_001.nc'
+ MXHIST_SECH = 24
+ SECFLDS = 'TN' 'UN' 'VN' 'WN' 'O2' 'O1' 'N2' 'NO' 'N4S' 'HE' 'NE' 
+           'TE' 'TI' 'TEC' 'O2P' 'OP' 'POTEN' 'UI_ExB' 'VI_ExB' 
+           'WI_ExB' 'DEN' 'QJOULE' 'HMF2' 'NMF2' 'Z' 'ZG'
+ GSWM_MI_DI_NCFILE  = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc'
+ GSWM_MI_SDI_NCFILE = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc'
+ POTENTIAL_MODEL = 'HEELIS'
+ CALC_HELIUM = 1
+ GPI_NCFILE = '/workspace/data/20261016/data/processed/tiegcm2023/gpi_20230312_20230325.nc'
+/

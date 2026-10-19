@@ -1,0 +1,32 @@
+{
+  "stage": "B1",
+  "seed": "experiments/tiegcm2023_crossday_24h10_v1/primary_002.nc",
+  "seed_sha256": "d0aab5804eeab7680977f0fa9ad1de165600fd884bde2ddc1e0c6754c5ab9a4f",
+  "copied_sha256": "d0aab5804eeab7680977f0fa9ad1de165600fd884bde2ddc1e0c6754c5ab9a4f",
+  "input_sha256": "6c8dcd0c26a7de94418b6c6d169c595d3223e5008703504c1241c1e6dc675521",
+  "seed_inspection": {
+    "file": "/workspace/data/20261016/experiments/tiegcm2023_continuation_v1_B1/branch_primary_001.nc",
+    "history_type": "primary",
+    "missing_required": [],
+    "selected_record_count": 1,
+    "available_mtime": [
+      [
+        77,
+        23,
+        50
+      ]
+    ],
+    "all_required_double": true,
+    "structure_complete": true,
+    "record_available": true,
+    "validated_continuation": false
+  },
+  "original_seed_must_remain_unchanged": true,
+  "free_disk_bytes": 716227739648,
+  "meminfo": [
+    "MemTotal:       2022951608 kB",
+    "MemFree:        174171048 kB",
+    "MemAvailable:   1927415356 kB"
+  ],
+  "static_pass": true
+}

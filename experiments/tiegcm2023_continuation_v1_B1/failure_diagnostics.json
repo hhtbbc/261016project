@@ -1,0 +1,94 @@
+{
+  "primary_iter": [
+    112310,
+    112320
+  ],
+  "primary_mtime": [
+    [
+      77,
+      23,
+      50
+    ],
+    [
+      78,
+      0,
+      0
+    ]
+  ],
+  "run_type": "continuation",
+  "initial_time_attributes": {
+    "initial_year": 2023,
+    "initial_day": 77,
+    "initial_mtime": [
+      77,
+      0,
+      0
+    ]
+  },
+  "physical_fields": {
+    "DEN": {
+      "nonfinite_count": 0,
+      "valid_min_native": 9.440039922083818e-17,
+      "valid_max_native": 1.1982584924297157e-09,
+      "unit": "g/cm3"
+    },
+    "ZG": {
+      "nonfinite_count": 0,
+      "valid_min_native": 9568883.0,
+      "valid_max_native": 67685688.0,
+      "unit": "cm"
+    },
+    "TN": {
+      "nonfinite_count": 0,
+      "valid_min_native": 147.42831420898438,
+      "valid_max_native": 1108.518798828125,
+      "unit": "K"
+    },
+    "UN": {
+      "nonfinite_count": 0,
+      "valid_min_native": -45932.9609375,
+      "valid_max_native": 41979.61328125,
+      "unit": "cm/s"
+    },
+    "VN": {
+      "nonfinite_count": 0,
+      "valid_min_native": -43865.7265625,
+      "valid_max_native": 45089.4375,
+      "unit": "cm/s"
+    },
+    "O1": {
+      "nonfinite_count": 0,
+      "valid_min_native": 0.0030793575569987297,
+      "valid_max_native": 0.9521602392196655,
+      "unit": "mmr"
+    },
+    "O2": {
+      "nonfinite_count": 0,
+      "valid_min_native": 1.9083452571067028e-05,
+      "valid_max_native": 0.23058825731277466,
+      "unit": "mmr"
+    },
+    "N2": {
+      "nonfinite_count": 0,
+      "valid_min_native": 9.999999974752427e-07,
+      "valid_max_native": 0.7909189462661743,
+      "unit": "mmr"
+    },
+    "HE": {
+      "nonfinite_count": 0,
+      "valid_min_native": 1.1520126008690568e-06,
+      "valid_max_native": 0.26201698184013367,
+      "unit": "mmr"
+    }
+  },
+  "unique_runtime_GPI_times": 10,
+  "runtime_GPI_check_pass": true,
+  "native_magnetic_fields_not_serialized": [
+    "PHIM3D",
+    "EPHI3D",
+    "ELAM3D",
+    "EMZ3D"
+  ],
+  "initial_checkpoint_disk_fields_unchanged": true,
+  "B2_executed": false
+}

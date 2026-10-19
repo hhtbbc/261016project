@@ -1,0 +1,10 @@
+test_branch_duration (test_tiegcm2023_continuation.ContinuationTests) ... ok
+test_mutation_rejected (test_tiegcm2023_continuation.ContinuationTests) ... ok
+test_no_source_or_driver_override (test_tiegcm2023_continuation.ContinuationTests) ... ok
+test_reference_checkpoint_not_future_seed (test_tiegcm2023_continuation.ContinuationTests) ... ok
+test_units_and_frozen_thresholds (test_tiegcm2023_continuation.ContinuationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.020s
+
+OK
