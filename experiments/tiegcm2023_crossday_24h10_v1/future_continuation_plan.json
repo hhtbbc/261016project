@@ -1,0 +1,66 @@
+{
+  "status": "DRAFT_NOT_RUN",
+  "authorized_model_launches_remaining_this_task": 0,
+  "reference_primary_files": {
+    "2350": "primary_002.nc",
+    "midnight": "primary_003.nc",
+    "0010": "primary_004.nc"
+  },
+  "B1": {
+    "source": null,
+    "source_start": null,
+    "start_year": 2023,
+    "start_day": 77,
+    "start": [
+      77,
+      23,
+      50
+    ],
+    "stop": [
+      78,
+      0,
+      0
+    ],
+    "hist": [
+      0,
+      0,
+      10
+    ],
+    "mxhist_prim": 3,
+    "output": "NEW_B1_DIRECTORY/branch_primary_001.nc",
+    "seed": "byte-identical copy of primary_002.nc; verify sha256; no future records"
+  },
+  "B2": {
+    "source": null,
+    "source_start": null,
+    "start_year": 2023,
+    "start_day": 78,
+    "start": [
+      78,
+      0,
+      0
+    ],
+    "stop": [
+      78,
+      0,
+      10
+    ],
+    "hist": [
+      0,
+      0,
+      10
+    ],
+    "mxhist_prim": 3,
+    "output": "NEW_B2_DIRECTORY/branch_primary_001.nc",
+    "seed": "byte-identical verified B1 full primary ending at midnight; no records after START"
+  },
+  "shared": {
+    "step_s": 60,
+    "mpi_ranks": 4,
+    "same_executable_and_GPI_hash": true,
+    "same_source_physics": true,
+    "no_fixed_driver_overrides": true
+  },
+  "comparison": "B1 endpoint vs reference primary_003; B2 endpoint vs reference primary_004; compare initial boundary and all common saved epochs/34 full state fields, plus diagnostics where available",
+  "rules_file": "experiments/tiegcm2023_restart_static_v1/comparison_rules.json"
+}

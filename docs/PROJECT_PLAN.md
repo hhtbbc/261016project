@@ -51,3 +51,8 @@
 ## 跨日/Restart静态门禁修正
 
 发现初始场UT限制：SOURCE_START与START时/分必须一致，现有primary无23:50记录，原三段跨日验证未启动。当前先取得合法23:50完整restart或另授权额外初猜生成运行，再执行跨日/续算对照；正式3/7天spin-up仍未获执行条件。以reports/TIEGCM2023_RESTART_VALIDATION.md为接续依据。
+
+
+## 最新阶段：跨日连续诊断与原生检查点完成
+
+用户已另授权并完成一次2023实际驱动的00:00→次日00:10积分。合法23:50primary已原生生成，上一阶段静态缺口解决；现阶段等待两个受控原生continuation分支验证，再决定3/7天spin-up。以reports/TIEGCM2023_CROSSDAY_DIAGNOSTIC.md和docs/TIEGCM2023_RESTART_NEXT_STEP.md为准。不能把24h10诊断当正式预热收敛，旧2002准备方案不再是当前必需步骤。

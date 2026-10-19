@@ -1,0 +1,10 @@
+{
+  "TMPDIR": "/workspace/data/20261016/.tmp/mpi",
+  "OMP_NUM_THREADS": "1",
+  "CUDA_VISIBLE_DEVICES": "",
+  "PRTE_MCA_prte_tmpdir_base": "/workspace/data/20261016/.tmp/mpi",
+  "PMIX_MCA_pmix_server_tmpdir": "/workspace/data/20261016/.tmp/mpi",
+  "OMPI_MCA_pml": "ob1",
+  "OMPI_MCA_btl": "self,tcp",
+  "OMPI_MCA_osc": "rdma"
+}

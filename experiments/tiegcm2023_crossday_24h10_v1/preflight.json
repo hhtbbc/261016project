@@ -1,0 +1,62 @@
+{
+  "gpi_sha256": "60fa18244fcdbd8b1bb5300bda86cde68abcca9a9152539bcdc5fc30377aa9f6",
+  "restart_sha256": "180475215a4922e9c55a77e80153cf641bc8fbb2b8d52633b4686ddee6942fff",
+  "apex_sha256": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3",
+  "executable_sha256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+  "free_disk_bytes": 716338888704,
+  "meminfo": [
+    "MemTotal:       2022951608 kB",
+    "MemFree:        174560904 kB",
+    "MemAvailable:   1927797740 kB"
+  ],
+  "expected_drivers": {
+    "0": {
+      "f107d": 137.025,
+      "f107a": 161.80092592592592,
+      "kp": 2.0,
+      "hpower": 27.03880838990928,
+      "ctpoten": 48.2
+    },
+    "60": {
+      "f107d": 137.02955483156197,
+      "f107a": 161.80089955620602,
+      "kp": 2.0,
+      "hpower": 27.03880838990928,
+      "ctpoten": 48.2
+    },
+    "300": {
+      "f107d": 137.04778276468772,
+      "f107a": 161.80079394609598,
+      "kp": 2.0,
+      "hpower": 27.03880838990928,
+      "ctpoten": 48.2
+    },
+    "600": {
+      "f107d": 137.07058677027965,
+      "f107a": 161.80066163725982,
+      "kp": 2.0,
+      "hpower": 27.03880838990928,
+      "ctpoten": 48.2
+    }
+  },
+  "mpi_version": "mpirun (Open MPI) 5.0.8",
+  "compiler_version": "GNU Fortran (conda-forge gcc 12.4.0-2) 12.4.0",
+  "input_sha256": "4bfaeee8edff024209c3a82716d0824892b643d9b6c72626ad4a1b9d1ab512f3",
+  "wall_limit_s": 300,
+  "cpu_limit_per_process_s": 300,
+  "expected_steps": 1450,
+  "mpi_ranks": 4,
+  "expected_primary_model_seconds": [
+    6652800,
+    6738600,
+    6739200,
+    6739800
+  ],
+  "output_limit_bytes": 536870912,
+  "rss_limit_bytes": 17179869184,
+  "disk_floor_bytes": 21474836480,
+  "estimated_model_wall_s": 153.30580038194444,
+  "estimated_output_bytes": 104857600,
+  "primary_policy": "one original record per native file; checkpoint has no future records",
+  "static_pass": true
+}

@@ -36,3 +36,8 @@ python --version
 ## 最新：跨日/Restart验证在静态阶段受阻
 
 2023十分钟启动通过后，23:50跨日计划发现原源码要求START与SOURCE_START时/分一致，而现有完整restart没有23:50记录。因此本次0模型启动，未验证跨日/续算；42项单元/静态测试通过不代表Restart工程门禁通过。见[阻碍报告](reports/TIEGCM2023_RESTART_VALIDATION.md)和[spin-up就绪决策](docs/TIEGCM2023_SPINUP_READY.md)。需合法23:50主历史或另授权额外准备运行；不自动执行多日spin-up。
+
+
+## 最新：合法2023检查点已生成，连续跨日通过
+
+已完成唯一一次2023-03-18 00:00→03-19 00:10诊断，1450步/155.01秒，模型原生生成23:50单记录完整checkpoint，解决此前缺少合法源时刻的静态阻碍。实际跨日驱动/基础字段检查通过、50测试通过；尚未运行Restart分支或验证连续/分段一致性，更不是spin-up收敛。详见[跨日报告](reports/TIEGCM2023_CROSSDAY_DIAGNOSTIC.md)和[后续续算方案](docs/TIEGCM2023_RESTART_NEXT_STEP.md)。大型NetCDF仍在原工作区，Git不包含检查点本体。

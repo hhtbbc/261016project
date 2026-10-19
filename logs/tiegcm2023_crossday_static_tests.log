@@ -1,0 +1,9 @@
+test_clock_and_no_overrides (test_tiegcm2023_crossday.CrossdayTests) ... ok
+test_configuration_mutation_rejected (test_tiegcm2023_crossday.CrossdayTests) ... ok
+test_native_checkpoint_schedule (test_tiegcm2023_crossday.CrossdayTests) ... ok
+test_single_frame_file_count (test_tiegcm2023_crossday.CrossdayTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.004s
+
+OK

@@ -1,0 +1,34 @@
+{
+  "file": "/workspace/data/20261016/experiments/tiegcm2023_crossday_24h10_v1/primary_002.nc",
+  "history_type": "primary",
+  "missing_required": [],
+  "selected_record_count": 1,
+  "available_mtime": [
+    [
+      77,
+      23,
+      50
+    ]
+  ],
+  "all_required_double": true,
+  "structure_complete": true,
+  "record_available": true,
+  "validated_continuation": false,
+  "sha256": "d0aab5804eeab7680977f0fa9ad1de165600fd884bde2ddc1e0c6754c5ab9a4f",
+  "dates": [
+    "2023-03-18 23:50:00"
+  ],
+  "contains_future_records": false,
+  "native_single_record": true,
+  "all_fields_checked_finite": true,
+  "time_attributes": {
+    "initial_year": 2023,
+    "initial_day": 77,
+    "initial_mtime": [
+      77,
+      0,
+      0
+    ]
+  },
+  "actual_resume_tested": false
+}

@@ -183,3 +183,16 @@
 - 按长期规则提交/推送本次静态结果；实际HEAD/远端核对见本地logs/tiegcm2023_restart_github_verification.log，失败不得声称成功。本次科研工作停止，等待解除源时刻阻碍；不运行spin-up/Swarm真实阻力。
 
 本次关键命令：source scripts/activate_tiegcm.sh；读取input.F948—960、rdsource.F35—65、nchist.F479—488/1826与fields.F；python scripts/run_tiegcm2023_restart_validation.py --run-tag tiegcm2023_restart_static_v1（只静态，无--execute）；python -m unittest discover -s tests -v（42项）；原场/可执行/GPI SHA及13份NetCDF时标只读扫描。新输出拒绝已有run-tag；当前不是完成了模型续算执行器。
+
+
+## 2023合法23:50检查点与跨日连续诊断（最新）
+- 按最新授权仅一次2023-03-18 00:00→03-19 00:10积分：experiments/tiegcm2023_crossday_24h10_v1，4rank/5°/60s、1450步，returncode0、4条NORMAL EXIT，墙钟155.014390s。没有续算分支/额外重试/3或7天spin-up。
+- 使用原合法SOURCE_START80 0 0与目标77 0 0；连续START/STOP/HIST相接序列配合MXHIST_PRIM1，模型原生写出四个单记录完整primary（00:00、23:50、次日00:00、00:10）；次历史仅末3时刻。primary_002.nc即合法23:50独立checkpoint，16993204B，SHA d0aab5804eeab7680977f0fa9ad1de165600fd884bde2ddc1e0c6754c5ab9a4f，无未来记录，无裁剪/重标/伪造_NM。
+- 检查点34项float64状态/前一时间层/下边界、维度/单位/有限值/时间属性通过；year2023/day77/mtime77 23 50、initial_year/day/mtime2023/77/(77 0 0)。源码continuation输入前提成立，但实际恢复与连续/分段一致性仍未测试。未来只能对完整checkpoint副本原生无SOURCE续算并保留原文件。
+- GPI实际跨日通过：00:00 F107141.04375、F107A161.755015432099、Kp1.5、POWER22.3223714448845GW、CTPOTEN39.3kV；145个独立runtime打印和3目标时刻主/次历史核对通过，double差最大2.8422e-14。冷初始echo仍带F10770/旧iter115200，暖态iter112310/112320/112330与日历一致，未改初始元数据。
+- DEN全域9.4387654e-14—1.19825849e-6kg/m³、正有限；ZG逐列递增；TN有效147.417—1108.968K；主要mmr约和1；TN/风及_NM顶层padding显式mask，34主状态无NaN/Inf，日志无异常模式。末3时刻顶高545.36448—677.24912km范围，较冷场抬升；不是03-21—23的Swarm实际覆盖率，ZG/WGS84未核实，不能宣称沿轨查询全有效。
+- 峰采样进程树RSS990973952B≈945.07MiB（共享页重计/可能漏瞬态），NetCDF92072344B≈87.807MiB；总输出512MiB/RSS16GiB/余盘20GiB/墙钟300s均未触发；每进程CPU300s，已替换旧60s限制；无GPU，无残留模型进程。963份旧文件哈希未变，原始2002场/可执行/GPI/apex哈希匹配，冷初始34字段与此前诊断逐位相同。
+- 新run/audit/plot_tiegcm2023_crossday.py、src/atmosphere/tiegcm_drivers.py与8项新测试；全50项6.582s通过。报告reports/TIEGCM2023_CROSSDAY_DIAGNOSTIC.md、方案docs/TIEGCM2023_RESTART_NEXT_STEP.md；配置/审计/资源/未来分支草案JSON在运行目录；真实驱动CSV/图在results，原始NetCDF留本地。
+- 下一步需新授权两个10分钟原生continuation分支B1（23:50→00:00）、B2（00:00→00:10），只比较本次保存的共同时刻；禁止把包含未来记录的连续参考放进可写OUTPUT。尚不宣布spin-up收敛/多日工程全通过，Swarm气动/机动/高度基准风险仍在。本次停止，安全GitHub同步结果见本地logs/tiegcm2023_crossday_github_verification.log。
+
+关键命令：source scripts/activate_tiegcm.sh；python scripts/run_tiegcm2023_crossday.py --run-tag tiegcm2023_crossday_24h10_v1（静态）；同命令--execute（本次唯一积分，已完成）；python scripts/audit_tiegcm2023_crossday.py --run-tag tiegcm2023_crossday_24h10_v1（只读）；source scripts/activate_orbit.sh；python -m unittest discover -s tests -v（50通过）；python scripts/plot_tiegcm2023_crossday.py --run-tag tiegcm2023_crossday_24h10_v1。新产物拒绝已有run-tag，运行独占launch_once。没有环境安装/下载/原源码修改。Git提交/推送按照长期安全规则进行，实际成功以最终HEAD核对日志为准。

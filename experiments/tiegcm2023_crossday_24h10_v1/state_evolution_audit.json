@@ -1,0 +1,117 @@
+{
+  "current_vs_NM": {
+    "TN": {
+      "units": "K",
+      "finite_common_count": 72576,
+      "current_minus_NM_max_abs_native": 1.5336313593908244,
+      "current_minus_NM_rmse_native": 0.2988327685362956
+    },
+    "UN": {
+      "units": "cm/s",
+      "finite_common_count": 72576,
+      "current_minus_NM_max_abs_native": 194.3737069158783,
+      "current_minus_NM_rmse_native": 41.81087616582649
+    },
+    "VN": {
+      "units": "cm/s",
+      "finite_common_count": 72576,
+      "current_minus_NM_max_abs_native": 210.2108921370268,
+      "current_minus_NM_rmse_native": 44.66491116873671
+    },
+    "O1": {
+      "units": "mmr",
+      "finite_common_count": 75168,
+      "current_minus_NM_max_abs_native": 0.000868182563236064,
+      "current_minus_NM_rmse_native": 9.899299835824222e-05
+    },
+    "O2": {
+      "units": "mmr",
+      "finite_common_count": 75168,
+      "current_minus_NM_max_abs_native": 8.926614906538954e-05,
+      "current_minus_NM_rmse_native": 1.386597303977219e-05
+    },
+    "N4S": {
+      "units": "mmr",
+      "finite_common_count": 75168,
+      "current_minus_NM_max_abs_native": 5.7479983142268154e-05,
+      "current_minus_NM_rmse_native": 1.2006831381439908e-05
+    },
+    "NO": {
+      "units": "mmr",
+      "finite_common_count": 75168,
+      "current_minus_NM_max_abs_native": 1.856786376421666e-06,
+      "current_minus_NM_rmse_native": 2.184880831436658e-07
+    },
+    "OP": {
+      "units": "cm-3",
+      "finite_common_count": 75168,
+      "current_minus_NM_max_abs_native": 8022.551160187926,
+      "current_minus_NM_rmse_native": 896.2012991016464
+    },
+    "HE": {
+      "units": "mmr",
+      "finite_common_count": 75168,
+      "current_minus_NM_max_abs_native": 0.0007214930735951475,
+      "current_minus_NM_rmse_native": 4.331330150510498e-05
+    },
+    "AR": {
+      "units": "MMR",
+      "finite_common_count": 75168,
+      "current_minus_NM_max_abs_native": 4.294865928986674e-06,
+      "current_minus_NM_rmse_native": 5.75857763057887e-07
+    }
+  },
+  "ten_minute_output_changes": {
+    "DEN": [
+      {
+        "max_absolute_change_SI": 7.090079634508584e-09,
+        "rmse_change_SI": 4.951653531648503e-10
+      },
+      {
+        "max_absolute_change_SI": 8.089273251243867e-09,
+        "rmse_change_SI": 5.309439554679329e-10
+      }
+    ],
+    "ZG": [
+      {
+        "max_absolute_change_SI": 7061.125,
+        "rmse_change_SI": 771.642822265625
+      },
+      {
+        "max_absolute_change_SI": 6992.8125,
+        "rmse_change_SI": 772.5595703125
+      }
+    ],
+    "TN": [
+      {
+        "max_absolute_change_SI": 15.23602294921875,
+        "rmse_change_SI": 2.985384702682495
+      },
+      {
+        "max_absolute_change_SI": 15.26416015625,
+        "rmse_change_SI": 2.983191728591919
+      }
+    ],
+    "UN": [
+      {
+        "max_absolute_change_SI": 19.688278198242188,
+        "rmse_change_SI": 4.192959308624268
+      },
+      {
+        "max_absolute_change_SI": 20.17724609375,
+        "rmse_change_SI": 4.218959331512451
+      }
+    ],
+    "VN": [
+      {
+        "max_absolute_change_SI": 20.874000549316406,
+        "rmse_change_SI": 4.479194641113281
+      },
+      {
+        "max_absolute_change_SI": 20.833633422851562,
+        "rmse_change_SI": 4.507570266723633
+      }
+    ]
+  },
+  "note": "Observed evolution, not a convergence test; sparse output cannot exclude all sub-sample transients."
+}
