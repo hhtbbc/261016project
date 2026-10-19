@@ -1,0 +1,324 @@
+{
+  "data/raw/test_minimal_2023/2023_01_04_000000.npz": {
+    "TN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        28,
+        36,
+        72
+      ]
+    },
+    "UN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        28,
+        36,
+        72
+      ]
+    },
+    "VN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        28,
+        36,
+        72
+      ]
+    },
+    "WN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29,
+        36,
+        72
+      ]
+    },
+    "Z.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29,
+        36,
+        72
+      ]
+    },
+    "ZG.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29,
+        36,
+        72
+      ]
+    },
+    "DEN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29,
+        36,
+        72
+      ]
+    },
+    "NE.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29,
+        36,
+        72
+      ]
+    },
+    "TLBC.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1,
+        36,
+        72
+      ]
+    },
+    "ULBC.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1,
+        36,
+        72
+      ]
+    },
+    "VLBC.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1,
+        36,
+        72
+      ]
+    },
+    "f107d.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    },
+    "f107a.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    },
+    "Kp.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    }
+  },
+  "data/processed/static/global_means.npz": {
+    "TN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        28
+      ]
+    },
+    "UN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        28
+      ]
+    },
+    "VN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        28
+      ]
+    },
+    "WN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29
+      ]
+    },
+    "Z.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29
+      ]
+    },
+    "ZG.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29
+      ]
+    },
+    "DEN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29
+      ]
+    },
+    "NE.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29
+      ]
+    },
+    "TLBC.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    },
+    "ULBC.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    },
+    "VLBC.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    },
+    "f107d.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    },
+    "f107a.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    },
+    "Kp.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    }
+  },
+  "data/processed/static/global_stds.npz": {
+    "TN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        28
+      ]
+    },
+    "UN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        28
+      ]
+    },
+    "VN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        28
+      ]
+    },
+    "WN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29
+      ]
+    },
+    "Z.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29
+      ]
+    },
+    "ZG.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29
+      ]
+    },
+    "DEN.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29
+      ]
+    },
+    "NE.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        29
+      ]
+    },
+    "TLBC.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    },
+    "ULBC.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    },
+    "VLBC.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    },
+    "f107d.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    },
+    "f107a.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    },
+    "Kp.npy": {
+      "descr": "<f4",
+      "fortran_order": false,
+      "shape": [
+        1
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+--- a/src/mud.F
++++ b/src/mud.F
+@@ -63,7 +63,7 @@
+ c     put integer and floating point argument names in contiguous
+ c     storage for labelling in vectors iprm,fprm
+ c
+-      integer iprm(16),mgopt(4)
++      integer iprm(17),mgopt(4)
+       real fprm(6)
+       integer intl,nxa,nxb,nyc,nyd,ixp,jyq,iex,jey,nx,ny,
+      +              iguess,maxcy,method,nwork,lwrkqd,itero

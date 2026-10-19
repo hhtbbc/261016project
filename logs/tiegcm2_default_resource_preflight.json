@@ -1,0 +1,9 @@
+{
+  "basis": "10 min simulated / 4 ranks measured 2.2703 s; official model reports 0.13 s/step",
+  "ranks": 4,
+  "max_wall_seconds": 300,
+  "expected_output_upper_estimate_bytes": 2000000000,
+  "disk_free_bytes": 716874711040,
+  "purpose": "official default one-day 2002 numerical smoke, not 2023 atmosphere nor spin-up",
+  "full_day_authorization": "user B2 explicitly requests official default short case; bounded to 300 wall seconds, no longer extension"
+}

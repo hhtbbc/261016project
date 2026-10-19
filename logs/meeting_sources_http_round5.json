@@ -1,0 +1,32 @@
+[
+  {
+    "key": "gfz_Fobs_spinup_support",
+    "url": "https://kp.gfz.de/app/json/?start=2023-01-31T00:00:00Z&end=2023-05-05T00:00:00Z&index=Fobs",
+    "status": 200,
+    "bytes": 2833
+  },
+  {
+    "key": "gfz_Fadj_spinup_support",
+    "url": "https://kp.gfz.de/app/json/?start=2023-01-31T00:00:00Z&end=2023-05-05T00:00:00Z&index=Fadj",
+    "status": 200,
+    "bytes": 2833
+  },
+  {
+    "key": "gfz_Kp_extended_support",
+    "url": "https://kp.gfz.de/app/json/?start=2023-03-12T00:00:00Z&end=2023-03-25T00:00:00Z&index=Kp&status=def",
+    "status": 200,
+    "bytes": 3702
+  },
+  {
+    "key": "tiegcm_grid",
+    "url": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/grid.html",
+    "status": 200,
+    "bytes": 17939
+  },
+  {
+    "key": "sp3d_spec",
+    "url": "https://files.igs.org/pub/data/format/sp3d.pdf",
+    "status": 200,
+    "bytes": 321385
+  }
+]

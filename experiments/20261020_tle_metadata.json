@@ -1,0 +1,97 @@
+{
+  "records": [
+    {
+      "archive_id": 215934,
+      "norad": 39452,
+      "epoch_utc": "2023-03-18T13:45:52.017408000",
+      "epoch_tle": "23077.57351872",
+      "publication_time": null,
+      "observed_archive_ingest_time": null,
+      "availability_verified": false,
+      "checksum_verified": true
+    },
+    {
+      "archive_id": 266284,
+      "norad": 39452,
+      "epoch_utc": "2023-03-20T12:40:50.906208000",
+      "epoch_tle": "23079.52836697",
+      "publication_time": null,
+      "observed_archive_ingest_time": null,
+      "availability_verified": false,
+      "checksum_verified": true
+    },
+    {
+      "archive_id": 274764,
+      "norad": 39452,
+      "epoch_utc": "2023-03-20T20:30:00.330336000",
+      "epoch_tle": "23079.85417049",
+      "publication_time": null,
+      "observed_archive_ingest_time": null,
+      "availability_verified": false,
+      "checksum_verified": true
+    },
+    {
+      "archive_id": 281416,
+      "norad": 39452,
+      "epoch_utc": "2023-03-21T05:52:59.488608000",
+      "epoch_tle": "23080.24513297",
+      "publication_time": null,
+      "observed_archive_ingest_time": null,
+      "availability_verified": false,
+      "checksum_verified": true
+    },
+    {
+      "archive_id": 288622,
+      "norad": 39452,
+      "epoch_utc": "2023-03-21T10:34:29.034912000",
+      "epoch_tle": "23080.44061383",
+      "publication_time": null,
+      "observed_archive_ingest_time": null,
+      "availability_verified": false,
+      "checksum_verified": true
+    },
+    {
+      "archive_id": 297547,
+      "norad": 39452,
+      "epoch_utc": "2023-03-21T21:31:17.783040000",
+      "epoch_tle": "23080.89673360",
+      "publication_time": null,
+      "observed_archive_ingest_time": null,
+      "availability_verified": false,
+      "checksum_verified": true
+    },
+    {
+      "archive_id": 306694,
+      "norad": 39452,
+      "epoch_utc": "2023-03-22T08:28:06.328128000",
+      "epoch_tle": "23081.35285102",
+      "publication_time": null,
+      "observed_archive_ingest_time": null,
+      "availability_verified": false,
+      "checksum_verified": true
+    },
+    {
+      "archive_id": 314711,
+      "norad": 39452,
+      "epoch_utc": "2023-03-22T20:58:44.398272000",
+      "epoch_tle": "23081.87412498",
+      "publication_time": null,
+      "observed_archive_ingest_time": null,
+      "availability_verified": false,
+      "checksum_verified": true
+    }
+  ],
+  "source": "ETH Satellite Database / CelesTrak",
+  "source_serializer_fields": [
+    "id",
+    "norad_str",
+    "satellite"
+  ],
+  "publication_availability_conclusion": "unknown for all eight; no per-record publication/ingest field exposed",
+  "source_code_evidence": [
+    "data/raw/20261020_metadata/eth_serializers.py.txt",
+    "data/raw/20261020_metadata/eth_database_management_models.py.txt",
+    "data/raw/20261020_metadata/eth_tle_utils.py.txt"
+  ],
+  "selected_archive_id": 274764
+}

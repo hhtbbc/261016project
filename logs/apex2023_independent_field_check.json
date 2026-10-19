@@ -1,0 +1,13 @@
+{
+  "algorithm": "independent spherical harmonic potential central-difference gradient using source coefficients, not independent coefficient validation",
+  "date": 2023.2,
+  "errors_nT": [
+    1.95560527599237e-05,
+    1.1762442074207024e-05,
+    6.321012426743401e-06
+  ],
+  "max_error_nT": 1.95560527599237e-05,
+  "pass_threshold_nT": 0.01,
+  "passed": true,
+  "coefficient_table_caveat": "Official NCAR 2020 coefficients rounded to 0.1 nT, NOAA DGRF2020 has 0.01 nT; not claimed byte-identical IGRF14."
+}

@@ -1,0 +1,19 @@
+{
+  "satellite": "Swarm-A",
+  "norad": 39452,
+  "time_start_utc": "2023-03-21T00:00:02",
+  "duration_s": 172800,
+  "pilot_step_s": 300,
+  "full_step_s": 60,
+  "reference_frame": "IGS20 treated as ITRS",
+  "comparison_frame": "ITRS",
+  "rac_frame": "GCRS reference",
+  "fixed_tle_id": 274764,
+  "historical_availability_policy": "allow unverified availability ONLY for labelled retrospective comparison",
+  "eop_manifest": "logs/20261020_frozen_time_data.json",
+  "time_loader": "preserve pinned ERFA pre-1972 definitions, update frozen IERS leaps",
+  "sgp4_gravity": "WGS72",
+  "no_reference_interpolation": true,
+  "no_parameter_fit": true,
+  "no_tle_rollover": true
+}

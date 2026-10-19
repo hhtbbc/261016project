@@ -1,0 +1,18 @@
+{
+  "Baseline_1h_history_ckpt.tar": {
+    "bytes": 802585484,
+    "sha256": "cc4b44f6daea6188e4bfbde06796b950a50cfb215c0ad2295cff176a21a4ddc4"
+  },
+  "Baseline_log_DEN_ckpt.tar": {
+    "bytes": 776484108,
+    "sha256": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18"
+  },
+  "Direct_ckpt.tar": {
+    "bytes": 776485772,
+    "sha256": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb"
+  },
+  "Flow_ckpt.tar": {
+    "bytes": 776485772,
+    "sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021"
+  }
+}

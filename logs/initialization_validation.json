@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "python": "3.12.3 (main, Jan  8 2026, 11:30:50) [GCC 13.3.0]",
+  "prefix": "/workspace/data/20261016/.venv",
+  "base_prefix": "/usr",
+  "cache_paths": {
+    "TMPDIR": "/workspace/data/20261016/.tmp",
+    "XDG_CACHE_HOME": "/workspace/data/20261016/.cache",
+    "PIP_CACHE_DIR": "/workspace/data/20261016/.cache/pip",
+    "HF_HOME": "/workspace/data/20261016/.cache/huggingface",
+    "TORCH_HOME": "/workspace/data/20261016/.cache/torch",
+    "MPLCONFIGDIR": "/workspace/data/20261016/.cache/matplotlib",
+    "PYTHONPYCACHEPREFIX": "/workspace/data/20261016/.cache/pycache",
+    "NUMBA_CACHE_DIR": "/workspace/data/20261016/.cache/numba",
+    "WANDB_DIR": "/workspace/data/20261016/logs",
+    "WANDB_CACHE_DIR": "/workspace/data/20261016/.cache/wandb",
+    "CUDA_CACHE_PATH": "/workspace/data/20261016/.cache/cuda"
+  },
+  "required_documents": [
+    "AGENTS.md",
+    "README.md",
+    "STATUS.md",
+    "WORKLOG.md",
+    "docs/PROJECT_PLAN.md",
+    "docs/RESOURCES.md",
+    "reports/ENVIRONMENT_2026-10-19.md"
+  ],
+  "outside_project_symlinks": [],
+  "pip_available": false
+}

@@ -1,0 +1,1255 @@
+[
+  {
+    "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230321T000000_20230321T235959_0601_MDR_SC_DYN.cdf",
+    "cdf_global_attributes": {
+      "TITLE": [
+        "SW_OPER_SC_ADYN_1B_20230321T000000_20230321T235959_0601_MDR_SC_DYN.cdf"
+      ],
+      "CREATOR": [
+        "L1B"
+      ],
+      "File_Name": [
+        "SW_OPER_SC_ADYN_1B_20230321T000000_20230321T235959_0601"
+      ],
+      "File_Description": [
+        "Spacecraft Dynamic SC_DYN data"
+      ],
+      "Notes": [
+        " "
+      ],
+      "Mission": [
+        "Swarm"
+      ],
+      "File_Class": [
+        "OPER"
+      ],
+      "File_Type": [
+        "SC_ADYN_1B"
+      ],
+      "File_Version": [
+        "0601"
+      ],
+      "Ref_Doc": [
+        "SW-RS-DSC-SY-0007"
+      ],
+      "Acquisition_Station": [
+        "SGS"
+      ],
+      "Proc_Center": [
+        "FRB"
+      ],
+      "Proc_Time": [
+        "UTC=2025-07-23T08:06:27.891374"
+      ],
+      "Software_Version": [
+        "ACCELE/03.25"
+      ],
+      "Abs_Orbit_Start": [
+        "052437"
+      ],
+      "Abs_Orbit_Stop": [
+        "052452"
+      ],
+      "State_Vector_Time": [
+        "UTC=2023-03-21T00:00:00.000000"
+      ],
+      "Delta_UT1": [
+        "-0.022474"
+      ],
+      "X_Position": [
+        "+0550487.955"
+      ],
+      "Y_Position": [
+        "-0203057.591"
+      ],
+      "Z_Position": [
+        "+6801823.521"
+      ],
+      "X_Velocity": [
+        "-4618.302509"
+      ],
+      "Y_Velocity": [
+        "+6031.318353"
+      ],
+      "Z_Velocity": [
+        "+0552.319061"
+      ],
+      "State_Vector_Source": [
+        "MD"
+      ],
+      "Product_Err": [
+        "0"
+      ],
+      "SPH_Descriptor": [
+        "SC_ADYN_1B"
+      ],
+      "Sensing_Start": [
+        "UTC=2023-03-21T00:00:00.756804"
+      ],
+      "Sensing_Stop": [
+        "UTC=2023-03-21T23:59:59.757010"
+      ],
+      "Maneuver_Id_1": [
+        "004"
+      ],
+      "Quality_Indicator": [
+        "000"
+      ],
+      "HK_ISP_Missing": [
+        "00000"
+      ],
+      "GPSR_ISP_Missing": [
+        "00000"
+      ],
+      "STR_ISP_Missing": [
+        "00000"
+      ],
+      "ACC_ISP_Missing": [
+        "00000"
+      ],
+      "ACC_Samples_Rejected": [
+        "00000"
+      ],
+      "List_of_DSDs": [
+        " "
+      ],
+      "Data_Set_Name_1": [
+        "ACCANOM_0_"
+      ],
+      "Data_Set_Type_1": [
+        "R"
+      ],
+      "File_Name_1": [
+        "SW_OPER_ACCANOM_0__20230320T190921_20230321T061520_0201"
+      ],
+      "Data_Set_Name_2": [
+        "ACCANOM_0_"
+      ],
+      "Data_Set_Type_2": [
+        "R"
+      ],
+      "File_Name_2": [
+        "SW_OPER_ACCANOM_0__20230321T061521_20230321T201120_0201"
+      ],
+      "Data_Set_Name_3": [
+        "ACCANOM_0_"
+      ],
+      "Data_Set_Type_3": [
+        "R"
+      ],
+      "File_Name_3": [
+        "SW_OPER_ACCANOM_0__20230321T201121_20230322T054520_0201"
+      ],
+      "Data_Set_Name_4": [
+        "HK_AAOCS1A"
+      ],
+      "Data_Set_Type_4": [
+        "R"
+      ],
+      "File_Name_4": [
+        "SW_OPER_HK_AAOCS1A_20230319T235000_20230321T000959_0601"
+      ],
+      "Data_Set_Name_5": [
+        "HK_AAOCS1A"
+      ],
+      "Data_Set_Type_5": [
+        "R"
+      ],
+      "File_Name_5": [
+        "SW_OPER_HK_AAOCS1A_20230320T235000_20230322T000959_0601"
+      ],
+      "Data_Set_Name_6": [
+        "HK_ABUS_1A"
+      ],
+      "Data_Set_Type_6": [
+        "R"
+      ],
+      "File_Name_6": [
+        "SW_OPER_HK_ABUS_1A_20230320T235002_20230322T000958_0601"
+      ],
+      "Data_Set_Name_7": [
+        "STRAATT_1B"
+      ],
+      "Data_Set_Type_7": [
+        "R"
+      ],
+      "File_Name_7": [
+        "SW_OPER_STRAATT_1B_20230321T000000_20230321T235959_0601"
+      ],
+      "Data_Set_Name_8": [
+        "MODA_SC_1B"
+      ],
+      "Data_Set_Type_8": [
+        "R"
+      ],
+      "File_Name_8": [
+        "SW_OPER_MODA_SC_1B_20230321T000000_20230321T235959_0601"
+      ],
+      "Data_Set_Name_9": [
+        "AUXAACC_C_"
+      ],
+      "Data_Set_Type_9": [
+        "R"
+      ],
+      "File_Name_9": [
+        "SW_OPER_AUXAACC_C__20000101T000000_99999999T999999_0004.EEF"
+      ],
+      "Data_Set_Name_10": [
+        "AUXASW1_C_"
+      ],
+      "Data_Set_Type_10": [
+        "R"
+      ],
+      "File_Name_10": [
+        "SW_OPER_AUXASW1_C__20181212T000000_99999999T999999_0016.EEF"
+      ],
+      "Data_Set_Name_11": [
+        "AUXASW2_C_"
+      ],
+      "Data_Set_Type_11": [
+        "R"
+      ],
+      "File_Name_11": [
+        "SW_OPER_AUXASW2_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_12": [
+        "AUXASW3_C_"
+      ],
+      "Data_Set_Type_12": [
+        "R"
+      ],
+      "File_Name_12": [
+        "SW_OPER_AUXASW3_C__20000101T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_13": [
+        "AUXACONSC_"
+      ],
+      "Data_Set_Type_13": [
+        "R"
+      ],
+      "File_Name_13": [
+        "SW_OPER_AUXACONSC__20000101T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_14": [
+        "AUXAAOC_C_"
+      ],
+      "Data_Set_Type_14": [
+        "R"
+      ],
+      "File_Name_14": [
+        "SW_OPER_AUXAAOC_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_15": [
+        "AUX_USNEOP"
+      ],
+      "Data_Set_Type_15": [
+        "R"
+      ],
+      "File_Name_15": [
+        "SW_OPER_AUX_USNEOP_20230101T000000_20230630T000000_0001"
+      ],
+      "Data_Set_Name_16": [
+        "AUX_USLEAP"
+      ],
+      "Data_Set_Type_16": [
+        "R"
+      ],
+      "File_Name_16": [
+        "SW_OPER_AUX_USLEAP_19720101T000000_99999999T999999_0003"
+      ]
+    },
+    "fields": {
+      "Timestamp": {
+        "attrs": {
+          "DESCRIPTION": "Time stamp",
+          "UNITS": "-"
+        },
+        "shape": [
+          86400
+        ],
+        "min": 63846576000756.805,
+        "max": 63846662399757.01,
+        "first_label": "2023-03-21T00:00:00.756000000",
+        "last_label": "2023-03-21T23:59:59.757000000"
+      },
+      "m_SC": {
+        "attrs": {
+          "DESCRIPTION": "Actual mass of S/C",
+          "UNITS": "kg"
+        },
+        "shape": [
+          86400
+        ],
+        "min": 400.337,
+        "max": 400.447
+      },
+      "A_head": {
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,front",
+          "UNITS": "m2"
+        },
+        "shape": [
+          86400,
+          3
+        ],
+        "min": -0.493,
+        "max": 1.3940000000000001
+      },
+      "A_right": {
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,right",
+          "UNITS": "m2"
+        },
+        "shape": [
+          86400,
+          3
+        ],
+        "min": -2.056,
+        "max": 3.586
+      },
+      "A_left": {
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,left",
+          "UNITS": "m2"
+        },
+        "shape": [
+          86400,
+          3
+        ],
+        "min": -3.492,
+        "max": 0.161
+      },
+      "A_down": {
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,down",
+          "UNITS": "m2"
+        },
+        "shape": [
+          86400,
+          3
+        ],
+        "min": -0.444,
+        "max": 7.227
+      },
+      "Flags_Platform": {
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the S/C platform information",
+          "UNITS": "-"
+        },
+        "shape": [
+          86400
+        ],
+        "min": 0.0,
+        "max": 16.0,
+        "counts": {
+          "0": 85752,
+          "16": 648
+        }
+      },
+      "Flags_q": {
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the attitude information",
+          "UNITS": "-"
+        },
+        "shape": [
+          86400
+        ],
+        "min": 0.0,
+        "max": 17.0,
+        "counts": {
+          "0": 57372,
+          "1": 6,
+          "2": 828,
+          "5": 20180,
+          "17": 8014
+        }
+      },
+      "dt_thr": {
+        "attrs": {
+          "DESCRIPTION": "Thruster on-time",
+          "UNITS": "s"
+        },
+        "shape": [
+          86400,
+          12
+        ],
+        "min": 0.0,
+        "max": 0.10900000000000001
+      },
+      "thr_set": {
+        "attrs": {
+          "DESCRIPTION": "Flag indicating which thruster branch is active ",
+          "UNITS": "-"
+        },
+        "shape": [
+          86400
+        ],
+        "min": 1.0,
+        "max": 1.0
+      },
+      "f_thr": {
+        "attrs": {
+          "DESCRIPTION": "Nominal thrust force of activated thrusters (combined x, y, z)",
+          "UNITS": "mN"
+        },
+        "shape": [
+          86400,
+          3
+        ],
+        "min": 0.0,
+        "max": 0.0
+      },
+      "SyncStatus": {
+        "attrs": {
+          "DESCRIPTION": "Synchronization status",
+          "UNITS": "-"
+        },
+        "shape": [
+          86400
+        ],
+        "min": 0.0,
+        "max": 0.0,
+        "counts": {
+          "0": 86400
+        }
+      }
+    }
+  },
+  {
+    "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230322T000000_20230322T235959_0601_MDR_SC_DYN.cdf",
+    "cdf_global_attributes": {
+      "TITLE": [
+        "SW_OPER_SC_ADYN_1B_20230322T000000_20230322T235959_0601_MDR_SC_DYN.cdf"
+      ],
+      "CREATOR": [
+        "L1B"
+      ],
+      "File_Name": [
+        "SW_OPER_SC_ADYN_1B_20230322T000000_20230322T235959_0601"
+      ],
+      "File_Description": [
+        "Spacecraft Dynamic SC_DYN data"
+      ],
+      "Notes": [
+        " "
+      ],
+      "Mission": [
+        "Swarm"
+      ],
+      "File_Class": [
+        "OPER"
+      ],
+      "File_Type": [
+        "SC_ADYN_1B"
+      ],
+      "File_Version": [
+        "0601"
+      ],
+      "Ref_Doc": [
+        "SW-RS-DSC-SY-0007"
+      ],
+      "Acquisition_Station": [
+        "KSS"
+      ],
+      "Proc_Center": [
+        "FRB"
+      ],
+      "Proc_Time": [
+        "UTC=2025-07-23T08:55:27.447215"
+      ],
+      "Software_Version": [
+        "ACCELE/03.25"
+      ],
+      "Abs_Orbit_Start": [
+        "052452"
+      ],
+      "Abs_Orbit_Stop": [
+        "052467"
+      ],
+      "State_Vector_Time": [
+        "UTC=2023-03-22T00:00:00.000000"
+      ],
+      "Delta_UT1": [
+        "-0.023411"
+      ],
+      "X_Position": [
+        "-3586033.762"
+      ],
+      "Y_Position": [
+        "+4656955.172"
+      ],
+      "Z_Position": [
+        "-3506342.005"
+      ],
+      "X_Velocity": [
+        "+2392.494312"
+      ],
+      "Y_Velocity": [
+        "-3076.246733"
+      ],
+      "Z_Velocity": [
+        "-6544.827212"
+      ],
+      "State_Vector_Source": [
+        "MD"
+      ],
+      "Product_Err": [
+        "0"
+      ],
+      "SPH_Descriptor": [
+        "SC_ADYN_1B"
+      ],
+      "Sensing_Start": [
+        "UTC=2023-03-22T00:00:00.756798"
+      ],
+      "Sensing_Stop": [
+        "UTC=2023-03-22T23:59:59.757010"
+      ],
+      "Maneuver_Id_1": [
+        "004"
+      ],
+      "Quality_Indicator": [
+        "000"
+      ],
+      "HK_ISP_Missing": [
+        "00000"
+      ],
+      "GPSR_ISP_Missing": [
+        "00000"
+      ],
+      "STR_ISP_Missing": [
+        "00000"
+      ],
+      "ACC_ISP_Missing": [
+        "00000"
+      ],
+      "ACC_Samples_Rejected": [
+        "00000"
+      ],
+      "List_of_DSDs": [
+        " "
+      ],
+      "Data_Set_Name_1": [
+        "ACCANOM_0_"
+      ],
+      "Data_Set_Type_1": [
+        "R"
+      ],
+      "File_Name_1": [
+        "SW_OPER_ACCANOM_0__20230321T201121_20230322T054520_0201"
+      ],
+      "Data_Set_Name_2": [
+        "ACCANOM_0_"
+      ],
+      "Data_Set_Type_2": [
+        "R"
+      ],
+      "File_Name_2": [
+        "SW_OPER_ACCANOM_0__20230322T054521_20230322T071920_0201"
+      ],
+      "Data_Set_Name_3": [
+        "ACCANOM_0_"
+      ],
+      "Data_Set_Type_3": [
+        "R"
+      ],
+      "File_Name_3": [
+        "SW_OPER_ACCANOM_0__20230322T071921_20230323T033732_0201"
+      ],
+      "Data_Set_Name_4": [
+        "HK_AAOCS1A"
+      ],
+      "Data_Set_Type_4": [
+        "R"
+      ],
+      "File_Name_4": [
+        "SW_OPER_HK_AAOCS1A_20230320T235000_20230322T000959_0601"
+      ],
+      "Data_Set_Name_5": [
+        "HK_AAOCS1A"
+      ],
+      "Data_Set_Type_5": [
+        "R"
+      ],
+      "File_Name_5": [
+        "SW_OPER_HK_AAOCS1A_20230321T235000_20230323T000959_0601"
+      ],
+      "Data_Set_Name_6": [
+        "HK_ABUS_1A"
+      ],
+      "Data_Set_Type_6": [
+        "R"
+      ],
+      "File_Name_6": [
+        "SW_OPER_HK_ABUS_1A_20230321T235002_20230323T000958_0601"
+      ],
+      "Data_Set_Name_7": [
+        "STRAATT_1B"
+      ],
+      "Data_Set_Type_7": [
+        "R"
+      ],
+      "File_Name_7": [
+        "SW_OPER_STRAATT_1B_20230322T000000_20230322T235959_0601"
+      ],
+      "Data_Set_Name_8": [
+        "MODA_SC_1B"
+      ],
+      "Data_Set_Type_8": [
+        "R"
+      ],
+      "File_Name_8": [
+        "SW_OPER_MODA_SC_1B_20230322T000000_20230322T235959_0601"
+      ],
+      "Data_Set_Name_9": [
+        "AUXAACC_C_"
+      ],
+      "Data_Set_Type_9": [
+        "R"
+      ],
+      "File_Name_9": [
+        "SW_OPER_AUXAACC_C__20000101T000000_99999999T999999_0004.EEF"
+      ],
+      "Data_Set_Name_10": [
+        "AUXASW1_C_"
+      ],
+      "Data_Set_Type_10": [
+        "R"
+      ],
+      "File_Name_10": [
+        "SW_OPER_AUXASW1_C__20181212T000000_99999999T999999_0016.EEF"
+      ],
+      "Data_Set_Name_11": [
+        "AUXASW2_C_"
+      ],
+      "Data_Set_Type_11": [
+        "R"
+      ],
+      "File_Name_11": [
+        "SW_OPER_AUXASW2_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_12": [
+        "AUXASW3_C_"
+      ],
+      "Data_Set_Type_12": [
+        "R"
+      ],
+      "File_Name_12": [
+        "SW_OPER_AUXASW3_C__20000101T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_13": [
+        "AUXACONSC_"
+      ],
+      "Data_Set_Type_13": [
+        "R"
+      ],
+      "File_Name_13": [
+        "SW_OPER_AUXACONSC__20000101T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_14": [
+        "AUXAAOC_C_"
+      ],
+      "Data_Set_Type_14": [
+        "R"
+      ],
+      "File_Name_14": [
+        "SW_OPER_AUXAAOC_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_15": [
+        "AUX_USNEOP"
+      ],
+      "Data_Set_Type_15": [
+        "R"
+      ],
+      "File_Name_15": [
+        "SW_OPER_AUX_USNEOP_20230102T000000_20230701T000000_0001"
+      ],
+      "Data_Set_Name_16": [
+        "AUX_USLEAP"
+      ],
+      "Data_Set_Type_16": [
+        "R"
+      ],
+      "File_Name_16": [
+        "SW_OPER_AUX_USLEAP_19720101T000000_99999999T999999_0003"
+      ]
+    },
+    "fields": {
+      "Timestamp": {
+        "attrs": {
+          "DESCRIPTION": "Time stamp",
+          "UNITS": "-"
+        },
+        "shape": [
+          86319
+        ],
+        "min": 63846662400756.8,
+        "max": 63846748799757.01,
+        "first_label": "2023-03-22T00:00:00.756000000",
+        "last_label": "2023-03-22T23:59:59.757000000"
+      },
+      "m_SC": {
+        "attrs": {
+          "DESCRIPTION": "Actual mass of S/C",
+          "UNITS": "kg"
+        },
+        "shape": [
+          86319
+        ],
+        "min": 400.341,
+        "max": 400.454
+      },
+      "A_head": {
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,front",
+          "UNITS": "m2"
+        },
+        "shape": [
+          86319,
+          3
+        ],
+        "min": -0.394,
+        "max": 1.385
+      },
+      "A_right": {
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,right",
+          "UNITS": "m2"
+        },
+        "shape": [
+          86319,
+          3
+        ],
+        "min": -1.999,
+        "max": 4.385
+      },
+      "A_left": {
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,left",
+          "UNITS": "m2"
+        },
+        "shape": [
+          86319,
+          3
+        ],
+        "min": -3.504,
+        "max": 0.152
+      },
+      "A_down": {
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,down",
+          "UNITS": "m2"
+        },
+        "shape": [
+          86319,
+          3
+        ],
+        "min": -0.678,
+        "max": 7.248
+      },
+      "Flags_Platform": {
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the S/C platform information",
+          "UNITS": "-"
+        },
+        "shape": [
+          86319
+        ],
+        "min": 0.0,
+        "max": 16.0,
+        "counts": {
+          "0": 85679,
+          "16": 640
+        }
+      },
+      "Flags_q": {
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the attitude information",
+          "UNITS": "-"
+        },
+        "shape": [
+          86319
+        ],
+        "min": 0.0,
+        "max": 255.0,
+        "counts": {
+          "0": 58980,
+          "1": 18,
+          "2": 969,
+          "3": 4,
+          "5": 19001,
+          "17": 7343,
+          "34": 2,
+          "255": 2
+        }
+      },
+      "dt_thr": {
+        "attrs": {
+          "DESCRIPTION": "Thruster on-time",
+          "UNITS": "s"
+        },
+        "shape": [
+          86319,
+          12
+        ],
+        "min": 0.0,
+        "max": 0.12200000000000001
+      },
+      "thr_set": {
+        "attrs": {
+          "DESCRIPTION": "Flag indicating which thruster branch is active ",
+          "UNITS": "-"
+        },
+        "shape": [
+          86319
+        ],
+        "min": 1.0,
+        "max": 1.0
+      },
+      "f_thr": {
+        "attrs": {
+          "DESCRIPTION": "Nominal thrust force of activated thrusters (combined x, y, z)",
+          "UNITS": "mN"
+        },
+        "shape": [
+          86319,
+          3
+        ],
+        "min": 0.0,
+        "max": 0.0
+      },
+      "SyncStatus": {
+        "attrs": {
+          "DESCRIPTION": "Synchronization status",
+          "UNITS": "-"
+        },
+        "shape": [
+          86319
+        ],
+        "min": 0.0,
+        "max": 0.0,
+        "counts": {
+          "0": 86319
+        }
+      }
+    }
+  },
+  {
+    "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230323T000000_20230323T235959_0601_MDR_SC_DYN.cdf",
+    "cdf_global_attributes": {
+      "TITLE": [
+        "SW_OPER_SC_ADYN_1B_20230323T000000_20230323T235959_0601_MDR_SC_DYN.cdf"
+      ],
+      "CREATOR": [
+        "L1B"
+      ],
+      "File_Name": [
+        "SW_OPER_SC_ADYN_1B_20230323T000000_20230323T235959_0601"
+      ],
+      "File_Description": [
+        "Spacecraft Dynamic SC_DYN data"
+      ],
+      "Notes": [
+        " "
+      ],
+      "Mission": [
+        "Swarm"
+      ],
+      "File_Class": [
+        "OPER"
+      ],
+      "File_Type": [
+        "SC_ADYN_1B"
+      ],
+      "File_Version": [
+        "0601"
+      ],
+      "Ref_Doc": [
+        "SW-RS-DSC-SY-0007"
+      ],
+      "Acquisition_Station": [
+        "KSS"
+      ],
+      "Proc_Center": [
+        "FRB"
+      ],
+      "Proc_Time": [
+        "UTC=2025-07-23T09:38:58.658465"
+      ],
+      "Software_Version": [
+        "ACCELE/03.25"
+      ],
+      "Abs_Orbit_Start": [
+        "052467"
+      ],
+      "Abs_Orbit_Stop": [
+        "052483"
+      ],
+      "State_Vector_Time": [
+        "UTC=2023-03-23T00:00:00.000000"
+      ],
+      "Delta_UT1": [
+        "-0.024273"
+      ],
+      "X_Position": [
+        "+3433847.552"
+      ],
+      "Y_Position": [
+        "-5194965.637"
+      ],
+      "Z_Position": [
+        "-2838216.170"
+      ],
+      "X_Velocity": [
+        "+1682.807630"
+      ],
+      "Y_Velocity": [
+        "-2667.952342"
+      ],
+      "Z_Velocity": [
+        "+6936.714551"
+      ],
+      "State_Vector_Source": [
+        "MD"
+      ],
+      "Product_Err": [
+        "0"
+      ],
+      "SPH_Descriptor": [
+        "SC_ADYN_1B"
+      ],
+      "Sensing_Start": [
+        "UTC=2023-03-23T00:00:00.756804"
+      ],
+      "Sensing_Stop": [
+        "UTC=2023-03-23T23:59:59.757017"
+      ],
+      "Maneuver_Id_1": [
+        "004"
+      ],
+      "Quality_Indicator": [
+        "000"
+      ],
+      "HK_ISP_Missing": [
+        "00000"
+      ],
+      "GPSR_ISP_Missing": [
+        "00000"
+      ],
+      "STR_ISP_Missing": [
+        "00000"
+      ],
+      "ACC_ISP_Missing": [
+        "00000"
+      ],
+      "ACC_Samples_Rejected": [
+        "00000"
+      ],
+      "List_of_DSDs": [
+        " "
+      ],
+      "Data_Set_Name_1": [
+        "ACCANOM_0_"
+      ],
+      "Data_Set_Type_1": [
+        "R"
+      ],
+      "File_Name_1": [
+        "SW_OPER_ACCANOM_0__20230322T071921_20230323T033732_0201"
+      ],
+      "Data_Set_Name_2": [
+        "ACCANOM_0_"
+      ],
+      "Data_Set_Type_2": [
+        "R"
+      ],
+      "File_Name_2": [
+        "SW_OPER_ACCANOM_0__20230323T033721_20230323T064620_0201"
+      ],
+      "Data_Set_Name_3": [
+        "ACCANOM_0_"
+      ],
+      "Data_Set_Type_3": [
+        "R"
+      ],
+      "File_Name_3": [
+        "SW_OPER_ACCANOM_0__20230323T064621_20230324T012402_0201"
+      ],
+      "Data_Set_Name_4": [
+        "HK_AAOCS1A"
+      ],
+      "Data_Set_Type_4": [
+        "R"
+      ],
+      "File_Name_4": [
+        "SW_OPER_HK_AAOCS1A_20230321T235000_20230323T000959_0601"
+      ],
+      "Data_Set_Name_5": [
+        "HK_AAOCS1A"
+      ],
+      "Data_Set_Type_5": [
+        "R"
+      ],
+      "File_Name_5": [
+        "SW_OPER_HK_AAOCS1A_20230322T235000_20230324T000959_0601"
+      ],
+      "Data_Set_Name_6": [
+        "HK_ABUS_1A"
+      ],
+      "Data_Set_Type_6": [
+        "R"
+      ],
+      "File_Name_6": [
+        "SW_OPER_HK_ABUS_1A_20230322T235002_20230324T000958_0601"
+      ],
+      "Data_Set_Name_7": [
+        "STRAATT_1B"
+      ],
+      "Data_Set_Type_7": [
+        "R"
+      ],
+      "File_Name_7": [
+        "SW_OPER_STRAATT_1B_20230323T000000_20230323T235959_0601"
+      ],
+      "Data_Set_Name_8": [
+        "MODA_SC_1B"
+      ],
+      "Data_Set_Type_8": [
+        "R"
+      ],
+      "File_Name_8": [
+        "SW_OPER_MODA_SC_1B_20230323T000000_20230323T235959_0601"
+      ],
+      "Data_Set_Name_9": [
+        "AUXAACC_C_"
+      ],
+      "Data_Set_Type_9": [
+        "R"
+      ],
+      "File_Name_9": [
+        "SW_OPER_AUXAACC_C__20000101T000000_99999999T999999_0004.EEF"
+      ],
+      "Data_Set_Name_10": [
+        "AUXASW1_C_"
+      ],
+      "Data_Set_Type_10": [
+        "R"
+      ],
+      "File_Name_10": [
+        "SW_OPER_AUXASW1_C__20181212T000000_99999999T999999_0016.EEF"
+      ],
+      "Data_Set_Name_11": [
+        "AUXASW2_C_"
+      ],
+      "Data_Set_Type_11": [
+        "R"
+      ],
+      "File_Name_11": [
+        "SW_OPER_AUXASW2_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_12": [
+        "AUXASW3_C_"
+      ],
+      "Data_Set_Type_12": [
+        "R"
+      ],
+      "File_Name_12": [
+        "SW_OPER_AUXASW3_C__20000101T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_13": [
+        "AUXACONSC_"
+      ],
+      "Data_Set_Type_13": [
+        "R"
+      ],
+      "File_Name_13": [
+        "SW_OPER_AUXACONSC__20000101T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_14": [
+        "AUXAAOC_C_"
+      ],
+      "Data_Set_Type_14": [
+        "R"
+      ],
+      "File_Name_14": [
+        "SW_OPER_AUXAAOC_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_15": [
+        "AUX_USNEOP"
+      ],
+      "Data_Set_Type_15": [
+        "R"
+      ],
+      "File_Name_15": [
+        "SW_OPER_AUX_USNEOP_20230103T000000_20230702T000000_0001"
+      ],
+      "Data_Set_Name_16": [
+        "AUX_USLEAP"
+      ],
+      "Data_Set_Type_16": [
+        "R"
+      ],
+      "File_Name_16": [
+        "SW_OPER_AUX_USLEAP_19720101T000000_99999999T999999_0003"
+      ]
+    },
+    "fields": {
+      "Timestamp": {
+        "attrs": {
+          "DESCRIPTION": "Time stamp",
+          "UNITS": "-"
+        },
+        "shape": [
+          86390
+        ],
+        "min": 63846748800756.805,
+        "max": 63846835199757.016,
+        "first_label": "2023-03-23T00:00:00.756000000",
+        "last_label": "2023-03-23T23:59:59.757000000"
+      },
+      "m_SC": {
+        "attrs": {
+          "DESCRIPTION": "Actual mass of S/C",
+          "UNITS": "kg"
+        },
+        "shape": [
+          86390
+        ],
+        "min": 400.331,
+        "max": 400.459
+      },
+      "A_head": {
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,front",
+          "UNITS": "m2"
+        },
+        "shape": [
+          86390,
+          3
+        ],
+        "min": -1.195,
+        "max": 1.486
+      },
+      "A_right": {
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,right",
+          "UNITS": "m2"
+        },
+        "shape": [
+          86390,
+          3
+        ],
+        "min": -2.074,
+        "max": 5.696
+      },
+      "A_left": {
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,left",
+          "UNITS": "m2"
+        },
+        "shape": [
+          86390,
+          3
+        ],
+        "min": -5.261,
+        "max": 0.14400000000000002
+      },
+      "A_down": {
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,down",
+          "UNITS": "m2"
+        },
+        "shape": [
+          86390,
+          3
+        ],
+        "min": -1.991,
+        "max": 7.227
+      },
+      "Flags_Platform": {
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the S/C platform information",
+          "UNITS": "-"
+        },
+        "shape": [
+          86390
+        ],
+        "min": 0.0,
+        "max": 16.0,
+        "counts": {
+          "0": 85734,
+          "16": 656
+        }
+      },
+      "Flags_q": {
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the attitude information",
+          "UNITS": "-"
+        },
+        "shape": [
+          86390
+        ],
+        "min": 0.0,
+        "max": 255.0,
+        "counts": {
+          "0": 58952,
+          "1": 15,
+          "2": 775,
+          "3": 4,
+          "5": 19243,
+          "17": 7400,
+          "255": 1
+        }
+      },
+      "dt_thr": {
+        "attrs": {
+          "DESCRIPTION": "Thruster on-time",
+          "UNITS": "s"
+        },
+        "shape": [
+          86390,
+          12
+        ],
+        "min": 0.0,
+        "max": 0.11100000000000002
+      },
+      "thr_set": {
+        "attrs": {
+          "DESCRIPTION": "Flag indicating which thruster branch is active ",
+          "UNITS": "-"
+        },
+        "shape": [
+          86390
+        ],
+        "min": 1.0,
+        "max": 1.0
+      },
+      "f_thr": {
+        "attrs": {
+          "DESCRIPTION": "Nominal thrust force of activated thrusters (combined x, y, z)",
+          "UNITS": "mN"
+        },
+        "shape": [
+          86390,
+          3
+        ],
+        "min": 0.0,
+        "max": 0.0
+      },
+      "SyncStatus": {
+        "attrs": {
+          "DESCRIPTION": "Synchronization status",
+          "UNITS": "-"
+        },
+        "shape": [
+          86390
+        ],
+        "min": 0.0,
+        "max": 0.0,
+        "counts": {
+          "0": 86390
+        }
+      }
+    }
+  }
+]

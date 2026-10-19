@@ -1,0 +1,196 @@
+{
+  "samples": 577,
+  "initial_m": 518.7291908080576,
+  "mean_norm_m": 626.2161306050003,
+  "rmse_3d_m": 764.7083367355018,
+  "median_norm_m": 499.1298557539116,
+  "p95_norm_m": 1534.2803023815698,
+  "max_norm_m": 2244.3908629701177,
+  "max_index": 572,
+  "terminal_m": 1724.639882637409,
+  "xyz_bias_m": [
+    -2.3714031630263244,
+    -5.678381746424821,
+    4.985303782276798
+  ],
+  "rac_bias_m": [
+    9.79026121832763,
+    -344.2851007262261,
+    -1.5286741815107763
+  ],
+  "rac_rmse_m": [
+    143.3591778007131,
+    734.9973102225927,
+    154.93850515161785
+  ],
+  "validation_status": "passed",
+  "experiment_kind": "historical single-TLE propagation comparison; publication-time causality unverified",
+  "cadence_s": 300,
+  "start_utc": "2023-03-21T00:00:02.000000000",
+  "stop_utc": "2023-03-23T00:00:02.000000000",
+  "duration_s": 172800.0,
+  "tle": {
+    "source": "ETH Satellite Database / CelesTrak archive",
+    "archive_id": 274764,
+    "epoch_utc": "2023-03-20T20:30:00.330",
+    "age_at_start_hours": 3.500463795555599,
+    "line1": "1 39452U 13067B   23079.85417049  .00009090  00000+0  26056-3 0  9998",
+    "line2": "2 39452  87.3552 125.6726 0003403  90.7088 269.4554 15.35742261524299",
+    "gravity_constants": "WGS72",
+    "sgp4_operation_mode": "improved (i)",
+    "publication_time": null,
+    "availability_before_start_verified": false,
+    "selection_rule": "latest epoch <= t0, frozen before comparing SP3 errors",
+    "all_eight_epochs_utc": [
+      "2023-03-18T13:45:52.017",
+      "2023-03-20T12:40:50.906",
+      "2023-03-20T20:30:00.330",
+      "2023-03-21T05:52:59.489",
+      "2023-03-21T10:34:29.035",
+      "2023-03-21T21:31:17.783",
+      "2023-03-22T08:28:06.328",
+      "2023-03-22T20:58:44.398"
+    ]
+  },
+  "comparison_frame": "ITRS, reference interpreted from IGS20/ITRF2020 aligned realization; no Helmert fit",
+  "rac_frame": "reference GCRS; R outward, A=C cross R, C=r cross v; error=SGP4-SP3",
+  "max_error_utc": "2023-03-22T23:40:02.000000000",
+  "eop": {
+    "ut1_utc_s_min": -0.023887618592592592,
+    "ut1_utc_s_max": -0.02200072224305556,
+    "xp_arcsec_min": -0.03551696277777778,
+    "xp_arcsec_max": -0.032506969537037037,
+    "yp_arcsec_min": 0.37391907310185185,
+    "yp_arcsec_max": 0.38023407034722223,
+    "all_status_iers_b": true
+  },
+  "roundtrip_position_m": 2.9816870751943665e-09,
+  "roundtrip_velocity_m_s": 4.754795613748707e-09,
+  "reference_roundtrip_position_m": 3.846993586481154e-09,
+  "reference_roundtrip_velocity_m_s": 8.222330444263912e-09,
+  "rac_norm_closure_m": 1.820922079787124e-09,
+  "independent_gmst82_position_diff_m": 0.00011542619731025635,
+  "reference_time_mismatch_s": 9.592326932761353e-12,
+  "sgp4_nonzero_errors": 0,
+  "compute_seconds": 0.8487093951553106,
+  "time_data": {
+    "cache": "/workspace/data/20261016/.cache/astropy",
+    "config": "/workspace/data/20261016/.config/astropy",
+    "versions": {
+      "numpy": "1.25.0",
+      "scipy": "1.15.3",
+      "astropy": "6.1.7",
+      "astropy-iers-data": "0.2026.10.19.0.52.1",
+      "pyerfa": "2.0.1.5",
+      "sgp4": "2.25",
+      "matplotlib": "3.10.0"
+    },
+    "iers_b": {
+      "path": "data/raw/earth_orientation/eopc04_frozen_20261020.txt",
+      "package_source": "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/astropy_iers_data/data/eopc04.1962-now",
+      "sha256": "6fc2c9d9a7cd7e9a1f597866545bb75baab292f5d51ca9358d5c64c0ce2fa64f",
+      "bytes": 5175699
+    },
+    "leap_seconds": {
+      "path": "data/raw/earth_orientation/Leap_Second_frozen_20261020.dat",
+      "package_source": "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/astropy_iers_data/data/Leap_Second.dat",
+      "sha256": "6cb6f5d4b819f2e568e25db4b0b26d89dedf031fdffb18bc94d40f4e94e268d7",
+      "bytes": 1352
+    },
+    "ut1": "[<Quantity [-0.0220007, -0.0238876] s>, array([0, 0])]",
+    "pm": "[<Quantity [-0.035517, -0.032507] arcsec>, <Quantity [0.373919, 0.380234] arcsec>, array([0, 0])]",
+    "leap_expiry": "2027-06-28",
+    "mjd_range": [
+      37665.0,
+      61294.0
+    ]
+  },
+  "versions": {
+    "numpy": "1.25.0",
+    "scipy": "1.15.3",
+    "sgp4": "2.25",
+    "astropy": "6.1.7",
+    "astropy-iers-data": "0.2026.10.19.0.52.1",
+    "pyerfa": "2.0.1.5",
+    "matplotlib": "3.10.0"
+  },
+  "reference_metadata": {
+    "sources": [
+      {
+        "path": "/workspace/data/20261016/data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230320T235942_20230321T235942_0203.sp3",
+        "sha256": "006b0a3dbb7b6e78170f8a5710ca98c3ba61befe6744cc67b5db44628ecff3d2",
+        "version": "d",
+        "frame": "IGS20",
+        "native_time_system": "GPS",
+        "satellite_id": "L47",
+        "epochs": 8640,
+        "hdr_time_difference_s": 0.0,
+        "hdr_quality_indicator": "000",
+        "hdr_creation_date": "UTC=2026-08-25T09:10:22",
+        "formal_accuracy_exponents": [
+          "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+        ],
+        "maneuver_flag_available": false
+      },
+      {
+        "path": "/workspace/data/20261016/data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230321T235942_20230322T235942_0203.sp3",
+        "sha256": "a886cf14d243f1b6f47923f36a320f51ee28e1bdf18abd8915cd740249b9a280",
+        "version": "d",
+        "frame": "IGS20",
+        "native_time_system": "GPS",
+        "satellite_id": "L47",
+        "epochs": 8640,
+        "hdr_time_difference_s": 0.0,
+        "hdr_quality_indicator": "000",
+        "hdr_creation_date": "UTC=2026-08-25T09:10:23",
+        "formal_accuracy_exponents": [
+          "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+        ],
+        "maneuver_flag_available": false
+      },
+      {
+        "path": "/workspace/data/20261016/data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230322T235942_20230323T235942_0203.sp3",
+        "sha256": "debee0430cb0bca2f5f4b905960bdc22a876d2e0dd4cf42c2adc32aa1bb6ee13",
+        "version": "d",
+        "frame": "IGS20",
+        "native_time_system": "GPS",
+        "satellite_id": "L47",
+        "epochs": 8640,
+        "hdr_time_difference_s": 0.0,
+        "hdr_quality_indicator": "000",
+        "hdr_creation_date": "UTC=2026-08-25T09:10:23",
+        "formal_accuracy_exponents": [
+          "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+        ],
+        "maneuver_flag_available": false
+      }
+    ],
+    "reference_kind": "reduced-dynamic postprocessed orbit",
+    "reference_uncertainty_quantified": false,
+    "itrs_realization_assumption": "IGS20 aligned with ITRF2020; used as ITRS, no estimated Helmert correction"
+  },
+  "eop_formal_uncertainty_max": {
+    "e_PM_x": {
+      "value": 6.3e-05,
+      "unit": "arcsec"
+    },
+    "e_PM_y": {
+      "value": 6e-05,
+      "unit": "arcsec"
+    },
+    "e_UT1_UTC": {
+      "value": 1.67e-05,
+      "unit": "s"
+    },
+    "e_dX_2000A": {
+      "value": 0.000311,
+      "unit": "arcsec"
+    },
+    "e_dY_2000A": {
+      "value": 0.000168,
+      "unit": "arcsec"
+    }
+  },
+  "erfa_dat_2023_s": 37.0,
+  "effective_erfa_leaps_sha256": "70d1364f49fe97099063cd8c92c33e8e91a48b6e74957b331322651944429b53"
+}

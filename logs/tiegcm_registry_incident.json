@@ -1,0 +1,10 @@
+{
+  "path": "/root/.conda/environments.txt",
+  "added_project_entry": "/workspace/data/20261016/.envs/tiegcm",
+  "observed_modified_utc": "2026-10-19T04:10:23.066373+00:00",
+  "installer_stopped_before_package_installation": true,
+  "external_cleanup": "not performed; general continue instruction does not explicitly authorize outside-workspace cleanup",
+  "reviewed_source": "https://raw.githubusercontent.com/mamba-org/mamba/2.9.0/libmamba/src/api/install.cpp",
+  "safe_alternative": "install explicit package lock into existing prefix with create_env=false, skip create_target_directory/register_env; download-only then audit package link scripts",
+  "project_entry_still_present": true
+}

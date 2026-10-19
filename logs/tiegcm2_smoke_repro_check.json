@@ -1,0 +1,103 @@
+{
+  "initial_bitwise_assertion_failed": true,
+  "details": {
+    "tiegcm2.0_res5.0_mareqx_smin_prim_001.nc:time": {
+      "bitwise_identical": true,
+      "max_absolute_difference": 0.0,
+      "max_scaled_difference": 0.0,
+      "units": "minutes since 2002-3-21 0:0:0",
+      "diagnostic_absolute_tolerance_native_unit": 0.0,
+      "within_diagnostic_tolerance": true
+    },
+    "tiegcm2.0_res5.0_mareqx_smin_prim_001.nc:mtime": {
+      "bitwise_identical": true,
+      "max_absolute_difference": 0.0,
+      "max_scaled_difference": 0.0,
+      "units": "day, hour, minute",
+      "diagnostic_absolute_tolerance_native_unit": 0.0,
+      "within_diagnostic_tolerance": true
+    },
+    "tiegcm2.0_res5.0_mareqx_smin_prim_001.nc:TN": {
+      "bitwise_identical": false,
+      "max_absolute_difference": 3.069544618483633e-12,
+      "max_scaled_difference": 4.1007429941384155e-15,
+      "units": "K",
+      "diagnostic_absolute_tolerance_native_unit": 1e-09,
+      "within_diagnostic_tolerance": true
+    },
+    "tiegcm2.0_res5.0_mareqx_smin_prim_001.nc:UN": {
+      "bitwise_identical": false,
+      "max_absolute_difference": 1.291482476517558e-10,
+      "max_scaled_difference": 2.432898327242583e-11,
+      "units": "cm/s",
+      "diagnostic_absolute_tolerance_native_unit": 1e-08,
+      "within_diagnostic_tolerance": true
+    },
+    "tiegcm2.0_res5.0_mareqx_smin_prim_001.nc:VN": {
+      "bitwise_identical": false,
+      "max_absolute_difference": 7.912603905424476e-11,
+      "max_scaled_difference": 1.494726514895334e-11,
+      "units": "cm/s",
+      "diagnostic_absolute_tolerance_native_unit": 1e-08,
+      "within_diagnostic_tolerance": true
+    },
+    "tiegcm2.0_res5.0_mareqx_smin_sech_001.nc:time": {
+      "bitwise_identical": true,
+      "max_absolute_difference": 0.0,
+      "max_scaled_difference": 0.0,
+      "units": "minutes since 2002-3-21 0:0:0",
+      "diagnostic_absolute_tolerance_native_unit": 0.0,
+      "within_diagnostic_tolerance": true
+    },
+    "tiegcm2.0_res5.0_mareqx_smin_sech_001.nc:mtime": {
+      "bitwise_identical": true,
+      "max_absolute_difference": 0.0,
+      "max_scaled_difference": 0.0,
+      "units": "day, hour, minute",
+      "diagnostic_absolute_tolerance_native_unit": 0.0,
+      "within_diagnostic_tolerance": true
+    },
+    "tiegcm2.0_res5.0_mareqx_smin_sech_001.nc:TN": {
+      "bitwise_identical": true,
+      "max_absolute_difference": 0.0,
+      "max_scaled_difference": 0.0,
+      "units": "K",
+      "diagnostic_absolute_tolerance_native_unit": 1e-09,
+      "within_diagnostic_tolerance": true
+    },
+    "tiegcm2.0_res5.0_mareqx_smin_sech_001.nc:UN": {
+      "bitwise_identical": true,
+      "max_absolute_difference": 0.0,
+      "max_scaled_difference": 0.0,
+      "units": "cm/s",
+      "diagnostic_absolute_tolerance_native_unit": 1e-08,
+      "within_diagnostic_tolerance": true
+    },
+    "tiegcm2.0_res5.0_mareqx_smin_sech_001.nc:VN": {
+      "bitwise_identical": true,
+      "max_absolute_difference": 0.0,
+      "max_scaled_difference": 0.0,
+      "units": "cm/s",
+      "diagnostic_absolute_tolerance_native_unit": 1e-08,
+      "within_diagnostic_tolerance": true
+    },
+    "tiegcm2.0_res5.0_mareqx_smin_sech_001.nc:DEN": {
+      "bitwise_identical": true,
+      "max_absolute_difference": 0.0,
+      "max_scaled_difference": 0.0,
+      "units": "g/cm3",
+      "diagnostic_absolute_tolerance_native_unit": 0.0,
+      "within_diagnostic_tolerance": true
+    },
+    "tiegcm2.0_res5.0_mareqx_smin_sech_001.nc:ZG": {
+      "bitwise_identical": true,
+      "max_absolute_difference": 0.0,
+      "max_scaled_difference": 0.0,
+      "units": "cm",
+      "diagnostic_absolute_tolerance_native_unit": 0.0,
+      "within_diagnostic_tolerance": true
+    }
+  },
+  "numerical_agreement_passed": true,
+  "note": "Bitwise equality is not achieved in primary double fields; observed roundoff-sized differences retained, no model or initial condition change. Secondary float32 DEN/ZG identical. This is a repeatability diagnostic, not an external benchmark."
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "key": "startup",
+    "url": "https://download.hao.ucar.edu/pub/tgcm/data/tiegcm2.0/tiegcm_res5.0_mareqx_smin_prim.nc",
+    "status": 200,
+    "content_length": "16993144",
+    "last_modified": "Tue, 02 Feb 2016 00:09:18 GMT"
+  },
+  {
+    "key": "gswm_diurn",
+    "url": "https://download.hao.ucar.edu/pub/tgcm/data/tiegcm2.0/gswm_diurn_5.0d_99km.nc",
+    "status": 200,
+    "content_length": "23889780",
+    "last_modified": "Mon, 07 Dec 2015 16:39:12 GMT"
+  },
+  {
+    "key": "gswm_semi",
+    "url": "https://download.hao.ucar.edu/pub/tgcm/data/tiegcm2.0/gswm_semi_5.0d_99km.nc",
+    "status": 200,
+    "content_length": "23889784",
+    "last_modified": "Mon, 07 Dec 2015 16:39:13 GMT"
+  },
+  {
+    "key": "old_gpi",
+    "url": "https://download.hao.ucar.edu/pub/tgcm/data/tiegcm2.0/gpi_1960001-2017019.nc",
+    "status": 200,
+    "content_length": "1751352",
+    "last_modified": "Wed, 03 May 2017 18:23:10 GMT"
+  }
+]

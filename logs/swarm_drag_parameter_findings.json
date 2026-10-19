@@ -1,0 +1,95 @@
+[
+  {
+    "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230321T000000_20230321T235959_0601_MDR_SC_DYN.cdf",
+    "records": 86400,
+    "mass_kg_min": 400.337,
+    "mass_kg_max": 400.447,
+    "first_mass_kg": 400.383,
+    "mass_formal_uncertainty": null,
+    "positive_thruster_on_time_records": 150,
+    "thruster_activity_first_label": "2023-03-21T00:05:38.757000000",
+    "thruster_activity_last_label": "2023-03-21T22:45:37.757000000",
+    "surface_vector_norms_m2": {
+      "A_head": [
+        0.962062887757344,
+        1.5132643523191842
+      ],
+      "A_right": [
+        3.614800271107659,
+        3.883843585933913
+      ],
+      "A_left": [
+        3.614800824388531,
+        3.887446462653859
+      ],
+      "A_down": [
+        7.227389155151395,
+        7.241045021265923
+      ]
+    },
+    "gaps_above_1p5_s": 0,
+    "max_gap_s": 1.004
+  },
+  {
+    "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230322T000000_20230322T235959_0601_MDR_SC_DYN.cdf",
+    "records": 86319,
+    "mass_kg_min": 400.341,
+    "mass_kg_max": 400.454,
+    "first_mass_kg": 400.399,
+    "mass_formal_uncertainty": null,
+    "positive_thruster_on_time_records": 59,
+    "thruster_activity_first_label": "2023-03-22T17:28:58.757000000",
+    "thruster_activity_last_label": "2023-03-22T22:15:01.756000000",
+    "surface_vector_norms_m2": {
+      "A_head": [
+        0.9490258162979551,
+        1.4495937361895574
+      ],
+      "A_right": [
+        3.6148004094278847,
+        4.66813046090188
+      ],
+      "A_left": [
+        3.6144462923108978,
+        4.670008672368821
+      ],
+      "A_down": [
+        7.124002105558364,
+        7.269009836284444
+      ]
+    },
+    "gaps_above_1p5_s": 3,
+    "max_gap_s": 42.0
+  },
+  {
+    "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230323T000000_20230323T235959_0601_MDR_SC_DYN.cdf",
+    "records": 86390,
+    "mass_kg_min": 400.331,
+    "mass_kg_max": 400.459,
+    "first_mass_kg": 400.358,
+    "mass_formal_uncertainty": null,
+    "positive_thruster_on_time_records": 128,
+    "thruster_activity_first_label": "2023-03-23T00:32:57.757000000",
+    "thruster_activity_last_label": "2023-03-23T20:09:29.756000000",
+    "surface_vector_norms_m2": {
+      "A_head": [
+        0.9692275274671062,
+        2.2114748472456114
+      ],
+      "A_right": [
+        3.61358478522367,
+        5.957349830251703
+      ],
+      "A_left": [
+        3.613938710050296,
+        5.966353157499143
+      ],
+      "A_down": [
+        5.793032107627231,
+        7.241247820645279
+      ]
+    },
+    "gaps_above_1p5_s": 1,
+    "max_gap_s": 11.0
+  }
+]

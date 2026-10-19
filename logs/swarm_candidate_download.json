@@ -1,0 +1,35 @@
+[
+  {
+    "url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20230320T235942_20230321T235942_0203.ZIP",
+    "file": "data/raw/orbits/swarm_a/SW_OPER_SP3ACOM_2__20230320T235942_20230321T235942_0203.ZIP",
+    "bytes": 440078,
+    "sha256": "84a97dd29bdcd9db0362052ef7d3cb21b03df4989329a5113294c7ab2e67d29d",
+    "members": [
+      "SW_OPER_SP3ACOM_2__20230320T235942_20230321T235942_0203.sp3",
+      "SW_OPER_SP3ACOM_2__20230320T235942_20230321T235942_0203.HDR"
+    ],
+    "crc_check": "passed"
+  },
+  {
+    "url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20230321T235942_20230322T235942_0203.ZIP",
+    "file": "data/raw/orbits/swarm_a/SW_OPER_SP3ACOM_2__20230321T235942_20230322T235942_0203.ZIP",
+    "bytes": 439918,
+    "sha256": "015485fe25a116287859aaa6a018eed0d0c7e67e62cd2f814240d4980932ac9a",
+    "members": [
+      "SW_OPER_SP3ACOM_2__20230321T235942_20230322T235942_0203.sp3",
+      "SW_OPER_SP3ACOM_2__20230321T235942_20230322T235942_0203.HDR"
+    ],
+    "crc_check": "passed"
+  },
+  {
+    "url": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20230322T235942_20230323T235942_0203.ZIP",
+    "file": "data/raw/orbits/swarm_a/SW_OPER_SP3ACOM_2__20230322T235942_20230323T235942_0203.ZIP",
+    "bytes": 439999,
+    "sha256": "99db7b84fbfc21fd041c62d508d624721bb755f5bec900e96c35d09149ec5087",
+    "members": [
+      "SW_OPER_SP3ACOM_2__20230322T235942_20230323T235942_0203.sp3",
+      "SW_OPER_SP3ACOM_2__20230322T235942_20230323T235942_0203.HDR"
+    ],
+    "crc_check": "passed"
+  }
+]

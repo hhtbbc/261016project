@@ -1,0 +1,13 @@
+{
+  "official_notice": "https://www.hao.ucar.edu/modeling/tgcm/index.php",
+  "commit": "84185ee0b97307567c78e32ce85643b48a5cc1a9",
+  "raw_url": "https://raw.githubusercontent.com/NCAR/tiegcm/84185ee0b97307567c78e32ce85643b48a5cc1a9/src/apex.F90",
+  "source_sha256": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3",
+  "patch_sha256": "336086a838722957e65390a46eae552e743f3d2707b839d95dc59a2e3448519e",
+  "old_source_sha256": "9b227da3fdf31692424a7f39f0107deed5f28f01514c4a222f3d5d725ecc8cf4",
+  "original_source_preserved": true,
+  "source_list_apex_entries": [
+    "apex.F90"
+  ],
+  "version_label": "TIE-GCM2.0 + official 2025 apex/IGRF14 update + recorded GNU12 compatibility overlays"
+}

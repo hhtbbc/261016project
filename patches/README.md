@@ -1,0 +1,5 @@
+# Linux兼容补丁
+原始third_party/FourCastDEN不修改，运行副本FourCastDEN_linux只应用0001。
+0001移除dataset_tiegcm中未调用的apexpy、get_mlatmlon、plot_image导入，将tiegcm_utils的apexpy改为在get_maglatlon内延迟导入。
+原因：当前预处理数据推理从作者mag.npz读取磁坐标，无需apexpy现场计算，机器无gfortran。没有伪造apexpy模块、关闭物理驱动或改动归一化/模型结构。若后续调用get_maglatlon，仍必须实际安装apexpy，否则明确报错。
+补丁可由diff查看，不运行不可信安装脚本。额外核验见logs/upstream_integrity.json。

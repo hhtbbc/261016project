@@ -1,0 +1,38 @@
+{
+  "prim": {
+    "TN": {
+      "max_absolute_change_native_unit": 9.159687283499807e-05,
+      "unit": "K"
+    },
+    "UN": {
+      "max_absolute_change_native_unit": 0.02999808924869285,
+      "unit": "cm/s"
+    },
+    "VN": {
+      "max_absolute_change_native_unit": 0.019582001786602632,
+      "unit": "cm/s"
+    }
+  },
+  "sech": {
+    "DEN": {
+      "max_absolute_change_native_unit": 6.938893903907228e-18,
+      "unit": "g/cm3"
+    },
+    "ZG": {
+      "max_absolute_change_native_unit": 4.0,
+      "unit": "cm"
+    },
+    "TN": {
+      "max_absolute_change_native_unit": 0.0001220703125,
+      "unit": "K"
+    },
+    "UN": {
+      "max_absolute_change_native_unit": 0.03125,
+      "unit": "cm/s"
+    },
+    "VN": {
+      "max_absolute_change_native_unit": 0.01959228515625,
+      "unit": "cm/s"
+    }
+  }
+}

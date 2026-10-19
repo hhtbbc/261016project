@@ -1,0 +1,36 @@
+{
+  "package_count": 74,
+  "selected": {
+    "libnetcdf": {
+      "version": "4.9.2",
+      "build": "mpi_openmpi_hcb9e1ad_15",
+      "sha256": "e9de1c0cec271217ddf33e7b1d32c4352939b387d32b69a3aa1046197946bbdc"
+    },
+    "gfortran_linux-64": {
+      "version": "12.4.0",
+      "build": "hd748a6a_10",
+      "sha256": "af239f67b34e7899baec5298b242727be3fb5e16f925890e9c6f48aa5013f243"
+    },
+    "gfortran_impl_linux-64": {
+      "version": "12.4.0",
+      "build": "h61783b2_2",
+      "sha256": "d2821162605181b2fb2388b695f19369e02869ad341d63a6a3e3f50668a1a76e"
+    },
+    "openmpi": {
+      "version": "5.0.8",
+      "build": "h2fe1745_110",
+      "sha256": "4f7eb20a3ca68bdbb5ffed23cf9f31ad246b02eea03260ed8ca36e080136a8d5"
+    },
+    "esmf": {
+      "version": "8.6.1",
+      "build": "mpi_openmpi_hd24adcd_4",
+      "sha256": "0fc373e635f8e746c40dcb0cb0647a463d82966b4da579b54cab5d03531d4f28"
+    },
+    "netcdf-fortran": {
+      "version": "4.6.1",
+      "build": "mpi_openmpi_h1bfaf44_8",
+      "sha256": "6e7b49b0fd17316290416c9aab3e4ed68c068003ed9bd6eec1472282a0532a4a"
+    }
+  },
+  "executable_sha256": "cda92951c83b1e0072d8508bfd65bf087cc092232cabdee59092b10d8095169c"
+}

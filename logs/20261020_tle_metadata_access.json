@@ -1,0 +1,22 @@
+[
+  {
+    "key": "eth_record_metadata",
+    "url": "https://satdb.ethz.ch/api/satellitedata/274764/",
+    "method": "GET",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "key": "eth_about",
+    "url": "https://satdb.ethz.ch/about/",
+    "method": "GET",
+    "status": 200,
+    "bytes": 5468
+  },
+  {
+    "key": "eth_record_options",
+    "url": "https://satdb.ethz.ch/api/satellitedata/",
+    "method": "OPTIONS",
+    "status": 200,
+    "bytes": 203
+  }
+]

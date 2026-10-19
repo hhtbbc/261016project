@@ -1,0 +1,481 @@
+--- a/src/apex.F90
++++ b/src/apex.F90
+@@ -40,7 +40,7 @@
+   implicit none
+   real,parameter :: re = 6371.2, eps = 1.e-5
+ 
+-  real,allocatable,save :: &
++  real,allocatable :: &
+     xarray(:,:,:), & ! cos(quasi-dipole latitude)*cos(apex longitude)
+     yarray(:,:,:), & ! cos(quasi-dipole latitude)*sin(apex longitude)
+     zarray(:,:,:), & ! sin(quasi-dipole latitude)
+@@ -50,7 +50,7 @@
+ ! as passed to apex_mka.
+ !
+   integer :: nglat,nglon,ngalt
+-  real,allocatable,save :: geolat(:), geolon(:), geoalt(:)    
++  real,allocatable :: geolat(:), geolon(:), geoalt(:)    
+ 
+   integer,parameter :: nmax=13
+   integer,parameter :: ncoef = nmax*nmax + 2*nmax + 1 ! 196
+@@ -209,7 +209,7 @@
+   integer :: i,j,k,kpol,istat
+   real :: reqore,rqorm1,cp,ct,st,sp,stmcpm,stmspm,ctm
+   real :: aht,alat,phia,bmag,xmag,ymag,zdown,vmp ! apex_sub output
+-  real :: vnor,rp,reqam1,a,slp,clp,phiar
++  real :: vnor,rp,reqam1,slp,clp,phiar
+ !
+ ! Some parts of the legacy apex code use constants to set dtr,rtd,
+ ! other parts use rtd=45./atan(1.), dtr=1./rtd. Differences are
+@@ -259,9 +259,18 @@
+ ! (these also are not deallocated by this module)
+ !
+   nglon=nlon ; nglat=nlat ; ngalt=nalt
+-  allocate(geolat(nglat),stat=istat)
+-  allocate(geolon(nglon),stat=istat)
+-  allocate(geoalt(ngalt),stat=istat)
++  if (.not. allocated(geolat)) then
++    allocate(geolat(nglat),stat=istat)
++    if (istat /= 0) stop 'allocate geolat'
++  endif
++  if (.not. allocated(geolon)) then
++    allocate(geolon(nglon),stat=istat)
++    if (istat /= 0) stop 'allocate geolon'
++  endif
++  if (.not. allocated(geoalt)) then
++    allocate(geoalt(ngalt),stat=istat)
++    if (istat /= 0) stop 'allocate geoalt'
++  endif
+   geolat(:) = gplat(:)
+   geolon(:) = gplon(:)
+   geoalt(:) = gpalt(:)
+@@ -448,6 +457,10 @@
+ ! subroutine apex_mall (input geodetic, output magnetic). Sub apex_mka
+ ! must be called before this routine.
+ !
++! 20160811 ADR If qdlat is +/-90, move it a little off the pole so that
++!  when gdlat,gdlon are used in apex_mall the directions of the base vectors
++!  are varying appropriately with longitude
++!
+ ! Args:
+   real,intent(in) ::  & ! inputs
+     qdlat,            & ! quasi-dipole latitude (deg)
+@@ -462,7 +475,7 @@
+ ! Local:
+   real :: x0,y0,z0,xnorm,xdif,ydif,zdif,dist2,hgrd2e,hgrd2n,hgrd2,&
+     angdist,distlon,glatx,cal,sal,coslm,slm,cad,sad,slp,clm2,slm2,&
+-    sad2,cal2,clp2,clp,dylon
++    sad2,cal2,clp2,clp,dylon,qdlat_offset
+   real :: ylat,ylon ! first guess output by gm2gc, input to intrp
+   integer :: iter
+   integer,parameter :: niter=20
+@@ -478,18 +491,26 @@
+   real :: cth,sth  ! output of adpl
+   character(len=5) :: edge
+ 
++  if (qdlat == 90.) then 
++    qdlat_offset = 90.-sqrt(precise)*rtd
++  elseif (qdlat == -90.) then
++    qdlat_offset = -90.+sqrt(precise)*rtd
++  else
++    qdlat_offset = qdlat
++  endif
++!
+   ier = 0 ; gdlat = 0. ; gdlon = 0.
+ !
+ ! Determine quasi-cartesian coordinates on a unit sphere of the
+ ! desired magnetic lat,lon in quasi-dipole coordinates.
+ !
+-  x0 = cos (qdlat*dtr) * cos (qdlon*dtr)
+-  y0 = cos (qdlat*dtr) * sin (qdlon*dtr)
+-  z0 = sin (qdlat*dtr)
++  x0 = cos (qdlat_offset*dtr) * cos (qdlon*dtr)
++  y0 = cos (qdlat_offset*dtr) * sin (qdlon*dtr)
++  z0 = sin (qdlat_offset*dtr)
+ !
+ ! Initial guess:  use centered dipole, convert to geocentric coords
+ !
+-  call gm2gc (qdlat,qdlon,ylat,ylon)
++  call gm2gc (qdlat_offset,qdlon,ylat,ylon)
+ !
+ ! Iterate until (angular distance)**2 (units: radians) is within
+ ! precise of location (qdlat,qdlon) on a unit sphere. 
+@@ -957,7 +978,7 @@
+ ! coordinates of the starting point
+ !
+   iflag = 2 ! gclat,r are returned
+-  call convrt(iflag,gdlat,alt,gclat,r,'linapx')
++  call convrt(iflag,gdlat,alt,gclat,r)
+ 
+   singml = ctp*sin(gclat*dtr) + stp*cos(gclat*dtr)*cos((glon-elon)*dtr)
+   cgml2 = max(0.25,1.-singml*singml)
+@@ -991,7 +1012,7 @@
+   if (nstp >= maxs) then
+     rho = sqrt(y(1)*y(1) + y(2)*y(2))
+     iflag = 3 ! xlat and ht are returned
+-    call convrt(iflag,xlat,ht,rho,y(3),'linapx')
++    call convrt(iflag,xlat,ht,rho,y(3))
+     xlon = rtd*atan2(y(2),y(1))
+     iflag = 1
+     call feldg(iflag,xlat,xlon,ht,bnrth,beast,bdown,babs)
+@@ -1011,7 +1032,7 @@
+ 
+ end subroutine linapx
+ !-----------------------------------------------------------------------
+-subroutine convrt(iflag,gdlat,alt,x1,x2,caller)
++subroutine convrt(iflag,gdlat,alt,x1,x2)
+ !
+ ! Convert space point from geodetic to geocentric or vice versa.
+ !
+@@ -1043,7 +1064,6 @@
+   integer,intent(in) :: iflag
+   real,intent(inout) :: gdlat,alt
+   real,intent(inout) :: x1,x2
+-  character(len=*),intent(in) :: caller
+ !
+ ! Local:
+   real :: sinlat,coslat,d,z,rho,rkm,scl,gclat,ri,a2,a4,a6,a8,&
+@@ -1136,7 +1156,7 @@
+   integer :: iflag
+ 
+   iflag = 1 ! Convert from geodetic to cylindrical (rho,z are output)
+-  call convrt(iflag,gdlat,alt,rho,z,'gd2cart')
++  call convrt(iflag,gdlat,alt,rho,z)
+ 
+   ang = glon*dtr
+   x = rho*cos(ang)
+@@ -1382,7 +1402,6 @@
+ end subroutine dipapx
+ !-----------------------------------------------------------------------
+ subroutine itrace(iapx)
+-  save
+ !
+ ! Uses 4-point ADAMS formula after initialization.
+ ! First 7 iterations advance point by 3 steps.
+@@ -1395,8 +1414,9 @@
+ !
+ ! Local:
+   integer :: i,j
+-  real :: yploc(3,4) ! local yp (i.e., not module data yp)
+-  real :: term,d2,d6,d12,d24,rc,rp
++  real :: term,rc,rp
++  real,save :: d2,d6,d12,d24, &
++    yploc(3,4) ! local yp (i.e., not module data yp)
+ 
+   iapx = 1
+ !
+@@ -1499,7 +1519,7 @@
+   iflag_convrt = 3
+   do i=1,3
+     rho = sqrt(yapx(1,i)**2+yapx(2,i)**2)
+-    call convrt(iflag_convrt,gdlt,ht(i),rho,yapx(3,i),'fndapx')
++    call convrt(iflag_convrt,gdlt,ht(i),rho,yapx(3,i))
+     gdln = rtd*atan2(yapx(2,i),yapx(1,i))
+     call feldg(iflag_feldg,gdlt,gdln,ht(i),x,ydum,z(i),f)
+   enddo 
+@@ -1577,7 +1597,7 @@
+   real,intent(out) :: gclat,gclon
+ !
+ ! Local:
+-  real :: ylat,ylon,stm,ctm,ctc
++  real :: stm,ctm,ctc
+ 
+   stm = cos(gmlat*dtr)
+   ctm = sin(gmlat*dtr)
+@@ -1676,22 +1696,22 @@
+     return 
+   endif
+ 
+-  call trilin(xarray(i0:i0+1,j0:j0+1,k0:k0+1),nlat,nlon,xi,yj,zk,fx,dfxdn,dfxde,dfxdd)
++  call trilin(xarray(i0:i0+1,j0:j0+1,k0:k0+1),xi,yj,zk,fx,dfxdn,dfxde,dfxdd)
+   dfxdth = -dfxdn*rtd/dlat
+   dfxdln =  dfxde*rtd/dlon
+   dfxdh  = -hti*hti*dfxdd/(re*diht)
+ 
+-  call trilin(yarray(i0:i0+1,j0:j0+1,k0:k0+1),nlat,nlon,xi,yj,zk,fy,dfydn,dfyde,dfydd)
++  call trilin(yarray(i0:i0+1,j0:j0+1,k0:k0+1),xi,yj,zk,fy,dfydn,dfyde,dfydd)
+   dfydth = -dfydn*rtd/dlat
+   dfydln =  dfyde*rtd/dlon
+   dfydh  = -hti*hti*dfydd/(re*diht)
+ 
+-  call trilin(zarray(i0:i0+1,j0:j0+1,k0:k0+1),nlat,nlon,xi,yj,zk,fz,dfzdn,dfzde,dfzdd)
++  call trilin(zarray(i0:i0+1,j0:j0+1,k0:k0+1),xi,yj,zk,fz,dfzdn,dfzde,dfzdd)
+   dfzdth = -dfzdn*rtd/dlat
+   dfzdln =  dfzde*rtd/dlon
+   dfzdh  = -hti*hti*dfzdd/(re*diht)
+ 
+-  call trilin(varray(i0:i0+1,j0:j0+1,k0:k0+1),nlat,nlon,xi,yj,zk,fv,dfvdn,dfvde,dfvdd)
++  call trilin(varray(i0:i0+1,j0:j0+1,k0:k0+1),xi,yj,zk,fv,dfvdn,dfvde,dfvdd)
+   dfvdth = -dfvdn*rtd/dlat
+   dfvdln =  dfvde*rtd/dlon
+   dfvdh  = -hti*hti*dfvdd/(re*diht)
+@@ -1705,11 +1725,11 @@
+     omfac = 1. - fac
+     xi = xi - 1.
+     i0 = i0 + 1
+-    call trilin (xarray(i0:i0+1,j0:j0+1,k0:k0+1),nlat,nlon,xi,yj,zk,dmf,dmdfdn,dmdfde,dmdfdd)
++    call trilin (xarray(i0:i0+1,j0:j0+1,k0:k0+1),xi,yj,zk,dmf,dmdfdn,dmdfde,dmdfdd)
+     dfxdln = dfxdln*omfac + fac*dmdfde*rtd/dlon
+-    call trilin (yarray(i0:i0+1,j0:j0+1,k0:k0+1),nlat,nlon,xi,yj,zk,dmf,dmdfdn,dmdfde,dmdfdd)
++    call trilin (yarray(i0:i0+1,j0:j0+1,k0:k0+1),xi,yj,zk,dmf,dmdfdn,dmdfde,dmdfdd)
+     dfydln = dfydln*omfac + fac*dmdfde*rtd/dlon
+-    call trilin (varray(i0:i0+1,j0:j0+1,k0:k0+1),nlat,nlon,xi,yj,zk,dmf,dmdfdn,dmdfde,dmdfdd)
++    call trilin (varray(i0:i0+1,j0:j0+1,k0:k0+1),xi,yj,zk,dmf,dmdfdn,dmdfde,dmdfdd)
+     dfvdln = dfvdln*omfac + fac*dmdfde*rtd/dlon
+   endif
+ 
+@@ -1718,22 +1738,19 @@
+     omfac = 1. - fac
+     xi = xi + 1.
+     i0 = i0 - 1
+-    call trilin (xarray(i0:i0+1,j0:j0+1,k0:k0+1),nlat,nlon,xi,yj,zk,dmf,dmdfdn,dmdfde,dmdfdd)
++    call trilin (xarray(i0:i0+1,j0:j0+1,k0:k0+1),xi,yj,zk,dmf,dmdfdn,dmdfde,dmdfdd)
+     dfxdln = dfxdln*omfac + fac*dmdfde*rtd/dlon
+-    call trilin (yarray(i0:i0+1,j0:j0+1,k0:k0+1),nlat,nlon,xi,yj,zk,dmf,dmdfdn,dmdfde,dmdfdd)
++    call trilin (yarray(i0:i0+1,j0:j0+1,k0:k0+1),xi,yj,zk,dmf,dmdfdn,dmdfde,dmdfdd)
+     dfydln = dfydln*omfac + fac*dmdfde*rtd/dlon
+-    call trilin (varray(i0:i0+1,j0:j0+1,k0:k0+1),nlat,nlon,xi,yj,zk,dmf,dmdfdn,dmdfde,dmdfdd)
++    call trilin (varray(i0:i0+1,j0:j0+1,k0:k0+1),xi,yj,zk,dmf,dmdfdn,dmdfde,dmdfdd)
+     dfvdln = dfvdln*omfac + fac*dmdfde*rtd/dlon
+   endif
+ 
+ end subroutine intrp
+ !-----------------------------------------------------------------------
+-subroutine trilin(u,nlat,nlon,xi,yj,zk,fu,dfudx,dfudy,dfudz)
++subroutine trilin(u,xi,yj,zk,fu,dfudx,dfudy,dfudz)
+ !
+ ! Args:
+-  integer,intent(in) :: &
+-    nlat,               & ! first dimension of u from calling routine
+-    nlon                  ! second dimension of u from calling routine
+   real,intent(in)    :: &
+     u(1:2,1:2,1:2),     & ! u(1,1,1) is address of lower corner of interpolation box
+     xi,  & ! fractional distance across box in x direction
+@@ -1864,19 +1881,19 @@
+   integer,parameter :: n1=120, n2=195, isv=0
+   integer,parameter :: &
+     ncn1=19, & ! number of coefficients dimensioned n1
+-    ncn2=6     ! number of coefficients dimensioned n2: increase with each IGRF update
++    ncn2=8     ! number of coefficients dimensioned n2: increase with each IGRF update
+   integer,parameter :: ngh = n1*ncn1 + n2*ncn2 + 1 ! not sure why the extra +1
+   real,save :: g1(n1,ncn1), g2(n2,ncn2), gh(ngh)
+   real,parameter :: alt = 0.
+ 
+-  if (date < 1900. .or. date > 2025.) then
+-    write(6,"('>>> cofrm: date=',f8.2,' Date must be >= 1900 and <= 2025')") date
++  if (date < 1900. .or. date > 2035.) then
++    write(6,"('>>> cofrm: date=',f8.2,' Date must be >= 1900 and <= 2035')") date
+     stop 'cofrm'
+   endif
+-  if (date > 2020.) then
++  if (date > 2030.) then
+     write(6,"('>>> WARNING cofrm:')")
+     write(6,"(/,'   This version of IGRF is intended for use up to ')")
+-    write(6,"('     2020. Values for ',f9.3,' will be computed but')") date
++    write(6,"('     2030. Values for ',f9.3,' will be computed but')") date
+     write(6,"('     may be of reduced accuracy.',/)")
+   endif
+ 
+@@ -2325,49 +2342,127 @@
+     	 -0.53,   -0.26,   -0.79/)			  	
+   
+    g2(:,5) = (/                                               & ! 2015
+-    -29442.0,-1501.0, 4797.1,-2445.1, 3012.9,-2845.6, 1676.7, &  
+-      -641.9, 1350.7,-2352.3, -115.3, 1225.6,  244.9,  582.0, &   
+-      -538.4,  907.6,  813.7,  283.3,  120.4, -188.7, -334.9, &   
+-       180.9,	70.4, -329.5, -232.6,  360.1,	47.3,  192.4, &   
+-       197.0, -140.9, -119.3, -157.5,	16.0,	 4.1,  100.2, &   
+-    	70.0,	67.7,  -20.8,	72.7,	33.2, -129.9,	58.9, &   
+-       -28.9,  -66.7,	13.2,	 7.3,  -70.9,	62.6,	81.6, &   
+-       -76.1,  -54.1,	-6.8,  -19.5,	51.8,	 5.7,	15.0, &   
+-    	24.4,	 9.4,	 3.4,	-2.8,  -27.4,	 6.8,	-2.2, &   
+-    	24.2,	 8.8,	10.1,  -16.9,  -18.3,	-3.2,	13.3, &   
+-       -20.6,  -14.6,	13.4,	16.2,	11.7,	 5.7,  -15.9, &   
+-    	-9.1,	-2.0,	 2.1,	 5.4,	 8.8,  -21.6,	 3.1, &   
+-    	10.8,	-3.3,	11.8,	 0.7,	-6.8,  -13.3,	-6.9, &   
+-    	-0.1,	 7.8,	 8.7,	 1.0,	-9.1,	-4.0,  -10.5, &   
+-    	 8.4,	-1.9,	-6.3,	 3.2,	 0.1,	-0.4,	 0.5, &   
+-    	 4.6,	-0.5,	 4.4,	 1.8,	-7.9,	-0.7,	-0.6, &   
+-    	 2.1,	-4.2,	 2.4,	-2.8,	-1.8,	-1.2,	-3.6, &   
+-    	-8.7,	 3.1,	-1.5,	-0.1,	-2.3,	 2.0,	 2.0, &   
+-    	-0.7,	-0.8,	-1.1,	 0.6,	 0.8,	-0.7,	-0.2, &   
+-    	 0.2,	-2.2,	 1.7,	-1.4,	-0.2,	-2.5,	 0.4, &   
+-    	-2.0,	 3.5,	-2.4,	-1.9,	-0.2,	-1.1,	 0.4, &   
+-    	 0.4,	 1.2,	 1.9,	-0.8,	-2.2,	 0.9,	 0.3, &   
+-    	 0.1,	 0.7,	 0.5,	-0.1,	-0.3,	 0.3,	-0.4, &   
+-    	 0.2,	 0.2,	-0.9,	-0.9,	-0.1,	 0.0,	 0.7, &   
+-    	 0.0,	-0.9,	-0.9,	 0.4,	 0.4,	 0.5,	 1.6, &   
+-    	-0.5,	-0.5,	 1.0,	-1.2,	-0.2,	-0.1,	 0.8, &   
+-    	 0.4,	-0.1,	-0.1,	 0.3,	 0.4,	 0.1,	 0.5, &   
+-    	 0.5,	-0.3,	-0.4,	-0.4,	-0.3,	-0.8/)	         
+-!
+-    g2(1:80,6) = (/                                           & ! 2017
+-       10.3,   18.1,  -26.6,   -8.7,   -3.3,  -27.4,    2.1,  &  
+-      -14.1,	3.4,   -5.5,	8.2,   -0.7,   -0.4,  -10.1,  &   
+-     	1.8,   -0.7,	0.2,   -1.3,   -9.1,	5.3,	4.1,  &   
+-     	2.9,   -4.3,   -5.2,   -0.2,	0.5,	0.6,   -1.3,  &   
+-     	1.7,   -0.1,   -1.2,	1.4,	3.4,	3.9,	0.0,  &   
+-       -0.3,   -0.1,	0.0,   -0.7,   -2.1,	2.1,   -0.7,  &   
+-       -1.2,	0.2,	0.3,	0.9,	1.6,	1.0,	0.3,  &   
+-       -0.2,	0.8,   -0.5,	0.4,	1.3,   -0.2,	0.1,  &   
+-       -0.3,   -0.6,   -0.6,   -0.8,	0.1,	0.2,   -0.2,  &   
+-     	0.2,	0.0,   -0.3,   -0.6,	0.3,	0.5,	0.1,  &   
+-       -0.2,	0.5,	0.4,   -0.2,	0.1,   -0.3,   -0.4,  &   
+-     	0.3,	0.3,	0.0/)
+-    g2(81:n2,6) = 0.0
++     -29441.46,-1501.77, 4795.99,-2445.88, 3012.20,-2845.41,  &  
++       1676.35, -642.17, 1350.33,-2352.26, -115.29, 1225.85,  &
++     	245.04,  581.69, -538.70,  907.42,  813.68,  283.54,  &
++     	120.49, -188.43, -334.85,  180.95,   70.38, -329.23,  &
++       -232.91,  360.14,   46.98,  192.35,  196.98, -140.94,  &
++       -119.14, -157.40,   15.98,    4.30,  100.12,   69.55,  &
++     	 67.57,  -20.61,   72.79,   33.30, -129.85,   58.74,  &
++     	-28.93,  -66.64,   13.14,    7.35,  -70.85,   62.41,  &
++     	 81.29,  -75.99,  -54.27,   -6.79,  -19.53,   51.82,  &
++     	  5.59,   15.07,   24.45,    9.32,    3.27,   -2.88,  &
++     	-27.50,    6.61,   -2.32,   23.98,    8.89,   10.04,  &
++     	-16.78,  -18.26,   -3.16,   13.18,  -20.56,  -14.60,  &
++     	 13.33,   16.16,   11.76,    5.69,  -15.98,   -9.10,  &
++     	 -2.02,    2.26,    5.33,    8.83,  -21.77,    3.02,  &
++     	 10.76,   -3.22,   11.74,    0.67,   -6.74,  -13.20,  &
++     	 -6.88,   -0.10,    7.79,    8.68,    1.04,   -9.06,  &
++     	 -3.89,  -10.54,    8.44,   -2.01,   -6.26,    3.28,  &
++     	  0.17,   -0.40,    0.55,    4.55,   -0.55,    4.40,  &
++     	  1.70,   -7.92,   -0.67,   -0.61,    2.13,   -4.16,  &
++     	  2.33,   -2.85,   -1.80,   -1.12,   -3.59,   -8.72,  &
++     	  3.00,   -1.40,    0.00,   -2.30,    2.11,    2.08,  &
++     	 -0.60,   -0.79,   -1.05,    0.58,    0.76,   -0.70,  &
++     	 -0.20,    0.14,   -2.12,    1.70,   -1.44,   -0.22,  &
++     	 -2.57,    0.44,   -2.01,    3.49,   -2.34,   -2.09,  &
++     	 -0.16,   -1.08,    0.46,    0.37,    1.23,    1.75,  &
++     	 -0.89,   -2.19,    0.85,    0.27,    0.10,    0.72,  &
++     	  0.54,   -0.09,   -0.37,    0.29,   -0.43,    0.23,  &
++     	  0.22,   -0.89,   -0.94,   -0.16,   -0.03,    0.72,  &
++     	 -0.02,   -0.92,   -0.88,    0.42,    0.49,    0.63,  &
++     	  1.56,   -0.42,   -0.50,    0.96,   -1.24,   -0.19,  &
++     	 -0.10,    0.81,    0.42,   -0.13,   -0.04,    0.38,  &
++     	  0.48,    0.08,    0.48,    0.46,   -0.30,   -0.35,  &
++     	 -0.43,   -0.36,   -0.71/)	 			  	
++  
++   g2(:,6) = (/                                               & ! 2020
++      -29403.4, -1451.4,  4653.4, -2499.8,  2982.0, -2991.7,  &
++        1676.8,  -734.6,  1363.0, -2380.8,   -82.0,  1236.1,  &
++         241.8,   525.6,  -542.5,   902.8,   809.5,   282.1,  &
++          86.2,  -158.5,  -309.5,   199.8,    47.4,  -350.3,  &
++        -234.4,   363.3,    47.5,   187.9,   208.4,  -140.7,  &
++        -121.4,  -151.2,    32.1,    14.0,    99.1,    66.0,  &
++          65.6,   -19.2,    73.0,    25.0,  -121.6,    52.8,  &
++         -36.1,   -64.4,    13.6,     9.0,   -64.8,    68.0,  &
++          80.5,   -76.6,   -51.5,    -8.2,   -16.9,    56.5,  &
++           2.4,    15.8,    23.6,     6.3,    -2.2,    -7.2,  &
++         -27.2,     9.8,    -1.9,    23.7,     9.7,     8.4,  &
++         -17.5,   -15.2,    -0.5,    12.8,   -21.1,   -11.8,  &
++          15.3,    14.9,    13.7,     3.6,   -16.6,    -6.9,  &
++          -0.3,     2.9,     5.0,     8.4,   -23.4,     2.8,  &
++          11.0,    -1.5,     9.9,    -1.1,    -5.1,   -13.2,  &
++          -6.2,     1.1,     7.8,     8.8,     0.4,    -9.2,  &
++          -1.4,   -11.9,     9.6,    -1.8,    -6.2,     3.4,  &
++          -0.1,    -0.2,     1.7,     3.5,    -0.9,     4.9,  &
++           0.7,    -8.6,    -0.9,    -0.1,     1.9,    -4.3,  &
++           1.4,    -3.4,    -2.4,    -0.1,    -3.8,    -8.8,  &
++           3.0,    -1.4,    -0.0,    -2.5,     2.5,     2.3,  &
++          -0.6,    -0.8,    -0.4,     0.3,     0.6,    -0.7,  &
++          -0.2,    -0.1,    -1.7,     1.4,    -1.6,    -0.6,  &
++          -3.0,     0.2,    -2.0,     3.1,    -2.5,    -2.0,  &
++          -0.1,    -1.1,     0.4,     0.5,     1.3,     1.4,  &
++          -1.1,    -1.8,     0.7,     0.1,     0.3,     0.7,  &
++           0.5,    -0.1,    -0.3,     0.6,    -0.5,     0.2,  &
++           0.1,    -0.9,    -1.1,    -0.0,    -0.3,     0.5,  &
++           0.1,    -0.9,    -0.9,     0.5,     0.6,     0.7,  &
++           1.4,    -0.3,    -0.4,     0.8,    -1.3,    -0.0,  &
++          -0.1,     0.8,     0.3,    -0.1,    -0.1,     0.4,  &
++           0.5,     0.1,     0.5,     0.5,    -0.4,    -0.5,  &
++          -0.4,    -0.4,    -0.6/)
++
++   g2(:,7) = (/                                               & ! 2025
++      -29350.0, -1410.3,  4545.5, -2556.2,  2950.9, -3133.6,  &
++        1648.7,  -814.2,  1360.9, -2404.2,   -56.9,  1243.8,  &
++         237.6,   453.4,  -549.6,   894.7,   799.6,   278.6,  &
++          55.8,  -134.0,  -281.1,   212.0,    12.0,  -375.4,  &
++        -232.9,   369.0,    45.3,   187.2,   220.0,  -138.7,  &
++        -122.9,  -141.9,    42.9,    20.9,   106.2,    64.3,  &
++          63.8,   -18.4,    76.7,    16.8,  -115.7,    48.9,  &
++         -40.9,   -59.8,    14.9,    10.9,   -60.8,    72.8,  &
++          79.6,   -76.9,   -48.9,    -8.8,   -14.4,    59.3,  &
++          -1.0,    15.8,    23.5,     2.5,    -7.4,   -11.2,  &
++         -25.1,    14.3,    -2.2,    23.1,    10.9,     7.2,  &
++         -17.5,   -12.6,     2.0,    11.5,   -21.8,    -9.7,  &
++          16.9,    12.7,    14.9,     0.7,   -16.8,    -5.2,  &
++           1.0,     3.9,     4.7,     8.0,   -24.8,     3.0,  &
++          12.1,    -0.2,     8.3,    -2.5,    -3.4,   -13.1,  &
++          -5.3,     2.4,     7.2,     8.6,    -0.6,    -8.7,  &
++           0.8,   -12.8,     9.8,    -1.3,    -6.4,     3.3,  &
++           0.2,     0.1,     2.0,     2.5,    -1.0,     5.4,  &
++          -0.5,    -9.0,    -0.9,     0.4,     1.5,    -4.2,  &
++           0.9,    -3.8,    -2.6,     0.9,    -3.9,    -9.0,  &
++           3.0,    -1.4,     0.0,    -2.5,     2.8,     2.4,  &
++          -0.6,    -0.6,     0.1,     0.0,     0.5,    -0.6,  &
++          -0.3,    -0.1,    -1.2,     1.1,    -1.7,    -1.0,  &
++          -2.9,    -0.1,    -1.8,     2.6,    -2.3,    -2.0,  &
++          -0.1,    -1.2,     0.4,     0.6,     1.2,     1.0,  &
++          -1.2,    -1.5,     0.6,     0.0,     0.5,     0.6,  &
++           0.5,    -0.2,    -0.1,     0.8,    -0.5,     0.1,  &
++          -0.2,    -0.9,    -1.2,     0.1,    -0.7,     0.2,  &
++           0.2,    -0.9,    -0.9,     0.6,     0.7,     0.7,  &
++           1.2,    -0.2,    -0.3,     0.5,    -1.3,     0.1,  &
++          -0.1,     0.7,     0.2,     0.0,    -0.2,     0.3,  &
++           0.5,     0.2,     0.6,     0.4,    -0.6,    -0.5,  &
++          -0.3,    -0.4,    -0.5/)
++
++!
++    g2(1:80,8) = (/                                           & ! 2026
++          12.6,    10.0,   -21.5,   -11.2,    -5.3,   -27.3,  &
++          -8.3,   -11.1,    -1.5,    -4.4,     3.8,     0.4,  &
++          -0.2,   -15.6,    -3.9,    -1.7,    -2.3,    -1.3,  &
++          -5.8,     4.1,     5.4,     1.6,    -6.8,    -4.1,  &
++           0.6,     1.3,    -0.5,     0.0,     2.1,     0.7,  &
++           0.5,     2.3,     1.7,     1.0,     1.9,    -0.2,  &
++          -0.3,     0.3,     0.8,    -1.6,     1.2,    -0.4,  &
++          -0.8,     0.8,     0.4,     0.7,     0.9,     0.9,  &
++          -0.1,    -0.1,     0.6,    -0.1,     0.5,     0.5,  &
++          -0.7,    -0.1,     0.0,    -0.8,    -0.9,    -0.8,  &
++           0.5,     0.9,    -0.3,    -0.1,     0.2,    -0.3,  &
++           0.0,     0.4,     0.4,    -0.3,    -0.1,     0.4,  &
++           0.3,    -0.5,     0.1,    -0.6,     0.0,     0.3,  &
++           0.3,     0.2/)
++    g2(81:n2,8) = 0.0
+ !
+ ! Set gh from g1,g2:
+ !
+@@ -2383,7 +2478,7 @@
+   enddo
+   gh(ngh) = 0. ! not sure why gh is dimensioned with the extra element, so set it to 0. 
+   
+-  if (date < 2015.) then
++  if (date < 2025.) then
+     t   = 0.2*(date - 1900.)
+     ll  = t
+     one = ll
+@@ -2405,18 +2500,18 @@
+       tc = -0.2
+       t = 0.2
+     endif
+-  else ! date >= 2015
+-    t     = date - 2015.0
++  else ! date >= 2025
++    t     = date - 2025.0
+     tc    = 1.0
+     if (isv.eq.1) then
+       t = 1.0
+       tc = 0.0
+     end if
+-    ll    = 2865
++    ll    = 3450
+     nmx   = 13
+     nc    = nmx*(nmx+2)
+     kmx   = (nmx+1)*(nmx+2)/2
+-  endif ! date < 2015
++  endif ! date < 2025
+   r = alt
+   l = 1
+   m = 1

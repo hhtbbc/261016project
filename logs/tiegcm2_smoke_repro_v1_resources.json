@@ -1,0 +1,10 @@
+{
+  "returncode": 0,
+  "elapsed_s": 2.220132367685437,
+  "max_launcher_rss_kb": 257368,
+  "simulated_minutes": 10,
+  "mpi_ranks": 4,
+  "build_tag": "tiegcm2_build_v1",
+  "run_directory": "/workspace/data/20261016/experiments/tiegcm2_smoke_repro_v1",
+  "actual_2023_simulation": false
+}

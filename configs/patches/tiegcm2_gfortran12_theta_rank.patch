@@ -1,0 +1,18 @@
+--- a/src/sphpac.F
++++ b/src/sphpac.F
+@@ -266,6 +266,7 @@
+ c                        notes by paul n. swarztrauber)
+ c
+       subroutine lfim (init,theta,l,n,nm,pb,id,wlfim)
++      dimension theta(*)
+       dimension       pb(1)        ,wlfim(1)
+ c
+ c     total length of wlfim is 4*l*(nm+1)
+@@ -463,6 +464,7 @@
+ c                        notes by paul n. swarztrauber)
+ c
+       subroutine lfin (init,theta,l,m,nm,pb,id,wlfin)
++      dimension theta(*)
+       dimension       pb(1)        ,wlfin(1)
+ c
+ c     total length of wlfin is 4*l*(nm+1)

@@ -1,0 +1,41 @@
+# Project-local environments, tools, caches and machine configuration
+/.venv*/
+/.envs/
+/.cache/
+/.tmp/
+/.config/
+/.local/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# External assets: preserved locally; see configs/external-assets.json
+/third_party/
+/data/
+/models/
+
+# Keep lightweight run metadata; omit generated binaries and model fields
+/experiments/**
+!/experiments/**/
+!/experiments/**/*.json
+!/experiments/**/*.inp
+!/experiments/**/*.f90
+*.o
+*.mod
+*.so
+*.a
+
+# Keep audit summaries and test logs, omit other transient logs
+/logs/**
+!/logs/*.json
+!/logs/tiegcm2023_all_tests.log
+
+# Credentials and editor/OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+.DS_Store
+.vscode/

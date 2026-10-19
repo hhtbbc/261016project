@@ -1,0 +1,170 @@
+### base config ###
+full_field: &FULL_FIELD
+  loss: 'l2'
+  lr: 1E-3
+  scheduler: 'CosineAnnealingLR'  # 'CosineAnnealingLR' or 'ReduceLROnPlateau'
+  num_workers: 16
+  device: 'gpu'
+  dt: 1 # how many timesteps ahead the model will predict
+  n_history: 0 # how many previous timesteps to consider
+  prediction_type: 'iterative'
+  n_prediction: 1 # applicable only if prediction_type == 'iterative'
+  # n_initial_conditions: 5 # applicable only if prediction_type == 'iterative'
+  ics_type: "default"
+  save_raw_forecasts: !!bool True
+  save_channel: !!bool False
+  #  masked_acc: !!bool False
+  #  maskpath: None
+  perturb: !!bool False
+  add_grid: !!bool False
+  n_grid_channels: 0
+  gridtype: 'sinusoidal' #options 'sinusoidal' or 'linear'
+  n_lon_periodic: 0
+  max_epochs: 50
+  batch_size: 1
+  weight_channel: !!bool False
+  # afno hyperparams
+  model_name: 'afnonet'
+  num_blocks: 8
+  patch_size: 4
+  depth: 12
+  embed_dim: 768
+  mlp_ratio: 4
+  drop_rate: 0
+  # prediction flow field
+  flow: !!bool True
+  normalization: 'zscore' #options zscore (minmax not supported)
+  enable_nhwc: !!bool True
+  optimizer_type: 'AdamW'  # Adam, AdamW, or FusedAdam
+  #  crop_size_x: None
+  #  crop_size_y: None
+  geomagnetic: !!bool True
+  solar: !!bool True
+  log_to_screen: !!bool True
+  # log_to_wandb: !!bool False
+  save_checkpoint: !!bool True
+  two_step_training: !!bool False
+  # plot_animations: !!bool False
+  add_noise: !!bool False
+  noise_std: 0
+  static_data_path:  'D:\tiegcm2.0_res5.0\static'
+
+#afno_pretrain: &backbone
+#  <<: *FULL_FIELD
+#  lr: 5E-4
+#  batch_size: 16
+#  max_epochs: 100
+#  # initialising net by ckpt file
+#  resuming: !!bool False
+#  #  ['TN', 'UN', 'VN', 'WN', 'Z', 'DEN', 'NE', 'ZG', 'TLBC', 'ULBC', 'VLBC', 'f107d', 'f107a', 'Kp']
+#  in_variables:  [ 'TN', 'UN', 'VN', 'WN', 'Z', 'NE', 'TLBC', 'ULBC', 'VLBC']
+#  in_drivers: ['f107d', 'f107a', 'Kp']
+#  out_variables:  [ 'TN', 'UN', 'VN', 'WN', 'Z', 'NE' ]
+#  weight_channel: !!bool True
+#  #  weight_channel: !!bool false
+#  exp_dir: 'output'
+#  train_data_path: 'D:\tiegcm2.0_res5.0\train'
+#  valid_data_path: 'D:\tiegcm2.0_res5.0\valid'
+#
+#afno_finetune:
+#  <<: *FULL_FIELD
+#  num_workers: 8
+#  lr: 1E-4
+#  batch_size: 8
+#  max_epochs: 50
+#  optimizer_type: 'AdamW'
+#  pretrained: !!bool True
+#  two_step_training: !!bool True
+#  resuming: !!bool False
+#  weight_channel: !!bool True
+#  pretrained_ckpt_path: 'output/fourcastnet/flow_lon0/training_checkpoints/best_ckpt.tar'
+
+# afno_train:
+#   <<: *FULL_FIELD
+#   device: 'gpu'
+#   num_workers: 4
+#   model_name: 'afnonet'
+#   num_blocks: 8
+#   dt: 1
+#   patch_size: 4
+#   depth: 12
+#   embed_dim: 768
+#   mlp_ratio: 4
+#   #Regularization parameter configuration
+#   drop_rate: 0.0
+#   lr: 5E-4
+#   batch_size: 16
+#   n_lon_periodic: 0
+#   max_epochs: 100
+#   two_step_training: !!bool False
+#   # initialising net by ckpt file
+#   resuming: !!bool True
+#   # weight by chennels
+#   weight_channel: !!bool False
+#   #Set to False for direct forecasting, and to True for increment-based forecasting.
+#   flow: !!bool True
+#   vaild_all: !!bool False
+#   n_history: 0
+#   #  ['TN', 'UN', 'VN', 'WN', 'Z', 'DEN', 'NE', 'ZG', 'TLBC', 'ULBC', 'VLBC', 'f107d', 'f107a', 'Kp']
+#   in_variables:  ['TN', 'UN', 'VN', 'WN', 'Z', 'DEN', 'TLBC', 'ULBC', 'VLBC']
+#   in_drivers: ['f107d', 'f107a', 'Kp']
+#   out_variables:  ['TN', 'UN', 'VN', 'WN', 'Z', 'DEN']
+#   exp_dir: 'output'
+#   train_data_path: 'D:\tiegcm2.0_res5.0\train'
+#   valid_data_path: 'D:\tiegcm2.0_res5.0\valid'
+#   prediction_type: 'iterative'
+#   n_prediction: 1 # (hr) applicable only if prediction_type == 'iterative'
+#   test_data_path: 'D:\tiegcm2.0_res5.0\test'
+#   log_DEN: !!bool False
+# #If DEN is to be log-transformed, please use the following static variable address file.
+# # static_data_path:  "..\static_log"
+
+afno_inference:
+  <<: *FULL_FIELD
+  device: 'gpu'
+  num_workers: 4
+  model_name: 'afnonet'
+  num_blocks: 8
+  patch_size: 4
+  dt: 1
+  depth: 12
+  embed_dim: 768
+  mlp_ratio: 4
+  drop_rate: 0.0
+  lr: 5E-4
+  batch_size: 16
+  n_lon_periodic: 0
+  #Set to False for direct forecasting, and to True for increment-based forecasting.
+  flow: !!bool True
+  perturb: !!bool False
+  n_perturbations: 24
+  two_step_training: !!bool False
+  # initialising net by ckpt file
+  resuming: !!bool False
+  step_con: !!bool False
+  #Year-round forecast
+#  year_pre: !!bool False
+  #Forecast days
+  pre_day: 1
+  # weight by chennels
+  weight_channel: !!bool True
+  #  ['TN', 'UN', 'VN', 'WN', 'Z', 'DEN', 'NE', 'ZG', 'TLBC', 'ULBC', 'VLBC', 'f107d', 'f107a', 'Kp']
+  in_variables:  ['TN', 'UN', 'VN', 'WN', 'Z', 'DEN', 'TLBC', 'ULBC', 'VLBC']
+  in_drivers: ['f107d', 'f107a', 'Kp']
+  out_variables:  ['TN', 'UN', 'VN', 'WN', 'Z', 'DEN']
+  exp_dir: 'output'
+  prediction_type: 'iterative'
+  n_prediction: 24 # (hr) applicable only if prediction_type == 'iterative'预测24步长
+  test_data_path: 'D:\tiegcm2.0_res5.0\test'
+  #Load the trained model checkpoint and restore the model weights.
+  best_checkpoint_path : 'D:\FourCast_TGCM\output\fourcastnet\flow\training_checkpoints\ckpt.tar'
+  pre_resultname: 'flow'
+  date_time: '2023-3-21 00:00:00'
+  result_save: !!bool True
+#  plt_comparison: !!bool True
+  mean_pre_var : 'DEN'
+  n_history: 0
+  res_file: !!bool false
+  log_DEN: !!bool False
+#If DEN is to be log-transformed, please use the following static variable address file.
+# static_data_path:  "..\static_log"

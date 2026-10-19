@@ -1,0 +1,24 @@
+{
+  "actual_utc": "2026-10-19T02:44:17.056117+00:00",
+  "files": {
+    "src/orbit/rk45_propagator.py": "b713b74e7716aad4d8aeb972da3de43749ab2516cddd61092cf88ce12c60a3fb",
+    "src/orbit/two_body.py": "faa7344125023a1bc73e318ef54da686ecf65b895e98e7c10cdb0c9fa0a7f76d",
+    "scripts/run_rk45_two_body.py": "2465682c8fd78c95e873fae9d1323af436140bd88e609cde55d3bb188e9c5212",
+    "tests/test_two_body.py": "4739f9c86339ee3a201fafe5931a7341f8c97873f057eac5ca0638cc7190e202",
+    "results/figures/rk45_two_body_v1_circle_angular_momentum.png": "2a8972822c260b5fdd4aba5352140bebccc14f2d73a6cc1870711d468b007ff8",
+    "results/figures/rk45_two_body_v1_rac_errors.png": "6eb3e5eb6126e662e8759f012d0812d3883e3829d5a8c195e7e1e0c36a25edb4",
+    "results/figures/rk45_two_body_v1_position_error.png": "ccb77db99475d64c25daa1b4ca78f065f06978cbc714409effbc162310060233",
+    "results/figures/rk45_two_body_v1_comparison.png": "4faf6b6738922c19feeb50035ab6d2ffc637e73cdf3fafe5b426b569e87766f4",
+    "results/figures/rk45_two_body_v1_orbit_3d.png": "2cfb7b8a530df0938bc36ca50ef0c038567e99ea18ec54749d085b45426afc57",
+    "results/figures/rk45_two_body_v1_circle_energy.png": "f078996a2f4eb610a48c0cb2206840d2fd860637ab29acf454f8a5901949f82b",
+    "results/metrics/rk45_two_body_v1_errors.csv": "acb90bd595083818628ba73329f6c8e1ef3e3e0d1fff862497ca4c7a439161c2",
+    "results/metrics/rk45_two_body_v1_circle.csv": "111851bcf222d7a14d8e84ba6b6e231b2cd917143c578f65b199d4a9c88d6e86",
+    "experiments/rk45_two_body_v1/summary.json": "40a4bd977d4c7f9cdde3a8f4b064ecab856279ad47b989da7fdc4fdecd94db70",
+    "experiments/rk45_two_body_v1/states.npz": "b1bfe3b930e4ea1ecaee6c52fbe4d6bb9766670eedcca50f378d044d077c8042",
+    "experiments/rk45_two_body_v1/circle.npz": "b6b5569481aeaaa0e7452ccb2991e2913a93f5eabe35c62fce2548f50dae654d",
+    "experiments/rk45_two_body_v1/preserved_inputs.json": "92d8b2a146c6c5a6afb7f03bb74817e256efcde86d56b679822a972c2edb32f6"
+  },
+  "workspace_paths_verified": true,
+  "tests_passed": 17,
+  "no_new_dependencies": true
+}

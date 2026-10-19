@@ -1,0 +1,1454 @@
+[
+  {
+    "file": "data/raw/swarm_attitude_2023/extracted/SW_OPER_STRAATT_1B_20230321T000000_20230321T235959_0601_MDR_SAT_AT.cdf",
+    "global": {
+      "TITLE": [
+        "SW_OPER_STRAATT_1B_20230321T000000_20230321T235959_0601_MDR_SAT_AT.cdf"
+      ],
+      "CREATOR": [
+        "L1B"
+      ],
+      "File_Name": [
+        "SW_OPER_STRAATT_1B_20230321T000000_20230321T235959_0601"
+      ],
+      "File_Description": [
+        "Attitude of spacecraft"
+      ],
+      "Notes": [
+        " "
+      ],
+      "Mission": [
+        "Swarm"
+      ],
+      "File_Class": [
+        "OPER"
+      ],
+      "File_Type": [
+        "STRAATT_1B"
+      ],
+      "File_Version": [
+        "0601"
+      ],
+      "Ref_Doc": [
+        "SW-RS-DSC-SY-0007"
+      ],
+      "Acquisition_Station": [
+        "SGS"
+      ],
+      "Proc_Center": [
+        "FRB"
+      ],
+      "Proc_Time": [
+        "UTC=2025-07-08T12:26:11.839555"
+      ],
+      "Software_Version": [
+        "ORBATT/03.25"
+      ],
+      "Abs_Orbit_Start": [
+        "052437"
+      ],
+      "Abs_Orbit_Stop": [
+        "052452"
+      ],
+      "State_Vector_Time": [
+        "UTC=2023-03-21T00:00:00.000000"
+      ],
+      "Delta_UT1": [
+        "-0.022474"
+      ],
+      "X_Position": [
+        "+0550487.955"
+      ],
+      "Y_Position": [
+        "-0203057.591"
+      ],
+      "Z_Position": [
+        "+6801823.521"
+      ],
+      "X_Velocity": [
+        "-4618.302509"
+      ],
+      "Y_Velocity": [
+        "+6031.318353"
+      ],
+      "Z_Velocity": [
+        "+0552.319061"
+      ],
+      "State_Vector_Source": [
+        "MD"
+      ],
+      "Product_Err": [
+        "0"
+      ],
+      "SPH_Descriptor": [
+        "STRAATT_1B"
+      ],
+      "Sensing_Start": [
+        "UTC=2023-03-21T00:00:00.000000"
+      ],
+      "Sensing_Stop": [
+        "UTC=2023-03-21T23:59:59.000000"
+      ],
+      "Maneuver_Id_1": [
+        "004"
+      ],
+      "Quality_Indicator": [
+        "000"
+      ],
+      "HK_ISP_Missing": [
+        "00000"
+      ],
+      "GPSR_ISP_Missing": [
+        "00121"
+      ],
+      "STR_ISP_Missing": [
+        "00126"
+      ],
+      "STR_One_CHU_Missing": [
+        "00000"
+      ],
+      "STR_Two_CHU_Missing": [
+        "00000"
+      ],
+      "List_of_DSDs": [
+        " "
+      ],
+      "Data_Set_Name_1": [
+        "STRANOM_0_"
+      ],
+      "Data_Set_Type_1": [
+        "R"
+      ],
+      "File_Name_1": [
+        "SW_OPER_STRANOM_0__20230321T201121_20230322T054521_0201"
+      ],
+      "Data_Set_Name_2": [
+        "STRANOM_0_"
+      ],
+      "Data_Set_Type_2": [
+        "R"
+      ],
+      "File_Name_2": [
+        "SW_OPER_STRANOM_0__20230321T061521_20230321T201121_0201"
+      ],
+      "Data_Set_Name_3": [
+        "STRANOM_0_"
+      ],
+      "Data_Set_Type_3": [
+        "R"
+      ],
+      "File_Name_3": [
+        "SW_OPER_STRANOM_0__20230320T190921_20230321T061521_0201"
+      ],
+      "Data_Set_Name_4": [
+        "HK_ANOM_0_"
+      ],
+      "Data_Set_Type_4": [
+        "R"
+      ],
+      "File_Name_4": [
+        "SW_OPER_HK_ANOM_0__20230321T201123_20230322T054523_0201"
+      ],
+      "Data_Set_Name_5": [
+        "HK_ANOM_0_"
+      ],
+      "Data_Set_Type_5": [
+        "R"
+      ],
+      "File_Name_5": [
+        "SW_OPER_HK_ANOM_0__20230321T061523_20230321T201123_0201"
+      ],
+      "Data_Set_Name_6": [
+        "HK_ANOM_0_"
+      ],
+      "Data_Set_Type_6": [
+        "R"
+      ],
+      "File_Name_6": [
+        "SW_OPER_HK_ANOM_0__20230320T190923_20230321T061523_0201"
+      ],
+      "Data_Set_Name_7": [
+        "GPSAOBS_0_"
+      ],
+      "Data_Set_Type_7": [
+        "R"
+      ],
+      "File_Name_7": [
+        "SW_OPER_GPSAOBS_0__20230321T201123_20230322T054522_0201"
+      ],
+      "Data_Set_Name_8": [
+        "GPSAOBS_0_"
+      ],
+      "Data_Set_Type_8": [
+        "R"
+      ],
+      "File_Name_8": [
+        "SW_OPER_GPSAOBS_0__20230321T061523_20230321T201122_0201"
+      ],
+      "Data_Set_Name_9": [
+        "GPSAOBS_0_"
+      ],
+      "Data_Set_Type_9": [
+        "R"
+      ],
+      "File_Name_9": [
+        "SW_OPER_GPSAOBS_0__20230320T190923_20230321T061522_0201"
+      ],
+      "Data_Set_Name_10": [
+        "GPSANAV_0_"
+      ],
+      "Data_Set_Type_10": [
+        "R"
+      ],
+      "File_Name_10": [
+        "SW_OPER_GPSANAV_0__20230321T201123_20230322T054522_0201"
+      ],
+      "Data_Set_Name_11": [
+        "GPSANAV_0_"
+      ],
+      "Data_Set_Type_11": [
+        "R"
+      ],
+      "File_Name_11": [
+        "SW_OPER_GPSANAV_0__20230321T061523_20230321T201122_0201"
+      ],
+      "Data_Set_Name_12": [
+        "GPSANAV_0_"
+      ],
+      "Data_Set_Type_12": [
+        "R"
+      ],
+      "File_Name_12": [
+        "SW_OPER_GPSANAV_0__20230320T190923_20230321T061522_0201"
+      ],
+      "Data_Set_Name_13": [
+        "GPSAGPS_0_"
+      ],
+      "Data_Set_Type_13": [
+        "R"
+      ],
+      "File_Name_13": [
+        "SW_OPER_GPSAGPS_0__20230321T201630_20230322T054211_0201"
+      ],
+      "Data_Set_Name_14": [
+        "GPSAGPS_0_"
+      ],
+      "Data_Set_Type_14": [
+        "R"
+      ],
+      "File_Name_14": [
+        "SW_OPER_GPSAGPS_0__20230321T061700_20230321T201001_0201"
+      ],
+      "Data_Set_Name_15": [
+        "GPSAGPS_0_"
+      ],
+      "Data_Set_Type_15": [
+        "R"
+      ],
+      "File_Name_15": [
+        "SW_OPER_GPSAGPS_0__20230320T191230_20230321T061400_0201"
+      ],
+      "Data_Set_Name_16": [
+        "AUX_USNEOP"
+      ],
+      "Data_Set_Type_16": [
+        "R"
+      ],
+      "File_Name_16": [
+        "SW_OPER_AUX_USNEOP_20230101T000000_20230630T000000_0001"
+      ],
+      "Data_Set_Name_17": [
+        "AUX_USLEAP"
+      ],
+      "Data_Set_Type_17": [
+        "R"
+      ],
+      "File_Name_17": [
+        "SW_OPER_AUX_USLEAP_19720101T000000_99999999T999999_0003"
+      ],
+      "Data_Set_Name_18": [
+        "AUX_SOLACT"
+      ],
+      "Data_Set_Type_18": [
+        "R"
+      ],
+      "File_Name_18": [
+        "SW_OPER_AUX_SOLACT_20230315T210000_20230316T210000_0001"
+      ],
+      "Data_Set_Name_19": [
+        "AUX_GPSEPH"
+      ],
+      "Data_Set_Type_19": [
+        "R"
+      ],
+      "File_Name_19": [
+        "SW_OPER_AUX_GPSEPH_20230322T000000_20230323T000000_0001"
+      ],
+      "Data_Set_Name_20": [
+        "AUX_GPSEPH"
+      ],
+      "Data_Set_Type_20": [
+        "R"
+      ],
+      "File_Name_20": [
+        "SW_OPER_AUX_GPSEPH_20230321T000000_20230322T000000_0001"
+      ],
+      "Data_Set_Name_21": [
+        "AUX_GPSEPH"
+      ],
+      "Data_Set_Type_21": [
+        "R"
+      ],
+      "File_Name_21": [
+        "SW_OPER_AUX_GPSEPH_20230320T000000_20230321T000000_0001"
+      ],
+      "Data_Set_Name_22": [
+        "AUX_GPSCLK"
+      ],
+      "Data_Set_Type_22": [
+        "R"
+      ],
+      "File_Name_22": [
+        "SW_OPER_AUX_GPSCLK_20230322T000000_20230323T000000_0001"
+      ],
+      "Data_Set_Name_23": [
+        "AUX_GPSCLK"
+      ],
+      "Data_Set_Type_23": [
+        "R"
+      ],
+      "File_Name_23": [
+        "SW_OPER_AUX_GPSCLK_20230321T000000_20230322T000000_0001"
+      ],
+      "Data_Set_Name_24": [
+        "AUX_GPSCLK"
+      ],
+      "Data_Set_Type_24": [
+        "R"
+      ],
+      "File_Name_24": [
+        "SW_OPER_AUX_GPSCLK_20230320T000000_20230321T000000_0001"
+      ],
+      "Data_Set_Name_25": [
+        "AUXATMC_C_"
+      ],
+      "Data_Set_Type_25": [
+        "R"
+      ],
+      "File_Name_25": [
+        "SW_OPER_AUXATMC_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_26": [
+        "AUXASW2_C_"
+      ],
+      "Data_Set_Type_26": [
+        "R"
+      ],
+      "File_Name_26": [
+        "SW_OPER_AUXASW2_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_27": [
+        "AUXASW1_C_"
+      ],
+      "Data_Set_Type_27": [
+        "R"
+      ],
+      "File_Name_27": [
+        "SW_OPER_AUXASW1_C__20181212T000000_99999999T999999_0016.EEF"
+      ],
+      "Data_Set_Name_28": [
+        "AUXASTR_C_"
+      ],
+      "Data_Set_Type_28": [
+        "R"
+      ],
+      "File_Name_28": [
+        "SW_OPER_AUXASTR_C__20181212T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_29": [
+        "AUXAORBMAN"
+      ],
+      "Data_Set_Type_29": [
+        "R"
+      ],
+      "File_Name_29": [
+        "SW_OPER_AUXAORBMAN_20140115T115151_20250701T202911_0353"
+      ],
+      "Data_Set_Name_30": [
+        "AUXAL1BPC_"
+      ],
+      "Data_Set_Type_30": [
+        "R"
+      ],
+      "File_Name_30": [
+        "SW_OPER_AUXAL1BPC__20230101T000000_20230701T000000_0109.EEF"
+      ],
+      "Data_Set_Name_31": [
+        "AUXAGPS_C_"
+      ],
+      "Data_Set_Type_31": [
+        "R"
+      ],
+      "File_Name_31": [
+        "SW_OPER_AUXAGPS_C__20000101T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_32": [
+        "AUXACONSC_"
+      ],
+      "Data_Set_Type_32": [
+        "R"
+      ],
+      "File_Name_32": [
+        "SW_OPER_AUXACONSC__20000101T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_33": [
+        "AUXABUS_C_"
+      ],
+      "Data_Set_Type_33": [
+        "R"
+      ],
+      "File_Name_33": [
+        "SW_OPER_AUXABUS_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_34": [
+        "AUXAAOC_C_"
+      ],
+      "Data_Set_Type_34": [
+        "R"
+      ],
+      "File_Name_34": [
+        "SW_OPER_AUXAAOC_C__20000101T000000_99999999T999999_0006.EEF"
+      ]
+    },
+    "variables": {
+      "Timestamp": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Time stamp",
+          "UNITS": "-"
+        },
+        "min": 63846576000000.0,
+        "max": 63846662399000.0
+      },
+      "SyncStatus": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Synchronization status",
+          "UNITS": "-"
+        },
+        "min": 0.0,
+        "max": 1.0
+      },
+      "q": {
+        "shape": [
+          86400,
+          4
+        ],
+        "attrs": {
+          "DESCRIPTION": "Quaternion, transformation: ITRF <- S/C",
+          "UNITS": "-"
+        },
+        "min": -0.994335759,
+        "max": 0.999828649,
+        "norm_range": [
+          0.9999999991231159,
+          1.0000000008859053
+        ]
+      },
+      "Flags_q": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the attitude information,",
+          "UNITS": "-"
+        },
+        "min": 0.0,
+        "max": 17.0
+      },
+      "Maneuver_Id": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Current maneuver identification code",
+          "UNITS": "-"
+        },
+        "min": 0.0,
+        "max": 4.0
+      }
+    }
+  },
+  {
+    "file": "data/raw/swarm_attitude_2023/extracted/SW_OPER_STRAATT_1B_20230322T000000_20230322T235959_0601_MDR_SAT_AT.cdf",
+    "global": {
+      "TITLE": [
+        "SW_OPER_STRAATT_1B_20230322T000000_20230322T235959_0601_MDR_SAT_AT.cdf"
+      ],
+      "CREATOR": [
+        "L1B"
+      ],
+      "File_Name": [
+        "SW_OPER_STRAATT_1B_20230322T000000_20230322T235959_0601"
+      ],
+      "File_Description": [
+        "Attitude of spacecraft"
+      ],
+      "Notes": [
+        " "
+      ],
+      "Mission": [
+        "Swarm"
+      ],
+      "File_Class": [
+        "OPER"
+      ],
+      "File_Type": [
+        "STRAATT_1B"
+      ],
+      "File_Version": [
+        "0601"
+      ],
+      "Ref_Doc": [
+        "SW-RS-DSC-SY-0007"
+      ],
+      "Acquisition_Station": [
+        "KSS"
+      ],
+      "Proc_Center": [
+        "FRB"
+      ],
+      "Proc_Time": [
+        "UTC=2025-07-08T12:46:08.844027"
+      ],
+      "Software_Version": [
+        "ORBATT/03.25"
+      ],
+      "Abs_Orbit_Start": [
+        "052452"
+      ],
+      "Abs_Orbit_Stop": [
+        "052467"
+      ],
+      "State_Vector_Time": [
+        "UTC=2023-03-22T00:00:00.000000"
+      ],
+      "Delta_UT1": [
+        "-0.023411"
+      ],
+      "X_Position": [
+        "-3586033.762"
+      ],
+      "Y_Position": [
+        "+4656955.172"
+      ],
+      "Z_Position": [
+        "-3506342.005"
+      ],
+      "X_Velocity": [
+        "+2392.494312"
+      ],
+      "Y_Velocity": [
+        "-3076.246733"
+      ],
+      "Z_Velocity": [
+        "-6544.827212"
+      ],
+      "State_Vector_Source": [
+        "MD"
+      ],
+      "Product_Err": [
+        "1"
+      ],
+      "SPH_Descriptor": [
+        "STRAATT_1B"
+      ],
+      "Sensing_Start": [
+        "UTC=2023-03-22T00:00:00.000000"
+      ],
+      "Sensing_Stop": [
+        "UTC=2023-03-22T23:59:59.000000"
+      ],
+      "Maneuver_Id_1": [
+        "004"
+      ],
+      "Quality_Indicator": [
+        "000"
+      ],
+      "HK_ISP_Missing": [
+        "00102"
+      ],
+      "GPSR_ISP_Missing": [
+        "00234"
+      ],
+      "STR_ISP_Missing": [
+        "00234"
+      ],
+      "STR_One_CHU_Missing": [
+        "00000"
+      ],
+      "STR_Two_CHU_Missing": [
+        "00000"
+      ],
+      "List_of_DSDs": [
+        " "
+      ],
+      "Data_Set_Name_1": [
+        "STRANOM_0_"
+      ],
+      "Data_Set_Type_1": [
+        "R"
+      ],
+      "File_Name_1": [
+        "SW_OPER_STRANOM_0__20230322T071921_20230323T033733_0201"
+      ],
+      "Data_Set_Name_2": [
+        "STRANOM_0_"
+      ],
+      "Data_Set_Type_2": [
+        "R"
+      ],
+      "File_Name_2": [
+        "SW_OPER_STRANOM_0__20230322T054521_20230322T071921_0201"
+      ],
+      "Data_Set_Name_3": [
+        "STRANOM_0_"
+      ],
+      "Data_Set_Type_3": [
+        "R"
+      ],
+      "File_Name_3": [
+        "SW_OPER_STRANOM_0__20230321T201121_20230322T054521_0201"
+      ],
+      "Data_Set_Name_4": [
+        "HK_ANOM_0_"
+      ],
+      "Data_Set_Type_4": [
+        "R"
+      ],
+      "File_Name_4": [
+        "SW_OPER_HK_ANOM_0__20230322T071923_20230323T033734_0201"
+      ],
+      "Data_Set_Name_5": [
+        "HK_ANOM_0_"
+      ],
+      "Data_Set_Type_5": [
+        "R"
+      ],
+      "File_Name_5": [
+        "SW_OPER_HK_ANOM_0__20230322T054523_20230322T071923_0201"
+      ],
+      "Data_Set_Name_6": [
+        "HK_ANOM_0_"
+      ],
+      "Data_Set_Type_6": [
+        "R"
+      ],
+      "File_Name_6": [
+        "SW_OPER_HK_ANOM_0__20230321T201123_20230322T054523_0201"
+      ],
+      "Data_Set_Name_7": [
+        "GPSAOBS_0_"
+      ],
+      "Data_Set_Type_7": [
+        "R"
+      ],
+      "File_Name_7": [
+        "SW_OPER_GPSAOBS_0__20230322T071923_20230323T033734_0201"
+      ],
+      "Data_Set_Name_8": [
+        "GPSAOBS_0_"
+      ],
+      "Data_Set_Type_8": [
+        "R"
+      ],
+      "File_Name_8": [
+        "SW_OPER_GPSAOBS_0__20230322T054523_20230322T071922_0201"
+      ],
+      "Data_Set_Name_9": [
+        "GPSAOBS_0_"
+      ],
+      "Data_Set_Type_9": [
+        "R"
+      ],
+      "File_Name_9": [
+        "SW_OPER_GPSAOBS_0__20230321T201123_20230322T054522_0201"
+      ],
+      "Data_Set_Name_10": [
+        "GPSANAV_0_"
+      ],
+      "Data_Set_Type_10": [
+        "R"
+      ],
+      "File_Name_10": [
+        "SW_OPER_GPSANAV_0__20230322T071923_20230323T033734_0201"
+      ],
+      "Data_Set_Name_11": [
+        "GPSANAV_0_"
+      ],
+      "Data_Set_Type_11": [
+        "R"
+      ],
+      "File_Name_11": [
+        "SW_OPER_GPSANAV_0__20230322T054523_20230322T071922_0201"
+      ],
+      "Data_Set_Name_12": [
+        "GPSANAV_0_"
+      ],
+      "Data_Set_Type_12": [
+        "R"
+      ],
+      "File_Name_12": [
+        "SW_OPER_GPSANAV_0__20230321T201123_20230322T054522_0201"
+      ],
+      "Data_Set_Name_13": [
+        "GPSAGPS_0_"
+      ],
+      "Data_Set_Type_13": [
+        "R"
+      ],
+      "File_Name_13": [
+        "SW_OPER_GPSAGPS_0__20230322T072211_20230323T033441_0201"
+      ],
+      "Data_Set_Name_14": [
+        "GPSAGPS_0_"
+      ],
+      "Data_Set_Type_14": [
+        "R"
+      ],
+      "File_Name_14": [
+        "SW_OPER_GPSAGPS_0__20230322T055441_20230322T071500_0201"
+      ],
+      "Data_Set_Name_15": [
+        "GPSAGPS_0_"
+      ],
+      "Data_Set_Type_15": [
+        "R"
+      ],
+      "File_Name_15": [
+        "SW_OPER_GPSAGPS_0__20230321T201630_20230322T054211_0201"
+      ],
+      "Data_Set_Name_16": [
+        "AUX_USNEOP"
+      ],
+      "Data_Set_Type_16": [
+        "R"
+      ],
+      "File_Name_16": [
+        "SW_OPER_AUX_USNEOP_20230102T000000_20230701T000000_0001"
+      ],
+      "Data_Set_Name_17": [
+        "AUX_USLEAP"
+      ],
+      "Data_Set_Type_17": [
+        "R"
+      ],
+      "File_Name_17": [
+        "SW_OPER_AUX_USLEAP_19720101T000000_99999999T999999_0003"
+      ],
+      "Data_Set_Name_18": [
+        "AUX_SOLACT"
+      ],
+      "Data_Set_Type_18": [
+        "R"
+      ],
+      "File_Name_18": [
+        "SW_OPER_AUX_SOLACT_20230316T210000_20230317T210000_0001"
+      ],
+      "Data_Set_Name_19": [
+        "AUX_GPSEPH"
+      ],
+      "Data_Set_Type_19": [
+        "R"
+      ],
+      "File_Name_19": [
+        "SW_OPER_AUX_GPSEPH_20230323T000000_20230324T000000_0001"
+      ],
+      "Data_Set_Name_20": [
+        "AUX_GPSEPH"
+      ],
+      "Data_Set_Type_20": [
+        "R"
+      ],
+      "File_Name_20": [
+        "SW_OPER_AUX_GPSEPH_20230322T000000_20230323T000000_0001"
+      ],
+      "Data_Set_Name_21": [
+        "AUX_GPSEPH"
+      ],
+      "Data_Set_Type_21": [
+        "R"
+      ],
+      "File_Name_21": [
+        "SW_OPER_AUX_GPSEPH_20230321T000000_20230322T000000_0001"
+      ],
+      "Data_Set_Name_22": [
+        "AUX_GPSCLK"
+      ],
+      "Data_Set_Type_22": [
+        "R"
+      ],
+      "File_Name_22": [
+        "SW_OPER_AUX_GPSCLK_20230323T000000_20230324T000000_0001"
+      ],
+      "Data_Set_Name_23": [
+        "AUX_GPSCLK"
+      ],
+      "Data_Set_Type_23": [
+        "R"
+      ],
+      "File_Name_23": [
+        "SW_OPER_AUX_GPSCLK_20230322T000000_20230323T000000_0001"
+      ],
+      "Data_Set_Name_24": [
+        "AUX_GPSCLK"
+      ],
+      "Data_Set_Type_24": [
+        "R"
+      ],
+      "File_Name_24": [
+        "SW_OPER_AUX_GPSCLK_20230321T000000_20230322T000000_0001"
+      ],
+      "Data_Set_Name_25": [
+        "AUXATMC_C_"
+      ],
+      "Data_Set_Type_25": [
+        "R"
+      ],
+      "File_Name_25": [
+        "SW_OPER_AUXATMC_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_26": [
+        "AUXASW2_C_"
+      ],
+      "Data_Set_Type_26": [
+        "R"
+      ],
+      "File_Name_26": [
+        "SW_OPER_AUXASW2_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_27": [
+        "AUXASW1_C_"
+      ],
+      "Data_Set_Type_27": [
+        "R"
+      ],
+      "File_Name_27": [
+        "SW_OPER_AUXASW1_C__20181212T000000_99999999T999999_0016.EEF"
+      ],
+      "Data_Set_Name_28": [
+        "AUXASTR_C_"
+      ],
+      "Data_Set_Type_28": [
+        "R"
+      ],
+      "File_Name_28": [
+        "SW_OPER_AUXASTR_C__20181212T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_29": [
+        "AUXAORBMAN"
+      ],
+      "Data_Set_Type_29": [
+        "R"
+      ],
+      "File_Name_29": [
+        "SW_OPER_AUXAORBMAN_20140115T115151_20250701T202911_0353"
+      ],
+      "Data_Set_Name_30": [
+        "AUXAL1BPC_"
+      ],
+      "Data_Set_Type_30": [
+        "R"
+      ],
+      "File_Name_30": [
+        "SW_OPER_AUXAL1BPC__20230101T000000_20230701T000000_0109.EEF"
+      ],
+      "Data_Set_Name_31": [
+        "AUXAGPS_C_"
+      ],
+      "Data_Set_Type_31": [
+        "R"
+      ],
+      "File_Name_31": [
+        "SW_OPER_AUXAGPS_C__20000101T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_32": [
+        "AUXACONSC_"
+      ],
+      "Data_Set_Type_32": [
+        "R"
+      ],
+      "File_Name_32": [
+        "SW_OPER_AUXACONSC__20000101T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_33": [
+        "AUXABUS_C_"
+      ],
+      "Data_Set_Type_33": [
+        "R"
+      ],
+      "File_Name_33": [
+        "SW_OPER_AUXABUS_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_34": [
+        "AUXAAOC_C_"
+      ],
+      "Data_Set_Type_34": [
+        "R"
+      ],
+      "File_Name_34": [
+        "SW_OPER_AUXAAOC_C__20000101T000000_99999999T999999_0006.EEF"
+      ]
+    },
+    "variables": {
+      "Timestamp": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Time stamp",
+          "UNITS": "-"
+        },
+        "min": 63846662400000.0,
+        "max": 63846748799000.0
+      },
+      "SyncStatus": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Synchronization status",
+          "UNITS": "-"
+        },
+        "min": 0.0,
+        "max": 48.0
+      },
+      "q": {
+        "shape": [
+          86400,
+          4
+        ],
+        "attrs": {
+          "DESCRIPTION": "Quaternion, transformation: ITRF <- S/C",
+          "UNITS": "-"
+        },
+        "min": NaN,
+        "max": NaN,
+        "norm_range": [
+          NaN,
+          NaN
+        ]
+      },
+      "Flags_q": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the attitude information,",
+          "UNITS": "-"
+        },
+        "min": 0.0,
+        "max": 255.0
+      },
+      "Maneuver_Id": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Current maneuver identification code",
+          "UNITS": "-"
+        },
+        "min": 0.0,
+        "max": 4.0
+      }
+    }
+  },
+  {
+    "file": "data/raw/swarm_attitude_2023/extracted/SW_OPER_STRAATT_1B_20230323T000000_20230323T235959_0601_MDR_SAT_AT.cdf",
+    "global": {
+      "TITLE": [
+        "SW_OPER_STRAATT_1B_20230323T000000_20230323T235959_0601_MDR_SAT_AT.cdf"
+      ],
+      "CREATOR": [
+        "L1B"
+      ],
+      "File_Name": [
+        "SW_OPER_STRAATT_1B_20230323T000000_20230323T235959_0601"
+      ],
+      "File_Description": [
+        "Attitude of spacecraft"
+      ],
+      "Notes": [
+        " "
+      ],
+      "Mission": [
+        "Swarm"
+      ],
+      "File_Class": [
+        "OPER"
+      ],
+      "File_Type": [
+        "STRAATT_1B"
+      ],
+      "File_Version": [
+        "0601"
+      ],
+      "Ref_Doc": [
+        "SW-RS-DSC-SY-0007"
+      ],
+      "Acquisition_Station": [
+        "KSS"
+      ],
+      "Proc_Center": [
+        "FRB"
+      ],
+      "Proc_Time": [
+        "UTC=2025-07-08T13:03:25.827913"
+      ],
+      "Software_Version": [
+        "ORBATT/03.25"
+      ],
+      "Abs_Orbit_Start": [
+        "052467"
+      ],
+      "Abs_Orbit_Stop": [
+        "052483"
+      ],
+      "State_Vector_Time": [
+        "UTC=2023-03-23T00:00:00.000000"
+      ],
+      "Delta_UT1": [
+        "-0.024273"
+      ],
+      "X_Position": [
+        "+3433847.552"
+      ],
+      "Y_Position": [
+        "-5194965.637"
+      ],
+      "Z_Position": [
+        "-2838216.170"
+      ],
+      "X_Velocity": [
+        "+1682.807630"
+      ],
+      "Y_Velocity": [
+        "-2667.952342"
+      ],
+      "Z_Velocity": [
+        "+6936.714551"
+      ],
+      "State_Vector_Source": [
+        "MD"
+      ],
+      "Product_Err": [
+        "1"
+      ],
+      "SPH_Descriptor": [
+        "STRAATT_1B"
+      ],
+      "Sensing_Start": [
+        "UTC=2023-03-23T00:00:00.000000"
+      ],
+      "Sensing_Stop": [
+        "UTC=2023-03-23T23:59:59.000000"
+      ],
+      "Maneuver_Id_1": [
+        "004"
+      ],
+      "Quality_Indicator": [
+        "000"
+      ],
+      "HK_ISP_Missing": [
+        "00013"
+      ],
+      "GPSR_ISP_Missing": [
+        "00050"
+      ],
+      "STR_ISP_Missing": [
+        "00147"
+      ],
+      "STR_One_CHU_Missing": [
+        "00000"
+      ],
+      "STR_Two_CHU_Missing": [
+        "00000"
+      ],
+      "List_of_DSDs": [
+        " "
+      ],
+      "Data_Set_Name_1": [
+        "STRANOM_0_"
+      ],
+      "Data_Set_Type_1": [
+        "R"
+      ],
+      "File_Name_1": [
+        "SW_OPER_STRANOM_0__20230323T064621_20230324T012404_0201"
+      ],
+      "Data_Set_Name_2": [
+        "STRANOM_0_"
+      ],
+      "Data_Set_Type_2": [
+        "R"
+      ],
+      "File_Name_2": [
+        "SW_OPER_STRANOM_0__20230323T033721_20230323T064621_0201"
+      ],
+      "Data_Set_Name_3": [
+        "STRANOM_0_"
+      ],
+      "Data_Set_Type_3": [
+        "R"
+      ],
+      "File_Name_3": [
+        "SW_OPER_STRANOM_0__20230322T071921_20230323T033733_0201"
+      ],
+      "Data_Set_Name_4": [
+        "HK_ANOM_0_"
+      ],
+      "Data_Set_Type_4": [
+        "R"
+      ],
+      "File_Name_4": [
+        "SW_OPER_HK_ANOM_0__20230323T064623_20230324T012405_0201"
+      ],
+      "Data_Set_Name_5": [
+        "HK_ANOM_0_"
+      ],
+      "Data_Set_Type_5": [
+        "R"
+      ],
+      "File_Name_5": [
+        "SW_OPER_HK_ANOM_0__20230323T033723_20230323T064623_0201"
+      ],
+      "Data_Set_Name_6": [
+        "HK_ANOM_0_"
+      ],
+      "Data_Set_Type_6": [
+        "R"
+      ],
+      "File_Name_6": [
+        "SW_OPER_HK_ANOM_0__20230322T071923_20230323T033734_0201"
+      ],
+      "Data_Set_Name_7": [
+        "GPSAOBS_0_"
+      ],
+      "Data_Set_Type_7": [
+        "R"
+      ],
+      "File_Name_7": [
+        "SW_OPER_GPSAOBS_0__20230323T064623_20230324T012404_0201"
+      ],
+      "Data_Set_Name_8": [
+        "GPSAOBS_0_"
+      ],
+      "Data_Set_Type_8": [
+        "R"
+      ],
+      "File_Name_8": [
+        "SW_OPER_GPSAOBS_0__20230323T033723_20230323T064622_0201"
+      ],
+      "Data_Set_Name_9": [
+        "GPSAOBS_0_"
+      ],
+      "Data_Set_Type_9": [
+        "R"
+      ],
+      "File_Name_9": [
+        "SW_OPER_GPSAOBS_0__20230322T071923_20230323T033734_0201"
+      ],
+      "Data_Set_Name_10": [
+        "GPSANAV_0_"
+      ],
+      "Data_Set_Type_10": [
+        "R"
+      ],
+      "File_Name_10": [
+        "SW_OPER_GPSANAV_0__20230323T064623_20230324T012404_0201"
+      ],
+      "Data_Set_Name_11": [
+        "GPSANAV_0_"
+      ],
+      "Data_Set_Type_11": [
+        "R"
+      ],
+      "File_Name_11": [
+        "SW_OPER_GPSANAV_0__20230323T033723_20230323T064622_0201"
+      ],
+      "Data_Set_Name_12": [
+        "GPSANAV_0_"
+      ],
+      "Data_Set_Type_12": [
+        "R"
+      ],
+      "File_Name_12": [
+        "SW_OPER_GPSANAV_0__20230322T071923_20230323T033734_0201"
+      ],
+      "Data_Set_Name_13": [
+        "GPSAGPS_0_"
+      ],
+      "Data_Set_Type_13": [
+        "R"
+      ],
+      "File_Name_13": [
+        "SW_OPER_GPSAGPS_0__20230323T064900_20230324T011731_0201"
+      ],
+      "Data_Set_Name_14": [
+        "GPSAGPS_0_"
+      ],
+      "Data_Set_Type_14": [
+        "R"
+      ],
+      "File_Name_14": [
+        "SW_OPER_GPSAGPS_0__20230323T034711_20230323T064400_0201"
+      ],
+      "Data_Set_Name_15": [
+        "GPSAGPS_0_"
+      ],
+      "Data_Set_Type_15": [
+        "R"
+      ],
+      "File_Name_15": [
+        "SW_OPER_GPSAGPS_0__20230322T072211_20230323T033441_0201"
+      ],
+      "Data_Set_Name_16": [
+        "AUX_USNEOP"
+      ],
+      "Data_Set_Type_16": [
+        "R"
+      ],
+      "File_Name_16": [
+        "SW_OPER_AUX_USNEOP_20230103T000000_20230702T000000_0001"
+      ],
+      "Data_Set_Name_17": [
+        "AUX_USLEAP"
+      ],
+      "Data_Set_Type_17": [
+        "R"
+      ],
+      "File_Name_17": [
+        "SW_OPER_AUX_USLEAP_19720101T000000_99999999T999999_0003"
+      ],
+      "Data_Set_Name_18": [
+        "AUX_SOLACT"
+      ],
+      "Data_Set_Type_18": [
+        "R"
+      ],
+      "File_Name_18": [
+        "SW_OPER_AUX_SOLACT_20230317T210000_20230318T210000_0001"
+      ],
+      "Data_Set_Name_19": [
+        "AUX_GPSEPH"
+      ],
+      "Data_Set_Type_19": [
+        "R"
+      ],
+      "File_Name_19": [
+        "SW_OPER_AUX_GPSEPH_20230324T000000_20230325T000000_0001"
+      ],
+      "Data_Set_Name_20": [
+        "AUX_GPSEPH"
+      ],
+      "Data_Set_Type_20": [
+        "R"
+      ],
+      "File_Name_20": [
+        "SW_OPER_AUX_GPSEPH_20230323T000000_20230324T000000_0001"
+      ],
+      "Data_Set_Name_21": [
+        "AUX_GPSEPH"
+      ],
+      "Data_Set_Type_21": [
+        "R"
+      ],
+      "File_Name_21": [
+        "SW_OPER_AUX_GPSEPH_20230322T000000_20230323T000000_0001"
+      ],
+      "Data_Set_Name_22": [
+        "AUX_GPSCLK"
+      ],
+      "Data_Set_Type_22": [
+        "R"
+      ],
+      "File_Name_22": [
+        "SW_OPER_AUX_GPSCLK_20230324T000000_20230325T000000_0001"
+      ],
+      "Data_Set_Name_23": [
+        "AUX_GPSCLK"
+      ],
+      "Data_Set_Type_23": [
+        "R"
+      ],
+      "File_Name_23": [
+        "SW_OPER_AUX_GPSCLK_20230323T000000_20230324T000000_0001"
+      ],
+      "Data_Set_Name_24": [
+        "AUX_GPSCLK"
+      ],
+      "Data_Set_Type_24": [
+        "R"
+      ],
+      "File_Name_24": [
+        "SW_OPER_AUX_GPSCLK_20230322T000000_20230323T000000_0001"
+      ],
+      "Data_Set_Name_25": [
+        "AUXATMC_C_"
+      ],
+      "Data_Set_Type_25": [
+        "R"
+      ],
+      "File_Name_25": [
+        "SW_OPER_AUXATMC_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_26": [
+        "AUXASW2_C_"
+      ],
+      "Data_Set_Type_26": [
+        "R"
+      ],
+      "File_Name_26": [
+        "SW_OPER_AUXASW2_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_27": [
+        "AUXASW1_C_"
+      ],
+      "Data_Set_Type_27": [
+        "R"
+      ],
+      "File_Name_27": [
+        "SW_OPER_AUXASW1_C__20181212T000000_99999999T999999_0016.EEF"
+      ],
+      "Data_Set_Name_28": [
+        "AUXASTR_C_"
+      ],
+      "Data_Set_Type_28": [
+        "R"
+      ],
+      "File_Name_28": [
+        "SW_OPER_AUXASTR_C__20181212T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_29": [
+        "AUXAORBMAN"
+      ],
+      "Data_Set_Type_29": [
+        "R"
+      ],
+      "File_Name_29": [
+        "SW_OPER_AUXAORBMAN_20140115T115151_20250701T202911_0353"
+      ],
+      "Data_Set_Name_30": [
+        "AUXAL1BPC_"
+      ],
+      "Data_Set_Type_30": [
+        "R"
+      ],
+      "File_Name_30": [
+        "SW_OPER_AUXAL1BPC__20230101T000000_20230701T000000_0109.EEF"
+      ],
+      "Data_Set_Name_31": [
+        "AUXAGPS_C_"
+      ],
+      "Data_Set_Type_31": [
+        "R"
+      ],
+      "File_Name_31": [
+        "SW_OPER_AUXAGPS_C__20000101T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_32": [
+        "AUXACONSC_"
+      ],
+      "Data_Set_Type_32": [
+        "R"
+      ],
+      "File_Name_32": [
+        "SW_OPER_AUXACONSC__20000101T000000_99999999T999999_0005.EEF"
+      ],
+      "Data_Set_Name_33": [
+        "AUXABUS_C_"
+      ],
+      "Data_Set_Type_33": [
+        "R"
+      ],
+      "File_Name_33": [
+        "SW_OPER_AUXABUS_C__20000101T000000_99999999T999999_0006.EEF"
+      ],
+      "Data_Set_Name_34": [
+        "AUXAAOC_C_"
+      ],
+      "Data_Set_Type_34": [
+        "R"
+      ],
+      "File_Name_34": [
+        "SW_OPER_AUXAAOC_C__20000101T000000_99999999T999999_0006.EEF"
+      ]
+    },
+    "variables": {
+      "Timestamp": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Time stamp",
+          "UNITS": "-"
+        },
+        "min": 63846748800000.0,
+        "max": 63846835199000.0
+      },
+      "SyncStatus": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Synchronization status",
+          "UNITS": "-"
+        },
+        "min": 0.0,
+        "max": 48.0
+      },
+      "q": {
+        "shape": [
+          86400,
+          4
+        ],
+        "attrs": {
+          "DESCRIPTION": "Quaternion, transformation: ITRF <- S/C",
+          "UNITS": "-"
+        },
+        "min": NaN,
+        "max": NaN,
+        "norm_range": [
+          NaN,
+          NaN
+        ]
+      },
+      "Flags_q": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the attitude information,",
+          "UNITS": "-"
+        },
+        "min": 0.0,
+        "max": 255.0
+      },
+      "Maneuver_Id": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Current maneuver identification code",
+          "UNITS": "-"
+        },
+        "min": 0.0,
+        "max": 4.0
+      }
+    }
+  }
+]

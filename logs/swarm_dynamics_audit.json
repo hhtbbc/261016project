@@ -1,0 +1,1097 @@
+[
+  {
+    "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230323T000000_20230323T235959_0601_MDR_SC_DYN.cdf",
+    "fields": {
+      "Timestamp": {
+        "shape": [
+          86390
+        ],
+        "attrs": {
+          "DESCRIPTION": "Time stamp",
+          "UNITS": "-"
+        },
+        "first": 63846748800756.805,
+        "last": 63846835199757.016
+      },
+      "SyncStatus": {
+        "shape": [
+          86390
+        ],
+        "attrs": {
+          "DESCRIPTION": "Synchronization status",
+          "UNITS": "-"
+        },
+        "first": 0,
+        "last": 0
+      },
+      "a_Sun": {
+        "shape": [
+          86390,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Acceleration due to Solar radiation pressure, S/C frame",
+          "UNITS": "m/s2"
+        },
+        "first": [
+          NaN,
+          NaN,
+          NaN
+        ],
+        "last": [
+          -2.151e-08,
+          4.051e-08,
+          4.4799999999999994e-09
+        ]
+      },
+      "e_Sun": {
+        "shape": [
+          86390,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Direction to the Sun, unit vector, S/C frame",
+          "UNITS": "-"
+        },
+        "first": [
+          -0.189328725,
+          -0.8515538410000001,
+          0.488887196
+        ],
+        "last": [
+          0.46179065,
+          -0.88395526,
+          -0.073297294
+        ]
+      },
+      "m_SC": {
+        "shape": [
+          86390
+        ],
+        "attrs": {
+          "DESCRIPTION": "Actual mass of S/C",
+          "UNITS": "kg"
+        },
+        "first": 400.358,
+        "last": 400.397
+      },
+      "r_CoG": {
+        "shape": [
+          86390,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Center of gravity, S/C frame",
+          "UNITS": "m"
+        },
+        "first": [
+          -1.968,
+          0.001,
+          -0.335
+        ],
+        "last": [
+          -1.968,
+          0.001,
+          -0.335
+        ]
+      },
+      "A_head": {
+        "shape": [
+          86390,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,front",
+          "UNITS": "m2"
+        },
+        "first": [
+          0.993,
+          0.016,
+          -0.043000000000000003
+        ],
+        "last": [
+          1.1520000000000001,
+          -0.197,
+          -0.176
+        ]
+      },
+      "A_right": {
+        "shape": [
+          86390,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,right",
+          "UNITS": "m2"
+        },
+        "first": [
+          -0.002,
+          3.125,
+          -1.846
+        ],
+        "last": [
+          0.065,
+          3.198,
+          -1.9140000000000001
+        ]
+      },
+      "A_left": {
+        "shape": [
+          86390,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,left",
+          "UNITS": "m2"
+        },
+        "first": [
+          0.008,
+          -3.137,
+          -1.824
+        ],
+        "last": [
+          -0.03,
+          -3.283,
+          -1.76
+        ]
+      },
+      "A_down": {
+        "shape": [
+          86390,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,down",
+          "UNITS": "m2"
+        },
+        "first": [
+          -0.439,
+          0.009000000000000001,
+          7.22
+        ],
+        "last": [
+          -0.431,
+          0.045,
+          7.221
+        ]
+      },
+      "K_Earth": {
+        "shape": [
+          86390,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Downward optical reflectivity of the S/C",
+          "UNITS": "m2"
+        },
+        "first": [
+          -0.179,
+          -0.017,
+          -8.82
+        ],
+        "last": [
+          -0.225,
+          -0.099,
+          -8.817
+        ]
+      },
+      "P_Gas": {
+        "shape": [
+          86390,
+          2
+        ],
+        "attrs": {
+          "DESCRIPTION": "Pressure of gas tanks",
+          "UNITS": "Pa"
+        },
+        "first": [
+          59.93,
+          59.92
+        ],
+        "last": [
+          59.89,
+          59.9
+        ]
+      },
+      "T_Gas": {
+        "shape": [
+          86390,
+          2
+        ],
+        "attrs": {
+          "DESCRIPTION": "Temperature of gas tanks",
+          "UNITS": "deg C"
+        },
+        "first": [
+          32.1,
+          33.07
+        ],
+        "last": [
+          31.91,
+          32.730000000000004
+        ]
+      },
+      "Flags_Platform": {
+        "shape": [
+          86390
+        ],
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the S/C platform information",
+          "UNITS": "-"
+        },
+        "first": 0,
+        "last": 0
+      },
+      "Flags_q": {
+        "shape": [
+          86390
+        ],
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the attitude information",
+          "UNITS": "-"
+        },
+        "first": 0,
+        "last": 5
+      },
+      "dt_thr": {
+        "shape": [
+          86390,
+          12
+        ],
+        "attrs": {
+          "DESCRIPTION": "Thruster on-time",
+          "UNITS": "s"
+        },
+        "first": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "last": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "thr_set": {
+        "shape": [
+          86390
+        ],
+        "attrs": {
+          "DESCRIPTION": "Flag indicating which thruster branch is active ",
+          "UNITS": "-"
+        },
+        "first": 1,
+        "last": 1
+      },
+      "f_thr": {
+        "shape": [
+          86390,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Nominal thrust force of activated thrusters (combined x, y, z)",
+          "UNITS": "mN"
+        },
+        "first": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "last": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "a_centr": {
+        "shape": [
+          86390,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Centrifugal acceleration, S/C frame",
+          "UNITS": "m/s2"
+        },
+        "first": [
+          -2.92e-09,
+          -6e-11,
+          4.37e-09
+        ],
+        "last": [
+          -2.6699999999999997e-09,
+          7.3e-10,
+          4.22e-09
+        ]
+      },
+      "a_GG": {
+        "shape": [
+          86390,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Gravity gradient acceleration, S/C frame",
+          "UNITS": "m/s2"
+        },
+        "first": [
+          2.92e-09,
+          1.26e-09,
+          8.64e-09
+        ],
+        "last": [
+          3.05e-09,
+          1.4e-09,
+          8.59e-09
+        ]
+      }
+    }
+  },
+  {
+    "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230322T000000_20230322T235959_0601_MDR_SC_DYN.cdf",
+    "fields": {
+      "Timestamp": {
+        "shape": [
+          86319
+        ],
+        "attrs": {
+          "DESCRIPTION": "Time stamp",
+          "UNITS": "-"
+        },
+        "first": 63846662400756.8,
+        "last": 63846748799757.01
+      },
+      "SyncStatus": {
+        "shape": [
+          86319
+        ],
+        "attrs": {
+          "DESCRIPTION": "Synchronization status",
+          "UNITS": "-"
+        },
+        "first": 0,
+        "last": 0
+      },
+      "a_Sun": {
+        "shape": [
+          86319,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Acceleration due to Solar radiation pressure, S/C frame",
+          "UNITS": "m/s2"
+        },
+        "first": [
+          1.4439999999999999e-08,
+          4.9069999999999995e-08,
+          3.202e-08
+        ],
+        "last": [
+          NaN,
+          NaN,
+          NaN
+        ]
+      },
+      "e_Sun": {
+        "shape": [
+          86319,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Direction to the Sun, unit vector, S/C frame",
+          "UNITS": "-"
+        },
+        "first": [
+          -0.254446738,
+          -0.821115271,
+          -0.5109075940000001
+        ],
+        "last": [
+          -0.18985427700000002,
+          -0.851598127,
+          0.488606164
+        ]
+      },
+      "m_SC": {
+        "shape": [
+          86319
+        ],
+        "attrs": {
+          "DESCRIPTION": "Actual mass of S/C",
+          "UNITS": "kg"
+        },
+        "first": 400.399,
+        "last": 400.358
+      },
+      "r_CoG": {
+        "shape": [
+          86319,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Center of gravity, S/C frame",
+          "UNITS": "m"
+        },
+        "first": [
+          -1.968,
+          0.001,
+          -0.335
+        ],
+        "last": [
+          -1.968,
+          0.001,
+          -0.335
+        ]
+      },
+      "A_head": {
+        "shape": [
+          86319,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,front",
+          "UNITS": "m2"
+        },
+        "first": [
+          1.174,
+          0.23700000000000002,
+          -0.155
+        ],
+        "last": [
+          0.993,
+          0.016,
+          -0.044
+        ]
+      },
+      "A_right": {
+        "shape": [
+          86319,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,right",
+          "UNITS": "m2"
+        },
+        "first": [
+          -0.046,
+          3.313,
+          -1.749
+        ],
+        "last": [
+          -0.002,
+          3.125,
+          -1.846
+        ]
+      },
+      "A_left": {
+        "shape": [
+          86319,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,left",
+          "UNITS": "m2"
+        },
+        "first": [
+          0.08600000000000001,
+          -3.216,
+          -1.927
+        ],
+        "last": [
+          0.008,
+          -3.137,
+          -1.824
+        ]
+      },
+      "A_down": {
+        "shape": [
+          86319,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,down",
+          "UNITS": "m2"
+        },
+        "first": [
+          -0.44,
+          -0.047,
+          7.223
+        ],
+        "last": [
+          -0.439,
+          0.009000000000000001,
+          7.22
+        ]
+      },
+      "K_Earth": {
+        "shape": [
+          86319,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Downward optical reflectivity of the S/C",
+          "UNITS": "m2"
+        },
+        "first": [
+          -0.166,
+          0.116,
+          -8.819
+        ],
+        "last": [
+          -0.179,
+          -0.017,
+          -8.82
+        ]
+      },
+      "P_Gas": {
+        "shape": [
+          86319,
+          2
+        ],
+        "attrs": {
+          "DESCRIPTION": "Pressure of gas tanks",
+          "UNITS": "Pa"
+        },
+        "first": [
+          59.93,
+          59.910000000000004
+        ],
+        "last": [
+          59.93,
+          59.92
+        ]
+      },
+      "T_Gas": {
+        "shape": [
+          86319,
+          2
+        ],
+        "attrs": {
+          "DESCRIPTION": "Temperature of gas tanks",
+          "UNITS": "deg C"
+        },
+        "first": [
+          32.160000000000004,
+          32.61
+        ],
+        "last": [
+          32.1,
+          33.07
+        ]
+      },
+      "Flags_Platform": {
+        "shape": [
+          86319
+        ],
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the S/C platform information",
+          "UNITS": "-"
+        },
+        "first": 0,
+        "last": 0
+      },
+      "Flags_q": {
+        "shape": [
+          86319
+        ],
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the attitude information",
+          "UNITS": "-"
+        },
+        "first": 0,
+        "last": 0
+      },
+      "dt_thr": {
+        "shape": [
+          86319,
+          12
+        ],
+        "attrs": {
+          "DESCRIPTION": "Thruster on-time",
+          "UNITS": "s"
+        },
+        "first": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "last": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "thr_set": {
+        "shape": [
+          86319
+        ],
+        "attrs": {
+          "DESCRIPTION": "Flag indicating which thruster branch is active ",
+          "UNITS": "-"
+        },
+        "first": 1,
+        "last": 1
+      },
+      "f_thr": {
+        "shape": [
+          86319,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Nominal thrust force of activated thrusters (combined x, y, z)",
+          "UNITS": "mN"
+        },
+        "first": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "last": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "a_centr": {
+        "shape": [
+          86319,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Centrifugal acceleration, S/C frame",
+          "UNITS": "m/s2"
+        },
+        "first": [
+          -2.83e-09,
+          -5.2e-10,
+          4.37e-09
+        ],
+        "last": [
+          -2.92e-09,
+          -6e-11,
+          4.37e-09
+        ]
+      },
+      "a_GG": {
+        "shape": [
+          86319,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Gravity gradient acceleration, S/C frame",
+          "UNITS": "m/s2"
+        },
+        "first": [
+          2.9099999999999997e-09,
+          9.5e-10,
+          8.72e-09
+        ],
+        "last": [
+          2.92e-09,
+          1.26e-09,
+          8.64e-09
+        ]
+      }
+    }
+  },
+  {
+    "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230321T000000_20230321T235959_0601_MDR_SC_DYN.cdf",
+    "fields": {
+      "Timestamp": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Time stamp",
+          "UNITS": "-"
+        },
+        "first": 63846576000756.805,
+        "last": 63846662399757.01
+      },
+      "SyncStatus": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Synchronization status",
+          "UNITS": "-"
+        },
+        "first": 0,
+        "last": 0
+      },
+      "a_Sun": {
+        "shape": [
+          86400,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Acceleration due to Solar radiation pressure, S/C frame",
+          "UNITS": "m/s2"
+        },
+        "first": [
+          -2.4149999999999998e-08,
+          3.6079999999999996e-08,
+          -3.9599999999999996e-09
+        ],
+        "last": [
+          1.442e-08,
+          4.908e-08,
+          3.204e-08
+        ]
+      },
+      "e_Sun": {
+        "shape": [
+          86400,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Direction to the Sun, unit vector, S/C frame",
+          "UNITS": "-"
+        },
+        "first": [
+          0.538870521,
+          -0.838207267,
+          0.08382803300000001
+        ],
+        "last": [
+          -0.253917901,
+          -0.821099031,
+          -0.5111967150000001
+        ]
+      },
+      "m_SC": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Actual mass of S/C",
+          "UNITS": "kg"
+        },
+        "first": 400.383,
+        "last": 400.399
+      },
+      "r_CoG": {
+        "shape": [
+          86400,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Center of gravity, S/C frame",
+          "UNITS": "m"
+        },
+        "first": [
+          -1.968,
+          0.001,
+          -0.335
+        ],
+        "last": [
+          -1.968,
+          0.001,
+          -0.335
+        ]
+      },
+      "A_head": {
+        "shape": [
+          86400,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,front",
+          "UNITS": "m2"
+        },
+        "first": [
+          1.149,
+          -0.193,
+          -0.17300000000000001
+        ],
+        "last": [
+          1.174,
+          0.23700000000000002,
+          -0.155
+        ]
+      },
+      "A_right": {
+        "shape": [
+          86400,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,right",
+          "UNITS": "m2"
+        },
+        "first": [
+          0.063,
+          3.2,
+          -1.922
+        ],
+        "last": [
+          -0.046,
+          3.313,
+          -1.749
+        ]
+      },
+      "A_left": {
+        "shape": [
+          86400,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,left",
+          "UNITS": "m2"
+        },
+        "first": [
+          -0.03,
+          -3.295,
+          -1.749
+        ],
+        "last": [
+          0.08600000000000001,
+          -3.216,
+          -1.927
+        ]
+      },
+      "A_down": {
+        "shape": [
+          86400,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,down",
+          "UNITS": "m2"
+        },
+        "first": [
+          -0.431,
+          0.05,
+          7.221
+        ],
+        "last": [
+          -0.44,
+          -0.047,
+          7.223
+        ]
+      },
+      "K_Earth": {
+        "shape": [
+          86400,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Downward optical reflectivity of the S/C",
+          "UNITS": "m2"
+        },
+        "first": [
+          -0.23,
+          -0.113,
+          -8.817
+        ],
+        "last": [
+          -0.166,
+          0.116,
+          -8.819
+        ]
+      },
+      "P_Gas": {
+        "shape": [
+          86400,
+          2
+        ],
+        "attrs": {
+          "DESCRIPTION": "Pressure of gas tanks",
+          "UNITS": "Pa"
+        },
+        "first": [
+          59.9,
+          59.92
+        ],
+        "last": [
+          59.93,
+          59.910000000000004
+        ]
+      },
+      "T_Gas": {
+        "shape": [
+          86400,
+          2
+        ],
+        "attrs": {
+          "DESCRIPTION": "Temperature of gas tanks",
+          "UNITS": "deg C"
+        },
+        "first": [
+          32.07,
+          32.77
+        ],
+        "last": [
+          32.160000000000004,
+          32.61
+        ]
+      },
+      "Flags_Platform": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the S/C platform information",
+          "UNITS": "-"
+        },
+        "first": 0,
+        "last": 0
+      },
+      "Flags_q": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Flags characterizing the attitude information",
+          "UNITS": "-"
+        },
+        "first": 0,
+        "last": 0
+      },
+      "dt_thr": {
+        "shape": [
+          86400,
+          12
+        ],
+        "attrs": {
+          "DESCRIPTION": "Thruster on-time",
+          "UNITS": "s"
+        },
+        "first": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "last": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "thr_set": {
+        "shape": [
+          86400
+        ],
+        "attrs": {
+          "DESCRIPTION": "Flag indicating which thruster branch is active ",
+          "UNITS": "-"
+        },
+        "first": 1,
+        "last": 1
+      },
+      "f_thr": {
+        "shape": [
+          86400,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Nominal thrust force of activated thrusters (combined x, y, z)",
+          "UNITS": "mN"
+        },
+        "first": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "last": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "a_centr": {
+        "shape": [
+          86400,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Centrifugal acceleration, S/C frame",
+          "UNITS": "m/s2"
+        },
+        "first": [
+          -2.71e-09,
+          8.1e-10,
+          4.1999999999999996e-09
+        ],
+        "last": [
+          -2.83e-09,
+          -5.2e-10,
+          4.37e-09
+        ]
+      },
+      "a_GG": {
+        "shape": [
+          86400,
+          3
+        ],
+        "attrs": {
+          "DESCRIPTION": "Gravity gradient acceleration, S/C frame",
+          "UNITS": "m/s2"
+        },
+        "first": [
+          3.05e-09,
+          1.4099999999999999e-09,
+          8.58e-09
+        ],
+        "last": [
+          2.9099999999999997e-09,
+          9.5e-10,
+          8.72e-09
+        ]
+      }
+    }
+  }
+]

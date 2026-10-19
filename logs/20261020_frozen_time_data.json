@@ -1,0 +1,32 @@
+{
+  "cache": "/workspace/data/20261016/.cache/astropy",
+  "config": "/workspace/data/20261016/.config/astropy",
+  "versions": {
+    "numpy": "1.25.0",
+    "scipy": "1.15.3",
+    "astropy": "6.1.7",
+    "astropy-iers-data": "0.2026.10.19.0.52.1",
+    "pyerfa": "2.0.1.5",
+    "sgp4": "2.25",
+    "matplotlib": "3.10.0"
+  },
+  "iers_b": {
+    "path": "data/raw/earth_orientation/eopc04_frozen_20261020.txt",
+    "package_source": "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/astropy_iers_data/data/eopc04.1962-now",
+    "sha256": "6fc2c9d9a7cd7e9a1f597866545bb75baab292f5d51ca9358d5c64c0ce2fa64f",
+    "bytes": 5175699
+  },
+  "leap_seconds": {
+    "path": "data/raw/earth_orientation/Leap_Second_frozen_20261020.dat",
+    "package_source": "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/astropy_iers_data/data/Leap_Second.dat",
+    "sha256": "6cb6f5d4b819f2e568e25db4b0b26d89dedf031fdffb18bc94d40f4e94e268d7",
+    "bytes": 1352
+  },
+  "ut1": "[<Quantity [-0.0220007, -0.0238876] s>, array([0, 0])]",
+  "pm": "[<Quantity [-0.035517, -0.032507] arcsec>, <Quantity [0.373919, 0.380234] arcsec>, array([0, 0])]",
+  "leap_expiry": "2027-06-28",
+  "mjd_range": [
+    37665.0,
+    61294.0
+  ]
+}

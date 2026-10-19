@@ -1,0 +1,37 @@
+--- a/dataset/dataset_tiegcm.py
++++ b/dataset/dataset_tiegcm.py
+@@ -7,16 +7,13 @@
+ import random
+ from datetime import datetime, timedelta
+ from typing import List, Tuple, Union
+-import apexpy
+ import numpy as np
+ import torch
+ from sympy.physics.vector.printing import params
+ from torch.utils.data import DataLoader, Dataset
+ from torch.utils.data.distributed import DistributedSampler
+ from torch.utils.data import Sampler, SequentialSampler, SubsetRandomSampler
+-from data_process.get_maglatlon import get_mlatmlon
+ from dataset.tiegcm2 import solar_zenith_angle, H_REF
+-from dataset.plot_tiegcm import plot_image
+ from utils.tools import get_date_from_datapath
+ from utils.YParams import YParams, ALL_TIEGCM_VARS, PRESSURE_LEVELS_VARS, SURFACE_VARS, SW_VARS, CHANNEL_NUM
+ # mypy: allow-untyped-defs
+--- a/dataset/tiegcm_utils.py
++++ b/dataset/tiegcm_utils.py
+@@ -7,7 +7,6 @@
+ 
+ import netCDF4 as nc
+ 
+-import apexpy
+ 
+ '''
+ This module defines variables, constants, and i/o functions used for TIE-GCM
+@@ -158,6 +157,7 @@
+ 
+     assert dest in ['qd', 'apex'], "Only 'apex' and 'qd' supported for magnetic coordinates"
+ 
++    import apexpy  # Optional: only needed for on-demand magnetic-coordinate conversion
+     apex_out = apexpy.Apex(date=fyear, refh=refh)  # km
+ 
+     # plot modified apex coordinates

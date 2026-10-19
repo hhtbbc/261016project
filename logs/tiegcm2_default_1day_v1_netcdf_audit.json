@@ -1,0 +1,402 @@
+[
+  {
+    "file": "experiments/tiegcm2_default_1day_v1/tiegcm2.0_res5.0_mareqx_smin_prim_001.nc",
+    "bytes": 33967812,
+    "fields": {
+      "time": {
+        "units": "minutes since 2002-3-21 0:0:0",
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          2
+        ],
+        "masked": 0,
+        "min_valid": 0.0,
+        "max_valid": 1440.0,
+        "dates": [
+          "2002-03-21 00:00:00",
+          "2002-03-22 00:00:00"
+        ]
+      },
+      "year": {
+        "units": null,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          2
+        ],
+        "masked": 0,
+        "min_valid": 2002.0,
+        "max_valid": 2002.0
+      },
+      "mtime": {
+        "units": "day, hour, minute",
+        "dimensions": [
+          "time",
+          "mtimedim"
+        ],
+        "shape": [
+          2,
+          3
+        ],
+        "masked": 0,
+        "min_valid": 0.0,
+        "max_valid": 81.0
+      },
+      "lev": {
+        "units": "",
+        "dimensions": [
+          "lev"
+        ],
+        "shape": [
+          29
+        ],
+        "masked": 0,
+        "min_valid": -6.75,
+        "max_valid": 7.25
+      },
+      "ilev": {
+        "units": "",
+        "dimensions": [
+          "ilev"
+        ],
+        "shape": [
+          29
+        ],
+        "masked": 0,
+        "min_valid": -7.0,
+        "max_valid": 7.0
+      },
+      "lat": {
+        "units": "degrees_north",
+        "dimensions": [
+          "lat"
+        ],
+        "shape": [
+          36
+        ],
+        "masked": 0,
+        "min_valid": -87.5,
+        "max_valid": 87.5
+      },
+      "lon": {
+        "units": "degrees_east",
+        "dimensions": [
+          "lon"
+        ],
+        "shape": [
+          72
+        ],
+        "masked": 0,
+        "min_valid": -180.0,
+        "max_valid": 175.0
+      },
+      "Z": {
+        "units": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "masked": 0,
+        "min_valid": 9567798.8830557,
+        "max_valid": 52416489.02185546
+      },
+      "TN": {
+        "units": "K",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "masked": 5184,
+        "min_valid": 147.80158204287227,
+        "max_valid": 783.8185279428551
+      },
+      "UN": {
+        "units": "cm/s",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "masked": 5184,
+        "min_valid": -31115.49304191224,
+        "max_valid": 29325.90505300327
+      },
+      "VN": {
+        "units": "cm/s",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "masked": 5184,
+        "min_valid": -28910.420625699906,
+        "max_valid": 30135.340332496427
+      }
+    }
+  },
+  {
+    "file": "experiments/tiegcm2_default_1day_v1/tiegcm2.0_res5.0_mareqx_smin_sech_001.nc",
+    "bytes": 192668940,
+    "fields": {
+      "time": {
+        "units": "minutes since 2002-3-21 0:0:0",
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          24
+        ],
+        "masked": 0,
+        "min_valid": 60.0,
+        "max_valid": 1440.0,
+        "dates": [
+          "2002-03-21 01:00:00",
+          "2002-03-21 02:00:00",
+          "2002-03-21 03:00:00",
+          "2002-03-21 04:00:00",
+          "2002-03-21 05:00:00",
+          "2002-03-21 06:00:00",
+          "2002-03-21 07:00:00",
+          "2002-03-21 08:00:00",
+          "2002-03-21 09:00:00",
+          "2002-03-21 10:00:00",
+          "2002-03-21 11:00:00",
+          "2002-03-21 12:00:00",
+          "2002-03-21 13:00:00",
+          "2002-03-21 14:00:00",
+          "2002-03-21 15:00:00",
+          "2002-03-21 16:00:00",
+          "2002-03-21 17:00:00",
+          "2002-03-21 18:00:00",
+          "2002-03-21 19:00:00",
+          "2002-03-21 20:00:00",
+          "2002-03-21 21:00:00",
+          "2002-03-21 22:00:00",
+          "2002-03-21 23:00:00",
+          "2002-03-22 00:00:00"
+        ]
+      },
+      "year": {
+        "units": null,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          24
+        ],
+        "masked": 0,
+        "min_valid": 2002.0,
+        "max_valid": 2002.0
+      },
+      "mtime": {
+        "units": "day, hour, minute",
+        "dimensions": [
+          "time",
+          "mtimedim"
+        ],
+        "shape": [
+          24,
+          3
+        ],
+        "masked": 0,
+        "min_valid": 0.0,
+        "max_valid": 81.0
+      },
+      "lev": {
+        "units": "",
+        "dimensions": [
+          "lev"
+        ],
+        "shape": [
+          29
+        ],
+        "masked": 0,
+        "min_valid": -6.75,
+        "max_valid": 7.25
+      },
+      "ilev": {
+        "units": "",
+        "dimensions": [
+          "ilev"
+        ],
+        "shape": [
+          29
+        ],
+        "masked": 0,
+        "min_valid": -7.0,
+        "max_valid": 7.0
+      },
+      "lat": {
+        "units": "degrees_north",
+        "dimensions": [
+          "lat"
+        ],
+        "shape": [
+          36
+        ],
+        "masked": 0,
+        "min_valid": -87.5,
+        "max_valid": 87.5
+      },
+      "lon": {
+        "units": "degrees_east",
+        "dimensions": [
+          "lon"
+        ],
+        "shape": [
+          72
+        ],
+        "masked": 0,
+        "min_valid": -180.0,
+        "max_valid": 175.0
+      },
+      "DEN": {
+        "units": "g/cm3",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          24,
+          29,
+          36,
+          72
+        ],
+        "masked": 0,
+        "min_valid": 1.2571758294354892e-16,
+        "max_valid": 1.199214616498523e-09,
+        "si_min_kg_m3": 1.2571758294354892e-13,
+        "si_max_kg_m3": 1.199214616498523e-06
+      },
+      "ZG": {
+        "units": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          24,
+          29,
+          36,
+          72
+        ],
+        "masked": 0,
+        "min_valid": 9567799.0,
+        "max_valid": 51308640.0,
+        "top_height_km_range": [
+          448.96436,
+          513.0864
+        ]
+      },
+      "Z": {
+        "units": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          24,
+          29,
+          36,
+          72
+        ],
+        "masked": 0,
+        "min_valid": 9567799.0,
+        "max_valid": 52509244.0
+      },
+      "TN": {
+        "units": "K",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          24,
+          29,
+          36,
+          72
+        ],
+        "masked": 62208,
+        "min_valid": 147.7209930419922,
+        "max_valid": 788.8292846679688
+      },
+      "UN": {
+        "units": "cm/s",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          24,
+          29,
+          36,
+          72
+        ],
+        "masked": 62208,
+        "min_valid": -31115.4921875,
+        "max_valid": 31200.0
+      },
+      "VN": {
+        "units": "cm/s",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          24,
+          29,
+          36,
+          72
+        ],
+        "masked": 62208,
+        "min_valid": -31533.568359375,
+        "max_valid": 31403.55078125
+      }
+    }
+  }
+]

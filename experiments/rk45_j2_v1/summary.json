@@ -1,0 +1,451 @@
+{
+  "status": "passed",
+  "constants": {
+    "mu_m3_s2": 398600441800000.0,
+    "J2": 0.0010826359,
+    "J2_reference_radius_m": 6378136.6,
+    "source": "https://hpiers.obspm.fr/eop-pc/index.php?index=constants&lang=en",
+    "tide_convention": "nominal zero-tide IERS J2; fixed scalar, no secular/time-variable geopotential"
+  },
+  "start_utc": "2023-03-21T00:00:02.000",
+  "end_utc": "2023-03-23T00:00:02.000",
+  "initial_gcrs_position_m": [
+    -518920.9937467673,
+    210277.3926138616,
+    6804082.48844712
+  ],
+  "initial_gcrs_velocity_m_s": [
+    4386.971793789882,
+    -6232.011779449503,
+    525.709091165103
+  ],
+  "initialization": "same single native SP3 P/V epoch as preserved two-body baseline; no refitting or updates",
+  "sp3_metadata": {
+    "sources": [
+      {
+        "path": "/workspace/data/20261016/data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230320T235942_20230321T235942_0203.sp3",
+        "sha256": "006b0a3dbb7b6e78170f8a5710ca98c3ba61befe6744cc67b5db44628ecff3d2",
+        "version": "d",
+        "frame": "IGS20",
+        "native_time_system": "GPS",
+        "satellite_id": "L47",
+        "epochs": 8640,
+        "hdr_time_difference_s": 0.0,
+        "hdr_quality_indicator": "000",
+        "hdr_creation_date": "UTC=2026-08-25T09:10:22",
+        "formal_accuracy_exponents": [
+          "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+        ],
+        "maneuver_flag_available": false
+      },
+      {
+        "path": "/workspace/data/20261016/data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230321T235942_20230322T235942_0203.sp3",
+        "sha256": "a886cf14d243f1b6f47923f36a320f51ee28e1bdf18abd8915cd740249b9a280",
+        "version": "d",
+        "frame": "IGS20",
+        "native_time_system": "GPS",
+        "satellite_id": "L47",
+        "epochs": 8640,
+        "hdr_time_difference_s": 0.0,
+        "hdr_quality_indicator": "000",
+        "hdr_creation_date": "UTC=2026-08-25T09:10:23",
+        "formal_accuracy_exponents": [
+          "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+        ],
+        "maneuver_flag_available": false
+      },
+      {
+        "path": "/workspace/data/20261016/data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230322T235942_20230323T235942_0203.sp3",
+        "sha256": "debee0430cb0bca2f5f4b905960bdc22a876d2e0dd4cf42c2adc32aa1bb6ee13",
+        "version": "d",
+        "frame": "IGS20",
+        "native_time_system": "GPS",
+        "satellite_id": "L47",
+        "epochs": 8640,
+        "hdr_time_difference_s": 0.0,
+        "hdr_quality_indicator": "000",
+        "hdr_creation_date": "UTC=2026-08-25T09:10:23",
+        "formal_accuracy_exponents": [
+          "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+        ],
+        "maneuver_flag_available": false
+      }
+    ],
+    "reference_kind": "reduced-dynamic postprocessed orbit",
+    "reference_uncertainty_quantified": false,
+    "itrs_realization_assumption": "IGS20 aligned with ITRF2020; used as ITRS, no estimated Helmert correction",
+    "time_match_max_s": 9.592326932761353e-12
+  },
+  "time_data": {
+    "cache": "/workspace/data/20261016/.cache/astropy",
+    "config": "/workspace/data/20261016/.config/astropy",
+    "versions": {
+      "numpy": "1.25.0",
+      "scipy": "1.15.3",
+      "astropy": "6.1.7",
+      "astropy-iers-data": "0.2026.10.19.0.52.1",
+      "pyerfa": "2.0.1.5",
+      "sgp4": "2.25",
+      "matplotlib": "3.10.0"
+    },
+    "iers_b": {
+      "path": "data/raw/earth_orientation/eopc04_frozen_20261020.txt",
+      "package_source": "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/astropy_iers_data/data/eopc04.1962-now",
+      "sha256": "6fc2c9d9a7cd7e9a1f597866545bb75baab292f5d51ca9358d5c64c0ce2fa64f",
+      "bytes": 5175699
+    },
+    "leap_seconds": {
+      "path": "data/raw/earth_orientation/Leap_Second_frozen_20261020.dat",
+      "package_source": "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/astropy_iers_data/data/Leap_Second.dat",
+      "sha256": "6cb6f5d4b819f2e568e25db4b0b26d89dedf031fdffb18bc94d40f4e94e268d7",
+      "bytes": 1352
+    },
+    "ut1": "[<Quantity [-0.0220007, -0.0238876] s>, array([0, 0])]",
+    "pm": "[<Quantity [-0.035517, -0.032507] arcsec>, <Quantity [0.373919, 0.380234] arcsec>, array([0, 0])]",
+    "leap_expiry": "2027-06-28",
+    "mjd_range": [
+      37665.0,
+      61294.0
+    ]
+  },
+  "eop": {
+    "ut1_utc_s_min": -0.023887618592592592,
+    "ut1_utc_s_max": -0.02200072224305556,
+    "xp_arcsec_min": -0.03551696277777778,
+    "xp_arcsec_max": -0.032506969537037037,
+    "yp_arcsec_min": 0.37391907310185185,
+    "yp_arcsec_max": 0.38023407034722223,
+    "all_status_iers_b": true
+  },
+  "fixed_axis_validation": {
+    "a_m": 7000000.0,
+    "e": 0.01,
+    "inclination_deg": 55.0,
+    "duration_s": 172800,
+    "max_relative_total_energy_drift": 2.932957534975533e-09,
+    "max_relative_axial_h_drift": 1.4643388406174745e-09,
+    "raan_theory_deg_day": -4.1276380091109734,
+    "raan_measured_deg_day": -4.145009913348837,
+    "raan_rate_relative_difference": 0.004208679200917942,
+    "raan_fit_method": "OLS unwrapped osculating node, 48 h, no reference orbit",
+    "integration": {
+      "method": "RK45",
+      "rtol": 1e-11,
+      "atol_si": [
+        0.0001,
+        0.0001,
+        0.0001,
+        1e-07,
+        1e-07,
+        1e-07
+      ],
+      "max_step_s": 30.0,
+      "accepted_steps": 6005,
+      "nfev": 36032,
+      "elapsed_s": 3.300182903185487,
+      "output_samples": 2881,
+      "success": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "min_accepted_step_s": 0.011678212935771771,
+      "max_accepted_step_s": 29.886225391701828
+    }
+  },
+  "axis_model": {
+    "definition": "ITRS figure Z expressed in GCRS; ERFA c2t06a (IAU 2006/2000A), TT/UT1/xp/yp; no observed dX/dY correction, consistent with Astropy",
+    "interpolation": "normalized cubic spline, 60 s grid, no extrapolation",
+    "initial_direction_gcrs": [
+      0.002236978850564015,
+      3.168264826808672e-05,
+      0.9999974974577847
+    ],
+    "final_direction_gcrs": [
+      0.002237013439070304,
+      3.1655000709738476e-05,
+      0.9999974973812857
+    ],
+    "initial_tilt_from_gcrs_z_deg": 0.12818240832698216,
+    "max_midpoint_direction_difference": 5.264115804617408e-14,
+    "max_midpoint_acceleration_difference_m_s2": 1.2336891407978937e-15
+  },
+  "experiments": {
+    "A_central": {
+      "metrics": {
+        "samples": 2881,
+        "initial_m": 1.1641532182693481e-10,
+        "mean_norm_m": 2282136.2415464,
+        "rmse_3d_m": 2629254.101844442,
+        "median_norm_m": 2275086.4187095594,
+        "p95_norm_m": 4275455.115937615,
+        "max_norm_m": 4538129.203998668,
+        "max_index": 2880,
+        "terminal_m": 4538129.203998668,
+        "xyz_bias_m": [
+          13532.047605393669,
+          -19557.225707133846,
+          17882.632443443366
+        ],
+        "rac_bias_m": [
+          -519754.650555199,
+          2215221.19810205,
+          -141.85710352945293
+        ],
+        "rac_rmse_m": [
+          685649.7172532326,
+          2538036.5747778444,
+          35099.036829293305
+        ]
+      },
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-10,
+        "atol_si": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06,
+          1e-06,
+          1e-06
+        ],
+        "max_step_s": 30.0,
+        "accepted_steps": 5764,
+        "nfev": 34586,
+        "elapsed_s": 0.9057029597461224,
+        "output_samples": 2881,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.018608005396980005,
+        "max_accepted_step_s": 30.0
+      },
+      "hourly_error_m": {
+        "1": 120052.24328064117,
+        "3": 300526.74299802294,
+        "6": 598940.5677297907,
+        "12": 1176504.8495800623,
+        "24": 2275086.4187095594,
+        "48": 4538129.203998668
+      },
+      "max_error_utc": "2023-03-23T00:00:02.000",
+      "rac_mse_fraction": [
+        0.06800478661918442,
+        0.9318170061680909,
+        0.00017820721272600865
+      ]
+    },
+    "B_central_J2": {
+      "metrics": {
+        "samples": 2881,
+        "initial_m": 1.1641532182693481e-10,
+        "mean_norm_m": 13053.035779728909,
+        "rmse_3d_m": 16157.482586963322,
+        "median_norm_m": 12330.54279939038,
+        "p95_norm_m": 29512.863928543007,
+        "max_norm_m": 34991.84700850515,
+        "max_index": 2864,
+        "terminal_m": 33772.321698747575,
+        "xyz_bias_m": [
+          -181.99267391604326,
+          56.62415379686987,
+          3.073613923081562
+        ],
+        "rac_bias_m": [
+          94.42593930854562,
+          -13036.275367213466,
+          -4.594114495394966
+        ],
+        "rac_rmse_m": [
+          430.11715888319804,
+          16150.01837001255,
+          236.9587008625578
+        ]
+      },
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-10,
+        "atol_si": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06,
+          1e-06,
+          1e-06
+        ],
+        "max_step_s": 30.0,
+        "accepted_steps": 5764,
+        "nfev": 34586,
+        "elapsed_s": 3.762572778388858,
+        "output_samples": 2881,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.01861368558102626,
+        "max_accepted_step_s": 30.00000000000003
+      },
+      "hourly_error_m": {
+        "1": 632.8491920333106,
+        "3": 646.0575380870251,
+        "6": 1066.086777094859,
+        "12": 5821.364406338613,
+        "24": 13249.683833481758,
+        "48": 33772.321698747575
+      },
+      "max_error_utc": "2023-03-22T23:44:02.000",
+      "rac_mse_fraction": [
+        0.0007086407845497356,
+        0.999076280255761,
+        0.0002150789596896383
+      ]
+    }
+  },
+  "convergence": {
+    "max_position_difference_m": 4.094350355958162,
+    "terminal_position_difference_m": 4.094350355958162,
+    "max_velocity_difference_m_s": 0.0045711771861582685,
+    "tight_integration": {
+      "method": "RK45",
+      "rtol": 1e-12,
+      "atol_si": [
+        1e-05,
+        1e-05,
+        1e-05,
+        1e-08,
+        1e-08,
+        1e-08
+      ],
+      "max_step_s": 15.0,
+      "accepted_steps": 11524,
+      "nfev": 69146,
+      "elapsed_s": 7.531652765348554,
+      "output_samples": 2881,
+      "success": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "min_accepted_step_s": 0.0074102417002347935,
+      "max_accepted_step_s": 15.000000000007276
+    },
+    "threshold_m": 10,
+    "passed": true
+  },
+  "timings": {
+    "A_central": {
+      "samples_s": [
+        0.9057029597461224,
+        0.902198513969779,
+        0.8991629425436258
+      ],
+      "median_s": 0.902198513969779
+    },
+    "B_central_J2": {
+      "samples_s": [
+        3.762572778388858,
+        3.767814001068473,
+        3.7484898921102285
+      ],
+      "median_s": 3.762572778388858
+    }
+  },
+  "typical_accelerations": [
+    {
+      "location": "equator_400km",
+      "position_axis_frame_m": [
+        6778137.0,
+        0.0,
+        0.0
+      ],
+      "central_m_s2": [
+        -8.675951000931727,
+        -0.0,
+        -0.0
+      ],
+      "j2_m_s2": [
+        -0.01247549312277788,
+        -0.0,
+        -0.0
+      ],
+      "central_norm_m_s2": 8.675951000931727,
+      "j2_norm_m_s2": 0.01247549312277788,
+      "ratio": 0.001437939555149414
+    },
+    {
+      "location": "axis_400km",
+      "position_axis_frame_m": [
+        0.0,
+        0.0,
+        6778137.0
+      ],
+      "central_m_s2": [
+        -0.0,
+        -0.0,
+        -8.675951000931727
+      ],
+      "j2_m_s2": [
+        0.0,
+        0.0,
+        0.02495098624555576
+      ],
+      "central_norm_m_s2": 8.675951000931727,
+      "j2_norm_m_s2": 0.02495098624555576,
+      "ratio": 0.002875879110298828
+    },
+    {
+      "location": "45deg_400km",
+      "position_axis_frame_m": [
+        4792866.636511441,
+        0.0,
+        4792866.636511441
+      ],
+      "central_m_s2": [
+        -6.13482378600104,
+        -0.0,
+        -6.13482378600104
+      ],
+      "j2_m_s2": [
+        0.013232258678643576,
+        0.0,
+        -0.004410752892881187
+      ],
+      "central_norm_m_s2": 8.675951000931729,
+      "j2_norm_m_s2": 0.013948025337681243,
+      "ratio": 0.0016076652964249493
+    },
+    {
+      "location": "equator_double_radius",
+      "position_axis_frame_m": [
+        13556274.0,
+        0.0,
+        0.0
+      ],
+      "central_m_s2": [
+        -2.1689877502329318,
+        -0.0,
+        -0.0
+      ],
+      "j2_m_s2": [
+        -0.0007797183201736175,
+        -0.0,
+        -0.0
+      ],
+      "central_norm_m_s2": 2.1689877502329318,
+      "j2_norm_m_s2": 0.0007797183201736175,
+      "ratio": 0.0003594848887873535
+    }
+  ],
+  "A_identical_to_preserved_baseline": true,
+  "versions": {
+    "numpy": "1.25.0",
+    "scipy": "1.15.3",
+    "astropy": "6.1.7",
+    "pyerfa": "2.0.1.5",
+    "matplotlib": "3.10.0"
+  },
+  "python": "3.10.19",
+  "comparison": {
+    "rmse_reduction_percent": 99.38547276295476,
+    "terminal_reduction_percent": 99.25580960390043,
+    "B_better_samples": 2880,
+    "samples": 2881,
+    "rac_rmse_reduction_percent": [
+      99.93726867406782,
+      99.36368062893554,
+      99.32488546048992
+    ]
+  },
+  "preserved_hashes_unchanged": true
+}

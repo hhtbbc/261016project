@@ -1,0 +1,21 @@
+{
+  "built": true,
+  "parameters": 64695744,
+  "device": "cuda:0",
+  "pos_embed": [
+    1,
+    162,
+    768
+  ],
+  "input_projection": [
+    768,
+    177,
+    4,
+    4
+  ],
+  "head": [
+    2736,
+    772
+  ],
+  "untrained_forward_executed": false
+}

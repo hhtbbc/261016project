@@ -1,0 +1,244 @@
+[
+  {
+    "file": "data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc",
+    "dimensions": {
+      "time": 1,
+      "lon": 72,
+      "lat": 36,
+      "lev": 29,
+      "ilev": 29,
+      "mlon": 81,
+      "mlat": 97,
+      "mlev": 32,
+      "imlev": 32,
+      "mtimedim": 3,
+      "latlon": 2,
+      "dtidedim": 2,
+      "sdtidedim": 10,
+      "datelen": 24,
+      "filelen": 1024
+    },
+    "fields": {
+      "time": {
+        "shape": [
+          1
+        ],
+        "units": "minutes since 2002-3-1 0:0:0",
+        "long_name": "time"
+      },
+      "lon": {
+        "shape": [
+          72
+        ],
+        "units": "degrees_east",
+        "long_name": "geographic longitude (-west, +east)"
+      },
+      "lat": {
+        "shape": [
+          36
+        ],
+        "units": "degrees_north",
+        "long_name": "geographic latitude (-south, +north)"
+      },
+      "lev": {
+        "shape": [
+          29
+        ],
+        "units": "",
+        "long_name": "midpoint levels"
+      },
+      "ilev": {
+        "shape": [
+          29
+        ],
+        "units": "",
+        "long_name": "interface levels"
+      },
+      "mtime": {
+        "shape": [
+          1,
+          3
+        ],
+        "units": "day, hour, minute",
+        "long_name": "model times (day, hour, minute)"
+      },
+      "year": {
+        "shape": [
+          1
+        ],
+        "units": null,
+        "long_name": "calendar year"
+      },
+      "TN": {
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "units": "K",
+        "long_name": "NEUTRAL TEMPERATURE"
+      },
+      "UN": {
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "units": "cm/s",
+        "long_name": "NEUTRAL ZONAL WIND (+EAST)"
+      },
+      "VN": {
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "units": "cm/s",
+        "long_name": "NEUTRAL MERIDIONAL WIND (+NORTH)"
+      },
+      "Z": {
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "units": "cm",
+        "long_name": "GEOPOTENTIAL HEIGHT"
+      }
+    }
+  },
+  {
+    "file": "data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc",
+    "dimensions": {
+      "time": 24,
+      "lon": 72,
+      "lat": 36,
+      "nmonth": 12
+    },
+    "fields": {
+      "lon": {
+        "shape": [
+          72
+        ],
+        "units": "degrees_east",
+        "long_name": "geographic longitude (-west, +east)"
+      },
+      "lat": {
+        "shape": [
+          36
+        ],
+        "units": "km  \u0018",
+        "long_name": "geographic latitude (-south, +north)"
+      },
+      "Z": {
+        "shape": [
+          24,
+          12,
+          36,
+          72
+        ],
+        "units": "meters",
+        "long_name": "Geopotential Height Perturbation"
+      },
+      "TN": {
+        "shape": [
+          24,
+          12,
+          36,
+          72
+        ],
+        "units": "deg K",
+        "long_name": "Neutral Temperature Perturbation"
+      },
+      "UN": {
+        "shape": [
+          24,
+          12,
+          36,
+          72
+        ],
+        "units": "m/s",
+        "long_name": "Neutral Zonal Wind Perturbation"
+      },
+      "VN": {
+        "shape": [
+          24,
+          12,
+          36,
+          72
+        ],
+        "units": "m/s",
+        "long_name": "Neutral Meridional Wind Perturbation"
+      }
+    }
+  },
+  {
+    "file": "data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc",
+    "dimensions": {
+      "time": 24,
+      "lon": 72,
+      "lat": 36,
+      "nmonth": 12
+    },
+    "fields": {
+      "lon": {
+        "shape": [
+          72
+        ],
+        "units": "degrees_east",
+        "long_name": "geographic longitude (-west, +east)"
+      },
+      "lat": {
+        "shape": [
+          36
+        ],
+        "units": "km  \u0018",
+        "long_name": "geographic latitude (-south, +north)"
+      },
+      "Z": {
+        "shape": [
+          24,
+          12,
+          36,
+          72
+        ],
+        "units": "meters",
+        "long_name": "Geopotential Height Perturbation"
+      },
+      "TN": {
+        "shape": [
+          24,
+          12,
+          36,
+          72
+        ],
+        "units": "deg K",
+        "long_name": "Neutral Temperature Perturbation"
+      },
+      "UN": {
+        "shape": [
+          24,
+          12,
+          36,
+          72
+        ],
+        "units": "m/s",
+        "long_name": "Neutral Zonal Wind Perturbation"
+      },
+      "VN": {
+        "shape": [
+          24,
+          12,
+          36,
+          72
+        ],
+        "units": "m/s",
+        "long_name": "Neutral Meridional Wind Perturbation"
+      }
+    }
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "file": "data/raw/static.zip",
+    "bytes": 2378058,
+    "md5": "11c1f8f7bd2295d765151a2d0f88d028",
+    "seconds": 11.732352495193481,
+    "inventory": [
+      {
+        "name": "global_means.npz",
+        "size": 3495,
+        "compressed": 1587,
+        "method": 8,
+        "crc": 2521593792
+      },
+      {
+        "name": "global_stds.npz",
+        "size": 3491,
+        "compressed": 1587,
+        "method": 8,
+        "crc": 2684418010
+      },
+      {
+        "name": "ilev.npy",
+        "size": 360,
+        "compressed": 150,
+        "method": 8,
+        "crc": 4121937986
+      },
+      {
+        "name": "lat.npy",
+        "size": 416,
+        "compressed": 180,
+        "method": 8,
+        "crc": 1928140974
+      },
+      {
+        "name": "lev.npy",
+        "size": 360,
+        "compressed": 150,
+        "method": 8,
+        "crc": 3626335906
+      },
+      {
+        "name": "lon.npy",
+        "size": 704,
+        "compressed": 247,
+        "method": 8,
+        "crc": 2886404742
+      },
+      {
+        "name": "mag.npz",
+        "size": 490168,
+        "compressed": 488029,
+        "method": 8,
+        "crc": 3504557136
+      },
+      {
+        "name": "time_means.npz",
+        "size": 1885521,
+        "compressed": 1885048,
+        "method": 8,
+        "crc": 2291145742
+      }
+    ]
+  },
+  {
+    "file": "data/raw/static_log.zip",
+    "bytes": 2296512,
+    "md5": "31df713b0b31502d02c37ddf24a0c937",
+    "seconds": 6.34002423286438,
+    "inventory": [
+      {
+        "name": "data.json",
+        "size": 3459,
+        "compressed": 1093,
+        "method": 8,
+        "crc": 2119463432
+      },
+      {
+        "name": "global_means.npz",
+        "size": 3009,
+        "compressed": 1511,
+        "method": 8,
+        "crc": 827753866
+      },
+      {
+        "name": "global_stds.npz",
+        "size": 3002,
+        "compressed": 1497,
+        "method": 8,
+        "crc": 2710365237
+      },
+      {
+        "name": "ilev.npy",
+        "size": 244,
+        "compressed": 142,
+        "method": 8,
+        "crc": 2839259768
+      },
+      {
+        "name": "lat.npy",
+        "size": 272,
+        "compressed": 162,
+        "method": 8,
+        "crc": 2499135144
+      },
+      {
+        "name": "lev.npy",
+        "size": 244,
+        "compressed": 149,
+        "method": 8,
+        "crc": 3455865737
+      },
+      {
+        "name": "lon.npy",
+        "size": 416,
+        "compressed": 221,
+        "method": 8,
+        "crc": 1453058367
+      },
+      {
+        "name": "mag.npz",
+        "size": 490168,
+        "compressed": 488029,
+        "method": 8,
+        "crc": 3504557136
+      },
+      {
+        "name": "maxs.npz",
+        "size": 3003,
+        "compressed": 1502,
+        "method": 8,
+        "crc": 3449562170
+      },
+      {
+        "name": "mins.npz",
+        "size": 3008,
+        "compressed": 1510,
+        "method": 8,
+        "crc": 1680605808
+      },
+      {
+        "name": "time_diff_means.npz",
+        "size": 3024,
+        "compressed": 1524,
+        "method": 8,
+        "crc": 321763850
+      },
+      {
+        "name": "time_diff_stds.npz",
+        "size": 3001,
+        "compressed": 1495,
+        "method": 8,
+        "crc": 367228630
+      },
+      {
+        "name": "time_means.npz",
+        "size": 1796473,
+        "compressed": 1795913,
+        "method": 8,
+        "crc": 1576235893
+      }
+    ]
+  },
+  {
+    "file": "models/checkpoints/checkpoint_files.zip",
+    "bytes": 2901442296,
+    "md5": "78aa5107bf60927e6898cb19449520b7",
+    "seconds": 890.36052775383,
+    "inventory": [
+      {
+        "name": "Baseline_1h_history_ckpt.tar",
+        "size": 802585484,
+        "compressed": 738303749,
+        "method": 8,
+        "crc": 447871822
+      },
+      {
+        "name": "Baseline_log_DEN_ckpt.tar",
+        "size": 776484108,
+        "compressed": 725277975,
+        "method": 8,
+        "crc": 3102872288
+      },
+      {
+        "name": "Direct_ckpt.tar",
+        "size": 776485772,
+        "compressed": 725168672,
+        "method": 8,
+        "crc": 3995144976
+      },
+      {
+        "name": "Flow_ckpt.tar",
+        "size": 776485772,
+        "compressed": 712691192,
+        "method": 8,
+        "crc": 3320753694
+      }
+    ]
+  }
+]

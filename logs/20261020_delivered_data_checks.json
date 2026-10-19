@@ -1,0 +1,19 @@
+{
+  "rows": 2881,
+  "csv_formula_checks_passed": true,
+  "cadence_s": 60,
+  "pilot_common_epochs_exact_agreement": true,
+  "utc_first": "2023-03-21T00:00:02.000000000",
+  "utc_last": "2023-03-23T00:00:02.000000000",
+  "initial_rac_m": [
+    0.6315043916167156,
+    -507.7466772967331,
+    -106.17384938335206
+  ],
+  "terminal_rac_m": [
+    -399.7292860757178,
+    -1677.623755120345,
+    13.332625019346125
+  ],
+  "sgp4_error_codes_all_zero": true
+}

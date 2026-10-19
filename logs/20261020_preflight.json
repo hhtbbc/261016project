@@ -1,0 +1,160 @@
+{
+  "prefix": "/workspace/data/20261016/.venv310",
+  "raw_files": [
+    {
+      "path": "data/raw/orbits/swarm_a/SW_OPER_SP3ACOM_2__20230320T235942_20230321T235942_0203.ZIP",
+      "sha256": "84a97dd29bdcd9db0362052ef7d3cb21b03df4989329a5113294c7ab2e67d29d"
+    },
+    {
+      "path": "data/raw/orbits/swarm_a/SW_OPER_SP3ACOM_2__20230321T235942_20230322T235942_0203.ZIP",
+      "sha256": "015485fe25a116287859aaa6a018eed0d0c7e67e62cd2f814240d4980932ac9a"
+    },
+    {
+      "path": "data/raw/orbits/swarm_a/SW_OPER_SP3ACOM_2__20230322T235942_20230323T235942_0203.ZIP",
+      "sha256": "99db7b84fbfc21fd041c62d508d624721bb755f5bec900e96c35d09149ec5087"
+    },
+    {
+      "path": "data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230320T235942_20230321T235942_0203.sp3",
+      "sha256": "006b0a3dbb7b6e78170f8a5710ca98c3ba61befe6744cc67b5db44628ecff3d2"
+    },
+    {
+      "path": "data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230321T235942_20230322T235942_0203.sp3",
+      "sha256": "a886cf14d243f1b6f47923f36a320f51ee28e1bdf18abd8915cd740249b9a280"
+    },
+    {
+      "path": "data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230322T235942_20230323T235942_0203.sp3",
+      "sha256": "debee0430cb0bca2f5f4b905960bdc22a876d2e0dd4cf42c2adc32aa1bb6ee13"
+    }
+  ],
+  "scipy": {
+    "version": "1.15.3",
+    "requires_python": ">=3.10",
+    "requires_dist": [
+      "numpy<2.5,>=1.23.5",
+      "pytest; extra == \"test\"",
+      "pytest-cov; extra == \"test\"",
+      "pytest-timeout; extra == \"test\"",
+      "pytest-xdist; extra == \"test\"",
+      "asv; extra == \"test\"",
+      "mpmath; extra == \"test\"",
+      "gmpy2; extra == \"test\"",
+      "threadpoolctl; extra == \"test\"",
+      "scikit-umfpack; extra == \"test\"",
+      "pooch; extra == \"test\"",
+      "hypothesis>=6.30; extra == \"test\"",
+      "array-api-strict<2.1.1,>=2.0; extra == \"test\"",
+      "Cython; extra == \"test\"",
+      "meson; extra == \"test\"",
+      "ninja; sys_platform != \"emscripten\" and extra == \"test\"",
+      "sphinx<8.0.0,>=5.0.0; extra == \"doc\"",
+      "intersphinx_registry; extra == \"doc\"",
+      "pydata-sphinx-theme>=0.15.2; extra == \"doc\"",
+      "sphinx-copybutton; extra == \"doc\"",
+      "sphinx-design>=0.4.0; extra == \"doc\"",
+      "matplotlib>=3.5; extra == \"doc\"",
+      "numpydoc; extra == \"doc\"",
+      "jupytext; extra == \"doc\"",
+      "myst-nb; extra == \"doc\"",
+      "pooch; extra == \"doc\"",
+      "jupyterlite-sphinx>=0.19.1; extra == \"doc\"",
+      "jupyterlite-pyodide-kernel; extra == \"doc\"",
+      "mypy==1.10.0; extra == \"dev\"",
+      "typing_extensions; extra == \"dev\"",
+      "types-psutil; extra == \"dev\"",
+      "pycodestyle; extra == \"dev\"",
+      "ruff>=0.0.292; extra == \"dev\"",
+      "cython-lint>=0.12.2; extra == \"dev\"",
+      "rich-click; extra == \"dev\"",
+      "doit>=0.36.0; extra == \"dev\"",
+      "pydevtool; extra == \"dev\""
+    ],
+    "cp310_linux_wheels": [
+      {
+        "name": "scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "bytes": 37662964,
+        "sha256": "9e2abc762b0811e09a0d3258abee2d98e0c703eee49464ce0069590846f31d40"
+      }
+    ]
+  },
+  "astropy": {
+    "version": "6.1.7",
+    "requires_python": ">=3.10",
+    "requires_dist": [
+      "numpy>=1.23",
+      "pyerfa>=2.0.1.1",
+      "astropy-iers-data>=0.2024.10.28.0.34.7",
+      "PyYAML>=3.13",
+      "packaging>=19.0",
+      "pytest>=7.0; extra == \"test\"",
+      "pytest-doctestplus>=0.12; extra == \"test\"",
+      "pytest-astropy-header>=0.2.1; extra == \"test\"",
+      "pytest-astropy>=0.10; extra == \"test\"",
+      "pytest-xdist; extra == \"test\"",
+      "threadpoolctl; extra == \"test\"",
+      "astropy[test]; extra == \"test-all\"",
+      "objgraph; extra == \"test-all\"",
+      "ipython>=4.2; extra == \"test-all\"",
+      "coverage[toml]; extra == \"test-all\"",
+      "skyfield>=1.20; extra == \"test-all\"",
+      "sgp4>=2.3; extra == \"test-all\"",
+      "array-api-strict; extra == \"test-all\"",
+      "scipy>=1.8; extra == \"recommended\"",
+      "matplotlib!=3.5.2,>=3.5.0; extra == \"recommended\"",
+      "typing_extensions>=4.0.0; extra == \"typing\"",
+      "astropy[recommended]; extra == \"all\"",
+      "astropy[typing]; extra == \"all\"",
+      "certifi; extra == \"all\"",
+      "dask[array]; extra == \"all\"",
+      "h5py; extra == \"all\"",
+      "pyarrow>=7.0.0; extra == \"all\"",
+      "beautifulsoup4; extra == \"all\"",
+      "html5lib; extra == \"all\"",
+      "bleach; extra == \"all\"",
+      "pandas; extra == \"all\"",
+      "sortedcontainers; extra == \"all\"",
+      "pytz; extra == \"all\"",
+      "jplephem; extra == \"all\"",
+      "mpmath; extra == \"all\"",
+      "asdf-astropy>=0.3; extra == \"all\"",
+      "bottleneck; extra == \"all\"",
+      "ipython>=4.2; extra == \"all\"",
+      "pytest>=7.0; extra == \"all\"",
+      "fsspec[http]>=2023.4.0; extra == \"all\"",
+      "s3fs>=2023.4.0; extra == \"all\"",
+      "pre-commit; extra == \"all\"",
+      "astropy[recommended]; extra == \"docs\"",
+      "sphinx; extra == \"docs\"",
+      "sphinx-astropy[confv2]>=1.9.1; extra == \"docs\"",
+      "pytest>=7.0; extra == \"docs\"",
+      "sphinx-changelog>=1.2.0; extra == \"docs\"",
+      "sphinx_design; extra == \"docs\"",
+      "Jinja2>=3.1.3; extra == \"docs\"",
+      "tomli; python_version < \"3.11\" and extra == \"docs\"",
+      "sphinxcontrib-globalsubs>=0.1.1; extra == \"docs\"",
+      "matplotlib>=3.9.1; extra == \"docs\"",
+      "numpy<2.0; extra == \"docs\""
+    ],
+    "cp310_linux_wheels": [
+      {
+        "name": "astropy-6.1.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "bytes": 9962419,
+        "sha256": "985e5e74489d23f1a11953b6b283fccde3f46cb6c68fee4f7228e5f6d8350ba9"
+      }
+    ]
+  },
+  "sgp4": {
+    "version": "2.25",
+    "requires_python": null,
+    "requires_dist": null,
+    "cp310_linux_wheels": [
+      {
+        "name": "sgp4-2.25-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+        "bytes": 235207,
+        "sha256": "18e44f66670c61ae2372d6fecde076cb655f76d211b34b8de440cad5a273409f"
+      }
+    ]
+  },
+  "date -u": "Mon Oct 19 02:21:03 UTC 2026\n",
+  "df -h .": "Filesystem                Size  Used Avail Use% Mounted on\n192.168.1.224:/data2/hht  3.5T  2.7T  670G  80% /workspace/data\n",
+  "free -h": "               total        used        free      shared  buff/cache   available\nMem:           1.9Ti        87Gi       163Gi       502Mi       1.6Ti       1.8Ti\nSwap:             0B          0B          0B\n"
+}

@@ -1,0 +1,363 @@
+[
+  {
+    "file": "experiments/tiegcm2_smoke_4rank_v1/tiegcm2.0_res5.0_mareqx_smin_prim_001.nc",
+    "dimensions": {
+      "time": 3,
+      "lon": 72,
+      "lat": 36,
+      "lev": 29,
+      "ilev": 29,
+      "mlon": 81,
+      "mlat": 97,
+      "mlev": 32,
+      "imlev": 32,
+      "mtimedim": 3,
+      "latlon": 2,
+      "dtidedim": 2,
+      "sdtidedim": 10,
+      "datelen": 24,
+      "filelen": 1024
+    },
+    "fields": {
+      "Z": {
+        "units": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          3,
+          29,
+          36,
+          72
+        ],
+        "min": 9568160.321929974,
+        "max": 52241656.87579511,
+        "masked": 0
+      },
+      "TN": {
+        "units": "K",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          3,
+          29,
+          36,
+          72
+        ],
+        "min": 147.77849351433034,
+        "max": 781.3967161481751,
+        "masked": 7776
+      },
+      "UN": {
+        "units": "cm/s",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          3,
+          29,
+          36,
+          72
+        ],
+        "min": -30957.480461592124,
+        "max": 29204.398501058782,
+        "masked": 7776
+      },
+      "VN": {
+        "units": "cm/s",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          3,
+          29,
+          36,
+          72
+        ],
+        "min": -28829.752882361998,
+        "max": 30031.859909724983,
+        "masked": 7776
+      },
+      "lev": {
+        "units": "",
+        "dimensions": [
+          "lev"
+        ],
+        "shape": [
+          29
+        ],
+        "min": -6.75,
+        "max": 7.25,
+        "masked": 0
+      },
+      "ilev": {
+        "units": "",
+        "dimensions": [
+          "ilev"
+        ],
+        "shape": [
+          29
+        ],
+        "min": -7.0,
+        "max": 7.0,
+        "masked": 0
+      },
+      "mtime": {
+        "units": "day, hour, minute",
+        "dimensions": [
+          "time",
+          "mtimedim"
+        ],
+        "shape": [
+          3,
+          3
+        ],
+        "min": 0.0,
+        "max": 80.0,
+        "masked": 0
+      },
+      "year": {
+        "units": null,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          3
+        ],
+        "min": 2002.0,
+        "max": 2002.0,
+        "masked": 0
+      },
+      "time": {
+        "units": "minutes since 2002-3-21 0:0:0",
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          3
+        ],
+        "min": 0.0,
+        "max": 10.0,
+        "masked": 0,
+        "dates": [
+          "2002-03-21 00:00:00",
+          "2002-03-21 00:05:00",
+          "2002-03-21 00:10:00"
+        ]
+      }
+    }
+  },
+  {
+    "file": "experiments/tiegcm2_smoke_4rank_v1/tiegcm2.0_res5.0_mareqx_smin_sech_001.nc",
+    "dimensions": {
+      "time": 2,
+      "lon": 72,
+      "lat": 36,
+      "lev": 29,
+      "ilev": 29,
+      "mlon": 81,
+      "mlat": 97,
+      "mlev": 32,
+      "imlev": 32,
+      "mtimedim": 3,
+      "latlon": 2,
+      "dtidedim": 2,
+      "sdtidedim": 10,
+      "datelen": 24,
+      "filelen": 1024
+    },
+    "fields": {
+      "DEN": {
+        "units": "g/cm3",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "min": 1.3593445464866089e-16,
+        "max": 1.1985652470514196e-09,
+        "masked": 0
+      },
+      "ZG": {
+        "units": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "min": 9568347.0,
+        "max": 51022752.0,
+        "masked": 0,
+        "top_geometric_height_km_range": [
+          448.95096,
+          510.22752
+        ]
+      },
+      "Z": {
+        "units": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "min": 9568347.0,
+        "max": 52241656.0,
+        "masked": 0
+      },
+      "TN": {
+        "units": "K",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "min": 147.7784881591797,
+        "max": 9.999999616903162e+35,
+        "masked": 0
+      },
+      "UN": {
+        "units": "cm/s",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "min": -30877.701171875,
+        "max": 9.999999616903162e+35,
+        "masked": 0
+      },
+      "VN": {
+        "units": "cm/s",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "min": -28829.751953125,
+        "max": 9.999999616903162e+35,
+        "masked": 0
+      },
+      "lev": {
+        "units": "",
+        "dimensions": [
+          "lev"
+        ],
+        "shape": [
+          29
+        ],
+        "min": -6.75,
+        "max": 7.25,
+        "masked": 0
+      },
+      "ilev": {
+        "units": "",
+        "dimensions": [
+          "ilev"
+        ],
+        "shape": [
+          29
+        ],
+        "min": -7.0,
+        "max": 7.0,
+        "masked": 0
+      },
+      "mtime": {
+        "units": "day, hour, minute",
+        "dimensions": [
+          "time",
+          "mtimedim"
+        ],
+        "shape": [
+          2,
+          3
+        ],
+        "min": 0.0,
+        "max": 80.0,
+        "masked": 0
+      },
+      "year": {
+        "units": null,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          2
+        ],
+        "min": 2002.0,
+        "max": 2002.0,
+        "masked": 0
+      },
+      "time": {
+        "units": "minutes since 2002-3-21 0:0:0",
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          2
+        ],
+        "min": 5.0,
+        "max": 10.0,
+        "masked": 0,
+        "dates": [
+          "2002-03-21 00:05:00",
+          "2002-03-21 00:10:00"
+        ]
+      }
+    }
+  }
+]

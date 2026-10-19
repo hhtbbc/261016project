@@ -1,0 +1,9 @@
+{
+  "independent_numpy_metrics_passed": true,
+  "rmse_max_relative_difference": 1.8820073913281393e-07,
+  "acc_max_abs_difference": 1.4558029692857133e-07,
+  "zscore_round_trip_max_abs_error": 4.596323321948148e-14,
+  "finite_physical_prediction": true,
+  "den_positive_fraction": 1.0,
+  "scope": "one TIE-GCM reference hour; no observed thermosphere or orbit validation"
+}

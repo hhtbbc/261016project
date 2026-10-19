@@ -1,0 +1,11 @@
+{
+  "package_scripts": [
+    ".cache/conda/pkgs/https/conda.anaconda.org/conda-forge/linux-64/ucc-1.6.0-hb729f83_1/info/recipe/ucc-post-link.sh",
+    ".cache/conda/pkgs/https/conda.anaconda.org/conda-forge/linux-64/ucc-1.6.0-hb729f83_1/bin/.ucc-post-link.sh",
+    ".cache/conda/pkgs/https/conda.anaconda.org/conda-forge/linux-64/ucx-1.19.1-h567e125_0/info/recipe/parent/ucx-post-link.sh",
+    ".cache/conda/pkgs/https/conda.anaconda.org/conda-forge/linux-64/ucx-1.19.1-h567e125_0/bin/.ucx-post-link.sh",
+    ".cache/conda/pkgs/https/conda.anaconda.org/conda-forge/linux-64/openmpi-5.0.8-h2fe1745_110/info/recipe/post-link-cuda.sh",
+    ".cache/conda/pkgs/https/conda.anaconda.org/conda-forge/linux-64/openmpi-5.0.8-h2fe1745_110/bin/.openmpi-post-link.sh"
+  ],
+  "cache": "/workspace/data/20261016/.cache/conda/pkgs"
+}

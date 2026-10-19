@@ -1,0 +1,381 @@
+[
+  {
+    "file": "experiments/tiegcm2_apex2023_smoke_v1/tiegcm2.0_res5.0_mareqx_smin_prim_001.nc",
+    "bytes": 50942504,
+    "fields": {
+      "time": {
+        "units": "minutes since 2002-3-21 0:0:0",
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          3
+        ],
+        "masked": 0,
+        "min_valid": 0.0,
+        "max_valid": 10.0,
+        "dates": [
+          "2002-03-21 00:00:00",
+          "2002-03-21 00:05:00",
+          "2002-03-21 00:10:00"
+        ]
+      },
+      "year": {
+        "units": null,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          3
+        ],
+        "masked": 0,
+        "min_valid": 2002.0,
+        "max_valid": 2002.0
+      },
+      "mtime": {
+        "units": "day, hour, minute",
+        "dimensions": [
+          "time",
+          "mtimedim"
+        ],
+        "shape": [
+          3,
+          3
+        ],
+        "masked": 0,
+        "min_valid": 0.0,
+        "max_valid": 80.0
+      },
+      "lev": {
+        "units": "",
+        "dimensions": [
+          "lev"
+        ],
+        "shape": [
+          29
+        ],
+        "masked": 0,
+        "min_valid": -6.75,
+        "max_valid": 7.25
+      },
+      "ilev": {
+        "units": "",
+        "dimensions": [
+          "ilev"
+        ],
+        "shape": [
+          29
+        ],
+        "masked": 0,
+        "min_valid": -7.0,
+        "max_valid": 7.0
+      },
+      "lat": {
+        "units": "degrees_north",
+        "dimensions": [
+          "lat"
+        ],
+        "shape": [
+          36
+        ],
+        "masked": 0,
+        "min_valid": -87.5,
+        "max_valid": 87.5
+      },
+      "lon": {
+        "units": "degrees_east",
+        "dimensions": [
+          "lon"
+        ],
+        "shape": [
+          72
+        ],
+        "masked": 0,
+        "min_valid": -180.0,
+        "max_valid": 175.0
+      },
+      "Z": {
+        "units": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          3,
+          29,
+          36,
+          72
+        ],
+        "masked": 0,
+        "min_valid": 9568160.321929974,
+        "max_valid": 52241656.875773564
+      },
+      "TN": {
+        "units": "K",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          3,
+          29,
+          36,
+          72
+        ],
+        "masked": 7776,
+        "min_valid": 147.7784935143304,
+        "max_valid": 781.3967161481751
+      },
+      "UN": {
+        "units": "cm/s",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          3,
+          29,
+          36,
+          72
+        ],
+        "masked": 7776,
+        "min_valid": -30957.480461592124,
+        "max_valid": 29204.398501058782
+      },
+      "VN": {
+        "units": "cm/s",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          3,
+          29,
+          36,
+          72
+        ],
+        "masked": 7776,
+        "min_valid": -28829.75258864226,
+        "max_valid": 30031.859909724983
+      }
+    }
+  },
+  {
+    "file": "experiments/tiegcm2_apex2023_smoke_v1/tiegcm2.0_res5.0_mareqx_smin_sech_001.nc",
+    "bytes": 16072564,
+    "fields": {
+      "time": {
+        "units": "minutes since 2002-3-21 0:0:0",
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          2
+        ],
+        "masked": 0,
+        "min_valid": 5.0,
+        "max_valid": 10.0,
+        "dates": [
+          "2002-03-21 00:05:00",
+          "2002-03-21 00:10:00"
+        ]
+      },
+      "year": {
+        "units": null,
+        "dimensions": [
+          "time"
+        ],
+        "shape": [
+          2
+        ],
+        "masked": 0,
+        "min_valid": 2002.0,
+        "max_valid": 2002.0
+      },
+      "mtime": {
+        "units": "day, hour, minute",
+        "dimensions": [
+          "time",
+          "mtimedim"
+        ],
+        "shape": [
+          2,
+          3
+        ],
+        "masked": 0,
+        "min_valid": 0.0,
+        "max_valid": 80.0
+      },
+      "lev": {
+        "units": "",
+        "dimensions": [
+          "lev"
+        ],
+        "shape": [
+          29
+        ],
+        "masked": 0,
+        "min_valid": -6.75,
+        "max_valid": 7.25
+      },
+      "ilev": {
+        "units": "",
+        "dimensions": [
+          "ilev"
+        ],
+        "shape": [
+          29
+        ],
+        "masked": 0,
+        "min_valid": -7.0,
+        "max_valid": 7.0
+      },
+      "lat": {
+        "units": "degrees_north",
+        "dimensions": [
+          "lat"
+        ],
+        "shape": [
+          36
+        ],
+        "masked": 0,
+        "min_valid": -87.5,
+        "max_valid": 87.5
+      },
+      "lon": {
+        "units": "degrees_east",
+        "dimensions": [
+          "lon"
+        ],
+        "shape": [
+          72
+        ],
+        "masked": 0,
+        "min_valid": -180.0,
+        "max_valid": 175.0
+      },
+      "DEN": {
+        "units": "g/cm3",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "masked": 0,
+        "min_valid": 1.3593445464866089e-16,
+        "max_valid": 1.1985652470514196e-09,
+        "si_min_kg_m3": 1.3593445464866089e-13,
+        "si_max_kg_m3": 1.1985652470514196e-06
+      },
+      "ZG": {
+        "units": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "masked": 0,
+        "min_valid": 9568347.0,
+        "max_valid": 51022752.0,
+        "top_height_km_range": [
+          448.95096,
+          510.22752
+        ]
+      },
+      "Z": {
+        "units": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "masked": 0,
+        "min_valid": 9568347.0,
+        "max_valid": 52241656.0
+      },
+      "TN": {
+        "units": "K",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "masked": 5184,
+        "min_valid": 147.7784881591797,
+        "max_valid": 781.1495971679688
+      },
+      "UN": {
+        "units": "cm/s",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "masked": 5184,
+        "min_valid": -30877.69921875,
+        "max_valid": 29132.947265625
+      },
+      "VN": {
+        "units": "cm/s",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          2,
+          29,
+          36,
+          72
+        ],
+        "masked": 5184,
+        "min_valid": -28829.751953125,
+        "max_valid": 30023.859375
+      }
+    }
+  }
+]

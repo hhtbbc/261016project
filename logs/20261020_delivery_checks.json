@@ -1,0 +1,94 @@
+{
+  "scripts/run_sgp4_comparison.py": {
+    "bytes": 11648,
+    "sha256": "ff7516bae4e336cbe214eab1579f20c0f18c7b7820940b515807530a2d22ccfb"
+  },
+  "scripts/activate_orbit.sh": {
+    "bytes": 474,
+    "sha256": "21239eae6792c106ee4b3605ebe752f5ecbe242a06023912e31d7f213aefe584"
+  },
+  "src/orbit/sgp4_baseline.py": {
+    "bytes": 2360,
+    "sha256": "51fd475fa3d92f0be03bee5e1424cccac919c36955cc98949ae5239c7402d13a"
+  },
+  "src/orbit/frames.py": {
+    "bytes": 3504,
+    "sha256": "a5d262501e8e6f148df0a8934003622fc3c868091d50a65267e63637b3b39c8c"
+  },
+  "src/evaluation/sp3_reader.py": {
+    "bytes": 2971,
+    "sha256": "00696e0c55a5cabd6eb7477f8fbfa5e3d5820cca047a5b6a7124487c0db510dc"
+  },
+  "src/evaluation/orbit_data.py": {
+    "bytes": 4078,
+    "sha256": "d92232504ee7d94c2512435c6152c59badd0b05ec9661f8025f3f181d4f8bd32"
+  },
+  "src/evaluation/orbit_metrics.py": {
+    "bytes": 1495,
+    "sha256": "3c960358f300cc1820105a38d126430c464436b27e744c8a26f0b05ad4acc76f"
+  },
+  "tests/test_orbit_baseline.py": {
+    "bytes": 4195,
+    "sha256": "73754ba1651f6e666ac96d5727851358777df6ed8dc025591a2e8b38195e8382"
+  },
+  "results/figures/20261020_sgp4_orbit_3d.png": {
+    "bytes": 544153,
+    "sha256": "a537dfff3ac59de45b126b44a89b488982816e6bde45835348d72428db2d8591"
+  },
+  "results/figures/20261020_sgp4_position_error.png": {
+    "bytes": 132334,
+    "sha256": "69a43f7a255bb37b1e530d1f3882d8e8764e09bf389da807db6a3b1cc372341c"
+  },
+  "results/figures/20261020_sgp4_rac_errors.png": {
+    "bytes": 302670,
+    "sha256": "ed99d44b6d1e02e85a46ba50a4f59881f96f42635e98007a35643d4bb34bc621"
+  },
+  "results/metrics/20261020_sgp4_60s_errors.csv": {
+    "bytes": 781922,
+    "sha256": "f30f9a405e1a66878dfd64a7c64abcf0d030490f6aa1bfee5eb2af4391ff680f"
+  },
+  "reports/SGP4_SP3_BASELINE_2026-10-20.md": {
+    "bytes": 11086,
+    "sha256": "f02a4b728a1418ebe91122b16604ac301a436d53d3a1f2c984a35dd2fa0f8219"
+  },
+  "logs/20261020_orbit_tests_fixed.log": {
+    "bytes": 887,
+    "sha256": "642e461b7abbb46e671491377383f7f16d545035185c59c5f49b7bc5b80afe2f"
+  },
+  "data/processed/swarm_a_sp3_standard_20261020.npz": {
+    "bytes": 1258550,
+    "sha256": "cb2671d866c597f5bfefa1f1587f5f62a3168adfd1f15f79124a481d1c99af94"
+  },
+  "configs/requirements-orbit-20261020.lock.txt": {
+    "bytes": 1295,
+    "sha256": "c9117b4d07afb8999580ca48f50c4d31010d2a6c2690d27eb823966df9b97aaa"
+  },
+  "STATUS.md": {
+    "bytes": 7287,
+    "sha256": "37a0051e1a1c59e4f6818201ac1dcefc8f8531fe8d992090d43f5010b38820c4"
+  },
+  "WORKLOG.md": {
+    "bytes": 15077,
+    "sha256": "1cb91d7548e7f4cb6558373ffd594612988aa9a78b5308fd2d6aa9089487ae80"
+  },
+  "verification": {
+    "raw_sp3_tle_unchanged": true,
+    "no_old_package_versions_changed": true,
+    "added_packages": [
+      "astropy-iers-data==0.2026.10.19.0.52.1",
+      "astropy==6.1.7",
+      "pyerfa==2.0.1.5",
+      "scipy==1.15.3",
+      "sgp4==2.25"
+    ],
+    "unit_tests_passed": 13,
+    "fine_samples": 2881,
+    "reproducible_arrays_and_csv": true,
+    "time_and_eop_checks_passed": true,
+    "historical_tle_availability_verified": false,
+    "RK45_or_TIEGCM_executed": false,
+    "cache_and_config_root": "project .cache/astropy and .config/astropy",
+    "task_label": "2026-10-20",
+    "python_prefix": "/workspace/data/20261016/.venv310"
+  }
+}

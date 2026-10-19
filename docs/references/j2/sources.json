@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://hpiers.obspm.fr/eop-pc/index.php?index=constants&lang=en",
+    "checked_utc": "2026-10-19T03:03:14.206867+00:00",
+    "status": 200,
+    "path": "docs/references/j2/iers_constants.html",
+    "bytes": 46431,
+    "sha256": "c28d64122508908824abcf9b4f34bebcd5c59452ea742f73e51b1e5a81ac5c6b"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CS-SI/Orekit/13.0.3/src/main/java/org/orekit/forces/gravity/J2OnlyPerturbation.java",
+    "checked_utc": "2026-10-19T03:03:15.498087+00:00",
+    "status": 200,
+    "path": "docs/references/j2/orekit_J2OnlyPerturbation_13.0.3.java",
+    "bytes": 10591,
+    "sha256": "c80822454ed0e695d627bbf5157cbf3f55cd1babe6edd24a1c96c3f0454a9d2f"
+  },
+  {
+    "url": "https://iers-conventions.obspm.fr/conventions/content/tn36.pdf",
+    "checked_utc": "2026-10-19T03:03:17.784484+00:00",
+    "status": 200,
+    "path": "docs/references/j2/iers_tn36.pdf",
+    "bytes": 2983786,
+    "sha256": "fdb5b74c5a6135c9d20fd99191741e8b62ac8d712eb96f046e7eeb8fb4236f51"
+  }
+]

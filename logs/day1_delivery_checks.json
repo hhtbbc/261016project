@@ -1,0 +1,34 @@
+{
+  "docs/FOURCASTDEN_CODE_ANALYSIS.md": {
+    "exists": true,
+    "bytes": 7433
+  },
+  "docs/learning_notes/FOURCASTDEN_INTRO.md": {
+    "exists": true,
+    "bytes": 7231
+  },
+  "reports/FOURCASTDEN_ENVIRONMENT.md": {
+    "exists": true,
+    "bytes": 5743
+  },
+  "docs/MINIMAL_INFERENCE_PLAN.md": {
+    "exists": true,
+    "bytes": 5203
+  },
+  "STATUS.md": {
+    "exists": true,
+    "bytes": 3135
+  },
+  "WORKLOG.md": {
+    "exists": true,
+    "bytes": 6274
+  },
+  "evidence": {
+    "cuda": "NVIDIA A100-SXM4-80GB",
+    "weights_zip_md5": "78aa5107bf60927e6898cb19449520b7",
+    "checkpoint_allowlist_load": true,
+    "single_step_status": "passed_execution_checks_not_physical_validation",
+    "independent_metrics": true,
+    "full_test_archive_downloaded": false
+  }
+}

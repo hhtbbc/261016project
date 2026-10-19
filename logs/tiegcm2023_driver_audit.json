@@ -1,0 +1,32 @@
+{
+  "file": "data/processed/tiegcm2023/gpi_20230312_20230325.nc",
+  "sha256": "60fa18244fcdbd8b1bb5300bda86cde68abcca9a9152539bcdc5fc30377aa9f6",
+  "ndays": 14,
+  "kp_count": 112,
+  "valid_model_dates": [
+    "2023-03-14",
+    "2023-03-23"
+  ],
+  "static_roundtrip_pass": true,
+  "actual_model_consumer_test": true,
+  "f107d_range": [
+    134.2,
+    160.3
+  ],
+  "f107a_range": [
+    158.21111111111108,
+    161.90740740740742
+  ],
+  "kp_range": [
+    0.0,
+    8.0
+  ],
+  "solar_quality": "API has no per-record status; finite/nonmissing/continuous verified, original observatory quality not independently certified",
+  "sources": {
+    "data/raw/meeting_sources/gfz_Fobs_spinup_support.txt": "d820698b22c38316805ff5fc52f51c55e38a8ecf1e09a1f98822d42313e4d666",
+    "data/raw/meeting_sources/gfz_Kp_extended_support.txt": "2b0e4fb21e0b5a56e675a5b31a2ba3d966ea71bf0580f80ffa7a3cb944978ecb",
+    "data/raw/tiegcm2023_sources/gfz_Kp_mar25.json": "b48c1d48bf43b7bad7b7fb79ea655350f9ba6b1be6db0a980146791583b1dc26"
+  },
+  "hindcast": true,
+  "consumer_tests": "16 source getgpi queries March21; 8 Kp centers and noon solar checked; no model integration"
+}

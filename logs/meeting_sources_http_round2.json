@@ -1,0 +1,44 @@
+[
+  {
+    "key": "swarm_A_list",
+    "url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=100&pos=0&file=swarm/Level2daily/Latest_baselines/POD/RD/Sat_A",
+    "status": 200,
+    "bytes": 31248
+  },
+  {
+    "key": "satdb_api",
+    "url": "https://satdb.ethz.ch/api-documentation",
+    "status": 200,
+    "bytes": 10362
+  },
+  {
+    "key": "tiegcm_input",
+    "url": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/namelist.html",
+    "status": 200,
+    "bytes": 70638
+  },
+  {
+    "key": "tiegcm_output",
+    "url": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/output.html",
+    "status": 200,
+    "bytes": 11472
+  },
+  {
+    "key": "tiegcm_root_index",
+    "url": "https://download.hao.ucar.edu/pub/tgcm/",
+    "status": 200,
+    "bytes": 1085
+  },
+  {
+    "key": "tiegcm_haomain",
+    "url": "https://www.hao.ucar.edu/modeling/tgcm/index.php",
+    "status": 200,
+    "bytes": 30208
+  },
+  {
+    "key": "tiegcm_tree_v20",
+    "url": "https://api.github.com/repos/NCAR/tiegcm/git/trees/da712811d925376ff8ef40ff64bda7cc070ca661?recursive=1",
+    "status": 200,
+    "bytes": 86934
+  }
+]

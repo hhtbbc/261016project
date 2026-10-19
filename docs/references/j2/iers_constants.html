@@ -1,0 +1,998 @@
+
+
+<html>
+
+<META NAME="keywords" CONTENT="earth rotation, earth rotation, atmosphere, atmosphère, oceans, océans, hydrology, hydrologie, continental water, eaux continetales, angular momentum, moment cinétique, length of day, longeur du jour, polar motion, mouvement du pôle, pole coordinates, coordonnées du pôle, nutation, precession, précession, angular velocity, UT1, UTC,temps universel, universal time, seconde intercalaire, leap second, vitesse de rotation, moon, lune, Mond, sun, soleil, Sonne, tides, marées, Gezeiten, earthquake, seism, tremblement de terre, séisme, excitation, moment d'inertie, matter term, terme matière, motion term, terme mouvement, courant, vent"> 
+
+
+<head>
+
+
+<link rel="stylesheet" href="//hpiers.obspm.fr/eop-pc/style.css" type="text/css">
+<link rel="stylesheet" href="//hpiers.obspm.fr/eop-pc/products/operational/jquery-ui_custom.css" type="text/css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
+
+
+	
+	
+
+<style>
+
+*{padding:0px;margin:0px}
+
+body{background-color:#c2cedb}
+
+ul{margin-left:40px}
+
+	.ul1 {position:fixed;top:94px;left:0px;border-bottom: solid 0px #6688bb; margin: 0px; padding: 0px; list-style: none; background: #ffffff; color: #fff; width: 171px; font: 11px  "Trebuchet MS", sans-serif;z-index:0;background-color:#e6f5ff} 
+	.search{position:fixed;top:56px;left:0px;font-family:arial;font-size:10px;z-index:2}
+	.flags{position:fixed;top:68px;left:10px;z-index:2}
+	.logo_lte{position:fixed;top: -65px;left:3px;z-index:2;width:163px;height:163px}
+	
+	
+	
+			
+	
+.earth_anime{position:absolute;top: 0px;left:158px;z-index:12}
+.bandeau{position:absolute;top:0px;left:148px;z-index:18}
+
+.body {font-family: verdana; font-size: 11px; line-height: normal;margin:0;padding:0;text-align:justify}
+.body_left {font-family: verdana; font-size: 11px; line-height: normal;margin:0;padding:0;text-align:left}
+
+.body12_ru {font-family: arial; font-size: 12px; line-height: normal;margin:0;padding:0;text-align:justify}
+
+.small{font-family: verdana; font-size: 10px; line-height: normal}
+.titre_page {font-family: verdana; font-size: 18px;text-align:center;font-weight: bold; padding-bottom:4px;padding-top:4px;background-color: #0099FF;width:100%}
+.body12 {font-family: verdana; font-size: 12px; line-height: 0.5cm}
+.titre_web { font-family: verdana; font-size: 24px; font-weight: bold; background-color: #FFFFFF; height: 40px; left: 15px; clip: rect( ); color: #FF0000; background-position: left center; width: 620px; padding-left: 15px; overflow: visible; white-space: normal; border-color: black black black #3300FF; border-left-width: thin}
+.soustitre_page { font-family: verdana; font-size: 16px; font-weight: bold; background-color: #CC0033; height: 40px; left: 15px; clip: rect( ); color: #FFFFFF; background-position: left center; width: 650px; padding-left: 15px; overflow: visible; white-space: normal; border-color: black black black #3300FF; border-left-width: thin }
+
+
+.mission li{margin-left:20px;margin-top:4px;margin-bottom:4px}
+
+.mission ul li{margin-left:40px;margin-top:4px;margin-bottom:4px}
+
+
+.table1{position:absolute;top:40px;left:0px;width:200px}
+
+.table2{font-size:11px;font-family:verdana}
+
+</style>
+
+<script type="text/javascript" src="dygraph-combined.js"></script>
+
+
+</head>
+
+</head>
+
+
+<body onLoad="allumer(div2);">
+
+<a href="https://www.obspm.fr"><img class="logo_lte" name="logo_lte" src='images/logo-obs-2.svg'></a>
+
+<div style="position:absolute;top:4px;left:910px;width:60px;height:60px;cursor:pointer;z-index:110" onclick="location.href='http://www.iers.org'"></div>
+
+
+	<img class="bandeau" src="images/logo26.png" name="bandeau">
+	<img  class="earth_anime" src="images/terre_anime.gif">
+  <div style="position:absolute; top:19px; left:223px; width:689px; height: 28px;z-index:110"></div>
+
+	
+
+
+
+
+
+
+<!--
+<div class="search">  
+<form method=post action="search.php"> 
+Search:<br> <input name="var" size=18 maxlength=60>
+<input type=submit value="Go" name="submit">
+</form>
+</div>
+-->
+<div class="flags">
+
+<a href="index.php?index=constants&lang=en&change_lang=true"><img src="images/english-flag.gif" width="25" height="14" border="0"></a>
+&nbsp;
+<a href="index.php?index=constants&lang=fr&change_lang=true"><img src="images/french-flag.gif" width="25" height="14" border="0"></a>
+&nbsp;
+<a href="index.php?index=constants&lang=ru&change_lang=true"><img src="images/russian-flag.gif" width="25" height="14" border="0"></a>
+&nbsp;
+<a href="index.php?index=constants&lang=es&change_lang=true"><img src="images/spanish-flag.jpg" width="25" height="14" border="0"></a>
+&nbsp;
+
+
+</div>
+
+<div style="position:absolute;top:58px; left:218px;font-family:arial;font-size:11px;font-weight:bold; text-decoration:underline ;cursor:pointer;z-index:50" href="#null" onClick="javascript:history.back();">BACK</div>
+
+<a style="position:absolute;top:58px;font-family:arial;font-size:11px;font-weight:bold;left:538px;z-index:50" href="index.php?index=mission&lang=en">HOME</a>
+
+
+<a style="position:absolute;top:58px;font-family:arial;font-size:11px;font-weight:bold;left:812px;z-index:50" href="models/constants.html">SHOW THIS PAGE</a>
+
+
+
+
+
+<style>
+
+
+
+#ul1{display:none}
+#ul2{display:none}
+#ul3{display:none}
+#ul4{display:none}
+
+.ul_menu, .li_menu{margin:0;padding:0;list-style:none;background-color:#f2f2f6}
+
+.div_menu{position:relative;width:100%;height:28px;background-image:url('images/menu-item-deroule10.png');font-size:11px;font-family:arial;font-weight:bold;color:#224466;border-bottom:1px solid #224466}
+
+.ul_menu li a{position:relative;left:2px;text-decoration:none;font-family:verdana;font-size:11px}
+
+
+ .ul_menu li  a:link {color:blue}
+ .ul_menu li  a:visited {color:blue}
+ .ul_menu li  a:active {color:blue}
+ .ul_menu li  a:hover {color:blue}
+
+
+.ul_menu li{position:relative;width:100%;padding-top:4px;padding-bottom:4px;border-bottom:solid 1px  #224466}
+
+
+.span_menu{position:relative;top:6px;left:2px}
+
+
+</style>
+
+
+
+<script type="text/javascript" src="jquery-1.4.2.js"></script> 
+
+<script type="text/javascript" src="jquery.hoverIntent.js"></script> 
+
+
+
+<script type="text/javascript"> 
+<!-- 
+
+
+$(document).ready(function ()
+{
+	
+	$("#ul1").show();
+	
+	$('#div1').hoverIntent(function () {$("#ul1").show();$("#ul2").hide();$("#ul3").hide();$("#ul4").hide();}, function () {});
+
+	$('#div2').hoverIntent(function () {$("#ul2").show();$("#ul1").hide();$("#ul3").hide();$("#ul4").hide();}, function () {});
+	
+	$('#div3').hoverIntent(function () {$("#ul3").show();$("#ul1").hide();$("#ul2").hide();$("#ul4").hide();}, function () {});
+	
+	$('#div4').hoverIntent(function () {$("#ul4").show();$("#ul1").hide();$("#ul2").hide();$("#ul3").hide();}, function () {});
+	
+	
+
+	$("ul.ul_menu li").mouseover(function() 
+	{	
+		$(this).css({backgroundColor: "#ffffff" });
+	});
+	
+	$("ul.ul_menu li").mouseout(function() 
+	{	
+		$(this).css({backgroundColor: "#f2f0f6" });
+	});
+
+	
+	
+});
+		
+
+function allumer(onglet_triangle)
+{
+	div1.style.backgroundImage='url(images/menu-item-deroule10.png)';
+	div2.style.backgroundImage='url(images/menu-item-deroule10.png)';
+	div3.style.backgroundImage='url(images/menu-item-deroule10.png)';
+	div4.style.backgroundImage='url(images/menu-item-deroule10.png)';
+	
+	
+	onglet_triangle.style.backgroundImage='url(images/menu-item-deroule10_on.png)';
+	
+}
+
+hpiers2hpiers2
+
+// --> 
+
+</script> 
+
+
+<ul class="ul1">
+
+<li id="li2" onMouseOver="allumer(div2);">	
+	
+	<div class="div_menu" id="div2"><span class="span_menu">EOP TIME SERIES</span></div>	
+		
+	<ul class="ul_menu" id="ul2">	
+	<li><a id="a22bis" href="http://hpiers.obspm.fr/eop-pc/index.php?index=FTP&lang=en"><b>FTP products</b></a></li>
+	<li><a id="a22" href="http://hpiers.obspm.fr/eop-pc/index.php?index=C04&lang=en" ><b>Reference C04 series <br> Each day since 1962</b></a></li> 
+	<li><a id="a23" href="http://hpiers.obspm.fr/eop-pc/index.php?index=C01&lang=en" ><b>Reference C01 series <br>Each 0.05 year from 1846</b></a></li>
+	<li><a id="a24" href="http://hpiers.obspm.fr/eop-pc/index.php?index=analysis&lang=en" ><b>EOP series  &amp; analysis</b></a></li>
+        <li><a id="a25" href="http://hpiers.obspm.fr/eop-pc/index.php?index=operational&lang=en" >EOP series &amp; comparison</a></li>  
+	<li><a id="a26" href="http://hpiers.obspm.fr/eop-pc/index.php?index=bulletins&lang=en" ><b>Bulletins B, C, D</b></a></li>  
+        <li><a id="a27" href="http://hpiers.obspm.fr/eop-pc/index.php?index=realtime&lang=en" >Last days for EOP</a></li>           
+	<li><a id="a28" href="http://hpiers.obspm.fr/eop-pc/index.php?index=rotation&lang=en" >Rotation matrix/vector</a></li>
+	<li><a href="http://hpiers.obspm.fr/eop-pc/index.php?index=webservice&lang=en" >WEB Service</a></li>
+        <li><a id="a21" href="http://hpiers.obspm.fr/eop-pc/index.php?index=eoptable&lang=en" >EOP series: synoptic</a></li>
+	<br>
+</ul>
+</li>
+
+	<li id="li1" onMouseOver="allumer(div1);">
+		<div class="div_menu"  id="div1"><span class="span_menu">THEORY AND MODELLING</span></div>
+		<ul class="ul_menu"  id="ul1">
+			<li><a id="a11" href="http://hpiers.obspm.fr/eop-pc/index.php?index=orientation&lang=en"  >Earth Orientation Parameters (EOP)</a></li> 
+			<li><a id="a12" href="http://hpiers.obspm.fr/eop-pc/index.php?index=techniques&lang=en" >Astro-geodetic techniques</a></li> 
+			<li><a id="a13" href="http://hpiers.obspm.fr/eop-pc/index.php?index=models&lang=en" title="Models / Software">Models / Sofware</a></li> 
+			<li><a id="a14" href="http://hpiers.obspm.fr/eop-pc/index.php?index=leapsecond&lang=en" title="Leap second">Leap second</a></li> 
+			<li><a id="a15" href="http://hpiers.obspm.fr/eop-pc/index.php?index=constants&lang=en" title="Constants">Useful constants</a></li> 
+	        <li><a href="http://www.astropage.ru/guide/moon/moon_decl_m1.php?month=10&year=2026&type=1&lang=en" title="Moon declination" target="_blank" id="a16">Moon declination</a></li> 
+			<br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</ul>
+	</li>
+	
+	
+	<li id="li3" onMouseOver="allumer(div3);">	
+		
+		<div class="div_menu" id="div3"><span class="span_menu">GEOPHYSICAL EXCITATION</span></div>	
+	
+		<ul class="ul_menu" id="ul3">
+			
+			<li><a id="a32" href="http://hpiers.obspm.fr/eop-pc/index.php?index=excitactive&lang=en" >Excitation of PM/LOD</a></li> 
+ 			<li><a id="a33" href="http://hpiers.obspm.fr/eop-pc/index.php?index=ceam&lang=en" >Excitation of nutation</a></li>
+            <li><a id="a31" href="http://hpiers.obspm.fr/eop-pc/index.php?index=excitation&lang=en" >Geophysical excitation</a></li> 
+<!-- 			<li><a  href="calendrier/datconv.php" target=_blank>Dates converter</a></li> -->
+ 			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</ul>
+	</li>
+	
+	<li id="li4" onMouseOver="allumer(div4);">
+		
+		<div  class="div_menu" id="div4"><span class="span_menu">LINKS</span></div>	
+	
+		<ul class="ul_menu" id="ul4">
+			<li><a href="http://www.iers.org/" ><img src="images/syrteFavicon.png" width="16" height="16" alt="IERS" /> IERS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li> 
+			<li><a href="http://maia.usno.navy.mil/products/eo-products" ><img src="images/syrteFavicon.png width="16" height="16" alt="IERS" /> IERS Rapid Service&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li> 
+            <li><a href="http://iers-conventions.obspm.fr/" ><img src="images/wtfFavicon.png" width="16" height="16" alt="IERS CONVENTIONS CENTER" /> IERS Conventions</a></li>
+			<li><a href="https://lte.observatoiredeparis.psl.eu/-Le-laboratoire-" ><img src="images/ObsFavicon.png" alt="LTE" width="16" height="16" vspace="16"/> LTE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li> 
+			<li><a href="http://www.obspm.fr/" ><img src="images/ObsFavicon.png" alt="Paris Observatory" width="16" height="16" vspace="16" /> Paris Observatory</a></li> 
+			<li><a href="http://grgs.obs-mip.fr/" ><img src="images/GRGSFavicon.png" width="16" height="16" alt="GRGS" /> GRGS&nbsp;&nbsp;&nbsp;&nbsp;</a></li> 
+			<li><a href="http://earthrotation.net/" ><img src="images/wtfFavicon.png" width="16" height="16" alt="Network Earth Rotation Service" /> Network Earth Rotation Service</a></li>
+            <li><a id="a41" href="http://hpiers.obspm.fr/eop-pc/index.php?index=links&lang=en" >Other links</a></li> 
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</ul>
+	</li>
+	
+</ul>
+
+
+
+
+
+
+
+ 
+<div style="position:relative;padding-top:90px;padding-bottom:24px;top:0px;left:171px;width:788;background-color:#ffffff;border-left: 1px solid #4bc1ed;border-right: 1px solid #6bd1fe;text-align:center;z-index:4">
+
+
+
+
+
+<center>
+
+
+
+<div style="width:750px;text-align:justify;font-family:arial;font-size:12px;color:#224466;font-family: verdana; font-size: 12px; line-height: 0.5cm">
+
+
+
+<TITLE>USEFUL CONSTANTS</TITLE>
+<link rel="stylesheet" href="http://hpiers.obspm.fr/eop-pc/style.css" type="text/css">
+
+
+<table width="750" border="0" cellspacing="2">
+<tr align="center" class="titre_page"><td>USEFUL CONSTANTS&nbsp;</td></tr>
+</table>
+
+
+<table width="750" border="0" cellspacing="2" class="body12">
+  <tr>
+    <td width="50">&nbsp;</td>
+    <td width="550">This table undergoes permanent improvements and adds. Any 
+      suggestion are welcome, please send it to christian.bizouard[at]obspm.fr. 
+      Thanks to Pr. &quot;Sonny&quot; Mathews (Madras) for his help. <br>
+      Updated March 13 2021 <br><br>
+      </td> 
+       <td width="50">&nbsp;</td>
+  </tr> 
+<tr align="center"> 
+    <td colspan="2" class="body"><b>
+        <a href="#rotation">Earth's rotation</a> | <a href="#geodesy">Geodesy</a> 
+      | <a href="#gravity">Gravity</a> | <a href="#cosmo">Cosmology</a> | <a href="#physics">Physics</a> 
+      | <a href="#units"> Conversion of units</a> <br>
+ </b> </td></tr>
+  </table>
+<br>
+<table width="750" border="2" cellspacing="1" bordercolor="#0033CC" bordercolordark="#0066CC" bordercolorlight="#0066CC" class="body">
+  <tr> 
+    <td width="111" align="center" valign="middle" > <b>Constant</b> </td>
+    <td valign="middle" align="center" width=85> <b>Symbol</b></td>
+    <td valign="middle" align="center" width=180> <b>Value <br>
+      (Uncertainty on the last digits are indicated in parentheses) </b> </td>
+    <td width="73" align="center" valign="middle" > <b> &nbsp;&nbsp; Units &nbsp;&nbsp;</b></td>
+    <td width="79" align="center" valign="middle" > <b>Relative <br>
+    uncertainty <br> in 10<sup>-6 (ppm)</sup></b> </td>
+    <td width="187" align="center" valign="middle" > <b>Sources - Remarks</b> </td>
+  </tr>
+  <tr> 
+    <td colspan="6"> <b><a name="rotation"></a>Earth's rotation constants</b>    </td>
+  </tr>
+  <tr> 
+    <td align="left"> Mean angular velocity of the Earth </td>
+    <td valign="middle" align="center"> &Omega; &nbsp; </td>
+    <td valign="middle" align="center"> 7.292 115 0(1) </td>
+    <td valign="middle" align="center"> 10<sup>-5</sup> rad/s </td>
+    <td valign="middle" align="center"> 0.014 </td>
+    <td> IERS Numerical Standards <br>
+      (<a href="http://www.gfy.ku.dk/%7Eiag/HB2000/part4/groten.htm" target="_blank">IAG 1999</a>).    </td>
+  </tr>
+  <tr> 
+    <td align="left"> Nominal angular velocity of the Earth </td>
+    <td valign="middle" align="center">&Omega;<sub>N</sub> </td>
+    <td valign="middle" align="center">7.292 115 146 706 4 </td>
+    <td valign="middle" align="center"> 10<sup>-5</sup> rad/s </td>
+    <td valign="middle" align="center" height="57"> exact </td>
+    <td> Reference angular velocity corresponding to the epoch 1820 </td>
+  </tr>
+  <tr> 
+    <td align="left"> Conventional duration of the mean solar day </td>
+    <td valign="middle" align="center"> D </td>
+    <td valign="middle" align="center"> 86 400 </td>
+    <td valign="middle" align="center"> s </td>
+    <td valign="middle" align="center"> exact </td>
+    <td> Corresponds to the duration of the mean solar day in the first mid of the nineteen century; presently the mean solar day 
+      (the seasonal variation is removed) exceeds 86400 s by about 0.2 ms. </td>
+  </tr>
+  <tr> 
+    <td align="left"> Ratio mean solar day/sidereal day </td>
+    <td valign="middle" align="center"> k </td>
+    <td valign="middle" align="center"> 1.002 737 909 350 795 </td>
+    <td valign="middle" align="center"> - </td>
+    <td valign="middle" align="center"> exact </td>
+    <td > Aoki et al, 1982, &quot;The New definition of Universal Time&quot;, 
+      Astron. Astrophys., 105, 359-361 (1982) </td>
+  </tr>
+  <tr> 
+    <td align="left"> Conventional duration of the sidereal day </td>
+    <td valign="middle" align="center"> D<sub>S</sub>=D/k&nbsp; </td>
+    <td valign="middle" align="center"> 86164.090 530 832 88</td>
+    <td valign="middle" align="center"> s </td>
+    <td valign="middle" align="center"> exact </td>
+    <td> from k given in Aoki et al, 1982, &quot;The New definition of Universal 
+      Time&quot;, Astron. Astrophys., 105, 359-361 (1982) </td>
+  </tr>
+  <tr> 
+    <td align="left" > Ratio mean solar day/stellar day </td>
+    <td  valign="middle" align="center"> k'&nbsp; </td>
+    <td  valign="middle" align="center"> <br>
+      1.002 737 811 911 354 48 </td>
+    <td  valign="middle" align="center"> - </td>
+    <td valign="middle" align="center"> exact </td>
+    <td> IERS Conventions (2003). Value consistent with the nominal Earth angular 
+      velocity &Omega;<sub>N</sub> </td>
+  </tr>
+  <tr> 
+    <td align="left">Stellar day </td>
+    <td valign="middle" align="center">D/k'=2 &pi;/&Omega;<sub>N</sub></td>
+    <td valign="middle" align="center"> 86164.098 903 691 </td>
+    <td valign="middle" align="center">s</td>
+    <td valign="middle" align="center">exact</td>
+    <td>From k'. The stellar day referred to the stars is not affected by the 
+      precession and therefore is slightly larger than the sidereal day </td>
+  </tr>
+  <tr> 
+    <td align="left"> General precession in longitude </td>
+    <td valign="middle" align="center"> p </td>
+    <td valign="middle" align="center"> 5028.792(2) </td>
+    <td valign="middle" align="center"> &quot; per century </td>
+    <td valign="middle" align="center"> 0.4 </td>
+    <td> from MHB 2000 nutation model </td>
+  </tr>
+  <tr> 
+    <td align="left"> Obliquity of the ecliptic for the epoch J2000.0 </td>
+    <td align="center" valign="middle"> &epsilon;<sub>0</sub> </td>
+    <td align="center" valign="middle"> 23&deg;26'21&quot;.4119<br>
+      (sin &epsilon;<sub>0</sub>=0.397776995) </td>
+    <td align="center" valign="middle"> - </td>
+    <td align="center" valign="middle"> exact </td>
+    <td> Definition constant (IAU 1976) </td>
+  </tr>
+  <tr> 
+    <td align="left"> Chandler frequency (in the terrestrial frame) </td>
+    <td valign="middle" align="center"> F<sub>C</sub> </td>
+    <td valign="middle" align="center"> 0.8433(30) </td>
+    <td valign="middle" align="center"> cycle per tropical year </td>
+    <td valign="middle" align="center"> 4000 </td>
+    <td> Vicente, R.O., Wilson 1997, C.R., JGR, Vol. 102, B9, pp 20439-20446 </td>
+  </tr>
+  <tr> 
+    <td align="left"> Chandler period (in the terrestrial frame)</td>
+    <td valign="middle" align="center"> T<sub>C</sub> </td>
+    <td valign="middle" align="center"> 433.1(1.7) </td>
+    <td valign="middle" align="center"> mean solar day D </td>
+    <td valign="middle" align="center"> 4000 </td>
+    <td> id </td>
+  </tr>
+  <tr> 
+    <td align="left"> Quality factor of Chandler peak </td>
+    <td   valign="middle" align="center"> Q<sub>C</sub> </td>
+    <td   valign="middle" align="center"> 170 </td>
+    <td   valign="middle" align="center"> - </td>
+    <td   valign="middle" align="center"> - </td>
+    <td> Wilson and Vicente, 1980, Geophys. J. R. Astr. Soc., 62, 605-616. </td>
+  </tr>
+  <tr> 
+    <td align="left"> Free Core Nutation (FCN) period (in the celestial frame) </td>
+    <td align="center" valign="middle"> T<sub>F</sub> </td>
+    <td align="center" valign="middle"> 430.2(3) </td>
+    <td align="center" valign="middle"> mean solar day D </td>
+    <td align="center" valign="middle"> 700 </td>
+    <td> Nutation model MHB 2000 </td>
+  </tr>
+  <tr> 
+    <td align="left" > Quality factor of the FCN </td>
+    <td align="center" valign="middle"> Q<sub>F</sub> </td>
+    <td align="center" valign="middle"> 20000 </td>
+    <td align="center" valign="middle"> - </td>
+    <td align="center" valign="middle"> - </td>
+    <td> Nutation model MHB 2000 </td>
+  </tr>
+  <tr> 
+    <td align="left"> Sidereal year </td>
+    <td align="center" valign="middle"> - </td>
+    <td align="center" valign="middle"> 365.256 363 004 <br>
+      (365d 6h 9m 9.76s) </td>
+    <td align="center" valign="middle"> mean solar day<br>
+      [D=86400s]</td>
+    <td align=center  >&nbsp; </td>
+    <td>From the mean longitude referred to the mean ecliptic and the equinox 
+      J2000 given in <b> Simon et al., 1994</b>, Astron. Astrophys., 282, 663    </td>
+  </tr>
+  <tr> 
+    <td align="left"> Tropical year </td>
+    <td align="center" valign="middle"> - </td>
+    <td align="center" valign="middle"> 365.242 190 402<br>
+      (365d 5h 48m 45.25s) </td>
+    <td align="center" valign="middle"> mean solar day [D=86400s] </td>
+    <td align="center" valign="middle">&nbsp; </td>
+    <td>From the mean longitude referred to the mean ecliptic and the equinoxof 
+      the date given in <b>Simon et al., 1994</b>, Astron. Astrophys., 282, 663    </td>
+  <tr> 
+    <td align="left"> Mean motion of the Moon </td>
+    <td align="center" valign="middle"> - </td>
+    <td align="center" valign="middle"> 2&pi; / 27.32166155(1) </td>
+    <td align="center" valign="middle"> rad/mean solar day [=86400s] </td>
+    <td align="center" valign="middle">&nbsp; </td>
+    <td> IERS Conventions 2003 </td>
+  <tr bgcolor="#00FFFF"> 
+    <td colspan="6"> <b><a name="geodesy"></a>Geodetic constants</b> </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">Earth's equatorial radius </td>
+    <td align="center" valign="middle"> a </td>
+    <td align="center" valign="middle" > 6 378 136.6(1) </td>
+    <td align="center" valign="middle"> m </td>
+    <td align="center" valign="middle"> 0.015 </td>
+    <td > IERS Numerical Standards<br />
+      (<a href="http://www.gfy.ku.dk/%7Eiag/HB2000/part4/groten.htm">IAG 1999</a>) </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">First equatorial moment of inertia </td>
+    <td align="center" valign="middle"> A </td>
+    <td align="center" valign="middle" >8.010 1(2)</td>
+    <td align="center" valign="middle"> 10<sup>37</sup> kg m<sup>2</sup> </td>
+    <td align="center" valign="middle"> 25 </td>
+    <td ><p><a href="http://www.gfy.ku.dk/%7Eiag/HB2000/part4/groten.htm" target="_blank">IAG 1999</a> <br />
+    </p></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td>&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle" >8.010 082 9(84)</td>
+    <td align="center" valign="middle"> 10<sup>37</sup> kg m<sup>2</sup> </td>
+    <td align="center" valign="middle">0.1</td>
+    <td ><a href="#chenshen">Chen &amp; Shen (2010) Tab 2a</a></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">Second equatorial moment of inertia </td>
+    <td align="center" valign="left"> B </td>
+    <td align="center" valign="left" >&nbsp;&nbsp;&nbsp; 8.010 3(2)</td>
+    <td align="center" valign="middle"> 10<sup>37</sup> kg m<sup>2</sup> </td>
+    <td align="center" valign="middle"> 25 </td>
+    <td ><a href="http://www.gfy.ku.dk/%7Eiag/HB2000/part4/groten.htm" target="_blank">IAG 
+      1999</a> </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td>&nbsp;</td>
+    <td align="center" valign="left">&nbsp;</td>
+    <td align="center" valign="left" > 8.010 259 4(84) </td>
+    <td align="center" valign="middle"> 10<sup>37</sup> kg m<sup>2</sup> </td>
+    <td align="center" valign="middle">0.1</td>
+    <td ><a href="#chenshen">Chen &amp; Shen (2010)</a> <a href="#chenshen">Tab 2a</a></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">Mean equatorial moment of inertia </td>
+    <td align="center" valign="middle"><span style="text-decoration: overline">A</span>=(A+B)/2</td>
+    <td align="center" valign="middle" >8.010 171 1(84)</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td ><a href="#chenshen">Chen &amp; Shen (2010) Tab 2a </a></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">Axial moment of inertia </td>
+    <td align="center" valign="middle"> C</td>
+    <td align="center" valign="middle" ><p>8.0365(2) </p></td>
+    <td align="center" valign="middle"> 10<sup>37</sup> kg m<sup>2</sup> </td>
+    <td align="center" valign="middle"> 25 </td>
+    <td ><a href="http://www.gfy.ku.dk/%7Eiag/HB2000/part4/groten.htm" target="_blank">IAG 
+      1999</a> </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td>&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle" ><p>8.0364807(84)</p></td>
+    <td align="center" valign="middle"> 10<sup>37</sup> kg m<sup>2</sup> </td>
+    <td align="center" valign="middle">0.1</td>
+    <td ><a href="#chenshen">Chen &amp; Shen (2010)</a><a href="#chenshen"> Tab 2a</a> </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">Longitude of the principal inertia axis A </td>
+    <td align="center" valign="middle">&lambda;<sub>A</sub> </td>
+    <td align="center" valign="middle" > -14.9291(10) </td>
+    <td align="center" valign="middle">&deg; </td>
+    <td align="center" valign="middle"> 100 </td>
+    <td ><a href="http://www.gfy.ku.dk/%7Eiag/HB2000/part4/groten.htm" target="_blank">IAG 
+      1999</a> </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td>&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle" >&minus;14.928509(75)</td>
+    <td align="center" valign="middle">&deg; </td>
+    <td align="center" valign="middle">5</td>
+    <td ><a href="#chenshen">Chen &amp; Shen (2010) Tab 2b</a></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">Colatitude  of the principal inertia axis A  </td>
+    <td align="center" valign="middle">&theta;<sub>A</sub></td>
+    <td align="center" valign="middle" > 0.00003788(48)</td>
+    <td align="center" valign="middle">&deg; </td>
+    <td align="center" valign="middle"> 20000 </td>
+    <td ><a href="#chenshen">Chen &amp; Shen (2010) Tab 2b</a></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">First equatorial moment of inertia of the core</td>
+    <td align="center" valign="middle">A<sub>f</sub></td>
+    <td align="center" valign="middle" >9.115 237 9 <br /></td>
+    <td align="center" valign="middle">10<sup>36</sup> kg m<sup>2</sup> </td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td ><a href="#chenshen">Chen &amp; Shen (2010)</a> <a href="#chenshen">Tab 3</a></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">Second equatorial moment of inertia of the core</td>
+    <td align="center" valign="middle">B<sub>f</sub></td>
+    <td align="center" valign="middle" >9.115 399 7 </td>
+    <td align="center" valign="middle">10<sup>36</sup> kg m<sup>2</sup> </td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td ><a href="#chenshen">Chen &amp; Shen (2010) Tab 3</a></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td>Axial moment of inertia of the core</td>
+    <td align="center" valign="middle">C<sub>f</sub></td>
+    <td align="center" valign="middle">9.139 353 0 </td>
+    <td align="center" valign="middle">10<sup>36</sup> kg m<sup>2</sup> </td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td ><a href="#chenshen">Chen &amp; Shen (2010)</a> <a href="#chenshen">Tab 3</a></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">First equatorial moment of inertia of the mantle</td>
+    <td align="center" valign="middle"> A<sub>m</sub> = A-A<sub>f</sub> </td>
+    <td align="center" valign="middle" > 7.016 5 </td>
+    <td align="center" valign="middle"> 10<sup>37</sup> kg m<sup>2</sup> </td>
+    <td align="center" valign="middle"> ? </td>
+    <td > Barnes et al, 1983, Proc. R. Soc. Lond., A 387, 31-73 </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td>&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle" >7.098 56</td>
+    <td align="center" valign="middle">10<sup>37</sup> kg m<sup>2</sup></td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td ><a href="#chenshen">Chen &amp; Shen (2010)</a></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">Second equatorial moment of inertia of the core</td>
+    <td align="center" valign="middle">B<sub>m</sub>=B-B<sub>f</sub> </td>
+    <td align="center" valign="middle" >7.098 72</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td ><a href="#chenshen">Chen &amp; Shen (2010)</a></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">Axial moment of inertia of the mantle</td>
+    <td align="center" valign="middle"> C<sub>m</sub>=C-C<sub>f</sub> </td>
+    <td align="center" valign="middle" > 7.040 0 </td>
+    <td align="center" valign="middle"> 10<sup>37</sup> kg m<sup>2</sup> </td>
+    <td align="center" valign="middle"> ? </td>
+    <td > Barnes et al, 1983, Proc. R. Soc. Lond., A 387, 31-73 </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td>&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle" >7.122 55</td>
+    <td align="center" valign="middle">10<sup>37</sup> kg m<sup>2</sup></td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td ><a href="#chenshen">Chen &amp; Shen (2010)</a></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left"> Earth flattening</td>
+    <td align="center" valign="middle"> f </td>
+    <td align="center" valign="middle" > 1/298.25642(1) </td>
+    <td align="center" valign="middle"> - </td>
+    <td align="center" valign="middle"> 0.03 </td>
+    <td > IERS Numerical Standards<br />
+      (<a href="http://www.gfy.ku.dk/%7Eiag/HB2000/part4/groten.htm" target="_blank">IAG 1999</a>) </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left" >&quot;Astronomical&quot; dynamical ellipticity</td>
+    <td align="center" valign="middle"> H </td>
+    <td align="center" valign="middle" > 3.2737949(1) 10<sup>-3</sup></td>
+    <td align="center" valign="middle"> - </td>
+    <td align="center" valign="middle"> 0.03 </td>
+    <td > H=(C-A)/C <br />
+      Nutation model MHB 2000 </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">Dynamical ellipticity</td>
+    <td align="center" valign="middle"> e=(C - <span style="text-decoration: overline">A</span>)/<span style="text-decoration: overline">A</span></td>
+    <td align="center" valign="middle" ><p>3.284 547 9(1) 10<sup>-3</sup></p></td>
+    <td align="center" valign="middle"> - </td>
+    <td align="center" valign="middle"> 0.0</td>
+    <td align="left" >Nutation model MHB 2000 </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td>&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle" >3.284 517 8 10<sup>-3</sup></td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td ><a href="#chenshen">Chen &amp; Shen (2010) Tab. 4</a></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left">Dynamical ellipticity of the core</td>
+    <td align="center" valign="middle"> e<sub>f</sub>=(C<sub>f</sub> - <span style="text-decoration: overline">A</span><sub>f</sub>)/<span style="text-decoration: overline">A</span><sub>f</sub> </td>
+    <td align="center" valign="middle" > 2.646(2) 10<sup>-3</sup></td>
+    <td align="center" valign="middle"> - </td>
+    <td align="center" valign="middle"> 750</td>
+    <td > Nutation model MHB 2000 </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left"   valign="middle">&nbsp;</td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="center" valign="middle" >2.645 575 8 10<sup>-3</sup></td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td  align="center" valign="middle">&nbsp;</td>
+    <td align="left" valign="middle" ><a href="#chenshen">Chen &amp; Shen (2010) Tab. 4</a></td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left"   valign="middle"> Second degree term in Earth's gravity 
+      potential </td>
+    <td align="center" valign="middle"> J<sub>2</sub> </td>
+    <td align="center" valign="middle" > 1.082 635 9(1) 10<sup>-3</sup> </td>
+    <td align="center" valign="middle"> - </td>
+    <td  align="center" valign="middle"> 0.09 </td>
+    <td align="left" valign="middle" > IERS Numerical Standards<br />
+      (<a href="http://www.gfy.ku.dk/%7Eiag/HB2000/part4/groten.htm" target="_blank">IAG 1999</a>)<br />
+      J<sub>2</sub>=-(A+B-2C)/(2MR<sup>2</sup>) </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left"> Secular rate of J<sub>2</sub> </td>
+    <td align="center" valign="middle"> d( J<sub>2</sub> )/dt </td>
+    <td align="center" valign="middle" > -2.6(3) </td>
+    <td align="center" valign="middle"> 10<sup>-11</sup> year<sup>-1</sup> </td>
+    <td align="center" valign="middle"> 115000 </td>
+    <td ><a href="http://www.gfy.ku.dk/%7Eiag/HB2000/part4/groten.htm" target="_blank">IAG 
+      1999 </a> </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left"> Love number </td>
+    <td align="center" valign="middle"> k<sub>2</sub> </td>
+    <td align="center" valign="middle" > 0.3 </td>
+    <td align="center" valign="middle"> - </td>
+    <td align="center" valign="middle"> - </td>
+    <td ><a href="http://www.gfy.ku.dk/%7Eiag/HB2000/part4/groten.htm" target="_blank">IAG 
+      1999</a> </td>
+  </tr>
+  <tr bgcolor="#00FFFF">
+    <td align="left"> Secular Love number </td>
+    <td align="center" valign="middle"> ks </td>
+    <td align="center" valign="middle" > 0.9383 </td>
+    <td align="center" valign="middle"> - </td>
+    <td align="center" valign="middle"> - </td>
+    <td ><a href="http://www.gfy.ku.dk/%7Eiag/HB2000/part4/groten.htm" target="_blank">IAG 
+      1999</a> </td>
+  </tr>
+  <tr bgcolor="#FFFFCC"> 
+    <td colspan="6"> <b><a name="gravity"></a>Gravitational constants</b> </td>
+  </tr>
+  <tr bgcolor="#FFFFCC"> 
+    <td align="left"> Mean equatorial gravity </td>
+    <td valign="middle" align="center"> g </td>
+    <td valign="middle" align="center"> 9.780 327 8 (10) </td>
+    <td valign="middle" align="center"> m s<sup>-2</sup> </td>
+    <td valign="middle" align="center"> 0.1 </td>
+    <td> recommended by CODATA (july 2000) </td>
+  </tr>
+  <tr bgcolor="#FFFFCC"> 
+    <td align="left"> Gravitational constant </td>
+    <td align="center" valign="middle"> G </td>
+    <td align="center" valign="middle">6.673 84(80) </td>
+    <td align="center" valign="middle"> 10<sup>-11</sup> m<sup>3</sup>kg<sup>-1</sup>s<sup>-2</sup>    </td>
+    <td align="center" valign="middle"> 100 </td>
+    <td> recommanded by CODATA 2010 </td>
+  </tr>
+  <tr bgcolor="#FFFFCC"> 
+    <td>&nbsp;</td>
+    <td align="center" valign="middle"> G </td>
+    <td align="center" valign="middle"> 6.675 59(27) </td>
+    <td align="center" valign="middle"> 10<sup>-11</sup> m<sup>3</sup>kg<sup>-1</sup>s<sup>-2</sup>    </td>
+    <td align="center" valign="middle"> 40 </td>
+    <td> Quinn et al., <i>Phys. Rev. Lett.</i> <b>87</b> (2001) </td>
+  </tr>
+  <tr bgcolor="#FFFFCC"> 
+    <td align="left"> Geocentric constant of gravitation </td>
+    <td align="center" valign="middle"> GM </td>
+    <td align="center" valign="middle"> 3.986 004 418(8) </td>
+    <td align="center" valign="middle"> 10<sup>14</sup> m<sup>3</sup>s<sup>-2</sup>    </td>
+    <td align="center" valign="middle"> 0.002 </td>
+    <td> IERS numerical standard <br>
+      (<a href="http://www.gfy.ku.dk/%7Eiag/HB2000/part4/groten.htm" target="_blank">IAG1999</a>)    </td>
+  </tr>
+  <tr bgcolor="#FFFFCC"> 
+    <td align="left"> Heliocentric constant of gravitation </td>
+    <td align="center" valign="middle"> GS </td>
+    <td align="center" valign="middle"> 1.327 124 420 76(50) </td>
+    <td align="center" valign="middle"> 10<sup>20</sup> m<sup>3</sup>s<sup>-2</sup>    </td>
+    <td align="center" valign="middle"> 0.0004 </td>
+    <td> IERS numerical standard <br>
+      (from Standish, 1998) </td>
+  </tr>
+  <tr bgcolor="#FFFFCC"> 
+    <td align="left"> Mass Moon/ Mass Earth </td>
+    <td align="center" valign="middle"> &micro; </td>
+    <td align="center" valign="middle"> 0.012 300 038 3(5) </td>
+    <td align="center" valign="middle"> - </td>
+    <td align="center" valign="middle"> 0.04 </td>
+    <td> IERS numerical standard <br>
+      (from Standish, 1998) </td>
+  </tr>
+  <tr valign="top" bgcolor="#00FFFF"> 
+    <td colspan="6"> <b><a name="cosmo"></a>Cosmological constant</b></td>
+  </tr>
+  <tr bgcolor="#00FFFF"> 
+    <td align="left">Hubble constant</td>
+    <td align="center" valign="middle"> H</td>
+    <td align="center" valign="middle"> 73 (3) </td>
+    <td align="center" valign="middle"> km s<sup>-1</sup>Mpc<sup>-1</sup></td>
+    <td align="center" valign="middle"> 41095</td>
+    <td>recommanded by CODATA 2006</td>
+  </tr>
+  <tr bgcolor="#00FFFF"> 
+    <td align="left">Hubble length</td>
+    <td align="center" valign="middle"> R = c/H</td>
+    <td align="center" valign="middle"> 1.27(5) 10<sup>26</sup></td>
+    <td align="center" valign="middle">m </td>
+    <td align="center" valign="middle">41095</td>
+    <td>recommanded by CODATA 2006</td>
+  </tr>
+  <tr bgcolor="#00FFFF"> 
+    <td align="left"> Age of the Universe </td>
+    <td align="center" valign="middle"> t<sub>0</sub></td>
+    <td align="center" valign="middle"> 13.73(15)</td>
+    <td align="center" valign="middle"> Giga year</td>
+    <td align="center" valign="middle"> 10924</td>
+    <td>recommanded by CODATA 2006</td>
+  </tr>
+  <tr> 
+    <th align=left colspan="6" height="32"> <b><a name="physics"></a></b> Physical 
+      constants from <a href="http://physics.nist.gov/cuu/Constants/index.html" target="_blank">http://physics.nist.gov/cuu/Constants/index.html</a> 
+      recommended by CODATA 2010
+  <tr> 
+    <td align="left"> Speed of light in ether or so-called vacuo</td>
+    <td align="center" valign="middle"> c </td>
+    <td align="center" valign="middle"> 299 792 458 </td>
+    <td align="center" valign="middle"> ms<sup>-1</sup> </td>
+    <td align="center" valign="middle"> (by definition) </td>
+    <td> CODATA </td>
+  <tr> 
+    <td align="left"> permeability of the free space </td>
+    <td align="center" valign="middle"> &mu;<sub>0</sub> </td>
+    <td align="center" valign="middle"> 4 &pi; 10<sup>-7</sup>    </td>
+    <td align="center" valign="middle"> NA<sup>-2</sup> </td>
+    <td align="center" valign="middle"> <sup> </sup>(exact) </td>
+    <td> CODATA</td>
+  <tr> 
+    <td align="center" valign="middle">&nbsp; </td>
+    <td align="center" valign="middle">&nbsp; </td>
+    <td align="center" valign="middle"> = 12.566 370 614... </td>
+    <td align="center" valign="middle"> 10<sup>-7</sup> NA<sup>-2</sup> </td>
+    <td align="center" valign="middle"> (calculated) </td>
+    <td> CODATA </td>
+  <tr> 
+    <td  align="left"> permittivity of the free space </td>
+    <td align="center" valign="middle"> &epsilon;<sub>0</sub> </td>
+    <td align="center" valign="middle"> 1/(&mu;<sub>0</sub> c<sup>2)</sup> =8.854 187 817</td>
+    <td align="center" valign="middle"> 10<sup>-12</sup> Fm<sup>-1</sup> </td>
+    <td align="center" valign="middle"> (calculated) </td>
+    <td> CODATA </td>
+  <tr> 
+    <td align="left"> Gravitational constant</td>
+    <td align="center" valign="middle"> G </td>
+    <td align="center" valign="middle"> 6.673 84(80) </td>
+    <td align="center" valign="middle"> 10<sup>-11</sup> m<sup>3</sup>kg<sup>-1</sup>s<sup>-2</sup>    </td>
+    <td align="center" valign="middle"> 100 </td>
+    <td > CODATA </td>
+  <tr> 
+    <td align="left"> Planck constant 
+    <td align="center" valign="middle"> h</td>
+    <td align="center" valign="middle"> 6.626 069 57(29)</td>
+    <td align="center" valign="middle"> 10<sup>-34</sup> Js </td>
+    <td align="center" valign="middle"> 0.05 </td>
+    <td> CODATA </td>
+  <tr> 
+    <td align="left"> h/2&pi; 
+    <td align="center" valign="middle"> <strike>h</strike> </td>
+    <td align="center" valign="middle"> 1.054 571 726(47)</td>
+    <td align="center" valign="middle"> 10<sup>-34</sup> Js </td>
+    <td align="center" valign="middle"> 0.05 </td>
+    <td> CODATA </td>
+  <tr> 
+    <td align="left"> Electron charge </td>
+    <td align="center" valign="middle"> e</td>
+    <td align="center" valign="middle"> 1.602 176 565(35)</td>
+    <td align="center" valign="middle"> 10<sup>-19</sup> C </td>
+    <td align="center" valign="middle"> 0.025 </td>
+    <td> CODATA </td>
+  <tr> 
+    <td align="left"> Electron mass </td>
+    <td align="center" valign="middle"> m<sub>e</sub> </td>
+    <td align="center" valign="middle" > 9.109 382 91(40)</td>
+    <td align="center" valign="middle" > 10<sup>-31</sup> kg </td>
+    <td align="center" valign="middle"  > 0.05 </td>
+    <td> CODATA </td>
+  <tr> 
+    <td align="left"> Proton mass </td>
+    <td align="center" valign="middle"> m<sub>p</sub></td>
+    <td align="center" valign="middle"> 1.672 621 777(74)</td>
+    <td align="center" valign="middle" > 10<sup>-27</sup> kg </td>
+    <td align="center" valign="middle"> 0.05 </td>
+    <td> CODATA </td>
+  <tr> 
+    <td align="left"> Ratio masses proton-electron </td>
+    <td align="center" valign="middle"> m<sub>p</sub>/m<sub>e</sub></td>
+    <td align="center" valign="middle"> 1836.152 672 45(75) </td>
+    <td align="center" valign="middle">&nbsp; </td>
+    <td align="center" valign="middle"> 0.0004 </td>
+    <td> CODATA 
+  <tr> 
+    <td align="left"> Fine-structure constant </td>
+    <td align="center" valign="middle"> a </td>
+    <td align="center" valign="middle"> 7.297 352 5698(24)</td>
+    <td align="center" valign="middle"> 10<sup>-3</sup> </td>
+    <td align="center" valign="middle"> 0.0003</td>
+    <td align="left" valign="middle"> CODATA </td>
+  <tr> 
+    <td align="left" valign="middle"> Inverse of the fine- struture constant</td>
+    <td align="center" valign="middle">a<sup>-1</sup> </td>
+    <td align="center" valign="middle"> 137.035 999 074(44)</td>
+    <td align="center" valign="middle">&nbsp; </td>
+    <td align="center" valign="middle" > 0.0003 </td>
+    <td align="left"> CODATA </td>
+  <tr> 
+    <td align="left"> Avogadro number </td>
+    <td valign="middle" align="center"> NA, L </td>
+    <td valign="middle" align="center"> 6.022 141 29(27)</td>
+    <td valign="middle" align="center"> 10<sup>23</sup> mol<sup>-1</sup> </td>
+    <td valign="middle" align="center"> 0.04 </td>
+    <td valign="middle" align="left"> CODATA </td>
+  <tr> 
+    <td align="left" height="39"> Boltzmann constant, R/ NA</td>
+    <td valign="middle" align="center"> k</td>
+    <td valign="middle" align="center"> 1.380 6488(13) </td>
+    <td valign="middle" align="center"> 10<sup>-23</sup> JK<sup>-1</sup> </td>
+    <td valign="middle" align="center"> 0.9 </td>
+    <td align="left"> CODATA</td>
+  <tr> 
+    <td align="left"> Stefan-Boltzmann constant </td>
+    <td valign="middle" align="center"> &sigma; </font>    </td>
+    <td valign="middle" align="center"> 5.670 373(21)</td>
+    <td valign="middle" align="center"> 10<sup>-8</sup> Wm<sup>-2</sup>K<sup>-4</sup></td>
+    <td valign="middle" align="center">4</td>
+    <td>CODATA </td>
+  <tr bgcolor="#33FFFF"> 
+    <td colspan="6"> <b><a name="units"></a> Units and conversion of units</b>    </td>
+  </tr>
+  <tr bgcolor="#33FFFF"> 
+    <td align="left"> 1 astronomical unit </td>
+    <td valign="middle" align="center"> UA </td>
+    <td valign="middle" align="center"> 149 597 870.691(6) </td>
+    <td valign="middle" align="center"> km </td>
+    <td align=center valign="middle"> 0.00004 </td>
+    <td> numerical IERS Standards </td>
+  </tr>
+  <tr bgcolor="#33FFFF"> 
+    <td colspan="3"> From milliarcseconds (mas) to radians </td>
+    <td colspan="3"> 1 mas =4.8481(1) 10<sup>-9</sup> rad </td>
+  </tr>
+  <tr bgcolor="#33FFFF"> 
+    <td colspan="3"> What represents an arc of 1mas from the center of the Earth 
+      at distance equal to the polar radius (6 356 755 m)? </td>
+    <td colspan="3"> 3.1(1) cm </td>
+  </tr>
+  <tr bgcolor="#33FFFF"> 
+    <td colspan="3" height="47"> Conversion of arc units in hour, minute, second 
+      to arc units in degre, arcminute, arcsecond </td>
+    <td colspan="3" height="47"> 
+      <p align="left"> 24 h = 360&deg; &nbsp;&nbsp; &nbsp;&nbsp; 1 h = 15&deg;<br>
+        1 min = 15' &nbsp;&nbsp; &nbsp;&nbsp;1 s = 15&quot; <br>
+        1 ms = 15 mas </p>    </td>
+  </tr>
+  <tr bgcolor="#33FFFF"> 
+    <td colspan="3"> From modified julian (MJD) day to &quot;julian&quot; year 
+      (JY) </td>
+    <td colspan="3"> JY=2000-(51544.5-MJD)/365.25 </td>
+  </tr>
+  <tr bgcolor="#33FFFF"> 
+    <td colspan="3"> From modified julian (MJD) day to besselian year (BJ) </td>
+    <td colspan="3"> BY=2000-(51544.33 3981-MJD)/365.242 198 781 (SOFA)</td>
+  </tr>
+  <tr bgcolor="#33FFFF"> 
+    <td colspan="3"> From julian year (JY) to modified julian date (MJD) </td>
+    <td colspan="3"> MJD=(JY - 2000) * 365.25 + 51544.5 </td>
+  </tr>
+</table>
+
+<p><a name="chenshen"></a><a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2009JB007094" target="blank">Chen Shen (2010), New estimates of the inertia tensor and rotation
+of the triaxial nonrigid Earth, JGR 115, B12419, doi:10.1029/2009JB007094, 2010</a></p>
+<br>
+
+
+</div>
+
+</center>
+
+</div>
+
+<div style="position:relative;top:0px;left:171px;width:790px;height:24px;background-image:url('images/logo24_quatro_pied_de_page.png');z-index:120">
+
+</div>
+
+
+<br><br><br><br>
+
+
+</body>
+
+</html>

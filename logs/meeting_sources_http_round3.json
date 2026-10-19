@@ -1,0 +1,42 @@
+[
+  {
+    "key": "swarm_A_all",
+    "url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=10000&pos=0&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A",
+    "status": 200,
+    "final_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=10000&pos=0&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A",
+    "bytes": 1802784
+  },
+  {
+    "key": "swarm_A_tle_202303",
+    "url": "https://satdb.ethz.ch/api/satellitedata/?norad-id=39452&start-datetime=20230320T0000&end-datetime=20230323T0000&before=2&after=0&without-frequency-data=True",
+    "status": 200,
+    "final_url": "https://satdb.ethz.ch/api/satellitedata/?norad-id=39452&start-datetime=20230320T0000&end-datetime=20230323T0000&before=2&after=0&without-frequency-data=True",
+    "bytes": 1745
+  },
+  {
+    "key": "spacetrack_query_unauth",
+    "url": "https://www.space-track.org/basicspacedata/query/class/gp_history/NORAD_CAT_ID/39452/EPOCH/2023-03-20--2023-03-23/orderby/EPOCH/format/tle",
+    "error": "<HTTPError 401: 'Unauthorized'>"
+  },
+  {
+    "key": "tiegcm_download_index",
+    "url": "https://download.hao.ucar.edu/pub/tgcm/tiegcm2.0/",
+    "status": 200,
+    "final_url": "https://download.hao.ucar.edu/pub/tgcm/tiegcm2.0/",
+    "bytes": 638
+  },
+  {
+    "key": "gfz_Kp_candidate",
+    "url": "https://kp.gfz.de/app/json/?start=2023-03-20T00:00:00Z&end=2023-03-23T00:00:00Z&index=Kp&status=def",
+    "status": 200,
+    "final_url": "https://kp.gfz.de/app/json/?start=2023-03-20T00:00:00Z&end=2023-03-23T00:00:00Z&index=Kp&status=def",
+    "bytes": 944
+  },
+  {
+    "key": "tiegcm_apex_latest_commit",
+    "url": "https://api.github.com/repos/NCAR/tiegcm/commits?path=src/apex.F90&per_page=1",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/NCAR/tiegcm/commits?path=src/apex.F90&per_page=1",
+    "bytes": 3236
+  }
+]

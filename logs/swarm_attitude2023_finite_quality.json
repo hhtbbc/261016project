@@ -1,0 +1,20 @@
+[
+  {
+    "file": "SW_OPER_STRAATT_1B_20230321T000000_20230321T235959_0601_MDR_SAT_AT.cdf",
+    "nonfinite_quaternion_rows": 0,
+    "finite_norm_min": 0.9999999991231159,
+    "finite_norm_max": 1.0000000008859053
+  },
+  {
+    "file": "SW_OPER_STRAATT_1B_20230322T000000_20230322T235959_0601_MDR_SAT_AT.cdf",
+    "nonfinite_quaternion_rows": 80,
+    "finite_norm_min": 0.9999999991023214,
+    "finite_norm_max": 1.0000000008590402
+  },
+  {
+    "file": "SW_OPER_STRAATT_1B_20230323T000000_20230323T235959_0601_MDR_SAT_AT.cdf",
+    "nonfinite_quaternion_rows": 10,
+    "finite_norm_min": 0.9999999991369439,
+    "finite_norm_max": 1.0000000008627532
+  }
+]

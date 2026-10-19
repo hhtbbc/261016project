@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://doi.org/10.3390/rs18183134",
+    "checked_utc": "2026-10-19T01:16:40.950083+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://doi.org/10.5281/zenodo.22250237",
+    "checked_utc": "2026-10-19T01:16:41.722850+00:00",
+    "status": 200,
+    "final_url": "https://zenodo.org/records/22250238",
+    "bytes_read": 74292,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://doi.org/10.5281/zenodo.21859635",
+    "checked_utc": "2026-10-19T01:16:44.355407+00:00",
+    "status": 200,
+    "final_url": "https://zenodo.org/records/21859635",
+    "bytes_read": 66211,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://zenodo.org/api/records/22250237",
+    "checked_utc": "2026-10-19T01:16:46.949473+00:00",
+    "status": 200,
+    "final_url": "https://zenodo.org/api/records/22250238",
+    "bytes_read": 4993,
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://zenodo.org/api/records/21859635",
+    "checked_utc": "2026-10-19T01:16:48.534460+00:00",
+    "status": 200,
+    "final_url": "https://zenodo.org/api/records/21859635",
+    "bytes_read": 4163,
+    "content_type": "application/json"
+  },
+  {
+    "url": "https://www.mdpi.com/2072-4292/18/18/3134",
+    "checked_utc": "2026-10-19T01:16:49.363827+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://api.crossref.org/works/10.3390/rs18183134",
+    "checked_utc": "2026-10-19T01:16:49.630311+00:00",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works/10.3390/rs18183134",
+    "bytes_read": 18498,
+    "content_type": "application/json"
+  }
+]

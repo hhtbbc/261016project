@@ -1,0 +1,50 @@
+{
+  "tools": {
+    "gfortran": null,
+    "ifort": null,
+    "ifx": null,
+    "mpif90": null,
+    "mpifort": null,
+    "mpirun": null,
+    "nf-config": null,
+    "nc-config": null,
+    "make": "/usr/bin/make",
+    "cmake": "/usr/local/bin/cmake",
+    "gcc": "/usr/bin/gcc",
+    "g++": "/usr/bin/g++",
+    "git": "/usr/bin/git",
+    "csh": null,
+    "tcsh": null,
+    "ESMF_Info": null
+  },
+  "python_packages": {
+    "numpy": true,
+    "scipy": false,
+    "astropy": false,
+    "sgp4": false,
+    "xarray": false,
+    "netCDF4": true,
+    "pymsis": false,
+    "matplotlib": true
+  },
+  "df -h .": {
+    "returncode": 0,
+    "stdout": "Filesystem                Size  Used Avail Use% Mounted on\n192.168.1.224:/data2/hht  3.5T  2.7T  670G  80% /workspace/data\n",
+    "stderr": ""
+  },
+  "free -h": {
+    "returncode": 0,
+    "stdout": "               total        used        free      shared  buff/cache   available\nMem:           1.9Ti        87Gi       163Gi       502Mi       1.6Ti       1.8Ti\nSwap:             0B          0B          0B\n",
+    "stderr": ""
+  },
+  "nc-config --all": {
+    "returncode": 127,
+    "stdout": "",
+    "stderr": "/bin/sh: 1: nc-config: not found\n"
+  },
+  "ldconfig -p": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

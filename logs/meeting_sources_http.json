@@ -1,0 +1,64 @@
+[
+  {
+    "key": "swarm_root",
+    "url": "https://swarm-diss.eo.esa.int/",
+    "status": 200,
+    "final_url": "https://swarm-diss.eo.esa.int/",
+    "bytes": 43497,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "swarm_list",
+    "url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=100&pos=0&file=swarm/Level2daily/Latest_baselines/POD/RD",
+    "status": 200,
+    "final_url": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=100&pos=0&file=swarm/Level2daily/Latest_baselines/POD/RD",
+    "bytes": 618,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "satdb",
+    "url": "https://satdb.ethz.ch/",
+    "status": 200,
+    "final_url": "https://satdb.ethz.ch/",
+    "bytes": 10945,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "key": "tiegcm_build",
+    "url": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/build.html",
+    "status": 200,
+    "final_url": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/build.html",
+    "bytes": 15186,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "tiegcm_quickstart",
+    "url": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/quickstart.html",
+    "status": 200,
+    "final_url": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/quickstart.html",
+    "bytes": 16254,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "key": "tiegcm_tar_index",
+    "url": "https://download.hao.ucar.edu/pub/tgcm/tar/",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "tiegcm_data_index",
+    "url": "https://download.hao.ucar.edu/pub/tgcm/data/tiegcm2.0/",
+    "status": 200,
+    "final_url": "https://download.hao.ucar.edu/pub/tgcm/data/tiegcm2.0/",
+    "bytes": 9322,
+    "content_type": "text/html;charset=ISO-8859-1"
+  },
+  {
+    "key": "tiegcm_github_tags",
+    "url": "https://api.github.com/repos/NCAR/tiegcm/tags?per_page=100",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/NCAR/tiegcm/tags?per_page=100",
+    "bytes": 16603,
+    "content_type": "application/json; charset=utf-8"
+  }
+]

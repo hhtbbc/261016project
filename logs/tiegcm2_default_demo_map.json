@@ -1,0 +1,9 @@
+{
+  "source": "experiments/tiegcm2_default_1day_v1/tiegcm2.0_res5.0_mareqx_smin_sech_001.nc",
+  "date": "2002-03-22 00:00:00",
+  "geometric_height_m": 400000.0,
+  "vertical_method": "columnwise log-linear density vs native ZG, no extrapolation",
+  "minimum_kg_m3": 3.794102263994657e-13,
+  "maximum_kg_m3": 9.35655647840303e-13,
+  "not_2023_density": true
+}

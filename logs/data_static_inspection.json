@@ -1,0 +1,1193 @@
+{
+  "static": {
+    "lat": {
+      "dtype": "float64",
+      "shape": [
+        36
+      ],
+      "min": -87.5,
+      "max": 87.5,
+      "unique_diff": [
+        5.0
+      ]
+    },
+    "lon": {
+      "dtype": "float64",
+      "shape": [
+        72
+      ],
+      "min": -180.0,
+      "max": 175.0,
+      "unique_diff": [
+        5.0
+      ]
+    },
+    "lev": {
+      "dtype": "float64",
+      "shape": [
+        29
+      ],
+      "min": -6.75,
+      "max": 7.25,
+      "unique_diff": [
+        0.5
+      ]
+    },
+    "ilev": {
+      "dtype": "float64",
+      "shape": [
+        29
+      ],
+      "min": -7.0,
+      "max": 7.0,
+      "unique_diff": [
+        0.5
+      ]
+    },
+    "global_means": {
+      "TN": {
+        "shape": [
+          28
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "UN": {
+        "shape": [
+          28
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "VN": {
+        "shape": [
+          28
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "WN": {
+        "shape": [
+          29
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "Z": {
+        "shape": [
+          29
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "ZG": {
+        "shape": [
+          29
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "DEN": {
+        "shape": [
+          29
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "NE": {
+        "shape": [
+          29
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "TLBC": {
+        "shape": [
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "ULBC": {
+        "shape": [
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "VLBC": {
+        "shape": [
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "f107d": {
+        "shape": [
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "f107a": {
+        "shape": [
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "Kp": {
+        "shape": [
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      }
+    },
+    "global_stds": {
+      "TN": {
+        "shape": [
+          28
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "UN": {
+        "shape": [
+          28
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "VN": {
+        "shape": [
+          28
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "WN": {
+        "shape": [
+          29
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "Z": {
+        "shape": [
+          29
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "ZG": {
+        "shape": [
+          29
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "DEN": {
+        "shape": [
+          29
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "NE": {
+        "shape": [
+          29
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "TLBC": {
+        "shape": [
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "ULBC": {
+        "shape": [
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "VLBC": {
+        "shape": [
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "f107d": {
+        "shape": [
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "f107a": {
+        "shape": [
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "Kp": {
+        "shape": [
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      }
+    },
+    "time_means": {
+      "TN": {
+        "shape": [
+          28,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "UN": {
+        "shape": [
+          28,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "VN": {
+        "shape": [
+          28,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "WN": {
+        "shape": [
+          29,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "Z": {
+        "shape": [
+          29,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "ZG": {
+        "shape": [
+          29,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "DEN": {
+        "shape": [
+          29,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "NE": {
+        "shape": [
+          29,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "TLBC": {
+        "shape": [
+          1,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "ULBC": {
+        "shape": [
+          1,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "VLBC": {
+        "shape": [
+          1,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      }
+    },
+    "mag": {
+      "years": {
+        "shape": [
+          26
+        ],
+        "dtype": "int64",
+        "finite": true
+      },
+      "mlon": {
+        "shape": [
+          36,
+          72,
+          26
+        ],
+        "dtype": "float64",
+        "finite": true
+      },
+      "mlat": {
+        "shape": [
+          36,
+          72,
+          26
+        ],
+        "dtype": "float64",
+        "finite": true
+      }
+    }
+  },
+  "static_log": {
+    "lat": {
+      "dtype": "float32",
+      "shape": [
+        36
+      ],
+      "min": -87.5,
+      "max": 87.5,
+      "unique_diff": [
+        5.0
+      ]
+    },
+    "lon": {
+      "dtype": "float32",
+      "shape": [
+        72
+      ],
+      "min": -180.0,
+      "max": 175.0,
+      "unique_diff": [
+        5.0
+      ]
+    },
+    "lev": {
+      "dtype": "float32",
+      "shape": [
+        29
+      ],
+      "min": -6.75,
+      "max": 7.25,
+      "unique_diff": [
+        0.5
+      ]
+    },
+    "ilev": {
+      "dtype": "float32",
+      "shape": [
+        29
+      ],
+      "min": -7.0,
+      "max": 7.0,
+      "unique_diff": [
+        0.5
+      ]
+    },
+    "global_means": {
+      "TN": {
+        "shape": [
+          1,
+          28,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "UN": {
+        "shape": [
+          1,
+          28,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "VN": {
+        "shape": [
+          1,
+          28,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "WN": {
+        "shape": [
+          1,
+          29,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "Z": {
+        "shape": [
+          1,
+          29,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "ZG": {
+        "shape": [
+          1,
+          29,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "DEN": {
+        "shape": [
+          1,
+          29,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "NE": {
+        "shape": [
+          1,
+          29,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "TLBC": {
+        "shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "ULBC": {
+        "shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "VLBC": {
+        "shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      }
+    },
+    "global_stds": {
+      "TN": {
+        "shape": [
+          1,
+          28,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "UN": {
+        "shape": [
+          1,
+          28,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "VN": {
+        "shape": [
+          1,
+          28,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "WN": {
+        "shape": [
+          1,
+          29,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "Z": {
+        "shape": [
+          1,
+          29,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "ZG": {
+        "shape": [
+          1,
+          29,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "DEN": {
+        "shape": [
+          1,
+          29,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "NE": {
+        "shape": [
+          1,
+          29,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "TLBC": {
+        "shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "ULBC": {
+        "shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "VLBC": {
+        "shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "dtype": "float32",
+        "finite": true
+      }
+    },
+    "time_means": {
+      "TN": {
+        "shape": [
+          1,
+          28,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "UN": {
+        "shape": [
+          1,
+          28,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "VN": {
+        "shape": [
+          1,
+          28,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "WN": {
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "Z": {
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "ZG": {
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "DEN": {
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "NE": {
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "TLBC": {
+        "shape": [
+          1,
+          1,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "ULBC": {
+        "shape": [
+          1,
+          1,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      },
+      "VLBC": {
+        "shape": [
+          1,
+          1,
+          36,
+          72
+        ],
+        "dtype": "float32",
+        "finite": true
+      }
+    },
+    "mag": {
+      "years": {
+        "shape": [
+          26
+        ],
+        "dtype": "int64",
+        "finite": true
+      },
+      "mlon": {
+        "shape": [
+          36,
+          72,
+          26
+        ],
+        "dtype": "float64",
+        "finite": true
+      },
+      "mlat": {
+        "shape": [
+          36,
+          72,
+          26
+        ],
+        "dtype": "float64",
+        "finite": true
+      }
+    }
+  },
+  "2023_01_04_000000.npz": {
+    "TN": {
+      "shape": [
+        28,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 151.75872802734375,
+      "max": 1289.018310546875
+    },
+    "UN": {
+      "shape": [
+        28,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -58202.3671875,
+      "max": 58818.3359375
+    },
+    "VN": {
+      "shape": [
+        28,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -60198.328125,
+      "max": 60493.55078125
+    },
+    "WN": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -666.0120849609375,
+      "max": 861.0484619140625
+    },
+    "Z": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 9571100.0,
+      "max": 71897400.0
+    },
+    "ZG": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 9571100.0,
+      "max": 72065232.0
+    },
+    "DEN": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 5.950636079799505e-17,
+      "max": 1.1322239812372459e-09
+    },
+    "NE": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 1009.7046508789062,
+      "max": 2296170.5
+    },
+    "TLBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 167.46173095703125,
+      "max": 192.304931640625
+    },
+    "ULBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -4708.27392578125,
+      "max": 5115.908203125
+    },
+    "VLBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -5040.6982421875,
+      "max": 5163.35009765625
+    },
+    "f107d": {
+      "shape": [
+        1
+      ],
+      "finite": true,
+      "min": 144.7312469482422,
+      "max": 144.7312469482422
+    },
+    "f107a": {
+      "shape": [
+        1
+      ],
+      "finite": true,
+      "min": 156.91250610351562,
+      "max": 156.91250610351562
+    },
+    "Kp": {
+      "shape": [
+        1
+      ],
+      "finite": true,
+      "min": 3.3499999046325684,
+      "max": 3.3499999046325684
+    }
+  },
+  "2023_01_04_010000.npz": {
+    "TN": {
+      "shape": [
+        28,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 151.86537170410156,
+      "max": 1297.651123046875
+    },
+    "UN": {
+      "shape": [
+        28,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -61994.02734375,
+      "max": 62697.109375
+    },
+    "VN": {
+      "shape": [
+        28,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -65635.6953125,
+      "max": 67563.75
+    },
+    "WN": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -782.9183959960938,
+      "max": 1311.6729736328125
+    },
+    "Z": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 9571100.0,
+      "max": 72045512.0
+    },
+    "ZG": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 9571100.0,
+      "max": 72232304.0
+    },
+    "DEN": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 5.833372309186027e-17,
+      "max": 1.132755000909924e-09
+    },
+    "NE": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 1008.2169799804688,
+      "max": 2428466.5
+    },
+    "TLBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 167.46173095703125,
+      "max": 192.304931640625
+    },
+    "ULBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -4708.27392578125,
+      "max": 5115.908203125
+    },
+    "VLBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -5040.6982421875,
+      "max": 5163.35009765625
+    },
+    "f107d": {
+      "shape": [
+        1
+      ],
+      "finite": true,
+      "min": 144.83087158203125,
+      "max": 144.83087158203125
+    },
+    "f107a": {
+      "shape": [
+        1
+      ],
+      "finite": true,
+      "min": 156.9544219970703,
+      "max": 156.9544219970703
+    },
+    "Kp": {
+      "shape": [
+        1
+      ],
+      "finite": true,
+      "min": 3.7833333015441895,
+      "max": 3.7833333015441895
+    }
+  },
+  "2023_01_04_020000.npz": {
+    "TN": {
+      "shape": [
+        28,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 151.9017333984375,
+      "max": 1322.763916015625
+    },
+    "UN": {
+      "shape": [
+        28,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -69286.171875,
+      "max": 65525.73046875
+    },
+    "VN": {
+      "shape": [
+        28,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -72209.625,
+      "max": 74832.7265625
+    },
+    "WN": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -883.754150390625,
+      "max": 1738.7252197265625
+    },
+    "Z": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 9571100.0,
+      "max": 72299768.0
+    },
+    "ZG": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 9571100.0,
+      "max": 72498808.0
+    },
+    "DEN": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 5.718386924851766e-17,
+      "max": 1.1327414561890237e-09
+    },
+    "NE": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 987.95849609375,
+      "max": 2478317.25
+    },
+    "TLBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": 167.46173095703125,
+      "max": 192.304931640625
+    },
+    "ULBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -4708.2744140625,
+      "max": 5115.90771484375
+    },
+    "VLBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "finite": true,
+      "min": -5040.6982421875,
+      "max": 5163.35009765625
+    },
+    "f107d": {
+      "shape": [
+        1
+      ],
+      "finite": true,
+      "min": 144.9314727783203,
+      "max": 144.9314727783203
+    },
+    "f107a": {
+      "shape": [
+        1
+      ],
+      "finite": true,
+      "min": 156.99615478515625,
+      "max": 156.99615478515625
+    },
+    "Kp": {
+      "shape": [
+        1
+      ],
+      "finite": true,
+      "min": 4.116666793823242,
+      "max": 4.116666793823242
+    }
+  }
+}

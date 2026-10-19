@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "parameters": "SYNTHETIC, not Swarm-A",
+  "mass_kg": 100.0,
+  "area_m2": 1.0,
+  "cd": 2.2,
+  "rho_kg_m3": 1e-12,
+  "rotation_rate_rad_s": 7.292115e-05,
+  "duration_s": 16660.872813756683,
+  "initial_relative_speed_m_s": 7174.288630509505,
+  "initial_drag_norm_m_s2": 5.661745908924375e-07,
+  "specific_energy_change_j_kg": -72.33558236807585,
+  "integrated_drag_work_j_kg": -72.33737623481879,
+  "relative_energy_work_mismatch": 2.479861499427585e-05,
+  "control_specific_energy_change_j_kg": 0.001793600618839264,
+  "all_samples_inertial_drag_power_negative": true,
+  "max_baseline_tight_position_difference_m": 0.005236229824997974,
+  "integration": {
+    "method": "RK45",
+    "rtol": 1e-11,
+    "atol_si": [
+      0.0001,
+      0.0001,
+      0.0001,
+      1e-07,
+      1e-07,
+      1e-07
+    ],
+    "max_step_s": 20.0,
+    "accepted_steps": 837,
+    "nfev": 5024,
+    "elapsed_s": 4.517729803919792,
+    "output_samples": 1501,
+    "success": true,
+    "message": "The solver successfully reached the end of the integration interval.",
+    "min_accepted_step_s": 0.011616601137938967,
+    "max_accepted_step_s": 20.000000000000057
+  }
+}

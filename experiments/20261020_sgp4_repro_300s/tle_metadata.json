@@ -1,0 +1,23 @@
+{
+  "source": "ETH Satellite Database / CelesTrak archive",
+  "archive_id": 274764,
+  "epoch_utc": "2023-03-20T20:30:00.330",
+  "age_at_start_hours": 3.500463795555599,
+  "line1": "1 39452U 13067B   23079.85417049  .00009090  00000+0  26056-3 0  9998",
+  "line2": "2 39452  87.3552 125.6726 0003403  90.7088 269.4554 15.35742261524299",
+  "gravity_constants": "WGS72",
+  "sgp4_operation_mode": "improved (i)",
+  "publication_time": null,
+  "availability_before_start_verified": false,
+  "selection_rule": "latest epoch <= t0, frozen before comparing SP3 errors",
+  "all_eight_epochs_utc": [
+    "2023-03-18T13:45:52.017",
+    "2023-03-20T12:40:50.906",
+    "2023-03-20T20:30:00.330",
+    "2023-03-21T05:52:59.489",
+    "2023-03-21T10:34:29.035",
+    "2023-03-21T21:31:17.783",
+    "2023-03-22T08:28:06.328",
+    "2023-03-22T20:58:44.398"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "docs/UPDATED_RESEARCH_PLAN.md": {
+    "exists": true,
+    "bytes": 4808,
+    "inside_workspace": true
+  },
+  "docs/ORBIT_DATA_SOURCES.md": {
+    "exists": true,
+    "bytes": 6445,
+    "inside_workspace": true
+  },
+  "docs/TIEGCM_MINIMAL_RUN_PLAN.md": {
+    "exists": true,
+    "bytes": 9645,
+    "inside_workspace": true
+  },
+  "docs/ORBIT_VALIDATION_DESIGN.md": {
+    "exists": true,
+    "bytes": 9639,
+    "inside_workspace": true
+  },
+  "AGENTS.md": {
+    "exists": true,
+    "bytes": 5197,
+    "inside_workspace": true
+  },
+  "STATUS.md": {
+    "exists": true,
+    "bytes": 5277,
+    "inside_workspace": true
+  },
+  "WORKLOG.md": {
+    "exists": true,
+    "bytes": 10245,
+    "inside_workspace": true
+  },
+  "docs/PROJECT_PLAN.md": {
+    "exists": true,
+    "bytes": 3411,
+    "inside_workspace": true
+  },
+  "src/evaluation/sp3_reader.py": {
+    "exists": true,
+    "bytes": 2971,
+    "inside_workspace": true
+  },
+  "scripts/inspect_swarm_sp3.py": {
+    "exists": true,
+    "bytes": 2678,
+    "inside_workspace": true
+  },
+  "scripts/audit_swarm_tle.py": {
+    "exists": true,
+    "bytes": 2077,
+    "inside_workspace": true
+  },
+  "tests/test_sp3_reader.py": {
+    "exists": true,
+    "bytes": 1912,
+    "inside_workspace": true
+  },
+  "results/figures/20261019_swarm_a_sp3_overview.png": {
+    "exists": true,
+    "bytes": 322412,
+    "inside_workspace": true
+  },
+  "evidence": {
+    "sp3_downloads": 3,
+    "sp3_epochs": 25920,
+    "tle_records": 8,
+    "unit_tests_passed": 5,
+    "original_fourcastden_archive_unchanged": true,
+    "python_environment_freeze_unchanged": true,
+    "installed_orbit_packages": {
+      "scipy": false,
+      "astropy": false,
+      "sgp4": false,
+      "xarray": false,
+      "pymsis": false
+    },
+    "propagation_executed": false,
+    "tiegcm_build_or_simulation_executed": false,
+    "training_executed": false,
+    "source_commit": "da712811d925376ff8ef40ff64bda7cc070ca661"
+  }
+}

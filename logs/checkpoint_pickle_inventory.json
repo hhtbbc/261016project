@@ -1,0 +1,42 @@
+{
+  "Baseline_1h_history_ckpt.tar": {
+    "bytes": 802585484,
+    "format": "PyTorch ZIP serialization despite .tar suffix",
+    "pickle_globals": [
+      "collections OrderedDict",
+      "ruamel.yaml.scalarfloat ScalarFloat",
+      "torch FloatStorage",
+      "torch._utils _rebuild_tensor_v2"
+    ]
+  },
+  "Baseline_log_DEN_ckpt.tar": {
+    "bytes": 776484108,
+    "format": "PyTorch ZIP serialization despite .tar suffix",
+    "pickle_globals": [
+      "collections OrderedDict",
+      "ruamel.yaml.scalarfloat ScalarFloat",
+      "torch FloatStorage",
+      "torch._utils _rebuild_tensor_v2"
+    ]
+  },
+  "Flow_ckpt.tar": {
+    "bytes": 776485772,
+    "format": "PyTorch ZIP serialization despite .tar suffix",
+    "pickle_globals": [
+      "collections OrderedDict",
+      "ruamel.yaml.scalarfloat ScalarFloat",
+      "torch FloatStorage",
+      "torch._utils _rebuild_tensor_v2"
+    ]
+  },
+  "Direct_ckpt.tar": {
+    "bytes": 776485772,
+    "format": "PyTorch ZIP serialization despite .tar suffix",
+    "pickle_globals": [
+      "collections OrderedDict",
+      "ruamel.yaml.scalarfloat ScalarFloat",
+      "torch FloatStorage",
+      "torch._utils _rebuild_tensor_v2"
+    ]
+  }
+}

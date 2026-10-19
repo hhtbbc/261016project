@@ -1,0 +1,20 @@
+{
+  "root": "/workspace/data/20261016",
+  "real_root": "/workspace/data/20261016",
+  "external_project_links": [],
+  "allowed_system_python_links": [
+    {
+      "path": ".venv/bin/python3",
+      "target": "/usr/bin/python3.12"
+    },
+    {
+      "path": ".venv/bin/python3.12",
+      "target": "/usr/bin/python3.12"
+    },
+    {
+      "path": ".venv/bin/python",
+      "target": "/usr/bin/python3.12"
+    }
+  ],
+  "original_source_sha256": "0879370aa0a2c94db928d2ecd737b56803291e92fcd4c61a3b248beabe4cdcd4"
+}

@@ -1,0 +1,32 @@
+{
+  "TN": {
+    "model_mean_level_rmse": 0.43379626750609407,
+    "persistence_mean_level_rmse": 17.15593952697247,
+    "ratio_model_over_persistence": 0.025285485928886728
+  },
+  "UN": {
+    "model_mean_level_rmse": 59.60023557510586,
+    "persistence_mean_level_rmse": 1990.3090653709835,
+    "ratio_model_over_persistence": 0.029945216354625145
+  },
+  "VN": {
+    "model_mean_level_rmse": 54.52755424185324,
+    "persistence_mean_level_rmse": 2351.4835300396576,
+    "ratio_model_over_persistence": 0.023188575869350712
+  },
+  "WN": {
+    "model_mean_level_rmse": 1.839018348173781,
+    "persistence_mean_level_rmse": 42.91344956979409,
+    "ratio_model_over_persistence": 0.042854125375840886
+  },
+  "Z": {
+    "model_mean_level_rmse": 6087.367464757853,
+    "persistence_mean_level_rmse": 326167.6563693234,
+    "ratio_model_over_persistence": 0.0186633081051576
+  },
+  "DEN": {
+    "model_mean_level_rmse": 1.9691617533650974e-14,
+    "persistence_mean_level_rmse": 1.0889964728183692e-12,
+    "ratio_model_over_persistence": 0.018082351986584706
+  }
+}

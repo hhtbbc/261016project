@@ -1,0 +1,28 @@
+{
+  "actual_utc": "2026-10-19T03:07:04.547425+00:00",
+  "tests_passed": 22,
+  "preserved_file_count": 62,
+  "preserved_hashes_unchanged": true,
+  "workspace_verified": true,
+  "files": {
+    "src/orbit/j2.py": "9cd9e035be3bd483e948d2bbe379ea4dfbf804e3428cc2ac3f9501a7b52fdae4",
+    "scripts/run_rk45_j2.py": "b7ea4f309af28eb96dfb32e7edbf15dc5a39ee33b56205feff42abf351ce2afa",
+    "tests/test_j2.py": "a8119f83fc7d16e54083dddc91b08b55f616316238200cbc3a36b07dfe3f252e",
+    "reports/RK45_J2_BASELINE.md": "e081bdbdffb9864aeefc2d56a58db24177bf7cffd14fd34d86d1cf9a96ff6382",
+    "STATUS.md": "c8733fca2fb62b43aa7ece246b6f163bb65691b1c790e7e104ec790c565b950d",
+    "WORKLOG.md": "4cd377a206bd8bb2c9fcd4030fac7cd35095c1e0d71735406ca1230209e15394",
+    "results/figures/rk45_j2_v1_position_comparison.png": "3090b334869cbe6ca723c7f783264f77b6b21185005cbe123febf5853e4d769d",
+    "results/figures/rk45_j2_v1_accelerations.png": "0ae24d8da86353d747b6bd5686a8045acbd99605f1c026c6c9be395b78dfc38c",
+    "results/figures/rk45_j2_v1_convergence.png": "18ec041d5d7c98bfae16229598af8e2465072fb329449b3252abcd1a88c6d64d",
+    "results/figures/rk45_j2_v1_j2_residual_rac.png": "43d96dc32187d3cd159512c6bbc2ddaae233f1f8c15c012891f142f1a058792a",
+    "results/figures/rk45_j2_v1_rac_comparison.png": "8cee3daaf657533259f934ed528277a1eb3e1d340ccf94dd5b2b2c67572a8794",
+    "results/figures/rk45_j2_v1_fixed_axis_validation.png": "413796e6d70d5387b920a0dbdee8229e441769ab55ad61698bc40191bc79e1ef",
+    "results/metrics/rk45_j2_v1_errors.csv": "fb2a8c52f30a2421bc2493e4cab52ce2332433973c6c834c7dfd9f26f5f96b0a",
+    "results/metrics/rk45_j2_v1_timings.csv": "4d3a5787c2b14e444ae083bf74e541a204145e6134d084b9100706787e195660",
+    "experiments/rk45_j2_v1/fixed_axis_validation.npz": "8bc8d1b89d4adc8375b20c1c188889a340b3f1add45fec8d1ab4591156d83275",
+    "experiments/rk45_j2_v1/summary.json": "eb699ab21387f784b090d7356f24655bae0e0359e75ecb5143957e503046dc42",
+    "experiments/rk45_j2_v1/states.npz": "f5184d23bb39d1a7720dcd98084a5756ee8a755d6e099cea6d86321c61f11010",
+    "experiments/rk45_j2_v1/accelerations.json": "213fac261332e931b4faa5adbf1a396c7aea6d6337db1f482325303d51e04e7b",
+    "experiments/rk45_j2_v1/preserved_inputs.json": "8552d6ccf38d0210501f3e22fee46c360a58945abe8415855f379a21c4bb672c"
+  }
+}

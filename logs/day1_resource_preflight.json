@@ -1,0 +1,32 @@
+[
+  {
+    "command": "command -v python3.10 uv conda micromamba gfortran",
+    "returncode": 127,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": "ls /usr/bin/python*",
+    "returncode": 0,
+    "stdout": "/usr/bin/python\n/usr/bin/python3\n/usr/bin/python3-config\n/usr/bin/python3.12\n/usr/bin/python3.12-config\n",
+    "stderr": ""
+  },
+  {
+    "command": "df -h /workspace/data/20261016",
+    "returncode": 0,
+    "stdout": "Filesystem                Size  Used Avail Use% Mounted on\n192.168.1.224:/data2/hht  3.5T  2.7T  674G  80% /workspace/data\n",
+    "stderr": ""
+  },
+  {
+    "command": "free -h",
+    "returncode": 0,
+    "stdout": "               total        used        free      shared  buff/cache   available\nMem:           1.9Ti        87Gi       164Gi       502Mi       1.6Ti       1.8Ti\nSwap:             0B          0B          0B\n",
+    "stderr": ""
+  },
+  {
+    "command": "nvidia-smi --query-gpu=name,memory.free,driver_version --format=csv",
+    "returncode": 0,
+    "stdout": "name, memory.free [MiB], driver_version\nNVIDIA A100-SXM4-80GB, 81153 MiB, 575.57.08\n",
+    "stderr": ""
+  }
+]

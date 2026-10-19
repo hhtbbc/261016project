@@ -1,0 +1,7 @@
+{
+  "initial_failure": "GPS epoch comparison off by 7.105968 s when ERFA table was cleared",
+  "cause": "IERS file starts in 1972; ERFA historical drift handling requires original early rows",
+  "fix": "update_erfa_leap_seconds(initialize_erfa=True), preserve pinned ERFA early definitions and update from frozen IERS file",
+  "affected_initial_test": "1980 GPS epoch",
+  "2023_HDR_checks_before_fix": "passed; nevertheless no propagation experiment was run before correction"
+}

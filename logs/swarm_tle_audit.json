@@ -1,0 +1,20 @@
+{
+  "source": "ETH Satellite Database (archive fetched from CelesTrak)",
+  "raw_response_sha256": "949e648fd56806b6e6abd20d892e74822fccefc9cacc75023195237ef3fecbc1",
+  "count": 8,
+  "all_checksums_valid": true,
+  "all_norad_match": true,
+  "t0_proposed_utc": "2023-03-21T00:00:02+00:00",
+  "selected": {
+    "archive_id": 274764,
+    "norad": 39452,
+    "epoch_utc": "2023-03-20T20:30:00.330336+00:00",
+    "lines": [
+      "1 39452U 13067B   23079.85417049  .00009090  00000+0  26056-3 0  9998",
+      "2 39452  87.3552 125.6726 0003403  90.7088 269.4554 15.35742261524299"
+    ]
+  },
+  "age_hours": 3.500463795555555,
+  "element_availability_at_t0_verified": false,
+  "note": "Epoch-before-t0 is verified. Historical provider retrieval/publication time not supplied, so strict real-time availability is not established. No SGP4 propagation today."
+}

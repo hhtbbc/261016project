@@ -1,0 +1,1343 @@
+{
+  "third_party/FourCastDEN/eval_tiegcm.py": {
+    "imports": [
+      "argparse",
+      "logging",
+      "os",
+      "datetime",
+      "pickle",
+      "numpy",
+      "torch",
+      "inference.inference",
+      "utils",
+      "utils.YParams"
+    ],
+    "classes": [],
+    "functions": []
+  },
+  "third_party/FourCastDEN/utils/__init__.py": {
+    "imports": [
+      "YParams"
+    ],
+    "classes": [],
+    "functions": []
+  },
+  "third_party/FourCastDEN/utils/YParams.py": {
+    "imports": [
+      "os",
+      "ruamel.yaml",
+      "numpy",
+      "logging",
+      "dataset.tiegcm_utils",
+      "typing"
+    ],
+    "classes": [
+      {
+        "name": "YParams",
+        "line": 62
+      }
+    ],
+    "functions": [
+      {
+        "name": "get_channel_index",
+        "line": 263
+      },
+      {
+        "name": "get_channels",
+        "line": 289
+      },
+      {
+        "name": "get_statistics",
+        "line": 317
+      },
+      {
+        "name": "get_time_means",
+        "line": 345
+      },
+      {
+        "name": "__init__",
+        "line": 140
+      },
+      {
+        "name": "__getitem__",
+        "line": 239
+      },
+      {
+        "name": "__setitem__",
+        "line": 242
+      },
+      {
+        "name": "__contains__",
+        "line": 246
+      },
+      {
+        "name": "update_params",
+        "line": 249
+      },
+      {
+        "name": "log",
+        "line": 254
+      }
+    ]
+  },
+  "third_party/FourCastDEN/utils/plot_utils.py": {
+    "imports": [
+      "numpy",
+      "xarray",
+      "seaborn",
+      "matplotlib",
+      "matplotlib",
+      "cartopy.crs",
+      "cartopy.mpl.ticker",
+      "cartopy.feature.nightshade",
+      "os"
+    ],
+    "classes": [],
+    "functions": [
+      {
+        "name": "plot_",
+        "line": 11
+      },
+      {
+        "name": "plot_density",
+        "line": 56
+      }
+    ]
+  },
+  "third_party/FourCastDEN/utils/tools.py": {
+    "imports": [
+      "datetime",
+      "os"
+    ],
+    "classes": [],
+    "functions": [
+      {
+        "name": "make_dir",
+        "line": 12
+      },
+      {
+        "name": "check_path",
+        "line": 28
+      },
+      {
+        "name": "check_file",
+        "line": 36
+      },
+      {
+        "name": "make_paths_absolute",
+        "line": 44
+      },
+      {
+        "name": "get_date_from_datapath",
+        "line": 64
+      }
+    ]
+  },
+  "third_party/FourCastDEN/utils/losses.py": {
+    "imports": [
+      "torch",
+      "numpy",
+      "scipy.io",
+      "torch.nn"
+    ],
+    "classes": [
+      {
+        "name": "UnitGaussianNormalizer",
+        "line": 15
+      },
+      {
+        "name": "GaussianNormalizer",
+        "line": 55
+      },
+      {
+        "name": "RangeNormalizer",
+        "line": 81
+      },
+      {
+        "name": "LpLoss",
+        "line": 106
+      },
+      {
+        "name": "HsLoss",
+        "line": 179
+      }
+    ],
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 16
+      },
+      {
+        "name": "encode",
+        "line": 24
+      },
+      {
+        "name": "decode",
+        "line": 28
+      },
+      {
+        "name": "cuda",
+        "line": 45
+      },
+      {
+        "name": "cpu",
+        "line": 49
+      },
+      {
+        "name": "__init__",
+        "line": 56
+      },
+      {
+        "name": "encode",
+        "line": 63
+      },
+      {
+        "name": "decode",
+        "line": 67
+      },
+      {
+        "name": "cuda",
+        "line": 71
+      },
+      {
+        "name": "cpu",
+        "line": 75
+      },
+      {
+        "name": "__init__",
+        "line": 82
+      },
+      {
+        "name": "encode",
+        "line": 90
+      },
+      {
+        "name": "decode",
+        "line": 97
+      },
+      {
+        "name": "__init__",
+        "line": 107
+      },
+      {
+        "name": "abs",
+        "line": 133
+      },
+      {
+        "name": "rel",
+        "line": 154
+      },
+      {
+        "name": "__call__",
+        "line": 173
+      },
+      {
+        "name": "__init__",
+        "line": 180
+      },
+      {
+        "name": "rel",
+        "line": 197
+      },
+      {
+        "name": "__call__",
+        "line": 208
+      }
+    ]
+  },
+  "third_party/FourCastDEN/utils/logging_utils.py": {
+    "imports": [
+      "os",
+      "logging",
+      "torch",
+      "subprocess"
+    ],
+    "classes": [],
+    "functions": [
+      {
+        "name": "config_logger",
+        "line": 7
+      },
+      {
+        "name": "log_to_file",
+        "line": 11
+      },
+      {
+        "name": "log_versions",
+        "line": 26
+      }
+    ]
+  },
+  "third_party/FourCastDEN/utils/img_utils.py": {
+    "imports": [
+      "torch",
+      "torch.nn",
+      "torch.nn.functional",
+      "numpy",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "cartopy.crs",
+      "cartopy.feature.nightshade",
+      "dataset.tiegcm2",
+      "datetime"
+    ],
+    "classes": [
+      {
+        "name": "PeriodicPad2d",
+        "line": 14
+      }
+    ],
+    "functions": [
+      {
+        "name": "reshape_fields",
+        "line": 32
+      },
+      {
+        "name": "save_image",
+        "line": 111
+      },
+      {
+        "name": "plot_channel_data",
+        "line": 215
+      },
+      {
+        "name": "__init__",
+        "line": 20
+      },
+      {
+        "name": "forward",
+        "line": 24
+      }
+    ]
+  },
+  "third_party/FourCastDEN/utils/weighted_acc_rmse.py": {
+    "imports": [
+      "torch",
+      "numpy",
+      "utils"
+    ],
+    "classes": [],
+    "functions": [
+      {
+        "name": "unlog_tp",
+        "line": 10
+      },
+      {
+        "name": "latitude_weighting_factor",
+        "line": 21
+      },
+      {
+        "name": "weighted_rmse_channels",
+        "line": 32
+      },
+      {
+        "name": "weighted_rmse",
+        "line": 47
+      },
+      {
+        "name": "weighted_acc_channels",
+        "line": 53
+      },
+      {
+        "name": "weighted_acc",
+        "line": 63
+      },
+      {
+        "name": "unweighted_acc_channels",
+        "line": 69
+      },
+      {
+        "name": "unweighted_acc",
+        "line": 77
+      },
+      {
+        "name": "top_quantiles_error",
+        "line": 83
+      }
+    ]
+  },
+  "third_party/FourCastDEN/dataset/tiegcm2.py": {
+    "imports": [
+      "math",
+      "numpy",
+      "ppigrf",
+      "datetime",
+      "dataset.tiegcm_utils",
+      "pandas"
+    ],
+    "classes": [],
+    "functions": [
+      {
+        "name": "solar_zenith_angle",
+        "line": 19
+      },
+      {
+        "name": "hp_from_bz_swvel",
+        "line": 82
+      },
+      {
+        "name": "hp_from_kp",
+        "line": 101
+      },
+      {
+        "name": "ctpoten_from_kp",
+        "line": 121
+      },
+      {
+        "name": "solgmlon",
+        "line": 131
+      },
+      {
+        "name": "subsolar",
+        "line": 176
+      },
+      {
+        "name": "subsol",
+        "line": 293
+      },
+      {
+        "name": "dypol",
+        "line": 416
+      },
+      {
+        "name": "sunloc_apex",
+        "line": 469
+      }
+    ]
+  },
+  "third_party/FourCastDEN/dataset/plot_tiegcm.py": {
+    "imports": [
+      "os",
+      "shutil",
+      "numpy",
+      "datetime",
+      "matplotlib.pyplot",
+      "matplotlib.ticker",
+      "cartopy.crs",
+      "cartopy.feature",
+      "cartopy.feature.nightshade",
+      "mpl_toolkits.axes_grid1.anchored_artists",
+      "dataset.tiegcm_utils",
+      "dataset.tiegcm_utils",
+      "apexpy",
+      "utils.YParams",
+      "dataset.tiegcm2",
+      "dataset.tiegcm_utils"
+    ],
+    "classes": [],
+    "functions": [
+      {
+        "name": "plot_image",
+        "line": 21
+      },
+      {
+        "name": "plot_time_mean",
+        "line": 141
+      },
+      {
+        "name": "plot_latlon",
+        "line": 165
+      },
+      {
+        "name": "color_scheme",
+        "line": 339
+      },
+      {
+        "name": "plot_image_tiegcm",
+        "line": 386
+      },
+      {
+        "name": "display_func",
+        "line": 157
+      }
+    ]
+  },
+  "third_party/FourCastDEN/dataset/heelis.py": {
+    "imports": [
+      "numpy"
+    ],
+    "classes": [
+      {
+        "name": "HeelisModule",
+        "line": 11
+      }
+    ],
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 12
+      },
+      {
+        "name": "heelis",
+        "line": 19
+      },
+      {
+        "name": "potm",
+        "line": 27
+      },
+      {
+        "name": "flwv32",
+        "line": 45
+      }
+    ]
+  },
+  "third_party/FourCastDEN/dataset/dataset_tiegcm_multifiles.py": {
+    "imports": [
+      "os",
+      "glob",
+      "logging",
+      "time",
+      "calendar",
+      "datetime",
+      "typing",
+      "numpy",
+      "torch",
+      "torch",
+      "torch.utils.data",
+      "torch.utils.data.distributed",
+      "torch.utils.data",
+      "dataset.tiegcm2",
+      "dataset.dataset_tiegcm",
+      "utils.tools",
+      "utils.YParams"
+    ],
+    "classes": [
+      {
+        "name": "TGCMDataset_Yearly",
+        "line": 98
+      }
+    ],
+    "functions": [
+      {
+        "name": "load_variables_torch",
+        "line": 27
+      },
+      {
+        "name": "get_data_loader",
+        "line": 59
+      },
+      {
+        "name": "inputs",
+        "line": 130
+      },
+      {
+        "name": "outputs",
+        "line": 134
+      },
+      {
+        "name": "__init__",
+        "line": 138
+      },
+      {
+        "name": "get_data",
+        "line": 208
+      },
+      {
+        "name": "_get_files_stats",
+        "line": 232
+      },
+      {
+        "name": "read_yearly_files",
+        "line": 283
+      },
+      {
+        "name": "_normalize",
+        "line": 331
+      },
+      {
+        "name": "_denormalize",
+        "line": 340
+      },
+      {
+        "name": "__len__",
+        "line": 347
+      },
+      {
+        "name": "__getitem__",
+        "line": 350
+      },
+      {
+        "name": "_reshape_fields",
+        "line": 417
+      }
+    ]
+  },
+  "third_party/FourCastDEN/dataset/tiegcm_utils.py": {
+    "imports": [
+      "datetime",
+      "time",
+      "os",
+      "numpy",
+      "math",
+      "netCDF4",
+      "apexpy",
+      "calendar"
+    ],
+    "classes": [],
+    "functions": [
+      {
+        "name": "get_mjd",
+        "line": 26
+      },
+      {
+        "name": "get_doy",
+        "line": 43
+      },
+      {
+        "name": "fracday",
+        "line": 56
+      },
+      {
+        "name": "is_leap_year",
+        "line": 66
+      },
+      {
+        "name": "get_tdoy",
+        "line": 76
+      },
+      {
+        "name": "fracyear",
+        "line": 87
+      },
+      {
+        "name": "fracyear2datetime",
+        "line": 102
+      },
+      {
+        "name": "car_to_sph",
+        "line": 115
+      },
+      {
+        "name": "get_maglatlon",
+        "line": 148
+      },
+      {
+        "name": "convert_units",
+        "line": 174
+      },
+      {
+        "name": "read_tiegcm",
+        "line": 197
+      },
+      {
+        "name": "save_npz_tiegcm",
+        "line": 284
+      },
+      {
+        "name": "load_npz_tiegcm",
+        "line": 296
+      },
+      {
+        "name": "read_static",
+        "line": 316
+      },
+      {
+        "name": "read_var",
+        "line": 354
+      },
+      {
+        "name": "lon2lt",
+        "line": 414
+      }
+    ]
+  },
+  "third_party/FourCastDEN/dataset/dataset_tiegcm.py": {
+    "imports": [
+      "os",
+      "glob",
+      "logging",
+      "random",
+      "datetime",
+      "typing",
+      "apexpy",
+      "numpy",
+      "torch",
+      "sympy.physics.vector.printing",
+      "torch.utils.data",
+      "torch.utils.data.distributed",
+      "torch.utils.data",
+      "data_process.get_maglatlon",
+      "dataset.tiegcm2",
+      "dataset.plot_tiegcm",
+      "utils.tools",
+      "utils.YParams",
+      "typing"
+    ],
+    "classes": [
+      {
+        "name": "IGRFMAG",
+        "line": 125
+      },
+      {
+        "name": "SubsetSampler",
+        "line": 132
+      },
+      {
+        "name": "TGCMDataset",
+        "line": 201
+      }
+    ],
+    "functions": [
+      {
+        "name": "get_datapath_from_date",
+        "line": 43
+      },
+      {
+        "name": "save_npy_tiegcm",
+        "line": 59
+      },
+      {
+        "name": "load_npy_tiegcm",
+        "line": 76
+      },
+      {
+        "name": "load_variables",
+        "line": 92
+      },
+      {
+        "name": "get_data_loader",
+        "line": 151
+      },
+      {
+        "name": "__init__",
+        "line": 126
+      },
+      {
+        "name": "__init__",
+        "line": 141
+      },
+      {
+        "name": "__iter__",
+        "line": 144
+      },
+      {
+        "name": "__len__",
+        "line": 147
+      },
+      {
+        "name": "inputs",
+        "line": 230
+      },
+      {
+        "name": "outputs",
+        "line": 234
+      },
+      {
+        "name": "__init__",
+        "line": 238
+      },
+      {
+        "name": "_get_files_stats",
+        "line": 330
+      },
+      {
+        "name": "_normalize",
+        "line": 379
+      },
+      {
+        "name": "__len__",
+        "line": 389
+      },
+      {
+        "name": "get_data",
+        "line": 395
+      },
+      {
+        "name": "__getitem__",
+        "line": 469
+      },
+      {
+        "name": "reshape_fields",
+        "line": 582
+      }
+    ]
+  },
+  "third_party/FourCastDEN/models/__init__.py": {
+    "imports": [
+      "afnonet",
+      "afnonext"
+    ],
+    "classes": [],
+    "functions": []
+  },
+  "third_party/FourCastDEN/models/afnonext.py": {
+    "imports": [
+      "functools",
+      "torch",
+      "torch.nn",
+      "torch.nn.functional",
+      "timm.layers",
+      "torch.fft",
+      "torch.nn.modules.container",
+      "einops"
+    ],
+    "classes": [
+      {
+        "name": "Mlp",
+        "line": 20
+      },
+      {
+        "name": "AFNO2D",
+        "line": 36
+      },
+      {
+        "name": "Block",
+        "line": 117
+      },
+      {
+        "name": "PatchEmbed",
+        "line": 164
+      },
+      {
+        "name": "AFNONeXt",
+        "line": 181
+      }
+    ],
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 21
+      },
+      {
+        "name": "forward",
+        "line": 29
+      },
+      {
+        "name": "__init__",
+        "line": 37
+      },
+      {
+        "name": "forward",
+        "line": 63
+      },
+      {
+        "name": "__init__",
+        "line": 118
+      },
+      {
+        "name": "forward",
+        "line": 145
+      },
+      {
+        "name": "__init__",
+        "line": 165
+      },
+      {
+        "name": "forward",
+        "line": 173
+      },
+      {
+        "name": "__init__",
+        "line": 182
+      },
+      {
+        "name": "_init_weights",
+        "line": 239
+      },
+      {
+        "name": "no_weight_decay",
+        "line": 252
+      },
+      {
+        "name": "forward_features",
+        "line": 255
+      },
+      {
+        "name": "forward",
+        "line": 267
+      }
+    ]
+  },
+  "third_party/FourCastDEN/models/model_module.py": {
+    "imports": [
+      "pytorch_lightning",
+      "numpy",
+      "math",
+      "sys",
+      "torch",
+      "torch.nn.functional",
+      "torch.optim.lr_scheduler",
+      "torch_optimizer",
+      "afnonet"
+    ],
+    "classes": [
+      {
+        "name": "ModelModule",
+        "line": 15
+      }
+    ],
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 16
+      },
+      {
+        "name": "forward",
+        "line": 43
+      },
+      {
+        "name": "setup_grid",
+        "line": 54
+      },
+      {
+        "name": "preprocess",
+        "line": 65
+      },
+      {
+        "name": "training_step",
+        "line": 93
+      },
+      {
+        "name": "schedule_accumulate_grads",
+        "line": 150
+      },
+      {
+        "name": "configure_optimizers",
+        "line": 162
+      },
+      {
+        "name": "predict_step",
+        "line": 168
+      }
+    ]
+  },
+  "third_party/FourCastDEN/models/afnonet.py": {
+    "imports": [
+      "functools",
+      "numpy",
+      "torch",
+      "torch.nn",
+      "torch.nn.functional",
+      "timm.layers",
+      "torch.fft",
+      "einops"
+    ],
+    "classes": [
+      {
+        "name": "Mlp",
+        "line": 22
+      },
+      {
+        "name": "AFNO2D",
+        "line": 48
+      },
+      {
+        "name": "Block",
+        "line": 181
+      },
+      {
+        "name": "PatchEmbed",
+        "line": 228
+      },
+      {
+        "name": "AFNONet",
+        "line": 252
+      }
+    ],
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 23
+      },
+      {
+        "name": "forward",
+        "line": 39
+      },
+      {
+        "name": "__init__",
+        "line": 49
+      },
+      {
+        "name": "forward",
+        "line": 91
+      },
+      {
+        "name": "__init__",
+        "line": 182
+      },
+      {
+        "name": "forward",
+        "line": 212
+      },
+      {
+        "name": "__init__",
+        "line": 229
+      },
+      {
+        "name": "forward",
+        "line": 243
+      },
+      {
+        "name": "__init__",
+        "line": 256
+      },
+      {
+        "name": "_init_weights",
+        "line": 333
+      },
+      {
+        "name": "no_weight_decay",
+        "line": 351
+      },
+      {
+        "name": "forward_features",
+        "line": 354
+      },
+      {
+        "name": "forward",
+        "line": 365
+      },
+      {
+        "name": "load",
+        "line": 389
+      }
+    ]
+  },
+  "third_party/FourCastDEN/inference/inference_ensemble.py": {
+    "imports": [
+      "os",
+      "time",
+      "numpy",
+      "argparse",
+      "sys",
+      "numpy.core.numeric",
+      "h5py",
+      "torch",
+      "torchvision",
+      "torchvision.utils",
+      "torch.nn",
+      "torch.cuda.amp",
+      "torch.distributed",
+      "collections",
+      "torch.nn.parallel",
+      "logging",
+      "utils",
+      "utils.weighted_acc_rmse",
+      "utils.YParams",
+      "utils.data_loader_multifiles",
+      "models.afnonet",
+      "wandb",
+      "matplotlib.pyplot",
+      "glob",
+      "mpi4py"
+    ],
+    "classes": [],
+    "functions": [
+      {
+        "name": "gaussian_perturb",
+        "line": 81
+      },
+      {
+        "name": "load_model",
+        "line": 85
+      },
+      {
+        "name": "downsample",
+        "line": 100
+      },
+      {
+        "name": "setup",
+        "line": 103
+      },
+      {
+        "name": "autoregressive_inference",
+        "line": 142
+      }
+    ]
+  },
+  "third_party/FourCastDEN/inference/plot_demo.py": {
+    "imports": [
+      "numpy",
+      "matplotlib.pyplot",
+      "matplotlib.animation"
+    ],
+    "classes": [],
+    "functions": [
+      {
+        "name": "plot_time_mean",
+        "line": 5
+      },
+      {
+        "name": "plot_latlon",
+        "line": 25
+      },
+      {
+        "name": "display_func",
+        "line": 16
+      }
+    ]
+  },
+  "third_party/FourCastDEN/inference/forecast.py": {
+    "imports": [
+      "os",
+      "math",
+      "numpy",
+      "mindspore",
+      "data"
+    ],
+    "classes": [
+      {
+        "name": "Forecast",
+        "line": 28
+      }
+    ],
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 142
+      },
+      {
+        "name": "_get_total_sample_description",
+        "line": 164
+      },
+      {
+        "name": "_get_history_climate_mean",
+        "line": 179
+      },
+      {
+        "name": "_get_absolute_idx",
+        "line": 190
+      },
+      {
+        "name": "_print_key_metrics",
+        "line": 193
+      },
+      {
+        "name": "forecast",
+        "line": 215
+      },
+      {
+        "name": "eval",
+        "line": 225
+      },
+      {
+        "name": "_get_metrics",
+        "line": 268
+      },
+      {
+        "name": "_lat",
+        "line": 282
+      },
+      {
+        "name": "_latitude_weighting_factor",
+        "line": 285
+      },
+      {
+        "name": "_calculate_lat_weighted_rmse",
+        "line": 288
+      },
+      {
+        "name": "_calculate_lat_weighted_acc",
+        "line": 299
+      }
+    ]
+  },
+  "third_party/FourCastDEN/inference/inference.py": {
+    "imports": [
+      "os",
+      "sys",
+      "argparse",
+      "typing",
+      "glob",
+      "datetime",
+      "numpy",
+      "torch",
+      "torch.nn",
+      "torch.multiprocessing",
+      "sympy.physics.vector.printing",
+      "torch.utils.data",
+      "logging",
+      "utils",
+      "utils.weighted_acc_rmse",
+      "utils.YParams",
+      "dataset.dataset_tiegcm",
+      "models.afnonet",
+      "utils.YParams"
+    ],
+    "classes": [
+      {
+        "name": "TGCMForecast",
+        "line": 32
+      }
+    ],
+    "functions": [
+      {
+        "name": "downsample",
+        "line": 522
+      },
+      {
+        "name": "__init__",
+        "line": 66
+      },
+      {
+        "name": "load_model",
+        "line": 168
+      },
+      {
+        "name": "parallel_inference",
+        "line": 201
+      },
+      {
+        "name": "forecast",
+        "line": 214
+      },
+      {
+        "name": "inference",
+        "line": 228
+      },
+      {
+        "name": "print_key_metrics",
+        "line": 369
+      },
+      {
+        "name": "gaussian_perturb",
+        "line": 383
+      },
+      {
+        "name": "inference_step",
+        "line": 395
+      }
+    ]
+  },
+  "third_party/FourCastDEN/inference/fourcastnet.py": {
+    "imports": [
+      "logging",
+      "os",
+      "numpy",
+      "torch",
+      "ai_models.model"
+    ],
+    "classes": [
+      {
+        "name": "FourCastNetv2",
+        "line": 9
+      }
+    ],
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 104
+      },
+      {
+        "name": "load_statistics",
+        "line": 115
+      },
+      {
+        "name": "load_model",
+        "line": 128
+      },
+      {
+        "name": "normalise",
+        "line": 163
+      },
+      {
+        "name": "run",
+        "line": 171
+      }
+    ]
+  },
+  "third_party/FourCastDEN/data_process/get_stats_tiegcm.py": {
+    "imports": [
+      "os",
+      "sys",
+      "netCDF4",
+      "numpy",
+      "utils.YParams",
+      "dataset.tiegcm_utils"
+    ],
+    "classes": [],
+    "functions": [
+      {
+        "name": "read_stats_tiegcm",
+        "line": 30
+      }
+    ]
+  },
+  "third_party/FourCastDEN/data_process/get_maglatlon.py": {
+    "imports": [
+      "os",
+      "sys",
+      "apexpy",
+      "datetime",
+      "numpy",
+      "matplotlib.pyplot",
+      "cartopy.crs",
+      "cartopy.feature",
+      "matplotlib.path",
+      "matplotlib.ticker",
+      "dataset.tiegcm_utils"
+    ],
+    "classes": [],
+    "functions": [
+      {
+        "name": "get_mlatmlon",
+        "line": 20
+      },
+      {
+        "name": "get_mlatmlon",
+        "line": 45
+      },
+      {
+        "name": "plot_NorthPolar",
+        "line": 70
+      },
+      {
+        "name": "set_polarCentral",
+        "line": 100
+      },
+      {
+        "name": "plot_axes",
+        "line": 112
+      },
+      {
+        "name": "plot_maglatlon",
+        "line": 163
+      },
+      {
+        "name": "calc_mag",
+        "line": 192
+      }
+    ]
+  },
+  "third_party/FourCastDEN/data_process/get_data_tiegcm.py": {
+    "imports": [
+      "os",
+      "sys",
+      "time",
+      "multiprocessing",
+      "numpy",
+      "netCDF4",
+      "dataset.dataset_tiegcm",
+      "dataset.tiegcm_utils"
+    ],
+    "classes": [],
+    "functions": [
+      {
+        "name": "nc2np_tiegcm",
+        "line": 20
+      },
+      {
+        "name": "worker",
+        "line": 138
+      }
+    ]
+  },
+  "third_party/FourCastDEN/data_process/get_train_dataset.py": {
+    "imports": [
+      "sys",
+      "os",
+      "glob"
+    ],
+    "classes": [],
+    "functions": [
+      {
+        "name": "creare_dir",
+        "line": 8
+      },
+      {
+        "name": "create_link",
+        "line": 22
+      }
+    ]
+  }
+}

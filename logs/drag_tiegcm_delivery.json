@@ -1,0 +1,100 @@
+{
+  "actual_utc": "2026-10-19T06:18:17.322473+00:00",
+  "protected_file_count": 431,
+  "protected_files_unchanged": true,
+  "tests_passed": 28,
+  "default_2002_simulation": {
+    "returncode": 0,
+    "elapsed_s": 152.2485190499574,
+    "max_launcher_rss_kb": 259860,
+    "simulated_minutes": 1440,
+    "mpi_ranks": 4,
+    "run_directory": "/workspace/data/20261016/experiments/tiegcm2_default_1day_v1",
+    "actual_2023_simulation": false
+  },
+  "active_compute_processes": [],
+  "outside_symlink_targets": [],
+  "known_workspace_exception": "micromamba create previously appended this project prefix to /root/.conda/environments.txt; installer stopped, reviewed install path does not change registry, cleanup awaits explicit authorization",
+  "outputs": {
+    "src/orbit/drag.py": {
+      "bytes": 4160,
+      "sha256": "29f92963bf81c40bfaa682e9d9518099e84c63c435a2664e27dbd994d0d94ab3"
+    },
+    "src/atmosphere/density_interface.py": {
+      "bytes": 2013,
+      "sha256": "e40a2c4e96918bf155f20ba8c8eb73277ab07f9e4db8e19f2a6fb760f5a82b11"
+    },
+    "tests/test_drag.py": {
+      "bytes": 4559,
+      "sha256": "7522926d10b54f9f911afa4d0af834e355ab6becc6259106982de839bbd47e3b"
+    },
+    "scripts/run_drag_synthetic.py": {
+      "bytes": 4692,
+      "sha256": "d67d1ecb452582e4cce99019a06739093273544521a85ead547f0ff856cf7d2b"
+    },
+    "scripts/build_tiegcm2_workspace.py": {
+      "bytes": 2757,
+      "sha256": "42ce21ac25ceb294e20d9b72e5717f929f8c1c15d78626c1dc57d88340e32762"
+    },
+    "scripts/run_tiegcm2_smoke.py": {
+      "bytes": 2580,
+      "sha256": "49e595a662bced8e70595d5b9cf8c8609596d75bdb8513087b080430ffc2c49f"
+    },
+    "scripts/inspect_tiegcm_outputs.py": {
+      "bytes": 2597,
+      "sha256": "cf5b9954ff6ffe3bf37616a0e607e7db953e5dffbdbb9f8a357ab8c99e34ca05"
+    },
+    "scripts/plot_tiegcm_demo.py": {
+      "bytes": 2444,
+      "sha256": "c152affcb7660dba02cad3404c780259950e6df80823be071c7c3588b1ccbb33"
+    },
+    "docs/SWARM_DRAG_PARAMETERS.md": {
+      "bytes": 6791,
+      "sha256": "8cdb461b7f76c33d44ccdf1372901a76698258c3b7378d0018489e8484a4bd23"
+    },
+    "docs/TIEGCM2_EXECUTION_PLAN.md": {
+      "bytes": 7356,
+      "sha256": "473ffe6d447ce1326eaccf1391526e534d6bbeb9ac67502d2f0e8a333cc3fc79"
+    },
+    "docs/DENSITY_COMPARISON_DESIGN.md": {
+      "bytes": 5151,
+      "sha256": "1d370318ab9928a360abd24ed2f3c9f6a0b741d4f419901f1dd3b1b0bedec8ed"
+    },
+    "reports/DRAG_MODULE_VALIDATION.md": {
+      "bytes": 4542,
+      "sha256": "66aa3ec825f22cc6845a5374868e18606e06e691b78aea68bd03c2d9af2a280c"
+    },
+    "reports/TIEGCM2_ENVIRONMENT.md": {
+      "bytes": 10792,
+      "sha256": "404f97d760c0de7420c40b15c52683c94be655f5c15ece5b85a8c71815015e7b"
+    },
+    "results/figures/drag_synthetic_v1_energy.png": {
+      "bytes": 87926,
+      "sha256": "4dfd83a8e7fd707cc6c1ad073929e4db4c4ad7d585ecb87b41693e7e49da812e"
+    },
+    "results/figures/tiegcm2_default_2002_400km_demo.png": {
+      "bytes": 91948,
+      "sha256": "d1ea511f73f18e8758a887ea6fc196199058ab02ee6ba895db5668c70ed8e076"
+    },
+    "logs/drag_tests_v2.log": {
+      "bytes": 2152,
+      "sha256": "e27c07746a6a1d15adcee9084527537812f657f6fbc21d90eaa5abfc4124a5a1"
+    },
+    "logs/tiegcm2_default_1day_v1_netcdf_audit.json": {
+      "bytes": 7952,
+      "sha256": "bcbc2944506cf7b476a6b6a5841dc407b8bab77de69342d0dbe52ede52c6bbe7"
+    },
+    "AGENTS.md": {
+      "bytes": 7646,
+      "sha256": "b6b8d1e2e9b9c0575576ec6ee4d0ac085bd5fad6271bf0d2375399ed70be1a4d"
+    },
+    "STATUS.md": {
+      "bytes": 15318,
+      "sha256": "f53c8149a37d51b6bce8a9eaa01f36c6c2515a46789f765c3766583f7338de1b"
+    },
+    "WORKLOG.md": {
+      "bytes": 31648,
+      "sha256": "e45cc8a03df10b9002130aefe7a3fe15a81827037c4e05a1ad1d64d790dbdf5c"
+    }
+  }
+}

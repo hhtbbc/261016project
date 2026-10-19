@@ -1,0 +1,622 @@
+{
+  "path": "models/checkpoints/author/Direct_ckpt.tar",
+  "bytes": 776485772,
+  "is_pytorch_zip": true,
+  "keys": [
+    "epoch",
+    "model_state",
+    "optimizer_state_dict"
+  ],
+  "model_state_entries": 150,
+  "model_state_tensor_shapes": {
+    "pos_embed": [
+      1,
+      162,
+      768
+    ],
+    "patch_embed.proj.weight": [
+      768,
+      177,
+      4,
+      4
+    ],
+    "patch_embed.proj.bias": [
+      768
+    ],
+    "blocks.0.norm1.weight": [
+      768
+    ],
+    "blocks.0.norm1.bias": [
+      768
+    ],
+    "blocks.0.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.0.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.0.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.0.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.0.norm2.weight": [
+      768
+    ],
+    "blocks.0.norm2.bias": [
+      768
+    ],
+    "blocks.0.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.0.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.0.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.0.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.1.norm1.weight": [
+      768
+    ],
+    "blocks.1.norm1.bias": [
+      768
+    ],
+    "blocks.1.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.1.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.1.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.1.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.1.norm2.weight": [
+      768
+    ],
+    "blocks.1.norm2.bias": [
+      768
+    ],
+    "blocks.1.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.1.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.1.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.1.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.2.norm1.weight": [
+      768
+    ],
+    "blocks.2.norm1.bias": [
+      768
+    ],
+    "blocks.2.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.2.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.2.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.2.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.2.norm2.weight": [
+      768
+    ],
+    "blocks.2.norm2.bias": [
+      768
+    ],
+    "blocks.2.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.2.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.2.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.2.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.3.norm1.weight": [
+      768
+    ],
+    "blocks.3.norm1.bias": [
+      768
+    ],
+    "blocks.3.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.3.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.3.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.3.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.3.norm2.weight": [
+      768
+    ],
+    "blocks.3.norm2.bias": [
+      768
+    ],
+    "blocks.3.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.3.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.3.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.3.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.4.norm1.weight": [
+      768
+    ],
+    "blocks.4.norm1.bias": [
+      768
+    ],
+    "blocks.4.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.4.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.4.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.4.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.4.norm2.weight": [
+      768
+    ],
+    "blocks.4.norm2.bias": [
+      768
+    ],
+    "blocks.4.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.4.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.4.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.4.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.5.norm1.weight": [
+      768
+    ],
+    "blocks.5.norm1.bias": [
+      768
+    ],
+    "blocks.5.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.5.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.5.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.5.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.5.norm2.weight": [
+      768
+    ],
+    "blocks.5.norm2.bias": [
+      768
+    ],
+    "blocks.5.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.5.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.5.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.5.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.6.norm1.weight": [
+      768
+    ],
+    "blocks.6.norm1.bias": [
+      768
+    ],
+    "blocks.6.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.6.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.6.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.6.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.6.norm2.weight": [
+      768
+    ],
+    "blocks.6.norm2.bias": [
+      768
+    ],
+    "blocks.6.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.6.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.6.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.6.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.7.norm1.weight": [
+      768
+    ],
+    "blocks.7.norm1.bias": [
+      768
+    ],
+    "blocks.7.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.7.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.7.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.7.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.7.norm2.weight": [
+      768
+    ],
+    "blocks.7.norm2.bias": [
+      768
+    ],
+    "blocks.7.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.7.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.7.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.7.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.8.norm1.weight": [
+      768
+    ],
+    "blocks.8.norm1.bias": [
+      768
+    ],
+    "blocks.8.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.8.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.8.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.8.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.8.norm2.weight": [
+      768
+    ],
+    "blocks.8.norm2.bias": [
+      768
+    ],
+    "blocks.8.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.8.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.8.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.8.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.9.norm1.weight": [
+      768
+    ],
+    "blocks.9.norm1.bias": [
+      768
+    ],
+    "blocks.9.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.9.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.9.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.9.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.9.norm2.weight": [
+      768
+    ],
+    "blocks.9.norm2.bias": [
+      768
+    ],
+    "blocks.9.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.9.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.9.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.9.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.10.norm1.weight": [
+      768
+    ],
+    "blocks.10.norm1.bias": [
+      768
+    ],
+    "blocks.10.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.10.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.10.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.10.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.10.norm2.weight": [
+      768
+    ],
+    "blocks.10.norm2.bias": [
+      768
+    ],
+    "blocks.10.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.10.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.10.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.10.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.11.norm1.weight": [
+      768
+    ],
+    "blocks.11.norm1.bias": [
+      768
+    ],
+    "blocks.11.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.11.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.11.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.11.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.11.norm2.weight": [
+      768
+    ],
+    "blocks.11.norm2.bias": [
+      768
+    ],
+    "blocks.11.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.11.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.11.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.11.mlp.fc2.bias": [
+      768
+    ],
+    "norm.weight": [
+      768
+    ],
+    "norm.bias": [
+      768
+    ],
+    "head.weight": [
+      2736,
+      772
+    ]
+  },
+  "weights_only_load_succeeded": true,
+  "explicit_allowlist": [
+    "ruamel.yaml.scalarfloat.ScalarFloat"
+  ],
+  "top_level_value_types": {
+    "epoch": "int",
+    "model_state": "OrderedDict",
+    "optimizer_state_dict": "dict"
+  }
+}
