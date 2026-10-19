@@ -138,3 +138,12 @@
 
 关键复现命令：source scripts/activate_tiegcm.sh；python scripts/prepare_apex2023_build.py（新构建/已生成覆盖层元数据）；make -j2 -C experiments/tiegcm2_apex2023_v1 all；python scripts/run_tiegcm2_smoke.py --build-tag tiegcm2_apex2023_v1 --run-tag 新标签 --ranks 4；python scripts/check_tiegcm2023_gpi_consumer.py --log-tag 新标签（仅文件读取/插值）。source scripts/activate_orbit.sh；python scripts/prepare_tiegcm2023_drivers.py（拒绝已有输出目录）；python -m unittest discover -s tests -v。
 新增脚本prepare_apex2023_build.py、prepare_tiegcm2023_drivers.py、check_tiegcm2023_gpi_consumer.py；coverage.py/test_tiegcm2023_preparation.py；六份报告/设计、官方apex补丁、驱动NetCDF、姿态资产及审计日志。未新增依赖；沿用.venv310和.envs/tiegcm。NOAA HTTPS容器TLS失败、ESA PDF403、GFZ年文件404均如实保留，网页可核查不等于本地文件下载成功。
+
+
+## GitHub仓库提交准备（2026-10-19，最新）
+- 按用户要求在唯一工作区内建立.git，分支main，origin=https://github.com/hhtbbc/261016project.git；无强推、无其他仓库改动。
+- 已提交自研代码/测试、文档/报告、配置/补丁、图表/CSV、轻量实验与审计记录；.gitignore排除环境/缓存/临时、原始数据、第三方完整树、模型权重及编译/大状态文件，全部原文件仍在本地。资产清单configs/external-assets.json列出566文件共6221218821字节；并非完整数据备份。
+- 增加docs/REPOSITORY_GUIDE.md、README最新入口与Orekit官方原LICENSE/NOTICE；Git提交身份仅项目内配置hhtbbc/254247411+hhtbbc@users.noreply.github.com，无全局Git配置修改。
+- 首次push失败：VS Code认证socket ECONNREFUSED、GitHub No anonymous write access / Authentication failed；本地日志logs/github_push_initial.log。没有可用SSH客户端/agent工具。**尚未推送成功**，等待用户在服务器/VS Code恢复GitHub写入认证，不能将公开只读访问当作写权限。
+- 完成常见凭据模式/文件体积/外指链接扫描，未发现命中；仅为发布检查，未重跑物理仿真，现有31项测试日志保留。归档参考及原始补丁有既存空白告警，未改写原资料。
+- 下一入口：恢复认证后source scripts/activate_orbit.sh；git push -u origin main；比对git ls-remote origin refs/heads/main与git rev-parse HEAD，然后补记成功状态。当前科研阶段和未解决物理条件不变。

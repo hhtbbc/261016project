@@ -24,3 +24,12 @@
 ## 发布检查
 
 本次提交前检查文件大小、外指符号链接和常见凭据模式；详情logs/git_pre_push_audit.json。该模式扫描不能证明不存在任何形式的敏感信息。没有改科研代码或重跑物理实验；已有31项测试记录logs/tiegcm2023_all_tests.log随仓库保存。推送结果用远端分支SHA与本地HEAD比对，记录本地logs/github_push_verification.log。
+
+
+## 本次推送状态
+
+本地main已提交，origin已配置。首次HTTPS推送失败：GitHub返回No anonymous write access；VS Code GIT_ASKPASS连接本机失效套接字ECONNREFUSED。当前没有有效写凭据，且没有ssh/ssh-add工具可用。远端没有收到本次提交，不能称为已发布。原始失败日志保存在本地logs/github_push_initial.log；不将认证异常日志或凭据入库。
+
+恢复服务器/VS Code的GitHub登录后，在项目路径执行git push -u origin main；随后git ls-remote origin refs/heads/main应与git rev-parse HEAD一致。不要在聊天发送Token或私钥，不把凭据写入remote URL。
+
+新增第三方参考文件的原始Apache LICENSE/NOTICE来自Orekit 13.0.3官方标签，与已有Java参考源码共同保存，下载来源/校验见logs/github_third_party_notices.json。既有源码/实验未改。git diff --check对归档HTML、原始补丁等存在历史空白告警；保留其原始字节和哈希，没有为发布批量改写科研资料。
