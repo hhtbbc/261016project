@@ -43,3 +43,5 @@ python --version
 已完成唯一一次2023-03-18 00:00→03-19 00:10诊断，1450步/155.01秒，模型原生生成23:50单记录完整checkpoint，解决此前缺少合法源时刻的静态阻碍。实际跨日驱动/基础字段检查通过、50测试通过；尚未运行Restart分支或验证连续/分段一致性，更不是spin-up收敛。详见[跨日报告](reports/TIEGCM2023_CROSSDAY_DIAGNOSTIC.md)和[后续续算方案](docs/TIEGCM2023_RESTART_NEXT_STEP.md)。大型NetCDF仍在原工作区，Git不包含检查点本体。
 
 最新验证：原生continuation B1正常退出，但连续/分段状态超过预注册容差，B2未运行，正式分段spin-up仍暂停。详见[续算验证报告](reports/TIEGCM2023_CONTINUATION_VALIDATION.md)。新增56项测试通过，不能据此声称模型数值续算等价。
+
+后续候选：[连续spin-up方案](docs/TIEGCM2023_CONTINUOUS_SPINUP_PLAN.md)与[Restart源码分析](reports/TIEGCM2023_RESTART_ROOT_CAUSE_ANALYSIS.md)。仅静态设计，未执行多日积分。

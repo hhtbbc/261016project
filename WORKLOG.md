@@ -200,3 +200,7 @@
 ## 2026-10-19：原生continuation B1门禁失败，停止B2
 目标：复用23:50完整primary验证B1/B2，无24h重跑。新增run_tiegcm2023_continuation.py及6项测试，生成独立配置、冻结容差、资源/驱动/状态审计。activate_tiegcm环境4rank/5°/60s，实际仅B1一次10分钟，2.183秒，采样RSS932.43MiB，正常退出。34项primary有28项超差；TN最大差0.442936K、VN1.362064m/s、POTEN9.452503V；DEN最大差3.878842e-12kg/m³、ZG368.6m。初始副本与原件SHA一致、989项既有文件未变；10步及实际GPI核验通过。全套56测试通过，原生数值等价失败，B2未创建未执行，不重试。
 关键命令及逐项指标见reports/TIEGCM2023_CONTINUATION_VALIDATION.md、experiments/tiegcm2023_continuation_v1*/和results/metrics/tiegcm2023_continuation_v1_B1_errors.csv；图results/figures/tiegcm2023_continuation_v1_B1_errors.png。保留旧记录并更新SPINUP_READY/STATUS/AGENTS/README。源码发现首步重建未序列化磁坐标势/电场的不同路径，仅为候选原因，未改原源码或运行推测修复。下一步待授权诊断首次分歧，不开展spin-up。任务成果按规则提交推送，提交哈希以Git及最终汇报为准。
+
+## 2026-10-19：Restart原因分析与连续spin-up设计
+阅读长期规则/进度/跨日及B1报告、初始化方案；使用rg/sed只读追踪rdsource/advance/pdynamo/ionvel/GSWM/历史输出；原始树与有效构建相关源哈希归档。确认phim3d等6个native数组未存primary，首步pefield与pthreed映射/极区/上下边界处理不相同，不能宣布唯一根因。复核可执行/apex/GPI/初场及23:50SHA匹配；独立GpiDriver对DOY73—82每分钟全部可查询。NetCDF读取数组长度时库给出missing_value不能安全转dtype的提示，未用于有效性判断、未修改数据；预算只取nbytes，实际科学分析必须按dtype显式掩码。
+新增报告reports/TIEGCM2023_RESTART_ROOT_CAUSE_ANALYSIS.md、方案docs/TIEGCM2023_CONTINUOUS_SPINUP_PLAN.md及静态审计JSON。新积分0/新编译0/新补丁0，所有旧模型结果保留。用现有1450步155.014390秒和真实每帧负载计算：7210/12970步约770.80/1386.58秒，约2.471/2.571GB NetCDF负载；设计每支4GiB生成上限、wall1800/3000秒、RSS16GiB，需另授权。共同290帧10分钟输出覆盖SP3终点+2秒；设计原生/几何高度/沿轨密度、温度/风/组分、初态独立性分层验证。不把3/7相近当科学真值。下一步建议单次连续S3先行、Restart探针评审限时并行，均不自动执行。Git提交和推送以最终核对为准。

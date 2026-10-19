@@ -143,3 +143,6 @@ ensurepip缺失；Python3.12与作者3.10/Windows配置有差异。权重/归一
 
 ## 最新任务：2023原生continuation验证（2026-10-19会话）
 B1仅启动1次，2.183秒正常退出，时间/驱动/10步通过；完整primary 28/34超差，6项下边界相同，共同secondary 9/9超差。B2按门禁未运行。原23:50检查点及989项既有科学文件核验未变。56项自动化测试通过。当前不具备正式分段spin-up等价性条件；下一入口为reports/TIEGCM2023_CONTINUATION_VALIDATION.md与docs/TIEGCM2023_SPINUP_READY.md，等待授权定位原生电动力内部状态重建差异。未做spin-up/Swarm阻力实验。
+
+## 最新：Restart源码定位与连续spin-up备用方案（2026-10-19）
+仅只读分析，新增模型积分0次、编译0次。已确认磁势/POTEN映射、istep首步电场重建及上下边界赋值路径不同，尚未证明唯一根因。B1失败与B2未运行保持不变。新报告TIEGCM2023_RESTART_ROOT_CAUSE_ANALYSIS.md，备用docs/TIEGCM2023_CONTINUOUS_SPINUP_PLAN.md；模型/源/数据哈希及驱动覆盖静态复核见experiments/tiegcm2023_restart_analysis_v1/static_audit.json。推荐C：优先另授权S3连续5天10分，Restart限时诊断并行。S3/S7线性墙钟约771/1387秒，输出约2.47/2.57GB，均非实测；本次未生成运行器、补丁或运行命令。等待下一条授权。
