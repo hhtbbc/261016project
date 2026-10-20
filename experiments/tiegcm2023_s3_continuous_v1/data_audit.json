@@ -1,0 +1,4164 @@
+{
+  "status": "basic_engineering_audit_passed_not_spinup_convergence",
+  "primary_records": 7,
+  "secondary_records": 293,
+  "common_window_records": 290,
+  "cold_secondary_diagnostic_record_unavailable": true,
+  "physical_stats_records": 292,
+  "runtime_GPI_unique_print_times": 721,
+  "runtime_GPI_max_rounding_difference": 0.0004999999999881766,
+  "stored_drivers_max_difference": 5.684341886080802e-14,
+  "field_ranges_native": {
+    "DEN": [
+      8.194428342309616e-17,
+      1.1993609438931685e-09
+    ],
+    "ZG": [
+      9567414.0,
+      74114456.0
+    ],
+    "TN": [
+      147.1302947998047,
+      1268.3447265625
+    ],
+    "UN": [
+      -66525.6953125,
+      61747.609375
+    ],
+    "VN": [
+      -71986.0703125,
+      72564.8359375
+    ],
+    "O1": [
+      0.0027726830448955297,
+      0.9528502821922302
+    ],
+    "O2": [
+      8.506385711370967e-06,
+      0.2309507131576538
+    ],
+    "N2": [
+      9.999999974752427e-07,
+      0.7918480634689331
+    ],
+    "HE": [
+      1.1515139703988098e-06,
+      0.34593692421913147
+    ]
+  },
+  "Swarm_review": {
+    "SP3_frame": "IGS20",
+    "samples": 17280,
+    "WGS84_height_km": [
+      460.31151058712607,
+      489.98898567890285
+    ],
+    "radial_height_above_6371km_sphere_km": [
+      455.82451391161794,
+      475.7877925121693
+    ],
+    "precise_density_query_valid_fraction": null,
+    "reason": "Native ZG geographic/datum correspondence to WGS84 and horizontal stencil not yet validated; no extrapolation or density queries performed"
+  },
+  "temporal_decimation_native_ZG450km": {
+    "native_height_km": 450,
+    "valid_fraction": 1.0,
+    "samples": 373248,
+    "log_density_RMSE": 0.000583990032151008,
+    "absolute_relative_error_P95": 0.0012466405911266,
+    "max_absolute_relative_error": 0.0034137587768481004,
+    "interpretation": "20-min-anchor log interpolation vs actual middle 10-min samples; not proof of native 10-min interpolation accuracy or Swarm along-track validity"
+  },
+  "protected_files_changed": [],
+  "files": [
+    {
+      "file": "primary_001.nc",
+      "bytes": 16993028,
+      "sha256": "aa6027bcc5d463a8c4162aac2e397ef8aee11354f291acc0068765a3cfa9656e",
+      "utc": [
+        "2023-03-18 00:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N2D": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TI": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TE": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NE": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2P": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OMEGA": {
+          "units": "s-1",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "Z": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "POTEN": {
+          "units": "volts",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TN_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP_NM": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR_NM": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "file": "primary_002.nc",
+      "bytes": 16993212,
+      "sha256": "30074966abfbc0e07bfa38b0cf5200e1659ffefa97ed0eae2ef58494ca1121cf",
+      "utc": [
+        "2023-03-19 00:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N2D": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TI": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TE": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NE": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2P": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OMEGA": {
+          "units": "s-1",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "Z": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "POTEN": {
+          "units": "volts",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TN_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP_NM": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR_NM": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "file": "primary_003.nc",
+      "bytes": 16993212,
+      "sha256": "00eefc77e2c012ed630e86a1c51d5d95fd1fc104dd02f48d4a2d931ac7d39653",
+      "utc": [
+        "2023-03-20 00:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N2D": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TI": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TE": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NE": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2P": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OMEGA": {
+          "units": "s-1",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "Z": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "POTEN": {
+          "units": "volts",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TN_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP_NM": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR_NM": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "file": "primary_004.nc",
+      "bytes": 16993212,
+      "sha256": "4159f2dfb8a76856a7a3d7af767dd2124e27c0fcef99499a7194505f9ab3d69a",
+      "utc": [
+        "2023-03-21 00:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N2D": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TI": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TE": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NE": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2P": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OMEGA": {
+          "units": "s-1",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "Z": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "POTEN": {
+          "units": "volts",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TN_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP_NM": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR_NM": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "file": "primary_005.nc",
+      "bytes": 16993212,
+      "sha256": "81120a0eb7959f34a93989d43a0eb657921a135e8855731b2ddc30d4b6c93328",
+      "utc": [
+        "2023-03-22 00:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N2D": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TI": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TE": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NE": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2P": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OMEGA": {
+          "units": "s-1",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "Z": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "POTEN": {
+          "units": "volts",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TN_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP_NM": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR_NM": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "file": "primary_006.nc",
+      "bytes": 16993212,
+      "sha256": "1ced3621d3ae6ffc4e2c0fe88b091252cdee6cba6ea21fbe1845244baf2fd79d",
+      "utc": [
+        "2023-03-23 00:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N2D": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TI": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TE": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NE": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2P": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OMEGA": {
+          "units": "s-1",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "Z": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "POTEN": {
+          "units": "volts",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TN_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP_NM": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR_NM": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "file": "primary_007.nc",
+      "bytes": 16993212,
+      "sha256": "382aa4828819f75005d166c24c67a05d2bac556ad8423e118e080c8e97a6aea1",
+      "utc": [
+        "2023-03-23 00:10:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N2D": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TI": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TE": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NE": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2P": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OMEGA": {
+          "units": "s-1",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "Z": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "POTEN": {
+          "units": "volts",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TN_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "UN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VN_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O2_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "O1_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "N4S_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "NO_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "OP_NM": {
+          "units": "cm-3",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "HE_NM": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "AR_NM": {
+          "units": "MMR",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "TLBC_NM": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "ULBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        },
+        "VLBC_NM": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "file": "secondary_001.nc",
+      "bytes": 32126808,
+      "sha256": "5d537d8ad1cace8082606f995dd3150b5471e98ddbf9ba64656bc12267b7a543",
+      "utc": [
+        "2023-03-18 00:00:00",
+        "2023-03-19 00:00:00",
+        "2023-03-20 00:00:00",
+        "2023-03-21 00:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "file": "secondary_002.nc",
+      "bytes": 192668980,
+      "sha256": "6206ac1b8aa7615b5ae459445680646922edd77b5c33f6aed06266037bf771f7",
+      "utc": [
+        "2023-03-21 00:10:00",
+        "2023-03-21 00:20:00",
+        "2023-03-21 00:30:00",
+        "2023-03-21 00:40:00",
+        "2023-03-21 00:50:00",
+        "2023-03-21 01:00:00",
+        "2023-03-21 01:10:00",
+        "2023-03-21 01:20:00",
+        "2023-03-21 01:30:00",
+        "2023-03-21 01:40:00",
+        "2023-03-21 01:50:00",
+        "2023-03-21 02:00:00",
+        "2023-03-21 02:10:00",
+        "2023-03-21 02:20:00",
+        "2023-03-21 02:30:00",
+        "2023-03-21 02:40:00",
+        "2023-03-21 02:50:00",
+        "2023-03-21 03:00:00",
+        "2023-03-21 03:10:00",
+        "2023-03-21 03:20:00",
+        "2023-03-21 03:30:00",
+        "2023-03-21 03:40:00",
+        "2023-03-21 03:50:00",
+        "2023-03-21 04:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "file": "secondary_003.nc",
+      "bytes": 192668980,
+      "sha256": "c7694a81eac032047e3f869467152cea2b706b1ea2f911ced957601e622e3539",
+      "utc": [
+        "2023-03-21 04:10:00",
+        "2023-03-21 04:20:00",
+        "2023-03-21 04:30:00",
+        "2023-03-21 04:40:00",
+        "2023-03-21 04:50:00",
+        "2023-03-21 05:00:00",
+        "2023-03-21 05:10:00",
+        "2023-03-21 05:20:00",
+        "2023-03-21 05:30:00",
+        "2023-03-21 05:40:00",
+        "2023-03-21 05:50:00",
+        "2023-03-21 06:00:00",
+        "2023-03-21 06:10:00",
+        "2023-03-21 06:20:00",
+        "2023-03-21 06:30:00",
+        "2023-03-21 06:40:00",
+        "2023-03-21 06:50:00",
+        "2023-03-21 07:00:00",
+        "2023-03-21 07:10:00",
+        "2023-03-21 07:20:00",
+        "2023-03-21 07:30:00",
+        "2023-03-21 07:40:00",
+        "2023-03-21 07:50:00",
+        "2023-03-21 08:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "file": "secondary_004.nc",
+      "bytes": 192668980,
+      "sha256": "182b1828455b21ab980978afb32e2eb4b36da1feb597f92e28781ed73bfa1ed2",
+      "utc": [
+        "2023-03-21 08:10:00",
+        "2023-03-21 08:20:00",
+        "2023-03-21 08:30:00",
+        "2023-03-21 08:40:00",
+        "2023-03-21 08:50:00",
+        "2023-03-21 09:00:00",
+        "2023-03-21 09:10:00",
+        "2023-03-21 09:20:00",
+        "2023-03-21 09:30:00",
+        "2023-03-21 09:40:00",
+        "2023-03-21 09:50:00",
+        "2023-03-21 10:00:00",
+        "2023-03-21 10:10:00",
+        "2023-03-21 10:20:00",
+        "2023-03-21 10:30:00",
+        "2023-03-21 10:40:00",
+        "2023-03-21 10:50:00",
+        "2023-03-21 11:00:00",
+        "2023-03-21 11:10:00",
+        "2023-03-21 11:20:00",
+        "2023-03-21 11:30:00",
+        "2023-03-21 11:40:00",
+        "2023-03-21 11:50:00",
+        "2023-03-21 12:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "file": "secondary_005.nc",
+      "bytes": 192668980,
+      "sha256": "22d910f1aae02193f82ca859f27aebf7d4a9357ad994df5e14de541b0238e42e",
+      "utc": [
+        "2023-03-21 12:10:00",
+        "2023-03-21 12:20:00",
+        "2023-03-21 12:30:00",
+        "2023-03-21 12:40:00",
+        "2023-03-21 12:50:00",
+        "2023-03-21 13:00:00",
+        "2023-03-21 13:10:00",
+        "2023-03-21 13:20:00",
+        "2023-03-21 13:30:00",
+        "2023-03-21 13:40:00",
+        "2023-03-21 13:50:00",
+        "2023-03-21 14:00:00",
+        "2023-03-21 14:10:00",
+        "2023-03-21 14:20:00",
+        "2023-03-21 14:30:00",
+        "2023-03-21 14:40:00",
+        "2023-03-21 14:50:00",
+        "2023-03-21 15:00:00",
+        "2023-03-21 15:10:00",
+        "2023-03-21 15:20:00",
+        "2023-03-21 15:30:00",
+        "2023-03-21 15:40:00",
+        "2023-03-21 15:50:00",
+        "2023-03-21 16:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "file": "secondary_006.nc",
+      "bytes": 192668980,
+      "sha256": "b98fbe5f0a7399759535b497200178a816c369997c755a5e3b58e3ac079b71a6",
+      "utc": [
+        "2023-03-21 16:10:00",
+        "2023-03-21 16:20:00",
+        "2023-03-21 16:30:00",
+        "2023-03-21 16:40:00",
+        "2023-03-21 16:50:00",
+        "2023-03-21 17:00:00",
+        "2023-03-21 17:10:00",
+        "2023-03-21 17:20:00",
+        "2023-03-21 17:30:00",
+        "2023-03-21 17:40:00",
+        "2023-03-21 17:50:00",
+        "2023-03-21 18:00:00",
+        "2023-03-21 18:10:00",
+        "2023-03-21 18:20:00",
+        "2023-03-21 18:30:00",
+        "2023-03-21 18:40:00",
+        "2023-03-21 18:50:00",
+        "2023-03-21 19:00:00",
+        "2023-03-21 19:10:00",
+        "2023-03-21 19:20:00",
+        "2023-03-21 19:30:00",
+        "2023-03-21 19:40:00",
+        "2023-03-21 19:50:00",
+        "2023-03-21 20:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "file": "secondary_007.nc",
+      "bytes": 192668980,
+      "sha256": "55bc2fa0449bdbe92be6d5f6584ada62f01cabf8c0b8be05a9af9e4d21495627",
+      "utc": [
+        "2023-03-21 20:10:00",
+        "2023-03-21 20:20:00",
+        "2023-03-21 20:30:00",
+        "2023-03-21 20:40:00",
+        "2023-03-21 20:50:00",
+        "2023-03-21 21:00:00",
+        "2023-03-21 21:10:00",
+        "2023-03-21 21:20:00",
+        "2023-03-21 21:30:00",
+        "2023-03-21 21:40:00",
+        "2023-03-21 21:50:00",
+        "2023-03-21 22:00:00",
+        "2023-03-21 22:10:00",
+        "2023-03-21 22:20:00",
+        "2023-03-21 22:30:00",
+        "2023-03-21 22:40:00",
+        "2023-03-21 22:50:00",
+        "2023-03-21 23:00:00",
+        "2023-03-21 23:10:00",
+        "2023-03-21 23:20:00",
+        "2023-03-21 23:30:00",
+        "2023-03-21 23:40:00",
+        "2023-03-21 23:50:00",
+        "2023-03-22 00:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "file": "secondary_008.nc",
+      "bytes": 192668980,
+      "sha256": "b188d9c0af4474c7b021677be5620be87deea9d36f0f39f36a68570efe638a74",
+      "utc": [
+        "2023-03-22 00:10:00",
+        "2023-03-22 00:20:00",
+        "2023-03-22 00:30:00",
+        "2023-03-22 00:40:00",
+        "2023-03-22 00:50:00",
+        "2023-03-22 01:00:00",
+        "2023-03-22 01:10:00",
+        "2023-03-22 01:20:00",
+        "2023-03-22 01:30:00",
+        "2023-03-22 01:40:00",
+        "2023-03-22 01:50:00",
+        "2023-03-22 02:00:00",
+        "2023-03-22 02:10:00",
+        "2023-03-22 02:20:00",
+        "2023-03-22 02:30:00",
+        "2023-03-22 02:40:00",
+        "2023-03-22 02:50:00",
+        "2023-03-22 03:00:00",
+        "2023-03-22 03:10:00",
+        "2023-03-22 03:20:00",
+        "2023-03-22 03:30:00",
+        "2023-03-22 03:40:00",
+        "2023-03-22 03:50:00",
+        "2023-03-22 04:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "file": "secondary_009.nc",
+      "bytes": 192668980,
+      "sha256": "0412a9e67fbf8aa98bcbc2d79ec4712c28c12e590b9df6cfbf08edeb88071b65",
+      "utc": [
+        "2023-03-22 04:10:00",
+        "2023-03-22 04:20:00",
+        "2023-03-22 04:30:00",
+        "2023-03-22 04:40:00",
+        "2023-03-22 04:50:00",
+        "2023-03-22 05:00:00",
+        "2023-03-22 05:10:00",
+        "2023-03-22 05:20:00",
+        "2023-03-22 05:30:00",
+        "2023-03-22 05:40:00",
+        "2023-03-22 05:50:00",
+        "2023-03-22 06:00:00",
+        "2023-03-22 06:10:00",
+        "2023-03-22 06:20:00",
+        "2023-03-22 06:30:00",
+        "2023-03-22 06:40:00",
+        "2023-03-22 06:50:00",
+        "2023-03-22 07:00:00",
+        "2023-03-22 07:10:00",
+        "2023-03-22 07:20:00",
+        "2023-03-22 07:30:00",
+        "2023-03-22 07:40:00",
+        "2023-03-22 07:50:00",
+        "2023-03-22 08:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "file": "secondary_010.nc",
+      "bytes": 192668980,
+      "sha256": "01d204cff4257fe200c35c85057cb83769c08d35c8fc5719f229deee6623160c",
+      "utc": [
+        "2023-03-22 08:10:00",
+        "2023-03-22 08:20:00",
+        "2023-03-22 08:30:00",
+        "2023-03-22 08:40:00",
+        "2023-03-22 08:50:00",
+        "2023-03-22 09:00:00",
+        "2023-03-22 09:10:00",
+        "2023-03-22 09:20:00",
+        "2023-03-22 09:30:00",
+        "2023-03-22 09:40:00",
+        "2023-03-22 09:50:00",
+        "2023-03-22 10:00:00",
+        "2023-03-22 10:10:00",
+        "2023-03-22 10:20:00",
+        "2023-03-22 10:30:00",
+        "2023-03-22 10:40:00",
+        "2023-03-22 10:50:00",
+        "2023-03-22 11:00:00",
+        "2023-03-22 11:10:00",
+        "2023-03-22 11:20:00",
+        "2023-03-22 11:30:00",
+        "2023-03-22 11:40:00",
+        "2023-03-22 11:50:00",
+        "2023-03-22 12:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "file": "secondary_011.nc",
+      "bytes": 192668980,
+      "sha256": "719faba8602eb308aaf46dc7e6a3e2a042688155d04694761a706c124ef26a5e",
+      "utc": [
+        "2023-03-22 12:10:00",
+        "2023-03-22 12:20:00",
+        "2023-03-22 12:30:00",
+        "2023-03-22 12:40:00",
+        "2023-03-22 12:50:00",
+        "2023-03-22 13:00:00",
+        "2023-03-22 13:10:00",
+        "2023-03-22 13:20:00",
+        "2023-03-22 13:30:00",
+        "2023-03-22 13:40:00",
+        "2023-03-22 13:50:00",
+        "2023-03-22 14:00:00",
+        "2023-03-22 14:10:00",
+        "2023-03-22 14:20:00",
+        "2023-03-22 14:30:00",
+        "2023-03-22 14:40:00",
+        "2023-03-22 14:50:00",
+        "2023-03-22 15:00:00",
+        "2023-03-22 15:10:00",
+        "2023-03-22 15:20:00",
+        "2023-03-22 15:30:00",
+        "2023-03-22 15:40:00",
+        "2023-03-22 15:50:00",
+        "2023-03-22 16:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "file": "secondary_012.nc",
+      "bytes": 192668980,
+      "sha256": "6c8868536298ff6090e75ebcc85c71e7f51025f595ab26f66830fa30082a68e4",
+      "utc": [
+        "2023-03-22 16:10:00",
+        "2023-03-22 16:20:00",
+        "2023-03-22 16:30:00",
+        "2023-03-22 16:40:00",
+        "2023-03-22 16:50:00",
+        "2023-03-22 17:00:00",
+        "2023-03-22 17:10:00",
+        "2023-03-22 17:20:00",
+        "2023-03-22 17:30:00",
+        "2023-03-22 17:40:00",
+        "2023-03-22 17:50:00",
+        "2023-03-22 18:00:00",
+        "2023-03-22 18:10:00",
+        "2023-03-22 18:20:00",
+        "2023-03-22 18:30:00",
+        "2023-03-22 18:40:00",
+        "2023-03-22 18:50:00",
+        "2023-03-22 19:00:00",
+        "2023-03-22 19:10:00",
+        "2023-03-22 19:20:00",
+        "2023-03-22 19:30:00",
+        "2023-03-22 19:40:00",
+        "2023-03-22 19:50:00",
+        "2023-03-22 20:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "file": "secondary_013.nc",
+      "bytes": 192668980,
+      "sha256": "ed80f72557eee59781a58b02c4f21093821c4e518ce200f0947d6fb8b9dc246e",
+      "utc": [
+        "2023-03-22 20:10:00",
+        "2023-03-22 20:20:00",
+        "2023-03-22 20:30:00",
+        "2023-03-22 20:40:00",
+        "2023-03-22 20:50:00",
+        "2023-03-22 21:00:00",
+        "2023-03-22 21:10:00",
+        "2023-03-22 21:20:00",
+        "2023-03-22 21:30:00",
+        "2023-03-22 21:40:00",
+        "2023-03-22 21:50:00",
+        "2023-03-22 22:00:00",
+        "2023-03-22 22:10:00",
+        "2023-03-22 22:20:00",
+        "2023-03-22 22:30:00",
+        "2023-03-22 22:40:00",
+        "2023-03-22 22:50:00",
+        "2023-03-22 23:00:00",
+        "2023-03-22 23:10:00",
+        "2023-03-22 23:20:00",
+        "2023-03-22 23:30:00",
+        "2023-03-22 23:40:00",
+        "2023-03-22 23:50:00",
+        "2023-03-23 00:00:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "file": "secondary_014.nc",
+      "bytes": 8045496,
+      "sha256": "36cca869a52f9ddc77e13e06a44329715c189f24f8d6f5a3d7fdd27de0bbd0ea",
+      "utc": [
+        "2023-03-23 00:10:00"
+      ],
+      "fields": {
+        "TN": {
+          "units": "K",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "UN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "VN": {
+          "units": "cm/s",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "O1": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "N2": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "HE": {
+          "units": "mmr",
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "DEN": {
+          "units": "g/cm3",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        },
+        "ZG": {
+          "units": "cm",
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "dtype": "float32"
+        }
+      }
+    }
+  ],
+  "model_launches": 1,
+  "S7_run": false
+}

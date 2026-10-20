@@ -1,0 +1,16 @@
+{
+  "configuration_static_pass": true,
+  "primary_files_expected": 7,
+  "secondary_files_expected": 14,
+  "records_expected": {
+    "primary": 7,
+    "secondary": 293,
+    "common": 290
+  },
+  "cold_secondary_diagnostics": "At istep0 output.F302-306 addfld has not run; DEN/ZG etc absent/fill. Do not interpret as evolved prediction. Warm records retain strict checks.",
+  "supervision_handoff": "Original Python supervisor paused at sleep; same original MPI session remains, inherited CPU/file caps unchanged. Guardian maintains original wall/RSS/disk/volume limits; no model relaunch.",
+  "models_launched": 1,
+  "no_continuation": true,
+  "no_S7": true,
+  "no_orbit_integration": true
+}

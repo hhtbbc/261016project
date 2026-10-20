@@ -1,0 +1,14 @@
+{
+  "samples": 17281,
+  "utc_first": "2023-03-21T00:00:02.000",
+  "utc_last": "2023-03-23T00:00:02.000",
+  "elapsed_first_s": 4.796163466380676e-12,
+  "elapsed_last_s": 172800.0,
+  "WGS84_height_km": [
+    460.31151058712607,
+    489.98898567890285
+  ],
+  "precise_density_query_valid_fraction": null,
+  "inclusive_endpoint_tolerance_s": 1e-06,
+  "note": "Supersedes sample selection in data_audit.json Swarm_review: strict floating epoch comparison omitted a boundary sample; no dynamics/data changed. Height-datum/stencil review remains unresolved."
+}

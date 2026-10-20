@@ -1,0 +1,9 @@
+test_continuous_source (test_tiegcm2023_s3.S3Tests) ... ok
+test_exact_schedule (test_tiegcm2023_s3.S3Tests) ... ok
+test_no_duplicate_boundary (test_tiegcm2023_s3.S3Tests) ... ok
+test_reviewed_config_and_overrides (test_tiegcm2023_s3.S3Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.005s
+
+OK

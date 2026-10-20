@@ -1,0 +1,8 @@
+{
+  "model_launches_added": 0,
+  "existing_supervisor_pid": 216414,
+  "existing_mpi_pid": 216438,
+  "handoff_model_wall_s": 279.7399999983609,
+  "reason": "First cold secondary diagnostic record is native missing_value, not a numerical failure; retain cold mask and check all warm records",
+  "original_supervisor_paused_only_model_continues": true
+}

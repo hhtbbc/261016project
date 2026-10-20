@@ -1,0 +1,75 @@
+{
+  "status": "basic_engineering_audit_passed_not_spinup_convergence",
+  "primary_records": 7,
+  "secondary_records": 293,
+  "common_window_records": 290,
+  "cold_secondary_diagnostic_record_unavailable": true,
+  "physical_stats_records": 292,
+  "runtime_GPI_unique_print_times": 721,
+  "runtime_GPI_max_rounding_difference": 0.0004999999999881766,
+  "stored_drivers_max_difference": 5.684341886080802e-14,
+  "field_ranges_native": {
+    "DEN": [
+      8.194428342309616e-17,
+      1.1993609438931685e-09
+    ],
+    "ZG": [
+      9567414.0,
+      74114456.0
+    ],
+    "TN": [
+      147.1302947998047,
+      1268.3447265625
+    ],
+    "UN": [
+      -66525.6953125,
+      61747.609375
+    ],
+    "VN": [
+      -71986.0703125,
+      72564.8359375
+    ],
+    "O1": [
+      0.0027726830448955297,
+      0.9528502821922302
+    ],
+    "O2": [
+      8.506385711370967e-06,
+      0.2309507131576538
+    ],
+    "N2": [
+      9.999999974752427e-07,
+      0.7918480634689331
+    ],
+    "HE": [
+      1.1515139703988098e-06,
+      0.34593692421913147
+    ]
+  },
+  "Swarm_review": {
+    "SP3_frame": "IGS20",
+    "samples": 17280,
+    "WGS84_height_km": [
+      460.31151058712607,
+      489.98898567890285
+    ],
+    "radial_height_above_6371km_sphere_km": [
+      455.82451391161794,
+      475.7877925121693
+    ],
+    "precise_density_query_valid_fraction": null,
+    "reason": "Native ZG geographic/datum correspondence to WGS84 and horizontal stencil not yet validated; no extrapolation or density queries performed"
+  },
+  "temporal_decimation_native_ZG450km": {
+    "native_height_km": 450,
+    "valid_fraction": 1.0,
+    "samples": 373248,
+    "log_density_RMSE": 0.000583990032151008,
+    "absolute_relative_error_P95": 0.0012466405911266,
+    "max_absolute_relative_error": 0.0034137587768481004,
+    "interpretation": "20-min-anchor log interpolation vs actual middle 10-min samples; not proof of native 10-min interpolation accuracy or Swarm along-track validity"
+  },
+  "protected_files_changed": [],
+  "model_launches": 1,
+  "S7_run": false
+}

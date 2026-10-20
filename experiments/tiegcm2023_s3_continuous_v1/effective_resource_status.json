@@ -1,0 +1,19 @@
+{
+  "model_launches": 1,
+  "actual_steps": 7210,
+  "unique_runtime_step_prints": 721,
+  "all_step_prints_four_ranks": true,
+  "elapsed_s": 786.8054564800113,
+  "peak_sampled_tree_rss_bytes": 993308672,
+  "children_user_cpu_s": 2872.70224,
+  "children_system_cpu_s": 264.704853,
+  "cpu_note": "RUSAGE_CHILDREN reported by original MPI waiter; aggregate descendant accounting depends on launcher; not per-rank precision",
+  "netcdf_bytes": 2471152364,
+  "max_netcdf_volume_bytes": 192668980,
+  "normal_exit_count": 4,
+  "original_supervisor_online_checked": 1,
+  "guardian_online_checked": 19,
+  "supervision_handoff": true,
+  "stop_reason": null,
+  "warning_note": "Known cold echo diagnostic fields unavailable; original Python waiter paused, same MPI supervised by guardian, resumed to reap actual returncode0"
+}

@@ -45,3 +45,5 @@ python --version
 最新验证：原生continuation B1正常退出，但连续/分段状态超过预注册容差，B2未运行，正式分段spin-up仍暂停。详见[续算验证报告](reports/TIEGCM2023_CONTINUATION_VALIDATION.md)。新增56项测试通过，不能据此声称模型数值续算等价。
 
 后续候选：[连续spin-up方案](docs/TIEGCM2023_CONTINUOUS_SPINUP_PLAN.md)与[Restart源码分析](reports/TIEGCM2023_RESTART_ROOT_CAUSE_ANALYSIS.md)。仅静态设计，未执行多日积分。
+
+S3连续候选预热已完成：7210步、48小时共同窗口290帧、六张真实图，未证明预热收敛。见[运行报告](reports/TIEGCM2023_S3_RUN.md)、[数据审计](reports/TIEGCM2023_S3_DATA_AUDIT.md)和[S7比较计划](docs/TIEGCM2023_S3_S7_COMPARISON_PLAN.md)。S7及真实阻力实验仍待授权。

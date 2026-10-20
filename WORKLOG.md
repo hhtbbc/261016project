@@ -204,3 +204,10 @@
 ## 2026-10-19：Restart原因分析与连续spin-up设计
 阅读长期规则/进度/跨日及B1报告、初始化方案；使用rg/sed只读追踪rdsource/advance/pdynamo/ionvel/GSWM/历史输出；原始树与有效构建相关源哈希归档。确认phim3d等6个native数组未存primary，首步pefield与pthreed映射/极区/上下边界处理不相同，不能宣布唯一根因。复核可执行/apex/GPI/初场及23:50SHA匹配；独立GpiDriver对DOY73—82每分钟全部可查询。NetCDF读取数组长度时库给出missing_value不能安全转dtype的提示，未用于有效性判断、未修改数据；预算只取nbytes，实际科学分析必须按dtype显式掩码。
 新增报告reports/TIEGCM2023_RESTART_ROOT_CAUSE_ANALYSIS.md、方案docs/TIEGCM2023_CONTINUOUS_SPINUP_PLAN.md及静态审计JSON。新积分0/新编译0/新补丁0，所有旧模型结果保留。用现有1450步155.014390秒和真实每帧负载计算：7210/12970步约770.80/1386.58秒，约2.471/2.571GB NetCDF负载；设计每支4GiB生成上限、wall1800/3000秒、RSS16GiB，需另授权。共同290帧10分钟输出覆盖SP3终点+2秒；设计原生/几何高度/沿轨密度、温度/风/组分、初态独立性分层验证。不把3/7相近当科学真值。下一步建议单次连续S3先行、Restart探针评审限时并行，均不自动执行。Git提交和推送以最终核对为准。
+
+## 2026-10-20收尾：S3单次连续多日TIE-GCM
+实际模型执行UTC见日志为2026-10-19 08:58:34—09:11:41。本次授权最多1次，实际1次，目标DOY77—82共7210步；原源码/二进制/驱动/初场及旧实验保护哈希不变。新增run_tiegcm2023_s3.py、audit_tiegcm2023_s3.py、supervise_tiegcm2023_s3.py及7项测试。按numfiles源码修正secondary滚卷13→14，记录数293/共同290不变。prepare静态通过后唯一execute；无重试、continuation、S7或轨道积分。
+发现冷启动secondary在addfld前无DEN/ZG诊断，保留缺失而不是伪造数值。原监督器存在误报风险，约279.74秒在sleep点暂停其Python等待器，guardian以原预算监督同一MPI组，模型未暂停/重启；识别prterun和poll等待点的两次前置检查均在未改变进程前终止。模型正常完成后恢复原父进程获取真实returncode0，监控峰值和采样合并，事件全披露。修正仅作用监控/审计冷echo掩码，所有暖态严格检查保留；新增冷缺失/暖缺失拒绝测试。
+墙钟786.805456秒，聚合RSS峰947.293MiB，NetCDF2,471,152,364B；每卷最大192,668,980B。7完整主历史及293次历史时间戳通过，实际721个GPI打印点/存储驱动最大误差5.684e-14；292有效物理帧密度正有限、ZG递增、温风/组分基础筛查通过。63测试7.229秒通过；audit独立读数据，统计/六图真实输出。450km原生ZG平均密度03-19约9.8351e-13→03-21约1.4755e-12kg/m³，不能据单轨迹证明预热收敛。20分钟抽稀P95误差0.124664%，不是10分钟误差保证。
+Swarm首稿严格浮点时间选择少1端点；不改原数据/初稿，以Swarm_window_review.json用1微秒门限复核17281个10秒样本。目标顶高586.8335—741.1446km与椭球高460.3115—489.9890km分别报告，基准/8邻列未闭合，有效率N/A。
+关键命令source scripts/activate_tiegcm.sh；python scripts/run_tiegcm2023_s3.py --run-tag tiegcm2023_s3_continuous_v1（静态后唯一--execute）；source scripts/activate_orbit.sh；python scripts/audit_tiegcm2023_s3.py --run-tag tiegcm2023_s3_continuous_v1；python -m unittest discover -s tests -v。新增报告S3_RUN/S3_DATA_AUDIT、docs/TIEGCM2023_S3_S7_COMPARISON_PLAN.md，全部证据在experiments/tiegcm2023_s3_continuous_v1。下一步等待授权S7，建议wall3000秒/RSS16GiB/4GiB输出，不自动运行。Git提交推送以最终核验为准，大NetCDF仅本地。

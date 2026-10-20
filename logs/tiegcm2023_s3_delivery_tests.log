@@ -1,0 +1,80 @@
+test_full_frame_corotation_and_wind (test_drag.DragTests) ... ok
+test_invalid_inputs (test_drag.DragTests) ... ok
+test_query_and_provider_validation (test_drag.DragTests) ... ok
+test_scalings_and_si_value (test_drag.DragTests) ... ok
+test_synthetic_orbit_energy_and_work (test_drag.DragTests) ... ok
+test_zero_and_direction (test_drag.DragTests) ... ok
+test_axis_frame_and_interpolation (test_j2.J2Tests) ... ok
+test_component_formula_reference (test_j2.J2Tests) ... ok
+test_directions_scaling_magnitude (test_j2.J2Tests) ... ok
+test_fixed_axis_energy_hz_and_secular_node (test_j2.J2Tests) ... ok
+test_independent_potential_gradient (test_j2.J2Tests) ... ok
+test_definitive_eop_only (test_orbit_baseline.OrbitTests) ... /workspace/data/20261016/.venv310/lib/python3.10/site-packages/erfa/core.py:133: ErfaWarning: ERFA function "dtf2d" yielded 1 of "dubious year (Note 6)"
+  warn(f'ERFA function "{func_name}" yielded {wmsg}', ErfaWarning)
+ok
+test_earth_rotation_velocity (test_orbit_baseline.OrbitTests) ... ok
+test_exact_window_and_units (test_orbit_baseline.OrbitTests) ... ok
+test_gps_epoch_and_hdr_independent_anchor (test_orbit_baseline.OrbitTests) ... ok
+test_rac_sign_norm_and_statistics (test_orbit_baseline.OrbitTests) ... ok
+test_real_state_roundtrips (test_orbit_baseline.OrbitTests) ... ok
+test_sgp4_vallado_reference_vector (test_orbit_baseline.OrbitTests) ... ok
+test_tle_policy_and_checksum (test_orbit_baseline.OrbitTests) ... ok
+test_duplicate_epoch_rejected (test_sp3_reader.SP3Tests) ... ok
+test_missing_position_rejected (test_sp3_reader.SP3Tests) ... ok
+test_missing_velocity_rejected (test_sp3_reader.SP3Tests) ... ok
+test_real_header_and_unit_conversion (test_sp3_reader.SP3Tests) ... ok
+test_unknown_time_system_rejected (test_sp3_reader.SP3Tests) ... ok
+test_B2_blocked_when_B1_not_passed (test_tiegcm2023_continuation.ContinuationTests) ... ok
+test_branch_duration (test_tiegcm2023_continuation.ContinuationTests) ... ok
+test_mutation_rejected (test_tiegcm2023_continuation.ContinuationTests) ... ok
+test_no_source_or_driver_override (test_tiegcm2023_continuation.ContinuationTests) ... ok
+test_reference_checkpoint_not_future_seed (test_tiegcm2023_continuation.ContinuationTests) ... ok
+test_units_and_frozen_thresholds (test_tiegcm2023_continuation.ContinuationTests) ... ok
+test_clock_and_no_overrides (test_tiegcm2023_crossday.CrossdayTests) ... ok
+test_configuration_mutation_rejected (test_tiegcm2023_crossday.CrossdayTests) ... ok
+test_native_checkpoint_schedule (test_tiegcm2023_crossday.CrossdayTests) ... ok
+test_single_frame_file_count (test_tiegcm2023_crossday.CrossdayTests) ... ok
+test_midnight_continuity (test_tiegcm2023_crossday.DriverTests) ... ok
+test_midnight_reference (test_tiegcm2023_crossday.DriverTests) ... ok
+test_noon_exact_daily (test_tiegcm2023_crossday.DriverTests) ... ok
+test_time_overflow_and_missing_date_rejected (test_tiegcm2023_crossday.DriverTests) ... ok
+test_constant_driver_override_rejected (test_tiegcm2023_diagnostic.DiagnosticTests) ... ok
+test_date_separation_and_duration (test_tiegcm2023_diagnostic.DiagnosticTests) ... ok
+test_longer_run_rejected (test_tiegcm2023_diagnostic.DiagnosticTests) ... ok
+test_outside_workspace_rejected (test_tiegcm2023_diagnostic.DiagnosticTests) ... ok
+test_conservative_coverage (test_tiegcm2023_preparation.PreparationTests) ... ok
+test_driver_structure_and_padding (test_tiegcm2023_preparation.PreparationTests) ... ok
+test_missing_density_rejected (test_tiegcm2023_preparation.PreparationTests) ... ok
+test_clock_mismatch_rejected (test_tiegcm2023_restart.RestartTests) ... ok
+test_day_can_differ_if_clock_matches (test_tiegcm2023_restart.RestartTests) ... ok
+test_known_error_metrics_and_units (test_tiegcm2023_restart.RestartTests) ... ok
+test_large_physical_difference_not_hidden (test_tiegcm2023_restart.RestartTests) ... ok
+test_nonfinite_and_mask_difference_fail (test_tiegcm2023_restart.RestartTests) ... ok
+test_original_is_complete_but_lacks_target_clock (test_tiegcm2023_restart.RestartTests) ... ok
+test_shape_and_zero_reference (test_tiegcm2023_restart.RestartTests) ... ok
+test_exponential_density_at_native_height (test_tiegcm2023_s3.S3AuditInterpolationTests) ... /workspace/data/20261016/.venv310/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+  prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+/workspace/data/20261016/.venv310/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+/workspace/data/20261016/.venv310/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+/workspace/data/20261016/.venv310/lib/python3.10/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+  ParserElement.enablePackrat()
+In /workspace/data/20261016/.venv310/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+In /workspace/data/20261016/.venv310/lib/python3.10/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+ok
+test_missing_warm_diagnostics_rejected (test_tiegcm2023_s3.S3ColdEchoTests) ... ok
+test_native_uncomputed_cold_echo_excluded (test_tiegcm2023_s3.S3ColdEchoTests) ... ok
+test_continuous_source (test_tiegcm2023_s3.S3Tests) ... ok
+test_exact_schedule (test_tiegcm2023_s3.S3Tests) ... ok
+test_no_duplicate_boundary (test_tiegcm2023_s3.S3Tests) ... ok
+test_reviewed_config_and_overrides (test_tiegcm2023_s3.S3Tests) ... ok
+test_analytic_circular_orbit (test_two_body.TwoBodyTests) ... ok
+test_failure_is_not_silently_returned (test_two_body.TwoBodyTests) ... ok
+test_force_and_composition (test_two_body.TwoBodyTests) ... ok
+test_nonzero_start_and_output_grid (test_two_body.TwoBodyTests) ... ok
+
+----------------------------------------------------------------------
+Ran 63 tests in 7.229s
+
+OK

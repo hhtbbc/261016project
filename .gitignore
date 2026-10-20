@@ -51,3 +51,10 @@ credentials.json
 !/logs/tiegcm2023_continuation_v1_B1.log
 !/logs/tiegcm2023_continuation_all_tests.log
 !/logs/tiegcm2023_continuation_static_tests.log
+
+!/logs/tiegcm2023_s3_continuous_v1.log
+!/logs/tiegcm2023_s3_all_tests_final.log
+!/logs/tiegcm2023_s3_static_tests.log
+
+!/logs/tiegcm2023_s3_delivery_tests.log
+!/logs/tiegcm2023_s3_audit.log
