@@ -258,3 +258,14 @@ S3/S7完整条件相对差P95 A6.0445%、B5.9749%，log RMSE0.048134/0.047789；
 关键命令：source scripts/activate_orbit.sh；uv pip install --python .venv310/bin/python --no-deps data/raw/msis_validation/pymsis-0.13.0-*.whl；uv pip check --python .venv310/bin/python；python scripts/prepare_nrlmsis_drivers.py；PYTHONPATH=src python -m unittest discover -s tests -v；OPENBLAS_NUM_THREADS=1 python scripts/run_nrlmsis_comparison.py --run-tag nrlmsis2023_v2；python scripts/write_nrlmsis_reports.py。新输出/标签拒绝覆盖；复现可指定新--output-prefix。
 
 本次新TIE/RK45积分0，无训练/气动拟合/默认补数/外推。更新正式缺口分类、STATUS及比较方案；TIE正式坐标门禁未改。后续需授权经验密度探索传播，正式评估仍受高度、气动、机动、高阶力、初态/高频输出验证阻碍。按长期规则安全同步Git，真实SHA与推送结果见最终核对；完成后停止。
+
+
+## 2026-10-20最新：D5经验密度轨道接入完成
+
+本次只新增D5的1h基准/tight、6h基准/tight共4次传播，D0—D4没有重跑，133项测试通过。D5对D0六小时终点位移174.661680m，D5与D1/D2/D3/D4终点差分别65.074180, 58.332529, 59.255645, 52.201839m；均为PROVISIONAL / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST模型差，不是正式预测误差。完整共同初态、力、气动/风、容差和输出冻结，NRL使用真实内部状态及WGS84，TIE A/B仍未正式登记。
+
+三路线工程链路已齐备：历史TLE/SGP4、NRLMSIS/RK45、TIE条件密度/RK45；正式Swarm精度比较尚未完成，缺高度/气动/姿态/推力和完整受力、初态与高频场验证。阶段总结reports/PHASE1_ORBIT_DENSITY_COMPARISON.md，D5运行/数值报告MSIS_DRAG_ORBIT_EXPERIMENT.md及MSIS_DRAG_NUMERICAL_VALIDATION.md；实测数据experiments/msis_drag_orbit_v1。四次运行433.199s，峰163.195MiB，原122项保护哈希不变。无新TIE/旧D0-D4运行、无拟合或训练，完成后停止。Git实际提交/远端同步见任务结束核验日志。
+
+关键操作：先读长期规则/研究计划/协议/原运行数值和MSIS报告；核实本地与远端main均为b0c5bd0，非重复提交上一任务。新增msis_drag_provider.py研究审计桥、独立run_msis_drag_orbit.py及7测试；复用原DragForce/EarthFixedFrame/J2/RK45，修正MSIS时间序列化到datetime64避免默认毫秒舍入，未改正式TIE门禁。静态SHA/初态/参数/资源与预算门禁后执行一次运行器，按1h门禁顺序完成4传播，无重试。逐RHS压缩日志/NPZ留data/processed，本次轻量CSV/七图/审计JSON及三报告入库。全量重算驱动/阻力，抽样完整状态/旋转；主要配对tight复用旧D0/D1/D2/D4，D3未做新tight且明确限制。
+
+命令：source scripts/activate_orbit.sh；PYTHONPATH=src python -m unittest discover -s tests -v；python scripts/run_msis_drag_orbit.py --run-tag msis_drag_orbit_v1；OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/run_msis_drag_orbit.py --run-tag msis_drag_orbit_v1 --execute；python scripts/analyze_msis_drag_orbit.py；python scripts/write_msis_drag_reports.py。所有已存在run-tag/输出拒绝覆盖，禁止重放本次授权。下一步待新指令核实真实气动/机动/高度与高阶力，不能自动以本次残差排名或扩窗。

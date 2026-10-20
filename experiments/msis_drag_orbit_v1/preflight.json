@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "protected_count": 122,
+  "historical_local_artifacts_match_previous_audit": 22,
+  "initial_state_sha256": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+  "initial_source": "same SP3 single epoch; later SP3 not used inside dynamics",
+  "historical_runs_restarted": 0,
+  "python": "3.10.19"
+}

@@ -1,0 +1,231 @@
+{
+  "labels": [
+    "PROVISIONAL",
+    "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+    "HINDCAST"
+  ],
+  "new_D5_propagations": 4,
+  "new_D0_D4_propagations": 0,
+  "new_TIE_integrations": 0,
+  "all_tests": 133,
+  "protected_files": 122,
+  "protected_unchanged": true,
+  "query_counts": {
+    "pre_D5": {
+      "rhs": 746,
+      "output": 61
+    },
+    "pre_D5_tight": {
+      "rhs": 1466,
+      "output": 61
+    },
+    "D5": {
+      "rhs": 4346,
+      "output": 361
+    },
+    "D5_tight": {
+      "rhs": 8666,
+      "output": 361
+    }
+  },
+  "all_queries_valid": true,
+  "initial_state_sha256": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+  "compute_wall_s": 463.8821021672338,
+  "run_peak_RSS_MiB": 163.1953125,
+  "artifacts": [
+    {
+      "file": "src/atmosphere/msis_drag_provider.py",
+      "bytes": 4040,
+      "sha256": "96c568ca564613f9b81889d8b57ad6de3fe94b79cfc2071412162f763a868925",
+      "local_only": false
+    },
+    {
+      "file": "src/atmosphere/msis_density_provider.py",
+      "bytes": 5129,
+      "sha256": "6a66076d7442343dae449c1f5d0c38010938499fd65852719512026b85852586",
+      "local_only": false
+    },
+    {
+      "file": "scripts/run_msis_drag_orbit.py",
+      "bytes": 12278,
+      "sha256": "e894deffe03638fced828a6ceb2ee6f64b035cab0dbc1b0b8e52d114ef1b1185",
+      "local_only": false
+    },
+    {
+      "file": "scripts/analyze_msis_drag_orbit.py",
+      "bytes": 14618,
+      "sha256": "43fd2a0d73843ba044a31e228e56180d300820cd562001d57e75edc46922c94c",
+      "local_only": false
+    },
+    {
+      "file": "scripts/write_msis_drag_reports.py",
+      "bytes": 21243,
+      "sha256": "8c0edbf5ed30124118bc574e7374b3274a749bf43fd4a4c6980d58ee073fcba8",
+      "local_only": false
+    },
+    {
+      "file": "tests/test_msis_drag_orbit.py",
+      "bytes": 4976,
+      "sha256": "5d43f146c82e97a45659bbd7510ac22c9525725388d29be69b47d7935c8fb23d",
+      "local_only": false
+    },
+    {
+      "file": "reports/MSIS_DRAG_NUMERICAL_VALIDATION.md",
+      "bytes": 3450,
+      "sha256": "5b9754dd86cb8f2cd41cfbf8dc5c92e0e2aacbb3e3fd4a35ddb3a1a61667ae07",
+      "local_only": false
+    },
+    {
+      "file": "reports/MSIS_DRAG_ORBIT_EXPERIMENT.md",
+      "bytes": 5737,
+      "sha256": "7d9dc9b5aa2eade85cfb28d2ba7bfd1895072590340414bcc2fcdea98d4561f4",
+      "local_only": false
+    },
+    {
+      "file": "reports/PHASE1_ORBIT_DENSITY_COMPARISON.md",
+      "bytes": 9031,
+      "sha256": "c92eef2c10a5ce82825cfef5d11089dea1a930f112396988e7d1d5031c0df0d2",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/msis_drag_orbit_v1_D5_tight_states.csv",
+      "bytes": 240218,
+      "sha256": "18625922213b5a1c90743d06575c195e37a7e665a88792f356d07e60e1964761",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/msis_drag_orbit_v1_exploratory_SP3_residuals.csv",
+      "bytes": 362836,
+      "sha256": "f63461bbef355030753d959d548ea4fa70ab84c9f5e5ec183454a1a436b9671e",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/msis_drag_orbit_v1_D5_states.csv",
+      "bytes": 240208,
+      "sha256": "8c76231abd62cfcd0bd3187c9b84582ab46e71a703363282787bc2a899f2790b",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/msis_drag_orbit_v1_pre_D5_states.csv",
+      "bytes": 40941,
+      "sha256": "c9f586e2fe75e43fb3bdba8d7d3bb5d22bb2fb5eaaf5909ef4b303afb8bc3532",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/msis_drag_orbit_v1_resources.csv",
+      "bytes": 1548,
+      "sha256": "2a2a6792b3662ba36105c257073efedbc4f30f2ede678132fc4eaf20b938c844",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/msis_drag_orbit_v1_model_differences.csv",
+      "bytes": 603339,
+      "sha256": "cec53a87309264bf5b20f95947cd936bc1b5dcf3d5843b57430043dda0e3c81e",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/msis_drag_orbit_v1_Ap_boundaries.csv",
+      "bytes": 12163,
+      "sha256": "abc4a8369c75ad0a893d0b659d618f926d2c9da69632154c54a9041f66615e05",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/msis_drag_orbit_v1_pre_D5_tight_states.csv",
+      "bytes": 41001,
+      "sha256": "f1dc039013bbc89d6136276984cbfe02778b85ec63c421ca1f0e31a98df777da",
+      "local_only": false
+    },
+    {
+      "file": "results/figures/msis_drag_orbit_v1_position_differences.png",
+      "bytes": 91775,
+      "sha256": "5b9fab3b56113ef6cc63d39aae3773a11ea4fa5263413a0b6c960494fd18253c",
+      "local_only": false
+    },
+    {
+      "file": "results/figures/msis_drag_orbit_v1_terminal_displacements.png",
+      "bytes": 47801,
+      "sha256": "a7c8e507ae670e9897014239687c999987c85b8290ac58b29a3d1787c81a1326",
+      "local_only": false
+    },
+    {
+      "file": "results/figures/msis_drag_orbit_v1_density_drag.png",
+      "bytes": 307144,
+      "sha256": "b99e8fb7e4198d6bb4128182f1fa2b7335f68dba15a4a7c2d858e1b0544fd224",
+      "local_only": false
+    },
+    {
+      "file": "results/figures/msis_drag_orbit_v1_SP3_residuals.png",
+      "bytes": 171289,
+      "sha256": "15165a7f4c6dcdc9182e30d23ec5e0eec2064390bae6f664555fe8dc389e7a48",
+      "local_only": false
+    },
+    {
+      "file": "results/figures/msis_drag_orbit_v1_RAC.png",
+      "bytes": 203592,
+      "sha256": "9b8ee312c7984c650be255faf71b65e6cf37503e7219d6a770caa8bd21cc9e1f",
+      "local_only": false
+    },
+    {
+      "file": "results/figures/msis_drag_orbit_v1_convergence.png",
+      "bytes": 107541,
+      "sha256": "e9b3aa0890975bc5f492baffac4b9338f725bf0c5d4ecda233217c694e3541e7",
+      "local_only": false
+    },
+    {
+      "file": "results/figures/msis_drag_orbit_v1_costs.png",
+      "bytes": 67752,
+      "sha256": "5f754e8d64fe1ed528132aab0f6837306a114b0b1a840b0c6f5661a29f136ea9",
+      "local_only": false
+    },
+    {
+      "file": "data/processed/msis_drag_orbit_v1/pre_D5_tight_queries.jsonl.gz",
+      "bytes": 438789,
+      "sha256": "786372ba4876257296689a051ba92b1a9cdee88ed3b886da977b98f5667d20b2",
+      "local_only": true
+    },
+    {
+      "file": "data/processed/msis_drag_orbit_v1/pre_D5_tight_states.npz",
+      "bytes": 4310,
+      "sha256": "ea3e87aeeb5cfb578d47de17d27480d6d1feaebb2228eaa30b2b5d3dfaeb540d",
+      "local_only": true
+    },
+    {
+      "file": "data/processed/msis_drag_orbit_v1/D5_queries.jsonl.gz",
+      "bytes": 1373424,
+      "sha256": "19e1e420484624a484a31bb424a812875669e1bc26ab63768339f1483ada4328",
+      "local_only": true
+    },
+    {
+      "file": "data/processed/msis_drag_orbit_v1/D5_tight_queries.jsonl.gz",
+      "bytes": 2600623,
+      "sha256": "464c3b346c298bc50b75fcd36239141169d5fd8c14719456f00861d54a4ab985",
+      "local_only": true
+    },
+    {
+      "file": "data/processed/msis_drag_orbit_v1/pre_D5_states.npz",
+      "bytes": 4096,
+      "sha256": "307d140db72b7e5a65c5cc26fe50506be138cc65e743d01ef8f29669bd2c6d1b",
+      "local_only": true
+    },
+    {
+      "file": "data/processed/msis_drag_orbit_v1/D5_states.npz",
+      "bytes": 19670,
+      "sha256": "d1588f13f64eb936e175bcb3a316788d8ee740356dbf5cefc4afd67a238b0c2b",
+      "local_only": true
+    },
+    {
+      "file": "data/processed/msis_drag_orbit_v1/pre_D5_queries.jsonl.gz",
+      "bytes": 234192,
+      "sha256": "28ff0ccb6962364a1367d8da77f532652ff23b1508c71cc5ab23ec4982c29871",
+      "local_only": true
+    },
+    {
+      "file": "data/processed/msis_drag_orbit_v1/D5_tight_states.npz",
+      "bytes": 21087,
+      "sha256": "1cfaffc8da25058f88f174552e985a8b5586eecac7350e44c09a566ecb268274",
+      "local_only": true
+    }
+  ],
+  "analysis_peak_RSS_MiB": 165.34765625,
+  "maximum_separate_process_RSS_MiB": 165.34765625
+}

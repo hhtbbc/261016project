@@ -93,7 +93,7 @@ class MsisDensityProvider:
         d = [self.drivers.at(t) for t in times]
         if any(not isinstance(x, MsisDrivers) for x in d):
             raise ValueError('Validated explicit MsisDrivers required')
-        out = pymsis.calculate(np.asarray(times.isot, dtype='datetime64[ms]'), (lon+180)%360-180,
+        out = pymsis.calculate(times.to_value('datetime64'), (lon+180)%360-180,
             lat, height/1000, np.array([x.f107_previous_day for x in d]),
             np.array([x.f107a_centered81 for x in d]), np.array([x.ap for x in d]),
             version=self.version, geomagnetic_activity=-1)

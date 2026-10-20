@@ -1,3 +1,15 @@
+# 当前阶段接续（2026-10-20）
+
+
+## 2026-10-20最新：D5经验密度轨道接入完成
+
+本次只新增D5的1h基准/tight、6h基准/tight共4次传播，D0—D4没有重跑，133项测试通过。D5对D0六小时终点位移174.661680m，D5与D1/D2/D3/D4终点差分别65.074180, 58.332529, 59.255645, 52.201839m；均为PROVISIONAL / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST模型差，不是正式预测误差。完整共同初态、力、气动/风、容差和输出冻结，NRL使用真实内部状态及WGS84，TIE A/B仍未正式登记。
+
+三路线工程链路已齐备：历史TLE/SGP4、NRLMSIS/RK45、TIE条件密度/RK45；正式Swarm精度比较尚未完成，缺高度/气动/姿态/推力和完整受力、初态与高频场验证。阶段总结reports/PHASE1_ORBIT_DENSITY_COMPARISON.md，D5运行/数值报告MSIS_DRAG_ORBIT_EXPERIMENT.md及MSIS_DRAG_NUMERICAL_VALIDATION.md；实测数据experiments/msis_drag_orbit_v1。四次运行433.199s，峰163.195MiB，原122项保护哈希不变。无新TIE/旧D0-D4运行、无拟合或训练，完成后停止。Git实际提交/远端同步见任务结束核验日志。
+
+---
+以下保留历史计划与当时状态；当前结论以上节及STATUS最后记录为准。
+
 # 早会调整后的研究计划
 生效：2026-10-19；本文件优先于同日早前以FourCastDEN为主线的日程。已完成AI记录、数据、权重和结果保留，不重跑、不删除。
 

@@ -65,3 +65,7 @@ TiegcmDensityProvider仅对显式TIEGCM_NATIVE_ZG和模型地理纬度提供已�
 
 ## 六小时合成气动阻力集成完成后的门禁
 用户已单独授权并完成provisional_drag_orbit_v1：4次1h预检/收敛、5组6h主实验、4次6h必要tight，共13次真实初态探索传播；不是正式精度评估。所有成果保留PROVISIONAL / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST三重标记，正式外部密度仍EXTERNAL_DATUM_UNVERIFIED。私有桥仅显式构造，不可自动启用。结果是模型间差异，不叫预测误差；当前参数m400kg/Cd2.2/A1m²为演示，不能冒充实物。查询失败必须中止。当前授权已完成，不自动追加传播/延长窗口/新TIE-GCM或训练。见PROVISIONAL_DRAG_ORBIT_EXPERIMENT及NUMERICAL_VALIDATION。
+
+
+## D5经验密度接入后的最新门禁
+本次另获授权完成msis_drag_orbit_v1四次D5传播（1h base/tight、6h base/tight），未重跑D0—D4。本次133项测试通过。MsisDensityProvider使用Astropy datetime64保留内部时刻精度，Ap仍按UTC三小时桶切换，不平滑。所有轨道成果仍为PROVISIONAL / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST，不能以探索残差排名真实精度；TIE正式外部接口仍拒绝。三路线仅工程原型齐备，正式高度/气动/姿态推力/完整受力与独立物理验证尚未完成。后续不自动扩窗、运行新TIE、重放本次标签或训练。参见PHASE1_ORBIT_DENSITY_COMPARISON.md及MSIS_DRAG两报告。

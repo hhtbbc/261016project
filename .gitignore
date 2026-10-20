@@ -81,3 +81,6 @@ credentials.json
 
 # Offline NRLMSIS validation logs
 !/logs/nrlmsis*.log
+
+# NRLMSIS RK45 research validation logs
+!/logs/msis_drag*.log

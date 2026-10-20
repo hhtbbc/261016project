@@ -1,0 +1,167 @@
+{
+  "labels": [
+    "PROVISIONAL",
+    "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+    "HINDCAST"
+  ],
+  "t0_utc": "2023-03-21T00:00:02",
+  "duration_s": 21600,
+  "output_cadence_s": 60,
+  "base": {
+    "rtol": 1e-10,
+    "atol": [
+      0.001,
+      0.001,
+      0.001,
+      1e-06,
+      1e-06,
+      1e-06
+    ],
+    "max_step": 30.0
+  },
+  "tight": {
+    "rtol": 1e-12,
+    "atol": [
+      1e-05,
+      1e-05,
+      1e-05,
+      1e-08,
+      1e-08,
+      1e-08
+    ],
+    "max_step": 15.0
+  },
+  "thresholds": {
+    "precheck_state_max_m": 0.02,
+    "precheck_drag_difference_relative": 0.01,
+    "six_hour_state_max_m": 0.5,
+    "pair_convergence_relative": 0.01,
+    "pair_convergence_floor_m": 0.005
+  },
+  "mass_kg": 400.0,
+  "Cd": 2.2,
+  "area_m2": 1.0,
+  "wind": "zero neutral wind in ITRS, corotating atmosphere",
+  "initial_state_gcrs_si": [
+    -518920.9937467673,
+    210277.3926138616,
+    6804082.48844712,
+    4386.971793789882,
+    -6232.011779449503,
+    525.709091165103
+  ],
+  "initial_state_sha256_le_float64": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+  "gravity": {
+    "mu": 398600441800000.0,
+    "J2": 0.0010826359,
+    "radius_m": 6378136.6,
+    "axis_grid_cadence_s": 60,
+    "axis_grid_duration_s": 21600
+  },
+  "NRLMSIS": "2.1",
+  "pymsis": "0.13.0",
+  "driver_sha256": "66b9242f9e2f356f134c4152b839e2b46b0e72f9860a44872b9e138ef8ba56c4",
+  "wall_budget_s": 1200,
+  "memory_limit_GiB": 2,
+  "allowable_runs": [
+    "pre_D5",
+    "pre_D5_tight",
+    "D5",
+    "D5_tight"
+  ],
+  "code_sha256": {
+    "scripts/run_msis_drag_orbit.py": "e894deffe03638fced828a6ceb2ee6f64b035cab0dbc1b0b8e52d114ef1b1185",
+    "src/atmosphere/msis_drag_provider.py": "96c568ca564613f9b81889d8b57ad6de3fe94b79cfc2071412162f763a868925",
+    "src/atmosphere/msis_density_provider.py": "6a66076d7442343dae449c1f5d0c38010938499fd65852719512026b85852586"
+  },
+  "preflight_disk_free_GiB": 576.2109375,
+  "SP3_metadata": {
+    "sources": [
+      {
+        "path": "/workspace/data/20261016/data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230320T235942_20230321T235942_0203.sp3",
+        "sha256": "006b0a3dbb7b6e78170f8a5710ca98c3ba61befe6744cc67b5db44628ecff3d2",
+        "version": "d",
+        "frame": "IGS20",
+        "native_time_system": "GPS",
+        "satellite_id": "L47",
+        "epochs": 8640,
+        "hdr_time_difference_s": 0.0,
+        "hdr_quality_indicator": "000",
+        "hdr_creation_date": "UTC=2026-08-25T09:10:22",
+        "formal_accuracy_exponents": [
+          "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+        ],
+        "maneuver_flag_available": false
+      },
+      {
+        "path": "/workspace/data/20261016/data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230321T235942_20230322T235942_0203.sp3",
+        "sha256": "a886cf14d243f1b6f47923f36a320f51ee28e1bdf18abd8915cd740249b9a280",
+        "version": "d",
+        "frame": "IGS20",
+        "native_time_system": "GPS",
+        "satellite_id": "L47",
+        "epochs": 8640,
+        "hdr_time_difference_s": 0.0,
+        "hdr_quality_indicator": "000",
+        "hdr_creation_date": "UTC=2026-08-25T09:10:23",
+        "formal_accuracy_exponents": [
+          "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+        ],
+        "maneuver_flag_available": false
+      },
+      {
+        "path": "/workspace/data/20261016/data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230322T235942_20230323T235942_0203.sp3",
+        "sha256": "debee0430cb0bca2f5f4b905960bdc22a876d2e0dd4cf42c2adc32aa1bb6ee13",
+        "version": "d",
+        "frame": "IGS20",
+        "native_time_system": "GPS",
+        "satellite_id": "L47",
+        "epochs": 8640,
+        "hdr_time_difference_s": 0.0,
+        "hdr_quality_indicator": "000",
+        "hdr_creation_date": "UTC=2026-08-25T09:10:23",
+        "formal_accuracy_exponents": [
+          "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+        ],
+        "maneuver_flag_available": false
+      }
+    ],
+    "reference_kind": "reduced-dynamic postprocessed orbit",
+    "reference_uncertainty_quantified": false,
+    "itrs_realization_assumption": "IGS20 aligned with ITRF2020; used as ITRS, no estimated Helmert correction",
+    "time_match_max_s": 4.796163466380676e-12
+  },
+  "time_data": {
+    "cache": "/workspace/data/20261016/.cache/astropy",
+    "config": "/workspace/data/20261016/.config/astropy",
+    "versions": {
+      "numpy": "1.25.0",
+      "scipy": "1.15.3",
+      "astropy": "6.1.7",
+      "astropy-iers-data": "0.2026.10.19.0.52.1",
+      "pyerfa": "2.0.1.5",
+      "sgp4": "2.25",
+      "matplotlib": "3.10.0"
+    },
+    "iers_b": {
+      "path": "data/raw/earth_orientation/eopc04_frozen_20261020.txt",
+      "package_source": "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/astropy_iers_data/data/eopc04.1962-now",
+      "sha256": "6fc2c9d9a7cd7e9a1f597866545bb75baab292f5d51ca9358d5c64c0ce2fa64f",
+      "bytes": 5175699
+    },
+    "leap_seconds": {
+      "path": "data/raw/earth_orientation/Leap_Second_frozen_20261020.dat",
+      "package_source": "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/astropy_iers_data/data/Leap_Second.dat",
+      "sha256": "6cb6f5d4b819f2e568e25db4b0b26d89dedf031fdffb18bc94d40f4e94e268d7",
+      "bytes": 1352
+    },
+    "ut1": "[<Quantity [-0.0220007, -0.0238876] s>, array([0, 0])]",
+    "pm": "[<Quantity [-0.035517, -0.032507] arcsec>, <Quantity [0.373919, 0.380234] arcsec>, array([0, 0])]",
+    "leap_expiry": "2027-06-28",
+    "mjd_range": [
+      37665.0,
+      61294.0
+    ]
+  },
+  "precision_change": "Astropy datetime64 retains submillisecond times; underlying pymsis Fortran float32 inputs remain as distributed"
+}

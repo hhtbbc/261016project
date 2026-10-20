@@ -1,0 +1,15 @@
+{
+  "labels": [
+    "PROVISIONAL",
+    "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+    "HINDCAST"
+  ],
+  "state_max_m": 0.0015158614130932203,
+  "drag_effect_max_m": 4.26463113464062,
+  "paired_change_max_m": 5.412600237929099e-05,
+  "state_threshold_m": 0.02,
+  "paired_threshold_m": 0.0426463113464062,
+  "passed": true,
+  "estimated_remaining_s": 560.6979491980746,
+  "used_wall_s": 63.13829449750483
+}

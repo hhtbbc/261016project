@@ -184,3 +184,10 @@ Swarm窗口17281点和WGS84坐标已复用原入口核对，但ZG下边界零面
 - 全套126测试通过（新增12）；上游预存Fortran参考200行密度相对差最大0.043714%，低于其原0.2%舍入标准，不是观测精度。361点批量0.3405秒，标量均值2.026ms/P952.314ms，分析进程峰162.590MiB。
 - 入口：reports/NRLMSIS_2023_DRIVERS.md、NRLMSIS_DENSITY_VALIDATION.md、NRLMSIS_TIEGCM_COMPARISON.md；audit在experiments/nrlmsis2023_v2，轻量CSV/五图nrlmsis2023_*。原初次脚本路径错误发生在读取阶段并保留日志，独立v2修正完成，未覆盖历史。
 - 新TIE积分0、新RK45积分0；经验接口具备后续探索接入的软件条件，正式实验仍缺TIE参考登记、Cd/面积/姿态/推力及完整受力/初态与时间分辨率验证。停止等待新授权。Git实际同步以最终核对日志为准。
+
+
+## 2026-10-20最新：D5经验密度轨道接入完成
+
+本次只新增D5的1h基准/tight、6h基准/tight共4次传播，D0—D4没有重跑，133项测试通过。D5对D0六小时终点位移174.661680m，D5与D1/D2/D3/D4终点差分别65.074180, 58.332529, 59.255645, 52.201839m；均为PROVISIONAL / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST模型差，不是正式预测误差。完整共同初态、力、气动/风、容差和输出冻结，NRL使用真实内部状态及WGS84，TIE A/B仍未正式登记。
+
+三路线工程链路已齐备：历史TLE/SGP4、NRLMSIS/RK45、TIE条件密度/RK45；正式Swarm精度比较尚未完成，缺高度/气动/姿态/推力和完整受力、初态与高频场验证。阶段总结reports/PHASE1_ORBIT_DENSITY_COMPARISON.md，D5运行/数值报告MSIS_DRAG_ORBIT_EXPERIMENT.md及MSIS_DRAG_NUMERICAL_VALIDATION.md；实测数据experiments/msis_drag_orbit_v1。四次运行433.199s，峰163.195MiB，原122项保护哈希不变。无新TIE/旧D0-D4运行、无拟合或训练，完成后停止。Git实际提交/远端同步见任务结束核验日志。
