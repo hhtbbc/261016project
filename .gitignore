@@ -84,3 +84,6 @@ credentials.json
 
 # NRLMSIS RK45 research validation logs
 !/logs/msis_drag*.log
+
+# High-order gravity validation logs
+!/logs/high_order*.log

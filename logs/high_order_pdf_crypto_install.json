@@ -1,0 +1,28 @@
+{
+  "wheel": {
+    "comment_text": null,
+    "core-metadata": {
+      "sha256": "f669f9a48766e13c08f2fc7f700aed45bbe78c0448c4a282317500a33dfbea02"
+    },
+    "digests": {
+      "blake2b_256": "f1e81cb605e85932085902ee5156c9af0ec6ac08122063fbdc1d5cb7c02ad2aa",
+      "md5": "9602cae51b0e298311706e510d029e5c",
+      "sha256": "f282f3f30725e4889a70543efeaa1ad67f8ca52329aa3b5fa1cd2575dc8c3cfc"
+    },
+    "downloads": -1,
+    "filename": "pycryptodome-4.1.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "has_sig": false,
+    "md5_digest": "9602cae51b0e298311706e510d029e5c",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp39",
+    "requires_python": ">=3.9",
+    "size": 2775502,
+    "upload_time": "2026-10-19T11:02:03",
+    "upload_time_iso_8601": "2026-10-19T11:02:03.856757Z",
+    "url": "https://files.pythonhosted.org/packages/f1/e8/1cb605e85932085902ee5156c9af0ec6ac08122063fbdc1d5cb7c02ad2aa/pycryptodome-4.1.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "requires_python": ">=3.9",
+  "purpose": "AES reader backend for openly published ESA PDF; no password/auth bypass"
+}

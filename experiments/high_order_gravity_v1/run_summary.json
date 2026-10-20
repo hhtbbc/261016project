@@ -1,0 +1,121 @@
+{
+  "labels": [
+    "PROVISIONAL",
+    "HINDCAST",
+    "NO_DRAG"
+  ],
+  "runs": {
+    "G1": {
+      "labels": [
+        "PROVISIONAL",
+        "HINDCAST",
+        "NO_DRAG"
+      ],
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-10,
+        "atol_si": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06,
+          1e-06,
+          1e-06
+        ],
+        "max_step_s": 30.0,
+        "accepted_steps": 724,
+        "nfev": 4346,
+        "elapsed_s": 0.7124102637171745,
+        "output_samples": 361,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.018613669230401902,
+        "max_accepted_step_s": 30.00000000000182
+      },
+      "initial_sha256": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+      "wall_with_output_s": 0.8922982513904572,
+      "peak_RSS_MiB": 148.49609375,
+      "J3": true,
+      "J4": false
+    },
+    "G2": {
+      "labels": [
+        "PROVISIONAL",
+        "HINDCAST",
+        "NO_DRAG"
+      ],
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-10,
+        "atol_si": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06,
+          1e-06,
+          1e-06
+        ],
+        "max_step_s": 30.0,
+        "accepted_steps": 724,
+        "nfev": 4346,
+        "elapsed_s": 0.8086753729730844,
+        "output_samples": 361,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.01861365721176836,
+        "max_accepted_step_s": 30.00000000000091
+      },
+      "initial_sha256": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+      "wall_with_output_s": 0.9123720191419125,
+      "peak_RSS_MiB": 148.98828125,
+      "J3": true,
+      "J4": true
+    },
+    "G2_tight": {
+      "labels": [
+        "PROVISIONAL",
+        "HINDCAST",
+        "NO_DRAG"
+      ],
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-12,
+        "atol_si": [
+          1e-05,
+          1e-05,
+          1e-05,
+          1e-08,
+          1e-08,
+          1e-08
+        ],
+        "max_step_s": 15.0,
+        "accepted_steps": 1444,
+        "nfev": 8666,
+        "elapsed_s": 1.6145107503980398,
+        "output_samples": 361,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.0074102304062298,
+        "max_accepted_step_s": 15.000000000001819
+      },
+      "initial_sha256": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+      "wall_with_output_s": 1.7187680080533028,
+      "peak_RSS_MiB": 149.73046875,
+      "J3": true,
+      "J4": true
+    }
+  },
+  "new_G0_runs": 0,
+  "new_drag_runs": 0,
+  "new_TIE_runs": 0,
+  "convergence": {
+    "G2_state_max_m": 0.05841115513116615,
+    "state_threshold_m": 0.5,
+    "G2_G0_pair_change_max_m": 1.5804511938062122e-05,
+    "pair_threshold_m": 19.268161790309698,
+    "passed": true
+  },
+  "protected_unchanged": true,
+  "actual_new_real_state_propagations": 3,
+  "wall_s": 9.308497119694948
+}

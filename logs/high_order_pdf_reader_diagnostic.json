@@ -1,0 +1,9 @@
+{
+  "stage": "initial local PDF read",
+  "failure_class": "pypdf.errors.DependencyError",
+  "message": "cryptography>=3.1 is required for AES algorithm",
+  "initial_stderr_location": "interactive tool output; not saved as an original stderr file",
+  "resolution": "Install SHA-verified PyPI pycryptodome4.1.0 in project venv; normal reader then succeeds with default empty password handling",
+  "no_password_guessing": true,
+  "system_environment_modified": false
+}

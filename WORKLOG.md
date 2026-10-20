@@ -269,3 +269,16 @@ S3/S7完整条件相对差P95 A6.0445%、B5.9749%，log RMSE0.048134/0.047789；
 关键操作：先读长期规则/研究计划/协议/原运行数值和MSIS报告；核实本地与远端main均为b0c5bd0，非重复提交上一任务。新增msis_drag_provider.py研究审计桥、独立run_msis_drag_orbit.py及7测试；复用原DragForce/EarthFixedFrame/J2/RK45，修正MSIS时间序列化到datetime64避免默认毫秒舍入，未改正式TIE门禁。静态SHA/初态/参数/资源与预算门禁后执行一次运行器，按1h门禁顺序完成4传播，无重试。逐RHS压缩日志/NPZ留data/processed，本次轻量CSV/七图/审计JSON及三报告入库。全量重算驱动/阻力，抽样完整状态/旋转；主要配对tight复用旧D0/D1/D2/D4，D3未做新tight且明确限制。
 
 命令：source scripts/activate_orbit.sh；PYTHONPATH=src python -m unittest discover -s tests -v；python scripts/run_msis_drag_orbit.py --run-tag msis_drag_orbit_v1；OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/run_msis_drag_orbit.py --run-tag msis_drag_orbit_v1 --execute；python scripts/analyze_msis_drag_orbit.py；python scripts/write_msis_drag_reports.py。所有已存在run-tag/输出拒绝覆盖，禁止重放本次授权。下一步待新指令核实真实气动/机动/高度与高阶力，不能自动以本次残差排名或扩窗。
+
+
+## 2026-10-20最新：J3/J4无阻力扩展及正式参数审查完成
+
+在不改原μ/R/J2/基础代码的前提下，核实GFZ EGM2008完全归一化C30/C40并按μR^n重表达为项目Jn，定义名义J2+静态J3/J4受控势，非完整EGM/IERS模型。9项新测试/全142通过，独立球坐标与势梯度、固定轴能量/轴向角动量及关闭恢复检查通过。
+
+只新增G1、G2、G2-tight三次6h无阻力，G0读取D0；G1终点429.142m、全段RMSE418.474m；G2终点834.459m、RMSE731.931m，对比G0终点1066.087m/RMSE555.356m。G2终点改善但全段RMSE恶化31.795%，不挑点下结论。J3/J4分别引起终点923.004/815.786m增量，合计1735.560m，远大于旧条件密度差52—65m；不能把新旧引力差归因密度。G2 base/tight最大差0.058411m，配对变化1.58045e−5m；174项历史保护SHA未变。
+
+新取得ESA官方公开链接5.13版2013产品定义并只存本地；识别q详细表/概览方向矛盾、Flags_Platform跨产品含义差异及f_thr单位mN。0601现行适用性、四元数顺序/几何/Cd/推力仍未闭合；未启用真实参数。为PDF阅读仅新增项目内pypdf/pycryptodome，无系统改动/原数值包升级。资料详见SWARM_FORMAL_FORCE_PARAMETERS.md。
+
+入口：reports/HIGH_ORDER_GRAVITY_VALIDATION.md、HIGH_ORDER_GRAVITY_ORBIT_COMPARISON.md；docs/HIGH_ORDER_GRAVITY_DESIGN.md及UPDATED_GRAVITY_DENSITY_PROTOCOL.md，配置/审计experiments/high_order_gravity_v1，真实六图/CSV在results。原D0—D5、TIE场及正式坐标门禁不改，无新阻力矩阵/AI/48h扩展。下一步需新授权统一球谐（含非带谐）与真实气动/推力门禁研究，所有未来密度组须共同升级引力。本次完成后停止，Git真实SHA以最终核验为准。
+
+关键命令：source scripts/activate_orbit.sh；PYTHONPATH=src python -m unittest discover -s tests -p test_higher_order_gravity.py -v；全套discover；python scripts/validate_high_order_gravity.py（仅合成验证）；python scripts/run_high_order_gravity_comparison.py --run-tag high_order_gravity_v1（静态）；同命令--execute（3次已完成）；python scripts/analyze_high_order_gravity.py；python scripts/audit_swarm_formal_force_parameters.py；python scripts/write_high_order_gravity_reports.py。只读复用6份CDF，生成505个记录待审连续段，不把它们叫独立机动。原PDF、系数部分文件及wheel留data/raw，NetCDF/环境不入库。起初系数解析未支持Fortran小写d指数，静态阶段修正无模型启动；PDF首次读取因缺AES后端失败，项目内安装校验wheel后正常解析，无密码尝试或第三方源码修改。

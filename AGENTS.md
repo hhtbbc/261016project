@@ -69,3 +69,7 @@ TiegcmDensityProvider仅对显式TIEGCM_NATIVE_ZG和模型地理纬度提供已�
 
 ## D5经验密度接入后的最新门禁
 本次另获授权完成msis_drag_orbit_v1四次D5传播（1h base/tight、6h base/tight），未重跑D0—D4。本次133项测试通过。MsisDensityProvider使用Astropy datetime64保留内部时刻精度，Ap仍按UTC三小时桶切换，不平滑。所有轨道成果仍为PROVISIONAL / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST，不能以探索残差排名真实精度；TIE正式外部接口仍拒绝。三路线仅工程原型齐备，正式高度/气动/姿态推力/完整受力与独立物理验证尚未完成。后续不自动扩窗、运行新TIE、重放本次标签或训练。参见PHASE1_ORBIT_DENSITY_COMPARISON.md及MSIS_DRAG两报告。
+
+
+## J3/J4完成后的最新门禁
+已单独授权完成high_order_gravity_v1三次无阻力6h（G1、G2、G2-tight），G0读取旧D0。新势为保留名义J2+按μR^n重表达EGM2008 J3/J4，不能称完整标准球谐。G2终点改善但全段RMSE恶化，不能按参考残差拟合或挑点宣布精度提升。未来升级引力必须所有密度组共同更新，不混旧TIE-J2与新经验组归因。ESA旧5.13 q/平台标志有产品与概览/详细定义差异，0601适用性仍需确认；f_thr单位mN，Cd/有效面积未知。新阻力矩阵、48h、TIE/AI运行均须新授权。本次142项测试，真实参数/高度/完整受力门禁不因通过数值测试而解除。

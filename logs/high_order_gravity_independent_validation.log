@@ -1,0 +1,217 @@
+{
+  "labels": [
+    "SYNTHETIC_VALIDATION",
+    "NO_SWARM_PROPAGATION"
+  ],
+  "parameters": {
+    "model_name": "PROJECT_NOMINAL_J2_PLUS_EGM2008_ZONAL34",
+    "source_model": "EGM2008 static tide_free; m=0 only",
+    "source_normalization": "fully_normalized",
+    "source_mu_m3_s2": 398600441500000.0,
+    "source_radius_m": 6378136.3,
+    "project_mu_m3_s2": 398600441800000.0,
+    "project_radius_m": 6378136.6,
+    "legacy_J2": 0.0010826359,
+    "source_J2_unscaled": 0.0010826261738522227,
+    "terms": {
+      "3": {
+        "Cbar_n0": 9.57161207093473e-07,
+        "Jn_source": -2.5324105185677225e-06,
+        "Jn_project": -2.5324101593208012e-06
+      },
+      "4": {
+        "Cbar_n0": 5.39965866638991e-07,
+        "Jn_source": -1.6198975999169731e-06,
+        "Jn_project": -1.6198972939258574e-06
+      }
+    },
+    "conversion": "Jn_project = -sqrt(2n+1)*Cbar_n0 * (mu_source/mu_project)*(R_source/R_project)^n",
+    "source_file": "data/raw/gravity_sources/EGM2008_HEAD_PARTIAL.txt",
+    "source_sha256": "ce9334659955fe001e31b63f77838cd883436ee91830940a8e0836e4bdf55d1e",
+    "source_url": "https://icgem.gfz-potsdam.de/getmodel/gfc/c50128797a9cb62e936337c890e4425f03f0461d7329b09a8cc8561504465340/EGM2008.gfc",
+    "limitation": "Defined nominal controlled extension, not pure EGM2008 or full IERS gravity. Legacy J2 retained; no secular/tidal terms."
+  },
+  "terms": {
+    "3": {
+      "independent_spherical_max_relative_error": 3.1893309015482254e-15,
+      "complex_gradient_relative_error": 1.138426831006098e-15,
+      "finite_difference": [
+        {
+          "step_m": 10000.0,
+          "relative_error": 9.525797482561341e-06
+        },
+        {
+          "step_m": 1000.0,
+          "relative_error": 9.525843901208332e-08
+        },
+        {
+          "step_m": 100.0,
+          "relative_error": 9.566559496003062e-10
+        }
+      ]
+    },
+    "4": {
+      "independent_spherical_max_relative_error": 2.95029582426416e-15,
+      "complex_gradient_relative_error": 5.921028622806915e-16,
+      "finite_difference": [
+        {
+          "step_m": 10000.0,
+          "relative_error": 1.051808866417936e-05
+        },
+        {
+          "step_m": 1000.0,
+          "relative_error": 1.0518219496171006e-07
+        },
+        {
+          "step_m": 100.0,
+          "relative_error": 1.0512726101952898e-09
+        }
+      ]
+    }
+  },
+  "fixed_axis_conservation": {
+    "base": {
+      "specific_energy_max_relative_drift": 1.9819146324095982e-11,
+      "axial_angular_momentum_max_relative_drift": 9.884537632842694e-12,
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-11,
+        "atol_si": [
+          0.0001,
+          0.0001,
+          0.0001,
+          1e-07,
+          1e-07,
+          1e-07
+        ],
+        "max_step_s": 20,
+        "accepted_steps": 304,
+        "nfev": 1826,
+        "elapsed_s": 0.27421471290290356,
+        "output_samples": 101,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.011646409799368252,
+        "max_accepted_step_s": 20.000000000000455
+      }
+    },
+    "tight": {
+      "specific_energy_max_relative_drift": 6.281641873329136e-13,
+      "axial_angular_momentum_max_relative_drift": 3.1397107136399427e-13,
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-12,
+        "atol_si": [
+          1e-05,
+          1e-05,
+          1e-05,
+          1e-08,
+          1e-08,
+          1e-08
+        ],
+        "max_step_s": 10,
+        "accepted_steps": 604,
+        "nfev": 3626,
+        "elapsed_s": 0.5268654432147741,
+        "output_samples": 101,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.007348387799737493,
+        "max_accepted_step_s": 10.000000000000057
+      }
+    }
+  },
+  "fixed_axis_state_difference_max_m": 0.0005281648558729767,
+  "typical": [
+    {
+      "location": "equator",
+      "position_m": [
+        6850000.0,
+        0.0,
+        0.0
+      ],
+      "central_m_s2": 8.494867958868348,
+      "J2_m_s2": 0.011960154929024008,
+      "J3_m_s2": 2.6049037035361236e-05,
+      "J4_m_s2": 1.9393596868847453e-05,
+      "J3_vector": [
+        -0.0,
+        -0.0,
+        -2.6049037035361236e-05
+      ],
+      "J4_vector": [
+        -1.9393596868847453e-05,
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "location": "north_pole",
+      "position_m": [
+        0.0,
+        0.0,
+        6850000.0
+      ],
+      "central_m_s2": 8.494867958868348,
+      "J2_m_s2": 0.023920309858048015,
+      "J3_m_s2": 6.94640987609633e-05,
+      "J4_m_s2": 5.171625831692654e-05,
+      "J3_vector": [
+        -0.0,
+        -0.0,
+        -6.94640987609633e-05
+      ],
+      "J4_vector": [
+        -0.0,
+        -0.0,
+        -5.171625831692654e-05
+      ]
+    },
+    {
+      "location": "south_pole",
+      "position_m": [
+        0.0,
+        0.0,
+        -6850000.0
+      ],
+      "central_m_s2": 8.494867958868348,
+      "J2_m_s2": 0.023920309858048015,
+      "J3_m_s2": 6.94640987609633e-05,
+      "J4_m_s2": 5.171625831692654e-05,
+      "J3_vector": [
+        0.0,
+        0.0,
+        -6.94640987609633e-05
+      ],
+      "J4_vector": [
+        -0.0,
+        -0.0,
+        5.171625831692654e-05
+      ]
+    },
+    {
+      "location": "midlatitude",
+      "position_m": [
+        4843681.45112785,
+        0.0,
+        4843681.45112785
+      ],
+      "central_m_s2": 8.494867958868346,
+      "J2_m_s2": 0.013371859721363425,
+      "J3_m_s2": 3.023509183960503e-05,
+      "J4_m_s2": 2.198178632249439e-05,
+      "J3_vector": [
+        -1.0853765431400502e-05,
+        -0.0,
+        2.821979012164134e-05
+      ],
+      "J4_vector": [
+        1.0285007893170178e-05,
+        0.0,
+        1.9427237131543655e-05
+      ]
+    }
+  ],
+  "passed": true,
+  "validation_wall_s": 0.8417621403932571
+}

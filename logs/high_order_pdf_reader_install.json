@@ -1,0 +1,29 @@
+{
+  "wheel": {
+    "comment_text": null,
+    "core-metadata": {
+      "sha256": "3925a75c81106ba7f048e0424e94740852099c166699f2afba934249dc527ebc"
+    },
+    "digests": {
+      "blake2b_256": "85e624c944e473c34e818cf1b98085796fcd780465ecfe17663f2bf8fee1958b",
+      "md5": "7182840c6aa6d16712fc1c2d6f928474",
+      "sha256": "553e2d42f5bb3bb2a785a7d3de8ef90bb7df74b5413eff5a7b4388007ea9254b"
+    },
+    "downloads": -1,
+    "filename": "pypdf-6.21.1-py3-none-any.whl",
+    "has_sig": false,
+    "md5_digest": "7182840c6aa6d16712fc1c2d6f928474",
+    "packagetype": "bdist_wheel",
+    "python_version": "py3",
+    "requires_python": ">=3.9",
+    "size": 405134,
+    "upload_time": "2026-10-17T10:29:50",
+    "upload_time_iso_8601": "2026-10-17T10:29:50.687163Z",
+    "url": "https://files.pythonhosted.org/packages/85/e6/24c944e473c34e818cf1b98085796fcd780465ecfe17663f2bf8fee1958b/pypdf-6.21.1-py3-none-any.whl",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "requires_python": ">=3.9",
+  "free_disk_GiB": 400.263671875,
+  "purpose": "Read public ESA PDF in project environment; no system tools installed"
+}

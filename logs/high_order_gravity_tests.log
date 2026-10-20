@@ -1,0 +1,14 @@
+test_axis_rotation_and_frame_consistency (test_higher_order_gravity.HigherGravityTests) ... ok
+test_coefficients_rescaling_and_J2_convention (test_higher_order_gravity.HigherGravityTests) ... ok
+test_equator_and_poles (test_higher_order_gravity.HigherGravityTests) ... ok
+test_fixed_axis_conservative_invariants (test_higher_order_gravity.HigherGravityTests) ... ok
+test_independent_spherical_reference (test_higher_order_gravity.HigherGravityTests) ... ok
+test_invalid (test_higher_order_gravity.HigherGravityTests) ... ok
+test_negative_potential_gradient_and_convergence (test_higher_order_gravity.HigherGravityTests) ... ok
+test_parity_and_decay (test_higher_order_gravity.HigherGravityTests) ... ok
+test_switch_off_and_superposition (test_higher_order_gravity.HigherGravityTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.378s
+
+OK

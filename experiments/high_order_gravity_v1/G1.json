@@ -1,0 +1,33 @@
+{
+  "labels": [
+    "PROVISIONAL",
+    "HINDCAST",
+    "NO_DRAG"
+  ],
+  "integration": {
+    "method": "RK45",
+    "rtol": 1e-10,
+    "atol_si": [
+      0.001,
+      0.001,
+      0.001,
+      1e-06,
+      1e-06,
+      1e-06
+    ],
+    "max_step_s": 30.0,
+    "accepted_steps": 724,
+    "nfev": 4346,
+    "elapsed_s": 0.7124102637171745,
+    "output_samples": 361,
+    "success": true,
+    "message": "The solver successfully reached the end of the integration interval.",
+    "min_accepted_step_s": 0.018613669230401902,
+    "max_accepted_step_s": 30.00000000000182
+  },
+  "initial_sha256": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+  "wall_with_output_s": 0.8922982513904572,
+  "peak_RSS_MiB": 148.49609375,
+  "J3": true,
+  "J4": false
+}

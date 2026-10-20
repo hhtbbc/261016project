@@ -1,0 +1,28 @@
+{
+  "model_name": "PROJECT_NOMINAL_J2_PLUS_EGM2008_ZONAL34",
+  "source_model": "EGM2008 static tide_free; m=0 only",
+  "source_normalization": "fully_normalized",
+  "source_mu_m3_s2": 398600441500000.0,
+  "source_radius_m": 6378136.3,
+  "project_mu_m3_s2": 398600441800000.0,
+  "project_radius_m": 6378136.6,
+  "legacy_J2": 0.0010826359,
+  "source_J2_unscaled": 0.0010826261738522227,
+  "terms": {
+    "3": {
+      "Cbar_n0": 9.57161207093473e-07,
+      "Jn_source": -2.5324105185677225e-06,
+      "Jn_project": -2.5324101593208012e-06
+    },
+    "4": {
+      "Cbar_n0": 5.39965866638991e-07,
+      "Jn_source": -1.6198975999169731e-06,
+      "Jn_project": -1.6198972939258574e-06
+    }
+  },
+  "conversion": "Jn_project = -sqrt(2n+1)*Cbar_n0 * (mu_source/mu_project)*(R_source/R_project)^n",
+  "source_file": "data/raw/gravity_sources/EGM2008_HEAD_PARTIAL.txt",
+  "source_sha256": "ce9334659955fe001e31b63f77838cd883436ee91830940a8e0836e4bdf55d1e",
+  "source_url": "https://icgem.gfz-potsdam.de/getmodel/gfc/c50128797a9cb62e936337c890e4425f03f0461d7329b09a8cc8561504465340/EGM2008.gfc",
+  "limitation": "Defined nominal controlled extension, not pure EGM2008 or full IERS gravity. Legacy J2 retained; no secular/tidal terms."
+}

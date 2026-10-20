@@ -1,0 +1,7 @@
+START G1
+END G1 0.7124102637171745
+START G2
+END G2 0.8086753729730844
+START G2_tight
+END G2_tight 1.6145107503980398
+{"G2_state_max_m": 0.05841115513116615, "state_threshold_m": 0.5, "G2_G0_pair_change_max_m": 1.5804511938062122e-05, "pair_threshold_m": 19.268161790309698, "passed": true}

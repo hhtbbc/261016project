@@ -59,3 +59,7 @@ S3连续候选预热已完成：7210步、48小时共同窗口290帧、六张真
 ## NRLMSIS接入后的第一阶段总结
 
 D5已完成1h预检及6h base/tight，与原D0—D4作受控比较，原实验未重跑。成果仍为PROVISIONAL / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST，不能据此排名真实Swarm预测精度。三路线工程原型、成本分层和正式验证缺口见[第一阶段总结](reports/PHASE1_ORBIT_DENSITY_COMPARISON.md)、[D5运行报告](reports/MSIS_DRAG_ORBIT_EXPERIMENT.md)、[数值验证](reports/MSIS_DRAG_NUMERICAL_VALIDATION.md)。最新进度以STATUS末节为准。
+
+
+## J3/J4受控无阻力比较
+已完成原J2基线上的J3/J4增量验证；J3组部分残差下降，J3+J4组终点下降但全段RMSE增大，不能视作完整引力或密度精度结论。[运行比较](reports/HIGH_ORDER_GRAVITY_ORBIT_COMPARISON.md)、[独立验证](reports/HIGH_ORDER_GRAVITY_VALIDATION.md)、[真实参数审查](docs/SWARM_FORMAL_FORCE_PARAMETERS.md)。旧D0—D5保留，后续密度组须统一升级引力。

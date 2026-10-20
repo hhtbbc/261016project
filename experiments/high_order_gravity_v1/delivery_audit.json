@@ -1,0 +1,209 @@
+{
+  "status": "PROVISIONAL / HINDCAST / NO_DRAG",
+  "new_real_state_6h_propagations": 3,
+  "new_G0_runs": 0,
+  "new_drag_runs": 0,
+  "new_TIE_runs": 0,
+  "protected_files": 174,
+  "protected_unchanged": true,
+  "initial_state_sha256": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+  "all_tests": 142,
+  "independent_validation_passed": true,
+  "convergence": {
+    "G2_state_max_m": 0.05841115513116615,
+    "state_threshold_m": 0.5,
+    "G2_G0_pair_change_max_m": 1.5804511938062122e-05,
+    "pair_threshold_m": 19.268161790309698,
+    "passed": true
+  },
+  "real_run_wall_s": 9.308497119694948,
+  "artifacts": [
+    {
+      "file": "configs/higher_order_gravity.json",
+      "bytes": 1228,
+      "sha256": "339c057a01e59712fb8c5c313c849601d714648fd296f1f14404507b25d35eb0",
+      "local_only": false
+    },
+    {
+      "file": "src/orbit/higher_order_gravity.py",
+      "bytes": 3536,
+      "sha256": "0eda9c20f79e96783f2b39b48025de372817de708c2e359bda6bec72cccf87ad",
+      "local_only": false
+    },
+    {
+      "file": "scripts/validate_high_order_gravity.py",
+      "bytes": 4067,
+      "sha256": "304a8ff6d276a096d904205c94c9eb4682dfd52b51e807c0781e99856ab2a29b",
+      "local_only": false
+    },
+    {
+      "file": "scripts/analyze_high_order_gravity.py",
+      "bytes": 9039,
+      "sha256": "f4233719723f413aff4f03e6edb0ed7eca86ee0613f359bb02368f7eba4bb637",
+      "local_only": false
+    },
+    {
+      "file": "scripts/write_high_order_gravity_reports.py",
+      "bytes": 22368,
+      "sha256": "2d06df76ec5ef4d258cc58b64fa3a2f9cb4f0fe25a364377d9260f9a0af5a8a4",
+      "local_only": false
+    },
+    {
+      "file": "scripts/run_high_order_gravity_comparison.py",
+      "bytes": 8132,
+      "sha256": "2379f8559a2c65c645670226a41f3ebb922ac5242da5a62457274bc15fa817cb",
+      "local_only": false
+    },
+    {
+      "file": "scripts/audit_swarm_formal_force_parameters.py",
+      "bytes": 4529,
+      "sha256": "be4ae3f0fb63f59e9dfd38681adbd2ee0d2890c2bf324f4dc7f968c12e7ac853",
+      "local_only": false
+    },
+    {
+      "file": "tests/test_higher_order_gravity.py",
+      "bytes": 6601,
+      "sha256": "875dfab9695ed2eb10feafa4fd8e68d346943f17a0b60f9eb27a449fcf35e5b6",
+      "local_only": false
+    },
+    {
+      "file": "docs/HIGH_ORDER_GRAVITY_DESIGN.md",
+      "bytes": 5033,
+      "sha256": "b274fd3de994fcd38b211ef3c463158f53adcc53b5c92c36dc29c2023a475723",
+      "local_only": false
+    },
+    {
+      "file": "docs/SWARM_FORMAL_FORCE_PARAMETERS.md",
+      "bytes": 4993,
+      "sha256": "5b8c1b5816fabbfffc6423f1bc95751d40c63df76edfbc49413237a4324660d1",
+      "local_only": false
+    },
+    {
+      "file": "docs/UPDATED_GRAVITY_DENSITY_PROTOCOL.md",
+      "bytes": 2044,
+      "sha256": "e3fea76cea167dfa8d704653c792b10b1aa3973355719340de95badace481697",
+      "local_only": false
+    },
+    {
+      "file": "reports/HIGH_ORDER_GRAVITY_ORBIT_COMPARISON.md",
+      "bytes": 4779,
+      "sha256": "c75ad8dec1c28ee7c6c916aaef5c8c99597ee60cafb9c0a011ca2f6c2298824e",
+      "local_only": false
+    },
+    {
+      "file": "reports/HIGH_ORDER_GRAVITY_VALIDATION.md",
+      "bytes": 4072,
+      "sha256": "956609238e87056a62a44de05a2d089c9f5fc00474ae3221f278abb82d2a05f6",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/high_order_gravity_v1_G2_states.csv",
+      "bytes": 160727,
+      "sha256": "7b9233e33db53bda94487e7c1af8ac963c9b201cd58b01390af960bfa298a94d",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/high_order_gravity_v1_SP3_residuals.csv",
+      "bytes": 154199,
+      "sha256": "f103fd4163e8885cdeadd5feae9b1db487778bfd285a41183e58b9bbb7d97f1d",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/high_order_gravity_v1_G2_tight_states.csv",
+      "bytes": 162899,
+      "sha256": "304d7ceeebb0aff4dcf48172b4c10aa31ba88e3ccfeebc6b61be900eecdaa071",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/high_order_gravity_v1_swarm_review_intervals.csv",
+      "bytes": 112588,
+      "sha256": "4780db95d69c5c4b9f458d7a676e95f51e1560bf214e4240e801b330df6c03e5",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/high_order_gravity_v1_resources.csv",
+      "bytes": 523,
+      "sha256": "dca882a4e64cdc12acc33147940030329f081b579eb415a1db2d4621828b85b9",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/high_order_gravity_v1_G1_states.csv",
+      "bytes": 133432,
+      "sha256": "30acc4b7ffe5d8570728bc08bb58dd974133f1b5f1c991473fe6da9fce7bca63",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/high_order_gravity_v1_convergence.csv",
+      "bytes": 38940,
+      "sha256": "724b35e9ad7fb7fb28493e1577a720e6646cef2f79faa278cd69db817b1e5023",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/high_order_gravity_v1_acceleration_common_G2_state.csv",
+      "bytes": 47020,
+      "sha256": "f61903a07e2c87eeb4862848cfd0e200923640657832ae01fb60d0b1ef64bbb1",
+      "local_only": false
+    },
+    {
+      "file": "results/metrics/high_order_gravity_v1_model_differences.csv",
+      "bytes": 157223,
+      "sha256": "8fff30881628803e890c6ddcbd6c36ef4effa1f092a623e38407c46f92c25611",
+      "local_only": false
+    },
+    {
+      "file": "results/figures/high_order_gravity_v1_SP3_residuals.png",
+      "bytes": 116703,
+      "sha256": "9464e6affe5fbd3c457bf5cdc3ae2fda1c57b52ae850ced93d228736e39ca337",
+      "local_only": false
+    },
+    {
+      "file": "results/figures/high_order_gravity_v1_perturbations.png",
+      "bytes": 100912,
+      "sha256": "c608bc3d0631b12fe09e2637539dd6ecff732c657da69060f9b7314e9edd6134",
+      "local_only": false
+    },
+    {
+      "file": "results/figures/high_order_gravity_v1_costs.png",
+      "bytes": 39362,
+      "sha256": "2fe5f078e4ba3080244909b7350ae90f9145c4490ae1b10627579025780a4964",
+      "local_only": false
+    },
+    {
+      "file": "results/figures/high_order_gravity_v1_RAC_residuals.png",
+      "bytes": 219396,
+      "sha256": "fe929ebfa59871b3babd6fe3dd6d42b2833c9daf4923316e1f29dabbf2384545",
+      "local_only": false
+    },
+    {
+      "file": "results/figures/high_order_gravity_v1_accelerations.png",
+      "bytes": 92714,
+      "sha256": "86911c0a5d71f225dbab3c1c5fb901bcd9bb7df9dd1224de8bb23a2d47ee3665",
+      "local_only": false
+    },
+    {
+      "file": "results/figures/high_order_gravity_v1_convergence.png",
+      "bytes": 93925,
+      "sha256": "f7b5254ed2d775dd1dd7b3bb48b2a43a511ccdb9f52d1b32a001a5e426924e28",
+      "local_only": false
+    },
+    {
+      "file": "data/processed/high_order_gravity_v1/G2_states.npz",
+      "bytes": 19671,
+      "sha256": "262346f1e0f0c7fbd5fe9da7f142d187cf724b3324de894f7299c9b0254c388e",
+      "local_only": true
+    },
+    {
+      "file": "data/processed/high_order_gravity_v1/G2_tight_states.npz",
+      "bytes": 21098,
+      "sha256": "61592dd26f0123eb72531db5941fad1f53ee15d12d58c67bc3e800a60adc0425",
+      "local_only": true
+    },
+    {
+      "file": "data/processed/high_order_gravity_v1/G1_states.npz",
+      "bytes": 19652,
+      "sha256": "87e7d674e760d439d89bc8ccf438498eb1a6f11ea285b7fca9fe51f9e3bfb9c4",
+      "local_only": true
+    }
+  ],
+  "raw_PDF_and_extracted_text_uploaded": false
+}

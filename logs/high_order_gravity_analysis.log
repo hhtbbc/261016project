@@ -1,0 +1,524 @@
+{
+  "labels": "PROVISIONAL / HINDCAST / NO_DRAG",
+  "residuals": {
+    "G0": {
+      "samples": 361,
+      "initial_m": 0.0,
+      "mean_norm_m": 522.4148566008902,
+      "rmse_3d_m": 555.3564451279146,
+      "median_norm_m": 554.6479128863582,
+      "p95_norm_m": 687.255401818385,
+      "max_norm_m": 1066.08685421193,
+      "max_index": 360,
+      "terminal_m": 1066.08685421193,
+      "xyz_bias_m": [
+        26.158272840658324,
+        10.949487972641352,
+        -39.239643687040676
+      ],
+      "rac_bias_m": [
+        35.86380574833129,
+        -451.0427479296011,
+        25.89458037644913
+      ],
+      "rac_rmse_m": [
+        72.18019186095518,
+        487.81593765825704,
+        255.43377226714915
+      ],
+      "terminal_RAC_m": [
+        149.51335132344462,
+        -998.6969869756032,
+        341.74737263858094
+      ],
+      "hours_1_3_6": {
+        "1": {
+          "norm_m": 632.8491920332034,
+          "RAC_m": [
+            40.39146714483124,
+            -631.4977926427563,
+            8.784482130021388
+          ]
+        },
+        "3": {
+          "norm_m": 646.0575380874682,
+          "RAC_m": [
+            18.413669934658884,
+            -427.4375979247691,
+            484.095423609314
+          ]
+        },
+        "6": {
+          "norm_m": 1066.08685421193,
+          "RAC_m": [
+            149.51335132344462,
+            -998.6969869756032,
+            341.74737263858094
+          ]
+        }
+      }
+    },
+    "G1": {
+      "samples": 361,
+      "initial_m": 0.0,
+      "mean_norm_m": 374.9352157985044,
+      "rmse_3d_m": 418.4738731017503,
+      "median_norm_m": 388.7867012719867,
+      "p95_norm_m": 651.0879730592125,
+      "max_norm_m": 681.5887418873779,
+      "max_index": 325,
+      "terminal_m": 429.14180649922304,
+      "xyz_bias_m": [
+        -53.49100774667851,
+        122.17561924629281,
+        13.650400428622346
+      ],
+      "rac_bias_m": [
+        10.010536530946402,
+        63.32628516692756,
+        27.400242490608083
+      ],
+      "rac_rmse_m": [
+        103.40114134313491,
+        315.0937882023677,
+        255.23418868560358
+      ],
+      "terminal_RAC_m": [
+        244.7608314522572,
+        -80.62163147670319,
+        343.15445212069005
+      ],
+      "hours_1_3_6": {
+        "1": {
+          "norm_m": 402.12512395654556,
+          "RAC_m": [
+            14.43583713804145,
+            -401.7278606660606,
+            10.533180329853252
+          ]
+        },
+        "3": {
+          "norm_m": 487.11164193030424,
+          "RAC_m": [
+            47.4685631506844,
+            -15.158358327579634,
+            484.5562004445502
+          ]
+        },
+        "6": {
+          "norm_m": 429.14180649922304,
+          "RAC_m": [
+            244.7608314522572,
+            -80.62163147670319,
+            343.15445212069005
+          ]
+        }
+      }
+    },
+    "G2": {
+      "samples": 361,
+      "initial_m": 0.0,
+      "mean_norm_m": 606.3090402177432,
+      "rmse_3d_m": 731.931163940561,
+      "median_norm_m": 496.80171174178963,
+      "p95_norm_m": 1325.2000992841636,
+      "max_norm_m": 1394.640435475751,
+      "max_index": 331,
+      "terminal_m": 834.458796576236,
+      "xyz_bias_m": [
+        -75.51868041416249,
+        149.18244982775917,
+        55.33269900110231
+      ],
+      "rac_bias_m": [
+        -10.404587010277716,
+        458.45063132359417,
+        26.843668219191894
+      ],
+      "rac_rmse_m": [
+        105.95683102340763,
+        680.5241026772652,
+        247.75658292397537
+      ],
+      "terminal_RAC_m": [
+        232.4461857778191,
+        734.7449655287353,
+        320.0626337624889
+      ],
+      "hours_1_3_6": {
+        "1": {
+          "norm_m": 242.20756588507385,
+          "RAC_m": [
+            -15.42146245508333,
+            -241.61582445052198,
+            6.9625313509813935
+          ]
+        },
+        "3": {
+          "norm_m": 620.4018072548316,
+          "RAC_m": [
+            42.84036132215596,
+            393.7978606976851,
+            477.4791626833312
+          ]
+        },
+        "6": {
+          "norm_m": 834.458796576236,
+          "RAC_m": [
+            232.4461857778191,
+            734.7449655287353,
+            320.0626337624889
+          ]
+        }
+      }
+    }
+  },
+  "perturbations": {
+    "G1_G0": {
+      "samples": 361,
+      "initial_m": 0.0,
+      "mean_norm_m": 518.9257108393364,
+      "rmse_3d_m": 611.917994383226,
+      "median_norm_m": 497.83299610162135,
+      "p95_norm_m": 1129.3886259380672,
+      "max_norm_m": 1171.028745841706,
+      "max_index": 335,
+      "terminal_m": 923.0040198818144,
+      "xyz_bias_m": [
+        -79.64928058733683,
+        111.22613127365146,
+        52.89004411566302
+      ],
+      "rac_bias_m": [
+        -25.890498746283455,
+        514.3675608107043,
+        1.498615405633586
+      ],
+      "rac_rmse_m": [
+        62.65229323396888,
+        608.6998663122147,
+        1.671751777771511
+      ],
+      "terminal_RAC_m": [
+        95.11340362758409,
+        918.0892449142289,
+        1.4140513380101822
+      ]
+    },
+    "G2_G1": {
+      "samples": 361,
+      "initial_m": 0.0,
+      "mean_norm_m": 396.85932816779274,
+      "rmse_3d_m": 459.0317122136203,
+      "median_norm_m": 408.48060105642077,
+      "p95_norm_m": 775.9371186157214,
+      "max_norm_m": 815.7864733405453,
+      "max_index": 360,
+      "terminal_m": 815.7864733405453,
+      "xyz_bias_m": [
+        -22.02767266748397,
+        27.00683058146637,
+        41.682298572479965
+      ],
+      "rac_bias_m": [
+        -20.44442121198499,
+        395.1227606399347,
+        -0.5589987604208888
+      ],
+      "rac_rmse_m": [
+        23.481959951584336,
+        458.29703751835535,
+        11.069587910092054
+      ],
+      "terminal_RAC_m": [
+        -12.434938420035138,
+        815.365083828375,
+        -23.08078130049404
+      ]
+    },
+    "G2_G0": {
+      "samples": 361,
+      "initial_m": 0.0,
+      "mean_norm_m": 914.8545408208957,
+      "rmse_3d_m": 1066.4871126272303,
+      "median_norm_m": 875.5452566863945,
+      "p95_norm_m": 1881.9905230821976,
+      "max_norm_m": 1926.8161790309698,
+      "max_index": 338,
+      "terminal_m": 1735.560164797756,
+      "xyz_bias_m": [
+        -101.6769532548208,
+        138.23296185511782,
+        94.57234268814298
+      ],
+      "rac_bias_m": [
+        -46.3349199582685,
+        909.4903214506381,
+        0.939616645212698
+      ],
+      "rac_rmse_m": [
+        77.98964047051403,
+        1063.5723464928494,
+        11.235708920236114
+      ],
+      "terminal_RAC_m": [
+        82.67846520754904,
+        1733.4543287426038,
+        -21.666729962483828
+      ]
+    }
+  },
+  "convergence": {
+    "G2_state_max_m": 0.05841115513116615,
+    "state_threshold_m": 0.5,
+    "G2_G0_pair_change_max_m": 1.5804511938062122e-05,
+    "pair_threshold_m": 19.268161790309698,
+    "passed": true
+  },
+  "resources": {
+    "G0": {
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ],
+      "model": "D0",
+      "source": null,
+      "mapping": null,
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-10,
+        "atol_si": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06,
+          1e-06,
+          1e-06
+        ],
+        "max_step_s": 30.0,
+        "accepted_steps": 724,
+        "nfev": 4346,
+        "elapsed_s": 0.4890314396470785,
+        "output_samples": 361,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.01861368558102626,
+        "max_accepted_step_s": 30.00000000000003
+      },
+      "initial_state": [
+        -518920.9937467673,
+        210277.3926138616,
+        6804082.48844712,
+        4386.971793789882,
+        -6232.011779449503,
+        525.709091165103
+      ],
+      "wall_with_output_diagnostics_s": 9.305710442364216,
+      "peak_RSS_MiB": 175.56640625,
+      "force": null,
+      "density_valid_fraction": null
+    },
+    "G1": {
+      "labels": [
+        "PROVISIONAL",
+        "HINDCAST",
+        "NO_DRAG"
+      ],
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-10,
+        "atol_si": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06,
+          1e-06,
+          1e-06
+        ],
+        "max_step_s": 30.0,
+        "accepted_steps": 724,
+        "nfev": 4346,
+        "elapsed_s": 0.7124102637171745,
+        "output_samples": 361,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.018613669230401902,
+        "max_accepted_step_s": 30.00000000000182
+      },
+      "initial_sha256": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+      "wall_with_output_s": 0.8922982513904572,
+      "peak_RSS_MiB": 148.49609375,
+      "J3": true,
+      "J4": false
+    },
+    "G2": {
+      "labels": [
+        "PROVISIONAL",
+        "HINDCAST",
+        "NO_DRAG"
+      ],
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-10,
+        "atol_si": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06,
+          1e-06,
+          1e-06
+        ],
+        "max_step_s": 30.0,
+        "accepted_steps": 724,
+        "nfev": 4346,
+        "elapsed_s": 0.8086753729730844,
+        "output_samples": 361,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.01861365721176836,
+        "max_accepted_step_s": 30.00000000000091
+      },
+      "initial_sha256": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+      "wall_with_output_s": 0.9123720191419125,
+      "peak_RSS_MiB": 148.98828125,
+      "J3": true,
+      "J4": true
+    },
+    "G2_tight": {
+      "labels": [
+        "PROVISIONAL",
+        "HINDCAST",
+        "NO_DRAG"
+      ],
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-12,
+        "atol_si": [
+          1e-05,
+          1e-05,
+          1e-05,
+          1e-08,
+          1e-08,
+          1e-08
+        ],
+        "max_step_s": 15.0,
+        "accepted_steps": 1444,
+        "nfev": 8666,
+        "elapsed_s": 1.6145107503980398,
+        "output_samples": 361,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.0074102304062298,
+        "max_accepted_step_s": 15.000000000001819
+      },
+      "initial_sha256": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+      "wall_with_output_s": 1.7187680080533028,
+      "peak_RSS_MiB": 149.73046875,
+      "J3": true,
+      "J4": true
+    }
+  },
+  "acceleration": {
+    "J2": {
+      "min_m_s2": 0.01073554423776328,
+      "max_m_s2": 0.024191966264592912,
+      "median_m_s2": 0.013232357594566277
+    },
+    "J3": {
+      "min_m_s2": 2.6237696299024352e-05,
+      "max_m_s2": 7.035729604931994e-05,
+      "median_m_s2": 3.12731677752512e-05
+    },
+    "J4": {
+      "min_m_s2": 1.8041247684765373e-05,
+      "max_m_s2": 5.243092448668074e-05,
+      "median_m_s2": 2.21500538174414e-05
+    }
+  },
+  "new_real_propagations": 3,
+  "new_drag_propagations": 0,
+  "SP3_sources": {
+    "sources": [
+      {
+        "path": "/workspace/data/20261016/data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230320T235942_20230321T235942_0203.sp3",
+        "sha256": "006b0a3dbb7b6e78170f8a5710ca98c3ba61befe6744cc67b5db44628ecff3d2",
+        "version": "d",
+        "frame": "IGS20",
+        "native_time_system": "GPS",
+        "satellite_id": "L47",
+        "epochs": 8640,
+        "hdr_time_difference_s": 0.0,
+        "hdr_quality_indicator": "000",
+        "hdr_creation_date": "UTC=2026-08-25T09:10:22",
+        "formal_accuracy_exponents": [
+          "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+        ],
+        "maneuver_flag_available": false
+      },
+      {
+        "path": "/workspace/data/20261016/data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230321T235942_20230322T235942_0203.sp3",
+        "sha256": "a886cf14d243f1b6f47923f36a320f51ee28e1bdf18abd8915cd740249b9a280",
+        "version": "d",
+        "frame": "IGS20",
+        "native_time_system": "GPS",
+        "satellite_id": "L47",
+        "epochs": 8640,
+        "hdr_time_difference_s": 0.0,
+        "hdr_quality_indicator": "000",
+        "hdr_creation_date": "UTC=2026-08-25T09:10:23",
+        "formal_accuracy_exponents": [
+          "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+        ],
+        "maneuver_flag_available": false
+      },
+      {
+        "path": "/workspace/data/20261016/data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230322T235942_20230323T235942_0203.sp3",
+        "sha256": "debee0430cb0bca2f5f4b905960bdc22a876d2e0dd4cf42c2adc32aa1bb6ee13",
+        "version": "d",
+        "frame": "IGS20",
+        "native_time_system": "GPS",
+        "satellite_id": "L47",
+        "epochs": 8640,
+        "hdr_time_difference_s": 0.0,
+        "hdr_quality_indicator": "000",
+        "hdr_creation_date": "UTC=2026-08-25T09:10:23",
+        "formal_accuracy_exponents": [
+          "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+        ],
+        "maneuver_flag_available": false
+      }
+    ],
+    "reference_kind": "reduced-dynamic postprocessed orbit",
+    "reference_uncertainty_quantified": false,
+    "itrs_realization_assumption": "IGS20 aligned with ITRF2020; used as ITRS, no estimated Helmert correction",
+    "time_match_max_s": 9.592326932761353e-12
+  },
+  "changes_from_G0": {
+    "G1": {
+      "terminal_residual_change_m": -636.9450477127068,
+      "RMSE_change_m": -136.88257202616433,
+      "terminal_change_percent": -59.746074646380265,
+      "RMSE_change_percent": -24.647696668872964
+    },
+    "G2": {
+      "terminal_residual_change_m": -231.62805763569395,
+      "RMSE_change_m": 176.57471881264632,
+      "terminal_change_percent": -21.726940607190727,
+      "RMSE_change_percent": 31.794844619472464
+    }
+  },
+  "historical_density_scale_reference": {
+    "D5_D0_terminal_m": 174.66168022953408,
+    "D5_TIE_terminal_m": {
+      "D5_D1": 65.07418025777953,
+      "D5_D2": 58.332528764706616,
+      "D5_D3": 59.255645220988356,
+      "D5_D4": 52.20183871101393
+    },
+    "meaning": "Historical J2-only gravity density sensitivities; scale reference ONLY, not a new controlled density attribution"
+  },
+  "protected_unchanged": true,
+  "analysis_wall_s": 15.32095499150455,
+  "initial_states_identical": true
+}
