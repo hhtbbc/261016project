@@ -159,6 +159,6 @@ S3/S7初始34物理字段逐位相同、26输出字段/公共网格和驱动一�
 两组目标原生顶高约587—741km/592—750km，Swarm椭球高约460—490km；高度基准仍未闭合，精确沿轨查询有效率N/A。数据/图/趋势/门禁详见reports/TIEGCM2023_S7_RUN.md、S7_DATA_AUDIT.md、S3_S7_COMPARISON.md。下一入口docs/TIEGCM2023_NEXT_STAGE_DECISION.md：优先高度登记与同起日不同合法初态设计；不自动更长预热/Restart修复/AI训练/真实阻力实验。
 
 ## 最新：原生ZG密度查询接口与外部坐标门禁（2026-10-20）
-新增TiegcmDensityProvider，S3/S7共同290帧通过同一接口按需读取，八个时空列保守检查、垂直log密度/水平及时间线性密度、经度周期、极冠拒绝、单位转换和有界缓存。17项新测试通过，全套93项通过；46个原NetCDF前后SHA均匹配。每源1000次实际原生查询：S3平均11.292ms/P95 15.624ms，S7平均11.089ms/P95 15.401ms；进程峰RSS89.668/97.707MiB。线性垂直相对log方案差异P95约3.483%/3.493%，不是实际密度误差。
+新增TiegcmDensityProvider，S3/S7共同290帧通过同一接口按需读取，八个时空列保守检查、垂直log密度/水平及时间线性密度、经度周期、极冠拒绝、单位转换和有界缓存。18项新测试通过，全套94项通过；46个原NetCDF前后SHA均匹配。每源1000次实际原生查询：S3平均11.292ms/P95 15.624ms，S7平均11.089ms/P95 15.401ms；进程峰RSS89.668/97.707MiB。线性垂直相对log方案差异P95约3.483%/3.493%，不是实际密度误差。
 Swarm窗口17281点和WGS84坐标已复用原入口核对，但ZG下边界零面/纬度与WGS84严格关系仍未闭合，外部查询显式EXTERNAL_DATUM_UNVERIFIED，真实沿轨有效率/顶层裕量/密度曲线N/A。没有模型积分、真实阻力传播、训练或新依赖。工程接口完成，不代表物理适配完成。
 入口reports/TIEGCM_DENSITY_INTERFACE_VALIDATION.md、SWARM_TIEGCM_COVERAGE_AUDIT.md，理论docs/TIEGCM_SWARM_COORDINATE_DATUM.md，离线证据experiments/tiegcm_density_interface_v2/audit.json。后续优先官方参考面澄清与同起日不同合法完整初场设计，具体见TIEGCM_NEXT_SPINUP_EXPERIMENT.md；任何新模型/轨道积分均待授权。本次结束后按规则同步GitHub并停止。

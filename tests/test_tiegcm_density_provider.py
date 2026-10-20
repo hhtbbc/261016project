@@ -60,4 +60,13 @@ class DensityTests(unittest.TestCase):
   for _ in range(20):self.p.cache.clear();self.q()
   self.assertEqual(len(list(fds.iterdir())),before)
 
+ def test_nonuniform_horizontal_and_seam(self):
+  self.p.cache.clear()
+  with Dataset(self.path,'a') as n:
+   for j in range(2):
+    for i in range(4):n['DEN'][:,:,j,i]=n['DEN'][:,:,j,i]*(1+.2*j+.1*i)
+  self.assertAlmostEqual(self.q(lon=45).rho_kg_m3,1.5*1.35*np.exp(-1.5),14)
+  self.assertAlmostEqual(self.q(lon=135).rho_kg_m3,1.5*1.25*np.exp(-1.5),14)
+  self.assertEqual(self.q(lon=135),self.q(lon=-225))
+
 if __name__=='__main__':unittest.main()

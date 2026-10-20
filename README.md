@@ -50,4 +50,4 @@ S3连续候选预热已完成：7210步、48小时共同窗口290帧、六张真
 
 已完成[S7连续运行](reports/TIEGCM2023_S7_RUN.md)及[S3/S7比较](reports/TIEGCM2023_S3_S7_COMPARISON.md)：3天候选预热未满足全部预注册判据，不能等同7天已收敛。下一步见[阶段决策](docs/TIEGCM2023_NEXT_STAGE_DECISION.md)，精确高度登记及真实轨道阻力集成仍未就绪。
 
-原生大气密度查询已交付：见[接口验证](reports/TIEGCM_DENSITY_INTERFACE_VALIDATION.md)和[坐标参考审查](docs/TIEGCM_SWARM_COORDINATE_DATUM.md)。S3/S7同接口、17项新增测试及1000点/源性能验证通过；外部Swarm高度适配仍显式阻断，正式沿轨覆盖率N/A。
+原生大气密度查询已交付：见[接口验证](reports/TIEGCM_DENSITY_INTERFACE_VALIDATION.md)和[坐标参考审查](docs/TIEGCM_SWARM_COORDINATE_DATUM.md)。S3/S7同接口、18项新增测试及1000点/源性能验证通过；外部Swarm高度适配仍显式阻断，正式沿轨覆盖率N/A。
