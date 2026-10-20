@@ -1,0 +1,13 @@
+native_ZG_height_km,period,slope_log_RMSE_per_hour,slope_standard_error_OLS,slope_pvalue_OLS,first_log_RMSE,last_log_RMSE,note
+200,full,-0.00022441956458635614,1.6370586473765171e-06,1.3164112824722311e-263,0.01875567923462402,0.008181722002570752,"serial correlation means OLS p-value is descriptive, not independent-sample inference"
+200,last24h,-0.00017057520687151751,1.463751838771588e-06,1.2731430583060593e-143,0.012142341786734687,0.008181722002570752,"serial correlation means OLS p-value is descriptive, not independent-sample inference"
+300,full,-0.00036562428798712893,2.5387214821380636e-06,1.1446546114090378e-269,0.039398316727184315,0.02205377413568021,"serial correlation means OLS p-value is descriptive, not independent-sample inference"
+300,last24h,-0.0002878846072538716,2.569871333013228e-06,3.386195943361763e-141,0.028734727492981876,0.02205377413568021,"serial correlation means OLS p-value is descriptive, not independent-sample inference"
+400,full,-0.00048279011679870534,3.7155046589955653e-06,4.878937990710224e-257,0.05563085404348699,0.03256973311889951,"serial correlation means OLS p-value is descriptive, not independent-sample inference"
+400,last24h,-0.0003773748632041206,3.4984204964427937e-06,7.055527943900799e-139,0.041230949241143816,0.03256973311889951,"serial correlation means OLS p-value is descriptive, not independent-sample inference"
+450,full,-0.000532040829896206,4.359287061248124e-06,2.2881090374018635e-249,0.06178720967932895,0.03640996300934724,"serial correlation means OLS p-value is descriptive, not independent-sample inference"
+450,last24h,-0.0004105779904245675,4.343234346706056e-06,8.554557537698879e-131,0.04575132168515483,0.03640996300934724,"serial correlation means OLS p-value is descriptive, not independent-sample inference"
+475,full,-0.0005580012668766526,4.731526487011183e-06,3.5580074114848673e-245,0.06508838061659257,0.03830396977587516,"serial correlation means OLS p-value is descriptive, not independent-sample inference"
+475,last24h,-0.0004337314396237446,4.316065327174603e-06,1.5539118033999926e-134,0.048126258933620325,0.03830396977587516,"serial correlation means OLS p-value is descriptive, not independent-sample inference"
+500,full,-0.0005872702027082307,4.933191853640426e-06,2.539421596876151e-246,0.06810110873687097,0.04002331804488011,"serial correlation means OLS p-value is descriptive, not independent-sample inference"
+500,last24h,-0.0004577806167069205,4.750181682814071e-06,5.680591346296668e-132,0.050358242454536066,0.04002331804488011,"serial correlation means OLS p-value is descriptive, not independent-sample inference"

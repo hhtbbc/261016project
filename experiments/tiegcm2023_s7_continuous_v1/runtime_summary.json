@@ -1,0 +1,15 @@
+{
+  "model_launches": 1,
+  "actual_steps": 12970,
+  "logged_step_epochs": 1297,
+  "four_rank_step_coverage": true,
+  "elapsed_s": 1382.6764539591968,
+  "peak_sampled_tree_rss_MiB": 944.56640625,
+  "netcdf_bytes": 2571233644,
+  "max_volume_bytes": 192668980,
+  "no_guardian_handoff": true,
+  "normal_exit_count": 4,
+  "returncode": 0,
+  "cpu_user_and_system_s": 5518.421375,
+  "all_volumes_postchecked_by_runner": true
+}

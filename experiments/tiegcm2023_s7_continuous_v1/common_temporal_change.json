@@ -1,0 +1,16 @@
+{
+  "interval_s": 600,
+  "intervals": 289,
+  "sampling_note": "Only stored common-window frames checked; no claim all intermediate60s states observed",
+  "max_adjacent_change_SI": {
+    "TN": 16.3004150390625,
+    "UN": 41.498105468750026,
+    "VN": 41.86533203124998,
+    "ZG": 7696.5599999999395,
+    "O1": 0.014658987522125244,
+    "O2": 0.0019655078649520874,
+    "N2": 0.013200938701629639,
+    "HE": 0.015394732356071472
+  },
+  "max_absolute_log_density_change_same_pressure": 0.024498848335813506
+}

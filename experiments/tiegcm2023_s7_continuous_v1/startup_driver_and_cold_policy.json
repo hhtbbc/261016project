@@ -1,0 +1,32 @@
+{
+  "target_start_year_day": 2023073,
+  "actual_start_expected_drivers": {
+    "0": {
+      "f107d": 140.65625,
+      "f107a": 161.90092592592595,
+      "Kp": 1.4999999999999998,
+      "hpower": 22.322371444884464,
+      "ctpoten": 39.3
+    },
+    "60": {
+      "f107d": 140.6529142433505,
+      "f107a": 161.90094056439077,
+      "Kp": 1.5129666666666663,
+      "hpower": 22.435394487779977,
+      "ctpoten": 39.52575450755555
+    },
+    "600": {
+      "f107d": 140.62293475673903,
+      "f107a": 161.90107161385015,
+      "Kp": 1.6296666666666664,
+      "hpower": 23.473985575758604,
+      "ctpoten": 41.56965075555555
+    }
+  },
+  "note": "preflight base expected_drivers inherited from earlier March18 smoke inspection is not the S7 start; this explicit start record and full driver_every_minute_check are authoritative for S7",
+  "S3_native_cold_echo_verified_missing": {
+    "DEN": 1.0,
+    "ZG": 1.0,
+    "N2": 1.0
+  }
+}

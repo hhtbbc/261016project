@@ -1,0 +1,7781 @@
+{
+  "comparison_sign": "S3 minus S7; S7 is sensitivity reference, not truth",
+  "frames": 290,
+  "schema_all26_equal": true,
+  "same_grid_and_drivers": true,
+  "native_pressure_max_absolute_differences_SI": {
+    "DEN": 6.108530348214458e-09,
+    "TN": 20.84228515625,
+    "UN": 18.012675781249982,
+    "VN": 14.869609375000039,
+    "O1": 0.058660924434661865,
+    "O2": 0.008698366582393646,
+    "N2": 0.031159251928329468,
+    "HE": 0.05866536498069763,
+    "WIND_VECTOR": 19.22308548434425
+  },
+  "native_height_all_common_valid": {
+    "200": 1.0,
+    "300": 1.0,
+    "400": 1.0,
+    "450": 1.0,
+    "475": 1.0,
+    "500": 1.0
+  },
+  "last24h_each_time_pressure_gates": {
+    "DEN": {
+      "last24h_failed_time_level_region_cells": 232,
+      "last24h_evaluated_cells": 25230,
+      "worst_fraction_below_limit": 0.7754629629629629,
+      "worst_location": {
+        "region": "north_mid",
+        "hour": 28.166666666666668,
+        "level_index": 28
+      },
+      "passed": false
+    },
+    "TN": {
+      "last24h_failed_time_level_region_cells": 4584,
+      "last24h_evaluated_cells": 24360,
+      "worst_fraction_below_limit": 0.33564814814814814,
+      "worst_location": {
+        "region": "south_polar",
+        "hour": 35.5,
+        "level_index": 21
+      },
+      "passed": false
+    },
+    "WIND_VECTOR": {
+      "last24h_failed_time_level_region_cells": 0,
+      "last24h_evaluated_cells": 24360,
+      "worst_fraction_below_limit": 1.0,
+      "worst_location": null,
+      "passed": true
+    },
+    "O1": {
+      "last24h_failed_time_level_region_cells": 6301,
+      "last24h_evaluated_cells": 25230,
+      "worst_fraction_below_limit": 0.29398148148148145,
+      "worst_location": {
+        "region": "south_polar",
+        "hour": 29.666666666666668,
+        "level_index": 0
+      },
+      "passed": false
+    },
+    "O2": {
+      "last24h_failed_time_level_region_cells": 15808,
+      "last24h_evaluated_cells": 25230,
+      "worst_fraction_below_limit": 0.0,
+      "worst_location": {
+        "region": "tropics",
+        "hour": 24.166666666666668,
+        "level_index": 28
+      },
+      "passed": false
+    },
+    "N2": {
+      "last24h_failed_time_level_region_cells": 10797,
+      "last24h_evaluated_cells": 25230,
+      "worst_fraction_below_limit": 0.0,
+      "worst_location": {
+        "region": "tropics",
+        "hour": 31.333333333333332,
+        "level_index": 26
+      },
+      "passed": false
+    },
+    "HE": {
+      "last24h_failed_time_level_region_cells": 22928,
+      "last24h_evaluated_cells": 25230,
+      "worst_fraction_below_limit": 0.0,
+      "worst_location": {
+        "region": "global",
+        "hour": 32.666666666666664,
+        "level_index": 28
+      },
+      "passed": false
+    }
+  },
+  "last24h_each_time_height_gates": {
+    "200": {
+      "failed_time_region_cells_last24h": 0,
+      "evaluated_cells": 870,
+      "worst_fraction_below_limit": 1.0,
+      "passed": true
+    },
+    "300": {
+      "failed_time_region_cells_last24h": 0,
+      "evaluated_cells": 870,
+      "worst_fraction_below_limit": 1.0,
+      "passed": true
+    },
+    "400": {
+      "failed_time_region_cells_last24h": 0,
+      "evaluated_cells": 870,
+      "worst_fraction_below_limit": 1.0,
+      "passed": true
+    },
+    "450": {
+      "failed_time_region_cells_last24h": 45,
+      "evaluated_cells": 870,
+      "worst_fraction_below_limit": 0.9120370370370371,
+      "passed": false
+    },
+    "475": {
+      "failed_time_region_cells_last24h": 269,
+      "evaluated_cells": 870,
+      "worst_fraction_below_limit": 0.6944444444444444,
+      "passed": false
+    },
+    "500": {
+      "failed_time_region_cells_last24h": 420,
+      "evaluated_cells": 870,
+      "worst_fraction_below_limit": 0.46064814814814814,
+      "passed": false
+    }
+  },
+  "pooled_failed_groups": [
+    {
+      "domain": "pressure",
+      "variable": "DEN",
+      "level_index": 28,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.9234541294167731
+    },
+    {
+      "domain": "pressure",
+      "variable": "DEN",
+      "level_index": 28,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.8849457215836526
+    },
+    {
+      "domain": "pressure",
+      "variable": "DEN",
+      "level_index": 28,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.9338362068965518
+    },
+    {
+      "domain": "pressure",
+      "variable": "DEN",
+      "level_index": 28,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.8033844189016602
+    },
+    {
+      "domain": "pressure",
+      "variable": "DEN",
+      "level_index": 28,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9084610472541507
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 11,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.9171455938697318
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 11,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.9332934227330779
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 12,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.8454182630906769
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 12,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.901684227330779
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 13,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.922512239250745
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 13,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.7214719029374201
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 13,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8736270753512133
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 13,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8762531928480204
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 14,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.9016629416773095
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 14,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.6355842911877395
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 14,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.778448275862069
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 14,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8563936781609195
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 15,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8908564814814814
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 15,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.943156662409536
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 15,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.589647190293742
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 15,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.7245689655172414
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 15,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8464719029374201
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 15,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9442049808429118
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 16,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.885221104725415
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 16,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9373270540655598
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 16,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.563984674329502
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 16,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6939495530012771
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 16,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8413314176245211
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 16,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9396232439335888
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 17,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8820748190719455
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 17,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9342299914857386
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 17,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5482918263090677
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 17,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.676021711366539
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 17,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8380507662835249
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 17,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.937962962962963
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 18,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.879164005959983
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 18,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9322823541932738
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 18,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5390086206896552
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 18,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6661398467432951
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 18,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8353687739463601
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 18,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9367975734355045
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 19,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8766283524904215
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 19,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9309014474244359
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 19,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5338920817369093
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 19,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.660727969348659
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 19,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8332056194125159
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 19,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9356800766283525
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 20,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.874607545764155
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 20,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9299622179650915
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 20,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5312021072796935
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 20,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.658205619412516
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 20,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.831337803320562
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 20,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9348020434227331
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 21,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8730550234142188
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 21,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9292464878671776
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 21,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5297014687100894
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 21,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6568805874840358
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 21,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8302043422733077
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 21,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9343071519795658
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 22,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8720452852277565
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 22,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9288979352916135
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 22,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5292624521072797
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 22,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6568326947637293
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 22,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.829382183908046
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 22,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9339399744572159
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 23,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8714293316304811
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 23,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.92870104299702
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 23,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5291586845466156
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 23,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6568167305236271
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 23,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8289990421455938
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 23,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.933764367816092
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 24,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8710794487015752
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 24,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.928666453810132
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 24,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5293183269476373
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 24,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6571519795657726
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 24,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8287835249042146
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 24,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9337484035759898
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 25,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8708985206470838
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 25,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9286637931034483
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 25,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5294939335887612
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 25,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6573914431673052
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 25,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8286637931034483
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 25,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9337484035759898
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 26,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8708306726266496
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 26,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9286824180502341
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 26,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5296056832694763
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 26,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6575670498084292
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 26,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8286797573435505
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 26,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9337803320561942
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 27,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8708093869731801
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 27,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9286877394636015
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 27,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.529661558109834
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 27,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6576309067688378
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 27,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8286717752234993
+    },
+    {
+      "domain": "pressure",
+      "variable": "TN",
+      "level_index": 27,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9337803320561942
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 0,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.7153243401447424
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 0,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.7654533844189017
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 0,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.2850335249042146
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 0,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.3339878671775223
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 0,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.5266203703703703
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 0,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.5608556832694763
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 0,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.8171455938697318
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 0,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.8425287356321839
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 0,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.7480683269476373
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 0,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8832535121328224
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 1,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.7206750212856534
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 1,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.7722514899957429
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 1,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.3144875478927203
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 1,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.3658045977011494
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 1,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.5157966155810983
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 1,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.551867816091954
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 1,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.7774904214559387
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 1,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.8110472541507024
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 1,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.8125
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 1,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.9382343550446999
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 2,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.7245689655172414
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 2,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.771551724137931
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 2,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.36605204342273306
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 2,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.4191411238825032
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 2,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.5064495530012771
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 2,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.5457854406130268
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 2,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.9368654214559387
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 2,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.6844667943805874
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 2,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.7429916985951469
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 2,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.9167145593869732
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 3,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.7254230523627075
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 3,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.7711951894423159
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 3,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.4340357598978289
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 3,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.47772988505747127
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 3,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.5108636653895274
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 3,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.5550287356321839
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 3,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.9124680715197957
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 3,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.6155491698595147
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 3,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.6879150702426564
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 4,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.7302509046402724
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 4,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.7850042571306939
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 4,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.510727969348659
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 4,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.5536079182630906
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 4,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.530228288633461
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 4,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.5811302681992337
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 4,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.8895234674329502
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 4,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.5922812899106003
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 4,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.6753352490421456
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 5,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.7533072584078331
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 5,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.818164644529587
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 5,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.6426085568326948
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 5,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6942528735632184
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 5,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.5633939974457216
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 5,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.6190932311621967
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 5,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.8704861111111111
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 5,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.6018438697318008
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 5,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.6993295019157089
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 6,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.794465730097914
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 6,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.8652910813111963
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 6,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.8207295657726692
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 6,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8719827586206896
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 6,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.6139367816091954
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 6,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.6747765006385696
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 6,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.8631864623243933
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 6,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.6303639846743295
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 6,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.742448914431673
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 7,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8257569710515112
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 7,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.8925420391656024
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 7,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.9153496168582376
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 7,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.9299010217113666
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 7,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.6643039591315454
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 7,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.7214719029374201
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 7,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.8681313856960409
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 7,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.6603288633461047
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 7,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.7890964240102171
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 8,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8470679012345679
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 8,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9157673478075777
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 8,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.937124840357599
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 8,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.9469508301404853
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 8,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.7015485312899106
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 8,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.7648467432950191
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 8,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.8839798850574713
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 8,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.6958812260536399
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 8,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.8416507024265645
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 9,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8685531077054065
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 9,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9384818007662835
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 9,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.9462883141762453
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 9,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.7374920178799489
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 9,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.8087803320561942
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 9,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.9037156768837803
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 9,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.7395194763729247
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 9,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.8996487867177523
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 10,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8935171881651767
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 10,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.7752713920817369
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 10,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.8554597701149426
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 10,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.926632343550447
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 10,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.7935265006385696
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 11,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.9226732120051085
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 11,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8220705619412516
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 11,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9135217113665389
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 11,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.856625159642401
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 12,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8684546615581098
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 12,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.9323435504469987
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 13,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.9171056832694764
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 14,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.9475814176245211
+    },
+    {
+      "domain": "pressure",
+      "variable": "O1",
+      "level_index": 28,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.9363346104725415
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 6,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.9378591954022989
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 7,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8781289910600255
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 7,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9481800766283525
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 8,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.9477410600255428
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 8,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8126516602809706
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 8,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9047892720306513
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 9,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.9169327373350362
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 9,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.9377634099616858
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 9,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.7375
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 9,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.8380427841634738
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 9,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.940772669220945
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 9,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.9447876756066411
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 10,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8132689442315879
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 10,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9369705193699447
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 10,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.9248802681992337
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 10,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.9435823754789272
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 10,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.6675127713920818
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 10,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.7568326947637293
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 10,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.7484833971902938
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 10,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.7902538314176245
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 11,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.690092858663261
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 11,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.8129603022562792
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 11,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.9089878671775223
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 11,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.9298690932311622
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 11,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.6126516602809706
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 11,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.6845306513409962
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 11,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.5110113346104725
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 11,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.7571439974457216
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 11,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.6047653256704981
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 11,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.7521072796934866
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 12,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.5704142720306513
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 12,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.6582508514261388
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 12,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.8933588761174968
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 12,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.9125
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 12,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.5679198595146872
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 12,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.6274744572158365
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 12,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.2586645913154534
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 12,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.4241778416347382
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 12,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.46950031928480207
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 12,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.5761813537675606
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 13,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.5036624627501064
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 13,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.564551404853129
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 13,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.8766922094508302
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 13,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8941730523627075
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 13,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.526484674329502
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 13,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.5729565772669221
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 13,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.15033125798212005
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 13,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.24914591315453385
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 13,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.3734754150702427
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 13,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.4594348659003831
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 13,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.9446599616858238
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 14,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.44545152192422305
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 14,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.48250053214133676
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 14,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.8589240102171136
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 14,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8751596424010217
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 14,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.48802681992337166
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 14,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.5224137931034483
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 14,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.07118055555555555
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 14,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.10649744572158365
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 14,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.28845785440613025
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 14,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.3568805874840358
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 14,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.8949393358876118
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 14,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.9275542784163474
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 15,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.3978062473392933
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 15,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.4246886973180077
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 15,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.8382343550446999
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 15,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8548371647509578
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 15,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.45174010217113664
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 15,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.4752873563218391
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 15,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.034929757343550444
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 15,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.043287037037037034
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 15,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.21988346104725415
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 15,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.2755108556832695
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 15,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.8071200510855683
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 15,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8559227330779055
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 16,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.3555768412090251
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 16,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.37809440187313753
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 16,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.8154454022988505
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 16,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8325191570881226
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 16,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.4209770114942529
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 16,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.4359514687100894
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 16,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.02452905491698595
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 16,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.02812100893997446
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 16,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.15798212005108556
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 16,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.20405491698595146
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 16,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.6899984035759897
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 16,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.7397988505747126
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 17,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.30970625798212004
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 17,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.3232732013622818
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 17,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.7910201149425288
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 17,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.804469987228608
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 17,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.3926484674329502
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 17,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.3988665389527459
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 17,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.018973499361430397
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 17,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.020506066411238824
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 17,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.10722381864623244
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 17,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.14401340996168582
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 17,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.5293981481481481
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 17,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.5512771392081737
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 18,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.2674861643252448
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 18,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.27426032354193275
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 18,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.7667305236270754
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 18,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.7772988505747126
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 18,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.3683668582375479
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 18,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.3675925925925926
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 18,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.015245849297573435
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 18,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.015030332056194124
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 18,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.07362707535121328
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 18,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.09792464878671775
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 18,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.3657008301404853
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 18,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.3726851851851852
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 19,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.2363119944657301
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 19,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.24121700723712217
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 19,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.7429038952745849
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 19,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.7520114942528736
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 19,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.3489942528735632
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 19,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.3446360153256705
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 19,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.013050766283524905
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 19,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.012124840357598978
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 19,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.05252234993614304
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 19,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.06522988505747127
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 19,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.2473499361430396
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 19,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.2611749680715198
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 20,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.21461393146019583
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 20,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.21855576841209026
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 20,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.7226372924648786
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 20,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.7312579821200511
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 20,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.3327905491698595
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 20,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.3272669220945083
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 20,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.011590038314176244
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 20,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.010225095785440614
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 20,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0374441251596424
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 20,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.04220945083014049
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 20,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.17163154533844188
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 20,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.1901500638569604
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 21,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.19903815453384419
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 21,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.2017134951042997
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 21,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.7051564495530013
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 21,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.7145753512132822
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 21,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.31883780332056194
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 21,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.3126277139208174
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 21,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.010456577266922094
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 21,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.008828224776500639
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 21,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.02717911877394636
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 21,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.026772030651340997
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 21,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.12214240102171137
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 21,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.13864942528735633
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 22,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.18618561089825458
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 22,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.18784855257556407
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 22,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.6894316730523627
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 22,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.7003192848020434
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 22,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.30594667943805876
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 22,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.2985153256704981
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 22,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.00923132183908046
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 22,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.007431353767560664
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 22,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.019811621966794382
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 22,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.017401021711366538
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 22,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0834610472541507
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 22,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.09599297573435504
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 23,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.17429491272882078
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 23,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.17537249893571732
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 23,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.6745051085568327
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 23,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6863186462324393
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 23,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.29271232439335887
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 23,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.28421136653895274
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 23,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.007966155810983398
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 23,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.006194125159642401
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 23,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.012891123882503193
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 23,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.009658365261813538
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 23,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.04972860791826309
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 23,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.05965836526181354
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 24,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.1624773839931886
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 24,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.16248669646658154
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 24,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.6573355683269476
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 24,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6687100893997445
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 24,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.27851213282247766
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 24,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.26772030651340994
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 24,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.006389687100893998
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 24,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.004613665389527458
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 24,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.006856641123882503
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 24,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.003400383141762452
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 24,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.01938058748403576
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 24,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.02586206896551724
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 25,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.15165096849723286
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 25,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.15023414218816517
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 25,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.6345386334610472
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 25,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6442369093231162
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 25,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.25958652618135375
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 25,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.24509897828863347
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 25,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.004681513409961686
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 25,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0029693486590038312
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 25,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0028416347381864625
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 25,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.00015964240102171138
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 25,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0035759897828863347
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 25,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.005970625798212005
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 26,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.1387332375478927
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 26,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.13577852277564922
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 26,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5972381864623244
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 26,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6015006385696041
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 26,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.22816091954022988
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 26,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.20831736909323118
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 26,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0030611430395913156
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 26,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0016682630906768839
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 26,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.00011973180076628352
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 26,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 26,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.000758301404853129
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 26,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.001516602809706258
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 27,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.11517534057045552
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 27,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.11031289910600256
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 27,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5163553639846743
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 27,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.5164591315453384
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 27,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.17242177522349936
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 27,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.14465197956577266
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 27,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0011374521072796935
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 27,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0003831417624521073
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 27,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 27,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 27,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 27,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 28,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.07053932524478501
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 28,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.06939389101745423
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 28,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.33523307790549167
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 28,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.36214878671775225
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 28,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.08786717752234993
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 28,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.05421455938697318
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 28,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 6.784802043422733e-05
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 28,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 28,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 28,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 28,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "O2",
+      "level_index": 28,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 15,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.9438684014474245
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 15,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8710009578544061
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 15,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9477490421455939
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 15,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.9491339399744572
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 15,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.9124680715197957
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 16,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8345851958280119
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 16,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.8997286079182631
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 16,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.7484594508301405
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 16,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.8107439335887612
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 16,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.8208652618135377
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 16,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.903360472541507
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 16,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.6735312899106003
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 16,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.8139687100893997
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 17,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.7168409429544487
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 17,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.7784642401021712
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 17,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.9337484035759898
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 17,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.6554837164750957
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 17,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.706625159642401
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 17,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.6598778735632184
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 17,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.7438777139208174
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 17,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.46848659003831417
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 17,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.5669699872286079
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 17,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.9235712005108557
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 18,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.6109328437633035
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 18,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.6657620263942103
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 18,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.9028575989782887
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 18,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.9175127713920818
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 18,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.5802921455938698
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 18,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.6194125159642401
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 18,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.5239862707535121
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 18,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.590205938697318
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 18,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.32601372924648786
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 18,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.3939176245210728
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 18,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.8084610472541507
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 18,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8833173690932311
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 19,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.5197677203065134
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 19,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.5728927203065134
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 19,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.8724616858237548
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 19,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8870051085568327
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 19,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.5283125798212005
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 19,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.5567848020434227
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 19,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.41293502554278416
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 19,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.4788074712643678
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 19,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.22988505747126436
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 19,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.2818167305236271
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 19,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.6620769476372924
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 19,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.7541347381864624
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 20,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.4368348233290762
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 20,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.48388143891017454
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 20,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.8426404853128991
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 20,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8573275862068965
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 20,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.4915389527458493
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 20,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.5123403575989783
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 20,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.3183708492975734
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 20,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.3848818646232439
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 20,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.17314016602809706
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 20,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.21029693486590037
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 20,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.47694763729246487
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 20,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.5535600255427842
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 21,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.36342592592592593
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 21,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.402016815666241
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 21,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.8168742017879949
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 21,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8306673052362707
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 21,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.4622525542784163
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 21,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.47662835249042146
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 21,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.23355683269476374
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 21,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.294308748403576
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 21,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.13365261813537677
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 21,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.15598659003831417
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 21,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.3006625159642401
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 21,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.36020114942528736
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 22,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.3059892507449979
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 22,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.3325909961685824
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 22,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.7938697318007663
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 22,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8043582375478927
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 22,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.43625478927203065
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 22,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.44495530012771395
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 22,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.15962244572158366
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 22,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.20379150702426566
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 22,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.10219508301404853
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 22,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.11368135376756067
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 22,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.18437100893997446
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 22,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.22496807151979567
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 23,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.26027964027245637
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 23,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.2735100042571307
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 23,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.772581417624521
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 23,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.7803001277139208
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 23,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.4115022349936143
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 23,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.41452745849297573
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 23,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0929477969348659
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 23,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.11161398467432951
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 23,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.07828065134099617
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 23,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.08261494252873564
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 23,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.11341794380587485
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 23,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.14038952745849298
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 24,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.22076415495955726
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 24,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.22350202213707962
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 24,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.7482439335887612
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 24,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.75522030651341
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 24,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.38165708812260535
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 24,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.3791187739463602
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 24,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.04248483397190294
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 24,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.04141123882503193
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 24,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.05323275862068966
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 24,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.05233077905491699
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 24,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.05648148148148148
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 24,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.07151979565772669
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 25,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.18646099404001704
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 25,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.18486590038314177
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 25,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.7085967432950192
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 25,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.7156928480204342
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 25,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.33507343550447
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 25,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.32482439335887614
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 25,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.016818326947637293
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 25,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.01257183908045977
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 25,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.023044380587484037
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 25,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.018470625798212004
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 25,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.018414750957854407
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 25,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.025063856960408686
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 26,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.14271232439335887
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 26,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.13776340996168582
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 26,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.6172972541507025
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 26,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6259578544061303
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 26,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.22607758620689655
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 26,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.19446040868454662
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 26,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0042824074074074075
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 26,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0018358876117496807
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 26,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0024744572158365264
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 26,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 1.596424010217114e-05
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 26,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0018598339719029374
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 26,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0024744572158365264
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 27,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.11543475947211579
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 27,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.11993135376756066
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 27,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.29823595146871007
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 27,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.31657088122605365
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 27,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.14654374201787995
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 27,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.10194763729246488
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 27,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0923411558109834
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 27,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.11995530012771392
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 27,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.06314655172413793
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 27,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.061159003831417626
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 27,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 27,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 28,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.4219761068539804
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 28,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.44123297147722434
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 28,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.22481641123882504
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 28,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.22335568326947638
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 28,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.4403176883780332
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 28,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.46297892720306516
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 28,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.6739184227330779
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 28,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.7127075351213282
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 28,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.46002554278416347
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 28,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.4665868454661558
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 28,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.05886015325670498
+    },
+    {
+      "domain": "pressure",
+      "variable": "N2",
+      "level_index": 28,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.06906130268199234
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 2,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.8894010749255002
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 2,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.9283790974882928
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 2,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.9161997126436782
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 2,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.9456497445721583
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 2,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.6223499361430396
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 2,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.7188697318007663
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 2,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.8816570881226053
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 3,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.5349696679438058
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 3,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.5601958280119199
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 3,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.8710408684546616
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 3,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8493773946360154
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 3,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.93816251596424
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 3,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9406928480204342
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 3,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.5925087803320562
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 3,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.6293662196679438
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 3,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.14364623243933589
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 3,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.168470625798212
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 3,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.07195083014048531
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 3,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.14390166028097062
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 4,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.3503485525755641
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 4,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.3364836100468284
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 4,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.7323914431673052
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 4,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.6792464878671776
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 4,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.7194524265644955
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 4,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.705970625798212
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 4,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.32512372286079183
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 4,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.3168422733077905
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 4,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 4,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 4,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 4,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 5,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.25300659855257557
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 5,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.21689814814814815
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 5,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.6467113665389528
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 5,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.5958812260536398
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 5,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.5237228607918263
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 5,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.44897828863346106
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 5,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.17380268199233717
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 5,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.128264687100894
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 5,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 5,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 5,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 5,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 6,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.17617869306087697
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 6,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.13662728820774797
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 6,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5460568326947637
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 6,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.4991538952745849
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 6,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.36615581098339717
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 6,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.277985312899106
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 6,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.07242975734355045
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 6,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.021312260536398467
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 6,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 6,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 6,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 6,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 7,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.10288154533844189
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 7,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.07283418475947212
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 7,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.32970945083014047
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 7,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.27653256704980844
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 7,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.23120210727969348
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 7,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.15881226053639846
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 7,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.028188856960408685
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 7,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0008301404853128991
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 7,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 7,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 7,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 7,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 8,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.04301298424861643
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 8,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.023685610898254578
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 8,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.08671775223499362
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 8,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.04599297573435505
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 8,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.14797254150702427
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 8,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.09612068965517241
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 8,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.011693805874840358
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 8,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 8,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 8,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 8,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 8,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 9,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.022456364410387397
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 9,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.01181353767560664
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 9,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.03200031928480204
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 9,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.01475095785440613
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 9,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.09528256704980843
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 9,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.05613026819923372
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 9,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0037276500638569604
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 9,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 9,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 9,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 9,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 9,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 10,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.015849829714772244
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 10,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.008027352064708386
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 10,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.02171934865900383
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 10,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.008093869731800766
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 10,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.07123243933588762
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 10,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.04007024265644955
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 10,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.001073595146871009
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 10,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 10,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 10,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 10,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 10,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 11,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.012792677735206471
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 11,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.006279267773520647
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 11,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.017464878671775222
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 11,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.005970625798212005
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 11,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.0584610472541507
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 11,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.03170498084291188
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 11,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.00041507024265644954
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 11,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 11,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 11,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 11,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 11,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 12,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.011579395487441465
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 12,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.0057896977437207325
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 12,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.01532567049808429
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 12,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.005459770114942529
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 12,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.05322477650063857
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 12,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.029278416347381864
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 12,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.000462962962962963
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 12,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 12,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 12,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 12,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 12,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 13,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.010998031077054066
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 13,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.005667305236270754
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 13,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.014040549169859515
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 13,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0054118773946360155
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 13,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.05091794380587484
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 13,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.028591954022988506
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 13,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0005148467432950192
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 13,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 13,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 13,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 13,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 13,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 14,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.010733290762026395
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 14,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.005661983822903363
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 14,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.01311462324393359
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 14,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.005300127713920817
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 14,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.05007183908045977
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 14,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.02867177522349936
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 14,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0006066411238825032
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 14,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 14,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 14,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 14,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 14,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 15,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.010678746275010642
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 15,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.005810983397190294
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 15,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.012492017879948915
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 15,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.005635376756066411
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 15,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.049848339719029376
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 15,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.029150702426564496
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 15,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0008660600255427841
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 15,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 3.9910600255427844e-05
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 15,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 15,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 15,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 15,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 16,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.010664112388250319
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 16,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.005850893997445722
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 16,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.011709770114942529
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 16,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.00576309067688378
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 16,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.04953703703703704
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 16,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.029150702426564496
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 16,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.001368933588761175
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 16,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 9.578544061302682e-05
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 16,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 16,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 16,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 16,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 17,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.01080779054916986
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 17,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.005909429544487016
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 17,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.010919540229885057
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 17,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0060185185185185185
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 17,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.05004789272030651
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 17,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.029166666666666667
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 17,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.001939655172413793
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 17,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.00013569604086845465
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 17,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 17,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 17,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 17,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 18,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.011056566624095359
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 18,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.005850893997445722
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 18,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.010209131545338443
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 18,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.006130268199233717
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 18,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.05102969348659004
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 18,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.02865581098339719
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 18,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0025502873563218393
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 18,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.00015964240102171138
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 18,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 18,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 18,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 18,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 19,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.011499574286930608
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 19,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.0058881438910174545
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 19,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.009937739463601533
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 19,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.00646551724137931
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 19,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.052634099616858235
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 19,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.02848020434227331
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 19,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0032128033205619413
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 19,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.00019157088122605365
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 19,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 19,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 19,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 19,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 20,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.011915974882928906
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 20,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.0059386973180076625
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 20,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.010153256704980842
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 20,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.007327586206896552
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 20,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.05371966794380587
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 20,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.027857598978288635
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 20,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.003811462324393359
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 20,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.00022349936143039592
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 20,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 20,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 20,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 20,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 21,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.012053001277139208
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 21,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.0057896977437207325
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 21,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.010185185185185186
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 21,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.007854406130268199
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 21,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.05377554278416347
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 21,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.026436781609195402
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 21,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.004178639846743295
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 21,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.00022349936143039592
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 21,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 21,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 21,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 21,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 22,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.011905332056194125
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 22,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.005520966368667518
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 22,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.01039272030651341
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 22,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.008253512132822478
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 22,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.052402618135376756
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 22,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.024457215836526183
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 22,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.004318326947637292
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 22,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.00020753512132822477
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 22,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 22,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 22,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 22,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 23,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.011193593018305662
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 23,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.0049223073648361005
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 23,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.010272988505747127
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 23,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.008253512132822478
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 23,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.04887452107279693
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 23,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.020929118773946362
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 23,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.004007024265644955
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 23,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0001756066411238825
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 23,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 23,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 23,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 23,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 24,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.009923105576841208
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 24,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.004182630906768838
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 24,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.009514687100893997
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 24,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.007854406130268199
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 24,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.043470625798212
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 24,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.01711366538952746
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 24,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.003276660280970626
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 24,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 6.385696040868455e-05
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 24,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 24,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 24,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 24,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 25,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.00808056619838229
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 25,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.003352490421455939
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 25,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.008141762452107279
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 25,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.007056194125159642
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 25,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.03588761174968071
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 25,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.01305874840357599
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 25,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0022270114942528735
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 25,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 25,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 25,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 25,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 25,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 26,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.005779054916985951
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 26,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.002554278416347382
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 26,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.005747126436781609
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 26,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.005555555555555556
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 26,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.026644316730523625
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 26,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.009770114942528735
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 26,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0011414431673052363
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 26,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 26,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 26,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 26,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 26,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 27,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.003426990208599404
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 27,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.0018571732652192421
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 27,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.003176883780332056
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 27,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.003991060025542784
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 27,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.016834291187739464
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 27,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.007151979565772669
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 27,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0002753831417624521
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 27,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 27,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 27,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 27,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 27,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 28,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.0018491911451681566
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 28,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.0011467645806726267
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 28,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.0014208173690932312
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 28,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.002011494252873563
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 28,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.00967432950191571
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 28,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.004869093231162197
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 28,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 28,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 28,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 28,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 28,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "pressure",
+      "variable": "HE",
+      "level_index": 28,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.0
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 400,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.870609833971903
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 400,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.9263809067688378
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 400,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.8467911877394636
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 400,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.8660640166028097
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 400,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.844396551724138
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 400,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.8739623243933589
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 450,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.7144689229459344
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 450,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.7511893358876117
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 450,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.7245290549169859
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 450,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.736426404853129
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 450,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.6599457215836526
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 450,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.6782966155810983
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 475,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.6117377075351214
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 475,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.6531210089399745
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 475,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.6113266283524904
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 475,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9045019157088122
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 475,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.6328224776500638
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 475,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.5715597062579821
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 475,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.9294220945083014
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 475,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.5687739463601532
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 500,
+      "region": "global",
+      "period": "full",
+      "pass_fraction": 0.5223685610898254
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 500,
+      "region": "global",
+      "period": "last24h",
+      "pass_fraction": 0.8937260536398467
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 500,
+      "region": "south_polar",
+      "period": "full",
+      "pass_fraction": 0.5756625159642401
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 500,
+      "region": "south_polar",
+      "period": "last24h",
+      "pass_fraction": 0.923227969348659
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 500,
+      "region": "south_mid",
+      "period": "full",
+      "pass_fraction": 0.5077905491698596
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 500,
+      "region": "south_mid",
+      "period": "last24h",
+      "pass_fraction": 0.8381385696040868
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 500,
+      "region": "tropics",
+      "period": "full",
+      "pass_fraction": 0.5416267560664112
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 500,
+      "region": "tropics",
+      "period": "last24h",
+      "pass_fraction": 0.9257104086845466
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 500,
+      "region": "north_mid",
+      "period": "full",
+      "pass_fraction": 0.49832375478927204
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 500,
+      "region": "north_mid",
+      "period": "last24h",
+      "pass_fraction": 0.859147509578544
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 500,
+      "region": "north_polar",
+      "period": "full",
+      "pass_fraction": 0.4691810344827586
+    },
+    {
+      "domain": "native_ZG_height",
+      "variable": "DEN",
+      "level_index": 500,
+      "region": "north_polar",
+      "period": "last24h",
+      "pass_fraction": 0.8904214559386974
+    }
+  ],
+  "last24h_all_variable_pressure_gates_pass": false,
+  "along_track_log_density_gate": "not evaluated: vertical datum unresolved",
+  "overall_preregistered_gate_pass": false,
+  "overall_gate_note": "Requires all pressure/height criteria plus no growth and along-track gate; N/A prevents complete acceptance",
+  "top_native_ZG_ranges_km": {
+    "S3": [
+      586.83352,
+      741.1445600000001
+    ],
+    "S7": [
+      592.11148,
+      750.12192
+    ]
+  },
+  "trend": [
+    {
+      "native_ZG_height_km": 200,
+      "period": "full",
+      "slope_log_RMSE_per_hour": -0.00022441956458635614,
+      "slope_standard_error_OLS": 1.6370586473765171e-06,
+      "slope_pvalue_OLS": 1.3164112824722311e-263,
+      "first_log_RMSE": 0.01875567923462402,
+      "last_log_RMSE": 0.008181722002570752,
+      "note": "serial correlation means OLS p-value is descriptive, not independent-sample inference"
+    },
+    {
+      "native_ZG_height_km": 200,
+      "period": "last24h",
+      "slope_log_RMSE_per_hour": -0.00017057520687151751,
+      "slope_standard_error_OLS": 1.463751838771588e-06,
+      "slope_pvalue_OLS": 1.2731430583060593e-143,
+      "first_log_RMSE": 0.012142341786734687,
+      "last_log_RMSE": 0.008181722002570752,
+      "note": "serial correlation means OLS p-value is descriptive, not independent-sample inference"
+    },
+    {
+      "native_ZG_height_km": 300,
+      "period": "full",
+      "slope_log_RMSE_per_hour": -0.00036562428798712893,
+      "slope_standard_error_OLS": 2.5387214821380636e-06,
+      "slope_pvalue_OLS": 1.1446546114090378e-269,
+      "first_log_RMSE": 0.039398316727184315,
+      "last_log_RMSE": 0.02205377413568021,
+      "note": "serial correlation means OLS p-value is descriptive, not independent-sample inference"
+    },
+    {
+      "native_ZG_height_km": 300,
+      "period": "last24h",
+      "slope_log_RMSE_per_hour": -0.0002878846072538716,
+      "slope_standard_error_OLS": 2.569871333013228e-06,
+      "slope_pvalue_OLS": 3.386195943361763e-141,
+      "first_log_RMSE": 0.028734727492981876,
+      "last_log_RMSE": 0.02205377413568021,
+      "note": "serial correlation means OLS p-value is descriptive, not independent-sample inference"
+    },
+    {
+      "native_ZG_height_km": 400,
+      "period": "full",
+      "slope_log_RMSE_per_hour": -0.00048279011679870534,
+      "slope_standard_error_OLS": 3.7155046589955653e-06,
+      "slope_pvalue_OLS": 4.878937990710224e-257,
+      "first_log_RMSE": 0.05563085404348699,
+      "last_log_RMSE": 0.03256973311889951,
+      "note": "serial correlation means OLS p-value is descriptive, not independent-sample inference"
+    },
+    {
+      "native_ZG_height_km": 400,
+      "period": "last24h",
+      "slope_log_RMSE_per_hour": -0.0003773748632041206,
+      "slope_standard_error_OLS": 3.4984204964427937e-06,
+      "slope_pvalue_OLS": 7.055527943900799e-139,
+      "first_log_RMSE": 0.041230949241143816,
+      "last_log_RMSE": 0.03256973311889951,
+      "note": "serial correlation means OLS p-value is descriptive, not independent-sample inference"
+    },
+    {
+      "native_ZG_height_km": 450,
+      "period": "full",
+      "slope_log_RMSE_per_hour": -0.000532040829896206,
+      "slope_standard_error_OLS": 4.359287061248124e-06,
+      "slope_pvalue_OLS": 2.2881090374018635e-249,
+      "first_log_RMSE": 0.06178720967932895,
+      "last_log_RMSE": 0.03640996300934724,
+      "note": "serial correlation means OLS p-value is descriptive, not independent-sample inference"
+    },
+    {
+      "native_ZG_height_km": 450,
+      "period": "last24h",
+      "slope_log_RMSE_per_hour": -0.0004105779904245675,
+      "slope_standard_error_OLS": 4.343234346706056e-06,
+      "slope_pvalue_OLS": 8.554557537698879e-131,
+      "first_log_RMSE": 0.04575132168515483,
+      "last_log_RMSE": 0.03640996300934724,
+      "note": "serial correlation means OLS p-value is descriptive, not independent-sample inference"
+    },
+    {
+      "native_ZG_height_km": 475,
+      "period": "full",
+      "slope_log_RMSE_per_hour": -0.0005580012668766526,
+      "slope_standard_error_OLS": 4.731526487011183e-06,
+      "slope_pvalue_OLS": 3.5580074114848673e-245,
+      "first_log_RMSE": 0.06508838061659257,
+      "last_log_RMSE": 0.03830396977587516,
+      "note": "serial correlation means OLS p-value is descriptive, not independent-sample inference"
+    },
+    {
+      "native_ZG_height_km": 475,
+      "period": "last24h",
+      "slope_log_RMSE_per_hour": -0.0004337314396237446,
+      "slope_standard_error_OLS": 4.316065327174603e-06,
+      "slope_pvalue_OLS": 1.5539118033999926e-134,
+      "first_log_RMSE": 0.048126258933620325,
+      "last_log_RMSE": 0.03830396977587516,
+      "note": "serial correlation means OLS p-value is descriptive, not independent-sample inference"
+    },
+    {
+      "native_ZG_height_km": 500,
+      "period": "full",
+      "slope_log_RMSE_per_hour": -0.0005872702027082307,
+      "slope_standard_error_OLS": 4.933191853640426e-06,
+      "slope_pvalue_OLS": 2.539421596876151e-246,
+      "first_log_RMSE": 0.06810110873687097,
+      "last_log_RMSE": 0.04002331804488011,
+      "note": "serial correlation means OLS p-value is descriptive, not independent-sample inference"
+    },
+    {
+      "native_ZG_height_km": 500,
+      "period": "last24h",
+      "slope_log_RMSE_per_hour": -0.0004577806167069205,
+      "slope_standard_error_OLS": 4.750181682814071e-06,
+      "slope_pvalue_OLS": 5.680591346296668e-132,
+      "first_log_RMSE": 0.050358242454536066,
+      "last_log_RMSE": 0.04002331804488011,
+      "note": "serial correlation means OLS p-value is descriptive, not independent-sample inference"
+    }
+  ],
+  "new_model_launches": 0
+}

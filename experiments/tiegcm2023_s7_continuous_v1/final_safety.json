@@ -1,0 +1,15 @@
+{
+  "model_launches": 1,
+  "S7": true,
+  "no_additional_models_after_success": true,
+  "no_guardian": true,
+  "remaining_model_pids": [],
+  "prior_files_verified": 1067,
+  "changed_prior_files": [],
+  "runner_SHA_matches_preflight": true,
+  "new_run_comparison_artifacts_bytes": 2576200461,
+  "within_4GiB": true,
+  "new_netcdf_files": 25,
+  "common_window_frames_each": 290,
+  "no_precise_Swarm_density_query": true
+}

@@ -1,0 +1,14 @@
+test_cold_missing_and_warm_good (test_tiegcm2023_s7.S7Tests) ... ok
+test_cold_prognostic_missing_rejected (test_tiegcm2023_s7.S7Tests) ... ok
+test_existing_directory_refused (test_tiegcm2023_s7.S7Tests) ... ok
+test_fixed_config (test_tiegcm2023_s7.S7Tests) ... ok
+test_launch_once_guard_precedes_model (test_tiegcm2023_s7.S7Tests) ... ok
+test_nan_and_negative_density_rejected (test_tiegcm2023_s7.S7Tests) ... ok
+test_schedule (test_tiegcm2023_s7.S7Tests) ... ok
+test_warm_missing_rejected (test_tiegcm2023_s7.S7Tests) ... ok
+test_wrong_cold_identity_rejected (test_tiegcm2023_s7.S7Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.173s
+
+OK

@@ -1,0 +1,6 @@
+{
+  "source": "comp.F97,947-980: small=1e-6 and renormalization retain N2; existing frozen relative floor remains1e-8",
+  "native_top_midpoint": "lev7.25 lies above highest interface7.0; TN/wind top pad excluded but component values retained as originally specified",
+  "interpretation": "Large relative N2 errors at numerical minimum are not alone evidence of a large absolute composition error. Do not relax gate or retroactively remove top level.",
+  "unchanged_original_gate": true
+}

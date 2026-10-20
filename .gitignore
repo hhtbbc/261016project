@@ -58,3 +58,13 @@ credentials.json
 
 !/logs/tiegcm2023_s3_delivery_tests.log
 !/logs/tiegcm2023_s3_audit.log
+
+# S7 single-run and offline comparison evidence
+!/logs/tiegcm2023_s7_static_tests.log
+!/logs/tiegcm2023_s7_all_tests.log
+!/logs/tiegcm2023_s7_audit.log
+!/logs/tiegcm2023_s7_continuous_v1.log
+!/logs/tiegcm2023_s3_s7_comparison.log
+!/logs/tiegcm2023_s3_s7_regional_trends.log
+!/logs/tiegcm2023_comparison_tests.log
+!/logs/tiegcm2023_s3_s7_delivery_tests.log

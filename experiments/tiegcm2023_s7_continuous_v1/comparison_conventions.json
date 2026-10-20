@@ -1,0 +1,11 @@
+{
+  "sign": "S3-S7",
+  "relative_reference": "S7, not observational truth",
+  "weighted_moments_and_quantiles": "latitude-band model area weights proportional to cos(latitude); uniform longitude",
+  "acceptance_fraction": "unweighted count fraction of common-valid spatial samples; >=0.95 below original variable limit",
+  "trace_policy": "reference <=1e-8 excluded from component relative statistics only, never from absolute statistics",
+  "last24h_evaluation": "final 24h of the 290-frame window (03-22 00:10 through03-23 00:10); trend additionally reported over03-22 00:00 through03-23 00:00",
+  "trend_warning": "OLS slopes/p-values descriptive due serial correlation; also six-hour means; not evidence of observational accuracy",
+  "height_scope": "common native ZG coordinates only, no WGS84 equivalence assumed",
+  "pressure_quantity_units": "DEN kg/m3; TN K; UN/VN/vector m/s; major constituents mass mixing ratio"
+}

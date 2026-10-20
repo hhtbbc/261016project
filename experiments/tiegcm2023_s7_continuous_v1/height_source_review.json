@@ -1,0 +1,7 @@
+{
+  "url": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/grid.html",
+  "local_file": "data/raw/tiegcm2023_sources/grid_official_20261020.html",
+  "sha256": "ab394c295fc50894dbd98e4aeaeeb78ce86c36403b2e558005289d2ebd63d886",
+  "verified_definition": "Official altitude section recommends ZG for fixed-height registration; it does not explicitly establish equivalence to WGS84 ellipsoidal height. Native DEN exception checked in dt.F/diags.F: ilev.",
+  "interpolation_scope": "S3/S7 same native ZG coordinate only; no precise Swarm query without datum closure"
+}

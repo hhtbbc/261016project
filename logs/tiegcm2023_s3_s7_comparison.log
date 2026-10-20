@@ -1,0 +1,168 @@
+Compared pressure: DEN
+Compared pressure: TN
+Compared pressure: UN
+Compared pressure: VN
+Compared pressure: O1
+Compared pressure: O2
+Compared pressure: N2
+Compared pressure: HE
+Compared pressure: WIND_VECTOR
+Compared native height: 200
+Compared native height: 300
+Compared native height: 400
+Compared native height: 450
+Compared native height: 475
+Compared native height: 500
+{
+  "comparison_sign": "S3 minus S7; S7 is sensitivity reference, not truth",
+  "frames": 290,
+  "schema_all26_equal": true,
+  "same_grid_and_drivers": true,
+  "native_pressure_max_absolute_differences_SI": {
+    "DEN": 6.108530348214458e-09,
+    "TN": 20.84228515625,
+    "UN": 18.012675781249982,
+    "VN": 14.869609375000039,
+    "O1": 0.058660924434661865,
+    "O2": 0.008698366582393646,
+    "N2": 0.031159251928329468,
+    "HE": 0.05866536498069763,
+    "WIND_VECTOR": 19.22308548434425
+  },
+  "native_height_all_common_valid": {
+    "200": 1.0,
+    "300": 1.0,
+    "400": 1.0,
+    "450": 1.0,
+    "475": 1.0,
+    "500": 1.0
+  },
+  "last24h_each_time_pressure_gates": {
+    "DEN": {
+      "last24h_failed_time_level_region_cells": 232,
+      "last24h_evaluated_cells": 25230,
+      "worst_fraction_below_limit": 0.7754629629629629,
+      "worst_location": {
+        "region": "north_mid",
+        "hour": 28.166666666666668,
+        "level_index": 28
+      },
+      "passed": false
+    },
+    "TN": {
+      "last24h_failed_time_level_region_cells": 4584,
+      "last24h_evaluated_cells": 24360,
+      "worst_fraction_below_limit": 0.33564814814814814,
+      "worst_location": {
+        "region": "south_polar",
+        "hour": 35.5,
+        "level_index": 21
+      },
+      "passed": false
+    },
+    "WIND_VECTOR": {
+      "last24h_failed_time_level_region_cells": 0,
+      "last24h_evaluated_cells": 24360,
+      "worst_fraction_below_limit": 1.0,
+      "worst_location": null,
+      "passed": true
+    },
+    "O1": {
+      "last24h_failed_time_level_region_cells": 6301,
+      "last24h_evaluated_cells": 25230,
+      "worst_fraction_below_limit": 0.29398148148148145,
+      "worst_location": {
+        "region": "south_polar",
+        "hour": 29.666666666666668,
+        "level_index": 0
+      },
+      "passed": false
+    },
+    "O2": {
+      "last24h_failed_time_level_region_cells": 15808,
+      "last24h_evaluated_cells": 25230,
+      "worst_fraction_below_limit": 0.0,
+      "worst_location": {
+        "region": "tropics",
+        "hour": 24.166666666666668,
+        "level_index": 28
+      },
+      "passed": false
+    },
+    "N2": {
+      "last24h_failed_time_level_region_cells": 10797,
+      "last24h_evaluated_cells": 25230,
+      "worst_fraction_below_limit": 0.0,
+      "worst_location": {
+        "region": "tropics",
+        "hour": 31.333333333333332,
+        "level_index": 26
+      },
+      "passed": false
+    },
+    "HE": {
+      "last24h_failed_time_level_region_cells": 22928,
+      "last24h_evaluated_cells": 25230,
+      "worst_fraction_below_limit": 0.0,
+      "worst_location": {
+        "region": "global",
+        "hour": 32.666666666666664,
+        "level_index": 28
+      },
+      "passed": false
+    }
+  },
+  "last24h_each_time_height_gates": {
+    "200": {
+      "failed_time_region_cells_last24h": 0,
+      "evaluated_cells": 870,
+      "worst_fraction_below_limit": 1.0,
+      "passed": true
+    },
+    "300": {
+      "failed_time_region_cells_last24h": 0,
+      "evaluated_cells": 870,
+      "worst_fraction_below_limit": 1.0,
+      "passed": true
+    },
+    "400": {
+      "failed_time_region_cells_last24h": 0,
+      "evaluated_cells": 870,
+      "worst_fraction_below_limit": 1.0,
+      "passed": true
+    },
+    "450": {
+      "failed_time_region_cells_last24h": 45,
+      "evaluated_cells": 870,
+      "worst_fraction_below_limit": 0.9120370370370371,
+      "passed": false
+    },
+    "475": {
+      "failed_time_region_cells_last24h": 269,
+      "evaluated_cells": 870,
+      "worst_fraction_below_limit": 0.6944444444444444,
+      "passed": false
+    },
+    "500": {
+      "failed_time_region_cells_last24h": 420,
+      "evaluated_cells": 870,
+      "worst_fraction_below_limit": 0.46064814814814814,
+      "passed": false
+    }
+  },
+  "last24h_all_variable_pressure_gates_pass": false,
+  "along_track_log_density_gate": "not evaluated: vertical datum unresolved",
+  "overall_preregistered_gate_pass": false,
+  "overall_gate_note": "Requires all pressure/height criteria plus no growth and along-track gate; N/A prevents complete acceptance",
+  "top_native_ZG_ranges_km": {
+    "S3": [
+      586.83352,
+      741.1445600000001
+    ],
+    "S7": [
+      592.11148,
+      750.12192
+    ]
+  },
+  "new_model_launches": 0
+}

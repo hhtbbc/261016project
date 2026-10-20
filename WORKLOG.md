@@ -214,3 +214,10 @@ Swarm首稿严格浮点时间选择少1端点；不改原数据/初稿，以Swar
 
 ## 2026-10-20：整理10月19日工作日报
 依据工作日志及S3运行/审计报告生成reports/DAILY_REPORT_2026-10-19.md。区分10月19日执行与10月20日补充验收，记录Restart候选原因、S3实测资源、数据结果、风险和下一步；未运行新实验。按长期规则同步文档。
+
+## 2026-10-20：S7连续运行与S3/S7离线比较
+开始读取长期规则/进度/S3运行审计/连续方案，核实S3全部21个NetCDF及模型/apex/GPI/原初场SHA。新增独立run_tiegcm2023_s7.py，锁定runner/input哈希，原生输出11主历史、297次历史时刻/14卷；冷echo身份严格限定，仅DEN/ZG/N2原生未计算允许N/A，冷prognostic照查，暖态缺失/NaN/负密度等拒绝。9个新增监控/防重启测试及4个比较公式测试，全套76通过。
+仅一次--execute：目标2023-03-14 00:00→03-23 00:10，实际12970步/4rank/5°/60s，1382.676454秒、RSS944.566MiB、NetCDF2571233644B，returncode0/4NORMAL EXIT。独立运行器在线监督23个完成卷、结束检查全部25卷，无S3式guardian、无重试或原生续算。初始34项与S3逐位相同，公共物理配置相同。实际1297个打印时刻和NetCDF驱动核对最大5.684e-14，共同290帧完整，既有文件哈希未变。
+审计/比较脚本audit_tiegcm2023_s7.py、compare_tiegcm2023_s3_s7.py、analyze_tiegcm2023_regional_trends.py全部离线；原生逐层/六纬区、固定ZG200—500km、温度/风/组分、逐时刻门禁与6h/区域趋势完成。450km全窗口密度RMSE7.6111e-14kg/m³/P95相对5.980%，0/24/48hP95为6.601/4.981/4.016%；最后24h450/475/500km仍有45/269/420个时刻区域组合失败。风矢量最大差19.223m/s通过20m/s；TN最大20.842K及主要组分不全通过。原生固定高度总体下降，少数压力层增长，保留152个变量层区域时段增长组合；OLS仅描述，非独立样本推断。
+N2在接近small=1e-6数值下限处相对差巨大，附绝对差和comp.F限幅/顶中点含义，未改冻结1e-8门限或事后移除边界追求PASS。官方grid.html与addiag/diags源码核实原生ZG含义和DEN ilev，外部WGS84基准仍未闭合；沿轨查询有效率N/A，未外推补0。新增高度审查、S7运行/审计/比较报告、下一阶段决策；真实比较7张图、S7六图、分层CSV和审计JSON。
+关键命令source scripts/activate_tiegcm.sh；python scripts/run_tiegcm2023_s7.py --run-tag tiegcm2023_s7_continuous_v1（prepare后唯一--execute）；source scripts/activate_orbit.sh；python scripts/audit_tiegcm2023_s7.py --run-tag tiegcm2023_s7_continuous_v1；python scripts/compare_tiegcm2023_s3_s7.py；python scripts/analyze_tiegcm2023_regional_trends.py。下一步等待授权高度登记/不同初态对照，不自动延长预热、修Restart、训练或轨道阻力传播。Git按规则仅轻量成果提交同步，实际SHA以最终核验为准。
