@@ -1,0 +1,630 @@
+{
+  "model_launches": 0,
+  "orbit_integrations": 0,
+  "sources": {
+    "S3": {
+      "verified_files": [
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/primary_001.nc",
+          "sha256": "aa6027bcc5d463a8c4162aac2e397ef8aee11354f291acc0068765a3cfa9656e"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/primary_002.nc",
+          "sha256": "30074966abfbc0e07bfa38b0cf5200e1659ffefa97ed0eae2ef58494ca1121cf"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/primary_003.nc",
+          "sha256": "00eefc77e2c012ed630e86a1c51d5d95fd1fc104dd02f48d4a2d931ac7d39653"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/primary_004.nc",
+          "sha256": "4159f2dfb8a76856a7a3d7af767dd2124e27c0fcef99499a7194505f9ab3d69a"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/primary_005.nc",
+          "sha256": "81120a0eb7959f34a93989d43a0eb657921a135e8855731b2ddc30d4b6c93328"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/primary_006.nc",
+          "sha256": "1ced3621d3ae6ffc4e2c0fe88b091252cdee6cba6ea21fbe1845244baf2fd79d"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/primary_007.nc",
+          "sha256": "382aa4828819f75005d166c24c67a05d2bac556ad8423e118e080c8e97a6aea1"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_001.nc",
+          "sha256": "5d537d8ad1cace8082606f995dd3150b5471e98ddbf9ba64656bc12267b7a543"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_002.nc",
+          "sha256": "6206ac1b8aa7615b5ae459445680646922edd77b5c33f6aed06266037bf771f7"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_003.nc",
+          "sha256": "c7694a81eac032047e3f869467152cea2b706b1ea2f911ced957601e622e3539"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_004.nc",
+          "sha256": "182b1828455b21ab980978afb32e2eb4b36da1feb597f92e28781ed73bfa1ed2"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_005.nc",
+          "sha256": "22d910f1aae02193f82ca859f27aebf7d4a9357ad994df5e14de541b0238e42e"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_006.nc",
+          "sha256": "b98fbe5f0a7399759535b497200178a816c369997c755a5e3b58e3ac079b71a6"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_007.nc",
+          "sha256": "55bc2fa0449bdbe92be6d5f6584ada62f01cabf8c0b8be05a9af9e4d21495627"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_008.nc",
+          "sha256": "b188d9c0af4474c7b021677be5620be87deea9d36f0f39f36a68570efe638a74"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_009.nc",
+          "sha256": "0412a9e67fbf8aa98bcbc2d79ec4712c28c12e590b9df6cfbf08edeb88071b65"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_010.nc",
+          "sha256": "01d204cff4257fe200c35c85057cb83769c08d35c8fc5719f229deee6623160c"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_011.nc",
+          "sha256": "719faba8602eb308aaf46dc7e6a3e2a042688155d04694761a706c124ef26a5e"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_012.nc",
+          "sha256": "6c8868536298ff6090e75ebcc85c71e7f51025f595ab26f66830fa30082a68e4"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_013.nc",
+          "sha256": "ed80f72557eee59781a58b02c4f21093821c4e518ce200f0947d6fb8b9dc246e"
+        },
+        {
+          "file": "experiments/tiegcm2023_s3_continuous_v1/secondary_014.nc",
+          "sha256": "36cca869a52f9ddc77e13e06a44329715c189f24f8d6f5a3d7fdd27de0bbd0ea"
+        }
+      ],
+      "queries": 1000,
+      "index_seconds": 0.39422943629324436,
+      "total_query_seconds": 11.157197261229157,
+      "mean_ms": 11.157197261229157,
+      "p95_ms": 15.36621144041419,
+      "process_peak_RSS_MiB": 89.32421875,
+      "column_cache_limit": 256,
+      "column_cache_bytes": 118784,
+      "columns_read": 4254,
+      "grid_tests": [
+        {
+          "utc": "2023-03-21T00:00:00.000",
+          "rho_kg_m3": 4.6983642799610495e-12,
+          "relative_error": 1.5543122344752192e-15
+        },
+        {
+          "utc": "2023-03-21T16:40:00.000",
+          "rho_kg_m3": 4.527088712312068e-12,
+          "relative_error": 4.440892098500626e-16
+        },
+        {
+          "utc": "2023-03-23T00:10:00.000",
+          "rho_kg_m3": 4.711927818545424e-12,
+          "relative_error": -3.3306690738754696e-16
+        }
+      ],
+      "examples": [
+        {
+          "utc": "2023-03-21T00:05:00.000",
+          "lat": -85.0,
+          "lon": -180.0,
+          "height_native_zg_m": 450000,
+          "result": {
+            "valid": true,
+            "rho_kg_m3": 1.5568032861397119e-12,
+            "reason": "",
+            "metadata": {
+              "source": "S3",
+              "datum": "TIEGCM_NATIVE_ZG",
+              "algorithm": "vertical log; horizontal density bilinear; time density linear",
+              "quality": "hindcast; spin-up not demonstrated converged",
+              "time_utc": [
+                "2023-03-21T00:00:00.000",
+                "2023-03-21T00:10:00.000"
+              ],
+              "weights": {
+                "time": 0.500000000000004,
+                "latitude": 0.5,
+                "longitude": 0.0
+              },
+              "columns": [
+                {
+                  "file": "secondary_001.nc",
+                  "record": 3,
+                  "lat_index": 0,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_001.nc",
+                  "record": 3,
+                  "lat_index": 0,
+                  "lon_index": 1
+                },
+                {
+                  "file": "secondary_001.nc",
+                  "record": 3,
+                  "lat_index": 1,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_001.nc",
+                  "record": 3,
+                  "lat_index": 1,
+                  "lon_index": 1
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 0,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 0,
+                  "lon_index": 1
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 1,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 1,
+                  "lon_index": 1
+                }
+              ],
+              "top_margin_m": 214931.44000000006,
+              "vertical_brackets": [
+                22,
+                22,
+                21,
+                21,
+                22,
+                22,
+                21,
+                21
+              ],
+              "vertical": "log",
+              "all_log_alternative_kg_m3": 1.5553436377534567e-12
+            }
+          }
+        },
+        {
+          "utc": "2023-03-21T00:15:00.000",
+          "lat": -84.83,
+          "lon": -179.63,
+          "height_native_zg_m": 450000,
+          "result": {
+            "valid": true,
+            "rho_kg_m3": 1.5592067024036333e-12,
+            "reason": "",
+            "metadata": {
+              "source": "S3",
+              "datum": "TIEGCM_NATIVE_ZG",
+              "algorithm": "vertical log; horizontal density bilinear; time density linear",
+              "quality": "hindcast; spin-up not demonstrated converged",
+              "time_utc": [
+                "2023-03-21T00:10:00.000",
+                "2023-03-21T00:20:00.000"
+              ],
+              "weights": {
+                "time": 0.4999999999999961,
+                "latitude": 0.5340000000000004,
+                "longitude": 0.07400000000000091
+              },
+              "columns": [
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 0,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 0,
+                  "lon_index": 1
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 1,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 1,
+                  "lon_index": 1
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 1,
+                  "lat_index": 0,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 1,
+                  "lat_index": 0,
+                  "lon_index": 1
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 1,
+                  "lat_index": 1,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 1,
+                  "lat_index": 1,
+                  "lon_index": 1
+                }
+              ],
+              "top_margin_m": 215045.40000000002,
+              "vertical_brackets": [
+                22,
+                22,
+                21,
+                21,
+                22,
+                22,
+                21,
+                21
+              ],
+              "vertical": "log",
+              "all_log_alternative_kg_m3": 1.5578995868753892e-12
+            }
+          }
+        }
+      ],
+      "linear_vertical_relative_difference_p95": 0.03483178274638658,
+      "all_log_horizontal_time_relative_difference_p95": 0.00042820231990867695
+    },
+    "S7": {
+      "verified_files": [
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/primary_001.nc",
+          "sha256": "5fa7a4a4b9cc377174b1c0484ad29038fd839b18d83dfb45ae2b35b81d0bff7d"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/primary_002.nc",
+          "sha256": "0091e7ae81a37e13ed932c30d9b5cfb486bde1b317847e3658257090ca7bac93"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/primary_003.nc",
+          "sha256": "0bfc7490d6a3f98465a66552f1a3338460b22a004b04c22f8cea3ed9ce9a8a94"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/primary_004.nc",
+          "sha256": "edd5bedc721ef75a2d22faf27d3146e1dd94a6ee484c3f4a462e1a82ebd3163b"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/primary_005.nc",
+          "sha256": "50a4bf4b41031be8552131e7f785a925584e4bc5aff07f084a9613543454a565"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/primary_006.nc",
+          "sha256": "9e984da7006426d8ba100d0c6b844391bed03304ec5178fa476831a51b2cd364"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/primary_007.nc",
+          "sha256": "7c9a72b88beba08c03835592e4f02a96ed3b030754bc03c0e06954cc08dd8c6c"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/primary_008.nc",
+          "sha256": "03f05a25e89211a8516625f2ab86ba9d256256a9710b87ccf673d1b7dc3e5318"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/primary_009.nc",
+          "sha256": "f26062ee593ac79d0b3b0f0a10d0b9b313e7b727a806e57e00bf0b74825545c7"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/primary_010.nc",
+          "sha256": "81557a4f8da2abd6a48761bc12c0e3b2440934845c483f2f83b681b7d2a5c551"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/primary_011.nc",
+          "sha256": "5f7e19395b76a37148416b6816195f023f76fdd8dcd73a4355a17c3c1eb2627c"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_001.nc",
+          "sha256": "ccd60f7ee615e7c55043e9f89f0cb6737c044a434c2d983e477eb88491a4f207"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_002.nc",
+          "sha256": "f6d6f2deadb94dc478e54f7e93a86b1c933c12163d6b59e3a818f1221ac5b0ad"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_003.nc",
+          "sha256": "940614d132ab31960aeb83cb47f152743c48237d3d90068df1abf380ed595acd"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_004.nc",
+          "sha256": "2678fef0cc32b3234e495b36a452cbf01528d626b1fdf56eee6ee1f8b7c8fa53"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_005.nc",
+          "sha256": "a5690f358b45c4e095d65c2c9c15a6d529947698b8a083fc9b0a98094896bb55"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_006.nc",
+          "sha256": "54b385edef37984aee9d42cbaaf7a17c78ea2c9ec7a29c21fe9b67ba25541cc6"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_007.nc",
+          "sha256": "99220a8350ad2675b7b3a96e2c77cceed550fc3e20bdc2699591ed385e84a6b5"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_008.nc",
+          "sha256": "2e238cfd497bff4addc75443c1f55d35e5be79f8425001058ffd4d995035ef5f"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_009.nc",
+          "sha256": "3c477b3bb742cbb0dbc88c211933a765003b7d89587849041404d79cd8529a71"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_010.nc",
+          "sha256": "96821114b511d2a1e7f944404a847b123cd4672195f26a01e21dfd254daf6114"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_011.nc",
+          "sha256": "467dd15532b1b5b4b037a593ff914999220ad406379d357e5805afd040dc1fff"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_012.nc",
+          "sha256": "8a22e553d49580f66591e311c9c6eb7522f19f5e19ddfc07365bc2950bf30dbf"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_013.nc",
+          "sha256": "67b25bd70bf66170034a4dfbfbe0fd9c83142623073f3a1f36fee49b4c64732b"
+        },
+        {
+          "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_014.nc",
+          "sha256": "f40cbaa43ffb93310cb3fdc41f9d4e94bd2794b4d12c6129c1b16b466ab77271"
+        }
+      ],
+      "queries": 1000,
+      "index_seconds": 0.38892776891589165,
+      "total_query_seconds": 11.069915387779474,
+      "mean_ms": 11.069915387779474,
+      "p95_ms": 15.237001050263641,
+      "process_peak_RSS_MiB": 96.80859375,
+      "column_cache_limit": 256,
+      "column_cache_bytes": 118784,
+      "columns_read": 4254,
+      "grid_tests": [
+        {
+          "utc": "2023-03-21T00:00:00.000",
+          "rho_kg_m3": 4.639888089897922e-12,
+          "relative_error": 4.440892098500626e-16
+        },
+        {
+          "utc": "2023-03-21T16:40:00.000",
+          "rho_kg_m3": 4.477556766655477e-12,
+          "relative_error": 2.220446049250313e-16
+        },
+        {
+          "utc": "2023-03-23T00:10:00.000",
+          "rho_kg_m3": 4.6677334510059545e-12,
+          "relative_error": -8.881784197001252e-16
+        }
+      ],
+      "examples": [
+        {
+          "utc": "2023-03-21T00:05:00.000",
+          "lat": -85.0,
+          "lon": -180.0,
+          "height_native_zg_m": 450000,
+          "result": {
+            "valid": true,
+            "rho_kg_m3": 1.6392553096474044e-12,
+            "reason": "",
+            "metadata": {
+              "source": "S7",
+              "datum": "TIEGCM_NATIVE_ZG",
+              "algorithm": "vertical log; horizontal density bilinear; time density linear",
+              "quality": "hindcast; spin-up not demonstrated converged",
+              "time_utc": [
+                "2023-03-21T00:00:00.000",
+                "2023-03-21T00:10:00.000"
+              ],
+              "weights": {
+                "time": 0.500000000000004,
+                "latitude": 0.5,
+                "longitude": 0.0
+              },
+              "columns": [
+                {
+                  "file": "secondary_001.nc",
+                  "record": 7,
+                  "lat_index": 0,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_001.nc",
+                  "record": 7,
+                  "lat_index": 0,
+                  "lon_index": 1
+                },
+                {
+                  "file": "secondary_001.nc",
+                  "record": 7,
+                  "lat_index": 1,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_001.nc",
+                  "record": 7,
+                  "lat_index": 1,
+                  "lon_index": 1
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 0,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 0,
+                  "lon_index": 1
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 1,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 1,
+                  "lon_index": 1
+                }
+              ],
+              "top_margin_m": 223535.20000000007,
+              "vertical_brackets": [
+                22,
+                22,
+                21,
+                21,
+                22,
+                22,
+                21,
+                21
+              ],
+              "vertical": "log",
+              "all_log_alternative_kg_m3": 1.6377152828962141e-12
+            }
+          }
+        },
+        {
+          "utc": "2023-03-21T00:15:00.000",
+          "lat": -84.83,
+          "lon": -179.63,
+          "height_native_zg_m": 450000,
+          "result": {
+            "valid": true,
+            "rho_kg_m3": 1.6421822417526333e-12,
+            "reason": "",
+            "metadata": {
+              "source": "S7",
+              "datum": "TIEGCM_NATIVE_ZG",
+              "algorithm": "vertical log; horizontal density bilinear; time density linear",
+              "quality": "hindcast; spin-up not demonstrated converged",
+              "time_utc": [
+                "2023-03-21T00:10:00.000",
+                "2023-03-21T00:20:00.000"
+              ],
+              "weights": {
+                "time": 0.4999999999999961,
+                "latitude": 0.5340000000000004,
+                "longitude": 0.07400000000000091
+              },
+              "columns": [
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 0,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 0,
+                  "lon_index": 1
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 1,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 0,
+                  "lat_index": 1,
+                  "lon_index": 1
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 1,
+                  "lat_index": 0,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 1,
+                  "lat_index": 0,
+                  "lon_index": 1
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 1,
+                  "lat_index": 1,
+                  "lon_index": 0
+                },
+                {
+                  "file": "secondary_002.nc",
+                  "record": 1,
+                  "lat_index": 1,
+                  "lon_index": 1
+                }
+              ],
+              "top_margin_m": 223656.32000000007,
+              "vertical_brackets": [
+                22,
+                22,
+                21,
+                21,
+                22,
+                22,
+                21,
+                21
+              ],
+              "vertical": "log",
+              "all_log_alternative_kg_m3": 1.6407995050421262e-12
+            }
+          }
+        }
+      ],
+      "linear_vertical_relative_difference_p95": 0.03493322503059456,
+      "all_log_horizontal_time_relative_difference_p95": 0.00041531217588088856
+    }
+  },
+  "Swarm": {
+    "samples": 17281,
+    "frame": "IGS20",
+    "WGS84_height_m": [
+      460311.5105871261,
+      489988.9856789028
+    ],
+    "latitude_deg": [
+      -87.36796466228299,
+      87.370760610723
+    ],
+    "formal_density_valid_fraction": null,
+    "reason": "EXTERNAL_DATUM_UNVERIFIED",
+    "density_queries_executed": 0
+  },
+  "protected_NetCDF_unchanged": true
+}

@@ -221,3 +221,11 @@ Swarm首稿严格浮点时间选择少1端点；不改原数据/初稿，以Swar
 审计/比较脚本audit_tiegcm2023_s7.py、compare_tiegcm2023_s3_s7.py、analyze_tiegcm2023_regional_trends.py全部离线；原生逐层/六纬区、固定ZG200—500km、温度/风/组分、逐时刻门禁与6h/区域趋势完成。450km全窗口密度RMSE7.6111e-14kg/m³/P95相对5.980%，0/24/48hP95为6.601/4.981/4.016%；最后24h450/475/500km仍有45/269/420个时刻区域组合失败。风矢量最大差19.223m/s通过20m/s；TN最大20.842K及主要组分不全通过。原生固定高度总体下降，少数压力层增长，保留152个变量层区域时段增长组合；OLS仅描述，非独立样本推断。
 N2在接近small=1e-6数值下限处相对差巨大，附绝对差和comp.F限幅/顶中点含义，未改冻结1e-8门限或事后移除边界追求PASS。官方grid.html与addiag/diags源码核实原生ZG含义和DEN ilev，外部WGS84基准仍未闭合；沿轨查询有效率N/A，未外推补0。新增高度审查、S7运行/审计/比较报告、下一阶段决策；真实比较7张图、S7六图、分层CSV和审计JSON。
 关键命令source scripts/activate_tiegcm.sh；python scripts/run_tiegcm2023_s7.py --run-tag tiegcm2023_s7_continuous_v1（prepare后唯一--execute）；source scripts/activate_orbit.sh；python scripts/audit_tiegcm2023_s7.py --run-tag tiegcm2023_s7_continuous_v1；python scripts/compare_tiegcm2023_s3_s7.py；python scripts/analyze_tiegcm2023_regional_trends.py。下一步等待授权高度登记/不同初态对照，不自动延长预热、修Restart、训练或轨道阻力传播。Git按规则仅轻量成果提交同步，实际SHA以最终核验为准。
+
+## 2026-10-20：TIE-GCM原生密度查询接口与Swarm坐标审查
+目标：只读复用S3/S7，建立可审计查询和外部坐标门禁。阅读长期规则/进度及S3/S7/高度报告，核验官方grid说明、支持目录和addiag/diags/getapex/apex/cons/lbc源码。确认变重力ZG积分和下边界登记，无法证明WGS84严格转换，未编造误差界。未修改第三方源树或既有物理数据。
+新增src/atmosphere/tiegcm_density_provider.py、17项测试、validate/plot_tiegcm_density_interface相关脚本，查询按八列完整性/单调高度/正有限密度/时空边界门禁，LRU256列，with关闭文件。外部适配返回未验证，标量协议抛异常避免补0。首轮v1后增加manifest溯源/CF时间交叉检查，以v2重新进行最终离线验证，无模型启动。
+命令：source scripts/activate_orbit.sh；python -m unittest discover -s tests（93通过）；python -m unittest discover -s tests -p test_tiegcm_density_provider.py（17通过）；python scripts/validate_tiegcm_density_interface.py --run-tag tiegcm_density_interface_v2；python scripts/plot_tiegcm_density_validation.py。环境.venv310复用，无安装/数据下载/仿真/轨道传播。新增报告、坐标审查、下一预热设计、原生查询CSV与性能图、审计JSON和日志，路径见STATUS最新节。
+S3/S7共46原NetCDF读取前后SHA匹配，每源3个原生网格点恢复相对误差<2e-15；1000次查询全部有效（只代表构造原生测试点）。平均11.292/11.089ms、P95 15.624/15.401ms，进程累计峰RSS89.668/97.707MiB；缓存数组118784字节。线性垂直与log垂直差异P95 3.483/3.493%，全log水平时间替代差异P95约0.043/0.042%。不是准确度界或Swarm真实密度结果。
+v1真实网格直接读取曾有NetCDF missing_value安全转dtype警告，读的是已核查有限内层标量；v2显式关闭自动mask并在提供器按源dtype检查填充值，最终日志无该警告。Swarm沿用冻结时间/SP3入口，窗口17281点，WGS84高460311.510587—489988.985679m；正式密度查询0次，覆盖率N/A，未以球半径/椭球高替代ZG。
+剩余：官方高度/纬度参考登记、初场敏感性/预热、时序离散验证、质量/迎风面积/Cd/姿态/推进器和其他受力。后续实验只设计未执行；等待授权。GitHub同步的真实提交及远端核验见最终汇报，不预先声称推送成功。

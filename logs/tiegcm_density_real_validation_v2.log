@@ -1,0 +1,16 @@
+{
+  "S3": {
+    "queries": 1000,
+    "mean_ms": 11.292077085003257,
+    "p95_ms": 15.62441410496831,
+    "process_peak_RSS_MiB": 89.66796875,
+    "linear_vertical_relative_difference_p95": 0.03483178274638658
+  },
+  "S7": {
+    "queries": 1000,
+    "mean_ms": 11.089199611917138,
+    "p95_ms": 15.400531329214573,
+    "process_peak_RSS_MiB": 97.70703125,
+    "linear_vertical_relative_difference_p95": 0.03493322503059456
+  }
+}

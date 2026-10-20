@@ -56,3 +56,6 @@ Swarm质量优先同期SC_ADYN的m_SC，473 kg仅发射质量；日内范围不�
 
 ## S7完成后的长期门禁
 已新授权完成一次S7连续12970步，无guardian/续算/重试。S3/S7共同290帧比较表明3天候选预热不满足全部预注册标准，S7也非真值/未证明初态无关。DEN/ZG/N2仅在已核实冷echo身份下允许原生未计算，暖态缺失必须拒绝，冷TN/风/O1/O2/HE仍检查。当前不自动增加预热或轨道积分。原生ZG内部高度共同有效率不是Swarm沿轨有效率；未统一参考面保持N/A。N2近small=1e-6处巨大相对差须连同绝对差/顶边界一起报告，不改冻结1e-8相对统计门限求PASS。当前GPI起日03-14，更早启动需新驱动和授权。入口reports/TIEGCM2023_S3_S7_COMPARISON.md及docs/TIEGCM2023_NEXT_STAGE_DECISION.md。
+
+## 原生密度接口最新门禁
+TiegcmDensityProvider仅对显式TIEGCM_NATIVE_ZG和模型地理纬度提供已测试查询；外部ITRS/WGS84关系未闭合，必须返回EXTERNAL_DATUM_UNVERIFIED或抛异常，禁止静默近似、密度补0和高度外推。每次要求两时间帧×四水平邻点八列全部有效，即使权重为0亦检查；极冠超出±87.5°原生中心域明确拒绝。使用前核验原NetCDF与审计清单SHA，查询元数据中的清单哈希本身不是逐次数据验证。接口验证/1000原生点全有效不等于Swarm覆盖率，见TIEGCM_SWARM_COORDINATE_DATUM及DENSITY_INTERFACE_VALIDATION。当前没有新的模型或真实阻力授权。

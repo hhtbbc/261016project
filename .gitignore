@@ -68,3 +68,6 @@ credentials.json
 !/logs/tiegcm2023_s3_s7_regional_trends.log
 !/logs/tiegcm2023_comparison_tests.log
 !/logs/tiegcm2023_s3_s7_delivery_tests.log
+
+# Native density API test and offline audit evidence
+!/logs/tiegcm_density*.log

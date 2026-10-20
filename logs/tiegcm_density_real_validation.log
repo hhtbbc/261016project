@@ -1,0 +1,19 @@
+/workspace/data/20261016/scripts/validate_tiegcm_density_interface.py:36: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  h=float(n['ZG'][record,20,12,20])*.01;expected=float(n['DEN'][record,20,12,20])*1000
+{
+  "S3": {
+    "queries": 1000,
+    "mean_ms": 11.157197261229157,
+    "p95_ms": 15.36621144041419,
+    "process_peak_RSS_MiB": 89.32421875,
+    "linear_vertical_relative_difference_p95": 0.03483178274638658
+  },
+  "S7": {
+    "queries": 1000,
+    "mean_ms": 11.069915387779474,
+    "p95_ms": 15.237001050263641,
+    "process_peak_RSS_MiB": 96.80859375,
+    "linear_vertical_relative_difference_p95": 0.03493322503059456
+  }
+}
