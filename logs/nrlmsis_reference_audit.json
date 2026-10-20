@@ -1,0 +1,7 @@
+{
+  "rows": 200,
+  "maximum_density_relative_difference": 0.0004371377331309212,
+  "fixed_upstream_tolerance": 0.002,
+  "source": "Upstream msis2.1_test_ref_dp.txt, pre-existing rounded double precision Fortran reference",
+  "independence_limit": "Stored regression reference, not independent atmospheric observations or a separately developed physics model"
+}

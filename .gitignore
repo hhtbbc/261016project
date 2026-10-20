@@ -78,3 +78,6 @@ credentials.json
 
 # Research-only RK45 drag integration evidence (raw traces remain under data/)
 !/logs/provisional_drag*.log
+
+# Offline NRLMSIS validation logs
+!/logs/nrlmsis*.log

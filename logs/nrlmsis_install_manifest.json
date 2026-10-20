@@ -1,0 +1,42 @@
+{
+  "wheel": {
+    "comment_text": null,
+    "core-metadata": {
+      "sha256": "6fe710e1e3322e570fabd38fd136b7f087d843ac6c790cbff4312b7204b1d7ee"
+    },
+    "digests": {
+      "blake2b_256": "c9ddbd5b8c17111688102f4cf17f98bd3eb22515ac500828fe563d7c90983b2c",
+      "md5": "2b43ca7cb30218ffa0d6b4cd96c88a42",
+      "sha256": "82fc89edfcdabf955e87d2cb24b2b4556214a951730b306993aeccc9396a1a1c"
+    },
+    "downloads": -1,
+    "filename": "pymsis-0.13.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "has_sig": false,
+    "md5_digest": "2b43ca7cb30218ffa0d6b4cd96c88a42",
+    "packagetype": "bdist_wheel",
+    "python_version": "cp310",
+    "requires_python": ">=3.10",
+    "size": 1309366,
+    "upload_time": "2026-09-08T23:21:00",
+    "upload_time_iso_8601": "2026-09-08T23:21:00.014722Z",
+    "url": "https://files.pythonhosted.org/packages/c9/dd/bd5b8c17111688102f4cf17f98bd3eb22515ac500828fe563d7c90983b2c/pymsis-0.13.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "python_requires": ">=3.10",
+  "dependencies": [
+    "numpy>=1.23",
+    "pytest; extra == \"test\"",
+    "pytest-cov; extra == \"test\"",
+    "matplotlib; extra == \"doc\"",
+    "myst-parser; extra == \"doc\"",
+    "sphinx; extra == \"doc\"",
+    "sphinx_gallery; extra == \"doc\"",
+    "pydata-sphinx-theme; extra == \"doc\"",
+    "pymsis[doc,test]; extra == \"dev\"",
+    "mypy; extra == \"dev\"",
+    "pre-commit; extra == \"dev\"",
+    "ruff; extra == \"dev\""
+  ],
+  "free_disk": 623549349888
+}

@@ -45,3 +45,7 @@ B/C仅替换DensityProvider。卫星质量/面积/Cd（或相同properties_provi
 
 ## 2026-10-20原生密度接口更新
 S3/S7实际2023场与原生查询工程验证已完成，取代开头历史“尚未取得2023场”的工程状态；科学可信度/初态敏感性尚未闭合。TiegcmDensityProvider.query_native接受显式TIEGCM_NATIVE_ZG，支持共同290帧并返回逐查询质量信息；外部DensityQuery适配尚阻断。详细契约见TIEGCM_SWARM_COORDINATE_DATUM.md。不得因原生接口成功直接进入B/C轨道积分，真实参数、坐标登记和模型可信度门槛仍有效。
+
+## 2026-10-20接续更新
+
+已有S3/S7和合成气动RK45结果均为历史实测成果；本次NRLMSIS2.1离线经验基准已完成，早前“尚未安装/未取得2023场”仅描述当时状态。新的经验密度源为MsisDensityProvider，明确WGS84/SI、冻结GFZ前日Fobs/中心81日和7项Ap，拒绝自动补数。后续只改变密度来源时仍须相同初态、气动参数、零ITRS风及其他受力；TIE只允许显式PROVISIONAL映射，正式坐标门禁未解除。下一次传播须另获授权。

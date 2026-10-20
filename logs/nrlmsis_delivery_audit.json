@@ -1,0 +1,15 @@
+{
+  "rows": 361,
+  "ratio_formula_passed": true,
+  "formal_modules_identical_to_previous_HEAD": [
+    "src/atmosphere/tiegcm_density_provider.py",
+    "src/atmosphere/density_interface.py",
+    "src/orbit/rk45_propagator.py",
+    "src/orbit/drag.py"
+  ],
+  "new_public_file_size_limit_MiB": 5,
+  "all_tests": 126,
+  "new_TIE_integrations": 0,
+  "new_RK45_integrations": 0,
+  "original_SP3_sha256_match": 3
+}

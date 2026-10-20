@@ -174,3 +174,13 @@ Swarm窗口17281点和WGS84坐标已复用原入口核对，但ZG下边界零面
 1h D0/D2及各tight门禁通过：最大阻力响应2.937451m，配对收敛差3.4087e-5m。随后D0—D4五组6h完成，另D0/D1/D2/D4四组tight；共13次真实初态探索传播，无失败重试或新大气积分。D1/D2终点差6.741712m，D3/D4差7.053848m；D1/D3映射差5.818585m，D2/D4差6.130734m。D1—D4对D0终点扰动109.588/116.330/115.407/122.461m，沿轨为主，均不是预测误差。阻力模约1.11e-7—2.12e-7m/s²。
 6h抽查单轨基准/tight差约0.0584m，源/映射配对差收敛变化2.49e-5/5.02e-5m，冻结门槛通过；D3未单独tight，不泛化全面证明。45594次内部及2649次输出密度查询全有效、失败0；41次接缝邻列/2614次高纬查询通过审计。模型阶段1389.205s，峰RSS182.559MiB；计算后会话等待不计模型耗时，离线审计另19.579s。55项保护文件及旧SP3 SHA核验通过，原J2结果不覆盖。
 交付报告PROVISIONAL_DRAG_ORBIT_EXPERIMENT.md、PROVISIONAL_DRAG_NUMERICAL_VALIDATION.md，缺口FORMAL_ORBIT_VALIDATION_GAPS.md，6张三重标签图、状态/模型差/资源CSV及experiments/provisional_drag_orbit_v1审计。原始逐查询压缩日志和NPZ约26.85MB留本地data/processed不上传。新核查6h窗口有22条非零dt_thr、f_thr全0、Maneuver_Id全0但质量位未解释；未用于拟合。正式高度登记、Cd/面积/姿态/推力、完整受力及高频场/初态敏感性仍未闭合。同步GitHub后停止，不继续48h或新的模型任务。
+
+## 2026-10-20最新：NRLMSIS经验密度离线基准完成，等待指令
+
+- pymsis0.13.0安装于既有.venv310，NRLMSIS固定2.1；70包依赖兼容，TIE环境未改。新接口支持显式冻结GFZ驱动、WGS84/ITRS和批量查询，失败报错；正式TIE外部门禁保持拒绝。
+- 前日Fobs、目标日中心81日平均及7项Ap历史完整，ap/Ap均def，太阳API逐值质量未知；32条03-20—23边界审计通过，HINDCAST，不用Kp代替Ap，不走默认联网路径。
+- 6小时SP3离线诊断：先73个300秒点，后361个60秒点，全有效；NRLMSIS密度1.129333e-12—1.805477e-12kg/m³，中位1.580192e-12。
+- TIE相对NRLMSIS中位差S3/A−37.320%、S7/A−33.426%、S3/B−32.823%、S7/B−28.944%；全部TIE条件比较PROVISIONAL，不排名真实性。原46个NetCDF及2个查询CSV前后SHA相符。
+- 全套126测试通过（新增12）；上游预存Fortran参考200行密度相对差最大0.043714%，低于其原0.2%舍入标准，不是观测精度。361点批量0.3405秒，标量均值2.026ms/P952.314ms，分析进程峰162.590MiB。
+- 入口：reports/NRLMSIS_2023_DRIVERS.md、NRLMSIS_DENSITY_VALIDATION.md、NRLMSIS_TIEGCM_COMPARISON.md；audit在experiments/nrlmsis2023_v2，轻量CSV/五图nrlmsis2023_*。原初次脚本路径错误发生在读取阶段并保留日志，独立v2修正完成，未覆盖历史。
+- 新TIE积分0、新RK45积分0；经验接口具备后续探索接入的软件条件，正式实验仍缺TIE参考登记、Cd/面积/姿态/推力及完整受力/初态与时间分辨率验证。停止等待新授权。Git实际同步以最终核对日志为准。

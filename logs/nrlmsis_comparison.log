@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/data/20261016/scripts/run_nrlmsis_comparison.py", line 114, in <module>
+    if __name__=='__main__':main()
+  File "/workspace/data/20261016/scripts/run_nrlmsis_comparison.py", line 36, in main
+    p=ROOT/x['file'];assert sha(p)==x['sha256'],str(p);protected[x['file']]=x['sha256']
+  File "/workspace/data/20261016/scripts/run_nrlmsis_comparison.py", line 19, in sha
+    with open(p,'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/data/20261016/primary_001.nc'

@@ -1,0 +1,19 @@
+test_batch (test_msis_density_provider.TestMsis) ... ok
+test_boundary_history_independent (test_msis_density_provider.TestMsis) ... /workspace/data/20261016/tests/test_msis_density_provider.py:51: DeprecationWarning: parsing timezone aware datetimes is deprecated; this will raise an error in the future
+  stamp=np.array(raw['datetime'],dtype='datetime64[s]');k=int(np.searchsorted(stamp,np.datetime64(iso),side='right')-1)
+/workspace/data/20261016/tests/test_msis_density_provider.py:51: DeprecationWarning: parsing timezone aware datetimes is deprecated; this will raise an error in the future
+  stamp=np.array(raw['datetime'],dtype='datetime64[s]');k=int(np.searchsorted(stamp,np.datetime64(iso),side='right')-1)
+ok
+test_contract_wgs84 (test_msis_density_provider.TestMsis) ... ok
+test_driving_response (test_msis_density_provider.TestMsis) ... ok
+test_explicit_no_download_and_si (test_msis_density_provider.TestMsis) ... ok
+test_formal_gate_retained (test_msis_density_provider.TestMsis) ... ok
+test_height_repeat (test_msis_density_provider.TestMsis) ... ok
+test_invalid (test_msis_density_provider.TestMsis) ... ok
+test_longitude_poles (test_msis_density_provider.TestMsis) ... ok
+test_published_fortran_regression (test_msis_density_provider.TestMsis) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.110s
+
+OK

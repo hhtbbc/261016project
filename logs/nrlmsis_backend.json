@@ -1,0 +1,23 @@
+{
+  "version": "0.13.0",
+  "model": "NRLMSIS 2.1",
+  "files": [
+    {
+      "path": ".venv310/lib/python3.10/site-packages/pymsis/msis21.parm",
+      "bytes": 536576,
+      "sha256": "a322a749f368e73117dd20f3fdcf7389dabc5509f4c27073cc5580999381b508"
+    },
+    {
+      "path": ".venv310/lib/python3.10/site-packages/pymsis/msis21f.cpython-310-x86_64-linux-gnu.so",
+      "bytes": 154137,
+      "sha256": "26c3b888651db222ecdfb1a1efc922816a4692ea5fd4ee85202b30a2e21d7f7c"
+    },
+    {
+      "path": ".venv310/lib/python3.10/site-packages/pymsis/tests/msis2.1_test_ref_dp.txt",
+      "bytes": 40602,
+      "sha256": "59210a442f175b6b3f9e15034856989eea46d54ddb4fe3057a289a77512b7ce3"
+    }
+  ],
+  "reference_rows": 200,
+  "reference_origin": "Upstream distributed Fortran double precision test reference; rounded CGS table; not independently observed atmosphere"
+}

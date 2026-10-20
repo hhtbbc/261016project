@@ -244,3 +244,17 @@ S3/S7完整条件相对差P95 A6.0445%、B5.9749%，log RMSE0.048134/0.047789；
 模型阶段墙钟1389.205秒/进程峰182.559MiB，低于1800s/2GiB，GPU未用。计算已完成后会话等待较长；用户“继续”后仅读结果/审计/出报告，未重新运行传播，monotonic累计等待与模型耗时分开记录。独立流式审计19.579s，45594个RHS密度和2649个输出查询全部有效，公式重算差0，旋转范数最大差7.94e-23m/s²，完整状态往返约2.98e-9m/5.40e-9m/s，抽样密度重查差0。55保护文件和3份SP3旧清单通过；41接缝邻列/2614高纬查询保留。压缩逐查询日志/NPZ约26.85MB留data/processed，不入Git。
 新增run/summarize/audit/write_provisional_drag相关脚本、两报告和FORMAL_ORBIT_VALIDATION_GAPS.md；6张三重标签图、13组状态CSV、差值/资源CSV和审计JSON。复用.venv310及冻结IERS/闰秒，无新依赖。命令：source scripts/activate_orbit.sh；python -m unittest discover -s tests；OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/run_provisional_drag_orbit.py --run-tag provisional_drag_orbit_v1 --phase precheck --execute；门禁后同脚本--phase matrix --duration-hours 6 --execute；python scripts/summarize_provisional_drag_orbit.py；python scripts/audit_provisional_drag_orbit.py；python scripts/audit_provisional_drag_window_parameters.py；python scripts/write_provisional_drag_reports.py。已使用标签拒绝重放。
 正式阻碍继续复核：既有CDF在本6h内m_SC400.338—400.447kg、22条非零dt_thr、f_thr0、Maneuver_Id0但质量位未解释；CDF时间对HDR差−0.804ms/0ms，不做GPS偏移。实际参数未用于演示拟合。官方pymsis文档新增明确WGS84/km、前日F107/居中81日、历史Ap和自动缓存要求，本次未安装。Swarm尝试目录链接未访问成功，不声称取得码定义；高度PDF仍无严格WGS84零面关系。等待后续授权，不扩窗、不自动正式化。按规则只同步轻量公开产物，最终SHA以核对为准。
+
+## 2026-10-20：NRLMSIS2.1经验密度与TIE条件离线比较
+
+读取长期规则、状态和既有阻力/驱动/高度/比较报告；核对官方pymsis API、PyPI实际0.13.0元数据及已下载wheel源码。cp310 Linux wheel1,309,366字节SHA与PyPI一致；现有venv无pip模块，首次pip命令失败未安装，转用已审计uv pip显式--python .venv310/bin/python --no-deps，无旧包升级。70包兼容、底层Fortran及系数SHA入档，安装包/缓存/日志均项目内，不修改TIE栈。
+
+新增FrozenGfzDrivers/MsisDensityProvider、12项测试及prepare/run/report脚本；复用原GFZ Fobs/ap/Ap不下载，原SHA与既有审计匹配。前日Fobs/目标日中心81日、7项Ap历史按UTC半开桶冻结，最长57小时，03-20—23共32条边界核查。ap/Ap全def，太阳逐值质量未知；没有把Kp当Ap，也未联网默认补数。前日156.1/中心160.791358sfu，03-21起始Ap=[6,9,9,5,27,10.125,6.875]。
+
+首版分析因旧清单文件名需相对运行目录而在读取阶段停止，无计算结果；保留v1/失败日志，新独立v2完成。复核S3/S7共46NetCDF和2既有离线轨迹CSV，前后SHA不变，三份SP3沿用冻结时间/HDR校验；TIE对照取相同SP3轨迹的旧条件查询，不取上次各自传播轨迹。先5分钟73点，再60秒361点，逐点UTC/ITRS/WGS84一致，密度全有效。NRL范围1.129333e-12—1.805477e-12kg/m³，中位1.580192e-12；TIE/NRL−1中位S3/A−37.320%、S7/A−33.426%、S3/B−32.823%、S7/B−28.944%，不视为真实误差或排名。
+
+全126测试通过；200行上游独立预存Fortran舍入参考密度最大相对差0.043714%，原阈值0.2%保持，非观测验证。新增缺测/版本/长度/NaN失败、太阳历史、日期、极区/周期、向量、契约及正式拒绝测试。批量361点0.340478秒，标量均值2.026ms/P952.314ms，总离线审计绘图17.394秒、峰RSS162.590MiB。密度比/纬度/峰值/驱动及费用五图、逐点CSV、审计JSON和三报告完成。费用区分MSIS调用与TIE既有CSV重用，不冒充TIE仿真耗时。
+
+关键命令：source scripts/activate_orbit.sh；uv pip install --python .venv310/bin/python --no-deps data/raw/msis_validation/pymsis-0.13.0-*.whl；uv pip check --python .venv310/bin/python；python scripts/prepare_nrlmsis_drivers.py；PYTHONPATH=src python -m unittest discover -s tests -v；OPENBLAS_NUM_THREADS=1 python scripts/run_nrlmsis_comparison.py --run-tag nrlmsis2023_v2；python scripts/write_nrlmsis_reports.py。新输出/标签拒绝覆盖；复现可指定新--output-prefix。
+
+本次新TIE/RK45积分0，无训练/气动拟合/默认补数/外推。更新正式缺口分类、STATUS及比较方案；TIE正式坐标门禁未改。后续需授权经验密度探索传播，正式评估仍受高度、气动、机动、高阶力、初态/高频输出验证阻碍。按长期规则安全同步Git，真实SHA与推送结果见最终核对；完成后停止。
