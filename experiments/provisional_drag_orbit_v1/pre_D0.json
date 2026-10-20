@@ -1,0 +1,43 @@
+{
+  "labels": [
+    "PROVISIONAL",
+    "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+    "HINDCAST"
+  ],
+  "model": "D0",
+  "source": null,
+  "mapping": null,
+  "integration": {
+    "method": "RK45",
+    "rtol": 1e-10,
+    "atol_si": [
+      0.001,
+      0.001,
+      0.001,
+      1e-06,
+      1e-06,
+      1e-06
+    ],
+    "max_step_s": 30.0,
+    "accepted_steps": 124,
+    "nfev": 746,
+    "elapsed_s": 0.0854867696762085,
+    "output_samples": 61,
+    "success": true,
+    "message": "The solver successfully reached the end of the integration interval.",
+    "min_accepted_step_s": 0.01861368558102626,
+    "max_accepted_step_s": 30.00000000000003
+  },
+  "initial_state": [
+    -518920.9937467673,
+    210277.3926138616,
+    6804082.48844712,
+    4386.971793789882,
+    -6232.011779449503,
+    525.709091165103
+  ],
+  "wall_with_output_diagnostics_s": 1.5790215265005827,
+  "peak_RSS_MiB": 175.46484375,
+  "force": null,
+  "density_valid_fraction": null
+}

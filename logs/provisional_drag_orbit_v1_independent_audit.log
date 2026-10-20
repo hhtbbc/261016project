@@ -1,0 +1,12 @@
+{
+  "labels": [
+    "PROVISIONAL",
+    "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+    "HINDCAST"
+  ],
+  "rhs_density_queries": 45594,
+  "output_density_queries": 2649,
+  "protected_unchanged": true,
+  "audit_elapsed_s": 19.57948094047606,
+  "model_phase_budget_wall_s": 1389.2052874136716
+}

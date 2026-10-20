@@ -168,3 +168,9 @@ Swarm窗口17281点和WGS84坐标已复用原入口核对，但ZG下边界零面
 粗采样577点×8假设×S3/S7共9232次，全部条件有效；通过后仅A0/B两映射完成17281个10秒点/源，共69124次，均条件有效，正式覆盖率仍N/A。S3/S7相对密度差P95为A6.0445%、B5.9749%，log RMSE0.048134/0.047789；这些不改变预热未全部通过的结论。A上−10/+10km人为扰动使密度中位数约+17.5%/−14.8%，不是已知高度误差范围。
 完整A/B映射密度差P95约24%；粗采样拆分显示高度替换约24.1—24.3%，纬度替换约0.084%。A条件全轨迹垂直线性相对log插值P95约3.49/3.52%，不能当真实插值误差。29次经度接缝和高纬记录保留，未外推/补零/平滑。
 粗/完整离线阶段32.074/162.686秒，累计峰RSS186.961MiB，主CSV47.18MB（全10秒表留data/processed，不上传）。54文件前后保护、3份SP3与旧审计哈希、独立前向WGS84几何/时间校验通过。报告SWARM_PROVISIONAL_DENSITY_ANALYSIS.md、TIEGCM_DENSITY_UNCERTAINTY.md，集成门禁ORBIT_DRAG_INTEGRATION_READINESS.md，证据experiments/swarm_provisional_v1。未启动新大气/轨道积分或训练。下一步优先官方登记、不同合法初场和气动/机动定义；任何新积分等待授权。按规则同步GitHub后停止。
+
+## 最新：TIE-GCM密度接入RK45的探索实验完成（2026-10-20）
+新增隔离ProvisionalDragForce，复用全部原时间/完整速度/J2/RK45/密度插值，正式外部接口拒绝行为和核心文件SHA不变。显式合成参数m400kg/Cd2.2/A1m²、共转零地固风，三重标记PROVISIONAL / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST。新增6项测试，全套114项通过。
+1h D0/D2及各tight门禁通过：最大阻力响应2.937451m，配对收敛差3.4087e-5m。随后D0—D4五组6h完成，另D0/D1/D2/D4四组tight；共13次真实初态探索传播，无失败重试或新大气积分。D1/D2终点差6.741712m，D3/D4差7.053848m；D1/D3映射差5.818585m，D2/D4差6.130734m。D1—D4对D0终点扰动109.588/116.330/115.407/122.461m，沿轨为主，均不是预测误差。阻力模约1.11e-7—2.12e-7m/s²。
+6h抽查单轨基准/tight差约0.0584m，源/映射配对差收敛变化2.49e-5/5.02e-5m，冻结门槛通过；D3未单独tight，不泛化全面证明。45594次内部及2649次输出密度查询全有效、失败0；41次接缝邻列/2614次高纬查询通过审计。模型阶段1389.205s，峰RSS182.559MiB；计算后会话等待不计模型耗时，离线审计另19.579s。55项保护文件及旧SP3 SHA核验通过，原J2结果不覆盖。
+交付报告PROVISIONAL_DRAG_ORBIT_EXPERIMENT.md、PROVISIONAL_DRAG_NUMERICAL_VALIDATION.md，缺口FORMAL_ORBIT_VALIDATION_GAPS.md，6张三重标签图、状态/模型差/资源CSV及experiments/provisional_drag_orbit_v1审计。原始逐查询压缩日志和NPZ约26.85MB留本地data/processed不上传。新核查6h窗口有22条非零dt_thr、f_thr全0、Maneuver_Id全0但质量位未解释；未用于拟合。正式高度登记、Cd/面积/姿态/推力、完整受力及高频场/初态敏感性仍未闭合。同步GitHub后停止，不继续48h或新的模型任务。

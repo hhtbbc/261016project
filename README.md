@@ -53,3 +53,5 @@ S3连续候选预热已完成：7210步、48小时共同窗口290帧、六张真
 原生大气密度查询已交付：见[接口验证](reports/TIEGCM_DENSITY_INTERFACE_VALIDATION.md)和[坐标参考审查](docs/TIEGCM_SWARM_COORDINATE_DATUM.md)。S3/S7同接口、18项新增测试及1000点/源性能验证通过；外部Swarm高度适配仍显式阻断，正式沿轨覆盖率N/A。
 
 新增[PROVISIONAL Swarm沿轨敏感性分析](reports/SWARM_PROVISIONAL_DENSITY_ANALYSIS.md)：两种候选映射完成17281点/源条件查询，高度扰动保留577点分析；正式WGS84→ZG门禁仍未通过。另见[数值敏感性说明](reports/TIEGCM_DENSITY_UNCERTAINTY.md)和[阻力集成前置条件](docs/ORBIT_DRAG_INTEGRATION_READINESS.md)，不代表真实轨道精度验证。
+
+[TIE-GCM驱动RK45探索实验](reports/PROVISIONAL_DRAG_ORBIT_EXPERIMENT.md)已完成：五组6小时及必要收敛对照，采用显式合成气动参数，三重标签PROVISIONAL / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST。模型间差异不是预测误差，正式参考面门禁仍保留；见[数值验证](reports/PROVISIONAL_DRAG_NUMERICAL_VALIDATION.md)与[正式验证缺口](docs/FORMAL_ORBIT_VALIDATION_GAPS.md)。

@@ -62,3 +62,6 @@ TiegcmDensityProvider仅对显式TIEGCM_NATIVE_ZG和模型地理纬度提供已�
 
 ## 探索性坐标实验与正式接口分离
 用户已授权完成独立PROVISIONAL坐标/高度偏移离线分析，不能将这些映射写入正式外部接口。provisional_coordinate_adapter无density_kg_m3协议，只能显式选择假设并调用query_provisional；A/B及人为偏移的条件查询100%有效，不等于正式沿轨有效率或参考面已验证。偏移不是置信区间/误差界；S3/S7、坐标和插值差不能直接相加成总误差。正式接口仍EXTERNAL_DATUM_UNVERIFIED，当前没有模型或真实RK45阻力积分授权。详见reports/SWARM_PROVISIONAL_DENSITY_ANALYSIS.md。
+
+## 六小时合成气动阻力集成完成后的门禁
+用户已单独授权并完成provisional_drag_orbit_v1：4次1h预检/收敛、5组6h主实验、4次6h必要tight，共13次真实初态探索传播；不是正式精度评估。所有成果保留PROVISIONAL / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST三重标记，正式外部密度仍EXTERNAL_DATUM_UNVERIFIED。私有桥仅显式构造，不可自动启用。结果是模型间差异，不叫预测误差；当前参数m400kg/Cd2.2/A1m²为演示，不能冒充实物。查询失败必须中止。当前授权已完成，不自动追加传播/延长窗口/新TIE-GCM或训练。见PROVISIONAL_DRAG_ORBIT_EXPERIMENT及NUMERICAL_VALIDATION。

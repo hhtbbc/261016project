@@ -75,3 +75,6 @@ credentials.json
 # Explicitly provisional coordinate / offline trajectory query evidence
 !/logs/provisional_adapter_tests.log
 !/logs/swarm_provisional*.log
+
+# Research-only RK45 drag integration evidence (raw traces remain under data/)
+!/logs/provisional_drag*.log

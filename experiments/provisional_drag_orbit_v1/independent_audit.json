@@ -1,0 +1,405 @@
+{
+  "labels": [
+    "PROVISIONAL",
+    "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+    "HINDCAST"
+  ],
+  "model_launches_TIEGCM": 0,
+  "precheck_real_state_propagations": 4,
+  "matrix_real_state_propagations_including_tight": 9,
+  "formal_interfaces_modified": false,
+  "queries": {
+    "D1": {
+      "counts": {
+        "rhs": 4346,
+        "output": 361
+      },
+      "periodic_seam_stencil_queries": 3,
+      "high_latitude_queries_abs_ge85": 253,
+      "compressed_trace_bytes": 2610102,
+      "trace_sha256": "cd11407f2fc9eca3c88abb5d8cb2d4c3ecc82737457c28a27fa7872875b42b50",
+      "max_force_formula_difference_m_s2": 0.0,
+      "max_rotation_norm_difference_m_s2": 5.293955920339377e-23,
+      "largest_a_dot_vrel_W_kg": -0.0008394365529335669,
+      "recomputed_density_samples": 6,
+      "max_recomputed_density_relative_difference": 0.0,
+      "max_rotation_difference_m_s2": 0.0,
+      "max_full_state_roundtrip_position_m": 2.1339280972982942e-09,
+      "max_full_state_roundtrip_velocity_m_s": 4.846588228411902e-09
+    },
+    "D1_tight": {
+      "counts": {
+        "rhs": 8666,
+        "output": 361
+      },
+      "periodic_seam_stencil_queries": 9,
+      "high_latitude_queries_abs_ge85": 467,
+      "compressed_trace_bytes": 4852324,
+      "trace_sha256": "5a303594e19bb6c6345ba1136700954be7bc2cca6d135dea595b75e916225bb4",
+      "max_force_formula_difference_m_s2": 0.0,
+      "max_rotation_norm_difference_m_s2": 5.293955920339377e-23,
+      "largest_a_dot_vrel_W_kg": -0.0008407455660424025,
+      "recomputed_density_samples": 11,
+      "max_recomputed_density_relative_difference": 0.0,
+      "max_rotation_difference_m_s2": 0.0,
+      "max_full_state_roundtrip_position_m": 2.9816870751943665e-09,
+      "max_full_state_roundtrip_velocity_m_s": 3.931186207788031e-09
+    },
+    "D2": {
+      "counts": {
+        "rhs": 4346,
+        "output": 361
+      },
+      "periodic_seam_stencil_queries": 3,
+      "high_latitude_queries_abs_ge85": 253,
+      "compressed_trace_bytes": 2603066,
+      "trace_sha256": "7a4e359802ab9ae3efec4b2297905beafeafb48884f702ac0f28d729c1429d4d",
+      "max_force_formula_difference_m_s2": 0.0,
+      "max_rotation_norm_difference_m_s2": 5.293955920339377e-23,
+      "largest_a_dot_vrel_W_kg": -0.000887451481362191,
+      "recomputed_density_samples": 6,
+      "max_recomputed_density_relative_difference": 0.0,
+      "max_rotation_difference_m_s2": 0.0,
+      "max_full_state_roundtrip_position_m": 1.9201912455268535e-09,
+      "max_full_state_roundtrip_velocity_m_s": 2.7077176721697853e-09
+    },
+    "D2_tight": {
+      "counts": {
+        "rhs": 8666,
+        "output": 361
+      },
+      "periodic_seam_stencil_queries": 9,
+      "high_latitude_queries_abs_ge85": 467,
+      "compressed_trace_bytes": 4849752,
+      "trace_sha256": "1283f10c94308634424cd6e7bbc5fbfbc623656963abbe4a04d1b15281342b00",
+      "max_force_formula_difference_m_s2": 0.0,
+      "max_rotation_norm_difference_m_s2": 5.293955920339377e-23,
+      "largest_a_dot_vrel_W_kg": -0.0008888097295071354,
+      "recomputed_density_samples": 11,
+      "max_recomputed_density_relative_difference": 0.0,
+      "max_rotation_difference_m_s2": 0.0,
+      "max_full_state_roundtrip_position_m": 1.877140660839749e-09,
+      "max_full_state_roundtrip_velocity_m_s": 4.6388119277603135e-09
+    },
+    "D3": {
+      "counts": {
+        "rhs": 4346,
+        "output": 361
+      },
+      "periodic_seam_stencil_queries": 3,
+      "high_latitude_queries_abs_ge85": 248,
+      "compressed_trace_bytes": 2677054,
+      "trace_sha256": "310fdb7ed397a72dbd8d5a950013f682b8f4799a6c044d9d8fc77cba20f5f10d",
+      "max_force_formula_difference_m_s2": 0.0,
+      "max_rotation_norm_difference_m_s2": 7.940933880509066e-23,
+      "largest_a_dot_vrel_W_kg": -0.0009826433597576404,
+      "recomputed_density_samples": 6,
+      "max_recomputed_density_relative_difference": 0.0,
+      "max_rotation_difference_m_s2": 0.0,
+      "max_full_state_roundtrip_position_m": 2.3283064365386963e-09,
+      "max_full_state_roundtrip_velocity_m_s": 5.404188914388428e-09
+    },
+    "D4": {
+      "counts": {
+        "rhs": 4346,
+        "output": 361
+      },
+      "periodic_seam_stencil_queries": 3,
+      "high_latitude_queries_abs_ge85": 248,
+      "compressed_trace_bytes": 2665262,
+      "trace_sha256": "e7b0f72373c08fc462ecd37604a220a065e75dcd71731e906f5cccfdd86e6479",
+      "max_force_formula_difference_m_s2": 0.0,
+      "max_rotation_norm_difference_m_s2": 7.940933880509066e-23,
+      "largest_a_dot_vrel_W_kg": -0.0010472743379283287,
+      "recomputed_density_samples": 6,
+      "max_recomputed_density_relative_difference": 0.0,
+      "max_rotation_difference_m_s2": 0.0,
+      "max_full_state_roundtrip_position_m": 2.1339280972982942e-09,
+      "max_full_state_roundtrip_velocity_m_s": 2.3524357431290078e-09
+    },
+    "D4_tight": {
+      "counts": {
+        "rhs": 8666,
+        "output": 361
+      },
+      "periodic_seam_stencil_queries": 9,
+      "high_latitude_queries_abs_ge85": 465,
+      "compressed_trace_bytes": 4966538,
+      "trace_sha256": "f8544025c955dc828281fa55fd87975678d74192887b90e7db7f9bd21d2e0b07",
+      "max_force_formula_difference_m_s2": 0.0,
+      "max_rotation_norm_difference_m_s2": 7.940933880509066e-23,
+      "largest_a_dot_vrel_W_kg": -0.0010488411499951352,
+      "recomputed_density_samples": 11,
+      "max_recomputed_density_relative_difference": 0.0,
+      "max_rotation_difference_m_s2": 0.0,
+      "max_full_state_roundtrip_position_m": 2.832656546307721e-09,
+      "max_full_state_roundtrip_velocity_m_s": 4.6981444519336205e-09
+    },
+    "pre_D2": {
+      "counts": {
+        "rhs": 746,
+        "output": 61
+      },
+      "periodic_seam_stencil_queries": 0,
+      "high_latitude_queries_abs_ge85": 80,
+      "compressed_trace_bytes": 447734,
+      "trace_sha256": "f271e099ecaff9b719b25388130bace587a5e8b08e04d29a20df0288d3013872",
+      "max_force_formula_difference_m_s2": 0.0,
+      "max_rotation_norm_difference_m_s2": 5.293955920339377e-23,
+      "largest_a_dot_vrel_W_kg": -0.0009576168152087868,
+      "recomputed_density_samples": 2,
+      "max_recomputed_density_relative_difference": 0.0,
+      "max_rotation_difference_m_s2": 0.0,
+      "max_full_state_roundtrip_position_m": 1.863781670875075e-09,
+      "max_full_state_roundtrip_velocity_m_s": 2.021507537600383e-09
+    },
+    "pre_D2_tight": {
+      "counts": {
+        "rhs": 1466,
+        "output": 61
+      },
+      "periodic_seam_stencil_queries": 2,
+      "high_latitude_queries_abs_ge85": 133,
+      "compressed_trace_bytes": 819724,
+      "trace_sha256": "1aeee8fae6521590fff24259509f738edc7d23fc08456592229ab1ca8ff4ccf2",
+      "max_force_formula_difference_m_s2": 0.0,
+      "max_rotation_norm_difference_m_s2": 5.293955920339377e-23,
+      "largest_a_dot_vrel_W_kg": -0.0009592691102239009,
+      "recomputed_density_samples": 3,
+      "max_recomputed_density_relative_difference": 0.0,
+      "max_rotation_difference_m_s2": 0.0,
+      "max_full_state_roundtrip_position_m": 1.863781670875075e-09,
+      "max_full_state_roundtrip_velocity_m_s": 3.4262315902485346e-09
+    }
+  },
+  "protected_unchanged": true,
+  "SP3_matches_old_manifest": true,
+  "all_internal_density_queries": 45594,
+  "all_output_density_queries": 2649,
+  "elapsed_since_initial_start_including_idle_s": 10985.148253940046,
+  "model_phase_budget_wall_s": 1389.2052874136716,
+  "elapsed_note": "Audit resumed after user pause; elapsed_since_initial_start includes idle time, not model runtime",
+  "audit_elapsed_s": 19.57948094047606,
+  "local_files": [
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D0_states.npz",
+      "bytes": 27964,
+      "sha256": "5874c6b7b63ebe72a7e0a90644d3ccad7cdcfa6aa136e07f2c42c34470df00f2",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D0_tight_states.npz",
+      "bytes": 29421,
+      "sha256": "d89c88ede03caf30d84803e4a0546abd8e64a49fa140f8e47e9a8783b92c76c1",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D1_all_queries.jsonl.gz",
+      "bytes": 2610102,
+      "sha256": "cd11407f2fc9eca3c88abb5d8cb2d4c3ecc82737457c28a27fa7872875b42b50",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D1_states.npz",
+      "bytes": 38974,
+      "sha256": "4dc746c3a87944745f56bb458a331bc2914cd16ae1f21e78bbb13b84fa8771f8",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D1_tight_all_queries.jsonl.gz",
+      "bytes": 4852324,
+      "sha256": "5a303594e19bb6c6345ba1136700954be7bc2cca6d135dea595b75e916225bb4",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D1_tight_states.npz",
+      "bytes": 40390,
+      "sha256": "b0f35b8a639aa8c518db95bcb5cabb41c48e9f98d42a2b184e7cb3b1d4a96997",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D2_all_queries.jsonl.gz",
+      "bytes": 2603066,
+      "sha256": "7a4e359802ab9ae3efec4b2297905beafeafb48884f702ac0f28d729c1429d4d",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D2_states.npz",
+      "bytes": 38950,
+      "sha256": "eec0e6e60de24bae759616655926486856add679bc4c522347064cf2fdd69cef",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D2_tight_all_queries.jsonl.gz",
+      "bytes": 4849752,
+      "sha256": "1283f10c94308634424cd6e7bbc5fbfbc623656963abbe4a04d1b15281342b00",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D2_tight_states.npz",
+      "bytes": 40400,
+      "sha256": "736791ecace4c13f7bec8588a026513877347f90815ace4b445832abf18282cd",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D3_all_queries.jsonl.gz",
+      "bytes": 2677054,
+      "sha256": "310fdb7ed397a72dbd8d5a950013f682b8f4799a6c044d9d8fc77cba20f5f10d",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D3_states.npz",
+      "bytes": 38932,
+      "sha256": "d5632608a5c3da0d2a5d89cf7aee8677a5479fab0d8b3d4aff59328c1da820e6",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D4_all_queries.jsonl.gz",
+      "bytes": 2665262,
+      "sha256": "e7b0f72373c08fc462ecd37604a220a065e75dcd71731e906f5cccfdd86e6479",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D4_states.npz",
+      "bytes": 38951,
+      "sha256": "fe5bd4553e174b26a93afb8397a317c45cf53547833f6bcfdd6d3a24ddfcb88a",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D4_tight_all_queries.jsonl.gz",
+      "bytes": 4966538,
+      "sha256": "f8544025c955dc828281fa55fd87975678d74192887b90e7db7f9bd21d2e0b07",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/D4_tight_states.npz",
+      "bytes": 40391,
+      "sha256": "db041fd4fa7d6ea4acd4debbae15f71a719798161d2c21ec7990eebd837f5464",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/pre_D0_states.npz",
+      "bytes": 6050,
+      "sha256": "e1ca1f55b60d81052979fc1d201467447e17f7f14fc7a2b79128c13fcc0da4bd",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/pre_D0_tight_states.npz",
+      "bytes": 6270,
+      "sha256": "62ef40d1cc81dcf25ce64cb540143ddcaa0e256d195bb907fb30cc5ada0a59c7",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/pre_D2_all_queries.jsonl.gz",
+      "bytes": 447734,
+      "sha256": "f271e099ecaff9b719b25388130bace587a5e8b08e04d29a20df0288d3013872",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/pre_D2_states.npz",
+      "bytes": 7983,
+      "sha256": "d8a23e39bf6799c1c21fc167fffc5eb6119e580cc7412a8c7b7eec669c42dd68",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/pre_D2_tight_all_queries.jsonl.gz",
+      "bytes": 819724,
+      "sha256": "1aeee8fae6521590fff24259509f738edc7d23fc08456592229ab1ca8ff4ccf2",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    },
+    {
+      "file": "data/processed/provisional_drag_orbit_v1/pre_D2_tight_states.npz",
+      "bytes": 8205,
+      "sha256": "8b58346f2a6300ea45b9a4e07ba6090f926da3fbc70291ec6818af767c6dcc09",
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST"
+      ]
+    }
+  ]
+}

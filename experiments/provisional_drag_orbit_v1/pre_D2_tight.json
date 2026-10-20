@@ -1,0 +1,73 @@
+{
+  "labels": [
+    "PROVISIONAL",
+    "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+    "HINDCAST"
+  ],
+  "model": "D2",
+  "source": "S7",
+  "mapping": "A_WGS84_AS_NATIVE_ZG",
+  "integration": {
+    "method": "RK45",
+    "rtol": 1e-12,
+    "atol_si": [
+      1e-05,
+      1e-05,
+      1e-05,
+      1e-08,
+      1e-08,
+      1e-08
+    ],
+    "max_step_s": 15.0,
+    "accepted_steps": 244,
+    "nfev": 1466,
+    "elapsed_s": 39.39854956418276,
+    "output_samples": 61,
+    "success": true,
+    "message": "The solver successfully reached the end of the integration interval.",
+    "min_accepted_step_s": 0.0074102416997191695,
+    "max_accepted_step_s": 15.000000000000057
+  },
+  "initial_state": [
+    -518920.9937467673,
+    210277.3926138616,
+    6804082.48844712,
+    4386.971793789882,
+    -6232.011779449503,
+    525.709091165103
+  ],
+  "wall_with_output_diagnostics_s": 41.40260829590261,
+  "peak_RSS_MiB": 183.4765625,
+  "force": {
+    "labels": [
+      "PROVISIONAL",
+      "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+      "HINDCAST"
+    ],
+    "density_queries": 1527,
+    "failures": 0,
+    "density_query_seconds": 2.340461600571871,
+    "frame_and_drag_evaluate_seconds": 40.105894181877375,
+    "phase_calls": {
+      "rhs": 1466,
+      "output": 61,
+      "test": 0
+    },
+    "column_reads": 444,
+    "cached_columns": 444,
+    "cached_array_bytes": 206016
+  },
+  "density_valid_fraction": 1.0,
+  "output_density_range_kg_m3": [
+    7.956628483553387e-13,
+    1.3012267777139114e-12
+  ],
+  "output_acceleration_range_m_s2": [
+    1.2634251104922482e-07,
+    2.083184066370379e-07
+  ],
+  "relative_velocity_range_m_s": [
+    7594.331926989252,
+    7630.302313723723
+  ]
+}

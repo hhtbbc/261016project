@@ -1,0 +1,76 @@
+{
+  "labels": [
+    "PROVISIONAL",
+    "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+    "HINDCAST"
+  ],
+  "window_utc": [
+    "2023-03-21T00:00:02",
+    "2023-03-21T06:00:02"
+  ],
+  "used_in_force": false,
+  "products": [
+    {
+      "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230321T000000_20230321T235959_0601_MDR_SC_DYN.cdf",
+      "sha256": "37a6841e51678656974b455d151ae42f281060db59d634ca1d0840c2258f0efc",
+      "time_type": "CDF_EPOCH interpreted on product HDR UTC calendar; no GPS offset applied",
+      "HDR_UTC_anchor_difference_s": -0.000804,
+      "samples": 21600,
+      "start_utc": "2023-03-21T00:00:02.756000000",
+      "end_utc": "2023-03-21T06:00:01.756000000",
+      "SyncStatus": {
+        "0": 21600
+      },
+      "Flags_q": {
+        "0": 14259,
+        "1": 2,
+        "2": 171,
+        "5": 5020,
+        "17": 2148
+      },
+      "mass_range_kg": [
+        400.338,
+        400.447
+      ],
+      "thruster_ontime_nonzero_records": 22,
+      "max_thruster_ontime_s": 0.10600000000000001,
+      "nonzero_nominal_force_records": 0,
+      "Flags_Platform": {
+        "0": 21448,
+        "16": 152
+      }
+    },
+    {
+      "file": "data/raw/swarm_attitude_2023/extracted/SW_OPER_STRAATT_1B_20230321T000000_20230321T235959_0601_MDR_SAT_AT.cdf",
+      "sha256": "98a5de739e834785b6a97de4cc9ac22851126513a2db8cab8237a0e3802cfc40",
+      "time_type": "CDF_EPOCH interpreted on product HDR UTC calendar; no GPS offset applied",
+      "HDR_UTC_anchor_difference_s": 0.0,
+      "samples": 21601,
+      "start_utc": "2023-03-21T00:00:02.000000000",
+      "end_utc": "2023-03-21T06:00:02.000000000",
+      "SyncStatus": {
+        "0": 21575,
+        "1": 26
+      },
+      "Flags_q": {
+        "0": 14260,
+        "1": 2,
+        "2": 171,
+        "5": 5020,
+        "17": 2148
+      },
+      "nonfinite_quaternion_rows": 0,
+      "finite_norm_range": [
+        0.9999999991478564,
+        1.0000000008745085
+      ],
+      "Maneuver_Id": {
+        "0": 21601
+      },
+      "quaternion_attributes": {
+        "DESCRIPTION": "Quaternion, transformation: ITRF <- S/C",
+        "UNITS": "-"
+      }
+    }
+  ]
+}

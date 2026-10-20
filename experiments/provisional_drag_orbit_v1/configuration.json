@@ -1,0 +1,74 @@
+{
+  "labels": [
+    "PROVISIONAL",
+    "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+    "HINDCAST"
+  ],
+  "t0_utc": "2023-03-21T00:00:02",
+  "max_duration_hours": 6,
+  "models": {
+    "D0": [
+      null,
+      null
+    ],
+    "D1": [
+      "S3",
+      "A_WGS84_AS_NATIVE_ZG"
+    ],
+    "D2": [
+      "S7",
+      "A_WGS84_AS_NATIVE_ZG"
+    ],
+    "D3": [
+      "S3",
+      "B_GEOCENTRIC_SPHERE"
+    ],
+    "D4": [
+      "S7",
+      "B_GEOCENTRIC_SPHERE"
+    ]
+  },
+  "base": {
+    "rtol": 1e-10,
+    "atol": [
+      0.001,
+      0.001,
+      0.001,
+      1e-06,
+      1e-06,
+      1e-06
+    ],
+    "max_step": 30.0
+  },
+  "tight": {
+    "rtol": 1e-12,
+    "atol": [
+      1e-05,
+      1e-05,
+      1e-05,
+      1e-08,
+      1e-08,
+      1e-08
+    ],
+    "max_step": 15.0
+  },
+  "thresholds": {
+    "precheck_state_max_m": 0.02,
+    "precheck_drag_difference_relative": 0.01,
+    "six_hour_state_max_m": 0.5,
+    "pair_convergence_relative": 0.01,
+    "pair_convergence_floor_m": 0.005
+  },
+  "mass_kg": 400.0,
+  "Cd": 2.2,
+  "area_m2": 1.0,
+  "ballistic_coefficient_kg_m2": 181.8181818181818,
+  "ballistic_coefficient_definition": "m/(Cd*A)",
+  "wind": "zero neutral wind in ITRS, corotating atmosphere",
+  "B_sphere_radius_m": 6371000.0,
+  "budget_start_monotonic": 15628984.688633464,
+  "budget_wall_s": 1800,
+  "RSS_limit_GiB": 2,
+  "runner_sha256": "fcdc4313c5a0f329c4bac5d8592279591d0c8edf3a9e041de9acade075e1e694",
+  "force_sha256": "59df7a011272c24e7f88a1d62590ce0304830d5d9f09a9f954b0bdb7aae77a2b"
+}
