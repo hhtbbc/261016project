@@ -1,0 +1,75 @@
+{
+  "status": "PROVISIONAL",
+  "protected_files_verified": 54,
+  "formal_interface_unchanged": true,
+  "datasets": {
+    "results/metrics/swarm_provisional_v1_coarse_S3.csv": {
+      "rows": 4616,
+      "maximum_forward_WGS84_reconstruction_m": 5.526689860357341e-07,
+      "maximum_epoch_difference_s": 1.4551915228366852e-11
+    },
+    "results/metrics/swarm_provisional_v1_coarse_S7.csv": {
+      "rows": 4616,
+      "maximum_forward_WGS84_reconstruction_m": 5.526689860357341e-07,
+      "maximum_epoch_difference_s": 1.4551915228366852e-11
+    },
+    "data/processed/swarm_provisional_v1/PROVISIONAL_full_S3.csv": {
+      "rows": 34562,
+      "maximum_forward_WGS84_reconstruction_m": 5.541697155354576e-07,
+      "maximum_epoch_difference_s": 1.4551915228366852e-11
+    },
+    "data/processed/swarm_provisional_v1/PROVISIONAL_full_S7.csv": {
+      "rows": 34562,
+      "maximum_forward_WGS84_reconstruction_m": 5.541697155354576e-07,
+      "maximum_epoch_difference_s": 1.4551915228366852e-11
+    }
+  },
+  "model_launches": 0,
+  "orbit_integrations": 0,
+  "source_sha256": {
+    "third_party/TIEGCM2.0/src/addiag.F": "0ad6c5cd0fa1058f10de0da6b156f5e466022a722f700ebf124f8efc4ac4e3e4",
+    "third_party/TIEGCM2.0/src/lbc.F": "bc597c256683f89c30d697303719ece761600923814a3b80640b4821da4b04b5",
+    "third_party/TIEGCM2.0/src/params.F": "5ed64aacd1411bbb614e5f680e07a3ac4cfe6cc469168eb73decb3939e429683",
+    "third_party/TIEGCM2.0/src/getapex.F": "379ac098eb76ce19e7ec0e4a0088a7c9096632d4e537788d9cb7a83f059fa506",
+    "third_party/TIEGCM2.0/src/cons.F": "2c2475235247888c1cf7a9d46d18466f0d05acbe95fad2f75feb8d5ad16ea127",
+    "third_party/TIEGCM2.0/src/init.F": "5ef58725bd7924d78e4eaa0bcae00dea42e84d2c77e25191b15154b47adbecdf",
+    "third_party/TIEGCM2.0/src/diags.F": "406a87917a5446493d7e0fdcb6a744271e7930f7151020f66134b4adc0b35a35"
+  },
+  "frozen_time_manifest": {
+    "cache": "/workspace/data/20261016/.cache/astropy",
+    "config": "/workspace/data/20261016/.config/astropy",
+    "versions": {
+      "numpy": "1.25.0",
+      "scipy": "1.15.3",
+      "astropy": "6.1.7",
+      "astropy-iers-data": "0.2026.10.19.0.52.1",
+      "pyerfa": "2.0.1.5",
+      "sgp4": "2.25",
+      "matplotlib": "3.10.0"
+    },
+    "iers_b": {
+      "path": "data/raw/earth_orientation/eopc04_frozen_20261020.txt",
+      "package_source": "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/astropy_iers_data/data/eopc04.1962-now",
+      "sha256": "6fc2c9d9a7cd7e9a1f597866545bb75baab292f5d51ca9358d5c64c0ce2fa64f",
+      "bytes": 5175699
+    },
+    "leap_seconds": {
+      "path": "data/raw/earth_orientation/Leap_Second_frozen_20261020.dat",
+      "package_source": "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/astropy_iers_data/data/Leap_Second.dat",
+      "sha256": "6cb6f5d4b819f2e568e25db4b0b26d89dedf031fdffb18bc94d40f4e94e268d7",
+      "bytes": 1352
+    },
+    "ut1": "[<Quantity [-0.0220007, -0.0238876] s>, array([0, 0])]",
+    "pm": "[<Quantity [-0.035517, -0.032507] arcsec>, <Quantity [0.373919, 0.380234] arcsec>, array([0, 0])]",
+    "leap_expiry": "2027-06-28",
+    "mjd_range": [
+      37665.0,
+      61294.0
+    ]
+  },
+  "official_pdf": {
+    "url": "https://download.hao.ucar.edu/pub/stans/tgcm/ZCoordinates.pdf",
+    "bytes": 85756,
+    "sha256": "b76e040fbfbf60e9563d199b3c380b7d442e24c7f521718635c11b75f5abe512"
+  }
+}

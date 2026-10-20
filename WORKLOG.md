@@ -229,3 +229,10 @@ N2在接近small=1e-6数值下限处相对差巨大，附绝对差和comp.F限�
 S3/S7共46原NetCDF读取前后SHA匹配，每源3个原生网格点恢复相对误差<2e-15；1000次查询全部有效（只代表构造原生测试点）。平均11.292/11.089ms、P95 15.624/15.401ms，进程累计峰RSS89.668/97.707MiB；缓存数组118784字节。线性垂直与log垂直差异P95 3.483/3.493%，全log水平时间替代差异P95约0.043/0.042%。不是准确度界或Swarm真实密度结果。
 v1真实网格直接读取曾有NetCDF missing_value安全转dtype警告，读的是已核查有限内层标量；v2显式关闭自动mask并在提供器按源dtype检查填充值，最终日志无该警告。Swarm沿用冻结时间/SP3入口，窗口17281点，WGS84高460311.510587—489988.985679m；正式密度查询0次，覆盖率N/A，未以球半径/椭球高替代ZG。
 剩余：官方高度/纬度参考登记、初场敏感性/预热、时序离散验证、质量/迎风面积/Cd/姿态/推进器和其他受力。后续实验只设计未执行；等待授权。GitHub同步的真实提交及远端核验见最终汇报，不预先声称推送成功。
+
+## 2026-10-20：探索性Swarm高度映射与离线密度敏感性
+目标：不改变正式拒绝行为，核查官方高度资料并执行明确PROVISIONAL的条件查询。阅读规则/进度、坐标/接口/S3-S7/气动报告。实际获取官方ZCoordinates.pdf（85756B，SHA b76e040fbfbf60e9563d199b3c380b7d442e24c7f521718635c11b75f5abe512），明确其第2页DEN在ilev；源码与实际日志确认ibgrddata=0、zbound+GSWM下边界。PDF截图工具超时、系统无pdftotext，保留工具限制说明；正文解析与原始下载成功。未安装系统工具。
+新增provisional_coordinate_adapter.py（没有正式density_kg_m3方法）、14项几何/边界/正式拒绝/导数测试；全108测试通过。A=WGS84坐标近似原生，B=地心纬度/r−6371000m，C=A上7档人为偏移。所有偏移不是已知误差界。先577个5分钟点×8假设×2源=9232次，32.074秒，全条件有效；据此预算门禁通过后，仅A0/B基线执行全17281点/源，69124查询、162.686秒，峰RSS186.961MiB。高低纬/经度接缝/原生网格边界记录及每点实际采用坐标保留，29次接缝无独有大幅跳变，不作真实大气准确性结论。
+S3/S7完整条件相对差P95 A6.0445%、B5.9749%，log RMSE0.048134/0.047789；偏移−10/+10km密度中位数约+17.5%/−14.8%。另做粗采样D纬度单独替换/E高度单独替换：P95约0.084%/24.1—24.3%，无新模型积分。分离垂直/水平/时间算法替代：A全轨迹P95约3.49—3.52%/0.0369%/0.0078%；隔层抽稀约0.89%，均属内部敏感性不是误差界。全球/纬带、6h、导数/尺度高度与局部预测残差均保存统计。
+关键命令：source scripts/activate_orbit.sh；python -m unittest discover -s tests；python scripts/analyze_swarm_provisional_density.py --run-tag swarm_provisional_v1 --full-after-coarse；python scripts/summarize_swarm_provisional_density.py --preview；同脚本无--preview；python scripts/analyze_provisional_mapping_components.py；python scripts/audit_swarm_provisional_delivery.py。独立审计54个受保护文件前后SHA、3份SP3匹配旧审计、几何前向误差最大约5.54e-7m、历元差最大1.46e-11s；正式提供器/契约SHA与原始版本一致。
+环境复用.venv310及冻结时间资料，无新依赖；主CSV47.18MB，全10秒原表留data/processed/swarm_provisional_v1（Git忽略），公开5分钟表每源2.77MB。生成三张PROVISIONAL图、两份报告、坐标更新及阻力就绪设计；配置/哈希/边界/统计/审计在experiments/swarm_provisional_v1。源码/旧场/旧结果不改；新大气积分0、新真实轨道传播0、训练0。仍缺正式参考登记、初态敏感性/高频参考、可靠Cd/面积/姿态位/机动定义，优先同起日不同合法初态设计而非直接宣称S7更准。任务结束安全提交同步，实际SHA见最终核对，停止等待后续授权。

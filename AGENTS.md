@@ -59,3 +59,6 @@ Swarm质量优先同期SC_ADYN的m_SC，473 kg仅发射质量；日内范围不�
 
 ## 原生密度接口最新门禁
 TiegcmDensityProvider仅对显式TIEGCM_NATIVE_ZG和模型地理纬度提供已测试查询；外部ITRS/WGS84关系未闭合，必须返回EXTERNAL_DATUM_UNVERIFIED或抛异常，禁止静默近似、密度补0和高度外推。每次要求两时间帧×四水平邻点八列全部有效，即使权重为0亦检查；极冠超出±87.5°原生中心域明确拒绝。使用前核验原NetCDF与审计清单SHA，查询元数据中的清单哈希本身不是逐次数据验证。接口验证/1000原生点全有效不等于Swarm覆盖率，见TIEGCM_SWARM_COORDINATE_DATUM及DENSITY_INTERFACE_VALIDATION。当前没有新的模型或真实阻力授权。
+
+## 探索性坐标实验与正式接口分离
+用户已授权完成独立PROVISIONAL坐标/高度偏移离线分析，不能将这些映射写入正式外部接口。provisional_coordinate_adapter无density_kg_m3协议，只能显式选择假设并调用query_provisional；A/B及人为偏移的条件查询100%有效，不等于正式沿轨有效率或参考面已验证。偏移不是置信区间/误差界；S3/S7、坐标和插值差不能直接相加成总误差。正式接口仍EXTERNAL_DATUM_UNVERIFIED，当前没有模型或真实RK45阻力积分授权。详见reports/SWARM_PROVISIONAL_DENSITY_ANALYSIS.md。

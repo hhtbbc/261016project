@@ -1,0 +1,22 @@
+{
+  "results/metrics/swarm_provisional_v1_coarse_S3.csv": {
+    "rows": 4616,
+    "maximum_forward_WGS84_reconstruction_m": 5.526689860357341e-07,
+    "maximum_epoch_difference_s": 1.4551915228366852e-11
+  },
+  "results/metrics/swarm_provisional_v1_coarse_S7.csv": {
+    "rows": 4616,
+    "maximum_forward_WGS84_reconstruction_m": 5.526689860357341e-07,
+    "maximum_epoch_difference_s": 1.4551915228366852e-11
+  },
+  "data/processed/swarm_provisional_v1/PROVISIONAL_full_S3.csv": {
+    "rows": 34562,
+    "maximum_forward_WGS84_reconstruction_m": 5.541697155354576e-07,
+    "maximum_epoch_difference_s": 1.4551915228366852e-11
+  },
+  "data/processed/swarm_provisional_v1/PROVISIONAL_full_S7.csv": {
+    "rows": 34562,
+    "maximum_forward_WGS84_reconstruction_m": 5.541697155354576e-07,
+    "maximum_epoch_difference_s": 1.4551915228366852e-11
+  }
+}

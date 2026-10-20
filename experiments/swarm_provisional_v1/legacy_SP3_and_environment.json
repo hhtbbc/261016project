@@ -1,0 +1,29 @@
+{
+  "status": "PROVISIONAL",
+  "SP3_checks": [
+    {
+      "file": "data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230320T235942_20230321T235942_0203.sp3",
+      "sha256": "006b0a3dbb7b6e78170f8a5710ca98c3ba61befe6744cc67b5db44628ecff3d2",
+      "matches_previous_audit": true
+    },
+    {
+      "file": "data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230321T235942_20230322T235942_0203.sp3",
+      "sha256": "a886cf14d243f1b6f47923f36a320f51ee28e1bdf18abd8915cd740249b9a280",
+      "matches_previous_audit": true
+    },
+    {
+      "file": "data/raw/orbits/swarm_a/extracted/SW_OPER_SP3ACOM_2__20230322T235942_20230323T235942_0203.sp3",
+      "sha256": "debee0430cb0bca2f5f4b905960bdc22a876d2e0dd4cf42c2adc32aa1bb6ee13",
+      "matches_previous_audit": true
+    }
+  ],
+  "environment": {
+    "python": "3.10.19 (main, Jan 14 2026, 19:36:24) [Clang 21.1.4 ]",
+    "numpy": "1.25.0",
+    "astropy": "6.1.7",
+    "netCDF4": "1.7.1.post2",
+    "scipy": "1.15.3",
+    "platform": "Linux",
+    "venv": ".venv310"
+  }
+}

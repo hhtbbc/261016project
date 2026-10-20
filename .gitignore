@@ -71,3 +71,7 @@ credentials.json
 
 # Native density API test and offline audit evidence
 !/logs/tiegcm_density*.log
+
+# Explicitly provisional coordinate / offline trajectory query evidence
+!/logs/provisional_adapter_tests.log
+!/logs/swarm_provisional*.log

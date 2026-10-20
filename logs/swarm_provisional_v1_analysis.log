@@ -1,0 +1,58 @@
+coarse S3 0 / 577
+coarse S7 0 / 577
+full S3 0 / 17281
+full S3 1000 / 17281
+full S3 2000 / 17281
+full S3 3000 / 17281
+full S3 4000 / 17281
+full S3 5000 / 17281
+full S3 6000 / 17281
+full S3 7000 / 17281
+full S3 8000 / 17281
+full S3 9000 / 17281
+full S3 10000 / 17281
+full S3 11000 / 17281
+full S3 12000 / 17281
+full S3 13000 / 17281
+full S3 14000 / 17281
+full S3 15000 / 17281
+full S3 16000 / 17281
+full S3 17000 / 17281
+full S7 0 / 17281
+full S7 1000 / 17281
+full S7 2000 / 17281
+full S7 3000 / 17281
+full S7 4000 / 17281
+full S7 5000 / 17281
+full S7 6000 / 17281
+full S7 7000 / 17281
+full S7 8000 / 17281
+full S7 9000 / 17281
+full S7 10000 / 17281
+full S7 11000 / 17281
+full S7 12000 / 17281
+full S7 13000 / 17281
+full S7 14000 / 17281
+full S7 15000 / 17281
+full S7 16000 / 17281
+full S7 17000 / 17281
+{
+  "status": "PROVISIONAL",
+  "timings": {
+    "coarse": {
+      "seconds": 32.07413396425545,
+      "queries": 9232,
+      "mean_ms": 3.4078640943599714,
+      "p95_ms": 19.99489162117242,
+      "cumulative_peak_RSS_MiB": 153.5859375
+    },
+    "full": {
+      "seconds": 162.68637293204665,
+      "queries": 69124,
+      "mean_ms": 2.2866310915323838,
+      "p95_ms": 10.937475599348543,
+      "cumulative_peak_RSS_MiB": 186.9609375
+    }
+  },
+  "output_bytes": 47180546
+}

@@ -1,0 +1,193 @@
+{
+  "status": "PROVISIONAL",
+  "timings": {
+    "coarse": {
+      "seconds": 32.07413396425545,
+      "queries": 9232,
+      "mean_ms": 3.4078640943599714,
+      "p95_ms": 19.99489162117242,
+      "cumulative_peak_RSS_MiB": 153.5859375
+    },
+    "full": {
+      "seconds": 162.68637293204665,
+      "queries": 69124,
+      "mean_ms": 2.2866310915323838,
+      "p95_ms": 10.937475599348543,
+      "cumulative_peak_RSS_MiB": 186.9609375
+    }
+  },
+  "stages": {
+    "coarse": {
+      "S3": {
+        "A-10km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "A-5km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "A-2km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "A+0km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "A+2km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "A+5km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "A+10km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "B_R6371km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        }
+      },
+      "S7": {
+        "A-10km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "A-5km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "A-2km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "A+0km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "A+2km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "A+5km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "A+10km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        },
+        "B_R6371km": {
+          "samples": 577,
+          "valid_count": 577,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 577
+          }
+        }
+      }
+    },
+    "full": {
+      "S3": {
+        "A+0km": {
+          "samples": 17281,
+          "valid_count": 17281,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 17281
+          }
+        },
+        "B_R6371km": {
+          "samples": 17281,
+          "valid_count": 17281,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 17281
+          }
+        }
+      },
+      "S7": {
+        "A+0km": {
+          "samples": 17281,
+          "valid_count": 17281,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 17281
+          }
+        },
+        "B_R6371km": {
+          "samples": 17281,
+          "valid_count": 17281,
+          "valid_fraction": 1.0,
+          "reasons": {
+            "valid": 17281
+          }
+        }
+      }
+    }
+  }
+}

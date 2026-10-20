@@ -162,3 +162,9 @@ S3/S7初始34物理字段逐位相同、26输出字段/公共网格和驱动一�
 新增TiegcmDensityProvider，S3/S7共同290帧通过同一接口按需读取，八个时空列保守检查、垂直log密度/水平及时间线性密度、经度周期、极冠拒绝、单位转换和有界缓存。18项新测试通过，全套94项通过；46个原NetCDF前后SHA均匹配。每源1000次实际原生查询：S3平均11.292ms/P95 15.624ms，S7平均11.089ms/P95 15.401ms；进程峰RSS89.668/97.707MiB。线性垂直相对log方案差异P95约3.483%/3.493%，不是实际密度误差。
 Swarm窗口17281点和WGS84坐标已复用原入口核对，但ZG下边界零面/纬度与WGS84严格关系仍未闭合，外部查询显式EXTERNAL_DATUM_UNVERIFIED，真实沿轨有效率/顶层裕量/密度曲线N/A。没有模型积分、真实阻力传播、训练或新依赖。工程接口完成，不代表物理适配完成。
 入口reports/TIEGCM_DENSITY_INTERFACE_VALIDATION.md、SWARM_TIEGCM_COVERAGE_AUDIT.md，理论docs/TIEGCM_SWARM_COORDINATE_DATUM.md，离线证据experiments/tiegcm_density_interface_v2/audit.json。后续优先官方参考面澄清与同起日不同合法完整初场设计，具体见TIEGCM_NEXT_SPINUP_EXPERIMENT.md；任何新模型/轨道积分均待授权。本次结束后按规则同步GitHub并停止。
+
+## 最新：PROVISIONAL Swarm坐标与沿轨密度敏感性（2026-10-20）
+新增独立探索适配器及14项测试，正式密度/外部查询代码SHA保持不变，外部仍EXTERNAL_DATUM_UNVERIFIED；全套108项通过。官方ZCoordinates.pdf新增明确证据DEN在ilev，下边界实际为默认zbound+GSWM，仍没有严格WGS84零面转换。
+粗采样577点×8假设×S3/S7共9232次，全部条件有效；通过后仅A0/B两映射完成17281个10秒点/源，共69124次，均条件有效，正式覆盖率仍N/A。S3/S7相对密度差P95为A6.0445%、B5.9749%，log RMSE0.048134/0.047789；这些不改变预热未全部通过的结论。A上−10/+10km人为扰动使密度中位数约+17.5%/−14.8%，不是已知高度误差范围。
+完整A/B映射密度差P95约24%；粗采样拆分显示高度替换约24.1—24.3%，纬度替换约0.084%。A条件全轨迹垂直线性相对log插值P95约3.49/3.52%，不能当真实插值误差。29次经度接缝和高纬记录保留，未外推/补零/平滑。
+粗/完整离线阶段32.074/162.686秒，累计峰RSS186.961MiB，主CSV47.18MB（全10秒表留data/processed，不上传）。54文件前后保护、3份SP3与旧审计哈希、独立前向WGS84几何/时间校验通过。报告SWARM_PROVISIONAL_DENSITY_ANALYSIS.md、TIEGCM_DENSITY_UNCERTAINTY.md，集成门禁ORBIT_DRAG_INTEGRATION_READINESS.md，证据experiments/swarm_provisional_v1。未启动新大气/轨道积分或训练。下一步优先官方登记、不同合法初场和气动/机动定义；任何新积分等待授权。按规则同步GitHub后停止。

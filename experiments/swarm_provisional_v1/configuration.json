@@ -1,0 +1,61 @@
+{
+  "status": "PROVISIONAL",
+  "run_tag": "swarm_provisional_v1",
+  "seconds_between_sp3": 10,
+  "coarse_stride": 30,
+  "full_baseline_scenarios": [
+    "A+0km",
+    "B_R6371km"
+  ],
+  "scenarios": {
+    "A-10km": {
+      "assumption": "A_WGS84_AS_NATIVE_ZG",
+      "height_offset_m": -10000,
+      "sphere_radius_m": null
+    },
+    "A-5km": {
+      "assumption": "A_WGS84_AS_NATIVE_ZG",
+      "height_offset_m": -5000,
+      "sphere_radius_m": null
+    },
+    "A-2km": {
+      "assumption": "A_WGS84_AS_NATIVE_ZG",
+      "height_offset_m": -2000,
+      "sphere_radius_m": null
+    },
+    "A+0km": {
+      "assumption": "A_WGS84_AS_NATIVE_ZG",
+      "height_offset_m": 0,
+      "sphere_radius_m": null
+    },
+    "A+2km": {
+      "assumption": "A_WGS84_AS_NATIVE_ZG",
+      "height_offset_m": 2000,
+      "sphere_radius_m": null
+    },
+    "A+5km": {
+      "assumption": "A_WGS84_AS_NATIVE_ZG",
+      "height_offset_m": 5000,
+      "sphere_radius_m": null
+    },
+    "A+10km": {
+      "assumption": "A_WGS84_AS_NATIVE_ZG",
+      "height_offset_m": 10000,
+      "sphere_radius_m": null
+    },
+    "B_R6371km": {
+      "assumption": "B_GEOCENTRIC_SPHERE",
+      "height_offset_m": 0.0,
+      "sphere_radius_m": 6371000.0
+    }
+  },
+  "budget": {
+    "wall_seconds": 900,
+    "RSS_GiB": 1,
+    "new_output_MiB": 256
+  },
+  "formal_provider_sha256": "2af64d466f40fa235915ce6e4b29cf4fc28dad086245d3df9e30b7bc1db0291f",
+  "adapter_sha256": "70487ead9b944e8e33187a567ad87666595789238c27416a552044d421a96e15",
+  "sphere_interpretation": "6371000m is an explicit exploratory reference only, not proven ZG zero",
+  "limitations": "PROVISIONAL conditional mappings; offsets are not confidence bounds; no orbit accuracy claim"
+}
