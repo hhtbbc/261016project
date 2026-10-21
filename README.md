@@ -63,3 +63,5 @@ D5已完成1h预检及6h base/tight，与原D0—D4作受控比较，原实验�
 
 ## J3/J4受控无阻力比较
 已完成原J2基线上的J3/J4增量验证；J3组部分残差下降，J3+J4组终点下降但全段RMSE增大，不能视作完整引力或密度精度结论。[运行比较](reports/HIGH_ORDER_GRAVITY_ORBIT_COMPARISON.md)、[独立验证](reports/HIGH_ORDER_GRAVITY_VALIDATION.md)、[真实参数审查](docs/SWARM_FORMAL_FORCE_PARAMETERS.md)。旧D0—D5保留，后续密度组须统一升级引力。
+
+最新引力基线：[完整8×8设计](docs/SPHERICAL_HARMONICS_GRAVITY_DESIGN.md)、[独立验证](reports/SPHERICAL_HARMONICS_VALIDATION.md)、[六小时比较](reports/SPHERICAL_HARMONICS_ORBIT_COMPARISON.md)。H1为统一EGM2008静态低阶场，旧实验保留；正式大气精度比较的物理门禁尚未解除。

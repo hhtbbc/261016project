@@ -1,0 +1,16 @@
+{
+  "version": "4.14.1",
+  "wheel_path": "data/raw/gravity_sources/pyshtools-4.14.1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+  "wheel_size_bytes": 13898723,
+  "wheel_url": "https://files.pythonhosted.org/packages/9f/f1/bbfc6602ef6391a78e3f303de97a63a40e99d423126d8a2d0ebb8b9f2eff/pyshtools-4.14.1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+  "wheel_sha256": "f64bb8b602162dd9f8cb7f04a505258d6b3a939f39b291bb9196bee661a89781",
+  "isolated_directory": ".local/reference/pyshtools_4_14_1",
+  "binary_sha256": {
+    ".local/reference/pyshtools_4_14_1/pyshtools/_SHTOOLS.cpython-310-x86_64-linux-gnu.so": "170bc93560d4909e25ceb1f86d40140563d56bb3350e2c04d7533126ff6f8d19",
+    ".local/reference/pyshtools_4_14_1/pyshtools.libs/libopenblas-r0-11edc3fa.3.15.so": "b6d41fcb596929a866df6e907627678e61f24c94c35ed604e687a08728ad59b8",
+    ".local/reference/pyshtools_4_14_1/pyshtools.libs/libquadmath-2284e583.so.0.0.0": "a9307bbaa353623fa014e8b682d50c4629f5e5c7d61daa9a8652f7d165cd421a",
+    ".local/reference/pyshtools_4_14_1/pyshtools.libs/libgfortran-83c28eba.so.5.0.0": "e554879fee7eda80055b6ca1407a54d00050874f830cc86b2bf3f50df5c7bb2b",
+    ".local/reference/pyshtools_4_14_1/pyshtools.libs/libfftw3-6b983104.so.3.5.5": "99d50af71070d52e430b3a7db51a7d697511783a980537da5530f2b2714c49cd"
+  },
+  "mode": "validation-only direct Fortran extension; not full Python package installation"
+}

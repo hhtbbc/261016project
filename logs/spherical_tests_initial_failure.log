@@ -1,0 +1,31 @@
+test_central (test_spherical_harmonics_gravity.TestSphericalGravity) ... ERROR
+test_external_random_and_poles (test_spherical_harmonics_gravity.TestSphericalGravity) ... ERROR
+test_gradient_convergence (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+test_j2_and_zonals (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+test_longitude_and_poles (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+test_order_and_invalid (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+
+======================================================================
+ERROR: test_central (test_spherical_harmonics_gravity.TestSphericalGravity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/data/20261016/tests/test_spherical_harmonics_gravity.py", line 24, in test_central
+    p=np.array([4e6,-3e6,5e6]);m=SphericalHarmonicsGravity(0,0)
+  File "/workspace/data/20261016/src/orbit/spherical_harmonics_gravity.py", line 39, in __init__
+    if not all(0<=m<=n<=degree and m<=order and np.isfinite(v).all() and len(v)==2 for (n,m),v in self.coefficients.items()):raise ValueError('Invalid coefficients')
+ValueError: Invalid coefficients
+
+======================================================================
+ERROR: test_external_random_and_poles (test_spherical_harmonics_gravity.TestSphericalGravity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/data/20261016/tests/test_spherical_harmonics_gravity.py", line 38, in test_external_random_and_poles
+    for p in points:np.testing.assert_allclose(m.acceleration_itrs(p),external_reference(m,p),rtol=2e-12,atol=2e-12)
+  File "/workspace/data/20261016/tests/test_spherical_harmonics_gravity.py", line 10, in external_reference
+    so=next(Path(__file__).resolve().parents[1].glob('.venv310/lib/python3.10/site-packages/pyshtools/_SHTOOLS*.so'))
+StopIteration
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.070s
+
+FAILED (errors=2)

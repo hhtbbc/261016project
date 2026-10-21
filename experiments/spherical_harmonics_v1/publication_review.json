@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "new_public_files": 53,
+  "largest_new_files": [
+    {
+      "bytes": 234280,
+      "file": "results/figures/spherical_harmonics_v1_RAC.png"
+    },
+    {
+      "bytes": 207248,
+      "file": "results/metrics/spherical_harmonics_v1_SP3_residuals.csv"
+    },
+    {
+      "bytes": 132754,
+      "file": "results/metrics/spherical_harmonics_v1_model_differences.csv"
+    },
+    {
+      "bytes": 128736,
+      "file": "results/figures/spherical_harmonics_v1_residuals.png"
+    },
+    {
+      "bytes": 106581,
+      "file": "results/figures/spherical_harmonics_v1_differences.png"
+    }
+  ],
+  "no_large_or_credential_findings": true
+}

@@ -1,0 +1,186 @@
+{
+  "product_definition_0601_confirmed": false,
+  "actual_executed_thrust_confirmed": false,
+  "new_product_downloads": 0,
+  "products": [
+    {
+      "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230321T000000_20230321T235959_0601_MDR_SC_DYN.cdf",
+      "sha256": "37a6841e51678656974b455d151ae42f281060db59d634ca1d0840c2258f0efc",
+      "unchanged": true,
+      "units_and_metadata": {
+        "m_SC": {
+          "DESCRIPTION": "Actual mass of S/C",
+          "UNITS": "kg"
+        },
+        "A_head": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,front",
+          "UNITS": "m2"
+        },
+        "A_right": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,right",
+          "UNITS": "m2"
+        },
+        "A_left": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,left",
+          "UNITS": "m2"
+        },
+        "A_down": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,down",
+          "UNITS": "m2"
+        },
+        "dt_thr": {
+          "DESCRIPTION": "Thruster on-time",
+          "UNITS": "s"
+        },
+        "f_thr": {
+          "DESCRIPTION": "Nominal thrust force of activated thrusters (combined x, y, z)",
+          "UNITS": "mN"
+        },
+        "thr_set": {
+          "DESCRIPTION": "Flag indicating which thruster branch is active ",
+          "UNITS": "-"
+        },
+        "Flags_Platform": {
+          "DESCRIPTION": "Flags characterizing the S/C platform information",
+          "UNITS": "-"
+        }
+      },
+      "mass_min_kg": 400.337,
+      "mass_max_kg": 400.447,
+      "nonzero_on_time_records": 150
+    },
+    {
+      "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230322T000000_20230322T235959_0601_MDR_SC_DYN.cdf",
+      "sha256": "80926937b56d695e4e08caed24eb6630bad0b6330d0efc9e94cc061d39ff5b66",
+      "unchanged": true,
+      "units_and_metadata": {
+        "m_SC": {
+          "DESCRIPTION": "Actual mass of S/C",
+          "UNITS": "kg"
+        },
+        "A_head": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,front",
+          "UNITS": "m2"
+        },
+        "A_right": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,right",
+          "UNITS": "m2"
+        },
+        "A_left": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,left",
+          "UNITS": "m2"
+        },
+        "A_down": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,down",
+          "UNITS": "m2"
+        },
+        "dt_thr": {
+          "DESCRIPTION": "Thruster on-time",
+          "UNITS": "s"
+        },
+        "f_thr": {
+          "DESCRIPTION": "Nominal thrust force of activated thrusters (combined x, y, z)",
+          "UNITS": "mN"
+        },
+        "thr_set": {
+          "DESCRIPTION": "Flag indicating which thruster branch is active ",
+          "UNITS": "-"
+        },
+        "Flags_Platform": {
+          "DESCRIPTION": "Flags characterizing the S/C platform information",
+          "UNITS": "-"
+        }
+      },
+      "mass_min_kg": 400.341,
+      "mass_max_kg": 400.454,
+      "nonzero_on_time_records": 59
+    },
+    {
+      "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230323T000000_20230323T235959_0601_MDR_SC_DYN.cdf",
+      "sha256": "c4c44d48e53bba2223fe0de39813ab19ac841d3e291362e4d7d57db127422845",
+      "unchanged": true,
+      "units_and_metadata": {
+        "m_SC": {
+          "DESCRIPTION": "Actual mass of S/C",
+          "UNITS": "kg"
+        },
+        "A_head": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,front",
+          "UNITS": "m2"
+        },
+        "A_right": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,right",
+          "UNITS": "m2"
+        },
+        "A_left": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,left",
+          "UNITS": "m2"
+        },
+        "A_down": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,down",
+          "UNITS": "m2"
+        },
+        "dt_thr": {
+          "DESCRIPTION": "Thruster on-time",
+          "UNITS": "s"
+        },
+        "f_thr": {
+          "DESCRIPTION": "Nominal thrust force of activated thrusters (combined x, y, z)",
+          "UNITS": "mN"
+        },
+        "thr_set": {
+          "DESCRIPTION": "Flag indicating which thruster branch is active ",
+          "UNITS": "-"
+        },
+        "Flags_Platform": {
+          "DESCRIPTION": "Flags characterizing the S/C platform information",
+          "UNITS": "-"
+        }
+      },
+      "mass_min_kg": 400.331,
+      "mass_max_kg": 400.459,
+      "nonzero_on_time_records": 128
+    },
+    {
+      "file": "data/raw/swarm_attitude_2023/extracted/SW_OPER_STRAATT_1B_20230321T000000_20230321T235959_0601_MDR_SAT_AT.cdf",
+      "sha256": "98a5de739e834785b6a97de4cc9ac22851126513a2db8cab8237a0e3802cfc40",
+      "unchanged": true,
+      "units_and_metadata": {},
+      "mass_min_kg": null,
+      "mass_max_kg": null,
+      "nonzero_on_time_records": null
+    },
+    {
+      "file": "data/raw/swarm_attitude_2023/extracted/SW_OPER_STRAATT_1B_20230322T000000_20230322T235959_0601_MDR_SAT_AT.cdf",
+      "sha256": "3df0a1251ecb582d7e032907bf2d158b8ba012773999a0b8e3b5f9adcda7e13f",
+      "unchanged": true,
+      "units_and_metadata": {},
+      "mass_min_kg": null,
+      "mass_max_kg": null,
+      "nonzero_on_time_records": null
+    },
+    {
+      "file": "data/raw/swarm_attitude_2023/extracted/SW_OPER_STRAATT_1B_20230323T000000_20230323T235959_0601_MDR_SAT_AT.cdf",
+      "sha256": "9b2ee35123ef1f9c18bdbbd9553b7dffaf968d78c4fcd3158a1e9a14896a82c0",
+      "unchanged": true,
+      "units_and_metadata": {},
+      "mass_min_kg": null,
+      "mass_max_kg": null,
+      "nonzero_on_time_records": null
+    }
+  ],
+  "official_sources_attempted": [
+    {
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Documents_publications",
+      "status": "accessible; Level1b link dated 2013-10-09"
+    },
+    {
+      "url": "https://swarmhandbook.earth.esa.int/catalogue/sw_scxdyn_1b",
+      "status": "web tool inaccessible; no new field definition obtained"
+    },
+    {
+      "url": "https://www.orekit.org/site-orekit-13.1/apidocs/org/orekit/forces/gravity/HolmesFeatherstoneAttractionModel.html",
+      "status": "Anubis access denied; not an executed reference"
+    }
+  ]
+}

@@ -282,3 +282,19 @@ S3/S7完整条件相对差P95 A6.0445%、B5.9749%，log RMSE0.048134/0.047789；
 入口：reports/HIGH_ORDER_GRAVITY_VALIDATION.md、HIGH_ORDER_GRAVITY_ORBIT_COMPARISON.md；docs/HIGH_ORDER_GRAVITY_DESIGN.md及UPDATED_GRAVITY_DENSITY_PROTOCOL.md，配置/审计experiments/high_order_gravity_v1，真实六图/CSV在results。原D0—D5、TIE场及正式坐标门禁不改，无新阻力矩阵/AI/48h扩展。下一步需新授权统一球谐（含非带谐）与真实气动/推力门禁研究，所有未来密度组须共同升级引力。本次完成后停止，Git真实SHA以最终核验为准。
 
 关键命令：source scripts/activate_orbit.sh；PYTHONPATH=src python -m unittest discover -s tests -p test_higher_order_gravity.py -v；全套discover；python scripts/validate_high_order_gravity.py（仅合成验证）；python scripts/run_high_order_gravity_comparison.py --run-tag high_order_gravity_v1（静态）；同命令--execute（3次已完成）；python scripts/analyze_high_order_gravity.py；python scripts/audit_swarm_formal_force_parameters.py；python scripts/write_high_order_gravity_reports.py。只读复用6份CDF，生成505个记录待审连续段，不把它们叫独立机动。原PDF、系数部分文件及wheel留data/raw，NetCDF/环境不入库。起初系数解析未支持Fortran小写d指数，静态阶段修正无模型启动；PDF首次读取因缺AES后端失败，项目内安装校验wheel后正常解析，无密码尝试或第三方源码修改。
+
+## 2026-10-21：完整低阶球谐引力与真实参数复核
+
+先读规则/状态/日志及J3/J4设计、验证、轨道比较、Swarm参数和阶段报告。Git初始main af8ac82、远端e89d51a；旧继承认证socket失效，采用现有同用户活跃认证通道，不保存凭据/改全局配置，成功补推af8ac8254236f5fa9e892b8968145f4ea6a7122a并核验远端相同。未重复提交旧成果。
+
+复用已有GFZ EGM2008 16384B前缀，验证SHA、完整n≤8所有m；不下载104MB全模型。明确fully_normalized/no CS、tide_free、源GM398600441500000/R6378136.3，完整C22/S22等。新模块笛卡尔实心球谐及梯度，ITRS计算物理力并沿用EarthFixedFrame/冻结ERFA矩阵旋回GCRS，不叠旧中心/J2、不加虚拟力、不改旧模块。新GM/R/C20与旧基准差异单独披露，不拟合SP3。
+
+PyPI官方pyshtools4.14.1 wheel13,898,723B校验后用独立Fortran参考；初始no-deps安装使高层依赖检查发现4缺项，随后卸载单一新增包并隔离解包于.local/reference，原72包兼容，无数值包升级。只加载wheel已验证Fortran扩展，不宣称全高层API安装。首次degree0多插degree1零项的静态错误已修复；SHTOOLS精确极点会Fortran STOP，保留限制日志，外部对照近极，生产极点独立连续性测试，未扩大门限。100随机点最大绝对/相对差1.0734e−14m/s²/1.3261e−15；有限差分三档二阶收敛，100m步相对1.186e−10。新增9/全151通过；最终隔离参考环境全量复验通过。
+
+静态配置/177保护SHA及原SP3初态核验后，仅一次执行器内H1十分钟短例和H1/H1-tight六小时各一次，未重跑G0/G1/G2/D0—D5。base原1e−10/1mm/1μm/s/30s，tight1e−12/10μm/10nm/s/15s；同361个输出。H1终点622.748675m、全段RMSE310.911962m、R/A/C RMS23.548/309.382/19.858m，相对G0终点−443.338m/全段−244.444m。终点不如旧G1不表示应选G1；法向显著减小但沿轨仍大。新旧源参数及未建模项不能唯一归因。base/tight最大0.058408m，门限0.5m通过。base108.466s/4346nfev/724步，tight215.963s/8666/1444；新传播流程328.128s、累计峰292.898MiB，177历史文件SHA未变。
+
+新增生产/测试、prepare/validate/run/analyze/report/delivery脚本；独立审计再次重算SP3三维/RAC指标、初态和代码/历史哈希。六张真实图、六个CSV、JSON/原配置及测试日志公开；NPZ、参考wheel/二进制/原CDF仍本地。构造1000Cartesian点的纯引力计算平均0.805ms/P950.815ms，与含完整框架的积分耗时分开，不宣称与旧缓存轴J2公平加速比。
+
+Swarm复用六CDF/官方旧PDF，逐SHA未变；再次访问ESA页仍链接2013版，handbook不可访问、catalogue超时，未声称取得0601新字典。f_thr原DESCRIPTION为activated thrusters的名义组合力、mN，不确认实际执行推力；22非零dt_thr和505记录段仍只是待审。质量400.331—400.459kg有记录，Cd/有效面积/姿态/标志及推力标定未闭合。
+
+命令：source scripts/activate_orbit.sh；python scripts/prepare_spherical_reference.py；PYTHONPATH=src python -m unittest discover -s tests -v；python scripts/validate_spherical_harmonics.py；python scripts/run_spherical_harmonics_comparison.py（静态）及--execute（唯一）；python scripts/analyze_spherical_harmonics.py；python scripts/write_spherical_harmonics_reports.py；python scripts/audit_spherical_harmonics_delivery.py。后续20×20/第三体/SRP/正式参数及统一引力密度矩阵仅建议，未执行。无新TIE/AI/阻力/48h或未来SP3拟合，任务完成后停止。最终Git以实际核对SHA为准。

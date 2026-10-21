@@ -1,0 +1,199 @@
+{
+  "passed": true,
+  "independent_metric_recomputation": true,
+  "protected_unchanged": true,
+  "source_code_matches_preflight": true,
+  "new_runs": [
+    "H1_short",
+    "H1",
+    "H1_tight"
+  ],
+  "no_new_drag_runs": true,
+  "artifacts": [
+    {
+      "file": "experiments/spherical_harmonics_v1/analysis.json",
+      "sha256": "2f354709e47807ff4de45ba03382999ae85568c43100d4a7feda2a7911784e9e",
+      "bytes": 8238
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/H1.json",
+      "sha256": "eeb064f25cc988301960387664843db5eb6201c964a1802141bf38448a7abf55",
+      "bytes": 442
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/H1_tight_launch_once.json",
+      "sha256": "72c1400585d3034328679fcada01d410f80d4dd2c57bfb809310994f0f17112f",
+      "bytes": 25
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/isolated_reference_audit.json",
+      "sha256": "843ac4ffec5ff18ab705daff7f6e948e4fb52e71d5b2f5b22ed6a05334711397",
+      "bytes": 201
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/validation.json",
+      "sha256": "f403bb02e999607163ae7fc35d164445ee5d7737c3141d8e5214614a2fdc8cf0",
+      "bytes": 48837
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/preflight.json",
+      "sha256": "6f4b0ac07444506338b50d7775985490dacb16ab1b698b7b26948a20bdbfae4e",
+      "bytes": 81
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/protected.json",
+      "sha256": "3f302b597dd750076dccfc50f49ab78dc4f0acce6d21aa6f6f367ec97ef427ce",
+      "bytes": 22431
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/short_precheck_audit.json",
+      "sha256": "2767fed8c9d405a12af93bbcb9c2209bac9e978f2291748d946633bd50055165",
+      "bytes": 264
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/swarm_static_review.json",
+      "sha256": "87d81a8d3bf61e8855d478e85335e06f2e8dc7dd4c656d7dc96a8c7bf9caabcb",
+      "bytes": 6355
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/launch_once.json",
+      "sha256": "7a0827bc19ce2aa04a186d8ff669d1de6e5f96cc7a3311326cc45174f7b4eec6",
+      "bytes": 107
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/github_previous_sync.json",
+      "sha256": "e050c7907947ff8d29567487a0bb61f448ac3f5d6680ca8115ece6ee2a0da1b9",
+      "bytes": 452
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/configuration.json",
+      "sha256": "ecf9ca40487c20936929cf8455bbfd097e2c6c245cca1db7a6d9675baf987b26",
+      "bytes": 2502
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/H1_short_launch_once.json",
+      "sha256": "90237f8ff3ae79c0f0d7af43a95e081ce4fa29e49938fcc1fe1461b0b34021a9",
+      "bytes": 23
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/H1_tight.json",
+      "sha256": "c29cb277c324d50c18e2808563c75d6ea33f5931f7aaf0feaa4c29b9b4d6e009",
+      "bytes": 444
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/H1_short.json",
+      "sha256": "d5544cdd71f8e0d48aeed9757179103b88098b2536026fe936a641ab336e5f14",
+      "bytes": 426
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/run_summary.json",
+      "sha256": "1a4fff54d587f2618eee60612636270dda337a1b9c133ed525008559f23ef7a4",
+      "bytes": 1834
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/field_performance.json",
+      "sha256": "7c506bf4d8f6663ad7fc597e10169816495610fe424cc74775940a5f35c3b87a",
+      "bytes": 262
+    },
+    {
+      "file": "experiments/spherical_harmonics_v1/H1_launch_once.json",
+      "sha256": "72c1400585d3034328679fcada01d410f80d4dd2c57bfb809310994f0f17112f",
+      "bytes": 25
+    },
+    {
+      "file": "results/metrics/spherical_harmonics_v1_common_state_accelerations.csv",
+      "sha256": "60720db06f4f2b1f269bc20afbd637d55b38c13bd698268c0be118837316a6b2",
+      "bytes": 47170
+    },
+    {
+      "file": "results/metrics/spherical_harmonics_v1_convergence.csv",
+      "sha256": "e816f6fd9e2be912ffcd1a142ea84cfeb3d49e900dac8397bec338747d2ddab5",
+      "bytes": 22194
+    },
+    {
+      "file": "results/metrics/spherical_harmonics_v1_model_differences.csv",
+      "sha256": "187547decbc4440977cd27d937e91ac5358b6b894a59d836c46d1a63bf399a20",
+      "bytes": 131670
+    },
+    {
+      "file": "results/metrics/spherical_harmonics_v1_SP3_residuals.csv",
+      "sha256": "13800070e1e54d50936008fc4081e3ee0821f9f540c2181861fc1d6dff706418",
+      "bytes": 205803
+    },
+    {
+      "file": "results/metrics/spherical_harmonics_v1_H1_states.csv",
+      "sha256": "01e7e66b9de2720115c9803af91455bed15e953d0acc89ee465a135774b211bf",
+      "bytes": 64019
+    },
+    {
+      "file": "results/metrics/spherical_harmonics_v1_resources.csv",
+      "sha256": "d573d1dd6a04654b56fe7f030df1861858a0e95cd805af6b5dc64e3428921e1c",
+      "bytes": 763
+    },
+    {
+      "file": "results/figures/spherical_harmonics_v1_costs.png",
+      "sha256": "c6e04cca622693b5068cb25e0d75dd1fbc6abbf21213515ee2a699967f5b2c0a",
+      "bytes": 46250
+    },
+    {
+      "file": "results/figures/spherical_harmonics_v1_differences.png",
+      "sha256": "f2ee418ba1b088067366507628cb44125847097aa4abc1f79969a92c92a168c7",
+      "bytes": 106581
+    },
+    {
+      "file": "results/figures/spherical_harmonics_v1_convergence.png",
+      "sha256": "56cb3cf3e5eed9d2f0e8ef315903a9669818145da1fe24ac644271571e65e65e",
+      "bytes": 56526
+    },
+    {
+      "file": "results/figures/spherical_harmonics_v1_accelerations.png",
+      "sha256": "1a8df22ecdd48b560a9c570ecdefec95b962c5889c27e5f58231cc4e361b7e2b",
+      "bytes": 101614
+    },
+    {
+      "file": "results/figures/spherical_harmonics_v1_RAC.png",
+      "sha256": "7c2c2b23355aa4e49036986b07255ca9aa4827eb27397cd1f5fedcbb03f02bc6",
+      "bytes": 234280
+    },
+    {
+      "file": "results/figures/spherical_harmonics_v1_residuals.png",
+      "sha256": "1f9be39878e4291ee80f87ea4246e622f2e8ef5cc75ce7d5c9c74a94fc1f4ef7",
+      "bytes": 128736
+    }
+  ],
+  "csv_line_ending_normalization": {
+    "numeric_records_identical": true,
+    "changes": [
+      {
+        "file": "results/metrics/spherical_harmonics_v1_common_state_accelerations.csv",
+        "old_sha256": "e8db39289006dba5018b7ade402d899ffa3b5c45589c0901ab6d825069352acb",
+        "new_sha256": "60720db06f4f2b1f269bc20afbd637d55b38c13bd698268c0be118837316a6b2"
+      },
+      {
+        "file": "results/metrics/spherical_harmonics_v1_convergence.csv",
+        "old_sha256": "9c28f250e6c248bae6d5f7b9ac25dc4c18e204a60a7aac60032710e6c0b610f7",
+        "new_sha256": "e816f6fd9e2be912ffcd1a142ea84cfeb3d49e900dac8397bec338747d2ddab5"
+      },
+      {
+        "file": "results/metrics/spherical_harmonics_v1_model_differences.csv",
+        "old_sha256": "3c9b7850a10890ab5c7c5bae2b6ce91cd2adec68c6caa9b46a0497bcb7e98d45",
+        "new_sha256": "187547decbc4440977cd27d937e91ac5358b6b894a59d836c46d1a63bf399a20"
+      },
+      {
+        "file": "results/metrics/spherical_harmonics_v1_SP3_residuals.csv",
+        "old_sha256": "02c5581277a39eff23dd8418bb1605a4601cf3272fab543e2a0b8f28c2e99caf",
+        "new_sha256": "13800070e1e54d50936008fc4081e3ee0821f9f540c2181861fc1d6dff706418"
+      },
+      {
+        "file": "results/metrics/spherical_harmonics_v1_H1_states.csv",
+        "old_sha256": "01816a76c8a02102e7b6557faa8e994de43c1c92ee81d6297fd79ceca187f279",
+        "new_sha256": "01e7e66b9de2720115c9803af91455bed15e953d0acc89ee465a135774b211bf"
+      },
+      {
+        "file": "results/metrics/spherical_harmonics_v1_resources.csv",
+        "old_sha256": "793949631a28363beb8ada70fc44a9e10089b868dffefd537076645d861d3aa5",
+        "new_sha256": "d573d1dd6a04654b56fe7f030df1861858a0e95cd805af6b5dc64e3428921e1c"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "radius_m_range": [
+    6827029.5718386015,
+    6829673.3090508655
+  ],
+  "speed_m_s_range": [
+    7639.362695096956,
+    7639.82708010657
+  ],
+  "note": "No SP3 residual threshold used; returned states finite and orbital scales reasonable"
+}

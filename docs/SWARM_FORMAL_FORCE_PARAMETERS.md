@@ -43,3 +43,13 @@
 尚无可直接采用的Cd*A/m。质量记录本身不足，姿态方向说明不等于几何投影完成。DNSAPOD与SP3共享POD/气动信息，不可用未来密度或轨道反推参数后再评价同窗口。正式路线应先取得几何、气体表面相互作用及参考面积一致的气动模型，冻结验证前规则；如校准必须另设t0前窗口并冻结，不能在本窗口拟合。
 
 补充溯源核验：6份CDF逐字节匹配已冻结原ZIP内相应成员，原ZIP SHA与之前清单一致，流式读取CRC通过；没有重新下载或覆盖。详见swarm_archive_provenance.json。本次没有据旧PDF解释实际净推力，也未将候选质量规则用于筛选本次SP3。
+
+## 2026-10-21：完整低阶球谐任务复核
+
+复用六份CDF和上次逐字节ZIP溯源清单，没有重新下载或按SP3残差筛选。实物`f_thr` DESCRIPTION为“Nominal thrust force of activated thrusters (combined x, y, z)”，UNITS=mN。它是名义模型字段，尚不能确定代表瞬时实际执行力、脉冲平均力还是特定处理链的输出；即使数值为0，也不能推断无推力。`dt_thr`仅证明产品记录了开启时长，尚缺通道方向、支路、定标、时间聚合与质量/码字解释，不能据此计算净Δv。不得将mN直接作为N。
+
+本次再次访问[ESA文档公开页](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Documents_publications)，其Level1B链接仍标2013-10-09；未取得适用于0601/ACCELE03.25的新版字段字典。官方Swarm handbook候选链接工具访问失败，ESA catalogue请求超时；不是取得了新版定义。Orekit文档也有访问拒绝，与Swarm参数验证无关，不绕过。
+
+可直接保留为有溯源记录的是质量kg、时间戳和原字段/标志原值；正式受力采用还须确认质量标志和质量不确定度。质量三日范围400.331—400.459kg，不能把它当标准不确定度。面积向量与姿态方向证据仍不够构造经过验证的投影面积；Cd/气体表面作用、参考面积配套、四元数分量顺序及主动/被动旋转、0601码字适用性仍缺。推进器候选段只标记待审，不能称实际机动或据此删轨道点。
+
+仍保留三日150/59/128条开启时长非零记录，目标六小时22条；Maneuver_Id=0与f_thr=0均不能排除推力。详细待审UTC区间继续使用`results/metrics/high_order_gravity_v1_swarm_review_intervals.csv`，原505个记录段不改、不称505次机动。没有独立可靠Cd*A/m可直接采用，也不由验证区间SP3或DNS反演。

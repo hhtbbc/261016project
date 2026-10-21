@@ -1,0 +1,4 @@
+model,method,rtol,atol_si,max_step_s,accepted_steps,nfev,elapsed_s,output_samples,success,message,min_accepted_step_s,max_accepted_step_s
+H1_short,RK45,1e-10,"[0.001, 0.001, 0.001, 1e-06, 1e-06, 1e-06]",30.0,24,146,3.6291052382439375,11,True,The solver successfully reached the end of the integration interval.,0.018613644558128275,30.0
+H1,RK45,1e-10,"[0.001, 0.001, 0.001, 1e-06, 1e-06, 1e-06]",30.0,724,4346,108.46628624945879,361,True,The solver successfully reached the end of the integration interval.,0.018613644558128275,30.00000000000091
+H1_tight,RK45,1e-12,"[1e-05, 1e-05, 1e-05, 1e-08, 1e-08, 1e-08]",15.0,1444,8666,215.96305129118264,361,True,The solver successfully reached the end of the integration interval.,0.007410225368724949,15.000000000000014

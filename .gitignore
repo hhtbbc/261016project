@@ -87,3 +87,6 @@ credentials.json
 
 # High-order gravity validation logs
 !/logs/high_order*.log
+
+# Complete low-degree spherical harmonics validation evidence
+!/logs/spherical*.log

@@ -1,0 +1,14 @@
+test_central (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+test_external_random_and_poles (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+test_frame_force_rotation (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+test_gradient_convergence (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+test_j2_and_zonals (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+test_j2_only_and_order_cutoff (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+test_longitude_and_poles (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+test_order_and_invalid (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+test_potential_independent_legendre (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.663s
+
+OK

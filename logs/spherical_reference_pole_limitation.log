@@ -1,0 +1,5 @@
+test_central (test_spherical_harmonics_gravity.TestSphericalGravity) ... ok
+test_external_random_and_poles (test_spherical_harmonics_gravity.TestSphericalGravity) ...  Error --- PlmBar_d1
+ Derivative can not be calculated at Z = 1 or -1.
+ Input value is   -1.0000000000000000
+ Input value is            8

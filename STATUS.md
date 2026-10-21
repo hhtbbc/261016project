@@ -202,3 +202,13 @@ Swarm窗口17281点和WGS84坐标已复用原入口核对，但ZG下边界零面
 新取得ESA官方公开链接5.13版2013产品定义并只存本地；识别q详细表/概览方向矛盾、Flags_Platform跨产品含义差异及f_thr单位mN。0601现行适用性、四元数顺序/几何/Cd/推力仍未闭合；未启用真实参数。为PDF阅读仅新增项目内pypdf/pycryptodome，无系统改动/原数值包升级。资料详见SWARM_FORMAL_FORCE_PARAMETERS.md。
 
 入口：reports/HIGH_ORDER_GRAVITY_VALIDATION.md、HIGH_ORDER_GRAVITY_ORBIT_COMPARISON.md；docs/HIGH_ORDER_GRAVITY_DESIGN.md及UPDATED_GRAVITY_DENSITY_PROTOCOL.md，配置/审计experiments/high_order_gravity_v1，真实六图/CSV在results。原D0—D5、TIE场及正式坐标门禁不改，无新阻力矩阵/AI/48h扩展。下一步需新授权统一球谐（含非带谐）与真实气动/推力门禁研究，所有未来密度组须共同升级引力。本次完成后停止，Git真实SHA以最终核验为准。
+
+## 2026-10-21最新：统一完整低阶8×8引力完成
+
+上一af8ac82已安全补推并核验远端一致。新增EGM2008自身GM/R/C/S的静态tide_free 8×8（包括非带谐），完整地固旋转至GCRS，仅一个包含中心项的力，不叠加旧J2。独立SHTOOLS Fortran最大相对差1.3261e−15；新增9项、全151测试通过。原环境72包兼容，外部Fortran参考独立存.local/reference，未升级数值包。
+
+本次仅十分钟预检+一次H1六小时base+一次tight，G0/G1/G2与D0—D5只读。H1终点622.748675m、全段RMSE310.911962m，R/A/C RMSE23.548/309.382/19.858m；相对G0终点与全段降低，但不能按终点选择G1，也不证明完整物理精度。H1 base/tight最大差0.058408m，预注册0.5m门槛通过；328.128s、累计峰RSS292.898MiB、177项历史SHA不变。模型GM/R/C20也不同，不能把全部变化只归因于增阶。
+
+入口：reports/SPHERICAL_HARMONICS_VALIDATION.md、SPHERICAL_HARMONICS_ORBIT_COMPARISON.md、docs/SPHERICAL_HARMONICS_GRAVITY_DESIGN.md；配置与审计experiments/spherical_harmonics_v1，六图/CSV在results对应前缀。原始NPZ/wheel本地不上传。
+
+真实质量记录有来源，但Cd/有效面积/姿态分量与0601标志/推进器实际力仍未确认；f_thr是名义mN字段，不能解释为实测推力。TIE正式高度门禁不变。下一步等待授权截断敏感性、日月/SRP/潮汐及真实参数核查；未来密度对照必须共同升级同一引力，当前不新增大气/阻力/AI/48h。Git最终SHA与实际同步见本次核验日志/汇报，不预先声称最终提交已推送。

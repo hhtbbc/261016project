@@ -73,3 +73,7 @@ TiegcmDensityProvider仅对显式TIEGCM_NATIVE_ZG和模型地理纬度提供已�
 
 ## J3/J4完成后的最新门禁
 已单独授权完成high_order_gravity_v1三次无阻力6h（G1、G2、G2-tight），G0读取旧D0。新势为保留名义J2+按μR^n重表达EGM2008 J3/J4，不能称完整标准球谐。G2终点改善但全段RMSE恶化，不能按参考残差拟合或挑点宣布精度提升。未来升级引力必须所有密度组共同更新，不混旧TIE-J2与新经验组归因。ESA旧5.13 q/平台标志有产品与概览/详细定义差异，0601适用性仍需确认；f_thr单位mN，Cd/有效面积未知。新阻力矩阵、48h、TIE/AI运行均须新授权。本次142项测试，真实参数/高度/完整受力门禁不因通过数值测试而解除。
+
+## 统一8×8球谐完成后的门禁
+
+已另获授权完成spherical_harmonics_v1十分钟预检、H1六小时base/tight；EGM2008完整n≤8所有m、源GM/R/fully_normalized/tide_free，含中心项，不再叠central/J2。地固完整旋转，不仅轴向。独立SHTOOLS Fortran与151测试通过，但8×8不等于精密完整受力。旧G0/G1/G2及D0—D5不改，今后密度矩阵必须共同使用同一冻结引力/初态/数值/气动，不混旧新归因。真实Cd/面积/姿态/推进器与TIE高度等门禁不因残差降低解除；f_thr名义mN不是已确认实测推力。20×20/第三体/SRP/阻力矩阵均待新授权。外部参考仅隔离Fortran扩展，prepare_spherical_reference.py可准备，不安装/升级原数值包。
