@@ -1,0 +1,164 @@
+{
+  "t0_utc": "2023-03-21T00:00:02",
+  "initial_state": [
+    -518920.9937467673,
+    210277.3926138616,
+    6804082.48844712,
+    4386.971793789882,
+    -6232.011779449503,
+    525.709091165103
+  ],
+  "initial_sha256": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+  "base": {
+    "rtol": 1e-10,
+    "atol": [
+      0.001,
+      0.001,
+      0.001,
+      1e-06,
+      1e-06,
+      1e-06
+    ],
+    "max_step": 30.0
+  },
+  "tight": {
+    "rtol": 1e-12,
+    "atol": [
+      1e-05,
+      1e-05,
+      1e-05,
+      1e-08,
+      1e-08,
+      1e-08
+    ],
+    "max_step": 15.0
+  },
+  "GM": 398600441500000.0,
+  "radius_m": 6378136.3,
+  "time_data": {
+    "cache": "/workspace/data/20261016/.cache/astropy",
+    "config": "/workspace/data/20261016/.config/astropy",
+    "versions": {
+      "numpy": "1.25.0",
+      "scipy": "1.15.3",
+      "astropy": "6.1.7",
+      "astropy-iers-data": "0.2026.10.19.0.52.1",
+      "pyerfa": "2.0.1.5",
+      "sgp4": "2.25",
+      "matplotlib": "3.10.0"
+    },
+    "iers_b": {
+      "path": "data/raw/earth_orientation/eopc04_frozen_20261020.txt",
+      "package_source": "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/astropy_iers_data/data/eopc04.1962-now",
+      "sha256": "6fc2c9d9a7cd7e9a1f597866545bb75baab292f5d51ca9358d5c64c0ce2fa64f",
+      "bytes": 5175699
+    },
+    "leap_seconds": {
+      "path": "data/raw/earth_orientation/Leap_Second_frozen_20261020.dat",
+      "package_source": "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/astropy_iers_data/data/Leap_Second.dat",
+      "sha256": "6cb6f5d4b819f2e568e25db4b0b26d89dedf031fdffb18bc94d40f4e94e268d7",
+      "bytes": 1352
+    },
+    "ut1": "[<Quantity [-0.0220007, -0.0238876] s>, array([0, 0])]",
+    "pm": "[<Quantity [-0.035517, -0.032507] arcsec>, <Quantity [0.373919, 0.380234] arcsec>, array([0, 0])]",
+    "leap_expiry": "2027-06-28",
+    "mjd_range": [
+      37665.0,
+      61294.0
+    ]
+  },
+  "source40": {
+    "url": "https://icgem.gfz-potsdam.de/getmodel/gfc/c50128797a9cb62e936337c890e4425f03f0461d7329b09a8cc8561504465340/EGM2008.gfc",
+    "bytes_read": 262144,
+    "sha256": "5ae41b8ae698a9c32448c8bfb27183297910e21c4edba6beb37c64ee355c6848",
+    "old_65536_byte_identical": true,
+    "full_model_downloaded": false
+  },
+  "source20": {
+    "url": "https://icgem.gfz-potsdam.de/getmodel/gfc/c50128797a9cb62e936337c890e4425f03f0461d7329b09a8cc8561504465340/EGM2008.gfc",
+    "bytes_read": 65536,
+    "sha256": "1ed7794419ff81568285fb4ebfbc1f82aedac938ac67bd5fbe7c68776b88fc00",
+    "HTTP_status": 200,
+    "headers": {
+      "Server": "nginx/1.31.0",
+      "Date": "Wed, 21 Oct 2026 01:46:35 GMT",
+      "Content-Type": "text/plain;charset=utf-8",
+      "Content-Length": "252140870",
+      "Connection": "close",
+      "Last-Modified": "Wed, 04 Jan 2017 13:13:33 GMT",
+      "Content-Disposition": "attachment; filename=\"EGM2008.gfc\"",
+      "Accept-Ranges": "bytes"
+    },
+    "old_prefix_16384_byte_identical": true,
+    "full_model_downloaded": false
+  },
+  "code_sha256": {
+    "src/orbit/gravity_degree40.py": "65e0293cec95a99952935fe14c4f7b446fe590ff659182285e9dd0ee53d3e97b",
+    "src/orbit/third_body_gravity.py": "6099491ef26a45fce4e741ef03fc5d6bf371f97f4f4ee683e0f503ae95de4655",
+    "scripts/run_h4h5.py": "b2bd22cde82064c59bc2c6e26d56792a103517327eeb266f3c2d0ef900ba0bab",
+    "src/orbit/gravity_truncation.py": "827c28a73c956d30703384cb87f6e0b1fa6d6ec208474b635b97dc6a85f1b1f1",
+    "src/orbit/spherical_harmonics_gravity.py": "600f5fd704a50327fd1d6f2a104e02f9b023fb8378dfb29116152fa3a4cec0ff"
+  },
+  "new_code_sha256": {
+    "src/orbit/common_force_model.py": "c72de832b565935a89ffc2f21076f3faaac9ab38e080d17a3b8d1c937316a84c",
+    "scripts/run_common_force_validation.py": "bcfe2e70a1bcec9d3f414d889566f608bce0ec18d192f38d66ae0f3d66be2783",
+    "docs/H6_VALIDATION_DESIGN.md": "7e11c7fd71a980d22c8a39b67ad2fc5f7e9c4adc8b2bebd20fca9ee0ee56042b"
+  },
+  "single_gate_m": 0.5,
+  "paired_gate_m": 0.1,
+  "short_gate_m": 0.02,
+  "labels": "PROVISIONAL / HINDCAST / FORCE_MODEL_INCOMPLETE",
+  "schema_version": 1,
+  "provenance_configuration": "experiments/common_force_validation_v1/configuration.json",
+  "provenance_sha256": "c72350b0f11f70d4fa35145d06ef498767c573db1c48c0551202f8b6a805a217",
+  "inherited_fields_are_historical_not_active": true,
+  "actual_runs": {
+    "H4_tight": {
+      "degree": 40,
+      "order": 40,
+      "third_bodies": false,
+      "duration_s": 21600,
+      "tight": true
+    },
+    "H5_tight": {
+      "degree": 20,
+      "order": 20,
+      "third_bodies": true,
+      "duration_s": 21600,
+      "tight": true
+    },
+    "H6_short": {
+      "degree": 40,
+      "order": 40,
+      "third_bodies": true,
+      "duration_s": 600,
+      "tight": false
+    },
+    "H6_short_tight": {
+      "degree": 40,
+      "order": 40,
+      "third_bodies": true,
+      "duration_s": 600,
+      "tight": true
+    },
+    "H6": {
+      "degree": 40,
+      "order": 40,
+      "third_bodies": true,
+      "duration_s": 21600,
+      "tight": false
+    },
+    "H6_tight": {
+      "degree": 40,
+      "order": 40,
+      "third_bodies": true,
+      "duration_s": 21600,
+      "tight": true
+    }
+  },
+  "output_step_s": 60,
+  "wall_limit_s": 1800,
+  "RSS_limit_GiB": 2,
+  "physics": "No drag, no extra central/J2; complete earth harmonics once plus optional third-body differential force",
+  "ephemeris": "ERFA builtin; PROVISIONAL_EPHEMERIS"
+}

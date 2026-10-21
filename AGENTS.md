@@ -85,3 +85,8 @@ TiegcmDensityProvider仅对显式TIEGCM_NATIVE_ZG和模型地理纬度提供已�
 ## 40阶与日月完成后的最新门禁
 
 gravity_third_body_v1已另获授权完成H4/H5各两次600s短例及各一次6h，H3只读，H6未运行。176测试、SHTOOLS/三点Horizons几何检查通过；40−20终点15.364m/最大33.089m，5m目标仍未达。短例收敛不等于全6h，H4/H5全窗与配对tight为PENDING，不能全部差异视作已隔离物理贡献。ERFA builtin保留PROVISIONAL_EPHEMERIS与Newtonian坐标/GM时标限制；GM来自DE440不代表位置是DE440。后续H6/全窗tight/更高阶/密度矩阵均需新授权，不用SP3残差最小选力；正式气动/推力/TIE高度等门禁继续。
+
+
+## H6完成后的最新门禁
+
+common_force_validation_v1已按单独授权完成H4/H5六小时tight与H6六小时base/tight、两次600s预检；单轨0.5m和配对0.1m门禁通过，181测试通过。旧报告H6未运行/全窗PENDING属于历史状态，最新看H6两报告和本轮审计。仅冻结provisional_common_force_model.json作下一阶段条件背景，PROVISIONAL/HINDCAST/FORCE_MODEL_INCOMPLETE与PROVISIONAL_EPHEMERIS保留；40阶未证明截断收敛，真实气动/推力/高度/预热等门禁不变。C0—C3只有设计，尚未执行；新矩阵/长窗/更高阶/TIE/AI均需新授权，不能重复本次传播或混用旧J2密度组解释新力场。每次任务结束仍安全同步GitHub，不强推。

@@ -1,4 +1,6 @@
 # 当前状态
+
+> 最新状态：H6六小时数值门禁完成，共同配置仅供PROVISIONAL条件实验；详见本文末节。以下早期摘要保留作历史记录。
 更新时间：阻力接口与TIE-GCM2.0准备阶段完成；实际UTC见logs/drag_tiegcm_delivery.json。
 当前阶段：可替换密度/风/气动参数的阻力模块及合成验证完成，28项测试通过；TIE-GCM2.0项目内栈编译链接及4rank官方2002默认单日正常完成。未做真实Swarm阻力对照、未做2023 TIE场；Cd/几何/推进器解释和spin-up等仍待解决。最新记录见末节。
 
@@ -232,3 +234,12 @@ Swarm窗口17281点和WGS84坐标已复用原入口核对，但ZG下边界零面
 入口：reports/GRAVITY_40X40_VALIDATION.md、THIRD_BODY_GRAVITY_VALIDATION.md、GRAVITY_THIRD_BODY_ORBIT_COMPARISON.md；docs/COMMON_FORCE_MODEL_DECISION.md、FORMAL_PARAMETER_EVIDENCE_REQUESTS.md。数据/图/CSV同gravity_third_body_v1前缀，原NPZ/星历响应/模型前缀本地不上传。
 
 尚不正式冻结40阶收敛或“40阶+日月”组合（H6未运行）；下一步须另授权补全窗收敛/候选组合及截断预算。仅可设计明确假设的统一动力学PROVISIONAL密度矩阵，真实气动/推力/TIE高度/预热和时间场门禁仍在。当前任务完成后停止，不自动H6/更高阶/阻力/TIE/AI/长窗。Git最终SHA与同步结果见结束核对。
+
+
+## 2026-10-21：H6组合与完整六小时数值门禁已完成
+
+H4/H5 tight、H6 base/tight共四次六小时及H6两次600秒预检完成，无重试、无旧轨道重跑。H4/H5/H6单轨最大base/tight差均小于0.5m，各配对差稳定性小于0.1m，181项测试通过。H6单轨最大差0.058398202m；40阶背景加入日月的终点位移4.618091m、全窗最大12.665426m。H6 SP3终点残差236.454619m、三维RMSE104.825766m。
+
+本次传播墙钟1192.190s、峰RSS329.707MiB，低于1800s/2GiB；历史SHA不变。实际配置effective_configuration.json区分继承来源的旧状态字段，旧记录保留。仅冻结configs/provisional_common_force_model.json供下一阶段条件研究，标记PROVISIONAL / HINDCAST / FORCE_MODEL_INCOMPLETE，星历保留PROVISIONAL_EPHEMERIS。
+
+40阶未证明截断收敛，真实气动/姿态推力、TIE外部ZG登记、预热和高频场仍未闭合；缺失潮汐/SRP/相对论等。C0—C3仅设计未运行。下一入口reports/H6_FORCE_MODEL_VALIDATION.md、reports/H6_ORBIT_COMPARISON.md及docs/PROVISIONAL_DENSITY_COMPARISON_PLAN.md。完成后停止，任何新阻力矩阵/更高阶/TIE/AI/长窗传播均需另授权。

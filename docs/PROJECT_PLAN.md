@@ -111,3 +111,12 @@
 ## 2026-10-21：40阶与日月受控研究补充
 
 40阶数学/外部验证及日月几何/差分模块完成，176测试通过。仅4短例+H4/H5各一次6h；40−20终点15.364m/最大33.089m，5m目标未达；日月增量终点4.618m/最大12.665m，SP3残差未必改善。六小时全窗tight收敛和候选40阶+日月组合尚未验证，不正式冻结共同精密背景。下一阶段先另授权这些门禁及截断预算；真实参数/高度/预热和时间分辨率仍限制正式密度精度比较，不自动阻力矩阵或AI。
+
+
+## 2026-10-21：H6组合与完整六小时数值门禁已完成
+
+H4/H5 tight、H6 base/tight共四次六小时及H6两次600秒预检完成，无重试、无旧轨道重跑。H4/H5/H6单轨最大base/tight差均小于0.5m，各配对差稳定性小于0.1m，181项测试通过。H6单轨最大差0.058398202m；40阶背景加入日月的终点位移4.618091m、全窗最大12.665426m。H6 SP3终点残差236.454619m、三维RMSE104.825766m。
+
+本次传播墙钟1192.190s、峰RSS329.707MiB，低于1800s/2GiB；历史SHA不变。实际配置effective_configuration.json区分继承来源的旧状态字段，旧记录保留。仅冻结configs/provisional_common_force_model.json供下一阶段条件研究，标记PROVISIONAL / HINDCAST / FORCE_MODEL_INCOMPLETE，星历保留PROVISIONAL_EPHEMERIS。
+
+40阶未证明截断收敛，真实气动/姿态推力、TIE外部ZG登记、预热和高频场仍未闭合；缺失潮汐/SRP/相对论等。C0—C3仅设计未运行。下一入口reports/H6_FORCE_MODEL_VALIDATION.md、reports/H6_ORBIT_COMPARISON.md及docs/PROVISIONAL_DENSITY_COMPARISON_PLAN.md。完成后停止，任何新阻力矩阵/更高阶/TIE/AI/长窗传播均需另授权。

@@ -330,3 +330,16 @@ GFZ同源只读262144字节，前65536 SHA匹配旧源，完整40阶861对C/S；
 离线分析与独立审计复用现有SP3/时间/框架/误差模块，另手算RAC/范数重核；229保护SHA/旧H3交付清单不变。七图、状态/差值/RAC/加速度/费用/短收敛CSV和JSON保存，NPZ及原前缀/响应不入库。复用72兼容包，无新安装；所有路径/缓存项目内。资料核查仅复用ESA/NCAR已获证据，不重复403搜索；列出应取得0601 SW-RS-DSC-SY-0007/ACCELE03.25/ORBATT03.25、AD05机动码/通道定标/面积Cd与NCAR高度登记等资料，未猜测字段或启用真实推力。
 
 关键命令source scripts/activate_orbit.sh；PYTHONPATH=src python -m unittest discover -s tests -v；python scripts/validate_h4h5.py；python scripts/run_h4h5.py（静态）及--execute（唯一）；python scripts/analyze_h4h5.py；python scripts/write_h4h5_reports.py；python scripts/audit_h4h5_delivery.py。当前只能设计明确限制的PROVISIONAL共同矩阵，下一步待新授权补六小时收敛/候选40阶+日月(H6)/截断预算，正式气动/推力/TIE高度与预热/高频门禁不变。本轮无阻力/TIE/AI/24或48h，完成停止。最终Git实际SHA/远端核对以日志与结束汇报为准。
+
+
+## 2026-10-21：H6组合与完整六小时数值门禁已完成
+
+H4/H5 tight、H6 base/tight共四次六小时及H6两次600秒预检完成，无重试、无旧轨道重跑。H4/H5/H6单轨最大base/tight差均小于0.5m，各配对差稳定性小于0.1m，181项测试通过。H6单轨最大差0.058398202m；40阶背景加入日月的终点位移4.618091m、全窗最大12.665426m。H6 SP3终点残差236.454619m、三维RMSE104.825766m。
+
+本次传播墙钟1192.190s、峰RSS329.707MiB，低于1800s/2GiB；历史SHA不变。实际配置effective_configuration.json区分继承来源的旧状态字段，旧记录保留。仅冻结configs/provisional_common_force_model.json供下一阶段条件研究，标记PROVISIONAL / HINDCAST / FORCE_MODEL_INCOMPLETE，星历保留PROVISIONAL_EPHEMERIS。
+
+40阶未证明截断收敛，真实气动/姿态推力、TIE外部ZG登记、预热和高频场仍未闭合；缺失潮汐/SRP/相对论等。C0—C3仅设计未运行。下一入口reports/H6_FORCE_MODEL_VALIDATION.md、reports/H6_ORBIT_COMPARISON.md及docs/PROVISIONAL_DENSITY_COMPARISON_PLAN.md。完成后停止，任何新阻力矩阵/更高阶/TIE/AI/长窗传播均需另授权。
+
+关键操作：source scripts/activate_orbit.sh；python -m unittest discover -s tests（新增测试首次src导入路径错误，修正测试引导后181项通过，未发生模型重试）；OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/run_common_force_validation.py（唯一）；python scripts/prepare_common_force_effective_config.py；python scripts/analyze_common_force.py；python scripts/write_common_force_reports.py；python scripts/update_common_force_status.py；python scripts/audit_common_force.py。运行日志logs/common_force_runs.log，测试logs/common_force_tests_pass.log；实际JSON/launch_once/门禁、NPZ、CSV与6图全部本地保存。无安装、下载、TIE/阻力/AI/24或48h运行，无参数拟合。沿用项目.venv310、冻结EOP/闰秒及GFZ系数/ERFA，系统环境未改。
+
+新增组合模块及测试、受限运行/离线分析/独立审计脚本、两报告、预注册和C0—C3设计、条件配置；更新长期门禁/研究计划。旧实验、原始源码和正式TIE门禁不变。Git安全提交与实际远端SHA核对以最终同步日志和结束汇报为准。

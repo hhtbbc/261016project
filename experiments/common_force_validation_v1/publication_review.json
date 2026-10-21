@@ -1,0 +1,271 @@
+{
+  "passed": true,
+  "sensitive_patterns_found": false,
+  "raw_data_excluded": true,
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 2515
+    },
+    {
+      "file": "AGENTS.md",
+      "bytes": 18941
+    },
+    {
+      "file": "STATUS.md",
+      "bytes": 48884
+    },
+    {
+      "file": "WORKLOG.md",
+      "bytes": 87242
+    },
+    {
+      "file": "configs/provisional_common_force_model.json",
+      "bytes": 9019
+    },
+    {
+      "file": "docs/COMMON_FORCE_MODEL_DECISION.md",
+      "bytes": 4291
+    },
+    {
+      "file": "docs/FORMAL_ORBIT_VALIDATION_GAPS.md",
+      "bytes": 10003
+    },
+    {
+      "file": "docs/H6_VALIDATION_DESIGN.md",
+      "bytes": 1376
+    },
+    {
+      "file": "docs/PROJECT_PLAN.md",
+      "bytes": 12747
+    },
+    {
+      "file": "docs/PROVISIONAL_DENSITY_COMPARISON_PLAN.md",
+      "bytes": 3274
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H4_H3_pair_gate.json",
+      "bytes": 173
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H4_gate.json",
+      "bytes": 170
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H4_tight.json",
+      "bytes": 443
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H4_tight_launch_once.json",
+      "bytes": 78
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H5_H3_pair_gate.json",
+      "bytes": 174
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H5_gate.json",
+      "bytes": 170
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H5_tight.json",
+      "bytes": 444
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H5_tight_launch_once.json",
+      "bytes": 78
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H6.json",
+      "bytes": 442
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H6_H3_pair_gate.json",
+      "bytes": 175
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H6_H4_pair_gate.json",
+      "bytes": 176
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H6_H5_pair_gate.json",
+      "bytes": 174
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H6_gate.json",
+      "bytes": 170
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H6_launch_once.json",
+      "bytes": 79
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H6_short.json",
+      "bytes": 439
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H6_short_gate.json",
+      "bytes": 175
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H6_short_launch_once.json",
+      "bytes": 77
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H6_short_tight.json",
+      "bytes": 440
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H6_short_tight_launch_once.json",
+      "bytes": 76
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H6_tight.json",
+      "bytes": 444
+    },
+    {
+      "file": "experiments/common_force_validation_v1/H6_tight_launch_once.json",
+      "bytes": 78
+    },
+    {
+      "file": "experiments/common_force_validation_v1/analysis.json",
+      "bytes": 12685
+    },
+    {
+      "file": "experiments/common_force_validation_v1/configuration.json",
+      "bytes": 11657
+    },
+    {
+      "file": "experiments/common_force_validation_v1/delivery_audit.json",
+      "bytes": 11928
+    },
+    {
+      "file": "experiments/common_force_validation_v1/effective_configuration.json",
+      "bytes": 5424
+    },
+    {
+      "file": "experiments/common_force_validation_v1/preflight.json",
+      "bytes": 238
+    },
+    {
+      "file": "experiments/common_force_validation_v1/protected.json",
+      "bytes": 33039
+    },
+    {
+      "file": "experiments/common_force_validation_v1/run_summary.json",
+      "bytes": 5433
+    },
+    {
+      "file": "experiments/common_force_validation_v1/runtime_budget.json",
+      "bytes": 103
+    },
+    {
+      "file": "logs/common_force_analysis.log",
+      "bytes": 12686
+    },
+    {
+      "file": "logs/common_force_audit.log",
+      "bytes": 91
+    },
+    {
+      "file": "logs/common_force_runs.log",
+      "bytes": 6720
+    },
+    {
+      "file": "logs/common_force_tests.log",
+      "bytes": 1365
+    },
+    {
+      "file": "logs/common_force_tests_pass.log",
+      "bytes": 502
+    },
+    {
+      "file": "reports/H6_FORCE_MODEL_VALIDATION.md",
+      "bytes": 2320
+    },
+    {
+      "file": "reports/H6_ORBIT_COMPARISON.md",
+      "bytes": 3412
+    },
+    {
+      "file": "results/figures/common_force_v1_RAC_differences.png",
+      "bytes": 231684
+    },
+    {
+      "file": "results/figures/common_force_v1_RAC_residuals.png",
+      "bytes": 234649
+    },
+    {
+      "file": "results/figures/common_force_v1_SP3_residuals.png",
+      "bytes": 73184
+    },
+    {
+      "file": "results/figures/common_force_v1_convergence.png",
+      "bytes": 59676
+    },
+    {
+      "file": "results/figures/common_force_v1_costs.png",
+      "bytes": 39779
+    },
+    {
+      "file": "results/figures/common_force_v1_model_differences.png",
+      "bytes": 126764
+    },
+    {
+      "file": "results/metrics/common_force_v1_H6_states.csv",
+      "bytes": 69471
+    },
+    {
+      "file": "results/metrics/common_force_v1_SP3_residuals.csv",
+      "bytes": 227903
+    },
+    {
+      "file": "results/metrics/common_force_v1_convergence.csv",
+      "bytes": 173416
+    },
+    {
+      "file": "results/metrics/common_force_v1_model_differences.csv",
+      "bytes": 248190
+    },
+    {
+      "file": "results/metrics/common_force_v1_paired_convergence.csv",
+      "bytes": 187555
+    },
+    {
+      "file": "results/metrics/common_force_v1_resources.csv",
+      "bytes": 993
+    },
+    {
+      "file": "scripts/analyze_common_force.py",
+      "bytes": 7666
+    },
+    {
+      "file": "scripts/audit_common_force.py",
+      "bytes": 4231
+    },
+    {
+      "file": "scripts/prepare_common_force_effective_config.py",
+      "bytes": 1531
+    },
+    {
+      "file": "scripts/run_common_force_validation.py",
+      "bytes": 5605
+    },
+    {
+      "file": "scripts/update_common_force_status.py",
+      "bytes": 4846
+    },
+    {
+      "file": "scripts/write_common_force_reports.py",
+      "bytes": 5826
+    },
+    {
+      "file": "src/orbit/common_force_model.py",
+      "bytes": 1113
+    },
+    {
+      "file": "tests/test_common_force_model.py",
+      "bytes": 2162
+    }
+  ]
+}

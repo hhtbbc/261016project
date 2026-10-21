@@ -1,0 +1,21 @@
+E......................................................../workspace/data/20261016/.venv310/lib/python3.10/site-packages/erfa/core.py:133: ErfaWarning: ERFA function "dtf2d" yielded 1 of "dubious year (Note 6)"
+  warn(f'ERFA function "{func_name}" yielded {wmsg}', ErfaWarning)
+........................................................................................................................
+======================================================================
+ERROR: test_common_force_model (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_common_force_model
+Traceback (most recent call last):
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/workspace/data/20261016/tests/test_common_force_model.py", line 4, in <module>
+    from orbit.frames import configure_time_data
+ModuleNotFoundError: No module named 'orbit'
+
+
+----------------------------------------------------------------------
+Ran 177 tests in 18.004s
+
+FAILED (errors=1)

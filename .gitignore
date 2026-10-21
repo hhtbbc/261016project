@@ -96,3 +96,6 @@ credentials.json
 
 # 40-degree gravity and third-body controlled evidence
 !/logs/h4h5*.log
+
+# H6 common force validation evidence
+!/logs/common_force*.log
