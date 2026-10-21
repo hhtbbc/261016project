@@ -1,0 +1,836 @@
+{
+  "labels": [
+    "PROVISIONAL",
+    "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+    "HINDCAST",
+    "FORCE_MODEL_INCOMPLETE",
+    "PROVISIONAL_EPHEMERIS"
+  ],
+  "runs": {
+    "pre_C1": {
+      "model": "C1",
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-10,
+        "atol_si": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06,
+          1e-06,
+          1e-06
+        ],
+        "max_step_s": 30.0,
+        "accepted_steps": 124,
+        "nfev": 746,
+        "elapsed_s": 51.429886097088456,
+        "output_samples": 61,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.018613636534106234,
+        "max_accepted_step_s": 30.00000000000003
+      },
+      "force": {
+        "labels": [
+          "PROVISIONAL",
+          "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+          "HINDCAST",
+          "FORCE_MODEL_INCOMPLETE",
+          "PROVISIONAL_EPHEMERIS"
+        ],
+        "density_queries": 807,
+        "failures": 0,
+        "density_query_seconds": 1.2463010307401419,
+        "query_mean_ms": 1.5483391476977417,
+        "query_p95_ms": 1.6240699216723442,
+        "phase_calls": {
+          "rhs": 746,
+          "output": 61,
+          "test": 0
+        },
+        "frame_and_drag_evaluate_seconds": 21.110170379281044,
+        "cache": "No density cache; explicit frozen drivers; Fortran backend internal state reused",
+        "instrumented_density_seconds": 1.2495096921920776
+      },
+      "wall_with_output_s": 53.10146622918546,
+      "peak_RSS_MiB": 161.59375,
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST",
+        "FORCE_MODEL_INCOMPLETE",
+        "PROVISIONAL_EPHEMERIS"
+      ],
+      "all_queries_valid": true
+    },
+    "pre_C1_tight": {
+      "model": "C1",
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-12,
+        "atol_si": [
+          1e-05,
+          1e-05,
+          1e-05,
+          1e-08,
+          1e-08,
+          1e-08
+        ],
+        "max_step_s": 15.0,
+        "accepted_steps": 244,
+        "nfev": 1466,
+        "elapsed_s": 101.03169007226825,
+        "output_samples": 61,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.007410222174304238,
+        "max_accepted_step_s": 15.000000000000227
+      },
+      "force": {
+        "labels": [
+          "PROVISIONAL",
+          "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+          "HINDCAST",
+          "FORCE_MODEL_INCOMPLETE",
+          "PROVISIONAL_EPHEMERIS"
+        ],
+        "density_queries": 1527,
+        "failures": 0,
+        "density_query_seconds": 2.33557160012424,
+        "query_mean_ms": 1.5333231072567926,
+        "query_p95_ms": 1.632603257894516,
+        "phase_calls": {
+          "rhs": 1466,
+          "output": 61,
+          "test": 0
+        },
+        "frame_and_drag_evaluate_seconds": 39.85086716711521,
+        "cache": "No density cache; explicit frozen drivers; Fortran backend internal state reused",
+        "instrumented_density_seconds": 2.341384384781122
+      },
+      "wall_with_output_s": 102.66655374877155,
+      "peak_RSS_MiB": 161.59375,
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST",
+        "FORCE_MODEL_INCOMPLETE",
+        "PROVISIONAL_EPHEMERIS"
+      ],
+      "all_queries_valid": true
+    },
+    "pre_C2": {
+      "model": "C2",
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-10,
+        "atol_si": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06,
+          1e-06,
+          1e-06
+        ],
+        "max_step_s": 30.0,
+        "accepted_steps": 124,
+        "nfev": 746,
+        "elapsed_s": 52.353221133351326,
+        "output_samples": 61,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.018613636534886766,
+        "max_accepted_step_s": 30.000000000000057
+      },
+      "force": {
+        "labels": [
+          "PROVISIONAL",
+          "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+          "HINDCAST",
+          "FORCE_MODEL_INCOMPLETE",
+          "PROVISIONAL_EPHEMERIS"
+        ],
+        "density_queries": 807,
+        "failures": 0,
+        "density_query_seconds": 1.7607962004840374,
+        "frame_and_drag_evaluate_seconds": 21.71335551701486,
+        "phase_calls": {
+          "rhs": 746,
+          "output": 61,
+          "test": 0
+        },
+        "column_reads": 416,
+        "cached_columns": 416,
+        "cached_array_bytes": 193024,
+        "query_mean_ms": 2.1862425464015023,
+        "query_p95_ms": 12.059558369219303,
+        "instrumented_density_seconds": 1.7642977349460125,
+        "column_cache_hits": 6040,
+        "cache_capacity_columns": 4096
+      },
+      "wall_with_output_s": 54.34876309894025,
+      "peak_RSS_MiB": 161.59375,
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST",
+        "FORCE_MODEL_INCOMPLETE",
+        "PROVISIONAL_EPHEMERIS"
+      ],
+      "all_queries_valid": true
+    },
+    "pre_C2_tight": {
+      "model": "C2",
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-12,
+        "atol_si": [
+          1e-05,
+          1e-05,
+          1e-05,
+          1e-08,
+          1e-08,
+          1e-08
+        ],
+        "max_step_s": 15.0,
+        "accepted_steps": 244,
+        "nfev": 1466,
+        "elapsed_s": 101.8891768809408,
+        "output_samples": 61,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.007410222174614973,
+        "max_accepted_step_s": 15.000000000000002
+      },
+      "force": {
+        "labels": [
+          "PROVISIONAL",
+          "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+          "HINDCAST",
+          "FORCE_MODEL_INCOMPLETE",
+          "PROVISIONAL_EPHEMERIS"
+        ],
+        "density_queries": 1527,
+        "failures": 0,
+        "density_query_seconds": 2.413795866072178,
+        "frame_and_drag_evaluate_seconds": 40.18646152690053,
+        "phase_calls": {
+          "rhs": 1466,
+          "output": 61,
+          "test": 0
+        },
+        "column_reads": 444,
+        "cached_columns": 444,
+        "cached_array_bytes": 206016,
+        "query_mean_ms": 1.5849636912775258,
+        "query_p95_ms": 11.51571683585644,
+        "instrumented_density_seconds": 2.420239556580782,
+        "column_cache_hits": 11772,
+        "cache_capacity_columns": 4096
+      },
+      "wall_with_output_s": 103.91246537491679,
+      "peak_RSS_MiB": 161.59375,
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST",
+        "FORCE_MODEL_INCOMPLETE",
+        "PROVISIONAL_EPHEMERIS"
+      ],
+      "all_queries_valid": true
+    },
+    "pre_C3": {
+      "model": "C3",
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-10,
+        "atol_si": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06,
+          1e-06,
+          1e-06
+        ],
+        "max_step_s": 30.0,
+        "accepted_steps": 124,
+        "nfev": 746,
+        "elapsed_s": 52.42131642065942,
+        "output_samples": 61,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.018613636534560035,
+        "max_accepted_step_s": 30.000000000000227
+      },
+      "force": {
+        "labels": [
+          "PROVISIONAL",
+          "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+          "HINDCAST",
+          "FORCE_MODEL_INCOMPLETE",
+          "PROVISIONAL_EPHEMERIS"
+        ],
+        "density_queries": 807,
+        "failures": 0,
+        "density_query_seconds": 1.763187712058425,
+        "frame_and_drag_evaluate_seconds": 21.73944518342614,
+        "phase_calls": {
+          "rhs": 746,
+          "output": 61,
+          "test": 0
+        },
+        "column_reads": 416,
+        "cached_columns": 416,
+        "cached_array_bytes": 193024,
+        "query_mean_ms": 2.1890817577067803,
+        "query_p95_ms": 12.144574895501137,
+        "instrumented_density_seconds": 1.7665889784693718,
+        "column_cache_hits": 6040,
+        "cache_capacity_columns": 4096
+      },
+      "wall_with_output_s": 54.421677274629474,
+      "peak_RSS_MiB": 161.59375,
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST",
+        "FORCE_MODEL_INCOMPLETE",
+        "PROVISIONAL_EPHEMERIS"
+      ],
+      "all_queries_valid": true
+    },
+    "pre_C3_tight": {
+      "model": "C3",
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-12,
+        "atol_si": [
+          1e-05,
+          1e-05,
+          1e-05,
+          1e-08,
+          1e-08,
+          1e-08
+        ],
+        "max_step_s": 15.0,
+        "accepted_steps": 244,
+        "nfev": 1466,
+        "elapsed_s": 102.06464813649654,
+        "output_samples": 61,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.007410222174484899,
+        "max_accepted_step_s": 15.000000000000057
+      },
+      "force": {
+        "labels": [
+          "PROVISIONAL",
+          "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+          "HINDCAST",
+          "FORCE_MODEL_INCOMPLETE",
+          "PROVISIONAL_EPHEMERIS"
+        ],
+        "density_queries": 1527,
+        "failures": 0,
+        "density_query_seconds": 2.4273337554186583,
+        "frame_and_drag_evaluate_seconds": 40.25522383674979,
+        "phase_calls": {
+          "rhs": 1466,
+          "output": 61,
+          "test": 0
+        },
+        "column_reads": 444,
+        "cached_columns": 444,
+        "cached_array_bytes": 206016,
+        "query_mean_ms": 1.5937625769020765,
+        "query_p95_ms": 11.543571576476099,
+        "instrumented_density_seconds": 2.433675454929471,
+        "column_cache_hits": 11772,
+        "cache_capacity_columns": 4096
+      },
+      "wall_with_output_s": 104.07919678837061,
+      "peak_RSS_MiB": 161.59375,
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST",
+        "FORCE_MODEL_INCOMPLETE",
+        "PROVISIONAL_EPHEMERIS"
+      ],
+      "all_queries_valid": true
+    },
+    "C1": {
+      "model": "C1",
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-10,
+        "atol_si": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06,
+          1e-06,
+          1e-06
+        ],
+        "max_step_s": 30.0,
+        "accepted_steps": 724,
+        "nfev": 4346,
+        "elapsed_s": 301.16818271018565,
+        "output_samples": 361,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.018613636534106234,
+        "max_accepted_step_s": 30.000000000000455
+      },
+      "force": {
+        "labels": [
+          "PROVISIONAL",
+          "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+          "HINDCAST",
+          "FORCE_MODEL_INCOMPLETE",
+          "PROVISIONAL_EPHEMERIS"
+        ],
+        "density_queries": 4707,
+        "failures": 0,
+        "density_query_seconds": 7.300652353093028,
+        "query_mean_ms": 1.5549074596461658,
+        "query_p95_ms": 1.6530094668269157,
+        "phase_calls": {
+          "rhs": 4346,
+          "output": 361,
+          "test": 0
+        },
+        "frame_and_drag_evaluate_seconds": 123.82923001982272,
+        "cache": "No density cache; explicit frozen drivers; Fortran backend internal state reused",
+        "instrumented_density_seconds": 7.3189494125545025
+      },
+      "wall_with_output_s": 310.92346783541143,
+      "peak_RSS_MiB": 161.59375,
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST",
+        "FORCE_MODEL_INCOMPLETE",
+        "PROVISIONAL_EPHEMERIS"
+      ],
+      "all_queries_valid": true
+    },
+    "C1_tight": {
+      "model": "C1",
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-12,
+        "atol_si": [
+          1e-05,
+          1e-05,
+          1e-05,
+          1e-08,
+          1e-08,
+          1e-08
+        ],
+        "max_step_s": 15.0,
+        "accepted_steps": 1444,
+        "nfev": 8666,
+        "elapsed_s": 601.1913142725825,
+        "output_samples": 361,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.007410222174304238,
+        "max_accepted_step_s": 15.000000000000227
+      },
+      "force": {
+        "labels": [
+          "PROVISIONAL",
+          "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+          "HINDCAST",
+          "FORCE_MODEL_INCOMPLETE",
+          "PROVISIONAL_EPHEMERIS"
+        ],
+        "density_queries": 9027,
+        "failures": 0,
+        "density_query_seconds": 14.055058743804693,
+        "query_mean_ms": 1.5609215051959198,
+        "query_p95_ms": 1.660974510014057,
+        "phase_calls": {
+          "rhs": 8666,
+          "output": 361,
+          "test": 0
+        },
+        "frame_and_drag_evaluate_seconds": 238.03750202804804,
+        "cache": "No density cache; explicit frozen drivers; Fortran backend internal state reused",
+        "instrumented_density_seconds": 14.09043842740357
+      },
+      "wall_with_output_s": 610.9989415314049,
+      "peak_RSS_MiB": 161.59375,
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST",
+        "FORCE_MODEL_INCOMPLETE",
+        "PROVISIONAL_EPHEMERIS"
+      ],
+      "all_queries_valid": true
+    },
+    "C2": {
+      "model": "C2",
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-10,
+        "atol_si": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06,
+          1e-06,
+          1e-06
+        ],
+        "max_step_s": 30.0,
+        "accepted_steps": 724,
+        "nfev": 4346,
+        "elapsed_s": 304.2802221942693,
+        "output_samples": 361,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.018613636534886766,
+        "max_accepted_step_s": 30.000000000000057
+      },
+      "force": {
+        "labels": [
+          "PROVISIONAL",
+          "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+          "HINDCAST",
+          "FORCE_MODEL_INCOMPLETE",
+          "PROVISIONAL_EPHEMERIS"
+        ],
+        "density_queries": 4707,
+        "failures": 0,
+        "density_query_seconds": 9.325793674215674,
+        "frame_and_drag_evaluate_seconds": 125.76169880107045,
+        "phase_calls": {
+          "rhs": 4346,
+          "output": 361,
+          "test": 0
+        },
+        "column_reads": 2122,
+        "cached_columns": 2122,
+        "cached_array_bytes": 984608,
+        "query_mean_ms": 1.9854467531532802,
+        "query_p95_ms": 11.755541153252125,
+        "instrumented_density_seconds": 9.34549786709249,
+        "column_cache_hits": 35534,
+        "cache_capacity_columns": 4096
+      },
+      "wall_with_output_s": 314.15090796910226,
+      "peak_RSS_MiB": 161.59375,
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST",
+        "FORCE_MODEL_INCOMPLETE",
+        "PROVISIONAL_EPHEMERIS"
+      ],
+      "all_queries_valid": true
+    },
+    "C2_tight": {
+      "model": "C2",
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-12,
+        "atol_si": [
+          1e-05,
+          1e-05,
+          1e-05,
+          1e-08,
+          1e-08,
+          1e-08
+        ],
+        "max_step_s": 15.0,
+        "accepted_steps": 1444,
+        "nfev": 8666,
+        "elapsed_s": 602.6211537085474,
+        "output_samples": 361,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.007410222174614973,
+        "max_accepted_step_s": 15.00000000000091
+      },
+      "force": {
+        "labels": [
+          "PROVISIONAL",
+          "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+          "HINDCAST",
+          "FORCE_MODEL_INCOMPLETE",
+          "PROVISIONAL_EPHEMERIS"
+        ],
+        "density_queries": 9027,
+        "failures": 0,
+        "density_query_seconds": 13.143707470968366,
+        "frame_and_drag_evaluate_seconds": 237.05082219280303,
+        "phase_calls": {
+          "rhs": 8666,
+          "output": 361,
+          "test": 0
+        },
+        "column_reads": 2228,
+        "cached_columns": 2228,
+        "cached_array_bytes": 1033792,
+        "query_mean_ms": 1.460259008983038,
+        "query_p95_ms": 11.061526462435673,
+        "instrumented_density_seconds": 13.181758074089885,
+        "column_cache_hits": 69988,
+        "cache_capacity_columns": 4096
+      },
+      "wall_with_output_s": 612.5493408069015,
+      "peak_RSS_MiB": 161.59375,
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST",
+        "FORCE_MODEL_INCOMPLETE",
+        "PROVISIONAL_EPHEMERIS"
+      ],
+      "all_queries_valid": true
+    },
+    "C3": {
+      "model": "C3",
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-10,
+        "atol_si": [
+          0.001,
+          0.001,
+          0.001,
+          1e-06,
+          1e-06,
+          1e-06
+        ],
+        "max_step_s": 30.0,
+        "accepted_steps": 724,
+        "nfev": 4346,
+        "elapsed_s": 305.7739838808775,
+        "output_samples": 361,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.018613636534560035,
+        "max_accepted_step_s": 30.00000000000182
+      },
+      "force": {
+        "labels": [
+          "PROVISIONAL",
+          "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+          "HINDCAST",
+          "FORCE_MODEL_INCOMPLETE",
+          "PROVISIONAL_EPHEMERIS"
+        ],
+        "density_queries": 4707,
+        "failures": 0,
+        "density_query_seconds": 9.550662415102124,
+        "frame_and_drag_evaluate_seconds": 126.67560602352023,
+        "phase_calls": {
+          "rhs": 4346,
+          "output": 361,
+          "test": 0
+        },
+        "column_reads": 2122,
+        "cached_columns": 2122,
+        "cached_array_bytes": 984608,
+        "query_mean_ms": 2.0332675698661036,
+        "query_p95_ms": 11.977154016494751,
+        "instrumented_density_seconds": 9.570590451359749,
+        "column_cache_hits": 35534,
+        "cache_capacity_columns": 4096
+      },
+      "wall_with_output_s": 315.7582122441381,
+      "peak_RSS_MiB": 161.59375,
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST",
+        "FORCE_MODEL_INCOMPLETE",
+        "PROVISIONAL_EPHEMERIS"
+      ],
+      "all_queries_valid": true
+    },
+    "C3_tight": {
+      "model": "C3",
+      "integration": {
+        "method": "RK45",
+        "rtol": 1e-12,
+        "atol_si": [
+          1e-05,
+          1e-05,
+          1e-05,
+          1e-08,
+          1e-08,
+          1e-08
+        ],
+        "max_step_s": 15.0,
+        "accepted_steps": 1444,
+        "nfev": 8666,
+        "elapsed_s": 603.1997560039163,
+        "output_samples": 361,
+        "success": true,
+        "message": "The solver successfully reached the end of the integration interval.",
+        "min_accepted_step_s": 0.007410222174484899,
+        "max_accepted_step_s": 15.000000000000057
+      },
+      "force": {
+        "labels": [
+          "PROVISIONAL",
+          "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+          "HINDCAST",
+          "FORCE_MODEL_INCOMPLETE",
+          "PROVISIONAL_EPHEMERIS"
+        ],
+        "density_queries": 9027,
+        "failures": 0,
+        "density_query_seconds": 13.100442899391055,
+        "frame_and_drag_evaluate_seconds": 237.1444437727332,
+        "phase_calls": {
+          "rhs": 8666,
+          "output": 361,
+          "test": 0
+        },
+        "column_reads": 2226,
+        "cached_columns": 2226,
+        "cached_array_bytes": 1032864,
+        "query_mean_ms": 1.4554300819343806,
+        "query_p95_ms": 10.812724567949772,
+        "instrumented_density_seconds": 13.138167349621654,
+        "column_cache_hits": 69990,
+        "cache_capacity_columns": 4096
+      },
+      "wall_with_output_s": 613.1458596624434,
+      "peak_RSS_MiB": 161.59375,
+      "labels": [
+        "PROVISIONAL",
+        "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+        "HINDCAST",
+        "FORCE_MODEL_INCOMPLETE",
+        "PROVISIONAL_EPHEMERIS"
+      ],
+      "all_queries_valid": true
+    }
+  },
+  "prechecks": {
+    "C1": {
+      "state": {
+        "max_position_m": 0.0015185593741594934,
+        "rms_position_m": 0.0010760755465145067,
+        "max_velocity_m_s": 1.1891588440936354e-06,
+        "threshold_m": 0.02,
+        "passed": true
+      },
+      "drag_response": {
+        "max_position_m": 0.00012496943486772503,
+        "rms_position_m": 2.3405128867167433e-05,
+        "max_velocity_m_s": 4.957789102207551e-07,
+        "threshold_m": 0.042675772845424065,
+        "passed": true
+      }
+    },
+    "C2": {
+      "state": {
+        "max_position_m": 0.0015413335468192218,
+        "rms_position_m": 0.0010910424955883197,
+        "max_velocity_m_s": 1.2128064445301451e-06,
+        "threshold_m": 0.02,
+        "passed": true
+      },
+      "drag_response": {
+        "max_position_m": 4.487479324319093e-05,
+        "rms_position_m": 1.5596344499368232e-05,
+        "max_velocity_m_s": 4.021457357338793e-07,
+        "threshold_m": 0.02939571054356503,
+        "passed": true
+      }
+    },
+    "C3": {
+      "state": {
+        "max_position_m": 0.0015366132277877574,
+        "rms_position_m": 0.0010880695395004522,
+        "max_velocity_m_s": 1.208397990970641e-06,
+        "threshold_m": 0.02,
+        "passed": true
+      },
+      "drag_response": {
+        "max_position_m": 5.5625706348873e-05,
+        "rms_position_m": 1.205500977959957e-05,
+        "max_velocity_m_s": 4.163840676740223e-07,
+        "threshold_m": 0.03145943754617123,
+        "passed": true
+      }
+    }
+  },
+  "full_gates": {
+    "C1": {
+      "max_position_m": 0.06255400823857567,
+      "rms_position_m": 0.026600565634518368,
+      "max_velocity_m_s": 6.992705950318186e-05,
+      "threshold_m": 0.5,
+      "passed": true
+    },
+    "C2": {
+      "max_position_m": 0.058232766129998184,
+      "rms_position_m": 0.024891255741259145,
+      "max_velocity_m_s": 6.526640179126083e-05,
+      "threshold_m": 0.5,
+      "passed": true
+    },
+    "C3": {
+      "max_position_m": 0.05827822097368502,
+      "rms_position_m": 0.024921737312853378,
+      "max_velocity_m_s": 6.531656768852932e-05,
+      "threshold_m": 0.5,
+      "passed": true
+    },
+    "C1_C0": {
+      "max_position_m": 0.004158335348584275,
+      "rms_position_m": 0.0016502651827799682,
+      "max_velocity_m_s": 4.482913857335106e-06,
+      "threshold_m": 0.1,
+      "passed": true
+    },
+    "C2_C0": {
+      "max_position_m": 0.000166315577390428,
+      "rms_position_m": 9.894099894231398e-05,
+      "max_velocity_m_s": 1.7982326469729612e-07,
+      "threshold_m": 0.1,
+      "passed": true
+    },
+    "C3_C0": {
+      "max_position_m": 0.00012147570705916058,
+      "rms_position_m": 6.394474429953427e-05,
+      "max_velocity_m_s": 1.2988711522502743e-07,
+      "threshold_m": 0.1,
+      "passed": true
+    },
+    "C1_C2": {
+      "max_position_m": 0.00432414494213624,
+      "rms_position_m": 0.0017376627817898714,
+      "max_velocity_m_s": 4.662705942506463e-06,
+      "threshold_m": 0.1,
+      "passed": true
+    },
+    "C1_C3": {
+      "max_position_m": 0.004278643255491552,
+      "rms_position_m": 0.0017103537483362187,
+      "max_velocity_m_s": 4.6125303604394774e-06,
+      "threshold_m": 0.1,
+      "passed": true
+    },
+    "C2_C3": {
+      "max_position_m": 5.08450551015738e-05,
+      "rms_position_m": 3.7426014691784075e-05,
+      "max_velocity_m_s": 5.3879612486782104e-08,
+      "threshold_m": 0.1,
+      "passed": true
+    }
+  },
+  "new_C0_runs": 0,
+  "passed": true,
+  "propagation_wall_s": 3250.3036681506783,
+  "peak_RSS_MiB": 161.59375,
+  "actual_1h_runs": 6,
+  "actual_6h_runs": 6
+}

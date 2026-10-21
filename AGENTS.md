@@ -90,3 +90,8 @@ gravity_third_body_v1已另获授权完成H4/H5各两次600s短例及各一次6h
 ## H6完成后的最新门禁
 
 common_force_validation_v1已按单独授权完成H4/H5六小时tight与H6六小时base/tight、两次600s预检；单轨0.5m和配对0.1m门禁通过，181测试通过。旧报告H6未运行/全窗PENDING属于历史状态，最新看H6两报告和本轮审计。仅冻结provisional_common_force_model.json作下一阶段条件背景，PROVISIONAL/HINDCAST/FORCE_MODEL_INCOMPLETE与PROVISIONAL_EPHEMERIS保留；40阶未证明截断收敛，真实气动/推力/高度/预热等门禁不变。C0—C3只有设计，尚未执行；新矩阵/长窗/更高阶/TIE/AI均需新授权，不能重复本次传播或混用旧J2密度组解释新力场。每次任务结束仍安全同步GitHub，不强推。
+
+
+## H6密度矩阵完成后的门禁
+
+common_density_h6_v1已单独授权完成C1/C2/C3各1h和6h base/tight共12次，C0读取既有H6，187测试及单轨/配对数值门槛通过。所有结果PROVISIONAL/SYNTHETIC_AERODYNAMIC_PARAMETERS/HINDCAST/FORCE_MODEL_INCOMPLETE，加PROVISIONAL_EPHEMERIS。旧J2 D0—D5仅历史条件；不得混旧新排名。共同配置SHA、旧源码/驱动/数据保持，正式TIE仍EXTERNAL_DATUM_UNVERIFIED。真实参数/推力/高度/预热/时间分辨率及截断/缺失力门禁继续。任务结束停止；任何新增传播/长窗/TIE/更高阶/AI须新授权。

@@ -1,0 +1,589 @@
+{
+  "passed": true,
+  "streaming_query_audits": {
+    "pre_C1": {
+      "phases": {
+        "rhs": 746,
+        "output": 61
+      },
+      "force_formula_max_relative": 0.0
+    },
+    "pre_C1_tight": {
+      "phases": {
+        "rhs": 1466,
+        "output": 61
+      },
+      "force_formula_max_relative": 0.0
+    },
+    "pre_C2": {
+      "phases": {
+        "rhs": 746,
+        "output": 61
+      },
+      "force_formula_max_relative": 0.0
+    },
+    "pre_C2_tight": {
+      "phases": {
+        "rhs": 1466,
+        "output": 61
+      },
+      "force_formula_max_relative": 0.0
+    },
+    "pre_C3": {
+      "phases": {
+        "rhs": 746,
+        "output": 61
+      },
+      "force_formula_max_relative": 0.0
+    },
+    "pre_C3_tight": {
+      "phases": {
+        "rhs": 1466,
+        "output": 61
+      },
+      "force_formula_max_relative": 0.0
+    },
+    "C1": {
+      "phases": {
+        "rhs": 4346,
+        "output": 361
+      },
+      "force_formula_max_relative": 0.0
+    },
+    "C1_tight": {
+      "phases": {
+        "rhs": 8666,
+        "output": 361
+      },
+      "force_formula_max_relative": 0.0
+    },
+    "C2": {
+      "phases": {
+        "rhs": 4346,
+        "output": 361
+      },
+      "force_formula_max_relative": 0.0
+    },
+    "C2_tight": {
+      "phases": {
+        "rhs": 8666,
+        "output": 361
+      },
+      "force_formula_max_relative": 0.0
+    },
+    "C3": {
+      "phases": {
+        "rhs": 4346,
+        "output": 361
+      },
+      "force_formula_max_relative": 0.0
+    },
+    "C3_tight": {
+      "phases": {
+        "rhs": 8666,
+        "output": 361
+      },
+      "force_formula_max_relative": 0.0
+    }
+  },
+  "protected_unchanged": true,
+  "no_C0_propagation": true,
+  "independent_residual_RAC_and_convergence": true,
+  "artifacts": [
+    {
+      "file": "experiments/common_density_h6_v1/C3_launch_once.json",
+      "sha256": "687199f059e8e1ee56941d2102ad0cd417a21713171c1d24b7f11492d5cb8932",
+      "bytes": 286
+    },
+    {
+      "file": "experiments/common_density_h6_v1/pre_C3_launch_once.json",
+      "sha256": "dba925a4e7f709d6d60f88b8aaa2d949dff5cc156cd55bf19c1f1890cd64e73e",
+      "bytes": 285
+    },
+    {
+      "file": "experiments/common_density_h6_v1/analysis.json",
+      "sha256": "6dd22dce358c45da81c2ba3b7a793fcbfd75c2acd0ed18eb7b49affeb838f5d4",
+      "bytes": 19637
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C1_C2_gate.json",
+      "sha256": "ea5114194b31c463f42d2af2b759c38a530669907ab728fdcd86068afefc811b",
+      "bytes": 171
+    },
+    {
+      "file": "experiments/common_density_h6_v1/pre_C2.json",
+      "sha256": "6f1df272db780712996bd20789adf3572a379f085c82a37cadb147e5d8565c7c",
+      "bytes": 1481
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C2.json",
+      "sha256": "a081eb77f7be32b7f6bc4c37719d3dbdd01ebfcdda5640fd8a3810ade48bac09",
+      "bytes": 1487
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C1_pre_pair_gate.json",
+      "sha256": "50681994a7a953dd122648cfd7c1b3bc353e78e81cff1d7c29180381532fd80f",
+      "bytes": 192
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C3_gate.json",
+      "sha256": "6dbde366bca08be7d512303f297fc43b62b0079be3f64f82fe3ecc1507ad3e1c",
+      "bytes": 170
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C1.json",
+      "sha256": "404700b0385d478de49f3223bc3c9538f6f6e46be6e9e65dc66e13d98d8687a7",
+      "bytes": 1431
+    },
+    {
+      "file": "experiments/common_density_h6_v1/pre_C1_launch_once.json",
+      "sha256": "5aadfc2ca993c1a23b16f50d8bbf202e28dbecf0e0c95e35179a8e6a59f5dead",
+      "bytes": 285
+    },
+    {
+      "file": "experiments/common_density_h6_v1/pre_C2_tight.json",
+      "sha256": "a9239b96f115f4e43c13037794c88c9119a2895a2366ba166f4eb75bd5db72e4",
+      "bytes": 1482
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C3.json",
+      "sha256": "0d653ef481409a7df248446e573e6589a9be9b3a6b2d161ccb3b79d33c382bde",
+      "bytes": 1486
+    },
+    {
+      "file": "experiments/common_density_h6_v1/runtime_budget.json",
+      "sha256": "4ee24bc01c3bd944f92fdd2c24825443dc546596264c90e0d8544e9e183398d5",
+      "bytes": 167
+    },
+    {
+      "file": "experiments/common_density_h6_v1/pre_C2_launch_once.json",
+      "sha256": "8112a31bdd8f80d6eca245dd14c5eff3db747ecbd1ce68b49ea91afa8746b4a9",
+      "bytes": 285
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C2_pre_pair_gate.json",
+      "sha256": "1d7170a925dcf2a8feb5f408b8f1b03642941c525a6e4c84a534eea4e9d8914d",
+      "bytes": 190
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C2_pre_gate.json",
+      "sha256": "581950198b132f56bea69b592109ba4d4e3524b7d85b81a17465b01b627ca440",
+      "bytes": 175
+    },
+    {
+      "file": "experiments/common_density_h6_v1/pre_C3.json",
+      "sha256": "f80968f40222fe499e34081b37e368a78110cd72adc8924f8135453043bb439b",
+      "bytes": 1480
+    },
+    {
+      "file": "experiments/common_density_h6_v1/pre_C3_tight_launch_once.json",
+      "sha256": "be026a25ed44b6fac1cb8c47ee98e0d1b013e90b689448654bc42c4ec29903d7",
+      "bytes": 284
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C1_tight_launch_once.json",
+      "sha256": "a4436e71e5263d5839fcf6a0b4c9a7831fa8750fea26d0a9f5c4ae5fed264a01",
+      "bytes": 285
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C1_pre_gate.json",
+      "sha256": "7354591b80279a9b03d937ee598a0266020c22f7f9930a5c3112e8672c1498f3",
+      "bytes": 175
+    },
+    {
+      "file": "experiments/common_density_h6_v1/preflight.json",
+      "sha256": "71feed91a90b45006cf127ea11ee1a53113ae958cac1e15a8cb8ba79f61c92b4",
+      "bytes": 148
+    },
+    {
+      "file": "experiments/common_density_h6_v1/pre_C3_tight.json",
+      "sha256": "4925e3d68c13be468a73aae9715a9d41da33e2ad3ad8954c9e387addd3afa66f",
+      "bytes": 1485
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C2_C3_gate.json",
+      "sha256": "dc645519f791262b752246895a01e3ec0e7fbe5a633ab5c1b5aa57e2fd6eeabf",
+      "bytes": 174
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C1_gate.json",
+      "sha256": "349d318ba605c94f948b0db73da2d51898fbe00ef9dcd8754cbfb333f0700da0",
+      "bytes": 170
+    },
+    {
+      "file": "experiments/common_density_h6_v1/protected.json",
+      "sha256": "bc3af326282353d459edceb61c9c92482a37e01da68ea11a6f308f0d22ffcafb",
+      "bytes": 37856
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C1_launch_once.json",
+      "sha256": "dbb4640476e369ac8e42613ad52580537da499586834b4ab66d6a8d2eb218288",
+      "bytes": 286
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C1_C0_gate.json",
+      "sha256": "c30efd4c9be61035163abdd01befd6912f011192b8be130e52bc1fb3a6b1dd85",
+      "bytes": 172
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C3_tight_launch_once.json",
+      "sha256": "1d5001000f334a81abbadf45239b4fc1bef6c8ae41a6fa9a635fbc5047bae1de",
+      "bytes": 285
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C3_tight.json",
+      "sha256": "805aefe4fa6bd2b67ae69befb4c129de2a98cfbd5f426cb49ecfba38116d29e9",
+      "bytes": 1490
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C3_pre_pair_gate.json",
+      "sha256": "f0198adc99c04fd1174d662b68d870a33e232442c63a0d4273a56e62545379a2",
+      "bytes": 187
+    },
+    {
+      "file": "experiments/common_density_h6_v1/launch_once.json",
+      "sha256": "9856a736d74e95684e338c72f1bd5bb9d2fca1698b918a777073942294fbe869",
+      "bytes": 60
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C2_gate.json",
+      "sha256": "be838e1c4af1dcb4bb982d8794ea0f333cbce902458d850ac5a9de1e95053721",
+      "bytes": 171
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C1_tight.json",
+      "sha256": "be6bd1f7ad56d73b14878adec0682d7a239f5e354e272acbbf47b9ba8c01d9fa",
+      "bytes": 1429
+    },
+    {
+      "file": "experiments/common_density_h6_v1/configuration.json",
+      "sha256": "c48923221e572929fd12c83752b4b0238d0585980e7b1466f12b45a037e85933",
+      "bytes": 3282
+    },
+    {
+      "file": "experiments/common_density_h6_v1/pre_C1.json",
+      "sha256": "962be2e6bcf5bf50a1f0e7b5b8887aced081bce09383d4ab6fe0a6f4df36c32f",
+      "bytes": 1425
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C3_pre_gate.json",
+      "sha256": "17d388d51e6d5bc113585ad79457168db9fff572803c6ec254eb51b85c82491c",
+      "bytes": 174
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C3_C0_gate.json",
+      "sha256": "2831fbac8c2d2d85ab78ba4894aef05153696ad32c2bb3a07af98c9808e36832",
+      "bytes": 175
+    },
+    {
+      "file": "experiments/common_density_h6_v1/pre_C2_tight_launch_once.json",
+      "sha256": "c40f672e1f0129b3f78005db99829e8b97cd0d132244c98fc9fff031e92c4ffd",
+      "bytes": 284
+    },
+    {
+      "file": "experiments/common_density_h6_v1/pre_C1_tight_launch_once.json",
+      "sha256": "a6230cc3f0770c13f3f09b5cac456ff75b1e08e6e76dc7fb54e587f58e31733a",
+      "bytes": 284
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C2_C0_gate.json",
+      "sha256": "111907a3c7d769a4b17238327c61e5fb23b646507d4b7fbecd851a1bb7722064",
+      "bytes": 173
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C2_launch_once.json",
+      "sha256": "d2146ff542a4b30c4f6c7459bc84c35de7bd6a1a487c96496eb310c68ae3ceca",
+      "bytes": 286
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C2_tight.json",
+      "sha256": "f3e081fb3a004fc4e73f4dc0626529eb78e95f6ffdfc6f977f5e2350fc7b6b54",
+      "bytes": 1489
+    },
+    {
+      "file": "experiments/common_density_h6_v1/run_summary.json",
+      "sha256": "575a7af53aa1335854eccbec812d98b33c652fd7c90aa66936b34a71bb237d69",
+      "bytes": 24312
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C2_tight_launch_once.json",
+      "sha256": "d17f6371b51eda9a6fed58647cb4ac5ab5ae6110fd177c2f68e9753d6ac541a8",
+      "bytes": 285
+    },
+    {
+      "file": "experiments/common_density_h6_v1/pre_C1_tight.json",
+      "sha256": "e2de70b4aad702f249c1705bf3743f72eaeec4a823005c2f256db1467087a8de",
+      "bytes": 1425
+    },
+    {
+      "file": "experiments/common_density_h6_v1/C1_C3_gate.json",
+      "sha256": "6696c51efe12957da1d2accc3cafe5a36a510e3c52a3c266222f8d0d761f6741",
+      "bytes": 173
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/C3_tight_states.npz",
+      "sha256": "e2969aaa8a2fdc605407d08e0bc0571ffde9c9ce54025e397a16ffd5e228cf63",
+      "bytes": 21095
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/pre_C2_queries.jsonl.gz",
+      "sha256": "02563ab52eb920a15ea5f9c990b5ead55d500eed5fbff044277daca0e4f6c059",
+      "bytes": 462573
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/pre_C3_states.npz",
+      "sha256": "049b81c88a8c0b774015e6c55c069d1aa6933f629b028dcffe20a62cedd8ede0",
+      "bytes": 4098
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/pre_C3_tight_states.npz",
+      "sha256": "be080d6432bec9169aac6e579d4746b625a28544c7b7121c13f209709bb889d9",
+      "bytes": 4307
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/C3_queries.jsonl.gz",
+      "sha256": "4613ab81600eba8a4b44af41a6605cb18916f8c9a496c895f5bfc76ba3e81266",
+      "bytes": 2741123
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/pre_C1_states.npz",
+      "sha256": "6fad3afc4d2d67f5e4f820612af751a2e8e51e1ec0a0ed06e9638f00c2ce2765",
+      "bytes": 4090
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/pre_C3_tight_queries.jsonl.gz",
+      "sha256": "513664a1e94da1c3f53b6f725cc7043bd7f9cd7e6ee5a878e516a65771557b80",
+      "bytes": 866372
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/C1_tight_states.npz",
+      "sha256": "563d6ce59c274cb8eadc6a766087b7db59e9faabe76c1f9ed9e9de25ea2e19ad",
+      "bytes": 21092
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/C1_queries.jsonl.gz",
+      "sha256": "bb156bd5698ba77abeb6d65fd640dc70e6fc26a1fa3ff961a6499ec6f78a26db",
+      "bytes": 1371286
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/pre_C3_queries.jsonl.gz",
+      "sha256": "042ab497a119a24774132c7636da4e8f1348d0ff971aa4e620a89e6c714e03bb",
+      "bytes": 470506
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/C2_tight_queries.jsonl.gz",
+      "sha256": "5e3399774c7f62590e4e2771fc1f3eda25ffdcd7edf8589460d11f8d40c3c8b4",
+      "bytes": 5002256
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/pre_C2_tight_queries.jsonl.gz",
+      "sha256": "0cc86260cb2f5089f093fb54f0606f40cac1854319092b15e84a129b5addae75",
+      "bytes": 845966
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/C3_states.npz",
+      "sha256": "f299e09cea98bee224658753ce7e7ba7c77af819a157af8315473318ed299afb",
+      "bytes": 19662
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/pre_C1_tight_states.npz",
+      "sha256": "5921e595cad0a17a0f4e30b65c835083f68cd47a632b6cf7402fb543ead29f99",
+      "bytes": 4307
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/pre_C1_queries.jsonl.gz",
+      "sha256": "e236de515cc8d296e12f9c501cad7a744606508391862a1df8edc516ad983910",
+      "bytes": 234709
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/pre_C1_tight_queries.jsonl.gz",
+      "sha256": "17d0351c9e0bcd1b9349e8d00442f31f8025ae97c9fbdc4654ff533ea65ee01c",
+      "bytes": 439723
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/C3_tight_queries.jsonl.gz",
+      "sha256": "6753a558f2c62bfce3df17b17312cf2049ce13d628fd55eeaf810fe488762f03",
+      "bytes": 5112035
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/C1_states.npz",
+      "sha256": "140976588d35b6955e58919f340fed934efb3d4780959b9aade7ba3510f91750",
+      "bytes": 19671
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/C1_tight_queries.jsonl.gz",
+      "sha256": "2b536f96c9329cb9cc1c77ad61bd97d4495b7a8735f1dbe953fba95c6a5d2ca1",
+      "bytes": 2596860
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/C2_tight_states.npz",
+      "sha256": "b9083a2554ea0116b3e551f7d4e132adc967873c2ccaa4d225c901560e1d4034",
+      "bytes": 21092
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/pre_C2_tight_states.npz",
+      "sha256": "4c688da32030480723776654d7475c650d5504535459ce6deb96a33608e41edc",
+      "bytes": 4303
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/C2_states.npz",
+      "sha256": "087e1d928e79cd01fd8c348cf00827932bdb5ceef71284fb3afd6648091be926",
+      "bytes": 19664
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/C2_queries.jsonl.gz",
+      "sha256": "663cf93d4b056a25fb6bcc107ff01494eb0088ca1eb65c8de7bb0feb1027d94f",
+      "bytes": 2684105
+    },
+    {
+      "file": "data/processed/common_density_h6_v1/pre_C2_states.npz",
+      "sha256": "b1f970421f3a849071d9a5da3a7bf323a55c132c52aff8d5da958890a7c9e1c9",
+      "bytes": 4083
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_convergence.csv",
+      "sha256": "4a6d2e37afd69b1609806afb1e83964d55043d422c30505f68f33c7a109e1f83",
+      "bytes": 173442
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_pre_C2_states.csv",
+      "sha256": "9b5b1fc260e85cffb3bf37db2131954af46cbceda5366a8da2c9fe21eca15c32",
+      "bytes": 162475
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_resources.csv",
+      "sha256": "8c7e68d041c1ef2587d0b9c198136ce2c8c4ee4988370e745ba3287a8ddfb18a",
+      "bytes": 901
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_latitude_density_comparison.csv",
+      "sha256": "4b00cc6fb398abfb245d928581105796b8738611dd651a034ea3ce2a451232ab",
+      "bytes": 943
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_pre_C1_states.csv",
+      "sha256": "09562900d987977c449707482f5e0276bd3a5a9c52cbfcbdbb75f7e3bbdbfc6a",
+      "bytes": 49604
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_C3_states.csv",
+      "sha256": "f9441f30b410221da499983d680011ad2a7f49a66bfc3eb663f17ffa4c95e516",
+      "bytes": 960603
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_C1_tight_states.csv",
+      "sha256": "22db3766b164725ba764e2c868f634bf3956df803939d2fcfd0aacea7ff9de33",
+      "bytes": 291968
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_same_C0_density.csv",
+      "sha256": "319a166b76e27b885a64c82a09592d8ecc0da0de2130b40e9ddb878c664bda70",
+      "bytes": 277083
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_C1_states.csv",
+      "sha256": "24abdbe26362dc4ea0641486f51515937eaba360d97066a164e450725f4a13eb",
+      "bytes": 292117
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_C2_tight_states.csv",
+      "sha256": "549f7a26e2e342a291095ca9255f3dfa44124411480e063ac2a29e73ca1de51e",
+      "bytes": 961199
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_C2_states.csv",
+      "sha256": "dc2abd389696984b56d2e816426fbb98979b46dbc78197958ac13f657eaf2a4e",
+      "bytes": 961144
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_SP3_residuals.csv",
+      "sha256": "dba8a0bd8627fe3a504bfad895a37d3df849cb4049c3cf7a0f0c2c5cbe32f153",
+      "bytes": 314112
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_pre_C3_states.csv",
+      "sha256": "d561394e4dc1033879fdbf64f8f63af5e6654a3fa527afd11aadf6bd7574d745",
+      "bytes": 162373
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_model_differences.csv",
+      "sha256": "120f15d56d8d41969b2779274a6d0d22270232a710ccb6afb4f51e416c5b0e98",
+      "bytes": 430680
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_C3_tight_states.csv",
+      "sha256": "aeac02161a6c2bee960996a21396f64759d726f64e2ef59b3db1fc7f09378971",
+      "bytes": 960603
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_pre_C1_tight_states.csv",
+      "sha256": "5a31c03ce448afa2912f416b8d35a225f31a855265ff91d7ad32ce0eadb840c5",
+      "bytes": 49612
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_paired_convergence.csv",
+      "sha256": "59252f7e27f9e9db518d0c308c91afe6d974a6f6dddf199d98ebcdd619f40a89",
+      "bytes": 225261
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_pre_C3_tight_states.csv",
+      "sha256": "81959ea45328c17f363bda1df3fff35cafe53ed0994f6629e4212eecbcbbbfd9",
+      "bytes": 162377
+    },
+    {
+      "file": "results/metrics/common_density_h6_v1_pre_C2_tight_states.csv",
+      "sha256": "f257e2e21802ea327609a3b4d77f322acd6e5613b77e1b4fd96d3bf4e669f93d",
+      "bytes": 162453
+    },
+    {
+      "file": "results/figures/common_density_h6_v1_costs.png",
+      "sha256": "3ea1b94d23b742431acccc77aa55e2f5dfeb0bbf216c7fbeb4da4e54b777a92d",
+      "bytes": 52831
+    },
+    {
+      "file": "results/figures/common_density_h6_v1_same_position_density.png",
+      "sha256": "99680ba9e24835c022f49f74d59e7a6efa91b5426a88bd4359b7c1a79bebd315",
+      "bytes": 254814
+    },
+    {
+      "file": "results/figures/common_density_h6_v1_position_differences.png",
+      "sha256": "bde84b42b93164c3c49c07462b0144d36c19675dd2e9d3dc4299a5e631d8612c",
+      "bytes": 96760
+    },
+    {
+      "file": "results/figures/common_density_h6_v1_SP3_residuals.png",
+      "sha256": "ec3431a511a91ebcecd0697f35bbd2bf7d2ca73177a5a48a091bcf1dea64cdce",
+      "bytes": 79742
+    },
+    {
+      "file": "results/figures/common_density_h6_v1_density_drag.png",
+      "sha256": "944d4d891df7e2b0dccabd9a8ce8ab73b96b25db738e942510efb9439776c6ce",
+      "bytes": 258116
+    },
+    {
+      "file": "results/figures/common_density_h6_v1_RAC_residuals.png",
+      "sha256": "24e17d5a0bd71407cb9d3d9181c5a042e09a4415e3a24e20abadcd79f3399242",
+      "bytes": 190655
+    },
+    {
+      "file": "results/figures/common_density_h6_v1_RAC_differences.png",
+      "sha256": "e8278496fa3330ab4e952b3e8923068f496dd65b841e64c7e19fef53ee31412f",
+      "bytes": 215974
+    },
+    {
+      "file": "results/figures/common_density_h6_v1_convergence.png",
+      "sha256": "0618406e3d53703357883b224b2db57b4418b22abaa156c23a4a30b528bf2276",
+      "bytes": 77310
+    },
+    {
+      "file": "results/figures/common_density_h6_v1_terminal_drag.png",
+      "sha256": "17444879cc162c7c10d435c52e7e58ae2444bd0e33726bd4de79302583c12f4d",
+      "bytes": 49843
+    },
+    {
+      "file": "results/figures/common_density_h6_v1_latitude_density.png",
+      "sha256": "b786a83d1e3d3acc80a40fd70e47d75b2bad8a047a61a68e636662aae37ebd09",
+      "bytes": 101466
+    }
+  ]
+}

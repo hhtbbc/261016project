@@ -120,3 +120,10 @@ H4/H5 tight、H6 base/tight共四次六小时及H6两次600秒预检完成，无
 本次传播墙钟1192.190s、峰RSS329.707MiB，低于1800s/2GiB；历史SHA不变。实际配置effective_configuration.json区分继承来源的旧状态字段，旧记录保留。仅冻结configs/provisional_common_force_model.json供下一阶段条件研究，标记PROVISIONAL / HINDCAST / FORCE_MODEL_INCOMPLETE，星历保留PROVISIONAL_EPHEMERIS。
 
 40阶未证明截断收敛，真实气动/姿态推力、TIE外部ZG登记、预热和高频场仍未闭合；缺失潮汐/SRP/相对论等。C0—C3仅设计未运行。下一入口reports/H6_FORCE_MODEL_VALIDATION.md、reports/H6_ORBIT_COMPARISON.md及docs/PROVISIONAL_DENSITY_COMPARISON_PLAN.md。完成后停止，任何新阻力矩阵/更高阶/TIE/AI/长窗传播均需另授权。
+
+
+## 2026-10-21：统一H6的C0—C3条件密度矩阵完成
+
+C0复用H6，未重跑。新增C1/C2/C3各1h base/tight、6h base/tight，共12次，预注册单轨/配对门槛通过，187测试通过；无新TIE/更高阶/AI/长窗。C1−C2终点58.350988m，C1−C3 52.217924m，C2−C3 6.133109m。全部仍为PROVISIONAL / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST / FORCE_MODEL_INCOMPLETE / PROVISIONAL_EPHEMERIS。
+
+共同H6/旧实验/驱动保护SHA不变，正式TIE入口仍拒绝。总传播3250.304s、峰RSS161.594MiB。三种在线密度、同C0位置离线密度、力/轨道及SP3探索残差均有CSV/审计/图。主报告reports/COMMON_FORCE_DENSITY_ORBIT_COMPARISON.md。正式气动/推力/高度/预热/时间分辨率和缺失力门禁未解除；本轮完成后停止。下一步优先取得FORMAL_PARAMETER_EVIDENCE_REQUESTS列明的资料并设计物理验证，不自动扩窗或训练。

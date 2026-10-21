@@ -1,0 +1,56 @@
+{
+  "model": "C1",
+  "integration": {
+    "method": "RK45",
+    "rtol": 1e-12,
+    "atol_si": [
+      1e-05,
+      1e-05,
+      1e-05,
+      1e-08,
+      1e-08,
+      1e-08
+    ],
+    "max_step_s": 15.0,
+    "accepted_steps": 244,
+    "nfev": 1466,
+    "elapsed_s": 101.03169007226825,
+    "output_samples": 61,
+    "success": true,
+    "message": "The solver successfully reached the end of the integration interval.",
+    "min_accepted_step_s": 0.007410222174304238,
+    "max_accepted_step_s": 15.000000000000227
+  },
+  "force": {
+    "labels": [
+      "PROVISIONAL",
+      "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+      "HINDCAST",
+      "FORCE_MODEL_INCOMPLETE",
+      "PROVISIONAL_EPHEMERIS"
+    ],
+    "density_queries": 1527,
+    "failures": 0,
+    "density_query_seconds": 2.33557160012424,
+    "query_mean_ms": 1.5333231072567926,
+    "query_p95_ms": 1.632603257894516,
+    "phase_calls": {
+      "rhs": 1466,
+      "output": 61,
+      "test": 0
+    },
+    "frame_and_drag_evaluate_seconds": 39.85086716711521,
+    "cache": "No density cache; explicit frozen drivers; Fortran backend internal state reused",
+    "instrumented_density_seconds": 2.341384384781122
+  },
+  "wall_with_output_s": 102.66655374877155,
+  "peak_RSS_MiB": 161.59375,
+  "labels": [
+    "PROVISIONAL",
+    "SYNTHETIC_AERODYNAMIC_PARAMETERS",
+    "HINDCAST",
+    "FORCE_MODEL_INCOMPLETE",
+    "PROVISIONAL_EPHEMERIS"
+  ],
+  "all_queries_valid": true
+}

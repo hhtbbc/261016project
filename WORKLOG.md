@@ -343,3 +343,15 @@ H4/H5 tight、H6 base/tight共四次六小时及H6两次600秒预检完成，无
 关键操作：source scripts/activate_orbit.sh；python -m unittest discover -s tests（新增测试首次src导入路径错误，修正测试引导后181项通过，未发生模型重试）；OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/run_common_force_validation.py（唯一）；python scripts/prepare_common_force_effective_config.py；python scripts/analyze_common_force.py；python scripts/write_common_force_reports.py；python scripts/update_common_force_status.py；python scripts/audit_common_force.py。运行日志logs/common_force_runs.log，测试logs/common_force_tests_pass.log；实际JSON/launch_once/门禁、NPZ、CSV与6图全部本地保存。无安装、下载、TIE/阻力/AI/24或48h运行，无参数拟合。沿用项目.venv310、冻结EOP/闰秒及GFZ系数/ERFA，系统环境未改。
 
 新增组合模块及测试、受限运行/离线分析/独立审计脚本、两报告、预注册和C0—C3设计、条件配置；更新长期门禁/研究计划。旧实验、原始源码和正式TIE门禁不变。Git安全提交与实际远端SHA核对以最终同步日志和结束汇报为准。
+
+
+## 2026-10-21：统一H6的C0—C3条件密度矩阵完成
+
+C0复用H6，未重跑。新增C1/C2/C3各1h base/tight、6h base/tight，共12次，预注册单轨/配对门槛通过，187测试通过；无新TIE/更高阶/AI/长窗。C1−C2终点58.350988m，C1−C3 52.217924m，C2−C3 6.133109m。全部仍为PROVISIONAL / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST / FORCE_MODEL_INCOMPLETE / PROVISIONAL_EPHEMERIS。
+
+共同H6/旧实验/驱动保护SHA不变，正式TIE入口仍拒绝。总传播3250.304s、峰RSS161.594MiB。三种在线密度、同C0位置离线密度、力/轨道及SP3探索残差均有CSV/审计/图。主报告reports/COMMON_FORCE_DENSITY_ORBIT_COMPARISON.md。正式气动/推力/高度/预热/时间分辨率和缺失力门禁未解除；本轮完成后停止。下一步优先取得FORMAL_PARAMETER_EVIDENCE_REQUESTS列明的资料并设计物理验证，不自动扩窗或训练。
+
+
+关键命令及文件：source scripts/activate_orbit.sh；187项unittest；run_common_force_density_comparison.py静态及唯一--execute；analyze_common_density.py离线；write_common_density_reports.py；audit_common_density.py逐查询/历史SHA独立审计。复用.venv310，无安装/下载；缓存日志均项目内。新增common_density_research包装复用现有力/坐标/密度实现，冻结配置未修改。运行器按一小时实测×6×1.10预算门禁，失败不重试。Git安全提交与远端实际SHA核对见同步日志及最终汇报。
+
+独立审计实际通过：12次传播共48,204条逐查询记录；逐条阻力方向/公式、NRLMSIS冻结驱动及TIE原生8列/PROVISIONAL标识核对，全部收敛指标/SP3范数及RAC独立重算，298项历史保护清单与共同配置SHA未变。日志logs/common_density_audit.log；清单experiments/common_density_h6_v1/independent_audit.json。生成10张真实图，未平滑Ap桶切换，旧PHASE1报告保留，新增PHASE1_H6_DENSITY_UPDATE.md。

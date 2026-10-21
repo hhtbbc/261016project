@@ -99,3 +99,6 @@ credentials.json
 
 # H6 common force validation evidence
 !/logs/common_force*.log
+
+# Uniform H6 conditional atmosphere comparison evidence
+!/logs/common_density*.log
