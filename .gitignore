@@ -93,3 +93,6 @@ credentials.json
 
 # Gravity truncation and offline missing-force evidence
 !/logs/gravity_truncation*.log
+
+# 40-degree gravity and third-body controlled evidence
+!/logs/h4h5*.log

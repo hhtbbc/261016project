@@ -1,0 +1,12 @@
+test_extreme_geometry_and_limit (test_third_body_gravity.ThirdBodyTests) ... ok
+test_geocenter_and_formula (test_third_body_gravity.ThirdBodyTests) ... ok
+test_independent_horizons_positions (test_third_body_gravity.ThirdBodyTests) ... ok
+test_repeatability_and_magnitude (test_third_body_gravity.ThirdBodyTests) ... ok
+test_switches_and_backward_rhs (test_third_body_gravity.ThirdBodyTests) ... ok
+test_time_continuity (test_third_body_gravity.ThirdBodyTests) ... ok
+test_units_source_and_positions (test_third_body_gravity.ThirdBodyTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.464s
+
+OK

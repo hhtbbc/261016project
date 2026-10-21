@@ -1,0 +1,21 @@
+{
+  "method": "RK45",
+  "rtol": 1e-10,
+  "atol_si": [
+    0.001,
+    0.001,
+    0.001,
+    1e-06,
+    1e-06,
+    1e-06
+  ],
+  "max_step_s": 30.0,
+  "accepted_steps": 24,
+  "nfev": 146,
+  "elapsed_s": 6.10022122785449,
+  "output_samples": 11,
+  "success": true,
+  "message": "The solver successfully reached the end of the integration interval.",
+  "min_accepted_step_s": 0.018613636745675986,
+  "max_accepted_step_s": 30.0
+}

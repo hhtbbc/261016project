@@ -222,3 +222,13 @@ Swarm窗口17281点和WGS84坐标已复用原入口核对，但ZG下边界零面
 只在历史H1离线评估日月差分，太阳约2.74—3.90e−7/月球6.91e−7—1.10e−6m/s²；builtin ERFA位置而非JPL DE440，GM另有NASA来源。SRP/潮汐/单极GR仅显式条件量级，没有加入RHS或用a*t²推轨道误差。f_thr名义mN/真实气动与推力、TIE高度及预热等仍未闭合。
 
 入口：reports/GRAVITY_TRUNCATION_VALIDATION.md、GRAVITY_TRUNCATION_ORBIT_COMPARISON.md；docs/ORBIT_MISSING_FORCE_BUDGET.md、NEXT_DENSITY_ORBIT_EXPERIMENT.md；experiments/gravity_truncation_v1；results同前缀CSV/图。下一步待授权更高阶截断/可靠星历第三体门禁，不进入正式密度精度排名，不自动新增阻力/大气/AI/长窗。Git实际SHA及远端核对见结束汇报。
+
+## 2026-10-21最新：40阶与日月第三体受控实验完成
+
+先安全补推上一提交2ad0c35并核对远端相同。本轮同源EGM2008只读取256KiB，完整40阶861对系数，前64KiB与20阶相同；新初始化模块复用旧势/梯度而不改历史实现。SHTOOLS最大相对差6.37e−15，新20阶在全部361历史H3状态上的GCRS力逐位相同；原176项最终测试通过。日月模块明确ERFA builtin，不自动下载；Moon TT原生GCRS/Sun TDB几何矢量Newtonian阶对齐，完整相对论空间/GM时标映射未闭合。NASA Horizons DE441三点独立检查最大位置差太阳1648m、月球4404m，保留PROVISIONAL_EPHEMERIS。
+
+仅四次600s短例(base/tight各两组)和H4/H5各一次六小时，无H6/H3重跑。短例最大差约0.257mm，通过2cm门槛；六小时没有完整tight对照，FULL6H_CONVERGENCE_PENDING不可隐藏。H4−H3终点15.364167m/最大33.088719m/RMS20.704993m，5m截断目标未达；H5−H3终点4.617909m/最大12.665472m/RMS5.578434m，法向为主。SP3终点/RMSE：H3 223.025/107.677m、H4 234.817/104.212m、H5 224.480/108.093m，未预设新增力必改善。全新传播349.972s、峰148.348MiB，229项历史SHA不变，旧H3交付清单另核。
+
+入口：reports/GRAVITY_40X40_VALIDATION.md、THIRD_BODY_GRAVITY_VALIDATION.md、GRAVITY_THIRD_BODY_ORBIT_COMPARISON.md；docs/COMMON_FORCE_MODEL_DECISION.md、FORMAL_PARAMETER_EVIDENCE_REQUESTS.md。数据/图/CSV同gravity_third_body_v1前缀，原NPZ/星历响应/模型前缀本地不上传。
+
+尚不正式冻结40阶收敛或“40阶+日月”组合（H6未运行）；下一步须另授权补全窗收敛/候选组合及截断预算。仅可设计明确假设的统一动力学PROVISIONAL密度矩阵，真实气动/推力/TIE高度/预热和时间场门禁仍在。当前任务完成后停止，不自动H6/更高阶/阻力/TIE/AI/长窗。Git最终SHA与同步结果见结束核对。

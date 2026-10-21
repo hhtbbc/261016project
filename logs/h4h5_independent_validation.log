@@ -1,0 +1,197 @@
+{
+  "passed": true,
+  "gravity40": {
+    "max_abs_difference_m_s2": 4.776440225935685e-14,
+    "max_relative_difference": 6.370099534466891e-15,
+    "gradient_errors_10km_1km_100m": [
+      1.2407818542902304e-06,
+      1.2401030298143677e-08,
+      1.730783335685005e-10
+    ],
+    "mean_pure_field_ms": 17.808269560337067,
+    "P95_pure_field_ms": 17.853148374706503,
+    "coefficient_count": 861,
+    "20x20_full_GCRS_force_bitwise_same_all_361_H3_states": true
+  },
+  "third_body": {
+    "model": {
+      "status": "PROVISIONAL_EPHEMERIS",
+      "position_source": "ERFA epv00 geometric heliocentric Earth (negative) for Sun; ERFA moon98 TT native GCRS Moon",
+      "erfa_version": "2.0.1.5",
+      "GM_source_sha256": "924ddf4fb9ead9fe8a1aa55780bcabde40b09d00065d58226e24b68d8092f140",
+      "GM_time_scale": "DE440 TDB-compatible SI values; full TT rescaling/spatial mapping omitted at leading Newtonian order",
+      "no_runtime_download": true,
+      "full_relativistic_mapping": false
+    },
+    "GM_m3_s2": {
+      "sun": 1.3271244004127942e+20,
+      "moon": 4902800118457.55
+    },
+    "independent_references": {
+      "sun": {
+        "source": "NASA Horizons DE441 geometric ICRF geocentric; position reference only",
+        "max_position_difference_m": 1648.2650465112038,
+        "position_gate_m": 20000.0,
+        "checks": [
+          {
+            "seconds": 0.0,
+            "horizons_jd_tdb": "2460024.500823908",
+            "requested_vs_printed_epoch_s": 5.958284905460687e-05,
+            "Horizons_geocentric_ICRF_m": [
+              148984383197.20242,
+              -497028987.3655562,
+              -216653289.86988991
+            ],
+            "ERFA_leading_GCRS_geometry_m": [
+              148984382961.1068,
+              -497027365.8846635,
+              -216653432.4155107
+            ],
+            "position_difference_m": 1644.7676665925844,
+            "differential_accel_difference_m_s2": 1.6300863202535846e-15,
+            "differential_accel_relative_difference": 5.896725699376743e-09
+          },
+          {
+            "seconds": 10800.0,
+            "horizons_jd_tdb": "2460024.625823908",
+            "requested_vs_printed_epoch_s": 5.8608465280940436e-05,
+            "Horizons_geocentric_ICRF_m": [
+              148990455104.6187,
+              -200603038.1188769,
+              -88145397.02355818
+            ],
+            "ERFA_leading_GCRS_geometry_m": [
+              148990454858.0664,
+              -200601416.7722274,
+              -88145538.84137525
+            ],
+            "position_difference_m": 1646.1060996255462,
+            "differential_accel_difference_m_s2": 4.410554446306199e-15,
+            "differential_accel_relative_difference": 1.3767604187636756e-08
+          },
+          {
+            "seconds": 21600.0,
+            "horizons_jd_tdb": "2460024.750823908",
+            "requested_vs_printed_epoch_s": 5.764141963737757e-05,
+            "Horizons_geocentric_ICRF_m": [
+              148995825429.3811,
+              95824317.3361563,
+              40363396.6697947
+            ],
+            "ERFA_leading_GCRS_geometry_m": [
+              148995825172.68582,
+              95825939.38938513,
+              40363255.85602205
+            ],
+            "position_difference_m": 1648.2650465112038,
+            "differential_accel_difference_m_s2": 7.345350449101083e-15,
+            "differential_accel_relative_difference": 1.974200053499244e-08
+          }
+        ],
+        "response_sha256": "bad490bbe4453c3f49c12e488ead412f92749965b1203b898c7ca198a902b443",
+        "query": {
+          "format": "json",
+          "COMMAND": "'10'",
+          "OBJ_DATA": "'YES'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@399'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "OUT_UNITS": "'KM-S'",
+          "CSV_FORMAT": "'YES'",
+          "VEC_TABLE": "'2'",
+          "TLIST": "'2460024.500823907554150 2460024.625823907554150 2460024.750823907554150'",
+          "TIME_TYPE": "'TDB'"
+        }
+      },
+      "moon": {
+        "source": "NASA Horizons DE441 geometric ICRF geocentric; position reference only",
+        "max_position_difference_m": 4403.5163278567625,
+        "position_gate_m": 40000.0,
+        "checks": [
+          {
+            "seconds": 0.0,
+            "horizons_jd_tdb": "2460024.500823908",
+            "requested_vs_printed_epoch_s": 5.958284905460687e-05,
+            "Horizons_geocentric_ICRF_m": [
+              357750301.4750757,
+              -49304715.3625471,
+              -46390591.9956729
+            ],
+            "ERFA_leading_GCRS_geometry_m": [
+              357751052.49132407,
+              -49305803.80501849,
+              -46394735.76462702
+            ],
+            "position_difference_m": 4349.661316004179,
+            "differential_accel_difference_m_s2": 2.2681332344499202e-11,
+            "differential_accel_relative_difference": 3.0840487371741315e-05
+          },
+          {
+            "seconds": 10800.0,
+            "horizons_jd_tdb": "2460024.625823908",
+            "requested_vs_printed_epoch_s": 5.8608465280940436e-05,
+            "Horizons_geocentric_ICRF_m": [
+              359921815.11055815,
+              -39089699.200785615,
+              -41144251.71259216
+            ],
+            "ERFA_leading_GCRS_geometry_m": [
+              359922572.8300376,
+              -39090948.91286299,
+              -41148378.32857744
+            ],
+            "position_difference_m": 4377.770959720906,
+            "differential_accel_difference_m_s2": 2.188807705718807e-11,
+            "differential_accel_relative_difference": 2.4413602136852757e-05
+          },
+          {
+            "seconds": 21600.0,
+            "horizons_jd_tdb": "2460024.750823908",
+            "requested_vs_printed_epoch_s": 5.764141963737757e-05,
+            "Horizons_geocentric_ICRF_m": [
+              361746574.5573676,
+              -28836474.8002907,
+              -35857692.79913174
+            ],
+            "ERFA_leading_GCRS_geometry_m": [
+              361747331.1148426,
+              -28837892.305565268,
+              -35861792.70835432
+            ],
+            "position_difference_m": 4403.5163278567625,
+            "differential_accel_difference_m_s2": 1.9875652499611585e-11,
+            "differential_accel_relative_difference": 1.973231666855921e-05
+          }
+        ],
+        "response_sha256": "54a97cf7d9cb6aee8bc8d169f3680b43acb44f8b739b083391169f7c9361133a",
+        "query": {
+          "format": "json",
+          "COMMAND": "'301'",
+          "OBJ_DATA": "'YES'",
+          "MAKE_EPHEM": "'YES'",
+          "EPHEM_TYPE": "'VECTORS'",
+          "CENTER": "'500@399'",
+          "REF_PLANE": "'FRAME'",
+          "REF_SYSTEM": "'ICRF'",
+          "VEC_CORR": "'NONE'",
+          "OUT_UNITS": "'KM-S'",
+          "CSV_FORMAT": "'YES'",
+          "VEC_TABLE": "'2'",
+          "TLIST": "'2460024.500823907554150 2460024.625823907554150 2460024.750823907554150'",
+          "TIME_TYPE": "'TDB'"
+        }
+      }
+    },
+    "scope": "Newtonian mechanism/sensitivity, not precision celestial frame/GM time-scale closure",
+    "full_6h_convergence_status": "PENDING: only 600s short base/tight planned, H4/H5 full base each once"
+  },
+  "thresholds": {
+    "gravity_reference_relative": 2e-12,
+    "gravity_reference_absolute_m_s2": 2e-12,
+    "short_state_base_tight_max_m": 0.02,
+    "truncation_endpoint_candidate_m": 5.0
+  }
+}

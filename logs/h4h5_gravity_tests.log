@@ -1,0 +1,10 @@
+test_complete_and_backward (test_gravity_degree40.Gravity40Tests) ... ok
+test_equator_and_poles (test_gravity_degree40.Gravity40Tests) ... ok
+test_external_random (test_gravity_degree40.Gravity40Tests) ... ok
+test_gradient (test_gravity_degree40.Gravity40Tests) ... ok
+test_invalid_degree (test_gravity_degree40.Gravity40Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.604s
+
+OK

@@ -1,0 +1,37 @@
+{
+  "no_new_official_field_definition": true,
+  "uses_existing_evidence_only": true,
+  "products": [
+    {
+      "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230321T000000_20230321T235959_0601_MDR_SC_DYN.cdf",
+      "sha256": "37a6841e51678656974b455d151ae42f281060db59d634ca1d0840c2258f0efc",
+      "unchanged": true
+    },
+    {
+      "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230322T000000_20230322T235959_0601_MDR_SC_DYN.cdf",
+      "sha256": "80926937b56d695e4e08caed24eb6630bad0b6330d0efc9e94cc061d39ff5b66",
+      "unchanged": true
+    },
+    {
+      "file": "data/raw/swarm_drag/extracted/SW_OPER_SC_ADYN_1B_20230323T000000_20230323T235959_0601_MDR_SC_DYN.cdf",
+      "sha256": "c4c44d48e53bba2223fe0de39813ab19ac841d3e291362e4d7d57db127422845",
+      "unchanged": true
+    },
+    {
+      "file": "data/raw/swarm_attitude_2023/extracted/SW_OPER_STRAATT_1B_20230321T000000_20230321T235959_0601_MDR_SAT_AT.cdf",
+      "sha256": "98a5de739e834785b6a97de4cc9ac22851126513a2db8cab8237a0e3802cfc40",
+      "unchanged": true
+    },
+    {
+      "file": "data/raw/swarm_attitude_2023/extracted/SW_OPER_STRAATT_1B_20230322T000000_20230322T235959_0601_MDR_SAT_AT.cdf",
+      "sha256": "3df0a1251ecb582d7e032907bf2d158b8ba012773999a0b8e3b5f9adcda7e13f",
+      "unchanged": true
+    },
+    {
+      "file": "data/raw/swarm_attitude_2023/extracted/SW_OPER_STRAATT_1B_20230323T000000_20230323T235959_0601_MDR_SAT_AT.cdf",
+      "sha256": "9b2ee35123ef1f9c18bdbbd9553b7dffaf968d78c4fcd3158a1e9a14896a82c0",
+      "unchanged": true
+    }
+  ],
+  "formal_area_Cd_thrust_ready": false
+}

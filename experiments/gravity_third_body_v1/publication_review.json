@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "new_public_files": 66,
+  "no_large_or_credential_findings": true,
+  "largest_files": [
+    {
+      "file": "results/figures/gravity_third_body_v1_RAC_residuals.png",
+      "bytes": 208781
+    },
+    {
+      "file": "results/metrics/gravity_third_body_v1_SP3_residuals.csv",
+      "bytes": 185892
+    },
+    {
+      "file": "results/figures/gravity_third_body_v1_RAC_differences.png",
+      "bytes": 173952
+    },
+    {
+      "file": "results/figures/gravity_third_body_v1_accelerations.png",
+      "bytes": 163658
+    },
+    {
+      "file": "results/metrics/gravity_third_body_v1_model_differences.csv",
+      "bytes": 126888
+    }
+  ]
+}

@@ -67,3 +67,5 @@ D5已完成1h预检及6h base/tight，与原D0—D4作受控比较，原实验�
 最新引力基线：[完整8×8设计](docs/SPHERICAL_HARMONICS_GRAVITY_DESIGN.md)、[独立验证](reports/SPHERICAL_HARMONICS_VALIDATION.md)、[六小时比较](reports/SPHERICAL_HARMONICS_ORBIT_COMPARISON.md)。H1为统一EGM2008静态低阶场，旧实验保留；正式大气精度比较的物理门禁尚未解除。
 
 后续[引力截断敏感性](reports/GRAVITY_TRUNCATION_ORBIT_COMPARISON.md)表明12→20阶六小时差仍为133.266m，5m候选目标未满足；[主要缺失受力预算](docs/ORBIT_MISSING_FORCE_BUDGET.md)和[下一阶段门禁](docs/NEXT_DENSITY_ORBIT_EXPERIMENT.md)已形成，尚不开展正式密度精度排名。
+
+最新：[40阶与日月比较](reports/GRAVITY_THIRD_BODY_ORBIT_COMPARISON.md)、[40阶验证](reports/GRAVITY_40X40_VALIDATION.md)、[第三体验证](reports/THIRD_BODY_GRAVITY_VALIDATION.md)及[共同模型决策](docs/COMMON_FORCE_MODEL_DECISION.md)。40−20差尚未达5m目标，六小时完整tight收敛待验证，正式密度精度比较门禁未解除。

@@ -314,3 +314,19 @@ run_gravity_truncation.py唯一--execute：H3短600s4.214s/146nfev，1.5安全�
 关键命令source scripts/activate_orbit.sh；PYTHONPATH=src python -m unittest discover -s tests -v；python scripts/prepare_gravity_degree20.py；python scripts/validate_gravity_truncation.py；python scripts/run_gravity_truncation.py（静态）与--execute（唯一）；python scripts/analyze_gravity_truncation.py；python scripts/estimate_missing_force_budget.py；python scripts/write_missing_force_budget.py；python scripts/write_gravity_truncation_reports.py；python scripts/audit_gravity_truncation_delivery.py。一次交互导出系数忘记PYTHONPATH导致ModuleNotFoundError，补入口后导出成功，不涉及传播失败/重试。
 
 当前建议先设计更高阶截断与日月/潮汐规范门禁，再统一引力下另授权密度矩阵；真实气动/推力/TIE高度/预热时间场门禁保留。无新TIE、阻力、AI、24/48h或拟合。文档/状态/计划更新，安全提交和实际远端SHA见结束核对。完成后停止。
+
+## 2026-10-21：40×40截断与日月第三体
+
+先读AGENTS/状态/日志与用户列出的方案、20阶验证/比较、缺失力和正式缺口报告。Git本地2ad0c35、远端588b119且无冲突；通过现有同用户活跃认证通道安全补推，核对远端2ad0c354a0c845f33929d13cf1adc18fa701b163，无凭据存储/强推。纠正沿用表中的12阶终点355.338笔误，实物355.387674m。
+
+GFZ同源只读262144字节，前65536 SHA匹配旧源，完整40阶861对C/S；不下载完整252MB。新gravity_degree40.py仅初始化，继承原势/梯度，40阶80!约7e118/中间双阶乘约1e59有有限余量但仍逐点验证。SHTOOLS100随机点/赤道近极、精确极点连续、负梯度三档二阶收敛通过，最大相对6.3701e−15。新20阶在全部361个H3状态GCRS力逐位相同，旧模块未改。
+
+新增third_body_gravity.py包装原稳定差分数学核，保留地心参考减项、动态时间与体开关/越界拒绝。NASA旧GM文件SHA保持，SI×1e9；不伪称JPL位置。生产位置ERFA epv00 TDB Sun几何地心矢量/TT moon98原生GCRS，Newtonian阶GCRS对齐、完整相对论空间/GM时标映射未实现，严格PROVISIONAL_EPHEMERIS。独立NASA Horizons API 0/3/6h、500@399/ICRF/FRAME/TDB/VEC_CORR NONE几何矢量(source DE441)共两份约7KB响应；太阳/月球最大差1648.265/4403.516m，原20/40km工程门槛通过，非置信界；同H3点差分加速度相对差最高1.97e−8/3.084e−5。精简六点JSON与来源公开，原响应本地。独立直接式/地心零/趋零/极端方向/连续/关闭恢复20阶RHS/量级/单位测试通过。新增5+8项，全176通过；后将新测试改读公开冻结几何参考，最终再次176通过，无旧163测试修改。
+
+静态SHA/参考/229历史文件及资源门禁后只一次run_h4h5.py --execute：H4/H5各600s base/tight共四短例(6.100/11.137/4.339/7.901s)，最大0.000257193/0.000257151m<2cm。按短例实测time/nfev×预计4346并乘1.5，预计主传播466.139s<1770.432s剩余后，仅H4/H5各一次6h。H4 183.913s/H5 130.571s，均4346nfev/724接受步。全349.972s、峰148.348MiB<1800s/2GiB，无GPU/重试/H6/旧H3重跑。严格遵守每组六小时一次，未额外full-tight；所有六小时全窗及配对收敛显式PENDING，旧H3 5.84cm不能替代该证明。
+
+实际H4−H3终点15.364167m/最大33.088719m/RMS20.704993m，终点R/A/C −1.237/−12.300/−9.124m；H5−H3终点4.617909m/最大12.665472m/RMS5.578434m，终点−0.057/−1.699/−4.294m。40阶5m目标未达，不能称40阶收敛；日月全段最大超过5m不能只据终点删去。H3/H4/H5 SP3终点223.025/234.817/224.480m，RMSE107.677/104.212/108.093m；H4终点恶化但全段稍降，H5法向降但整体略升，真实结果保留、不拟合/选最小残差。太阳2.740—3.896e−7/月球6.911e−7—1.103e−6m/s²，只作实际位置下加速度，不a*t²推误差。
+
+离线分析与独立审计复用现有SP3/时间/框架/误差模块，另手算RAC/范数重核；229保护SHA/旧H3交付清单不变。七图、状态/差值/RAC/加速度/费用/短收敛CSV和JSON保存，NPZ及原前缀/响应不入库。复用72兼容包，无新安装；所有路径/缓存项目内。资料核查仅复用ESA/NCAR已获证据，不重复403搜索；列出应取得0601 SW-RS-DSC-SY-0007/ACCELE03.25/ORBATT03.25、AD05机动码/通道定标/面积Cd与NCAR高度登记等资料，未猜测字段或启用真实推力。
+
+关键命令source scripts/activate_orbit.sh；PYTHONPATH=src python -m unittest discover -s tests -v；python scripts/validate_h4h5.py；python scripts/run_h4h5.py（静态）及--execute（唯一）；python scripts/analyze_h4h5.py；python scripts/write_h4h5_reports.py；python scripts/audit_h4h5_delivery.py。当前只能设计明确限制的PROVISIONAL共同矩阵，下一步待新授权补六小时收敛/候选40阶+日月(H6)/截断预算，正式气动/推力/TIE高度与预热/高频门禁不变。本轮无阻力/TIE/AI/24或48h，完成停止。最终Git实际SHA/远端核对以日志与结束汇报为准。

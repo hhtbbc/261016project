@@ -1,0 +1,206 @@
+{
+  "passed": true,
+  "independent_SP3_and_model_metrics_recomputed": true,
+  "initial_state_sha256": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+  "history_protected_count": 229,
+  "old_H3_task_artifacts_match": 36,
+  "test_count": 176,
+  "actual_runs": [
+    "H4_short",
+    "H4_short_tight",
+    "H5_short",
+    "H5_short_tight",
+    "H4",
+    "H5"
+  ],
+  "new_H3_or_H6_or_drag_or_TIE_runs": 0,
+  "full_6h_convergence_status": "PENDING",
+  "source_code_matches_preflight": true,
+  "artifacts": [
+    {
+      "file": "experiments/gravity_third_body_v1/analysis.json",
+      "sha256": "1d006e35e8a2426d9688c21083020d5cfc98826d0812572dc446ccedc6465a3e",
+      "bytes": 13272
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H5_short_launch_once.json",
+      "sha256": "95736ef16ec41edeac01c90b38d3aac070f67652df07ca6fa9c85544798ca54e",
+      "bytes": 41
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H4_short.json",
+      "sha256": "e1df2e0c8565174474f94440f89ccd5f65c4a2abda73d61950164d10af1d97f8",
+      "bytes": 424
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/runtime_budget_gate.json",
+      "sha256": "25abcd37478efc4fb1697840ff6c372bd8100ffe23dfa43d3789844421653217",
+      "bytes": 134
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/validation.json",
+      "sha256": "f2dbb53882a7a8460c6e8ab5e10a4b93f13718b6ddadca61642561778672a3d4",
+      "bytes": 7504
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H4_short_launch_once.json",
+      "sha256": "95736ef16ec41edeac01c90b38d3aac070f67652df07ca6fa9c85544798ca54e",
+      "bytes": 41
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/preflight.json",
+      "sha256": "fd468e01e2dfcf2d7b1ce77f2bf5f19a68587079566bfe87425d559f17743f7b",
+      "bytes": 100
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H4_short_gate.json",
+      "sha256": "f67c56e9d1d4b05d51a583005165790616a1c1f51dd6f8d646bc5b7718a8b05b",
+      "bytes": 101
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/formal_parameter_review.json",
+      "sha256": "b4e5fe7f584c5a0b511456ea89189f50112e53f71693bb03ea288526b316cb92",
+      "bytes": 1606
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/protected.json",
+      "sha256": "d959b5b5460587484d74ac1bd2eb52906614ad9f08e2cd714dfde61395f1cd0e",
+      "bytes": 28960
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H5_short_tight.json",
+      "sha256": "504d4dd0b3e5d34e8e55384cd92b88be5e9743eabd639488aa830ee4d5ea2088",
+      "bytes": 426
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H5_short_tight_launch_once.json",
+      "sha256": "30fe642b1397deb7444a99865e21a3c656f3002e0ef6d7a7f05bcfa834935b27",
+      "bytes": 40
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/launch_once.json",
+      "sha256": "d1e8982f38d77db3e314716a9c0d45fcefe60f9a45da6fa24607697a41e26f39",
+      "bytes": 161
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H5.json",
+      "sha256": "c11aef2a45308b8abc056a4ea55e6b693df63bf95325c9cfd62bbe28b57460f4",
+      "bytes": 442
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H5_launch_once.json",
+      "sha256": "341f5936a9c007e46fdb4856a9a6747fc38324a101e560ae8d7f3b67098bdfd2",
+      "bytes": 43
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/configuration.json",
+      "sha256": "96deb742b2bdf51a0033faa94dd2b33872d4bf354138ee6d79355322b2d43c33",
+      "bytes": 11218
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H4_short_tight.json",
+      "sha256": "1a426b62aab03f6a40c756994027e90e5ce3bc2cba860e635f8448827b0b58dd",
+      "bytes": 426
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H4_launch_once.json",
+      "sha256": "341f5936a9c007e46fdb4856a9a6747fc38324a101e560ae8d7f3b67098bdfd2",
+      "bytes": 43
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H5_short_gate.json",
+      "sha256": "7fde9ca875b1777e589ef948f2ba65f5443fe62835ca207af07898a8c1b20219",
+      "bytes": 101
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H4.json",
+      "sha256": "ceb7d0467bc075e44b62c061b29f2ec93e32757b2546ff674cc9eb0f976f9615",
+      "bytes": 429
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/run_summary.json",
+      "sha256": "759a3c2ac22c728c03a79bc947689eac0ea6bcc97180a2bde0a915823112e87b",
+      "bytes": 3553
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H5_short.json",
+      "sha256": "75cba7745f27f2af15073bc8c313e89e67ba876eff94ed0c43ed1bacc3b8da59",
+      "bytes": 438
+    },
+    {
+      "file": "experiments/gravity_third_body_v1/H4_short_tight_launch_once.json",
+      "sha256": "30fe642b1397deb7444a99865e21a3c656f3002e0ef6d7a7f05bcfa834935b27",
+      "bytes": 40
+    },
+    {
+      "file": "results/metrics/gravity_third_body_v1_short_convergence.csv",
+      "sha256": "672d30e28ee023936c8ec471059378c54666787ce5dd1c0181783f4c054774eb",
+      "bytes": 1423
+    },
+    {
+      "file": "results/metrics/gravity_third_body_v1_resources.csv",
+      "sha256": "1129841592294c005eff3aada77c87c3dd7cf6762bcef5fa33a810b14ec173b0",
+      "bytes": 780
+    },
+    {
+      "file": "results/metrics/gravity_third_body_v1_model_differences.csv",
+      "sha256": "929431b40ad6fb51745808278af9f900227823340cb4d6070c16a49b81260504",
+      "bytes": 126888
+    },
+    {
+      "file": "results/metrics/gravity_third_body_v1_H5_states.csv",
+      "sha256": "1004ac5c665e93c73a24437a106f657c518f66d8d9c5e765eb981372dfacfebe",
+      "bytes": 74498
+    },
+    {
+      "file": "results/metrics/gravity_third_body_v1_H4_states.csv",
+      "sha256": "a526df2d34d8f4bf8989d489f46ac216019ce8b8a5d95e1a6b2d75ae44b6e821",
+      "bytes": 74503
+    },
+    {
+      "file": "results/metrics/gravity_third_body_v1_SP3_residuals.csv",
+      "sha256": "a2cfc45917c4cb023029d541c856b82248bd51f112a12600b4e1734211362459",
+      "bytes": 185892
+    },
+    {
+      "file": "results/metrics/gravity_third_body_v1_common_H3_accelerations.csv",
+      "sha256": "7cc9445435a8bda43906317bf7d1535dbd8a38b6903f6f8f257abe9db3dbe4b4",
+      "bytes": 57515
+    },
+    {
+      "file": "results/figures/gravity_third_body_v1_costs.png",
+      "sha256": "292dbfdf6d782e34beae6e6f25618e97d29a598e0c19238a3b8f4cf1fc2b4132",
+      "bytes": 38569
+    },
+    {
+      "file": "results/figures/gravity_third_body_v1_SP3_residuals.png",
+      "sha256": "52b366aa7b37d61c6070e5f9cd69d8d5915a59ea8093f45ab7649547e6f90c24",
+      "bytes": 74404
+    },
+    {
+      "file": "results/figures/gravity_third_body_v1_short_convergence.png",
+      "sha256": "9f5b2420266123726acb9b5ba23cda90f2e688b4cae2d1f073d27a28d0b270ed",
+      "bytes": 74816
+    },
+    {
+      "file": "results/figures/gravity_third_body_v1_RAC_residuals.png",
+      "sha256": "bd7a1694fe55dcc4032c4e917aa5dd2b68cf67f3631209368279bc14fe3e59fc",
+      "bytes": 208781
+    },
+    {
+      "file": "results/figures/gravity_third_body_v1_RAC_differences.png",
+      "sha256": "858add75fefc008b605fbef5d02addd80ad9f9e7907a70bcf6ea31cf5a40875b",
+      "bytes": 173952
+    },
+    {
+      "file": "results/figures/gravity_third_body_v1_accelerations.png",
+      "sha256": "1d5b6bd1ae991d2a80827e1b536db88580ea5a6b705241fc66ae251dddd4ba2b",
+      "bytes": 163658
+    },
+    {
+      "file": "results/figures/gravity_third_body_v1_differences.png",
+      "sha256": "1850e5be42f3d1e44728e2ad67bd96d1a88563aece3bd6bfbd344575c116115f",
+      "bytes": 101747
+    }
+  ]
+}
