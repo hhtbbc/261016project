@@ -1,0 +1,91 @@
+2026-10-21 09:07:28,839 - root - INFO - Loading inference data
+2026-10-21 09:07:28,841 - root - INFO - Found data at path /workspace/data/20261016/data/raw/test_minimal_2023. Number of examples: 3.
+2026-10-21 09:07:28,841 - root - INFO - Getting file stats from /workspace/data/20261016/data/raw/test_minimal_2023/2023_01_04_000000.npz
+2026-10-21 09:07:28,859 - root - INFO - Number of channels available: 235.0
+2026-10-21 09:07:28,859 - root - INFO - Number of steps: 3
+2026-10-21 09:07:28,859 - root - INFO - Found data at path /workspace/data/20261016/data/raw/test_minimal_2023. Number of examples: 3. Image shape: 36 x 72 x 177
+2026-10-21 09:07:28,859 - root - INFO - Delta time: 1 hours
+2026-10-21 09:07:28,859 - root - INFO - Including 3 hours of past history at a frequency of 1 hours
+{
+  "labels": [
+    "HINDCAST",
+    "TIEGCM_REFERENCE_ONLY",
+    "NO_TRAINING"
+  ],
+  "status": "two_step_execution_passed_not_full_paper_reproduction",
+  "parameters": 64695744,
+  "strict_author_checkpoint_loading": true,
+  "torch": "2.4.1+cu121",
+  "device": "NVIDIA A100-SXM4-80GB",
+  "cuda": "12.1",
+  "FP32": true,
+  "TF32": false,
+  "model_load_s": 1.3330294284969568,
+  "data_read_preprocess_s": 0.052418528124690056,
+  "author_inference_plus_metrics_and_hooks_s": 0.962695986032486,
+  "network_GPU_ms": [
+    150.50230407714844,
+    19.098175048828125
+  ],
+  "GPU_phase_wall_s": 5.600173860788345,
+  "peak_allocated_bytes": 294913536,
+  "peak_reserved_bytes": 1159725056,
+  "new_result_bytes": 17894386,
+  "feedback": {
+    "passed": true,
+    "second_state_equals_first_prediction": true,
+    "physical_truth_used_after_t0": false,
+    "future_auxiliary_and_drivers_used": true
+  },
+  "first_step_vs_historical_max_normalized_difference": 0.0,
+  "historical_validation_not_new": true,
+  "raw_drivers": [
+    {
+      "file": "2023_01_04_000000.npz",
+      "f107d": [
+        144.7312469482422
+      ],
+      "f107a": [
+        156.91250610351562
+      ],
+      "Kp": [
+        3.3499999046325684
+      ]
+    },
+    {
+      "file": "2023_01_04_010000.npz",
+      "f107d": [
+        144.83087158203125
+      ],
+      "f107a": [
+        156.9544219970703
+      ],
+      "Kp": [
+        3.7833333015441895
+      ]
+    },
+    {
+      "file": "2023_01_04_020000.npz",
+      "f107d": [
+        144.9314727783203
+      ],
+      "f107a": [
+        156.99615478515625
+      ],
+      "Kp": [
+        4.116666793823242
+      ]
+    }
+  ],
+  "known_future_conditions": "target-hour LBC, solar elevation/eccentricity, magnetic coordinates and F107/Kp; no target physical state is fed",
+  "pressure_channels": {
+    "TN": 28,
+    "UN": 28,
+    "VN": 28,
+    "WN": 29,
+    "Z": 29,
+    "DEN": 29
+  },
+  "file_sha256": "4476774ab3861f59ebf7c390a18b2a2ea8e6eb2ded2c75875ac3dcd2f89cdaf1",
+  "last_loaded_time": "2023-01-04 02:00:00"
+}

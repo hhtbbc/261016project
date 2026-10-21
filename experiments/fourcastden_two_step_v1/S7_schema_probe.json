@@ -1,0 +1,258 @@
+{
+  "required_fields": [
+    "TN",
+    "UN",
+    "VN",
+    "WN",
+    "Z",
+    "ZG",
+    "DEN",
+    "NE",
+    "TLBC",
+    "ULBC",
+    "VLBC",
+    "f107d",
+    "f107a",
+    "Kp"
+  ],
+  "note": "Static schema probe only; no conversion or model inference on S7.",
+  "file": "experiments/tiegcm2023_s7_continuous_v1/secondary_001.nc",
+  "record": 7,
+  "grid_matches_official_static": {
+    "lat": true,
+    "lon": true,
+    "lev": true,
+    "ilev": true
+  },
+  "fields": {
+    "TN": {
+      "present": true,
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "unit": "K",
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 2592,
+      "last_level_entirely_padding": true
+    },
+    "UN": {
+      "present": true,
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm/s",
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 2592,
+      "last_level_entirely_padding": true
+    },
+    "VN": {
+      "present": true,
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm/s",
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 2592,
+      "last_level_entirely_padding": true
+    },
+    "WN": {
+      "present": true,
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm/s",
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 0
+    },
+    "Z": {
+      "present": true,
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm",
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 0
+    },
+    "ZG": {
+      "present": true,
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm",
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 0
+    },
+    "DEN": {
+      "present": true,
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "unit": "g/cm3",
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 0
+    },
+    "NE": {
+      "present": true,
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm-3",
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 0
+    },
+    "TLBC": {
+      "present": true,
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "unit": "K",
+      "shape": [
+        36,
+        72
+      ],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 0
+    },
+    "ULBC": {
+      "present": true,
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm/s",
+      "shape": [
+        36,
+        72
+      ],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 0
+    },
+    "VLBC": {
+      "present": true,
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm/s",
+      "shape": [
+        36,
+        72
+      ],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 0
+    },
+    "f107d": {
+      "present": true,
+      "dimensions": [
+        "time"
+      ],
+      "unit": "1.e-22 W/m2/Hz",
+      "shape": [],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 0
+    },
+    "f107a": {
+      "present": true,
+      "dimensions": [
+        "time"
+      ],
+      "unit": "1.e-22 W/m2/Hz",
+      "shape": [],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 0
+    },
+    "Kp": {
+      "present": true,
+      "dimensions": [
+        "time"
+      ],
+      "unit": null,
+      "shape": [],
+      "masked": 0,
+      "finite_unmasked": true,
+      "manual_invalid_or_fill_count": 0
+    }
+  },
+  "mask_warning": "NetCDF missing_value could not safely cast to data dtype; automatic mask/finite alone does not establish validity. Explicit >1e30/marker masking is required."
+}

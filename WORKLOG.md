@@ -355,3 +355,15 @@ C0复用H6，未重跑。新增C1/C2/C3各1h base/tight、6h base/tight，共12�
 关键命令及文件：source scripts/activate_orbit.sh；187项unittest；run_common_force_density_comparison.py静态及唯一--execute；analyze_common_density.py离线；write_common_density_reports.py；audit_common_density.py逐查询/历史SHA独立审计。复用.venv310，无安装/下载；缓存日志均项目内。新增common_density_research包装复用现有力/坐标/密度实现，冻结配置未修改。运行器按一小时实测×6×1.10预算门禁，失败不重试。Git安全提交与远端实际SHA核对见同步日志及最终汇报。
 
 独立审计实际通过：12次传播共48,204条逐查询记录；逐条阻力方向/公式、NRLMSIS冻结驱动及TIE原生8列/PROVISIONAL标识核对，全部收敛指标/SP3范数及RAC独立重算，298项历史保护清单与共同配置SHA未变。日志logs/common_density_audit.log；清单experiments/common_density_h6_v1/independent_audit.json。生成10张真实图，未平滑Ap桶切换，旧PHASE1报告保留，新增PHASE1_H6_DENSITY_UPDATE.md。
+
+
+## 2026-10-21：第一阶段工程验收整理与FourCastDEN第二阶段A启动
+
+新增PHASE1_STAGE_REVIEW_20261021及5张既有图索引，明确工程/条件敏感性通过、正式科学精度未验收；未重跑C0—C3/引力/TIE。恢复官方AI资产并SHA保护，历史单步不是新成果。一次Jan4 00→01→02官方Direct自回归成功，实际forward2次，第二步171状态逐元素反馈第一步预测；未来真实状态只评价，未来LBC/驱动显式HINDCAST。两步DEN有限正值，首步与历史逐元素一致；192测试通过。
+
+第2小时六变量平均逐层RMSE均比第1小时增大，但两步全部171通道均优于固定00时持续性。GPU阶段5.600s<300s，未训练/微调/扩6或24h；内存/事件计时口径和局限见FOURCASTDEN_TWO_STEP_VALIDATION.md。S7实际14键/网格匹配，但3种lev场顶padding、1h抽取、分布与Z/ZG问题仍需规范转换，本次没有输入S7。完整训练入口与2000—2022数据未齐，不称完整论文复现。
+
+下一入口docs/FOURCASTDEN_PHASE2_RESEARCH_PLAN.md；建议另授权官方Flow同样两小时对照，之后再补统一变体窗口。正式轨道气动/推力/高度、预热和缺失受力门禁保持。完成停止，安全Git同步以最终远端核对为准。
+
+
+执行命令：activate310；192项unittest；run_fourcastden_multistep.py静态和唯一--execute（timeout300）；analyze_fourcastden_multistep.py；write_phase1_stage_review.py；write_fourcastden_two_step_report.py；audit_fourcastden_delivery.py。模型/预处理/数据与指标均真实官方来源，CPU合成毒化测试不作为科研预测。源码/权重/static/样本和历史结果保护，原始源码不改，无包安装/新下载。S7_schema_probe只读目标记录并显式核验有限padding。正文首次MDPI请求429但官方搜索可读取训练划分摘要，未声称下载本地全文。实际完整交付SHA/容量/同步状态见审计JSON与最终汇报。

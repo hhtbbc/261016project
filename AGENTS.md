@@ -95,3 +95,8 @@ common_force_validation_v1已按单独授权完成H4/H5六小时tight与H6六小
 ## H6密度矩阵完成后的门禁
 
 common_density_h6_v1已单独授权完成C1/C2/C3各1h和6h base/tight共12次，C0读取既有H6，187测试及单轨/配对数值门槛通过。所有结果PROVISIONAL/SYNTHETIC_AERODYNAMIC_PARAMETERS/HINDCAST/FORCE_MODEL_INCOMPLETE，加PROVISIONAL_EPHEMERIS。旧J2 D0—D5仅历史条件；不得混旧新排名。共同配置SHA、旧源码/驱动/数据保持，正式TIE仍EXTERNAL_DATUM_UNVERIFIED。真实参数/推力/高度/预热/时间分辨率及截断/缺失力门禁继续。任务结束停止；任何新增传播/长窗/TIE/更高阶/AI须新授权。
+
+
+## 第二阶段启动后的最新规则
+
+用户已授权并完成阶段一报告整理和一次官方Direct两小时自回归（fourcastden_two_step_v1，Jan4 00→01→02，192测试）。历史单步保留，不当作新成果。预测反馈与未来辅助/驱动区分，HINDCAST；未来真实物理状态不得反馈。四权重不等于完整训练复现，原训练入口与2000—2022数据仍缺。AI输出Z非ZG、1h非S7的10min；未经规范转换不得输入S7或取消正式高度门禁。阶段一工程和条件敏感性通过，正式气动/推力/高度/预热/受力门禁仍开放。此任务已结束，Flow/扩6或24h/训练/新轨道/TIE均需另授权，所有新成果继续安全同步GitHub。

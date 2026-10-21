@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 196,
+  "historical_single_step_sha256": "c63a390ee2297673af12ee6b3231a55a4c73f81f05ebe5019b41ec2ed02f43b5",
+  "feedback_exact": true,
+  "independent_metrics_pass": true,
+  "tests": 192,
+  "GPU_phase_wall_s": 5.600173860788345,
+  "new_experiment_bytes": 18627629,
+  "budget_bytes": 524288000,
+  "scope": "Experiment arrays, audit metadata, plots, CSVs and logs; code/docs add less than 1 MiB"
+}

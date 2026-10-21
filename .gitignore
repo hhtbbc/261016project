@@ -102,3 +102,7 @@ credentials.json
 
 # Uniform H6 conditional atmosphere comparison evidence
 !/logs/common_density*.log
+
+# Official Direct two-step validation evidence
+!/logs/fourcastden_two_step*.log
+!/experiments/fourcastden_two_step_v1/config.yaml

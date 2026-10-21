@@ -1,5 +1,7 @@
 # 当前状态
 
+> 最新：第一阶段工程/条件成果已整理，正式科学验收待完成；FourCastDEN Direct两小时自回归已完成，第二阶段A启动，未训练。详见末节。
+
 > 最新：统一H6的C0—C3六小时条件密度对照完成，详见末节及COMMON_FORCE_DENSITY_ORBIT_COMPARISON。正式物理精度门禁仍保留。
 
 > 最新状态：H6六小时数值门禁完成，共同配置仅供PROVISIONAL条件实验；详见本文末节。以下早期摘要保留作历史记录。
@@ -252,3 +254,12 @@ H4/H5 tight、H6 base/tight共四次六小时及H6两次600秒预检完成，无
 C0复用H6，未重跑。新增C1/C2/C3各1h base/tight、6h base/tight，共12次，预注册单轨/配对门槛通过，187测试通过；无新TIE/更高阶/AI/长窗。C1−C2终点58.350988m，C1−C3 52.217924m，C2−C3 6.133109m。全部仍为PROVISIONAL / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST / FORCE_MODEL_INCOMPLETE / PROVISIONAL_EPHEMERIS。
 
 共同H6/旧实验/驱动保护SHA不变，正式TIE入口仍拒绝。总传播3250.304s、峰RSS161.594MiB。三种在线密度、同C0位置离线密度、力/轨道及SP3探索残差均有CSV/审计/图。主报告reports/COMMON_FORCE_DENSITY_ORBIT_COMPARISON.md。正式气动/推力/高度/预热/时间分辨率和缺失力门禁未解除；本轮完成后停止。下一步优先取得FORMAL_PARAMETER_EVIDENCE_REQUESTS列明的资料并设计物理验证，不自动扩窗或训练。
+
+
+## 2026-10-21：第一阶段工程验收整理与FourCastDEN第二阶段A启动
+
+新增PHASE1_STAGE_REVIEW_20261021及5张既有图索引，明确工程/条件敏感性通过、正式科学精度未验收；未重跑C0—C3/引力/TIE。恢复官方AI资产并SHA保护，历史单步不是新成果。一次Jan4 00→01→02官方Direct自回归成功，实际forward2次，第二步171状态逐元素反馈第一步预测；未来真实状态只评价，未来LBC/驱动显式HINDCAST。两步DEN有限正值，首步与历史逐元素一致；192测试通过。
+
+第2小时六变量平均逐层RMSE均比第1小时增大，但两步全部171通道均优于固定00时持续性。GPU阶段5.600s<300s，未训练/微调/扩6或24h；内存/事件计时口径和局限见FOURCASTDEN_TWO_STEP_VALIDATION.md。S7实际14键/网格匹配，但3种lev场顶padding、1h抽取、分布与Z/ZG问题仍需规范转换，本次没有输入S7。完整训练入口与2000—2022数据未齐，不称完整论文复现。
+
+下一入口docs/FOURCASTDEN_PHASE2_RESEARCH_PLAN.md；建议另授权官方Flow同样两小时对照，之后再补统一变体窗口。正式轨道气动/推力/高度、预热和缺失受力门禁保持。完成停止，安全Git同步以最终远端核对为准。

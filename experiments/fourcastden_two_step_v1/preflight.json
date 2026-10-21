@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "original_source_matches_archive": true,
+  "official_static_and_weights_verified": true,
+  "history_legacy_one_hour_result_sha256": "c63a390ee2297673af12ee6b3231a55a4c73f81f05ebe5019b41ec2ed02f43b5",
+  "three_sample_hours": [
+    "2023-01-04T00:00:00",
+    "2023-01-04T01:00:00",
+    "2023-01-04T02:00:00"
+  ],
+  "protected_count": 196,
+  "free_disk_GiB": 364.3994140625,
+  "resource_limits": {
+    "GPU_wall_s": 300,
+    "new_bytes": 524288000
+  },
+  "author_inference_direct_call_reason": "Dataset has 3 real frames, H=0,L=2; get_data(0,1,2) valid; full-year CLI index loop not used",
+  "code_sha256": {
+    "scripts/run_fourcastden_multistep.py": "7ba5e50fcc849121732d147179ff00c504b26859e3169347d2a9045b4866512a",
+    "src/fourcastden/validation.py": "cf055e0d47be6b5f8856e3513495b7773a4d711dbc0b8857ea22c0b24bf31351",
+    "docs/FOURCASTDEN_TWO_STEP_PREREGISTRATION.md": "34901910561f1dca7b613d741edf921c930b6f8734384dff7d0e28fe0c85bc79"
+  }
+}
