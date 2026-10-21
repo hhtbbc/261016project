@@ -1,0 +1,102 @@
+{
+  "status": "OFFLINE_FORCE_SCALE_ONLY / HINDCAST",
+  "new_integrations": 0,
+  "trajectory": "Historical H1 361 frozen states",
+  "ephemeris": "Astropy builtin ERFA epv00 and moon98, NOT JPL DE440 positions",
+  "astropy_version": "6.1.7",
+  "erfa_version": "2.0.1.5",
+  "time": "Astropy explicitly TDB for builtin API; ERFA moon98 accepts TT or TDB within algorithm uncertainty",
+  "frame": "Geometric simultaneous barycentric differences in ICRS-oriented axes, aligned to GCRS for leading Newtonian budget only; no light-time/apparent directions; relativistic BCRS/GCRS transformations omitted",
+  "GM_m3_s2": {
+    "sun": 1.3271244004127942e+20,
+    "moon": 4902800118457.55
+  },
+  "GM_source": {
+    "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/gm_de440.tpc",
+    "bytes": 12406,
+    "sha256": "924ddf4fb9ead9fe8a1aa55780bcabde40b09d00065d58226e24b68d8092f140",
+    "units": "km^3/s^2; convert x1e9 to SI",
+    "positions": "NOT from DE440 in this budget: positions from ERFA builtin only"
+  },
+  "ephemeris_documented_accuracy_not_actual_error_bound": {
+    "Sun_Earth_epv00_1900_2100_vs_DE405_heliocentric_RMS_max_km": [
+      3.7,
+      11.2
+    ],
+    "moon98_1950_2100_vs_ELP_RMS_max_km": [
+      6.1,
+      31.7
+    ]
+  },
+  "SRP_nominal_pressure_N_m2": 4.540362604480781e-06,
+  "SRP_pressure_reference": "IAU 2015 Resolution B 3",
+  "SRP_scenario": {
+    "A_m2": [
+      0.5,
+      2.0
+    ],
+    "mass_kg": 400,
+    "Cr": [
+      1.0,
+      2.0
+    ],
+    "status": "Arbitrary sensitivity scenario, not verified Swarm values or confidence limits",
+    "shadow": "Spherical finite Sun/Earth disks; penumbra illumination unknown interval [0,1]",
+    "shadow_sample_counts": {
+      "sunlit": 259,
+      "penumbra": 3,
+      "umbra": 99
+    }
+  },
+  "tides": "Degree2 isotropic k2=0.3 scale only, not full IERS complex/frequency-dependent Love response, ocean/pole tides or secular update",
+  "C20": "Artificial coefficient perturbation 1e-10, approximate fixed inertial Z, unit sensitivity only; NOT actual 2023 secular coefficient correction",
+  "force_statistics_m_s2": {
+    "sun_third_body_m_s2": {
+      "min": 2.739766145317709e-07,
+      "median": 3.3730640837505273e-07,
+      "max": 3.8961945048680697e-07
+    },
+    "moon_third_body_m_s2": {
+      "min": 6.911286912783015e-07,
+      "median": 8.972666479464403e-07,
+      "max": 1.1025534915562863e-06
+    },
+    "combined_third_body_m_s2": {
+      "min": 9.58679476519583e-07,
+      "median": 1.2287698041311975e-06,
+      "max": 1.477314147074055e-06
+    },
+    "SRP_scenario_min_m_s2": {
+      "min": 0.0,
+      "median": 5.721781513500302e-09,
+      "max": 5.722465007506749e-09
+    },
+    "SRP_scenario_max_m_s2": {
+      "min": 0.0,
+      "median": 4.5774311734468105e-08,
+      "max": 4.5779720060053994e-08
+    },
+    "SRP_sunlit_max_m_s2": {
+      "min": 4.576893866252995e-08,
+      "median": 4.57744613547711e-08,
+      "max": 4.5779720060053994e-08
+    },
+    "Schwarzschild_monopole_m_s2": {
+      "min": 1.654080125642735e-08,
+      "median": 1.6565989363040823e-08,
+      "max": 1.6669857397653034e-08
+    },
+    "isotropic_k2_0p3_solid_tide_scale_m_s2": {
+      "min": 2.7019262041377564e-07,
+      "median": 2.9175689164553997e-07,
+      "max": 3.167297548941983e-07
+    },
+    "delta_C20_1e10_axis_approx_scale_m_s2": {
+      "min": 2.2174448679804755e-09,
+      "median": 2.7291993825600435e-09,
+      "max": 4.9974573371093995e-09
+    }
+  },
+  "no_position_error_extrapolation": true,
+  "source_code_sha256": "bada6fb1c6499fb7267a7f1513df9d39d9e647eea085b68dec373a6f481ab768"
+}

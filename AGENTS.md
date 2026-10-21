@@ -77,3 +77,7 @@ TiegcmDensityProvider仅对显式TIEGCM_NATIVE_ZG和模型地理纬度提供已�
 ## 统一8×8球谐完成后的门禁
 
 已另获授权完成spherical_harmonics_v1十分钟预检、H1六小时base/tight；EGM2008完整n≤8所有m、源GM/R/fully_normalized/tide_free，含中心项，不再叠central/J2。地固完整旋转，不仅轴向。独立SHTOOLS Fortran与151测试通过，但8×8不等于精密完整受力。旧G0/G1/G2及D0—D5不改，今后密度矩阵必须共同使用同一冻结引力/初态/数值/气动，不混旧新归因。真实Cd/面积/姿态/推进器与TIE高度等门禁不因残差降低解除；f_thr名义mN不是已确认实测推力。20×20/第三体/SRP/阻力矩阵均待新授权。外部参考仅隔离Fortran扩展，prepare_spherical_reference.py可准备，不安装/升级原数值包。
+
+## 12/20阶截断敏感性后的最新门禁
+
+已另获授权完成gravity_truncation_v1：一次H3十分钟预检及H2/H3六小时base、H3tight，原H1只读；163测试通过。12→20终点差133.266m/最大160.063m，5m目标未达到，不得称20阶充分或将差当真值误差。扩展类继承旧8阶递推，已验证仅至20阶，不可未经验证直接升90阶。日月/SRP/潮汐/GR仅历史H1离线预算，builtin位置不是DE440星历，任何新增受力传播/更高阶/密度矩阵均需新授权。真实气动/推力/正式TIE高度等旧门禁不变，未来密度组仍须共同冻结引力和其他设置。

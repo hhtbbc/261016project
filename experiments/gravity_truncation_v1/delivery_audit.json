@@ -1,0 +1,200 @@
+{
+  "passed": true,
+  "independent_pair_metrics_recomputed": true,
+  "initial_state_sha256": "194f248cfaa2ea727cf70f834e47034968355249a52c177bb9d4fd3dc49eaee4",
+  "all_states_finite": true,
+  "protected_history_files": 201,
+  "old_H1_delivery_artifacts_verified": 30,
+  "new_H1_or_drag_runs": 0,
+  "actual_new_propagations": [
+    "H3_short",
+    "H2",
+    "H3",
+    "H3_tight"
+  ],
+  "tests": 163,
+  "H3_state_convergence_max_m": 0.05841096644558737,
+  "thresholds_unmodified": true,
+  "artifact_manifest": [
+    {
+      "file": "experiments/gravity_truncation_v1/analysis.json",
+      "sha256": "b29278819b38f738233518ed2686e57cff30d7c83bab8bc965b16f37a0ebd2ae",
+      "bytes": 11115
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/H3_launch_once.json",
+      "sha256": "eebfa5432250cc3a1ecd04646c41915915c7b122b28b0f6c24d49f6283a861a8",
+      "bytes": 63
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/H2.json",
+      "sha256": "babb36705452ad5e8082503186286e71ec14d756b1f3a8cb2145b6ecf9133a56",
+      "bytes": 442
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/runtime_budget_gate.json",
+      "sha256": "c9ad22ed8be5e1a0dcdc3f54f34b6954e680416980f446b9eec95c2cf00990fc",
+      "bytes": 212
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/H3.json",
+      "sha256": "468807e366afc3281861a0d6f73db2834972e728f3b0914974d97cceb2bfb43d",
+      "bytes": 442
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/validation.json",
+      "sha256": "1abd2d78da0e0e044802de2de79660e3f4f52126d99f8d252e38fe6ee4d30784",
+      "bytes": 2653
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/missing_forces.json",
+      "sha256": "5877d3a83104dafdc4f577164fd5d7b96dc8940919ba4da63c6d58b6cadc8061",
+      "bytes": 3586
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/preflight.json",
+      "sha256": "566f81f61d3467a80fc39277b176a3adb4449fa584071e5ef4003eee825f8d55",
+      "bytes": 100
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/protected.json",
+      "sha256": "2dcf66024cd4d8ca64e90b6b088f24507b4e6ff86692d01f1450dc4a6bc79323",
+      "bytes": 25487
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/H3_short_launch_once.json",
+      "sha256": "3af698e3ec281a4d3ac7502c717ac4dc6ba4375db4780509221402295d961e32",
+      "bytes": 61
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/launch_once.json",
+      "sha256": "b0cd5c8f0a49163b9357a91d5ef57e1073b3f05dd25aa6eddbbf796e15c30255",
+      "bytes": 117
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/configuration.json",
+      "sha256": "55124c460f0388f209ada2635f97347799ef539bb5e7d72b28e17c68b0fb6305",
+      "bytes": 3639
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/H3_tight_launch_once.json",
+      "sha256": "1b1a9726c8da0e712c58c0edcf0a43c9a816f462de5d323757aca9c01dd014d8",
+      "bytes": 64
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/missing_forces_v2.json",
+      "sha256": "ac7853b51987db426486b54664a78745579bdf0c527941d7ccfb8e2e4a7528bb",
+      "bytes": 3600
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/H3_tight.json",
+      "sha256": "7df93c3213da90fa58860fc85297c9cebc78df5656fb7beeb3d29ea9c3c89832",
+      "bytes": 442
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/run_summary.json",
+      "sha256": "c4bbe51d1d8e84c54ee9f2b26644162fc2058c30457a4439ccb4ae1d41e3acbe",
+      "bytes": 2419
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/swarm_review.json",
+      "sha256": "7679b83714bbed7e1b3e6fd9353535e364ad309957d87d0d2da31cebc930cf04",
+      "bytes": 1725
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/H3_short.json",
+      "sha256": "18a2f86f765e81ce0f5a1e94cfbff74aeebd6facf269417cddb164a956eb965a",
+      "bytes": 437
+    },
+    {
+      "file": "experiments/gravity_truncation_v1/H2_launch_once.json",
+      "sha256": "90ccae75fb8f0c5c43f75a5975e7bd7ce5e86c60869b26a3144fae51942f3b66",
+      "bytes": 63
+    },
+    {
+      "file": "results/metrics/gravity_truncation_v1_SP3_residuals.csv",
+      "sha256": "5a34253f66649069c8f2f6907ca71357d997b92ad7cfd06a66e353eaa86763d8",
+      "bytes": 154736
+    },
+    {
+      "file": "results/metrics/gravity_truncation_v1_resources.csv",
+      "sha256": "1656db4085daadb6d7d773d0168c3f853ce9d2eac2c1355da99a508dc053e6db",
+      "bytes": 1014
+    },
+    {
+      "file": "results/metrics/gravity_truncation_v1_missing_forces.csv",
+      "sha256": "3ef6c64c1ac7534ee38c5175e1b211cb9bc3d80abecacffa8b998a5ec390747f",
+      "bytes": 109445
+    },
+    {
+      "file": "results/metrics/gravity_truncation_v1_missing_forces_v2.csv",
+      "sha256": "2356242fc284eb91a4cdeff064ffa6532d0c0f4839c71791e36fa9ce07fc9119",
+      "bytes": 109451
+    },
+    {
+      "file": "results/metrics/gravity_truncation_v1_H2_states.csv",
+      "sha256": "3376fd5130de8281c7238df92dbcf42d1664a2ff0380b7d1ddf1b769a51b38dd",
+      "bytes": 64041
+    },
+    {
+      "file": "results/metrics/gravity_truncation_v1_convergence.csv",
+      "sha256": "0156366ff6b5572b48fd525c29175aabb19853515f60667d037ec4866f8405bc",
+      "bytes": 22193
+    },
+    {
+      "file": "results/metrics/gravity_truncation_v1_model_differences.csv",
+      "sha256": "7ea938c71a865bde803e8dd4dc0e37e3d21346c0fa34ff4595174963bda7d500",
+      "bytes": 157711
+    },
+    {
+      "file": "results/metrics/gravity_truncation_v1_common_H1_accelerations.csv",
+      "sha256": "7e52279f67e9bbd1e8abd2955cd24096d06baae11b89a80c0881c9eeb509567f",
+      "bytes": 38917
+    },
+    {
+      "file": "results/metrics/gravity_truncation_v1_H3_states.csv",
+      "sha256": "8b7d3ca73311bb8ac90ab8ad6359c07372ed5b9b44f5de13f9517f519a9da2d2",
+      "bytes": 64005
+    },
+    {
+      "file": "results/figures/gravity_truncation_v1_RAC_residuals.png",
+      "sha256": "63360b34b35f9810661d7c2e1f7550c9f83ddbceb7ac51e2133dcff215ecfff7",
+      "bytes": 213717
+    },
+    {
+      "file": "results/figures/gravity_truncation_v1_costs.png",
+      "sha256": "e48621bae965af622a27fca714bfd5de43cbfe170df2722d9631a325db1e841d",
+      "bytes": 51706
+    },
+    {
+      "file": "results/figures/gravity_truncation_v1_accelerations.png",
+      "sha256": "a90d015a0356d3eaee3749dfe806b022c30990751a9ea057328b0ba64b9ee8b2",
+      "bytes": 200591
+    },
+    {
+      "file": "results/figures/gravity_truncation_v1_differences.png",
+      "sha256": "6e4de41f0c5bad6763c2f8c658573bed334ba500b7fe906e37a4d9e5ea33f687",
+      "bytes": 109949
+    },
+    {
+      "file": "results/figures/gravity_truncation_v1_SP3_residuals.png",
+      "sha256": "128550a809fe42e50c6fc8382b1c1352e7b682c881d09a76f87a61128b73a224",
+      "bytes": 79838
+    },
+    {
+      "file": "results/figures/gravity_truncation_v1_RAC_differences.png",
+      "sha256": "5e35b08401506a8f351433c179c6e5f9ef9e2748393c61438e35f3d392cce153",
+      "bytes": 230089
+    },
+    {
+      "file": "results/figures/gravity_truncation_v1_convergence.png",
+      "sha256": "58a032ffdd1702b45913481b52e31e3fe7c8623fdd62a79e55dd6132b02648ee",
+      "bytes": 55677
+    },
+    {
+      "file": "results/figures/gravity_truncation_v1_missing_force_scales.png",
+      "sha256": "67209e8d2e5da32459fa73e52a43171968deee854941526180287713b9332cd9",
+      "bytes": 63140
+    }
+  ]
+}

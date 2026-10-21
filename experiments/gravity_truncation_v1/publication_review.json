@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "new_public_files_scanned": 68,
+  "no_files_over_8MiB": true,
+  "no_credential_pattern_findings": true,
+  "largest_files": [
+    {
+      "file": "results/figures/gravity_truncation_v1_RAC_differences.png",
+      "bytes": 230089
+    },
+    {
+      "file": "results/figures/gravity_truncation_v1_RAC_residuals.png",
+      "bytes": 213717
+    },
+    {
+      "file": "results/figures/gravity_truncation_v1_accelerations.png",
+      "bytes": 200591
+    },
+    {
+      "file": "results/metrics/gravity_truncation_v1_model_differences.csv",
+      "bytes": 157711
+    },
+    {
+      "file": "results/metrics/gravity_truncation_v1_SP3_residuals.csv",
+      "bytes": 154736
+    }
+  ]
+}

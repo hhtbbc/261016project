@@ -1,0 +1,7 @@
+{
+  "url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/gm_de440.tpc",
+  "bytes": 12406,
+  "sha256": "924ddf4fb9ead9fe8a1aa55780bcabde40b09d00065d58226e24b68d8092f140",
+  "units": "km^3/s^2; convert x1e9 to SI",
+  "positions": "NOT from DE440 in this budget: positions from ERFA builtin only"
+}

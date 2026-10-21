@@ -298,3 +298,19 @@ PyPI官方pyshtools4.14.1 wheel13,898,723B校验后用独立Fortran参考；初�
 Swarm复用六CDF/官方旧PDF，逐SHA未变；再次访问ESA页仍链接2013版，handbook不可访问、catalogue超时，未声称取得0601新字典。f_thr原DESCRIPTION为activated thrusters的名义组合力、mN，不确认实际执行推力；22非零dt_thr和505记录段仍只是待审。质量400.331—400.459kg有记录，Cd/有效面积/姿态/标志及推力标定未闭合。
 
 命令：source scripts/activate_orbit.sh；python scripts/prepare_spherical_reference.py；PYTHONPATH=src python -m unittest discover -s tests -v；python scripts/validate_spherical_harmonics.py；python scripts/run_spherical_harmonics_comparison.py（静态）及--execute（唯一）；python scripts/analyze_spherical_harmonics.py；python scripts/write_spherical_harmonics_reports.py；python scripts/audit_spherical_harmonics_delivery.py。后续20×20/第三体/SRP/正式参数及统一引力密度矩阵仅建议，未执行。无新TIE/AI/阻力/48h或未来SP3拟合，任务完成后停止。最终Git以实际核对SHA为准。
+
+## 2026-10-21：引力截断敏感性与缺失受力审查
+
+读取AGENTS/STATUS/WORKLOG及8阶验证/比较/设计、Swarm参数和阶段报告；确认本地main/远端均588b119，工作区干净。检查磁盘366GiB以上/系统可用内存充分；项目.venv310/缓存复用，无新增依赖安装。官方GFZ gfc只读65536字节即关闭（HTTP完整长度252140870B并未下载），新前缀SHA1ed7794419ff81568285fb4ebfbc1f82aedac938ac67bd5fbe7c68776b88fc00，前16384B与旧SHA相同。完整20阶231对，统一源GM/R/fully_normalized/noCS/tide_free，显式地心一阶零项，不填未知缺项。
+
+新增可回退gravity_truncation.ExtendedEarthGravity仅初始化，继承原笛卡尔势/梯度，旧8阶/时间/积分源不改。8/12/20各100随机点及赤道/近极/多高度SHTOOLS Fortran比较最大相对1.85/2.10/2.80e−15；中心差分10km/1km/100m二阶收敛。扩展8阶在全361个H1状态经真实EarthFixedFrame后力值逐位相同；二进制SHA核验。8新引力测试/预传播全159通过；随后4个离线预算数学测试加入，最终163通过。5m终点/全段候选目标和0.5m数值门槛在真实传播前冻结，未按SP3改系数/阶数/门槛。
+
+run_gravity_truncation.py唯一--execute：H3短600s4.214s/146nfev，1.5安全系数预计剩余751.451s<1795.738s后，才H2六小时114.335s/4346nfev/724步、H3 126.906s/4346/724、H3tight252.876s/8666/1444。总498.429s、峰RSS146.430MiB，低于1800s/2GiB，无GPU、重试或旧H1/D0—D5重放。H3base/tight最大0.058411m，通过原0.5m门槛；H2没有tight，配对收敛限制保留。201历史保护SHA不变。
+
+实际H2−H1终点267.586752m，H3−H2终点133.266130m/最大160.062686m/RMS77.777787m，均沿轨主导；H3−H1终点399.914236m。12→20差仍大于历史密度终点52—65m，5m目标失败；不是20阶对真值误差的数值界，不自动增阶。H1/H2/H3的SP3终点622.749/355.388/223.025m，RMSE310.912/177.073/107.677m；H3法向RMS比H2增大，不用残差最小选择模型。共7图/状态、差值/RAC/残差/加速度/费用/收敛CSV及JSON；全部原NPZ留data/processed不入库。
+
+缺失力只读历史H1：Astropy6.1.7 builtin ERFA epv00/moon98、显式TDB，几何同时位置，NASA NAIF小文件给DE440日月GM（不是DE440位置），SHA入档。稳定地心差分含参考项，与直接式/线性潮汐/零地心测试比对。太阳2.74—3.90e−7、月球6.91e−7—1.10e−6m/s²；SRP演示m400/A0.5—2/Cr1—2、球形有限圆盘遮影，半影只给[0,1]，非实参/置信界；潮汐k2=.3、单极GR、人工ΔC20量级均明确局限，未a*t²外推。初版C20固定轴单位敏感性保留，v2改用验证时变地固轴，初脚本本地归档；最终判断只用v2。IERS表6.1低轨7331km例90阶，不称20足够。ESA页仍链接2013版、eogateway403；复核六CDF SHA，未取得0601新字典，f_thr名义mN不能冒充实际推力。
+
+关键命令source scripts/activate_orbit.sh；PYTHONPATH=src python -m unittest discover -s tests -v；python scripts/prepare_gravity_degree20.py；python scripts/validate_gravity_truncation.py；python scripts/run_gravity_truncation.py（静态）与--execute（唯一）；python scripts/analyze_gravity_truncation.py；python scripts/estimate_missing_force_budget.py；python scripts/write_missing_force_budget.py；python scripts/write_gravity_truncation_reports.py；python scripts/audit_gravity_truncation_delivery.py。一次交互导出系数忘记PYTHONPATH导致ModuleNotFoundError，补入口后导出成功，不涉及传播失败/重试。
+
+当前建议先设计更高阶截断与日月/潮汐规范门禁，再统一引力下另授权密度矩阵；真实气动/推力/TIE高度/预热时间场门禁保留。无新TIE、阻力、AI、24/48h或拟合。文档/状态/计划更新，安全提交和实际远端SHA见结束核对。完成后停止。

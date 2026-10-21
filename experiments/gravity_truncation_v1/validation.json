@@ -1,0 +1,80 @@
+{
+  "degrees": {
+    "8": {
+      "coefficient_pairs": 45,
+      "max_absolute_difference_m_s2": 1.4217791915866692e-14,
+      "max_relative_difference": 1.852601016371464e-15,
+      "gradient_relative_errors_10km_1km_100m": [
+        1.2408662886408168e-06,
+        1.2406316092789103e-08,
+        1.186034842902647e-10
+      ],
+      "mean_pure_field_ms": 0.8399719931185246,
+      "P95_pure_field_ms": 0.8521119132637978
+    },
+    "12": {
+      "coefficient_pairs": 91,
+      "max_absolute_difference_m_s2": 1.6136090063256037e-14,
+      "max_relative_difference": 2.1025563970435476e-15,
+      "gradient_relative_errors_10km_1km_100m": [
+        1.24082945703019e-06,
+        1.2404662422476736e-08,
+        1.33499815817796e-10
+      ],
+      "mean_pure_field_ms": 1.7279636301100254,
+      "P95_pure_field_ms": 1.741461269557476
+    },
+    "20": {
+      "coefficient_pairs": 231,
+      "max_absolute_difference_m_s2": 1.9705755012052775e-14,
+      "max_relative_difference": 2.8002052553057198e-15,
+      "gradient_relative_errors_10km_1km_100m": [
+        1.2409293965876894e-06,
+        1.240297178193942e-08,
+        1.4254680098452135e-10
+      ],
+      "mean_pure_field_ms": 4.551123268902302,
+      "P95_pure_field_ms": 4.5739091001451015
+    }
+  },
+  "passed": true,
+  "threshold_relative": 2e-12,
+  "threshold_absolute_m_s2": 2e-12,
+  "source": {
+    "url": "https://icgem.gfz-potsdam.de/getmodel/gfc/c50128797a9cb62e936337c890e4425f03f0461d7329b09a8cc8561504465340/EGM2008.gfc",
+    "bytes_read": 65536,
+    "sha256": "1ed7794419ff81568285fb4ebfbc1f82aedac938ac67bd5fbe7c68776b88fc00",
+    "HTTP_status": 200,
+    "headers": {
+      "Server": "nginx/1.31.0",
+      "Date": "Wed, 21 Oct 2026 01:46:35 GMT",
+      "Content-Type": "text/plain;charset=utf-8",
+      "Content-Length": "252140870",
+      "Connection": "close",
+      "Last-Modified": "Wed, 04 Jan 2017 13:13:33 GMT",
+      "Content-Disposition": "attachment; filename=\"EGM2008.gfc\"",
+      "Accept-Ranges": "bytes"
+    },
+    "old_prefix_16384_byte_identical": true,
+    "full_model_downloaded": false
+  },
+  "8x8_full_GCRS_force_bitwise_match_all_361_H1_states": true,
+  "same_point_acceleration_differences": {
+    "12_8": {
+      "min_m_s2": 1.1841062647000351e-08,
+      "max_m_s2": 7.137933610240691e-05
+    },
+    "20_12": {
+      "min_m_s2": 1.5709119844374981e-09,
+      "max_m_s2": 5.845419415574706e-05
+    },
+    "20_8": {
+      "min_m_s2": 9.46753627251772e-09,
+      "max_m_s2": 8.680311852829647e-05
+    }
+  },
+  "reference_binary_sha_verified": true,
+  "preregistered_endpoint_goal_m": 5.0,
+  "whole_path_candidate_goal_m": 5.0,
+  "numeric_state_max_m": 0.5
+}

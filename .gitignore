@@ -90,3 +90,6 @@ credentials.json
 
 # Complete low-degree spherical harmonics validation evidence
 !/logs/spherical*.log
+
+# Gravity truncation and offline missing-force evidence
+!/logs/gravity_truncation*.log

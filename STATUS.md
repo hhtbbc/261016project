@@ -212,3 +212,13 @@ Swarm窗口17281点和WGS84坐标已复用原入口核对，但ZG下边界零面
 入口：reports/SPHERICAL_HARMONICS_VALIDATION.md、SPHERICAL_HARMONICS_ORBIT_COMPARISON.md、docs/SPHERICAL_HARMONICS_GRAVITY_DESIGN.md；配置与审计experiments/spherical_harmonics_v1，六图/CSV在results对应前缀。原始NPZ/wheel本地不上传。
 
 真实质量记录有来源，但Cd/有效面积/姿态分量与0601标志/推进器实际力仍未确认；f_thr是名义mN字段，不能解释为实测推力。TIE正式高度门禁不变。下一步等待授权截断敏感性、日月/SRP/潮汐及真实参数核查；未来密度对照必须共同升级同一引力，当前不新增大气/阻力/AI/48h。Git最终SHA与实际同步见本次核验日志/汇报，不预先声称最终提交已推送。
+
+## 2026-10-21最新：12/20阶截断与主要缺失受力审查完成
+
+同源EGM2008仅读64KiB，完整20阶231对C/S、前16KiB与H1相同；源GM/R/归一化/无潮统一。新可回退gravity_truncation.py继承旧势/梯度，未改8阶原文件。三种截断与SHTOOLS独立Fortran最大相对差≤2.81e−15，扩展8阶在全部361个历史H1状态上的GCRS力逐位相同。传播前159测试、最终163测试通过。
+
+仅一次H3十分钟预检、H2/H3六小时各一次、H3-tight一次；H1只读。8→12终点位移267.586752m、12→20为133.266130m（全段最大160.062686m、RMS77.777787m），5m候选目标未达到，不能认定20阶足够或把133m当20阶真实误差。SP3终点/RMSE：H1 622.749/310.912m、H2 355.388/177.073m、H3 223.025/107.677m；不按残差选最优阶。H3 base/tight最大0.058411m，通过0.5m门槛。流程498.429s、峰RSS146.430MiB，201项历史SHA不变，旧H1交付清单另行核验。
+
+只在历史H1离线评估日月差分，太阳约2.74—3.90e−7/月球6.91e−7—1.10e−6m/s²；builtin ERFA位置而非JPL DE440，GM另有NASA来源。SRP/潮汐/单极GR仅显式条件量级，没有加入RHS或用a*t²推轨道误差。f_thr名义mN/真实气动与推力、TIE高度及预热等仍未闭合。
+
+入口：reports/GRAVITY_TRUNCATION_VALIDATION.md、GRAVITY_TRUNCATION_ORBIT_COMPARISON.md；docs/ORBIT_MISSING_FORCE_BUDGET.md、NEXT_DENSITY_ORBIT_EXPERIMENT.md；experiments/gravity_truncation_v1；results同前缀CSV/图。下一步待授权更高阶截断/可靠星历第三体门禁，不进入正式密度精度排名，不自动新增阻力/大气/AI/长窗。Git实际SHA及远端核对见结束汇报。

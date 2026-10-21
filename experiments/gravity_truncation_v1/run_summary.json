@@ -1,0 +1,96 @@
+{
+  "labels": "PROVISIONAL / HINDCAST / NO_DRAG",
+  "runs": {
+    "H3_short": {
+      "method": "RK45",
+      "rtol": 1e-10,
+      "atol_si": [
+        0.001,
+        0.001,
+        0.001,
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "max_step_s": 30.0,
+      "accepted_steps": 24,
+      "nfev": 146,
+      "elapsed_s": 4.21369263716042,
+      "output_samples": 11,
+      "success": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "min_accepted_step_s": 0.01861363526012291,
+      "max_accepted_step_s": 30.000000000000057
+    },
+    "H2": {
+      "method": "RK45",
+      "rtol": 1e-10,
+      "atol_si": [
+        0.001,
+        0.001,
+        0.001,
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "max_step_s": 30.0,
+      "accepted_steps": 724,
+      "nfev": 4346,
+      "elapsed_s": 114.33496845141053,
+      "output_samples": 361,
+      "success": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "min_accepted_step_s": 0.018613634540456413,
+      "max_accepted_step_s": 30.00000000000182
+    },
+    "H3": {
+      "method": "RK45",
+      "rtol": 1e-10,
+      "atol_si": [
+        0.001,
+        0.001,
+        0.001,
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "max_step_s": 30.0,
+      "accepted_steps": 724,
+      "nfev": 4346,
+      "elapsed_s": 126.90646173246205,
+      "output_samples": 361,
+      "success": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "min_accepted_step_s": 0.01861363526012291,
+      "max_accepted_step_s": 30.000000000000227
+    },
+    "H3_tight": {
+      "method": "RK45",
+      "rtol": 1e-12,
+      "atol_si": [
+        1e-05,
+        1e-05,
+        1e-05,
+        1e-08,
+        1e-08,
+        1e-08
+      ],
+      "max_step_s": 15.0,
+      "accepted_steps": 1444,
+      "nfev": 8666,
+      "elapsed_s": 252.8758596573025,
+      "output_samples": 361,
+      "success": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "min_accepted_step_s": 0.00741022166712234,
+      "max_accepted_step_s": 15.000000000000057
+    }
+  },
+  "new_H1_runs": 0,
+  "new_drag_runs": 0,
+  "convergence_max_m": 0.05841096644558737,
+  "convergence_passed": true,
+  "wall_s": 498.42915822938085,
+  "peak_RSS_MiB": 146.4296875,
+  "protected_unchanged": true
+}

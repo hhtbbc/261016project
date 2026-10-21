@@ -1,0 +1,13 @@
+test_8_bitwise_historical_states (test_gravity_truncation.GravityTruncationTests) ... ok
+test_complete_common_coefficients (test_gravity_truncation.GravityTruncationTests) ... ok
+test_equator_near_poles (test_gravity_truncation.GravityTruncationTests) ... ok
+test_exact_poles (test_gravity_truncation.GravityTruncationTests) ... ok
+test_external_all_degrees (test_gravity_truncation.GravityTruncationTests) ... ok
+test_gradient_convergence (test_gravity_truncation.GravityTruncationTests) ... ok
+test_order_restriction (test_gravity_truncation.GravityTruncationTests) ... ok
+test_order_zero_external (test_gravity_truncation.GravityTruncationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.643s
+
+OK

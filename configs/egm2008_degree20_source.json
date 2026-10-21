@@ -1,0 +1,18 @@
+{
+  "url": "https://icgem.gfz-potsdam.de/getmodel/gfc/c50128797a9cb62e936337c890e4425f03f0461d7329b09a8cc8561504465340/EGM2008.gfc",
+  "bytes_read": 65536,
+  "sha256": "1ed7794419ff81568285fb4ebfbc1f82aedac938ac67bd5fbe7c68776b88fc00",
+  "HTTP_status": 200,
+  "headers": {
+    "Server": "nginx/1.31.0",
+    "Date": "Wed, 21 Oct 2026 01:46:35 GMT",
+    "Content-Type": "text/plain;charset=utf-8",
+    "Content-Length": "252140870",
+    "Connection": "close",
+    "Last-Modified": "Wed, 04 Jan 2017 13:13:33 GMT",
+    "Content-Disposition": "attachment; filename=\"EGM2008.gfc\"",
+    "Accept-Ranges": "bytes"
+  },
+  "old_prefix_16384_byte_identical": true,
+  "full_model_downloaded": false
+}
