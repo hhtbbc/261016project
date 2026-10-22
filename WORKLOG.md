@@ -378,3 +378,14 @@ Flow第一小时170/171层、第二小时141/171层RMSE低于Direct；变量平�
 报告FOURCASTDEN_FLOW_TWO_STEP_VALIDATION.md、FOURCASTDEN_DIRECT_FLOW_COMPARISON.md；新增8图、4类逐层/汇总/配对CSV，配置、SHA、日志及审计在fourcastden_flow_two_step_v1。改进方向/未来独立初值与6/12/24h协议仅设计；本次不扩窗。下一项建议先多初值2h评价，或补1个Jan4 03样本建立history公平窗口，须另授权。完整训练入口/数据、独立大气/轨道验证、Swarm真实参数/推力及TIE高度/预热/时间分辨率等门禁保留。Git同步以最终SHA核对为准。
 
 关键命令：source scripts/activate310.sh；python -m unittest discover -s tests（198项，24.685s）；run_fourcastden_flow_two_step.py静态及唯一--execute（timeout300）；analyze_fourcastden_direct_flow.py；write_fourcastden_flow_reports.py；audit_fourcastden_flow.py。Python3.10.19/torch2.4.1+cu121/A100，FP32且TF32关闭，无依赖改动。官网正文请求429，模型语义以本地官方源码/README为直接依据，不宣称本次已重新读完整论文。未来数据清单只检查已有官方ZIP中央目录，未联网获取新资产。图像已实际查看，原生ilev=4/数组22，不是固定450km。
+
+
+## 2026-10-22：FourCastDEN五日期Direct/Flow小规模泛化检查完成
+
+固定新增Mar23/Jun21/Sep23/Dec21各00→01→02，12个真实官方NPZ经206/Content-Range/CRC/SHA/14键/层结构/finite/正性检查取得，传输25,849,991字节<100MiB，无整包或Jan4重下载。206项测试通过。8个新序列/16个forward完成，Direct/Flow各加载一次复用四个独立初始化，Jan4只读。真实物理状态反馈防泄漏、条件/统计/目标一致及独立NumPy指标通过，无NaN/负DEN、无裁剪或重试。监督墙钟27.342s/峰RSS约1.223GiB，GPU阶段含CPU审计/压缩19.099s，原始数组不入库。
+
+五窗观察：Flow两时效TN/VN/Z均5/5平均层RMSE较低，第二小时UN/WN各4/5较低；第二小时DEN绝对平均层RMSE为Direct 5/5较低，但原生上层及参考中位ZG400—500km层组的平均相对RMS/logRMS为Flow 5/5较低。两模型全部日期六变量平均误差均增长，Flow上层第2/1小时倍率在五窗更大，不代表长期规律。Kp实际00—02输入Mar23仅0.5—0.867，五窗总体0.5—4.117，不能叫强磁暴验证；其余是季节候选，无总体/显著性排名。
+
+报告FOURCASTDEN_MULTIDATE_VALIDATION.md、FOURCASTDEN_MULTIDATE_COMPARISON.md，指标CSV/7图/Range和运行/资源审计在fourcastden_multidate_v1。官方log-DEN仅CPU静态审查150项参数/177输入/static_log；没有forward，NumPy/CUDA分支和log/物理ACC公平定义仍需审查。建议下一项先官方log-DEN两小时，再history公平窗口，随后预注册6/12/24h和更强条件；见FOURCASTDEN_NEXT_EXPERIMENT_DECISION.md，需新授权。未训练/TIE/轨道传播，正式物理参数和坐标门禁不变。Git同步以最终远端SHA核对为准。
+
+实际命令：source scripts/activate310.sh；python -m unittest discover -s tests（206项，24.073s）；run_fourcastden_multidate.py静态/--fetch；supervise_fourcastden_multidate.py（唯一GPU工作进程，8序列，不重试）；analyze_fourcastden_multidate.py；inspect_fourcastden_log_static.py（仅CPU）；write_fourcastden_multidate_reports.py；audit_fourcastden_multidate.py。复用Python3.10/torch2.4.1+cu121/A100，未安装包，缓存和所有新文件在唯一工作区。原始NPZ缺独立坐标/单位属性，按作者不可变static与UNIT_VARS契约，不冒充独立大地基准核验；Z非ZG，压力层非固定几何高度。原始保护SHA/新增字节预算及完整结果见最终audit。

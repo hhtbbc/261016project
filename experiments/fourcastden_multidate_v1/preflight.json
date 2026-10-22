@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "tests": 206,
+  "config_sha256": {
+    "Direct": "de9b80dcd4ed3fe796198edcb48e77618271f2f7ddd4c6af4553d947014644b1",
+    "Flow": "49240c7db310d213f631097dba62a9c682497edb05d901e30feadb2bfb2f3ee4"
+  },
+  "code_sha256": {
+    "scripts/run_fourcastden_multidate.py": "ef55f1902a84db19dcd561bd914a2f278fe371241f814333f0671ee024a66e57",
+    "src/fourcastden/multidate.py": "48802345737bf93dfe2dbbde55b723a691f72525566c335992992d63a5432ac6",
+    "tests/test_fourcastden_multidate.py": "8b60800e94d8c9de6918488a36f7107853db5a64e284aebddcbd6d1ab4482da1",
+    "docs/FOURCASTDEN_MULTIDATE_PREREGISTRATION.md": "2c534f2088ffd87f3b098d0f3a6f8a5dddafa265a2e4f9e73277edd23130a786",
+    "src/fourcastden/validation.py": "cf055e0d47be6b5f8856e3513495b7773a4d711dbc0b8857ea22c0b24bf31351",
+    "src/fourcastden/flow_validation.py": "dd30b9abeefb143d4368a5493378b443425358bcc5fd30a85ec1f33d5372984e"
+  },
+  "free_disk_GiB": 363.5810546875,
+  "budgets": {
+    "transfer_bytes": 104857600,
+    "new_bytes": 262144000,
+    "GPU_wall_s": 600,
+    "RSS_bytes": 4294967296
+  }
+}

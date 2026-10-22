@@ -1,0 +1,38 @@
+{
+  "tag": "2023-12-21_Flow",
+  "date": "2023-12-21",
+  "model": "Flow",
+  "status": "PASS",
+  "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+  "config_sha256": "49240c7db310d213f631097dba62a9c682497edb05d901e30feadb2bfb2f3ee4",
+  "data_sha256": {
+    "2023_12_21_000000.npz": "dca3a45902d964a933d8587c0fda8bc41ff41e049cef40348f62d3dbbba56935",
+    "2023_12_21_010000.npz": "05a87d32876e0bcbe0eb92d8446a826d3996a789ac8795626924a8972116fa4c",
+    "2023_12_21_020000.npz": "15061cab4b34b12467f4437a4d8f02656281aaae59e76a6b04ca46398abe8638"
+  },
+  "feedback": {
+    "passed": true,
+    "normalized_increment_accumulation_exact": true,
+    "second_input_equals_first_accumulated_prediction": true,
+    "future_physical_truth_fed": false,
+    "future_auxiliary_conditions_used": true
+  },
+  "network_calls": 2,
+  "parameters": 64695744,
+  "model_load_s": 0.0,
+  "model_reused": true,
+  "load_peak_allocated_bytes": null,
+  "read_preprocess_s": 0.05078580789268017,
+  "author_loop_metrics_hooks_s": 0.09134339913725853,
+  "GPU_forward_ms": [
+    19.299104690551758,
+    18.586336135864258
+  ],
+  "first_forward_cold_this_model": false,
+  "peak_allocated_bytes": 294913536,
+  "peak_reserved_bytes": 1180696576,
+  "DEN_positive_fraction": 1.0,
+  "max_RSS_KiB": 1282380,
+  "result_sha256": "78b2c3fdcb8b33dbb4119003e53ed7dc5f3d6f7d64bb87e01c1cd5cdd4cf9d9f",
+  "elapsed_GPU_phase_s": 18.970734464004636
+}

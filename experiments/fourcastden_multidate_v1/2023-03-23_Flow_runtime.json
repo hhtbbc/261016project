@@ -1,0 +1,38 @@
+{
+  "tag": "2023-03-23_Flow",
+  "date": "2023-03-23",
+  "model": "Flow",
+  "status": "PASS",
+  "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+  "config_sha256": "49240c7db310d213f631097dba62a9c682497edb05d901e30feadb2bfb2f3ee4",
+  "data_sha256": {
+    "2023_03_23_000000.npz": "751fbdf764679c44fdd8b667f15818d9d838b1e8ec507dba2b6e4c2545e83165",
+    "2023_03_23_010000.npz": "899296f674013f459c2a860b7e41acbe17fc14aa9d1081c8d0bf1518482b1ce2",
+    "2023_03_23_020000.npz": "dbb1adcb8694c9c844f922298c878bd225830c3438566ae2de707e90edd67faf"
+  },
+  "feedback": {
+    "passed": true,
+    "normalized_increment_accumulation_exact": true,
+    "second_input_equals_first_accumulated_prediction": true,
+    "future_physical_truth_fed": false,
+    "future_auxiliary_conditions_used": true
+  },
+  "network_calls": 2,
+  "parameters": 64695744,
+  "model_load_s": 1.1534058135002851,
+  "model_reused": false,
+  "load_peak_allocated_bytes": 1043716096,
+  "read_preprocess_s": 0.048969218507409096,
+  "author_loop_metrics_hooks_s": 0.09133048541843891,
+  "GPU_forward_ms": [
+    19.056352615356445,
+    18.501344680786133
+  ],
+  "first_forward_cold_this_model": true,
+  "peak_allocated_bytes": 294913536,
+  "peak_reserved_bytes": 1180696576,
+  "DEN_positive_fraction": 1.0,
+  "max_RSS_KiB": 1282380,
+  "result_sha256": "4195652f88eba4e662f584c6f2968e0c098dd20d0600154e87ef84af960f25eb",
+  "elapsed_GPU_phase_s": 13.097602192312479
+}

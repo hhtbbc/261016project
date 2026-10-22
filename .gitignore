@@ -110,3 +110,7 @@ credentials.json
 # Official Flow paired-validation evidence
 !/logs/fourcastden_flow*.log
 !/experiments/fourcastden_flow_two_step_v1/config.yaml
+
+# Multi-date official inference evidence
+!/logs/fourcastden_multidate*.log
+!/experiments/fourcastden_multidate_v1/*.yaml

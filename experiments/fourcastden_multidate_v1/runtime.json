@@ -1,0 +1,320 @@
+{
+  "status": "PASS",
+  "labels": [
+    "HINDCAST",
+    "TIEGCM_REFERENCE_ONLY",
+    "NO_TRAINING"
+  ],
+  "formal_sequences": 8,
+  "real_forwards": 16,
+  "January_replayed": false,
+  "GPU_wall_s": 19.099224848672748,
+  "max_RSS_KiB": 1282380,
+  "records": [
+    {
+      "tag": "2023-03-23_Direct",
+      "date": "2023-03-23",
+      "model": "Direct",
+      "status": "PASS",
+      "checkpoint_sha256": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+      "config_sha256": "de9b80dcd4ed3fe796198edcb48e77618271f2f7ddd4c6af4553d947014644b1",
+      "data_sha256": {
+        "2023_03_23_000000.npz": "751fbdf764679c44fdd8b667f15818d9d838b1e8ec507dba2b6e4c2545e83165",
+        "2023_03_23_010000.npz": "899296f674013f459c2a860b7e41acbe17fc14aa9d1081c8d0bf1518482b1ce2",
+        "2023_03_23_020000.npz": "dbb1adcb8694c9c844f922298c878bd225830c3438566ae2de707e90edd67faf"
+      },
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "network_calls": 2,
+      "parameters": 64695744,
+      "model_load_s": 1.3178140074014664,
+      "model_reused": false,
+      "load_peak_allocated_bytes": 1035196416,
+      "read_preprocess_s": 0.05238428898155689,
+      "author_loop_metrics_hooks_s": 0.7940858639776707,
+      "GPU_forward_ms": [
+        151.55059814453125,
+        19.382272720336914
+      ],
+      "first_forward_cold_this_model": true,
+      "peak_allocated_bytes": 294913536,
+      "peak_reserved_bytes": 1159725056,
+      "DEN_positive_fraction": 1.0,
+      "max_RSS_KiB": 1074736,
+      "result_sha256": "3581ea5f7bd04b4032582404078deebb33195907dd1eda6907de96ca0df9cf65",
+      "elapsed_GPU_phase_s": 4.172244952991605
+    },
+    {
+      "tag": "2023-06-21_Direct",
+      "date": "2023-06-21",
+      "model": "Direct",
+      "status": "PASS",
+      "checkpoint_sha256": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+      "config_sha256": "de9b80dcd4ed3fe796198edcb48e77618271f2f7ddd4c6af4553d947014644b1",
+      "data_sha256": {
+        "2023_06_21_000000.npz": "8a16e869106857e02db91aa81e5a01ffe5f444310cd0095712f0e17e43b41fd3",
+        "2023_06_21_010000.npz": "321c370dfeace25444bb80466fa42996d1b5999fd529c867973d715ba7b3286d",
+        "2023_06_21_020000.npz": "738a9ce3a91fe55921d81b645d18dae2b10c49dab0a3aa5d1ac8cc2890ac1c2f"
+      },
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "network_calls": 2,
+      "parameters": 64695744,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "load_peak_allocated_bytes": null,
+      "read_preprocess_s": 0.0541086345911026,
+      "author_loop_metrics_hooks_s": 0.08906460925936699,
+      "GPU_forward_ms": [
+        18.94211196899414,
+        18.221216201782227
+      ],
+      "first_forward_cold_this_model": false,
+      "peak_allocated_bytes": 294913536,
+      "peak_reserved_bytes": 1159725056,
+      "DEN_positive_fraction": 1.0,
+      "max_RSS_KiB": 1085152,
+      "result_sha256": "985974c5de3f156c00e3efc9aa1337ebfa47e3fafb56805486bf6cababec4fdc",
+      "elapsed_GPU_phase_s": 6.0631702821701765
+    },
+    {
+      "tag": "2023-09-23_Direct",
+      "date": "2023-09-23",
+      "model": "Direct",
+      "status": "PASS",
+      "checkpoint_sha256": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+      "config_sha256": "de9b80dcd4ed3fe796198edcb48e77618271f2f7ddd4c6af4553d947014644b1",
+      "data_sha256": {
+        "2023_09_23_000000.npz": "dbb96410269caaabe571dd9803d3a9a4422f6310429566e3ebdf001e7eedfdf9",
+        "2023_09_23_010000.npz": "2778c40fa7753a122b9adbd78c19940db6206fba96e24e35af6150669f086079",
+        "2023_09_23_020000.npz": "6f396170ac1d53fd152ee9f5da2f484e9f33a874266acfbe798ab63725c44276"
+      },
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "network_calls": 2,
+      "parameters": 64695744,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "load_peak_allocated_bytes": null,
+      "read_preprocess_s": 0.05018238537013531,
+      "author_loop_metrics_hooks_s": 0.09027883596718311,
+      "GPU_forward_ms": [
+        19.2761287689209,
+        18.571487426757812
+      ],
+      "first_forward_cold_this_model": false,
+      "peak_allocated_bytes": 294913536,
+      "peak_reserved_bytes": 1159725056,
+      "DEN_positive_fraction": 1.0,
+      "max_RSS_KiB": 1085176,
+      "result_sha256": "8ca59974aaf384e1bc77ac2a9d4cfc29625293b25ae32e80d62e61b0f1e250b9",
+      "elapsed_GPU_phase_s": 7.945707477629185
+    },
+    {
+      "tag": "2023-12-21_Direct",
+      "date": "2023-12-21",
+      "model": "Direct",
+      "status": "PASS",
+      "checkpoint_sha256": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+      "config_sha256": "de9b80dcd4ed3fe796198edcb48e77618271f2f7ddd4c6af4553d947014644b1",
+      "data_sha256": {
+        "2023_12_21_000000.npz": "dca3a45902d964a933d8587c0fda8bc41ff41e049cef40348f62d3dbbba56935",
+        "2023_12_21_010000.npz": "05a87d32876e0bcbe0eb92d8446a826d3996a789ac8795626924a8972116fa4c",
+        "2023_12_21_020000.npz": "15061cab4b34b12467f4437a4d8f02656281aaae59e76a6b04ca46398abe8638"
+      },
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "network_calls": 2,
+      "parameters": 64695744,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "load_peak_allocated_bytes": null,
+      "read_preprocess_s": 0.0517544187605381,
+      "author_loop_metrics_hooks_s": 0.09080279245972633,
+      "GPU_forward_ms": [
+        19.25347137451172,
+        18.411359786987305
+      ],
+      "first_forward_cold_this_model": false,
+      "peak_allocated_bytes": 294913536,
+      "peak_reserved_bytes": 1159725056,
+      "DEN_positive_fraction": 1.0,
+      "max_RSS_KiB": 1085176,
+      "result_sha256": "f93f316d0f9b88af9ea534161b1547896f77bae58e1669241d7f9c71a689b114",
+      "elapsed_GPU_phase_s": 9.842280870303512
+    },
+    {
+      "tag": "2023-03-23_Flow",
+      "date": "2023-03-23",
+      "model": "Flow",
+      "status": "PASS",
+      "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+      "config_sha256": "49240c7db310d213f631097dba62a9c682497edb05d901e30feadb2bfb2f3ee4",
+      "data_sha256": {
+        "2023_03_23_000000.npz": "751fbdf764679c44fdd8b667f15818d9d838b1e8ec507dba2b6e4c2545e83165",
+        "2023_03_23_010000.npz": "899296f674013f459c2a860b7e41acbe17fc14aa9d1081c8d0bf1518482b1ce2",
+        "2023_03_23_020000.npz": "dbb1adcb8694c9c844f922298c878bd225830c3438566ae2de707e90edd67faf"
+      },
+      "feedback": {
+        "passed": true,
+        "normalized_increment_accumulation_exact": true,
+        "second_input_equals_first_accumulated_prediction": true,
+        "future_physical_truth_fed": false,
+        "future_auxiliary_conditions_used": true
+      },
+      "network_calls": 2,
+      "parameters": 64695744,
+      "model_load_s": 1.1534058135002851,
+      "model_reused": false,
+      "load_peak_allocated_bytes": 1043716096,
+      "read_preprocess_s": 0.048969218507409096,
+      "author_loop_metrics_hooks_s": 0.09133048541843891,
+      "GPU_forward_ms": [
+        19.056352615356445,
+        18.501344680786133
+      ],
+      "first_forward_cold_this_model": true,
+      "peak_allocated_bytes": 294913536,
+      "peak_reserved_bytes": 1180696576,
+      "DEN_positive_fraction": 1.0,
+      "max_RSS_KiB": 1282380,
+      "result_sha256": "4195652f88eba4e662f584c6f2968e0c098dd20d0600154e87ef84af960f25eb",
+      "elapsed_GPU_phase_s": 13.097602192312479
+    },
+    {
+      "tag": "2023-06-21_Flow",
+      "date": "2023-06-21",
+      "model": "Flow",
+      "status": "PASS",
+      "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+      "config_sha256": "49240c7db310d213f631097dba62a9c682497edb05d901e30feadb2bfb2f3ee4",
+      "data_sha256": {
+        "2023_06_21_000000.npz": "8a16e869106857e02db91aa81e5a01ffe5f444310cd0095712f0e17e43b41fd3",
+        "2023_06_21_010000.npz": "321c370dfeace25444bb80466fa42996d1b5999fd529c867973d715ba7b3286d",
+        "2023_06_21_020000.npz": "738a9ce3a91fe55921d81b645d18dae2b10c49dab0a3aa5d1ac8cc2890ac1c2f"
+      },
+      "feedback": {
+        "passed": true,
+        "normalized_increment_accumulation_exact": true,
+        "second_input_equals_first_accumulated_prediction": true,
+        "future_physical_truth_fed": false,
+        "future_auxiliary_conditions_used": true
+      },
+      "network_calls": 2,
+      "parameters": 64695744,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "load_peak_allocated_bytes": null,
+      "read_preprocess_s": 0.05075100623071194,
+      "author_loop_metrics_hooks_s": 0.09248335659503937,
+      "GPU_forward_ms": [
+        20.112096786499023,
+        18.531648635864258
+      ],
+      "first_forward_cold_this_model": false,
+      "peak_allocated_bytes": 294913536,
+      "peak_reserved_bytes": 1180696576,
+      "DEN_positive_fraction": 1.0,
+      "max_RSS_KiB": 1282380,
+      "result_sha256": "696ee7f61b05cc34629556f44ca46573909a36f81cd04bb36b238e9d76a8c931",
+      "elapsed_GPU_phase_s": 15.05607825703919
+    },
+    {
+      "tag": "2023-09-23_Flow",
+      "date": "2023-09-23",
+      "model": "Flow",
+      "status": "PASS",
+      "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+      "config_sha256": "49240c7db310d213f631097dba62a9c682497edb05d901e30feadb2bfb2f3ee4",
+      "data_sha256": {
+        "2023_09_23_000000.npz": "dbb96410269caaabe571dd9803d3a9a4422f6310429566e3ebdf001e7eedfdf9",
+        "2023_09_23_010000.npz": "2778c40fa7753a122b9adbd78c19940db6206fba96e24e35af6150669f086079",
+        "2023_09_23_020000.npz": "6f396170ac1d53fd152ee9f5da2f484e9f33a874266acfbe798ab63725c44276"
+      },
+      "feedback": {
+        "passed": true,
+        "normalized_increment_accumulation_exact": true,
+        "second_input_equals_first_accumulated_prediction": true,
+        "future_physical_truth_fed": false,
+        "future_auxiliary_conditions_used": true
+      },
+      "network_calls": 2,
+      "parameters": 64695744,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "load_peak_allocated_bytes": null,
+      "read_preprocess_s": 0.053253646939992905,
+      "author_loop_metrics_hooks_s": 0.09132323414087296,
+      "GPU_forward_ms": [
+        19.30454444885254,
+        18.53183937072754
+      ],
+      "first_forward_cold_this_model": false,
+      "peak_allocated_bytes": 294913536,
+      "peak_reserved_bytes": 1180696576,
+      "DEN_positive_fraction": 1.0,
+      "max_RSS_KiB": 1282380,
+      "result_sha256": "9903b6ac34cb7bb35661e5e8525011b802668b0db40e02585b8985d74435a8b4",
+      "elapsed_GPU_phase_s": 17.01060677319765
+    },
+    {
+      "tag": "2023-12-21_Flow",
+      "date": "2023-12-21",
+      "model": "Flow",
+      "status": "PASS",
+      "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+      "config_sha256": "49240c7db310d213f631097dba62a9c682497edb05d901e30feadb2bfb2f3ee4",
+      "data_sha256": {
+        "2023_12_21_000000.npz": "dca3a45902d964a933d8587c0fda8bc41ff41e049cef40348f62d3dbbba56935",
+        "2023_12_21_010000.npz": "05a87d32876e0bcbe0eb92d8446a826d3996a789ac8795626924a8972116fa4c",
+        "2023_12_21_020000.npz": "15061cab4b34b12467f4437a4d8f02656281aaae59e76a6b04ca46398abe8638"
+      },
+      "feedback": {
+        "passed": true,
+        "normalized_increment_accumulation_exact": true,
+        "second_input_equals_first_accumulated_prediction": true,
+        "future_physical_truth_fed": false,
+        "future_auxiliary_conditions_used": true
+      },
+      "network_calls": 2,
+      "parameters": 64695744,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "load_peak_allocated_bytes": null,
+      "read_preprocess_s": 0.05078580789268017,
+      "author_loop_metrics_hooks_s": 0.09134339913725853,
+      "GPU_forward_ms": [
+        19.299104690551758,
+        18.586336135864258
+      ],
+      "first_forward_cold_this_model": false,
+      "peak_allocated_bytes": 294913536,
+      "peak_reserved_bytes": 1180696576,
+      "DEN_positive_fraction": 1.0,
+      "max_RSS_KiB": 1282380,
+      "result_sha256": "78b2c3fdcb8b33dbb4119003e53ed7dc5f3d6f7d64bb87e01c1cd5cdd4cf9d9f",
+      "elapsed_GPU_phase_s": 18.970734464004636
+    }
+  ],
+  "torch": "2.4.1+cu121",
+  "cuda": "12.1",
+  "device": "NVIDIA A100-SXM4-80GB",
+  "FP32": true,
+  "TF32": false
+}

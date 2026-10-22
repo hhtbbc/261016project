@@ -105,3 +105,8 @@ common_density_h6_v1已单独授权完成C1/C2/C3各1h和6h base/tight共12次�
 ## 官方Flow两步完成后的规则（2026-10-22）
 
 fourcastden_flow_two_step_v1已单独授权执行一次Flow两步，Direct历史只读，198测试通过；Flow为normalized delta加当前normalized state，不能当直接状态或光流。预测反馈/辅助条件区分并保留HINDCAST；一个初值两步不能排名总体架构。DEN层间绝对/相对权重差需同时报告，Z非ZG。官方权重/static/旧结果不改；更长窗口、更多初值、history/log变体、训练、轨道/TIE均须新授权。本次完成后停止，安全同步GitHub规则继续。
+
+
+## 五日期两小时检查后的门禁
+
+fourcastden_multidate_v1已单独授权新增4固定日期Direct/Flow各2h共8序列16forward，Jan4历史只读，206测试通过。n=5初值不能用格点作独立重复，不能宣称全年/强磁暴/真实大气或轨道精度；Mar23整日增强不代表00—02强驱动，必须用实际NPZ条件。模型与数据原件/归一化统计不改。log-DEN本次仅静态CPU检查，无forward，numpy/CUDA和公平物理ACC门禁待解。新的history/log、更多日期、长时、训练、TIE和轨道均需另授权，完成后停止并安全Git同步。

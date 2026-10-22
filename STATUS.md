@@ -1,5 +1,7 @@
 # 当前状态
 
+> 最新（2026-10-22）：五日期Direct/Flow两小时检查完成，新增8序列/16forward，206测试通过；log-DEN仅静态审查，未训练或扩窗。
+
 > 最新（2026-10-22）：官方Flow两小时复现及Direct/Flow同窗对照完成；198测试通过。尚无总体模型优劣或真实大气/轨道精度结论。
 
 > 最新：第一阶段工程/条件成果已整理，正式科学验收待完成；FourCastDEN Direct两小时自回归已完成，第二阶段A启动，未训练。详见末节。
@@ -274,3 +276,12 @@ C0复用H6，未重跑。新增C1/C2/C3各1h base/tight、6h base/tight，共12�
 Flow第一小时170/171层、第二小时141/171层RMSE低于Direct；变量平均逐层RMSE第一小时TN/UN/VN/WN/Z较低，第二小时TN/UN/VN/Z较低，DEN两小时分别较高2.950%/2.842%，WN第二小时较高2.468%。DEN平均绝对RMSE受底层影响，上层相对/log指标另报，不能据单个初值排名架构。两模型均全部171层优于固定t0持续性；六变量平均误差均随步数增加。两套单次跨日GPU事件总时间差约0.978ms，不作速度优越性结论。
 
 报告FOURCASTDEN_FLOW_TWO_STEP_VALIDATION.md、FOURCASTDEN_DIRECT_FLOW_COMPARISON.md；新增8图、4类逐层/汇总/配对CSV，配置、SHA、日志及审计在fourcastden_flow_two_step_v1。改进方向/未来独立初值与6/12/24h协议仅设计；本次不扩窗。下一项建议先多初值2h评价，或补1个Jan4 03样本建立history公平窗口，须另授权。完整训练入口/数据、独立大气/轨道验证、Swarm真实参数/推力及TIE高度/预热/时间分辨率等门禁保留。Git同步以最终SHA核对为准。
+
+
+## 2026-10-22：FourCastDEN五日期Direct/Flow小规模泛化检查完成
+
+固定新增Mar23/Jun21/Sep23/Dec21各00→01→02，12个真实官方NPZ经206/Content-Range/CRC/SHA/14键/层结构/finite/正性检查取得，传输25,849,991字节<100MiB，无整包或Jan4重下载。206项测试通过。8个新序列/16个forward完成，Direct/Flow各加载一次复用四个独立初始化，Jan4只读。真实物理状态反馈防泄漏、条件/统计/目标一致及独立NumPy指标通过，无NaN/负DEN、无裁剪或重试。监督墙钟27.342s/峰RSS约1.223GiB，GPU阶段含CPU审计/压缩19.099s，原始数组不入库。
+
+五窗观察：Flow两时效TN/VN/Z均5/5平均层RMSE较低，第二小时UN/WN各4/5较低；第二小时DEN绝对平均层RMSE为Direct 5/5较低，但原生上层及参考中位ZG400—500km层组的平均相对RMS/logRMS为Flow 5/5较低。两模型全部日期六变量平均误差均增长，Flow上层第2/1小时倍率在五窗更大，不代表长期规律。Kp实际00—02输入Mar23仅0.5—0.867，五窗总体0.5—4.117，不能叫强磁暴验证；其余是季节候选，无总体/显著性排名。
+
+报告FOURCASTDEN_MULTIDATE_VALIDATION.md、FOURCASTDEN_MULTIDATE_COMPARISON.md，指标CSV/7图/Range和运行/资源审计在fourcastden_multidate_v1。官方log-DEN仅CPU静态审查150项参数/177输入/static_log；没有forward，NumPy/CUDA分支和log/物理ACC公平定义仍需审查。建议下一项先官方log-DEN两小时，再history公平窗口，随后预注册6/12/24h和更强条件；见FOURCASTDEN_NEXT_EXPERIMENT_DECISION.md，需新授权。未训练/TIE/轨道传播，正式物理参数和坐标门禁不变。Git同步以最终远端SHA核对为准。

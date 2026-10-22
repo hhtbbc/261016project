@@ -1,0 +1,39 @@
+{
+  "status": "STATIC_ONLY_NO_FORWARD",
+  "checkpoint_sha256": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18",
+  "model_state_entries": 150,
+  "DEN_log_means": {
+    "shape": [
+      1,
+      29,
+      1,
+      1
+    ],
+    "min": -15.91073989868164,
+    "max": -8.979918479919434
+  },
+  "DEN_log_stds": {
+    "shape": [
+      1,
+      29,
+      1,
+      1
+    ],
+    "min": 0.011830116622149944,
+    "max": 0.10017579048871994
+  },
+  "compatible_expected_input_channels": 177,
+  "normalization": "Official log10(DEN in g/cm3), then matching static_log zscore; inverse requires pow10 then *1000 for kg/m3",
+  "cuda_branch_risk": "Author inference.py np.power(10,pred_den_log) on torch tensor: CUDA/NumPy compatibility remains untested. Need isolated reviewed wrapper/overlay and synthetic checks before authorization of real log-DEN inference.",
+  "requirements": {
+    "flow": false,
+    "n_history": 0,
+    "log_DEN": true,
+    "static": "static_log"
+  },
+  "no_model_constructed": true,
+  "no_GPU_forward": true,
+  "available_windows": 5,
+  "extra_raw_frames_for_two_hour_log_variant": 0,
+  "peak_RSS_KiB": 1159100
+}

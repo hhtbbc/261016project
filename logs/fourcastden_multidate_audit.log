@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 244,
+  "data_members_CRC_SHA_verified": 12,
+  "new_sequences": 8,
+  "new_forwards": 16,
+  "January_replayed": false,
+  "tests": 206,
+  "independent_channel_metric_checks": 3420,
+  "max_RMSE_relative_discrepancy": 1.8820073913281393e-07,
+  "max_ACC_absolute_discrepancy": 2.3008025695769874e-07,
+  "all_feedback_exact": true,
+  "all_predictions_finite": true,
+  "DEN_positive_fraction": 1.0,
+  "report_cross_window_claims_verified": true,
+  "transfer_bytes": 25849991,
+  "supervised_wall_s": 27.34219498746097,
+  "GPU_phase_wall_s": 19.099224848672748,
+  "peak_RSS_bytes": 1313157120,
+  "new_experiment_bytes": 169991356,
+  "code_docs_allowance_bytes": 1048576,
+  "budget_bytes": 262144000,
+  "CSV_rows": {
+    "layers": 5130,
+    "summary": 180,
+    "density_layers": 2610,
+    "windows": 30,
+    "drivers": 15,
+    "paired": 60,
+    "aggregate": 12
+  }
+}

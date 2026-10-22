@@ -1,0 +1,20 @@
+{
+  "frozen_before_new_GPU": true,
+  "window_unit": "Each of five dates receives equal weight; grid cells are not independent replicates",
+  "upper_native_pressure_indices": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "upper_definition": "Descriptive fixed native interfaces 20..28, not fixed km heights",
+  "near_400_500_definition": "Interfaces whose GLOBAL median reference ZG lies between 400 and 500 km at that target time; mean of per-layer metrics, no geometric-height interpolation",
+  "polar_definition": "abs(model latitude)>=60 degrees",
+  "global_region_stats": "cos latitude weighted RMS/log RMS; spatial P95 is unweighted percentile",
+  "no_significance_test": true
+}

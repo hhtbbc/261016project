@@ -1,0 +1,37 @@
+{
+  "tag": "2023-12-21_Direct",
+  "date": "2023-12-21",
+  "model": "Direct",
+  "status": "PASS",
+  "checkpoint_sha256": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+  "config_sha256": "de9b80dcd4ed3fe796198edcb48e77618271f2f7ddd4c6af4553d947014644b1",
+  "data_sha256": {
+    "2023_12_21_000000.npz": "dca3a45902d964a933d8587c0fda8bc41ff41e049cef40348f62d3dbbba56935",
+    "2023_12_21_010000.npz": "05a87d32876e0bcbe0eb92d8446a826d3996a789ac8795626924a8972116fa4c",
+    "2023_12_21_020000.npz": "15061cab4b34b12467f4437a4d8f02656281aaae59e76a6b04ca46398abe8638"
+  },
+  "feedback": {
+    "passed": true,
+    "second_state_equals_first_prediction": true,
+    "physical_truth_used_after_t0": false,
+    "future_auxiliary_and_drivers_used": true
+  },
+  "network_calls": 2,
+  "parameters": 64695744,
+  "model_load_s": 0.0,
+  "model_reused": true,
+  "load_peak_allocated_bytes": null,
+  "read_preprocess_s": 0.0517544187605381,
+  "author_loop_metrics_hooks_s": 0.09080279245972633,
+  "GPU_forward_ms": [
+    19.25347137451172,
+    18.411359786987305
+  ],
+  "first_forward_cold_this_model": false,
+  "peak_allocated_bytes": 294913536,
+  "peak_reserved_bytes": 1159725056,
+  "DEN_positive_fraction": 1.0,
+  "max_RSS_KiB": 1085176,
+  "result_sha256": "f93f316d0f9b88af9ea534161b1547896f77bae58e1669241d7f9c71a689b114",
+  "elapsed_GPU_phase_s": 9.842280870303512
+}

@@ -1,0 +1,7 @@
+{
+  "first_forward_cold_this_model_field": "Raw field indicates first invocation of that checkpoint; not necessarily cold process kernels",
+  "actual_process_first_forward": "2023-03-23_Direct step1",
+  "Flow_first_window": "First invocation with Flow weights but CUDA kernels already used by Direct; not globally cold",
+  "offline_costs_not_counted_as_GPU_network": "Download, hashing, compressed result I/O and CPU metric/hook overhead separately accounted",
+  "strict_throughput_benchmark": false
+}

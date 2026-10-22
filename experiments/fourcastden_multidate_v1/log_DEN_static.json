@@ -1,0 +1,641 @@
+{
+  "status": "STATIC_ONLY_NO_FORWARD",
+  "checkpoint_sha256": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18",
+  "model_state_entries": 150,
+  "tensor_shapes": {
+    "pos_embed": [
+      1,
+      162,
+      768
+    ],
+    "patch_embed.proj.weight": [
+      768,
+      177,
+      4,
+      4
+    ],
+    "patch_embed.proj.bias": [
+      768
+    ],
+    "blocks.0.norm1.weight": [
+      768
+    ],
+    "blocks.0.norm1.bias": [
+      768
+    ],
+    "blocks.0.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.0.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.0.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.0.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.0.norm2.weight": [
+      768
+    ],
+    "blocks.0.norm2.bias": [
+      768
+    ],
+    "blocks.0.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.0.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.0.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.0.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.1.norm1.weight": [
+      768
+    ],
+    "blocks.1.norm1.bias": [
+      768
+    ],
+    "blocks.1.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.1.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.1.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.1.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.1.norm2.weight": [
+      768
+    ],
+    "blocks.1.norm2.bias": [
+      768
+    ],
+    "blocks.1.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.1.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.1.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.1.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.2.norm1.weight": [
+      768
+    ],
+    "blocks.2.norm1.bias": [
+      768
+    ],
+    "blocks.2.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.2.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.2.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.2.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.2.norm2.weight": [
+      768
+    ],
+    "blocks.2.norm2.bias": [
+      768
+    ],
+    "blocks.2.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.2.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.2.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.2.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.3.norm1.weight": [
+      768
+    ],
+    "blocks.3.norm1.bias": [
+      768
+    ],
+    "blocks.3.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.3.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.3.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.3.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.3.norm2.weight": [
+      768
+    ],
+    "blocks.3.norm2.bias": [
+      768
+    ],
+    "blocks.3.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.3.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.3.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.3.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.4.norm1.weight": [
+      768
+    ],
+    "blocks.4.norm1.bias": [
+      768
+    ],
+    "blocks.4.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.4.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.4.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.4.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.4.norm2.weight": [
+      768
+    ],
+    "blocks.4.norm2.bias": [
+      768
+    ],
+    "blocks.4.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.4.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.4.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.4.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.5.norm1.weight": [
+      768
+    ],
+    "blocks.5.norm1.bias": [
+      768
+    ],
+    "blocks.5.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.5.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.5.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.5.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.5.norm2.weight": [
+      768
+    ],
+    "blocks.5.norm2.bias": [
+      768
+    ],
+    "blocks.5.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.5.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.5.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.5.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.6.norm1.weight": [
+      768
+    ],
+    "blocks.6.norm1.bias": [
+      768
+    ],
+    "blocks.6.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.6.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.6.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.6.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.6.norm2.weight": [
+      768
+    ],
+    "blocks.6.norm2.bias": [
+      768
+    ],
+    "blocks.6.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.6.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.6.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.6.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.7.norm1.weight": [
+      768
+    ],
+    "blocks.7.norm1.bias": [
+      768
+    ],
+    "blocks.7.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.7.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.7.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.7.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.7.norm2.weight": [
+      768
+    ],
+    "blocks.7.norm2.bias": [
+      768
+    ],
+    "blocks.7.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.7.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.7.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.7.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.8.norm1.weight": [
+      768
+    ],
+    "blocks.8.norm1.bias": [
+      768
+    ],
+    "blocks.8.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.8.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.8.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.8.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.8.norm2.weight": [
+      768
+    ],
+    "blocks.8.norm2.bias": [
+      768
+    ],
+    "blocks.8.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.8.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.8.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.8.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.9.norm1.weight": [
+      768
+    ],
+    "blocks.9.norm1.bias": [
+      768
+    ],
+    "blocks.9.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.9.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.9.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.9.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.9.norm2.weight": [
+      768
+    ],
+    "blocks.9.norm2.bias": [
+      768
+    ],
+    "blocks.9.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.9.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.9.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.9.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.10.norm1.weight": [
+      768
+    ],
+    "blocks.10.norm1.bias": [
+      768
+    ],
+    "blocks.10.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.10.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.10.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.10.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.10.norm2.weight": [
+      768
+    ],
+    "blocks.10.norm2.bias": [
+      768
+    ],
+    "blocks.10.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.10.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.10.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.10.mlp.fc2.bias": [
+      768
+    ],
+    "blocks.11.norm1.weight": [
+      768
+    ],
+    "blocks.11.norm1.bias": [
+      768
+    ],
+    "blocks.11.filter.w1": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.11.filter.b1": [
+      2,
+      8,
+      96
+    ],
+    "blocks.11.filter.w2": [
+      2,
+      8,
+      96,
+      96
+    ],
+    "blocks.11.filter.b2": [
+      2,
+      8,
+      96
+    ],
+    "blocks.11.norm2.weight": [
+      768
+    ],
+    "blocks.11.norm2.bias": [
+      768
+    ],
+    "blocks.11.mlp.fc1.weight": [
+      3072,
+      768
+    ],
+    "blocks.11.mlp.fc1.bias": [
+      3072
+    ],
+    "blocks.11.mlp.fc2.weight": [
+      768,
+      3072
+    ],
+    "blocks.11.mlp.fc2.bias": [
+      768
+    ],
+    "norm.weight": [
+      768
+    ],
+    "norm.bias": [
+      768
+    ],
+    "head.weight": [
+      2736,
+      772
+    ]
+  },
+  "DEN_log_means": {
+    "shape": [
+      1,
+      29,
+      1,
+      1
+    ],
+    "min": -15.91073989868164,
+    "max": -8.979918479919434
+  },
+  "DEN_log_stds": {
+    "shape": [
+      1,
+      29,
+      1,
+      1
+    ],
+    "min": 0.011830116622149944,
+    "max": 0.10017579048871994
+  },
+  "compatible_expected_input_channels": 177,
+  "normalization": "Official log10(DEN in g/cm3), then matching static_log zscore; inverse requires pow10 then *1000 for kg/m3",
+  "cuda_branch_risk": "Author inference.py np.power(10,pred_den_log) on torch tensor: CUDA/NumPy compatibility remains untested. Need isolated reviewed wrapper/overlay and synthetic checks before authorization of real log-DEN inference.",
+  "requirements": {
+    "flow": false,
+    "n_history": 0,
+    "log_DEN": true,
+    "static": "static_log"
+  },
+  "no_model_constructed": true,
+  "no_GPU_forward": true,
+  "available_windows": 5,
+  "extra_raw_frames_for_two_hour_log_variant": 0,
+  "peak_RSS_KiB": 1159100
+}

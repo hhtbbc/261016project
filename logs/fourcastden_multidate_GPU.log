@@ -1,0 +1,24 @@
+2026-10-22 01:47:20,937 - root - INFO - Loading inference data
+2026-10-22 01:47:20,938 - root - INFO - Found data at path /workspace/data/20261016/data/raw/fourcastden_multidate_v1. Number of examples: 12.
+2026-10-22 01:47:20,938 - root - INFO - Getting file stats from /workspace/data/20261016/data/raw/fourcastden_multidate_v1/2023_03_23_000000.npz
+2026-10-22 01:47:20,956 - root - INFO - Number of channels available: 235.0
+2026-10-22 01:47:20,957 - root - INFO - Number of steps: 12
+2026-10-22 01:47:20,957 - root - INFO - Found data at path /workspace/data/20261016/data/raw/fourcastden_multidate_v1. Number of examples: 12. Image shape: 36 x 72 x 177
+2026-10-22 01:47:20,957 - root - INFO - Delta time: 1 hours
+2026-10-22 01:47:20,957 - root - INFO - Including 12 hours of past history at a frequency of 1 hours
+{"tag": "2023-03-23_Direct", "status": "PASS", "loop_s": 0.7940858639776707, "forward_ms": [151.55059814453125, 19.382272720336914]}
+{"tag": "2023-06-21_Direct", "status": "PASS", "loop_s": 0.08906460925936699, "forward_ms": [18.94211196899414, 18.221216201782227]}
+{"tag": "2023-09-23_Direct", "status": "PASS", "loop_s": 0.09027883596718311, "forward_ms": [19.2761287689209, 18.571487426757812]}
+{"tag": "2023-12-21_Direct", "status": "PASS", "loop_s": 0.09080279245972633, "forward_ms": [19.25347137451172, 18.411359786987305]}
+2026-10-22 01:47:30,684 - root - INFO - Loading inference data
+2026-10-22 01:47:30,684 - root - INFO - Found data at path /workspace/data/20261016/data/raw/fourcastden_multidate_v1. Number of examples: 12.
+2026-10-22 01:47:30,684 - root - INFO - Getting file stats from /workspace/data/20261016/data/raw/fourcastden_multidate_v1/2023_03_23_000000.npz
+2026-10-22 01:47:30,701 - root - INFO - Number of channels available: 235.0
+2026-10-22 01:47:30,702 - root - INFO - Number of steps: 12
+2026-10-22 01:47:30,702 - root - INFO - Found data at path /workspace/data/20261016/data/raw/fourcastden_multidate_v1. Number of examples: 12. Image shape: 36 x 72 x 177
+2026-10-22 01:47:30,702 - root - INFO - Delta time: 1 hours
+2026-10-22 01:47:30,702 - root - INFO - Including 12 hours of past history at a frequency of 1 hours
+{"tag": "2023-03-23_Flow", "status": "PASS", "loop_s": 0.09133048541843891, "forward_ms": [19.056352615356445, 18.501344680786133]}
+{"tag": "2023-06-21_Flow", "status": "PASS", "loop_s": 0.09248335659503937, "forward_ms": [20.112096786499023, 18.531648635864258]}
+{"tag": "2023-09-23_Flow", "status": "PASS", "loop_s": 0.09132323414087296, "forward_ms": [19.30454444885254, 18.53183937072754]}
+{"tag": "2023-12-21_Flow", "status": "PASS", "loop_s": 0.09134339913725853, "forward_ms": [19.299104690551758, 18.586336135864258]}

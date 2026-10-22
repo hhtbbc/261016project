@@ -1,0 +1,97 @@
+{
+  "dates": [
+    "2023-03-23",
+    "2023-06-21",
+    "2023-09-23",
+    "2023-12-21"
+  ],
+  "members": [
+    {
+      "name": "2023_03_23_000000.npz",
+      "bytes": 2069972,
+      "compressed": 2069852,
+      "method": 8,
+      "crc": 2910783930
+    },
+    {
+      "name": "2023_03_23_010000.npz",
+      "bytes": 2069555,
+      "compressed": 2069417,
+      "method": 8,
+      "crc": 3802921623
+    },
+    {
+      "name": "2023_03_23_020000.npz",
+      "bytes": 2070008,
+      "compressed": 2069919,
+      "method": 8,
+      "crc": 2565217145
+    },
+    {
+      "name": "2023_06_21_000000.npz",
+      "bytes": 2071992,
+      "compressed": 2071832,
+      "method": 8,
+      "crc": 2553779648
+    },
+    {
+      "name": "2023_06_21_010000.npz",
+      "bytes": 2072674,
+      "compressed": 2072546,
+      "method": 8,
+      "crc": 3175348922
+    },
+    {
+      "name": "2023_06_21_020000.npz",
+      "bytes": 2071677,
+      "compressed": 2071532,
+      "method": 8,
+      "crc": 1673429120
+    },
+    {
+      "name": "2023_09_23_000000.npz",
+      "bytes": 2073750,
+      "compressed": 2073632,
+      "method": 8,
+      "crc": 3188309947
+    },
+    {
+      "name": "2023_09_23_010000.npz",
+      "bytes": 2074376,
+      "compressed": 2074274,
+      "method": 8,
+      "crc": 1917547928
+    },
+    {
+      "name": "2023_09_23_020000.npz",
+      "bytes": 2074797,
+      "compressed": 2074683,
+      "method": 8,
+      "crc": 3353347725
+    },
+    {
+      "name": "2023_12_21_000000.npz",
+      "bytes": 2070868,
+      "compressed": 2070774,
+      "method": 8,
+      "crc": 1759708611
+    },
+    {
+      "name": "2023_12_21_010000.npz",
+      "bytes": 2072908,
+      "compressed": 2072799,
+      "method": 8,
+      "crc": 4273669620
+    },
+    {
+      "name": "2023_12_21_020000.npz",
+      "bytes": 2075429,
+      "compressed": 2075293,
+      "method": 8,
+      "crc": 2332470504
+    }
+  ],
+  "planned_member_bytes": 24868006,
+  "selected_before_new_errors": true,
+  "January_replay": false
+}

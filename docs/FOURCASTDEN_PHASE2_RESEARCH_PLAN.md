@@ -73,3 +73,8 @@
 ## 2026-10-22阶段B更新：Direct/Flow两小时配对已完成
 
 官方Flow单次两步成功，Direct历史只读，198项测试通过。增量在归一化空间相加，未来真实171状态未反馈；HINDCAST条件保留。Flow在多数层较低误差不等于总体更好，DEN全层平均绝对RMSE与上层相对表现不同，详见两模型对照报告。原计划“下一次Flow2h”已完成，不重复执行。下一项仅建议多独立初值2h评价；history公平初始时刻Jan4 01须补03帧，log变体仍需专门分支验证。更多时刻与6/12/24h数据预算/预注册规则见FOURCASTDEN_EVALUATION_PROTOCOL.md，改进方向见FOURCASTDEN_MODEL_IMPROVEMENT_OPTIONS.md。无训练或轨道应用授权，所有物理精度门禁不变。
+
+
+## 2026-10-22：阶段B五日期小规模Direct/Flow评价完成
+
+4个预先指定新日期数据和两模型2h结果完成，Jan4历史只读，合计5窗而非全年；206测试通过。DEN绝对/相对与增长的层间权重差得到跨窗描述支持，不能宣称总体架构或真实大气优劣。Mar23本次小时输入Kp偏低，增强活动泛化未覆盖。阶段B仍未覆盖history/log或长时。下一入口FOURCASTDEN_NEXT_EXPERIMENT_DECISION.md：先静态log分支与统一物理指标门禁，再另授权官方log两步；history共同t0=01须每窗补03帧。6/12/24h、训练、TIE与轨道均不自动执行。
