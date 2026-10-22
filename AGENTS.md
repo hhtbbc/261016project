@@ -127,3 +127,7 @@ fourcastden_four_model_multidate_v1已另授权完成后4日期03补帧及16序�
 ## 两日期四模型连续6小时完成后的门禁
 
 fourcastden_six_hour_v1已单独授权完成Jan4/Mar24各4组6步（48正式forward）加1次Direct短例，232测试。任意步检查与真实hooks确认History第三步起两个预测状态、Flow normalized增量及log匹配表示，无未来物理真值重置；Jan4前2步与旧数组逐元素一致。数据初次HTTP500后有界只补剩5帧，合计12新样本/25.74MiB，旧文件不改。Jan4高层2—6h Direct较低；Mar24 History2—4h、log5—6h较低，不以两窗定总体架构/地磁因果；near组随参考ZG可变，固定upper与逐层另报。12/24h仅设计、不自动执行/训练/TIE/RK45；真实大气与轨道参数/高度门禁不变。任务后安全同步GitHub。
+
+## Jan4四模型连续12小时后的门禁
+
+fourcastden_twelve_hour_jan4_v1另授权完成4×12共48forward，无额外GPU预检/重试，237测试。所有模型前6步inputs/scalars/raw/state及公共指标与旧6h精确一致；History12步滑窗/四模式毒化通过，原checkpoint/static/source不改。Jan4高层Direct+2—12较低，后期误差非单调；单窗口不作全年架构排名/观测或轨道精度。Mar2412h只设计，24h/训练/TIE/RK45不自动执行；2023不调参，训练完整入口和2000—2022数据缺口见TRAINING_READINESS。结束安全Git同步，下一步等用户授权。

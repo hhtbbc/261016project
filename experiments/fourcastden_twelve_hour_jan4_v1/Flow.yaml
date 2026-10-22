@@ -1,0 +1,58 @@
+afno_inference:
+  device: gpu
+  num_workers: 0
+  model_name: afnonet
+  num_blocks: 8
+  patch_size: 4
+  dt: 1
+  depth: 12
+  embed_dim: 768
+  mlp_ratio: 4
+  drop_rate: 0.0
+  lr: 5E-4
+  batch_size: 16
+  n_lon_periodic: 0
+  flow: true
+  perturb: false
+  n_perturbations: 24
+  two_step_training: false
+  resuming: false
+  step_con: false
+  pre_day: 1
+  weight_channel: true
+  in_variables: [TN, UN, VN, WN, Z, DEN, TLBC, ULBC, VLBC]
+  in_drivers: [f107d, f107a, Kp]
+  out_variables: [TN, UN, VN, WN, Z, DEN]
+  exp_dir: output
+  prediction_type: iterative
+  n_prediction: 12
+  test_data_path: /workspace/data/20261016/experiments/fourcastden_twelve_hour_jan4_v1/data_view
+  best_checkpoint_path: /workspace/data/20261016/models/checkpoints/author/Flow_ckpt.tar
+  pre_resultname: twelve_hour_Flow
+  date_time: '2023-01-04 01:00:00'
+  result_save: true
+  mean_pre_var: DEN
+  n_history: 0
+  res_file: false
+  log_DEN: false
+  loss: l2
+  scheduler: CosineAnnealingLR
+  ics_type: default
+  save_raw_forecasts: true
+  save_channel: false
+  add_grid: false
+  n_grid_channels: 0
+  gridtype: sinusoidal
+  max_epochs: 50
+  normalization: zscore
+  enable_nhwc: true
+  optimizer_type: AdamW
+  geomagnetic: true
+  solar: true
+  log_to_screen: false
+  save_checkpoint: true
+  add_noise: false
+  noise_std: 0
+  static_data_path: /workspace/data/20261016/data/processed/static
+  img_shape_x: 36
+  img_shape_y: 72

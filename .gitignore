@@ -133,3 +133,7 @@ credentials.json
 !/logs/fourcastden_six_hour*.log
 /logs/fourcastden_six_hour_context.log
 !/experiments/fourcastden_six_hour_v1/*.yaml
+
+# Continuous Jan4 twelve-hour inference: lightweight audit/config/logs only.
+!/logs/fourcastden_twelve_hour*.log
+!/experiments/fourcastden_twelve_hour_jan4_v1/*.yaml

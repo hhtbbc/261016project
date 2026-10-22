@@ -456,3 +456,19 @@ History唯一真实forward预检通过，随后History/Direct/Flow/log各一次�
 命令：source scripts/activate310.sh；unittest discover；run_fourcastden_six_hour.py --fetch；--resume-fetch（一次余量补取）；无参静态；driver_comparison离线GFZ审查；supervise_fourcastden_six_hour.py；analyze_fourcastden_six_hour.py；audit_fourcastden_six_hour.py；write_fourcastden_six_hour_reports.py；最终audit --final。新8图/8类CSV、配置/输入SHA/原生及物理审计，原始/预测NPZ本地不入Git；3报告与LONG_HORIZON_DECISION。长期路线第二阶段未训练，第一阶段正式物理门禁不变。
 
 后续只设计先同两窗四组12h（每窗缺08—13六帧共12），通过后再24h；不按当前两个窗口选择最终模型或在2023拟合参数。缺作者完整训练入口/2000—2022数据/独立验证、多种子训练消融、真实观测密度及Z/ZG/时间/Swarm气动姿态推力/共同受力条件。当前停止，不继续12/24h、训练/TIE/轨道；Git同步以实际远端HEAD为准。
+
+## 2026-10-22｜Jan4四模型连续12小时与训练准备静态审查
+
+目标：沿用既有六小时官方路径完成一个Jan4 01→13窗口，不拼接、不输入中途真值；Mar24只设计，训练资源只读。先核对clean main本地9447e785、远端a1b474；通过有效同用户Git认证通道安全push成功，ls-remote核验9447e785，未重提交历史/强推。
+
+新增独立run/supervise/analyze/audit/write脚本与12步5测试，复用原autoregression/profiling/log隔离层。全237测试27.861秒通过，旧ERFA合成dubious-year警告原样保存。预注册docs/FOURCASTDEN_TWELVE_HOUR_PREREGISTRATION.md先冻结前6步精确门槛和原指标容差；按既有保守600秒/4GiB/800MiB监督，磁盘20GiB门禁。既有权重/static/原作者树/旧数据结果全部保护SHA。
+
+--fetch只获取Jan4 08—13六NPZ，目录元数据/206/Content-Range/CRC/SHA/14键/shape/float32/finite哨兵/正DEN与TN/ZG单调通过，网络13,442,650字节，无失败重试，raw0444。00—07用symlink只读。新preflight逐一数据和配置SHA后启动一次监督进程，4模型各12forward共48、0额外GPU预检，各自独立初始化；future aux/scalar逐时对齐，仅物理171状态自回归，History第三步起两个预测状态。严格checkpoint/FP32/TF32关闭，Flow增量和log10/static_log/pow10沿用验证层，未改原源码/权重/统计。
+
+真实hooks前6步input/scalar/raw/state精确等于旧6h（最大差0），means/std亦精确；执行完原六变量summary及旧DEN指标前24模型时效全部精确相同，prefix_metrics_gate.json。无teacher forcing/裁剪/补零，48输出finite/正DEN/正TN。独立NumPy公共8208通道时效以及native指标复核通过，保留原rtol2e-5/ACC2e-6与公共1e-12；逐层/极区/顶部/固定upper20—28/near21—23及持续性全部保存。
+
++12h near相对RMS D/F/log/H=1.331348/1.623416/1.446208/1.899883%，全层DEN平均RMSE=2.3451913e-10/3.0523764e-10/2.3876184e-10/8.3372090e-10kg/m3。Direct本窗口+2—12较低；near D/F/log+9h峰后小降，History+11h峰后降，History全层绝对仍持续增大，不能以增长比单独称稳定或选全年模型。Z为位势高度、near是参考中位压力层非固定450km。Kp原NPZ约3.30—4.633，非安静基准，不将误差曲线直接归因驱动。
+
+监督39.435960秒/峰RSS1,489,559,552字节，GPUworker30.077811秒含I/O/加载/指标/保存；12forward D358.082ms含首次冷、F217.901/log219.404/H225.480，CUDAallocated峰315.70—329.25MiB。独立分析9.1605秒。新8图/8类CSV、配置/逐步物理范围/反馈与保护审计，大预测NPZ不入Git；完整体积与SHA见final_delivery_audit.json。静态作者README明确推理包，Lightning残留value/flow/warp接口与实际AFNONet不等同，缺完整训练入口及2000—2021训练/2022验证数据和四变体精确协议；未下载/训练/安装。未来Mar24缺08—13六帧，本次仅设计。正式外部高度/气动/受力/观测验证门禁继续。
+
+命令：source scripts/activate310.sh；unittest discover；run_fourcastden_twelve_hour_jan4.py --fetch；无参preflight；supervise_fourcastden_twelve_hour_jan4.py；analyze；audit；write_reports；audit --final。无额外模型推理/重试，未TIE/RK45/训练/Mar2412h或24h。成果完成后安全Git同步并核验远端，结束停止。

@@ -328,3 +328,13 @@ Flow第一小时170/171层、第二小时141/171层RMSE低于Direct；变量平�
 - 作者Mar24小时Kp6.583—7.883，Jan4 3.35—4.633并非地磁安静。作者F107/Kp与GFZ约定/插值不完全一致，原样保留；两窗同UT、季节/初态/历史驱动混杂，不作因果。Mar24 near组+3h起22层中位超过500km被剔除，固定upper/逐层补充。
 - 监督39.700s、峰RSS1.316GiB、GPU阶段30.841s含CPU处理；网络事件每序列约110—113ms，读取/标准化/原指标/保存单列，不等同端到端加速比。新增约392MiB<800MiB；8图/8类CSV，原始和大NPZ本地。
 - 报告SIX_HOUR_VALIDATION、SIX_HOUR_COMPARISON、GEOMAGNETIC_WINDOW_COMPARISON；下一决策LONG_HORIZON_DECISION只设计先12h再24h，缺训练入口/2000—2022数据与独立观测/轨道接口条件。当前停止，Git以最终远端核验为准。
+
+## 2026-10-22：Jan4四官方模型连续12小时完成
+
+新增fourcastden_twelve_hour_jan4_v1，固定01→13，Direct/Flow/log/History各12步，共48正式forward，无额外GPU预检/重试。新增08—13六NPZ，206/CRC/SHA/14字段等通过，网络13,442,650字节<25MiB；原00—07只读。237测试通过。真实hooks前6步input/scalar/raw/state及统计全部与历史6h逐元素一致；公共六变量/旧DEN指标前缀亦精确相同，历史结果未改。
+
+全部输出finite/正DEN/正TN。+12h参考中位ZG400—500km相关原生组相对RMS：Direct1.331348%、Flow1.623416%、log1.446208%、History1.899883%；全层DEN逐层绝对RMSE平均分别2.3451913e-10/3.0523764e-10/2.3876184e-10/8.3372090e-10kg/m3。Direct+2—12本窗口较低；高层误差并非单调，不能以单窗口选最终模型。HINDCAST/TIE参考拟合不等于观测或轨道精度。
+
+监督39.43596秒、峰RSS1.387GiB，GPU worker30.07781秒含I/O/加载/评价/保存；网络12forward合计Direct358.082ms（首调用冷）、Flow217.901、log219.404、History225.480，不能作严格吞吐排名。独立NumPy8208通道时效复核，全部门槛保持。大数组只本地。
+
+入口scripts/run_fourcastden_twelve_hour_jan4.py与supervise/analyze/audit同标签；报告FOURCASTDEN_TWELVE_HOUR_JAN4_VALIDATION/COMPARISON，训练静态审查docs/FOURCASTDEN_TRAINING_READINESS.md；Mar2412h仅方案docs/FOURCASTDEN_MAR24_TWELVE_HOUR_PLAN.md。当前缺完整作者训练入口/训练验证数据/原配置；不训练、不24h/TIE/RK45。旧9447e785已恢复推送核验，本次提交同步以实际远端核验为准。任务结束停止，下一项建议另授权Mar24同协议12h，不自动执行。

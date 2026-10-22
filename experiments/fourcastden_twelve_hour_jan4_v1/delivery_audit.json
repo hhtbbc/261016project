@@ -1,0 +1,388 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 628,
+  "formal_sequences": 4,
+  "formal_forwards": 48,
+  "short_check_forwards": 0,
+  "tests": 237,
+  "common_physical_channel_checks": 8208,
+  "author_normalized_RMSE_max_relative": 2.2402111222930556e-07,
+  "author_ACC_max_absolute": 2.3749542255036005e-07,
+  "DEN_positive_fraction": 1.0,
+  "all_steps_feedback_exact": true,
+  "history_third_step_onward_two_predictions": true,
+  "January_first_six_steps_exact_to_history": true,
+  "network_body_bytes": 13442650,
+  "network_reserved_bytes": 13442672,
+  "HTTP500_count": 0,
+  "download_attempts": 1,
+  "new_files_bytes": 378586909,
+  "wall_s": 39.435960222035646,
+  "peak_RSS_bytes": 1489559552,
+  "CSV_rows": {
+    "layers": 10260,
+    "summary": 360,
+    "density_layers": 5220,
+    "windows": 60,
+    "author_native": 8208,
+    "growth": 24,
+    "performance": 4,
+    "drivers": 14
+  },
+  "persistence_checks": [
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "hour": 1,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "hour": 2,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "hour": 3,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "hour": 4,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "hour": 5,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "hour": 6,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "hour": 7,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "hour": 8,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "hour": 9,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "hour": 10,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "hour": 11,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "hour": 12,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "hour": 1,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "hour": 2,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "hour": 3,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "hour": 4,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "hour": 5,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "hour": 6,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "hour": 7,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "hour": 8,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "hour": 9,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "hour": 10,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "hour": 11,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "hour": 12,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "hour": 1,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "hour": 2,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "hour": 3,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "hour": 4,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "hour": 5,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "hour": 6,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "hour": 7,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "hour": 8,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "hour": 9,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "hour": 10,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "hour": 11,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "hour": 12,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "hour": 1,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "hour": 2,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "hour": 3,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "hour": 4,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "hour": 5,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "hour": 6,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "hour": 7,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "hour": 8,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "hour": 9,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "hour": 10,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "hour": 11,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "hour": 12,
+      "channels_better_than_persistence": 171
+    }
+  ],
+  "artifact_sha256": {
+    "data/processed/fourcastden_twelve_hour_jan4_v1/2023-01-04_Direct.npz": "00ca470a2f7c2da2ccec28d413ed112e752da87bf97512cc0108aaa9228fa97a",
+    "data/processed/fourcastden_twelve_hour_jan4_v1/2023-01-04_Flow.npz": "50a8b8ed5e8b9600a5d33da5c2702b0b40f7475e28bfc3807b260c24f41d2bed",
+    "data/processed/fourcastden_twelve_hour_jan4_v1/2023-01-04_History.npz": "691eca627c39b5154b6456cd7051f7b524bf50991208d8434f3b2e645484d5a5",
+    "data/processed/fourcastden_twelve_hour_jan4_v1/2023-01-04_LogDEN.npz": "18251074a5c249638c30148e6f131e5504a00cacfd658dce2344f585a7ce75b1",
+    "data/raw/fourcastden_twelve_hour_jan4_v1/2023_01_04_080000.npz": "136892a75b80bbffec9aefd42dff0396be4ffd522367f95ad45a2b0a9689a1e1",
+    "data/raw/fourcastden_twelve_hour_jan4_v1/2023_01_04_090000.npz": "d1a7b8fc54de1740049052a8e55ee6ea8df2e4faf1a896ee9b73be109e2d3153",
+    "data/raw/fourcastden_twelve_hour_jan4_v1/2023_01_04_100000.npz": "ebccb9bea780f03edb60fab0061aeb61512470ede75e568a7ba84e946d9ca359",
+    "data/raw/fourcastden_twelve_hour_jan4_v1/2023_01_04_110000.npz": "b19c2e946d0690ff94dd22bc4da586c569ee30d0f9e5b2a4349a3eb02946f874",
+    "data/raw/fourcastden_twelve_hour_jan4_v1/2023_01_04_120000.npz": "df6224e38afc3f6e3c726b6687bfca9887340ed40d03eaa934668bf636481d59",
+    "data/raw/fourcastden_twelve_hour_jan4_v1/2023_01_04_130000.npz": "3e9f1478116919c2fde3a9ed6d77dcdfee6d9a9f5ee6e980661c4946110b45a7",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023-01-04_Direct_launch.json": "5c44052f41ea0c2318c177d08473ddbdc4b8f15d9257b91fd55c4b75b3d3b1e3",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023-01-04_Direct_prefix_gate.json": "b6ab222b105c1fc647e23be573a4b84eefddfae60b05bb0004753411d10b6343",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023-01-04_Direct_runtime.json": "dbac2922dab3c2055112019a79da9617ae913d4e5362446aaf9656dffb1847b2",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023-01-04_Flow_launch.json": "a705a3ce5bb24229c634a0927059cd7f223dcffcabdc41a9da0fe192e85d193e",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023-01-04_Flow_prefix_gate.json": "b6ab222b105c1fc647e23be573a4b84eefddfae60b05bb0004753411d10b6343",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023-01-04_Flow_runtime.json": "9f2e3b43076fe708d1bcc92bf1974fe88599d1815c3eef31ec17109302d4a87b",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023-01-04_History_launch.json": "7e1909959c17d00dd532f0fe795977ddc02cccf6e30741c6644cae800ff9a1b2",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023-01-04_History_prefix_gate.json": "b6ab222b105c1fc647e23be573a4b84eefddfae60b05bb0004753411d10b6343",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023-01-04_History_runtime.json": "0929e62c3fd0b44fb06402206af84fd93f068783ef86998d23b69b20837883fa",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023-01-04_LogDEN_launch.json": "ddcb82bf96c28ae1d8092ac8fb0c9b98aa4c19d2b4cc67fd89cd6e30d880aee1",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023-01-04_LogDEN_prefix_gate.json": "b6ab222b105c1fc647e23be573a4b84eefddfae60b05bb0004753411d10b6343",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023-01-04_LogDEN_runtime.json": "cbb44835836045c5c32a20ad019ae2ec0d59c90249a4dea429dc07bf7e1d2a9f",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023_01_04_080000_download.json": "2b0befe0b59b5bc11686efb16ab637244f8b546094e60d79fd5790abe6c59d9d",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023_01_04_090000_download.json": "144d99549493418073f50532e2b604aacde4db12c9f6fdbec7c50da2474ce778",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023_01_04_100000_download.json": "f3962f80e61ce62efb06461ae41b2cbfb1dd4342c1cd04b83a290c292cb4517f",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023_01_04_110000_download.json": "7b0e15fe8a020c9f3995580eaa69420390d4acf8b66b238adc2488711358e860",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023_01_04_120000_download.json": "f1f681ccf5dc575d59bbdc59bee7c2997a2cf47c167be3a64f3c48081f6433d5",
+    "experiments/fourcastden_twelve_hour_jan4_v1/2023_01_04_130000_download.json": "7d3ab0a6cff1735ea35c82d1b6e512b9d5232e3f1d4f431c320b21969ec94dcd",
+    "experiments/fourcastden_twelve_hour_jan4_v1/Direct.yaml": "8c58741381121f49d1ef93b74295c544189163036334822629481e2c18e6c667",
+    "experiments/fourcastden_twelve_hour_jan4_v1/Flow.yaml": "b14e0fa0a4e3db203b1bd74371d98638c8ae8f14a348bed2962c004914fe7c0c",
+    "experiments/fourcastden_twelve_hour_jan4_v1/History.yaml": "6b757ab52699631355877190f1f83915265ad9355a401011552da58a7469e3c3",
+    "experiments/fourcastden_twelve_hour_jan4_v1/LogDEN.yaml": "b157f23a089b3b4e1f12bfe0154acda92cba5b267b3f68f9269de065b471c133",
+    "experiments/fourcastden_twelve_hour_jan4_v1/analysis.json": "c658169c3c5fd3f382780d02e45d5c8ffa4b8c70c2fa044f272a0d49c913e299",
+    "experiments/fourcastden_twelve_hour_jan4_v1/download.json": "ceaed3d9a02f605bd6e54caa374056a73b0083b1dbf926142893e8d2087944c9",
+    "experiments/fourcastden_twelve_hour_jan4_v1/fetch_once.json": "e9d43d2adebae41e951c9c8520bc681354b4381608f9fec28f707e4aff249cb4",
+    "experiments/fourcastden_twelve_hour_jan4_v1/launch_once.json": "065deb3ef434e5b2daa363e45bf47682ba22d9c1d6d1556e497d31705bca6323",
+    "experiments/fourcastden_twelve_hour_jan4_v1/member_preflight.json": "8f634367fa58dd4b543096ed93e6b4b33644de748fbac753a2cb674f3898deb5",
+    "experiments/fourcastden_twelve_hour_jan4_v1/preflight.json": "9ab122b2e44aec77f2fb9f9c345e8f7892b669353ec3c0b3ab8055a4b8a0b6af",
+    "experiments/fourcastden_twelve_hour_jan4_v1/protected.json": "2c79fc24d9dae07096364c8c42c5083dabe935c6e1de547f73a5035274728b0e",
+    "experiments/fourcastden_twelve_hour_jan4_v1/ranges.json": "e2086fec149487b96008e1580bc9308b16abc6119c1b44d72fd84efde22abdaf",
+    "experiments/fourcastden_twelve_hour_jan4_v1/runtime.json": "9afeecd328e17dbf92d5d83381c2df4fc488dec33600b84fdb06ce06d3058ae3",
+    "experiments/fourcastden_twelve_hour_jan4_v1/supervision.json": "57f6e8e94a2ef89c85e2fa55e559f421055ef6123fd9f2bc89e1fe5582b7c2fe",
+    "experiments/fourcastden_twelve_hour_jan4_v1/supervisor_once.json": "3d51e820fe74e26267a502e933489e678c80ca558d9d2a8226fb1ef0cbe3e32c",
+    "logs/fourcastden_twelve_hour_analysis.log": "7bb32bbb9268533494ecea32663033dc2f1d8fc57aaa406a0fcc0220874348ba",
+    "logs/fourcastden_twelve_hour_fetch.log": "b81db221efb1e12f2bba6433200057549757c3e4258c41027353b243308b40cd",
+    "logs/fourcastden_twelve_hour_jan4_GPU.log": "770ea055e8186ea09288b2d393a9f826755812f7d5d0a20c5443a289b4ce47ae",
+    "logs/fourcastden_twelve_hour_preflight.log": "ce44e0278bac8c9b6c43d070c9128ed4b30c7a139fbfe87a66faf05cf9fd9bb5",
+    "logs/fourcastden_twelve_hour_tests.log": "ea6002db0c0dc0d221c1c0aa6f14e2601225cbea0ea4324b09196f0718fcbb11",
+    "results/figures/fourcastden_twelve_hour_jan4_v1_absolute_DEN.png": "39cf06d520feee7cade9a613d1be8dd6a17b0e66e5ef2381acf0b53b7a05b72b",
+    "results/figures/fourcastden_twelve_hour_jan4_v1_drivers.png": "103b1f4c07b175f870440bb271ce5622f95cab98054f4c4c4ba0e54f165a8a0b",
+    "results/figures/fourcastden_twelve_hour_jan4_v1_growth.png": "405b6f05b4bbe689b3f96b2128f8638c5710306a725d6479b8380a54d52e082c",
+    "results/figures/fourcastden_twelve_hour_jan4_v1_high_DEN.png": "0cc918fb2207dc224dd6e06e8cf1b6701e002675931a8a620c8e89db33b442cb",
+    "results/figures/fourcastden_twelve_hour_jan4_v1_high_absolute_bias.png": "0e07799b7ce142950827e7d2fc0db0a2af2c27c14e452c2d2dc974d1e65ba639",
+    "results/figures/fourcastden_twelve_hour_jan4_v1_layers_12h.png": "0310aeebfbeeb6f78fe7c2d93fd682ea88924b65b17c276b338ff25a6fc5fc70",
+    "results/figures/fourcastden_twelve_hour_jan4_v1_performance.png": "6d4193aef6fb36ee7b0249452f0e1d25f056b414b7446ac8476de307699df838",
+    "results/figures/fourcastden_twelve_hour_jan4_v1_variables.png": "c811a3f144e57275e2f741d5c87c1060df95fecdd86f44cbfefa2a8c6858fbce",
+    "results/metrics/fourcastden_twelve_hour_jan4_v1_author_native.csv": "15b1e9a9fe2d8517b28bcca0a9d5ae3ff595c46cdc0742b753fa35d331c44a9f",
+    "results/metrics/fourcastden_twelve_hour_jan4_v1_density_layers.csv": "3a66b3c1c8029f9dc5d0feb9360b139cfef0ba73ef189bb4d73f67ec195ee0f6",
+    "results/metrics/fourcastden_twelve_hour_jan4_v1_drivers.csv": "45e6f2163d54992d1e396d77e9f482d867c83dcb698b1498e74b7e44d0f34679",
+    "results/metrics/fourcastden_twelve_hour_jan4_v1_growth.csv": "4577afa0b9bea5e3b5bcb3b57a7e59e6473bbd5d3c55ff67101e015340f5921b",
+    "results/metrics/fourcastden_twelve_hour_jan4_v1_layers.csv": "3ad522ab71c7b48a1f910bc9bb650cf39cfb220cda361d962a615ca348f7e8a2",
+    "results/metrics/fourcastden_twelve_hour_jan4_v1_performance.csv": "27816e233967286fc21a16c8676568b80e45a77f4da16dbc56f5d51472d06728",
+    "results/metrics/fourcastden_twelve_hour_jan4_v1_summary.csv": "e3dc597bc40b8cb224499961be1fbd7f540811c4d794fa9b01bdbaff697161ad",
+    "results/metrics/fourcastden_twelve_hour_jan4_v1_windows.csv": "10ea0a449444095d62d50fb5f36d3e2cfa13cdad3e4819e91e1dd2a24522b3c3"
+  }
+}
