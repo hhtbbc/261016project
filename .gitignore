@@ -119,3 +119,7 @@ credentials.json
 !/logs/fourcastden_logden*.log
 !/experiments/fourcastden_logden_multidate_v1/config.yaml
 !/experiments/fourcastden_logden_multidate_v1/compatibility.patch
+
+# History common-initialization experiment: publish audit/config/logs, never raw arrays.
+!/logs/fourcastden_history*.log
+!/experiments/fourcastden_history_comparison_v1/*.yaml

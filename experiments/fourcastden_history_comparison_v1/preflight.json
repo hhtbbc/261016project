@@ -1,0 +1,718 @@
+{
+  "status": "PASS",
+  "models": [
+    "History",
+    "Direct",
+    "Flow",
+    "LogDEN"
+  ],
+  "t0": "2023-01-04T01:00:00Z",
+  "targets": [
+    "2023-01-04T02:00:00Z",
+    "2023-01-04T03:00:00Z"
+  ],
+  "data": [
+    {
+      "source": "data/raw/test_minimal_2023/2023_01_04_000000.npz",
+      "name": "2023_01_04_000000.npz",
+      "sha256": "e5fb32d8fbd3256f372db1b4953fe7b819aa08f8b5e81934715f0e120dd19e05",
+      "stats": {
+        "TN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 151.75872802734375,
+          "max": 1289.018310546875,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "UN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -58202.3671875,
+          "max": 58818.3359375,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -60198.328125,
+          "max": 60493.55078125,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "WN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -666.0120849609375,
+          "max": 861.0484619140625,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Z": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 71897400.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ZG": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 72065232.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "DEN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 5.950636079799505e-17,
+          "max": 1.1322239812372459e-09,
+          "unit": "g/cm3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "NE": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 1009.7046508789062,
+          "max": 2296170.5,
+          "unit": "cm-3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "TLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 167.46173095703125,
+          "max": 192.304931640625,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ULBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -4708.27392578125,
+          "max": 5115.908203125,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -5040.6982421875,
+          "max": 5163.35009765625,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107d": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 144.7312469482422,
+          "max": 144.7312469482422,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107a": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 156.91250610351562,
+          "max": 156.91250610351562,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Kp": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 3.3499999046325684,
+          "max": 3.3499999046325684,
+          "unit": "unitless",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        }
+      }
+    },
+    {
+      "source": "data/raw/test_minimal_2023/2023_01_04_010000.npz",
+      "name": "2023_01_04_010000.npz",
+      "sha256": "0b3297c5bb11be3f102c324af76acb69fd1df9a5625dd6c9e1e54fc429a7d4f5",
+      "stats": {
+        "TN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 151.86537170410156,
+          "max": 1297.651123046875,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "UN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -61994.02734375,
+          "max": 62697.109375,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -65635.6953125,
+          "max": 67563.75,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "WN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -782.9183959960938,
+          "max": 1311.6729736328125,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Z": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 72045512.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ZG": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 72232304.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "DEN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 5.833372309186027e-17,
+          "max": 1.132755000909924e-09,
+          "unit": "g/cm3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "NE": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 1008.2169799804688,
+          "max": 2428466.5,
+          "unit": "cm-3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "TLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 167.46173095703125,
+          "max": 192.304931640625,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ULBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -4708.27392578125,
+          "max": 5115.908203125,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -5040.6982421875,
+          "max": 5163.35009765625,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107d": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 144.83087158203125,
+          "max": 144.83087158203125,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107a": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 156.9544219970703,
+          "max": 156.9544219970703,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Kp": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 3.7833333015441895,
+          "max": 3.7833333015441895,
+          "unit": "unitless",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        }
+      }
+    },
+    {
+      "source": "data/raw/test_minimal_2023/2023_01_04_020000.npz",
+      "name": "2023_01_04_020000.npz",
+      "sha256": "b260281433e8eddeed02ebcee3d9bc487883b76d77962f0cb9dde389a75c8538",
+      "stats": {
+        "TN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 151.9017333984375,
+          "max": 1322.763916015625,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "UN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -69286.171875,
+          "max": 65525.73046875,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -72209.625,
+          "max": 74832.7265625,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "WN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -883.754150390625,
+          "max": 1738.7252197265625,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Z": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 72299768.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ZG": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 72498808.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "DEN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 5.718386924851766e-17,
+          "max": 1.1327414561890237e-09,
+          "unit": "g/cm3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "NE": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 987.95849609375,
+          "max": 2478317.25,
+          "unit": "cm-3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "TLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 167.46173095703125,
+          "max": 192.304931640625,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ULBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -4708.2744140625,
+          "max": 5115.90771484375,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -5040.6982421875,
+          "max": 5163.35009765625,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107d": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 144.9314727783203,
+          "max": 144.9314727783203,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107a": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 156.99615478515625,
+          "max": 156.99615478515625,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Kp": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 4.116666793823242,
+          "max": 4.116666793823242,
+          "unit": "unitless",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        }
+      }
+    },
+    {
+      "source": "data/raw/fourcastden_history_comparison_v1/2023_01_04_030000.npz",
+      "name": "2023_01_04_030000.npz",
+      "sha256": "b306e552d499a23333994f43af245c8a824e3a3d4fab149342cd399f05507968",
+      "stats": {
+        "TN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 151.91836547851562,
+          "max": 1338.5809326171875,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "UN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -74394.5546875,
+          "max": 65969.7109375,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -76566.5390625,
+          "max": 80270.3203125,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "WN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -899.3621215820312,
+          "max": 1928.30517578125,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Z": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 72621240.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ZG": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 72866552.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "DEN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 5.6479342977194e-17,
+          "max": 1.1327296878249626e-09,
+          "unit": "g/cm3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "NE": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 974.314453125,
+          "max": 2530102.0,
+          "unit": "cm-3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "TLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 167.46173095703125,
+          "max": 192.304931640625,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ULBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -4708.2744140625,
+          "max": 5115.90771484375,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -5040.6982421875,
+          "max": 5163.35009765625,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107d": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 145.03311157226562,
+          "max": 145.03311157226562,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107a": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 157.03768920898438,
+          "max": 157.03768920898438,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Kp": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 4.349999904632568,
+          "max": 4.349999904632568,
+          "unit": "unitless",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        }
+      }
+    }
+  ],
+  "config_sha256": {
+    "History": "38a29e4702bab2a33b94529c4dbfbc8437ba724a7ac19a861483d9ddbac4d064",
+    "Direct": "2bf3f25ec91f3f80c93d0734a915bc0e8c16b58c6b8e92846e39590b2c1c843c",
+    "Flow": "2ad64344b148f591d8b3717d36f168adcbcf5c9d4ffdd8fc69fbc2ee2dafeecb",
+    "LogDEN": "567c6600d55b47f22f64b3ee8e18d893702c966bdac2994fbb64ce7bcac5e884"
+  },
+  "checkpoint_sha256": {
+    "History": "cc4b44f6daea6188e4bfbde06796b950a50cfb215c0ad2295cff176a21a4ddc4",
+    "Direct": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+    "Flow": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+    "LogDEN": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18"
+  },
+  "overlay_sha256": "f1e8fd5acb61ae8fd06b01839ba4be2ffeb8b52385b819e2dc59faa9965d7e1d",
+  "code_sha256": {
+    "scripts/run_fourcastden_history_comparison.py": "a57ce619c094be90ffb62bb21cd3fbefdbc4544509ce211f9b12bb5e2363061e",
+    "src/fourcastden/history.py": "a2c762e28dadbc4035919cc7994dfcf9b012c8386960d0c4c3bde614c28fd615",
+    "tests/test_fourcastden_history.py": "9a16eb3179dc64467bc7b5f438a9e929662feb2980497801d5b352e9ffbfd9a9",
+    "docs/FOURCASTDEN_HISTORY_PREREGISTRATION.md": "d36271071cbd4a365dd8bef01910fbc6e51d7d23a1622472486cffc995f1e71d"
+  },
+  "tests": 221,
+  "limits": {
+    "GPU_wall_s": 600,
+    "RSS_bytes": 4294967296,
+    "new_bytes": 157286400
+  },
+  "history_information_advantage": "00+01 vs 01 only; not a training ablation"
+}

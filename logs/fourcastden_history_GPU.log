@@ -1,0 +1,36 @@
+2026-10-22 03:08:18,554 - root - INFO - Loading inference data
+2026-10-22 03:08:18,555 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_history_comparison_v1/data_view. Number of examples: 4.
+2026-10-22 03:08:18,555 - root - INFO - Getting file stats from /workspace/data/20261016/experiments/fourcastden_history_comparison_v1/data_view/2023_01_04_000000.npz
+2026-10-22 03:08:18,573 - root - INFO - Number of channels available: 235.0
+2026-10-22 03:08:18,573 - root - INFO - Number of steps: 4
+2026-10-22 03:08:18,573 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_history_comparison_v1/data_view. Number of examples: 4. Image shape: 36 x 72 x 177
+2026-10-22 03:08:18,573 - root - INFO - Delta time: 1 hours
+2026-10-22 03:08:18,573 - root - INFO - Including 4 hours of past history at a frequency of 1 hours
+{"model": "History", "status": "PASS", "forward_ms": [18.619104385375977, 18.37500762939453], "parameters": 66870720}
+2026-10-22 03:08:22,624 - root - INFO - Loading inference data
+2026-10-22 03:08:22,624 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_history_comparison_v1/data_view. Number of examples: 4.
+2026-10-22 03:08:22,624 - root - INFO - Getting file stats from /workspace/data/20261016/experiments/fourcastden_history_comparison_v1/data_view/2023_01_04_000000.npz
+2026-10-22 03:08:22,641 - root - INFO - Number of channels available: 235.0
+2026-10-22 03:08:22,641 - root - INFO - Number of steps: 4
+2026-10-22 03:08:22,641 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_history_comparison_v1/data_view. Number of examples: 4. Image shape: 36 x 72 x 177
+2026-10-22 03:08:22,641 - root - INFO - Delta time: 1 hours
+2026-10-22 03:08:22,641 - root - INFO - Including 4 hours of past history at a frequency of 1 hours
+{"model": "Direct", "status": "PASS", "forward_ms": [20.390016555786133, 18.713951110839844], "parameters": 64695744}
+2026-10-22 03:08:25,397 - root - INFO - Loading inference data
+2026-10-22 03:08:25,398 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_history_comparison_v1/data_view. Number of examples: 4.
+2026-10-22 03:08:25,398 - root - INFO - Getting file stats from /workspace/data/20261016/experiments/fourcastden_history_comparison_v1/data_view/2023_01_04_000000.npz
+2026-10-22 03:08:25,415 - root - INFO - Number of channels available: 235.0
+2026-10-22 03:08:25,415 - root - INFO - Number of steps: 4
+2026-10-22 03:08:25,415 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_history_comparison_v1/data_view. Number of examples: 4. Image shape: 36 x 72 x 177
+2026-10-22 03:08:25,415 - root - INFO - Delta time: 1 hours
+2026-10-22 03:08:25,415 - root - INFO - Including 4 hours of past history at a frequency of 1 hours
+{"model": "Flow", "status": "PASS", "forward_ms": [19.357343673706055, 18.355871200561523], "parameters": 64695744}
+2026-10-22 03:08:28,167 - root - INFO - Loading inference data
+2026-10-22 03:08:28,167 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_history_comparison_v1/data_view. Number of examples: 4.
+2026-10-22 03:08:28,167 - root - INFO - Getting file stats from /workspace/data/20261016/experiments/fourcastden_history_comparison_v1/data_view/2023_01_04_000000.npz
+2026-10-22 03:08:28,184 - root - INFO - Number of channels available: 235.0
+2026-10-22 03:08:28,184 - root - INFO - Number of steps: 4
+2026-10-22 03:08:28,184 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_history_comparison_v1/data_view. Number of examples: 4. Image shape: 36 x 72 x 177
+2026-10-22 03:08:28,184 - root - INFO - Delta time: 1 hours
+2026-10-22 03:08:28,184 - root - INFO - Including 4 hours of past history at a frequency of 1 hours
+{"model": "LogDEN", "status": "PASS", "forward_ms": [18.603744506835938, 18.260576248168945], "parameters": 64695744}

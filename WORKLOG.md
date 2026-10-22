@@ -400,3 +400,21 @@ Flow第一小时170/171层、第二小时141/171层RMSE低于Direct；变量平�
 报告FOURCASTDEN_LOGDEN_COMPATIBILITY、LOGDEN_VALIDATION、THREE_MODEL_COMPARISON；原native/dex/log ACC与公平物理CSV分开，6张真实图，所有原始/预测数组本地。下一入口NEXT_EXPERIMENT_DECISION最新节，建议先history公平窗口（另授权补03并统一01初始化），之后6h再长时。所有正式物理门禁继续保留，完成停止。Git同步以最终远端SHA核对为准。
 
 命令：source scripts/activate310.sh；check_fourcastden_logden_compatibility.py；CPU测试发现广播错误/合成参考指数溢出后留档，修复数学维度并选有界毒化输入，最终215项全套unittest通过（23.943s）；run_fourcastden_logden_multidate.py静态；supervise_fourcastden_logden.py唯一GPU；analyze_fourcastden_three_models.py；write_fourcastden_logden_reports.py；audit_fourcastden_logden.py。复用.venv310/torch2.4.1+cu121/A100，FP32/TF32false，未安装或下载。原生与公平指标区分，float32log输入往返数ppm记录，SEA因官方坐标dtype约1e-6差别不改匹配处理。
+
+## 2026-10-22：官方History首次复现及共同01时四模型对照
+
+先读AGENTS/STATUS/WORKLOG及源分析/第二阶段计划/下一决策/评价协议/多日期及三模型/兼容报告，核对本地main和远端main均c15d8bfc6da12c732555d8404e7ad83a46837e17。保护旧资产和结果356项SHA；本次不重用旧00时结果冒充新起点。
+
+从作者原循环确认H=1按两个177通道旧→新输入354（每块171状态+下一小时6辅助），4标量为目标时刻。History权重严格加载150项state、66,870,720参数；flowfalse/logfalse/普通static，其他三模型各匹配checkpoint/static，log复用既有等价覆盖层。6项新CPU合成实际循环/毒化/错序/teacher-forcing拒绝测试，全221项24.452s通过。聚焦导入曾有旧numpy.ndarray尺寸warning，完整测试与正式运行无对应失败，未安装/修改环境；全套ERFA旧测试dubious-year警告留档。
+
+唯一新下载2023_01_04_030000.npz，复用BoundedRemoteZip，所有206/Content-Range正确、CRC/SHA/14字段/网格契约/finite/正DEN/ZG顺序通过，网络3,063,982字节<10MiB；00—02只读。原NPZ没有独立单位/时间属性，单位按作者契约，不能冒称外部高度验证。
+
+History唯一真实forward预检通过，随后History/Direct/Flow/log各一次正式01→02→03共8forward，无重试/训练/扩窗。真实hooks逐元素验证历史窗口从real00+real01滑到real01+pred02，其他模型单状态反馈，未来真值只评价。实际预测全部finite/DEN正。监督墙钟21.011274s、峰RSS1,315,291,136字节；History冷预检146.774ms、正式18.619/18.375ms，其他共享CUDA热状态不作速度排名。独立读取/加载、循环含指标/hooks、保存和GPU事件各记录，CPU分析3.825s。
+
+公共raw02/03物理目标与普通物理气候态、相同01持续性，DEN kg/m3、自然log差/分层/极区；native log ACC/dex单列。1368个共同物理通道指标及native RMSE/ACC独立NumPy复核通过。单窗History两个时效六变量均高于Direct，DEN绝对均差分别约12.74/7.95倍；近400—500原生层组第1h Flow最低、第2h Direct最低；log旧窗口绝对优势未延续。4模型平均误差均增长，History DEN增长较慢不等于绝对精度/稳定性更好；全171层均优于共同持续性。只读参考相邻小时变化核查未见03数量级跳变，不把误差增大归于未证实数据损坏或地磁因果。不剔除不利层/日期、不拟合2023。
+
+命令：source scripts/activate310.sh；python -m unittest discover -s tests；run_fourcastden_history_comparison.py --fetch；同脚本无参静态；supervise_fourcastden_history.py；analyze_fourcastden_history.py；audit_fourcastden_history.py；write_fourcastden_history_reports.py；audit_fourcastden_history.py --final。日志logs/fourcastden_history*，配置/SHA/请求/feedback/审计在experiments/fourcastden_history_comparison_v1，大数组data/processed同标签不入Git；报告HISTORY_VALIDATION、FOUR_MODEL_COMPARISON，5图/8类CSV。无新依赖，复用Python3.10/torch2.4.1+cu121/A100，FP32/TF32false。
+
+下一阶段仅设计：其他4日期各补03，16新2h序列，Jan4只读；再6h（Jan4另缺04—07四帧），之后12/24h/独立强活动，训练和AI轨道前继续数据/参数/高度门禁。已停止，Git同步以最终SHA核验为准。
+
+发布前补充CPU只读checkpoint结构核验：150项state，patch_embed.proj.weight=(768,354,4,4)，参数元素66,870,720，未做forward；checkpoint_structure.json保留。图像已查看。报告明确pred171/real177形状，随后以audit_fourcastden_history.py --release重新执行最终全项审计，早前audit快照保留，不覆盖。

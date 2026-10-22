@@ -1,0 +1,242 @@
+{
+  "status": "PASS",
+  "labels": [
+    "HINDCAST",
+    "TIEGCM_REFERENCE_ONLY",
+    "NO_TRAINING"
+  ],
+  "formal_sequences": 4,
+  "formal_forwards": 8,
+  "precheck_forwards": 1,
+  "GPU_phase_wall_s": 12.858259405940771,
+  "records": [
+    {
+      "model": "History",
+      "status": "PASS",
+      "parameters": 66870720,
+      "checkpoint_bytes": 802585484,
+      "checkpoint_sha256": "cc4b44f6daea6188e4bfbde06796b950a50cfb215c0ad2295cff176a21a4ddc4",
+      "config_sha256": "38a29e4702bab2a33b94529c4dbfbc8437ba724a7ac19a861483d9ddbac4d064",
+      "n_history": 1,
+      "input_shape": [
+        1,
+        354,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "history_precheck": {
+        "status": "PASS",
+        "input_shape": [
+          1,
+          354,
+          36,
+          72
+        ],
+        "output_shape": [
+          1,
+          171,
+          36,
+          72
+        ],
+        "network_GPU_ms": 146.77401733398438,
+        "DEN_positive_fraction": 1.0,
+        "rho_min_kg_m3": 5.6642545615866474e-14,
+        "rho_max_kg_m3": 1.1318996477892028e-06
+      },
+      "model_load_s": 1.3640104122459888,
+      "loading_peak_allocated_bytes": 1069996032,
+      "read_preprocess_s": 0.06494778953492641,
+      "author_loop_metrics_hooks_s": 0.6658373437821865,
+      "save_s": 1.528907135128975,
+      "GPU_forward_ms": [
+        18.619104385375977,
+        18.37500762939453
+      ],
+      "peak_allocated_bytes": 309126656,
+      "peak_reserved_bytes": 1193279488,
+      "RSS_KiB": 1087880,
+      "feedback": {
+        "passed": true,
+        "ordering": "oldest then newest; each state concatenated with next-hour six auxiliaries",
+        "first_states": [
+          "real00",
+          "real01"
+        ],
+        "second_states": [
+          "real01",
+          "predicted02"
+        ],
+        "future_physical_truth_used": false,
+        "target_scalar_hours": [
+          "02",
+          "03"
+        ],
+        "auxiliary_hours": [
+          [
+            "01",
+            "02"
+          ],
+          [
+            "02",
+            "03"
+          ]
+        ]
+      },
+      "result_sha256": "ed6f93cdfe910074014c34f678d570eb08c5be4c9ac0defdd82a7c699b0f5802",
+      "result_bytes": 31113069,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 5.649075088521644e-14,
+      "rho_max_kg_m3": 1.1351050045363075e-06
+    },
+    {
+      "model": "Direct",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776485772,
+      "checkpoint_sha256": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+      "config_sha256": "2bf3f25ec91f3f80c93d0734a915bc0e8c16b58c6b8e92846e39590b2c1c843c",
+      "n_history": 0,
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "history_precheck": null,
+      "model_load_s": 1.1246722433716059,
+      "loading_peak_allocated_bytes": 1044048384,
+      "read_preprocess_s": 0.04790226183831692,
+      "author_loop_metrics_hooks_s": 0.09559215977787971,
+      "save_s": 1.2890649046748877,
+      "GPU_forward_ms": [
+        20.390016555786133,
+        18.713951110839844
+      ],
+      "peak_allocated_bytes": 295245824,
+      "peak_reserved_bytes": 1180696576,
+      "RSS_KiB": 1284060,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "c6096e70cdceed925f7c79d7b2580cd0442778e57b749e3b31027edde06213dd",
+      "result_bytes": 26105258,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 5.682741701702213e-14,
+      "rho_max_kg_m3": 1.132757227535067e-06
+    },
+    {
+      "model": "Flow",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776485772,
+      "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+      "config_sha256": "2ad64344b148f591d8b3717d36f168adcbcf5c9d4ffdd8fc69fbc2ee2dafeecb",
+      "n_history": 0,
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "history_precheck": null,
+      "model_load_s": 1.1299024168401957,
+      "loading_peak_allocated_bytes": 1044048384,
+      "read_preprocess_s": 0.047878822311758995,
+      "author_loop_metrics_hooks_s": 0.08967996016144753,
+      "save_s": 1.2731283847242594,
+      "GPU_forward_ms": [
+        19.357343673706055,
+        18.355871200561523
+      ],
+      "peak_allocated_bytes": 295245824,
+      "peak_reserved_bytes": 1180696576,
+      "RSS_KiB": 1284464,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "d41f48ab6e1869ff5040dbdea568a542d4b471d26fd0b297c0635fa994aba89d",
+      "result_bytes": 26166487,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 5.693305225939561e-14,
+      "rho_max_kg_m3": 1.1331825329065884e-06
+    },
+    {
+      "model": "LogDEN",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776484108,
+      "checkpoint_sha256": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18",
+      "config_sha256": "567c6600d55b47f22f64b3ee8e18d893702c966bdac2994fbb64ce7bcac5e884",
+      "n_history": 0,
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "history_precheck": null,
+      "model_load_s": 1.1370045822113752,
+      "loading_peak_allocated_bytes": 1044048384,
+      "read_preprocess_s": 0.046066464856266975,
+      "author_loop_metrics_hooks_s": 0.23849541880190372,
+      "save_s": 1.3669267855584621,
+      "GPU_forward_ms": [
+        18.603744506835938,
+        18.260576248168945
+      ],
+      "peak_allocated_bytes": 296450048,
+      "peak_reserved_bytes": 1180696576,
+      "RSS_KiB": 1284464,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "0cc8f1fe244ee0d81eb2573fb682f17800827c4d03b4e1eaa1a0a92f40aae5d1",
+      "result_bytes": 26954245,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 5.7007927250705e-14,
+      "rho_max_kg_m3": 1.1331334209738565e-06
+    }
+  ],
+  "torch": "2.4.1+cu121",
+  "cuda": "12.1",
+  "device": "NVIDIA A100-SXM4-80GB",
+  "FP32": true,
+  "TF32": false
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "input_shape": [
+    1,
+    354,
+    36,
+    72
+  ],
+  "output_shape": [
+    1,
+    171,
+    36,
+    72
+  ],
+  "network_GPU_ms": 146.77401733398438,
+  "DEN_positive_fraction": 1.0,
+  "rho_min_kg_m3": 5.6642545615866474e-14,
+  "rho_max_kg_m3": 1.1318996477892028e-06
+}

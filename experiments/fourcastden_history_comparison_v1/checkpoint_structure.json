@@ -1,0 +1,21 @@
+{
+  "state_tensors": 150,
+  "patch_tensors": {
+    "patch_embed.proj.weight": [
+      768,
+      354,
+      4,
+      4
+    ],
+    "patch_embed.proj.bias": [
+      768
+    ]
+  },
+  "network_state_elements": 66870720,
+  "checkpoint_keys": [
+    "epoch",
+    "model_state",
+    "optimizer_state_dict"
+  ],
+  "no_model_forward": true
+}

@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 356,
+  "formal_sequences": 4,
+  "formal_forwards": 8,
+  "History_precheck_forwards": 1,
+  "tests": 221,
+  "independent_common_channel_checks": 1368,
+  "native_checks": [
+    {
+      "model": "History",
+      "hour": 1,
+      "normalized_RMSE_max_relative": 1.4229523581530463e-07,
+      "ACC_max_absolute": 2.2179275227518502e-07
+    },
+    {
+      "model": "History",
+      "hour": 2,
+      "normalized_RMSE_max_relative": 1.533892053400355e-07,
+      "ACC_max_absolute": 1.700640408497378e-07
+    },
+    {
+      "model": "Direct",
+      "hour": 1,
+      "normalized_RMSE_max_relative": 1.413997817115316e-07,
+      "ACC_max_absolute": 1.7770055293908626e-07
+    },
+    {
+      "model": "Direct",
+      "hour": 2,
+      "normalized_RMSE_max_relative": 1.486365059314593e-07,
+      "ACC_max_absolute": 2.0046609450208308e-07
+    },
+    {
+      "model": "Flow",
+      "hour": 1,
+      "normalized_RMSE_max_relative": 1.748179861897848e-07,
+      "ACC_max_absolute": 1.769420870934013e-07
+    },
+    {
+      "model": "Flow",
+      "hour": 2,
+      "normalized_RMSE_max_relative": 1.8046457167731687e-07,
+      "ACC_max_absolute": 2.093467360575474e-07
+    },
+    {
+      "model": "LogDEN",
+      "hour": 1,
+      "normalized_RMSE_max_relative": 1.6087043067966562e-07,
+      "ACC_max_absolute": 1.2782555380841387e-07
+    },
+    {
+      "model": "LogDEN",
+      "hour": 2,
+      "normalized_RMSE_max_relative": 1.6222772509665477e-07,
+      "ACC_max_absolute": 1.5241468731552743e-07
+    }
+  ],
+  "all_feedback_exact": true,
+  "DEN_positive_fraction": 1.0,
+  "new_downloaded_member": "2023_01_04_030000.npz",
+  "network_body_bytes": 3063982,
+  "new_files_bytes": 114051181,
+  "source_code_docs_allowance_bytes": 1048576,
+  "budget_bytes": 157286400,
+  "wall_s": 21.011274265125394,
+  "peak_RSS_bytes": 1315291136,
+  "CSV_rows": {
+    "layers": 1710,
+    "summary": 60,
+    "density_layers": 870,
+    "windows": 10,
+    "growth": 24,
+    "performance": 4,
+    "drivers": 4,
+    "author_native": 1368
+  }
+}

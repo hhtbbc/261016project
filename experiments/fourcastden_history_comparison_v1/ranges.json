@@ -1,0 +1,63 @@
+{
+  "transfer_bytes": 3063982,
+  "reserved_bytes": 3063989,
+  "limit_bytes": 10485760,
+  "requests": [
+    {
+      "start": 18149758887,
+      "end": 18149758908,
+      "requested_bytes": 22,
+      "body_bytes_read": 22,
+      "status": 206,
+      "Content-Range": "bytes 18149758887-18149758908/18149758909"
+    },
+    {
+      "start": 18149758867,
+      "end": 18149758886,
+      "requested_bytes": 20,
+      "body_bytes_read": 20,
+      "status": 206,
+      "Content-Range": "bytes 18149758867-18149758886/18149758909"
+    },
+    {
+      "start": 18149758811,
+      "end": 18149758866,
+      "requested_bytes": 56,
+      "body_bytes_read": 56,
+      "status": 206,
+      "Content-Range": "bytes 18149758811-18149758866/18149758909"
+    },
+    {
+      "start": 18148776263,
+      "end": 18149758810,
+      "requested_bytes": 982548,
+      "body_bytes_read": 982548,
+      "status": 206,
+      "Content-Range": "bytes 18148776263-18149758810/18149758909"
+    },
+    {
+      "start": 155345575,
+      "end": 155345604,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 155345575-155345604/18149758909"
+    },
+    {
+      "start": 155345605,
+      "end": 155345625,
+      "requested_bytes": 21,
+      "body_bytes_read": 21,
+      "status": 206,
+      "Content-Range": "bytes 155345605-155345625/18149758909"
+    },
+    {
+      "start": 155345626,
+      "end": 157426910,
+      "requested_bytes": 2081285,
+      "body_bytes_read": 2081285,
+      "status": 206,
+      "Content-Range": "bytes 155345626-157426910/18149758909"
+    }
+  ]
+}

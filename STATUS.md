@@ -1,5 +1,7 @@
 # 当前状态
 
+> 最新（2026-10-22）：History首次复现及四模型统一01时基线完成，221测试通过。单窗History未优于Direct，详见末节；无训练或扩窗。
+
 > 最新：五日期官方log-DEN及三模型共同物理评价完成，215测试通过；log全层绝对指标改善但高层相对指标未改善。无训练或扩窗。
 
 > 最新（2026-10-22）：五日期Direct/Flow两小时检查完成，新增8序列/16forward，206测试通过；log-DEN仅静态审查，未训练或扩窗。
@@ -296,3 +298,11 @@ Flow第一小时170/171层、第二小时141/171层RMSE低于Direct；变量平�
 共同原始物理目标与普通气候态公平比较：2h全层平均绝对DEN RMSE log在5/5窗最低；但上层与参考中位ZG400—500km组相对RMS在两时效五窗均Flow低、Direct其次、log较高，未支持log改善高层相对误差。TN/Z等窗平均2h较Direct高约18.9%/20.6%，其他变量代价完整记录。各自匹配统计/权重不同，不能单因果归于log开关。三者均2h平均误差增大，n=5不推断全年/真实大气或轨道精度。
 
 报告FOURCASTDEN_LOGDEN_COMPATIBILITY、LOGDEN_VALIDATION、THREE_MODEL_COMPARISON；原native/dex/log ACC与公平物理CSV分开，6张真实图，所有原始/预测数组本地。下一入口NEXT_EXPERIMENT_DECISION最新节，建议先history公平窗口（另授权补03并统一01初始化），之后6h再长时。所有正式物理门禁继续保留，完成停止。Git同步以最终远端SHA核对为准。
+
+## 2026-10-22：官方History首次真实自回归与四模型共同01时对照完成
+
+- 只新增Jan4 03时NPZ（HTTP206/Content-Range/CRC/SHA，传输3,063,982字节）；00—02不重取。4个模型都以01初始化新执行，History额外00真实历史，统一目标02/03；旧00起点结果保持。
+- 官方History严格加载、354输入/171输出、66,870,720参数；独立CPU毒化测试和真实hooks确认第二步real01+pred02。4序列8正式forward，加唯一History预检1次；无训练/微调/扩窗/TIE/轨道，221项测试通过。
+- 单窗新结果：History两时效六变量平均层RMSE均高于Direct；400—500km相关原生组第1h Flow最低、第2h Direct最低。第二小时DEN平均层绝对RMSE Direct4.99559e-11、Flow5.85038e-11、log5.12006e-11、History3.97000e-10 kg/m3。不能挑旧/新起点混排名。
+- 4模型均finite/DEN正，误差均有增长；History DEN倍率较小但起点误差高，不证明更稳定。独立NumPy1368通道指标复核/356保护SHA通过。监督21.011s、峰RSS1.225GiB，新增约109MiB<150MiB。
+- 报告FOURCASTDEN_HISTORY_VALIDATION.md、FOURCASTDEN_FOUR_MODEL_COMPARISON.md；5图/逐层物理与原native CSV、配置/审计/日志保留，大数组本地。下一阶段先补另外4日期03并统一01短窗，再6h；当前未执行。真实大气/轨道精度门禁不变。Git以最终远端HEAD核验为准。

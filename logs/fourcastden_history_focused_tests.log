@@ -1,0 +1,6 @@
+<frozen importlib._bootstrap>:241: RuntimeWarning: numpy.ndarray size changed, may indicate binary incompatibility. Expected 16 from C header, got 96 from PyObject
+......
+----------------------------------------------------------------------
+Ran 6 tests in 3.787s
+
+OK

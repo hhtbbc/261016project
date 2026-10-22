@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "url": "https://zenodo.org/api/records/21859635/files/2023.zip/content",
+  "archive_bytes": 18149758909,
+  "member": "2023_01_04_030000.npz",
+  "header_offset": 155345575,
+  "compressed_bytes": 2081285,
+  "bytes": 2081437,
+  "CRC32": 4091454841,
+  "CRC32_verified": true,
+  "SHA256": "b306e552d499a23333994f43af245c8a824e3a3d4fab149342cd399f05507968",
+  "stats": {
+    "TN": {
+      "shape": [
+        28,
+        36,
+        72
+      ],
+      "dtype": "float32",
+      "min": 151.91836547851562,
+      "max": 1338.5809326171875,
+      "unit": "K",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    },
+    "UN": {
+      "shape": [
+        28,
+        36,
+        72
+      ],
+      "dtype": "float32",
+      "min": -74394.5546875,
+      "max": 65969.7109375,
+      "unit": "cm/s",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    },
+    "VN": {
+      "shape": [
+        28,
+        36,
+        72
+      ],
+      "dtype": "float32",
+      "min": -76566.5390625,
+      "max": 80270.3203125,
+      "unit": "cm/s",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    },
+    "WN": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "dtype": "float32",
+      "min": -899.3621215820312,
+      "max": 1928.30517578125,
+      "unit": "cm/s",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    },
+    "Z": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "dtype": "float32",
+      "min": 9571100.0,
+      "max": 72621240.0,
+      "unit": "cm",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    },
+    "ZG": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "dtype": "float32",
+      "min": 9571100.0,
+      "max": 72866552.0,
+      "unit": "cm",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    },
+    "DEN": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "dtype": "float32",
+      "min": 5.6479342977194e-17,
+      "max": 1.1327296878249626e-09,
+      "unit": "g/cm3",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    },
+    "NE": {
+      "shape": [
+        29,
+        36,
+        72
+      ],
+      "dtype": "float32",
+      "min": 974.314453125,
+      "max": 2530102.0,
+      "unit": "cm-3",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    },
+    "TLBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "dtype": "float32",
+      "min": 167.46173095703125,
+      "max": 192.304931640625,
+      "unit": "K",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    },
+    "ULBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "dtype": "float32",
+      "min": -4708.2744140625,
+      "max": 5115.90771484375,
+      "unit": "cm/s",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    },
+    "VLBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "dtype": "float32",
+      "min": -5040.6982421875,
+      "max": 5163.35009765625,
+      "unit": "cm/s",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    },
+    "f107d": {
+      "shape": [
+        1
+      ],
+      "dtype": "float32",
+      "min": 145.03311157226562,
+      "max": 145.03311157226562,
+      "unit": "sfu",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    },
+    "f107a": {
+      "shape": [
+        1
+      ],
+      "dtype": "float32",
+      "min": 157.03768920898438,
+      "max": 157.03768920898438,
+      "unit": "sfu",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    },
+    "Kp": {
+      "shape": [
+        1
+      ],
+      "dtype": "float32",
+      "min": 4.349999904632568,
+      "max": 4.349999904632568,
+      "unit": "unitless",
+      "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+    }
+  },
+  "central_directory_members": 8760
+}

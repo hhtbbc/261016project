@@ -115,3 +115,7 @@ fourcastden_multidate_v1已单独授权新增4固定日期Direct/Flow各2h共8�
 ## 官方log-DEN完成后的门禁
 
 fourcastden_logden_multidate_v1已另授权完成5个两步序列/10forward，215测试通过，Direct/Flow历史不重跑。源码隔离副本修正气候态单例形状、逐层仿射广播及np.power/CUDA，原件/权重/统计保留。native DEN ACC在log空间，不能与普通物理指标混排；公平评价使用共同原始物理目标、普通物理气候态及kg/m3。static_log非DEN统计也不同，不称纯log开关消融；本次log绝对指标改善但高层相对误差未改善。新history/长时/训练/TIE/轨道须新授权，正式物理参数和坐标门禁继续，结束安全Git同步。
+
+## 官方History首次公平基线后的门禁
+
+fourcastden_history_comparison_v1已单独授权完成Jan4同01起点4模型各2h（8正式forward），另1History真实预检；221测试。History额外00真实帧，两个177块按旧→新/各自下一小时辅助拼接354，第二步real01+pred02，非teacher forcing。log复用原隔离层，原件/统计/旧数组不改。单窗口History没有优于Direct，Flow/log旧五日期00起点排序不能直接沿用新起点。未来其他4日期03补帧及16序列、6/12/24h、训练/轨道都需新授权；HINDCAST/TIE参考不代表观测或轨道准确度，所有既有物理门禁保留。每次结束安全同步GitHub。
