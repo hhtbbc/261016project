@@ -8,7 +8,7 @@ from run_fourcastden_twelve_hour_mar24 import F,D,RAW,DATES,MODELS,verify
 from fourcastden.validation import NAMES,LENGTHS,SI_FACTORS
 from fourcastden.autoregression import check_autoregression
 TAG='fourcastden_twelve_hour_mar24_v1'
-def main(final=False):
+def main(final=False,publication=False):
  pre=verify();rt=json.loads((F/'runtime.json').read_text());sup=json.loads((F/'supervision.json').read_text());a=json.loads((F/'analysis.json').read_text());assert rt['status']==sup['status']==a['status']=='PASS';assert rt['formal_sequences']==4 and rt['formal_forwards']==48 and rt['precheck_forwards']==0 and len(rt['records'])==4
  assert sum(r['formal_forwards'] for r in rt['records'])==48 and len(list(F.glob('2023-*_launch.json')))==4
  assert sup['wall_s']<600 and sup['peak_RSS_bytes']<4*2**30
@@ -59,11 +59,11 @@ def main(final=False):
  assert all(r['exact'] and r['first_six_predictions_max_normalized_difference']==0 for r in a['historical_Mar24_prefix'])
  files=set(p for folder in [F,D,RAW] for p in folder.rglob('*') if p.is_file() and not p.is_symlink())
  for folder,pattern in [('logs','fourcastden_twelve_hour_mar24*'),('results/metrics',TAG+'*'),('results/figures',TAG+'*')]:files.update(p for p in (ROOT/folder).glob(pattern) if p.is_file())
- files={p for p in files if p.name not in ['delivery_audit.json','final_delivery_audit.json'] and not p.name.endswith('_audit.log')}
+ files={p for p in files if p.name not in ['delivery_audit.json','final_delivery_audit.json','publication_delivery_audit.json'] and not p.name.endswith('_audit.log')}
  if final:
   for name in ['reports/FOURCASTDEN_TWELVE_HOUR_MAR24_VALIDATION.md','reports/FOURCASTDEN_TWELVE_HOUR_TWO_WINDOW_COMPARISON.md','docs/FOURCASTDEN_TRAINING_IMPLEMENTATION_PLAN.md','docs/FOURCASTDEN_MAR24_TWELVE_HOUR_PREREGISTRATION.md','docs/FOURCASTDEN_LONG_HORIZON_DECISION.md','docs/FOURCASTDEN_PHASE2_RESEARCH_PLAN.md','STATUS.md','WORKLOG.md','AGENTS.md','.gitignore','tests/test_fourcastden_twelve_hour_mar24.py']:files.add(ROOT/name)
   files.update((ROOT/'scripts').glob('*fourcastden_twelve_hour_mar24*.py'))
  size=sum(p.stat().st_size for p in files);assert size+2**20<800*2**20 and all(p.resolve().is_relative_to(ROOT) for p in files)
  result=dict(status='PASS',protected_files_unchanged=len(json.loads((F/'protected.json').read_text())),formal_sequences=4,formal_forwards=48,short_check_forwards=0,tests=239,common_physical_channel_checks=checked,author_normalized_RMSE_max_relative=native_max,author_ACC_max_absolute=accmax,DEN_positive_fraction=1.,all_steps_feedback_exact=True,history_third_step_onward_two_predictions=True,March_first_six_steps_exact_to_history=True,network_body_bytes=sum(x['transfer_bytes'] for x in attempts),network_reserved_bytes=sum(x['reserved_bytes'] for x in attempts),HTTP500_count=failures,download_attempts=len(attempts),new_files_bytes=size,wall_s=sup['wall_s'],peak_RSS_bytes=sup['peak_RSS_bytes'],CSV_rows=counts,persistence_checks=persistence,artifact_sha256={str(p.relative_to(ROOT)):sha(p) for p in sorted(files)})
- dump(F/('final_delivery_audit.json' if final else 'delivery_audit.json'),result);print(json.dumps({k:v for k,v in result.items() if k not in ['artifact_sha256','persistence_checks']},indent=2))
-if __name__=='__main__':main('--final' in sys.argv)
+ dump(F/('publication_delivery_audit.json' if publication else 'final_delivery_audit.json' if final else 'delivery_audit.json'),result);print(json.dumps({k:v for k,v in result.items() if k not in ['artifact_sha256','persistence_checks']},indent=2))
+if __name__=='__main__':main('--final' in sys.argv or '--publication' in sys.argv,'--publication' in sys.argv)

@@ -10,7 +10,7 @@ from run_fourcastden_twelve_hour_mar24 import F,MODELS
 TAG='fourcastden_twelve_hour_mar24_v1_two_window'
 def write(name,rows):
  with (ROOT/f'results/metrics/{TAG}_{name}.csv').open('x') as f:
-  w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+  w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');w.writeheader();w.writerows(rows)
 def save(fig,name):
  fig.suptitle('Jan4 / Mar24: official four-model continuous 12h, 01 UTC initialization\nHINDCAST / TIEGCM_REFERENCE_ONLY / native pressure levels / NOT a causal geomagnetic experiment',fontsize=9);fig.tight_layout(rect=[0,0,1,.91]);p=ROOT/f'results/figures/{TAG}_{name}.png';assert not p.exists();fig.savefig(p,dpi=150);plt.close(fig)
 def main():

@@ -36,10 +36,12 @@ HINDCAST / TIEGCM_REFERENCE_ONLY / NO_TRAINING
 |2023-03-24 History|1.2592|0.1770|0.0077|0.0321|20.623|18.199|220.807|0.5699|5.3856|0.021478228271007538|329.248|
 
 
-本次监督39.969886s、worker内部30.514212s含加载/CPU I/O/指标/保存，峰RSS1.3923GiB；独立CPU分析9.1257s、峰827.422MiB。初审新增359.228MiB（最终以final_delivery_audit.json为准）<800MiB；GPU600s、RAM4GiB内。
+本次监督39.969886s、worker内部30.514212s含加载/CPU I/O/指标/保存，峰RSS1.3923GiB；独立CPU分析9.1257s、峰827.422MiB。初审新增359.228MiB（最终以publication_delivery_audit.json为准）<800MiB；GPU600s、RAM4GiB内。
 
 物理解码hook单独计时是独立float64物理检查成本，属于作者loop的一部分；作者native log反变换还包含于native指标调用区间，不能把二者相加当纯解码。Jan4没有同项独立计时记N/A不是0。首次Direct冷CUDA，后续模型已warm；网络事件/native指标事件/loop/读写分别记录，不能按本次冷启动排序速度或与TIE完整仿真声称端到端加速。
 
 ## 复现与交付
 
 source scripts/activate310.sh；unittest discover；run_fourcastden_twelve_hour_mar24.py --fetch；无参preflight；supervise_fourcastden_twelve_hour_mar24.py；analyze_fourcastden_twelve_hour_mar24.py；compare_fourcastden_twelve_hour_mar24.py；audit；write_reports；audit --final。所有run/下载/launch输出exclusive，原数据不覆盖。预测大NPZ只本地；CSV/图/配置/审计/日志公开轻量部分。Jan4只读SHA验证，无重新推理。当前仅完成工程/条件参考场实验，未完成训练复现、独立真实大气或正式轨道精度验证。
+
+发布复核：两窗汇总CSV从CRLF转LF，逐行解析结果完全一致，预测/指标未变；原审计快照保留，publication_line_endings_audit.json记录前后SHA，publication_delivery_audit.json为格式修正后完整交付哈希。

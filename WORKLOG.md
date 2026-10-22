@@ -488,3 +488,5 @@ Mar24 +12 near相对RMS D/F/log/H=3.759760/3.964593/3.674795/4.078700%，全层�
 训练静态计划明确：先请求作者完整入口/四变体配置/训练验证清单与许可/统计采样种子学习曲线（未发送联系消息），再取得非2023合法小样本、隔离数据与训练工程、A100资源预检、重训Direct、单因素多步/分层损失/多seed。2023不调参，缺原协议不能称完整论文训练复现；本次未训练/微调/下载训练集/24h/TIE/RK45。更新LONG_HORIZON_DECISION与PHASE2，24h仅候选需另授权和24步毒化/12h前缀门禁。正式高度/气动/推力/受力与观测验证门禁继续。
 
 命令：source scripts/activate310.sh；unittest discover；run_fourcastden_twelve_hour_mar24.py --fetch；无参preflight；supervise；analyze；compare（Jan4只读）；audit；write_reports；audit --final。检查敏感信息/ignore/历史SHA，提交轻量成果并安全推送核远端；完成后停止等待新指令。
+
+发布阶段纠正：新两窗汇总CSV原CRLF触发git diff --check，转LF后解析行列精确不变，未动模型数组/旧实验；修正新CSV写入器lineterminator。保留原final审计快照，追加publication_line_endings_audit及publication_delivery_audit，后者是最终当前SHA清单。无新增forward。
