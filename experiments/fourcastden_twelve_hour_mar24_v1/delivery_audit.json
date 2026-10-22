@@ -1,0 +1,410 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 696,
+  "formal_sequences": 4,
+  "formal_forwards": 48,
+  "short_check_forwards": 0,
+  "tests": 239,
+  "common_physical_channel_checks": 8208,
+  "author_normalized_RMSE_max_relative": 2.3768521021598503e-07,
+  "author_ACC_max_absolute": 2.2909440944296477e-07,
+  "DEN_positive_fraction": 1.0,
+  "all_steps_feedback_exact": true,
+  "history_third_step_onward_two_predictions": true,
+  "March_first_six_steps_exact_to_history": true,
+  "network_body_bytes": 13452428,
+  "network_reserved_bytes": 13452450,
+  "HTTP500_count": 0,
+  "download_attempts": 1,
+  "new_files_bytes": 376678188,
+  "wall_s": 39.96988616883755,
+  "peak_RSS_bytes": 1494986752,
+  "CSV_rows": {
+    "layers": 10260,
+    "summary": 360,
+    "density_layers": 5220,
+    "windows": 60,
+    "author_native": 8208,
+    "growth": 24,
+    "performance": 4,
+    "drivers": 14
+  },
+  "persistence_checks": [
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "hour": 1,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "hour": 2,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "hour": 3,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "hour": 4,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "hour": 5,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "hour": 6,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "hour": 7,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "hour": 8,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "hour": 9,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "hour": 10,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "hour": 11,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "hour": 12,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "hour": 1,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "hour": 2,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "hour": 3,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "hour": 4,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "hour": 5,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "hour": 6,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "hour": 7,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "hour": 8,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "hour": 9,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "hour": 10,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "hour": 11,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "hour": 12,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "hour": 1,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "hour": 2,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "hour": 3,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "hour": 4,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "hour": 5,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "hour": 6,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "hour": 7,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "hour": 8,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "hour": 9,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "hour": 10,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "hour": 11,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "hour": 12,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "hour": 1,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "hour": 2,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "hour": 3,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "hour": 4,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "hour": 5,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "hour": 6,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "hour": 7,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "hour": 8,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "hour": 9,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "hour": 10,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "hour": 11,
+      "channels_better_than_persistence": 171
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "hour": 12,
+      "channels_better_than_persistence": 171
+    }
+  ],
+  "artifact_sha256": {
+    "data/processed/fourcastden_twelve_hour_mar24_v1/2023-03-24_Direct.npz": "6c3965aec8f4b2806c51da33d69909d823204f477e7e0d47c824bb6f55a31efc",
+    "data/processed/fourcastden_twelve_hour_mar24_v1/2023-03-24_Flow.npz": "570507f712692a69b75d4bc88cc47d561bbbe390a480a5bdff75ed7fe00765e6",
+    "data/processed/fourcastden_twelve_hour_mar24_v1/2023-03-24_History.npz": "c962d2aff6bee29a7a05642f37d9c65e8dc87e545e7fc4fe5d7d655676ef8454",
+    "data/processed/fourcastden_twelve_hour_mar24_v1/2023-03-24_LogDEN.npz": "18be43babd8f3eedc33e22997dab165fef9699a24957353c29f5c625a34db627",
+    "data/raw/fourcastden_twelve_hour_mar24_v1/2023_03_24_080000.npz": "8fe8e81548de02f6584284cc3c2c96d229c66c80d8014c5bfdc43aea2b0e88bf",
+    "data/raw/fourcastden_twelve_hour_mar24_v1/2023_03_24_090000.npz": "316f2f147c0dcfa17211e05908f376f423aa087fbd2180e644026beddcccaac6",
+    "data/raw/fourcastden_twelve_hour_mar24_v1/2023_03_24_100000.npz": "b7ba74903acefd8b8cbce73f084139b51be22a227d89a03b6cbf7e4f05d9e4e7",
+    "data/raw/fourcastden_twelve_hour_mar24_v1/2023_03_24_110000.npz": "bc6c7c4357cbaaef0d6ef7b70e22883f6d3ec7ef2c191fe74938cd3faef1b305",
+    "data/raw/fourcastden_twelve_hour_mar24_v1/2023_03_24_120000.npz": "1d5dc6082e6b95e33b6b2ba852b8d58c3f467de8d2186620b8e6ce10dc0f1ca6",
+    "data/raw/fourcastden_twelve_hour_mar24_v1/2023_03_24_130000.npz": "8025fad89ea28e98b0b167924dbc58568085175ceec851d8ba508a8b145814a4",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023-03-24_Direct_launch.json": "d4ea5a497b9dd6583db07e74bbb29f572592069bf340d9207162229803750ac0",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023-03-24_Direct_prefix_gate.json": "b6ab222b105c1fc647e23be573a4b84eefddfae60b05bb0004753411d10b6343",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023-03-24_Direct_runtime.json": "0f3a48119f6fc210edd1527ff1e531738eb87d80b3d8ea5bcab83ddea340916f",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023-03-24_Flow_launch.json": "bac84805e9551e62dfe9589fa172e57d062ffa8d61c730b57d7c9cee5379fed5",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023-03-24_Flow_prefix_gate.json": "b6ab222b105c1fc647e23be573a4b84eefddfae60b05bb0004753411d10b6343",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023-03-24_Flow_runtime.json": "ed93dbfe3f1fe7273d365081ce2704164387a35ce10c206b6b6b50c825184103",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023-03-24_History_launch.json": "6bd164b92e5788b2da4d5e89fabf682ea048fedccc0eea4bfd32a3cd3daec2a7",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023-03-24_History_prefix_gate.json": "b6ab222b105c1fc647e23be573a4b84eefddfae60b05bb0004753411d10b6343",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023-03-24_History_runtime.json": "5bd3452a9f810747ad5ed5cab3c5b305f98c6cbcd86c6b7dff54558e99408a1c",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023-03-24_LogDEN_launch.json": "c0a6fe78a4baedd3b18a91e417b268369f60ecc502c20cf03422c0885d610efb",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023-03-24_LogDEN_prefix_gate.json": "b6ab222b105c1fc647e23be573a4b84eefddfae60b05bb0004753411d10b6343",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023-03-24_LogDEN_runtime.json": "776729373da2f162d8c1c27c2896cb6b6eca00357ed75b3eac98dcdba99bed7c",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023_03_24_080000_download.json": "887342ac544116f3aee2e5ed9ea16c8a8663165d1feea99e6b76be3ccd3f86dd",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023_03_24_090000_download.json": "49aadc7ff03b0fe3e59d350914c2d71fcb1d8b1645f636694b05199b91f7c03e",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023_03_24_100000_download.json": "7c287c29864722e6718b2cf52e7981fb2a344dd9f7f271e2a971b09cb20ac670",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023_03_24_110000_download.json": "fbe58861f599ba7852019e1b7457c787e1a704e61d0128667cc0c61412559e9d",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023_03_24_120000_download.json": "a472f8cfc40eb9a7f1c3d44c2d525f39ca998d49893a2dfc1cb891cf308ce590",
+    "experiments/fourcastden_twelve_hour_mar24_v1/2023_03_24_130000_download.json": "9f4faa8e7137d825c4a8f1cc22c43cde54ff6488eb380519d0b98e054f3155d3",
+    "experiments/fourcastden_twelve_hour_mar24_v1/Direct.yaml": "c2f95ad75f23fc86389cfd4516e478227fff618dd8eeb8f0654aca80c64c037c",
+    "experiments/fourcastden_twelve_hour_mar24_v1/Flow.yaml": "90b0b63b30c213b6b44832f230ed8678f4c58f23f706e73a04dc1c1e79fd6b44",
+    "experiments/fourcastden_twelve_hour_mar24_v1/History.yaml": "c907dd969373f8f0374bed5f4ac06dc0a0d4d5eea74920e7e4bbba9867a66532",
+    "experiments/fourcastden_twelve_hour_mar24_v1/LogDEN.yaml": "2287669350d05d50ba25e8813b630293aab9b962e96066bc72da8d3113f17d4e",
+    "experiments/fourcastden_twelve_hour_mar24_v1/analysis.json": "0629f9a832451c8022ce3a282a27c7d6e5ff4a9bb14c7c6c84f74c3bd3944483",
+    "experiments/fourcastden_twelve_hour_mar24_v1/download.json": "c2146e9757d99cd4e6b573e9ac03f53fde56c2c1a247be0eae4b57e0f4b02147",
+    "experiments/fourcastden_twelve_hour_mar24_v1/fetch_once.json": "93b5061ee86bee33bf5b074fa976215b0d726260caa015f315e904d4df196954",
+    "experiments/fourcastden_twelve_hour_mar24_v1/launch_once.json": "065deb3ef434e5b2daa363e45bf47682ba22d9c1d6d1556e497d31705bca6323",
+    "experiments/fourcastden_twelve_hour_mar24_v1/member_preflight.json": "0c61176b4a23c70d36258201ad7b075e89653680dfda466341bd2b5322e080e8",
+    "experiments/fourcastden_twelve_hour_mar24_v1/prefix_metrics_gate.json": "e2d84f227e953a9c5c7af217e8ec4bf92111e594e37dbd9514e0dd1e2219a63a",
+    "experiments/fourcastden_twelve_hour_mar24_v1/preflight.json": "332712062ccdddec251dc29ea21126e36efd52af8d6a69dde103dbbb74f6c6cf",
+    "experiments/fourcastden_twelve_hour_mar24_v1/protected.json": "bd18268abb0db7d3d557c9178713d47d48bb0bc2c7bfbe55c4a75b7987fd5f99",
+    "experiments/fourcastden_twelve_hour_mar24_v1/ranges.json": "db186c4b4a855c51b9b0caa0047aa551622470b7a962cfd7387031505c9ea274",
+    "experiments/fourcastden_twelve_hour_mar24_v1/runtime.json": "bd23e38351b696b794bc562533b7959e1bb827ab58c19e480072e3a80b9c97d2",
+    "experiments/fourcastden_twelve_hour_mar24_v1/supervision.json": "4b07d1666c2cf53daa5b099b9df87dbb4322ed8f0ceb45abe9c9b81bc23a744d",
+    "experiments/fourcastden_twelve_hour_mar24_v1/supervisor_once.json": "3d51e820fe74e26267a502e933489e678c80ca558d9d2a8226fb1ef0cbe3e32c",
+    "experiments/fourcastden_twelve_hour_mar24_v1/two_window_comparison.json": "bc0987f2182ee2cbbd99f5f2a9e18dbd1740355369a53b9c45f04243e9b3ac23",
+    "logs/fourcastden_twelve_hour_analysis.log": "7bb32bbb9268533494ecea32663033dc2f1d8fc57aaa406a0fcc0220874348ba",
+    "logs/fourcastden_twelve_hour_fetch.log": "b81db221efb1e12f2bba6433200057549757c3e4258c41027353b243308b40cd",
+    "logs/fourcastden_twelve_hour_jan4_GPU.log": "770ea055e8186ea09288b2d393a9f826755812f7d5d0a20c5443a289b4ce47ae",
+    "logs/fourcastden_twelve_hour_mar24_GPU.log": "af8357c620752de1c6367c96e4755b7ae9b3a53e57dbf1e26ea3eb1bc7297ff8",
+    "logs/fourcastden_twelve_hour_mar24_analysis.log": "51467f1c5fbe2aa092482d1c99ef93a239110838a6ec85c94dda9ad2a25e4abb",
+    "logs/fourcastden_twelve_hour_mar24_comparison.log": "60add3ed38c9a44a3f1892c8ca7cd588edf9705ddc12057b15d75a991aeccb89",
+    "logs/fourcastden_twelve_hour_mar24_fetch.log": "42031eb53c2b9781b5560e73dab5a035c3297ef0d6aac95e3f9425644e1ea928",
+    "logs/fourcastden_twelve_hour_mar24_preflight.log": "ce44e0278bac8c9b6c43d070c9128ed4b30c7a139fbfe87a66faf05cf9fd9bb5",
+    "logs/fourcastden_twelve_hour_mar24_tests.log": "880ea558929d6905220d1f5813e16904a6987ab4c638a90fed5392aebe880d19",
+    "logs/fourcastden_twelve_hour_preflight.log": "ce44e0278bac8c9b6c43d070c9128ed4b30c7a139fbfe87a66faf05cf9fd9bb5",
+    "logs/fourcastden_twelve_hour_tests.log": "ea6002db0c0dc0d221c1c0aa6f14e2601225cbea0ea4324b09196f0718fcbb11",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_absolute_DEN.png": "0269bebf40f983c3764dc294bcbfa218fbef57e7a0652533041e1c1a2132e18a",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_drivers.png": "f45b52ee1742a955d4b0dfd7370712892e768f43fc2c0049e70427c1e44b30c6",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_growth.png": "ab4d2891249f54973f5083131f07771c5907c665ef7630ef56ad65cec233de08",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_high_DEN.png": "0cb516634e7b53b385c040eb1dfbed4367b3e3a5e2326f5dc3419decfa10c3c7",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_high_absolute_bias.png": "4224558100dac7f556e047170197eef59986990628f28abdb86828f150a89e96",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_layers_12h.png": "c7bbb388cc1ec3ae699871068a7f4c2d28ef3ddf4084741d195bbc429c0bbe78",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_performance.png": "2870e2aeeb18aab7d8a4b360d7b83fc847a1a2f5c40d6c861eb5e63113642a42",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_two_window_6_vs_12.png": "a8bb598e0bb4e6e0f043f8beff7a27fa70ce21308401188010a3ba09ce11431a",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_two_window_absolute_DEN.png": "01059bb669cf85c797055b8735897e4fc4d7786c4c3f4bea41146ad5ad6d54e2",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_two_window_fixed_upper.png": "24f98020d576b80f5aaa18ca7d25ebcbfe42643809f6069a64626652e6b69547",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_two_window_growth_absolute_and_ratio.png": "a67f08bf5d2888d8327beea0aaa5aae571fea368b7f422c5839fb763e8dd5d33",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_two_window_high_DEN.png": "647b955b8bcc48108a341af371d93373d1b08f702e2480cb083f58a796c8ba30",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_two_window_performance.png": "74660053139bab48cf239def8bd59b6be4ed3995779b2ead783d78890ff84407",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_two_window_polar.png": "984b917d97d17e927999952ed3c79628f7e8d7a0fa2d59badf661c1275c025ab",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_two_window_variables.png": "62c5406cd394275e6554c689810878434d1a700f56af42b11f69570a512a54b6",
+    "results/figures/fourcastden_twelve_hour_mar24_v1_variables.png": "16b07c3b8ebf3af9b9e86185b9329e86df5542f6bb5c81b3bfa19122d999cea3",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_author_native.csv": "21c41ea2ba0a59fa2559354014096963de59a960a3f166b1f8024a9757d50ecb",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_density_layers.csv": "3be7e19f82d3af3e138decd2bd362b73892582e3a45b715914ef241e43c28830",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_drivers.csv": "42eac8dafd7aee496180605dcefc5c3756ad125d1bef758e2ab45600b45b1b63",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_growth.csv": "d6bef2c8557928233c2b4a04a319d3ee7b4de474ad1d1003c6158dd86a34f8c0",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_layers.csv": "26858942a45a952c1a8c319ef10f9b4e2faac8e1f843a14b328cd6221984a85c",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_performance.csv": "245304af6fc8c6ebe3d5c2d8590c117a82138914d589fa72929e726d6cc19de4",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_summary.csv": "2547654bbe3dafe569509b6fd966f955ce2ec171f66f098e299a7cba3548f033",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_two_window_drivers.csv": "a1f2f069edee5072bbd843b29f41fd00e15fe6bcf230a0bd88e6b51d7975238b",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_two_window_growth.csv": "8581bf2e845cbee0584423aeea4d941fb5be47adc5e7a9cd9d399488262977eb",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_two_window_performance.csv": "1c4abac0776755e0af3afe4de659c97a9637c3bb78976e9502b6bf85a8bd4763",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_two_window_polar.csv": "606c35da697d22b72b2a6c3d7d8cd600ac526817a8931d97fca623083b81245a",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_two_window_summary.csv": "6c622f0b05d81041897c8018c8cb6e58fb44749f3b24590a90b9f0e7021db46a",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_two_window_windows.csv": "62f4253f9e11ad09113eb11f9664d71bcc6f476b81ba926658fd3233b4676615",
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_windows.csv": "cf43c34b5f09ced1febe6817d66494c0c4c923c7808e0cc953ef17991bac66ab"
+  }
+}

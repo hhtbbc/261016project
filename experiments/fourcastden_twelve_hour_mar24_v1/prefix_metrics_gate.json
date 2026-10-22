@@ -1,0 +1,125 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "model": "Direct",
+      "hour": 1,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "Direct",
+      "hour": 2,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "Direct",
+      "hour": 3,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "Direct",
+      "hour": 4,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "Direct",
+      "hour": 5,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "Direct",
+      "hour": 6,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "Flow",
+      "hour": 1,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "Flow",
+      "hour": 2,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "Flow",
+      "hour": 3,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "Flow",
+      "hour": 4,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "Flow",
+      "hour": 5,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "Flow",
+      "hour": 6,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "LogDEN",
+      "hour": 1,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "LogDEN",
+      "hour": 2,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "LogDEN",
+      "hour": 3,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "LogDEN",
+      "hour": 4,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "LogDEN",
+      "hour": 5,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "LogDEN",
+      "hour": 6,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "History",
+      "hour": 1,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "History",
+      "hour": 2,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "History",
+      "hour": 3,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "History",
+      "hour": 4,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "History",
+      "hour": 5,
+      "all_old_metrics_exact": true
+    },
+    {
+      "model": "History",
+      "hour": 6,
+      "all_old_metrics_exact": true
+    }
+  ]
+}

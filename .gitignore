@@ -137,3 +137,6 @@ credentials.json
 # Continuous Jan4 twelve-hour inference: lightweight audit/config/logs only.
 !/logs/fourcastden_twelve_hour*.log
 !/experiments/fourcastden_twelve_hour_jan4_v1/*.yaml
+
+# Mar24 twelve-hour official model validation: configs only, arrays stay local.
+!/experiments/fourcastden_twelve_hour_mar24_v1/*.yaml

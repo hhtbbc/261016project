@@ -472,3 +472,19 @@ History唯一真实forward预检通过，随后History/Direct/Flow/log各一次�
 监督39.435960秒/峰RSS1,489,559,552字节，GPUworker30.077811秒含I/O/加载/指标/保存；12forward D358.082ms含首次冷、F217.901/log219.404/H225.480，CUDAallocated峰315.70—329.25MiB。独立分析9.1605秒。新8图/8类CSV、配置/逐步物理范围/反馈与保护审计，大预测NPZ不入Git；完整体积与SHA见final_delivery_audit.json。静态作者README明确推理包，Lightning残留value/flow/warp接口与实际AFNONet不等同，缺完整训练入口及2000—2021训练/2022验证数据和四变体精确协议；未下载/训练/安装。未来Mar24缺08—13六帧，本次仅设计。正式外部高度/气动/受力/观测验证门禁继续。
 
 命令：source scripts/activate310.sh；unittest discover；run_fourcastden_twelve_hour_jan4.py --fetch；无参preflight；supervise_fourcastden_twelve_hour_jan4.py；analyze；audit；write_reports；audit --final。无额外模型推理/重试，未TIE/RK45/训练/Mar2412h或24h。成果完成后安全Git同步并核验远端，结束停止。
+
+## 2026-10-22｜Mar24连续12小时与Jan4同lead离线对照
+
+先读取AGENTS/STATUS/WORKLOG、Mar24方案/长时决策/训练审查/Jan4与旧6h报告，核实clean main本地与远端均b081de700089634221381d9ee4aad2eb6e2355b9。复用四官方权重/static/static_log/原作者循环与隔离log兼容层，不修改作者树/权重/归一化。新增独立run/supervise/analyze/audit/compare/write与2日期隔离/精确门禁测试，全239测试27.884秒通过（旧ERFA合成warning保留），原12步CPU四模式毒化与History末步窗口测试一并通过。
+
+新预注册固定Mar24 01→13、48forward/0额外GPU预检，网络25MiB、GPU600秒、RAM4GiB、新文件800MiB/磁盘20GiB硬门禁。目录先确认六08—13成员、压缩12,469,476字节；Range实际13,452,428字节，全206/Content-Range/CRC/SHA/14键/shape/finite哨兵/正DEN和TN/ZG单调通过，无失败下载/重试，raw0444；00—07只读，不重下。Jan4原结果和代码/数据/配置纳入保护SHA。
+
+preflight后只启动一次GPUworker，四模型各完整12步，未来物理真值仅评价，aux/scalar按作者给定HINDCAST；Flow normalized增量、log10/static_log/pow10、History滚动双历史保持。真实hooks前6步input/scalar/raw/state/means/std全部与Mar24旧6h精确相同，独立旧六变量summary和DEN组指标亦精确一致；没有在+6h输入真值或拼接6h。48状态finite/正DEN/TN，无裁剪/补零/平滑/自动重试，原门槛未放宽；公共NumPy8208通道时效与native指标独立复核，逐层/ACC/极值/偏差/持续性全保留。
+
+Mar24 +12 near相对RMS D/F/log/H=3.759760/3.964593/3.674795/4.078700%，全层平均绝对DEN=7.8960708e-10/9.1789238e-10/7.6516976e-10/1.3607688e-9kg/m3。near Flow+1最低、History+2—4、log+5—12；+12固定upper20—28则Direct最低，不能挑层排名。Mar24 near组+1/+2为20/21/22，+3—11为20/21，+12再次20/21/22，需分组变化解释；Jan4组始终21/22/23。+12 Mar24 near误差约Jan4的2.15—2.82倍，仅条件比较，不作地磁因果/真实大气或轨道精度。History局地顶部/极区有优势但全层绝对始终最高；四组误差后段起伏非单调。原作者Kp04时7.8833降至13时2.5833，F107/F107A逐时原样保存，未用GFZ替代或由误差估物理时延。
+
+监督39.969886秒、RSS峰1,494,986,752字节，GPUworker30.514212秒含加载/IO/指标/保存；网络12forward合计D352.574/F218.047/log214.306/H220.807ms，CUDAallocated315.70—329.25MiB；独立分析9.125692秒。新增物理解码hook计时约0.019—0.033秒/组，属于loop独立检查成本，Jan4原未单独计时记N/A，不填0/不混纯网络与端到端。新16图（Mar24单窗8+两窗8）与本次8类/两窗6类CSV、完整配置/日志/SHA/原指标与物理指标保留，大NPZ只本地。最终体积和保护计数见final_delivery_audit.json。
+
+训练静态计划明确：先请求作者完整入口/四变体配置/训练验证清单与许可/统计采样种子学习曲线（未发送联系消息），再取得非2023合法小样本、隔离数据与训练工程、A100资源预检、重训Direct、单因素多步/分层损失/多seed。2023不调参，缺原协议不能称完整论文训练复现；本次未训练/微调/下载训练集/24h/TIE/RK45。更新LONG_HORIZON_DECISION与PHASE2，24h仅候选需另授权和24步毒化/12h前缀门禁。正式高度/气动/推力/受力与观测验证门禁继续。
+
+命令：source scripts/activate310.sh；unittest discover；run_fourcastden_twelve_hour_mar24.py --fetch；无参preflight；supervise；analyze；compare（Jan4只读）；audit；write_reports；audit --final。检查敏感信息/ignore/历史SHA，提交轻量成果并安全推送核远端；完成后停止等待新指令。

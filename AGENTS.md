@@ -131,3 +131,7 @@ fourcastden_six_hour_v1已单独授权完成Jan4/Mar24各4组6步（48正式forw
 ## Jan4四模型连续12小时后的门禁
 
 fourcastden_twelve_hour_jan4_v1另授权完成4×12共48forward，无额外GPU预检/重试，237测试。所有模型前6步inputs/scalars/raw/state及公共指标与旧6h精确一致；History12步滑窗/四模式毒化通过，原checkpoint/static/source不改。Jan4高层Direct+2—12较低，后期误差非单调；单窗口不作全年架构排名/观测或轨道精度。Mar2412h只设计，24h/训练/TIE/RK45不自动执行；2023不调参，训练完整入口和2000—2022数据缺口见TRAINING_READINESS。结束安全Git同步，下一步等用户授权。
+
+## 两窗口12小时完成后的门禁
+
+fourcastden_twelve_hour_mar24_v1已另授权完成4×12/48forward，无额外GPU预检/失败重试，239测试。Mar24前6h input/scalar/raw/state与旧6h精确一致、旧指标精确复现，Jan4仅只读对照。near Mar24 log+5—12较低但+12固定upper Direct较低、History顶部/极区有条件优势，near层组+12变化须披露；不按两窗挑最终架构或作地磁因果/观测/轨道精度。训练计划仅静态，2023不调参，24h/训练/TIE/RK45均需新授权；原作者/权重/统计/旧结果不改。结束安全Git同步后停止。
