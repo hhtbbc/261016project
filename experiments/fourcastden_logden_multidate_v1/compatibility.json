@@ -1,0 +1,95 @@
+{
+  "no_model_forward": true,
+  "devices": {
+    "cpu": {
+      "original_np_power": {
+        "success": true,
+        "type": "Tensor",
+        "dtype": "torch.float32",
+        "device": "cpu"
+      },
+      "torch_pow": {
+        "success": true,
+        "dtype": "torch.float32",
+        "device": "cpu",
+        "max_relative_error": 4.636266039683499e-08,
+        "finite": true,
+        "positive": true
+      }
+    },
+    "cuda": {
+      "original_np_power": {
+        "success": false,
+        "error_type": "TypeError",
+        "error": "can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first."
+      },
+      "torch_pow": {
+        "success": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0",
+        "max_relative_error": 4.636266039683499e-08,
+        "finite": true,
+        "positive": true
+      }
+    }
+  },
+  "original_static_loader": {
+    "error_type": "AssertionError",
+    "error": "Invalid shape of normalisation arrays"
+  },
+  "climatology_shapes": {
+    "TN": [
+      28,
+      36,
+      72
+    ],
+    "UN": [
+      28,
+      36,
+      72
+    ],
+    "VN": [
+      28,
+      36,
+      72
+    ],
+    "WN": [
+      29,
+      36,
+      72
+    ],
+    "Z": [
+      29,
+      36,
+      72
+    ],
+    "DEN": [
+      29,
+      36,
+      72
+    ],
+    "TLBC": [
+      1,
+      36,
+      72
+    ],
+    "ULBC": [
+      1,
+      36,
+      72
+    ],
+    "VLBC": [
+      1,
+      36,
+      72
+    ]
+  },
+  "status": "PASS",
+  "source_SHA256": "f4594dfefc4e273175b946efb05fb99920acc2ca24f8dfa789d874e1b55b55c9",
+  "overlay_SHA256": "f1e8fd5acb61ae8fd06b01839ba4be2ffeb8b52385b819e2dc59faa9965d7e1d",
+  "patch_SHA256": "d7ffa94cfd9576979b68edce1c011c3a7b6d7536847126503df6e2a5d403147c",
+  "value_preserving_climatology_reshape": true,
+  "compatibility_probe_wall_s": 0.5881001986563206,
+  "channel_broadcast_fix": "std/mean[den_idx] -> [den_idx,None,None], preserving intended per-channel affine formula",
+  "initial_CPU_loop_failure_preserved": "logs/fourcastden_logden_tests_initial_failure.log"
+}

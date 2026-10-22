@@ -1,0 +1,51 @@
+{
+  "date": "2023-01-04",
+  "status": "PASS",
+  "network_calls": 2,
+  "feedback": {
+    "passed": true,
+    "second_state_equals_first_prediction": true,
+    "physical_truth_used_after_t0": false,
+    "future_auxiliary_and_drivers_used": true
+  },
+  "checkpoint_sha256": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18",
+  "config_sha256": "d2b8c51562d84e4dd475fd8680412b20c50fc060e66346c7ae325058acfce529",
+  "overlay_sha256": "f1e8fd5acb61ae8fd06b01839ba4be2ffeb8b52385b819e2dc59faa9965d7e1d",
+  "model_load_s": 1.3348825946450233,
+  "model_reused": false,
+  "read_preprocess_s": 0.0506319236010313,
+  "author_loop_metrics_hooks_s": 0.9487474095076323,
+  "GPU_forward_ms": [
+    152.2601318359375,
+    19.411264419555664
+  ],
+  "inverse_pow10_two_target_fields_gpu_ms": 0.08191999793052673,
+  "peak_allocated_bytes": 296117760,
+  "peak_reserved_bytes": 1159725056,
+  "prediction_shape": [
+    1,
+    3,
+    171,
+    36,
+    72
+  ],
+  "input_shape": [
+    1,
+    177,
+    36,
+    72
+  ],
+  "output_shape": [
+    1,
+    171,
+    36,
+    72
+  ],
+  "rho_min_kg_m3": 5.67805747721318e-14,
+  "rho_max_kg_m3": 1.1327210881766858e-06,
+  "DEN_positive_fraction": 1.0,
+  "nonfinite_predictions": 0,
+  "nonpositive_DEN": 0,
+  "result_sha256": "f6457776f72bff4ab30bae0a32bd6da42abe53b08420696b53f5f2777a79f614",
+  "RSS_KiB": 1153484
+}

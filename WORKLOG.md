@@ -389,3 +389,14 @@ Flow第一小时170/171层、第二小时141/171层RMSE低于Direct；变量平�
 报告FOURCASTDEN_MULTIDATE_VALIDATION.md、FOURCASTDEN_MULTIDATE_COMPARISON.md，指标CSV/7图/Range和运行/资源审计在fourcastden_multidate_v1。官方log-DEN仅CPU静态审查150项参数/177输入/static_log；没有forward，NumPy/CUDA分支和log/物理ACC公平定义仍需审查。建议下一项先官方log-DEN两小时，再history公平窗口，随后预注册6/12/24h和更强条件；见FOURCASTDEN_NEXT_EXPERIMENT_DECISION.md，需新授权。未训练/TIE/轨道传播，正式物理参数和坐标门禁不变。Git同步以最终远端SHA核对为准。
 
 实际命令：source scripts/activate310.sh；python -m unittest discover -s tests（206项，24.073s）；run_fourcastden_multidate.py静态/--fetch；supervise_fourcastden_multidate.py（唯一GPU工作进程，8序列，不重试）；analyze_fourcastden_multidate.py；inspect_fourcastden_log_static.py（仅CPU）；write_fourcastden_multidate_reports.py；audit_fourcastden_multidate.py。复用Python3.10/torch2.4.1+cu121/A100，未安装包，缓存和所有新文件在唯一工作区。原始NPZ缺独立坐标/单位属性，按作者不可变static与UNIT_VARS契约，不冒充独立大地基准核验；Z非ZG，压力层非固定几何高度。原始保护SHA/新增字节预算及完整结果见最终audit。
+
+
+## 2026-10-22：官方log-DEN五日期复现与三模型对照完成
+
+215项测试通过。小张量确认np.power的CUDA转换失败；另由CPU合成原循环确认static_log气候态前导单例和DEN通道仿射广播问题，隔离覆盖层逐项保值修复，原始树/权重/统计不改，完整diff/SHA/失败日志保留。唯一正式log工作进程5个独立两小时序列、10forward完成；Direct/Flow只读，无下载/训练/扩窗/TIE/轨道。监督17.213s，加兼容探针0.588s<600，峰RSS1.107GiB；全预测finite/DEN正，反馈逐元素核验，无失败或重试。
+
+共同原始物理目标与普通气候态公平比较：2h全层平均绝对DEN RMSE log在5/5窗最低；但上层与参考中位ZG400—500km组相对RMS在两时效五窗均Flow低、Direct其次、log较高，未支持log改善高层相对误差。TN/Z等窗平均2h较Direct高约18.9%/20.6%，其他变量代价完整记录。各自匹配统计/权重不同，不能单因果归于log开关。三者均2h平均误差增大，n=5不推断全年/真实大气或轨道精度。
+
+报告FOURCASTDEN_LOGDEN_COMPATIBILITY、LOGDEN_VALIDATION、THREE_MODEL_COMPARISON；原native/dex/log ACC与公平物理CSV分开，6张真实图，所有原始/预测数组本地。下一入口NEXT_EXPERIMENT_DECISION最新节，建议先history公平窗口（另授权补03并统一01初始化），之后6h再长时。所有正式物理门禁继续保留，完成停止。Git同步以最终远端SHA核对为准。
+
+命令：source scripts/activate310.sh；check_fourcastden_logden_compatibility.py；CPU测试发现广播错误/合成参考指数溢出后留档，修复数学维度并选有界毒化输入，最终215项全套unittest通过（23.943s）；run_fourcastden_logden_multidate.py静态；supervise_fourcastden_logden.py唯一GPU；analyze_fourcastden_three_models.py；write_fourcastden_logden_reports.py；audit_fourcastden_logden.py。复用.venv310/torch2.4.1+cu121/A100，FP32/TF32false，未安装或下载。原生与公平指标区分，float32log输入往返数ppm记录，SEA因官方坐标dtype约1e-6差别不改匹配处理。

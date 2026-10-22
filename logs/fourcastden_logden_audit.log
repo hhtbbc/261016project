@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 323,
+  "formal_logden_sequences": 5,
+  "real_forwards": 10,
+  "Direct_Flow_rerun": false,
+  "new_raw_downloads": 0,
+  "tests": 215,
+  "common_physical_channel_metric_checks": 5130,
+  "author_native_DEN_RMSE_max_relative": 1.1591082077371634e-07,
+  "author_native_ACC_max_absolute": 2.2493735429840456e-07,
+  "all_predictions_finite": true,
+  "DEN_positive_fraction": 1.0,
+  "all_feedback_exact": true,
+  "report_claims_verified": true,
+  "supervised_plus_compatibility_wall_s": 17.800683915615082,
+  "peak_RSS_bytes": 1188184064,
+  "new_experiment_bytes_conservative": 127221395,
+  "includes_existing_raw_symlink_target_bytes": true,
+  "budget_bytes": 262144000,
+  "CSV_rows": {
+    "layers": 6840,
+    "summary": 240,
+    "density_layers": 3480,
+    "windows": 40,
+    "author_native_logden": 1710,
+    "paired": 60,
+    "aggregate": 12,
+    "performance": 15
+  }
+}

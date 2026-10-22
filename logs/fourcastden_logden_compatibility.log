@@ -1,0 +1,93 @@
+{
+  "no_model_forward": true,
+  "devices": {
+    "cpu": {
+      "original_np_power": {
+        "success": true,
+        "type": "Tensor",
+        "dtype": "torch.float32",
+        "device": "cpu"
+      },
+      "torch_pow": {
+        "success": true,
+        "dtype": "torch.float32",
+        "device": "cpu",
+        "max_relative_error": 4.636266039683499e-08,
+        "finite": true,
+        "positive": true
+      }
+    },
+    "cuda": {
+      "original_np_power": {
+        "success": false,
+        "error_type": "TypeError",
+        "error": "can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first."
+      },
+      "torch_pow": {
+        "success": true,
+        "dtype": "torch.float32",
+        "device": "cuda:0",
+        "max_relative_error": 4.636266039683499e-08,
+        "finite": true,
+        "positive": true
+      }
+    }
+  },
+  "original_static_loader": {
+    "error_type": "AssertionError",
+    "error": "Invalid shape of normalisation arrays"
+  },
+  "climatology_shapes": {
+    "TN": [
+      28,
+      36,
+      72
+    ],
+    "UN": [
+      28,
+      36,
+      72
+    ],
+    "VN": [
+      28,
+      36,
+      72
+    ],
+    "WN": [
+      29,
+      36,
+      72
+    ],
+    "Z": [
+      29,
+      36,
+      72
+    ],
+    "DEN": [
+      29,
+      36,
+      72
+    ],
+    "TLBC": [
+      1,
+      36,
+      72
+    ],
+    "ULBC": [
+      1,
+      36,
+      72
+    ],
+    "VLBC": [
+      1,
+      36,
+      72
+    ]
+  },
+  "status": "PASS",
+  "source_SHA256": "f4594dfefc4e273175b946efb05fb99920acc2ca24f8dfa789d874e1b55b55c9",
+  "overlay_SHA256": "aa1540e2802ef569acaac348d2ca31f18f37c6c16e5ef7e8e980a7664361a53e",
+  "patch_SHA256": "f5f565a10c1181f6469cd04aae3cc239325f1ae4d9f8d6a26e9a89d7be1f510d",
+  "value_preserving_climatology_reshape": true,
+  "compatibility_probe_wall_s": 0.5881001986563206
+}

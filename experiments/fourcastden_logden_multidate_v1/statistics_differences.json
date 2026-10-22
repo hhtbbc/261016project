@@ -1,0 +1,350 @@
+{
+  "global_means.npz": {
+    "TN": {
+      "ordinary_shape": [
+        28
+      ],
+      "log_shape": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "max_abs_difference": 1.81561279296875
+    },
+    "UN": {
+      "ordinary_shape": [
+        28
+      ],
+      "log_shape": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "max_abs_difference": 79.843505859375
+    },
+    "VN": {
+      "ordinary_shape": [
+        28
+      ],
+      "log_shape": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "max_abs_difference": 21.562286376953125
+    },
+    "WN": {
+      "ordinary_shape": [
+        29
+      ],
+      "log_shape": [
+        1,
+        29,
+        1,
+        1
+      ],
+      "max_abs_difference": 0.8157234191894531
+    },
+    "Z": {
+      "ordinary_shape": [
+        29
+      ],
+      "log_shape": [
+        1,
+        29,
+        1,
+        1
+      ],
+      "max_abs_difference": 78576.0
+    },
+    "DEN": {
+      "ordinary_shape": [
+        29
+      ],
+      "log_shape": [
+        1,
+        29,
+        1,
+        1
+      ],
+      "max_abs_difference": 15.91073989868164
+    },
+    "TLBC": {
+      "ordinary_shape": [
+        1
+      ],
+      "log_shape": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "max_abs_difference": 1.52587890625e-05
+    },
+    "ULBC": {
+      "ordinary_shape": [
+        1
+      ],
+      "log_shape": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "max_abs_difference": 1.7547563402331434e-10
+    },
+    "VLBC": {
+      "ordinary_shape": [
+        1
+      ],
+      "log_shape": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "max_abs_difference": 8.647020877106115e-10
+    }
+  },
+  "global_stds.npz": {
+    "TN": {
+      "ordinary_shape": [
+        28
+      ],
+      "log_shape": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "max_abs_difference": 76.8878173828125
+    },
+    "UN": {
+      "ordinary_shape": [
+        28
+      ],
+      "log_shape": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "max_abs_difference": 140.4091796875
+    },
+    "VN": {
+      "ordinary_shape": [
+        28
+      ],
+      "log_shape": [
+        1,
+        28,
+        1,
+        1
+      ],
+      "max_abs_difference": 157.6552734375
+    },
+    "WN": {
+      "ordinary_shape": [
+        29
+      ],
+      "log_shape": [
+        1,
+        29,
+        1,
+        1
+      ],
+      "max_abs_difference": 9.831649780273438
+    },
+    "Z": {
+      "ordinary_shape": [
+        29
+      ],
+      "log_shape": [
+        1,
+        29,
+        1,
+        1
+      ],
+      "max_abs_difference": 4505254.0
+    },
+    "DEN": {
+      "ordinary_shape": [
+        29
+      ],
+      "log_shape": [
+        1,
+        29,
+        1,
+        1
+      ],
+      "max_abs_difference": 0.10017579048871994
+    },
+    "TLBC": {
+      "ordinary_shape": [
+        1
+      ],
+      "log_shape": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "max_abs_difference": 0.0005726814270019531
+    },
+    "ULBC": {
+      "ordinary_shape": [
+        1
+      ],
+      "log_shape": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "max_abs_difference": 0.0921630859375
+    },
+    "VLBC": {
+      "ordinary_shape": [
+        1
+      ],
+      "log_shape": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "max_abs_difference": 0.185302734375
+    }
+  },
+  "time_means.npz": {
+    "TN": {
+      "ordinary_shape": [
+        28,
+        36,
+        72
+      ],
+      "log_shape": [
+        1,
+        28,
+        36,
+        72
+      ],
+      "max_abs_difference": 5.0640869140625
+    },
+    "UN": {
+      "ordinary_shape": [
+        28,
+        36,
+        72
+      ],
+      "log_shape": [
+        1,
+        28,
+        36,
+        72
+      ],
+      "max_abs_difference": 324.8798828125
+    },
+    "VN": {
+      "ordinary_shape": [
+        28,
+        36,
+        72
+      ],
+      "log_shape": [
+        1,
+        28,
+        36,
+        72
+      ],
+      "max_abs_difference": 260.8369140625
+    },
+    "WN": {
+      "ordinary_shape": [
+        29,
+        36,
+        72
+      ],
+      "log_shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "max_abs_difference": 14.547172546386719
+    },
+    "Z": {
+      "ordinary_shape": [
+        29,
+        36,
+        72
+      ],
+      "log_shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "max_abs_difference": 138976.0
+    },
+    "DEN": {
+      "ordinary_shape": [
+        29,
+        36,
+        72
+      ],
+      "log_shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "max_abs_difference": 15.947561264038086
+    },
+    "TLBC": {
+      "ordinary_shape": [
+        1,
+        36,
+        72
+      ],
+      "log_shape": [
+        1,
+        1,
+        36,
+        72
+      ],
+      "max_abs_difference": 6.103515625e-05
+    },
+    "ULBC": {
+      "ordinary_shape": [
+        1,
+        36,
+        72
+      ],
+      "log_shape": [
+        1,
+        1,
+        36,
+        72
+      ],
+      "max_abs_difference": 2.117230906151235e-07
+    },
+    "VLBC": {
+      "ordinary_shape": [
+        1,
+        36,
+        72
+      ],
+      "log_shape": [
+        1,
+        1,
+        36,
+        72
+      ],
+      "max_abs_difference": 2.4515611585229635e-07
+    }
+  }
+}

@@ -110,3 +110,8 @@ fourcastden_flow_two_step_v1已单独授权执行一次Flow两步，Direct历史
 ## 五日期两小时检查后的门禁
 
 fourcastden_multidate_v1已单独授权新增4固定日期Direct/Flow各2h共8序列16forward，Jan4历史只读，206测试通过。n=5初值不能用格点作独立重复，不能宣称全年/强磁暴/真实大气或轨道精度；Mar23整日增强不代表00—02强驱动，必须用实际NPZ条件。模型与数据原件/归一化统计不改。log-DEN本次仅静态CPU检查，无forward，numpy/CUDA和公平物理ACC门禁待解。新的history/log、更多日期、长时、训练、TIE和轨道均需另授权，完成后停止并安全Git同步。
+
+
+## 官方log-DEN完成后的门禁
+
+fourcastden_logden_multidate_v1已另授权完成5个两步序列/10forward，215测试通过，Direct/Flow历史不重跑。源码隔离副本修正气候态单例形状、逐层仿射广播及np.power/CUDA，原件/权重/统计保留。native DEN ACC在log空间，不能与普通物理指标混排；公平评价使用共同原始物理目标、普通物理气候态及kg/m3。static_log非DEN统计也不同，不称纯log开关消融；本次log绝对指标改善但高层相对误差未改善。新history/长时/训练/TIE/轨道须新授权，正式物理参数和坐标门禁继续，结束安全Git同步。

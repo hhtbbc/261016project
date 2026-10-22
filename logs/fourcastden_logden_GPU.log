@@ -1,0 +1,13 @@
+2026-10-22 02:30:08,618 - root - INFO - Loading inference data
+2026-10-22 02:30:08,619 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_logden_multidate_v1/data_view. Number of examples: 15.
+2026-10-22 02:30:08,619 - root - INFO - Getting file stats from /workspace/data/20261016/experiments/fourcastden_logden_multidate_v1/data_view/2023_01_04_000000.npz
+2026-10-22 02:30:08,637 - root - INFO - Number of channels available: 235.0
+2026-10-22 02:30:08,637 - root - INFO - Number of steps: 15
+2026-10-22 02:30:08,637 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_logden_multidate_v1/data_view. Number of examples: 15. Image shape: 36 x 72 x 177
+2026-10-22 02:30:08,637 - root - INFO - Delta time: 1 hours
+2026-10-22 02:30:08,637 - root - INFO - Including 15 hours of past history at a frequency of 1 hours
+{"date": "2023-01-04", "status": "PASS", "forward_ms": [152.2601318359375, 19.411264419555664], "inverse_ms": 0.08191999793052673}
+{"date": "2023-03-23", "status": "PASS", "forward_ms": [19.474016189575195, 18.8319034576416], "inverse_ms": 0.06963200122117996}
+{"date": "2023-06-21", "status": "PASS", "forward_ms": [19.51263999938965, 18.786495208740234], "inverse_ms": 0.06656000018119812}
+{"date": "2023-09-23", "status": "PASS", "forward_ms": [19.44611167907715, 18.954912185668945], "inverse_ms": 0.06860800087451935}
+{"date": "2023-12-21", "status": "PASS", "forward_ms": [19.619007110595703, 18.643903732299805], "inverse_ms": 0.07065600156784058}

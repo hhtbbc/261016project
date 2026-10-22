@@ -114,3 +114,8 @@ credentials.json
 # Multi-date official inference evidence
 !/logs/fourcastden_multidate*.log
 !/experiments/fourcastden_multidate_v1/*.yaml
+
+# Official log-DEN compatibility and inference evidence
+!/logs/fourcastden_logden*.log
+!/experiments/fourcastden_logden_multidate_v1/config.yaml
+!/experiments/fourcastden_logden_multidate_v1/compatibility.patch

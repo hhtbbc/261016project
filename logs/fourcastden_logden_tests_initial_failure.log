@@ -1,0 +1,21 @@
+...............................E............................................................../workspace/data/20261016/.venv310/lib/python3.10/site-packages/erfa/core.py:133: ErfaWarning: ERFA function "dtf2d" yielded 1 of "dubious year (Note 6)"
+  warn(f'ERFA function "{func_name}" yielded {wmsg}', ErfaWarning)
+........................................................................................................................
+======================================================================
+ERROR: test_logspace_two_step_feedback_without_future_truth (test_fourcastden_logden.LogDenTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/data/20261016/tests/test_fourcastden_logden.py", line 60, in test_logspace_two_step_feedback_without_future_truth
+    a,ins=run(data);poison=data.clone();poison[1:,:171]=999.;b,_=run(poison)
+  File "/workspace/data/20261016/tests/test_fourcastden_logden.py", line 54, in run
+    with MetricTrace(module) as trace:r=f.inference(0)
+  File "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/workspace/data/20261016/experiments/fourcastden_logden_multidate_v1/inference_overlay.py", line 327, in inference
+    pred_den_log = pred[den_idx] * std[den_idx] + mean[den_idx]
+RuntimeError: The size of tensor a (72) must match the size of tensor b (29) at non-singleton dimension 2
+
+----------------------------------------------------------------------
+Ran 214 tests in 24.418s
+
+FAILED (errors=1)

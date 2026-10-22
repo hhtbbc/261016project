@@ -1,0 +1,28 @@
+--- FourCastDEN_linux/inference/inference.py
++++ isolated/inference_overlay.py
+@@ -22,7 +22,8 @@
+ from utils.YParams import YParams
+ from dataset.dataset_tiegcm import TGCMDataset
+ from models.afnonet import AFNONet
+-from utils.YParams import SW_VARS, get_time_means, UNIT_VARS
++from utils.YParams import SW_VARS, UNIT_VARS
++from fourcastden.logden import load_log_time_means as get_time_means
+ 
+ 
+ # 24 hrs for all variables in TIE-GCM (step = 1 hr)
+@@ -323,11 +324,11 @@
+                 den_idx = self.index['DEN']
+ 
+                 #反标准化
+-                pred_den_log = pred[den_idx] * std[den_idx] + mean[den_idx]
+-                tar_den_log = tar[den_idx] * std[den_idx] + mean[den_idx]
++                pred_den_log = pred[den_idx] * std[den_idx, None, None] + mean[den_idx, None, None]
++                tar_den_log = tar[den_idx] * std[den_idx, None, None] + mean[den_idx, None, None]
+                 #反log化
+-                pred_den_phy = np.power(10,pred_den_log)
+-                tar_den_phy = np.power(10,tar_den_log)
++                pred_den_phy = torch.pow(10,pred_den_log)
++                tar_den_phy = torch.pow(10,tar_den_log)
+ 
+                 rmse[i, den_idx] = weighted_rmse_channels(
+                     pred_den_phy.unsqueeze(0),

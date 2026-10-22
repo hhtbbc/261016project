@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "data": [
+    {
+      "name": "2023_01_04_000000.npz",
+      "source": "data/raw/test_minimal_2023/2023_01_04_000000.npz",
+      "sha256": "e5fb32d8fbd3256f372db1b4953fe7b819aa08f8b5e81934715f0e120dd19e05"
+    },
+    {
+      "name": "2023_01_04_010000.npz",
+      "source": "data/raw/test_minimal_2023/2023_01_04_010000.npz",
+      "sha256": "0b3297c5bb11be3f102c324af76acb69fd1df9a5625dd6c9e1e54fc429a7d4f5"
+    },
+    {
+      "name": "2023_01_04_020000.npz",
+      "source": "data/raw/test_minimal_2023/2023_01_04_020000.npz",
+      "sha256": "b260281433e8eddeed02ebcee3d9bc487883b76d77962f0cb9dde389a75c8538"
+    },
+    {
+      "name": "2023_03_23_000000.npz",
+      "source": "data/raw/fourcastden_multidate_v1/2023_03_23_000000.npz",
+      "sha256": "751fbdf764679c44fdd8b667f15818d9d838b1e8ec507dba2b6e4c2545e83165"
+    },
+    {
+      "name": "2023_03_23_010000.npz",
+      "source": "data/raw/fourcastden_multidate_v1/2023_03_23_010000.npz",
+      "sha256": "899296f674013f459c2a860b7e41acbe17fc14aa9d1081c8d0bf1518482b1ce2"
+    },
+    {
+      "name": "2023_03_23_020000.npz",
+      "source": "data/raw/fourcastden_multidate_v1/2023_03_23_020000.npz",
+      "sha256": "dbb1adcb8694c9c844f922298c878bd225830c3438566ae2de707e90edd67faf"
+    },
+    {
+      "name": "2023_06_21_000000.npz",
+      "source": "data/raw/fourcastden_multidate_v1/2023_06_21_000000.npz",
+      "sha256": "8a16e869106857e02db91aa81e5a01ffe5f444310cd0095712f0e17e43b41fd3"
+    },
+    {
+      "name": "2023_06_21_010000.npz",
+      "source": "data/raw/fourcastden_multidate_v1/2023_06_21_010000.npz",
+      "sha256": "321c370dfeace25444bb80466fa42996d1b5999fd529c867973d715ba7b3286d"
+    },
+    {
+      "name": "2023_06_21_020000.npz",
+      "source": "data/raw/fourcastden_multidate_v1/2023_06_21_020000.npz",
+      "sha256": "738a9ce3a91fe55921d81b645d18dae2b10c49dab0a3aa5d1ac8cc2890ac1c2f"
+    },
+    {
+      "name": "2023_09_23_000000.npz",
+      "source": "data/raw/fourcastden_multidate_v1/2023_09_23_000000.npz",
+      "sha256": "dbb96410269caaabe571dd9803d3a9a4422f6310429566e3ebdf001e7eedfdf9"
+    },
+    {
+      "name": "2023_09_23_010000.npz",
+      "source": "data/raw/fourcastden_multidate_v1/2023_09_23_010000.npz",
+      "sha256": "2778c40fa7753a122b9adbd78c19940db6206fba96e24e35af6150669f086079"
+    },
+    {
+      "name": "2023_09_23_020000.npz",
+      "source": "data/raw/fourcastden_multidate_v1/2023_09_23_020000.npz",
+      "sha256": "6f396170ac1d53fd152ee9f5da2f484e9f33a874266acfbe798ab63725c44276"
+    },
+    {
+      "name": "2023_12_21_000000.npz",
+      "source": "data/raw/fourcastden_multidate_v1/2023_12_21_000000.npz",
+      "sha256": "dca3a45902d964a933d8587c0fda8bc41ff41e049cef40348f62d3dbbba56935"
+    },
+    {
+      "name": "2023_12_21_010000.npz",
+      "source": "data/raw/fourcastden_multidate_v1/2023_12_21_010000.npz",
+      "sha256": "05a87d32876e0bcbe0eb92d8446a826d3996a789ac8795626924a8972116fa4c"
+    },
+    {
+      "name": "2023_12_21_020000.npz",
+      "source": "data/raw/fourcastden_multidate_v1/2023_12_21_020000.npz",
+      "sha256": "15061cab4b34b12467f4437a4d8f02656281aaae59e76a6b04ca46398abe8638"
+    }
+  ],
+  "code_sha256": {
+    "scripts/run_fourcastden_logden_multidate.py": "83029a94741494503be6d5261d6fb8f576dad6439fd14a29457688d65d158fdb",
+    "src/fourcastden/logden.py": "9e19a8096be54f10d25c3059c45309c5024012f36fcc77b614ba536abc591439",
+    "tests/test_fourcastden_logden.py": "71db4d6c578563f29993154868410d7a266e592b2416614a4171eaeeee2367f1",
+    "docs/FOURCASTDEN_LOGDEN_PREREGISTRATION.md": "27b5b3e1902fb9af3840d05f93854e472a791d22b3aa82eb6abb3dfa8c9fd746",
+    "experiments/fourcastden_logden_multidate_v1/inference_overlay.py": "f1e8fd5acb61ae8fd06b01839ba4be2ffeb8b52385b819e2dc59faa9965d7e1d",
+    "experiments/fourcastden_logden_multidate_v1/compatibility.patch": "d7ffa94cfd9576979b68edce1c011c3a7b6d7536847126503df6e2a5d403147c"
+  },
+  "config_sha256": "d2b8c51562d84e4dd475fd8680412b20c50fc060e66346c7ae325058acfce529",
+  "checkpoint_sha256": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18",
+  "compatibility_GPU_wall_s": 0.5881001986563206,
+  "tests": 215,
+  "no_download": true,
+  "Direct_Flow_rerun": false,
+  "shared_reference": "raw original NPZ, ordinary physical climatology; each model retains matched statistics"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2023-01-04",
+    "native_DEN_pass": true,
+    "failed_indices": [],
+    "max_relative_discrepancy": 1.1591082060764842e-07,
+    "author_zero_count": 0,
+    "expected_min": 1.631695056348476e-19,
+    "saved_physical_den_dtype": "float32"
+  },
+  {
+    "date": "2023-03-23",
+    "native_DEN_pass": true,
+    "failed_indices": [],
+    "max_relative_discrepancy": 9.838214362699392e-08,
+    "author_zero_count": 0,
+    "expected_min": 1.6340904333800717e-19,
+    "saved_physical_den_dtype": "float32"
+  },
+  {
+    "date": "2023-06-21",
+    "native_DEN_pass": true,
+    "failed_indices": [],
+    "max_relative_discrepancy": 9.820564985408733e-08,
+    "author_zero_count": 0,
+    "expected_min": 1.2696435701537663e-19,
+    "saved_physical_den_dtype": "float32"
+  },
+  {
+    "date": "2023-09-23",
+    "native_DEN_pass": true,
+    "failed_indices": [],
+    "max_relative_discrepancy": 9.720030981455771e-08,
+    "author_zero_count": 0,
+    "expected_min": 1.353320733217755e-19,
+    "saved_physical_den_dtype": "float32"
+  },
+  {
+    "date": "2023-12-21",
+    "native_DEN_pass": true,
+    "failed_indices": [],
+    "max_relative_discrepancy": 1.095487161033742e-07,
+    "author_zero_count": 0,
+    "expected_min": 1.410433052958566e-19,
+    "saved_physical_den_dtype": "float32"
+  }
+]
