@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 533,
+  "formal_sequences": 8,
+  "formal_forwards": 48,
+  "short_check_forwards": 1,
+  "tests": 232,
+  "common_physical_channel_checks": 8208,
+  "author_normalized_RMSE_max_relative": 2.3768521021598503e-07,
+  "author_ACC_max_absolute": 2.2909440944296477e-07,
+  "DEN_positive_fraction": 1.0,
+  "all_steps_feedback_exact": true,
+  "history_third_step_onward_two_predictions": true,
+  "January_first_two_steps_exact_to_history": true,
+  "network_body_bytes": 26985595,
+  "network_reserved_bytes": 26985662,
+  "HTTP500_count": 1,
+  "download_attempts": 2,
+  "new_files_bytes": 410503172,
+  "wall_s": 39.700138587504625,
+  "peak_RSS_bytes": 1413128192,
+  "CSV_rows": {
+    "layers": 10260,
+    "summary": 360,
+    "density_layers": 5220,
+    "windows": 60,
+    "author_native": 8208,
+    "growth": 48,
+    "performance": 8,
+    "drivers": 16
+  }
+}

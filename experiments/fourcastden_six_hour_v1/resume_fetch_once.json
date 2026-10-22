@@ -1,0 +1,5 @@
+{
+  "reason": "one bounded retry of remaining files after HTTP500; no CRC/Range failure bypass",
+  "previous_body_bytes": 15568379,
+  "previous_reserved_bytes": 15568427
+}

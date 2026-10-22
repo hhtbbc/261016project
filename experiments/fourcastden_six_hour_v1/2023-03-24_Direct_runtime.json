@@ -1,0 +1,231 @@
+{
+  "date": "2023-03-24",
+  "model": "Direct",
+  "status": "PASS",
+  "parameters": 64695744,
+  "checkpoint_sha256": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+  "config_sha256": "924e7c55c393feacde257593bc36ab681ee7e1230e71d1e79f8bfe989d794532",
+  "n_history": 0,
+  "formal_forwards": 6,
+  "input_shape": [
+    1,
+    177,
+    36,
+    72
+  ],
+  "output_shape": [
+    1,
+    171,
+    36,
+    72
+  ],
+  "prediction_shape": [
+    1,
+    7,
+    171,
+    36,
+    72
+  ],
+  "model_load_s": 0.0,
+  "model_reused": true,
+  "loading_peak_allocated_bytes": 1035196416,
+  "read_preprocess_s": 0.11604623310267925,
+  "read_decode_s": 0.09107911214232445,
+  "normalization_s": 0.0042462702840566635,
+  "preprocess_excluding_read_s": 0.024967120960354805,
+  "loop_read_decode_s": 0.09194965288043022,
+  "loop_normalization_s": 0.0037707723677158356,
+  "native_metric_timing": [
+    {
+      "function": "weighted_rmse_channels",
+      "GPU_ms": 0.21606400609016418,
+      "call_wall_s": 0.00028748996555805206
+    },
+    {
+      "function": "weighted_acc_channels",
+      "GPU_ms": 0.1525759994983673,
+      "call_wall_s": 0.0001907162368297577
+    },
+    {
+      "function": "unweighted_acc_channels",
+      "GPU_ms": 0.10956799983978271,
+      "call_wall_s": 0.00014113448560237885
+    },
+    {
+      "function": "weighted_rmse_channels",
+      "GPU_ms": 0.12595200538635254,
+      "call_wall_s": 0.00017777271568775177
+    },
+    {
+      "function": "weighted_acc_channels",
+      "GPU_ms": 0.09830400347709656,
+      "call_wall_s": 0.000134393572807312
+    },
+    {
+      "function": "unweighted_acc_channels",
+      "GPU_ms": 0.09113600105047226,
+      "call_wall_s": 0.0001224800944328308
+    },
+    {
+      "function": "weighted_rmse_channels",
+      "GPU_ms": 0.10035199671983719,
+      "call_wall_s": 0.00015239976346492767
+    },
+    {
+      "function": "weighted_acc_channels",
+      "GPU_ms": 0.09523200243711472,
+      "call_wall_s": 0.00013219937682151794
+    },
+    {
+      "function": "unweighted_acc_channels",
+      "GPU_ms": 0.09216000139713287,
+      "call_wall_s": 0.00012106448411941528
+    },
+    {
+      "function": "weighted_rmse_channels",
+      "GPU_ms": 0.09625600278377533,
+      "call_wall_s": 0.000145789235830307
+    },
+    {
+      "function": "weighted_acc_channels",
+      "GPU_ms": 0.09216000139713287,
+      "call_wall_s": 0.00012837909162044525
+    },
+    {
+      "function": "unweighted_acc_channels",
+      "GPU_ms": 0.09011200070381165,
+      "call_wall_s": 0.00011947192251682281
+    },
+    {
+      "function": "weighted_rmse_channels",
+      "GPU_ms": 0.09625600278377533,
+      "call_wall_s": 0.0001456141471862793
+    },
+    {
+      "function": "weighted_acc_channels",
+      "GPU_ms": 0.09318400174379349,
+      "call_wall_s": 0.00012706778943538666
+    },
+    {
+      "function": "unweighted_acc_channels",
+      "GPU_ms": 0.09216000139713287,
+      "call_wall_s": 0.00012125074863433838
+    },
+    {
+      "function": "weighted_rmse_channels",
+      "GPU_ms": 0.09932799637317657,
+      "call_wall_s": 0.0001491159200668335
+    },
+    {
+      "function": "weighted_acc_channels",
+      "GPU_ms": 0.09830400347709656,
+      "call_wall_s": 0.00013426132500171661
+    },
+    {
+      "function": "unweighted_acc_channels",
+      "GPU_ms": 0.09216000139713287,
+      "call_wall_s": 0.00012211129069328308
+    }
+  ],
+  "native_metrics_GPU_ms": 1.9312640279531479,
+  "native_metrics_call_wall_s": 0.0026527121663093567,
+  "author_loop_metrics_hooks_s": 0.2556311022490263,
+  "save_s": 2.2396762762218714,
+  "GPU_forward_ms": [
+    19.928159713745117,
+    22.004640579223633,
+    18.06675148010254,
+    17.745695114135742,
+    17.78598403930664,
+    17.887296676635742
+  ],
+  "peak_allocated_bytes": 309395968,
+  "peak_reserved_bytes": 1159725056,
+  "RSS_KiB": 1170564,
+  "feedback": {
+    "passed": true,
+    "forwards": 6,
+    "history": 0,
+    "future_physical_truth_used": false,
+    "future_auxiliary_and_scalars_used": true,
+    "all_steps_exact": true,
+    "flow_delta_checked": false,
+    "history_after_second_step_is_fully_predicted": false
+  },
+  "result_sha256": "82d5e7f6d4a73b03bd8086ea900d71d466540649ace7c5fbd1b5af289c525d08",
+  "result_bytes": 43566094,
+  "step_physics": [
+    {
+      "lead_hour": 1,
+      "DEN_min_kg_m3": 6.428455505743962e-14,
+      "DEN_max_kg_m3": 1.2012512084897907e-06,
+      "TN_min_K": 147.05591979150813,
+      "TN_max_K": 1567.248766123128,
+      "max_abs_wind_m_s": 1095.5186137917917,
+      "Z_min_m": 95669.6366407994,
+      "Z_max_m": 834747.3981885671,
+      "nonfinite": 0,
+      "DEN_nonpositive": 0
+    },
+    {
+      "lead_hour": 2,
+      "DEN_min_kg_m3": 6.39728581399224e-14,
+      "DEN_max_kg_m3": 1.201626953891922e-06,
+      "TN_min_K": 147.21202529637435,
+      "TN_max_K": 1599.8514022617892,
+      "max_abs_wind_m_s": 1041.1895689350367,
+      "Z_min_m": 95667.24304779444,
+      "Z_max_m": 838603.9972836841,
+      "nonfinite": 0,
+      "DEN_nonpositive": 0
+    },
+    {
+      "lead_hour": 3,
+      "DEN_min_kg_m3": 6.39248164767472e-14,
+      "DEN_max_kg_m3": 1.20215568774113e-06,
+      "TN_min_K": 147.28433482467847,
+      "TN_max_K": 1644.6008691551033,
+      "max_abs_wind_m_s": 977.7656181219966,
+      "Z_min_m": 95666.4900149005,
+      "Z_max_m": 848041.5052125037,
+      "nonfinite": 0,
+      "DEN_nonpositive": 0
+    },
+    {
+      "lead_hour": 4,
+      "DEN_min_kg_m3": 6.458456984548258e-14,
+      "DEN_max_kg_m3": 1.202173361383421e-06,
+      "TN_min_K": 147.12089235819894,
+      "TN_max_K": 1639.9116816571768,
+      "max_abs_wind_m_s": 956.4419668546692,
+      "Z_min_m": 95659.30507975488,
+      "Z_max_m": 825593.2816542721,
+      "nonfinite": 0,
+      "DEN_nonpositive": 0
+    },
+    {
+      "lead_hour": 5,
+      "DEN_min_kg_m3": 6.540227027367106e-14,
+      "DEN_max_kg_m3": 1.2013294998998677e-06,
+      "TN_min_K": 146.88632160413897,
+      "TN_max_K": 1653.221009569228,
+      "max_abs_wind_m_s": 934.6821404543891,
+      "Z_min_m": 95655.19200848229,
+      "Z_max_m": 822642.2151463937,
+      "nonfinite": 0,
+      "DEN_nonpositive": 0
+    },
+    {
+      "lead_hour": 6,
+      "DEN_min_kg_m3": 6.649659204994777e-14,
+      "DEN_max_kg_m3": 1.2014606238853894e-06,
+      "TN_min_K": 146.90584741234045,
+      "TN_max_K": 1721.1828937124228,
+      "max_abs_wind_m_s": 826.6858265227731,
+      "Z_min_m": 95654.23580845409,
+      "Z_max_m": 818052.3035487402,
+      "nonfinite": 0,
+      "DEN_nonpositive": 0
+    }
+  ]
+}

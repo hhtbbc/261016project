@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/workspace/data/20261016/scripts/run_fourcastden_six_hour.py", line 122, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--fetch',action='store_true');p.add_argument('--execute',action='store_true');a=p.parse_args();fetch() if a.fetch else execute() if a.execute else prepare()
+  File "/workspace/data/20261016/scripts/run_fourcastden_six_hour.py", line 38, in fetch
+    b=z.read(info.filename);assert zlib.crc32(b)&0xffffffff==info.CRC;p=RAW/info.filename
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/zipfile.py", line 1499, in read
+    with self.open(name, "r", pwd) as fp:
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/zipfile.py", line 1561, in open
+    fname = zef_file.read(fheader[_FH_FILENAME_LENGTH])
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/zipfile.py", line 766, in read
+    data = self._file.read(n)
+  File "/workspace/data/20261016/src/fourcastden/multidate.py", line 44, in read
+    with self.opener(req,timeout=30) as response:
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 525, in open
+    response = meth(req, response)
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 500: INTERNAL SERVER ERROR

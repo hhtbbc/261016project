@@ -436,3 +436,23 @@ History唯一真实forward预检通过，随后History/Direct/Flow/log各一次�
 命令：source scripts/activate310.sh；unittest discover；run_fourcastden_four_model_multidate.py --fetch；无参静态；supervise_fourcastden_four_model.py；analyze_fourcastden_four_model_multidate.py；audit_fourcastden_four_model_multidate.py；History_interface_diagnostics离线逐元素核对；write_fourcastden_four_model_reports.py；最终audit --final。15类CSV、7真实图、配置/请求/驱动/保护审计在新标签；报告VALIDATION/COMPARISON，下一6h方案单独文档。脚本读取旧数据，无覆盖；复用Python3.10/torch2.4.1+cu121/A100/FP32/TF32false，无依赖安装。
 
 6h仅设计Jan4工程基准与外部GFZ def Kp00/03/06均>=5的Mar24（7.333/8/6.333），未看该窗模型误差；本地官方目录确认00—07存在，12帧待取（Jan4缺04—07四帧、Mar24缺八帧）。未来要升级任意步反馈毒化、独立预算授权，当前未取未来帧/未6h/训练/轨道。正式真实大气/Swarm气动推力/高度/预热/受力门禁不变，任务后停止，Git以最终远端核验为准。
+
+## 2026-10-22：FourCastDEN两日期四模型连续6小时与增强活动条件比较
+
+先读AGENTS/STATUS/WORKLOG、六小时方案、下一决策/评价协议、多日期验证/比较、History验证，核验本地main/远端均a1b474481155d252281ec3ff7751351f82b4d18a。复用原官方4权重/static/隔离log层，保护533项历史资产SHA。两日期固定Jan4和按GFZ外部规则预选Mar24，未按新误差选窗。
+
+新增autoregression.py支持任意正L/H0/H1，实际作者CPU循环+合成网络对四模式6步未来真值毒化预测不变，History第三步两个预测状态、后期teacher forcing/aux/scalar错位及Flow增量误用拒绝。新增6测试，全232项25.416s通过；旧ERFA测试与focused导入warning原日志保留，无环境安装/屏蔽。预注册freeze后才真实GPU。
+
+只新增Jan4 04—07和Mar24 00—07共12NPZ。已存目录压缩25,019,661字节，网络中央目录复核CRC/大小/真实header offset。初次完成7帧后读取第8文件名Range遇HTTP500、0body，保留失败日志/ranges；另一次有界--resume-fetch仅取剩5帧，不覆盖/重取已完成，累计26,985,595字节（25.74MiB）、保守reserved26,985,662<40MiB。所有成功Range206/Content-Range/长度正确，ZIP/zlib CRC、SHA、14键、float32、finite/哨兵、正DEN/TN/ZG单调及单位网格契约通过，raw0444。NPZ无独立单位/时间坐标属性，契约不等于外部参考基准。
+
+先唯一Jan4 Direct真实单forward短例通过，再8独立六步序列共48正式forward，模型各加载一次复用两个独立初始化。新DatasetTimer/MetricTimer只透传原函数计时，不改原数学/源码/返回；实际174通道匹配标准化和所有hooks逐步核对；Flow normalized增量、log匹配log10/stat/pow10、History从real00+real01滑到预测窗口，无未来物理真值重置。两日期原NPZ未来LBC/标量/SEA/磁辅助给定，HINDCAST。无模型失败/重试或输出裁剪。
+
+全部预测finite/DEN正，TN146.87—1736.58K、最大绝对风分量1095.52m/s、Z位势高度95.65—854.88km，无明显数值发散；这不是实际观测准确证明。独立NumPy8208物理通道/作者native检查通过，rtol/ACC门槛不改；Jan4四组前2步与旧2h数组逐元素一致。作者log ACC/dex与公共物理指标分表。
+
+结果：Jan4高层DEN第一小时Flow最低、2—6h Direct最低；Mar24第一小时Flow最低、2—4h History最低、5—6h log最低。+6h near相对RMS Jan4 D/F/log/H=1.23908/1.47699/1.33594/1.55513%，Mar24=4.27263/4.35886/3.90706/4.04544%。History全层绝对DEN所有时效仍最高，低倍率不能当稳定。Jan4部分WN、Mar24四组VN有一步平均RMSE下降，不预设单调。Mar24 near组从20/21/22变20/21（+3h起22中位超过500km），固定upper与全逐层同时报告。Jan4工程基准Kp3.35—4.633非安静，Mar24作者Kp6.583—7.883，GFZ桶/观测F107/中心81平均与作者不完全同约定，不替换。两窗同UT，季节/初态/历史条件混杂，不作磁暴因果/时延结论。
+
+监督39.700139s、峰RSS1,413,128,192字节=1.316GiB；GPU phase30.840975s含CPU I/O/压缩，6次forward合计每组约110—113ms。首次原native指标事件546.599ms及log分支116.391ms含冷编译/派发等待，不当纯kernel；数据读取解码/标准化/其余预处理、加载、指标、loop和保存分别记录，不作AI替代TIE端到端速度比。CPU分析10.55367s、峰650964KiB，新增约392MiB<800MiB。
+
+命令：source scripts/activate310.sh；unittest discover；run_fourcastden_six_hour.py --fetch；--resume-fetch（一次余量补取）；无参静态；driver_comparison离线GFZ审查；supervise_fourcastden_six_hour.py；analyze_fourcastden_six_hour.py；audit_fourcastden_six_hour.py；write_fourcastden_six_hour_reports.py；最终audit --final。新8图/8类CSV、配置/输入SHA/原生及物理审计，原始/预测NPZ本地不入Git；3报告与LONG_HORIZON_DECISION。长期路线第二阶段未训练，第一阶段正式物理门禁不变。
+
+后续只设计先同两窗四组12h（每窗缺08—13六帧共12），通过后再24h；不按当前两个窗口选择最终模型或在2023拟合参数。缺作者完整训练入口/2000—2022数据/独立验证、多种子训练消融、真实观测密度及Z/ZG/时间/Swarm气动姿态推力/共同受力条件。当前停止，不继续12/24h、训练/TIE/轨道；Git同步以实际远端HEAD为准。

@@ -1,0 +1,175 @@
+{
+  "transfer_bytes": 11417216,
+  "reserved_bytes": 11417235,
+  "limit_bytes": 26374613,
+  "requests": [
+    {
+      "start": 18149758887,
+      "end": 18149758908,
+      "requested_bytes": 22,
+      "body_bytes_read": 22,
+      "status": 206,
+      "Content-Range": "bytes 18149758887-18149758908/18149758909"
+    },
+    {
+      "start": 18149758867,
+      "end": 18149758886,
+      "requested_bytes": 20,
+      "body_bytes_read": 20,
+      "status": 206,
+      "Content-Range": "bytes 18149758867-18149758886/18149758909"
+    },
+    {
+      "start": 18149758811,
+      "end": 18149758866,
+      "requested_bytes": 56,
+      "body_bytes_read": 56,
+      "status": 206,
+      "Content-Range": "bytes 18149758811-18149758866/18149758909"
+    },
+    {
+      "start": 18148776263,
+      "end": 18149758810,
+      "requested_bytes": 982548,
+      "body_bytes_read": 982548,
+      "status": 206,
+      "Content-Range": "bytes 18148776263-18149758810/18149758909"
+    },
+    {
+      "start": 4089161857,
+      "end": 4089161886,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 4089161857-4089161886/18149758909"
+    },
+    {
+      "start": 4089161887,
+      "end": 4089161907,
+      "requested_bytes": 21,
+      "body_bytes_read": 21,
+      "status": 206,
+      "Content-Range": "bytes 4089161887-4089161907/18149758909"
+    },
+    {
+      "start": 4089161908,
+      "end": 4091248818,
+      "requested_bytes": 2086911,
+      "body_bytes_read": 2086911,
+      "status": 206,
+      "Content-Range": "bytes 4089161908-4091248818/18149758909"
+    },
+    {
+      "start": 4091248819,
+      "end": 4091248848,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 4091248819-4091248848/18149758909"
+    },
+    {
+      "start": 4091248849,
+      "end": 4091248869,
+      "requested_bytes": 21,
+      "body_bytes_read": 21,
+      "status": 206,
+      "Content-Range": "bytes 4091248849-4091248869/18149758909"
+    },
+    {
+      "start": 4091248870,
+      "end": 4093336134,
+      "requested_bytes": 2087265,
+      "body_bytes_read": 2087265,
+      "status": 206,
+      "Content-Range": "bytes 4091248870-4093336134/18149758909"
+    },
+    {
+      "start": 4093336135,
+      "end": 4093336164,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 4093336135-4093336164/18149758909"
+    },
+    {
+      "start": 4093336165,
+      "end": 4093336185,
+      "requested_bytes": 21,
+      "body_bytes_read": 21,
+      "status": 206,
+      "Content-Range": "bytes 4093336165-4093336185/18149758909"
+    },
+    {
+      "start": 4093336186,
+      "end": 4095423257,
+      "requested_bytes": 2087072,
+      "body_bytes_read": 2087072,
+      "status": 206,
+      "Content-Range": "bytes 4093336186-4095423257/18149758909"
+    },
+    {
+      "start": 4095423258,
+      "end": 4095423287,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 4095423258-4095423287/18149758909"
+    },
+    {
+      "start": 4095423288,
+      "end": 4095423308,
+      "requested_bytes": 21,
+      "body_bytes_read": 21,
+      "status": 206,
+      "Content-Range": "bytes 4095423288-4095423308/18149758909"
+    },
+    {
+      "start": 4095423309,
+      "end": 4097510324,
+      "requested_bytes": 2087016,
+      "body_bytes_read": 2087016,
+      "status": 206,
+      "Content-Range": "bytes 4095423309-4097510324/18149758909"
+    },
+    {
+      "start": 4097510325,
+      "end": 4097510354,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 4097510325-4097510354/18149758909"
+    },
+    {
+      "start": 4097510355,
+      "end": 4097510375,
+      "requested_bytes": 21,
+      "body_bytes_read": 21,
+      "status": 206,
+      "Content-Range": "bytes 4097510355-4097510375/18149758909"
+    },
+    {
+      "start": 4097510376,
+      "end": 4099596426,
+      "requested_bytes": 2086051,
+      "body_bytes_read": 2086051,
+      "status": 206,
+      "Content-Range": "bytes 4097510376-4099596426/18149758909"
+    }
+  ],
+  "completed_members": [
+    "2023_01_04_040000.npz",
+    "2023_01_04_050000.npz",
+    "2023_01_04_060000.npz",
+    "2023_01_04_070000.npz",
+    "2023_03_24_000000.npz",
+    "2023_03_24_010000.npz",
+    "2023_03_24_020000.npz",
+    "2023_03_24_030000.npz",
+    "2023_03_24_040000.npz",
+    "2023_03_24_050000.npz",
+    "2023_03_24_060000.npz",
+    "2023_03_24_070000.npz"
+  ],
+  "cumulative_body_bytes": 26985595,
+  "cumulative_reserved_bytes": 26985662
+}

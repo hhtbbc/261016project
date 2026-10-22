@@ -128,3 +128,8 @@ credentials.json
 !/logs/fourcastden_four_model*.log
 /logs/fourcastden_four_model_context_read.log
 !/experiments/fourcastden_four_model_multidate_v1/*.yaml
+
+# Six-hour reproducibility: configs/logs/audits only, no raw prediction fields.
+!/logs/fourcastden_six_hour*.log
+/logs/fourcastden_six_hour_context.log
+!/experiments/fourcastden_six_hour_v1/*.yaml

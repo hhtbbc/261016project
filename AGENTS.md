@@ -123,3 +123,7 @@ fourcastden_history_comparison_v1已单独授权完成Jan4同01起点4模型各2
 ## 五日期四模型共同01时评价后的门禁
 
 fourcastden_four_model_multidate_v1已另授权完成后4日期03补帧及16序列32forward，Jan4只读复用，无额外真实预检；226测试。History DEN两个时效5/5不优于Direct/Flow，Dec部分风场例外；高层Flow第1h5/5最低、第2h3/5，不能按胜窗数或均值单独挑最终模型。00/01的同lead目标不同，共同02目标lead和初态信息又不同，不作纯驱动因果。原统计/权重/旧数组不改，不放宽门槛修补较差结果。下一项6h仅设计（Jan4与按外部GFZ预选Mar24），需要新数据/任意步反馈测试及新授权；不自动6/12/24h、训练/TIE/轨道，真实大气与轨道门禁不变，任务后安全Git同步。
+
+## 两日期四模型连续6小时完成后的门禁
+
+fourcastden_six_hour_v1已单独授权完成Jan4/Mar24各4组6步（48正式forward）加1次Direct短例，232测试。任意步检查与真实hooks确认History第三步起两个预测状态、Flow normalized增量及log匹配表示，无未来物理真值重置；Jan4前2步与旧数组逐元素一致。数据初次HTTP500后有界只补剩5帧，合计12新样本/25.74MiB，旧文件不改。Jan4高层2—6h Direct较低；Mar24 History2—4h、log5—6h较低，不以两窗定总体架构/地磁因果；near组随参考ZG可变，固定upper与逐层另报。12/24h仅设计、不自动执行/训练/TIE/RK45；真实大气与轨道参数/高度门禁不变。任务后安全同步GitHub。

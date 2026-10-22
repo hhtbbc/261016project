@@ -1,0 +1,231 @@
+{
+  "date": "2023-01-04",
+  "model": "History",
+  "status": "PASS",
+  "parameters": 66870720,
+  "checkpoint_sha256": "cc4b44f6daea6188e4bfbde06796b950a50cfb215c0ad2295cff176a21a4ddc4",
+  "config_sha256": "0e47e6795a2f497d1ae3d36e6fe89e41d3238b506140943b41dc3bd3a2362e40",
+  "n_history": 1,
+  "formal_forwards": 6,
+  "input_shape": [
+    1,
+    354,
+    36,
+    72
+  ],
+  "output_shape": [
+    1,
+    171,
+    36,
+    72
+  ],
+  "prediction_shape": [
+    1,
+    7,
+    171,
+    36,
+    72
+  ],
+  "model_load_s": 1.1718838550150394,
+  "model_reused": false,
+  "loading_peak_allocated_bytes": 1078515712,
+  "read_preprocess_s": 0.12570535577833652,
+  "read_decode_s": 0.10136810131371021,
+  "normalization_s": 0.004624018445611,
+  "preprocess_excluding_read_s": 0.024337254464626312,
+  "loop_read_decode_s": 0.10116868652403355,
+  "loop_normalization_s": 0.0041477493941783905,
+  "native_metric_timing": [
+    {
+      "function": "weighted_rmse_channels",
+      "GPU_ms": 0.1669120043516159,
+      "call_wall_s": 0.00023183226585388184
+    },
+    {
+      "function": "weighted_acc_channels",
+      "GPU_ms": 0.11776000261306763,
+      "call_wall_s": 0.00015561655163764954
+    },
+    {
+      "function": "unweighted_acc_channels",
+      "GPU_ms": 0.09932799637317657,
+      "call_wall_s": 0.00013011693954467773
+    },
+    {
+      "function": "weighted_rmse_channels",
+      "GPU_ms": 0.12390399724245071,
+      "call_wall_s": 0.000180710107088089
+    },
+    {
+      "function": "weighted_acc_channels",
+      "GPU_ms": 0.11264000087976456,
+      "call_wall_s": 0.00014833174645900726
+    },
+    {
+      "function": "unweighted_acc_channels",
+      "GPU_ms": 0.09625600278377533,
+      "call_wall_s": 0.0001279134303331375
+    },
+    {
+      "function": "weighted_rmse_channels",
+      "GPU_ms": 0.11059200018644333,
+      "call_wall_s": 0.00016416236758232117
+    },
+    {
+      "function": "weighted_acc_channels",
+      "GPU_ms": 0.12390399724245071,
+      "call_wall_s": 0.00016059167683124542
+    },
+    {
+      "function": "unweighted_acc_channels",
+      "GPU_ms": 0.10751999914646149,
+      "call_wall_s": 0.00013974681496620178
+    },
+    {
+      "function": "weighted_rmse_channels",
+      "GPU_ms": 0.1013759970664978,
+      "call_wall_s": 0.00015264376997947693
+    },
+    {
+      "function": "weighted_acc_channels",
+      "GPU_ms": 0.10547199845314026,
+      "call_wall_s": 0.0001405179500579834
+    },
+    {
+      "function": "unweighted_acc_channels",
+      "GPU_ms": 0.0942080020904541,
+      "call_wall_s": 0.00012569688260555267
+    },
+    {
+      "function": "weighted_rmse_channels",
+      "GPU_ms": 0.1013759970664978,
+      "call_wall_s": 0.00015098974108695984
+    },
+    {
+      "function": "weighted_acc_channels",
+      "GPU_ms": 0.09318400174379349,
+      "call_wall_s": 0.00012759491801261902
+    },
+    {
+      "function": "unweighted_acc_channels",
+      "GPU_ms": 0.09011200070381165,
+      "call_wall_s": 0.00011929497122764587
+    },
+    {
+      "function": "weighted_rmse_channels",
+      "GPU_ms": 0.09830400347709656,
+      "call_wall_s": 0.00014941208064556122
+    },
+    {
+      "function": "weighted_acc_channels",
+      "GPU_ms": 0.10649599879980087,
+      "call_wall_s": 0.00014135800302028656
+    },
+    {
+      "function": "unweighted_acc_channels",
+      "GPU_ms": 0.09113600105047226,
+      "call_wall_s": 0.00012174062430858612
+    }
+  ],
+  "native_metrics_GPU_ms": 1.940480001270771,
+  "native_metrics_call_wall_s": 0.002668270841240883,
+  "author_loop_metrics_hooks_s": 0.2722843773663044,
+  "save_s": 2.746410695835948,
+  "GPU_forward_ms": [
+    20.740127563476562,
+    18.686559677124023,
+    18.97760009765625,
+    18.217695236206055,
+    18.255136489868164,
+    18.204608917236328
+  ],
+  "peak_allocated_bytes": 323758592,
+  "peak_reserved_bytes": 1214251008,
+  "RSS_KiB": 1380008,
+  "feedback": {
+    "passed": true,
+    "forwards": 6,
+    "history": 1,
+    "future_physical_truth_used": false,
+    "future_auxiliary_and_scalars_used": true,
+    "all_steps_exact": true,
+    "flow_delta_checked": false,
+    "history_after_second_step_is_fully_predicted": true
+  },
+  "result_sha256": "b44eb266b2871fc0484cb3e296e7c918b6d6375533eac7af91c4bf31712dfb86",
+  "result_bytes": 55881703,
+  "step_physics": [
+    {
+      "lead_hour": 1,
+      "DEN_min_kg_m3": 5.6642545615866474e-14,
+      "DEN_max_kg_m3": 1.1318996477892028e-06,
+      "TN_min_K": 152.2714581605918,
+      "TN_max_K": 1322.9308858408585,
+      "max_abs_wind_m_s": 741.8100222054869,
+      "Z_min_m": 95716.23599999197,
+      "Z_max_m": 722434.7144348389,
+      "nonfinite": 0,
+      "DEN_nonpositive": 0
+    },
+    {
+      "lead_hour": 2,
+      "DEN_min_kg_m3": 5.649075088521644e-14,
+      "DEN_max_kg_m3": 1.1351050045363075e-06,
+      "TN_min_K": 152.2845643076687,
+      "TN_max_K": 1332.9917672721494,
+      "max_abs_wind_m_s": 748.7088886744203,
+      "Z_min_m": 95730.71117503718,
+      "Z_max_m": 725063.9749974721,
+      "nonfinite": 0,
+      "DEN_nonpositive": 0
+    },
+    {
+      "lead_hour": 3,
+      "DEN_min_kg_m3": 5.749205334079172e-14,
+      "DEN_max_kg_m3": 1.1343491581052814e-06,
+      "TN_min_K": 152.31228668611755,
+      "TN_max_K": 1357.5900648274765,
+      "max_abs_wind_m_s": 727.1490575883445,
+      "Z_min_m": 95743.69657052768,
+      "Z_max_m": 724492.5199227935,
+      "nonfinite": 0,
+      "DEN_nonpositive": 0
+    },
+    {
+      "lead_hour": 4,
+      "DEN_min_kg_m3": 5.860141792575449e-14,
+      "DEN_max_kg_m3": 1.1348517111060517e-06,
+      "TN_min_K": 152.31640011535308,
+      "TN_max_K": 1386.707294074622,
+      "max_abs_wind_m_s": 664.3562550877547,
+      "Z_min_m": 95751.14701476839,
+      "Z_max_m": 726115.7301268047,
+      "nonfinite": 0,
+      "DEN_nonpositive": 0
+    },
+    {
+      "lead_hour": 5,
+      "DEN_min_kg_m3": 5.815847943294037e-14,
+      "DEN_max_kg_m3": 1.1352734378004485e-06,
+      "TN_min_K": 152.36972758118566,
+      "TN_max_K": 1393.117909466113,
+      "max_abs_wind_m_s": 602.2094468125608,
+      "Z_min_m": 95757.53025162898,
+      "Z_max_m": 727461.2302174557,
+      "nonfinite": 0,
+      "DEN_nonpositive": 0
+    },
+    {
+      "lead_hour": 6,
+      "DEN_min_kg_m3": 5.798636985848767e-14,
+      "DEN_max_kg_m3": 1.1349715575498453e-06,
+      "TN_min_K": 152.6590897318896,
+      "TN_max_K": 1389.3156814438844,
+      "max_abs_wind_m_s": 536.7038105779282,
+      "Z_min_m": 95761.42314462761,
+      "Z_max_m": 726564.7694999803,
+      "nonfinite": 0,
+      "DEN_nonpositive": 0
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "status": "explicit_comparison_no_replacement",
+  "rows": [
+    {
+      "date": "2023-01-04",
+      "hour_UTC": 0,
+      "author_f107d": 144.7312469482422,
+      "author_f107a": 156.91250610351562,
+      "author_Kp": 3.3499999046325684,
+      "GFZ_3h_bucket": null,
+      "GFZ_Kp": null,
+      "GFZ_status": null,
+      "GFZ_daily_Fobs": null,
+      "GFZ_centered81_Fobs": null
+    },
+    {
+      "date": "2023-01-04",
+      "hour_UTC": 1,
+      "author_f107d": 144.83087158203125,
+      "author_f107a": 156.9544219970703,
+      "author_Kp": 3.7833333015441895,
+      "GFZ_3h_bucket": null,
+      "GFZ_Kp": null,
+      "GFZ_status": null,
+      "GFZ_daily_Fobs": null,
+      "GFZ_centered81_Fobs": null
+    },
+    {
+      "date": "2023-01-04",
+      "hour_UTC": 2,
+      "author_f107d": 144.9314727783203,
+      "author_f107a": 156.99615478515625,
+      "author_Kp": 4.116666793823242,
+      "GFZ_3h_bucket": null,
+      "GFZ_Kp": null,
+      "GFZ_status": null,
+      "GFZ_daily_Fobs": null,
+      "GFZ_centered81_Fobs": null
+    },
+    {
+      "date": "2023-01-04",
+      "hour_UTC": 3,
+      "author_f107d": 145.03311157226562,
+      "author_f107a": 157.03768920898438,
+      "author_Kp": 4.349999904632568,
+      "GFZ_3h_bucket": null,
+      "GFZ_Kp": null,
+      "GFZ_status": null,
+      "GFZ_daily_Fobs": null,
+      "GFZ_centered81_Fobs": null
+    },
+    {
+      "date": "2023-01-04",
+      "hour_UTC": 4,
+      "author_f107d": 145.13580322265625,
+      "author_f107a": 157.07901000976562,
+      "author_Kp": 4.583333492279053,
+      "GFZ_3h_bucket": null,
+      "GFZ_Kp": null,
+      "GFZ_status": null,
+      "GFZ_daily_Fobs": null,
+      "GFZ_centered81_Fobs": null
+    },
+    {
+      "date": "2023-01-04",
+      "hour_UTC": 5,
+      "author_f107d": 145.23959350585938,
+      "author_f107a": 157.12010192871094,
+      "author_Kp": 4.633333206176758,
+      "GFZ_3h_bucket": null,
+      "GFZ_Kp": null,
+      "GFZ_status": null,
+      "GFZ_daily_Fobs": null,
+      "GFZ_centered81_Fobs": null
+    },
+    {
+      "date": "2023-01-04",
+      "hour_UTC": 6,
+      "author_f107d": 145.3445281982422,
+      "author_f107a": 157.1609344482422,
+      "author_Kp": 4.5,
+      "GFZ_3h_bucket": null,
+      "GFZ_Kp": null,
+      "GFZ_status": null,
+      "GFZ_daily_Fobs": null,
+      "GFZ_centered81_Fobs": null
+    },
+    {
+      "date": "2023-01-04",
+      "hour_UTC": 7,
+      "author_f107d": 145.4506378173828,
+      "author_f107a": 157.20152282714844,
+      "author_Kp": 4.366666793823242,
+      "GFZ_3h_bucket": null,
+      "GFZ_Kp": null,
+      "GFZ_status": null,
+      "GFZ_daily_Fobs": null,
+      "GFZ_centered81_Fobs": null
+    },
+    {
+      "date": "2023-03-24",
+      "hour_UTC": 0,
+      "author_f107d": 152.6437530517578,
+      "author_f107a": 157.8937530517578,
+      "author_Kp": 7.150000095367432,
+      "GFZ_3h_bucket": "2023-03-24T00:00:00Z",
+      "GFZ_Kp": 7.333,
+      "GFZ_status": "def",
+      "GFZ_daily_Fobs": 157.5,
+      "GFZ_centered81_Fobs": 158.67654320987657
+    },
+    {
+      "date": "2023-03-24",
+      "hour_UTC": 1,
+      "author_f107d": 152.9545135498047,
+      "author_f107a": 157.86827087402344,
+      "author_Kp": 7.25,
+      "GFZ_3h_bucket": "2023-03-24T00:00:00Z",
+      "GFZ_Kp": 7.333,
+      "GFZ_status": "def",
+      "GFZ_daily_Fobs": 157.5,
+      "GFZ_centered81_Fobs": 158.67654320987657
+    },
+    {
+      "date": "2023-03-24",
+      "hour_UTC": 2,
+      "author_f107d": 153.27308654785156,
+      "author_f107a": 157.84291076660156,
+      "author_Kp": 7.416666507720947,
+      "GFZ_3h_bucket": "2023-03-24T00:00:00Z",
+      "GFZ_Kp": 7.333,
+      "GFZ_status": "def",
+      "GFZ_daily_Fobs": 157.5,
+      "GFZ_centered81_Fobs": 158.67654320987657
+    },
+    {
+      "date": "2023-03-24",
+      "hour_UTC": 3,
+      "author_f107d": 153.59814453125,
+      "author_f107a": 157.8176727294922,
+      "author_Kp": 7.650000095367432,
+      "GFZ_3h_bucket": "2023-03-24T03:00:00Z",
+      "GFZ_Kp": 8.0,
+      "GFZ_status": "def",
+      "GFZ_daily_Fobs": 157.5,
+      "GFZ_centered81_Fobs": 158.67654320987657
+    },
+    {
+      "date": "2023-03-24",
+      "hour_UTC": 4,
+      "author_f107d": 153.9283905029297,
+      "author_f107a": 157.79258728027344,
+      "author_Kp": 7.883333206176758,
+      "GFZ_3h_bucket": "2023-03-24T03:00:00Z",
+      "GFZ_Kp": 8.0,
+      "GFZ_status": "def",
+      "GFZ_daily_Fobs": 157.5,
+      "GFZ_centered81_Fobs": 158.67654320987657
+    },
+    {
+      "date": "2023-03-24",
+      "hour_UTC": 5,
+      "author_f107d": 154.2625274658203,
+      "author_f107a": 157.76768493652344,
+      "author_Kp": 7.7166666984558105,
+      "GFZ_3h_bucket": "2023-03-24T03:00:00Z",
+      "GFZ_Kp": 8.0,
+      "GFZ_status": "def",
+      "GFZ_daily_Fobs": 157.5,
+      "GFZ_centered81_Fobs": 158.67654320987657
+    },
+    {
+      "date": "2023-03-24",
+      "hour_UTC": 6,
+      "author_f107d": 154.59921264648438,
+      "author_f107a": 157.7429656982422,
+      "author_Kp": 7.150000095367432,
+      "GFZ_3h_bucket": "2023-03-24T06:00:00Z",
+      "GFZ_Kp": 6.333,
+      "GFZ_status": "def",
+      "GFZ_daily_Fobs": 157.5,
+      "GFZ_centered81_Fobs": 158.67654320987657
+    },
+    {
+      "date": "2023-03-24",
+      "hour_UTC": 7,
+      "author_f107d": 154.9371795654297,
+      "author_f107a": 157.71847534179688,
+      "author_Kp": 6.583333492279053,
+      "GFZ_3h_bucket": "2023-03-24T06:00:00Z",
+      "GFZ_Kp": 6.333,
+      "GFZ_status": "def",
+      "GFZ_daily_Fobs": 157.5,
+      "GFZ_centered81_Fobs": 158.67654320987657
+    }
+  ],
+  "GFZ_files_sha256": {
+    "data/raw/meeting_sources/gfz_Kp_extended_support.txt": "2b0e4fb21e0b5a56e675a5b31a2ba3d966ea71bf0580f80ffa7a3cb944978ecb",
+    "data/raw/meeting_sources/gfz_Fobs_support.txt": "5c1cb3bdf3f0425aa15f768d625e09e2892dbb9cb1f52ccc2f59674c1ec33997"
+  },
+  "centered81_Mar24_complete": true,
+  "convention": "GFZ Kp 3h intervals start at UTC00/03/06; author NPZ hourly values interpolated by its own production pipeline, exact interpolation convention not fully recovered. Fobs daily and centered81 comparison is diagnostic, not a mandate to replace author values. January GFZ not held locally; no new download."
+}

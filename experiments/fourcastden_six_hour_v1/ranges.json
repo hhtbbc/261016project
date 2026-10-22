@@ -1,0 +1,230 @@
+{
+  "transfer_bytes": 15568379,
+  "reserved_bytes": 15568427,
+  "limit_bytes": 41943040,
+  "requests": [
+    {
+      "start": 18149758887,
+      "end": 18149758908,
+      "requested_bytes": 22,
+      "body_bytes_read": 22,
+      "status": 206,
+      "Content-Range": "bytes 18149758887-18149758908/18149758909"
+    },
+    {
+      "start": 18149758867,
+      "end": 18149758886,
+      "requested_bytes": 20,
+      "body_bytes_read": 20,
+      "status": 206,
+      "Content-Range": "bytes 18149758867-18149758886/18149758909"
+    },
+    {
+      "start": 18149758811,
+      "end": 18149758866,
+      "requested_bytes": 56,
+      "body_bytes_read": 56,
+      "status": 206,
+      "Content-Range": "bytes 18149758811-18149758866/18149758909"
+    },
+    {
+      "start": 18148776263,
+      "end": 18149758810,
+      "requested_bytes": 982548,
+      "body_bytes_read": 982548,
+      "status": 206,
+      "Content-Range": "bytes 18148776263-18149758810/18149758909"
+    },
+    {
+      "start": 157426911,
+      "end": 157426940,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 157426911-157426940/18149758909"
+    },
+    {
+      "start": 157426941,
+      "end": 157426961,
+      "requested_bytes": 21,
+      "body_bytes_read": 21,
+      "status": 206,
+      "Content-Range": "bytes 157426941-157426961/18149758909"
+    },
+    {
+      "start": 157426962,
+      "end": 159508696,
+      "requested_bytes": 2081735,
+      "body_bytes_read": 2081735,
+      "status": 206,
+      "Content-Range": "bytes 157426962-159508696/18149758909"
+    },
+    {
+      "start": 159508697,
+      "end": 159508726,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 159508697-159508726/18149758909"
+    },
+    {
+      "start": 159508727,
+      "end": 159508747,
+      "requested_bytes": 21,
+      "body_bytes_read": 21,
+      "status": 206,
+      "Content-Range": "bytes 159508727-159508747/18149758909"
+    },
+    {
+      "start": 159508748,
+      "end": 161590538,
+      "requested_bytes": 2081791,
+      "body_bytes_read": 2081791,
+      "status": 206,
+      "Content-Range": "bytes 159508748-161590538/18149758909"
+    },
+    {
+      "start": 161590539,
+      "end": 161590568,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 161590539-161590568/18149758909"
+    },
+    {
+      "start": 161590569,
+      "end": 161590589,
+      "requested_bytes": 21,
+      "body_bytes_read": 21,
+      "status": 206,
+      "Content-Range": "bytes 161590569-161590589/18149758909"
+    },
+    {
+      "start": 161590590,
+      "end": 163671848,
+      "requested_bytes": 2081259,
+      "body_bytes_read": 2081259,
+      "status": 206,
+      "Content-Range": "bytes 161590590-163671848/18149758909"
+    },
+    {
+      "start": 163671849,
+      "end": 163671878,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 163671849-163671878/18149758909"
+    },
+    {
+      "start": 163671879,
+      "end": 163671899,
+      "requested_bytes": 21,
+      "body_bytes_read": 21,
+      "status": 206,
+      "Content-Range": "bytes 163671879-163671899/18149758909"
+    },
+    {
+      "start": 163671900,
+      "end": 165752390,
+      "requested_bytes": 2080491,
+      "body_bytes_read": 2080491,
+      "status": 206,
+      "Content-Range": "bytes 163671900-165752390/18149758909"
+    },
+    {
+      "start": 4082901634,
+      "end": 4082901663,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 4082901634-4082901663/18149758909"
+    },
+    {
+      "start": 4082901664,
+      "end": 4082901684,
+      "requested_bytes": 21,
+      "body_bytes_read": 21,
+      "status": 206,
+      "Content-Range": "bytes 4082901664-4082901684/18149758909"
+    },
+    {
+      "start": 4082901685,
+      "end": 4084988413,
+      "requested_bytes": 2086729,
+      "body_bytes_read": 2086729,
+      "status": 206,
+      "Content-Range": "bytes 4082901685-4084988413/18149758909"
+    },
+    {
+      "start": 4084988414,
+      "end": 4084988443,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 4084988414-4084988443/18149758909"
+    },
+    {
+      "start": 4084988444,
+      "end": 4084988464,
+      "requested_bytes": 21,
+      "body_bytes_read": 21,
+      "status": 206,
+      "Content-Range": "bytes 4084988444-4084988464/18149758909"
+    },
+    {
+      "start": 4084988465,
+      "end": 4087075205,
+      "requested_bytes": 2086741,
+      "body_bytes_read": 2086741,
+      "status": 206,
+      "Content-Range": "bytes 4084988465-4087075205/18149758909"
+    },
+    {
+      "start": 4087075206,
+      "end": 4087075235,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 4087075206-4087075235/18149758909"
+    },
+    {
+      "start": 4087075236,
+      "end": 4087075256,
+      "requested_bytes": 21,
+      "body_bytes_read": 21,
+      "status": 206,
+      "Content-Range": "bytes 4087075236-4087075256/18149758909"
+    },
+    {
+      "start": 4087075257,
+      "end": 4089161856,
+      "requested_bytes": 2086600,
+      "body_bytes_read": 2086600,
+      "status": 206,
+      "Content-Range": "bytes 4087075257-4089161856/18149758909"
+    },
+    {
+      "start": 4089161857,
+      "end": 4089161886,
+      "requested_bytes": 30,
+      "body_bytes_read": 30,
+      "status": 206,
+      "Content-Range": "bytes 4089161857-4089161886/18149758909"
+    },
+    {
+      "start": 4089161887,
+      "end": 4089161907,
+      "requested_bytes": 21,
+      "body_bytes_read": 0
+    }
+  ],
+  "completed_members": [
+    "2023_01_04_040000.npz",
+    "2023_01_04_050000.npz",
+    "2023_01_04_060000.npz",
+    "2023_01_04_070000.npz",
+    "2023_03_24_000000.npz",
+    "2023_03_24_010000.npz",
+    "2023_03_24_020000.npz"
+  ]
+}

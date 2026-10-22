@@ -1,0 +1,40 @@
+2026-10-22 08:10:15,218 - root - INFO - Loading inference data
+2026-10-22 08:10:15,219 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_six_hour_v1/data_view. Number of examples: 16.
+2026-10-22 08:10:15,220 - root - INFO - Getting file stats from /workspace/data/20261016/experiments/fourcastden_six_hour_v1/data_view/2023_01_04_000000.npz
+2026-10-22 08:10:15,238 - root - INFO - Number of channels available: 235.0
+2026-10-22 08:10:15,238 - root - INFO - Number of steps: 16
+2026-10-22 08:10:15,238 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_six_hour_v1/data_view. Number of examples: 16. Image shape: 36 x 72 x 177
+2026-10-22 08:10:15,238 - root - INFO - Delta time: 1 hours
+2026-10-22 08:10:15,238 - root - INFO - Including 16 hours of past history at a frequency of 1 hours
+{"date": "2023-01-04", "model": "Direct", "status": "PASS", "forward_ms": [18.61404800415039, 18.373472213745117, 18.544960021972656, 18.079744338989258, 18.003007888793945, 18.125919342041016]}
+{"date": "2023-03-24", "model": "Direct", "status": "PASS", "forward_ms": [19.928159713745117, 22.004640579223633, 18.06675148010254, 17.745695114135742, 17.78598403930664, 17.887296676635742]}
+2026-10-22 08:10:23,171 - root - INFO - Loading inference data
+2026-10-22 08:10:23,171 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_six_hour_v1/data_view. Number of examples: 16.
+2026-10-22 08:10:23,172 - root - INFO - Getting file stats from /workspace/data/20261016/experiments/fourcastden_six_hour_v1/data_view/2023_01_04_000000.npz
+2026-10-22 08:10:23,189 - root - INFO - Number of channels available: 235.0
+2026-10-22 08:10:23,189 - root - INFO - Number of steps: 16
+2026-10-22 08:10:23,189 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_six_hour_v1/data_view. Number of examples: 16. Image shape: 36 x 72 x 177
+2026-10-22 08:10:23,189 - root - INFO - Delta time: 1 hours
+2026-10-22 08:10:23,189 - root - INFO - Including 16 hours of past history at a frequency of 1 hours
+{"date": "2023-01-04", "model": "Flow", "status": "PASS", "forward_ms": [19.551328659057617, 18.35660743713379, 18.23993682861328, 18.183616638183594, 18.197248458862305, 18.044960021972656]}
+{"date": "2023-03-24", "model": "Flow", "status": "PASS", "forward_ms": [19.03968048095703, 18.237279891967773, 18.133407592773438, 18.120832443237305, 18.043296813964844, 18.168703079223633]}
+2026-10-22 08:10:30,089 - root - INFO - Loading inference data
+2026-10-22 08:10:30,090 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_six_hour_v1/data_view. Number of examples: 16.
+2026-10-22 08:10:30,090 - root - INFO - Getting file stats from /workspace/data/20261016/experiments/fourcastden_six_hour_v1/data_view/2023_01_04_000000.npz
+2026-10-22 08:10:30,107 - root - INFO - Number of channels available: 235.0
+2026-10-22 08:10:30,107 - root - INFO - Number of steps: 16
+2026-10-22 08:10:30,107 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_six_hour_v1/data_view. Number of examples: 16. Image shape: 36 x 72 x 177
+2026-10-22 08:10:30,107 - root - INFO - Delta time: 1 hours
+2026-10-22 08:10:30,107 - root - INFO - Including 16 hours of past history at a frequency of 1 hours
+{"date": "2023-01-04", "model": "LogDEN", "status": "PASS", "forward_ms": [19.66092872619629, 18.640512466430664, 18.75881576538086, 18.539167404174805, 18.4899845123291, 18.539648056030273]}
+{"date": "2023-03-24", "model": "LogDEN", "status": "PASS", "forward_ms": [19.103776931762695, 18.461055755615234, 18.333791732788086, 18.275104522705078, 18.301504135131836, 18.24835205078125]}
+2026-10-22 08:10:37,539 - root - INFO - Loading inference data
+2026-10-22 08:10:37,540 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_six_hour_v1/data_view. Number of examples: 16.
+2026-10-22 08:10:37,540 - root - INFO - Getting file stats from /workspace/data/20261016/experiments/fourcastden_six_hour_v1/data_view/2023_01_04_000000.npz
+2026-10-22 08:10:37,556 - root - INFO - Number of channels available: 235.0
+2026-10-22 08:10:37,556 - root - INFO - Number of steps: 16
+2026-10-22 08:10:37,556 - root - INFO - Found data at path /workspace/data/20261016/experiments/fourcastden_six_hour_v1/data_view. Number of examples: 16. Image shape: 36 x 72 x 177
+2026-10-22 08:10:37,557 - root - INFO - Delta time: 1 hours
+2026-10-22 08:10:37,557 - root - INFO - Including 16 hours of past history at a frequency of 1 hours
+{"date": "2023-01-04", "model": "History", "status": "PASS", "forward_ms": [20.740127563476562, 18.686559677124023, 18.97760009765625, 18.217695236206055, 18.255136489868164, 18.204608917236328]}
+{"date": "2023-03-24", "model": "History", "status": "PASS", "forward_ms": [19.674528121948242, 18.448448181152344, 18.343135833740234, 18.289663314819336, 18.25859260559082, 18.285888671875]}
