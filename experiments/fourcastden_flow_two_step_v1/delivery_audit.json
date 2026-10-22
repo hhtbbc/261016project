@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 218,
+  "Direct_result_sha256": "4476774ab3861f59ebf7c390a18b2a2ea8e6eb2ded2c75875ac3dcd2f89cdaf1",
+  "Flow_result_sha256": "8646c3b8f66f504ae350a4d746da8a722f3fd0df03c89b482624c24bcca566c2",
+  "formal_Flow_runs": 1,
+  "real_forwards": 2,
+  "Direct_rerun": false,
+  "tests": 198,
+  "independent_weighted_sum_metrics": {
+    "1": {
+      "max_RMSE_relative": 1.5216269426148406e-07,
+      "max_ACC_absolute": 1.636919688685623e-07
+    },
+    "2": {
+      "max_RMSE_relative": 1.8200304744378357e-07,
+      "max_ACC_absolute": 1.7210681246826454e-07
+    }
+  },
+  "feedback_exact": true,
+  "DEN_positive_fraction": 1.0,
+  "GPU_phase_wall_s": 3.400115406140685,
+  "new_experiment_bytes": 18985947,
+  "code_docs_upper_allowance_bytes": 1048576,
+  "budget_bytes": 524288000,
+  "CSV_row_counts": {
+    "layers": 1026,
+    "summary": 36,
+    "density_layers": 174,
+    "paired": 12
+  },
+  "new_artifact_sha256": {
+    "data/processed/fourcastden_flow_two_step_v1/result.npz": "8646c3b8f66f504ae350a4d746da8a722f3fd0df03c89b482624c24bcca566c2",
+    "experiments/fourcastden_flow_two_step_v1/analysis.json": "2f13b4b1b824ef2a2309991d6f1b0abd0a99867c19aa030e7b9b2ebf8f839f1a",
+    "experiments/fourcastden_flow_two_step_v1/config.yaml": "578cbc3f4f9b9fcc49ba3304899faae2f10733ba897f56f20bb7362134ce6410",
+    "experiments/fourcastden_flow_two_step_v1/future_data_plan.json": "8d6675a831fd9de275ca1bf8423a33928f1f41a76c5f60b2cccae3dbc27eb93b",
+    "experiments/fourcastden_flow_two_step_v1/launch_once.json": "f94c691a59b0aea2ce0aeafc7ccbf8cf3723bc68395ef1ab992dd8297d463761",
+    "experiments/fourcastden_flow_two_step_v1/preflight.json": "7dd0c2f3c1b0e4b6744c0ab94854deaa0a4ae1e9687184580169ec7aa7af8ae8",
+    "experiments/fourcastden_flow_two_step_v1/protected.json": "f7e0cd82933a4c611180cb840a04768ef27a99b2658a1f86cdc9069f2ebeda00",
+    "experiments/fourcastden_flow_two_step_v1/runtime.json": "4f9552dfc5f427fdda854395036c064bcd633bf65624b0cb197759bec2a5416a",
+    "logs/fourcastden_flow_analysis.log": "b935cdb9b56afa437440ef098e6aa59f8e40dbcafdcbe3002a75b73a0b4ca44c",
+    "logs/fourcastden_flow_preflight.log": "3775c78eaf9b14a74667cb6ed60ac910c7a182e5a67b4b2d845c8f01cca11d08",
+    "logs/fourcastden_flow_run.log": "31d17e9886862519d1bbf8b627716bc8bde6630042685e775c22f457b6d6563a",
+    "logs/fourcastden_flow_tests.log": "ec56cf0b0b8fad136af012d98e07af3bf23f5289de34a9829d5535471201a317",
+    "results/figures/fourcastden_direct_flow_v1_DEN_layers.png": "efad1c45f9d543b80d0cf1aa0aaf4070b9919735cb35db25571c243aef9740d1",
+    "results/figures/fourcastden_direct_flow_v1_GPU_timing.png": "a4544c7708b0dda096117f7be1b4257877fb2499542a124c72fb181f04428084",
+    "results/figures/fourcastden_direct_flow_v1_density_hour1.png": "0abf2f68b73f392c445dd25c92367a4dd593ccce6e44888cbf59d25497dc726b",
+    "results/figures/fourcastden_direct_flow_v1_density_hour2.png": "b28865dc0cf37216a7cb19674411db56ee4e56234ba5fa50a36698861a21a504",
+    "results/figures/fourcastden_direct_flow_v1_error_growth.png": "42ef9097bcd6262ebcda3b3c566285cec5e299e10fea83531762c9fe8aec7f93",
+    "results/figures/fourcastden_direct_flow_v1_relative_hour1.png": "f7616793e81b64264c35a39031bc154db42cbcafa8f9db9b82cd8a86b4db72c3",
+    "results/figures/fourcastden_direct_flow_v1_relative_hour2.png": "78a4b355f01f5c716e103fa03c356bd420b855621f1e7fa022c0553a5df63c5e",
+    "results/figures/fourcastden_direct_flow_v1_variable_RMSE.png": "137bcc1bf677463a1f5b3c3b045ed59f6ecb9868c7feb7d15ea212b287cf52b9",
+    "results/metrics/fourcastden_direct_flow_v1_density_layers.csv": "8d36fffcc432f20519fe0301e600e49d3baf9d6fbbf06df13bd3a29b12b5bcd1",
+    "results/metrics/fourcastden_direct_flow_v1_layers.csv": "e3c5176c751c207ca6ee82d6b02889dda051cdec4029071c40f71f725547919f",
+    "results/metrics/fourcastden_direct_flow_v1_paired.csv": "20a44fa56eed6f4e2c55e1deb70b2cfe7a31d6c46bf1bf0edfe20d094d5c24a6",
+    "results/metrics/fourcastden_direct_flow_v1_summary.csv": "8c8144055f482bbe11d72eacafe7d6f00c1d72c049acc86543ad37ab6d8fdcad"
+  }
+}

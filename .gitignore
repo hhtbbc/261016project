@@ -106,3 +106,7 @@ credentials.json
 # Official Direct two-step validation evidence
 !/logs/fourcastden_two_step*.log
 !/experiments/fourcastden_two_step_v1/config.yaml
+
+# Official Flow paired-validation evidence
+!/logs/fourcastden_flow*.log
+!/experiments/fourcastden_flow_two_step_v1/config.yaml

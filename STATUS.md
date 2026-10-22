@@ -1,5 +1,7 @@
 # 当前状态
 
+> 最新（2026-10-22）：官方Flow两小时复现及Direct/Flow同窗对照完成；198测试通过。尚无总体模型优劣或真实大气/轨道精度结论。
+
 > 最新：第一阶段工程/条件成果已整理，正式科学验收待完成；FourCastDEN Direct两小时自回归已完成，第二阶段A启动，未训练。详见末节。
 
 > 最新：统一H6的C0—C3六小时条件密度对照完成，详见末节及COMMON_FORCE_DENSITY_ORBIT_COMPARISON。正式物理精度门禁仍保留。
@@ -263,3 +265,12 @@ C0复用H6，未重跑。新增C1/C2/C3各1h base/tight、6h base/tight，共12�
 第2小时六变量平均逐层RMSE均比第1小时增大，但两步全部171通道均优于固定00时持续性。GPU阶段5.600s<300s，未训练/微调/扩6或24h；内存/事件计时口径和局限见FOURCASTDEN_TWO_STEP_VALIDATION.md。S7实际14键/网格匹配，但3种lev场顶padding、1h抽取、分布与Z/ZG问题仍需规范转换，本次没有输入S7。完整训练入口与2000—2022数据未齐，不称完整论文复现。
 
 下一入口docs/FOURCASTDEN_PHASE2_RESEARCH_PLAN.md；建议另授权官方Flow同样两小时对照，之后再补统一变体窗口。正式轨道气动/推力/高度、预热和缺失受力门禁保持。完成停止，安全Git同步以最终远端核对为准。
+
+
+## 2026-10-22：官方Flow复现与Direct/Flow受控比较完成
+
+一次Flow Jan4 00→01→02正式推理完成，真实forward2次，官方Flow权重严格加载。原位归一化增量/两步反馈逐元素验证通过；Direct只读取历史，未重跑，所有旧保护SHA保持。198项自动化测试、独立NumPy加权指标复核通过，Flow DEN100%正且有限，无裁剪或事后校正。GPU阶段3.400s，冷/第二forward152.144/18.435ms；新增数组约17MiB，无下载/安装/训练/TIE/轨道实验。
+
+Flow第一小时170/171层、第二小时141/171层RMSE低于Direct；变量平均逐层RMSE第一小时TN/UN/VN/WN/Z较低，第二小时TN/UN/VN/Z较低，DEN两小时分别较高2.950%/2.842%，WN第二小时较高2.468%。DEN平均绝对RMSE受底层影响，上层相对/log指标另报，不能据单个初值排名架构。两模型均全部171层优于固定t0持续性；六变量平均误差均随步数增加。两套单次跨日GPU事件总时间差约0.978ms，不作速度优越性结论。
+
+报告FOURCASTDEN_FLOW_TWO_STEP_VALIDATION.md、FOURCASTDEN_DIRECT_FLOW_COMPARISON.md；新增8图、4类逐层/汇总/配对CSV，配置、SHA、日志及审计在fourcastden_flow_two_step_v1。改进方向/未来独立初值与6/12/24h协议仅设计；本次不扩窗。下一项建议先多初值2h评价，或补1个Jan4 03样本建立history公平窗口，须另授权。完整训练入口/数据、独立大气/轨道验证、Swarm真实参数/推力及TIE高度/预热/时间分辨率等门禁保留。Git同步以最终SHA核对为准。

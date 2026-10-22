@@ -1,0 +1,60 @@
+{
+  "status": "Flow_two_step_passed_not_full_paper_reproduction",
+  "labels": [
+    "HINDCAST",
+    "TIEGCM_REFERENCE_ONLY",
+    "NO_TRAINING"
+  ],
+  "parameters": 64695744,
+  "strict_author_checkpoint_loading": true,
+  "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+  "network_calls": 2,
+  "input_shape": [
+    1,
+    177,
+    36,
+    72
+  ],
+  "increment_shape": [
+    1,
+    171,
+    36,
+    72
+  ],
+  "state_shape": [
+    1,
+    3,
+    171,
+    36,
+    72
+  ],
+  "feedback": {
+    "passed": true,
+    "normalized_increment_accumulation_exact": true,
+    "second_input_equals_first_accumulated_prediction": true,
+    "future_physical_truth_fed": false,
+    "future_auxiliary_conditions_used": true
+  },
+  "Direct_initial_targets_stats_aux_drivers_equal": true,
+  "torch": "2.4.1+cu121",
+  "cuda": "12.1",
+  "device": "NVIDIA A100-SXM4-80GB",
+  "FP32": true,
+  "TF32": false,
+  "model_load_including_CUDA_initialization_s": 1.2740144319832325,
+  "preprocess_read_s": 0.05111243948340416,
+  "author_loop_metrics_hooks_s": 0.791990278288722,
+  "network_GPU_ms": [
+    152.14405822753906,
+    18.434879302978516
+  ],
+  "GPU_phase_wall_s": 3.400115406140685,
+  "loading_peak_allocated_bytes": 1035196416,
+  "inference_peak_allocated_bytes": 294913536,
+  "inference_peak_reserved_bytes": 1159725056,
+  "DEN_positive_fraction": 1.0,
+  "file_sha256": "8646c3b8f66f504ae350a4d746da8a722f3fd0df03c89b482624c24bcca566c2",
+  "new_experiment_bytes": 17953087,
+  "last_loaded_time": "2023-01-04 02:00:00",
+  "no_Direct_execution": true
+}

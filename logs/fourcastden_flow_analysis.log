@@ -1,0 +1,155 @@
+{
+  "status": "paired_independent_validation_PASS",
+  "paired": [
+    {
+      "hour": 1,
+      "variable": "TN",
+      "layers": 28,
+      "Flow_lower_RMSE_layers": 28,
+      "Direct_lower_RMSE_layers": 0,
+      "equal_layers": 0,
+      "Flow_to_Direct_mean_layer_RMSE": 0.761939221276317,
+      "Flow_beats_persistence_layers": 28,
+      "Direct_beats_persistence_layers": 28
+    },
+    {
+      "hour": 1,
+      "variable": "UN",
+      "layers": 28,
+      "Flow_lower_RMSE_layers": 28,
+      "Direct_lower_RMSE_layers": 0,
+      "equal_layers": 0,
+      "Flow_to_Direct_mean_layer_RMSE": 0.7704919803161735,
+      "Flow_beats_persistence_layers": 28,
+      "Direct_beats_persistence_layers": 28
+    },
+    {
+      "hour": 1,
+      "variable": "VN",
+      "layers": 28,
+      "Flow_lower_RMSE_layers": 28,
+      "Direct_lower_RMSE_layers": 0,
+      "equal_layers": 0,
+      "Flow_to_Direct_mean_layer_RMSE": 0.8278713565055019,
+      "Flow_beats_persistence_layers": 28,
+      "Direct_beats_persistence_layers": 28
+    },
+    {
+      "hour": 1,
+      "variable": "WN",
+      "layers": 29,
+      "Flow_lower_RMSE_layers": 29,
+      "Direct_lower_RMSE_layers": 0,
+      "equal_layers": 0,
+      "Flow_to_Direct_mean_layer_RMSE": 0.8579420678300057,
+      "Flow_beats_persistence_layers": 29,
+      "Direct_beats_persistence_layers": 29
+    },
+    {
+      "hour": 1,
+      "variable": "Z",
+      "layers": 29,
+      "Flow_lower_RMSE_layers": 29,
+      "Direct_lower_RMSE_layers": 0,
+      "equal_layers": 0,
+      "Flow_to_Direct_mean_layer_RMSE": 0.703955967177406,
+      "Flow_beats_persistence_layers": 29,
+      "Direct_beats_persistence_layers": 29
+    },
+    {
+      "hour": 1,
+      "variable": "DEN",
+      "layers": 29,
+      "Flow_lower_RMSE_layers": 28,
+      "Direct_lower_RMSE_layers": 1,
+      "equal_layers": 0,
+      "Flow_to_Direct_mean_layer_RMSE": 1.029496309336111,
+      "Flow_beats_persistence_layers": 29,
+      "Direct_beats_persistence_layers": 29
+    },
+    {
+      "hour": 2,
+      "variable": "TN",
+      "layers": 28,
+      "Flow_lower_RMSE_layers": 25,
+      "Direct_lower_RMSE_layers": 3,
+      "equal_layers": 0,
+      "Flow_to_Direct_mean_layer_RMSE": 0.9377955359396054,
+      "Flow_beats_persistence_layers": 28,
+      "Direct_beats_persistence_layers": 28
+    },
+    {
+      "hour": 2,
+      "variable": "UN",
+      "layers": 28,
+      "Flow_lower_RMSE_layers": 27,
+      "Direct_lower_RMSE_layers": 1,
+      "equal_layers": 0,
+      "Flow_to_Direct_mean_layer_RMSE": 0.9277582010068031,
+      "Flow_beats_persistence_layers": 28,
+      "Direct_beats_persistence_layers": 28
+    },
+    {
+      "hour": 2,
+      "variable": "VN",
+      "layers": 28,
+      "Flow_lower_RMSE_layers": 28,
+      "Direct_lower_RMSE_layers": 0,
+      "equal_layers": 0,
+      "Flow_to_Direct_mean_layer_RMSE": 0.9162967328904764,
+      "Flow_beats_persistence_layers": 28,
+      "Direct_beats_persistence_layers": 28
+    },
+    {
+      "hour": 2,
+      "variable": "WN",
+      "layers": 29,
+      "Flow_lower_RMSE_layers": 11,
+      "Direct_lower_RMSE_layers": 18,
+      "equal_layers": 0,
+      "Flow_to_Direct_mean_layer_RMSE": 1.0246755809107821,
+      "Flow_beats_persistence_layers": 29,
+      "Direct_beats_persistence_layers": 29
+    },
+    {
+      "hour": 2,
+      "variable": "Z",
+      "layers": 29,
+      "Flow_lower_RMSE_layers": 26,
+      "Direct_lower_RMSE_layers": 3,
+      "equal_layers": 0,
+      "Flow_to_Direct_mean_layer_RMSE": 0.894160358920963,
+      "Flow_beats_persistence_layers": 29,
+      "Direct_beats_persistence_layers": 29
+    },
+    {
+      "hour": 2,
+      "variable": "DEN",
+      "layers": 29,
+      "Flow_lower_RMSE_layers": 24,
+      "Direct_lower_RMSE_layers": 5,
+      "equal_layers": 0,
+      "Flow_to_Direct_mean_layer_RMSE": 1.0284240831386278,
+      "Flow_beats_persistence_layers": 29,
+      "Direct_beats_persistence_layers": 29
+    }
+  ],
+  "independent_metric_checks": {
+    "Direct_1": {
+      "RMSE_max_relative": 1.8820073913281393e-07,
+      "ACC_max_absolute": 1.4558029681754903e-07
+    },
+    "Flow_1": {
+      "RMSE_max_relative": 1.5216269439029927e-07,
+      "ACC_max_absolute": 1.6369196875754e-07
+    },
+    "Direct_2": {
+      "RMSE_max_relative": 1.684249458196704e-07,
+      "ACC_max_absolute": 1.9798251837954695e-07
+    },
+    "Flow_2": {
+      "RMSE_max_relative": 1.8200304744378357e-07,
+      "ACC_max_absolute": 1.7210681257928684e-07
+    }
+  }
+}

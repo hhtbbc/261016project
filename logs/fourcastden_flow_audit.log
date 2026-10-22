@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 218,
+  "Direct_result_sha256": "4476774ab3861f59ebf7c390a18b2a2ea8e6eb2ded2c75875ac3dcd2f89cdaf1",
+  "Flow_result_sha256": "8646c3b8f66f504ae350a4d746da8a722f3fd0df03c89b482624c24bcca566c2",
+  "formal_Flow_runs": 1,
+  "real_forwards": 2,
+  "Direct_rerun": false,
+  "tests": 198,
+  "independent_weighted_sum_metrics": {
+    "1": {
+      "max_RMSE_relative": 1.5216269426148406e-07,
+      "max_ACC_absolute": 1.636919688685623e-07
+    },
+    "2": {
+      "max_RMSE_relative": 1.8200304744378357e-07,
+      "max_ACC_absolute": 1.7210681246826454e-07
+    }
+  },
+  "feedback_exact": true,
+  "DEN_positive_fraction": 1.0,
+  "GPU_phase_wall_s": 3.400115406140685,
+  "new_experiment_bytes": 18985947,
+  "code_docs_upper_allowance_bytes": 1048576,
+  "budget_bytes": 524288000,
+  "CSV_row_counts": {
+    "layers": 1026,
+    "summary": 36,
+    "density_layers": 174,
+    "paired": 12
+  }
+}

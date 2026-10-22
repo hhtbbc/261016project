@@ -367,3 +367,14 @@ C0复用H6，未重跑。新增C1/C2/C3各1h base/tight、6h base/tight，共12�
 
 
 执行命令：activate310；192项unittest；run_fourcastden_multistep.py静态和唯一--execute（timeout300）；analyze_fourcastden_multistep.py；write_phase1_stage_review.py；write_fourcastden_two_step_report.py；audit_fourcastden_delivery.py。模型/预处理/数据与指标均真实官方来源，CPU合成毒化测试不作为科研预测。源码/权重/static/样本和历史结果保护，原始源码不改，无包安装/新下载。S7_schema_probe只读目标记录并显式核验有限padding。正文首次MDPI请求429但官方搜索可读取训练划分摘要，未声称下载本地全文。实际完整交付SHA/容量/同步状态见审计JSON与最终汇报。
+
+
+## 2026-10-22：官方Flow复现与Direct/Flow受控比较完成
+
+一次Flow Jan4 00→01→02正式推理完成，真实forward2次，官方Flow权重严格加载。原位归一化增量/两步反馈逐元素验证通过；Direct只读取历史，未重跑，所有旧保护SHA保持。198项自动化测试、独立NumPy加权指标复核通过，Flow DEN100%正且有限，无裁剪或事后校正。GPU阶段3.400s，冷/第二forward152.144/18.435ms；新增数组约17MiB，无下载/安装/训练/TIE/轨道实验。
+
+Flow第一小时170/171层、第二小时141/171层RMSE低于Direct；变量平均逐层RMSE第一小时TN/UN/VN/WN/Z较低，第二小时TN/UN/VN/Z较低，DEN两小时分别较高2.950%/2.842%，WN第二小时较高2.468%。DEN平均绝对RMSE受底层影响，上层相对/log指标另报，不能据单个初值排名架构。两模型均全部171层优于固定t0持续性；六变量平均误差均随步数增加。两套单次跨日GPU事件总时间差约0.978ms，不作速度优越性结论。
+
+报告FOURCASTDEN_FLOW_TWO_STEP_VALIDATION.md、FOURCASTDEN_DIRECT_FLOW_COMPARISON.md；新增8图、4类逐层/汇总/配对CSV，配置、SHA、日志及审计在fourcastden_flow_two_step_v1。改进方向/未来独立初值与6/12/24h协议仅设计；本次不扩窗。下一项建议先多初值2h评价，或补1个Jan4 03样本建立history公平窗口，须另授权。完整训练入口/数据、独立大气/轨道验证、Swarm真实参数/推力及TIE高度/预热/时间分辨率等门禁保留。Git同步以最终SHA核对为准。
+
+关键命令：source scripts/activate310.sh；python -m unittest discover -s tests（198项，24.685s）；run_fourcastden_flow_two_step.py静态及唯一--execute（timeout300）；analyze_fourcastden_direct_flow.py；write_fourcastden_flow_reports.py；audit_fourcastden_flow.py。Python3.10.19/torch2.4.1+cu121/A100，FP32且TF32关闭，无依赖改动。官网正文请求429，模型语义以本地官方源码/README为直接依据，不宣称本次已重新读完整论文。未来数据清单只检查已有官方ZIP中央目录，未联网获取新资产。图像已实际查看，原生ilev=4/数组22，不是固定450km。
