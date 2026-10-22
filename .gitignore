@@ -123,3 +123,8 @@ credentials.json
 # History common-initialization experiment: publish audit/config/logs, never raw arrays.
 !/logs/fourcastden_history*.log
 !/experiments/fourcastden_history_comparison_v1/*.yaml
+
+# Four-model multidate audits/configs only; raw fields remain local.
+!/logs/fourcastden_four_model*.log
+/logs/fourcastden_four_model_context_read.log
+!/experiments/fourcastden_four_model_multidate_v1/*.yaml

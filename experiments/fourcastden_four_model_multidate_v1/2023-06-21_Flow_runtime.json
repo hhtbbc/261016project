@@ -1,0 +1,47 @@
+{
+  "date": "2023-06-21",
+  "model": "Flow",
+  "status": "PASS",
+  "parameters": 64695744,
+  "checkpoint_bytes": 776485772,
+  "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+  "config_sha256": "c6f709c394258f5e522256971cb671e50d05b08f681b738476d1497579ceabd3",
+  "input_shape": [
+    1,
+    177,
+    36,
+    72
+  ],
+  "output_shape": [
+    1,
+    171,
+    36,
+    72
+  ],
+  "formal_forwards": 2,
+  "n_history": 0,
+  "model_load_s": 0.0,
+  "model_reused": true,
+  "loading_peak_allocated_bytes": 1043716096,
+  "read_preprocess_s": 0.04915945418179035,
+  "author_loop_metrics_hooks_s": 0.08944871462881565,
+  "save_s": 1.296756774187088,
+  "GPU_forward_ms": [
+    18.80748748779297,
+    18.14896011352539
+  ],
+  "peak_allocated_bytes": 294837760,
+  "peak_reserved_bytes": 1178599424,
+  "RSS_KiB": 1280148,
+  "feedback": {
+    "passed": true,
+    "second_state_equals_first_prediction": true,
+    "physical_truth_used_after_t0": false,
+    "future_auxiliary_and_drivers_used": true
+  },
+  "result_sha256": "942669085203ab54e9ff950a90f2970c3f84a7e6ed38e1ed961b0bcfef55f156",
+  "result_bytes": 26062317,
+  "DEN_positive_fraction": 1.0,
+  "rho_min_kg_m3": 6.389448768432358e-14,
+  "rho_max_kg_m3": 1.1239643315121733e-06
+}

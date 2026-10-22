@@ -1,0 +1,183 @@
+{
+  "status": "DESIGN_ONLY_NO_DOWNLOAD_NO_INFERENCE",
+  "dates": [
+    {
+      "date": "2023-01-04",
+      "t0_hour": 1,
+      "target_hours": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "members": [
+        {
+          "name": "2023_01_04_000000.npz",
+          "already_available": true,
+          "needed_download": false,
+          "bytes": 2076717,
+          "compressed": 2076582,
+          "crc": 1930191119
+        },
+        {
+          "name": "2023_01_04_010000.npz",
+          "already_available": true,
+          "needed_download": false,
+          "bytes": 2078968,
+          "compressed": 2078818,
+          "crc": 1762298060
+        },
+        {
+          "name": "2023_01_04_020000.npz",
+          "already_available": true,
+          "needed_download": false,
+          "bytes": 2080379,
+          "compressed": 2080264,
+          "crc": 2828036127
+        },
+        {
+          "name": "2023_01_04_030000.npz",
+          "already_available": true,
+          "needed_download": false,
+          "bytes": 2081437,
+          "compressed": 2081285,
+          "crc": 4091454841
+        },
+        {
+          "name": "2023_01_04_040000.npz",
+          "already_available": false,
+          "needed_download": true,
+          "bytes": 2081872,
+          "compressed": 2081735,
+          "crc": 223539174
+        },
+        {
+          "name": "2023_01_04_050000.npz",
+          "already_available": false,
+          "needed_download": true,
+          "bytes": 2081964,
+          "compressed": 2081791,
+          "crc": 4017738519
+        },
+        {
+          "name": "2023_01_04_060000.npz",
+          "already_available": false,
+          "needed_download": true,
+          "bytes": 2081420,
+          "compressed": 2081259,
+          "crc": 1820600503
+        },
+        {
+          "name": "2023_01_04_070000.npz",
+          "already_available": false,
+          "needed_download": true,
+          "bytes": 2080608,
+          "compressed": 2080491,
+          "crc": 691220150
+        }
+      ]
+    },
+    {
+      "date": "2023-03-24",
+      "t0_hour": 1,
+      "target_hours": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "members": [
+        {
+          "name": "2023_03_24_000000.npz",
+          "already_available": false,
+          "needed_download": true,
+          "bytes": 2086859,
+          "compressed": 2086729,
+          "crc": 1447601756
+        },
+        {
+          "name": "2023_03_24_010000.npz",
+          "already_available": false,
+          "needed_download": true,
+          "bytes": 2086868,
+          "compressed": 2086741,
+          "crc": 1756186985
+        },
+        {
+          "name": "2023_03_24_020000.npz",
+          "already_available": false,
+          "needed_download": true,
+          "bytes": 2086773,
+          "compressed": 2086600,
+          "crc": 1623053427
+        },
+        {
+          "name": "2023_03_24_030000.npz",
+          "already_available": false,
+          "needed_download": true,
+          "bytes": 2087057,
+          "compressed": 2086911,
+          "crc": 2801431280
+        },
+        {
+          "name": "2023_03_24_040000.npz",
+          "already_available": false,
+          "needed_download": true,
+          "bytes": 2087403,
+          "compressed": 2087265,
+          "crc": 833215950
+        },
+        {
+          "name": "2023_03_24_050000.npz",
+          "already_available": false,
+          "needed_download": true,
+          "bytes": 2087197,
+          "compressed": 2087072,
+          "crc": 341963667
+        },
+        {
+          "name": "2023_03_24_060000.npz",
+          "already_available": false,
+          "needed_download": true,
+          "bytes": 2087136,
+          "compressed": 2087016,
+          "crc": 682495234
+        },
+        {
+          "name": "2023_03_24_070000.npz",
+          "already_available": false,
+          "needed_download": true,
+          "bytes": 2086189,
+          "compressed": 2086051,
+          "crc": 769514655
+        }
+      ]
+    }
+  ],
+  "GFZ_source": "data/raw/meeting_sources/gfz_Kp_extended_support.txt",
+  "GFZ_SHA256": "2b0e4fb21e0b5a56e675a5b31a2ba3d966ea71bf0580f80ffa7a3cb944978ecb",
+  "GFZ_selection": [
+    {
+      "time": "2023-03-24T00:00:00Z",
+      "Kp": 7.333,
+      "status": "def"
+    },
+    {
+      "time": "2023-03-24T03:00:00Z",
+      "Kp": 8.0,
+      "status": "def"
+    },
+    {
+      "time": "2023-03-24T06:00:00Z",
+      "Kp": 6.333,
+      "status": "def"
+    }
+  ],
+  "selection_rule": "Additional independent untested day Mar24: all three GFZ UTC00/03/06 Kp bins >=5, def; chosen by external drivers, not model error",
+  "new_members": 12,
+  "new_member_compressed_bytes": 25019661
+}

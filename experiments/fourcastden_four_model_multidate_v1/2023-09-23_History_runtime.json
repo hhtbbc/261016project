@@ -1,0 +1,68 @@
+{
+  "date": "2023-09-23",
+  "model": "History",
+  "status": "PASS",
+  "parameters": 66870720,
+  "checkpoint_bytes": 802585484,
+  "checkpoint_sha256": "cc4b44f6daea6188e4bfbde06796b950a50cfb215c0ad2295cff176a21a4ddc4",
+  "config_sha256": "8981211a3253230b0a5607fe1d9cae29ce776fe3d7a87fafef113dc2c90d9466",
+  "input_shape": [
+    1,
+    354,
+    36,
+    72
+  ],
+  "output_shape": [
+    1,
+    171,
+    36,
+    72
+  ],
+  "formal_forwards": 2,
+  "n_history": 1,
+  "model_load_s": 0.0,
+  "model_reused": true,
+  "loading_peak_allocated_bytes": 1069996032,
+  "read_preprocess_s": 0.06598998606204987,
+  "author_loop_metrics_hooks_s": 0.11023191921412945,
+  "save_s": 1.543350888416171,
+  "GPU_forward_ms": [
+    18.683839797973633,
+    17.917760848999023
+  ],
+  "peak_allocated_bytes": 309043200,
+  "peak_reserved_bytes": 1193279488,
+  "RSS_KiB": 1094844,
+  "feedback": {
+    "passed": true,
+    "ordering": "oldest then newest; each state concatenated with next-hour six auxiliaries",
+    "first_states": [
+      "real00",
+      "real01"
+    ],
+    "second_states": [
+      "real01",
+      "predicted02"
+    ],
+    "future_physical_truth_used": false,
+    "target_scalar_hours": [
+      "02",
+      "03"
+    ],
+    "auxiliary_hours": [
+      [
+        "01",
+        "02"
+      ],
+      [
+        "02",
+        "03"
+      ]
+    ]
+  },
+  "result_sha256": "8a6f02f9a6a4462c8368c799b0aba97462a9c40c8aa87f941ede17ccfd6e407c",
+  "result_bytes": 30994782,
+  "DEN_positive_fraction": 1.0,
+  "rho_min_kg_m3": 7.405283365085534e-14,
+  "rho_max_kg_m3": 1.206058407800988e-06
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2023-06-21",
+  "model": "Direct",
+  "status": "PASS",
+  "parameters": 64695744,
+  "checkpoint_bytes": 776485772,
+  "checkpoint_sha256": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+  "config_sha256": "6c7d18b7b3604ff88b982095d6a6109bc76e5f8662bcb55f6862efe2095c1978",
+  "input_shape": [
+    1,
+    177,
+    36,
+    72
+  ],
+  "output_shape": [
+    1,
+    171,
+    36,
+    72
+  ],
+  "formal_forwards": 2,
+  "n_history": 0,
+  "model_load_s": 0.0,
+  "model_reused": true,
+  "loading_peak_allocated_bytes": 1043716096,
+  "read_preprocess_s": 0.05233893170952797,
+  "author_loop_metrics_hooks_s": 0.10306406579911709,
+  "save_s": 1.3867210242897272,
+  "GPU_forward_ms": [
+    21.906431198120117,
+    20.95827293395996
+  ],
+  "peak_allocated_bytes": 294837760,
+  "peak_reserved_bytes": 1178599424,
+  "RSS_KiB": 1280012,
+  "feedback": {
+    "passed": true,
+    "second_state_equals_first_prediction": true,
+    "physical_truth_used_after_t0": false,
+    "future_auxiliary_and_drivers_used": true
+  },
+  "result_sha256": "291e99e782971b4506faa0d6a58ac628df3df653acb18571babb091693ce27f1",
+  "result_bytes": 25993421,
+  "DEN_positive_fraction": 1.0,
+  "rho_min_kg_m3": 6.395397316542257e-14,
+  "rho_max_kg_m3": 1.1242498879723836e-06
+}

@@ -119,3 +119,7 @@ fourcastden_logden_multidate_v1已另授权完成5个两步序列/10forward，21
 ## 官方History首次公平基线后的门禁
 
 fourcastden_history_comparison_v1已单独授权完成Jan4同01起点4模型各2h（8正式forward），另1History真实预检；221测试。History额外00真实帧，两个177块按旧→新/各自下一小时辅助拼接354，第二步real01+pred02，非teacher forcing。log复用原隔离层，原件/统计/旧数组不改。单窗口History没有优于Direct，Flow/log旧五日期00起点排序不能直接沿用新起点。未来其他4日期03补帧及16序列、6/12/24h、训练/轨道都需新授权；HINDCAST/TIE参考不代表观测或轨道准确度，所有既有物理门禁保留。每次结束安全同步GitHub。
+
+## 五日期四模型共同01时评价后的门禁
+
+fourcastden_four_model_multidate_v1已另授权完成后4日期03补帧及16序列32forward，Jan4只读复用，无额外真实预检；226测试。History DEN两个时效5/5不优于Direct/Flow，Dec部分风场例外；高层Flow第1h5/5最低、第2h3/5，不能按胜窗数或均值单独挑最终模型。00/01的同lead目标不同，共同02目标lead和初态信息又不同，不作纯驱动因果。原统计/权重/旧数组不改，不放宽门槛修补较差结果。下一项6h仅设计（Jan4与按外部GFZ预选Mar24），需要新数据/任意步反馈测试及新授权；不自动6/12/24h、训练/TIE/轨道，真实大气与轨道门禁不变，任务后安全Git同步。

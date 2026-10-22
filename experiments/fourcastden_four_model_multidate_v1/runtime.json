@@ -1,0 +1,856 @@
+{
+  "status": "PASS",
+  "labels": [
+    "HINDCAST",
+    "TIEGCM_REFERENCE_ONLY",
+    "NO_TRAINING"
+  ],
+  "formal_sequences": 16,
+  "formal_forwards": 32,
+  "precheck_forwards": 0,
+  "January_rerun": false,
+  "GPU_phase_wall_s": 34.06231850385666,
+  "records": [
+    {
+      "date": "2023-03-23",
+      "model": "History",
+      "status": "PASS",
+      "parameters": 66870720,
+      "checkpoint_bytes": 802585484,
+      "checkpoint_sha256": "cc4b44f6daea6188e4bfbde06796b950a50cfb215c0ad2295cff176a21a4ddc4",
+      "config_sha256": "8981211a3253230b0a5607fe1d9cae29ce776fe3d7a87fafef113dc2c90d9466",
+      "input_shape": [
+        1,
+        354,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 1,
+      "model_load_s": 1.3862036410719156,
+      "model_reused": false,
+      "loading_peak_allocated_bytes": 1069996032,
+      "read_preprocess_s": 0.06763952225446701,
+      "author_loop_metrics_hooks_s": 0.8157047200948,
+      "save_s": 1.5584775321185589,
+      "GPU_forward_ms": [
+        157.16677856445312,
+        18.607519149780273
+      ],
+      "peak_allocated_bytes": 308794368,
+      "peak_reserved_bytes": 1193279488,
+      "RSS_KiB": 1087012,
+      "feedback": {
+        "passed": true,
+        "ordering": "oldest then newest; each state concatenated with next-hour six auxiliaries",
+        "first_states": [
+          "real00",
+          "real01"
+        ],
+        "second_states": [
+          "real01",
+          "predicted02"
+        ],
+        "future_physical_truth_used": false,
+        "target_scalar_hours": [
+          "02",
+          "03"
+        ],
+        "auxiliary_hours": [
+          [
+            "01",
+            "02"
+          ],
+          [
+            "02",
+            "03"
+          ]
+        ]
+      },
+      "result_sha256": "936b3abbbd8f5ec618de4fe4901e5f664d32a0d9c6c854f431495d38da27d707",
+      "result_bytes": 30939866,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 7.572434600238069e-14,
+      "rho_max_kg_m3": 1.200169051058405e-06
+    },
+    {
+      "date": "2023-06-21",
+      "model": "History",
+      "status": "PASS",
+      "parameters": 66870720,
+      "checkpoint_bytes": 802585484,
+      "checkpoint_sha256": "cc4b44f6daea6188e4bfbde06796b950a50cfb215c0ad2295cff176a21a4ddc4",
+      "config_sha256": "8981211a3253230b0a5607fe1d9cae29ce776fe3d7a87fafef113dc2c90d9466",
+      "input_shape": [
+        1,
+        354,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 1,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "loading_peak_allocated_bytes": 1069996032,
+      "read_preprocess_s": 0.06662856042385101,
+      "author_loop_metrics_hooks_s": 0.11141360551118851,
+      "save_s": 1.5489330906420946,
+      "GPU_forward_ms": [
+        19.51308822631836,
+        18.281984329223633
+      ],
+      "peak_allocated_bytes": 309043200,
+      "peak_reserved_bytes": 1193279488,
+      "RSS_KiB": 1094844,
+      "feedback": {
+        "passed": true,
+        "ordering": "oldest then newest; each state concatenated with next-hour six auxiliaries",
+        "first_states": [
+          "real00",
+          "real01"
+        ],
+        "second_states": [
+          "real01",
+          "predicted02"
+        ],
+        "future_physical_truth_used": false,
+        "target_scalar_hours": [
+          "02",
+          "03"
+        ],
+        "auxiliary_hours": [
+          [
+            "01",
+            "02"
+          ],
+          [
+            "02",
+            "03"
+          ]
+        ]
+      },
+      "result_sha256": "2c6be31ebd33e513ffb41f63cf988f2c225c9782b676b22348b120c2ea292aa1",
+      "result_bytes": 30975336,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 6.412528512570635e-14,
+      "rho_max_kg_m3": 1.1238525449398864e-06
+    },
+    {
+      "date": "2023-09-23",
+      "model": "History",
+      "status": "PASS",
+      "parameters": 66870720,
+      "checkpoint_bytes": 802585484,
+      "checkpoint_sha256": "cc4b44f6daea6188e4bfbde06796b950a50cfb215c0ad2295cff176a21a4ddc4",
+      "config_sha256": "8981211a3253230b0a5607fe1d9cae29ce776fe3d7a87fafef113dc2c90d9466",
+      "input_shape": [
+        1,
+        354,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 1,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "loading_peak_allocated_bytes": 1069996032,
+      "read_preprocess_s": 0.06598998606204987,
+      "author_loop_metrics_hooks_s": 0.11023191921412945,
+      "save_s": 1.543350888416171,
+      "GPU_forward_ms": [
+        18.683839797973633,
+        17.917760848999023
+      ],
+      "peak_allocated_bytes": 309043200,
+      "peak_reserved_bytes": 1193279488,
+      "RSS_KiB": 1094844,
+      "feedback": {
+        "passed": true,
+        "ordering": "oldest then newest; each state concatenated with next-hour six auxiliaries",
+        "first_states": [
+          "real00",
+          "real01"
+        ],
+        "second_states": [
+          "real01",
+          "predicted02"
+        ],
+        "future_physical_truth_used": false,
+        "target_scalar_hours": [
+          "02",
+          "03"
+        ],
+        "auxiliary_hours": [
+          [
+            "01",
+            "02"
+          ],
+          [
+            "02",
+            "03"
+          ]
+        ]
+      },
+      "result_sha256": "8a6f02f9a6a4462c8368c799b0aba97462a9c40c8aa87f941ede17ccfd6e407c",
+      "result_bytes": 30994782,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 7.405283365085534e-14,
+      "rho_max_kg_m3": 1.206058407800988e-06
+    },
+    {
+      "date": "2023-12-21",
+      "model": "History",
+      "status": "PASS",
+      "parameters": 66870720,
+      "checkpoint_bytes": 802585484,
+      "checkpoint_sha256": "cc4b44f6daea6188e4bfbde06796b950a50cfb215c0ad2295cff176a21a4ddc4",
+      "config_sha256": "8981211a3253230b0a5607fe1d9cae29ce776fe3d7a87fafef113dc2c90d9466",
+      "input_shape": [
+        1,
+        354,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 1,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "loading_peak_allocated_bytes": 1069996032,
+      "read_preprocess_s": 0.06472075544297695,
+      "author_loop_metrics_hooks_s": 0.10817340575158596,
+      "save_s": 1.5608451925218105,
+      "GPU_forward_ms": [
+        18.897695541381836,
+        18.085439682006836
+      ],
+      "peak_allocated_bytes": 309043200,
+      "peak_reserved_bytes": 1193279488,
+      "RSS_KiB": 1094844,
+      "feedback": {
+        "passed": true,
+        "ordering": "oldest then newest; each state concatenated with next-hour six auxiliaries",
+        "first_states": [
+          "real00",
+          "real01"
+        ],
+        "second_states": [
+          "real01",
+          "predicted02"
+        ],
+        "future_physical_truth_used": false,
+        "target_scalar_hours": [
+          "02",
+          "03"
+        ],
+        "auxiliary_hours": [
+          [
+            "01",
+            "02"
+          ],
+          [
+            "02",
+            "03"
+          ]
+        ]
+      },
+      "result_sha256": "16a337b4316a4fb5dea13dff5e6042cbd214f2f949ffe91d5d53a4b87fde1439",
+      "result_bytes": 30895154,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 5.710544391690806e-14,
+      "rho_max_kg_m3": 1.127549271321747e-06
+    },
+    {
+      "date": "2023-03-23",
+      "model": "Direct",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776485772,
+      "checkpoint_sha256": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+      "config_sha256": "6c7d18b7b3604ff88b982095d6a6109bc76e5f8662bcb55f6862efe2095c1978",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 0,
+      "model_load_s": 1.1259678434580564,
+      "model_reused": false,
+      "loading_peak_allocated_bytes": 1043716096,
+      "read_preprocess_s": 0.04710121266543865,
+      "author_loop_metrics_hooks_s": 0.1038593016564846,
+      "save_s": 1.3891728464514017,
+      "GPU_forward_ms": [
+        23.04534339904785,
+        20.993408203125
+      ],
+      "peak_allocated_bytes": 294837760,
+      "peak_reserved_bytes": 1178599424,
+      "RSS_KiB": 1280012,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "049c9ffbb4156f25f69c200282134bcf9d5496be661e0d9da08ba1450f0999d7",
+      "result_bytes": 25962448,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 7.584818046560875e-14,
+      "rho_max_kg_m3": 1.1996407096080044e-06
+    },
+    {
+      "date": "2023-06-21",
+      "model": "Direct",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776485772,
+      "checkpoint_sha256": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+      "config_sha256": "6c7d18b7b3604ff88b982095d6a6109bc76e5f8662bcb55f6862efe2095c1978",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 0,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "loading_peak_allocated_bytes": 1043716096,
+      "read_preprocess_s": 0.05233893170952797,
+      "author_loop_metrics_hooks_s": 0.10306406579911709,
+      "save_s": 1.3867210242897272,
+      "GPU_forward_ms": [
+        21.906431198120117,
+        20.95827293395996
+      ],
+      "peak_allocated_bytes": 294837760,
+      "peak_reserved_bytes": 1178599424,
+      "RSS_KiB": 1280012,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "291e99e782971b4506faa0d6a58ac628df3df653acb18571babb091693ce27f1",
+      "result_bytes": 25993421,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 6.395397316542257e-14,
+      "rho_max_kg_m3": 1.1242498879723836e-06
+    },
+    {
+      "date": "2023-09-23",
+      "model": "Direct",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776485772,
+      "checkpoint_sha256": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+      "config_sha256": "6c7d18b7b3604ff88b982095d6a6109bc76e5f8662bcb55f6862efe2095c1978",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 0,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "loading_peak_allocated_bytes": 1043716096,
+      "read_preprocess_s": 0.05094937048852444,
+      "author_loop_metrics_hooks_s": 0.09367590397596359,
+      "save_s": 1.295889975503087,
+      "GPU_forward_ms": [
+        18.83113670349121,
+        18.1810245513916
+      ],
+      "peak_allocated_bytes": 294837760,
+      "peak_reserved_bytes": 1178599424,
+      "RSS_KiB": 1280012,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "5f4246792c3cab020e92023d31473bfa17f0de19f3ade1453e9c53acaa594808",
+      "result_bytes": 26009015,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 7.42280218214601e-14,
+      "rho_max_kg_m3": 1.2055120160054412e-06
+    },
+    {
+      "date": "2023-12-21",
+      "model": "Direct",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776485772,
+      "checkpoint_sha256": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+      "config_sha256": "6c7d18b7b3604ff88b982095d6a6109bc76e5f8662bcb55f6862efe2095c1978",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 0,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "loading_peak_allocated_bytes": 1043716096,
+      "read_preprocess_s": 0.04948806203901768,
+      "author_loop_metrics_hooks_s": 0.09290659986436367,
+      "save_s": 1.3186113461852074,
+      "GPU_forward_ms": [
+        18.959583282470703,
+        18.19708824157715
+      ],
+      "peak_allocated_bytes": 294837760,
+      "peak_reserved_bytes": 1178599424,
+      "RSS_KiB": 1280012,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "285ba130e46b77005156126da3ff860c003189af1184e3a82834805f01ecd7af",
+      "result_bytes": 25928496,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 5.782222669872224e-14,
+      "rho_max_kg_m3": 1.1281110373025726e-06
+    },
+    {
+      "date": "2023-03-23",
+      "model": "Flow",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776485772,
+      "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+      "config_sha256": "c6f709c394258f5e522256971cb671e50d05b08f681b738476d1497579ceabd3",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 0,
+      "model_load_s": 1.1312557682394981,
+      "model_reused": false,
+      "loading_peak_allocated_bytes": 1043716096,
+      "read_preprocess_s": 0.0484633632004261,
+      "author_loop_metrics_hooks_s": 0.09268652088940144,
+      "save_s": 1.3022719789296389,
+      "GPU_forward_ms": [
+        19.104991912841797,
+        18.44118309020996
+      ],
+      "peak_allocated_bytes": 294837760,
+      "peak_reserved_bytes": 1178599424,
+      "RSS_KiB": 1280148,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "e628a2f130e2cfe9ce03c5969e7c072e7c92fa4b9c0151a39ce8b01b7015e95c",
+      "result_bytes": 26033070,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 7.584005355538748e-14,
+      "rho_max_kg_m3": 1.2002205965657612e-06
+    },
+    {
+      "date": "2023-06-21",
+      "model": "Flow",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776485772,
+      "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+      "config_sha256": "c6f709c394258f5e522256971cb671e50d05b08f681b738476d1497579ceabd3",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 0,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "loading_peak_allocated_bytes": 1043716096,
+      "read_preprocess_s": 0.04915945418179035,
+      "author_loop_metrics_hooks_s": 0.08944871462881565,
+      "save_s": 1.296756774187088,
+      "GPU_forward_ms": [
+        18.80748748779297,
+        18.14896011352539
+      ],
+      "peak_allocated_bytes": 294837760,
+      "peak_reserved_bytes": 1178599424,
+      "RSS_KiB": 1280148,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "942669085203ab54e9ff950a90f2970c3f84a7e6ed38e1ed961b0bcfef55f156",
+      "result_bytes": 26062317,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 6.389448768432358e-14,
+      "rho_max_kg_m3": 1.1239643315121733e-06
+    },
+    {
+      "date": "2023-09-23",
+      "model": "Flow",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776485772,
+      "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+      "config_sha256": "c6f709c394258f5e522256971cb671e50d05b08f681b738476d1497579ceabd3",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 0,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "loading_peak_allocated_bytes": 1043716096,
+      "read_preprocess_s": 0.04926212131977081,
+      "author_loop_metrics_hooks_s": 0.09044500067830086,
+      "save_s": 1.2898708879947662,
+      "GPU_forward_ms": [
+        18.843904495239258,
+        18.300928115844727
+      ],
+      "peak_allocated_bytes": 294837760,
+      "peak_reserved_bytes": 1178599424,
+      "RSS_KiB": 1280148,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "dfbaadb1be58a8ba17f453ff19694fbec017399b30e448fd06034c84f493c16b",
+      "result_bytes": 26076505,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 7.418613248708796e-14,
+      "rho_max_kg_m3": 1.2054927413760157e-06
+    },
+    {
+      "date": "2023-12-21",
+      "model": "Flow",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776485772,
+      "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+      "config_sha256": "c6f709c394258f5e522256971cb671e50d05b08f681b738476d1497579ceabd3",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 0,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "loading_peak_allocated_bytes": 1043716096,
+      "read_preprocess_s": 0.0495962705463171,
+      "author_loop_metrics_hooks_s": 0.09097576327621937,
+      "save_s": 1.3034649714827538,
+      "GPU_forward_ms": [
+        19.221216201782227,
+        18.083967208862305
+      ],
+      "peak_allocated_bytes": 294837760,
+      "peak_reserved_bytes": 1178599424,
+      "RSS_KiB": 1280148,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "7d3b04d0ce5ebc785d642bb4fc2940f6367064ab4a0d0d8940b3d4a0237a4e4f",
+      "result_bytes": 26008850,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 5.726503483970933e-14,
+      "rho_max_kg_m3": 1.1283584290547632e-06
+    },
+    {
+      "date": "2023-03-23",
+      "model": "LogDEN",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776484108,
+      "checkpoint_sha256": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18",
+      "config_sha256": "f0bfd5e52a92f28289c1b785da24ac622e1efd73fe7a4ab801f0d434f3760a1e",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 0,
+      "model_load_s": 1.1349130440503359,
+      "model_reused": false,
+      "loading_peak_allocated_bytes": 1043716096,
+      "read_preprocess_s": 0.04703677073121071,
+      "author_loop_metrics_hooks_s": 0.24050147645175457,
+      "save_s": 1.4169153720140457,
+      "GPU_forward_ms": [
+        18.815872192382812,
+        18.180511474609375
+      ],
+      "peak_allocated_bytes": 296041984,
+      "peak_reserved_bytes": 1178599424,
+      "RSS_KiB": 1281244,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "f2a445a57563dde5688566c1e72616888a13674cfdda8f0afecc0461f21b6539",
+      "result_bytes": 26738408,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 7.587394870061791e-14,
+      "rho_max_kg_m3": 1.2000669572504599e-06
+    },
+    {
+      "date": "2023-06-21",
+      "model": "LogDEN",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776484108,
+      "checkpoint_sha256": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18",
+      "config_sha256": "f0bfd5e52a92f28289c1b785da24ac622e1efd73fe7a4ab801f0d434f3760a1e",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 0,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "loading_peak_allocated_bytes": 1043716096,
+      "read_preprocess_s": 0.049793677404522896,
+      "author_loop_metrics_hooks_s": 0.0947324838489294,
+      "save_s": 1.3953800089657307,
+      "GPU_forward_ms": [
+        18.869855880737305,
+        18.19215965270996
+      ],
+      "peak_allocated_bytes": 296041984,
+      "peak_reserved_bytes": 1178599424,
+      "RSS_KiB": 1281244,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "bb773716676f9deb42b33fd1575478b03d83404c19bfa87491d799cb3ef86f46",
+      "result_bytes": 26853315,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 6.425133962210251e-14,
+      "rho_max_kg_m3": 1.1240273013708897e-06
+    },
+    {
+      "date": "2023-09-23",
+      "model": "LogDEN",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776484108,
+      "checkpoint_sha256": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18",
+      "config_sha256": "f0bfd5e52a92f28289c1b785da24ac622e1efd73fe7a4ab801f0d434f3760a1e",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 0,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "loading_peak_allocated_bytes": 1043716096,
+      "read_preprocess_s": 0.050232239067554474,
+      "author_loop_metrics_hooks_s": 0.09566635079681873,
+      "save_s": 1.414540784433484,
+      "GPU_forward_ms": [
+        18.945695877075195,
+        18.189760208129883
+      ],
+      "peak_allocated_bytes": 296041984,
+      "peak_reserved_bytes": 1178599424,
+      "RSS_KiB": 1281244,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "a02f333bdb4c4f4b1e54c8d4f51a7a5713ba6521a89a22399462a23117497327",
+      "result_bytes": 26802928,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 7.42078099332016e-14,
+      "rho_max_kg_m3": 1.20577585338882e-06
+    },
+    {
+      "date": "2023-12-21",
+      "model": "LogDEN",
+      "status": "PASS",
+      "parameters": 64695744,
+      "checkpoint_bytes": 776484108,
+      "checkpoint_sha256": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18",
+      "config_sha256": "f0bfd5e52a92f28289c1b785da24ac622e1efd73fe7a4ab801f0d434f3760a1e",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "formal_forwards": 2,
+      "n_history": 0,
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "loading_peak_allocated_bytes": 1043716096,
+      "read_preprocess_s": 0.05325510539114475,
+      "author_loop_metrics_hooks_s": 0.0969889834523201,
+      "save_s": 1.3868703078478575,
+      "GPU_forward_ms": [
+        19.247295379638672,
+        18.441152572631836
+      ],
+      "peak_allocated_bytes": 296041984,
+      "peak_reserved_bytes": 1178599424,
+      "RSS_KiB": 1281244,
+      "feedback": {
+        "passed": true,
+        "second_state_equals_first_prediction": true,
+        "physical_truth_used_after_t0": false,
+        "future_auxiliary_and_drivers_used": true
+      },
+      "result_sha256": "6a1ad1c3e9c5aa6ca8c91415e4da1090c159a5156284afbc47d8b6566f24b0c1",
+      "result_bytes": 26877385,
+      "DEN_positive_fraction": 1.0,
+      "rho_min_kg_m3": 5.719262714766838e-14,
+      "rho_max_kg_m3": 1.1280578341855066e-06
+    }
+  ],
+  "torch": "2.4.1+cu121",
+  "cuda": "12.1",
+  "device": "NVIDIA A100-SXM4-80GB",
+  "FP32": true,
+  "TF32": false
+}

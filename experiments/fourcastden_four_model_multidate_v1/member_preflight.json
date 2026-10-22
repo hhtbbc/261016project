@@ -1,0 +1,34 @@
+{
+  "all_four_members_present": true,
+  "central_directory_entries": 8760,
+  "members": [
+    {
+      "name": "2023_03_23_030000.npz",
+      "header_offset": 4039218824,
+      "bytes": 2070154,
+      "compressed": 2070035,
+      "CRC32": 2639742619
+    },
+    {
+      "name": "2023_06_21_030000.npz",
+      "header_offset": 8512965729,
+      "bytes": 2071712,
+      "compressed": 2071560,
+      "CRC32": 1367278244
+    },
+    {
+      "name": "2023_09_23_030000.npz",
+      "header_offset": 13186138735,
+      "bytes": 2074517,
+      "compressed": 2074366,
+      "CRC32": 2063670726
+    },
+    {
+      "name": "2023_12_21_030000.npz",
+      "header_offset": 17608869368,
+      "bytes": 2075735,
+      "compressed": 2075556,
+      "CRC32": 2680684579
+    }
+  ]
+}

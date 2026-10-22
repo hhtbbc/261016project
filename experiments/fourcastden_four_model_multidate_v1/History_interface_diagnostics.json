@@ -1,0 +1,96 @@
+{
+  "status": "PASS_checked_interface_not_explanation_of_training",
+  "checks": [
+    {
+      "date": "2023-01-04",
+      "hour": 1,
+      "normalization_exactly_matches_Direct": true,
+      "latest_initial_state_exactly_matches_Direct": true,
+      "aligned_real_states_and_aux_exact": true,
+      "lowest_layer_RMSE_fraction_of_sum_layer_RMSE": 0.8167217358543231,
+      "lowest_five_fraction_of_sum_layer_RMSE": 0.9884057247318252
+    },
+    {
+      "date": "2023-01-04",
+      "hour": 2,
+      "normalization_exactly_matches_Direct": true,
+      "latest_initial_state_exactly_matches_Direct": true,
+      "aligned_real_states_and_aux_exact": true,
+      "lowest_layer_RMSE_fraction_of_sum_layer_RMSE": 0.7523018378595425,
+      "lowest_five_fraction_of_sum_layer_RMSE": 0.9748080308914471
+    },
+    {
+      "date": "2023-03-23",
+      "hour": 1,
+      "normalization_exactly_matches_Direct": true,
+      "latest_initial_state_exactly_matches_Direct": true,
+      "aligned_real_states_and_aux_exact": true,
+      "lowest_layer_RMSE_fraction_of_sum_layer_RMSE": 0.8285013066010363,
+      "lowest_five_fraction_of_sum_layer_RMSE": 0.9910563919283544
+    },
+    {
+      "date": "2023-03-23",
+      "hour": 2,
+      "normalization_exactly_matches_Direct": true,
+      "latest_initial_state_exactly_matches_Direct": true,
+      "aligned_real_states_and_aux_exact": true,
+      "lowest_layer_RMSE_fraction_of_sum_layer_RMSE": 0.7894814475258334,
+      "lowest_five_fraction_of_sum_layer_RMSE": 0.9879072640149205
+    },
+    {
+      "date": "2023-06-21",
+      "hour": 1,
+      "normalization_exactly_matches_Direct": true,
+      "latest_initial_state_exactly_matches_Direct": true,
+      "aligned_real_states_and_aux_exact": true,
+      "lowest_layer_RMSE_fraction_of_sum_layer_RMSE": 0.8130116331063675,
+      "lowest_five_fraction_of_sum_layer_RMSE": 0.9902820180701541
+    },
+    {
+      "date": "2023-06-21",
+      "hour": 2,
+      "normalization_exactly_matches_Direct": true,
+      "latest_initial_state_exactly_matches_Direct": true,
+      "aligned_real_states_and_aux_exact": true,
+      "lowest_layer_RMSE_fraction_of_sum_layer_RMSE": 0.7723596894472112,
+      "lowest_five_fraction_of_sum_layer_RMSE": 0.9873710348463255
+    },
+    {
+      "date": "2023-09-23",
+      "hour": 1,
+      "normalization_exactly_matches_Direct": true,
+      "latest_initial_state_exactly_matches_Direct": true,
+      "aligned_real_states_and_aux_exact": true,
+      "lowest_layer_RMSE_fraction_of_sum_layer_RMSE": 0.82439008153153,
+      "lowest_five_fraction_of_sum_layer_RMSE": 0.9917219870425737
+    },
+    {
+      "date": "2023-09-23",
+      "hour": 2,
+      "normalization_exactly_matches_Direct": true,
+      "latest_initial_state_exactly_matches_Direct": true,
+      "aligned_real_states_and_aux_exact": true,
+      "lowest_layer_RMSE_fraction_of_sum_layer_RMSE": 0.7857439481578327,
+      "lowest_five_fraction_of_sum_layer_RMSE": 0.9889210149284857
+    },
+    {
+      "date": "2023-12-21",
+      "hour": 1,
+      "normalization_exactly_matches_Direct": true,
+      "latest_initial_state_exactly_matches_Direct": true,
+      "aligned_real_states_and_aux_exact": true,
+      "lowest_layer_RMSE_fraction_of_sum_layer_RMSE": 0.8158917184339669,
+      "lowest_five_fraction_of_sum_layer_RMSE": 0.9894816871725601
+    },
+    {
+      "date": "2023-12-21",
+      "hour": 2,
+      "normalization_exactly_matches_Direct": true,
+      "latest_initial_state_exactly_matches_Direct": true,
+      "aligned_real_states_and_aux_exact": true,
+      "lowest_layer_RMSE_fraction_of_sum_layer_RMSE": 0.7530764614033572,
+      "lowest_five_fraction_of_sum_layer_RMSE": 0.9784677098644688
+    }
+  ],
+  "scope": "No discrepancy found in checked checkpoint/static/time/order/feedback paths. This does not prove unpublished training configuration correctness or a unique cause of prediction bias."
+}

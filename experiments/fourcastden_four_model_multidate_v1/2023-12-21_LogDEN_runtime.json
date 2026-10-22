@@ -1,0 +1,47 @@
+{
+  "date": "2023-12-21",
+  "model": "LogDEN",
+  "status": "PASS",
+  "parameters": 64695744,
+  "checkpoint_bytes": 776484108,
+  "checkpoint_sha256": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18",
+  "config_sha256": "f0bfd5e52a92f28289c1b785da24ac622e1efd73fe7a4ab801f0d434f3760a1e",
+  "input_shape": [
+    1,
+    177,
+    36,
+    72
+  ],
+  "output_shape": [
+    1,
+    171,
+    36,
+    72
+  ],
+  "formal_forwards": 2,
+  "n_history": 0,
+  "model_load_s": 0.0,
+  "model_reused": true,
+  "loading_peak_allocated_bytes": 1043716096,
+  "read_preprocess_s": 0.05325510539114475,
+  "author_loop_metrics_hooks_s": 0.0969889834523201,
+  "save_s": 1.3868703078478575,
+  "GPU_forward_ms": [
+    19.247295379638672,
+    18.441152572631836
+  ],
+  "peak_allocated_bytes": 296041984,
+  "peak_reserved_bytes": 1178599424,
+  "RSS_KiB": 1281244,
+  "feedback": {
+    "passed": true,
+    "second_state_equals_first_prediction": true,
+    "physical_truth_used_after_t0": false,
+    "future_auxiliary_and_drivers_used": true
+  },
+  "result_sha256": "6a1ad1c3e9c5aa6ca8c91415e4da1090c159a5156284afbc47d8b6566f24b0c1",
+  "result_bytes": 26877385,
+  "DEN_positive_fraction": 1.0,
+  "rho_min_kg_m3": 5.719262714766838e-14,
+  "rho_max_kg_m3": 1.1280578341855066e-06
+}

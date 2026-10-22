@@ -1,5 +1,7 @@
 # 当前状态
 
+> 最新（2026-10-22）：五日期四模型统一01时短窗完成，新增16序列32forward、Jan4只读，226测试；6h仅设计，未训练/轨道。
+
 > 最新（2026-10-22）：History首次复现及四模型统一01时基线完成，221测试通过。单窗History未优于Direct，详见末节；无训练或扩窗。
 
 > 最新：五日期官方log-DEN及三模型共同物理评价完成，215测试通过；log全层绝对指标改善但高层相对指标未改善。无训练或扩窗。
@@ -306,3 +308,12 @@ Flow第一小时170/171层、第二小时141/171层RMSE低于Direct；变量平�
 - 单窗新结果：History两时效六变量平均层RMSE均高于Direct；400—500km相关原生组第1h Flow最低、第2h Direct最低。第二小时DEN平均层绝对RMSE Direct4.99559e-11、Flow5.85038e-11、log5.12006e-11、History3.97000e-10 kg/m3。不能挑旧/新起点混排名。
 - 4模型均finite/DEN正，误差均有增长；History DEN倍率较小但起点误差高，不证明更稳定。独立NumPy1368通道指标复核/356保护SHA通过。监督21.011s、峰RSS1.225GiB，新增约109MiB<150MiB。
 - 报告FOURCASTDEN_HISTORY_VALIDATION.md、FOURCASTDEN_FOUR_MODEL_COMPARISON.md；5图/逐层物理与原native CSV、配置/审计/日志保留，大数组本地。下一阶段先补另外4日期03并统一01短窗，再6h；当前未执行。真实大气/轨道精度门禁不变。Git以最终远端HEAD核验为准。
+
+## 2026-10-22：五日期四模型共同01时对照完成
+
+- 后4固定日期03时合法补取，HTTP206/Content-Range/CRC/SHA/14字段/finite/正DEN及网格契约通过；网络9,274,427字节<20MiB，Jan4和已有数据不重取。新增16序列32forward，Jan4四组旧01时结果严格SHA只读，五窗四模型全部具备。
+- 226项测试、6840个共同物理通道独立复核、422历史保护SHA通过；History354/其他177输入、171输出，归一化/增量/log/滑窗和未来辅助对齐，全部finite/DEN正。无训练/重试/扩窗/TIE/轨道。
+- History DEN全层绝对与高层相对在两时效均0/5优于Direct、也0/5优于Flow；History在Dec第一小时WN及第二小时UN/VN/WN优于Direct。Flow近400—500组第1h5/5最低，第2h3/5最低，Direct2/5；第2h绝对DEN log3/5最低、Direct1/5、Flow1/5。所有模型六变量平均误差均增长，不能用增长倍率较低掩盖较高初始误差。
+- 01相对00起点的第二小时高层误差增长在Jan/Dec突出，但Jun略降，不能说01总更难或归因某个驱动。History接口专查与Direct mean/std、01初态和real目标完全一致，已查路径无代码错误，不推断上游训练唯一根因。
+- 监督42.5746s、峰RSS1.222GiB；新增约431MiB<650MiB，CPU分析10.557s/约364MiB。新7图/15类CSV/配置与审计，原始大数组本地。报告FOURCASTDEN_FOUR_MODEL_MULTIDATE_VALIDATION/COMPARISON；6小时仅设计Jan4+Mar24（外部GFZ预选，尚无该窗预测），最少12新帧，未下载/执行。
+- 当前不能选最终模型或给真实大气/卫星轨道精度结论。下一入口FOURCASTDEN_SIX_HOUR_EXPERIMENT_PLAN.md；所有正式物理参数/高度门禁保留。Git同步以实际远端SHA核对为准。

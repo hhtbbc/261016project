@@ -1,0 +1,47 @@
+{
+  "date": "2023-12-21",
+  "model": "Flow",
+  "status": "PASS",
+  "parameters": 64695744,
+  "checkpoint_bytes": 776485772,
+  "checkpoint_sha256": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+  "config_sha256": "c6f709c394258f5e522256971cb671e50d05b08f681b738476d1497579ceabd3",
+  "input_shape": [
+    1,
+    177,
+    36,
+    72
+  ],
+  "output_shape": [
+    1,
+    171,
+    36,
+    72
+  ],
+  "formal_forwards": 2,
+  "n_history": 0,
+  "model_load_s": 0.0,
+  "model_reused": true,
+  "loading_peak_allocated_bytes": 1043716096,
+  "read_preprocess_s": 0.0495962705463171,
+  "author_loop_metrics_hooks_s": 0.09097576327621937,
+  "save_s": 1.3034649714827538,
+  "GPU_forward_ms": [
+    19.221216201782227,
+    18.083967208862305
+  ],
+  "peak_allocated_bytes": 294837760,
+  "peak_reserved_bytes": 1178599424,
+  "RSS_KiB": 1280148,
+  "feedback": {
+    "passed": true,
+    "second_state_equals_first_prediction": true,
+    "physical_truth_used_after_t0": false,
+    "future_auxiliary_and_drivers_used": true
+  },
+  "result_sha256": "7d3b04d0ce5ebc785d642bb4fc2940f6367064ab4a0d0d8940b3d4a0237a4e4f",
+  "result_bytes": 26008850,
+  "DEN_positive_fraction": 1.0,
+  "rho_min_kg_m3": 5.726503483970933e-14,
+  "rho_max_kg_m3": 1.1283584290547632e-06
+}

@@ -418,3 +418,21 @@ History唯一真实forward预检通过，随后History/Direct/Flow/log各一次�
 下一阶段仅设计：其他4日期各补03，16新2h序列，Jan4只读；再6h（Jan4另缺04—07四帧），之后12/24h/独立强活动，训练和AI轨道前继续数据/参数/高度门禁。已停止，Git同步以最终SHA核验为准。
 
 发布前补充CPU只读checkpoint结构核验：150项state，patch_embed.proj.weight=(768,354,4,4)，参数元素66,870,720，未做forward；checkpoint_structure.json保留。图像已查看。报告明确pred171/real177形状，随后以audit_fourcastden_history.py --release重新执行最终全项审计，早前audit快照保留，不覆盖。
+
+## 2026-10-22：五日期四模型统一01时起点评价
+
+先阅读AGENTS/STATUS/WORKLOG、History验证/比较、三模型比较与第二阶段计划/下一决策/评价协议，核对本地和远端main均58c35d9dee2bf15145d2cd85a47235eaa723f7ac。冻结preregistration，Jan4四组01时结果只读，不重跑；后四日期不依误差换窗。保护422项原始源码/Linux副本/权重/static/旧NPZ及指标日志SHA。
+
+复用BoundedRemoteZip，一次中央目录确认四个03成员全部存在，再206/Content-Range/ZIP及zlib CRC/SHA、14字段/单位网格契约/finite/哨兵/正DEN/ZG顺序校验。总网络9,274,427字节（8.845MiB）<20MiB，新原始数据0444；没有全年下载或重取。NPZ无自带时间/单位坐标属性，来源契约与外部高度验证分开。
+
+新增5项日期批处理防Jan4重跑/连续小时/非法history/窗口等权统计测试，全226项24.779s通过；原有CPU毒化/History滑窗/log兼容测试保留。唯一监督工作进程16序列32真实forward，无额外预检、重试、训练/微调、6h/TIE/轨道。四模型各严格加载一次，独立初始化4日期；History354输入，其他177，171输出、4标量；直接复用作者循环、原log覆盖层，Flow按normalized增量、Historyreal00+real01滚动real01+pred02，后步绝不喂real02。每次实际174原始通道匹配归一化逐元素核对，hooks完整反馈和futureaux标量对齐。
+
+实际监督墙钟42.574574s，GPU phase34.062319s含CPU处理/压缩；峰RSS1,311,993,856字节约1.222GiB。首次History冷forward157.167ms，其他约18—20ms；模型加载History/Direct/Flow/log约1.386/1.126/1.131/1.135s。不同预热/缓存条件不作吞吐排名；CPU分析10.557s、峰373024KiB。新增约431MiB<650MiB，原始和大预测NPZ不入库。
+
+全部五窗共同raw02/03物理参考、普通物理气候态、real01持续性，SI密度kg/m3、风m/s、Z位势高度m，自然log误差与原生log ACC/dex分表。独立NumPy6840通道物理指标/原native阈值通过，Jan4 40项密度指标复现旧值。History mean/std、最新01初态及real目标与Direct完全一致；检查权重/时间/354顺序/反馈未见错误，保留较差残差，不宣称唯一训练根因或修补结果。
+
+观察：History DEN绝对/高层相对两时效0/5优于Direct/Flow；Dec第一小时WN、第二小时UN/VN/WN优于Direct，其余变量无统一优势。近400—500原生组Flow第一小时5/5最低，第二小时3/5最低、Direct2/5。绝对DEN第一小时Flow5/5最低，第二小时log3/5、Direct1/5、Flow1/5。4模型5窗6变量均平均RMSE增长，History倍率小但初始误差大，不能称稳定性改善。新01与旧00同lead不同target，Jan/Dec第二小时高层误差明显增加、Jun略降；另存共同02目标异lead对比，不作地磁因果。
+
+命令：source scripts/activate310.sh；unittest discover；run_fourcastden_four_model_multidate.py --fetch；无参静态；supervise_fourcastden_four_model.py；analyze_fourcastden_four_model_multidate.py；audit_fourcastden_four_model_multidate.py；History_interface_diagnostics离线逐元素核对；write_fourcastden_four_model_reports.py；最终audit --final。15类CSV、7真实图、配置/请求/驱动/保护审计在新标签；报告VALIDATION/COMPARISON，下一6h方案单独文档。脚本读取旧数据，无覆盖；复用Python3.10/torch2.4.1+cu121/A100/FP32/TF32false，无依赖安装。
+
+6h仅设计Jan4工程基准与外部GFZ def Kp00/03/06均>=5的Mar24（7.333/8/6.333），未看该窗模型误差；本地官方目录确认00—07存在，12帧待取（Jan4缺04—07四帧、Mar24缺八帧）。未来要升级任意步反馈毒化、独立预算授权，当前未取未来帧/未6h/训练/轨道。正式真实大气/Swarm气动推力/高度/预热/受力门禁不变，任务后停止，Git以最终远端核验为准。
