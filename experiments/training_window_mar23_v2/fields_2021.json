@@ -1,0 +1,266 @@
+{
+  "status": "PASS",
+  "year": 2021,
+  "fields": {
+    "TN": {
+      "shape": [
+        2,
+        29,
+        36,
+        72
+      ],
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "unit": "K",
+      "masked": 5184,
+      "min_valid": 147.77389526367188,
+      "max_valid": 781.64892578125
+    },
+    "UN": {
+      "shape": [
+        2,
+        29,
+        36,
+        72
+      ],
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm/s",
+      "masked": 5184,
+      "min_valid": -31749.537109375,
+      "max_valid": 29987.55859375
+    },
+    "VN": {
+      "shape": [
+        2,
+        29,
+        36,
+        72
+      ],
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm/s",
+      "masked": 5184,
+      "min_valid": -29867.224609375,
+      "max_valid": 30888.17578125
+    },
+    "WN": {
+      "shape": [
+        2,
+        29,
+        36,
+        72
+      ],
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm/s",
+      "masked": 0,
+      "min_valid": -278.76385498046875,
+      "max_valid": 278.8575134277344
+    },
+    "Z": {
+      "shape": [
+        2,
+        29,
+        36,
+        72
+      ],
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm",
+      "masked": 0,
+      "min_valid": 9567610.0,
+      "max_valid": 52256468.0
+    },
+    "DEN": {
+      "shape": [
+        2,
+        29,
+        36,
+        72
+      ],
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "unit": "g/cm3",
+      "masked": 0,
+      "min_valid": 1.3571895093803367e-16,
+      "max_valid": 1.1994824022920625e-09
+    },
+    "ZG": {
+      "shape": [
+        2,
+        29,
+        36,
+        72
+      ],
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm",
+      "masked": 0,
+      "min_valid": 9567610.0,
+      "max_valid": 51037164.0
+    },
+    "NE": {
+      "shape": [
+        2,
+        29,
+        36,
+        72
+      ],
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm-3",
+      "masked": 0,
+      "min_valid": 1193.5361328125,
+      "max_valid": 990150.0
+    },
+    "TLBC": {
+      "shape": [
+        2,
+        36,
+        72
+      ],
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "unit": "K",
+      "masked": 0,
+      "min_valid": 158.22010803222656,
+      "max_valid": 197.4136962890625
+    },
+    "ULBC": {
+      "shape": [
+        2,
+        36,
+        72
+      ],
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm/s",
+      "masked": 0,
+      "min_valid": -5655.32373046875,
+      "max_valid": 4051.713134765625
+    },
+    "VLBC": {
+      "shape": [
+        2,
+        36,
+        72
+      ],
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "unit": "cm/s",
+      "masked": 0,
+      "min_valid": -6326.1416015625,
+      "max_valid": 6463.41650390625
+    },
+    "f107d": {
+      "shape": [
+        2
+      ],
+      "dimensions": [
+        "time"
+      ],
+      "unit": "1.e-22 W/m2/Hz",
+      "masked": 0,
+      "min_valid": 76.90732753214687,
+      "max_valid": 76.90838998132608
+    },
+    "f107a": {
+      "shape": [
+        2
+      ],
+      "dimensions": [
+        "time"
+      ],
+      "unit": "1.e-22 W/m2/Hz",
+      "masked": 0,
+      "min_valid": 74.68657521996266,
+      "max_valid": 74.68661320873737
+    },
+    "Kp": {
+      "shape": [
+        2
+      ],
+      "dimensions": [
+        "time"
+      ],
+      "unit": null,
+      "masked": 0,
+      "min_valid": 2.2128055555555557,
+      "max_valid": 2.2591111111111113
+    }
+  },
+  "coordinates": {
+    "lat": {
+      "author_exact": true,
+      "shape": [
+        36
+      ],
+      "author_SHA256": "c05d3cf388918bca6083c0a97831cc071b5abaf67e3e292bbb032271c7368c0f"
+    },
+    "lon": {
+      "author_exact": true,
+      "shape": [
+        72
+      ],
+      "author_SHA256": "38560017f9976b8251a7799e31d6ddb881f9552c143fe2f6c4821a6e3b68d688"
+    },
+    "lev": {
+      "author_exact": true,
+      "shape": [
+        29
+      ],
+      "author_SHA256": "a497bb83b11c6185183159bf6535a4eb139039aa1c2990d97e8cf5b99a2508ec"
+    },
+    "ilev": {
+      "author_exact": true,
+      "shape": [
+        29
+      ],
+      "author_SHA256": "8de0896d5cc4dcf58131898dad5314e41833d893c01d8cb8b2343e334871e467"
+    }
+  },
+  "training_samples_generated": 0,
+  "all_records_NOT_TRAINING_DATA": true
+}

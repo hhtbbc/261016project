@@ -1,0 +1,132 @@
+{
+  "2021": {
+    "status": "PASS",
+    "protocol": {
+      "role": "train",
+      "model_start": "2021-03-16",
+      "model_end": "2021-03-26",
+      "sample_start": "2021-03-23",
+      "sample_end": "2021-03-26",
+      "hourly_frames": 73,
+      "raw_gpi_start": "2021-03-14",
+      "raw_gpi_end": "2021-03-28",
+      "solar_start": "2021-02-02",
+      "solar_end": "2021-05-07",
+      "diagnostic_DOY": 82,
+      "diagnostic_seconds": 600
+    },
+    "Fobs_count": 95,
+    "Kp_count": 120,
+    "missing": 0,
+    "duplicates": 0,
+    "sources": [
+      {
+        "path": "data/raw/f107_2021_recovery_v1/gfz_year.txt",
+        "SHA256": "f969f23b0b0d4aba80dca6f35d3e95c2d35a7e482457bc1812e5c0827090caae",
+        "bytes": 61627,
+        "URL": "ftp://ftp.gfz-potsdam.de/pub/home/obs/Kp_ap_Ap_SN_F107/Kp_ap_Ap_SN_F107_2021.txt",
+        "reuse": true,
+        "license": "CC BY 4.0 for Fobs/Kp; SN not extracted"
+      }
+    ],
+    "Fobs_range": [
+      69.5,
+      82.9
+    ],
+    "Kp_range": [
+      0.0,
+      5.667
+    ],
+    "quality": "Kp definitive; Fobs no per-record quality flag, finite positive continuous only",
+    "license": "GFZ CC BY 4.0",
+    "adjusted_flux_used": false
+  },
+  "2022": {
+    "status": "PASS",
+    "protocol": {
+      "role": "validation",
+      "model_start": "2022-03-16",
+      "model_end": "2022-03-25",
+      "sample_start": "2022-03-23",
+      "sample_end": "2022-03-25",
+      "hourly_frames": 49,
+      "raw_gpi_start": "2022-03-14",
+      "raw_gpi_end": "2022-03-27",
+      "solar_start": "2022-02-02",
+      "solar_end": "2022-05-06",
+      "diagnostic_DOY": 82,
+      "diagnostic_seconds": 600
+    },
+    "Fobs_count": 94,
+    "Kp_count": 112,
+    "missing": 0,
+    "duplicates": 0,
+    "sources": [
+      {
+        "path": "data/raw/tiegcm_training_years_v1/2022_Fobs.json",
+        "SHA256": "e5b665880486903071efa5ad33964288bcd0b74195e31f380099366df270aab8",
+        "bytes": 2784,
+        "reuse": true
+      },
+      {
+        "path": "data/raw/tiegcm_training_years_v1/2022_Kp.json",
+        "SHA256": "9ed616a8b8e8fceb56b41bc7f243b5f0f518e233505cd97632004bf8e02b25f5",
+        "bytes": 3943,
+        "reuse": true
+      },
+      {
+        "URL": "https://kp.gfz.de/app/json/?start=2022-02-02T00:00:00Z&end=2022-02-14T23:59:59Z&index=Fobs",
+        "HTTP": 200,
+        "bytes": 455,
+        "SHA256": "8318254b1fe966e805818bff0ff535ca0645ad7b8db1304dc0ffb9872d5b3f65",
+        "path": "data/raw/training_window_mar23_v2/2022_Fobs_additional.json",
+        "requested_dates": [
+          "2022-02-02",
+          "2022-02-14"
+        ],
+        "actual_first": "2022-02-02T00:00:00+00:00",
+        "actual_last": "2022-02-14T00:00:00+00:00",
+        "count": 13,
+        "missing": 0,
+        "license": "CC BY 4.0",
+        "quality": "no per-record quality flag exposed; finite/positive/continuous only",
+        "source_meta": {
+          "license": "CC BY 4.0",
+          "source": "GFZ Potsdam"
+        }
+      },
+      {
+        "URL": "https://kp.gfz.de/app/json/?start=2022-03-14T00:00:00Z&end=2022-03-26T23:59:59Z&index=Kp&status=def",
+        "HTTP": 200,
+        "bytes": 3655,
+        "SHA256": "d38b7d3da6be7cab0bd01505740f0c64c491e093f1d3f72801e42a0317842d62",
+        "path": "data/raw/training_window_mar23_v2/2022_Kp_additional.json",
+        "requested_dates": [
+          "2022-03-14",
+          "2022-03-26"
+        ],
+        "actual_first": "2022-03-14T00:00:00+00:00",
+        "actual_last": "2022-03-26T21:00:00+00:00",
+        "count": 104,
+        "missing": 0,
+        "license": "CC BY 4.0",
+        "quality": "all def",
+        "source_meta": {
+          "license": "CC BY 4.0",
+          "source": "GFZ Potsdam"
+        }
+      }
+    ],
+    "Fobs_range": [
+      92.3,
+      239.5
+    ],
+    "Kp_range": [
+      0.0,
+      5.667
+    ],
+    "quality": "Kp definitive; Fobs no per-record quality flag, finite positive continuous only",
+    "license": "GFZ CC BY 4.0",
+    "adjusted_flux_used": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "URL": "https://kp.gfz.de/app/json/?start=2022-03-14T00:00:00Z&end=2022-03-26T23:59:59Z&index=Kp&status=def",
+  "HTTP": 200,
+  "bytes": 3655,
+  "SHA256": "d38b7d3da6be7cab0bd01505740f0c64c491e093f1d3f72801e42a0317842d62",
+  "path": "data/raw/training_window_mar23_v2/2022_Kp_additional.json",
+  "requested_dates": [
+    "2022-03-14",
+    "2022-03-26"
+  ],
+  "actual_first": "2022-03-14T00:00:00+00:00",
+  "actual_last": "2022-03-26T21:00:00+00:00",
+  "count": 104,
+  "missing": 0,
+  "license": "CC BY 4.0",
+  "quality": "all def",
+  "source_meta": {
+    "license": "CC BY 4.0",
+    "source": "GFZ Potsdam"
+  }
+}

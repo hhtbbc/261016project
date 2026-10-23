@@ -1,0 +1,12 @@
+{
+  "mpi_ranks": 4,
+  "simulated_seconds_requested": 600,
+  "peak_process_group_rss_bytes": 988168192,
+  "returncode": 0,
+  "stop_reason": null,
+  "elapsed_s": 2.4326666928827763,
+  "rss_sampling": "process group plus recursive descendants, 0.1 second sampling; sums RSS including shared pages",
+  "normal_exit": true,
+  "restart_after_sha256": "180475215a4922e9c55a77e80153cf641bc8fbb2b8d52633b4686ddee6942fff",
+  "restart_unchanged": true
+}

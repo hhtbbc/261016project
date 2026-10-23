@@ -1,0 +1,37 @@
+{
+  "version": "training_window_mar23_v2",
+  "preregistered_before_new_completeness_and_model_results": true,
+  "reason": "user authorized new completeness-based dates; not selected from AI errors",
+  "old_version": "training_window_apr05_v1",
+  "old_status": "DATA_GAP_UNRESOLVED",
+  "years": {
+    "2021": {
+      "role": "train",
+      "model_start": "2021-03-16",
+      "model_end": "2021-03-26",
+      "sample_start": "2021-03-23",
+      "sample_end": "2021-03-26",
+      "hourly_frames": 73,
+      "raw_gpi_start": "2021-03-14",
+      "raw_gpi_end": "2021-03-28",
+      "solar_start": "2021-02-02",
+      "solar_end": "2021-05-07",
+      "diagnostic_DOY": 82,
+      "diagnostic_seconds": 600
+    },
+    "2022": {
+      "role": "validation",
+      "model_start": "2022-03-16",
+      "model_end": "2022-03-25",
+      "sample_start": "2022-03-23",
+      "sample_end": "2022-03-25",
+      "hourly_frames": 49,
+      "raw_gpi_start": "2022-03-14",
+      "raw_gpi_end": "2022-03-27",
+      "solar_start": "2022-02-02",
+      "solar_end": "2022-05-06",
+      "diagnostic_DOY": 82,
+      "diagnostic_seconds": 600
+    }
+  }
+}

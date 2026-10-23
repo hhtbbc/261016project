@@ -1,0 +1,21 @@
+{
+  "URL": "https://kp.gfz.de/app/json/?start=2022-02-02T00:00:00Z&end=2022-02-14T23:59:59Z&index=Fobs",
+  "HTTP": 200,
+  "bytes": 455,
+  "SHA256": "8318254b1fe966e805818bff0ff535ca0645ad7b8db1304dc0ffb9872d5b3f65",
+  "path": "data/raw/training_window_mar23_v2/2022_Fobs_additional.json",
+  "requested_dates": [
+    "2022-02-02",
+    "2022-02-14"
+  ],
+  "actual_first": "2022-02-02T00:00:00+00:00",
+  "actual_last": "2022-02-14T00:00:00+00:00",
+  "count": 13,
+  "missing": 0,
+  "license": "CC BY 4.0",
+  "quality": "no per-record quality flag exposed; finite/positive/continuous only",
+  "source_meta": {
+    "license": "CC BY 4.0",
+    "source": "GFZ Potsdam"
+  }
+}

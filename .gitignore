@@ -160,3 +160,9 @@ credentials.json
 /experiments/f107_2021_recovery_v1/canada_measurement_rows.json
 !/logs/f107_2021_recovery_tests.log
 !/logs/f107_2021_previous_driver_tests.log
+
+# Mar23 v2 diagnostics: only lightweight metadata and CPU tests are public.
+!/logs/tiegcm_mar23_tests.log
+# Exact namelist bytes are embedded in configuration.json; keep local originals unchanged.
+/experiments/tiegcm_mar23_d2021_v2/input.inp
+/experiments/tiegcm_mar23_d2022_v2/input.inp
