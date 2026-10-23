@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "tests": 247,
+  "resource_estimate": {
+    "checkpoint_bytes": 261928704,
+    "GPU_GiB_upper_estimate": 8,
+    "wall_s_estimate": 120,
+    "new_bytes_estimate": 303871744
+  },
+  "limits": {
+    "wall_seconds": 300,
+    "CUDA_bytes": 21474836480,
+    "new_bytes": 524288000
+  },
+  "optimizer_reason": "SGD momentum0 engineering-only; full Adam state checkpoint would exceed 500MiB output cap",
+  "code_SHA256": {
+    "src/training/pipeline.py": "03d29caead173304dd774b3cd3ac3b0f33c0648c4c3471e2c246bbe51beb323d",
+    "src/training/__init__.py": "68c582393927dc22684992a2ef139e3ec2b3459ac62ef4f4eb7c008e7bdf9578",
+    "scripts/run_fourcastden_training_smoke.py": "5861d4e1109580b3b6855772dfb281a6c0b4f8f4c58c58db9bec95836c93ad8c",
+    "scripts/supervise_fourcastden_training_smoke.py": "202435f241e01442e866b755b49375723e74b8d8f3df83977d378078cd1ae61b",
+    "configs/training/direct_synthetic_smoke.json": "536be164e85ee377f564c57558ec864543ae7768dfe1785a5e3560eb703aded7",
+    "tests/test_training_pipeline.py": "a3afbee29372217c18f68ce58dd21b407752db99792e6499d21143e30f84b484",
+    "third_party/FourCastDEN_linux/models/afnonet.py": "7814c23d4f0bfa0e1ac0e0b281ebc29a2c99a2b3808b89578f303e413fc71a57"
+  },
+  "environment": {
+    "torch": "2.4.1+cu121",
+    "CUDA": "12.1",
+    "device": "NVIDIA A100-SXM4-80GB"
+  },
+  "official_checkpoint_loaded": false
+}

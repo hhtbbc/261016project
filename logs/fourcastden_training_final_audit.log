@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "label": "INDEPENDENT_IMPLEMENTATION / SYNTHETIC_ENGINEERING_ONLY",
+  "protected_files_unchanged": 789,
+  "tests": 247,
+  "GPU_process_launches": 2,
+  "failed_launch_completed_steps": 0,
+  "successful_launch_completed_steps": 3,
+  "total_optimizer_updates": 3,
+  "aggregate_supervised_wall_s": 12.246402429416776,
+  "peak_GPU_process_bytes": 1335885824,
+  "checkpoint_bytes": 258850242,
+  "checkpoint_model_sha256": "4116e39800fe3a2a45e1203aa2bd124cb6acca3530d4c84fb834e51c7b69ca33",
+  "checkpoint_state_entries": 150,
+  "checkpoint_optimizer_restored": true,
+  "checkpoint_rng_CPU_test": true,
+  "new_files_bytes": 259293224,
+  "official_weights_unchanged": true,
+  "no_real_training_data": true
+}

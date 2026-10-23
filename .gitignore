@@ -140,3 +140,7 @@ credentials.json
 
 # Mar24 twelve-hour official model validation: configs only, arrays stay local.
 !/experiments/fourcastden_twelve_hour_mar24_v1/*.yaml
+
+# Independent training smoke: publish metadata/logs only, never training checkpoints.
+!/logs/fourcastden_training*.log
+/experiments/fourcastden_training*/**/*.pt

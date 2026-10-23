@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/workspace/data/20261016/scripts/run_fourcastden_training_smoke.py", line 36, in <module>
+    if __name__=='__main__':main()
+  File "/workspace/data/20261016/scripts/run_fourcastden_training_smoke.py", line 21, in main
+    torch.cuda.synchronize();t=time.perf_counter();r=trainer.train_step(batch);torch.cuda.synchronize();r.update(wall_s=time.perf_counter()-t,peak_allocated_bytes=torch.cuda.max_memory_allocated(),peak_reserved_bytes=torch.cuda.max_memory_reserved());records.append(r)
+  File "/workspace/data/20261016/src/training/pipeline.py", line 159, in train_step
+    loss = self.loss(batch)
+  File "/workspace/data/20261016/src/training/pipeline.py", line 148, in loss
+    prediction = self.model(x, s)
+  File "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/workspace/data/20261016/third_party/FourCastDEN_linux/models/afnonet.py", line 371, in forward
+    x = self.forward_features(x)
+  File "/workspace/data/20261016/third_party/FourCastDEN_linux/models/afnonet.py", line 361, in forward_features
+    x = blk(x)
+  File "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/workspace/data/20261016/third_party/FourCastDEN_linux/models/afnonet.py", line 215, in forward
+    x = self.filter(x)
+  File "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/workspace/data/20261016/third_party/FourCastDEN_linux/models/afnonet.py", line 116, in forward
+    torch.einsum(
+  File "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/torch/functional.py", line 386, in einsum
+    return _VF.einsum(equation, operands)  # type: ignore[attr-defined]
+RuntimeError: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility

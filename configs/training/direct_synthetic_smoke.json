@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "label": "INDEPENDENT_IMPLEMENTATION / SYNTHETIC_ENGINEERING_ONLY",
+  "seed": 20261023,
+  "source": "generated_normalized_synthetic_only",
+  "units": "dimensionless normalized channels; no physical density interpretation",
+  "architecture": {"img_size": [36, 72], "patch_size": 4, "in_chans": 177, "out_chans": 171, "in_inds": 4, "embed_dim": 768, "depth": 12, "num_blocks": 8, "mlp_ratio": 4, "drop_rate": 0.0},
+  "optimizer": {"name": "SGD", "lr": 0.0001, "momentum": 0.0},
+  "scheduler": {"step_size": 1, "gamma": 1.0},
+  "gradient_clip_norm": 1.0,
+  "precision": "float32",
+  "mixed_precision": false,
+  "deterministic_algorithms": true,
+  "max_train_steps": 3,
+  "batch_size": 1,
+  "pretrained_checkpoint": null,
+  "official_training_protocol": false,
+  "limits": {"wall_seconds": 300, "CUDA_bytes": 21474836480, "new_bytes": 524288000}
+}

@@ -348,3 +348,13 @@ Mar24 +12高层相关组相对RMS：Direct3.759760%、Flow3.964593%、log3.67479
 48输出finite/正DEN/TN，无数值发散；监督39.969886秒、峰RSS1,494,986,752字节，GPUworker30.514212秒含加载/IO/指标/保存。12forward网络事件D352.574/F218.047/log214.306/H220.807ms，首Direct冷调用，不作吞吐排名。原数组只本地。
 
 报告FOURCASTDEN_TWELVE_HOUR_MAR24_VALIDATION与TWELVE_HOUR_TWO_WINDOW_COMPARISON；新训练实施计划docs/FOURCASTDEN_TRAINING_IMPLEMENTATION_PLAN.md明确P0作者材料/训练验证样本→隔离入口→资源预检→Direct基线→多步/分层损失。当前不训练/调参/24h/TIE/RK45，正式真实大气/轨道门禁未解除。下一项建议先取得完整训练协议与非2023合法小样本；24h仅另授权候选。Git以最终远端核验为准，结束停止。
+
+## 2026-10-23：官方训练资源核查与独立最小训练工程
+
+实时Zenodo软件概念22250237→版本22250238及数据21859635 API均200。软件仅源码/权重/普通static/static_log，数据仅2023.zip；本地原源码zip MD5与当日清单一致，原包无完整train_tiegcm.py。Apache2.0/CCBY4.0来自metadata，未取得非2023训练验证目录/许可/文件。MDPI正文/XML403（网页工具429），Crossref200核题目作者和摘要；不能宣称全文其他资源已全部查清。
+
+已新增src/training独立Direct接口，复用不改原AFNONet，显式177+4→171、时间pair/年份split、归一化、loss/梯度/更新、validation、checkpoint/RNG恢复；不称官方完整训练复现。247全测试通过。首次GPU因缺CuBLAS确定性环境在首forward失败，零完成step；保留v1，独立cublas_v2预先设置:4096:8后完整官方结构随机初始化完成3合成SGD step，第2步唯一checkpoint保存/严格恢复后第3步成功。没有真实样本/官方权重训练，无新预测/TIE/RK45。
+
+合成loss141.80748→141.80228→141.79710仅工程意义。GPU allocated峰641,605,120字节、进程峰1,335,885,824字节，2次监督合计12.2464秒<300/20GiB。唯一checkpoint258,850,242字节本地不提交；GPU用SGD0动量控制500MiB预算，CPU用非零动量验证完整optimizer恢复。norm两参数无梯度符合原forward未用的已知行为。
+
+报告OFFICIAL_TRAINING_RESOURCE_AUDIT/TRAINING_SMOKE_TEST，MINIMAL_TRAINING_DESIGN/DATA_ACQUISITION_PLAN/IMPROVEMENT_EXPERIMENT_DESIGN。真实候选工程样本预注册2021-04-05→04-08和2022-04-05→04-07，未下载/执行。下一优先作者协议与合法小样本→真实adapter审计→基线训练；改进优先K2多步单因素，另行研究高层损失，2023不调参。正式大气/轨道门禁保留，任务后停止，Git以最终远端SHA为准。

@@ -490,3 +490,21 @@ Mar24 +12 near相对RMS D/F/log/H=3.759760/3.964593/3.674795/4.078700%，全层�
 命令：source scripts/activate310.sh；unittest discover；run_fourcastden_twelve_hour_mar24.py --fetch；无参preflight；supervise；analyze；compare（Jan4只读）；audit；write_reports；audit --final。检查敏感信息/ignore/历史SHA，提交轻量成果并安全推送核远端；完成后停止等待新指令。
 
 发布阶段纠正：新两窗汇总CSV原CRLF触发git diff --check，转LF后解析行列精确不变，未动模型数组/旧实验；修正新CSV写入器lineterminator。保留原final审计快照，追加publication_line_endings_audit及publication_delivery_audit，后者是最终当前SHA清单。无新增forward。
+
+## 2026-10-23｜FourCastDEN训练资源实时核查与独立合成训练工程
+
+读取长期规则/进度/训练审查计划/两窗12h结果与phase2；clean main与远端均ef28fb9bc2628c2473cf92f50a887695cac4be80。仅本次授权合成工程，不真实训练/微调/新预测/TIE/RK45。官方四权重/static/原作者树/旧实验保护789项SHA，最终独立复核。
+
+先直接API小元数据：Zenodo22250237跳22250238，HTTP200，软件4文件（source/static/static_log/checkpoint_files）；21859635HTTP200，仅2023.zip。原source zip MD5匹配官方8d8fd015f933455c74e0610d864664f0，核全成员、README及残留代码。记录作者/日期/无字符串version/版本关系、完整文件大小checksum和Apache2.0/CCBY4.0；没有公开非2023目录或完整训练入口/四变体活动配置/学习曲线。MDPI正文和XML403、网页工具429；Crossref200匹配论文标题、四作者及摘要，全文其他资源不能断言已排除。不下载大型归档/训练数据/旧权重，不发送联系消息。原源码根无LICENSE文件，记录声明许可与原AFNO引用链要后续确认，不修改/复制第三方。依赖只现有torch/numpy/timm/einops，未安装。
+
+独立src/training/pipeline实现AFNONet原结构随机初始化、EpochPairs合法年份/UTC/连续/跨年/跨split拒绝、目标aux/scalar与当前171state拼177、目标171只label、OfficialFrameSource复用原get_data、174仿射归一化组件、MSE/显式优化器调度/梯度clip与有限性、validation无更新、checkpoint严格model_state/optimizer/scheduler/step/Python NumPy CPU CUDA RNG/模式/config/元数据和可信本地恢复。真实adapter仅实现未真实数据运行。配置JSON明确独立假设/合成无物理单位，不冒充原训练损失/纬度权重/优化器协议。原64,695,744参数网络不缩小，输入177+4/输出171。
+
+新增8 CPU测试，247全套27.191秒通过（旧ERFA合成warning不屏蔽）：梯度/更新/shape、no_grad验证、带动量optimizer恢复/调度/RNG/step及下一步与连续精确等价、同seed复现、未来目标毒化输入不变、年份split/时区/缺帧跨年拒绝、归一化与错误输入/不可信checkpoint拒绝。GPU使用同架构随机初始化、不load任何官方checkpoint、不读真实NPZ。
+
+v1首次GPU监督4.679802秒，确定性CuBLAS在第一forward报缺CUBLAS_WORKSPACE_CONFIG，0完成step/0更新/无checkpoint；保留失败日志、原preflight/源码SHA。未取消确定性；新独立cublas_v2在torch导入前设:4096:8，剩余295秒监督。成功训练3步，step2保存唯一checkpoint、释放原模型、重建后严格恢复hash/optimizer/scheduler/step再继续step3；validation另合成无更新。两次监督累计12.246402秒<300，成功监督7.566601秒/worker5.407854秒，GPU进程峰1,335,885,824字节<20GiB，CUDAallocated641,605,120/reserved744,488,960字节，CPU峰1,390,276KiB。
+
+合成loss141.807479858→141.802276611→141.797103882，裁剪前梯度51.9373/51.9301/51.9226，参数更新真实，纯工程不作大气精度改善。原norm.weight/bias未被forward使用无梯度是旧数学行为保留。SGD lr1e-4/momentum0/StepLRgamma1/clip1是资源受限合成假设；Adam参数+两动量checkpoint约0.75GiB超500MiB，本次唯一完整参数checkpoint258,850,242字节约246.859MiB，仅本地。CPU另用momentum0.9证明非空状态恢复，GPU空动量state不伪称Adam恢复。
+
+形成官方资源审计/合成smoke报告、最小训练设计/数据获取及真实小样本协议/改进单因素设计；2021-04-05 00→04-08 00（73帧72pair）训练与2022-04-05→04-07（49帧48pair）验证候选日期在获取数据和看loss前冻结，未下载。优先作者完整入口/四变体配置/数据许可清单/统计采样seed日志→非2023小样本→真实数据接口审计→独立Direct baseline→K2多步再另B分层相对损失，多seed/2022验证选择，2023不拟合。24h/真实训练/TIE/RK45/AI轨道全部未执行。
+
+命令source scripts/activate310.sh；unittest discover；run/supervise_fourcastden_training_smoke（v1失败保留）；run/supervise_fourcastden_training_smoke_cublas（新标签3步）；write_fourcastden_training_reports；audit_fourcastden_training_smoke。GPU前完整code/config SHA与资源preflight保留。最终新增体积/保护SHA/发布清单见delivery_audit.json；忽略.pt/环境/原始数据，仅提交代码/小元数据/日志/docs/配置与审计。安全Git同步后停止，等待新指令。

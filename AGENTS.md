@@ -135,3 +135,7 @@ fourcastden_twelve_hour_jan4_v1另授权完成4×12共48forward，无额外GPU�
 ## 两窗口12小时完成后的门禁
 
 fourcastden_twelve_hour_mar24_v1已另授权完成4×12/48forward，无额外GPU预检/失败重试，239测试。Mar24前6h input/scalar/raw/state与旧6h精确一致、旧指标精确复现，Jan4仅只读对照。near Mar24 log+5—12较低但+12固定upper Direct较低、History顶部/极区有条件优势，near层组+12变化须披露；不按两窗挑最终架构或作地磁因果/观测/轨道精度。训练计划仅静态，2023不调参，24h/训练/TIE/RK45均需新授权；原作者/权重/统计/旧结果不改。结束安全Git同步后停止。
+
+## 独立训练工程合成预检后的规则
+
+用户新授权建立src/training并仅合成验证，非官方完整训练复现。247测试；首GPU v1缺CuBLAS确定性环境在首forward失败0step，保留记录；独立cublas_v2设置:4096:8后完整原AFNONet随机初始化3step、step2保存恢复后step3成功，两次监督累计约12.25秒，无官方权重/真实数据训练。今后CUDA确定性运行必须在torch导入前设置该环境，勿自动重放已完成标签。SGD0动量仅合成资源假设，不能视作作者协议或科学训练效果。原件/权重/历史SHA不改，真实2000—2021/2022样本与协议/许可仍缺，2023不调参；真实训练/24h/TIE/RK45均等新授权。结束安全Git同步，停止。

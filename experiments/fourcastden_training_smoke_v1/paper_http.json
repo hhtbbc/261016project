@@ -1,0 +1,13 @@
+[
+  {
+    "url": "https://api.crossref.org/works/10.3390/rs18183134",
+    "status": 200,
+    "bytes": 18498,
+    "SHA256": "0d7548d30cd0adc822116a51a13d58872ee3c901e5390993de5bc7157d0be673"
+  },
+  {
+    "url": "https://www.mdpi.com/2072-4292/18/18/3134/xml",
+    "error": "HTTP Error 403: Forbidden",
+    "status": 403
+  }
+]

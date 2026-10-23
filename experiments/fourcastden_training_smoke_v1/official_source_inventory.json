@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "archive_sha256": "0879370aa0a2c94db928d2ecd737b56803291e92fcd4c61a3b248beabe4cdcd4",
+  "official_MD5": "md5:8d8fd015f933455c74e0610d864664f0",
+  "members": [
+    {
+      "name": "config/",
+      "bytes": 0,
+      "CRC32": 0
+    },
+    {
+      "name": "config/AFNO.yaml",
+      "bytes": 5407,
+      "CRC32": 917854296
+    },
+    {
+      "name": "config/environment.yaml",
+      "bytes": 7294,
+      "CRC32": 1278058556
+    },
+    {
+      "name": "data_process/",
+      "bytes": 0,
+      "CRC32": 0
+    },
+    {
+      "name": "data_process/get_data_tiegcm.py",
+      "bytes": 4797,
+      "CRC32": 1103086508
+    },
+    {
+      "name": "data_process/get_maglatlon.py",
+      "bytes": 10313,
+      "CRC32": 3077006693
+    },
+    {
+      "name": "data_process/get_stats_tiegcm.py",
+      "bytes": 5735,
+      "CRC32": 2463260275
+    },
+    {
+      "name": "data_process/get_train_dataset.py",
+      "bytes": 2474,
+      "CRC32": 3500299509
+    },
+    {
+      "name": "dataset/",
+      "bytes": 0,
+      "CRC32": 0
+    },
+    {
+      "name": "dataset/dataset_tiegcm.py",
+      "bytes": 23007,
+      "CRC32": 3477985633
+    },
+    {
+      "name": "dataset/dataset_tiegcm_multifiles.py",
+      "bytes": 16880,
+      "CRC32": 1039907173
+    },
+    {
+      "name": "dataset/heelis.py",
+      "bytes": 7074,
+      "CRC32": 3828879401
+    },
+    {
+      "name": "dataset/plot_tiegcm.py",
+      "bytes": 22067,
+      "CRC32": 2556131337
+    },
+    {
+      "name": "dataset/tiegcm2.py",
+      "bytes": 17968,
+      "CRC32": 779882009
+    },
+    {
+      "name": "dataset/tiegcm_utils.py",
+      "bytes": 12079,
+      "CRC32": 2043626015
+    },
+    {
+      "name": "eval_tiegcm.py",
+      "bytes": 9657,
+      "CRC32": 1442982116
+    },
+    {
+      "name": "inference.sh",
+      "bytes": 205,
+      "CRC32": 2356826514
+    },
+    {
+      "name": "inference/",
+      "bytes": 0,
+      "CRC32": 0
+    },
+    {
+      "name": "inference/forecast.py",
+      "bytes": 13708,
+      "CRC32": 1035190279
+    },
+    {
+      "name": "inference/fourcastnet.py",
+      "bytes": 6781,
+      "CRC32": 366656114
+    },
+    {
+      "name": "inference/inference.py",
+      "bytes": 21563,
+      "CRC32": 2734839445
+    },
+    {
+      "name": "inference/inference_ensemble.py",
+      "bytes": 16400,
+      "CRC32": 2937710544
+    },
+    {
+      "name": "inference/plot_demo.py",
+      "bytes": 8385,
+      "CRC32": 2901642047
+    },
+    {
+      "name": "models/",
+      "bytes": 0,
+      "CRC32": 0
+    },
+    {
+      "name": "models/__init__.py",
+      "bytes": 61,
+      "CRC32": 3937517181
+    },
+    {
+      "name": "models/afnonet.py",
+      "bytes": 12697,
+      "CRC32": 2559127590
+    },
+    {
+      "name": "models/afnonext.py",
+      "bytes": 11318,
+      "CRC32": 2649648618
+    },
+    {
+      "name": "models/model_module.py",
+      "bytes": 8839,
+      "CRC32": 1800605652
+    },
+    {
+      "name": "README_inference_2023.md",
+      "bytes": 8972,
+      "CRC32": 3710604339
+    },
+    {
+      "name": "utils/",
+      "bytes": 0,
+      "CRC32": 0
+    },
+    {
+      "name": "utils/__init__.py",
+      "bytes": 23,
+      "CRC32": 2849289222
+    },
+    {
+      "name": "utils/img_utils.py",
+      "bytes": 8234,
+      "CRC32": 1332909002
+    },
+    {
+      "name": "utils/logging_utils.py",
+      "bytes": 1125,
+      "CRC32": 892963637
+    },
+    {
+      "name": "utils/losses.py",
+      "bytes": 7368,
+      "CRC32": 824110150
+    },
+    {
+      "name": "utils/plot_utils.py",
+      "bytes": 4330,
+      "CRC32": 1594439084
+    },
+    {
+      "name": "utils/tools.py",
+      "bytes": 2018,
+      "CRC32": 2153744204
+    },
+    {
+      "name": "utils/weighted_acc_rmse.py",
+      "bytes": 2875,
+      "CRC32": 1512773354
+    },
+    {
+      "name": "utils/YParams.py",
+      "bytes": 12418,
+      "CRC32": 1838709194
+    }
+  ],
+  "training_entry_present": false
+}

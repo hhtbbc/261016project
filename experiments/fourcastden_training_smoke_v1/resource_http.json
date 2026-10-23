@@ -1,0 +1,21 @@
+[
+  {
+    "url": "https://zenodo.org/api/records/22250237",
+    "status": 200,
+    "final_url": "https://zenodo.org/api/records/22250238",
+    "bytes": 4993,
+    "SHA256": "34b862da3a73b413113f529c98ffb784b3d6e56110ed4a8c76f2d325f370d729"
+  },
+  {
+    "url": "https://zenodo.org/api/records/21859635",
+    "status": 200,
+    "final_url": "https://zenodo.org/api/records/21859635",
+    "bytes": 4163,
+    "SHA256": "e482ea497bb4dba6e2d6b086bc4c0010decd1321eccc93d5dc18ac67bc448afb"
+  },
+  {
+    "url": "https://www.mdpi.com/2072-4292/18/18/3134",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  }
+]
