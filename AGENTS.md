@@ -155,3 +155,7 @@ GFZ两格式/复查API均05-09=-1，加拿大表缺当日全部记录，CelesTra
 ## Mar23 v2候选窗口启动后的门禁
 
 用户另授权training_window_mar23_v2，先冻结2021-03-23至26与2022-03-23至25/03-16候选预热；旧apr05_v1和05-09缺测DATA_GAP_UNRESOLVED不变。真实GFZ Fobs95/94、def Kp120/112完整，两年新GPI及各一次10分钟诊断通过（2.63/2.43秒），14键/作者网格一致，11新测试。全部10分钟记录NOT_TRAINING_DATA，7天仍未证明充分；多日122帧/真实训练需另授权，不能重跑旧tag。候选资源6000秒/16GiB RSS/8GiB输出/余量20GiB。原物理/2023隔离/高度门禁不改，任务后安全Git同步并停止。
+
+## 2021十天连续候选生成后的门禁
+
+用户另授权2021 Mar23 v2十天单次连续运行已完成，14400步/1537.05秒，11主/240次历史完整，73帧候选和72相邻小时177/171/4只读/毒化通过，11聚焦测试。四标签INDEPENDENT_TIEGCM_DATA_GENERATION/HINDCAST/SPINUP_SUFFICIENCY_UNVERIFIED/TRAINING_CANDIDATE_ONLY不解除；初始primary N/A、167预热小时不入候选，无训练统计拟合/模型forward/backward/optimizer。旧2311保护文件SHA一致，原Apr05缺测不改。2022长例/真实训练仍需另授权，先独立验证及同驱动初态或更长预热配对，不依据自然时间变化声称7天收敛。任务后安全Git同步并停止。

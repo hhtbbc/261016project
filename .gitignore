@@ -166,3 +166,7 @@ credentials.json
 # Exact namelist bytes are embedded in configuration.json; keep local originals unchanged.
 /experiments/tiegcm_mar23_d2021_v2/input.inp
 /experiments/tiegcm_mar23_d2022_v2/input.inp
+
+# 2021 longrun: metadata/figures only; exact namelist is embedded in configuration.json.
+/experiments/tiegcm_training_mar23_v2_2021_longrun/input.inp
+!/logs/tiegcm_2021_longrun_tests.log
