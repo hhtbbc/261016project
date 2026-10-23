@@ -1,0 +1,979 @@
+{
+  "status": "PASS",
+  "label": "READ_ONLY_TEST_INTERFACE / NOT_TRAINING",
+  "samples": [
+    {
+      "name": "2023_01_04_000000.npz",
+      "SHA256": "e5fb32d8fbd3256f372db1b4953fe7b819aa08f8b5e81934715f0e120dd19e05",
+      "fields": {
+        "TN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 151.75872802734375,
+          "max": 1289.018310546875,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "UN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -58202.3671875,
+          "max": 58818.3359375,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -60198.328125,
+          "max": 60493.55078125,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "WN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -666.0120849609375,
+          "max": 861.0484619140625,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Z": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 71897400.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ZG": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 72065232.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "DEN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 5.950636079799505e-17,
+          "max": 1.1322239812372459e-09,
+          "unit": "g/cm3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "NE": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 1009.7046508789062,
+          "max": 2296170.5,
+          "unit": "cm-3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "TLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 167.46173095703125,
+          "max": 192.304931640625,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ULBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -4708.27392578125,
+          "max": 5115.908203125,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -5040.6982421875,
+          "max": 5163.35009765625,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107d": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 144.7312469482422,
+          "max": 144.7312469482422,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107a": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 156.91250610351562,
+          "max": 156.91250610351562,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Kp": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 3.3499999046325684,
+          "max": 3.3499999046325684,
+          "unit": "unitless",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        }
+      },
+      "finite": true,
+      "positive_DEN": true,
+      "ZG_strictly_increasing": true,
+      "finite_sentinel_count": 0
+    },
+    {
+      "name": "2023_01_04_010000.npz",
+      "SHA256": "0b3297c5bb11be3f102c324af76acb69fd1df9a5625dd6c9e1e54fc429a7d4f5",
+      "fields": {
+        "TN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 151.86537170410156,
+          "max": 1297.651123046875,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "UN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -61994.02734375,
+          "max": 62697.109375,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -65635.6953125,
+          "max": 67563.75,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "WN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -782.9183959960938,
+          "max": 1311.6729736328125,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Z": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 72045512.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ZG": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 72232304.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "DEN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 5.833372309186027e-17,
+          "max": 1.132755000909924e-09,
+          "unit": "g/cm3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "NE": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 1008.2169799804688,
+          "max": 2428466.5,
+          "unit": "cm-3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "TLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 167.46173095703125,
+          "max": 192.304931640625,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ULBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -4708.27392578125,
+          "max": 5115.908203125,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -5040.6982421875,
+          "max": 5163.35009765625,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107d": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 144.83087158203125,
+          "max": 144.83087158203125,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107a": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 156.9544219970703,
+          "max": 156.9544219970703,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Kp": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 3.7833333015441895,
+          "max": 3.7833333015441895,
+          "unit": "unitless",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        }
+      },
+      "finite": true,
+      "positive_DEN": true,
+      "ZG_strictly_increasing": true,
+      "finite_sentinel_count": 0
+    },
+    {
+      "name": "2023_01_04_020000.npz",
+      "SHA256": "b260281433e8eddeed02ebcee3d9bc487883b76d77962f0cb9dde389a75c8538",
+      "fields": {
+        "TN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 151.9017333984375,
+          "max": 1322.763916015625,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "UN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -69286.171875,
+          "max": 65525.73046875,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VN": {
+          "shape": [
+            28,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -72209.625,
+          "max": 74832.7265625,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "WN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -883.754150390625,
+          "max": 1738.7252197265625,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Z": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 72299768.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ZG": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 9571100.0,
+          "max": 72498808.0,
+          "unit": "cm",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "DEN": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 5.718386924851766e-17,
+          "max": 1.1327414561890237e-09,
+          "unit": "g/cm3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "NE": {
+          "shape": [
+            29,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 987.95849609375,
+          "max": 2478317.25,
+          "unit": "cm-3",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "TLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": 167.46173095703125,
+          "max": 192.304931640625,
+          "unit": "K",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "ULBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -4708.2744140625,
+          "max": 5115.90771484375,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "VLBC": {
+          "shape": [
+            1,
+            36,
+            72
+          ],
+          "dtype": "float32",
+          "min": -5040.6982421875,
+          "max": 5163.35009765625,
+          "unit": "cm/s",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107d": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 144.9314727783203,
+          "max": 144.9314727783203,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "f107a": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 156.99615478515625,
+          "max": 156.99615478515625,
+          "unit": "sfu",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        },
+        "Kp": {
+          "shape": [
+            1
+          ],
+          "dtype": "float32",
+          "min": 4.116666793823242,
+          "max": 4.116666793823242,
+          "unit": "unitless",
+          "unit_source": "author UNIT_VARS/source; NPZ has no unit attributes"
+        }
+      },
+      "finite": true,
+      "positive_DEN": true,
+      "ZG_strictly_increasing": true,
+      "finite_sentinel_count": 0
+    }
+  ],
+  "pairs": [
+    {
+      "label": "READ_ONLY_TEST_INTERFACE / NOT_TRAINING",
+      "current_UTC": "2023-01-04T00:00:00+00:00",
+      "target_UTC": "2023-01-04T01:00:00+00:00",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "scalar_shape": [
+        1,
+        1,
+        4
+      ],
+      "target_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "input_SHA256": "f219044b17e4ef1737afa238ec06933e7d3adfead087df314f979f25d2189fb2",
+      "scalar_SHA256": "295d2754295350e22001c43936b412b3977990178419c42cc90d6af88e04788e",
+      "target_SHA256": "14611f8bbbdcfef5c59554d288f0041ae85e9ae06e68d0da3dec33015ae13449",
+      "max_input_abs_difference": 0.0,
+      "max_scalar_abs_difference": 0.0,
+      "max_target_abs_difference": 0.0,
+      "exact": true
+    },
+    {
+      "label": "READ_ONLY_TEST_INTERFACE / NOT_TRAINING",
+      "current_UTC": "2023-01-04T01:00:00+00:00",
+      "target_UTC": "2023-01-04T02:00:00+00:00",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "scalar_shape": [
+        1,
+        1,
+        4
+      ],
+      "target_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "input_SHA256": "d80e3121bac4629c6d8e42dba51d5677e7306d24ddb2d31eed59e037f8cc37b6",
+      "scalar_SHA256": "d5bd24098c4e4f49ebb6fcefaffd0497a52f06ee0a95ee53b60ddb78354ca69c",
+      "target_SHA256": "876a654ab2f34af0c5a6ae4825540731356aca386ab13e4b40c7ab79e13e0e9d",
+      "max_input_abs_difference": 0.0,
+      "max_scalar_abs_difference": 0.0,
+      "max_target_abs_difference": 0.0,
+      "exact": true
+    }
+  ],
+  "roundtrip": [
+    {
+      "hour": 0,
+      "variable": "TN",
+      "channels": 28,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 0.0,
+      "max_native_roundtrip_abs": 1.3124243196216412e-05,
+      "max_native_roundtrip_relative": 1.1771574505436378e-08,
+      "max_SI_roundtrip_abs": 1.3124243196216412e-05,
+      "reference_SI_min": 151.75872802734375,
+      "reference_SI_max": 1289.018310546875,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 0,
+      "variable": "UN",
+      "channels": 28,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 4.76837158203125e-07,
+      "max_native_roundtrip_abs": 0.002472834661602974,
+      "max_native_roundtrip_relative": 0.00030884662461295206,
+      "max_SI_roundtrip_abs": 2.472834661602974e-05,
+      "reference_SI_min": -582.023671875,
+      "reference_SI_max": 588.183359375,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 0,
+      "variable": "VN",
+      "channels": 28,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 4.76837158203125e-07,
+      "max_native_roundtrip_abs": 0.0026210900396108627,
+      "max_native_roundtrip_relative": 0.0002161290384978633,
+      "max_SI_roundtrip_abs": 2.621090039610863e-05,
+      "reference_SI_min": -601.98328125,
+      "reference_SI_max": 604.9355078125,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 0,
+      "variable": "WN",
+      "channels": 29,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 4.76837158203125e-07,
+      "max_native_roundtrip_abs": 4.4913627789355814e-05,
+      "max_native_roundtrip_relative": 0.00011345001751244239,
+      "max_SI_roundtrip_abs": 4.4913627789355814e-07,
+      "reference_SI_min": -6.660120849609375,
+      "reference_SI_max": 8.610484619140625,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 0,
+      "variable": "Z",
+      "channels": 29,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 0.0,
+      "max_native_roundtrip_abs": 0.4528557062149048,
+      "max_native_roundtrip_relative": 6.838577102088196e-09,
+      "max_SI_roundtrip_abs": 0.004528557062149048,
+      "reference_SI_min": 95711.0,
+      "reference_SI_max": 718974.0,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 0,
+      "variable": "DEN",
+      "channels": 29,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 0.0,
+      "max_native_roundtrip_abs": 3.8589894634619864e-18,
+      "max_native_roundtrip_relative": 3.902429427510845e-08,
+      "max_SI_roundtrip_abs": 3.8589894634619864e-15,
+      "reference_SI_min": 5.950636079799505e-14,
+      "reference_SI_max": 1.1322239812372459e-06,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 0,
+      "variable": "TLBC",
+      "channels": 1,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 0.0,
+      "max_native_roundtrip_abs": 6.15196768194437e-07,
+      "max_native_roundtrip_relative": 3.67269273481944e-09,
+      "max_SI_roundtrip_abs": 6.15196768194437e-07,
+      "reference_SI_min": 167.46173095703125,
+      "reference_SI_max": 192.304931640625,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 0,
+      "variable": "ULBC",
+      "channels": 1,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 1.1920928955078125e-07,
+      "max_native_roundtrip_abs": 0.000206640987926221,
+      "max_native_roundtrip_relative": 5.8689822824482066e-08,
+      "max_SI_roundtrip_abs": 2.06640987926221e-06,
+      "reference_SI_min": -47.0827392578125,
+      "reference_SI_max": 51.15908203125,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 0,
+      "variable": "VLBC",
+      "channels": 1,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 1.1920928955078125e-07,
+      "max_native_roundtrip_abs": 0.0002361158149142284,
+      "max_native_roundtrip_relative": 5.768680634089045e-08,
+      "max_SI_roundtrip_abs": 2.361158149142284e-06,
+      "reference_SI_min": -50.406982421875,
+      "reference_SI_max": 51.6335009765625,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 1,
+      "variable": "TN",
+      "channels": 28,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 0.0,
+      "max_native_roundtrip_abs": 1.3132601452525705e-05,
+      "max_native_roundtrip_relative": 1.180567460942393e-08,
+      "max_SI_roundtrip_abs": 1.3132601452525705e-05,
+      "reference_SI_min": 151.86537170410156,
+      "reference_SI_max": 1297.651123046875,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 1,
+      "variable": "UN",
+      "channels": 28,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 4.76837158203125e-07,
+      "max_native_roundtrip_abs": 0.0024638082832098007,
+      "max_native_roundtrip_relative": 0.003068435692016688,
+      "max_SI_roundtrip_abs": 2.463808283209801e-05,
+      "reference_SI_min": -619.9402734375,
+      "reference_SI_max": 626.97109375,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 1,
+      "variable": "VN",
+      "channels": 28,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 4.76837158203125e-07,
+      "max_native_roundtrip_abs": 0.0026129940524697304,
+      "max_native_roundtrip_relative": 6.879039543482897e-06,
+      "max_SI_roundtrip_abs": 2.6129940524697305e-05,
+      "reference_SI_min": -656.356953125,
+      "reference_SI_max": 675.6375,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 1,
+      "variable": "WN",
+      "channels": 29,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 4.76837158203125e-07,
+      "max_native_roundtrip_abs": 4.8149595386348665e-05,
+      "max_native_roundtrip_relative": 0.0005621044250672832,
+      "max_SI_roundtrip_abs": 4.814959538634867e-07,
+      "reference_SI_min": -7.829183959960938,
+      "reference_SI_max": 13.116729736328125,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 1,
+      "variable": "Z",
+      "channels": 29,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 0.0,
+      "max_native_roundtrip_abs": 0.4614386558532715,
+      "max_native_roundtrip_relative": 9.946374384386083e-09,
+      "max_SI_roundtrip_abs": 0.004614386558532715,
+      "reference_SI_min": 95711.0,
+      "reference_SI_max": 720455.12,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 1,
+      "variable": "DEN",
+      "channels": 29,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 0.0,
+      "max_native_roundtrip_abs": 3.682865340256583e-18,
+      "max_native_roundtrip_relative": 3.652030230744161e-08,
+      "max_SI_roundtrip_abs": 3.682865340256583e-15,
+      "reference_SI_min": 5.833372309186027e-14,
+      "reference_SI_max": 1.132755000909924e-06,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 1,
+      "variable": "TLBC",
+      "channels": 1,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 0.0,
+      "max_native_roundtrip_abs": 6.15196768194437e-07,
+      "max_native_roundtrip_relative": 3.67269273481944e-09,
+      "max_SI_roundtrip_abs": 6.15196768194437e-07,
+      "reference_SI_min": 167.46173095703125,
+      "reference_SI_max": 192.304931640625,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 1,
+      "variable": "ULBC",
+      "channels": 1,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 1.1920928955078125e-07,
+      "max_native_roundtrip_abs": 0.000206640987926221,
+      "max_native_roundtrip_relative": 5.7869878044258744e-08,
+      "max_SI_roundtrip_abs": 2.06640987926221e-06,
+      "reference_SI_min": -47.0827392578125,
+      "reference_SI_max": 51.15908203125,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 1,
+      "variable": "VLBC",
+      "channels": 1,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 1.1920928955078125e-07,
+      "max_native_roundtrip_abs": 0.0002361158149142284,
+      "max_native_roundtrip_relative": 5.768680634089045e-08,
+      "max_SI_roundtrip_abs": 2.361158149142284e-06,
+      "reference_SI_min": -50.406982421875,
+      "reference_SI_max": 51.6335009765625,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 2,
+      "variable": "TN",
+      "channels": 28,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 0.0,
+      "max_native_roundtrip_abs": 1.3129390936228447e-05,
+      "max_native_roundtrip_relative": 1.1831639376299641e-08,
+      "max_SI_roundtrip_abs": 1.3129390936228447e-05,
+      "reference_SI_min": 151.9017333984375,
+      "reference_SI_max": 1322.763916015625,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 2,
+      "variable": "UN",
+      "channels": 28,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 4.76837158203125e-07,
+      "max_native_roundtrip_abs": 0.002483086660504341,
+      "max_native_roundtrip_relative": 0.0003413171861148854,
+      "max_SI_roundtrip_abs": 2.4830866605043413e-05,
+      "reference_SI_min": -692.86171875,
+      "reference_SI_max": 655.2573046875,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 2,
+      "variable": "VN",
+      "channels": 28,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 4.76837158203125e-07,
+      "max_native_roundtrip_abs": 0.0026176120154559612,
+      "max_native_roundtrip_relative": 6.996961393178114e-06,
+      "max_SI_roundtrip_abs": 2.6176120154559613e-05,
+      "reference_SI_min": -722.09625,
+      "reference_SI_max": 748.327265625,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 2,
+      "variable": "WN",
+      "channels": 29,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 9.5367431640625e-07,
+      "max_native_roundtrip_abs": 9.348560706712306e-05,
+      "max_native_roundtrip_relative": 0.0002668028447116274,
+      "max_SI_roundtrip_abs": 9.348560706712306e-07,
+      "reference_SI_min": -8.83754150390625,
+      "reference_SI_max": 17.387252197265624,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 2,
+      "variable": "Z",
+      "channels": 29,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 0.0,
+      "max_native_roundtrip_abs": 0.7157325744628906,
+      "max_native_roundtrip_relative": 1.182115010018519e-08,
+      "max_SI_roundtrip_abs": 0.007157325744628906,
+      "reference_SI_min": 95711.0,
+      "reference_SI_max": 722997.68,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 2,
+      "variable": "DEN",
+      "channels": 29,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 0.0,
+      "max_native_roundtrip_abs": 3.689374424496763e-18,
+      "max_native_roundtrip_relative": 4.135575087140922e-08,
+      "max_SI_roundtrip_abs": 3.689374424496763e-15,
+      "reference_SI_min": 5.718386924851766e-14,
+      "reference_SI_max": 1.1327414561890237e-06,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 2,
+      "variable": "TLBC",
+      "channels": 1,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 0.0,
+      "max_native_roundtrip_abs": 6.15196768194437e-07,
+      "max_native_roundtrip_relative": 3.67269273481944e-09,
+      "max_SI_roundtrip_abs": 6.15196768194437e-07,
+      "reference_SI_min": 167.46173095703125,
+      "reference_SI_max": 192.304931640625,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 2,
+      "variable": "ULBC",
+      "channels": 1,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 1.1920928955078125e-07,
+      "max_native_roundtrip_abs": 0.000206640987926221,
+      "max_native_roundtrip_relative": 5.774850125417849e-08,
+      "max_SI_roundtrip_abs": 2.06640987926221e-06,
+      "reference_SI_min": -47.082744140625,
+      "reference_SI_max": 51.159077148437504,
+      "theoretical_float32_bound_pass": true
+    },
+    {
+      "hour": 2,
+      "variable": "VLBC",
+      "channels": 1,
+      "official_float32_encoded_exact": true,
+      "auxiliary_float64_max_normalized_difference": 1.1920928955078125e-07,
+      "max_native_roundtrip_abs": 0.0002361158149142284,
+      "max_native_roundtrip_relative": 5.768680634089045e-08,
+      "max_SI_roundtrip_abs": 2.361158149142284e-06,
+      "reference_SI_min": -50.406982421875,
+      "reference_SI_max": 51.6335009765625,
+      "theoretical_float32_bound_pass": true
+    }
+  ],
+  "poison": [
+    {
+      "current": "2023-01-04T00:00:00+00:00",
+      "target": "2023-01-04T01:00:00+00:00",
+      "official_input_unchanged": true,
+      "adapter_input_unchanged": true,
+      "target_changed": true
+    },
+    {
+      "current": "2023-01-04T01:00:00+00:00",
+      "target": "2023-01-04T02:00:00+00:00",
+      "official_input_unchanged": true,
+      "adapter_input_unchanged": true,
+      "target_changed": true
+    }
+  ],
+  "source_epoch_contract": "Author naive datetime from UTC filename, explicitly registered as UTC; NPZ has no internal timezone/unit attributes",
+  "n_state": 171,
+  "n_aux": 6,
+  "n_input": 177,
+  "n_scalar": 4,
+  "ordinary_static_SHA256": {
+    "data/processed/static/lon.npy": "38560017f9976b8251a7799e31d6ddb881f9552c143fe2f6c4821a6e3b68d688",
+    "data/processed/static/lev.npy": "a497bb83b11c6185183159bf6535a4eb139039aa1c2990d97e8cf5b99a2508ec",
+    "data/processed/static/global_stds.npz": "8961c7ad830d2861e7e144e9de71fa527da71b157b763acdb7f2fabd2afce0f8",
+    "data/processed/static/lat.npy": "c05d3cf388918bca6083c0a97831cc071b5abaf67e3e292bbb032271c7368c0f",
+    "data/processed/static/mag.npz": "dfa24a4b14e10b2d7f14732ea5984c6632ed3691d8aa89abf593946178d88a9d",
+    "data/processed/static/ilev.npy": "8de0896d5cc4dcf58131898dad5314e41833d893c01d8cb8b2343e334871e467",
+    "data/processed/static/time_means.npz": "0ba5427a006691ca052a8194f3dfe9f14704fa8daea73a47a56329f7d4283bc2",
+    "data/processed/static/global_means.npz": "2df416e7fe9cb8db42f0d96ebaf1fb61965b8e5960bcbb9e8d81ae888d388db0"
+  },
+  "means_SHA256": "a77712f527210c8341b6093add3f9dc7d036e330007e9235ad17b29df9bb3802",
+  "stds_SHA256": "ffccc2c3bf3556d37d98a4bd89e34c4c3505d3cf98a3f7418781c898e9d12454",
+  "scalar_conditions_normalized_exact_to_author": true,
+  "historical_input0_exact": true,
+  "normalization_fitted": false,
+  "model_instantiated": false,
+  "model_forward_calls": 0,
+  "backward_calls": 0,
+  "optimizer_steps": 0,
+  "CUDA_used": false,
+  "training_2023_rejected": true,
+  "padding_policy": "No invalid values in selected official NPZ; validate rejects NaN/Inf/abs>1e30; never replace raw model top padding with zero",
+  "wall_s": 8.060616267845035
+}

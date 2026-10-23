@@ -508,3 +508,21 @@ v1首次GPU监督4.679802秒，确定性CuBLAS在第一forward报缺CUBLAS_WORKS
 形成官方资源审计/合成smoke报告、最小训练设计/数据获取及真实小样本协议/改进单因素设计；2021-04-05 00→04-08 00（73帧72pair）训练与2022-04-05→04-07（49帧48pair）验证候选日期在获取数据和看loss前冻结，未下载。优先作者完整入口/四变体配置/数据许可清单/统计采样seed日志→非2023小样本→真实数据接口审计→独立Direct baseline→K2多步再另B分层相对损失，多seed/2022验证选择，2023不拟合。24h/真实训练/TIE/RK45/AI轨道全部未执行。
 
 命令source scripts/activate310.sh；unittest discover；run/supervise_fourcastden_training_smoke（v1失败保留）；run/supervise_fourcastden_training_smoke_cublas（新标签3步）；write_fourcastden_training_reports；audit_fourcastden_training_smoke。GPU前完整code/config SHA与资源preflight保留。最终新增体积/保护SHA/发布清单见delivery_audit.json；忽略.pt/环境/原始数据，仅提交代码/小元数据/日志/docs/配置与审计。安全Git同步后停止，等待新指令。
+
+## 2026-10-23｜FourCastDEN真实NPZ只读接口与训练资料准备
+
+首检clean main/远端f3c788b5c1084137c0f2f07730c203edfbf6ed0b，读长期规则/训练设计数据与改进方案/上轮审计。复用原pipeline.py、普通static、三真实Jan4 00/01/02，不训练不修改历史。新readonly_interface不是Dataset，仅在inference_mode返回hash/shape证据。脚本构造不含网络的TGCMForecast对象，调用原inference拼接，到forecast边界捕获输入后专用异常中止；patch禁止Module调用/backward/DirectTrainer初始化，CUDA_VISIBLE_DEVICES为空。0模型forward/真实loss/backward/optimizer.step，无新预测、合成训练、TIE/RK45/下载数据或发邮件。
+
+初次v1将辅助AffineNormalizer float64输出错误要求与作者float32逐元素相同，在约一float32末位差（首帧最大4.768e-7）处断言失败，原checker/日志/initial_failure完整保留。新v2分开原32位精确验证与辅助64位差异记录，不修改raw/static/pipeline或放宽实际input门槛。三帧辅助最大差9.536743e-7；actual OfficialFrameSource与作者输入逐元素差0。DEN往返最大相对约4.136e-8，接近零UN可约0.003068相对差但最大绝对仅2.5e-5m/s，理论float32往返界通过，绝对/相对/SI全部CSV不隐去。
+
+v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/ZG递增通过；无缺失字段和top padding补0。174物理/LBC按原mean/std float32精确，固定3scalar公式在浮点界内，实际全部4scalar/目标6aux/171truth与原官方捕获逐元素一致。00→01和01→02都从真实当前state只读组装，后者不是重跑自回归；旧00→01真实forward input0/scalars0精确复现，不执行网络。
+
+对官方get_data返回目标171和独立source目标state分别毒化（aux/scalar不动），input/scalar SHA不变/target SHA变；未来真值不进入当前state。原EpochPairs train/validation对2023仍拒绝，不绕过年份创建可训练Dataset。8新只读/时间测试+3既有时间隔离测试共11通过（新测试首次把shape异常期望写错ValueError，而npassert实际AssertionError，修正测试期望，失败日志保留）；没有重跑247全套中的合成训练。2000—2021各年/2022合法，重复/不连续/跨年/跨split/非UTC/naive/非法shape/NaN拒绝。作者epochs原为文件名UTC契约下naive，核实具体小时后登记UTC，不把外部非UTC直接重标。
+
+官方继续核查限定两个known versions/latest，均200并与上轮响应SHA相同，无新增训练入口/非2023文件清单；MDPI通讯页一次403，网页查询无有用官方新资源，未猜邮箱/URL或重复批量请求。英文邮件draft仅写待核实通讯作者/邮箱和用户署名，不发送。GFZ官方数据页确认历史驱动/API/桶起点约定，不下载2021/2022值；现有本地驱动仅2023。
+
+已有S7 secondary_010坐标lat36/lon72/lev29/ilev29与普通static逐元素相同；TN/UN/VN28有效层由原read_var已核实top fill裁剪，Z非ZG/cgs转换被原源码注释。S7具TN/风/DEN/Z/ZG/NE/LBC/f107d/f107a/Kp所需字段（Kp大小写，不是小写kp）；静态mag年覆盖另保存，不等于模型物理分布相同。备用方案：各年03-29 00起7天候选预热后训练2021-04-05→08/验证2022-04-05→07，仅设计10/9天连续，避免未严格等价continuation。历史S7实测9天10分钟1382.676秒/4MPI/2.571GB；粗外推两run约3000秒，2倍安全6000秒/4GiB建议未来预算非实测，不在本次启动。候选新驱动/初态/预热/14字段/小时瞬时筛选/来源许可/统计都需另授权和审计，不能称原作者训练数据。
+
+交付REAL_DATA_INTERFACE_AUDIT与roundtripCSV/输入目标hash/毒化/数据范围/源码与staticSHA；AUTHOR_RESOURCE_REQUEST草稿、ALTERNATIVE_TRAINING_DATA_PLAN、REAL_TRAINING_READINESS。更新TRAINING_IMPLEMENTATION_PLAN是用户授权文档更新，最终保护审计记录该项允许变化，所有原代码/科学历史/权重/上轮synthetic_step2.pt不改。真实训练仍缺合法非2023数据/许可/统计来源/配置/科学优化器/算力checkpoint预算，SGD合成配方不直接继承。K1真实baseline后K2单因素，2022验证选择、2023不调参，额外计算单列。
+
+命令source scripts/activate310.sh；CUDA_VISIBLE_DEVICES='' audit_fourcastden_real_data_interface.py（v1精度诊断失败留档，v2精确正式检查通过）；仅新8+旧3时间unittest；write_fourcastden_real_interface_report；finalize_fourcastden_real_interface。全部新增<200MiB（实际见delivery_audit），大资产/原NPZ/checkpoint不提交。检查敏感/ignore/历史SHA后commit安全推送核main；本次结束停止，不自动真实训练/仿真/邮件发送。

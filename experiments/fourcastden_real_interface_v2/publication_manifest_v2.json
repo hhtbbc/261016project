@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scientific_audit_SHA256": "ae67b32fa6a686cbfa2bd5eca76c7540b36248bc5d9b11337b9d833683792137",
+  "reason": "Publication ignore allowlist and email Markdown whitespace only; original failure logs retained locally unchanged",
+  "changed_paths": [
+    ".gitignore",
+    "docs/FOURCASTDEN_AUTHOR_RESOURCE_REQUEST.md"
+  ],
+  "artifact_SHA256": {
+    ".gitignore": "ff0b768ac25140da3988b8a7988194b2afdcd4159360c9059d967392fea1e526",
+    "AGENTS.md": "0b47348eeb21f640c6bbbfbe7fdd1675f6db03e65b0da11a344b363fd7a3c072",
+    "STATUS.md": "660e29c8efdb7aa1a07ba3193dedd7f7c3c621932628ce69cce513390231e97d",
+    "WORKLOG.md": "328ad3f5f55420c8e3f8d035e9830f43ade0db36cde16f72137473c511670645",
+    "docs/FOURCASTDEN_ALTERNATIVE_TRAINING_DATA_PLAN.md": "ff1c40f48806d89ec702f4daaae75dd8e9b9963621dfb176e95781e80ef38e30",
+    "docs/FOURCASTDEN_AUTHOR_RESOURCE_REQUEST.md": "fb717691a209cb29edb931d65945801af939093bfb12ab521b4b29e13ad2cb75",
+    "docs/FOURCASTDEN_PHASE2_RESEARCH_PLAN.md": "6280ab653a7cf83eef8f3fc4a812488dc7523786074d45acc7e0c12ae60917af",
+    "docs/FOURCASTDEN_REAL_TRAINING_READINESS.md": "d123e3382441a9283588067d7388a5609f5af9cbb96578eea997bf1569d09c6c",
+    "docs/FOURCASTDEN_TRAINING_IMPLEMENTATION_PLAN.md": "43810c7268955475d32e3381016a486b0cf1cea7b5ea3986737e54c5776db1ec",
+    "experiments/fourcastden_real_interface_v1/data_latest.json": "e482ea497bb4dba6e2d6b086bc4c0010decd1321eccc93d5dc18ac67bc448afb",
+    "experiments/fourcastden_real_interface_v1/initial_checker.py": "faf3d3585772932c36f7080a9774d9821c531358335e25faefd969a887e7170b",
+    "experiments/fourcastden_real_interface_v1/initial_failure.json": "3e43355d3fc084868bf804330f6775448fffe9b831be9b6e36fe2764be6d0ebd",
+    "experiments/fourcastden_real_interface_v1/launch_once.json": "74e250e9b964098d06380b2e2631a6b1f9404157c43f7f7b9ce540b9b91b6859",
+    "experiments/fourcastden_real_interface_v1/official_followup_http.json": "351e34d00b4adbac44c7b7df831106cc9e3437587ec72013ed2c7e1839ca8502",
+    "experiments/fourcastden_real_interface_v1/protected.json": "64bac7e41805b77969205c9b481c83f57da3ba67e66783ae4a5d92d75c924d9e",
+    "experiments/fourcastden_real_interface_v1/software_latest.json": "34b862da3a73b413113f529c98ffb784b3d6e56110ed4a8c76f2d325f370d729",
+    "experiments/fourcastden_real_interface_v2/alternative_grid_audit.json": "1c063a776ec8b835ebe63f881b399301481533ce7ba883bfc3d1c1700e4b1f4b",
+    "experiments/fourcastden_real_interface_v2/interface_audit.json": "095e96ab6a8d1843075bd15c82afc240b08ba5b37bc21da95c5cbc63d05d79bd",
+    "experiments/fourcastden_real_interface_v2/launch_once.json": "74e250e9b964098d06380b2e2631a6b1f9404157c43f7f7b9ce540b9b91b6859",
+    "experiments/fourcastden_real_interface_v2/protected.json": "64bac7e41805b77969205c9b481c83f57da3ba67e66783ae4a5d92d75c924d9e",
+    "logs/fourcastden_real_interface.log": "b6ef6026d9d0607504f3785074d59c9a7c0b57114f1bed46a35f040f50aff493",
+    "logs/fourcastden_real_interface_tests.log": "b502929560d2e54d52aa888686fe205ea5d26b95fb000d6e48d29c8e96c4a733",
+    "logs/fourcastden_real_interface_tests_v2.log": "c1a51b271f6781c935203932e2c50b4cb3ec39c45f71d700646398680ff5e59d",
+    "logs/fourcastden_real_interface_v2.log": "0e885b751e145a9d0696e3a2476650cbbbf6ab9bedb31a66a628cbc3550c5a91",
+    "reports/FOURCASTDEN_REAL_DATA_INTERFACE_AUDIT.md": "0dcb70e6f318c3a4d7af443b7c2607e1a8f9c79557e055a834b4b1ee6bc755e5",
+    "results/metrics/fourcastden_real_interface_roundtrip.csv": "462cfe1a533c6f7157885ac6a3a15cfa51c69b5074678a7dd7cb4a90a7e23785",
+    "scripts/audit_fourcastden_real_data_interface.py": "e8d9d7219a885b9d824be1774653630ac28accfca9d828a2b610efe39b6f1344",
+    "scripts/finalize_fourcastden_real_interface.py": "be28383813729322e78fd4bfd583d5ffdc1cf2cce11dbe452478e9d3f74fdcee",
+    "scripts/write_fourcastden_real_interface_report.py": "071502deece172e6b8ef701cd15cf8243b7b8c210714f998c6db6fcba364f562",
+    "src/training/readonly_interface.py": "3401f0933bbd6072f8123a0b314c65fc52f1229f73cace24ebee7d04774193b2",
+    "tests/test_fourcastden_real_data_interface.py": "cdab00a2278037c31c090c02f5e86c2763f85c5bc23b54c1844192e1e8b56e42"
+  }
+}

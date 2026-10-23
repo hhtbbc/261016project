@@ -53,3 +53,11 @@ models/model_module.py:43 forward要求网络返回value/flow并warp，与实际
 下一项最务实工作为取得P0材料及少量合法训练/验证样本，完善数据清单和隔离训练入口规格；不立即全量下载或训练。24h能揭示更长误差累积，但不能替代训练材料和独立验证；需要新授权、全程反馈/物理/预算门禁和原12h前缀核验。
 
 AI对TIE参考误差、真实观测密度误差、卫星轨道误差与端到端成本分别评价。轨道接入仍缺Z/ZG/外部高度、小时插值、未来条件现实可得性、真实Swarm气动姿态推力和共同受力/独立观测条件。本次不解除任何门禁、不运行轨道或模型训练。
+
+## 2026-10-23：真实只读接口门禁更新
+
+既有2023 Jan4 00/01/02仅CPU诊断，OfficialFrameSource加独立只读inspect_pair的两组177输入/4scalar/171目标与原作者inference在forecast边界捕获输入逐元素一致；捕获后中止，0模型forward/0真实loss/backward/更新。未来目标物理真值毒化不改变input/scalar。原EpochPairs禁止2023规则不改，不创建可训练2023 Dataset。8项新与3既有时间检查共11通过，未重复上一轮合成训练；原pipeline.py和训练checkpoint SHA保持。
+
+发现并记录辅助AffineNormalizer float64与作者float32舍入差（最大约9.54e-7归一化值），不能把高精度参考组件要求位级等同原32位；实际官方Frame路径/输入仍逐元素相同，无数据/统计/容差修改。原统计来源年份仍未知，接口兼容不等于训练分布匹配。详见REAL_DATA_INTERFACE_AUDIT。
+
+P0官方版本API核查无新增代码/非2023数据，邮件草稿AUTHOR_RESOURCE_REQUEST已准备但未发送，通讯身份/邮箱尚未核实。真实样本来源/许可/配置/统计与优化器仍BLOCKED，候选73/49帧不代表存在。备选ALTERNATIVE_TRAINING_DATA_PLAN确认现有网格/字段可作起点，2021/2022需另制作合法驱动并先短诊断，物理/初态/预热/统计分布不能冒充原作者训练数据；仅静态方案，不启动TIE。下次实际训练门槛见REAL_TRAINING_READINESS，优先作者合法小样本，2023不调参。K1基线→K2单因素，额外forward预算单列；高层损失另对照。

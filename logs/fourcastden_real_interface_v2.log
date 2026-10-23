@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "label": "READ_ONLY_TEST_INTERFACE / NOT_TRAINING",
+  "pairs": [
+    {
+      "label": "READ_ONLY_TEST_INTERFACE / NOT_TRAINING",
+      "current_UTC": "2023-01-04T00:00:00+00:00",
+      "target_UTC": "2023-01-04T01:00:00+00:00",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "scalar_shape": [
+        1,
+        1,
+        4
+      ],
+      "target_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "input_SHA256": "f219044b17e4ef1737afa238ec06933e7d3adfead087df314f979f25d2189fb2",
+      "scalar_SHA256": "295d2754295350e22001c43936b412b3977990178419c42cc90d6af88e04788e",
+      "target_SHA256": "14611f8bbbdcfef5c59554d288f0041ae85e9ae06e68d0da3dec33015ae13449",
+      "max_input_abs_difference": 0.0,
+      "max_scalar_abs_difference": 0.0,
+      "max_target_abs_difference": 0.0,
+      "exact": true
+    },
+    {
+      "label": "READ_ONLY_TEST_INTERFACE / NOT_TRAINING",
+      "current_UTC": "2023-01-04T01:00:00+00:00",
+      "target_UTC": "2023-01-04T02:00:00+00:00",
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "scalar_shape": [
+        1,
+        1,
+        4
+      ],
+      "target_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "input_SHA256": "d80e3121bac4629c6d8e42dba51d5677e7306d24ddb2d31eed59e037f8cc37b6",
+      "scalar_SHA256": "d5bd24098c4e4f49ebb6fcefaffd0497a52f06ee0a95ee53b60ddb78354ca69c",
+      "target_SHA256": "876a654ab2f34af0c5a6ae4825540731356aca386ab13e4b40c7ab79e13e0e9d",
+      "max_input_abs_difference": 0.0,
+      "max_scalar_abs_difference": 0.0,
+      "max_target_abs_difference": 0.0,
+      "exact": true
+    }
+  ],
+  "poison": [
+    {
+      "current": "2023-01-04T00:00:00+00:00",
+      "target": "2023-01-04T01:00:00+00:00",
+      "official_input_unchanged": true,
+      "adapter_input_unchanged": true,
+      "target_changed": true
+    },
+    {
+      "current": "2023-01-04T01:00:00+00:00",
+      "target": "2023-01-04T02:00:00+00:00",
+      "official_input_unchanged": true,
+      "adapter_input_unchanged": true,
+      "target_changed": true
+    }
+  ],
+  "source_epoch_contract": "Author naive datetime from UTC filename, explicitly registered as UTC; NPZ has no internal timezone/unit attributes",
+  "n_state": 171,
+  "n_aux": 6,
+  "n_input": 177,
+  "n_scalar": 4,
+  "means_SHA256": "a77712f527210c8341b6093add3f9dc7d036e330007e9235ad17b29df9bb3802",
+  "stds_SHA256": "ffccc2c3bf3556d37d98a4bd89e34c4c3505d3cf98a3f7418781c898e9d12454",
+  "scalar_conditions_normalized_exact_to_author": true,
+  "historical_input0_exact": true,
+  "normalization_fitted": false,
+  "model_instantiated": false,
+  "model_forward_calls": 0,
+  "backward_calls": 0,
+  "optimizer_steps": 0,
+  "CUDA_used": false,
+  "training_2023_rejected": true,
+  "padding_policy": "No invalid values in selected official NPZ; validate rejects NaN/Inf/abs>1e30; never replace raw model top padding with zero",
+  "wall_s": 8.060616267845035
+}

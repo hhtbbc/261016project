@@ -139,3 +139,7 @@ fourcastden_twelve_hour_mar24_v1已另授权完成4×12/48forward，无额外GPU
 ## 独立训练工程合成预检后的规则
 
 用户新授权建立src/training并仅合成验证，非官方完整训练复现。247测试；首GPU v1缺CuBLAS确定性环境在首forward失败0step，保留记录；独立cublas_v2设置:4096:8后完整原AFNONet随机初始化3step、step2保存恢复后step3成功，两次监督累计约12.25秒，无官方权重/真实数据训练。今后CUDA确定性运行必须在torch导入前设置该环境，勿自动重放已完成标签。SGD0动量仅合成资源假设，不能视作作者协议或科学训练效果。原件/权重/历史SHA不改，真实2000—2021/2022样本与协议/许可仍缺，2023不调参；真实训练/24h/TIE/RK45均等新授权。结束安全Git同步，停止。
+
+## 真实2023只读接口验证后的门禁
+
+fourcastden_real_interface_v2用Jan4三帧仅CPU配对/预处理核查，177/4/171与原作者输入拼接逐元素一致，未来真值毒化不影响input，11项只读时间测试。原EpochPairs 2023 train/val拒绝不改；不创建可训练2023 Dataset，未forward/backward/optimizer或重跑合成训练。辅助AffineNormalizer float64与官方float32末位差有独立记录，不能据此修改真实数据/统计或实际输入精确门槛。真实训练数据/许可/协议仍缺，邮件草稿未发，备选2021/2022只设计，真实训练/TIE/RK45/新长预测均等授权。任务后安全Git同步并停止。

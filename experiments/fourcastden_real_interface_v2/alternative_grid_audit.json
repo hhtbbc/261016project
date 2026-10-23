@@ -1,0 +1,91 @@
+{
+  "source": "experiments/tiegcm2023_s7_continuous_v1/secondary_010.nc",
+  "coordinates": {
+    "lat": {
+      "model_shape": [
+        36
+      ],
+      "author_shape": [
+        36
+      ],
+      "exact": true,
+      "model_first_last": [
+        -87.5,
+        87.5
+      ],
+      "author_first_last": [
+        -87.5,
+        87.5
+      ]
+    },
+    "lon": {
+      "model_shape": [
+        72
+      ],
+      "author_shape": [
+        72
+      ],
+      "exact": true,
+      "model_first_last": [
+        -180.0,
+        175.0
+      ],
+      "author_first_last": [
+        -180.0,
+        175.0
+      ]
+    },
+    "lev": {
+      "model_shape": [
+        29
+      ],
+      "author_shape": [
+        29
+      ],
+      "exact": true,
+      "model_first_last": [
+        -6.75,
+        7.25
+      ],
+      "author_first_last": [
+        -6.75,
+        7.25
+      ]
+    },
+    "ilev": {
+      "model_shape": [
+        29
+      ],
+      "author_shape": [
+        29
+      ],
+      "exact": true,
+      "model_first_last": [
+        -7.0,
+        7.0
+      ],
+      "author_first_last": [
+        -7.0,
+        7.0
+      ]
+    }
+  },
+  "fields_present": {
+    "TN": true,
+    "UN": true,
+    "VN": true,
+    "WN": true,
+    "DEN": true,
+    "Z": true,
+    "ZG": true,
+    "NE": true,
+    "TLBC": true,
+    "ULBC": true,
+    "VLBC": true,
+    "f107d": true,
+    "f107a": true,
+    "kp": false,
+    "Kp": true
+  },
+  "Kp_case_mapping": "Native secondary field Kp matches required NPZ Kp; lowercase kp lookup is absent"
+}

@@ -144,3 +144,10 @@ credentials.json
 # Independent training smoke: publish metadata/logs only, never training checkpoints.
 !/logs/fourcastden_training*.log
 /experiments/fourcastden_training*/**/*.pt
+
+# Read-only real-data interface evidence, no raw arrays/checkpoints.
+!/logs/fourcastden_real_interface*.log
+
+# Keep original diagnostic failure stdout local; hashes and summaries are published.
+/logs/fourcastden_real_interface.log
+/logs/fourcastden_real_interface_tests.log

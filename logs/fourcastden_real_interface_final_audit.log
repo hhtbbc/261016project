@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "label": "READ_ONLY_TEST_INTERFACE / NOT_TRAINING",
+  "protected_immutable_files": 824,
+  "authorized_document_updates": [
+    {
+      "path": "docs/FOURCASTDEN_TRAINING_IMPLEMENTATION_PLAN.md",
+      "before_SHA256": "1d059d9273ca97e28a635eb03c9e9127cbecb5f26b6e37f15f0ff7f18fcc5ae8",
+      "after_SHA256": "43810c7268955475d32e3381016a486b0cf1cea7b5ea3986737e54c5776db1ec",
+      "reason": "User explicitly requested training implementation documentation update"
+    }
+  ],
+  "real_samples": 3,
+  "consecutive_pairs": 2,
+  "input_channels": 177,
+  "target_channels": 171,
+  "external_scalars": 4,
+  "all_inputs_targets_scalars_exact": true,
+  "tests_executed": 11,
+  "prior_full_suite_247_not_rerun": true,
+  "model_forwards": 0,
+  "backward_calls": 0,
+  "optimizer_steps": 0,
+  "CUDA_used": false,
+  "training_2023_guard_intact": true,
+  "official_email_sent": false,
+  "official_contact_email_verified": false,
+  "official_followup_new_training_resources_found": false,
+  "new_files_bytes": 574800
+}
+static magnetic coverage 2000 2025

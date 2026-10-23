@@ -358,3 +358,11 @@ Mar24 +12高层相关组相对RMS：Direct3.759760%、Flow3.964593%、log3.67479
 合成loss141.80748→141.80228→141.79710仅工程意义。GPU allocated峰641,605,120字节、进程峰1,335,885,824字节，2次监督合计12.2464秒<300/20GiB。唯一checkpoint258,850,242字节本地不提交；GPU用SGD0动量控制500MiB预算，CPU用非零动量验证完整optimizer恢复。norm两参数无梯度符合原forward未用的已知行为。
 
 报告OFFICIAL_TRAINING_RESOURCE_AUDIT/TRAINING_SMOKE_TEST，MINIMAL_TRAINING_DESIGN/DATA_ACQUISITION_PLAN/IMPROVEMENT_EXPERIMENT_DESIGN。真实候选工程样本预注册2021-04-05→04-08和2022-04-05→04-07，未下载/执行。下一优先作者协议与合法小样本→真实adapter审计→基线训练；改进优先K2多步单因素，另行研究高层损失，2023不调参。正式大气/轨道门禁保留，任务后停止，Git以最终远端SHA为准。
+
+## 2026-10-23：真实数据接口只读验证完成
+
+Jan4三帧2023真实NPZ仅CPU读取，00→01与01→02两对的177输入/4scalar/171目标和官方原inference输入构建逐元素相同，历史input0复现；官方forecast边界捕获即中止，没有创建网络/执行forward、真实loss/backward/optimizer或GPU。未来目标171毒化输入不变，原2023训练/验证拒绝规则保留。8新+3既有时间检查共11通过，旧247为历史证据，不重跑合成训练。
+
+原174归一化float32逐元素相同，单位/往返误差与原padding/哨兵检查通过。辅助AffineNormalizer float64与原32位有≤9.5367e-7差异，初次误要求位级相同的诊断失败已保留；精确实际输入门槛不变。普通static统计原来源年份仍未知，不能证明训练分布匹配。
+
+官方latest API与旧元数据SHA相同，仍无2000—2021/2022数据或完整训练入口；MDPI403，邮件草稿完成但通讯人邮箱未核实/未发送。已有S7坐标与官方static精确相同且14字段可取得，但2021/2022需新驱动/日历短诊断、物理配置/预热/统计另审，不称作者原训练集。新增REAL_DATA_INTERFACE_AUDIT、AUTHOR_RESOURCE_REQUEST、ALTERNATIVE_TRAINING_DATA_PLAN、REAL_TRAINING_READINESS，实际训练BLOCKED于合法样本/协议/统计/科学优化器与预算。候选2021-04-05→08和2022-04-05→07未下载，未TIE/RK45/新预测/训练。完成后Git核验同步并停止。

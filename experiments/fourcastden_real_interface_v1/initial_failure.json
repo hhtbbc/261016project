@@ -1,0 +1,10 @@
+{
+  "status": "FAILED",
+  "stage": "auxiliary float64 affine exact comparison",
+  "max_normalized_abs_difference": 4.7683716e-07,
+  "model_forward_calls": 0,
+  "backward_calls": 0,
+  "optimizer_steps": 0,
+  "original_script_SHA256": "faf3d3585772932c36f7080a9774d9821c531358335e25faefd969a887e7170b",
+  "log": "logs/fourcastden_real_interface.log"
+}
