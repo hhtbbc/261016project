@@ -1,0 +1,13 @@
+{
+  "initial_push_timeout_seconds": 60,
+  "remote_after_initial_timeout": "10900aaf063fa8f35b858cbb4d82cdc615c276eb",
+  "outgoing_pack_bytes": 1050905,
+  "second_push_process_only_postBuffer_bytes": 8388608,
+  "second_push_exit_code": 0,
+  "no_force": true,
+  "global_git_config_changed": false,
+  "science_commit": "0c0fa857626319c71b9655dac399bd67e5d98f7b",
+  "remote_science_commit_verified": "0c0fa857626319c71b9655dac399bd67e5d98f7b",
+  "diagnosis": "Pack exceeded default HTTP buffer; proxy/chunked incompatibility suspected, not conclusively proven",
+  "git_documentation": "https://git-scm.com/docs/git-config#Documentation/git-config.txt-httppostBuffer"
+}
