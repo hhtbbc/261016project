@@ -1,0 +1,8 @@
+{
+  "TMPDIR": "/workspace/data/20261016/.tmp/mpi",
+  "OMP_NUM_THREADS": "1",
+  "OPENBLAS_NUM_THREADS": "1",
+  "CUDA_VISIBLE_DEVICES": "",
+  "OMPI_MCA_pml": "ob1",
+  "OMPI_MCA_btl": "self,tcp"
+}

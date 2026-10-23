@@ -159,3 +159,7 @@ GFZ两格式/复查API均05-09=-1，加拿大表缺当日全部记录，CelesTra
 ## 2021十天连续候选生成后的门禁
 
 用户另授权2021 Mar23 v2十天单次连续运行已完成，14400步/1537.05秒，11主/240次历史完整，73帧候选和72相邻小时177/171/4只读/毒化通过，11聚焦测试。四标签INDEPENDENT_TIEGCM_DATA_GENERATION/HINDCAST/SPINUP_SUFFICIENCY_UNVERIFIED/TRAINING_CANDIDATE_ONLY不解除；初始primary N/A、167预热小时不入候选，无训练统计拟合/模型forward/backward/optimizer。旧2311保护文件SHA一致，原Apr05缺测不改。2022长例/真实训练仍需另授权，先独立验证及同驱动初态或更长预热配对，不依据自然时间变化声称7天收敛。任务后安全Git同步并停止。
+
+## 2022九天与两年候选完成后的门禁
+
+另授权2022 Mar23 v2九天单次12960步已完成，1355.17秒、10主/216小时次历史、49验证候选与48相邻对177/171/4只读/毒化通过，本轮11聚焦测试。与2021现有73帧组成122帧/120对，物理契约与时域隔离通过，但两年分布差不同不等于初始化误差或观测精度。INDEPENDENT_TIEGCM_DATA_GENERATION/HINDCAST/SPINUP_SUFFICIENCY_UNVERIFIED及TRAINING_CANDIDATE_ONLY/VALIDATION_CANDIDATE_ONLY保留；科学训练READY=False。未拟合2021或2022统计、未网络forward/backward/optimizer。后续先预热敏感性配对/独立训练协议冻结；额外积分、真实训练、AI/轨道均等另授权，任务后安全Git同步并停止。

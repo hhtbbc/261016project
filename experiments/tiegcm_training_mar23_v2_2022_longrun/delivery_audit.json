@@ -1,0 +1,461 @@
+{
+  "label": "INDEPENDENT_TIEGCM_DATA_GENERATION / HINDCAST / SPINUP_SUFFICIENCY_UNVERIFIED / VALIDATION_CANDIDATE_ONLY",
+  "tests": 11,
+  "generated_science_artifact_bytes": 2007648123,
+  "limit_bytes": 5368709120,
+  "historical_protection": {
+    "checked": 2440,
+    "mismatches": [],
+    "older_official_assets_checked": 803
+  },
+  "model_launches": 1,
+  "2021_model_rerun": false,
+  "training_statistics_fitted": false,
+  "scientific_training_READY": false,
+  "files": {
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/PET2.ESMF_LogFile": {
+      "SHA256": "bdc9de124d407df6ea10c687b6a5eb7f31b84918232aa007f30ea48512312e92",
+      "bytes": 1457
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/primary_007.nc": {
+      "SHA256": "57447d30519ae1e6ed11f014218283158c0c5fc8b32421f32e8b07850c8449f3",
+      "bytes": 16993204
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/candidate_audit.json": {
+      "SHA256": "8ab4bcd737474d3b61480601ff7d529bdae1c235962b6eced814450566ae7944",
+      "bytes": 68623
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/data_audit.json": {
+      "SHA256": "30af80731fa41bf68a9f0836ecdef4fb82b1a897704acfd4cbc50605522ce036",
+      "bytes": 18791
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/primary_004.nc": {
+      "SHA256": "e705f446ac942c8e18905d9ad5d4f4f3617472a0ab3f33acd522330afbc52379",
+      "bytes": 16993204
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/input.inp": {
+      "SHA256": "0305b08a7ea09d5dc814349d27d519d0051360d9951e136946f89750b21891d3",
+      "bytes": 1327
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/primary_003.nc": {
+      "SHA256": "fa4cc51816c3f8759f863bc53e3a3dbd266528ec5f59b1d79259b4085c9e108a",
+      "bytes": 16993204
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/cpu_snapshot.json": {
+      "SHA256": "79617b1bae015377b6bcfdd244708350d40f4e6518363d834407414e39878174",
+      "bytes": 322
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/progress.json": {
+      "SHA256": "52db07d54bad510281b7c277143a429bb16f8a2d2d0bb63265e34df711a04c6e",
+      "bytes": 118
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/primary_008.nc": {
+      "SHA256": "b8e800f44e36414ff1e5debedf177532bab141f269bca3df2d96e3090bbe446a",
+      "bytes": 16993204
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_005.nc": {
+      "SHA256": "2cd00d0fe079ca8c8e4417c9b359c36fb2a2441bae3dd64183145dfcb0ee25e9",
+      "bytes": 192668972
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/historical_protection_audit.json": {
+      "SHA256": "12a512c725d6a0c693d156f4c0c599fadc7404683e9a085e6583626092af0be2",
+      "bytes": 81
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_006.nc": {
+      "SHA256": "d8fa14d9b513c15752db409af0109d7aaa8974b0ce88495310ba2362bd2d0f42",
+      "bytes": 192668972
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/preflight.json": {
+      "SHA256": "6eb63a4b9ae403cc2ca2a0e5e8a3daee9f46d8f30baf20392a82ed4699ff01a1",
+      "bytes": 7149
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/PET1.ESMF_LogFile": {
+      "SHA256": "151f5195df69a6182f9ffd2268099d543c46d4308bb84c3658605878b942191b",
+      "bytes": 1457
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_003.nc": {
+      "SHA256": "73024f66c3871d2b43b9c4961aace6acdc5e751184f9bb08d93d8bdae3378f71",
+      "bytes": 192668972
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/primary_010.nc": {
+      "SHA256": "1c6f330ef48e201e83f53e0dbd971d8f11a26023310f92d53a3c95b59eac8fb7",
+      "bytes": 16993204
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_009.nc": {
+      "SHA256": "bd787cd363817100c075c7dc51b9db405aac17d19660110c14677303191eb9c7",
+      "bytes": 192668972
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_001.nc": {
+      "SHA256": "7af844a3a60421063c39ed1916e64108f41d5b740d944575c9028871ce515e98",
+      "bytes": 192668972
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/PET0.ESMF_LogFile": {
+      "SHA256": "5a44e8ac1d1ce8c745c5ef679d07d3494d718096b27cc89dc73a0b6c4ff790e1",
+      "bytes": 1457
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_008.nc": {
+      "SHA256": "2d883664b96d82714448c2459267dc6dec4d451cdd3c779d9536a66b4b8c1a21",
+      "bytes": 192668972
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/protected_files.json": {
+      "SHA256": "9782425fd48ea164e1daac42e3b32ca3210d4eb9a4201a663a941ebfb7baab04",
+      "bytes": 314747
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_002.nc": {
+      "SHA256": "085d805b9da9cba6f9891c0b37129f8f3c820136572a03229c722a7d69212e9b",
+      "bytes": 192668972
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/primary_006.nc": {
+      "SHA256": "5d27bb1e23acef7b386736a7fef0a2e9f20eb3e127b70be2dea029d63df2054f",
+      "bytes": 16993204
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/launch_once.json": {
+      "SHA256": "d88792ed55e3e25b84236e152eedfd7e1249a77e30054c4d7aed8122e37621eb",
+      "bytes": 64
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/configuration.json": {
+      "SHA256": "9190fbdf27255211ab575ea340d1b3180f7b278ebb7a54678db060aca359983d",
+      "bytes": 2222
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/primary_001.nc": {
+      "SHA256": "4a70e4f4718e558e3c6fb67611421542ec094633ff4d0863c65fff9d5de53152",
+      "bytes": 16993028
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/primary_009.nc": {
+      "SHA256": "912e7a26044287a43ddaa8df9b1e7eb9947216c6b570ccff64857f05596c8ed8",
+      "bytes": 16993204
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_007.nc": {
+      "SHA256": "8215cf58ff10fb4f1e0c791edbdeecf35e57d6a459197d213c5bfd543e1576aa",
+      "bytes": 192668972
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/PET3.ESMF_LogFile": {
+      "SHA256": "e377b108938e3fd4de7559da7f3a5fc2d5d486740409b898b7d51c92fd84d5dd",
+      "bytes": 1457
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/joint_dataset_audit.json": {
+      "SHA256": "b62897e2b3a0afcfb75b6e67674dc9bc6cb61e1ac5f58a8ac55274f6d77651ca",
+      "bytes": 4916
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/run_status.json": {
+      "SHA256": "265557e0cd44e1e5e2bae8177b71bce4a134c5caa36aee13371bf715b3981da0",
+      "bytes": 39693
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/primary_002.nc": {
+      "SHA256": "50ff7fd9e0442fa93e3fee93af0f19ba02a341a84684e849e70b88023063b071",
+      "bytes": 16993204
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/primary_005.nc": {
+      "SHA256": "39a353ca6b9d5416ea291ff926dedcc51c2a09c885b5bcf96299952eafdbb763",
+      "bytes": 16993204
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/cwd": {
+      "SHA256": "3a213d8ce6356667c4d33d615c79f8423a1af2e24f488e2a4d996a9a234272b5",
+      "bytes": 75
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/runtime_environment.json": {
+      "SHA256": "7f9d4bde346b14fba59837475125de98d3ca7917f9614ce7701186e3bbdcc341",
+      "bytes": 194
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_004.nc": {
+      "SHA256": "02d40740d0b685935e7db8e48f16a9f74a0f7ab6fb5d0ed8692936c6f656bd08",
+      "bytes": 192668972
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/report_numbers.json": {
+      "SHA256": "644ebddb8fe6e8054034949d76dff4830a2eae9584fd00f59ed59f79c1df168f",
+      "bytes": 98
+    },
+    "results/tiegcm_training_mar23_v2_2022_longrun/drivers.png": {
+      "SHA256": "965841c6d131861e60c34a34882bcc3a9231b127b094332a70fb181c98be0caa",
+      "bytes": 98140
+    },
+    "results/tiegcm_training_mar23_v2_2022_longrun/ZG_structure.png": {
+      "SHA256": "3e836ebd6a94b0a815b1dc3e9c2efe457ac85604418f78fb4453ca3d2f16b1ba",
+      "bytes": 40493
+    },
+    "results/tiegcm_training_mar23_v2_2022_longrun/latitude_bands.png": {
+      "SHA256": "d367da88d76f588dde5d4bb497a5f931747d1131d79c32e4e626ff981c0c5286",
+      "bytes": 85251
+    },
+    "results/tiegcm_training_mar23_v2_2022_longrun/hourly_diagnostics.csv": {
+      "SHA256": "87ba82eab4c38144095c564bf717f1f220bbba3f99e069df4f735743a0c61967",
+      "bytes": 117764
+    },
+    "results/tiegcm_training_mar23_v2_2022_longrun/temperature_wind.png": {
+      "SHA256": "6f482e2c6bed83ee610f6dfbc66b9771e5b10e927ef11ecc16d3dd70575a2043",
+      "bytes": 115249
+    },
+    "results/tiegcm_training_mar23_v2_2022_longrun/median_ZG_profiles_km.csv": {
+      "SHA256": "657c010899ed0f80d171248545d47e45f42cfae9d79def73977bb6bad04c98e2",
+      "bytes": 156600
+    },
+    "results/tiegcm_training_mar23_v2_2022_longrun/composition.png": {
+      "SHA256": "4035c9bd9b3a3eae727de342cd83bfc620ce65c22e7702b6ddaccdee68a0cc31",
+      "bytes": 109921
+    },
+    "results/tiegcm_training_mar23_v2_2022_longrun/density.png": {
+      "SHA256": "10b8df64c4d98850201154127dd9133f256e9df04b03ad923918d77f7ec7cdbc",
+      "bytes": 63192
+    },
+    "results/fourcastden_2021_2022_dataset_v2/candidate_hourly_comparison.csv": {
+      "SHA256": "f7bedf52519be4086c7645f9ce78c6cf12c28c7d35a219038281e8f8f610dc09",
+      "bytes": 13917
+    },
+    "results/fourcastden_2021_2022_dataset_v2/two_year_physical_diagnostics.png": {
+      "SHA256": "9df8d0cec7684c2338837201ddbce8e5b8b554eb2fd45b0406d9ec01d7c15e38",
+      "bytes": 173696
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_210000.npz": {
+      "SHA256": "cf20379f24ace3e91c4763ec13d7cdb496eb5c362673b5a96063204949bc8ace",
+      "bytes": 2063995
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_210000.npz": {
+      "SHA256": "fb54ab48776a4f0acef0005a67a2f46e19b46959ae5e1d89cd6f3ed9b8903f7e",
+      "bytes": 2065169
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_010000.npz": {
+      "SHA256": "3dc0eccdf69784622736c9cca2dafce423c36b71f4163ca4b2e1d21c51ae2cc5",
+      "bytes": 2065639
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/lon.npy": {
+      "SHA256": "38560017f9976b8251a7799e31d6ddb881f9552c143fe2f6c4821a6e3b68d688",
+      "bytes": 704
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_130000.npz": {
+      "SHA256": "6188e87781739c9efa77d1d3b8e1688fcbfbf595eb18d88315c2601a4012b616",
+      "bytes": 2068205
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_100000.npz": {
+      "SHA256": "91b80240165d8e2416da977e1cafd580d5b643aab89d5712d189cee72d70d1b2",
+      "bytes": 2065710
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/lev.npy": {
+      "SHA256": "a497bb83b11c6185183159bf6535a4eb139039aa1c2990d97e8cf5b99a2508ec",
+      "bytes": 360
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_040000.npz": {
+      "SHA256": "1fd1f2ef2b2d1047adbcd90e703918c1b0c1d42c40ca09cf86362f601aba57db",
+      "bytes": 2067758
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_080000.npz": {
+      "SHA256": "51e02441340ae075772dee1d9f0ca06634cce2221b61e85bf738b0ee8c2f1548",
+      "bytes": 2063248
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_040000.npz": {
+      "SHA256": "8eb4e7bd32d5053de13046ebcf4865851075cde5ca41cee49434f896c17f1c1b",
+      "bytes": 2071482
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_170000.npz": {
+      "SHA256": "c1698a46b5c8cb6a71a4dafecbcd6c12cd30bb24a6b9ae888a3690a45e4958fd",
+      "bytes": 2069044
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_190000.npz": {
+      "SHA256": "3adad0e1c71c1224694c442f11e5ca0ba87347313c00472b5851d689c5a7afb2",
+      "bytes": 2066959
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_140000.npz": {
+      "SHA256": "bfbb01085043a3f2bc85fdcd3f30d3d5063ad7b1e2279e6234d9e5b869cdb3f8",
+      "bytes": 2068754
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_030000.npz": {
+      "SHA256": "a41c68fc5599cd671a252773da2dc7e4f24cbb3f315bcd43e0703d1fd10e440c",
+      "bytes": 2070859
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_050000.npz": {
+      "SHA256": "fb84e0076ea3888dbac7bf0eace812fb0b514c7e27fe9ff73a877996a9b6ef53",
+      "bytes": 2071046
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_060000.npz": {
+      "SHA256": "54190a6278461e943a798ef017691b34f5934fd9e44a37927db33d51431e838c",
+      "bytes": 2065292
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_000000.npz": {
+      "SHA256": "5d2e12b704e244740cf51561ea59bda7ad63c9909a39b1db49d01aed0f5d4413",
+      "bytes": 2067915
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_110000.npz": {
+      "SHA256": "a595b3eaeb3d0c223e71fdbda1c024c4d6bfedad1809107647b18351655a9991",
+      "bytes": 2063956
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_150000.npz": {
+      "SHA256": "981d0b007e0b31aaeb41d54a9a8ab70a96de9179f2b097ad3f3d5e9380211d6f",
+      "bytes": 2069039
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_060000.npz": {
+      "SHA256": "28634b4200489f5d9574d210b98c8757a36b89f334f6f67d10dd2c6573b760dc",
+      "bytes": 2070304
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_070000.npz": {
+      "SHA256": "5e1a143d83721dccc361528131f0505846c1f6f9ff057cc2e7d5679c7261138d",
+      "bytes": 2068502
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_120000.npz": {
+      "SHA256": "b7cf432ac17c98797ceed522050f3c05a31aca9a7235956f2389dca864466806",
+      "bytes": 2063298
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/manifest.json": {
+      "SHA256": "60c7b1e329b60ef156fa02fe0d64ce1f358e616537052b3934d0ee75e8ecb414",
+      "bytes": 28095
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_230000.npz": {
+      "SHA256": "0f7dcb0d0fa746b16228d9b3287e4c2c68babf478aad84fb61c741a285feeed5",
+      "bytes": 2063602
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_010000.npz": {
+      "SHA256": "85b6f0c235cc20b2b70944c025eaf736cc6b6ad4f52b1f2b21d8a5b52919efaf",
+      "bytes": 2067404
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_140000.npz": {
+      "SHA256": "49e33fd1d953510152720fabcb3bee053e1ba4ba02415320e51d2690e237e0a5",
+      "bytes": 2064254
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_160000.npz": {
+      "SHA256": "eba54322e6805b5938d940c503fd2c642cea64f2034ecb5a81b9453a27d847c7",
+      "bytes": 2069253
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_180000.npz": {
+      "SHA256": "8df9bee49e8f4b05e8ff1e8d9e242365640cb5f19e73cf92b60baf628c9c44a1",
+      "bytes": 2068199
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_180000.npz": {
+      "SHA256": "e82a27d92da14a9aecdcd7a4ce3b8ad84f19dc12e5355fcb457aede261b59d42",
+      "bytes": 2065884
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_170000.npz": {
+      "SHA256": "b87fe1e8e46cf5db0e83b6691de5abac4181a513615eed9e1032303d6bdd2f15",
+      "bytes": 2065340
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_000000.npz": {
+      "SHA256": "d41e0df6ae0a7b754f866b86ff0184367c4b0310fd895776e874d6d238364773",
+      "bytes": 2063459
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_080000.npz": {
+      "SHA256": "cc462c7501b8f4270385a19de327a9ac4592baf12dee6e0ab78ecb9500357ff8",
+      "bytes": 2067390
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_050000.npz": {
+      "SHA256": "1460fd746153fa1c1662ce800ef013bfa630ec5c6544becdcd3831f1a595fdc9",
+      "bytes": 2066472
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/lat.npy": {
+      "SHA256": "c05d3cf388918bca6083c0a97831cc071b5abaf67e3e292bbb032271c7368c0f",
+      "bytes": 416
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_090000.npz": {
+      "SHA256": "e578d0a0a0b9fbeee105f8755d6d20ed46e040664b585cc14bb5f37f18e4f84e",
+      "bytes": 2066179
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_090000.npz": {
+      "SHA256": "7e8ddc6f04a7bae6fc4aec60bbbf36e46869df2a7c80264902667b111bd3bec8",
+      "bytes": 2063100
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/ilev.npy": {
+      "SHA256": "8de0896d5cc4dcf58131898dad5314e41833d893c01d8cb8b2343e334871e467",
+      "bytes": 360
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_120000.npz": {
+      "SHA256": "15fba50e7c7655ae8233827e181f547ecdaccd5a5cd85efe0b858572811818a0",
+      "bytes": 2066841
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_020000.npz": {
+      "SHA256": "d3a7a7b84134086ba7f4fc198e517c88ab9e1bdf46828b67064cd8f413b77e98",
+      "bytes": 2068797
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_220000.npz": {
+      "SHA256": "2c980ecea7f3d54dc24d0235dcdb84cc25f4d489957b9d2f1f3a9ff5a309cfe0",
+      "bytes": 2064254
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_130000.npz": {
+      "SHA256": "2cf02d391e524b17e360fa5668d67cbc647dce46c3c5591e14b8889810a0ca55",
+      "bytes": 2063406
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_230000.npz": {
+      "SHA256": "ec21a69f71ba3086c49cdccf666e1502b4bce2a2ee1cef8023e8383a96d0d2d3",
+      "bytes": 2064399
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_100000.npz": {
+      "SHA256": "5c08fd1ee0fead719511f69cccafb429ff53599fbea52120da17535e4431d8d7",
+      "bytes": 2063513
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_190000.npz": {
+      "SHA256": "97518f8f3ce686c269351d735acbbdaf816ef36e1495c8e4eef9e6b077b38902",
+      "bytes": 2065163
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_070000.npz": {
+      "SHA256": "b8719aa66dd4c9fc76a132a7ec94d01d72addf5fcfdc740e6eabe49bfd54f8a5",
+      "bytes": 2064381
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_030000.npz": {
+      "SHA256": "2abb1a1746fe8a0b2ebe1623a8c58775f06646eef5954ede5183840c0c89b4ee",
+      "bytes": 2067689
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_020000.npz": {
+      "SHA256": "2c68580ef3988d055b3f0a4906db97d6daed14f530d902d4b054bb0b2aaff766",
+      "bytes": 2067548
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_200000.npz": {
+      "SHA256": "c4c9cb8585e3cc3207589d1b3c0404ddb82619b64ba4bf0180f77e2726d93b4c",
+      "bytes": 2064554
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_200000.npz": {
+      "SHA256": "efb7c792e5ac8c941c08e973fad13dd37751bfd518be74a0392393c83fbae964",
+      "bytes": 2065954
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_25_000000.npz": {
+      "SHA256": "1a6012a766d6c0dc9c75ff15e9a763567f40e8e79bedf27dbc71ffa381f4a49c",
+      "bytes": 2064937
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_24_110000.npz": {
+      "SHA256": "284f3253d25c6b0b263230ef1684b614a7f4c52af5abe85aac332c083bb0573e",
+      "bytes": 2065760
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_160000.npz": {
+      "SHA256": "00967ab105edaa8a0ff9781bd2f20e76476f67ddd58c8ee3d8c0cc3a86bff7cd",
+      "bytes": 2064949
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_150000.npz": {
+      "SHA256": "a9b3444005d7b97ec55acbab142f2dffd6ee46ca4b54d1b3f5089a3e5300370d",
+      "bytes": 2064825
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/2022_03_23_220000.npz": {
+      "SHA256": "207ddc2b6acb08435c7d7cc75d82975017873e803c40b825f04d1822fa7b9111",
+      "bytes": 2063575
+    },
+    "scripts/run_tiegcm_mar23_2022_longrun.py": {
+      "SHA256": "934894175130dcd0d54cfa151f361fe44dae70cfc38475fc91fd5574207b0d9b",
+      "bytes": 14009
+    },
+    "scripts/audit_tiegcm_mar23_2022_longrun.py": {
+      "SHA256": "949313b3b38b380b6d91a705ccb722dd9f4e761fdfe8aca5fb50b9491e213dec",
+      "bytes": 9006
+    },
+    "scripts/extract_fourcastden_2022_validation_candidates.py": {
+      "SHA256": "53b8848c12e3e762da83f9875896835acb560a3012c88649b353dfe628edb80e",
+      "bytes": 7078
+    },
+    "scripts/audit_fourcastden_2021_2022_dataset.py": {
+      "SHA256": "8b856ac5d336d7cd975d5974bd8d11f1d8d95ec005be6f68c27b358fbf0ac72a",
+      "bytes": 4857
+    },
+    "scripts/report_tiegcm_2022_candidates.py": {
+      "SHA256": "8f53a351e8d1b08f9a28703dfe2b81253d13bf4744a2e97274b1503402fc5cc1",
+      "bytes": 9810
+    },
+    "scripts/report_fourcastden_joint_dataset.py": {
+      "SHA256": "1354721eed1a775e326d7ac9b81b1292b66809ec9aa98a9b6fb4ede36b77ce85",
+      "bytes": 4670
+    },
+    "tests/test_tiegcm_mar23_2022_longrun.py": {
+      "SHA256": "649cf840238bcc169c566e16b2406acd280f55de8cb0c901b5019d62afcf05ed",
+      "bytes": 2857
+    },
+    "data/processed/training_window_mar23_v2/candidates_2022/mask_contract.json": {
+      "SHA256": "594ef78cc36ada818ec311da624b9c035f1f96ed0141cbf7d5df5b4997369d88",
+      "bytes": 2251
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/mask_contract.json": {
+      "SHA256": "594ef78cc36ada818ec311da624b9c035f1f96ed0141cbf7d5df5b4997369d88",
+      "bytes": 2251
+    }
+  }
+}

@@ -170,3 +170,7 @@ credentials.json
 # 2021 longrun: metadata/figures only; exact namelist is embedded in configuration.json.
 /experiments/tiegcm_training_mar23_v2_2021_longrun/input.inp
 !/logs/tiegcm_2021_longrun_tests.log
+
+# 2022 validation longrun: metadata only; original namelist preserved locally.
+/experiments/tiegcm_training_mar23_v2_2022_longrun/input.inp
+!/logs/tiegcm_2022_longrun_tests.log

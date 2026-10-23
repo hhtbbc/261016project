@@ -51,3 +51,11 @@
 数据仍标INDEPENDENT_TIEGCM_DATA_GENERATION / HINDCAST / SPINUP_SUFFICIENCY_UNVERIFIED / TRAINING_CANDIDATE_ONLY；167小时预热次历史未提取入候选。7天充分性无合法配对证据，不标科学质量PASS。原官方统计只用于只读接口兼容性，不能当作独立训练统计。详见三份2021长例/候选报告和results图表。
 
 2022九天仅更新方案：按实测比例预计1383.345秒（约23.06分钟），乘1.5约2075秒；NetCDF约1,903,952,628字节，另49候选与缓存。建议单次3600秒/16GiB/5GiB/余量20GiB另授权复核，不自动启动。2022验证和预热/物理质量/训练协议尚未完成，当前不能开始正式科学训练。
+
+## 2026-10-23：2022九天连续运行与两年候选联合审计完成
+
+用户另授权2022单次03-16至25连续12960步，4MPI/OMP1，1355.167537秒、946.609MiB采样MPI树RSS、1,903,952,612字节NetCDF；4NORMAL EXIT。10主历史/216小时次历史有序完整，无重试或2021重跑。提取03-23 00至25 00的49帧验证候选（101,247,255字节），14字段及48个177/171/4只读小时对/真值毒化通过。
+
+现有2021训练候选73帧与2022验证候选49帧合计122帧/120小时对，年份完全隔离，网格/单位/padding/模型来源一致，全部源卷与NPZ SHA核验通过。两年物理/驱动分布存在明显差异，不能据此删除时段、当成初始化误差或进行单因素因果归因。
+
+科学训练READY仍False：两年均SPINUP_SUFFICIENCY_UNVERIFIED，角色分别TRAINING_CANDIDATE_ONLY与VALIDATION_CANDIDATE_ONLY，非作者原始数据。本次无归一化拟合/模型forward/backward/optimizer。下一步优先预热敏感性配对与独立训练协议/统计冻结；见FOURCASTDEN_REAL_TRAINING_GATE_DECISION.md，未自动运行额外预热或训练。

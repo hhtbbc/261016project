@@ -1,0 +1,231 @@
+{
+  "status": "ENGINEERING_CANDIDATE_DATASET_PASS",
+  "years": {
+    "2021": {
+      "role": "TRAINING_CANDIDATE_ONLY",
+      "frames": 73,
+      "pairs": 72,
+      "diagnostics_only": {
+        "DEN450_mean_kg_m3": {
+          "min": 2.7337098763943455e-13,
+          "median": 2.955171225611602e-13,
+          "max": 3.255218894025703e-13
+        },
+        "TN_mean_K": {
+          "min": 586.446827232496,
+          "median": 593.6861713148116,
+          "max": 604.2774345701827
+        },
+        "horizontal_wind_RMS_m_s": {
+          "min": 71.79629002107684,
+          "median": 80.8734390946917,
+          "max": 114.5733535635466
+        },
+        "f107d": {
+          "min": 75.1125,
+          "median": 75.8,
+          "max": 76.94453125
+        },
+        "f107a": {
+          "min": 74.62291666666667,
+          "median": 74.6716049382716,
+          "max": 74.6866512345679
+        },
+        "Kp": {
+          "min": 0.7225,
+          "median": 2.2775000000000003,
+          "max": 4.833333333333333
+        }
+      },
+      "NPZ_bytes": 150413422,
+      "first_UTC": "2021-03-23T00:00:00+00:00",
+      "last_UTC": "2021-03-26T00:00:00+00:00",
+      "gpi_SHA256": "d9fdad36af5672ae8a34c977d67247437ba20084406d04b417905739b10c783b"
+    },
+    "2022": {
+      "role": "VALIDATION_CANDIDATE_ONLY",
+      "frames": 49,
+      "pairs": 48,
+      "diagnostics_only": {
+        "DEN450_mean_kg_m3": {
+          "min": 6.642770086953889e-13,
+          "median": 6.788422339265355e-13,
+          "max": 7.38274815178833e-13
+        },
+        "TN_mean_K": {
+          "min": 665.4191487857372,
+          "median": 667.9257042375012,
+          "max": 677.2699565850022
+        },
+        "horizontal_wind_RMS_m_s": {
+          "min": 75.22372563010774,
+          "median": 82.17745456531004,
+          "max": 95.81220145764557
+        },
+        "f107d": {
+          "min": 105.58850308641975,
+          "median": 108.53124999999999,
+          "max": 111.98125
+        },
+        "f107a": {
+          "min": 119.29683641975308,
+          "median": 119.31473384392623,
+          "max": 119.43132716049384
+        },
+        "Kp": {
+          "min": 0.8336666666666668,
+          "median": 1.8330000000000002,
+          "max": 3.222
+        }
+      },
+      "NPZ_bytes": 101247255,
+      "first_UTC": "2022-03-23T00:00:00+00:00",
+      "last_UTC": "2022-03-25T00:00:00+00:00",
+      "gpi_SHA256": "9bf83f53133a9290002d72300705681fc9da9ee89b2d2ed712271cdc799ec6f7"
+    }
+  },
+  "total_frames": 122,
+  "total_continuous_pairs": 120,
+  "epochs_disjoint": true,
+  "identical_grid_units_padding_and_model": true,
+  "physical_contract": {
+    "TN": [
+      "K",
+      [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "float32"
+    ],
+    "UN": [
+      "cm/s",
+      [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "float32"
+    ],
+    "VN": [
+      "cm/s",
+      [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "float32"
+    ],
+    "WN": [
+      "cm/s",
+      [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "float32"
+    ],
+    "Z": [
+      "cm",
+      [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "float32"
+    ],
+    "DEN": [
+      "g/cm3",
+      [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "float32"
+    ],
+    "ZG": [
+      "cm",
+      [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "float32"
+    ],
+    "NE": [
+      "cm-3",
+      [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "float32"
+    ],
+    "TLBC": [
+      "K",
+      [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "float32"
+    ],
+    "ULBC": [
+      "cm/s",
+      [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "float32"
+    ],
+    "VLBC": [
+      "cm/s",
+      [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "float32"
+    ],
+    "f107d": [
+      "1.e-22 W/m2/Hz",
+      [
+        "time"
+      ],
+      "float64"
+    ],
+    "f107a": [
+      "1.e-22 W/m2/Hz",
+      [
+        "time"
+      ],
+      "float64"
+    ],
+    "Kp": [
+      null,
+      [
+        "time"
+      ],
+      "float64"
+    ]
+  },
+  "common_input_hashes": {
+    "executable_sha256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "restart_sha256": "180475215a4922e9c55a77e80153cf641bc8fbb2b8d52633b4686ddee6942fff",
+    "apex_sha256": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3"
+  },
+  "training_statistics_fitted": false,
+  "scientific_training_READY": false,
+  "spinup_status": "SPINUP_SUFFICIENCY_UNVERIFIED",
+  "statistical_limit": "Hours are serially correlated; no independent grid-point replicas or significance claims",
+  "comparison_scope": "Two different hindcast years/drivers, NOT initial-condition sensitivity or observational truth"
+}

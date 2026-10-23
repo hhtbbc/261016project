@@ -1,0 +1,20 @@
+{
+  "labels": [
+    "INDEPENDENT_TIEGCM_DATA_GENERATION",
+    "HINDCAST",
+    "SPINUP_SUFFICIENCY_UNVERIFIED",
+    "VALIDATION_CANDIDATE_ONLY"
+  ],
+  "namelist_exact_text": "&tgcm_input\n LABEL = 'INDEPENDENT_TIEGCM_DATA_GENERATION; 2022 nine-day; spinup UNVERIFIED'\n START_YEAR = 2022\n START_DAY = 75\n CALENDAR_ADVANCE = 1\n SOURCE = '/workspace/data/20261016/data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc'\n SOURCE_START = 80 0 0\n START = 75 0 0\n STOP = 84 0 0\n STEP  = 60\n HIST = 1 0 0\n OUTPUT = 'primary_001.nc', 'primary_002.nc', 'primary_003.nc', 'primary_004.nc', 'primary_005.nc', 'primary_006.nc', 'primary_007.nc', 'primary_008.nc', 'primary_009.nc', 'primary_010.nc'\n MXHIST_PRIM = 1\n SECSTART = 75 1 0\n SECSTOP = 84 0 0\n SECHIST = 0 1 0\n SECOUT = 'secondary_001.nc', 'secondary_002.nc', 'secondary_003.nc', 'secondary_004.nc', 'secondary_005.nc', 'secondary_006.nc', 'secondary_007.nc', 'secondary_008.nc', 'secondary_009.nc'\n MXHIST_SECH = 24\n SECFLDS = 'TN' 'UN' 'VN' 'WN' 'O2' 'O1' 'N2' 'NO' 'N4S' 'HE' 'NE' \n           'TE' 'TI' 'TEC' 'O2P' 'OP' 'POTEN' 'UI_ExB' 'VI_ExB' \n           'WI_ExB' 'DEN' 'QJOULE' 'HMF2' 'NMF2' 'Z' 'ZG'\n GSWM_MI_DI_NCFILE  = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc'\n GSWM_MI_SDI_NCFILE = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc'\n POTENTIAL_MODEL = 'HEELIS'\n CALC_HELIUM = 1\n GPI_NCFILE = '/workspace/data/20261016/data/processed/training_window_mar23_v2/gpi_2022_mar23_v2.nc'\n/\n",
+  "namelist_SHA256": "0305b08a7ea09d5dc814349d27d519d0051360d9951e136946f89750b21891d3",
+  "stdout_SHA256": "24105d32ab63a04611b7519e911b8667960e0c04f8d0105d8365c9df76b7818d",
+  "stdout_bytes": 975348,
+  "milestone_driver_lines": {
+    "76": "GPI run: mtime= 76  0  0 power=  27.039 ctpoten=  48.200 f107= 104.775 f107a= 119.277",
+    "78": "GPI run: mtime= 78  0  0 power=  14.878 ctpoten=  22.700 f107=  95.756 f107a= 119.646",
+    "82": "GPI run: mtime= 82  0  0 power=  28.784 ctpoten=  51.252 f107= 105.888 f107a= 119.336",
+    "84": "GPI run: mtime= 84  0  0 power=  30.631 ctpoten=  54.359 f107= 111.981 f107a= 119.431"
+  },
+  "2021_model_rerun": false,
+  "training_executed": false
+}
