@@ -1,0 +1,19 @@
+{
+  "UTC": "2026-10-23T07:49:53.353276+00:00",
+  "purpose": "Duplicate-task read-only verification; reuse completed authorized run",
+  "previous_HEAD": "2c8d5d8cae3143c9bb014f59ca3b412592fe617d",
+  "NetCDF_files_SHA_verified": 40,
+  "candidate_NPZ_SHA_verified": 122,
+  "2022_existing_model_launches": 1,
+  "new_model_launches": 0,
+  "2022_steps": 12960,
+  "2022_primary_records": 10,
+  "2022_secondary_records": 216,
+  "validation_candidates": 49,
+  "joint_candidates": 122,
+  "joint_pairs": 120,
+  "science_training_READY": false,
+  "spinup_status": "SPINUP_SUFFICIENCY_UNVERIFIED",
+  "new_training_or_normalization_fitting": false,
+  "historical_science_artifacts_modified": false
+}

@@ -390,3 +390,5 @@ Jan4三帧2023真实NPZ仅CPU读取，00→01与01→02两对的177输入/4scala
 状态ENGINEERING_CANDIDATE_DATASET_PASS；科学训练READY=False，SPINUP_SUFFICIENCY_UNVERIFIED与训练/验证候选标签保留。本次无真实训练、统计拟合、AI预测、轨道或额外预热。下一步优先预热配对与独立训练协议冻结，详见三份2022长例报告、FOURCASTDEN_2021_2022_DATASET_AUDIT和REAL_TRAINING_GATE_DECISION。
 
 本轮最终历史复核：2440项保护文件和803项早期官方资产SHA通过；2022新增科学产物约1.87GiB，候选显式mask_contract保留顶部层处理规则。大NetCDF/NPZ仅本地保留，轻量审计/图表/代码提交同步。
+
+2026-10-23重复任务核验：已完成的2022九天成果只读复核通过，两年40卷NetCDF/122候选NPZ SHA一致；没有新增积分、覆盖、训练或统计拟合，现有候选与预热门禁状态不变。
