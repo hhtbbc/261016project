@@ -575,3 +575,18 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 ## 2026-10-23：重复2022任务只读核验
 
 用户再次提供相同2022九天任务；确认已完成，未重跑模型或覆盖结果。重新逐文件核验两年40个NetCDF卷及122个候选NPZ SHA全部一致，2022仍12960步/10主/216次/49验证候选，联合120小时对。起始本地/远端均2c8d5d8，工作区干净；本次新增模型启动0，无训练/拟合统计/额外预热。审计记录logs/tiegcm_2022_recheck_20261023T074953Z.json；科学训练READY=False，预热未验证，后续等待新授权。
+
+## 2026-10-23：2021不同官方完整初态同历元预热敏感性
+
+- 目标：在原2021 A轨迹只读基础上，一次B十天连续积分，仅更换合法完整初场，检验7天预热后的初始化敏感性。先读取AGENTS/STATUS/WORKLOG及2021/2022数据、窗口/门禁/原预注册判据；本地与远端main起始e3470524842cd286c0128e379cf9534e55d31856，工作区干净。
+- 来源：实际NCAR官方2.0支持目录HTTP200，保存目录及元数据，只下载5°mareqx_smax一个16,993,144字节资产，SHA a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7。实际2002 DOY80 primary/initial、trunk svn1249，上游1.95路径如实记录；原始NC只读不发布，许可证按NCAR Academic Research条款记录，无单独数据CC许可证据。
+- 静态：34项当前/_NM/下边界float64、坐标及units与A一致，SOURCE_START合法。首次检查器将TI/TE原生顶部spval误当异常，0次模型启动即停止；依settei.F638—659和A/B相同mask修正检查器，保留incident，不改数据/物理/阈值。初始TN最大差696.299966K。
+- 冻结：新B namelist逐字只替换A SOURCE，LABEL/SOURCE_START及全部物理、exe/apex/GPI/输出保持。启动前frozen_comparison_rules沿用DEN5%、TN10K、风矢量20m/s、组分5%及95%逐时/层/区域，组分floor1e-8不改。6项初始静态测试通过；无额外10分钟模型预检。
+- 命令/环境：source scripts/activate_tiegcm.sh；run_tiegcm_2021_initial_condition.py --run-tag tiegcm_2021_spinup_initial_condition_v1 --execute。单次4MPI/OMP1/60秒，2021-03-16至26连续14400步；2026-10-23 08:11:05至08:36:12 UTC，1507.405928秒，MPI0/4 NORMAL EXIT，峰值采样树RSS951.672MiB，NetCDF2,113,615,748字节，未重试/Restart，所有监督预算内。
+- 验证：audit_tiegcm_2021_initial_condition.py检查11主/240次历史、14字段/单位/顶mask/正DEN/TN及ZG递增；1440实际十分钟GPI日志与逐小时驱动通过，最大差2.84e-14。初始冷primary诊断N/A规则不放宽至暖态。既有missing_value类型警告保留，显式mask/原生检查有效，不补0。
+- 配对：compare_tiegcm_2021_initial_conditions.py只读240共同小时，时间/全schema/网格/5项驱动一致，73候选/25最后24h记录，全部6纬带/层/固定ZG高度和A中位ZG选层分别统计。450km P95第1天175.262%、第7天6.694826%、第10天4.411339%；全候选5.869255%，最后24h4.796554%。所有原生层合并候选P95仅1.488771%，不能代替同高度检验。
+- 结果：最后24h原生DEN逐格PASS；TN16格FAIL、风53格FAIL，O1/O2/N2/HE也FAIL；450km局部58格失败，500km候选共同覆盖69.52%。全局固定高度logRMSE斜率均负，但不等于逐小时单调/全部区域通过。未解除SPINUP_SUFFICIENCY_UNVERIFIED，科学训练READY=False。
+- 独立数值复核：候选起点/最后24h起点/终点逐列numpy.interp与向量化最大相对差3.67e-15，小于预设1e-12；P95及点数比例独立复算。10项新增静态/算法测试及11项既有长例基础测试通过（共21聚焦），不声称全项目测试数量。
+- 交付：3份INITIAL_STATE/SPINUP_SENSITIVITY/INITIAL_CONDITION报告、下一步决策、4个自有脚本/测试及results逐层/纬带/高度CSV和真实图；原始初场/NC及完整日志本地。未生成B训练候选，原122帧不改。
+- 下一步：先审查更长预热同驱动配对的驱动/预算，必要时单独授权；2022结论不能由2021代替。真实训练、统计拟合、2022/14天积分、AI长预测、RK45均未启动。
+- 最终保护复核：2556个既有科学文件SHA全部一致；独立列插值/全流程P95与点数比例在3个检查点差小于1e-12，冻结物理门槛不变。提交及推送后的真实HEAD核验保留于logs/tiegcm_2021_initial_condition_git_sync.json及最终汇报，不提交大型数据。

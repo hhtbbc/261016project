@@ -1,0 +1,17 @@
+{
+  "run_tag": "tiegcm_2021_spinup_initial_condition_v1",
+  "A_directory": "experiments/tiegcm_training_mar23_v2_2021_longrun",
+  "B_directory": "experiments/tiegcm_2021_spinup_initial_condition_v1/B",
+  "namelist": "&tgcm_input\n LABEL = 'INDEPENDENT_TIEGCM_DATA_GENERATION; 2021 ten-day; spinup UNVERIFIED'\n START_YEAR = 2021\n START_DAY = 75\n CALENDAR_ADVANCE = 1\n SOURCE = '/workspace/data/20261016/data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc'\n SOURCE_START = 80 0 0\n START = 75 0 0\n STOP = 85 0 0\n STEP  = 60\n HIST = 1 0 0\n OUTPUT = 'primary_001.nc', 'primary_002.nc', 'primary_003.nc', 'primary_004.nc', 'primary_005.nc', 'primary_006.nc', 'primary_007.nc', 'primary_008.nc', 'primary_009.nc', 'primary_010.nc', 'primary_011.nc'\n MXHIST_PRIM = 1\n SECSTART = 75 1 0\n SECSTOP = 85 0 0\n SECHIST = 0 1 0\n SECOUT = 'secondary_001.nc', 'secondary_002.nc', 'secondary_003.nc', 'secondary_004.nc', 'secondary_005.nc', 'secondary_006.nc', 'secondary_007.nc', 'secondary_008.nc', 'secondary_009.nc', 'secondary_010.nc'\n MXHIST_SECH = 24\n SECFLDS = 'TN' 'UN' 'VN' 'WN' 'O2' 'O1' 'N2' 'NO' 'N4S' 'HE' 'NE' \n           'TE' 'TI' 'TEC' 'O2P' 'OP' 'POTEN' 'UI_ExB' 'VI_ExB' \n           'WI_ExB' 'DEN' 'QJOULE' 'HMF2' 'NMF2' 'Z' 'ZG'\n GSWM_MI_DI_NCFILE  = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc'\n GSWM_MI_SDI_NCFILE = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc'\n POTENTIAL_MODEL = 'HEELIS'\n CALC_HELIUM = 1\n GPI_NCFILE = '/workspace/data/20261016/data/processed/training_window_mar23_v2/gpi_2021_mar23_v2.nc'\n/\n",
+  "input_sha256": "02dae74428d8ada452cb5ab98e80eb57ee58de266133b69c09dfd50135213ce6",
+  "sole_namelist_difference": "SOURCE path; SOURCE_START unchanged",
+  "executable_sha256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+  "apex_sha256": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3",
+  "gpi_sha256": "d9fdad36af5672ae8a34c977d67247437ba20084406d04b417905739b10c783b",
+  "initial_B_sha256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+  "rules_sha256": "5ea4e27db746d698f738b974fbf12ba81b09d186d94c0a9376aa2640517bb52b",
+  "model_launches": 1,
+  "extra_short_launches": 0,
+  "no_training": true,
+  "no_new_candidate_NPZ": true
+}

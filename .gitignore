@@ -174,3 +174,7 @@ credentials.json
 # 2022 validation longrun: metadata only; original namelist preserved locally.
 /experiments/tiegcm_training_mar23_v2_2022_longrun/input.inp
 !/logs/tiegcm_2022_longrun_tests.log
+
+# Independent initial-condition experiment: raw NetCDF stays local; namelist embedded in JSON.
+/experiments/tiegcm_2021_spinup_initial_condition_v1/B/input.inp
+!/logs/tiegcm_2021_initial_condition_tests.log

@@ -1,0 +1,42 @@
+{
+  "method": "Independent explicit column loop using numpy.interp versus vectorized bracket interpolation; float64 native ZG, no extrapolation",
+  "relative_tolerance_predeclared": 1e-12,
+  "records": [
+    {
+      "volume": 7,
+      "A_interpolation_max_relative_difference": 3.552713678800501e-15,
+      "mtime": [
+        82,
+        0,
+        0
+      ],
+      "B_interpolation_max_relative_difference": 3.6637359812630166e-15,
+      "independent_area_weighted_relative_P95": 0.06694826246920457,
+      "independent_point_fraction_below_5percent": 0.4498456790123457
+    },
+    {
+      "volume": 9,
+      "A_interpolation_max_relative_difference": 3.6637359812630166e-15,
+      "mtime": [
+        84,
+        0,
+        0
+      ],
+      "B_interpolation_max_relative_difference": 3.6637359812630166e-15,
+      "independent_area_weighted_relative_P95": 0.04920980831385138,
+      "independent_point_fraction_below_5percent": 0.9151234567901234
+    },
+    {
+      "volume": 10,
+      "A_interpolation_max_relative_difference": 3.552713678800501e-15,
+      "mtime": [
+        85,
+        0,
+        0
+      ],
+      "B_interpolation_max_relative_difference": 3.6637359812630166e-15,
+      "independent_area_weighted_relative_P95": 0.04411339115818021,
+      "independent_point_fraction_below_5percent": 0.9787808641975309
+    }
+  ]
+}
