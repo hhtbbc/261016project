@@ -151,3 +151,7 @@ credentials.json
 # Keep original diagnostic failure stdout local; hashes and summaries are published.
 /logs/fourcastden_real_interface.log
 /logs/fourcastden_real_interface_tests.log
+
+# New-year diagnostics: publish namelist and CPU test log; model fields stay local.
+!/experiments/tiegcm_training_d2022_v1/input.inp
+!/logs/tiegcm_training_tests.log

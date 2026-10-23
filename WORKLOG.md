@@ -526,3 +526,11 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 交付REAL_DATA_INTERFACE_AUDIT与roundtripCSV/输入目标hash/毒化/数据范围/源码与staticSHA；AUTHOR_RESOURCE_REQUEST草稿、ALTERNATIVE_TRAINING_DATA_PLAN、REAL_TRAINING_READINESS。更新TRAINING_IMPLEMENTATION_PLAN是用户授权文档更新，最终保护审计记录该项允许变化，所有原代码/科学历史/权重/上轮synthetic_step2.pt不改。真实训练仍缺合法非2023数据/许可/统计来源/配置/科学优化器/算力checkpoint预算，SGD合成配方不直接继承。K1真实baseline后K2单因素，2022验证选择、2023不调参，额外计算单列。
 
 命令source scripts/activate310.sh；CUDA_VISIBLE_DEVICES='' audit_fourcastden_real_data_interface.py（v1精度诊断失败留档，v2精确正式检查通过）；仅新8+旧3时间unittest；write_fourcastden_real_interface_report；finalize_fourcastden_real_interface。全部新增<200MiB（实际见delivery_audit），大资产/原NPZ/checkpoint不提交。检查敏感/ignore/历史SHA后commit安全推送核main；本次结束停止，不自动真实训练/仿真/邮件发送。
+
+## 2026-10-23：新年份历史驱动门禁与2022诊断
+
+- 起始本地/远端main均7927b10c2d794246ae6bbbcb98e24283ca05a158。
+- GFZ小范围Fobs获取发现2021-05-09缺测−1，保留HTTP200响应与SHA，失败即停，2021无GPI/模型启动；2022 Fobs94条、def Kp112条，6727字节，NETCDF3 GPI与fsum平均/独立插值通过。
+- 2022静态门禁后仅一次4MPI十分钟诊断，2.489824秒、992227328字节峰值RSS、67015120字节NetCDF、正常退出。14字段与实际模型驱动核验成功；初猜/早期暖态均不能训练。
+- 新增11项CPU聚焦测试通过；未重跑GPU训练/预测/轨道/旧模型。825项旧保护清单核验，824匹配，唯一旧进度文档差异已在前次提交，本次未改。
+- gpigen公开源码有fill_fobs及不同有效终点语义，不据此填补缺测；未来122帧及7天候选预热仅资源/版本设计，不实际运行。

@@ -1,0 +1,27 @@
+&tgcm_input
+ LABEL = 'Historical-year diagnostic; 2002 numerical initial guess; not spun up'
+ START_YEAR = 2022
+ START_DAY = 95
+ CALENDAR_ADVANCE = 1
+ SOURCE = '/workspace/data/20261016/data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc'
+ SOURCE_START = 80 0 0
+ START = 95 0 0
+ STOP = 95 0 10
+ STEP  = 60
+ HIST = 0 0 5
+ OUTPUT = 'tiegcm2.0_res5.0_mareqx_smin_prim_001.nc'
+ MXHIST_PRIM = 10
+ SECSTART = 95 0 5
+ SECSTOP = 95 0 10
+ SECHIST = 0 0 5
+ SECOUT   = 'tiegcm2.0_res5.0_mareqx_smin_sech_001.nc'
+ MXHIST_SECH = 24
+ SECFLDS = 'TN' 'UN' 'VN' 'WN' 'O2' 'O1' 'N2' 'NO' 'N4S' 'HE' 'NE' 
+           'TE' 'TI' 'TEC' 'O2P' 'OP' 'POTEN' 'UI_ExB' 'VI_ExB' 
+           'WI_ExB' 'DEN' 'QJOULE' 'HMF2' 'NMF2' 'Z' 'ZG'
+ GSWM_MI_DI_NCFILE  = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc'
+ GSWM_MI_SDI_NCFILE = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc'
+ POTENTIAL_MODEL = 'HEELIS'
+ CALC_HELIUM = 1
+ GPI_NCFILE = '/workspace/data/20261016/data/processed/tiegcm_training_years_v1/gpi_2022_training_candidate.nc'
+/

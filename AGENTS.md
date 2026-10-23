@@ -143,3 +143,7 @@ fourcastden_twelve_hour_mar24_v1已另授权完成4×12/48forward，无额外GPU
 ## 真实2023只读接口验证后的门禁
 
 fourcastden_real_interface_v2用Jan4三帧仅CPU配对/预处理核查，177/4/171与原作者输入拼接逐元素一致，未来真值毒化不影响input，11项只读时间测试。原EpochPairs 2023 train/val拒绝不改；不创建可训练2023 Dataset，未forward/backward/optimizer或重跑合成训练。辅助AffineNormalizer float64与官方float32末位差有独立记录，不能据此修改真实数据/统计或实际输入精确门槛。真实训练数据/许可/协议仍缺，邮件草稿未发，备选2021/2022只设计，真实训练/TIE/RK45/新长预测均等授权。任务后安全Git同步并停止。
+
+## 新年份最小诊断后的门禁
+
+2022独立GFZ/GPI及一次10分钟4MPI诊断完成，2.49秒、14键可读，11项聚焦测试。2021 GFZ05-09 Fobs=-1影响目标中心81天，失败即停，无GPI/模型启动；不得自动填补/Fadj替代/改日期或重试旧run-tag。2002初猜和10分钟所有记录NOT_TRAINING_DATA。多日预热/122帧/真实训练仍需新授权，7天不证明充分收敛。旧源/权重/S3/S7及正式高度/2023隔离门禁保留。结束安全同步后停止。

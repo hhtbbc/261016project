@@ -1,0 +1,20 @@
+{
+  "status": "BLOCKED",
+  "year": 2021,
+  "source": "https://kp.gfz.de/app/json/?start=2021-02-15T00:00:00Z&end=2021-05-20T23:59:59Z&index=Fobs",
+  "HTTP": 200,
+  "bytes": 2738,
+  "SHA256": "d44f1d2041345e4e38d0777c06e1b3bc524c024ef35407ddcc479335523cf56b",
+  "license": {
+    "license": "CC BY 4.0",
+    "source": "GFZ Potsdam"
+  },
+  "missing_records": [
+    {
+      "UTC": "2021-05-09T00:00:00Z",
+      "value": -1.0
+    }
+  ],
+  "policy": "No substitution, interpolation, filling or Fadj replacement; no GPI or model launch",
+  "Kp": "not fetched after failed solar gate"
+}
