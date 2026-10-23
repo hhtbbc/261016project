@@ -1,0 +1,772 @@
+{
+  "status": "DATA_GAP_UNRESOLVED",
+  "original_SHA256": "d44f1d2041345e4e38d0777c06e1b3bc524c024ef35407ddcc479335523cf56b",
+  "missing": [
+    "2021-05-09"
+  ],
+  "neighbor_values": {
+    "2021-05-08": 75.9,
+    "2021-05-10": 76.5
+  },
+  "required_source_dates": [
+    "2021-02-15",
+    "2021-05-20"
+  ],
+  "GPI_raw_dates": [
+    "2021-03-27",
+    "2021-04-10"
+  ],
+  "valid_dates": [
+    "2021-03-29",
+    "2021-04-08"
+  ],
+  "target_Apr5_center81_dates": [
+    "2021-02-24",
+    "2021-05-15"
+  ],
+  "GFZ_API_ASCII_all_original_values_identical": true,
+  "canada_missing_day_row_count": 0,
+  "canada_20UTC_comparisons": [
+    {
+      "date": "2021-02-15",
+      "GFZ": 69.6,
+      "Canadian_obs": 69.6,
+      "Canadian_adj": 68.0,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-02-16",
+      "GFZ": 70.7,
+      "Canadian_obs": 70.7,
+      "Canadian_adj": 69.1,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-02-17",
+      "GFZ": 71.6,
+      "Canadian_obs": 71.6,
+      "Canadian_adj": 70.0,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-02-18",
+      "GFZ": 72.2,
+      "Canadian_obs": 72.2,
+      "Canadian_adj": 70.6,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-02-19",
+      "GFZ": 71.6,
+      "Canadian_obs": 71.6,
+      "Canadian_adj": 69.9,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-02-20",
+      "GFZ": 73.3,
+      "Canadian_obs": 73.3,
+      "Canadian_adj": 71.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-02-21",
+      "GFZ": 72.5,
+      "Canadian_obs": 72.5,
+      "Canadian_adj": 70.9,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-02-22",
+      "GFZ": 74.8,
+      "Canadian_obs": 74.8,
+      "Canadian_adj": 73.2,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-02-23",
+      "GFZ": 75.8,
+      "Canadian_obs": 75.8,
+      "Canadian_adj": 74.2,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-02-24",
+      "GFZ": 79.2,
+      "Canadian_obs": 79.2,
+      "Canadian_adj": 77.6,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-02-25",
+      "GFZ": 78.7,
+      "Canadian_obs": 78.7,
+      "Canadian_adj": 77.1,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-02-26",
+      "GFZ": 79.6,
+      "Canadian_obs": 79.6,
+      "Canadian_adj": 78.1,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-02-27",
+      "GFZ": 77.9,
+      "Canadian_obs": 77.9,
+      "Canadian_adj": 76.4,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-02-28",
+      "GFZ": 77.2,
+      "Canadian_obs": 77.2,
+      "Canadian_adj": 75.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-01",
+      "GFZ": 74.1,
+      "Canadian_obs": 74.1,
+      "Canadian_adj": 72.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-02",
+      "GFZ": 74.7,
+      "Canadian_obs": 74.7,
+      "Canadian_adj": 73.3,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-02",
+      "GFZ": 74.7,
+      "Canadian_obs": 75.6,
+      "Canadian_adj": 74.3,
+      "difference": 0.8999999999999915
+    },
+    {
+      "date": "2021-03-03",
+      "GFZ": 75.7,
+      "Canadian_obs": 75.7,
+      "Canadian_adj": 74.4,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-04",
+      "GFZ": 75.4,
+      "Canadian_obs": 75.4,
+      "Canadian_adj": 74.1,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-05",
+      "GFZ": 75.1,
+      "Canadian_obs": 75.1,
+      "Canadian_adj": 73.9,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-06",
+      "GFZ": 75.6,
+      "Canadian_obs": 75.6,
+      "Canadian_adj": 74.4,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-07",
+      "GFZ": 77.5,
+      "Canadian_obs": 77.5,
+      "Canadian_adj": 76.4,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-08",
+      "GFZ": 79.9,
+      "Canadian_obs": 79.9,
+      "Canadian_adj": 78.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-09",
+      "GFZ": 76.5,
+      "Canadian_obs": 76.5,
+      "Canadian_adj": 75.4,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-10",
+      "GFZ": 76.3,
+      "Canadian_obs": 76.3,
+      "Canadian_adj": 75.3,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-11",
+      "GFZ": 75.6,
+      "Canadian_obs": 75.6,
+      "Canadian_adj": 74.6,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-12",
+      "GFZ": 75.6,
+      "Canadian_obs": 75.6,
+      "Canadian_adj": 74.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-13",
+      "GFZ": 75.9,
+      "Canadian_obs": 75.9,
+      "Canadian_adj": 75.0,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-14",
+      "GFZ": 75.1,
+      "Canadian_obs": 75.1,
+      "Canadian_adj": 74.2,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-15",
+      "GFZ": 73.9,
+      "Canadian_obs": 73.9,
+      "Canadian_adj": 73.1,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-16",
+      "GFZ": 73.7,
+      "Canadian_obs": 73.7,
+      "Canadian_adj": 72.9,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-17",
+      "GFZ": 72.8,
+      "Canadian_obs": 72.8,
+      "Canadian_adj": 72.1,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-18",
+      "GFZ": 73.2,
+      "Canadian_obs": 73.2,
+      "Canadian_adj": 72.5,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-19",
+      "GFZ": 73.1,
+      "Canadian_obs": 73.1,
+      "Canadian_adj": 72.5,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-20",
+      "GFZ": 74.7,
+      "Canadian_obs": 74.7,
+      "Canadian_adj": 74.1,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-21",
+      "GFZ": 75.2,
+      "Canadian_obs": 75.2,
+      "Canadian_adj": 74.6,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-22",
+      "GFZ": 76.6,
+      "Canadian_obs": 76.6,
+      "Canadian_adj": 76.0,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-23",
+      "GFZ": 76.9,
+      "Canadian_obs": 76.9,
+      "Canadian_adj": 76.4,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-24",
+      "GFZ": 75.8,
+      "Canadian_obs": 75.8,
+      "Canadian_adj": 75.3,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-25",
+      "GFZ": 75.2,
+      "Canadian_obs": 75.2,
+      "Canadian_adj": 74.8,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-26",
+      "GFZ": 75.1,
+      "Canadian_obs": 75.1,
+      "Canadian_adj": 74.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-27",
+      "GFZ": 75.1,
+      "Canadian_obs": 75.1,
+      "Canadian_adj": 74.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-28",
+      "GFZ": 73.9,
+      "Canadian_obs": 73.9,
+      "Canadian_adj": 73.6,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-29",
+      "GFZ": 73.4,
+      "Canadian_obs": 73.4,
+      "Canadian_adj": 73.2,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-30",
+      "GFZ": 74.6,
+      "Canadian_obs": 74.6,
+      "Canadian_adj": 74.5,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-03-31",
+      "GFZ": 72.5,
+      "Canadian_obs": 72.5,
+      "Canadian_adj": 72.4,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-01",
+      "GFZ": 77.9,
+      "Canadian_obs": 77.9,
+      "Canadian_adj": 77.8,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-02",
+      "GFZ": 71.4,
+      "Canadian_obs": 71.4,
+      "Canadian_adj": 71.4,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-03",
+      "GFZ": 72.2,
+      "Canadian_obs": 72.2,
+      "Canadian_adj": 72.2,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-04",
+      "GFZ": 72.0,
+      "Canadian_obs": 72.0,
+      "Canadian_adj": 72.0,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-05",
+      "GFZ": 71.7,
+      "Canadian_obs": 71.7,
+      "Canadian_adj": 71.8,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-06",
+      "GFZ": 71.2,
+      "Canadian_obs": 71.2,
+      "Canadian_adj": 71.3,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-07",
+      "GFZ": 70.5,
+      "Canadian_obs": 70.5,
+      "Canadian_adj": 70.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-08",
+      "GFZ": 70.3,
+      "Canadian_obs": 70.3,
+      "Canadian_adj": 70.5,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-09",
+      "GFZ": 70.5,
+      "Canadian_obs": 70.5,
+      "Canadian_adj": 70.8,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-10",
+      "GFZ": 70.5,
+      "Canadian_obs": 70.5,
+      "Canadian_adj": 70.8,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-11",
+      "GFZ": 71.9,
+      "Canadian_obs": 71.9,
+      "Canadian_adj": 72.2,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-12",
+      "GFZ": 74.2,
+      "Canadian_obs": 74.2,
+      "Canadian_adj": 74.5,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-13",
+      "GFZ": 73.2,
+      "Canadian_obs": 73.2,
+      "Canadian_adj": 73.6,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-14",
+      "GFZ": 73.9,
+      "Canadian_obs": 73.9,
+      "Canadian_adj": 74.3,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-15",
+      "GFZ": 75.5,
+      "Canadian_obs": 75.5,
+      "Canadian_adj": 76.0,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-16",
+      "GFZ": 74.6,
+      "Canadian_obs": 74.6,
+      "Canadian_adj": 75.2,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-17",
+      "GFZ": 75.3,
+      "Canadian_obs": 75.3,
+      "Canadian_adj": 75.9,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-18",
+      "GFZ": 75.8,
+      "Canadian_obs": 75.8,
+      "Canadian_adj": 76.4,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-19",
+      "GFZ": 80.4,
+      "Canadian_obs": 80.4,
+      "Canadian_adj": 81.1,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-20",
+      "GFZ": 82.9,
+      "Canadian_obs": 82.9,
+      "Canadian_adj": 83.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-21",
+      "GFZ": 76.9,
+      "Canadian_obs": 76.9,
+      "Canadian_adj": 77.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-22",
+      "GFZ": 77.8,
+      "Canadian_obs": 77.8,
+      "Canadian_adj": 78.6,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-23",
+      "GFZ": 75.3,
+      "Canadian_obs": 75.3,
+      "Canadian_adj": 76.1,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-24",
+      "GFZ": 76.8,
+      "Canadian_obs": 76.8,
+      "Canadian_adj": 77.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-25",
+      "GFZ": 77.7,
+      "Canadian_obs": 77.7,
+      "Canadian_adj": 78.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-26",
+      "GFZ": 78.2,
+      "Canadian_obs": 78.2,
+      "Canadian_adj": 79.2,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-27",
+      "GFZ": 78.4,
+      "Canadian_obs": 78.4,
+      "Canadian_adj": 79.4,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-28",
+      "GFZ": 76.8,
+      "Canadian_obs": 76.8,
+      "Canadian_adj": 77.9,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-29",
+      "GFZ": 76.9,
+      "Canadian_obs": 76.9,
+      "Canadian_adj": 78.0,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-04-30",
+      "GFZ": 72.9,
+      "Canadian_obs": 72.9,
+      "Canadian_adj": 74.0,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-01",
+      "GFZ": 71.6,
+      "Canadian_obs": 71.6,
+      "Canadian_adj": 72.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-02",
+      "GFZ": 72.0,
+      "Canadian_obs": 72.0,
+      "Canadian_adj": 73.1,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-03",
+      "GFZ": 71.6,
+      "Canadian_obs": 71.6,
+      "Canadian_adj": 72.8,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-04",
+      "GFZ": 70.6,
+      "Canadian_obs": 70.6,
+      "Canadian_adj": 71.8,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-05",
+      "GFZ": 69.5,
+      "Canadian_obs": 69.5,
+      "Canadian_adj": 70.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-06",
+      "GFZ": 70.8,
+      "Canadian_obs": 70.8,
+      "Canadian_adj": 72.1,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-07",
+      "GFZ": 74.5,
+      "Canadian_obs": 74.5,
+      "Canadian_adj": 75.9,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-08",
+      "GFZ": 75.9,
+      "Canadian_obs": 75.9,
+      "Canadian_adj": 77.4,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-10",
+      "GFZ": 76.5,
+      "Canadian_obs": 76.5,
+      "Canadian_adj": 78.0,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-11",
+      "GFZ": 76.1,
+      "Canadian_obs": 76.1,
+      "Canadian_adj": 77.6,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-12",
+      "GFZ": 74.7,
+      "Canadian_obs": 74.7,
+      "Canadian_adj": 76.3,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-13",
+      "GFZ": 74.7,
+      "Canadian_obs": 74.7,
+      "Canadian_adj": 76.3,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-14",
+      "GFZ": 70.9,
+      "Canadian_obs": 70.9,
+      "Canadian_adj": 72.4,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-15",
+      "GFZ": 73.3,
+      "Canadian_obs": 73.3,
+      "Canadian_adj": 74.9,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-16",
+      "GFZ": 73.2,
+      "Canadian_obs": 73.2,
+      "Canadian_adj": 74.9,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-17",
+      "GFZ": 74.8,
+      "Canadian_obs": 74.8,
+      "Canadian_adj": 76.5,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-18",
+      "GFZ": 76.4,
+      "Canadian_obs": 76.4,
+      "Canadian_adj": 78.2,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-19",
+      "GFZ": 75.9,
+      "Canadian_obs": 75.9,
+      "Canadian_adj": 77.7,
+      "difference": 0.0
+    },
+    {
+      "date": "2021-05-20",
+      "GFZ": 72.3,
+      "Canadian_obs": 72.3,
+      "Canadian_adj": 74.0,
+      "difference": 0.0
+    }
+  ],
+  "canada_duplicate_timekeys": [
+    {
+      "date": "20210302",
+      "time": "200000",
+      "count": 2
+    }
+  ],
+  "NOAA_candidate": 76.0,
+  "NOAA_overlap_count": 49,
+  "NOAA_failed_days": 23,
+  "NOAA_max_difference": 8.799999999999997,
+  "NOAA_gate": false,
+  "CelesTrak_candidate": {
+    "DATE": "2021-05-09",
+    "BSRN": "2561",
+    "ND": "3",
+    "KP1": "0",
+    "KP2": "3",
+    "KP3": "3",
+    "KP4": "3",
+    "KP5": "7",
+    "KP6": "13",
+    "KP7": "3",
+    "KP8": "13",
+    "KP_SUM": "47",
+    "AP1": "0",
+    "AP2": "2",
+    "AP3": "2",
+    "AP4": "2",
+    "AP5": "3",
+    "AP6": "5",
+    "AP7": "2",
+    "AP8": "5",
+    "AP_AVG": "3",
+    "CP": "0.0",
+    "C9": "0",
+    "ISN": "20",
+    "F10.7_OBS": "76.2",
+    "F10.7_ADJ": "77.7",
+    "F10.7_DATA_TYPE": "INT",
+    "F10.7_OBS_CENTER81": "75.5",
+    "F10.7_OBS_LAST81": "74.8",
+    "F10.7_ADJ_CENTER81": "76.8",
+    "F10.7_ADJ_LAST81": "74.6"
+  },
+  "CelesTrak_gate": false,
+  "scenarios": [
+    {
+      "hypothetical_missing_Fobs": 75.9,
+      "conditional_F107A_Apr5": 74.85802469135803,
+      "status": "SCENARIO_ONLY_NOT_DRIVERS",
+      "difference_from_76_scenario": -0.0012345679012355504
+    },
+    {
+      "hypothetical_missing_Fobs": 76.0,
+      "conditional_F107A_Apr5": 74.85925925925926,
+      "status": "SCENARIO_ONLY_NOT_DRIVERS",
+      "difference_from_76_scenario": 0.0
+    },
+    {
+      "hypothetical_missing_Fobs": 76.2,
+      "conditional_F107A_Apr5": 74.86172839506173,
+      "status": "SCENARIO_ONLY_NOT_DRIVERS",
+      "difference_from_76_scenario": 0.0024691358024711008
+    },
+    {
+      "hypothetical_missing_Fobs": 76.5,
+      "conditional_F107A_Apr5": 74.86543209876544,
+      "status": "SCENARIO_ONLY_NOT_DRIVERS",
+      "difference_from_76_scenario": 0.006172839506177752
+    }
+  ],
+  "delta_F107A_per_1sfu": 0.012345679012345678,
+  "GPI_generated": false,
+  "model_launches": 0,
+  "reason": "No Canadian original record; NOAA overlap definition/version mismatch unexplained; CelesTrak explicitly interpolated"
+}

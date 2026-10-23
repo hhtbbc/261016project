@@ -1,0 +1,26 @@
+[
+  {
+    "URL": "https://spaceweather.gc.ca/solar_flux_data/daily_flux_values/fluxtable.txt",
+    "HTTP": 206,
+    "Content_Range": "bytes 1094548-1098643/2189096",
+    "SHA256": "ba480bc01774e161cea3ed0d4d6e0589408c13cb279ec5d216f17daf19464647",
+    "bytes": 4096,
+    "path": "data/raw/f107_2021_recovery_v1/canada_bytes_1094548_1098643.txt"
+  },
+  {
+    "URL": "https://spaceweather.gc.ca/solar_flux_data/daily_flux_values/fluxtable.txt",
+    "HTTP": 206,
+    "Content_Range": "bytes 1641822-1645917/2189096",
+    "SHA256": "3cf7974d9028e5640a54cd17f88c615fa5ec3d8cfb6bcf66d70ce6fc26f78efb",
+    "bytes": 4096,
+    "path": "data/raw/f107_2021_recovery_v1/canada_bytes_1641822_1645917.txt"
+  },
+  {
+    "URL": "https://spaceweather.gc.ca/solar_flux_data/daily_flux_values/fluxtable.txt",
+    "HTTP": 206,
+    "Content_Range": "bytes 1601822-1657822/2189096",
+    "SHA256": "81b4b3a5b43ef08625aa676da89babcd282bf3fa3d4fb67e3b154b14cc37dede",
+    "bytes": 56001,
+    "path": "data/raw/f107_2021_recovery_v1/canada_bytes_1601822_1657822.txt"
+  }
+]

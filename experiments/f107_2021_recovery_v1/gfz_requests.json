@@ -1,0 +1,16 @@
+[
+  {
+    "name": "gfz_year",
+    "URL": "ftp://ftp.gfz-potsdam.de/pub/home/obs/Kp_ap_Ap_SN_F107/Kp_ap_Ap_SN_F107_2021.txt",
+    "status": null,
+    "bytes": 61627,
+    "SHA256": "f969f23b0b0d4aba80dca6f35d3e95c2d35a7e482457bc1812e5c0827090caae"
+  },
+  {
+    "name": "gfz_fobs_check",
+    "URL": "https://kp.gfz.de/app/json/?start=2021-05-07T00:00:00Z&end=2021-05-11T23:59:59Z&index=Fobs",
+    "status": 200,
+    "bytes": 218,
+    "SHA256": "8584353e9e027ecac3536939c47bcb5b7f29e175214a9519ffb7870c25e25f63"
+  }
+]

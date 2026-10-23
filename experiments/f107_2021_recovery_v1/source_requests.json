@@ -1,0 +1,21 @@
+[
+  {
+    "name": "canada_page",
+    "URL": "https://data.asc-csa.gc.ca/en/dataset/cfd2331e-6d68-41c0-9cf2-f2e9c4d68eb7",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+  },
+  {
+    "name": "celestrak_format",
+    "URL": "https://celestrak.org/SpaceData/SpaceWx-format.php",
+    "HTTP": 200,
+    "bytes": 27974,
+    "SHA256": "de7149cf69bfaa2f3b2337ac7c0920eefe988916c3325e9baf128d08c41f3b51"
+  },
+  {
+    "name": "noaa_q2",
+    "URL": "https://www.ngdc.noaa.gov/stp/space-weather/swpc-products/annual_reports/daily_solar_indices_summaries/daily_solar_data/2021Q2_DSD.txt",
+    "HTTP": 200,
+    "bytes": 7554,
+    "SHA256": "bdfbb4ae63798184a9710c3b1e8fd5a468d74f2bd7cc55fee5eca78433b0f37c"
+  }
+]

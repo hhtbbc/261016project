@@ -1,0 +1,8 @@
+{
+  "candidate": "NOAA SWPC quarterly DSD observed daily F10.7",
+  "tolerance_sfu": 0.550000001,
+  "basis": "NOAA whole sfu quantization +/-0.5 plus GFZ 0.1 sfu quantization +/-0.05, no fitted threshold",
+  "overlap_selection": "ALL available valid GFZ days 2021-04-01 through 2021-05-20, excluding missing day only",
+  "required": "all selected days agree within tolerance; candidate positive and not sentinel; observed-distance definition match; no explicit estimate flag",
+  "policy": "failure keeps BLOCKED, no cherry picking"
+}

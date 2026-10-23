@@ -1,0 +1,54 @@
+{
+  "status": "DATA_GAP_UNRESOLVED",
+  "original_scientific_files_checked": 803,
+  "mismatches": [],
+  "2021_2022_prior_protected_files": 23,
+  "raw_local_readonly_files": {
+    "data/raw/f107_2021_recovery_v1/canada_table_head.txt": {
+      "SHA256": "fc59aaa67bf8aaf12c5a73288833a1bad5000b78d9cc2504c2cc032ed6a88eba",
+      "bytes": 4096
+    },
+    "data/raw/f107_2021_recovery_v1/gfz_year.txt": {
+      "SHA256": "f969f23b0b0d4aba80dca6f35d3e95c2d35a7e482457bc1812e5c0827090caae",
+      "bytes": 61627
+    },
+    "data/raw/f107_2021_recovery_v1/celestrak_format.txt": {
+      "SHA256": "de7149cf69bfaa2f3b2337ac7c0920eefe988916c3325e9baf128d08c41f3b51",
+      "bytes": 27974
+    },
+    "data/raw/f107_2021_recovery_v1/gfz_fobs_check.txt": {
+      "SHA256": "8584353e9e027ecac3536939c47bcb5b7f29e175214a9519ffb7870c25e25f63",
+      "bytes": 218
+    },
+    "data/raw/f107_2021_recovery_v1/celestrak_2021_excerpt.csv": {
+      "SHA256": "d68037fde18011df10508c0d8ececa25b53271612127f18d54e954b767a30a6f",
+      "bytes": 25000
+    },
+    "data/raw/f107_2021_recovery_v1/noaa_q2.txt": {
+      "SHA256": "bdfbb4ae63798184a9710c3b1e8fd5a468d74f2bd7cc55fee5eca78433b0f37c",
+      "bytes": 7554
+    },
+    "data/raw/f107_2021_recovery_v1/canada_bytes_1094548_1098643.txt": {
+      "SHA256": "ba480bc01774e161cea3ed0d4d6e0589408c13cb279ec5d216f17daf19464647",
+      "bytes": 4096
+    },
+    "data/raw/f107_2021_recovery_v1/canada_bytes_1601822_1657822.txt": {
+      "SHA256": "81b4b3a5b43ef08625aa676da89babcd282bf3fa3d4fb67e3b154b14cc37dede",
+      "bytes": 56001
+    },
+    "data/raw/f107_2021_recovery_v1/canada_bytes_1641822_1645917.txt": {
+      "SHA256": "3cf7974d9028e5640a54cd17f88c615fa5ec3d8cfb6bcf66d70ce6fc26f78efb",
+      "bytes": 4096
+    }
+  },
+  "new_tests": 10,
+  "existing_driver_tests": 11,
+  "new_GPI": false,
+  "new_model_launches": 0,
+  "new_training_or_prediction": false,
+  "canada_local_extraction": {
+    "path": "experiments/f107_2021_recovery_v1/canada_measurement_rows.json",
+    "SHA256": "58afdb646734c4ffccbfac5f4a2efcb378e4f01089aebc8d6eb8e46b7afcb45b",
+    "bytes": 70189
+  }
+}

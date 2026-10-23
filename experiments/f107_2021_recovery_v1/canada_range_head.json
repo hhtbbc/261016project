@@ -1,0 +1,18 @@
+{
+  "URL": "https://spaceweather.gc.ca/solar_flux_data/daily_flux_values/fluxtable.txt",
+  "request_range": "bytes=0-4095",
+  "HTTP": 206,
+  "headers": {
+    "Server": "nginx/1.20.1",
+    "Date": "Fri, 23 Oct 2026 02:55:07 GMT",
+    "Content-Type": "text/plain",
+    "Content-Length": "4096",
+    "Last-Modified": "Fri, 23 Oct 2026 01:48:10 GMT",
+    "Connection": "close",
+    "ETag": "\"6adabcda-216728\"",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Content-Range": "bytes 0-4095/2189096"
+  },
+  "bytes_read": 4096,
+  "SHA256": "fc59aaa67bf8aaf12c5a73288833a1bad5000b78d9cc2504c2cc032ed6a88eba"
+}

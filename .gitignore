@@ -155,3 +155,8 @@ credentials.json
 # New-year diagnostics: publish namelist and CPU test log; model fields stay local.
 !/experiments/tiegcm_training_d2022_v1/input.inp
 !/logs/tiegcm_training_tests.log
+
+# F107 gap investigation: raw measurement extraction stays local; audits are public.
+/experiments/f107_2021_recovery_v1/canada_measurement_rows.json
+!/logs/f107_2021_recovery_tests.log
+!/logs/f107_2021_previous_driver_tests.log
