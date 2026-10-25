@@ -608,3 +608,12 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 ## 2026-10-25：按任务归属整理10月23日工作日志
 
 用户明确本次为10月23日工作收尾。读取AGENTS/STATUS/WORKLOG，核对5次连续积分实际UTC、候选联合审计及7/14天验收结果，新增reports/DAILY_WORK_LOG_20261023.md。区分10月23日实际运行与10月25日离线补充验收，不重标历史日期。更新状态索引；未执行模型、训练或修改科学数据。核验文档指标与已提交成果1a21d85一致，按长期规则仅提交日志/状态文档并安全同步main。
+
+## 2026-10-25：制作阶段汇报材料，无新增科研实验
+
+- 目标：为下一次阶段汇报制作5—8分钟材料。读取AGENTS/STATUS/WORKLOG、阶段一、四模型五日期/两窗口12h、合成训练、2021/2022候选及7/14天预热/科学门禁报告，对照实际CSV与原图。先列出已完成/工程条件验证/未达标三类状态，归档于本地交付目录。
+- 输出：10页正文+2页备份，可编辑PPTX；同一场景生成PDF预览（非Office转换）；逐页DOCX/MD讲稿（正文1569字，计划约7分钟）及追问/回答；逐页来源定义、单位/日期/SHA、图表索引与本地构建/验证源码。内部内容默认不公开，deliverables路径显式gitignore。
+- 实际图：2023 Jan4/Mar24四模型完整1—12h共96点，直接读原CSV并逐一核对+12h；2021双初态原生ZG450km7/14天三时窗P95柱图，64.54%明确解释为初态敏感性差异相对下降，不是AI精度改善。122候选、177/171/4接口、HE范围/组分失败/500km72.94%有效域及科学训练READY=False均有明确范围。无曲线拟合、无伪造指标，原科研结果未改。
+- 工具：优先.venv310和既有matplotlib/Pillow；必要增加python-pptx/python-docx/reportlab/PyMuPDF及3个依赖，前后锁比对仅7项新增，无原数值包移除或升级。中文Noto Sans SC由官方Google Fonts源取得，SIL OFL、实际URL/SHA/许可保留在项目内，不全局安装字体。
+- 命令：source scripts/activate_orbit.sh；本地source/build_report.py生成；source/validate_artifacts.py检查。PPTX与DOCX ZIP/解析通过，12页PDF全部渲染、中文glyph覆盖、所有原生shape/文本边界和行高检查通过；逐页联系表及核心页检查未见遮挡或乱码。无MS Office/LibreOffice客户端，不能声称做过Office实际渲染；PDF为可直接阅读的同源版式预览。
+- 发布：公开仅scripts/reporting通用渲染器/说明、已有公开科学报告和指标文件的SHA列表、依赖锁及状态日志；不提交PPT/PDF/讲稿/内部场景/缩略图。全部科学来源SHA保持，未启动TIE-GCM、FourCastDEN推理/训练或RK45。安全同步main并核验远端，完成后停止等待指令。

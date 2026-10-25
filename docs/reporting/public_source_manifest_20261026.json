@@ -1,0 +1,101 @@
+{
+  "purpose": "Public source identity only; excludes internal meeting content and page mapping",
+  "scientific_sources": {
+    "docs/UPDATED_RESEARCH_PLAN.md": {
+      "SHA256": "0a1a92bd6f001df2e74e748b693741eb1a4287b005d6b24f8224b38b86943baf",
+      "bytes": 7952
+    },
+    "reports/PHASE1_STAGE_REVIEW_20261021.md": {
+      "SHA256": "5fc15f834883bf274fdc7b439fd94d32457a1869994e173aabbc3c12e13fb5cf",
+      "bytes": 7720
+    },
+    "reports/FOURCASTDEN_FOUR_MODEL_MULTIDATE_COMPARISON.md": {
+      "SHA256": "144160756052a6831dd3572f9c6746e52da709ba826672c3079af7d90ffea560",
+      "bytes": 7883
+    },
+    "reports/FOURCASTDEN_TWELVE_HOUR_TWO_WINDOW_COMPARISON.md": {
+      "SHA256": "b330bab5b7559c1a0e72115b5f6b08bf9620708aefea4a5c123a1616cdc93fc6",
+      "bytes": 10444
+    },
+    "reports/FOURCASTDEN_2021_2022_DATASET_AUDIT.md": {
+      "SHA256": "3df5eaf0305a3e7c432fe7e0d01c1a6b32e04a8e6fd52bfc432f24dc7c38c985",
+      "bytes": 3838
+    },
+    "reports/TIEGCM_2021_SPINUP_7VS14_COMPARISON.md": {
+      "SHA256": "bc26db4fbdbe5175a263aac8fdbe3b7aba5a7f004d76c1f90e4b40410e69a393",
+      "bytes": 4629
+    },
+    "results/metrics/common_density_h6_v1_convergence.csv": {
+      "SHA256": "4a6d2e37afd69b1609806afb1e83964d55043d422c30505f68f33c7a109e1f83",
+      "bytes": 173442
+    },
+    "results/metrics/common_density_h6_v1_paired_convergence.csv": {
+      "SHA256": "59252f7e27f9e9db518d0c308c91afe6d974a6f6dddf199d98ebcdd619f40a89",
+      "bytes": 225261
+    },
+    "results/metrics/common_density_h6_v1_model_differences.csv": {
+      "SHA256": "120f15d56d8d41969b2779274a6d0d22270232a710ccb6afb4f51e416c5b0e98",
+      "bytes": 430680
+    },
+    "results/metrics/common_density_h6_v1_resources.csv": {
+      "SHA256": "8c7e68d041c1ef2587d0b9c198136ce2c8c4ee4988370e745ba3287a8ddfb18a",
+      "bytes": 901
+    },
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_two_window_windows.csv": {
+      "SHA256": "9aa145fb574f88981d75437d161354e59aa7b56a34e520d2d806d2ca28cdd6f2",
+      "bytes": 42273
+    },
+    "reports/TIEGCM_2021_LONGRUN_VALIDATION.md": {
+      "SHA256": "55ed4eae9d9c4814249d5e471c90f7b007f4b0ffffa5d58fe4c1c86a5d83492e",
+      "bytes": 4644
+    },
+    "reports/TIEGCM_2022_LONGRUN_VALIDATION.md": {
+      "SHA256": "e5c040bb12049197f70e974ac2a8e9890ef05a290d168727617f331d279a7d7c",
+      "bytes": 4528
+    },
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/run_status.json": {
+      "SHA256": "20d1bf78b9ca46309e2a36f16351dc632f72234a7bc52cceaf57dcfd0af26d14",
+      "bytes": 44795
+    },
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/run_status.json": {
+      "SHA256": "265557e0cd44e1e5e2bae8177b71bce4a134c5caa36aee13371bf715b3981da0",
+      "bytes": 39693
+    },
+    "reports/TIEGCM_2021_COMPOSITION_POLAR_ANALYSIS.md": {
+      "SHA256": "69e0f509725cb8cbbc99b649e8a295c535f0af0ee428b26b1590f305fcff0c5d",
+      "bytes": 3097
+    },
+    "results/tiegcm_2021_spinup_14day_v1/seven_vs_fourteen_summary.csv": {
+      "SHA256": "c7a6a87114ec22fd83f7acc0bbbf005ffb86495c0835cfc829449f5fc1b66db6",
+      "bytes": 255298
+    },
+    "results/tiegcm_2021_spinup_14day_v1/acceptance_by_period.json": {
+      "SHA256": "d5bf849ee29827ed3b7105155d1a7106d98190bfd7cecd6d2a82c1bfbace982b",
+      "bytes": 12839
+    },
+    "results/tiegcm_2021_spinup_14day_v1/delta14/native_ZG_density.csv": {
+      "SHA256": "54c3b1240797e677be4df598004b9e3b02b296f39bc1107f1d9add8d67b11c0c",
+      "bytes": 21888
+    },
+    "docs/FOURCASTDEN_REAL_TRAINING_GATE_DECISION.md": {
+      "SHA256": "6d12318a6e1d107c5dd92bda6e6f4640bfa5a04fa2990b7324bc37534d054544",
+      "bytes": 6438
+    },
+    "reports/FOURCASTDEN_TRAINING_SMOKE_TEST.md": {
+      "SHA256": "c3a96fd91775761ffe6739332245585a80d5b5a4598868082e49fb6e7c1e5795",
+      "bytes": 4379
+    },
+    "docs/FOURCASTDEN_PHASE2_RESEARCH_PLAN.md": {
+      "SHA256": "a5159d6494072f88829f172d51d8e5e65f5c21689c0851735fc018eee0c01a6f",
+      "bytes": 21086
+    },
+    "docs/FOURCASTDEN_SPINUP_NEXT_DECISION.md": {
+      "SHA256": "1438f18afe48dc725fca5dbcf929f19c891bfc8f7aba04fad7ff715bd3ce0467",
+      "bytes": 7288
+    },
+    "results/metrics/fourcastden_twelve_hour_mar24_v1_two_window_performance.csv": {
+      "SHA256": "eb0a0b241082d550e0c0018ef06a57f79ef969aeb2f6629675ec46d193ab21d4",
+      "bytes": 3507
+    }
+  }
+}

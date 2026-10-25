@@ -185,3 +185,6 @@ credentials.json
 !/logs/tiegcm_2021_14day_tests.log
 # Post-push local verification is generated after the commit and must not dirty the worktree.
 /logs/tiegcm_2021_14day_git_sync.json
+
+# Internal meeting presentation and speaker notes: local only, never auto-publish.
+/deliverables/20261026_progress_report/
