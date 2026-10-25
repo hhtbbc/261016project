@@ -1,0 +1,16 @@
+{
+  "classification": "B: substantially improved but some variables FAIL",
+  "density_450km_candidate_P95_percent": 2.0810215318447285,
+  "candidate_density_450km_reduction_percent": 64.54369,
+  "candidate_DEN_TN_horizontal_wind_pass": true,
+  "helium_last24h_pass": true,
+  "helium_candidate_failed_cells": 79,
+  "O1_O2_N2_pass": false,
+  "native_ZG500km_candidate_common_coverage_percent": 72.93516404532386,
+  "science_training_ready": false,
+  "old_122_candidates_replaced": false,
+  "old_7day_data_retroactively_accepted": false,
+  "2022_validation_experiment_performed": false,
+  "spinup_status": "SPINUP_SUFFICIENCY_UNVERIFIED",
+  "conclusion_scope": "Two official complete initial states, 2021 historical drivers, current native valid domain and evaluation window only"
+}

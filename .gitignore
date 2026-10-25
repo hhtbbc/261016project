@@ -178,3 +178,10 @@ credentials.json
 # Independent initial-condition experiment: raw NetCDF stays local; namelist embedded in JSON.
 /experiments/tiegcm_2021_spinup_initial_condition_v1/B/input.inp
 !/logs/tiegcm_2021_initial_condition_tests.log
+
+# 14-day paired spinup: native outputs and exact Fortran input retained locally.
+/experiments/tiegcm_2021_spinup_14day_v1/A14/input.inp
+/experiments/tiegcm_2021_spinup_14day_v1/B14/input.inp
+!/logs/tiegcm_2021_14day_tests.log
+# Post-push local verification is generated after the commit and must not dirty the worktree.
+/logs/tiegcm_2021_14day_git_sync.json

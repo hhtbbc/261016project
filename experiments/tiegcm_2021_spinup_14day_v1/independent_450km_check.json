@@ -1,0 +1,39 @@
+{
+  "inherited_numerical_tolerance": 1e-12,
+  "records": [
+    {
+      "volume": 14,
+      "A14_interpolation_relative_error": 3.552713678800501e-15,
+      "B14_interpolation_relative_error": 3.6637359812630166e-15,
+      "mtime": [
+        82,
+        0,
+        0
+      ],
+      "independent_relative_P95": 0.022852996248182877
+    },
+    {
+      "volume": 16,
+      "A14_interpolation_relative_error": 3.6637359812630166e-15,
+      "B14_interpolation_relative_error": 3.552713678800501e-15,
+      "mtime": [
+        84,
+        0,
+        0
+      ],
+      "independent_relative_P95": 0.019294269896528427
+    },
+    {
+      "volume": 17,
+      "A14_interpolation_relative_error": 3.6637359812630166e-15,
+      "B14_interpolation_relative_error": 3.774758283725532e-15,
+      "mtime": [
+        85,
+        0,
+        0
+      ],
+      "independent_relative_P95": 0.01803216772677857
+    }
+  ],
+  "no_physical_threshold_change": true
+}

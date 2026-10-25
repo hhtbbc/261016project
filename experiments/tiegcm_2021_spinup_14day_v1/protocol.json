@@ -1,0 +1,34 @@
+{
+  "version": "tiegcm_2021_spinup_14day_v1",
+  "start_UTC": "2021-03-09T00:00:00Z",
+  "stop_UTC": "2021-03-26T00:00:00Z",
+  "candidate_window_UTC": [
+    "2021-03-23T00:00:00Z",
+    "2021-03-26T00:00:00Z"
+  ],
+  "primary_records": 18,
+  "secondary_records": 408,
+  "steps": 24480,
+  "max_launches": 2,
+  "group_order": [
+    "A14",
+    "B14"
+  ],
+  "changes_between_groups": [
+    "SOURCE only; SOURCE_START stays80 0 0"
+  ],
+  "rules_SHA256": "5ea4e27db746d698f738b974fbf12ba81b09d186d94c0a9376aa2640517bb52b",
+  "rules_note": "Numerical thresholds identical to prior frozen JSON; old experiment/sign/launch fields are provenance; this protocol authorizes two new groups, delta14=B14-A14, cross comparisons are not initial-state errors",
+  "budgets": {
+    "per_group_wall_s": 4800,
+    "total_wall_s": 9600,
+    "aggregate_RSS_GiB": 16,
+    "per_group_new_GiB": 5,
+    "total_new_GiB": 12,
+    "volume_MiB": 256,
+    "free_disk_floor_GiB": 20
+  },
+  "estimate_per_group_wall_s": 2612.984943333641,
+  "safety_factor": 1.5,
+  "no_new_NPZ_or_training": true
+}

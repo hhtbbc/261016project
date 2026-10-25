@@ -1,0 +1,12 @@
+{
+  "PASS": true,
+  "comparisons": [
+    "delta14",
+    "A14_A7",
+    "B14_B7"
+  ],
+  "cross_time_schema_validated_in_absolute_calendar": true,
+  "failed_v1_log_retained": true,
+  "new_model_launches_during_recovery": 0,
+  "independent_last24h_gate_counts_reproduced": true
+}

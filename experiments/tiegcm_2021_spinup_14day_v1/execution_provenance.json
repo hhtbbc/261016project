@@ -1,0 +1,23 @@
+{
+  "model_runner_SHA256": {
+    "A14": "986663a80ec8fb8890d371e2fc9a8eadea822558e61b9fb3a038c662e284f3e9",
+    "B14": "986663a80ec8fb8890d371e2fc9a8eadea822558e61b9fb3a038c662e284f3e9"
+  },
+  "comparisons": {
+    "delta14": {
+      "code_SHA256": "315ef3e5efd784e23b9155a8b8b996db2a6348dfe16b439429cf2ac231be1666",
+      "log": "logs/tiegcm_2021_14day_comparison_delta14.log",
+      "recomputed_after_patch": false
+    },
+    "A14_A7": {
+      "code_SHA256": "137b886fd118c5e5d5edb12a17a4b8e868ba3f1fab0c6cf37e8cf43f1d4fe01c",
+      "log": "logs/tiegcm_2021_14day_comparison_A14_A7_calendar_v2.log"
+    },
+    "B14_B7": {
+      "code_SHA256": "137b886fd118c5e5d5edb12a17a4b8e868ba3f1fab0c6cf37e8cf43f1d4fe01c",
+      "log": "logs/tiegcm_2021_14day_comparison_B14_B7.log"
+    }
+  },
+  "reconstruct_earlier_code": "Reverse offline_schema_fix.patch against current comparison code",
+  "physical_computation_or_threshold_changes": false
+}

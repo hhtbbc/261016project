@@ -1,0 +1,12 @@
+{
+  "verified_UTC": "2026-10-23T08:45:35.009198+00:00",
+  "local_HEAD": "ec0f2576c8210a6c1bdd2aa4ae8eb9700a39febe",
+  "remote_main": "ec0f2576c8210a6c1bdd2aa4ae8eb9700a39febe",
+  "origin_main": "ec0f2576c8210a6c1bdd2aa4ae8eb9700a39febe",
+  "worktree_clean": true,
+  "safe_push": true,
+  "force_push": false,
+  "first_attempt": "rejected: stale VS Code authentication socket",
+  "recovery": "Per-process same-user live authentication channel; no credentials saved or global config changed",
+  "raw_arrays_published": false
+}

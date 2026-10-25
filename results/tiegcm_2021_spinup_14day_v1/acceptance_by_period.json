@@ -1,0 +1,486 @@
+{
+  "7day": {
+    "candidate": {
+      "DEN": {
+        "evaluated_time_level_region_cells": 12702,
+        "failed_cells": 0,
+        "worst_fraction": 0.9722222222222222,
+        "PASS": true
+      },
+      "HE": {
+        "evaluated_time_level_region_cells": 12702,
+        "failed_cells": 8404,
+        "worst_fraction": 0.11805555555555555,
+        "PASS": false
+      },
+      "N2": {
+        "evaluated_time_level_region_cells": 12702,
+        "failed_cells": 7057,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "O1": {
+        "evaluated_time_level_region_cells": 12702,
+        "failed_cells": 8384,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "O2": {
+        "evaluated_time_level_region_cells": 12702,
+        "failed_cells": 8528,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "TN": {
+        "evaluated_time_level_region_cells": 12264,
+        "failed_cells": 197,
+        "worst_fraction": 0.7962962962962963,
+        "PASS": false
+      },
+      "WIND_VECTOR": {
+        "evaluated_time_level_region_cells": 12264,
+        "failed_cells": 272,
+        "worst_fraction": 0.8101851851851852,
+        "PASS": false
+      },
+      "ZG_200km": {
+        "evaluated_time_level_region_cells": 438,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_300km": {
+        "evaluated_time_level_region_cells": 438,
+        "failed_cells": 0,
+        "worst_fraction": 0.9884259259259259,
+        "PASS": true
+      },
+      "ZG_400km": {
+        "evaluated_time_level_region_cells": 438,
+        "failed_cells": 231,
+        "worst_fraction": 0.03009259259259259,
+        "PASS": false
+      },
+      "ZG_450km": {
+        "evaluated_time_level_region_cells": 438,
+        "failed_cells": 273,
+        "worst_fraction": 0.020833333333333332,
+        "PASS": false
+      },
+      "ZG_475km": {
+        "evaluated_time_level_region_cells": 438,
+        "failed_cells": 260,
+        "worst_fraction": 0.12037037037037036,
+        "PASS": false
+      },
+      "ZG_500km": {
+        "evaluated_time_level_region_cells": 438,
+        "failed_cells": 166,
+        "worst_fraction": 0.49099099099099097,
+        "PASS": false
+      }
+    },
+    "last24h": {
+      "DEN": {
+        "evaluated_time_level_region_cells": 4350,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "HE": {
+        "evaluated_time_level_region_cells": 4350,
+        "failed_cells": 2550,
+        "worst_fraction": 0.12268518518518519,
+        "PASS": false
+      },
+      "N2": {
+        "evaluated_time_level_region_cells": 4350,
+        "failed_cells": 2321,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "O1": {
+        "evaluated_time_level_region_cells": 4350,
+        "failed_cells": 2832,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "O2": {
+        "evaluated_time_level_region_cells": 4350,
+        "failed_cells": 2740,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "TN": {
+        "evaluated_time_level_region_cells": 4200,
+        "failed_cells": 16,
+        "worst_fraction": 0.9004629629629629,
+        "PASS": false
+      },
+      "WIND_VECTOR": {
+        "evaluated_time_level_region_cells": 4200,
+        "failed_cells": 53,
+        "worst_fraction": 0.8819444444444444,
+        "PASS": false
+      },
+      "ZG_200km": {
+        "evaluated_time_level_region_cells": 150,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_300km": {
+        "evaluated_time_level_region_cells": 150,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_400km": {
+        "evaluated_time_level_region_cells": 150,
+        "failed_cells": 35,
+        "worst_fraction": 0.6064814814814815,
+        "PASS": false
+      },
+      "ZG_450km": {
+        "evaluated_time_level_region_cells": 150,
+        "failed_cells": 58,
+        "worst_fraction": 0.41203703703703703,
+        "PASS": false
+      },
+      "ZG_475km": {
+        "evaluated_time_level_region_cells": 150,
+        "failed_cells": 56,
+        "worst_fraction": 0.40046296296296297,
+        "PASS": false
+      },
+      "ZG_500km": {
+        "evaluated_time_level_region_cells": 150,
+        "failed_cells": 39,
+        "worst_fraction": 0.6643356643356644,
+        "PASS": false
+      }
+    },
+    "endpoint": {
+      "DEN": {
+        "evaluated_time_level_region_cells": 174,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "HE": {
+        "evaluated_time_level_region_cells": 174,
+        "failed_cells": 100,
+        "worst_fraction": 0.36342592592592593,
+        "PASS": false
+      },
+      "N2": {
+        "evaluated_time_level_region_cells": 174,
+        "failed_cells": 91,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "O1": {
+        "evaluated_time_level_region_cells": 174,
+        "failed_cells": 112,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "O2": {
+        "evaluated_time_level_region_cells": 174,
+        "failed_cells": 107,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "TN": {
+        "evaluated_time_level_region_cells": 168,
+        "failed_cells": 0,
+        "worst_fraction": 0.9699074074074074,
+        "PASS": true
+      },
+      "WIND_VECTOR": {
+        "evaluated_time_level_region_cells": 168,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_200km": {
+        "evaluated_time_level_region_cells": 6,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_300km": {
+        "evaluated_time_level_region_cells": 6,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_400km": {
+        "evaluated_time_level_region_cells": 6,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_450km": {
+        "evaluated_time_level_region_cells": 6,
+        "failed_cells": 1,
+        "worst_fraction": 0.9097222222222222,
+        "PASS": false
+      },
+      "ZG_475km": {
+        "evaluated_time_level_region_cells": 6,
+        "failed_cells": 1,
+        "worst_fraction": 0.8796296296296297,
+        "PASS": false
+      },
+      "ZG_500km": {
+        "evaluated_time_level_region_cells": 6,
+        "failed_cells": 1,
+        "worst_fraction": 0.9267399267399268,
+        "PASS": false
+      }
+    }
+  },
+  "14day": {
+    "candidate": {
+      "DEN": {
+        "evaluated_time_level_region_cells": 12702,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "HE": {
+        "evaluated_time_level_region_cells": 12702,
+        "failed_cells": 79,
+        "worst_fraction": 0.7337962962962963,
+        "PASS": false
+      },
+      "N2": {
+        "evaluated_time_level_region_cells": 12702,
+        "failed_cells": 5226,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "O1": {
+        "evaluated_time_level_region_cells": 12702,
+        "failed_cells": 4315,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "O2": {
+        "evaluated_time_level_region_cells": 12702,
+        "failed_cells": 6014,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "TN": {
+        "evaluated_time_level_region_cells": 12264,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "WIND_VECTOR": {
+        "evaluated_time_level_region_cells": 12264,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_200km": {
+        "evaluated_time_level_region_cells": 438,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_300km": {
+        "evaluated_time_level_region_cells": 438,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_400km": {
+        "evaluated_time_level_region_cells": 438,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_450km": {
+        "evaluated_time_level_region_cells": 438,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_475km": {
+        "evaluated_time_level_region_cells": 438,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_500km": {
+        "evaluated_time_level_region_cells": 438,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      }
+    },
+    "last24h": {
+      "DEN": {
+        "evaluated_time_level_region_cells": 4350,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "HE": {
+        "evaluated_time_level_region_cells": 4350,
+        "failed_cells": 0,
+        "worst_fraction": 0.9560185185185185,
+        "PASS": true
+      },
+      "N2": {
+        "evaluated_time_level_region_cells": 4350,
+        "failed_cells": 1633,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "O1": {
+        "evaluated_time_level_region_cells": 4350,
+        "failed_cells": 1060,
+        "worst_fraction": 0.30787037037037035,
+        "PASS": false
+      },
+      "O2": {
+        "evaluated_time_level_region_cells": 4350,
+        "failed_cells": 1919,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "TN": {
+        "evaluated_time_level_region_cells": 4200,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "WIND_VECTOR": {
+        "evaluated_time_level_region_cells": 4200,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_200km": {
+        "evaluated_time_level_region_cells": 150,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_300km": {
+        "evaluated_time_level_region_cells": 150,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_400km": {
+        "evaluated_time_level_region_cells": 150,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_450km": {
+        "evaluated_time_level_region_cells": 150,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_475km": {
+        "evaluated_time_level_region_cells": 150,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_500km": {
+        "evaluated_time_level_region_cells": 150,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      }
+    },
+    "endpoint": {
+      "DEN": {
+        "evaluated_time_level_region_cells": 174,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "HE": {
+        "evaluated_time_level_region_cells": 174,
+        "failed_cells": 0,
+        "worst_fraction": 0.9861111111111112,
+        "PASS": true
+      },
+      "N2": {
+        "evaluated_time_level_region_cells": 174,
+        "failed_cells": 65,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "O1": {
+        "evaluated_time_level_region_cells": 174,
+        "failed_cells": 37,
+        "worst_fraction": 0.4861111111111111,
+        "PASS": false
+      },
+      "O2": {
+        "evaluated_time_level_region_cells": 174,
+        "failed_cells": 75,
+        "worst_fraction": 0.0,
+        "PASS": false
+      },
+      "TN": {
+        "evaluated_time_level_region_cells": 168,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "WIND_VECTOR": {
+        "evaluated_time_level_region_cells": 168,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_200km": {
+        "evaluated_time_level_region_cells": 6,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_300km": {
+        "evaluated_time_level_region_cells": 6,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_400km": {
+        "evaluated_time_level_region_cells": 6,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_450km": {
+        "evaluated_time_level_region_cells": 6,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_475km": {
+        "evaluated_time_level_region_cells": 6,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      },
+      "ZG_500km": {
+        "evaluated_time_level_region_cells": 6,
+        "failed_cells": 0,
+        "worst_fraction": 1.0,
+        "PASS": true
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "failed_operation": "A14_A7 offline comparison; no model failure",
+  "difference": "Only time.units epochs differ: minutes since 2021-3-16 versus 2021-3-9",
+  "old_code_SHA256": "315ef3e5efd784e23b9155a8b8b996db2a6348dfe16b439429cf2ac231be1666",
+  "new_code_SHA256": "137b886fd118c5e5d5edb12a17a4b8e868ba3f1fab0c6cf37e8cf43f1d4fe01c",
+  "fix": "Decode native time using each file epoch, verify year/DOY/hour/minute/second against mtime, canonicalize only time schema after validation; all physical schemas/thresholds unchanged",
+  "failed_log_retained": "logs/tiegcm_2021_14day_comparison_A14_A7.log",
+  "new_model_launches": 0
+}

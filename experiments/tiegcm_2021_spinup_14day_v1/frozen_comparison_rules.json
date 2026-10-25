@@ -1,0 +1,78 @@
+{
+  "origin": "docs/TIEGCM2023_CONTINUOUS_SPINUP_PLAN.md (frozen before S7 launch)",
+  "density_relative_limit": 0.05,
+  "TN_absolute_limit_K": 10,
+  "horizontal_wind_vector_limit_m_s": 20,
+  "composition_relative_limit": 0.05,
+  "trace_reference_floor_mmr": 1e-08,
+  "minimum_fraction_within_limits": 0.95,
+  "along_track_log_density_RMSE_limit": 0.05,
+  "common_native_ZG_heights_km": [
+    200,
+    300,
+    400,
+    450,
+    475,
+    500
+  ],
+  "latitude_regions": {
+    "global": [
+      -90,
+      90
+    ],
+    "south_polar": [
+      -90,
+      -60
+    ],
+    "south_mid": [
+      -60,
+      -30
+    ],
+    "tropics": [
+      -30,
+      30
+    ],
+    "north_mid": [
+      30,
+      60
+    ],
+    "north_polar": [
+      60,
+      90
+    ]
+  },
+  "last_24h_rule": "each shared time/level/region at least95% within limits, plus 6-hour log RMSE trend reported",
+  "relative_denominator": "A",
+  "sign": "S3 minus S7",
+  "unverified_along_track": "not evaluated if vertical datum/coordinate unresolved",
+  "new_model_launch_limit": 1,
+  "comparison_sign": "B minus A; baseline A is numerical reference, not truth",
+  "candidate_window_UTC": [
+    "2021-03-23T00:00:00Z",
+    "2021-03-26T00:00:00Z"
+  ],
+  "last24h_UTC": [
+    "2021-03-25T00:00:00Z",
+    "2021-03-26T00:00:00Z"
+  ],
+  "candidate_hourly_frames": 73,
+  "last24h_hourly_frames": 25,
+  "native_upper_indices": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "geometry_interpolation": "log(DEN) per native ZG column; no extrapolation; both columns must cover query",
+  "reference_400_500_group": "At each hour select A native ilev whose global median ZG is 400-500 km; compare same pressure indices separately from fixed geometric-height fields",
+  "no_growth_rule": "Last24h OLS slope of global fixed-height log_RMSE <=0; report 6h bins without claiming independent-sample significance",
+  "coverage_rule": "Report all common valid fractions, no newly invented numeric coverage acceptance threshold; partial coverage cannot imply whole-domain acceptance",
+  "along_track_status": "N/A: unresolved external datum, no orbit experiment authorized",
+  "new_B_launch_limit": 1,
+  "optional_short_launch_limit": 1
+}

@@ -1,0 +1,16 @@
+test_calendar_physics_and_source_clock (test_tiegcm_2021_14day.Extended) ... ok
+test_common_drivers_and_quality (test_tiegcm_2021_14day.Extended) ... ok
+test_configuration (test_tiegcm_2021_14day.Extended) ... ok
+test_cross_epoch_absolute_calendar (test_tiegcm_2021_14day.Extended) ... ok
+test_exact_frozen_thresholds (test_tiegcm_2021_14day.Extended) ... ok
+test_extended_GPI_native_format (test_tiegcm_2021_14day.Extended) ... ok
+test_native_initial_identity_preserved (test_tiegcm_2021_14day.Extended) ... ok
+test_pair_only_source (test_tiegcm_2021_14day.Extended) ... ok
+test_records (test_tiegcm_2021_14day.Extended) ... ok
+test_reject_override (test_tiegcm_2021_14day.Extended) ... ok
+test_support (test_tiegcm_2021_14day.Extended) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.028s
+
+OK

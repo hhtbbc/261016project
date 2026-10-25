@@ -1,0 +1,531 @@
+{
+  "B": {
+    "file": "/workspace/data/20261016/data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+    "history_type": "primary",
+    "missing_required": [],
+    "selected_record_count": 1,
+    "available_mtime": [
+      [
+        80,
+        0,
+        0
+      ]
+    ],
+    "all_required_double": true,
+    "structure_complete": true,
+    "record_available": true,
+    "validated_continuation": false
+  },
+  "A_SHA256": "180475215a4922e9c55a77e80153cf641bc8fbb2b8d52633b4686ddee6942fff",
+  "B_SHA256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+  "schemas": {
+    "TN": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "K",
+      "min_valid": 148.01576980794007,
+      "max_valid": 1443.7290303398129,
+      "masked_count": 2592
+    },
+    "UN": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "cm/s",
+      "min_valid": -57344.16191892668,
+      "max_valid": 55979.51565486599,
+      "masked_count": 2592
+    },
+    "VN": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "cm/s",
+      "min_valid": -57971.96434188518,
+      "max_valid": 59169.52555264335,
+      "masked_count": 2592
+    },
+    "O2": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "mmr",
+      "min_valid": 8.040440306349533e-06,
+      "max_valid": 0.23127626247657784,
+      "masked_count": 0
+    },
+    "O1": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "mmr",
+      "min_valid": 0.0025026974243605345,
+      "max_valid": 0.9628434042109391,
+      "masked_count": 0
+    },
+    "N4S": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "mmr",
+      "min_valid": 1e-12,
+      "max_valid": 0.02916515660765595,
+      "masked_count": 0
+    },
+    "NO": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "mmr",
+      "min_valid": 1.566808944191125e-07,
+      "max_valid": 0.0007097448447681046,
+      "masked_count": 0
+    },
+    "HE": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "mmr",
+      "min_valid": 1.152460366034901e-06,
+      "max_valid": 0.24826148492505093,
+      "masked_count": 0
+    },
+    "AR": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "MMR",
+      "min_valid": 1.1283779737841177e-09,
+      "max_valid": 0.01118083944529476,
+      "masked_count": 0
+    },
+    "OP": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "cm-3",
+      "min_valid": 0.0,
+      "max_valid": 3171832.2609427865,
+      "masked_count": 0
+    },
+    "N2D": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "mmr",
+      "min_valid": 0.0,
+      "max_valid": 0.0006355845444043059,
+      "masked_count": 0
+    },
+    "TI": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "K",
+      "min_valid": 148.02554566442868,
+      "max_valid": 2753.1128636720105,
+      "masked_count": 2592
+    },
+    "TE": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "K",
+      "min_valid": 148.0310462646978,
+      "max_valid": 4226.672879283352,
+      "masked_count": 2592
+    },
+    "NE": {
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "cm-3",
+      "min_valid": 975.6762007067404,
+      "max_valid": 3155791.1911864756,
+      "masked_count": 0
+    },
+    "O2P": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "cm-3",
+      "min_valid": 0.0,
+      "max_valid": 101730.57353951014,
+      "masked_count": 0
+    },
+    "OMEGA": {
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "s-1",
+      "min_valid": -6.818647921602931e-05,
+      "max_valid": 0.00011381818007399899,
+      "masked_count": 0
+    },
+    "Z": {
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "cm",
+      "min_valid": 9568160.321929974,
+      "max_valid": 84401952.58804485,
+      "masked_count": 0
+    },
+    "POTEN": {
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "volts",
+      "min_valid": -33471.55220808067,
+      "max_valid": 24531.79511461343,
+      "masked_count": 0
+    },
+    "TN_NM": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "K",
+      "min_valid": 148.01878976166196,
+      "max_valid": 1443.725539713014,
+      "masked_count": 2592
+    },
+    "UN_NM": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "cm/s",
+      "min_valid": -57412.84281211335,
+      "max_valid": 56009.74498368615,
+      "masked_count": 2592
+    },
+    "VN_NM": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "cm/s",
+      "min_valid": -57951.8393277203,
+      "max_valid": 59149.10042819029,
+      "masked_count": 2592
+    },
+    "O2_NM": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "mmr",
+      "min_valid": 8.04031148827992e-06,
+      "max_valid": 0.23127635370092,
+      "masked_count": 0
+    },
+    "O1_NM": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "mmr",
+      "min_valid": 0.0025024883136691104,
+      "max_valid": 0.9628782743878564,
+      "masked_count": 0
+    },
+    "N4S_NM": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "mmr",
+      "min_valid": 1e-12,
+      "max_valid": 0.02915910693845995,
+      "masked_count": 0
+    },
+    "NO_NM": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "mmr",
+      "min_valid": 1.5661132307336666e-07,
+      "max_valid": 0.0007097106767738377,
+      "masked_count": 0
+    },
+    "OP_NM": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "cm-3",
+      "min_valid": 0.0,
+      "max_valid": 3171692.2192140184,
+      "masked_count": 0
+    },
+    "HE_NM": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "mmr",
+      "min_valid": 1.1524577948752497e-06,
+      "max_valid": 0.2482692012243051,
+      "masked_count": 0
+    },
+    "AR_NM": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "MMR",
+      "min_valid": 1.1274379287446724e-09,
+      "max_valid": 0.01118082302945808,
+      "masked_count": 0
+    },
+    "TLBC": {
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "K",
+      "min_valid": 158.22035248048846,
+      "max_valid": 196.80503515851112,
+      "masked_count": 0
+    },
+    "ULBC": {
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "cm/s",
+      "min_valid": -5630.554636063114,
+      "max_valid": 4163.545793102633,
+      "masked_count": 0
+    },
+    "VLBC": {
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "cm/s",
+      "min_valid": -6295.4178041027435,
+      "max_valid": 6523.370001392979,
+      "masked_count": 0
+    },
+    "TLBC_NM": {
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "K",
+      "min_valid": 158.23667700944407,
+      "max_valid": 196.7917213168516,
+      "masked_count": 0
+    },
+    "ULBC_NM": {
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "cm/s",
+      "min_valid": -5624.202387820008,
+      "max_valid": 4156.09919937708,
+      "masked_count": 0
+    },
+    "VLBC_NM": {
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float64",
+      "units": "cm/s",
+      "min_valid": -6291.482782286983,
+      "max_valid": 6516.88116968319,
+      "masked_count": 0
+    }
+  },
+  "coordinates": {
+    "lat": [
+      36
+    ],
+    "lon": [
+      72
+    ],
+    "lev": [
+      29
+    ],
+    "ilev": [
+      29
+    ]
+  },
+  "A_source_scalars": {
+    "f107d": [
+      70.0
+    ],
+    "f107a": [
+      70.0
+    ],
+    "Kp": [
+      1e+36
+    ],
+    "hpower": [
+      18.0
+    ],
+    "ctpoten": [
+      30.0
+    ]
+  },
+  "B_source_scalars": {
+    "f107d": [
+      200.0
+    ],
+    "f107a": [
+      200.0
+    ],
+    "Kp": [
+      1e+36
+    ],
+    "hpower": [
+      40.0
+    ],
+    "ctpoten": [
+      60.0
+    ]
+  },
+  "B_provenance": {
+    "label": "tiegcm_res5.0_mareqx_smax",
+    "create_date": "02/01/16 13:52:15",
+    "model_name": "tiegcm",
+    "model_version": "tiegcm_trunk",
+    "svn_version": "1249",
+    "source_file": "/glade/p/hao/tgcm/data/tiegcm1.95/TGCM.tiegcm1.95.pcntr_mareqx_smax.nc (initial)",
+    "history_type": "primary",
+    "run_type": "initial"
+  },
+  "initial_TN_max_difference_K": 696.299965691751,
+  "padding_contract_note": "Initial checker incorrectly required TI/TE padded top valid; settei.F:638-659 explicitly sets lev1=spval. A and B masks exactly equal and lower levels fully valid; original thresholds unchanged.",
+  "status": "STATIC_COMPATIBLE",
+  "complete_required_variables": 34,
+  "SOURCE_START": [
+    80,
+    0,
+    0
+  ],
+  "actual_run_year": 2021,
+  "source_year": 2002,
+  "continuation_validated": false,
+  "raw_source_unchanged": true,
+  "license": "Official public model support data, no explicit standalone data license found; keep raw local"
+}
