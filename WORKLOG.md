@@ -618,3 +618,7 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 命令：source scripts/activate_orbit.sh；本地source/build_report.py生成；source/validate_artifacts.py检查。PPTX与DOCX ZIP/解析通过，12页PDF全部渲染、中文glyph覆盖、所有原生shape/文本边界和行高检查通过；逐页联系表及核心页检查未见遮挡或乱码。无MS Office/LibreOffice客户端，不能声称做过Office实际渲染；PDF为可直接阅读的同源版式预览。
 - 发布：公开仅scripts/reporting通用渲染器/说明、已有公开科学报告和指标文件的SHA列表、依赖锁及状态日志；不提交PPT/PDF/讲稿/内部场景/缩略图。全部科学来源SHA保持，未启动TIE-GCM、FourCastDEN推理/训练或RK45。安全同步main并核验远端，完成后停止等待指令。
 - 本次同步实际结果：公开辅助提交c10e0828c2ff0b353c6404cbb85cc242e12db55a已本地生成；默认push与单进程HTTP/1.1+8MiB postBuffer push均60秒超时，随后15秒dry-run也超时。每次之后核查远端，仍4bda69aa06c32fdc01086c83b3af7f746409ea99，未盲目重复或强推，未存储/打印凭据、未改全局配置。读取正常而写入链路超时的具体原因未确定；保留全部本地提交，内部材料不上传。
+
+## 2026-10-25：恢复汇报辅助代码同步
+
+用户要求再次提交。检查唯一工作区、规则/状态/日志、干净main、正确origin及远端4bda69a，确认此前两个本地提交未收到。使用同用户现有有效认证通道及仅Git进程HTTP/1.1、8MiB postBuffer，安全推送4bda69a→f789748成功，无强推或凭据存储/全局配置修改。更新同步状态记录后再安全推送并核验最终SHA。没有科研运行，内部deliverables仍被忽略且未上传。
