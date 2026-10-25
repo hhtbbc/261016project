@@ -416,3 +416,4 @@ SCIENCE_TRAINING_READY=False、SPINUP_SUFFICIENCY_UNVERIFIED继续保留。不�
 ## 2026-10-25：阶段汇报材料制作（仅文档）
 
 完成本地内部材料：10页正文+2页备份、约7分钟讲稿、PPTX/同源版式PDF预览/DOCX、逐页来源及图表索引。仅读取既有结果，科学状态不变，无TIE/AI/训练/轨道运行；交付位于被忽略的deliverables/20261026_progress_report/，不自动公开。仅通用制作代码、公开科学来源哈希清单与依赖锁同步仓库。
+本次公开辅助文件已本地提交，但GitHub写入持续超时；远端核查仍4bda69a，未同步成功。内部PPT/PDF/讲稿完整保存在本地，不受影响，未上传。

@@ -617,3 +617,4 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 工具：优先.venv310和既有matplotlib/Pillow；必要增加python-pptx/python-docx/reportlab/PyMuPDF及3个依赖，前后锁比对仅7项新增，无原数值包移除或升级。中文Noto Sans SC由官方Google Fonts源取得，SIL OFL、实际URL/SHA/许可保留在项目内，不全局安装字体。
 - 命令：source scripts/activate_orbit.sh；本地source/build_report.py生成；source/validate_artifacts.py检查。PPTX与DOCX ZIP/解析通过，12页PDF全部渲染、中文glyph覆盖、所有原生shape/文本边界和行高检查通过；逐页联系表及核心页检查未见遮挡或乱码。无MS Office/LibreOffice客户端，不能声称做过Office实际渲染；PDF为可直接阅读的同源版式预览。
 - 发布：公开仅scripts/reporting通用渲染器/说明、已有公开科学报告和指标文件的SHA列表、依赖锁及状态日志；不提交PPT/PDF/讲稿/内部场景/缩略图。全部科学来源SHA保持，未启动TIE-GCM、FourCastDEN推理/训练或RK45。安全同步main并核验远端，完成后停止等待指令。
+- 本次同步实际结果：公开辅助提交c10e0828c2ff0b353c6404cbb85cc242e12db55a已本地生成；默认push与单进程HTTP/1.1+8MiB postBuffer push均60秒超时，随后15秒dry-run也超时。每次之后核查远端，仍4bda69aa06c32fdc01086c83b3af7f746409ea99，未盲目重复或强推，未存储/打印凭据、未改全局配置。读取正常而写入链路超时的具体原因未确定；保留全部本地提交，内部材料不上传。
