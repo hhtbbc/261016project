@@ -1,0 +1,19 @@
+{
+  "new_model_launches": 0,
+  "decision": "BLOCKED_RUNTIME_RESTORE_AND_PROCESS_CAPTURE",
+  "closure_status": "NOT_EVALUABLE",
+  "science_training_ready": false,
+  "driver_max_AB_difference": 0,
+  "original_namelists_same_except_source": true,
+  "inherited_restart_evidence": "reports/TIEGCM2023_CONTINUATION_VALIDATION.md: 28/34 primary and 9/9 secondary failed frozen prefix tolerances",
+  "launch_gate_reason": "PROCESS_BUDGET_BLOCKED: runtime_restore_verified, process_capture_verified, closure_protocol_qualified",
+  "wall_seconds": 6.557670623064041,
+  "python_peak_RSS_MiB": 154.71875,
+  "budget_qualified": false,
+  "original_candidates_modified": false,
+  "planned_window_UTC": [
+    "2021-03-23T00:00:00Z",
+    "2021-03-23T06:00:00Z"
+  ],
+  "process_fields_read": 0
+}

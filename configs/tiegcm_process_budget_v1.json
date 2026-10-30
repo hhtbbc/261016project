@@ -1,0 +1,48 @@
+{
+  "tag": "tiegcm_2021_process_budget_v1",
+  "created_UTC": "2026-10-30T08:24:42.979328+00:00",
+  "execution_status": "BLOCKED_BEFORE_MPI",
+  "new_model_launches": 0,
+  "window": [
+    "2021-03-23T00:00:00Z",
+    "2021-03-23T06:00:00Z"
+  ],
+  "per_group_max_steps": 360,
+  "MPI": 4,
+  "OMP": 1,
+  "step_s": 60,
+  "total_wall_budget_s": 180,
+  "RSS_limit_GiB": 16,
+  "new_output_limit_GiB": 1,
+  "min_free_disk_GiB": 20,
+  "inherited_prefix_rules": "experiments/tiegcm2023_continuation_v1/frozen_comparison_rules.json",
+  "prefix_primary_t0_fields": 34,
+  "prefix_secondary_times_hours": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "prefix_secondary_fields": [
+    "TN",
+    "UN",
+    "VN",
+    "O1",
+    "O2",
+    "HE",
+    "N2",
+    "DEN",
+    "ZG"
+  ],
+  "prefix_criterion": "Every common valid point within inherited atol_SI+rtol*max(abs(a),abs(b)); identical masks/calendar/drivers; no mean-only acceptance",
+  "new_closure_criterion": {
+    "status": "PROPOSED_NOT_SOLVER_QUALIFIED_NOT_USED_TO_CLAIM_PASS",
+    "absolute_mmr": 1e-12,
+    "relative_to_max_delta_or_sum_abs_contributions": 1e-10,
+    "scope": "every valid native interior point per complete model update; explicit top-boundary relation separately",
+    "basis": "double-precision arithmetic check consistent with old mmr prefix atol; must qualify conditioning/instrumentation before use; never apply to float32 hour-sampled histories"
+  },
+  "prior_report_ambiguity_resolved": "state primary structural completeness is not runtime-lossless restoration; hourly prefix does not validate all minute steps"
+}

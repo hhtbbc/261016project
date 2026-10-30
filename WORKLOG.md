@@ -640,3 +640,13 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 ## 2026-10-30：恢复组分离线分析成果同步
 
 按用户继续推送指令，核对干净main、本地4f4d322与远端66e6360。凭据fill预检15秒等待未返回；禁止交互的隔离检查明确要求GitHub用户名。通过GitHub连接器只读核实登录账号hhtbbc后，仅在Git进程设置credential.username=hhtbbc，继续复用同用户现有VS Code认证socket，25秒有界push成功66e6360→4f4d322。独立ls-remote已确认相同SHA。没有输出/写入令牌、修改全局配置或remote，没有新科研执行。更新成功记录后安全同步此元数据提交并核对最终HEAD。
+
+## 2026-10-30：TIE-GCM组分短时过程预算前置核查
+
+- 读取AGENTS/STATUS/WORKLOG及用户指定根因/预热/极区报告，检查干净main、本地ae78b9e比远端4f4d322多一项同步说明，保留原提交，不覆盖。源码审查comp、comp_o2o、lbc、hdif、smooth、cons、pdynamo、rdsource、advance、nchist等；没有修改/编译TIE原树。
+- 激活source scripts/activate_orbit.sh，运行python scripts/audit_tiegcm_process_budget.py。共同A14/B14 primary_015为2021 DOY82 00、iter118080、34项标准预报/历史/LBC字段完整；五实际驱动差0，0—6h七个原次历史时刻完整，四坐标相同，原namelist仅SOURCE不同。按旧delivery SHA及读取前后再次验证源卷。
+- 前置阻碍：四内部磁坐标数组PHIM3D/EPHI3D/ELAM3D/EMZ3D未保存；pdynamo首步重建路径及历史continuation失败不允许把结构完整当无损恢复PASS。旧2023反例不是2021本轮实测FAIL，2021前缀未运行。选定历史未保存fs/原生成损失、逐步平流、隐式算子分量、滤波及截断修正。按用户停止条件，实际MPI启动0、模型步数0、GPU0、无Restart或新分支积分。
+- 交付16条带源码位置/输入输出/SHA映射；推导mmr、2dt隐式三对角预算、NM记忆桥接、Shapiro/Fourier、NM时间滤波和small归一化的独立记账，N2为负三组分和派生贡献。提出1e-12+1e-10尺度的双精度逐点闭合候选并标待求解器资格验证，未改变旧物理门槛，不进行事后PASS调整。
+- 已有连续轨迹只读+6h净变化RMS A/B：O1 .04103350/.04183313、O2 .00646782/.00655947、N2 .03485958/.03561001 mmr；不称作过程贡献。N2增量代数关系残差最大8.72e-8是float32存储量级，不是物理预算闭合。输出逐时层/6区域CSV、净变化/AB对比/五图；所有未观测过程贡献与闭合R留空并标NOT_EVALUABLE，未生成假过程柱图。
+- 审查主脚本6.558秒、Python峰值RSS154.72MiB，产物约2MiB；没有使用模型180秒MPI预算。python tests/test_tiegcm_process_budget.py的7项CPU合成算术/门禁/非有限/缺项拒绝测试通过，无新增依赖。日志logs/tiegcm_process_budget_v1_{audit,tests}.log。
+- 新报告reports/TIEGCM_2021_PROCESS_BUDGET_DIAGNOSTICS.md、configs/tiegcm_process_budget_v1.json、src/atmosphere/tiegcm_process_budget.py及独立结果标签。旧A7/B7/A14/B14、122候选、科学训练READY=False保持。下一阶段恢复探针/checkpoint资格、插桩等价性及闭合资格需独立明确协议；不自动执行新实验。按长期规则安全同步main、保存真实远端核验，不强推。

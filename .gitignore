@@ -200,3 +200,9 @@ credentials.json
 !/logs/composition_boundary_20261030.log
 
 /logs/composition_git_sync_20261030.json
+
+!/logs/tiegcm_process_budget_v1_audit.log
+!/logs/tiegcm_process_budget_v1_tests.log
+/logs/tiegcm_process_budget_v1_git_sync.json
+
+!/logs/tiegcm_process_budget_v1_final_checks.log

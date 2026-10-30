@@ -431,3 +431,9 @@ SCIENCE_TRAINING_READY=False、SPINUP_SUFFICIENCY_UNVERIFIED继续保留。不�
 2026-10-30用户要求继续推送：重新核查干净main与远端，55秒及150秒两次有界推送均超时（后次确认同用户有效认证socket，并禁用Expect等待）；每次后独立查询远端，仍66e6360，49419c0尚未收到。成果和本地提交完整，未强推，未新增科研运行。最终重试审计见本地logs/composition_git_sync_20261030.json。
 
 2026-10-30继续推送已恢复：凭据预检发现无用户名时现有askpass等待；仅Git进程指定已核实credential.username=hhtbbc后，安全推送66e6360→4f4d322成功，独立ls-remote核实已收到。此前超时描述保留历史，当前同步结果以本条及最终HEAD核验为准。未修改全局配置、remote或保存凭据，无科研运行。
+
+## 2026-10-30：组分短时过程预算前置审查，未启动积分
+
+A14/B14共同03-23 00:00 primary_015均为完整34项float64标准状态（iter118080），原配置除SOURCE相同、0—6小时7记录及驱动一致。但PHIM3D/EPHI3D/ELAM3D/EMZ3D未保存，首步恢复路径与连续轨迹不同且2021无损前缀尚未验证；现有历史也缺逐步化学/输运/扩散矩阵与滤波/截断修正。依用户“不能可靠恢复则停止”要求，MPI启动0，过程预算NOT_EVALUABLE，无物理归因排名。没有把2023已有恢复FAIL冒充2021本轮实测FAIL。
+
+报告reports/TIEGCM_2021_PROCESS_BUDGET_DIAGNOSTICS.md及results/tiegcm_2021_process_budget_v1包含源码映射、双时间层隐式预算表达式、闭合标准草案、旧轨迹6小时观察净变化/5图及SHA；7项CPU合成门禁/算术测试通过。闭合草案未通过求解器资格验证，不用来宣称科学PASS。原122候选和SCIENCE_TRAINING_READY=False不变。下一步先恢复状态与插桩资格；不自动启动新的积分、训练或更长预热。
