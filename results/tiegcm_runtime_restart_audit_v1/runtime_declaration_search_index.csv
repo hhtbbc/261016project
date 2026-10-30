@@ -1,0 +1,517 @@
+file,line,scope,statement,review_status
+third_party/TIEGCM2.0/src/amie.F,20,module_declaration_candidate,"integer,parameter :: mxgdays = 10, mxtimes = 5881, ithtrns = 30, ithmx = 55, jmxm = 2*ithmx-1, lonmx = 36",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/amie.F,27,module_declaration_candidate,"integer :: lonp1,latp1",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/amie.F,28,module_declaration_candidate,"integer,dimension(mxtimes) :: year,month,day,jday",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/amie.F,30,module_declaration_candidate,"real :: tiepot(nmlonp1,nmlat),tieekv(nmlonp1,nmlat), tieefx(nmlonp1,nmlat),potg(nlonp1,0:nlatp1), efxg(nlonp1,0:nlatp1),ekvg(nlonp1,0:nlatp1)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/amie.F,35,module_declaration_candidate,"real,dimension(nlonp4,nlat) :: potg_sech, ekvg_sech, efxg_sech",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/amie.F,37,module_declaration_candidate,"real,dimension(nmlonp1,-2:nlevp1) :: tiepot_sech",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/amie.F,49,module_declaration_candidate,"real,allocatable,dimension(:,:,:),save :: amie_pot_nh, amie_pot_sh, amie_ekv_nh, amie_ekv_sh, amie_efx_nh, amie_efx_sh",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/amie.F,52,module_declaration_candidate,"real,allocatable,dimension(:,:),save :: pot_nh_amie,pot_sh_amie, ekv_nh_amie,ekv_sh_amie, efx_nh_amie,efx_sh_amie",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/amie.F,55,module_declaration_candidate,"real, allocatable,dimension(:),save :: amie_cusplat_nh, amie_cuspmlt_nh, amie_hpi_nh, amie_pcp_nh, amie_nh_ut, amie_cusplat_sh, amie_cuspmlt_sh, amie_hpi_sh, amie_pcp_sh, amie_sh_ut",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/amie.F,60,module_declaration_candidate,"real :: cusplat_nh_amie, cuspmlt_nh_amie, cusplat_sh_amie, cuspmlt_sh_amie, hpi_sh_amie, hpi_nh_amie, pcp_sh_amie, pcp_nh_amie, crad(2), phida(2)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/amie.F,492,explicit_saved_or_data_local_candidate,data ndmon_nl,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/amie.F,494,explicit_saved_or_data_local_candidate,data ndmon_lp,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/amieoutput.F,80,explicit_saved_or_data_local_candidate,CCCCCCCCCCCCCCCCCCC save secondary histories CCCCCCCCCCCCCCCCCCCCC,manual_lifecycle_review_needed
+experiments/tiegcm2_apex2023_v1/apex.F90,41,module_declaration_candidate,"real,parameter :: re = 6371.2, eps = 1.e-5",syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,43,module_declaration_candidate,"real,allocatable :: &",syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,52,module_declaration_candidate,"integer :: nglat,nglon,ngalt",syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,53,module_declaration_candidate,"real,allocatable :: geolat(:), geolon(:), geoalt(:)",syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,55,module_declaration_candidate,"integer,parameter :: nmax=13",syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,56,module_declaration_candidate,"integer,parameter :: ncoef = nmax*nmax + 2*nmax + 1",syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,57,module_declaration_candidate,"real,dimension(ncoef) :: &",syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,61,module_declaration_candidate,real :: &,syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,67,module_declaration_candidate,"real,parameter ::        &",syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,76,module_declaration_candidate,real ::  &,syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,83,module_declaration_candidate,real ::  &,syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,89,module_declaration_candidate,real ::      &,syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,94,module_declaration_candidate,integer ::   &,syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,96,module_declaration_candidate,real    ::   &,syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,102,module_declaration_candidate,real ::         &,syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/apex.F90,1418,explicit_saved_or_data_local_candidate,"real,save :: d2,d6,d12,d24, &",manual_lifecycle_review_needed
+experiments/tiegcm2_apex2023_v1/apex.F90,1886,explicit_saved_or_data_local_candidate,"real,save :: g1(n1,ncn1), g2(n2,ncn2), gh(ngh)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/aurora.F,78,module_declaration_candidate,"real, parameter:: fac_p2e = 3.204e-9",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,80,module_declaration_candidate,"real,parameter :: h2deg = 15.",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,83,module_declaration_candidate,logical :: do_aurora,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,84,module_declaration_candidate,integer :: ihem,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,85,module_declaration_candidate,"integer,parameter :: isouth=1, inorth=2",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,93,module_declaration_candidate,"real,parameter :: alfad = 0.5",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,94,module_declaration_candidate,real :: ed,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,95,module_declaration_candidate,real :: fd,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,106,module_declaration_candidate,"real,parameter :: alfac = 0.1",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,107,module_declaration_candidate,real :: ec,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,109,module_declaration_candidate,real :: fc,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,116,module_declaration_candidate,"real :: e1,e2, h1,h2",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,126,module_declaration_candidate,logical :: add_sproton = .false.,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,127,module_declaration_candidate,"real,parameter :: alfa_sp = 10., e_sp = 1.e-20",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,130,module_declaration_candidate,real :: flx_sp,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,133,module_declaration_candidate,logical :: add_helectron = .false.,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,134,module_declaration_candidate,"real,parameter :: alfa30 = 40., e30 = .05",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,148,module_declaration_candidate,"real :: theta0(2), offa(2), dskofa(2), phid(2), phin(2), rrad(2), rradp(2), alfa0, ralfa,ralfa2, rrote, rroth, h0, rh, e0,e20, ree,re2, alfa20",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,167,module_declaration_candidate,"real :: offc(2), dskofc(2), psim(2), psie(2), pcen(2), phidp0(2), phidm0(2), phinp0(2), phinm0(2), rr1(2)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,180,module_declaration_candidate,"real :: dlat_aur(nlon), dlon_aur(nlon), colat(nlon), sinlat(nlon), coslat(nlon), coslon(nlon), sinlon(nlon), alon(nlon)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,190,module_declaration_candidate,"real :: alfa(nlonp4), alfa2(nlonp4), alfa3(nlonp4), flux(nlonp4), flux2(nlonp4), flux3(nlonp4), drizl(nlonp4),cusp(nlonp4), qteaur(nlonp4,nlat), eflux(nlonp4),eflux2(nlonp4),eflux3(nlonp4)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,198,module_declaration_candidate,"real :: cusp2d(nlonp4,nlat),drzl2d(nlonp4,nlat), alfa2d(nlonp4,nlat),nflx2d(nlonp4,nlat), eflux2d(nlonp4,nlat)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,204,module_declaration_candidate,real :: aureff(nlevp1),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/aurora.F,205,module_declaration_candidate,real :: bdriz(nlevp1),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/bgrd_data.F,44,module_declaration_candidate,"real,allocatable,dimension(:,:) :: bgrddata_z, bgrddata_t, bgrddata_u, bgrddata_v",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/bgrd_data.F,52,module_declaration_candidate,"integer,parameter,private :: nmonth= 12, nhour = 24",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/bgrd_data.F,53,module_declaration_candidate,"real,allocatable,dimension(:,:,:,:),private :: z_bgrd, t_bgrd, u_bgrd, v_bgrd",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/bgrd_data.F,284,explicit_saved_or_data_local_candidate,data ndmon_nl,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/chapman.F,11,module_declaration_candidate,"real,dimension(nlonp4,nlat) :: chi, sin_chi, cos_chi, rt_sinchi, slt",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/chemrates.F,26,module_declaration_candidate,"real,parameter ::",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/chemrates.F,57,module_declaration_candidate,"real,dimension(:,:,:),allocatable ::",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/chemrates.F,83,module_declaration_candidate,"real,allocatable :: fs(:,:,:,:,:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cism_coupling.F,34,module_declaration_candidate,"real*8,allocatable,dimension(:,:),save :: gzigm2, gzigm1, gnsrhs",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cism_coupling.F,39,module_declaration_candidate,"real*8, dimension(nlat,nlonp1) :: ting_pot_interp, ting_eng_interp, ting_flux_interp",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cism_coupling.F,43,module_declaration_candidate,"real*8, dimension(nlat,nlonp1) :: ting_ped, ting_hall, ting_gnsrhs",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cism_coupling.F,47,module_declaration_candidate,"real*8, dimension(nlonp4,nlat) :: gpot, geng, gflx",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cism_coupling.F,54,module_declaration_candidate,"real*8, dimension(nlonp4,0:nlatp1) :: gpotm",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cism_coupling.F,58,module_declaration_candidate,integer :: xjd,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_ar.F,19,module_declaration_candidate,"real,allocatable,dimension(:,:)   :: ar_ubc",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_ar.F,20,module_declaration_candidate,"real,allocatable,dimension(:,:,:) :: ar_lbc",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_ar.F,21,module_declaration_candidate,"real,allocatable,dimension(:,:,:) :: ar_prod, ar_loss",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_ar.F,32,module_declaration_candidate,"real,parameter :: ar_glbm(nlevp1) = (/ 1.164e-02, 1.074e-02, 9.443e-03, 7.905e-03, 6.342e-03, 4.927e-03, 3.737e-03, 2.776e-03, 2.017e-03, 1.430e-03, 9.855e-04, 6.575e-04, 4.229e-04, 2.613e-04, 1.548e-04, 8.797e-05, 4.806e-05, 2.535e-05, 1.298e-05, 6.488e-06, 3.184e-06, 1.541e-06, 7.381e-07, 3.511e-07, 1.662e-07, 7.840e-08, 3.689e-08, 1.733e-08, 7.436e-09 /)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_ar.F,47,module_declaration_candidate,"real,parameter :: ar_glbm(nlevp1) = (/ 1.164e-02, 1.124e-02, 1.074e-02, 1.013e-02, 9.443e-03, 8.691e-03, 7.905e-03, 7.114e-03, 6.342e-03, 5.609e-03, 4.927e-03, 4.302e-03, 3.737e-03, 3.229e-03, 2.776e-03, 2.373e-03, 2.017e-03, 1.704e-03, 1.430e-03, 1.192e-03, 9.855e-04, 8.084e-04, 6.575e-04, 5.298e-04, 4.229e-04, 3.341e-04, 2.613e-04, 2.022e-04, 1.548e-04, 1.173e-04, 8.797e-05, 6.533e-05, 4.806e-05, 3.505e-05, 2.535e-05, 1.820e-05, 1.298e-05, 9.201e-06, 6.488e-06, 4.554e-06, 3.184e-06, 2.218e-06, 1.541e-06, 1.068e-06, 7.381e-07, 5.095e-07, 3.511e-07, 2.417e-07, 1.662e-07, 1.142e-07, 7.840e-08, 5.380e-08, 3.689e-08, 2.529e-08, 1.733e-08, 1.188e-08, 7.436e-09 /)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_n4s.F,27,module_declaration_candidate,"real,allocatable,dimension(:,:)   :: n4s_ubc",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_n4s.F,28,module_declaration_candidate,"real,allocatable,dimension(:,:,:) :: n4s_lbc",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_n4s.F,29,module_declaration_candidate,"real,allocatable,dimension(:,:,:) :: n4s_prod, n4s_loss",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_n4s.F,32,module_declaration_candidate,"real :: phi_n4s(3) = (/0.651, 0.731, 0.741/)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_n4s.F,33,module_declaration_candidate,"real,parameter :: alfa_n4s = 0.",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_no.F,15,module_declaration_candidate,"real,allocatable,dimension(:,:)   :: no_ubc",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_no.F,16,module_declaration_candidate,"real,allocatable,dimension(:,:,:) :: no_lbc",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_no.F,17,module_declaration_candidate,"real,allocatable,dimension(:,:,:) :: no_prod, no_loss",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_no.F,20,module_declaration_candidate,"real :: phi_no(3) = (/0.814, 0.866, 0.926/)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/comp_no.F,21,module_declaration_candidate,"real,parameter :: alfa_no = 0.",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,23,module_declaration_candidate,"integer,parameter :: ndays =366",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,24,module_declaration_candidate,"real,parameter :: dzp  = dz, re   = 6.37122e8, re_dyn = 6.378165e8, re_inv = 1./re, avo  = 6.023e23, boltz = 1.38E-16, p0   = 5.0e-4, gask = 8.314e7, grav_par = 3.986004415e20,",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,62,module_declaration_candidate,real :: shapiro,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,63,module_declaration_candidate,real :: default_step,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,64,module_declaration_candidate,real :: smooth_fac,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,66,module_declaration_candidate,integer :: nlonper=nlonp4,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,72,module_declaration_candidate,"real,parameter :: rmass(3) = (/32.,16.,28./), rmass_o2 = 32., rmass_o1  = 16., rmass_n2  = 28., rmass_o3 = 48., rmass_n4s = 14., rmass_n2d = 14., rmass_no = 30., rmass_op  = 16., rmass_co2 = 44., rmass_he =  4., rmass_ar  = 40.",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,78,module_declaration_candidate,"real,parameter :: rmassinv_o2  = 1./rmass_o2, rmassinv_o1  = 1./rmass_o1, rmassinv_n2  = 1./rmass_n2, rmassinv_o3  = 1./rmass_o3, rmassinv_n4s = 1./rmass_n4s, rmassinv_n2d = 1./rmass_n2d, rmassinv_no  = 1./rmass_no, rmassinv_op  = 1./rmass_op, rmassinv_he  = 1./rmass_he, rmassinv_ar  = 1./rmass_ar",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,92,module_declaration_candidate,"real :: pi, sqrtpi, rtd, dtr, dphi, dphi_2div3, dphi_1div12, dphi2_5div2, dphi2_4div3, dphi2_1div12, dlamda, dlamda_2div3, dlamda_1div12, dlamda2_5div2, dlamda2_4div3, dlamda2_1div12, dt, dtx2, dtx2inv, freq_3m3, freq_semidi, expz(nlev+1), expzmid, expzmid_inv, rmassinv(3), t0(nlev+1), racs(nlat), cs(-1:nlat+2), cs2_inv(nlat), sn(nlat), tn(nlat), cor(nlat), grav, dzgrav, difk(nlev+1,ndays), dift(nlev+1,ndays), xmue(nlev+1,ndays), zbound",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,133,module_declaration_candidate,"real,parameter :: h0 =9.0e6, r0 =re+h0",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,138,module_declaration_candidate,"real,parameter :: hs=1.3e7",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,139,module_declaration_candidate,"real :: dlatg, dlong, dlatm, dlonm,dmagphrlon, ylatm(nmlat), ylonm(nmlonp1), rcos0s(nmlat), dt0dts(nmlat), dt1dts(nmlat), table(91,2)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,150,module_declaration_candidate,"real :: ylatg(0:nlatp1), ylong(nlonp1)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,156,module_declaration_candidate,"real :: crit(2) = (/0.261799387, 0.523598775/)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,161,module_declaration_candidate,"integer,parameter :: kut(nlat) = (/1,2,3,5,6,7,9,10,11,13,14,15,17,17,17,17,17,17,17,17,17,17,17, 17,15,14,13,11,10,9,7,6,5,3,2,1/)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,165,module_declaration_candidate,"integer,parameter :: kut(nlat) = (/1  ,1  ,2  ,2  ,4  ,4  ,8  ,8  ,10 ,10 ,12 ,12, 15 ,15 ,18 ,18 ,22 ,22 ,26 ,26 ,30 ,30 ,32 ,32, 34 ,34 ,34 ,34 ,34 ,34 ,34 ,34 ,34 ,34 ,34 ,34, 34 ,34 ,34 ,34 ,34 ,34 ,34 ,34 ,34 ,34 ,34 ,34, 32 ,32 ,30 ,30 ,26 ,26 ,22 ,22 ,18 ,18 ,15 ,15, 12 ,12 ,10 ,10 ,8  ,8  ,4  ,4  ,2  ,2  ,1  ,1/)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,190,module_declaration_candidate,"logical,parameter :: check_exp = .true.",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,192,module_declaration_candidate,"logical,parameter :: check_exp = .false.",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,200,module_declaration_candidate,"real,parameter :: pi_dyn=3.14159265358979312",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/cons.F,203,module_declaration_candidate,"integer,parameter :: difhor=1",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/ctmt.F,33,module_declaration_candidate,"real,allocatable,dimension(:,:) :: ctmt_z, ctmt_t,  ctmt_u, ctmt_v",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/ctmt.F,38,module_declaration_candidate,"integer,parameter,private :: nmonth= 12, nhour = 24",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/ctmt.F,39,module_declaration_candidate,"real,allocatable,dimension(:,:,:,:),private :: z_ctmt, t_ctmt,  u_ctmt,  v_ctmt",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/ctmt.F,265,explicit_saved_or_data_local_candidate,data ndmon_nl,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/current.F90,32,module_declaration_candidate,"real,parameter :: unitv(nmlon)=1.",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/current.F90,33,module_declaration_candidate,"real,dimension(nmlon0,nmlat,10) :: nscoef",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/current.F90,34,module_declaration_candidate,"real,dimension(nmlon0,nmlat) :: nscrrt",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/diags.F,17,module_declaration_candidate,"integer,parameter :: longname_len  = 80, shortname_len = 16, units_len     = 16",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/diags.F,26,module_declaration_candidate,"integer,parameter :: ndiag = 43",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/diags.F,28,module_declaration_candidate,character(len=longname_len)  :: long_name,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/diags.F,29,module_declaration_candidate,character(len=shortname_len) :: short_name,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/diags.F,30,module_declaration_candidate,character(len=units_len)     :: units,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/diags.F,31,module_declaration_candidate,character(len=shortname_len) :: levels,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/diags.F,32,module_declaration_candidate,character(len=shortname_len) :: caller,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/diags.F,34,module_declaration_candidate,type(diag_type) :: diags(ndiag),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/diags.F,428,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,451,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,478,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,511,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,539,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,567,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,591,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,613,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,635,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,658,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,681,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,703,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,725,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,747,explicit_saved_or_data_local_candidate,"integer,save :: iex=-1,iey=-1,iez=-1",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,782,explicit_saved_or_data_local_candidate,"integer,save :: ibx=-1,iby=-1,ibz=-1",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,812,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,834,explicit_saved_or_data_local_candidate,"integer,save :: ied1=-1,ied2=-1",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,862,explicit_saved_or_data_local_candidate,"integer,save :: ixhmf2=-1,ixnmf2=-1,ixfof2=-1",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1009,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1046,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1069,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1091,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1113,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1135,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1157,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1182,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1221,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1245,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1274,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1316,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1338,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0,k",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1366,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1388,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1409,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1430,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/diags.F,1451,explicit_saved_or_data_local_candidate,"integer,save :: ix=0,firstcall=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/dispose.F,15,module_declaration_candidate,character(len=32) :: dispose_script,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/dispose.F,16,module_declaration_candidate,integer :: lu_dispose,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/dispose.F,17,module_declaration_candidate,integer :: lenrec = 1024,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/dyndiag.F,7,module_declaration_candidate,"real, dimension(nlonp4,nlat) :: sigp, sigh, qwind, qamie, wtot, work, fwindu,fwindv, famieu,famiev, tec",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/dyndiag.F,17,module_declaration_candidate,"real, dimension(nlonp4,nlat,nlevp1) :: qwind_sec,qamie_sec,work_sec,wtot_sec,fwindu_sec, fwindv_sec,famieu_sec,famiev_sec,famie_sec,fwind_sec, ftot_sec,tec_sec,ped_sec,hall_sec,qjoule_sec",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/esmf.F,20,module_declaration_candidate,"type(ESMF_Grid),save :: geo_src_grid, mag_src_grid, geo_des_grid, mag_des_grid",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/esmf.F,25,module_declaration_candidate,"type(ESMF_Field),save :: geo_ped, geo_hal, geo_zpot, geo_adotv1, geo_adotv2, geo_je1pg, geo_je2pg",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/esmf.F,27,module_declaration_candidate,"type(ESMF_Field),save :: esmf_3dfields(8)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/esmf.F,30,module_declaration_candidate,"type(ESMF_Field),save :: mag_ped, mag_hal, mag_zpot, mag_adotv1, mag_adotv2, mag_je1pg, mag_je2pg",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/esmf.F,34,module_declaration_candidate,"type(ESMF_Field),save :: geo_sini, geo_adota1, geo_adota2, geo_a1dta2, geo_be3",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/esmf.F,38,module_declaration_candidate,"type(ESMF_Field),save :: mag_sini, mag_adota1, mag_adota2, mag_a1dta2, mag_be3",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/esmf.F,41,module_declaration_candidate,"type(ESMF_Field),save :: mag_zigm1, mag_zigm2, mag_nsrhs",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/esmf.F,42,module_declaration_candidate,"type(ESMF_Field),save :: geo_zigm1, geo_zigm2, geo_nsrhs",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/esmf.F,46,module_declaration_candidate,"type(ESMF_Field),save :: mag_phi3d,mag_ephi3d,mag_elam3d,mag_emz3d",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/esmf.F,47,module_declaration_candidate,"type(ESMF_Field),save :: geo_phi3d,geo_ephi3d,geo_elam3d,geo_emz3d",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/esmf.F,49,module_declaration_candidate,"type(ESMF_RouteHandle),save :: routehandle_geo2mag, routehandle_mag2geo, routehandle_geo2mag_2d, routehandle_mag2geo_2d",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/esmf.F,763,explicit_saved_or_data_local_candidate,"integer,save :: ncalls=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/esmf.F,764,explicit_saved_or_data_local_candidate,"integer,save :: lbnd(3),ubnd(3)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/esmf.F,771,explicit_saved_or_data_local_candidate,"real,allocatable,save :: ftmp(:,:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/esmf.F,903,explicit_saved_or_data_local_candidate,"integer,save :: ncalls=0,lbnd(3),ubnd(3)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/esmf.F,946,explicit_saved_or_data_local_candidate,"integer,save :: ncalls=0,lbnd(2),ubnd(2)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/fft9.F,696,explicit_saved_or_data_local_candidate,DATA MODE /3/,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/fft9.F,831,explicit_saved_or_data_local_candidate,"DATA SIN36/0.587785252292473/,COS36/0.809016994374947/,",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/fields.F,19,module_declaration_candidate,"integer,parameter :: nf4d          = 30, nf4d_hist     = 28, nf3d          = 46",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,23,module_declaration_candidate,"real,parameter :: field_initval = 0.",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,25,module_declaration_candidate,"integer,parameter :: longname_len  = 80, shortname_len = 16, units_len     = 16",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,29,module_declaration_candidate,"integer :: levd0,levd1, lond0,lond1, latd0,latd1",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,35,module_declaration_candidate,character(len=longname_len)  :: long_name,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,36,module_declaration_candidate,character(len=shortname_len) :: short_name,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,37,module_declaration_candidate,character(len=units_len)     :: units,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,38,module_declaration_candidate,character(len=16)            :: vcoord,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,39,module_declaration_candidate,"logical                      :: magnetic, prognostic, mpi",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,43,module_declaration_candidate,real                         :: polesign,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,44,module_declaration_candidate,"real,pointer                 :: data(:,:,:,:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,46,module_declaration_candidate,type (fields_4d) :: f4d(nf4d),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,49,module_declaration_candidate,"integer :: i_tn    ,i_un     ,i_vn     ,i_o2     ,i_o1     , i_n4s   ,i_no     ,i_op     ,i_n2d    ,i_ti     , i_te    ,i_ne     ,i_o2p    ,i_w      ,i_z      , i_poten ,i_tn_nm  ,i_un_nm  ,i_vn_nm  ,i_o2_nm  , i_o1_nm ,i_n4s_nm ,i_no_nm  ,i_op_nm  ,i_barm   , i_vc    ,i_he     ,i_he_nm  ,i_ar     ,i_ar_nm",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,61,module_declaration_candidate,"real,dimension(:,:,:,:),target,allocatable :: tn      ,un       ,vn       ,o2       ,o1       , n4s     ,no       ,op       ,n2d      ,ti       , te      ,ne       ,o2p      ,w        ,z        , poten   ,tn_nm    ,un_nm    ,vn_nm    ,o2_nm    , o1_nm   ,n4s_nm   ,no_nm    ,op_nm    ,barm     , vc      ,he       ,he_nm    ,ar       ,ar_nm",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,73,module_declaration_candidate,character(len=longname_len)  :: long_name,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,74,module_declaration_candidate,character(len=shortname_len) :: short_name,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,75,module_declaration_candidate,character(len=units_len)     :: units,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,76,module_declaration_candidate,character(len=16)            :: vcoord,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,77,module_declaration_candidate,character(len=8)             :: dimnames(3),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,78,module_declaration_candidate,"logical                      :: magnetic, prognostic, mpi, task0_only",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,83,module_declaration_candidate,real                         :: polesign,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,84,module_declaration_candidate,"real,pointer                 :: data(:,:,:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,86,module_declaration_candidate,type (fields_3d) :: f3d(nf3d),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,89,module_declaration_candidate,"integer :: i_kldt   ,i_kldu    ,i_kldv    ,i_kldo2 ,i_kldo1 ,i_kldhe, i_xnmbar ,i_xnmbari ,i_xnmbarm ,i_cp    ,i_kt    , i_km     ,i_ui      ,i_vi      ,i_wi    ,i_vo2   , i_vo1    ,i_vn2     ,i_sco2    ,i_sco1  ,i_scn2  , i_xiop2p ,i_xiop2d  ,i_nplus   ,i_n2p   ,i_nop   , i_lxx    ,i_lyy     ,i_lxy     ,i_lyx   ,i_qji_ti, i_qji_tn ,i_cool_implicit      ,i_cool_explicit  , i_hdt    ,i_hdu     ,i_hdv     ,i_hdo2  ,i_hdo1  ,i_hdhe, i_ped    ,i_hall    ,i_lam1    ,i_zg    ,i_n2    ,i_wn",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,104,module_declaration_candidate,"real,dimension(:,:,:),target,allocatable :: kldt     ,kldu     ,kldv     ,kldo2    ,kldo1   ,kldhe, xnmbar   ,xnmbari  ,xnmbarm  ,cp       ,kt      , km       ,ui       ,vi       ,wi       ,vo2     , vo1      ,vn2      ,sco2     ,sco1     ,scn2    , xiop2p   ,xiop2d   ,nplus    ,n2p      ,nop     , lxx      ,lyy      ,lxy      ,lyx      ,qji_ti  , qji_tn   ,cool_implicit      ,cool_explicit     , hdt      ,hdu      ,hdv      ,hdo2     ,hdo1    ,hdhe, ped      ,hall     ,lam1     ,zg       ,n2      ,wn",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,118,module_declaration_candidate,character(len=longname_len)  :: long_name,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,119,module_declaration_candidate,character(len=shortname_len) :: short_name,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,120,module_declaration_candidate,character(len=units_len)     :: units,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,121,module_declaration_candidate,"logical                      :: magnetic, prognostic, mpi, task0_only",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,126,module_declaration_candidate,real                         :: polesign,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,127,module_declaration_candidate,"real,pointer                 :: data(:,:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,132,module_declaration_candidate,"real :: phim3d(nmlonp1,nmlat,mlev0:mlev1), emphi3d(nmlonp1,nmlat,mlev0:mlev1), emlam3d(nmlonp1,nmlat,mlev0:mlev1), emz3d(nmlonp1,nmlat,mlev0:mlev1)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,141,module_declaration_candidate,character(len=longname_len)  :: long_name,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,142,module_declaration_candidate,character(len=shortname_len) :: short_name,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,143,module_declaration_candidate,character(len=units_len)     :: units,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,144,module_declaration_candidate,logical                      :: task0_only,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,145,module_declaration_candidate,logical                      :: prognostic,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,146,module_declaration_candidate,"logical                      :: mag,geo",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,147,module_declaration_candidate,integer                      :: ndims,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,148,module_declaration_candidate,character(len=8)             :: dimnames(3),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,149,module_declaration_candidate,integer                      :: dimsizes(3),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,150,module_declaration_candidate,"real,pointer                 :: data(:,:,:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,152,module_declaration_candidate,type(fields_sech) :: fsechist(mxfsech),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,158,module_declaration_candidate,"integer :: itc,itp",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,163,module_declaration_candidate,"logical,parameter :: fakeflds = .false.",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,165,module_declaration_candidate,"real,dimension(nlevp1,nlonp4+1,-2:nlat) :: fnrh, fkmh",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,171,module_declaration_candidate,"real,allocatable,dimension(:,:) :: tlbc,     ulbc,     vlbc, tlbc_nm,  ulbc_nm,  vlbc_nm, tlbc_glb, ulbc_glb, vlbc_glb, tlbc_nm_glb, ulbc_nm_glb, vlbc_nm_glb",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,180,module_declaration_candidate,"real,allocatable :: foutput(:,:,:,:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/fields.F,181,module_declaration_candidate,"real,allocatable :: fzg(:,:,:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/filter.F,17,module_declaration_candidate,"integer,parameter :: ntrigs = 3*nlon/2+1",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/filter.F,18,module_declaration_candidate,real :: trigs(ntrigs),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/filter.F,19,module_declaration_candidate,integer :: ifax(13),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/getapex.F,22,module_declaration_candidate,"integer,parameter :: nalt=2",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/getapex.F,26,module_declaration_candidate,"real,dimension(nlonp1,nlat,3,2) :: dvec",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/getapex.F,27,module_declaration_candidate,"real,dimension(nlonp1,nlat) :: dddarr,be3arr",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/getapex.F,28,module_declaration_candidate,"real,dimension(nlatp1) :: gplat",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/getapex.F,29,module_declaration_candidate,"real,dimension(nlonp2) :: gplon",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/getapex.F,30,module_declaration_candidate,"real,dimension(nalt)   :: gpalt",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/getapex.F,34,module_declaration_candidate,"real,dimension(nmlonp1,nmlat) :: gdlatdeg,gdlondeg",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/gpi.F,45,module_declaration_candidate,"integer,parameter :: mxgpidays = 50000",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/gpi.F,47,module_declaration_candidate,"integer :: ngpidays, gpi_iyd(mxgpidays), iyd_beg,iyd_end",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/gpi.F,52,module_declaration_candidate,"real :: gpi_f107d(mxgpidays), gpi_f107a(mxgpidays), gpi_kp(8,mxgpidays)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/gpi.F,57,module_declaration_candidate,real :: fkp,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/gpi.F,454,explicit_saved_or_data_local_candidate,data ncalls/0/,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/gpi.F,546,explicit_saved_or_data_local_candidate,data luin/20/,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/gpi.F,781,explicit_saved_or_data_local_candidate,"data ndmon/31,28,31,30,31,30,31,31,30,31,30,31/",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/gpi.F,815,explicit_saved_or_data_local_candidate,"data ndmon/31,28,31,30,31,30,31,31,30,31,30,31/",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/gswm.F,33,module_declaration_candidate,"real,allocatable,dimension(:,:) :: gswm_mi_di_z, gswm_mi_sdi_z, gswm_nm_di_z, gswm_nm_sdi_z, gswm_mi_di_t, gswm_mi_sdi_t, gswm_nm_di_t, gswm_nm_sdi_t, gswm_mi_di_u, gswm_mi_sdi_u, gswm_nm_di_u, gswm_nm_sdi_u, gswm_mi_di_v, gswm_mi_sdi_v, gswm_nm_di_v, gswm_nm_sdi_v",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/gswm.F,41,module_declaration_candidate,"integer,parameter,private :: nmonth= 12, nhour = 24",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/gswm.F,42,module_declaration_candidate,"real,allocatable,dimension(:,:,:,:),private :: z_mi_di, z_mi_sdi, z_nm_di, z_nm_sdi, t_mi_di, t_mi_sdi, t_nm_di, t_nm_sdi, u_mi_di, u_mi_sdi, u_nm_di, u_nm_sdi, v_mi_di, v_mi_sdi, v_nm_di, v_nm_sdi",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/gswm.F,316,explicit_saved_or_data_local_candidate,data ndmon_nl,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/hdif.F,15,module_declaration_candidate,"real,dimension(nlevp1,0:nlonp4+1,-2:nlat) :: fnrh, fkmh",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/he_coef0_dres.F,12,module_declaration_candidate,integer :: lat,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/he_coef0_dres.F,17,module_declaration_candidate,"real,dimension(72,0:70,0:71) :: pmn",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/he_coef1_dres.F,11,module_declaration_candidate,integer :: lat,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/he_coef1_dres.F,16,module_declaration_candidate,"real,dimension(72,0:70,0:71) :: zmn",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/he_coefs_sres.F,12,module_declaration_candidate,integer :: lat,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/he_coefs_sres.F,17,module_declaration_candidate,"real,dimension(36,0:34,0:35) :: pmn,zmn",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/heelis.F,13,module_declaration_candidate,"integer,parameter :: nmlat0=(nmlat+1)/2",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/heelis.F,14,module_declaration_candidate,"real,dimension(nmlonp1,nmlat)  :: phihm",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,46,module_declaration_candidate,"integer,parameter :: iprint = 0",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,48,module_declaration_candidate,logical :: netcdf,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,51,module_declaration_candidate,"integer :: nseries_prim, iseries_prim, nsource, nfiles_prim, nstep, ncid, nhist, nhist_total, ioutfile, modeltime(4)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,68,module_declaration_candidate,"integer :: isechist, nseries_sech, iseries_sech, istep_sech, nfiles_sech, ncidsech, nsech, nsecsource, nsech_total, isecout, nfsech",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,84,module_declaration_candidate,character(len=80) :: label,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,86,module_declaration_candidate,"character(len=16) :: model_version, model_name",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,89,module_declaration_candidate,"character(len=16) :: hist_type, run_type, host, system, logname",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,95,module_declaration_candidate,"character(len=24) :: create_date, write_date",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,98,module_declaration_candidate,"character(len=mxlen_filename) :: source_file, initial_file, output_file, see_ncfile, gpi_ncfile, ncep_ncfile, imf_ncfile, gswm_mi_di_ncfile, gswm_mi_sdi_ncfile, gswm_nm_di_ncfile, gswm_nm_sdi_ncfile, saber_ncfile, tidi_ncfile, ctmt_ncfile, bgrddata_ncfile",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,114,module_declaration_candidate,"integer :: nlat, nlon, nlev, ihist, delhmins, modeltime(4), iter, year, day, calendar_advance, step, initial_day, initial_year, initial_mtime(3), source_mtime(3), tuv_lbc_intop, ntask_mpi, coupled_cmit",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,133,module_declaration_candidate,"real :: ut, time, missing_value, zmtop, zmbot, zitop, zibot, p0, p0_model, grav, hpower, ctpoten, bximf, byimf, bzimf, swvel, swden, al, kp, f107d, f107a, dtide(2), sdtide(10), colfac, e1,e2, h1,h2, alfac,ec, alfad,ed, lbc, joulefac",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,164,module_declaration_candidate,logical dynamo,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,165,module_declaration_candidate,logical coupled_ccm,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,166,module_declaration_candidate,"integer :: nflds,",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,172,module_declaration_candidate,"character(len=16), pointer :: fnames(:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,177,module_declaration_candidate,"type(history) :: h, sh",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/hist.F,182,module_declaration_candidate,real :: real_init = spval,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/imf.F,15,module_declaration_candidate,"integer :: ndata,ndays",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/imf.F,16,module_declaration_candidate,real :: missing,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/imf.F,17,module_declaration_candidate,"integer,dimension(:),target,allocatable :: days",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/imf.F,18,module_declaration_candidate,"real,dimension(:),target,allocatable :: date, uttime,yfrac,bx,by,bz,swvel,swden,kp,f107d,f107a",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,13,module_declaration_candidate,integer :: istep,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,18,module_declaration_candidate,integer :: iter,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,24,module_declaration_candidate,integer :: iyear,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,25,module_declaration_candidate,integer :: iday,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,26,module_declaration_candidate,real :: uthr,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,27,module_declaration_candidate,"integer :: start_mtime(3), stop_mtime(3)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,31,module_declaration_candidate,integer :: igswm_mi_di,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,32,module_declaration_candidate,integer :: igswm_mi_sdi,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,33,module_declaration_candidate,integer :: igswm_nm_di,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,34,module_declaration_candidate,integer :: igswm_nm_sdi,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,35,module_declaration_candidate,integer :: igetgswm,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,36,module_declaration_candidate,integer :: ictmt,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,37,module_declaration_candidate,integer :: ibgrddata,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,39,module_declaration_candidate,"character(len=16) :: host, system, logname",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,43,module_declaration_candidate,"character(len=8) :: rundate, runtime",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,49,module_declaration_candidate,"real :: secs, sfeps,",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/init.F,58,module_declaration_candidate,integer :: idn(nlonp4),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,37,module_declaration_candidate,"character(len=1024) :: label, amievol, amiesh, amienh, hpss_path",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,44,module_declaration_candidate,"integer :: start_day, start_year, calendar_advance, mxday, step, eddy_dif, dynamo, current_pg, current_kq, aurora, iamie, amie_ibkg, ntask_lat, ntask_lon, ntask_maglat, ntask_maglon, calc_helium, enforce_opfloor",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,63,module_declaration_candidate,"real :: tide(10), tide2(2), tide3m3(2), f107, f107a, colfac, joulefac, opdiffcap",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,74,module_declaration_candidate,"real :: power, ctpoten, bximf, byimf, bzimf, swvel, swden, al, kp",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,84,module_declaration_candidate,"real,dimension(4,mxind_time) :: power_time,ctpoten_time, bximf_time,byimf_time,bzimf_time,swvel_time,swden_time,al_time, kp_time,f107_time,f107a_time",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,87,module_declaration_candidate,"integer :: ntimes_ctpoten,ntimes_power,ntimes_bximf,ntimes_byimf, ntimes_bzimf,ntimes_swden,ntimes_swvel,ntimes_al,ntimes_kp, ntimes_f107,ntimes_f107a",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,91,module_declaration_candidate,logical :: aluse,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,94,module_declaration_candidate,"real :: rd_power,rd_ctpoten,rd_f107,rd_f107a,rd_bximf,rd_byimf, rd_bzimf,rd_swvel,rd_swden,rd_kp",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,101,module_declaration_candidate,integer :: indices_interp=1,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,104,module_declaration_candidate,"integer,parameter :: mxlen_filename=1024",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,105,module_declaration_candidate,character(len=mxlen_filename) ::,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,136,module_declaration_candidate,"character(len=1024) :: source, output(mxhvols)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,139,module_declaration_candidate,"integer :: source_start(3), start(3,mxseries), stop(3,mxseries), hist(3,mxseries), mxhist_prim, noutput",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,148,module_declaration_candidate,"character(len=1024) :: secsource, secout(mxhvols)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,151,module_declaration_candidate,character(len=16) :: secflds(mxfsech),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,153,module_declaration_candidate,"integer :: secstart(3,mxseries), secstop(3,mxseries), sechist(3,mxseries), mxhist_sech, sech_nbyte",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,179,module_declaration_candidate,"character(len=16) :: secflds_mandatory(6) = (/'TN              ', 'O2              ', 'O1              ', 'Z               ', 'ZG              ', 'ZMAG            '/)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,188,module_declaration_candidate,character(len=120) :: cwd,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/input.F,189,module_declaration_candidate,integer :: pid,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/laplacian.F,45,explicit_saved_or_data_local_candidate,"integer,save :: mytid=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/lbc.F,20,module_declaration_candidate,"real,dimension(nlonp4,nlat) :: t_lbc, u_lbc, v_lbc, z_lbc",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/lbc.F,30,module_declaration_candidate,"real :: b(nlonp4,3,3),fb(nlonp4,3)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/lbc.F,33,module_declaration_candidate,real :: t0(nlev+1),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/lbc.F,36,module_declaration_candidate,"real,parameter :: pshelb=0.1154E-5",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/lbc.F,274,explicit_saved_or_data_local_candidate,data b/,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/lbc.F,294,explicit_saved_or_data_local_candidate,"data rl/7.8519E5, 3.6665E5, 2.1098E5, 1.3671E5, 0.9565E5/",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/lbc.F,407,explicit_saved_or_data_local_candidate,data b/,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/lbc.F,427,explicit_saved_or_data_local_candidate,data rl/0.6909E5/,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/lbc.F,667,explicit_saved_or_data_local_candidate,data alfa/0.234/,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/magfield.F,28,module_declaration_candidate,"real,dimension(nlonp1,0:nlatp1) :: alatm, alonm, xb, yb, zb,",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/magfield.F,52,module_declaration_candidate,"real :: rjac(nlonp1,0:nlatp1,2,2)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/magfield.F,58,module_declaration_candidate,"real :: av  (nlonp1,0:nlatp1,3,2)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/magfield.F,63,module_declaration_candidate,"integer :: ig(nmlonp1,nmlat), jg(nmlonp1,nmlat), im(nlonp1,0:nlatp1), jm(nlonp1,0:nlatp1)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/magfield.F,74,module_declaration_candidate,"real :: wt(4,nmlonp1,nmlat), dim(nlonp1,0:nlatp1), djm(nlonp1,0:nlatp1)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/magfield.F,83,module_declaration_candidate,"real,dimension(nlonp1,nlat) :: cslatm, snlatm, cslonm, snlonm",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/magfield.F,91,module_declaration_candidate,"real :: cslatg(0:nlatp1), snlatg(0:nlatp1), cslong(nlonp1), snlong(nlonp1)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/magfield.F,103,module_declaration_candidate,"real,dimension(nlonp4,-1:nlatp2) :: bx,by,bz,bmod2",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/magfield.F,104,module_declaration_candidate,"real,dimension(nlonp4,nlat) :: rlatm,rlonm,dipmag,decmag,sndec,csdec,sn2dec,sncsdc",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/magfield.F,110,module_declaration_candidate,real :: sunlons(nlat),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/magpres_g.F,20,module_declaration_candidate,"real, parameter :: matm = 1.6605E-24",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/magpres_g.F,23,module_declaration_candidate,"real,dimension(:,:,:),pointer,save :: je1oD_geo, je2oD_geo",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/magpres_g.F,27,module_declaration_candidate,"real,dimension(nmlonp1,nmlat) :: tpg1,tpg2",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,24,module_declaration_candidate,integer :: irstat(MPI_STATUS_SIZE),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,35,module_declaration_candidate,"integer :: ntask, ntaski, ntaskj, mytid, mytidi, mytidj, lat0,lat1, lon0,lon1, mxlon,mxlat",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,45,module_declaration_candidate,"integer,allocatable :: itask_table(:,:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,49,module_declaration_candidate,"integer :: nmagtaski, nmagtaskj, magtidi, magtidj, mlat0,mlat1, mlon0,mlon1, mxmaglon,mxmaglat",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,57,module_declaration_candidate,"integer,allocatable,save :: itask_table_mag(:,:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,59,module_declaration_candidate,integer :: cols_comm,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,63,module_declaration_candidate,integer :: mytid,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,66,module_declaration_candidate,integer :: mytidi,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,67,module_declaration_candidate,integer :: mytidj,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,68,module_declaration_candidate,integer :: nlats,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,69,module_declaration_candidate,integer :: nlons,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,70,module_declaration_candidate,"integer :: lat0,lat1",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,71,module_declaration_candidate,"integer :: lon0,lon1",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,74,module_declaration_candidate,integer :: magtidi,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,75,module_declaration_candidate,integer :: magtidj,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,76,module_declaration_candidate,integer :: nmaglats,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,77,module_declaration_candidate,integer :: nmaglons,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,78,module_declaration_candidate,"integer :: mlat0,mlat1",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,79,module_declaration_candidate,"integer :: mlon0,mlon1",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,83,module_declaration_candidate,"integer,allocatable,dimension(:),save :: nsend_south, nrecv_north",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,86,module_declaration_candidate,"integer,allocatable,dimension(:,:),save :: send_south_coords, recv_north_coords",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,93,module_declaration_candidate,"type(task),allocatable :: tasks(:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,96,module_declaration_candidate,logical :: mpi_timing=.true.,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,97,module_declaration_candidate,"real,save :: time_totalrun = 0., time_gather2root_prim = 0., time_gather2root_f3d = 0., time_gather2root_sech = 0., time_gather2root_lbc = 0., time_bndlats = 0., time_bndlats_f2d = 0., time_bndlons = 0., time_bndlons_f3d = 0., time_bndlons_f2d = 0., time_polelats = 0., time_polelat_f3d = 0., time_gatherlons_f3d = 0., time_scatterlons_f3d = 0., time_periodic_f4d = 0., time_periodic_f3d = 0., time_periodic_f2d = 0., time_mageq = 0., time_mageq_jpm1 = 0., time_mageq_jpm3 = 0., time_magpole_2d = 0., time_magpole_3d = 0., time_magpoles = 0., time_conjugate_points = 0., time_mag_foldhem = 0., time_mag_periodic_f2d = 0., time_gather_pdyn = 0., time_mag_halos = 0., time_geo_halos = 0., time_geo_halos_f3d = 0., time_scatter_coeffs = 0., time_scatter_phim = 0., time_bndlats_kmh = 0., time_bndlons_kmh = 0., time_mag_jslot = 0., time_gather_f2d = 0., time_scatter_f2d = 0.",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/mpi.F,428,explicit_saved_or_data_local_candidate,"integer,allocatable,save ::",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,636,explicit_saved_or_data_local_candidate,"real,allocatable,save :: rcvbuf(:,:,:,:),sndbuf(:,:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,777,explicit_saved_or_data_local_candidate,"real,allocatable,save :: rcvbuf(:,:,:,:),sndbuf(:,:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,935,explicit_saved_or_data_local_candidate,"real,allocatable,save :: rcvbuf(:,:,:),sndbuf(:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,1064,explicit_saved_or_data_local_candidate,"real,allocatable,save :: sndbuf(:,:,:),rcvbuf(:,:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,1152,explicit_saved_or_data_local_candidate,"real,allocatable,save :: sndbuf(:,:,:,:),rcvbuf(:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,1227,explicit_saved_or_data_local_candidate,"real,allocatable,save ::",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,1363,explicit_saved_or_data_local_candidate,"real,allocatable,save ::",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,1496,explicit_saved_or_data_local_candidate,"real,allocatable,save ::",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,1636,explicit_saved_or_data_local_candidate,"integer,save :: nfsave=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,1637,explicit_saved_or_data_local_candidate,"real,allocatable,save ::",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,1816,explicit_saved_or_data_local_candidate,"real,allocatable,save ::",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,1958,explicit_saved_or_data_local_candidate,"real,allocatable,save ::",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,2227,explicit_saved_or_data_local_candidate,"real,allocatable,save ::",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,2499,explicit_saved_or_data_local_candidate,"real,allocatable,save ::",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,2637,explicit_saved_or_data_local_candidate,"real,allocatable,save ::",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,2761,explicit_saved_or_data_local_candidate,"real,allocatable,save :: sndbuf(:,:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,2762,explicit_saved_or_data_local_candidate,"real,allocatable,save :: rcvbuf(:,:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,2897,explicit_saved_or_data_local_candidate,"real,allocatable,save :: sndbuf(:,:,:,:),rcvbuf(:,:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,3049,explicit_saved_or_data_local_candidate,"real,allocatable,save :: sndbuf(:,:,:),rcvbuf(:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,3599,explicit_saved_or_data_local_candidate,"real,allocatable,save :: sndbuf(:,:,:),",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,3714,explicit_saved_or_data_local_candidate,"real,allocatable,save :: sndbuf(:,:,:,:), rcvbuf(:,:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,3807,explicit_saved_or_data_local_candidate,"real,allocatable,save :: sndbuf(:,:,:,:), rcvbuf(:,:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,3930,explicit_saved_or_data_local_candidate,"real,allocatable,save :: sndbuf(:,:,:,:),rcvbuf(:,:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,4031,explicit_saved_or_data_local_candidate,"real,allocatable,save :: sndbuf(:,:,:,:,:),rcvbuf(:,:,:,:,:)",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mpi.F,4131,explicit_saved_or_data_local_candidate,"real,allocatable,save :: sndbuf(:,:,:,:),rcvbuf(:,:,:,:)",manual_lifecycle_review_needed
+experiments/tiegcm2_apex2023_v1/mud.F,79,explicit_saved_or_data_local_candidate,DATA MAXCYA/150/,manual_lifecycle_review_needed
+experiments/tiegcm2_apex2023_v1/mud.F,292,explicit_saved_or_data_local_candidate,data int / 0 /,manual_lifecycle_review_needed
+experiments/tiegcm2_apex2023_v1/mud.F,293,explicit_saved_or_data_local_candidate,save int,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mudmod.F,84,explicit_saved_or_data_local_candidate,DATA MAXCYA/50/,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mudmod.F,249,explicit_saved_or_data_local_candidate,data int / 0 /,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/mudmod.F,250,explicit_saved_or_data_local_candidate,save int,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/muh2cr.F,76,explicit_saved_or_data_local_candidate,DATA MAXCYA/1/,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/muh2cr.F,234,explicit_saved_or_data_local_candidate,data int / 0 /,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/muh2cr.F,235,explicit_saved_or_data_local_candidate,save int,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/nchist.F,36,module_declaration_candidate,"integer,private :: id_time, id_mtimedim, id_lon,id_lat, id_lev,id_ilev, id_mlon,id_mlat, id_mlev,id_imlev, id_latlon, id_dtide, id_sdtide, id_fake, id_datelen, id_filelen, ids1(1),ids2(2),ids3(3),ids4(4), start_2d(2),count_2d(2), start_3d(3),count_3d(3), start_4d(4),count_4d(4),",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/nchist.F,75,module_declaration_candidate,"integer,allocatable :: idv_sech(:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/nchist.F,76,module_declaration_candidate,integer :: idv_fsech(mxfsech),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/nchist.F,82,module_declaration_candidate,logical :: check_nan = .true.,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/nchist.F,84,module_declaration_candidate,logical :: check_nan = .false.,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/nchist.F,86,module_declaration_candidate,character(len=16) :: datasource_kp=' ',syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/oplus.F,22,module_declaration_candidate,logical :: callfilt1=.false.,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/oplus.F,23,module_declaration_candidate,logical :: callfilt2=.true.,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/output.F,98,explicit_saved_or_data_local_candidate,"integer,save :: ihist_total=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/output.F,243,explicit_saved_or_data_local_candidate,"integer,save :: ihist_total=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/params.F,13,module_declaration_candidate,"integer,parameter :: nlat = NLAT, nlon = NLON, nlev = NLEV, nilev = NLEV, nlonp4 = nlon+4, nlevp1 = nlev+1, nilevp1 = nilev+1, nlonp1=nlon+1, nlatp1=nlat+1, nlonp2=nlon+2, nlatp2=nlat+2",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,23,module_declaration_candidate,"real,parameter :: glat1 = GLAT1, dlat  = DLAT, glon1 = GLON1, dlon  = DLON, dlev  = (ZITOP-ZIBOT)/NLEV, dz    = dlev, zmtop = ZMTOP, zmbot = ZMBOT, zitop = ZITOP, zibot = ZIBOT",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,34,module_declaration_candidate,"real :: glon(nlon),glat(nlat),zpmid(nlevp1),zpint(nlevp1)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,35,module_declaration_candidate,"real,parameter :: spval = 1.e36",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,37,module_declaration_candidate,"integer,parameter :: ispval = 999",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,41,module_declaration_candidate,"integer,parameter :: nmlat = 97, nmlon = 80, nmlonp1=nmlon+1, nmlonp2=nmlon+2, nmlatp1=nmlat+1, nmlath=(nmlat+1)/2",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,49,module_declaration_candidate,"real,parameter :: zpbot_dyn  = -8.25",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,50,module_declaration_candidate,"real,parameter :: zpibot_dyn = -8.5",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,51,module_declaration_candidate,"real,parameter :: dmlev = dlev",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,56,module_declaration_candidate,"integer,parameter :: nmlev_diff = int((zibot-zpibot_dyn)/dlev), nmlevp1 = nlevp1+nmlev_diff, nimlevp1= nmlevp1",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,66,module_declaration_candidate,"integer,parameter :: mlev0 = 1 - nmlev_diff",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,67,module_declaration_candidate,"integer,parameter :: mlev1 = nlevp1",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,69,module_declaration_candidate,"real :: gmlon(nmlonp1), gmlat(nmlat), zpmag(nmlevp1), zpimag(nimlevp1)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,75,module_declaration_candidate,"character(len=16),parameter :: tgcm_version = 'tiegcm_trunk    '",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,78,module_declaration_candidate,"character(len=8),parameter :: tgcm_name    = 'tiegcm'",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/params.F,80,module_declaration_candidate,"integer,parameter :: mxhvols = 500, mxseries = 10, mxseries_sech = 50, mxfsech = 500, mxind_time = 500",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,23,module_declaration_candidate,"real,pointer,dimension(:,:,:),save :: ped_mag,hal_mag,zpot_mag, adotv1_mag, adotv2_mag, je1pg_mag, je2pg_mag",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,28,module_declaration_candidate,"real,pointer,dimension(:,:),save :: sini_mag,adota1_mag, adota2_mag,a1dta2_mag,be3_mag",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,33,module_declaration_candidate,"real,allocatable,dimension(:,:),save :: zigm11, zigmc, zigm2, zigm22, rim1,rim2, rhs, phimsolv, phim2d",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,43,module_declaration_candidate,"real,allocatable,dimension(:,:),save :: zigm1, nsrhs",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,49,module_declaration_candidate,"real,allocatable,dimension(:,:,:),save :: phim3d, ed13d,ed23d, ephi3d, elam3d, emz3d, zpotm3d",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,59,module_declaration_candidate,"real,allocatable,dimension(:,:,:),save :: ex,ey,ez",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,63,module_declaration_candidate,"real,allocatable,dimension(:,:,:),save :: phig3d",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,66,module_declaration_candidate,"real,allocatable,dimension(:,:),save :: coef_rhs",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,68,module_declaration_candidate,"real,allocatable,dimension(:,:,:),save :: coef_cofum",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,71,module_declaration_candidate,"real,allocatable,dimension(:,:),save :: ped_meq, hal_meq, adotv1_meq, adotv2_meq, je1pg_meq, je2pg_meq",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,74,module_declaration_candidate,"real,allocatable,dimension(:,:,:),save :: fmeq_out",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,75,module_declaration_candidate,"real,allocatable,dimension(:,:,:,:),save :: fmeq_in",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,76,module_declaration_candidate,integer :: jlateq,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,78,module_declaration_candidate,"real,allocatable,dimension(:,:) :: ressolv",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,79,module_declaration_candidate,real :: l2norm,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,84,module_declaration_candidate,"integer,parameter :: nf2d=7",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,86,module_declaration_candidate,"integer,parameter :: nf2d=6",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,88,module_declaration_candidate,"real :: feq_jpm1(nmlonp1,2,nf2d)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,89,module_declaration_candidate,"real :: fpole_jpm2(nmlonp1,4,nf2d)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,96,module_declaration_candidate,"real,dimension(nmlonp1,nmlat) :: phim_glb, zigm11_glb,zigm22_glb,zigmc_glb,zigm2_glb,rhs_glb",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,98,module_declaration_candidate,"real,dimension(nmlonp1,nmlat,2) :: rim_glb",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,99,module_declaration_candidate,"real,dimension(0:nmlonp1,0:nmlat+1) :: phisolv",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,102,module_declaration_candidate,"integer,parameter :: nmlon0=nmlon+1, nmlat0=(nmlat+1)/2, nmlon1=(nmlon0+1)/2, nmlat1=(nmlat0+1)/2, nmlon2=(nmlon1+1)/2, nmlat2=(nmlat1+1)/2, nmlon3=(nmlon2+1)/2, nmlat3=(nmlat2+1)/2, nmlon4=(nmlon3+1)/2, nmlat4=(nmlat3+1)/2",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,115,module_declaration_candidate,"real,dimension(nmlon0,nmlat0,9) :: cofum",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,120,module_declaration_candidate,"integer,parameter :: ncee=10*nmlon0*nmlat0+9*(nmlon1*nmlat1+nmlon2*nmlat2+nmlon3* nmlat3+nmlon4*nmlat4)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,130,module_declaration_candidate,real :: cee(ncee),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,136,module_declaration_candidate,"integer,parameter :: nc0=1, nc1=nc0+10*nmlon0*nmlat0, nc2=nc1+9 *nmlon1*nmlat1, nc3=nc2+9 *nmlon2*nmlat2, nc4=nc3+9 *nmlon3*nmlat3",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,151,module_declaration_candidate,integer :: nc(6),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,152,module_declaration_candidate,integer :: mlevtop,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,154,module_declaration_candidate,"real :: c0(nmlon0,nmlat0,10), c1(nmlon1,nmlat1,9), c2(nmlon2,nmlat2,9), c3(nmlon3,nmlat3,9), c4(nmlon4,nmlat4,9)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,167,module_declaration_candidate,logical :: debug = .false.,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,169,module_declaration_candidate,"real,dimension(nmlonp1,nmlat0) :: pfrac",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/pdynamo.F,3712,explicit_saved_or_data_local_candidate,save,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/qrj.F,12,module_declaration_candidate,"integer,parameter :: lmax=37",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/qrj.F,13,module_declaration_candidate,"integer,parameter :: l1=15",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/qrj.F,14,module_declaration_candidate,"real :: euveff(nlevp1), sigeuv(3,lmax), rlmeuv(lmax), feuv(lmax), fsrc(l1), sigsrc(l1), rlmsrc(l1), sigin4s(lmax), quench(4), wave1(lmax), wave2(lmax), sfmin(lmax), afac(lmax), sflux(lmax)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/qrj.F,33,module_declaration_candidate,"real:: BPhotonI(3,lmax), BElectronI(3,lmax),",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/qrj.F,55,module_declaration_candidate,"real,dimension(:,:,:),allocatable :: rj, qtef, qtotal, qop2p, qop2d, qo2p, qop, qn2p, qnp, qnop",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/rgrd2.F,382,explicit_saved_or_data_local_candidate,c       save j pointer for next pass,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/rgrd2.F,420,explicit_saved_or_data_local_candidate,c       save j pointer for next pass,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/rgrd2.F,498,explicit_saved_or_data_local_candidate,c     save j pointer for next pass,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/rgrd2.F,566,explicit_saved_or_data_local_candidate,c       save j pointer for next pass,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/rgrd3.F,495,explicit_saved_or_data_local_candidate,c     save k pointer for next pass,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/rgrd3.F,537,explicit_saved_or_data_local_candidate,c     save k pointer for next pass,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/rgrd3.F,628,explicit_saved_or_data_local_candidate,c       save k pointer for next pass,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/rgrd3.F,703,explicit_saved_or_data_local_candidate,c       save k pointer for next pass,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/saber_tidi.F,22,module_declaration_candidate,"real,allocatable,save,dimension(:,:) :: saber_t, saber_z, tidi_u, tidi_v",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/saber_tidi.F,28,module_declaration_candidate,"integer :: nlon,nlat",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/saber_tidi.F,29,module_declaration_candidate,"integer :: ntime_saber,ntime_tidi",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/saber_tidi.F,30,module_declaration_candidate,"real,allocatable,save,dimension(:,:,:) :: saber_data_t, saber_data_z, tidi_data_u, tidi_data_v",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/saber_tidi.F,32,module_declaration_candidate,"real,allocatable,save,dimension(:) :: saber_yfrac, tidi_yfrac",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/saber_tidi.F,34,module_declaration_candidate,"real :: spval_t,spval_z,spval_u,spval_v",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/soldata.F,15,module_declaration_candidate,"integer :: nstruct, ndate, nwave",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/soldata.F,19,module_declaration_candidate,"integer,allocatable :: date(:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/soldata.F,20,module_declaration_candidate,"real,allocatable :: uttime(:,:), yfrac(:,:), wave1(:,:), wave2(:,:), spflux(:,:,:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/soldata.F,28,module_declaration_candidate,"real,allocatable :: soldata(:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/soldata.F,29,module_declaration_candidate,"real,allocatable :: sflux1(:),sflux2(:)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing.F,12,module_declaration_candidate,"real,external :: rtc",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing.F,26,module_declaration_candidate,integer :: level,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing.F,28,module_declaration_candidate,"logical :: rtc, sys",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing.F,31,module_declaration_candidate,"real :: run, init, step, prep, dynamics, pdynamo, phist, shist, io, qrj, gw, oplus, cmpminor, cmpmajor, dt, duv, magpres_grav, apxparm",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing.F,51,module_declaration_candidate,type (timing_type) :: timing,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing.F,53,module_declaration_candidate,"integer,parameter :: nsegs = 18",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing.F,54,module_declaration_candidate,"character(len=16) :: timing_segs(nsegs) = (/'RUN             ','INIT            ','STEP            ', 'PREP            ','DYNAMICS        ','PDYNAMO         ', 'PHIST           ','SHIST           ','IO              ', 'QRJ             ','GW              ','OPLUS           ', 'CMPMINOR        ','CMPMAJOR        ','DT              ', 'DUV             ','MAGPRES_GRAV    ','APXPARM         '/)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing.F,257,explicit_saved_or_data_local_candidate,"integer,save :: ncalls=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/timing_mpi.F,12,module_declaration_candidate,"real,external :: mpi_wtime",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing_mpi.F,15,module_declaration_candidate,"integer,parameter :: mxsegs=100",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing_mpi.F,16,module_declaration_candidate,integer :: nsegs,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing_mpi.F,20,module_declaration_candidate,character(len=80) :: name,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing_mpi.F,21,module_declaration_candidate,real :: time,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing_mpi.F,22,module_declaration_candidate,real :: total_time,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/timing_mpi.F,24,module_declaration_candidate,type (mpitime_seg_type) :: codesegs(mxsegs),syntactic_only_not_proof_of_cross_step_use
+experiments/tiegcm2_apex2023_v1/util.F,17,explicit_saved_or_data_local_candidate,"integer,save :: lureq(99-7+1)=0",manual_lifecycle_review_needed
+experiments/tiegcm2_apex2023_v1/util.F,839,explicit_saved_or_data_local_candidate,"integer,save :: ncalls=0",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/wei05sc.F,46,module_declaration_candidate,"integer,parameter :: na=6, nb=7, nex=2, n1_scha=19, n2_scha=7, n3_scha=68, csize=28, n_schfits=15, n_alschfits=18",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,49,module_declaration_candidate,"integer :: maxk_scha, maxm_scha, maxl_pot, maxm_pot",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,50,module_declaration_candidate,"real :: bndya(na), bndyb(nb), ex_bndy(nex), ex_epot(nex), ex_bpot(nex)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,52,module_declaration_candidate,"real :: th0s(n3_scha), allnkm(n1_scha,n2_scha,n3_scha)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,53,module_declaration_candidate,"integer :: ab(csize), ls(csize), ms(csize)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,54,module_declaration_candidate,"real :: epot_alschfits(n_alschfits,csize), bpot_alschfits(n_alschfits,csize)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,56,module_declaration_candidate,"real :: bpot_schfits(n_schfits,csize), epot_schfits(n_schfits,csize)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,61,module_declaration_candidate,"real :: rad2deg,deg2rad",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,62,module_declaration_candidate,real :: bndyfitr,syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,63,module_declaration_candidate,"real :: esphc(csize),bsphc(csize)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,64,module_declaration_candidate,"real :: tmat(3,3),ttmat(3,3)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,65,module_declaration_candidate,"integer,parameter :: mxtablesize=500",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,66,module_declaration_candidate,"real :: plmtable(mxtablesize,csize),colattable(mxtablesize)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,67,module_declaration_candidate,real :: nlms(csize),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,68,module_declaration_candidate,"real :: wei05sc_fac(nmlonp1,nmlat)",syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,71,module_declaration_candidate,real :: weictpoten(2),syntactic_only_not_proof_of_cross_step_use
+third_party/TIEGCM2.0/src/wei05sc.F,694,explicit_saved_or_data_local_candidate,"real,save :: prevth0=1.e36",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/wei05sc.F,695,explicit_saved_or_data_local_candidate,"integer,save :: tablesize",manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/wei05sc.F,1350,explicit_saved_or_data_local_candidate,SAVE LMON,manual_lifecycle_review_needed
+third_party/TIEGCM2.0/src/wei05sc.F,1351,explicit_saved_or_data_local_candidate,"DATA LMON/31,28,31,30,31,30,31,31,30,31,30,31/",manual_lifecycle_review_needed

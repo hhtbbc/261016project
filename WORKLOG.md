@@ -650,3 +650,16 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 已有连续轨迹只读+6h净变化RMS A/B：O1 .04103350/.04183313、O2 .00646782/.00655947、N2 .03485958/.03561001 mmr；不称作过程贡献。N2增量代数关系残差最大8.72e-8是float32存储量级，不是物理预算闭合。输出逐时层/6区域CSV、净变化/AB对比/五图；所有未观测过程贡献与闭合R留空并标NOT_EVALUABLE，未生成假过程柱图。
 - 审查主脚本6.558秒、Python峰值RSS154.72MiB，产物约2MiB；没有使用模型180秒MPI预算。python tests/test_tiegcm_process_budget.py的7项CPU合成算术/门禁/非有限/缺项拒绝测试通过，无新增依赖。日志logs/tiegcm_process_budget_v1_{audit,tests}.log。
 - 新报告reports/TIEGCM_2021_PROCESS_BUDGET_DIAGNOSTICS.md、configs/tiegcm_process_budget_v1.json、src/atmosphere/tiegcm_process_budget.py及独立结果标签。旧A7/B7/A14/B14、122候选、科学训练READY=False保持。下一阶段恢复探针/checkpoint资格、插桩等价性及闭合资格需独立明确协议；不自动执行新实验。按长期规则安全同步main、保存真实远端核验，不强推。
+
+## 2026-10-30：运行时状态恢复、插桩与预算三阶段门禁
+
+- 核对唯一工作区/AGENTS/STATUS/WORKLOG、上一轮PROCESS_BUDGET及旧CONTINUATION报告、当前真实Git：本地/远端a53ce69646eb8a49e797777af98c57753f1f7ef7且干净。用户最新明确禁止未经授权同步，本轮不push/fetch/reset/clean/rebase，不覆盖旧提交和科研产物。
+- 审查实际构建Srcfiles/Depends/Make.env/Make.workspace：97个有效源码、同exe SHA f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776、GNU12 -fdefault-real-8/-O2及原GNU兼容/apex覆盖，不编译新模型。状态表107行与516条模块/SAVE声明候选索引；明确不是全程序活跃性证明，未知生命周期/单位保留待核查。审查pdynamo四原生磁数组、fields同名legacy数组、ESMF对象、当前/NM双缓冲、化学工作区、扩散/滤波、驱动与时间/历史控制。
+- 冻结新suiteprotocol：2021-03-23 00源为A14/primary_015，C00→20、S00→10、R10→20原生continuation；3启动/40步、4MPI/OMP1/60秒，上限每次60s/合计180s、RSS16GiB、新增512MiB/卷256MiB/余盘20GiB。仅新独立目录，无旧模型重跑、无源码/物理阈值修改。copy完整S primary到R后省略SOURCE，不重标时刻、不补NM、最大记录≤START。
+- 命令：source scripts/activate_tiegcm.sh；python scripts/run_tiegcm_runtime_restart_audit.py > logs/tiegcm_runtime_restart_audit_v1_suite.log。C20步3.323357s/RSS910262272字节，S10步2.182291s/901955584，R10步1.991724s/900648960；三者MPI0/各4NORMAL EXIT。总7.497372s，原始NC168017388字节，均预算内，无第4次启动/重试。
+- 原离线compare在控制前缀误用bitwise断言停止，原脚本/错误log/SHA保留；从实际数据发现28项仅末位差，全部34项按原冻结SI atol/rtol通过，最坏归一化0.787726，6LBC位级相同。没有更改预注册数值阈值，没有将位级不一致改成一致。source scripts/activate_orbit.sh；python scripts/analyze_tiegcm_runtime_restart_audit.py仅离线完成比较。
+- 终点原生恢复FAIL：28/34 primary、9/9核心secondary超差；24补充共同场精确比较18差/6同。TN最大0.214774K、UN/VN0.615428/0.945317m/s、O1 1.97465e-4mmr、POTEN6.802985V、DEN5.38805e-12kg/m3、ZG254.28m。中断前舍入/MPI量级差与恢复后大差异分开，未声称唯一根因是四数组，也未比较未观测原生内部场。源copy00:10的34数组append后仍位级不变，驱动完整精度最大差1.42109e-14，日志三位精度核查及DEN正/TN宽范围/ZG递增通过。
+- 后续命令：python scripts/audit_tiegcm_runtime_state_inventory.py；python scripts/finalize_tiegcm_runtime_restart_audit.py。2346原保护文件SHA一致，含122候选、70A14/B14NC、旧科学交付及TIE原源。新测试python tests/test_runtime_restart_audit.py：6项配置/原生模式/限额/冻结mmr规则测试通过（0.005s）；按用户要求未重复旧7项预算CPU测试。没有模型插桩构建、没有阶段二/三积分、没有真实预算贡献值，缺项/R留空。
+- 交付三报告、结果tiegcm_runtime_restart_audit_v1、冻结实验元数据/原始NC/输入输出SHA/控制前缀和67行终点统计/真实差场图/独立故障记录。四门禁FAIL/PARTIAL/PARTIAL/FAIL，PARTIAL只表静态方案已有而下游未执行；scientific_training_READY=false不解除。下一阶段先明确恢复诊断/内部原生状态序列化和短验证协议，不能直接延长预热或开展预算/训练。
+- 本轮只建立本地审查提交，远端保持原状态，不推送；实际本地SHA及只读远端核查写入本地logs/tiegcm_runtime_restart_audit_v1_git_state.json。结束停止，不自动追加任何实验。
+- 交付检查：代码/报告/CSV/JSON的git whitespace检查单独通过；原模型stdout和冻结namelist含原生尾随空格，保留原字节以维护SHA审计，不对实验输入/原日志做格式化。分阶段停止与完整性最终复核通过不改变科学恢复FAIL结论。

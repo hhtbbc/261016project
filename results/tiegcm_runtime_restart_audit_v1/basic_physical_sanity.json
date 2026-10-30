@@ -1,0 +1,57 @@
+{
+  "records": [
+    {
+      "stage": "continuous",
+      "mtime": [
+        82,
+        0,
+        10
+      ],
+      "DEN_min_g_cm3": 1.0736253779522584e-16,
+      "DEN_max_g_cm3": 1.1985731296348945e-09,
+      "TN_min_K": 146.8378448486328,
+      "TN_max_K": 872.5003662109375,
+      "ZG_monotonic": true
+    },
+    {
+      "stage": "continuous",
+      "mtime": [
+        82,
+        0,
+        20
+      ],
+      "DEN_min_g_cm3": 1.0759478364145113e-16,
+      "DEN_max_g_cm3": 1.1978998903927618e-09,
+      "TN_min_K": 146.85809326171875,
+      "TN_max_K": 874.5448608398438,
+      "ZG_monotonic": true
+    },
+    {
+      "stage": "segment",
+      "mtime": [
+        82,
+        0,
+        10
+      ],
+      "DEN_min_g_cm3": 1.0736253779522584e-16,
+      "DEN_max_g_cm3": 1.1985731296348945e-09,
+      "TN_min_K": 146.8378448486328,
+      "TN_max_K": 872.5003662109375,
+      "ZG_monotonic": true
+    },
+    {
+      "stage": "resumed",
+      "mtime": [
+        82,
+        0,
+        20
+      ],
+      "DEN_min_g_cm3": 1.0759448585643061e-16,
+      "DEN_max_g_cm3": 1.1978998903927618e-09,
+      "TN_min_K": 146.85809326171875,
+      "TN_max_K": 874.468505859375,
+      "ZG_monotonic": true
+    }
+  ],
+  "note": "basic numeric sanity is not restart equivalence or atmospheric validation"
+}

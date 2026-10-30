@@ -1,0 +1,37 @@
+{
+  "protected_files_verified": 2346,
+  "changed": [],
+  "run_statuses": {
+    "continuous": {
+      "stage": "continuous",
+      "returncode": 0,
+      "stop_reason": null,
+      "wall_s": 3.3233573865145445,
+      "peak_sampled_tree_RSS_bytes": 910262272,
+      "normal_exit_count": 4,
+      "file_bytes": 67022127
+    },
+    "segment": {
+      "stage": "segment",
+      "returncode": 0,
+      "stop_reason": null,
+      "wall_s": 2.182290842756629,
+      "peak_sampled_tree_RSS_bytes": 901955584,
+      "normal_exit_count": 4,
+      "file_bytes": 42020321
+    },
+    "resumed": {
+      "stage": "resumed",
+      "returncode": 0,
+      "stop_reason": null,
+      "wall_s": 1.9917241726070642,
+      "peak_sampled_tree_RSS_bytes": 900648960,
+      "normal_exit_count": 4,
+      "file_bytes": 58995973
+    }
+  },
+  "model_wall_sum_s": 7.497372401878238,
+  "new_model_output_bytes": 168017388,
+  "no_original_data_overwritten": true,
+  "no_remote_sync": true
+}

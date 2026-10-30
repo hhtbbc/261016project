@@ -1,0 +1,41 @@
+{
+  "tag": "tiegcm_runtime_restart_audit_v1",
+  "year": 2021,
+  "start": [
+    82,
+    0,
+    0
+  ],
+  "midpoint": [
+    82,
+    0,
+    10
+  ],
+  "stop": [
+    82,
+    0,
+    20
+  ],
+  "max_launches": 3,
+  "stage_model_steps": {
+    "continuous": 20,
+    "segment": 10,
+    "resumed": 10
+  },
+  "MPI": 4,
+  "OMP": 1,
+  "step_s": 60,
+  "wall_per_launch_s": 60,
+  "model_wall_total_s": 180,
+  "RSS_limit_GiB": 16,
+  "new_files_limit_MiB": 512,
+  "minimum_free_GiB": 20,
+  "estimated_model_wall_total_s": 10,
+  "estimated_files_MiB": 160,
+  "existing_executable_unchanged": true,
+  "rule_source": "experiments/tiegcm2023_continuation_v1/frozen_comparison_rules.json",
+  "supplementary_field_rule": "exact equality for all other common numeric physical fields; no invented unit-specific relaxation",
+  "on_recovery_failure": "stop stages II and III; no instrumentation build or budget runs",
+  "no_remote_sync": true,
+  "base_git_HEAD": "a53ce69646eb8a49e797777af98c57753f1f7ef7"
+}

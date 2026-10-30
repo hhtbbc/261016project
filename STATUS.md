@@ -437,3 +437,11 @@ SCIENCE_TRAINING_READY=False、SPINUP_SUFFICIENCY_UNVERIFIED继续保留。不�
 A14/B14共同03-23 00:00 primary_015均为完整34项float64标准状态（iter118080），原配置除SOURCE相同、0—6小时7记录及驱动一致。但PHIM3D/EPHI3D/ELAM3D/EMZ3D未保存，首步恢复路径与连续轨迹不同且2021无损前缀尚未验证；现有历史也缺逐步化学/输运/扩散矩阵与滤波/截断修正。依用户“不能可靠恢复则停止”要求，MPI启动0，过程预算NOT_EVALUABLE，无物理归因排名。没有把2023已有恢复FAIL冒充2021本轮实测FAIL。
 
 报告reports/TIEGCM_2021_PROCESS_BUDGET_DIAGNOSTICS.md及results/tiegcm_2021_process_budget_v1包含源码映射、双时间层隐式预算表达式、闭合标准草案、旧轨迹6小时观察净变化/5图及SHA；7项CPU合成门禁/算术测试通过。闭合草案未通过求解器资格验证，不用来宣称科学PASS。原122候选和SCIENCE_TRAINING_READY=False不变。下一步先恢复状态与插桩资格；不自动启动新的积分、训练或更长预热。
+
+## 2026-10-30：运行时恢复极短2021资格试验——第一阶段FAIL，停止下游
+
+开始时本地/远端均a53ce69，干净；按本轮新指令不远端同步。新标签tiegcm_runtime_restart_audit_v1，从相同合法A14完整primary建立新的连续20min与10+原生续算10min资格对照，未重跑旧A14/B14或旧2023续算。3次4MPI/OMP1/60s短启动共40步，均正常退出；墙钟合计7.497秒，峰值采样MPI树RSS868.09MiB，NetCDF160.23MiB。
+
+中断前34项均在旧冻结数值容差内，6项位级相同；恢复终点28/34标准primary及9/9核心secondary超差（TN最大0.214774K、UN/VN0.615428/0.945317m/s、POTEN6.802985V）。初版离线分析误断言控制前缀位级相同而停止，保留原日志/SHA，另只读复核按原数值容差完成，未重跑或放宽。2346保护文件不变。
+
+107行状态表与97源码有效构建清单、516条声明索引指出内部磁势/坐标电场缺持久化，另区分同名legacy数组/ESMF对象；未声称全部隐藏状态已穷尽或唯一根因已确定。RESTART_RECOVERY_READY=FAIL；INSTRUMENTATION_INVARIANCE_READY=PARTIAL（未执行）；STEPWISE_BUDGET_READY=PARTIAL（未执行）；SCIENTIFIC_TRAINING_READY=FAIL（放行条件未满足）。后两阶段无构建/无模型启动，预算R不可评价。详见TIEGCM_RUNTIME_RESTART_AUDIT、TIEGCM_INSTRUMENTATION_INVARIANCE、TIEGCM_STEPWISE_BUDGET_CLOSURE三报告。本轮不推送、不新增NPZ/统计/训练/长预热或2022实验。

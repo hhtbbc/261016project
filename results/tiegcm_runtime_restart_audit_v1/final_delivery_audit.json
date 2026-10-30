@@ -1,0 +1,33 @@
+{
+  "verified_UTC": "2026-10-30T10:19:19.599212+00:00",
+  "protected_files_unchanged": 2346,
+  "new_model_launches": 3,
+  "new_model_steps": 40,
+  "new_instrumentation_runs": 0,
+  "new_budget_runs": 0,
+  "original_candidates_unchanged": true,
+  "no_remote_sync": true,
+  "new_output_SHA256": {
+    "results/tiegcm_runtime_restart_audit_v1/analysis_incident.json": "d9ed0f1ce89788695fecd6363012afd9ce50ded19b6b0ca58df000bcdfd3fc88",
+    "results/tiegcm_runtime_restart_audit_v1/driver_log_audit.json": "b758c1666d89e48fb8f71de35ed981055f341f26126fbc234fa494c7ca95566d",
+    "results/tiegcm_runtime_restart_audit_v1/endpoint_variables.csv": "f0c76268ab7c260a563782ed448e799e3c9cb1a6635f7d3cb3247c9b5b239f9a",
+    "results/tiegcm_runtime_restart_audit_v1/runtime_state_audit.csv": "5fac243019a2c5dfaed6563544618cb2df4a85a8f38e5683a7ad4c83f6296a04",
+    "results/tiegcm_runtime_restart_audit_v1/runtime_declaration_search_index.csv": "02fcb90d93917fecd725435356f5d5090359cc221fca4dd72828bafcae4411eb",
+    "results/tiegcm_runtime_restart_audit_v1/dependent_stage_status.json": "1c2bb65214a303d0bf443dd3b9081542c64f8f67ba163644e3d8df56805af08c",
+    "results/tiegcm_runtime_restart_audit_v1/comparison.json": "800241c275165a82f6d78173e7ef2ffcd57b666d6561ebaa8747d331c0522ffc",
+    "results/tiegcm_runtime_restart_audit_v1/pre_split_prefix.csv": "9e61d4998b3ff2028a3296b5233e952e1fb6f1ce30e38d20af163e52772af24a",
+    "results/tiegcm_runtime_restart_audit_v1/restart_endpoint_difference.png": "1fec49ce24c56fdcc3b990e163ade40c040556e0a028fe54363d782830e7b3b1",
+    "results/tiegcm_runtime_restart_audit_v1/effective_source_manifest.json": "6b772ba0f6a0f4cf619bb6347ec857ecefab7d933ca8d48a0f7db55f6cb8981b",
+    "results/tiegcm_runtime_restart_audit_v1/integrity_and_resources.json": "c74e754746c77c4c6a5ae807832a3230e210ce02a4910673bbc2c5f6d337bbfa",
+    "results/tiegcm_runtime_restart_audit_v1/basic_physical_sanity.json": "33b2092e318b29fc15447c9d22291b2a9bca805138c66ec89d142e0c8ca3f218",
+    "results/tiegcm_runtime_restart_audit_v1/unavailable_budget.csv": "a86c4be63b243d4800efff860ee52e0f8f4ee01f91e515c946c67583c54c25c5"
+  },
+  "new_code_SHA256": {
+    "scripts/finalize_tiegcm_runtime_restart_audit.py": "0446af3869bf7e32c3cad55bdd91b2858948f7e2a181fc65643f9f5d90fd2219",
+    "scripts/analyze_tiegcm_runtime_restart_audit.py": "c20817c47a38888da5c80290b3e589b756f9716a03b2965744eebdab6efa808d",
+    "scripts/audit_tiegcm_runtime_state_inventory.py": "786ba53b00ab8ac43549d1bd215c20ec27810c89986c84175378c9ca1e1382df",
+    "scripts/run_tiegcm_runtime_restart_audit.py": "baf5da04f7aed25105021f82f37472333eb31215d7e439cfdd23dd8cc0358f34"
+  },
+  "final_classified_table_rows": 107,
+  "remote_sync_authorized": false
+}

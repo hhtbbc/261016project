@@ -1,0 +1,3276 @@
+
+========================================================================
+Begin execution of tiegcm_trunk     at 10/30/26  10:08:01
+  Host    = ws-10-1791952224
+  System  = LINUX
+  Logname = root
+========================================================================
+
+
+========================================================================
+Begin execution of tiegcm_trunk     at 10/30/26  10:08:01
+  Host    = ws-10-1791952224
+  System  = LINUX
+  Logname = root
+========================================================================
+
+
+========================================================================
+Begin execution of tiegcm_trunk     at 10/30/26  10:08:01
+  Host    = ws-10-1791952224
+
+========================================================================
+Begin execution of tiegcm_trunk     at 10/30/26  10:08:01
+  Host    = ws-10-1791952224
+  System  = LINUX
+  Logname = root
+========================================================================
+
+  System  = LINUX
+  Logname = root
+========================================================================
+
+init_timer: level=  1 rtc=F sys=T
+init_timer: level=  1 rtc=F sys=T
+init_timer: level=  1 rtc=F sys=T
+init_timer: level=  1 rtc=F sys=T
+Current working directory (cwd) = /workspace/data/20261016/experiments/tiegcm_runtime_restart_audit_v1/resumed
+Current working directory (cwd) = /workspace/data/20261016/experiments/tiegcm_runtime_restart_audit_v1/resumed
+Current working directory (cwd) = /workspace/data/20261016/experiments/tiegcm_runtime_restart_audit_v1/resumed
+Current working directory (cwd) = /workspace/data/20261016/experiments/tiegcm_runtime_restart_audit_v1/resumed
+
+Reading namelist input data from input.inp
+
+Reading namelist input data from input.inp
+
+Reading namelist input data from input.inp
+
+Reading namelist input data from input.inp
+&tgcm_input
+ LABEL = '2021 runtime restart qualification; not training data'
+ START_YEAR = 2021
+ START_DAY = 82
+ CALENDAR_ADVANCE = 1
+ START = 82 0 10
+ STOP = 82 0 20
+&tgcm_input
+ LABEL = '2021 runtime restart qualification; not training data'
+ START_YEAR = 2021
+ STEP  = 60
+ HIST = 0 0 10
+ OUTPUT = 'primary.nc'
+ MXHIST_PRIM = 3
+ SECSTART = 82 0 20
+ SECSTOP = 82 0 20
+ SECHIST = 0 0 10
+ SECOUT = 'secondary.nc'
+ MXHIST_SECH = 2
+&tgcm_input
+ LABEL = '2021 runtime restart qualification; not training data'
+ START_YEAR = 2021
+ START_DAY = 82
+ CALENDAR_ADVANCE = 1
+ START = 82 0 10
+ STOP = 82 0 20
+ STEP  = 60
+ HIST = 0 0 10
+ START_DAY = 82
+ CALENDAR_ADVANCE = 1
+ START = 82 0 10
+ STOP = 82 0 20
+ STEP  = 60
+ HIST = 0 0 10
+ OUTPUT = 'primary.nc'
+ MXHIST_PRIM = 3
+ SECSTART = 82 0 20
+ SECSTOP = 82 0 20
+ SECHIST = 0 0 10
+ SECOUT = 'secondary.nc'
+ SECFLDS = 'TN' 'UN' 'VN' 'WN' 'O2' 'O1' 'N2' 'NO' 'N4S' 'HE' 'NE'
+           'TE' 'TI' 'TEC' 'O2P' 'OP' 'POTEN' 'UI_ExB' 'VI_ExB'
+           'WI_ExB' 'DEN' 'QJOULE' 'HMF2' 'NMF2' 'Z' 'ZG'
+ GSWM_MI_DI_NCFILE  = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc'
+ GSWM_MI_SDI_NCFILE = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc'
+ POTENTIAL_MODEL = 'HEELIS'
+ CALC_HELIUM = 1
+ GPI_NCFILE = '/workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc'
+&tgcm_input
+ LABEL = '2021 runtime restart qualification; not training data'
+ START_YEAR = 2021
+ START_DAY = 82
+ CALENDAR_ADVANCE = 1
+ START = 82 0 10
+ STOP = 82 0 20
+ STEP  = 60
+ HIST = 0 0 10
+ OUTPUT = 'primary.nc'
+ MXHIST_PRIM = 3
+ OUTPUT = 'primary.nc'
+ MXHIST_PRIM = 3
+ SECSTART = 82 0 20
+ SECSTOP = 82 0 20
+ SECHIST = 0 0 10
+ SECOUT = 'secondary.nc'
+ MXHIST_SECH = 2
+ SECFLDS = 'TN' 'UN' 'VN' 'WN' 'O2' 'O1' 'N2' 'NO' 'N4S' 'HE' 'NE'
+           'TE' 'TI' 'TEC' 'O2P' 'OP' 'POTEN' 'UI_ExB' 'VI_ExB'
+           'WI_ExB' 'DEN' 'QJOULE' 'HMF2' 'NMF2' 'Z' 'ZG'
+ GSWM_MI_DI_NCFILE  = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc'
+ GSWM_MI_SDI_NCFILE = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc'
+ POTENTIAL_MODEL = 'HEELIS'
+ CALC_HELIUM = 1
+ MXHIST_SECH = 2
+ SECFLDS = 'TN' 'UN' 'VN' 'WN' 'O2' 'O1' 'N2' 'NO' 'N4S' 'HE' 'NE'
+           'TE' 'TI' 'TEC' 'O2P' 'OP' 'POTEN' 'UI_ExB' 'VI_ExB'
+           'WI_ExB' 'DEN' 'QJOULE' 'HMF2' 'NMF2' 'Z' 'ZG'
+ GSWM_MI_DI_NCFILE  = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc'
+ GSWM_MI_SDI_NCFILE = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc'
+ POTENTIAL_MODEL = 'HEELIS'
+ CALC_HELIUM = 1
+ GPI_NCFILE = '/workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc'
+/
+/
+Completed successful read of namelist inputs.
+
+
+Input: setting default AURORA = 1
+Input: mkntask chose ntask_lon=  2 ntask_lat=  2 (ntask=  4)
+ SECSTART = 82 0 20
+ SECSTOP = 82 0 20
+ SECHIST = 0 0 10
+ SECOUT = 'secondary.nc'
+ MXHIST_SECH = 2
+ SECFLDS = 'TN' 'UN' 'VN' 'WN' 'O2' 'O1' 'N2' 'NO' 'N4S' 'HE' 'NE'
+           'TE' 'TI' 'TEC' 'O2P' 'OP' 'POTEN' 'UI_ExB' 'VI_ExB'
+           'WI_ExB' 'DEN' 'QJOULE' 'HMF2' 'NMF2' 'Z' 'ZG'
+ GSWM_MI_DI_NCFILE  = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc'
+ GSWM_MI_SDI_NCFILE = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc'
+ POTENTIAL_MODEL = 'HEELIS'
+ CALC_HELIUM = 1
+ GPI_NCFILE = '/workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc'
+/
+ GPI_NCFILE = '/workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc'
+/
+Completed successful read of namelist inputs.
+
+
+Input: setting default AURORA = 1
+Input: mkntask chose ntask_lon=  2 ntask_lat=  2 (ntask=  4)
+Completed successful read of namelist inputs.
+
+
+Input: setting default AURORA = 1
+Input: mkntask chose ntask_lon=  2 ntask_lat=  2 (ntask=  4)
+Input: mkntask chose ntask_maglon=  2 ntask_maglat=  2 (ntask=  4)
+Input: Using default colfac =      1.50
+Input: Using default joulefac =      1.50
+Input: default diffusion maximum (opdiffcap) is turned off by default.
+Input: mkntask chose ntask_maglon=  2 ntask_maglat=  2 (ntask=  4)
+Input: Using default colfac =      1.50
+Input: Using default joulefac =      1.50
+Input: default diffusion maximum (opdiffcap) is turned off by default.
+Input: enforce_opfloor=  1
+Will use the Heelis potential model
+Input: mkntask chose ntask_maglon=  2 ntask_maglat=  2 (ntask=  4)
+Input: Using default colfac =      1.50
+Input: Using default joulefac =      1.50
+Input: default diffusion maximum (opdiffcap) is turned off by default.
+Input: enforce_opfloor=  1
+Input: enforce_opfloor=  1
+Will use the Heelis potential model
+Note input: Setting BY to 0 with HEELIS potential model.
+Note input: Setting BY to 0 with HEELIS potential model.
+Will use the Heelis potential model
+Note input: Setting BY to 0 with HEELIS potential model.
+Completed successful read of namelist inputs.
+
+
+Input: setting default AURORA = 1
+Input: mkntask chose ntask_lon=  2 ntask_lat=  2 (ntask=  4)
+Input: mkntask chose ntask_maglon=  2 ntask_maglat=  2 (ntask=  4)
+Input: Using default colfac =      1.50
+Input: Using default joulefac =      1.50
+Input: default diffusion maximum (opdiffcap) is turned off by default.
+Input: enforce_opfloor=  1
+Will use the Heelis potential model
+Note input: Setting BY to 0 with HEELIS potential model.
+INPUT NOTE: adding mandatory field ZMAG     to secondary history fields (field  27)
+INPUT NOTE: adding mandatory field ZMAG     to secondary history fields (field  27)
+
+------------------------------------------------------------------------
+USER INPUT PARAMETERS:
+INPUT NOTE: adding mandatory field ZMAG     to secondary history fields (field  27)
+  label  = 2021 runtime restart qualification; not training data
+    (optional text label for current run)
+  High-lat electric potential model:  potential_model = HEELIS
+  gpi run: gpi_ncfile = /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+  gswm migrating diurnal file: gswm_mi_di_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  gswm migrating semi-diurnal file: gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+  start_year = 2021 (starting calendar day)
+
+------------------------------------------------------------------------
+USER INPUT PARAMETERS:
+  label  = 2021 runtime restart qualification; not training data
+    (optional text label for current run)
+  High-lat electric potential model:  potential_model = HEELIS
+  gpi run: gpi_ncfile = /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+  gswm migrating diurnal file: gswm_mi_di_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  gswm migrating semi-diurnal file: gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+  start_day  =   82 (starting calendar year)
+  calendar_advance = 1 (model will be advanced in calendar time starting on this day)
+  step    =  60 (model timestep (seconds))
+  ntask_lon =  2 (number of mpi tasks in longitude dimension)
+  start_year = 2021 (starting calendar day)
+  start_day  =   82 (starting calendar year)
+  calendar_advance = 1 (model will be advanced in calendar time starting on this day)
+  step    =  60 (model timestep (seconds))
+  ntask_lon =  2 (number of mpi tasks in longitude dimension)
+  ntask_lat =  2 (number of mpi tasks in latitude  dimension)
+
+------------------------------------------------------------------------
+USER INPUT PARAMETERS:
+  label  = 2021 runtime restart qualification; not training data
+    (optional text label for current run)
+  High-lat electric potential model:  potential_model = HEELIS
+  gpi run: gpi_ncfile = /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+  ntask_lat =  2 (number of mpi tasks in latitude  dimension)
+  total tasks = ntask_lon*ntask_lat =    4
+INPUT NOTE: adding mandatory field ZMAG     to secondary history fields (field  27)
+  total tasks = ntask_lon*ntask_lat =    4
+  gswm migrating diurnal file: gswm_mi_di_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  gswm migrating semi-diurnal file: gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+  start_year = 2021 (starting calendar day)
+  start_day  =   82 (starting calendar year)
+  calendar_advance = 1 (model will be advanced in calendar time starting on this day)
+  step    =  60 (model timestep (seconds))
+  ntask_lon =  2 (number of mpi tasks in longitude dimension)
+  ntask_lat =  2 (number of mpi tasks in latitude  dimension)
+  total tasks = ntask_lon*ntask_lat =    4
+
+------------------------------------------------------------------------
+USER INPUT PARAMETERS:
+  label  = 2021 runtime restart qualification; not training data
+    (optional text label for current run)
+  High-lat electric potential model:  potential_model = HEELIS
+  gpi run: gpi_ncfile = /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+  gswm migrating diurnal file: gswm_mi_di_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  gswm migrating semi-diurnal file: gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+  start_year = 2021 (starting calendar day)
+  start_day  =   82 (starting calendar year)
+  calendar_advance = 1 (model will be advanced in calendar time starting on this day)
+  step    =  60 (model timestep (seconds))
+  ntask_lon =  2 (number of mpi tasks in longitude dimension)
+  ntask_lat =  2 (number of mpi tasks in latitude  dimension)
+  total tasks = ntask_lon*ntask_lat =    4
+  output (primary history output files) = 
+    primary.nc, 
+  start (model start times) =
+     82, 0,10
+  stop (model stop times) =
+     82, 0,20
+  hist (primary history disk write frequencies) =
+  output (primary history output files) = 
+    primary.nc, 
+  start (model start times) =
+     82, 0,10
+  stop (model stop times) =
+     82, 0,20
+  hist (primary history disk write frequencies) =
+      0, 0,10
+      0, 0,10
+  Maxmimum number of histories per primary file =   3
+  Maxmimum number of histories per primary file =   3
+  output (primary history output files) = 
+    primary.nc, 
+  start (model start times) =
+     82, 0,10
+  stop (model stop times) =
+     82, 0,20
+  hist (primary history disk write frequencies) =
+      0, 0,10
+  Maxmimum number of histories per primary file =   3
+  output (primary history output files) = 
+    primary.nc, 
+  start (model start times) =
+     82, 0,10
+  stop (model stop times) =
+     82, 0,20
+  hist (primary history disk write frequencies) =
+      0, 0,10
+  Maxmimum number of histories per primary file =   3
+  secout (secondary history output files)=
+    secondary.nc, 
+  secstart (secondary history start times) =
+     82, 0,20
+  secstop (secondary history stop times) =
+     82, 0,20
+  sechist (secondary history disk write frequencies) =
+      0, 0,10
+  secout (secondary history output files)=
+    secondary.nc, 
+  secstart (secondary history start times) =
+     82, 0,20
+  secstop (secondary history stop times) =
+     82, 0,20
+  sechist (secondary history disk write frequencies) =
+      0, 0,10
+  secflds (secondary history fields) =
+  secflds (secondary history fields) =
+    TN          UN          VN          WN          O2          
+    O1          N2          NO          N4S         HE          
+    NE          TE          TI          TEC         O2P         
+    OP          POTEN       UI_ExB      VI_ExB      WI_ExB      
+    DEN         QJOULE      HMF2        NMF2        Z           
+    ZG          ZMAG        
+  Maximum number of histories per secondary file =   2
+  Number of bytes for values of fields on secondary histories (sech_nbyte) =   4
+  dynamo =  1 (dynamo will be calculated)
+  current_pg =  1 (Add current due to plasma pressure gradient and gravity to rhs)
+    TN          UN          VN          WN          O2          
+    O1          N2          NO          N4S         HE          
+    NE          TE          TI          TEC         O2P         
+    OP          POTEN       UI_ExB      VI_ExB      WI_ExB      
+    DEN         QJOULE      HMF2        NMF2        Z           
+    ZG          ZMAG        
+  current_kq =  0 (Calculate height-integrated current density)
+  eddy_dif =  0 (DOY-dependent eddy diffusion flag)
+  tide (amplitudes and phases of semidiurnal tide) =
+     0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00  0.00  0.00  0.00  0.00  0.00
+  tide2 (amplitude and phase of diurnal tide) =
+     0.0E+00  0.00
+  aurora  =  1 (0/1 flag for aurora)
+  colfac =     1.500 (collision factor)
+  joulefac =     1.500 (joule heating factor)
+  Maximum number of histories per secondary file =   2
+  Number of bytes for values of fields on secondary histories (sech_nbyte) =   4
+  dynamo =  1 (dynamo will be calculated)
+  current_pg =  1 (Add current due to plasma pressure gradient and gravity to rhs)
+  current_kq =  0 (Calculate height-integrated current density)
+  eddy_dif =  0 (DOY-dependent eddy diffusion flag)
+  tide (amplitudes and phases of semidiurnal tide) =
+  secout (secondary history output files)=
+    secondary.nc, 
+  secstart (secondary history start times) =
+     82, 0,20
+  secstop (secondary history stop times) =
+     82, 0,20
+  sechist (secondary history disk write frequencies) =
+      0, 0,10
+  secflds (secondary history fields) =
+    TN          UN          VN          WN          O2          
+    O1          N2          NO          N4S         HE          
+    NE          TE          TI          TEC         O2P         
+  diffcap  =   0.0000E+00 (Maximum O+ diffusion)
+  calc_helium =    1 (0/1 flag for helium)
+If any of the following are spval (  0.1000E+37), they will be calculated
+during the simulation on a per timestep basis:
+  power  =   0.1000E+37 (Hemispheric Power)
+     0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00  0.00  0.00  0.00  0.00  0.00
+  tide2 (amplitude and phase of diurnal tide) =
+     0.0E+00  0.00
+  aurora  =  1 (0/1 flag for aurora)
+  colfac =     1.500 (collision factor)
+    OP          POTEN       UI_ExB      VI_ExB      WI_ExB      
+    DEN         QJOULE      HMF2        NMF2        Z           
+    ZG          ZMAG        
+  Maximum number of histories per secondary file =   2
+  Number of bytes for values of fields on secondary histories (sech_nbyte) =   4
+  dynamo =  1 (dynamo will be calculated)
+  current_pg =  1 (Add current due to plasma pressure gradient and gravity to rhs)
+  ctpoten=   0.1000E+37 (Cross-cap potential)
+  kp     =   0.1000E+37 (Kp index)
+  bximf  =   0.1000E+37 (BX component of IMF)
+  byimf  =   0.0000E+00 (BY component of IMF)
+  bzimf  =   0.1000E+37 (Bz component of IMF)
+  swvel  =   0.1000E+37 (solar wind velocity)
+  swden  =   0.1000E+37 (solar wind density)
+  joulefac =     1.500 (joule heating factor)
+  diffcap  =   0.0000E+00 (Maximum O+ diffusion)
+  calc_helium =    1 (0/1 flag for helium)
+If any of the following are spval (  0.1000E+37), they will be calculated
+during the simulation on a per timestep basis:
+  power  =   0.1000E+37 (Hemispheric Power)
+  ctpoten=   0.1000E+37 (Cross-cap potential)
+  current_kq =  0 (Calculate height-integrated current density)
+  eddy_dif =  0 (DOY-dependent eddy diffusion flag)
+  tide (amplitudes and phases of semidiurnal tide) =
+     0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00  0.00  0.00  0.00  0.00  0.00
+  tide2 (amplitude and phase of diurnal tide) =
+  secout (secondary history output files)=
+    secondary.nc, 
+  secstart (secondary history start times) =
+     82, 0,20
+  secstop (secondary history stop times) =
+     82, 0,20
+  sechist (secondary history disk write frequencies) =
+      0, 0,10
+  secflds (secondary history fields) =
+    TN          UN          VN          WN          O2          
+    O1          N2          NO          N4S         HE          
+  f107  =   0.1000E+37 (F10.7 solar flux)
+  f107a =   0.1000E+37 (81-day ave F10.7 flux)
+  al     =   0.1000E+37 (AL, lower auroral mag index)
+END USER INPUT PARAMETERS
+------------------------------------------------------------------------
+
+  kp     =   0.1000E+37 (Kp index)
+  bximf  =   0.1000E+37 (BX component of IMF)
+  byimf  =   0.0000E+00 (BY component of IMF)
+  bzimf  =   0.1000E+37 (Bz component of IMF)
+  swvel  =   0.1000E+37 (solar wind velocity)
+  swden  =   0.1000E+37 (solar wind density)
+  f107  =   0.1000E+37 (F10.7 solar flux)
+  f107a =   0.1000E+37 (81-day ave F10.7 flux)
+     0.0E+00  0.00
+  aurora  =  1 (0/1 flag for aurora)
+  colfac =     1.500 (collision factor)
+  joulefac =     1.500 (joule heating factor)
+  diffcap  =   0.0000E+00 (Maximum O+ diffusion)
+  calc_helium =    1 (0/1 flag for helium)
+If any of the following are spval (  0.1000E+37), they will be calculated
+during the simulation on a per timestep basis:
+  power  =   0.1000E+37 (Hemispheric Power)
+    NE          TE          TI          TEC         O2P         
+    OP          POTEN       UI_ExB      VI_ExB      WI_ExB      
+    DEN         QJOULE      HMF2        NMF2        Z           
+    ZG          ZMAG        
+  Maximum number of histories per secondary file =   2
+  Number of bytes for values of fields on secondary histories (sech_nbyte) =   4
+  dynamo =  1 (dynamo will be calculated)
+  current_pg =  1 (Add current due to plasma pressure gradient and gravity to rhs)
+  current_kq =  0 (Calculate height-integrated current density)
+  eddy_dif =  0 (DOY-dependent eddy diffusion flag)
+  tide (amplitudes and phases of semidiurnal tide) =
+  al     =   0.1000E+37 (AL, lower auroral mag index)
+END USER INPUT PARAMETERS
+------------------------------------------------------------------------
+
+  ctpoten=   0.1000E+37 (Cross-cap potential)
+  kp     =   0.1000E+37 (Kp index)
+  bximf  =   0.1000E+37 (BX component of IMF)
+  byimf  =   0.0000E+00 (BY component of IMF)
+  bzimf  =   0.1000E+37 (Bz component of IMF)
+     0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00  0.00  0.00  0.00  0.00  0.00
+  tide2 (amplitude and phase of diurnal tide) =
+     0.0E+00  0.00
+  swvel  =   0.1000E+37 (solar wind velocity)
+  swden  =   0.1000E+37 (solar wind density)
+  f107  =   0.1000E+37 (F10.7 solar flux)
+  f107a =   0.1000E+37 (81-day ave F10.7 flux)
+  aurora  =  1 (0/1 flag for aurora)
+  colfac =     1.500 (collision factor)
+  joulefac =     1.500 (joule heating factor)
+  diffcap  =   0.0000E+00 (Maximum O+ diffusion)
+  calc_helium =    1 (0/1 flag for helium)
+If any of the following are spval (  0.1000E+37), they will be calculated
+during the simulation on a per timestep basis:
+  al     =   0.1000E+37 (AL, lower auroral mag index)
+END USER INPUT PARAMETERS
+------------------------------------------------------------------------
+
+tgcm: dynamo= 1 -- calling apxparm: start_year= 2021
+  power  =   0.1000E+37 (Hemispheric Power)
+  ctpoten=   0.1000E+37 (Cross-cap potential)
+  kp     =   0.1000E+37 (Kp index)
+tgcm: dynamo= 1 -- calling apxparm: start_year= 2021
+  bximf  =   0.1000E+37 (BX component of IMF)
+  byimf  =   0.0000E+00 (BY component of IMF)
+  bzimf  =   0.1000E+37 (Bz component of IMF)
+  swvel  =   0.1000E+37 (solar wind velocity)
+  swden  =   0.1000E+37 (solar wind density)
+  f107  =   0.1000E+37 (F10.7 solar flux)
+  f107a =   0.1000E+37 (81-day ave F10.7 flux)
+  al     =   0.1000E+37 (AL, lower auroral mag index)
+END USER INPUT PARAMETERS
+------------------------------------------------------------------------
+
+tgcm: dynamo= 1 -- calling apxparm: start_year= 2021
+tgcm: dynamo= 1 -- calling apxparm: start_year= 2021
+Time in apxparm =  0.236 (secs)
+
+ntask=  4 ntaski= 2 ntaskj= 2 Task Table:
+j= -1 itask_table(:,j)= -2 -2 -2 -2
+j=  0 itask_table(:,j)= -2  0  1 -2
+j=  1 itask_table(:,j)= -2  2  3 -2
+j=  2 itask_table(:,j)= -2 -2 -2 -2
+
+mytid=  0 mytidi,j=  0  0 lat0,1=  1 18 (18) lon0,1=  1 38 (38) ncells= 684
+
+ntask=  4 ntask_maglon= 2 ntask_maglat= 2 Task Table:
+j= -1 itask_table_mag(:,j)= -2 -2 -2 -2 -2
+j=  0 itask_table_mag(:,j)=  1  0  1  0 -2
+j=  1 itask_table_mag(:,j)=  3  2  3  2 -2
+j=  2 itask_table_mag(:,j)= -2 -2 -2 -2 -2
+
+mytid=  0 magtidi,j=  0  0 mlat0,1=  1 49 (49) mlon0,1=  1 41 (41) ncells=2009
+Time in apxparm =  0.238 (secs)
+
+ntask=  4 ntaski= 2 ntaskj= 2 Task Table:
+j= -1 itask_table(:,j)= -2 -2 -2 -2
+j=  0 itask_table(:,j)= -2  0  1 -2
+j=  1 itask_table(:,j)= -2  2  3 -2
+j=  2 itask_table(:,j)= -2 -2 -2 -2
+
+mytid=  3 mytidi,j=  1  1 lat0,1= 19 36 (18) lon0,1= 39 76 (38) ncells= 684
+
+ntask=  4 ntask_maglon= 2 ntask_maglat= 2 Task Table:
+j= -1 itask_table_mag(:,j)= -2 -2 -2 -2 -2
+j=  0 itask_table_mag(:,j)=  1  0  1  0 -2
+j=  1 itask_table_mag(:,j)=  3  2  3  2 -2
+j=  2 itask_table_mag(:,j)= -2 -2 -2 -2 -2
+
+mytid=  3 magtidi,j=  1  1 mlat0,1= 50 97 (48) mlon0,1= 42 81 (40) ncells=1920
+Time in apxparm =  0.240 (secs)
+
+ntask=  4 ntaski= 2 ntaskj= 2 Task Table:
+j= -1 itask_table(:,j)= -2 -2 -2 -2
+j=  0 itask_table(:,j)= -2  0  1 -2
+j=  1 itask_table(:,j)= -2  2  3 -2
+j=  2 itask_table(:,j)= -2 -2 -2 -2
+
+mytid=  1 mytidi,j=  1  0 lat0,1=  1 18 (18) lon0,1= 39 76 (38) ncells= 684
+
+ntask=  4 ntask_maglon= 2 ntask_maglat= 2 Task Table:
+j= -1 itask_table_mag(:,j)= -2 -2 -2 -2 -2
+j=  0 itask_table_mag(:,j)=  1  0  1  0 -2
+j=  1 itask_table_mag(:,j)=  3  2  3  2 -2
+j=  2 itask_table_mag(:,j)= -2 -2 -2 -2 -2
+
+mytid=  1 magtidi,j=  1  0 mlat0,1=  1 49 (49) mlon0,1= 42 81 (40) ncells=1960
+Time in apxparm =  0.241 (secs)
+
+ntask=  4 ntaski= 2 ntaskj= 2 Task Table:
+j= -1 itask_table(:,j)= -2 -2 -2 -2
+j=  0 itask_table(:,j)= -2  0  1 -2
+j=  1 itask_table(:,j)= -2  2  3 -2
+j=  2 itask_table(:,j)= -2 -2 -2 -2
+
+mytid=  2 mytidi,j=  0  1 lat0,1= 19 36 (18) lon0,1=  1 38 (38) ncells= 684
+
+ntask=  4 ntask_maglon= 2 ntask_maglat= 2 Task Table:
+j= -1 itask_table_mag(:,j)= -2 -2 -2 -2 -2
+j=  0 itask_table_mag(:,j)=  1  0  1  0 -2
+j=  1 itask_table_mag(:,j)=  3  2  3  2 -2
+j=  2 itask_table_mag(:,j)= -2 -2 -2 -2 -2
+
+mytid=  2 magtidi,j=  0  1 mlat0,1= 50 97 (48) mlon0,1=  1 41 (41) ncells=1968
+mp_distribute_geo: nmagtaski=  2 tidcol=  0
+mp_distribute_geo: nmagtaski=  2 tidcol=  0
+mp_distribute_geo: nmagtaski=  2 tidcol=  1
+mp_distribute_geo: nmagtaski=  2 tidcol=  1
+
+Task   0:
+
+Subdomain on geographic grid:
+tasks(  0)%mytid =  0
+tasks(  0)%mytidi=  0
+tasks(  0)%mytidj=  0
+tasks(  0)%nlats = 18
+tasks(  0)%nlons = 38
+tasks(  0)%lat0  =  1
+tasks(  0)%lat1  = 18
+tasks(  0)%lon0  =  1
+tasks(  0)%lon1  = 38
+
+Task   3:
+
+Subdomain on geographic grid:
+tasks(  3)%mytid =  3
+tasks(  3)%mytidi=  1
+tasks(  3)%mytidj=  1
+tasks(  3)%nlats = 18
+tasks(  3)%nlons = 38
+tasks(  3)%lat0  = 19
+tasks(  3)%lat1  = 36
+tasks(  3)%lon0  = 39
+tasks(  3)%lon1  = 76
+Number of geo subdomain grid points =    684
+
+Subdomain on geomagnetic grid:
+tasks(  3)%magtidi=  1
+tasks(  3)%magtidj=  1
+Number of geo subdomain grid points =    684
+
+Subdomain on geomagnetic grid:
+tasks(  0)%magtidi=  0
+tasks(  0)%magtidj=  0
+tasks(  0)%nmaglats = 49
+tasks(  0)%nmaglons = 41
+tasks(  0)%mlat0  =  1
+tasks(  0)%mlat1  = 49
+tasks(  0)%mlon0  =  1
+tasks(  0)%mlon1  = 41
+tasks(  3)%nmaglats = 48
+tasks(  3)%nmaglons = 40
+tasks(  3)%mlat0  = 50
+tasks(  3)%mlat1  = 97
+tasks(  3)%mlon0  = 42
+tasks(  3)%mlon1  = 81
+
+Task   2:
+
+Subdomain on geographic grid:
+tasks(  2)%mytid =  2
+tasks(  2)%mytidi=  0
+tasks(  2)%mytidj=  1
+
+Task   1:
+
+Subdomain on geographic grid:
+tasks(  1)%mytid =  1
+tasks(  1)%mytidi=  1
+tasks(  1)%mytidj=  0
+tasks(  1)%nlats = 18
+tasks(  1)%nlons = 38
+Number of mag subdomain grid points =   2009
+mp_exchange_tasks: mxmaglat=  49 mxmaglon=  41
+Number of mag subdomain grid points =   1920
+mp_exchange_tasks: mxmaglat=  49 mxmaglon=  41
+tasks(  2)%nlats = 18
+tasks(  2)%nlons = 38
+tasks(  2)%lat0  = 19
+tasks(  2)%lat1  = 36
+tasks(  2)%lon0  =  1
+tasks(  2)%lon1  = 38
+Number of geo subdomain grid points =    684
+
+Subdomain on geomagnetic grid:
+tasks(  2)%magtidi=  0
+tasks(  2)%magtidj=  1
+tasks(  1)%lat0  =  1
+tasks(  1)%lat1  = 18
+tasks(  1)%lon0  = 39
+tasks(  1)%lon1  = 76
+Number of geo subdomain grid points =    684
+
+Subdomain on geomagnetic grid:
+tasks(  1)%magtidi=  1
+tasks(  2)%nmaglats = 48
+tasks(  2)%nmaglons = 41
+tasks(  2)%mlat0  = 50
+tasks(  2)%mlat1  = 97
+tasks(  2)%mlon0  =  1
+tasks(  2)%mlon1  = 41
+Number of mag subdomain grid points =   1968
+mp_exchange_tasks: mxmaglat=  49 mxmaglon=  41
+tasks(  1)%magtidj=  0
+tasks(  1)%nmaglats = 49
+tasks(  1)%nmaglons = 40
+tasks(  1)%mlat0  =  1
+tasks(  1)%mlat1  = 49
+tasks(  1)%mlon0  = 42
+tasks(  1)%mlon1  = 81
+Number of mag subdomain grid points =   1960
+mp_exchange_tasks: mxmaglat=  49 mxmaglon=  41
+Model version = tiegcm_trunk    
+
+Set constants:
+  nlat= 36 nlon= 72 nlev= 28
+  dz=  0.50
+Model version = tiegcm_trunk    
+
+Set constants:
+  nlat= 36 nlon= 72 nlev= 28
+  dz=  0.50
+  dlat=  5.00 dlon=  5.00
+  zbound (cm) =   0.963723E+07
+Model version = tiegcm_trunk    
+
+Set constants:
+  nlat= 36 nlon= 72 nlev= 28
+  dz=  0.50
+  dlat=  5.00 dlon=  5.00
+  zbound (cm) =   0.963723E+07
+  zmbot, zmtop =   -6.750   7.250 (bottom,top midpoint levels)
+  zibot, zitop =   -7.000   7.000 (bottom,top interface levels)
+  dt =    60.00 secs
+Model version = tiegcm_trunk    
+
+Set constants:
+  nlat= 36 nlon= 72 nlev= 28
+  dz=  0.50
+  dlat=  5.00 dlon=  5.00
+  zbound (cm) =   0.963723E+07
+  zmbot, zmtop =   -6.750   7.250 (bottom,top midpoint levels)
+  zibot, zitop =   -7.000   7.000 (bottom,top interface levels)
+  dt =    60.00 secs
+  grav =     870.00
+  freq_3m3 =   0.3506E-04  freq_semidi=  0.1454E-03
+  dipmin =    0.170
+  check_exp = F
+  dlat=  5.00 dlon=  5.00
+  zbound (cm) =   0.963723E+07
+  zmbot, zmtop =   -6.750   7.250 (bottom,top midpoint levels)
+  zibot, zitop =   -7.000   7.000 (bottom,top interface levels)
+  dt =    60.00 secs
+  grav =     870.00
+  freq_3m3 =   0.3506E-04  freq_semidi=  0.1454E-03
+  dipmin =    0.170
+  check_exp = F
+  zmbot, zmtop =   -6.750   7.250 (bottom,top midpoint levels)
+  zibot, zitop =   -7.000   7.000 (bottom,top interface levels)
+  dt =    60.00 secs
+  grav =     870.00
+  freq_3m3 =   0.3506E-04  freq_semidi=  0.1454E-03
+  dipmin =    0.170
+  check_exp = F
+  kut (for filtering) =   1  2  3  5  6  7  9 10 11 13 14 15 17 17 17 17 17 17 17 17 17 17 17 17 15 14 13 11 10  9  7  6  5  3  2  1
+  step=  60 smooth_fac= 3.00E-03 shapiro= 3.00E-03
+  grav =     870.00
+  freq_3m3 =   0.3506E-04  freq_semidi=  0.1454E-03
+  dipmin =    0.170
+  check_exp = F
+  kut (for filtering) =   1  2  3  5  6  7  9 10 11 13 14 15 17 17 17 17 17 17 17 17 17 17 17 17 15 14 13 11 10  9  7  6  5  3  2  1
+  step=  60 smooth_fac= 3.00E-03 shapiro= 3.00E-03
+init: iyear= 2021 iday=   82
+  gswm_mi_di_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+  kut (for filtering) =   1  2  3  5  6  7  9 10 11 13 14 15 17 17 17 17 17 17 17 17 17 17 17 17 15 14 13 11 10  9  7  6  5  3  2  1
+  step=  60 smooth_fac= 3.00E-03 shapiro= 3.00E-03
+init: iyear= 2021 iday=   82
+  gswm_mi_di_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+hist_init: nstep=   10
+  kut (for filtering) =   1  2  3  5  6  7  9 10 11 13 14 15 17 17 17 17 17 17 17 17 17 17 17 17 15 14 13 11 10  9  7  6  5  3  2  1
+  step=  60 smooth_fac= 3.00E-03 shapiro= 3.00E-03
+init: iyear= 2021 iday=   82
+  gswm_mi_di_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+hist_init: nstep=   10
+init: iyear= 2021 iday=   82
+  gswm_mi_di_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+hist_init: nstep=   10
+hist_init: nstep=   10
+alloc_ar: allocated module data
+Allocated gswm t,u,v,z (lon0:lon1,lat0:lat1)
+Allocated private gwm t,u,v,z (lon0:lon1,lat0:lat1,nmonth,nhour)
+Allocated background t,u,v,z (lon0:lon1,lat0:lat1)
+Allocated private background t,u,v,z (lon0:lon1,lat0:lat1,nmonth,nhour)
+alloc_ar: allocated module data
+Allocated gswm t,u,v,z (lon0:lon1,lat0:lat1)
+Allocated ctmt t,u,v,z (lon0:lon1,lat0:lat1)
+Allocated private ctmt t,u,v,z (lon0:lon1,lat0:lat1,nmonth,nhour)
+Allocated private gwm t,u,v,z (lon0:lon1,lat0:lat1,nmonth,nhour)
+Allocated background t,u,v,z (lon0:lon1,lat0:lat1)
+Allocated private background t,u,v,z (lon0:lon1,lat0:lat1,nmonth,nhour)
+Allocated ctmt t,u,v,z (lon0:lon1,lat0:lat1)
+alloc_ar: allocated module data
+Allocated gswm t,u,v,z (lon0:lon1,lat0:lat1)
+Allocated private ctmt t,u,v,z (lon0:lon1,lat0:lat1,nmonth,nhour)
+alloc_ar: allocated module data
+Allocated gswm t,u,v,z (lon0:lon1,lat0:lat1)
+Allocated private gwm t,u,v,z (lon0:lon1,lat0:lat1,nmonth,nhour)
+Allocated background t,u,v,z (lon0:lon1,lat0:lat1)
+Allocated private background t,u,v,z (lon0:lon1,lat0:lat1,nmonth,nhour)
+Allocated ctmt t,u,v,z (lon0:lon1,lat0:lat1)
+Allocated private ctmt t,u,v,z (lon0:lon1,lat0:lat1,nmonth,nhour)
+Allocated private gwm t,u,v,z (lon0:lon1,lat0:lat1,nmonth,nhour)
+Allocated background t,u,v,z (lon0:lon1,lat0:lat1)
+Allocated private background t,u,v,z (lon0:lon1,lat0:lat1,nmonth,nhour)
+Allocated ctmt t,u,v,z (lon0:lon1,lat0:lat1)
+Allocated private ctmt t,u,v,z (lon0:lon1,lat0:lat1,nmonth,nhour)
+alloc_pdyn: allocate fmeq_in with mlev0,1=  -2  29
+alloc_pdyn: allocate fmeq_in with mlev0,1=  -2  29
+alloc_pdyn: allocate fmeq_in with mlev0,1=  -2  29
+alloc_pdyn: allocate fmeq_in with mlev0,1=  -2  29
+allocdata: all tasks allocate fzg: nlevp1=  29 nlonp4=  76 nlat=  36
+init_lbc: allocated subdomains tlbc, ulbc, vlbc
+init_lbc_nm: allocated subdomains tlbc_nm, ulbc_nm, vlbc_nm
+init_lbc: allocated globals tlbc_glb, ulbc_glb, vlbc_glb: nlonp4= 76 nlat= 36
+init_lbc: allocated globals tlbc_nm_glb, ulbc_nm_glb, vlbc_nm_glb: nlonp4= 76 nlat= 36
+allocdata: all tasks allocate fzg: nlevp1=  29 nlonp4=  76 nlat=  36
+
+Model run initialization:
+  nstep      =           10    (Number of time steps this run)
+  iter       =       118090    (Initial iteration number)
+  iyear      =   2021    (Beginning calendar year)
+  iday       =     82    (Beginning calendar day)
+  igswm_mi_di =      1    (If > 0, GSWM diurnal tidal database will be used.)
+  igswm_mi_sdi=      1    (If > 0, GSWM semidiurnal tidal database will be used.)
+  igswm_nm_di=      0    (If > 0, GSWM nonmigrating diurnal tidal database will be used.)
+  igswm_nm_sdi=      0    (If > 0, GSWM nonmigrating semidiurnal tidal database will be used.)
+  ibgrddata=      0    (If > 0, background datafile will be used.)
+  ictmt=      0    (If > 0, CTMT tidal database will be used.)
+
+Primary Histories:
+  nsource       =     0  (If > 0, a primary source history was provided)
+  nseries_prim  =     1  (Number of primary time series)
+  nhist_total   =     1  (Number of primary histories to be written)
+  nfiles_prim   =     1  (Number of primary output files to be written)
+init_lbc: allocated subdomains tlbc, ulbc, vlbc
+init_lbc_nm: allocated subdomains tlbc_nm, ulbc_nm, vlbc_nm
+  mxhist_prim   =     3  (Maximum number of primary histories per file)
+
+Secondary Histories:
+  nseries_sech  =     1  (Number of secondary time series)
+  nsech_total   =     1  (Number of secondary histories to be written)
+init_lbc: allocated globals tlbc_glb, ulbc_glb, vlbc_glb: nlonp4= 76 nlat= 36
+init_lbc: allocated globals tlbc_nm_glb, ulbc_nm_glb, vlbc_nm_glb: nlonp4= 76 nlat= 36
+
+Model run initialization:
+  nstep      =           10    (Number of time steps this run)
+  nfiles_sech   =     1  (Number of secondary output files to be written)
+  mxhist_sech   =     2  (Maximum number of secondary histories per file)
+  nfsech        =    27  (Number of requested secondary history fields)
+  secondary history field   1: TN              
+  secondary history field   2: UN              
+  secondary history field   3: VN              
+  secondary history field   4: WN              
+  iter       =       118090    (Initial iteration number)
+  iyear      =   2021    (Beginning calendar year)
+  iday       =     82    (Beginning calendar day)
+  igswm_mi_di =      1    (If > 0, GSWM diurnal tidal database will be used.)
+  igswm_mi_sdi=      1    (If > 0, GSWM semidiurnal tidal database will be used.)
+  igswm_nm_di=      0    (If > 0, GSWM nonmigrating diurnal tidal database will be used.)
+  secondary history field   5: O2              
+  secondary history field   6: O1              
+  secondary history field   7: N2              
+  secondary history field   8: NO              
+  secondary history field   9: N4S             
+  secondary history field  10: HE              
+  secondary history field  11: NE              
+  secondary history field  12: TE              
+  secondary history field  13: TI              
+  igswm_nm_sdi=      0    (If > 0, GSWM nonmigrating semidiurnal tidal database will be used.)
+  ibgrddata=      0    (If > 0, background datafile will be used.)
+  ictmt=      0    (If > 0, CTMT tidal database will be used.)
+
+Primary Histories:
+  nsource       =     0  (If > 0, a primary source history was provided)
+  nseries_prim  =     1  (Number of primary time series)
+allocdata: all tasks allocate fzg: nlevp1=  29 nlonp4=  76 nlat=  36
+  secondary history field  14: TEC             
+  secondary history field  15: O2P             
+  secondary history field  16: OP              
+  secondary history field  17: POTEN           
+  secondary history field  18: UI_ExB          
+  secondary history field  19: VI_ExB          
+  secondary history field  20: WI_ExB          
+  secondary history field  21: DEN             
+  secondary history field  22: QJOULE          
+  secondary history field  23: HMF2            
+  secondary history field  24: NMF2            
+  secondary history field  25: Z               
+  secondary history field  26: ZG              
+  nhist_total   =     1  (Number of primary histories to be written)
+  nfiles_prim   =     1  (Number of primary output files to be written)
+  mxhist_prim   =     3  (Maximum number of primary histories per file)
+
+Secondary Histories:
+  nseries_sech  =     1  (Number of secondary time series)
+  secondary history field  27: ZMAG            
+  nsech_total   =     1  (Number of secondary histories to be written)
+
+------------------------------------------------------------------------------------------------
+Table of Available Diagnostic Fields:
+  nfiles_sech   =     1  (Number of secondary output files to be written)
+  mxhist_sech   =     2  (Maximum number of secondary histories per file)
+  nfsech        =    27  (Number of requested secondary history fields)
+  secondary history field   1: TN              
+  secondary history field   2: UN              
+  secondary history field   3: VN              
+  secondary history field   4: WN              
+  secondary history field   5: O2              
+  secondary history field   6: O1              
+Shortnames may be added to namelist SECFLDS
+
+Field   Shortname       Units           Levels  Caller          Longname
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+   1    CO2_COOL        erg/g/s         lev     newton.F        CO2 Cooling
+   2    NO_COOL         erg/g/s         lev     newton.F        NO Cooling
+   3    DEN             g/cm3           ilev    dt.F            Total Density
+init_lbc: allocated subdomains tlbc, ulbc, vlbc
+init_lbc_nm: allocated subdomains tlbc_nm, ulbc_nm, vlbc_nm
+init_lbc: allocated globals tlbc_glb, ulbc_glb, vlbc_glb: nlonp4= 76 nlat= 36
+init_lbc: allocated globals tlbc_nm_glb, ulbc_nm_glb, vlbc_nm_glb: nlonp4= 76 nlat= 36
+
+Model run initialization:
+  nstep      =           10    (Number of time steps this run)
+  secondary history field   7: N2              
+  secondary history field   8: NO              
+  secondary history field   9: N4S             
+  secondary history field  10: HE              
+  secondary history field  11: NE              
+  secondary history field  12: TE              
+  secondary history field  13: TI              
+  secondary history field  14: TEC             
+  secondary history field  15: O2P             
+  secondary history field  16: OP              
+  secondary history field  17: POTEN           
+  secondary history field  18: UI_ExB          
+  secondary history field  19: VI_ExB          
+  secondary history field  20: WI_ExB          
+  secondary history field  21: DEN             
+  secondary history field  22: QJOULE          
+  secondary history field  23: HMF2            
+  secondary history field  24: NMF2            
+  secondary history field  25: Z               
+  secondary history field  26: ZG              
+  secondary history field  27: ZMAG            
+   4    HEATING         erg/g/s         lev     dt.F            Total Heating
+   5    HMF2            km              none    elden.F         HMF2: Height of the F2 Layer
+   6    NMF2            1/cm3           none    elden.F         NMF2: Peak Density of the F2 Layer
+   7    FOF2            MHz             none    elden.F         FOF2: Critical Frequency of the F2 Layer
+   8    JE13D           A/m2            mlev    current.F90     JE13D: Eastward current density (3d)
+   9    JE23D           A/m2            mlev    current.F90     JE23D: Downward current density (3d)
+  10    JQR             A/m2            none    current.F90     JQR: Upward current density (2d)
+  11    KQLAM           A/m             none    current.F90     KQLAM: Height-integrated current density (+north)
+  12    KQPHI           A/m             none    current.F90     KQPHI: Height-integrated current density (+east)
+  13    LAMDA_HAL       1/s             lev     lamdas.F        LAMDA_HAL: Hall Ion Drag Coefficient
+  14    LAMDA_PED       1/s             lev     lamdas.F        LAMDA_PED: Pedersen Ion Drag Coefficient
+  15    MU_M            g/cm/s          lev     cpktkm.F        MU_M: Molecular Viscosity Coefficient
+  16    QJOULE          erg/g/s         lev     qjoule.F        QJOULE: Joule Heating
+  17    SCHT            km              lev     addiag.F        SCHT: Pressure Scale Height
+  18    SIGMA_HAL       S/m             lev     lamdas.F        SIGMA_HAL: Hall Conductivity
+  19    SIGMA_PED       S/m             lev     lamdas.F        SIGMA_PED: Pedersen Conductivity
+  20    TEC             1/cm2           none    elden.F         TEC: Total Electron Content
+  21    UI_ExB          cm/s            ilev    ionvel.F        UI: Zonal ExB Velocity
+  22    VI_ExB          cm/s            ilev    ionvel.F        VI: Meridional ExB Velocity
+  23    WI_ExB          cm/s            ilev    ionvel.F        WI: Vertical ExB Velocity
+  24    WN              cm/s            ilev    swdot.F         WN: Neutral Vertical Wind (plus up)
+  25    O_N2            none            lev     comp.F          O/N2 RATIO
+  26    QJOULE_INTEG    erg/cm2/s       none    qjoule.F        Height-integrated Joule Heating
+  27    BX                              none    oplus.F         BX/BMAG: Normalized eastward component of magnetic field
+  iter       =       118090    (Initial iteration number)
+  iyear      =   2021    (Beginning calendar year)
+  iday       =     82    (Beginning calendar day)
+  igswm_mi_di =      1    (If > 0, GSWM diurnal tidal database will be used.)
+  igswm_mi_sdi=      1    (If > 0, GSWM semidiurnal tidal database will be used.)
+  igswm_nm_di=      0    (If > 0, GSWM nonmigrating diurnal tidal database will be used.)
+  igswm_nm_sdi=      0    (If > 0, GSWM nonmigrating semidiurnal tidal database will be used.)
+  ibgrddata=      0    (If > 0, background datafile will be used.)
+  ictmt=      0    (If > 0, CTMT tidal database will be used.)
+
+Primary Histories:
+
+------------------------------------------------------------------------------------------------
+Table of Available Diagnostic Fields:
+Shortnames may be added to namelist SECFLDS
+
+Field   Shortname       Units           Levels  Caller          Longname
+  28    BY                              none    oplus.F         BY/BMAG: Normalized northward component of magnetic field
+  29    BZ                              none    oplus.F         BZ/BMAG: Normalized upward component of magnetic field
+  30    BMAG            Gauss           none    oplus.F         BMAG: Magnetic field magnitude
+  31    EX              V/m             ilev    pdynamo.F       EX: Zonal component of electric field
+  32    EY              V/m             ilev    pdynamo.F       EY: Meridional component of electric field
+  nsource       =     0  (If > 0, a primary source history was provided)
+  nseries_prim  =     1  (Number of primary time series)
+  nhist_total   =     1  (Number of primary histories to be written)
+  nfiles_prim   =     1  (Number of primary output files to be written)
+  mxhist_prim   =     3  (Maximum number of primary histories per file)
+
+Secondary Histories:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+   1    CO2_COOL        erg/g/s         lev     newton.F        CO2 Cooling
+   2    NO_COOL         erg/g/s         lev     newton.F        NO Cooling
+   3    DEN             g/cm3           ilev    dt.F            Total Density
+   4    HEATING         erg/g/s         lev     dt.F            Total Heating
+   5    HMF2            km              none    elden.F         HMF2: Height of the F2 Layer
+   6    NMF2            1/cm3           none    elden.F         NMF2: Peak Density of the F2 Layer
+   7    FOF2            MHz             none    elden.F         FOF2: Critical Frequency of the F2 Layer
+   8    JE13D           A/m2            mlev    current.F90     JE13D: Eastward current density (3d)
+   9    JE23D           A/m2            mlev    current.F90     JE23D: Downward current density (3d)
+  10    JQR             A/m2            none    current.F90     JQR: Upward current density (2d)
+  11    KQLAM           A/m             none    current.F90     KQLAM: Height-integrated current density (+north)
+  12    KQPHI           A/m             none    current.F90     KQPHI: Height-integrated current density (+east)
+  13    LAMDA_HAL       1/s             lev     lamdas.F        LAMDA_HAL: Hall Ion Drag Coefficient
+  33    EZ              V/m             ilev    pdynamo.F       EZ: Vertical component of electric field
+  34    ED1             V/m             imlev   pdynamo.F       ED1: Magnetic eastward component of electric field
+  35    ED2             V/m             imlev   pdynamo.F       ED2: Magnetic downward (equatorward) component of electric field
+  36    PHIM2D          V               none    pdynamo.F       PHIM2D: 2d Electric Potential on magnetic grid
+  37    N2              mmr             lev     comp.F          N2: Molecular Nitrogen
+  38    ZGMID           cm              lev     addiag.F        ZGMID: Geometric Height at midpoints
+  39    CUSP            erg/cm2/s       none    dynamics.F      CUSP Low Energy Electron Flux
+  40    DRIZZLE         erg/cm2/s       none    dynamics.F      DRIZZLE Low Energy Electron Flux
+  41    ALFA            keV             none    dynamics.F      Aurora Characteristic Energy
+  42    NFLUX           #/cm2/s         none    dynamics.F      Aurora Number Flux
+  43    EFLUX           erg/cm2/s       none    dynamics.F      Aurora Energy Flux
+------------------------------------------------------------------------------------------------
+
+  nseries_sech  =     1  (Number of secondary time series)
+  nsech_total   =     1  (Number of secondary histories to be written)
+  nfiles_sech   =     1  (Number of secondary output files to be written)
+  mxhist_sech   =     2  (Maximum number of secondary histories per file)
+  nfsech        =    27  (Number of requested secondary history fields)
+  secondary history field   1: TN              
+  secondary history field   2: UN              
+  secondary history field   3: VN              
+  secondary history field   4: WN              
+  secondary history field   5: O2              
+  secondary history field   6: O1              
+  secondary history field   7: N2              
+Allocated 3d data for all fields on root task:
+  nlevp1*nlonp4*nlat*nf4d =  29* 76* 36* 30 =    2380320 words *8 =     19042560 bytes.
+allocdata: all tasks allocate fzg: nlevp1=  29 nlonp4=  76 nlat=  36
+  14    LAMDA_PED       1/s             lev     lamdas.F        LAMDA_PED: Pedersen Ion Drag Coefficient
+  15    MU_M            g/cm/s          lev     cpktkm.F        MU_M: Molecular Viscosity Coefficient
+  16    QJOULE          erg/g/s         lev     qjoule.F        QJOULE: Joule Heating
+  17    SCHT            km              lev     addiag.F        SCHT: Pressure Scale Height
+  18    SIGMA_HAL       S/m             lev     lamdas.F        SIGMA_HAL: Hall Conductivity
+  19    SIGMA_PED       S/m             lev     lamdas.F        SIGMA_PED: Pedersen Conductivity
+  20    TEC             1/cm2           none    elden.F         TEC: Total Electron Content
+  21    UI_ExB          cm/s            ilev    ionvel.F        UI: Zonal ExB Velocity
+
+------------------------------------------------------------------------
+Getfile: remote=primary.nc
+  secondary history field   8: NO              
+  secondary history field   9: N4S             
+  secondary history field  10: HE              
+  secondary history field  11: NE              
+  secondary history field  12: TE              
+  secondary history field  13: TI              
+  secondary history field  14: TEC             
+  22    VI_ExB          cm/s            ilev    ionvel.F        VI: Meridional ExB Velocity
+  23    WI_ExB          cm/s            ilev    ionvel.F        WI: Vertical ExB Velocity
+  24    WN              cm/s            ilev    swdot.F         WN: Neutral Vertical Wind (plus up)
+  25    O_N2            none            lev     comp.F          O/N2 RATIO
+  secondary history field  15: O2P             
+  26    QJOULE_INTEG    erg/cm2/s       none    qjoule.F        Height-integrated Joule Heating
+  secondary history field  16: OP              
+  secondary history field  17: POTEN           
+  secondary history field  18: UI_ExB          
+  secondary history field  19: VI_ExB          
+  secondary history field  20: WI_ExB          
+  secondary history field  21: DEN             
+  secondary history field  22: QJOULE          
+  secondary history field  23: HMF2            
+  secondary history field  24: NMF2            
+  secondary history field  25: Z               
+  secondary history field  26: ZG              
+  secondary history field  27: ZMAG            
+Getfile: Found file primary.nc
+------------------------------------------------------------------------
+
+Acquired source history file primary.nc
+  (disk file is primary.nc)
+  27    BX                              none    oplus.F         BX/BMAG: Normalized eastward component of magnetic field
+  28    BY                              none    oplus.F         BY/BMAG: Normalized northward component of magnetic field
+  29    BZ                              none    oplus.F         BZ/BMAG: Normalized upward component of magnetic field
+  30    BMAG            Gauss           none    oplus.F         BMAG: Magnetic field magnitude
+  31    EX              V/m             ilev    pdynamo.F       EX: Zonal component of electric field
+  32    EY              V/m             ilev    pdynamo.F       EY: Meridional component of electric field
+  33    EZ              V/m             ilev    pdynamo.F       EZ: Vertical component of electric field
+  34    ED1             V/m             imlev   pdynamo.F       ED1: Magnetic eastward component of electric field
+  35    ED2             V/m             imlev   pdynamo.F       ED2: Magnetic downward (equatorward) component of electric field
+  36    PHIM2D          V               none    pdynamo.F       PHIM2D: 2d Electric Potential on magnetic grid
+  37    N2              mmr             lev     comp.F          N2: Molecular Nitrogen
+  38    ZGMID           cm              lev     addiag.F        ZGMID: Geometric Height at midpoints
+  39    CUSP            erg/cm2/s       none    dynamics.F      CUSP Low Energy Electron Flux
+  40    DRIZZLE         erg/cm2/s       none    dynamics.F      DRIZZLE Low Energy Electron Flux
+  41    ALFA            keV             none    dynamics.F      Aurora Characteristic Energy
+  42    NFLUX           #/cm2/s         none    dynamics.F      Aurora Number Flux
+init_lbc: allocated subdomains tlbc, ulbc, vlbc
+init_lbc_nm: allocated subdomains tlbc_nm, ulbc_nm, vlbc_nm
+init_lbc: allocated globals tlbc_glb, ulbc_glb, vlbc_glb: nlonp4= 76 nlat= 36
+
+------------------------------------------------------------------------------------------------
+Table of Available Diagnostic Fields:
+Shortnames may be added to namelist SECFLDS
+
+Field   Shortname       Units           Levels  Caller          Longname
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  43    EFLUX           erg/cm2/s       none    dynamics.F      Aurora Energy Flux
+------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Getfile: remote=primary.nc
+init_lbc: allocated globals tlbc_nm_glb, ulbc_nm_glb, vlbc_nm_glb: nlonp4= 76 nlat= 36
+
+Model run initialization:
+  nstep      =           10    (Number of time steps this run)
+  iter       =       118090    (Initial iteration number)
+  iyear      =   2021    (Beginning calendar year)
+  iday       =     82    (Beginning calendar day)
+  igswm_mi_di =      1    (If > 0, GSWM diurnal tidal database will be used.)
+  igswm_mi_sdi=      1    (If > 0, GSWM semidiurnal tidal database will be used.)
+   1    CO2_COOL        erg/g/s         lev     newton.F        CO2 Cooling
+   2    NO_COOL         erg/g/s         lev     newton.F        NO Cooling
+   3    DEN             g/cm3           ilev    dt.F            Total Density
+   4    HEATING         erg/g/s         lev     dt.F            Total Heating
+   5    HMF2            km              none    elden.F         HMF2: Height of the F2 Layer
+   6    NMF2            1/cm3           none    elden.F         NMF2: Peak Density of the F2 Layer
+   7    FOF2            MHz             none    elden.F         FOF2: Critical Frequency of the F2 Layer
+   8    JE13D           A/m2            mlev    current.F90     JE13D: Eastward current density (3d)
+   9    JE23D           A/m2            mlev    current.F90     JE23D: Downward current density (3d)
+  10    JQR             A/m2            none    current.F90     JQR: Upward current density (2d)
+  11    KQLAM           A/m             none    current.F90     KQLAM: Height-integrated current density (+north)
+  12    KQPHI           A/m             none    current.F90     KQPHI: Height-integrated current density (+east)
+  13    LAMDA_HAL       1/s             lev     lamdas.F        LAMDA_HAL: Hall Ion Drag Coefficient
+  14    LAMDA_PED       1/s             lev     lamdas.F        LAMDA_PED: Pedersen Ion Drag Coefficient
+  15    MU_M            g/cm/s          lev     cpktkm.F        MU_M: Molecular Viscosity Coefficient
+  16    QJOULE          erg/g/s         lev     qjoule.F        QJOULE: Joule Heating
+  igswm_nm_di=      0    (If > 0, GSWM nonmigrating diurnal tidal database will be used.)
+  igswm_nm_sdi=      0    (If > 0, GSWM nonmigrating semidiurnal tidal database will be used.)
+  ibgrddata=      0    (If > 0, background datafile will be used.)
+  ictmt=      0    (If > 0, CTMT tidal database will be used.)
+
+Primary Histories:
+  nsource       =     0  (If > 0, a primary source history was provided)
+  nseries_prim  =     1  (Number of primary time series)
+  nhist_total   =     1  (Number of primary histories to be written)
+  nfiles_prim   =     1  (Number of primary output files to be written)
+  mxhist_prim   =     3  (Maximum number of primary histories per file)
+
+  17    SCHT            km              lev     addiag.F        SCHT: Pressure Scale Height
+  18    SIGMA_HAL       S/m             lev     lamdas.F        SIGMA_HAL: Hall Conductivity
+  19    SIGMA_PED       S/m             lev     lamdas.F        SIGMA_PED: Pedersen Conductivity
+  20    TEC             1/cm2           none    elden.F         TEC: Total Electron Content
+  21    UI_ExB          cm/s            ilev    ionvel.F        UI: Zonal ExB Velocity
+  22    VI_ExB          cm/s            ilev    ionvel.F        VI: Meridional ExB Velocity
+  23    WI_ExB          cm/s            ilev    ionvel.F        WI: Vertical ExB Velocity
+  24    WN              cm/s            ilev    swdot.F         WN: Neutral Vertical Wind (plus up)
+Getfile: Found file primary.nc
+------------------------------------------------------------------------
+
+Acquired source history file primary.nc
+  (disk file is primary.nc)
+Secondary Histories:
+  nseries_sech  =     1  (Number of secondary time series)
+  nsech_total   =     1  (Number of secondary histories to be written)
+  nfiles_sech   =     1  (Number of secondary output files to be written)
+  mxhist_sech   =     2  (Maximum number of secondary histories per file)
+  nfsech        =    27  (Number of requested secondary history fields)
+  secondary history field   1: TN              
+  25    O_N2            none            lev     comp.F          O/N2 RATIO
+  26    QJOULE_INTEG    erg/cm2/s       none    qjoule.F        Height-integrated Joule Heating
+  27    BX                              none    oplus.F         BX/BMAG: Normalized eastward component of magnetic field
+  28    BY                              none    oplus.F         BY/BMAG: Normalized northward component of magnetic field
+  29    BZ                              none    oplus.F         BZ/BMAG: Normalized upward component of magnetic field
+  30    BMAG            Gauss           none    oplus.F         BMAG: Magnetic field magnitude
+  secondary history field   2: UN              
+  secondary history field   3: VN              
+  secondary history field   4: WN              
+  31    EX              V/m             ilev    pdynamo.F       EX: Zonal component of electric field
+  32    EY              V/m             ilev    pdynamo.F       EY: Meridional component of electric field
+  33    EZ              V/m             ilev    pdynamo.F       EZ: Vertical component of electric field
+  34    ED1             V/m             imlev   pdynamo.F       ED1: Magnetic eastward component of electric field
+  35    ED2             V/m             imlev   pdynamo.F       ED2: Magnetic downward (equatorward) component of electric field
+  secondary history field   5: O2              
+  secondary history field   6: O1              
+  secondary history field   7: N2              
+  secondary history field   8: NO              
+  secondary history field   9: N4S             
+  secondary history field  10: HE              
+  secondary history field  11: NE              
+  36    PHIM2D          V               none    pdynamo.F       PHIM2D: 2d Electric Potential on magnetic grid
+  37    N2              mmr             lev     comp.F          N2: Molecular Nitrogen
+  38    ZGMID           cm              lev     addiag.F        ZGMID: Geometric Height at midpoints
+  39    CUSP            erg/cm2/s       none    dynamics.F      CUSP Low Energy Electron Flux
+  40    DRIZZLE         erg/cm2/s       none    dynamics.F      DRIZZLE Low Energy Electron Flux
+  41    ALFA            keV             none    dynamics.F      Aurora Characteristic Energy
+  secondary history field  12: TE              
+  secondary history field  13: TI              
+  secondary history field  14: TEC             
+  secondary history field  15: O2P             
+  secondary history field  16: OP              
+  secondary history field  17: POTEN           
+  secondary history field  18: UI_ExB          
+  secondary history field  19: VI_ExB          
+  42    NFLUX           #/cm2/s         none    dynamics.F      Aurora Number Flux
+  43    EFLUX           erg/cm2/s       none    dynamics.F      Aurora Energy Flux
+------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Getfile: remote=primary.nc
+  secondary history field  20: WI_ExB          
+  secondary history field  21: DEN             
+  secondary history field  22: QJOULE          
+  secondary history field  23: HMF2            
+  secondary history field  24: NMF2            
+  secondary history field  25: Z               
+  secondary history field  26: ZG              
+  secondary history field  27: ZMAG            
+
+------------------------------------------------------------------------------------------------
+Table of Available Diagnostic Fields:
+Shortnames may be added to namelist SECFLDS
+
+Field   Shortname       Units           Levels  Caller          Longname
+Getfile: Found file primary.nc
+------------------------------------------------------------------------
+
+Acquired source history file primary.nc
+  (disk file is primary.nc)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+   1    CO2_COOL        erg/g/s         lev     newton.F        CO2 Cooling
+   2    NO_COOL         erg/g/s         lev     newton.F        NO Cooling
+   3    DEN             g/cm3           ilev    dt.F            Total Density
+   4    HEATING         erg/g/s         lev     dt.F            Total Heating
+   5    HMF2            km              none    elden.F         HMF2: Height of the F2 Layer
+   6    NMF2            1/cm3           none    elden.F         NMF2: Peak Density of the F2 Layer
+   7    FOF2            MHz             none    elden.F         FOF2: Critical Frequency of the F2 Layer
+   8    JE13D           A/m2            mlev    current.F90     JE13D: Eastward current density (3d)
+   9    JE23D           A/m2            mlev    current.F90     JE23D: Downward current density (3d)
+  10    JQR             A/m2            none    current.F90     JQR: Upward current density (2d)
+  11    KQLAM           A/m             none    current.F90     KQLAM: Height-integrated current density (+north)
+  12    KQPHI           A/m             none    current.F90     KQPHI: Height-integrated current density (+east)
+  13    LAMDA_HAL       1/s             lev     lamdas.F        LAMDA_HAL: Hall Ion Drag Coefficient
+  14    LAMDA_PED       1/s             lev     lamdas.F        LAMDA_PED: Pedersen Ion Drag Coefficient
+  15    MU_M            g/cm/s          lev     cpktkm.F        MU_M: Molecular Viscosity Coefficient
+  16    QJOULE          erg/g/s         lev     qjoule.F        QJOULE: Joule Heating
+  17    SCHT            km              lev     addiag.F        SCHT: Pressure Scale Height
+  18    SIGMA_HAL       S/m             lev     lamdas.F        SIGMA_HAL: Hall Conductivity
+  19    SIGMA_PED       S/m             lev     lamdas.F        SIGMA_PED: Pedersen Conductivity
+  20    TEC             1/cm2           none    elden.F         TEC: Total Electron Content
+  21    UI_ExB          cm/s            ilev    ionvel.F        UI: Zonal ExB Velocity
+  22    VI_ExB          cm/s            ilev    ionvel.F        VI: Meridional ExB Velocity
+  23    WI_ExB          cm/s            ilev    ionvel.F        WI: Vertical ExB Velocity
+  24    WN              cm/s            ilev    swdot.F         WN: Neutral Vertical Wind (plus up)
+  25    O_N2            none            lev     comp.F          O/N2 RATIO
+  26    QJOULE_INTEG    erg/cm2/s       none    qjoule.F        Height-integrated Joule Heating
+  27    BX                              none    oplus.F         BX/BMAG: Normalized eastward component of magnetic field
+  28    BY                              none    oplus.F         BY/BMAG: Normalized northward component of magnetic field
+  29    BZ                              none    oplus.F         BZ/BMAG: Normalized upward component of magnetic field
+  30    BMAG            Gauss           none    oplus.F         BMAG: Magnetic field magnitude
+  31    EX              V/m             ilev    pdynamo.F       EX: Zonal component of electric field
+  32    EY              V/m             ilev    pdynamo.F       EY: Meridional component of electric field
+  33    EZ              V/m             ilev    pdynamo.F       EZ: Vertical component of electric field
+  34    ED1             V/m             imlev   pdynamo.F       ED1: Magnetic eastward component of electric field
+  35    ED2             V/m             imlev   pdynamo.F       ED2: Magnetic downward (equatorward) component of electric field
+  36    PHIM2D          V               none    pdynamo.F       PHIM2D: 2d Electric Potential on magnetic grid
+  37    N2              mmr             lev     comp.F          N2: Molecular Nitrogen
+  38    ZGMID           cm              lev     addiag.F        ZGMID: Geometric Height at midpoints
+  39    CUSP            erg/cm2/s       none    dynamics.F      CUSP Low Energy Electron Flux
+  40    DRIZZLE         erg/cm2/s       none    dynamics.F      DRIZZLE Low Energy Electron Flux
+  41    ALFA            keV             none    dynamics.F      Aurora Characteristic Energy
+  42    NFLUX           #/cm2/s         none    dynamics.F      Aurora Number Flux
+  43    EFLUX           erg/cm2/s       none    dynamics.F      Aurora Energy Flux
+------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Getfile: remote=primary.nc
+Getfile: Found file primary.nc
+------------------------------------------------------------------------
+
+Acquired source history file primary.nc
+  (disk file is primary.nc)
+Reading source history from diskfile primary.nc:
+Reading source history from diskfile primary.nc:
+nc_rdhist: seeking   82   0  10 found   82   0   0  n=  1
+Reading source history from diskfile primary.nc:
+nc_rdhist: seeking   82   0  10 found   82   0   0  n=  1
+nc_rdhist: seeking   82   0  10 found   82   0  10  n=  2
+nc_rdhist: seeking   82   0  10 found   82   0   0  n=  1
+nc_rdhist: seeking   82   0  10 found   82   0  10  n=  2
+nc_rdhist: seeking   82   0  10 found   82   0  10  n=  2
+Note nc_rdhist: unused variable: calendar_advance
+Note nc_rdhist: unused variable: write_date
+Note nc_rdhist: unused variable: calendar_advance
+Note nc_rdhist: unused variable: write_date
+Note nc_rdhist: unused variable: calendar_advance
+Note nc_rdhist: unused variable: write_date
+Reading source history from diskfile primary.nc:
+nc_rdhist: seeking   82   0  10 found   82   0   0  n=  1
+nc_rdhist: seeking   82   0  10 found   82   0  10  n=  2
+Note nc_rdhist: unused variable: calendar_advance
+Note nc_rdhist: unused variable: write_date
+Note nc_rdhist: unused variable: crit1
+Note nc_rdhist: unused variable: crit2
+Note nc_rdhist: unused variable: mag
+Note nc_rdhist: unused variable: crit1
+Note nc_rdhist: unused variable: crit2
+Note nc_rdhist: unused variable: mag
+Note nc_rdhist: unused variable: crit1
+Note nc_rdhist: unused variable: crit2
+Note nc_rdhist: unused variable: mag
+Note nc_rdhist: unused variable: crit1
+Note nc_rdhist: unused variable: crit2
+Note nc_rdhist: unused variable: mag
+Read field TN               3d subdomain min,max=  0.1473E+03  0.8422E+03
+Read field TN               3d subdomain min,max=  0.1479E+03  0.8725E+03
+Read field TN               3d subdomain min,max=  0.1468E+03  0.8543E+03
+Read field TN               3d subdomain min,max=  0.1472E+03  0.8188E+03
+Read field UN               3d subdomain min,max= -0.3841E+05  0.4322E+04
+Read field UN               3d subdomain min,max= -0.3098E+05  0.6568E+04
+Read field UN               3d subdomain min,max= -0.1473E+05  0.1074E+05
+Read field UN               3d subdomain min,max= -0.1209E+05  0.3435E+05
+Read field VN               3d subdomain min,max= -0.3432E+05  0.3668E+05
+Read field VN               3d subdomain min,max= -0.1982E+05  0.1709E+05
+Read field VN               3d subdomain min,max= -0.3459E+05  0.3644E+05
+Read field VN               3d subdomain min,max= -0.7052E+04  0.1128E+05
+Read field O2               3d subdomain min,max=  0.1508E-04  0.2314E+00
+Read field O2               3d subdomain min,max=  0.1657E-04  0.2315E+00
+Read field O2               3d subdomain min,max=  0.1972E-04  0.2311E+00
+Read field O2               3d subdomain min,max=  0.1931E-04  0.2314E+00
+Read field O1               3d subdomain min,max=  0.2299E-02  0.9440E+00
+Read field O1               3d subdomain min,max=  0.2563E-02  0.9457E+00
+Read field O1               3d subdomain min,max=  0.2208E-02  0.9417E+00
+Read field O1               3d subdomain min,max=  0.2311E-02  0.9447E+00
+Read field N4S              3d subdomain min,max=  0.1000E-11  0.1378E-01
+Read field N4S              3d subdomain min,max=  0.1000E-11  0.1190E-01
+Read field N4S              3d subdomain min,max=  0.1000E-11  0.1218E-01
+Read field N4S              3d subdomain min,max=  0.1000E-11  0.1354E-01
+Read field NO               3d subdomain min,max=  0.7579E-07  0.5065E-03
+Read field NO               3d subdomain min,max=  0.1473E-06  0.3550E-03
+Read field NO               3d subdomain min,max=  0.8960E-07  0.5076E-03
+Read field NO               3d subdomain min,max=  0.1087E-06  0.5207E-03
+Read field HE               3d subdomain min,max=  0.1151E-05  0.2889E+00
+Read field HE               3d subdomain min,max=  0.1151E-05  0.2608E+00
+Read field HE               3d subdomain min,max=  0.1150E-05  0.2622E+00
+Read field HE               3d subdomain min,max=  0.1151E-05  0.3413E+00
+Read field AR               3d subdomain min,max=  0.3108E-08  0.1118E-01
+Read field AR               3d subdomain min,max=  0.2138E-08  0.1117E-01
+Read field AR               3d subdomain min,max=  0.1785E-08  0.1118E-01
+Read field AR               3d subdomain min,max=  0.3034E-08  0.1118E-01
+Read field OP               3d subdomain min,max=  0.0000E+00  0.1080E+07
+Read field OP               3d subdomain min,max=  0.0000E+00  0.1170E+07
+Read field OP               3d subdomain min,max=  0.0000E+00  0.1292E+07
+Read field OP               3d subdomain min,max=  0.0000E+00  0.1243E+07
+Read field N2D              3d subdomain min,max=  0.0000E+00  0.8204E-03
+Read field N2D              3d subdomain min,max=  0.0000E+00  0.8816E-03
+Read field N2D              3d subdomain min,max=  0.0000E+00  0.3885E-03
+Read field N2D              3d subdomain min,max=  0.0000E+00  0.8948E-03
+Read field TI               3d subdomain min,max=  0.1473E+03  0.1645E+04
+Read field TI               3d subdomain min,max=  0.1479E+03  0.1770E+04
+Read field TI               3d subdomain min,max=  0.1468E+03  0.1659E+04
+Read field TI               3d subdomain min,max=  0.1472E+03  0.1799E+04
+Read field TE               3d subdomain min,max=  0.1479E+03  0.3491E+04
+Read field TE               3d subdomain min,max=  0.1472E+03  0.3299E+04
+Read field TE               3d subdomain min,max=  0.1468E+03  0.3498E+04
+Read field TE               3d subdomain min,max=  0.1473E+03  0.3480E+04
+Read field NE               3d subdomain min,max=  0.1208E+04  0.1166E+07
+Read field NE               3d subdomain min,max=  0.1210E+04  0.1227E+07
+Read field NE               3d subdomain min,max=  0.1289E+04  0.1072E+07
+Read field NE               3d subdomain min,max=  0.1206E+04  0.1280E+07
+Read field O2P              3d subdomain min,max=  0.0000E+00  0.1110E+06
+Read field O2P              3d subdomain min,max=  0.0000E+00  0.9111E+05
+Read field O2P              3d subdomain min,max=  0.0000E+00  0.9230E+05
+Read field O2P              3d subdomain min,max=  0.0000E+00  0.8552E+05
+Read field OMEGA            3d subdomain min,max= -0.4963E-04  0.3749E-04
+Read field OMEGA            3d subdomain min,max= -0.4540E-04  0.5615E-04
+Read field OMEGA            3d subdomain min,max= -0.3481E-04  0.5142E-04
+Read field OMEGA            3d subdomain min,max= -0.3613E-04  0.6270E-04
+Read field Z                3d subdomain min,max=  0.9605E+07  0.5581E+08
+Read field Z                3d subdomain min,max=  0.9568E+07  0.5478E+08
+Read field Z                3d subdomain min,max=  0.9569E+07  0.5563E+08
+Read field Z                3d subdomain min,max=  0.9609E+07  0.5585E+08
+Read field POTEN            3d subdomain min,max= -0.2922E+05  0.1328E+05
+Read field POTEN            3d subdomain min,max= -0.2922E+05  0.2089E+05
+Read field POTEN            3d subdomain min,max= -0.5432E+04  0.2095E+05
+Read field POTEN            3d subdomain min,max= -0.2937E+05  0.3808E+04
+Read field TN_NM            3d subdomain min,max=  0.1479E+03  0.8723E+03
+Read field TN_NM            3d subdomain min,max=  0.1473E+03  0.8421E+03
+Read field TN_NM            3d subdomain min,max=  0.1468E+03  0.8542E+03
+Read field TN_NM            3d subdomain min,max=  0.1472E+03  0.8188E+03
+Read field UN_NM            3d subdomain min,max= -0.3836E+05  0.4326E+04
+Read field UN_NM            3d subdomain min,max= -0.1206E+05  0.3432E+05
+Read field UN_NM            3d subdomain min,max= -0.1470E+05  0.1078E+05
+Read field UN_NM            3d subdomain min,max= -0.3092E+05  0.6539E+04
+Read field VN_NM            3d subdomain min,max= -0.3427E+05  0.3664E+05
+Read field VN_NM            3d subdomain min,max= -0.1966E+05  0.1707E+05
+Read field VN_NM            3d subdomain min,max= -0.3452E+05  0.3642E+05
+Read field VN_NM            3d subdomain min,max= -0.7065E+04  0.1127E+05
+Read field O2_NM            3d subdomain min,max=  0.1655E-04  0.2315E+00
+Read field O2_NM            3d subdomain min,max=  0.1508E-04  0.2314E+00
+Read field O2_NM            3d subdomain min,max=  0.1928E-04  0.2314E+00
+Read field O2_NM            3d subdomain min,max=  0.1969E-04  0.2311E+00
+Read field O1_NM            3d subdomain min,max=  0.2311E-02  0.9447E+00
+Read field O1_NM            3d subdomain min,max=  0.2208E-02  0.9416E+00
+Read field O1_NM            3d subdomain min,max=  0.2299E-02  0.9440E+00
+Read field O1_NM            3d subdomain min,max=  0.2562E-02  0.9457E+00
+Read field N4S_NM           3d subdomain min,max=  0.1000E-11  0.1188E-01
+Read field N4S_NM           3d subdomain min,max=  0.1000E-11  0.1378E-01
+Read field N4S_NM           3d subdomain min,max=  0.1000E-11  0.1353E-01
+Read field N4S_NM           3d subdomain min,max=  0.1000E-11  0.1216E-01
+Read field NO_NM            3d subdomain min,max=  0.8958E-07  0.5071E-03
+Read field NO_NM            3d subdomain min,max=  0.7582E-07  0.5064E-03
+Read field NO_NM            3d subdomain min,max=  0.1089E-06  0.5208E-03
+Read field NO_NM            3d subdomain min,max=  0.1477E-06  0.3548E-03
+Read field OP_NM            3d subdomain min,max=  0.0000E+00  0.1077E+07
+Read field OP_NM            3d subdomain min,max=  0.0000E+00  0.1291E+07
+Read field OP_NM            3d subdomain min,max=  0.0000E+00  0.1242E+07
+Read field OP_NM            3d subdomain min,max=  0.0000E+00  0.1168E+07
+Read field HE_NM            3d subdomain min,max=  0.1151E-05  0.3413E+00
+Read field HE_NM            3d subdomain min,max=  0.1150E-05  0.2624E+00
+Read field HE_NM            3d subdomain min,max=  0.1151E-05  0.2610E+00
+Read field HE_NM            3d subdomain min,max=  0.1151E-05  0.2889E+00
+Read field AR_NM            3d subdomain min,max=  0.2134E-08  0.1117E-01
+Read field AR_NM            3d subdomain min,max=  0.3025E-08  0.1118E-01
+Read field AR_NM            3d subdomain min,max=  0.1784E-08  0.1118E-01
+Read field AR_NM            3d subdomain min,max=  0.3099E-08  0.1118E-01
+Read LBC from source history: i= 95 sh%lbc=   -7.00
+
+------------------------------------------------------------------------
+Read TGCM PRIMARY HISTORY (source history)
+Diskfile: primary.nc
+  label         = INDEPENDENT_TIEGCM_DATA_GENERATION; 2021 ten-day; spinup UNVERIFIED
+  model_name    = tiegcm
+  model_version = tiegcm_trunk
+Read LBC from source history: i= 95 sh%lbc=   -7.00
+
+------------------------------------------------------------------------
+Read TGCM PRIMARY HISTORY (source history)
+Diskfile: primary.nc
+  label         = INDEPENDENT_TIEGCM_DATA_GENERATION; 2021 ten-day; spinup UNVERIFIED
+  model_name    = tiegcm
+  model_version = tiegcm_trunk
+  create_date= 10/30/26 10:07:59
+  write_date = 
+  logname    = root
+Read LBC from source history: i= 95 sh%lbc=   -7.00
+
+------------------------------------------------------------------------
+Read TGCM PRIMARY HISTORY (source history)
+Diskfile: primary.nc
+  label         = INDEPENDENT_TIEGCM_DATA_GENERATION; 2021 ten-day; spinup UNVERIFIED
+  model_name    = tiegcm
+  model_version = tiegcm_trunk
+  create_date= 10/30/26 10:07:59
+  write_date = 
+  logname    = root
+  host       = ws-10-1791952224
+  system     = LINUX
+  run_type   = 
+  source_file  = 
+Read LBC from source history: i= 95 sh%lbc=   -7.00
+
+------------------------------------------------------------------------
+Read TGCM PRIMARY HISTORY (source history)
+Diskfile: primary.nc
+  label         = INDEPENDENT_TIEGCM_DATA_GENERATION; 2021 ten-day; spinup UNVERIFIED
+  model_name    = tiegcm
+  model_version = tiegcm_trunk
+  create_date= 10/30/26 10:07:59
+  write_date = 
+  logname    = root
+  host       = ws-10-1791952224
+  system     = LINUX
+  run_type   = 
+  source_file  = 
+  output_file  = 
+  source_mtime =   82   0   0
+  initial_year = 2021
+  initial_day  =   82
+  initial_mtime=   82   0   0
+  type       = primary
+  create_date= 10/30/26 10:07:59
+  write_date = 
+  logname    = root
+  host       = ws-10-1791952224
+  system     = LINUX
+  run_type   = 
+  source_file  = 
+  output_file  = 
+  source_mtime =   82   0   0
+  initial_year = 2021
+  initial_day  =   82
+  initial_mtime=   82   0   0
+  host       = ws-10-1791952224
+  system     = LINUX
+  run_type   = 
+  source_file  = 
+  output_file  = 
+  source_mtime =   82   0   0
+  initial_year = 2021
+  initial_day  =   82
+  initial_mtime=   82   0   0
+  type       = primary
+  ihist      =   2 (nth history on history file)
+  delhmins=    0 (delta minutes between histories)
+  calendar year,day = 2021, 82
+  output_file  = 
+  source_mtime =   82   0   0
+  initial_year = 2021
+  initial_day  =   82
+  initial_mtime=   82   0   0
+  type       = primary
+  ihist      =   2 (nth history on history file)
+  delhmins=    0 (delta minutes between histories)
+  calendar year,day = 2021, 82
+  ihist      =   2 (nth history on history file)
+  delhmins=    0 (delta minutes between histories)
+  calendar year,day = 2021, 82
+    (model IS being advanced in calendar time)
+  modeltime =  82, 0,10, 0 (model time day,hour,minute,seconds)
+  time    =      10.00 (minutes in current day)
+  ut      =  0.17 (ut hours)
+  step    =   60 (time step in seconds)
+  iter    =   118090 (number of steps from 0,0,0)
+  nlat    =   36 (number of latitudes)
+  nlon    =   72 (number of longitudes)
+  type       = primary
+  ihist      =   2 (nth history on history file)
+  delhmins=    0 (delta minutes between histories)
+  calendar year,day = 2021, 82
+    (model IS being advanced in calendar time)
+  modeltime =  82, 0,10, 0 (model time day,hour,minute,seconds)
+  time    =      10.00 (minutes in current day)
+  ut      =  0.17 (ut hours)
+  step    =   60 (time step in seconds)
+  iter    =   118090 (number of steps from 0,0,0)
+  nlat    =   36 (number of latitudes)
+    (model IS being advanced in calendar time)
+  modeltime =  82, 0,10, 0 (model time day,hour,minute,seconds)
+  time    =      10.00 (minutes in current day)
+  ut      =  0.17 (ut hours)
+  step    =   60 (time step in seconds)
+  iter    =   118090 (number of steps from 0,0,0)
+  nlat    =   36 (number of latitudes)
+  nlon    =   72 (number of longitudes)
+  nlev    =   29 (number of levels)
+  zmtop   =   7.250 (top midpoint level)
+    (model IS being advanced in calendar time)
+  modeltime =  82, 0,10, 0 (model time day,hour,minute,seconds)
+  time    =      10.00 (minutes in current day)
+  ut      =  0.17 (ut hours)
+  step    =   60 (time step in seconds)
+  iter    =   118090 (number of steps from 0,0,0)
+  nlat    =   36 (number of latitudes)
+  nlev    =   29 (number of levels)
+  zmtop   =   7.250 (top midpoint level)
+  zmbot   =  -6.750 (bottom midpoint level)
+  zitop   =   7.000 (top interface level)
+  zibot   =  -7.000 (bottom interface level)
+  nlon    =   72 (number of longitudes)
+  nlev    =   29 (number of levels)
+  zmtop   =   7.250 (top midpoint level)
+  zmbot   =  -6.750 (bottom midpoint level)
+  zitop   =   7.000 (top interface level)
+  zibot   =  -7.000 (bottom interface level)
+  dtide   =  0.0E+00   0.0 (amp/phase of diurnal tide)
+  zmbot   =  -6.750 (bottom midpoint level)
+  zitop   =   7.000 (top interface level)
+  zibot   =  -7.000 (bottom interface level)
+  dtide   =  0.0E+00   0.0 (amp/phase of diurnal tide)
+  sdtide  =  0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00   0.0  0.0  0.0  0.0  0.0
+    (amp/phase of semi-diurnal tide)
+  f107d   =   0.7691E+02 (daily solar flux)
+  f107a   =   0.7469E+02 (average solar flux)
+  hpower  =   0.2980E+02 (Gw)
+  ctpoten =   0.5297E+02 (Volts)
+  kp      =   0.2259E+01 ()
+  byimf   =   0.0000E+00
+  nlon    =   72 (number of longitudes)
+  nlev    =   29 (number of levels)
+  zmtop   =   7.250 (top midpoint level)
+  zmbot   =  -6.750 (bottom midpoint level)
+  zitop   =   7.000 (top interface level)
+  zibot   =  -7.000 (bottom interface level)
+  dtide   =  0.0E+00   0.0 (amp/phase of diurnal tide)
+  sdtide  =  0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00   0.0  0.0  0.0  0.0  0.0
+    (amp/phase of semi-diurnal tide)
+  f107d   =   0.7691E+02 (daily solar flux)
+  f107a   =   0.7469E+02 (average solar flux)
+  hpower  =   0.2980E+02 (Gw)
+  ctpoten =   0.5297E+02 (Volts)
+  kp      =   0.2259E+01 ()
+  byimf   =   0.0000E+00
+  bzimf   =   0.1000E+37
+  dtide   =  0.0E+00   0.0 (amp/phase of diurnal tide)
+  sdtide  =  0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00   0.0  0.0  0.0  0.0  0.0
+    (amp/phase of semi-diurnal tide)
+  f107d   =   0.7691E+02 (daily solar flux)
+  f107a   =   0.7469E+02 (average solar flux)
+  hpower  =   0.2980E+02 (Gw)
+  ctpoten =   0.5297E+02 (Volts)
+  kp      =   0.2259E+01 ()
+  byimf   =   0.0000E+00
+  bzimf   =   0.1000E+37
+  swvel   =   0.1000E+37
+  swden   =   0.1000E+37
+  al      =   0.1000E+37
+  e1,e2   =   0.2248E+01  0.4278E+01 (ergs/cm2/s)
+  alfac,alfad  =   0.1000E+00  0.5000E+00 (keV)
+  ec,ed =   0.8793E-01  0.1908E-01 (ergs/cm2/s)
+  sdtide  =  0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00   0.0  0.0  0.0  0.0  0.0
+    (amp/phase of semi-diurnal tide)
+  f107d   =   0.7691E+02 (daily solar flux)
+  f107a   =   0.7469E+02 (average solar flux)
+  hpower  =   0.2980E+02 (Gw)
+  ctpoten =   0.5297E+02 (Volts)
+  kp      =   0.2259E+01 ()
+  byimf   =   0.0000E+00
+  bzimf   =   0.1000E+37
+  swvel   =   0.1000E+37
+  swden   =   0.1000E+37
+  al      =   0.1000E+37
+  e1,e2   =   0.2248E+01  0.4278E+01 (ergs/cm2/s)
+  alfac,alfad  =   0.1000E+00  0.5000E+00 (keV)
+  ec,ed =   0.8793E-01  0.1908E-01 (ergs/cm2/s)
+  colfac    =   0.15E+01
+  joulefac  =   0.15E+01
+  p0        =   0.50E-06
+  bzimf   =   0.1000E+37
+  swvel   =   0.1000E+37
+  swden   =   0.1000E+37
+  al      =   0.1000E+37
+  e1,e2   =   0.2248E+01  0.4278E+01 (ergs/cm2/s)
+  alfac,alfad  =   0.1000E+00  0.5000E+00 (keV)
+  ec,ed =   0.8793E-01  0.1908E-01 (ergs/cm2/s)
+  colfac    =   0.15E+01
+  joulefac  =   0.15E+01
+  p0        =   0.50E-06
+  p0_model=   0.50E-03
+  grav    =   0.87E+03
+  nflds   =  28 (number of model fields)
+  gswm_mi_di_ncfile  = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+  gswm_nm_di_ncfile  = [none]
+  gswm_nm_sdi_ncfile = [none]
+  see_ncfile   = [none]
+  swvel   =   0.1000E+37
+  swden   =   0.1000E+37
+  al      =   0.1000E+37
+  e1,e2   =   0.2248E+01  0.4278E+01 (ergs/cm2/s)
+  alfac,alfad  =   0.1000E+00  0.5000E+00 (keV)
+  ec,ed =   0.8793E-01  0.1908E-01 (ergs/cm2/s)
+  colfac    =   0.15E+01
+  joulefac  =   0.15E+01
+  p0        =   0.50E-06
+  p0_model=   0.50E-03
+  grav    =   0.87E+03
+  nflds   =  28 (number of model fields)
+  gswm_mi_di_ncfile  = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  colfac    =   0.15E+01
+  joulefac  =   0.15E+01
+  p0        =   0.50E-06
+  p0_model=   0.50E-03
+  grav    =   0.87E+03
+  nflds   =  28 (number of model fields)
+  gswm_mi_di_ncfile  = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+  gswm_nm_di_ncfile  = [none]
+  gswm_nm_sdi_ncfile = [none]
+  see_ncfile   = [none]
+  gpi_ncfile   = /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+  ncep_ncfile  = [none]
+  p0_model=   0.50E-03
+  grav    =   0.87E+03
+  nflds   =  28 (number of model fields)
+  gswm_mi_di_ncfile  = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+  gswm_nm_di_ncfile  = [none]
+  gswm_nm_sdi_ncfile = [none]
+  see_ncfile   = [none]
+  gpi_ncfile   = /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+  ncep_ncfile  = [none]
+  imf_ncfile   = [none]
+  saber_ncfile = [none]
+  gpi_ncfile   = /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+  ncep_ncfile  = [none]
+  imf_ncfile   = [none]
+  saber_ncfile = [none]
+  tidi_ncfile  = [none]
+  ctmt_ncfile  = [none]
+  gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+  gswm_nm_di_ncfile  = [none]
+  gswm_nm_sdi_ncfile = [none]
+  see_ncfile   = [none]
+  gpi_ncfile   = /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+  ncep_ncfile  = [none]
+  imf_ncfile   = [none]
+  saber_ncfile = [none]
+  tidi_ncfile  = [none]
+  imf_ncfile   = [none]
+  saber_ncfile = [none]
+  tidi_ncfile  = [none]
+  ctmt_ncfile  = [none]
+  bgrddata_ncfile = [none]
+  tuv_lbc_intop=  0 (if 1, then lbc of t,u,v are stored in top k slot (old histories))
+  LBC =    -7.00 (lower boundary interface level)
+  ntask_mpi    =   4 (number of MPI tasks)
+  tidi_ncfile  = [none]
+  ctmt_ncfile  = [none]
+  bgrddata_ncfile = [none]
+  tuv_lbc_intop=  0 (if 1, then lbc of t,u,v are stored in top k slot (old histories))
+  LBC =    -7.00 (lower boundary interface level)
+  ntask_mpi    =   4 (number of MPI tasks)
+  coupled_cmit =   0 (1 if coupled with CISM/CMIT, 0 otherwise)
+  There are  28 fields on this history, as follows:
+  TN        UN        VN        O2        O1        N4S       NO        bgrddata_ncfile = [none]
+  tuv_lbc_intop=  0 (if 1, then lbc of t,u,v are stored in top k slot (old histories))
+  LBC =    -7.00 (lower boundary interface level)
+  ntask_mpi    =   4 (number of MPI tasks)
+  coupled_cmit =   0 (1 if coupled with CISM/CMIT, 0 otherwise)
+  There are  28 fields on this history, as follows:
+  TN        UN        VN        O2        O1        N4S       ctmt_ncfile  = [none]
+  bgrddata_ncfile = [none]
+  tuv_lbc_intop=  0 (if 1, then lbc of t,u,v are stored in top k slot (old histories))
+  LBC =    -7.00 (lower boundary interface level)
+  ntask_mpi    =   4 (number of MPI tasks)
+  coupled_cmit =   0 (1 if coupled with CISM/CMIT, 0 otherwise)
+  There are  28 fields on this history, as follows:
+  TN        UN        VN        O2        O1        N4S       NO        HE       
+  AR        OP        N2D       TI        TE        NE        O2P       OMEGA    
+  Z         POTEN     TN_NM     UN_NM     VN_NM     coupled_cmit =   0 (1 if coupled with CISM/CMIT, 0 otherwise)
+  There are  28 fields on this history, as follows:
+  TN        UN        VN        O2        O1        N4S       NO        HE       
+  AR        OP        N2D       TI        TE        NE        O2P       OMEGA    
+  Z         POTEN     TN_NM     UN_NM     VN_NM     O2_NM     O1_NM     N4S_NM   
+  NO_NM     OP_NM     HE_NM     AR_NM    
+------------------------------------------------------------------------
+
+  HE       
+  AR        OP        N2D       TI        TE        NE        O2P       OMEGA    
+  Z         POTEN     TN_NM     UN_NM     NO        HE       
+  AR        OP        N2D       TI        TE        NE        O2P       OMEGA    
+  Z         POTEN     TN_NM     UN_NM     VN_NM     O2_NM     O1_NM     N4S_NM   
+  NO_NM     OP_NM     HE_NM     VN_NM     O2_NM     O1_NM     N4S_NM   
+  O2_NM     O1_NM     N4S_NM   
+  NO_NM     OP_NM     HE_NM     AR_NM    
+------------------------------------------------------------------------
+
+  AR_NM    
+------------------------------------------------------------------------
+
+  NO_NM     OP_NM     HE_NM     AR_NM    
+------------------------------------------------------------------------
+
+
+Enter advance: iter=    118090 nstep=        10
+
+Enter advance: iter=    118090 nstep=        10
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+
+Enter advance: iter=    118090 nstep=        10
+Getfile: Found file /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+RDGPI: read GPI data file:
+Getfile: Found file /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+RDGPI: read GPI data file:
+
+Enter advance: iter=    118090 nstep=        10
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+Getfile: Found file /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+RDGPI: read GPI data file:
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+Getfile: Found file /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+RDGPI: read GPI data file:
+Number of days on GPI data file =       22
+First and last year-days =  2021068 2021085
+Completed read from GPI data file /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Number of days on GPI data file =       22
+First and last year-days =  2021068 2021085
+Number of days on GPI data file =       22
+First and last year-days =  2021068 2021085
+GETGPI: get geophysical indices from data file /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+Initial requested iyear=2021 iday= 82 iutsec=       660
+Obtained the following GPI at the requested date and time:
+Completed read from GPI data file /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+GETGPI: get geophysical indices from data file /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+Number of days on GPI data file =       22
+First and last year-days =  2021068 2021085
+Completed read from GPI data file /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+------------------------------------------------------------------------
+
+Completed read from GPI data file /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+GETGPI: get geophysical indices from data file /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+Initial requested iyear=2021 iday= 82 iutsec=       660
+  f107    =   0.7691E+02
+  f107a   =   0.7469E+02
+  power   =   0.2990E+02
+  ctpoten =   0.5314E+02
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+Initial requested iyear=2021 iday= 82 iutsec=       660
+Obtained the following GPI at the requested date and time:
+  f107    =   0.7691E+02
+  f107a   =   0.7469E+02
+  power   =   0.2990E+02
+  ctpoten =   0.5314E+02
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+GETGPI: get geophysical indices from data file /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+Initial requested iyear=2021 iday= 82 iutsec=       660
+Obtained the following GPI at the requested date and time:
+  f107    =   0.7691E+02
+  f107a   =   0.7469E+02
+  power   =   0.2990E+02
+  ctpoten =   0.5314E+02
+Obtained the following GPI at the requested date and time:
+  f107    =   0.7691E+02
+  f107a   =   0.7469E+02
+  power   =   0.2990E+02
+  ctpoten =   0.5314E+02
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+Getfile: Found file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+
+------------------------------------------------------------------------
+Reading GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Completed read from GSWM data file /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+
+------------------------------------------------------------------------
+Step        1 of       10 mtime= 82  0 11
+Step        1 of       10 mtime= 82  0 11
+GPI run: mtime= 82  0 11 power=  29.899 ctpoten=  53.142 f107=  76.909 f107a=  74.687
+GPI run: mtime= 82  0 11 power=  29.899 ctpoten=  53.142 f107=  76.909 f107a=  74.687
+
+aurora_cons:
+
+aurora_cons:
+  cusp:    alfac=   0.100 ec=   0.088 fc=  0.2749E+09
+  drizzle: alfad=   0.500 ed=   0.019 fd=  0.1195E+08
+  cusp:    alfac=   0.100 ec=   0.088 fc=  0.2749E+09
+  drizzle: alfad=   0.500 ed=   0.019 fd=  0.1195E+08
+  auroral radius = max of rhp,rcp=    21.017    19.980
+  roth, rote (MLT) =     0.384    -0.114
+  1/e-widths = h1,h2=     2.350     3.624
+  energy flux = e1,e2=     2.253     4.289
+  add_sproton = F
+ 
+mpitime_init: Completed initialization of mpi timing
+  auroral radius = max of rhp,rcp=    21.017    19.980
+  roth, rote (MLT) =     0.384    -0.114
+  1/e-widths = h1,h2=     2.350     3.624
+  energy flux = e1,e2=     2.253     4.289
+  add_sproton = F
+ 
+Step        1 of       10 mtime= 82  0 11
+GPI run: mtime= 82  0 11 power=  29.899 ctpoten=  53.142 f107=  76.909 f107a=  74.687
+Step        1 of       10 mtime= 82  0 11
+GPI run: mtime= 82  0 11 power=  29.899 ctpoten=  53.142 f107=  76.909 f107a=  74.687
+mpitime_init: Completed initialization of mpi timing
+
+aurora_cons:
+
+aurora_cons:
+  cusp:    alfac=   0.100 ec=   0.088 fc=  0.2749E+09
+  cusp:    alfac=   0.100 ec=   0.088 fc=  0.2749E+09
+  drizzle: alfad=   0.500 ed=   0.019 fd=  0.1195E+08
+  auroral radius = max of rhp,rcp=    21.017    19.980
+  roth, rote (MLT) =     0.384    -0.114
+  1/e-widths = h1,h2=     2.350     3.624
+  energy flux = e1,e2=     2.253     4.289
+  add_sproton = F
+ 
+  drizzle: alfad=   0.500 ed=   0.019 fd=  0.1195E+08
+  auroral radius = max of rhp,rcp=    21.017    19.980
+  roth, rote (MLT) =     0.384    -0.114
+  1/e-widths = h1,h2=     2.350     3.624
+  energy flux = e1,e2=     2.253     4.289
+  add_sproton = F
+ 
+mpitime_init: Completed initialization of mpi timing
+mpitime_init: Completed initialization of mpi timing
+Step        2 of       10 mtime= 82  0 12  0 secs/step (sys) =  0.22
+GPI run: mtime= 82  0 12 power=  30.002 ctpoten=  53.315 f107=  76.909 f107a=  74.687
+Step        2 of       10 mtime= 82  0 12  0 secs/step (sys) =  0.22
+GPI run: mtime= 82  0 12 power=  30.002 ctpoten=  53.315 f107=  76.909 f107a=  74.687
+Step        2 of       10 mtime= 82  0 12  0 secs/step (sys) =  0.22
+GPI run: mtime= 82  0 12 power=  30.002 ctpoten=  53.315 f107=  76.909 f107a=  74.687
+Step        2 of       10 mtime= 82  0 12  0 secs/step (sys) =  0.22
+GPI run: mtime= 82  0 12 power=  30.002 ctpoten=  53.315 f107=  76.909 f107a=  74.687
+Step        3 of       10 mtime= 82  0 13  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 13 power=  30.106 ctpoten=  53.487 f107=  76.909 f107a=  74.687
+Step        3 of       10 mtime= 82  0 13  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 13 power=  30.106 ctpoten=  53.487 f107=  76.909 f107a=  74.687
+Step        3 of       10 mtime= 82  0 13  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 13 power=  30.106 ctpoten=  53.487 f107=  76.909 f107a=  74.687
+Step        3 of       10 mtime= 82  0 13  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 13 power=  30.106 ctpoten=  53.487 f107=  76.909 f107a=  74.687
+Step        4 of       10 mtime= 82  0 14  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 14 power=  30.210 ctpoten=  53.660 f107=  76.909 f107a=  74.687
+Step        4 of       10 mtime= 82  0 14  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 14 power=  30.210 ctpoten=  53.660 f107=  76.909 f107a=  74.687
+Step        4 of       10 mtime= 82  0 14  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 14 power=  30.210 ctpoten=  53.660 f107=  76.909 f107a=  74.687
+Step        4 of       10 mtime= 82  0 14  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 14 power=  30.210 ctpoten=  53.660 f107=  76.909 f107a=  74.687
+Step        5 of       10 mtime= 82  0 15  0 secs/step (sys) =  0.11
+GPI run: mtime= 82  0 15 power=  30.314 ctpoten=  53.833 f107=  76.909 f107a=  74.687
+Step        5 of       10 mtime= 82  0 15  0 secs/step (sys) =  0.11
+GPI run: mtime= 82  0 15 power=  30.314 ctpoten=  53.833 f107=  76.909 f107a=  74.687
+Step        5 of       10 mtime= 82  0 15  0 secs/step (sys) =  0.11
+GPI run: mtime= 82  0 15 power=  30.314 ctpoten=  53.833 f107=  76.909 f107a=  74.687
+Step        5 of       10 mtime= 82  0 15  0 secs/step (sys) =  0.11
+GPI run: mtime= 82  0 15 power=  30.314 ctpoten=  53.833 f107=  76.909 f107a=  74.687
+Step        6 of       10 mtime= 82  0 16  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 16 power=  30.418 ctpoten=  54.006 f107=  76.910 f107a=  74.687
+Step        6 of       10 mtime= 82  0 16  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 16 power=  30.418 ctpoten=  54.006 f107=  76.910 f107a=  74.687
+Step        6 of       10 mtime= 82  0 16  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 16 power=  30.418 ctpoten=  54.006 f107=  76.910 f107a=  74.687
+Step        6 of       10 mtime= 82  0 16  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 16 power=  30.418 ctpoten=  54.006 f107=  76.910 f107a=  74.687
+Step        7 of       10 mtime= 82  0 17  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 17 power=  30.523 ctpoten=  54.180 f107=  76.910 f107a=  74.687
+Step        7 of       10 mtime= 82  0 17  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 17 power=  30.523 ctpoten=  54.180 f107=  76.910 f107a=  74.687
+Step        7 of       10 mtime= 82  0 17  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 17 power=  30.523 ctpoten=  54.180 f107=  76.910 f107a=  74.687
+Step        7 of       10 mtime= 82  0 17  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 17 power=  30.523 ctpoten=  54.180 f107=  76.910 f107a=  74.687
+Step        8 of       10 mtime= 82  0 18  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 18 power=  30.628 ctpoten=  54.353 f107=  76.910 f107a=  74.687
+Step        8 of       10 mtime= 82  0 18  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 18 power=  30.628 ctpoten=  54.353 f107=  76.910 f107a=  74.687
+Step        8 of       10 mtime= 82  0 18  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 18 power=  30.628 ctpoten=  54.353 f107=  76.910 f107a=  74.687
+Step        8 of       10 mtime= 82  0 18  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 18 power=  30.628 ctpoten=  54.353 f107=  76.910 f107a=  74.687
+Step        9 of       10 mtime= 82  0 19  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 19 power=  30.733 ctpoten=  54.527 f107=  76.910 f107a=  74.687
+Step        9 of       10 mtime= 82  0 19  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 19 power=  30.733 ctpoten=  54.527 f107=  76.910 f107a=  74.687
+Step        9 of       10 mtime= 82  0 19  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 19 power=  30.733 ctpoten=  54.527 f107=  76.910 f107a=  74.687
+Step        9 of       10 mtime= 82  0 19  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 19 power=  30.733 ctpoten=  54.527 f107=  76.910 f107a=  74.687
+Step       10 of       10 mtime= 82  0 20  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 20 power=  30.839 ctpoten=  54.700 f107=  76.910 f107a=  74.686
+Step       10 of       10 mtime= 82  0 20  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 20 power=  30.839 ctpoten=  54.700 f107=  76.910 f107a=  74.686
+Step       10 of       10 mtime= 82  0 20  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 20 power=  30.839 ctpoten=  54.700 f107=  76.910 f107a=  74.686
+Step       10 of       10 mtime= 82  0 20  0 secs/step (sys) =  0.10
+GPI run: mtime= 82  0 20 power=  30.839 ctpoten=  54.700 f107=  76.910 f107a=  74.686
+
+Allocated 3d sech field ZG(lon= 76,lat= 36,ilev= 29)
+
+Allocated 3d sech field ZG(lon= 76,lat= 36,ilev= 29)
+
+Allocated 3d sech field ZG(lon= 76,lat= 36,ilev= 29)
+
+Initialized diagnostic secondary history field ZG (ix= 26):
+  short_name = ZG
+  long_name  = Geometric Height ZG
+
+Initialized diagnostic secondary history field ZG (ix= 26):
+  short_name = ZG
+  long_name  = Geometric Height ZG
+  units      = cm
+
+Allocated 3d sech field ZG(lon= 76,lat= 36,ilev= 29)
+  units      = cm
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field ZG (ix= 26):
+  short_name = ZG
+  long_name  = Geometric Height ZG
+  units      = cm
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field ZG (ix= 26):
+  short_name = ZG
+  long_name  = Geometric Height ZG
+  units      = cm
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Allocated 3d sech field WN(lon= 76,lat= 36,ilev= 29)
+
+
+Allocated 3d sech field WN(lon= 76,lat= 36,ilev= 29)
+
+Initialized diagnostic secondary history field WN (ix=  4):
+  short_name = WN
+  long_name  = WN: Neutral Vertical Wind (plus up)
+  units      = cm/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+Allocated 3d sech field WN(lon= 76,lat= 36,ilev= 29)
+
+Allocated 3d sech field WN(lon= 76,lat= 36,ilev= 29)
+
+Initialized diagnostic secondary history field WN (ix=  4):
+  short_name = WN
+  long_name  = WN: Neutral Vertical Wind (plus up)
+  units      = cm/s
+  geo        = T
+  mag        = F
+
+Initialized diagnostic secondary history field WN (ix=  4):
+  short_name = WN
+  long_name  = WN: Neutral Vertical Wind (plus up)
+  units      = cm/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field WN (ix=  4):
+  short_name = WN
+  long_name  = WN: Neutral Vertical Wind (plus up)
+  units      = cm/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Allocated 3d sech field UI_ExB(lon= 76,lat= 36,ilev= 29)
+
+Allocated 3d sech field UI_ExB(lon= 76,lat= 36,ilev= 29)
+
+Allocated 3d sech field UI_ExB(lon= 76,lat= 36,ilev= 29)
+
+Allocated 3d sech field UI_ExB(lon= 76,lat= 36,ilev= 29)
+
+Initialized diagnostic secondary history field UI_ExB (ix= 18):
+  short_name = UI_ExB
+  long_name  = UI: Zonal ExB Velocity
+  units      = cm/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field UI_ExB (ix= 18):
+  short_name = UI_ExB
+  long_name  = UI: Zonal ExB Velocity
+  units      = cm/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field UI_ExB (ix= 18):
+  short_name = UI_ExB
+  long_name  = UI: Zonal ExB Velocity
+  units      = cm/s
+  geo        = T
+
+Initialized diagnostic secondary history field UI_ExB (ix= 18):
+  short_name = UI_ExB
+  long_name  = UI: Zonal ExB Velocity
+  units      = cm/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Allocated 3d sech field VI_ExB(lon= 76,lat= 36,ilev= 29)
+
+Allocated 3d sech field VI_ExB(lon= 76,lat= 36,ilev= 29)
+
+Allocated 3d sech field VI_ExB(lon= 76,lat= 36,ilev= 29)
+
+Initialized diagnostic secondary history field VI_ExB (ix= 19):
+  short_name = VI_ExB
+  long_name  = VI: Meridional ExB Velocity
+
+Initialized diagnostic secondary history field VI_ExB (ix= 19):
+  short_name = VI_ExB
+  long_name  = VI: Meridional ExB Velocity
+  units      = cm/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  units      = cm/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Allocated 3d sech field VI_ExB(lon= 76,lat= 36,ilev= 29)
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field VI_ExB (ix= 19):
+  short_name = VI_ExB
+  long_name  = VI: Meridional ExB Velocity
+  units      = cm/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field VI_ExB (ix= 19):
+  short_name = VI_ExB
+  long_name  = VI: Meridional ExB Velocity
+  units      = cm/s
+  geo        = T
+  mag        = F
+
+Allocated 3d sech field WI_ExB(lon= 76,lat= 36,ilev= 29)
+
+Allocated 3d sech field WI_ExB(lon= 76,lat= 36,ilev= 29)
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field WI_ExB (ix= 20):
+  short_name = WI_ExB
+  long_name  = WI: Vertical ExB Velocity
+  units      = cm/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Allocated 3d sech field WI_ExB(lon= 76,lat= 36,ilev= 29)
+
+Initialized diagnostic secondary history field WI_ExB (ix= 20):
+  short_name = WI_ExB
+  long_name  = WI: Vertical ExB Velocity
+  units      = cm/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Allocated 3d sech field WI_ExB(lon= 76,lat= 36,ilev= 29)
+
+Initialized diagnostic secondary history field WI_ExB (ix= 20):
+  short_name = WI_ExB
+  long_name  = WI: Vertical ExB Velocity
+  units      = cm/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+
+Initialized diagnostic secondary history field WI_ExB (ix= 20):
+  task0_only =     F
+  short_name = WI_ExB
+  long_name  = WI: Vertical ExB Velocity
+  units      = cm/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Allocated 2d sech field TEC(lon= 76,lat= 36)
+
+Initialized diagnostic secondary history field TEC (ix= 14):
+  short_name = TEC
+  long_name  = TEC: Total Electron Content
+  units      = 1/cm2
+  geo        = T
+  mag        = F
+
+Allocated 2d sech field TEC(lon= 76,lat= 36)
+
+Initialized diagnostic secondary history field TEC (ix= 14):
+  short_name = TEC
+  long_name  = TEC: Total Electron Content
+  units      = 1/cm2
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat             
+  dimsizes   =   76  36   0
+  ndims      =  2
+  task0_only =     F
+  dimnames   = lon     lat             
+  dimsizes   =   76  36   0
+  ndims      =  2
+  task0_only =     F
+
+
+Allocated 2d sech field HMF2(lon= 76,lat= 36)
+
+Initialized diagnostic secondary history field HMF2 (ix= 23):
+  short_name = HMF2
+  long_name  = HMF2: Height of the F2 Layer
+  units      = km
+Allocated 2d sech field HMF2(lon= 76,lat= 36)
+
+Initialized diagnostic secondary history field HMF2 (ix= 23):
+  short_name = HMF2
+  long_name  = HMF2: Height of the F2 Layer
+  units      = km
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat             
+  dimsizes   =   76  36   0
+  ndims      =  2
+  task0_only =     F
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat             
+  dimsizes   =   76  36   0
+  ndims      =  2
+  task0_only =     F
+
+Allocated 2d sech field NMF2(lon= 76,lat= 36)
+
+Initialized diagnostic secondary history field NMF2 (ix= 24):
+  short_name = NMF2
+
+Allocated 2d sech field NMF2(lon= 76,lat= 36)
+
+Initialized diagnostic secondary history field NMF2 (ix= 24):
+  short_name = NMF2
+  long_name  = NMF2: Peak Density of the F2 Layer
+  units      = 1/cm3
+  long_name  = NMF2: Peak Density of the F2 Layer
+  units      = 1/cm3
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat             
+  dimsizes   =   76  36   0
+  ndims      =  2
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat             
+  dimsizes   =   76  36   0
+  ndims      =  2
+  task0_only =     F
+  task0_only =     F
+
+Allocated 2d sech field TEC(lon= 76,lat= 36)
+
+Initialized diagnostic secondary history field TEC (ix= 14):
+  short_name = TEC
+  long_name  = TEC: Total Electron Content
+  units      = 1/cm2
+  geo        = T
+
+Allocated 2d sech field TEC(lon= 76,lat= 36)
+
+Initialized diagnostic secondary history field TEC (ix= 14):
+  short_name = TEC
+  mag        = F
+  dimnames   = lon     lat             
+  dimsizes   =   76  36   0
+  ndims      =  2
+  task0_only =     F
+
+Allocated 2d sech field HMF2(lon= 76,lat= 36)
+
+Initialized diagnostic secondary history field HMF2 (ix= 23):
+  short_name = HMF2
+  long_name  = HMF2: Height of the F2 Layer
+  long_name  = TEC: Total Electron Content
+  units      = 1/cm2
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat             
+  dimsizes   =   76  36   0
+  ndims      =  2
+  task0_only =     F
+
+Allocated 2d sech field HMF2(lon= 76,lat= 36)
+  units      = km
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat             
+  dimsizes   =   76  36   0
+  ndims      =  2
+  task0_only =     F
+
+Initialized diagnostic secondary history field HMF2 (ix= 23):
+  short_name = HMF2
+  long_name  = HMF2: Height of the F2 Layer
+  units      = km
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat             
+  dimsizes   =   76  36   0
+
+Allocated 2d sech field NMF2(lon= 76,lat= 36)
+
+Initialized diagnostic secondary history field NMF2 (ix= 24):
+  short_name = NMF2
+  long_name  = NMF2: Peak Density of the F2 Layer
+  units      = 1/cm3
+  ndims      =  2
+  task0_only =     F
+
+Allocated 2d sech field NMF2(lon= 76,lat= 36)
+
+Initialized diagnostic secondary history field NMF2 (ix= 24):
+  short_name = NMF2
+  long_name  = NMF2: Peak Density of the F2 Layer
+  units      = 1/cm3
+  geo        = T
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat             
+  dimsizes   =   76  36   0
+  ndims      =  2
+  task0_only =     F
+  mag        = F
+  dimnames   = lon     lat             
+  dimsizes   =   76  36   0
+  ndims      =  2
+  task0_only =     F
+
+Allocated 3d sech field QJOULE(lon= 76,lat= 36,lev= 29)
+
+Allocated 3d sech field QJOULE(lon= 76,lat= 36,lev= 29)
+
+Allocated 3d sech field QJOULE(lon= 76,lat= 36,lev= 29)
+
+Allocated 3d sech field QJOULE(lon= 76,lat= 36,lev= 29)
+
+Initialized diagnostic secondary history field QJOULE (ix= 22):
+  short_name = QJOULE
+  long_name  = QJOULE: Joule Heating
+  units      = erg/g/s
+  geo        = T
+
+Initialized diagnostic secondary history field QJOULE (ix= 22):
+  short_name = QJOULE
+  long_name  = QJOULE: Joule Heating
+  units      = erg/g/s
+  geo        = T
+  mag        = F
+  mag        = F
+  dimnames   = lon     lat     lev     
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+  dimnames   = lon     lat     lev     
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field QJOULE (ix= 22):
+  short_name = QJOULE
+  long_name  = QJOULE: Joule Heating
+  units      = erg/g/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     lev     
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field QJOULE (ix= 22):
+  short_name = QJOULE
+  long_name  = QJOULE: Joule Heating
+  units      = erg/g/s
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     lev     
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Allocated 3d sech field DEN(lon= 76,lat= 36,ilev= 29)
+
+Allocated 3d sech field DEN(lon= 76,lat= 36,ilev= 29)
+
+Allocated 3d sech field DEN(lon= 76,lat= 36,ilev= 29)
+
+Allocated 3d sech field DEN(lon= 76,lat= 36,ilev= 29)
+
+Initialized diagnostic secondary history field DEN (ix= 21):
+  short_name = DEN
+  long_name  = Total Density
+  units      = g/cm3
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field DEN (ix= 21):
+  short_name = DEN
+  long_name  = Total Density
+  units      = g/cm3
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field DEN (ix= 21):
+  short_name = DEN
+  long_name  = Total Density
+  units      = g/cm3
+  geo        = T
+  mag        = F
+
+Initialized diagnostic secondary history field DEN (ix= 21):
+  short_name = DEN
+  long_name  = Total Density
+  units      = g/cm3
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+  dimnames   = lon     lat     ilev    
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Allocated 3d sech field N2(lon= 76,lat= 36,lev= 29)
+
+Allocated 3d sech field N2(lon= 76,lat= 36,lev= 29)
+
+Initialized diagnostic secondary history field N2 (ix=  7):
+  short_name = N2
+  long_name  = N2: Molecular Nitrogen
+  units      = mmr
+
+Initialized diagnostic secondary history field N2 (ix=  7):
+  short_name = N2
+  long_name  = N2: Molecular Nitrogen
+  units      = mmr
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     lev     
+
+Allocated 3d sech field N2(lon= 76,lat= 36,lev= 29)
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     lev     
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Allocated 3d sech field N2(lon= 76,lat= 36,lev= 29)
+
+Initialized diagnostic secondary history field N2 (ix=  7):
+  short_name = N2
+  long_name  = N2: Molecular Nitrogen
+  units      = mmr
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     lev     
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field N2 (ix=  7):
+  short_name = N2
+  long_name  = N2: Molecular Nitrogen
+  units      = mmr
+  geo        = T
+  mag        = F
+  dimnames   = lon     lat     lev     
+  dimsizes   =   76  36  29
+  ndims      =  3
+  task0_only =     F
+
+Allocated 3d sech field ZMAG(mlon= 81,mlat= 97,imlev= 32)
+
+Allocated 3d sech field ZMAG(mlon= 81,mlat= 97,imlev= 32)
+
+Allocated 3d sech field ZMAG(mlon= 81,mlat= 97,imlev= 32)
+
+Allocated 3d sech field ZMAG(mlon= 81,mlat= 97,imlev= 32)
+
+Initialized diagnostic secondary history field ZMAG (ix= 27):
+  short_name = ZMAG
+  long_name  = ZMAG from pdynamo
+  units      = km
+  geo        = F
+  mag        = T
+  dimnames   = mlon    mlat    imlev   
+  dimsizes   =   81  97  32
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field ZMAG (ix= 27):
+  short_name = ZMAG
+  long_name  = ZMAG from pdynamo
+  units      = km
+  geo        = F
+  mag        = T
+  dimnames   = mlon    mlat    imlev   
+
+Initialized diagnostic secondary history field ZMAG (ix= 27):
+  short_name = ZMAG
+  long_name  = ZMAG from pdynamo
+  dimsizes   =   81  97  32
+  ndims      =  3
+  task0_only =     F
+
+Initialized diagnostic secondary history field ZMAG (ix= 27):
+  short_name = ZMAG
+  long_name  = ZMAG from pdynamo
+  units      = km
+  geo        = F
+  mag        = T
+  units      = km
+  geo        = F
+  mag        = T
+  dimnames   = mlon    mlat    imlev   
+  dimsizes   =   81  97  32
+  ndims      =  3
+  task0_only =     F
+  dimnames   = mlon    mlat    imlev   
+  dimsizes   =   81  97  32
+  ndims      =  3
+  task0_only =     F
+ 
+MPI run with ntask =   4
+nstep=      10 step=      60
+ 
+MPI run with ntask =   4
+nstep=      10 step=      60
+Model simulation time: hours=      0.17 days=      0.01
+Cpu time for run =       1.69
+Model simulation time: hours=      0.17 days=      0.01
+Cpu time for run =       1.68
+
+------------------------------------------------------------------------
+Total wallclock time: mins=      0.03 hours=      0.00
+
+------------------------------------------------------------------------
+Total wallclock time: mins=      0.03 hours=      0.00
+Total MPI timing: mins=  0.4003E-02 hours=  0.6671E-04 %Total runtime=    14.35
+Subroutine          Time (mins)  %Total mpi  %Total run
+mp_gather2root_prim  0.2063E-03        5.15        0.74
+mp_gather2root_sech  0.3759E-03        9.39        1.35
+mp_gather2root_lbc   0.8000E-06        0.02        0.00
+mp_bndlats           0.1398E-03        3.49        0.50
+mp_bndlats_f2d       0.9932E-04        2.48        0.36
+mp_bndlons           0.9410E-04        2.35        0.34
+mp_bndlons_f3d       0.1172E-03        2.93        0.42
+mp_polelats          0.1143E-03        2.86        0.41
+Total MPI timing: mins=  0.3031E-02 hours=  0.5052E-04 %Total runtime=    10.87
+Subroutine          Time (mins)  %Total mpi  %Total run
+mp_gather2root_prim  0.1520E-03        5.02        0.55
+mp_gather2root_sech  0.3826E-03       12.62        1.37
+mp_gather2root_lbc   0.8482E-06        0.03        0.00
+mp_bndlats           0.1404E-03        4.63        0.50
+mp_bndlats_f2d       0.1002E-03        3.30        0.36
+mp_bndlons           0.9257E-04        3.05        0.33
+mp_bndlons_f3d       0.1240E-03        4.09        0.44
+mp_polelats          0.1153E-03        3.80        0.41
+mp_polelat_f3d       0.9346E-05        0.23        0.03
+mp_gatherlons_f3d    0.1722E-03        4.30        0.62
+mp_scatterlons_f3d   0.1182E-02       29.53        4.24
+mp_polelat_f3d       0.1134E-04        0.37        0.04
+mp_gatherlons_f3d    0.2977E-03        9.82        1.07
+mp_scatterlons_f3d   0.2047E-03        6.75        0.73
+mp_periodic_f4d      0.1271E-03        4.19        0.46
+mp_periodic_f3d      0.8203E-04        2.71        0.29
+mp_periodic_f2d      0.1216E-04        0.40        0.04
+mp_periodic_f4d      0.8662E-04        2.16        0.31
+mp_periodic_f3d      0.7335E-04        1.83        0.26
+mp_periodic_f2d      0.1530E-04        0.38        0.05
+mp_bndlats_kmh       0.0000E+00        0.00        0.00
+mp_bndlons_kmh       0.0000E+00        0.00        0.00
+mp_bndlats_kmh       0.0000E+00        0.00        0.00
+mp_bndlons_kmh       0.0000E+00        0.00        0.00
+mp_mageq             0.1168E-04        0.39        0.04
+mp_mageq_jpm1        0.9883E-05        0.33        0.04
+mp_mageq_jpm3        0.9941E-05        0.33        0.04
+mp_mageq             0.9485E-05        0.24        0.03
+mp_mageq_jpm1        0.1923E-04        0.48        0.07
+mp_mageq_jpm3        0.1003E-04        0.25        0.04
+mp_magpole_2d        0.2066E-04        0.52        0.07
+mp_magpole_3d        0.3675E-04        0.92        0.13
+mp_magpole_2d        0.2055E-04        0.68        0.07
+mp_magpole_3d        0.3683E-04        1.22        0.13
+mp_magpoles          0.8458E-04        2.79        0.30
+mp_conjugate_points  0.1675E-06        0.01        0.00
+mp_foldhem           0.2095E-04        0.69        0.08
+mp_mag_periodic_f2d  0.1381E-03        4.56        0.50
+mp_gather_pdyn       0.1740E-04        0.57        0.06
+mp_magpoles          0.2105E-03        5.26        0.75
+mp_conjugate_points  0.1625E-06        0.00        0.00
+mp_foldhem           0.1944E-04        0.49        0.07
+mp_mag_periodic_f2d  0.1375E-03        3.43        0.49
+mp_gather_pdyn       0.2360E-04        0.59        0.08
+mp_mag_halos         0.3387E-04        0.85        0.12
+mp_geo_halos         0.0000E+00        0.00        0.00
+mp_geo_halos_f3d     0.6724E-04        1.68        0.24
+mp_mag_halos         0.3796E-04        1.25        0.14
+mp_geo_halos         0.0000E+00        0.00        0.00
+mp_geo_halos_f3d     0.6808E-04        2.25        0.24
+mp_scatter_coeffs    0.0000E+00        0.00        0.00
+mp_scatter_coeffs    0.0000E+00        0.00        0.00
+mp_scatter_phim      0.7256E-03       18.13        2.60
+mp_gather_f2d       0.3350E-05        0.08        0.01
+mp_scatter_f2d       0.1771E-04        0.44        0.06
+
+------------------------------------------------------------------------
+mp_scatter_phim      0.7277E-03       24.00        2.61
+mp_gather_f2d       0.2957E-05        0.10        0.01
+mp_scatter_f2d       0.1668E-04        0.55        0.06
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Report MPI wall-clock timing (mpi_wtime):  mytid=   2  istep=      10  nstep=      10
+Total Time (mins) in 'pefield                       ' =   0.3907E-03 (  1.40% of total run time)
+Total Time (mins) in 'dynamo_inputs                 ' =   0.1483E-02 (  5.32% of total run time)
+Total Time (mins) in 'pdynamo_fieldline_integrals   ' =   0.2669E-03 (  0.96% of total run time)
+Total Time (mins) in 'pdynamo_complete_integrals    ' =   0.4813E-04 (  0.17% of total run time)
+
+------------------------------------------------------------------------
+Report MPI wall-clock timing (mpi_wtime):  mytid=   3  istep=      10  nstep=      10
+Total Time (mins) in 'pefield                       ' =   0.3921E-03 (  1.41% of total run time)
+Total Time (mins) in 'dynamo_inputs                 ' =   0.1481E-02 (  5.31% of total run time)
+Total Time (mins) in 'pdynamo_fieldline_integrals   ' =   0.2585E-03 (  0.93% of total run time)
+Total Time (mins) in 'pdynamo_complete_integrals    ' =   0.5957E-04 (  0.21% of total run time)
+Total Time (mins) in 'pdynamo_rhspde                ' =   0.2008E-05 (  0.01% of total run time)
+Total Time (mins) in 'pdynamo_rhspde                ' =   0.2120E-05 (  0.01% of total run time)
+Total Time (mins) in 'highlat_poten                 ' =   0.5843E-06 (  0.00% of total run time)
+Total Time (mins) in 'pthreed                       ' =   0.2757E-02 (  9.88% of total run time)
+------------------------------------------------------------------------
+
+Total Time (mins) in 'highlat_poten                 ' =   0.5459E-06 (  0.00% of total run time)
+Total Time (mins) in 'pthreed                       ' =   0.2749E-02 (  9.85% of total run time)
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+Write TGCM PRIMARY HISTORY
+Diskfile: primary.nc
+  label         = 2021 runtime restart qualification; not training data
+  model_name    = tiegcm
+  model_version = tiegcm_trunk
+  create_date= 
+  write_date = 10/30/26 10:08:03
+  logname    = root
+  host       = ws-10-1791952224
+  system     = LINUX
+  run_type   = continuation
+  source_file  = primary.nc
+  output_file  = primary.nc
+  source_mtime =   82   0  10
+  initial_year =    0
+  initial_day  =    0
+  initial_mtime=    0   0   0
+  type       = primary
+  ihist      =   3 (nth history on history file)
+  delhmins=   10 (delta minutes between histories)
+  calendar year,day = 2021, 82
+    (model IS being advanced in calendar time)
+  modeltime =  82, 0,20, 0 (model time day,hour,minute,seconds)
+  time    =      20.00 (minutes in current day)
+  ut      =  0.33 (ut hours)
+  step    =   60 (time step in seconds)
+  iter    =   118100 (number of steps from 0,0,0)
+  nlat    =   36 (number of latitudes)
+  nlon    =   72 (number of longitudes)
+  nlev    =   29 (number of levels)
+  zmtop   =   7.250 (top midpoint level)
+  zmbot   =  -6.750 (bottom midpoint level)
+  zitop   =   7.000 (top interface level)
+  zibot   =  -7.000 (bottom interface level)
+  dtide   =  0.0E+00   0.0 (amp/phase of diurnal tide)
+  sdtide  =  0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00   0.0  0.0  0.0  0.0  0.0
+    (amp/phase of semi-diurnal tide)
+  f107d   =   0.7691E+02 (daily solar flux)
+  f107a   =   0.7469E+02 (average solar flux)
+  hpower  =   0.3084E+02 (Gw)
+  ctpoten =   0.5470E+02 (Volts)
+  kp      =   0.2352E+01 ()
+  byimf   =   0.0000E+00
+  bzimf   =   0.1000E+37
+  swvel   =   0.1000E+37
+  swden   =   0.1000E+37
+  al      =   0.1000E+37
+  e1,e2   =   0.2293E+01  0.4392E+01 (ergs/cm2/s)
+  alfac,alfad  =   0.1000E+00  0.5000E+00 (keV)
+  ec,ed =   0.8932E-01  0.1970E-01 (ergs/cm2/s)
+  colfac    =   0.15E+01
+  joulefac  =   0.15E+01
+  p0        =   0.50E-06
+  p0_model=   0.50E-03
+  grav    =   0.87E+03
+  nflds   =  28 (number of model fields)
+  gswm_mi_di_ncfile  = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+  gswm_nm_di_ncfile  = [none]
+  gswm_nm_sdi_ncfile = [none]
+  see_ncfile   = [none]
+  gpi_ncfile   = /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+  ncep_ncfile  = [none]
+  imf_ncfile   = [none]
+  saber_ncfile = [none]
+  tidi_ncfile  = [none]
+  ctmt_ncfile  = [none]
+  bgrddata_ncfile = [none]
+  tuv_lbc_intop=  0 (if 1, then lbc of t,u,v are stored in top k slot (old histories))
+  LBC =    -7.00 (lower boundary interface level)
+  ntask_mpi    =   4 (number of MPI tasks)
+  coupled_cmit =   0 (1 if coupled with CISM/CMIT, 0 otherwise)
+  There are  28 fields on this history, as follows:
+  TN        UN        VN        O2        O1        N4S       NO        HE       
+  AR        OP        N2D       TI        TE        NE        O2P       OMEGA    
+  Z         POTEN     TN_NM     UN_NM     VN_NM     O2_NM     O1_NM     N4S_NM   
+  NO_NM     OP_NM     HE_NM     AR_NM    
+------------------------------------------------------------------------
+
+Wrote primary   history  82, 0,20 to primary.nc (   1 of    1)
+
+Starting secondary history time series  1 at model time   82   0  20   0
+Created netcdf file secondary.nc ncid=  196608
+Opened new secondary history file secondary.nc (isecout=   1)
+nc_define: svn_revision = tiegcm2.0
+
+------------------------------------------------------------------------
+Write TGCM SECONDARY HISTORY
+Diskfile: secondary.nc
+  label         = 2021 runtime restart qualification; not training data
+  model_name    = tiegcm
+  model_version = tiegcm_trunk
+  create_date= 10/30/26 10:08:03
+  write_date = 10/30/26 10:08:03
+  logname    = root
+  host       = ws-10-1791952224
+  system     = LINUX
+  run_type   = continuation
+  source_file  = primary.nc
+  output_file  = secondary.nc
+  source_mtime =   82   0  10
+  initial_year =    0
+  initial_day  =    0
+  initial_mtime=    0   0   0
+  type       = secondary
+  ihist      =   1 (nth history on history file)
+  delhmins=   10 (delta minutes between histories)
+  calendar year,day = 2021, 82
+    (model IS being advanced in calendar time)
+  modeltime =  82, 0,20, 0 (model time day,hour,minute,seconds)
+  time    =      20.00 (minutes in current day)
+  ut      =  0.33 (ut hours)
+  step    =   60 (time step in seconds)
+  iter    =   118100 (number of steps from 0,0,0)
+  nlat    =   36 (number of latitudes)
+  nlon    =   72 (number of longitudes)
+  nlev    =   29 (number of levels)
+  zmtop   =   7.250 (top midpoint level)
+  zmbot   =  -6.750 (bottom midpoint level)
+  zitop   =   7.000 (top interface level)
+  zibot   =  -7.000 (bottom interface level)
+  dtide   =  0.0E+00   0.0 (amp/phase of diurnal tide)
+  sdtide  =  0.0E+00 0.0E+00 0.0E+00 0.0E+00 0.0E+00   0.0  0.0  0.0  0.0  0.0
+    (amp/phase of semi-diurnal tide)
+  f107d   =   0.7691E+02 (daily solar flux)
+  f107a   =   0.7469E+02 (average solar flux)
+  hpower  =   0.3084E+02 (Gw)
+  ctpoten =   0.5470E+02 (Volts)
+  kp      =   0.2352E+01 ()
+  byimf   =   0.0000E+00
+  bzimf   =   0.1000E+37
+  swvel   =   0.1000E+37
+  swden   =   0.1000E+37
+  al      =   0.1000E+37
+  e1,e2   =   0.2293E+01  0.4392E+01 (ergs/cm2/s)
+  alfac,alfad  =   0.1000E+00  0.5000E+00 (keV)
+  ec,ed =   0.8932E-01  0.1970E-01 (ergs/cm2/s)
+  colfac    =   0.15E+01
+  joulefac  =   0.15E+01
+  p0        =   0.50E-06
+  p0_model=   0.50E-03
+  grav    =   0.87E+03
+  nflds   =   0 (number of model fields)
+  gswm_mi_di_ncfile  = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc
+  gswm_mi_sdi_ncfile = /workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc
+  gswm_nm_di_ncfile  = [none]
+  gswm_nm_sdi_ncfile = [none]
+  see_ncfile   = [none]
+  gpi_ncfile   = /workspace/data/20261016/data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc
+  ncep_ncfile  = [none]
+  imf_ncfile   = [none]
+  saber_ncfile = [none]
+  tidi_ncfile  = [none]
+  ctmt_ncfile  = [none]
+  bgrddata_ncfile = [none]
+  tuv_lbc_intop=  0 (if 1, then lbc of t,u,v are stored in top k slot (old histories))
+  LBC =    -7.00 (lower boundary interface level)
+  ntask_mpi    =   4 (number of MPI tasks)
+  coupled_cmit =   0 (1 if coupled with CISM/CMIT, 0 otherwise)
+------------------------------------------------------------------------
+
+Wrote secondary history  82, 0,20 to secondary.nc (   1 of    1)
+ 
+MPI run with ntask =   4
+ 
+MPI run with ntask =   4
+nstep=      10 step=      60
+nstep=      10 step=      60
+Model simulation time: hours=      0.17 days=      0.01
+Model simulation time: hours=      0.17 days=      0.01
+Cpu time for run =       1.74
+
+Cpu time for run =       1.76
+
+------------------------------------------------------------------------
+Total wallclock time: mins=      0.03 hours=      0.00
+------------------------------------------------------------------------
+Total wallclock time: mins=      0.03 hours=      0.00
+Total MPI timing: mins=  0.2142E-02 hours=  0.3570E-04 %Total runtime=     7.35
+Subroutine          Time (mins)  %Total mpi  %Total run
+mp_gather2root_prim  0.2283E-03       10.66        0.78
+mp_gather2root_sech  0.3573E-03       16.68        1.23
+Total MPI timing: mins=  0.5243E-02 hours=  0.8738E-04 %Total runtime=    17.99
+Subroutine          Time (mins)  %Total mpi  %Total run
+mp_gather2root_lbc   0.2268E-05        0.11        0.01
+mp_bndlats           0.1192E-03        5.56        0.41
+mp_bndlats_f2d       0.5104E-04        2.38        0.18
+mp_bndlons           0.9273E-04        4.33        0.32
+mp_bndlons_f3d       0.1216E-03        5.68        0.42
+mp_polelats          0.1164E-03        5.44        0.40
+mp_polelat_f3d       0.9971E-05        0.47        0.03
+mp_gather2root_prim  0.1141E-03        2.18        0.39
+mp_gather2root_sech  0.3122E-03        5.95        1.07
+mp_gather2root_lbc   0.7992E-06        0.02        0.00
+mp_bndlats           0.1176E-03        2.24        0.40
+mp_bndlats_f2d       0.5122E-04        0.98        0.18
+mp_bndlons           0.9503E-04        1.81        0.33
+mp_bndlons_f3d       0.2587E-03        4.93        0.89
+mp_polelats          0.1186E-03        2.26        0.41
+mp_polelat_f3d       0.6249E-04        1.19        0.21
+mp_gatherlons_f3d    0.1977E-03        3.77        0.68
+mp_gatherlons_f3d    0.3573E-03       16.68        1.23
+mp_scatterlons_f3d   0.1533E-03        7.16        0.53
+mp_periodic_f4d      0.7950E-04        3.71        0.27
+mp_periodic_f3d      0.8217E-04        3.84        0.28
+mp_periodic_f2d      0.9778E-05        0.46        0.03
+mp_scatterlons_f3d   0.1086E-02       20.71        3.73
+mp_periodic_f4d      0.1482E-02       28.27        5.09
+mp_periodic_f3d      0.8900E-04        1.70        0.31
+mp_bndlats_kmh       0.0000E+00        0.00        0.00
+mp_bndlons_kmh       0.0000E+00        0.00        0.00
+mp_mageq             0.1300E-04        0.61        0.04
+mp_mageq_jpm1        0.1169E-04        0.55        0.04
+mp_periodic_f2d      0.2700E-04        0.51        0.09
+mp_bndlats_kmh       0.0000E+00        0.00        0.00
+mp_bndlons_kmh       0.0000E+00        0.00        0.00
+mp_mageq             0.9889E-05        0.19        0.03
+mp_mageq_jpm3        0.9983E-05        0.47        0.03
+mp_magpole_2d        0.2011E-04        0.94        0.07
+mp_mageq_jpm1        0.5234E-04        1.00        0.18
+mp_mageq_jpm3        0.9802E-05        0.19        0.03
+mp_magpole_2d        0.2121E-04        0.40        0.07
+mp_magpole_3d        0.3677E-04        0.70        0.13
+mp_magpole_3d        0.3701E-04        1.73        0.13
+mp_magpoles          0.1605E-04        0.75        0.06
+mp_conjugate_points  0.1635E-06        0.01        0.00
+mp_magpoles          0.1448E-03        2.76        0.50
+mp_foldhem           0.1811E-04        0.85        0.06
+mp_mag_periodic_f2d  0.1419E-03        6.63        0.49
+mp_gather_pdyn       0.3517E-04        1.64        0.12
+mp_conjugate_points  0.1538E-06        0.00        0.00
+mp_foldhem           0.1658E-04        0.32        0.06
+mp_mag_halos         0.3860E-04        1.80        0.13
+mp_geo_halos         0.0000E+00        0.00        0.00
+mp_geo_halos_f3d     0.6952E-05        0.32        0.02
+mp_mag_periodic_f2d  0.1436E-03        2.74        0.49
+mp_gather_pdyn       0.1232E-04        0.23        0.04
+mp_scatter_coeffs    0.0000E+00        0.00        0.00
+mp_scatter_phim      0.7414E-05        0.35        0.03
+mp_gather_f2d       0.6686E-05        0.31        0.02
+mp_scatter_f2d       0.2881E-05        0.13        0.01
+mp_mag_halos         0.3896E-04        0.74        0.13
+mp_geo_halos         0.0000E+00        0.00        0.00
+mp_geo_halos_f3d     0.9890E-05        0.19        0.03
+mp_scatter_coeffs    0.0000E+00        0.00        0.00
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+Report MPI wall-clock timing (mpi_wtime):  mytid=   0  istep=      10  nstep=      10
+mp_scatter_phim      0.7321E-03       13.96        2.51
+mp_gather_f2d       0.2820E-05        0.05        0.01
+mp_scatter_f2d       0.1679E-04        0.32        0.06
+
+------------------------------------------------------------------------
+Total Time (mins) in 'pefield                       ' =   0.4080E-03 (  1.40% of total run time)
+Total Time (mins) in 'dynamo_inputs                 ' =   0.1461E-02 (  5.02% of total run time)
+Total Time (mins) in 'pdynamo_fieldline_integrals   ' =   0.2681E-03 (  0.92% of total run time)
+Total Time (mins) in 'pdynamo_complete_integrals    ' =   0.4635E-04 (  0.16% of total run time)
+Total Time (mins) in 'pdynamo_rhspde                ' =   0.1424E-05 (  0.00% of total run time)
+Total Time (mins) in 'stencils                      ' =   0.6290E-04 (  0.22% of total run time)
+
+------------------------------------------------------------------------
+Report MPI wall-clock timing (mpi_wtime):  mytid=   1  istep=      10  nstep=      10
+Total Time (mins) in 'pefield                       ' =   0.4070E-03 (  1.40% of total run time)
+Total Time (mins) in 'dynamo_inputs                 ' =   0.1430E-02 (  4.91% of total run time)
+Total Time (mins) in 'pdynamo_fieldline_integrals   ' =   0.2570E-03 (  0.88% of total run time)
+Total Time (mins) in 'pdynamo_complete_integrals    ' =   0.8949E-04 (  0.31% of total run time)
+Total Time (mins) in 'solver                        ' =   0.6326E-03 (  2.17% of total run time)
+Total Time (mins) in 'highlat_poten                 ' =   0.1487E-05 (  0.01% of total run time)
+Total Time (mins) in 'pthreed                       ' =   0.2766E-02 (  9.49% of total run time)
+------------------------------------------------------------------------
+
+Total Time (mins) in 'pdynamo_rhspde                ' =   0.1307E-05 (  0.00% of total run time)
+Total Time (mins) in 'highlat_poten                 ' =   0.1696E-05 (  0.01% of total run time)
+Total Time (mins) in 'pthreed                       ' =   0.2759E-02 (  9.47% of total run time)
+------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+TIMER (system_clock):
+Elapsed run time      =       1.75 (secs)    0.03 (mins)   0.00 (hrs)
+ 
+Elapsed init time     =     0.47 secs,  0.000 hrs,  27.0% (includes source i/o)
+Elapsed step time     =     1.17 secs,  0.000 hrs,  66.7%
+
+------------------------------------------------------------------------
+TIMER (system_clock):
+Elapsed run time      =       1.67 (secs)    0.03 (mins)   0.00 (hrs)
+ 
+Elapsed init time     =     0.47 secs,  0.000 hrs,  28.2% (includes source i/o)
+Elapsed step time     =     1.17 secs,  0.000 hrs,  69.7%
+
+------------------------------------------------------------------------
+TIMER (system_clock):
+Elapsed run time      =       1.75 (secs)    0.03 (mins)   0.00 (hrs)
+ 
+Elapsed init time     =     0.47 secs,  0.000 hrs,  27.0% (includes source i/o)
+Elapsed step time     =     1.25 secs,  0.000 hrs,  71.5%
+  Elapsed prep time   =     1.47 secs,  0.000 hrs,  83.9%
+  Elapsed prep time   =     1.47 secs,  0.000 hrs,  83.9%
+  Elapsed apxparm time=     0.24 secs,  0.000 hrs, 100.0%
+  Elapsed dynamics    =     0.64 secs,  0.000 hrs,  36.4%
+    Elapsed qrj       =     0.11 secs,  0.000 hrs,   6.6%
+    Elapsed oplus     =     0.05 secs,  0.000 hrs,   2.7%
+    Elapsed cmpminor  =     0.09 secs,  0.000 hrs,   5.3% (n4s,n2d,no)
+    Elapsed cmpmajor  =     0.08 secs,  0.000 hrs,   4.6% (o2, o, he)
+    Elapsed dt        =     0.02 secs,  0.000 hrs,   0.9%
+    Elapsed duv       =     0.03 secs,  0.000 hrs,   1.9%
+  Elapsed pdynamo     =     0.23 secs,  0.000 hrs,  13.3%
+  Elapsed magpres_grav=     0.02 secs,  0.000 hrs,   0.9%
+Elapsed i/o           =     0.22 secs,  0.000 hrs,  12.6%
+
+------------------------------------------------------------------------
+TIMER (system_clock):
+Elapsed run time      =       1.67 (secs)    0.03 (mins)   0.00 (hrs)
+ 
+Elapsed init time     =     0.47 secs,  0.000 hrs,  28.2% (includes source i/o)
+Elapsed step time     =     1.17 secs,  0.000 hrs,  69.8%
+  Elapsed prep time   =     1.39 secs,  0.000 hrs,  83.1%
+  Elapsed apxparm time=     0.24 secs,  0.000 hrs, 100.0%
+  Elapsed dynamics    =     0.64 secs,  0.000 hrs,  37.9%
+  Elapsed prep time   =     1.39 secs,  0.000 hrs,  83.1%
+  Elapsed apxparm time=     0.24 secs,  0.000 hrs, 100.0%
+  Elapsed dynamics    =     0.64 secs,  0.000 hrs,  38.1%
+    Elapsed qrj       =     0.12 secs,  0.000 hrs,   7.0%
+    Elapsed oplus     =     0.05 secs,  0.000 hrs,   3.1%
+    Elapsed cmpminor  =     0.09 secs,  0.000 hrs,   5.3% (n4s,n2d,no)
+    Elapsed cmpmajor  =     0.08 secs,  0.000 hrs,   4.7% (o2, o, he)
+    Elapsed dt        =     0.02 secs,  0.000 hrs,   1.0%
+    Elapsed duv       =     0.04 secs,  0.000 hrs,   2.4%
+  Elapsed pdynamo     =     0.23 secs,  0.000 hrs,  13.7%
+  Elapsed magpres_grav=     0.01 secs,  0.000 hrs,   0.8%
+  Elapsed apxparm time=     0.24 secs,  0.000 hrs, 100.0%
+  Elapsed dynamics    =     0.64 secs,  0.000 hrs,  36.4%
+    Elapsed qrj       =     0.12 secs,  0.000 hrs,   6.9%
+    Elapsed oplus     =     0.05 secs,  0.000 hrs,   3.0%
+    Elapsed cmpminor  =     0.09 secs,  0.000 hrs,   5.3% (n4s,n2d,no)
+    Elapsed cmpmajor  =     0.08 secs,  0.000 hrs,   4.6% (o2, o, he)
+    Elapsed dt        =     0.02 secs,  0.000 hrs,   1.0%
+    Elapsed duv       =     0.03 secs,  0.000 hrs,   1.9%
+  Elapsed pdynamo     =     0.23 secs,  0.000 hrs,  13.4%
+  Elapsed magpres_grav=     0.02 secs,  0.000 hrs,   0.9%
+  Elapsed Primary io  =     0.11 secs,  0.000 hrs,   6.3%
+  Elapsed Secondary   =     0.11 secs,  0.000 hrs,   6.3%
+
+Average secs/step =     0.12
+Average mins/simulated day  =     4.20
+------------------------------------------------------------------------
+
+End execution of tiegcm_trunk at 10/30/26  10:08:03
+NORMAL EXIT
+    Elapsed qrj       =     0.11 secs,  0.000 hrs,   6.8%
+    Elapsed oplus     =     0.05 secs,  0.000 hrs,   3.0%
+    Elapsed cmpminor  =     0.09 secs,  0.000 hrs,   5.3% (n4s,n2d,no)
+    Elapsed cmpmajor  =     0.08 secs,  0.000 hrs,   4.7% (o2, o, he)
+    Elapsed dt        =     0.02 secs,  0.000 hrs,   1.0%
+    Elapsed duv       =     0.04 secs,  0.000 hrs,   2.4%
+Elapsed i/o           =     0.07 secs,  0.000 hrs,   4.2%
+  Elapsed Primary io  =     0.04 secs,  0.000 hrs,   2.1%
+  Elapsed Secondary   =     0.04 secs,  0.000 hrs,   2.1%
+
+Average secs/step =     0.12
+Average mins/simulated day  =     4.02
+------------------------------------------------------------------------
+
+End execution of tiegcm_trunk at 10/30/26  10:08:03
+NORMAL EXIT
+Elapsed i/o           =     0.05 secs,  0.000 hrs,   3.0%
+  Elapsed Primary io  =     0.03 secs,  0.000 hrs,   1.5%
+  Elapsed Secondary   =     0.03 secs,  0.000 hrs,   1.5%
+
+Average secs/step =     0.12
+Average mins/simulated day  =     4.20
+------------------------------------------------------------------------
+
+  Elapsed pdynamo     =     0.23 secs,  0.000 hrs,  13.8%
+  Elapsed magpres_grav=     0.01 secs,  0.000 hrs,   0.9%
+Elapsed i/o           =     0.06 secs,  0.000 hrs,   3.8%
+  Elapsed Primary io  =     0.03 secs,  0.000 hrs,   1.9%
+  Elapsed Secondary   =     0.03 secs,  0.000 hrs,   1.9%
+
+Average secs/step =     0.12
+Average mins/simulated day  =     4.02
+------------------------------------------------------------------------
+
+End execution of tiegcm_trunk at 10/30/26  10:08:03
+NORMAL EXIT
+End execution of tiegcm_trunk at 10/30/26  10:08:03
+NORMAL EXIT

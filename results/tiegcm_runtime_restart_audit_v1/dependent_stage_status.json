@@ -1,0 +1,13 @@
+{
+  "INSTRUMENTATION_INVARIANCE_READY": "PARTIAL",
+  "STEPWISE_BUDGET_READY": "PARTIAL",
+  "SCIENTIFIC_TRAINING_READY": "FAIL",
+  "stage2_execution": "NOT_EXECUTED_UPSTREAM_FAIL",
+  "stage3_execution": "NOT_EXECUTED_UPSTREAM_FAIL",
+  "instrumented_builds": 0,
+  "stage2_launches": 0,
+  "stage3_launches": 0,
+  "process_percentages_available": false,
+  "physical_budget_residual": null,
+  "no_remote_sync": true
+}

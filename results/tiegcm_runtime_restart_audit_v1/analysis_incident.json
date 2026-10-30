@@ -1,0 +1,9 @@
+{
+  "original_script_SHA256": "baf5da04f7aed25105021f82f37472333eb31215d7e439cfdd23dd8cc0358f34",
+  "original_log_SHA256": "fe28f46b5f3e4ccdf4d7eb10bae674ad794a9cbf5c05ca05ea673cf71db77681",
+  "original_failure": "offline comparison asserted bitwise prefix despite inherited numerical tolerance; no model failure",
+  "resolution": "preserve bitwise=False and quantify prefix under frozen numeric tolerance in separate offline script",
+  "model_reruns": 0,
+  "physical_tolerance_changes": false,
+  "overall_result": "FAIL; no dependence stages launched"
+}

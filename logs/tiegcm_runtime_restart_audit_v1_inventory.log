@@ -1,0 +1,9 @@
+{
+  "Make_env_SHA256": "4c7ce67f7c7052fc1ba5862cc43155eadfa5c62f59895d8046de21c9c15708a5",
+  "Make_workspace_SHA256": "d1e14765c13897bdfa4b783717ab77618821a8c31f67ec4ee063f58c9391c936",
+  "executable_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+  "reviewed_table_rows": 91,
+  "syntactic_candidate_declarations": 516,
+  "scope_limit": "module declarations and SAVE/DATA search is not whole-program liveness proof; inactive CPP branches may appear; unknown lifecycles explicitly retained",
+  "original_sources_modified": false
+}

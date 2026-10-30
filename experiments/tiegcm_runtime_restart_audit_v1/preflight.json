@@ -1,0 +1,15 @@
+{
+  "static_PASS": true,
+  "seed_SHA256": "00dddcdb88f4c6cd281a675fd581c74c7f5d854c4c86856afcc734b5b1f8c4b9",
+  "exe_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+  "GPI_SHA256": "6dad9d0ff290e841c32fb736b8f097365d7c4eebe2e12a0cef5c301b0eae8847",
+  "apex_SHA256": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3",
+  "free_disk_bytes": 723709329408,
+  "MPI_version": "mpirun (Open MPI) 5.0.8",
+  "compiler_version": "GNU Fortran (conda-forge gcc 12.4.0-2) 12.4.0",
+  "config_SHA256": {
+    "continuous": "6adb7d010f0a4e6088b04e00ee1c3d23086e49278f9a05e3e53a923ca88e95e0",
+    "segment": "7a0c385b54d76dba5126e6283436717a167f4bb31921840ea5b1ca40d2cebb6e",
+    "resumed": "0065399513c3e1cd24b7f186e3a9110021194aaceb955b6afd2a0ca521732bd8"
+  }
+}

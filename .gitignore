@@ -206,3 +206,7 @@ credentials.json
 /logs/tiegcm_process_budget_v1_git_sync.json
 
 !/logs/tiegcm_process_budget_v1_final_checks.log
+
+# Runtime restart qualification: raw NetCDF remain local; audit metadata only.
+!/logs/tiegcm_runtime_restart_audit_v1_*.log
+/logs/tiegcm_runtime_restart_audit_v1_git_state.json
