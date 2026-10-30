@@ -429,3 +429,5 @@ SCIENCE_TRAINING_READY=False、SPINUP_SUFFICIENCY_UNVERIFIED继续保留。不�
 本轮成果已本地提交e3af599；首次GitHub写入60秒超时，之后核对远端仍66e6360，尚未同步。保留本地成果及logs/composition_git_sync_20261030.json，未强推，后续以最终远端核验为准。
 
 2026-10-30用户要求继续推送：重新核查干净main与远端，55秒及150秒两次有界推送均超时（后次确认同用户有效认证socket，并禁用Expect等待）；每次后独立查询远端，仍66e6360，49419c0尚未收到。成果和本地提交完整，未强推，未新增科研运行。最终重试审计见本地logs/composition_git_sync_20261030.json。
+
+2026-10-30继续推送已恢复：凭据预检发现无用户名时现有askpass等待；仅Git进程指定已核实credential.username=hhtbbc后，安全推送66e6360→4f4d322成功，独立ls-remote核实已收到。此前超时描述保留历史，当前同步结果以本条及最终HEAD核验为准。未修改全局配置、remote或保存凭据，无科研运行。

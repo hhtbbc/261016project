@@ -636,3 +636,7 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 ## 2026-10-30：按用户指令继续GitHub推送
 
 先核对唯一路径、AGENTS既有规则、STATUS/WORKLOG、干净main、正确HTTPS origin及本地49419c0/远端66e6360。安全HTTP/1.1+8MiB postBuffer第一次55秒超时；远端核查未收到。确认仅一个同用户有效VS Code认证socket，第二次使用同通道、禁用Expect等待并延长监督至150秒，仍超时，无成功传输响应。之后独立ls-remote仍66e6360，不能报告成功；保留全部本地成果与忽略同步日志，不强推、不存储或打印凭据、不改全局配置。仅记录重试事实，无科研运行或数据改动。停止自动重试。
+
+## 2026-10-30：恢复组分离线分析成果同步
+
+按用户继续推送指令，核对干净main、本地4f4d322与远端66e6360。凭据fill预检15秒等待未返回；禁止交互的隔离检查明确要求GitHub用户名。通过GitHub连接器只读核实登录账号hhtbbc后，仅在Git进程设置credential.username=hhtbbc，继续复用同用户现有VS Code认证socket，25秒有界push成功66e6360→4f4d322。独立ls-remote已确认相同SHA。没有输出/写入令牌、修改全局配置或remote，没有新科研执行。更新成功记录后安全同步此元数据提交并核对最终HEAD。
