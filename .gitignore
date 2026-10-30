@@ -188,3 +188,13 @@ credentials.json
 
 # Internal meeting presentation and speaker notes: local only, never auto-publish.
 /deliverables/20261026_progress_report/
+
+# Full offline composition time/level/region table retained locally; publish summaries.
+/results/tiegcm_composition_root_cause_20261030/hourly_level_region.csv
+!/logs/composition_root_cause_tests_20261030.log
+!/logs/composition_root_cause_20261030.log
+!/logs/composition_summary_20261030.log
+!/logs/composition_floor_cross_20261030.log
+!/logs/composition_historical_integrity_20261030.log
+
+!/logs/composition_boundary_20261030.log

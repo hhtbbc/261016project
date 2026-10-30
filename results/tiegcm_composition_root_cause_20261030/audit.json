@@ -1,0 +1,173 @@
+{
+  "inputs": {
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_001.nc": "c4b4363abb379f453c975a2f4f50d629a4f2f85e93218cb140cac15da4215667",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_001.nc": "625b2e632afd3fb768f16148405ca50a7ab9ce0451aa2f518714ae9e3ae8ec14",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_002.nc": "a240e1939c0621f365974cc81c96a5387f89a5d4d2356761da9e8c856316e87a",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_002.nc": "f4448a4cfca4cd425ba7c60801cb30509dd48edd2d51cd2a8e341b07dac1fbca",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_003.nc": "d0fd1d5349e2cf2055ab3c5dc60e2370142f33c5abff15106683255cad755c70",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_003.nc": "3eb32074d7383a1c77a26e0a8b79652a291a5f04463b3a19b9bbcc19a1531234",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_004.nc": "959377b620d79681108ad66d115a2cf63d5d65da9d6938393a5b2032e830c3c3",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_004.nc": "aba04c33b90ce0121571047f061d86741b3130bf77d2b9b7c8bdde65a3093edf",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_005.nc": "05a7abd8fee67f6c63b40d983d113f00de4ed49a0c0babfe5fd19ad2e5f5737e",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_005.nc": "f4a4923b924ebccf0cc302611cc31a7f6db682b40b4d924d907782b0a0d22902",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_006.nc": "090b87a2fb5baa48e2a1cd1d4897815e5bde89b4378107b829cead39f0ee2e7e",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_006.nc": "0cb1ef2ea3bc31dcdfec0f39b29b6b95be36ea23ea9db174981e79f2e5f9e80b",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_007.nc": "e96e1a9879dfcb2638428dd4aaafb2c30e6c2b7b311bfedc2f6d87b58487f027",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_007.nc": "9583e279162bfc5acde23146a7914bbdae732a5ccc85451bea0470cbe7aae10f",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_008.nc": "233fd66f506aa2400915814f425d9fd28989a7fc83d8c1b31c172ee66058f646",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_008.nc": "68c867ef059cb1eac5b774bb55ef7677a4c3d1231668270e2b3478482517413f",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_009.nc": "27c45918656b562212e34ccb700e64585cb5bb7f81a2603fa6081292ba0610cc",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_009.nc": "79fcf865819545c2f122acf217823265aba27019b3882d82724bad1aaf651b7f",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_010.nc": "4dddd9abbbda70749242c70ff15400ae977acd2dea83633139af8a421bb3dbe1",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_010.nc": "09753eff4972d10591eed250a1f8850946139b7ea3053d4a1ad41c61d53f0ed6",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_001.nc": "9c7e7751cf847e7384ff2a54dcd24029f8ae894ea26c0cd018e028b6f6f6d66c",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_001.nc": "e0f2bac3cdc4a8605bcf7dc80c38ae713c235235169e7c1f594f86f0411a406e",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_002.nc": "64cb34ce48697a8fb93aa2f4bba2d2d8e7f5a040ee3779b54acec6aff11acc7f",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_002.nc": "d63f8c9dba9d7c542681ced5a15e2c6c53bee1b7561bd659f78adfdd9ed606a8",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_003.nc": "8862eec4b93a778a4428b6ab27ef51385be0bfd08e58184f62b1d284c69eb7fc",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_003.nc": "77f11fb4227edc71e3e0bf9a67efdea5856d03304939c859e4a36cb36127b362",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_004.nc": "6689cdeef420b31a5c3824c40d726ae8aef72e6a31939eedd6bc3e5e8413d42d",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_004.nc": "f21f3ddd7bbe4336ced80688e57ecbbab30298d35d51d6fb6eb9f821c38c5184",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_005.nc": "a08233b3aa5cab803ac6bdfb4a7205ef00bcbfa1bc68674389ba813e253b9a1f",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_005.nc": "da9571950d0dcf2199da4ebf5c2f4d7f65c41a3c68a5f21e2e6ca767b1d9458b",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_006.nc": "e52bf65ad33817b001860ce879e9d2106d53093376f9867518bd7441d0a35693",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_006.nc": "cce0b7d1f179bc5a01e1660cc287ca0d893405185c36f83f5c739ed5c3d03282",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_007.nc": "6b74ef74dee6e6c7a494138185410bcda6ca22ee2c411b6aad35bfcd676bcf9f",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_007.nc": "33590abd6118f73d7ff8e96516864038fdb7cd03335140023e0d1587f8760cef",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_008.nc": "52ef0506e76935ff84aea8eaab984bcdabfc212b9b1d953f11c1fb4392906794",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_008.nc": "cfb4eb09efde89abb2deec1672f25d28cc6f8cd651166bd4d57a51673e5d9afb",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_009.nc": "8a5e83fdaadf769944e7a3695b6de54ff5258663650548cc6f120db3e563f7a6",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_009.nc": "2d3857aed6f4237e047ed4c8f806861df8fcb4dbab0c0a20e885417a577daf3f",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_010.nc": "4c7bcbce0df1256602a32118559582ceb8d242a1d358e9f02e5cc8830718ccba",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_010.nc": "73fef1a696d61dd1be7a3ad3b1c63795dd8218ad9539a234b2aba07fb6a339d7",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_011.nc": "0aa2d76cb56ad9b2f6095e468eda7b1a2b1513482cd9f95ce2b9a4c2afc6bfa2",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_011.nc": "054841e0c62d83c2282548f539013e57d0ffdb28f3572f48007f4d754c1bf2e7",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_012.nc": "893cbac4c5a378d5e59d6697abed6d04898ed2bffd7176436bff9b788e00c043",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_012.nc": "102ee57cf4b750db5e3cbeee72296448872e1338b40033296f2ece0aa7a46f39",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_013.nc": "659ff1da8a7ef4282dbccaa632cbe576eb5e39c953161286e33d368ee23072a5",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_013.nc": "0b3766273ad6dc266b17745dbff0e4cd05b6e4958b93dba941373e66ebf712aa",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_014.nc": "99659c04e987b9ab917d30b431eff8f52ee3ed939b37853a313510f2d15852ef",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_014.nc": "2a6b0bcb869a34c2a4392d8b34ed87871a88ea46968297f2b2ec6a3bdf1149d9",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_015.nc": "4f4bb235455733b15e2abc5cae77690bf06183dee197c6be1b13c54bacdc9f4a",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_016.nc": "c84ade29980da5e48b66b7620ad8a964196333c73420dd7f64f88c3458f3b40c",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_017.nc": "4e15e5e06a7feae0caa697bf0081ad2bbdfd5926b5911b09053936110a4e3707",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f"
+  },
+  "schemas": {
+    "O1": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float32",
+      "units": "mmr"
+    },
+    "O2": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float32",
+      "units": "mmr"
+    },
+    "N2": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float32",
+      "units": "mmr"
+    },
+    "HE": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float32",
+      "units": "mmr"
+    },
+    "Z": {
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float32",
+      "units": "cm"
+    },
+    "ZG": {
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "dtype": "float32",
+      "units": "cm"
+    }
+  },
+  "cases": {
+    "7day": {
+      "frames": 240,
+      "first_doy_seconds": 6483600,
+      "last_doy_seconds": 7344000,
+      "failed_cells": {
+        "O1": {
+          "candidate": 8384,
+          "last24h": 2832,
+          "endpoint": 112
+        },
+        "O2": {
+          "candidate": 8528,
+          "last24h": 2740,
+          "endpoint": 107
+        },
+        "N2": {
+          "candidate": 7057,
+          "last24h": 2321,
+          "endpoint": 91
+        }
+      },
+      "composition_sum_max_abs_residual": 4.8072251956909895e-08,
+      "driver_max_difference": 0.0
+    },
+    "14day": {
+      "frames": 408,
+      "first_doy_seconds": 5878800,
+      "last_doy_seconds": 7344000,
+      "failed_cells": {
+        "O1": {
+          "candidate": 4315,
+          "last24h": 1060,
+          "endpoint": 37
+        },
+        "O2": {
+          "candidate": 6014,
+          "last24h": 1919,
+          "endpoint": 75
+        },
+        "N2": {
+          "candidate": 5226,
+          "last24h": 1633,
+          "endpoint": 65
+        }
+      },
+      "composition_sum_max_abs_residual": 4.8217771109193563e-08,
+      "driver_max_difference": 0.0
+    }
+  },
+  "no_model_execution": true,
+  "wall_seconds": 170.8559168037027,
+  "historical_counts_reproduced": true
+}

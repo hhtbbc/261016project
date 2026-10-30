@@ -1,0 +1,24 @@
+{
+  "7day": {
+    "all_namelist_lines_except_SOURCE_identical": true,
+    "source_SHA256": [
+      "180475215a4922e9c55a77e80153cf641bc8fbb2b8d52633b4686ddee6942fff",
+      "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7"
+    ],
+    "namelist_SHA256": [
+      "1df3a0a1657d1dc2e9fb66c8409afd04fb17839ad4a4fdbc67881a2e5a338180",
+      "02dae74428d8ada452cb5ab98e80eb57ee58de266133b69c09dfd50135213ce6"
+    ]
+  },
+  "14day": {
+    "all_namelist_lines_except_SOURCE_identical": true,
+    "source_SHA256": [
+      "180475215a4922e9c55a77e80153cf641bc8fbb2b8d52633b4686ddee6942fff",
+      "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7"
+    ],
+    "namelist_SHA256": [
+      "38400acfb4eb26db429a8504e6e73510c7d349194bee4b20356971fef3e233ec",
+      "da93512112df6f7db2250ee7bd3fdc77a3923fb32ce4ed0153ffc1950e4d582b"
+    ]
+  }
+}

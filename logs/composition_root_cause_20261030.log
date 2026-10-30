@@ -1,0 +1,77 @@
+7day secondary_001.nc streamed
+7day secondary_002.nc streamed
+7day secondary_003.nc streamed
+7day secondary_004.nc streamed
+7day secondary_005.nc streamed
+7day secondary_006.nc streamed
+7day secondary_007.nc streamed
+7day secondary_008.nc streamed
+7day secondary_009.nc streamed
+7day secondary_010.nc streamed
+14day secondary_001.nc streamed
+14day secondary_002.nc streamed
+14day secondary_003.nc streamed
+14day secondary_004.nc streamed
+14day secondary_005.nc streamed
+14day secondary_006.nc streamed
+14day secondary_007.nc streamed
+14day secondary_008.nc streamed
+14day secondary_009.nc streamed
+14day secondary_010.nc streamed
+14day secondary_011.nc streamed
+14day secondary_012.nc streamed
+14day secondary_013.nc streamed
+14day secondary_014.nc streamed
+14day secondary_015.nc streamed
+14day secondary_016.nc streamed
+14day secondary_017.nc streamed
+{
+  "7day": {
+    "frames": 240,
+    "first_doy_seconds": 6483600,
+    "last_doy_seconds": 7344000,
+    "failed_cells": {
+      "O1": {
+        "candidate": 8384,
+        "last24h": 2832,
+        "endpoint": 112
+      },
+      "O2": {
+        "candidate": 8528,
+        "last24h": 2740,
+        "endpoint": 107
+      },
+      "N2": {
+        "candidate": 7057,
+        "last24h": 2321,
+        "endpoint": 91
+      }
+    },
+    "composition_sum_max_abs_residual": 4.8072251956909895e-08,
+    "driver_max_difference": 0.0
+  },
+  "14day": {
+    "frames": 408,
+    "first_doy_seconds": 5878800,
+    "last_doy_seconds": 7344000,
+    "failed_cells": {
+      "O1": {
+        "candidate": 4315,
+        "last24h": 1060,
+        "endpoint": 37
+      },
+      "O2": {
+        "candidate": 6014,
+        "last24h": 1919,
+        "endpoint": 75
+      },
+      "N2": {
+        "candidate": 5226,
+        "last24h": 1633,
+        "endpoint": 65
+      }
+    },
+    "composition_sum_max_abs_residual": 4.8217771109193563e-08,
+    "driver_max_difference": 0.0
+  }
+}

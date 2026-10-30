@@ -419,3 +419,9 @@ SCIENCE_TRAINING_READY=False、SPINUP_SUFFICIENCY_UNVERIFIED继续保留。不�
 本次公开辅助文件已本地提交，但GitHub写入持续超时；远端核查仍4bda69a，未同步成功。内部PPT/PDF/讲稿完整保存在本地，不受影响，未上传。
 
 2026-10-25按用户要求恢复同步：此前c10e082/f789748公开辅助及失败记录提交已安全推送至main；内部PPT/PDF/讲稿仍未上传。此前未同步描述保留作历史，当前以本条与最终远端核验为准。
+
+## 2026-10-30：14天预热组分残余根因离线审查
+
+四条原始轨迹240/408小时逐记录复算，O1/O2/N2三个时窗失败格与历史完全一致；A/B五项实际驱动差0，857项历史科学资产SHA不变。确认组分位于lev而ZG位于ilev（顶层中点高度不外推）；组分下边界是总氧/梯度耦合条件，N2由1−O1−O2−HE诊断。近small点主导N2相对RMS尖峰却不能解释多数失败点，O1下层及O2/N2中高层仍有非痕量残余。化学/输运/边界各项主导贡献未有tendency预算证据，不能唯一归因或保证继续延长即通过。
+
+报告reports/TIEGCM_2021_COMPOSITION_ROOT_CAUSE_ANALYSIS_20261030.md；逐层/区域、原始含量、时间/高度/极区图及独立审计results/tiegcm_composition_root_cause_20261030/。4项合成断言通过；未新增依赖。无新积分、训练、模型推理或统计拟合，旧122候选及SCIENCE_TRAINING_READY=False/SPINUP_SUFFICIENCY_UNVERIFIED保持。下一项仅建议受控过程预算诊断（先解决状态读取/恢复前缀一致性）或另授权更长双初态，不能自行执行。

@@ -1,0 +1,5 @@
+test_floor_is_not_model_small PASS
+test_closure_transfer PASS
+test_midpoint_is_between_interfaces PASS
+test_frozen_regions_cover_both_poles PASS
+pytest not installed; executed four plain assertion tests directly; no dependency installation
