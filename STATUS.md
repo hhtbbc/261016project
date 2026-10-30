@@ -427,3 +427,5 @@ SCIENCE_TRAINING_READY=False、SPINUP_SUFFICIENCY_UNVERIFIED继续保留。不�
 报告reports/TIEGCM_2021_COMPOSITION_ROOT_CAUSE_ANALYSIS_20261030.md；逐层/区域、原始含量、时间/高度/极区图及独立审计results/tiegcm_composition_root_cause_20261030/。4项合成断言通过；未新增依赖。无新积分、训练、模型推理或统计拟合，旧122候选及SCIENCE_TRAINING_READY=False/SPINUP_SUFFICIENCY_UNVERIFIED保持。下一项仅建议受控过程预算诊断（先解决状态读取/恢复前缀一致性）或另授权更长双初态，不能自行执行。
 
 本轮成果已本地提交e3af599；首次GitHub写入60秒超时，之后核对远端仍66e6360，尚未同步。保留本地成果及logs/composition_git_sync_20261030.json，未强推，后续以最终远端核验为准。
+
+2026-10-30用户要求继续推送：重新核查干净main与远端，55秒及150秒两次有界推送均超时（后次确认同用户有效认证socket，并禁用Expect等待）；每次后独立查询远端，仍66e6360，49419c0尚未收到。成果和本地提交完整，未强推，未新增科研运行。最终重试审计见本地logs/composition_git_sync_20261030.json。
