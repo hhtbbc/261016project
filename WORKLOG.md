@@ -700,3 +700,11 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 首次有界git push因旧VS Code socket ECONNREFUSED而认证失败（exit128）。只读检查同UID socket后，仅在Git进程指定当前有效通道和credential.username=hhtbbc，未修改全局配置/remote/保存凭据；第二次55秒push超时exit124。随后git credential fill仅在内存预检、12秒超时并终止该进程组，未输出/保存任何凭据。没有在无凭据条件下盲目重复网络上传。
 - 只读ls-remote仍a53ce69646eb8a49e797777af98c57753f1f7ef7；GitHub连接器确认用户hhtbbc，但获取本地4b5b3d7提交对象返回404。连接器create_commit不支持保留原作者/时间等完整原始对象，故未改用重建提交方式制造SHA分叉或覆盖历史。没有远端写入成功，不声称同步。
 - 本轮仅记录同步阻碍并保留本地提交；无模型运行、训练、轨道传播、下载或科学文件修改。下一步需当前服务器VS Code Git认证恢复后安全重推并核对HEAD。审计logs/github_sync_20261031_preflight.json及logs/github_sync_20261031_result.json；不强推、不reset/clean/rebase。
+
+
+## 2026-10-31：用户指定PAT认证，确认仓库写权限403
+
+- 用户明确授权临时使用提供的PAT，并要求后续优先采用该认证方式；只记录认证偏好，不将令牌本身写入项目、Git配置、URL或日志。通过TTY关闭回显读入，Authorization只在短命Git进程环境内存；所有诊断输出遮蔽原凭据及其编码，无科学运行。
+- 首次PAT push exit128；随后独立GitHub认证预检确认authenticated_login=hhtbbc，清空继承HTTP头后使用HTTP/1.1/Expect禁用的有界push仍exit128，明确403：Permission to hhtbbc/261016project.git denied to hhtbbc。只读复核远端仍a53ce69、本地此前1a3f09a，未同步。
+- 需要用户核对PAT所选仓库及Contents Read and write权限。未将未能写入的凭据放入持久凭据库，也不改用重建提交或强推绕过。若以后配置认证，仅使用安全凭据管理器或仓库限定内存缓存，不明文保存；当前未声称跨会话已永久保存令牌。
+- 脱敏审计logs/github_sync_20261031_pat_result.json和logs/github_sync_20261031_pat_diagnostic.json保留本地；本轮仅提交状态记录，原科研提交及未跟踪日志保持。无reset/clean/rebase、无新模型/轨道/训练任务。

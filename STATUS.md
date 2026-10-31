@@ -1,5 +1,7 @@
 # 当前状态
 
+> GitHub认证更新（2026-10-31）：用户另提供临时PAT并要求后续优先此方式；只通过关闭回显的标准输入和Git进程内存使用，未写入文件/URL/配置。GitHub认证确认账号hhtbbc，但目标仓库push返回403 Permission denied；当前阻碍是令牌仓库写入权限，而非账号识别。需确认该仓库授权及Contents读写后再推。原提交保留，远端仍a53ce69，不绕过权限或强推。
+
 > GitHub同步（2026-10-31，用户新授权）：待推送成果已检查，无大文件/权重/原始数组；服务器旧VS Code认证socket失效，换当前同用户通道后55秒推送超时，独立凭据预检12秒未取得可用凭据。连接器账号hhtbbc可读，但远端未包含4b5b3d7；本地成果完整保留，未强推/重建历史。需恢复服务器Git认证后继续，实际远端仍a53ce69。
 
 > 最新（2026-10-31，AI密度集成）：复用既有预测，新增FourCastDENDensity原生查询与源方程驱动的TN/DEN/TLBC平均分子量反演→原生ZG诊断重建。11项CPU测试通过，含未来参考ZG毒化。Mar24 01—02时虚拟卫星A无阻力/B MSIS/C参考/D Direct共8次base/tight完成，556.789秒、RSS207.801MiB；6组配对收敛通过，D−C终点差0.005396859m，属于条件模型差而非真实轨道误差。正式外部高度登记仍未通过，轨道私有桥显式采用PROVISIONAL A假设，正式density接口继续拒绝；未来AI几何高度准确度未证明。29个Mar24 Flow重建无效列保留；新GPU/TIE/训练0，59输入及2346历史SHA不变，122候选门禁不改。入口reports/FOURCASTDEN_ORBIT_INTEGRATION_V1.md、docs/FOURCASTDEN_STATE_UPDATE_EXPERIMENT_PLAN.md。仅本地提交，不自动新增长窗/推理/训练。
