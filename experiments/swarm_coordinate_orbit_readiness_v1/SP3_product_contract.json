@@ -1,0 +1,94 @@
+[
+  {
+    "date": "2023-01-04",
+    "source": {
+      "sources": [
+        {
+          "path": "/workspace/data/20261016/data/raw/swarm_coordinate_orbit_readiness_v1/extracted/SW_OPER_SP3ACOM_2__20230103T235942_20230104T235942_0203.sp3",
+          "sha256": "52e9b1d540c09511dc814bf8ad2957d71cef4a55f3c079f446533e683b48205e",
+          "version": "d",
+          "frame": "IGS20",
+          "native_time_system": "GPS",
+          "satellite_id": "L47",
+          "epochs": 8640,
+          "hdr_time_difference_s": 0.0,
+          "hdr_quality_indicator": "000",
+          "hdr_creation_date": "UTC=2026-08-25T09:09:44",
+          "formal_accuracy_exponents": [
+            "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+          ],
+          "maneuver_flag_available": false
+        }
+      ],
+      "reference_kind": "reduced-dynamic postprocessed orbit",
+      "reference_uncertainty_quantified": false,
+      "itrs_realization_assumption": "IGS20 aligned with ITRF2020; used as ITRS, no estimated Helmert correction"
+    },
+    "raw_first_epoch_GPS": "2023-01-04T00:00:00",
+    "raw_last_epoch_GPS": "2023-01-04T23:59:50",
+    "data_type_header": "#dV2023  1  4  0  0  0.00000000    8640 U+u   IGS20 FIT TUD ",
+    "native_interval_s": 10,
+    "PV_records": 8640,
+    "raw_orbit_tail_counts": {
+      "ABSENT": 8640
+    },
+    "time_EOP": {
+      "ut1_utc_s_min": -0.019496665708333333,
+      "ut1_utc_s_max": -0.019023053513888888,
+      "xp_arcsec_min": 0.05083868898148148,
+      "xp_arcsec_max": 0.05296457458333333,
+      "yp_arcsec_min": 0.20302589000000001,
+      "yp_arcsec_max": 0.20386272875,
+      "all_status_iers_b": true
+    },
+    "GPS_UTC_offset_s": 18.000000000002814,
+    "formal_accuracy": "SP3 exponents/quality preserved; not converted to verified covariance",
+    "DNS_frame_realization": "GRS80 geodetic known; precise ITRF realization not independently stated in CDF"
+  },
+  {
+    "date": "2023-03-24",
+    "source": {
+      "sources": [
+        {
+          "path": "/workspace/data/20261016/data/raw/swarm_coordinate_orbit_readiness_v1/extracted/SW_OPER_SP3ACOM_2__20230323T235942_20230324T235942_0203.sp3",
+          "sha256": "d9dbb515ea99c2ec5db9ea8989e8b4c263790b049e923c47804edccc9ed54a83",
+          "version": "d",
+          "frame": "IGS20",
+          "native_time_system": "GPS",
+          "satellite_id": "L47",
+          "epochs": 8640,
+          "hdr_time_difference_s": 0.0,
+          "hdr_quality_indicator": "000",
+          "hdr_creation_date": "UTC=2026-08-25T09:10:24",
+          "formal_accuracy_exponents": [
+            "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+          ],
+          "maneuver_flag_available": false
+        }
+      ],
+      "reference_kind": "reduced-dynamic postprocessed orbit",
+      "reference_uncertainty_quantified": false,
+      "itrs_realization_assumption": "IGS20 aligned with ITRF2020; used as ITRS, no estimated Helmert correction"
+    },
+    "raw_first_epoch_GPS": "2023-03-24T00:00:00",
+    "raw_last_epoch_GPS": "2023-03-24T23:59:50",
+    "data_type_header": "#dV2023  3 24  0  0  0.00000000    8640 U+u   IGS20 FIT TUD ",
+    "native_interval_s": 10,
+    "PV_records": 8640,
+    "raw_orbit_tail_counts": {
+      "ABSENT": 8640
+    },
+    "time_EOP": {
+      "ut1_utc_s_min": -0.025223927171296297,
+      "ut1_utc_s_max": -0.024690632666666667,
+      "xp_arcsec_min": -0.031191274166666668,
+      "xp_arcsec_max": -0.02986343037037037,
+      "yp_arcsec_min": 0.383272366875,
+      "yp_arcsec_max": 0.38643697430555557,
+      "all_status_iers_b": true
+    },
+    "GPS_UTC_offset_s": 17.999999999998018,
+    "formal_accuracy": "SP3 exponents/quality preserved; not converted to verified covariance",
+    "DNS_frame_realization": "GRS80 geodetic known; precise ITRF realization not independently stated in CDF"
+  }
+]

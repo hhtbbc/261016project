@@ -1,0 +1,5 @@
+date,metric,absolute_P95,max_abs,units,interpretation
+2023-01-04,conditional_vertical_density_response_from_actual_SP3_DNS_height_difference,4.340181153701748e-05,6.275292394440536e-05,relative,existing reference local slope; not total uncertainty or a new density query
+2023-01-04,legacy_apex_vs_WGS84_same_numeric_lat_height_cartesian_difference,22.996390394527076,22.99999986077783,m,constant geometry diagnostic; does not identify calczg datum
+2023-03-24,conditional_vertical_density_response_from_actual_SP3_DNS_height_difference,2.1478907794089347e-05,2.6611756338879784e-05,relative,existing reference local slope; not total uncertainty or a new density query
+2023-03-24,legacy_apex_vs_WGS84_same_numeric_lat_height_cartesian_difference,22.996737102115397,22.999998599222867,m,constant geometry diagnostic; does not identify calczg datum

@@ -1,0 +1,44 @@
+[
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20230103T235942_20230104T235942_0203.ZIP",
+    "bytes": 440043,
+    "SHA256": "2e4765d3db097175aeb610a7aee9349552e5f78b2712d5a9a2dd2ddfc4c15d2d",
+    "path": "data/raw/swarm_coordinate_orbit_readiness_v1/SW_OPER_SP3ACOM_2__20230103T235942_20230104T235942_0203.ZIP",
+    "HTTP": 200,
+    "members": [
+      {
+        "path": "data/raw/swarm_coordinate_orbit_readiness_v1/extracted/SW_OPER_SP3ACOM_2__20230103T235942_20230104T235942_0203.sp3",
+        "bytes": 1582523,
+        "CRC32": "6a621bad",
+        "SHA256": "52e9b1d540c09511dc814bf8ad2957d71cef4a55f3c079f446533e683b48205e"
+      },
+      {
+        "path": "data/raw/swarm_coordinate_orbit_readiness_v1/extracted/SW_OPER_SP3ACOM_2__20230103T235942_20230104T235942_0203.HDR",
+        "bytes": 2636,
+        "CRC32": "b35c991c",
+        "SHA256": "853d7a73e1a3c3026ff327597e972f49877f670277cbe79398caf6275e6ca5ed"
+      }
+    ]
+  },
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FPOD%2FRD%2FSat_A%2FSW_OPER_SP3ACOM_2__20230323T235942_20230324T235942_0203.ZIP",
+    "bytes": 440229,
+    "SHA256": "8d53c1a32990bbdf57c52931780b2f351a4c3f4ee1dfc0093ab80167d7fa48ad",
+    "path": "data/raw/swarm_coordinate_orbit_readiness_v1/SW_OPER_SP3ACOM_2__20230323T235942_20230324T235942_0203.ZIP",
+    "HTTP": 200,
+    "members": [
+      {
+        "path": "data/raw/swarm_coordinate_orbit_readiness_v1/extracted/SW_OPER_SP3ACOM_2__20230323T235942_20230324T235942_0203.sp3",
+        "bytes": 1582523,
+        "CRC32": "ea4f6f7c",
+        "SHA256": "d9dbb515ea99c2ec5db9ea8989e8b4c263790b049e923c47804edccc9ed54a83"
+      },
+      {
+        "path": "data/raw/swarm_coordinate_orbit_readiness_v1/extracted/SW_OPER_SP3ACOM_2__20230323T235942_20230324T235942_0203.HDR",
+        "bytes": 2636,
+        "CRC32": "8539d13e",
+        "SHA256": "a93a8aa5ae0b4de71af88bba9c71a1bc681209786ea23ad13719f7d078d593e0"
+      }
+    ]
+  }
+]

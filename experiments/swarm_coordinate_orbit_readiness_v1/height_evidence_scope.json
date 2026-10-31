@@ -1,0 +1,18 @@
+{
+  "actual_apex_path": "experiments/tiegcm2_apex2023_v1/apex.F90",
+  "actual_apex_SHA": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3",
+  "legacy_apex_a_m": 6378160,
+  "legacy_apex_inverse_flattening": 298.25,
+  "applied_electrodynamic_altitude_hs_m": 130000,
+  "source_lines": [
+    "apex.F90:68,358,1041-1075",
+    "getapex.F:125-145",
+    "cons.F:133,138,315",
+    "lbc.F:105-150",
+    "addiag.F:257-278"
+  ],
+  "evidence_scope": "apex helper geodetic ellipsoid; no established chain equating pressure-grid calczg ZG to that ellipsoid",
+  "formal_release": false,
+  "public_doc_reused": "NCAR2.0 grid.html and existing ZCoordinates PDF; no unbounded further search",
+  "new_authoritative_external_registration_found": false
+}

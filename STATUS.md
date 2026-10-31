@@ -1,5 +1,7 @@
 # 当前状态
 
+> 最新（2026-10-31，同期SP3/准入）：Jan4/Mar24官方0203 SP3实际取得，880272字节，两日GPS/IGS20/SP3-d含原生P/V/10秒。DNS UTC与其原生网格近邻差2秒，Hermite+留出及独立插值核查通过，10新CPU测试；DNS/SP3名义共同地固位置差RMS4.367/3.594m，高度1.344/0.626m。01整点初始化含t0后2秒括点，明确历史回算；非实时可用性证明。复用缓存256单元有符号/均方残差预算，交叉抵消解释A/B效果反转；无新密度查询/模型/TIE/轨道。实际apex旧椭球常数明确，但不证明calczg零面，EXTERNAL_DATUM_UNVERIFIED继续，专家咨询仅草稿。102任务/2346历史SHA不变，Flow18失败保留；真实轨道BLOCKED，科学训练False。入口reports/SWARM_COORDINATE_ORBIT_READINESS_V1.md。
+
 > 最新（2026-10-31，同期Swarm对照）：实际下载Jan4/Mar24 DNSAPOD0301两日原ZIP279730字节（各UTC30秒/2880条，目标各1441）；质量0名义有效，HAPI同点坐标/密度核对通过。复用原场103752次A/B/D/E查询，无GPU/TIE/轨道。主后窗共同N601/583，Mar24 Flow更新后18点明确拒绝，所有模型统一样本；A下八组相对RMS改善1.76%—39.80%，B下Mar24四组相对RMS反而增9.93%—22.03%，不得择优映射。8新测试、3072单元/20832标量及112插值独立核查，86输入/2346历史SHA不变，9图及讲稿完成。正式高度仍EXTERNAL_DATUM_UNVERIFIED、真实轨道BLOCKED、科学训练False；观测原件与逐点表仅本地。入口reports/FOURCASTDEN_SWARM_OBSERVATION_COMPARISON_V1.md。
 
 > 最新（2026-10-31，坐标/接缝）：事件感知原生密度接口和分段RK45组合已实现，17项CPU测试通过；192次真实查询与分支逐元素一致，188有效/4明确拒绝。120秒解析跳变测试P/V连续，tight位置误差3.248e-7m；未新增H6传播/GPU/TIE/训练。577旧Swarm/S7单因素复核仍是坐标假设敏感性，外部登记EXTERNAL_DATUM_UNVERIFIED不解除。Flow337坏列中334个界面质量在范围内而中点反演超界，独立矩阵/高精度复算指向交错层反演敏感性，非仅舍入；不能认定完整守恒律违规。现有Swarm观测无目标两窗重合且非171全状态。真实12h轨道BLOCKED，显式假设虚拟方案PARTIAL/待另授权。95输入及2346历史科学资产SHA不变，科学训练READY=False。入口reports/FOURCASTDEN_COORDINATE_AND_UPDATE_INTERFACE_V1.md。

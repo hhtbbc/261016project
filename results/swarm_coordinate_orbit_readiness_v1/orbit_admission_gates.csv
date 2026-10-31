@@ -1,0 +1,9 @@
+gate,status,evidence
+SAME_DATE_SP3_AVAILABLE,PASS,2 actual0203 products; CRC/SHA/native P/V
+UTC_AND_ELLIPSOID_TRANSFORMS,PASS,"HDR anchors/GPS/frozen EOP/GRS80,10 CPU tests"
+DNS_SP3_PRECISE_FRAME_REALIZATION,PARTIAL,metre product differences; DNS realization not explicit
+EXTERNAL_ZG_REGISTRATION,BLOCKED,zero surface unverified; draft maintenance query not sent
+ALL_MODELS_CONTINUOUS_VALID_DENSITY,PARTIAL,18 Mar24 Flow Updated rejections retained
+REAL_AERODYNAMIC_PARAMETERS,BLOCKED,same-date mass/area/Cd/attitude/thrust definitions incomplete
+REAL_ORBIT_VALIDATION_READY,BLOCKED,no new propagation authorized/performed
+SCIENTIFIC_TRAINING_READY,False,original122-frame gates unchanged

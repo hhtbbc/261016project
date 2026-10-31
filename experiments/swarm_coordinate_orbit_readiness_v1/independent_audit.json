@@ -1,0 +1,17 @@
+{
+  "budget_cells_independently_verified": 256,
+  "identities": "signed + MSE and shared-observation-denominator relative MSE",
+  "input_SHA_unchanged": 102,
+  "historical_SHA_unchanged": 2346,
+  "additional_cached_query_metadata_SHA": "3613ad460efb6ad85885486be3758d65b259e174549c0b13c473e5f3e5c4c91b",
+  "PNGs_verified": 5,
+  "Flow18_failures_retained": true,
+  "wall_s": 14.233938800171018,
+  "RSS_MiB": 101.15234375,
+  "new_density_queries": 0,
+  "new_forward": 0,
+  "new_TIE": 0,
+  "new_orbit": 0,
+  "REAL_ORBIT_VALIDATION_READY": "BLOCKED",
+  "SCIENTIFIC_TRAINING_READY": false
+}

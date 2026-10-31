@@ -1,0 +1,7 @@
+evidence,version,proves,does_not_prove,source
+NCAR2.0 grid/Altitude Coordinates; existing official ZCoordinates PDF,TIE-GCM2.0,use ZG for geometric-height registration; distinguish lev/ilev and Z,precise WGS84/GRS80 zero surface or uncertainty,docs/TIEGCM_SWARM_COORDINATE_DATUM.md; cached official PDF SHA
+"getapex.F:125-145; actual updated apex.F90:358,1041-1075",2.0 plus official apex update,apex input geodetic; own ellipsoid a6378.160km inverse_f298.25,calczg ZG uses that same ellipsoid,experiments/tiegcm2_apex2023_v1/apex.F90
+cons.F:315; lbc.F:105-150,2.0 retained physics,default background lower Z plus GSWM perturbations,modern external reference surface identity,third_party/TIEGCM2.0/src/cons.F;lbc.F
+addiag.F:257-278,2.0 retained physics,"ZG bottom equals Z bottom, empirical gravity integral, top extrapolation",effective r0 equals WGS84 radius,third_party/TIEGCM2.0/src/addiag.F
+doc/description/mapping.tex:155-162,explicitly up to v1.8 in text,97km neutral boundary vs90km field-line integration start are different concepts,new2.0 external zero surface; do not reuse older-version statement as datum,third_party/TIEGCM2.0/doc/description/mapping.tex
+new actual DNS0301/SP30203 with explicit time/ellipsoid conversion,0301/0203 postprocessed,"nominal Earth-fixed positions differ only metres, time matching/interpolation checked","model ZG zero, true orbit error, or independent POD validation",results/swarm_coordinate_orbit_readiness_v1/geometry_summary.csv

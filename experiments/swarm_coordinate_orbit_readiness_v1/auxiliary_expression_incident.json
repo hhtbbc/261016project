@@ -1,0 +1,8 @@
+{
+  "stage": "auxiliary cached-slope summary before any output",
+  "error": "TypeError: abs(list)",
+  "correction": "explicit numpy array; standalone reproducible extend script",
+  "downloads_rerun": false,
+  "main_analysis_rerun": false,
+  "threshold_changed": false
+}

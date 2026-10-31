@@ -1,0 +1,102 @@
+[
+  {
+    "date": "2023-01-04",
+    "method": "cubic P/V Hermite 10s; degree6 position polynomial independent",
+    "DNS_nearest_native_time_difference_s": {
+      "n": 1441,
+      "mean": 2.0000000000006097,
+      "RMS": 2.0000000000006097,
+      "abs_P95": 2.000000000007276,
+      "max_abs": 2.000000000007276,
+      "minimum": 1.999999999992724,
+      "maximum": 2.000000000007276
+    },
+    "Hermite_vs_degree6_position_m": {
+      "n": 1441,
+      "mean": 0.00011486093661529137,
+      "RMS": 0.00011495259309005701,
+      "abs_P95": 0.00012236331821382346,
+      "max_abs": 0.0001306306814159915,
+      "minimum": 9.96481639100747e-05,
+      "maximum": 0.0001306306814159915
+    },
+    "Hermite_vs_degree6_velocity_m_s": {
+      "n": 1441,
+      "mean": 8.608205104796671e-05,
+      "RMS": 8.610725387394627e-05,
+      "abs_P95": 8.943537760046945e-05,
+      "max_abs": 9.181788164616332e-05,
+      "minimum": 7.955249112357825e-05,
+      "maximum": 9.181788164616332e-05
+    },
+    "native20s_holdout_position_m": {
+      "n": 4319,
+      "mean": 0.004484439729438755,
+      "RMS": 0.004484824587724844,
+      "abs_P95": 0.004572347193455331,
+      "max_abs": 0.004637288484083833,
+      "minimum": 0.00430947883880861,
+      "maximum": 0.004637288484083833
+    },
+    "native20s_holdout_velocity_m_s": {
+      "n": 4319,
+      "mean": 5.189393703231948e-06,
+      "RMS": 5.566264697423229e-06,
+      "abs_P95": 8.510594350001745e-06,
+      "max_abs": 1.2014342504223134e-05,
+      "minimum": 2.6389106227061173e-07,
+      "maximum": 1.2014342504223134e-05
+    },
+    "holdout_is_not_independent_true_orbit_error_bound": true
+  },
+  {
+    "date": "2023-03-24",
+    "method": "cubic P/V Hermite 10s; degree6 position polynomial independent",
+    "DNS_nearest_native_time_difference_s": {
+      "n": 1441,
+      "mean": 2.0000000000006097,
+      "RMS": 2.0000000000006097,
+      "abs_P95": 2.000000000007276,
+      "max_abs": 2.000000000007276,
+      "minimum": 1.999999999992724,
+      "maximum": 2.000000000007276
+    },
+    "Hermite_vs_degree6_position_m": {
+      "n": 1441,
+      "mean": 0.00011549577338565084,
+      "RMS": 0.00011558419842961445,
+      "abs_P95": 0.00012289437410795788,
+      "max_abs": 0.00012895024346623626,
+      "minimum": 9.932468422434272e-05,
+      "maximum": 0.00012895024346623626
+    },
+    "Hermite_vs_degree6_velocity_m_s": {
+      "n": 1441,
+      "mean": 8.653814180726884e-05,
+      "RMS": 8.65617288642398e-05,
+      "abs_P95": 8.983805393277376e-05,
+      "max_abs": 9.181026546714892e-05,
+      "minimum": 7.866663017635959e-05,
+      "maximum": 9.181026546714892e-05
+    },
+    "native20s_holdout_position_m": {
+      "n": 4319,
+      "mean": 0.004501414567213453,
+      "RMS": 0.0045017938790496235,
+      "abs_P95": 0.004586960232734972,
+      "max_abs": 0.0046439166282749265,
+      "minimum": 0.004322615983897189,
+      "maximum": 0.0046439166282749265
+    },
+    "native20s_holdout_velocity_m_s": {
+      "n": 4319,
+      "mean": 5.10160899634859e-06,
+      "RMS": 5.457959567701919e-06,
+      "abs_P95": 8.319742972700928e-06,
+      "max_abs": 1.1799253682591692e-05,
+      "minimum": 2.48144134689484e-07,
+      "maximum": 1.1799253682591692e-05
+    },
+    "holdout_is_not_independent_true_orbit_error_bound": true
+  }
+]
