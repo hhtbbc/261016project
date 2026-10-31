@@ -229,3 +229,8 @@ credentials.json
 # Native orbit states and per-sample product geometry stay local.
 /results/swarm_coordinate_orbit_readiness_v1/*_local.csv
 /experiments/swarm_coordinate_orbit_readiness_v1/*_local.json
+
+# Local-only virtual orbit state and per-query records
+/experiments/fourcastden_orbit_update_event_v1/*_local.csv
+/experiments/fourcastden_orbit_update_event_v1/*_local.npz
+/experiments/fourcastden_orbit_update_event_v1/*_local.npy

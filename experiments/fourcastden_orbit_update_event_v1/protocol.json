@@ -1,0 +1,76 @@
+{
+  "labels": "HISTORICAL_SP3_INITIALIZED_VIRTUAL_PROPAGATION / PROVISIONAL_COORDINATE_A / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST / FORCE_MODEL_INCOMPLETE / PROVISIONAL_EPHEMERIS",
+  "day": "2023-01-04",
+  "start": "2023-01-04T06:30:00",
+  "event": "2023-01-04T07:00:00",
+  "stop": "2023-01-04T07:30:00",
+  "duration_s": 3600,
+  "event_s": 1800,
+  "modes": [
+    "base",
+    "tight"
+  ],
+  "groups": [
+    "A_NoDrag",
+    "B_Open",
+    "C_Updated",
+    "D_Reference"
+  ],
+  "max_complete_trajectories": 8,
+  "max_RK45_segments": 16,
+  "aero": {
+    "mass_kg": 400,
+    "area_m2": 1,
+    "Cd": 2.2,
+    "wind": "zero ITRS neutral wind"
+  },
+  "base": {
+    "rtol": 1e-10,
+    "atol": [
+      0.001,
+      0.001,
+      0.001,
+      1e-06,
+      1e-06,
+      1e-06
+    ],
+    "max_step": 30.0
+  },
+  "tight": {
+    "rtol": 1e-12,
+    "atol": [
+      1e-05,
+      1e-05,
+      1e-05,
+      1e-08,
+      1e-08,
+      1e-08
+    ],
+    "max_step": 15.0
+  },
+  "convergence": {
+    "single_trajectory_max_m": 0.02,
+    "paired_drag_response_fraction": 0.01
+  },
+  "output_step_s": 60,
+  "limits": {
+    "propagation_and_numerical_s": 1800,
+    "RSS_GiB": 4,
+    "output_MiB": 200,
+    "free_disk_GiB": 20
+  },
+  "estimate": {
+    "previous_8_trajectory_wall_s": 556.789,
+    "expected_s": 600,
+    "conservative_s": 1200,
+    "reserve_numerical_s": 150,
+    "RSS_MiB": 768,
+    "output_MiB": 30
+  },
+  "free_disk_bytes": 687397142528,
+  "initial_state": "Jan4 SP3 Hermite at06:30UTC then complete PV ITRS->GCRS; future2s native bracket",
+  "only_density_changes": true,
+  "post_t0_SP3_feedback": false,
+  "neural_forward_count": 0,
+  "old_600s_budget_not_reused": true
+}

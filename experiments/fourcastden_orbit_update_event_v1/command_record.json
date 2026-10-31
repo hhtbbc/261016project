@@ -1,0 +1,15 @@
+{
+  "activation": "source scripts/activate_orbit.sh",
+  "commands": [
+    "python -m unittest discover -s tests -p test_provisional_event_bridge.py",
+    "python scripts/run_fourcastden_orbit_update_event_v1.py prepare",
+    "python scripts/run_fourcastden_orbit_update_event_v1.py supervise",
+    "python scripts/analyze_fourcastden_orbit_update_event_v1.py",
+    "python scripts/plot_fourcastden_orbit_update_event_v1.py",
+    "python scripts/audit_fourcastden_orbit_update_event_v1.py",
+    "python scripts/document_fourcastden_orbit_update_event_v1.py"
+  ],
+  "no_repeat_completed_tag": true,
+  "formal_worker_launches": 1,
+  "git_preflight_local_and_remote": "804f6cba35d9a2a6164f43492c134bfc332e1845"
+}

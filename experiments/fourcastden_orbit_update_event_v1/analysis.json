@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "all8_completed": true,
+  "event_states_bitwise_continuous": true,
+  "B_C_pre_event_bitwise_equal": true,
+  "convergence_PASS": true,
+  "analysis_wall_s": 5.300990909337997,
+  "budget_compute_used_s": 593.6522836722434,
+  "peak_RSS_MiB": 230.78125,
+  "no_real_orbit_accuracy_claim": true,
+  "no_SP3_after_t0_feedback": true,
+  "SCIENTIFIC_TRAINING_READY": false
+}

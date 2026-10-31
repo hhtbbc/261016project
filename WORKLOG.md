@@ -782,3 +782,18 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 一次辅助表达式abs(list)在写出前报错，仅转显式numpy数组并保存extend脚本，未重启主分析或下载；incident.json保留。
 - 交付reports/SWARM_COORDINATE_ORBIT_READINESS_V1.md、docs/TIEGCM_ZG_EXTERNAL_REGISTRATION_QUESTIONS.md及3分钟讲稿，5张真实图、几何/残差/ACF/高度证据/准入CSV。真实轨道仍BLOCKED：同期气动面积/Cd/质量/姿态/推力及ZG登记未闭合。
 - 安全同步只提交轻量派生统计、代码与审计；不发布原始观测、统一状态和逐点表，不改历史Git/private审计ref，不强推。最终精确HEAD见同步日志及汇报。完成停止，不自动下载、训练或积分。
+
+
+## 2026-10-31：FourCastDEN理想更新跨事件条件轨道实测
+
+- 目标：Jan4 06:30—07:30、07事件，四组同初态H6、400kg/1m²/Cd2.2，明确历史SP3平滑初始化与PROVISIONAL_COORDINATE_A，不做真实精度评价。指定资料及源码/数据已读取和冻结。
+- 新实验桥src/atmosphere/provisional_event_bridge.py仅显式PROVISIONAL启用，正式接口继续拒绝外部登记；5新CPU测试通过0.020秒。复用EventAwareDensity、event_segments与H6核心，未改旧源码/阈值。
+- SP3只读预检1089/1089有效，最小顶高余量115736.484m。06:30初态使用未来2秒括点，传播后不读未来SP3修正。
+- 正式前发现psutil缺失，0次传播启动时替换只读/proc监督，不安装依赖；原冻结、运行版SHA与incident均保存。正式worker一次、不重试。
+- source scripts/activate_orbit.sh；run_fourcastden_orbit_update_event_v1.py prepare/supervise执行四组Base/Tight，共8条轨迹/16段；所有组07分段并复制相同6维状态。监督580.941秒，峰值树RSS359.586MiB；含准备、复算及独立SHA审计预算606.502秒。
+- Updated事件rho8.19264775e-13→8.82861684e-13kg/m³（+7.762681%），阻力加速度模1.30932284e-7→1.41096139e-7m/s²，跳变量模1.01638552e-8；P/V均0跳变。B/C事件前位级一致；7182查询全有效、括点分支无跨事件。
+- Tight终点C−B=16.232023mm，B−D=16.235424mm、C−D=6.286545mm；C−B径向−15.1281/沿轨+5.8664/法向−0.4512mm。本例径向位置响应最大，不将其当阻力方向或真实预测误差。
+- analyze、audit独立复算4单轨/6配对全部通过旧0.02m/1%门槛；C−B向量Base/Tight最大差2.76713e-7m，最大配对相对数值差0.06561%。92任务/2346历史SHA不变。未运行旧17测试/旧传播，无GPU/TIE/训练。
+- 交付主报告、3分钟讲稿、5实际PNG、pair/event/performance/convergence CSV、完整配置与本地轨迹/逐查询表。图像检查无明显遮挡。原状态与逐点位置文件Git忽略；只提交轻量统计和代码，不上传原SP3/NPZ/权重。
+- 12h数据列支持不代表自由轨迹覆盖；四组Base/Tight约6894秒、1.5系数10341秒，A/B七组约12619秒，均需新授权，不自动执行。正式高度/真实气动/姿态推力/受力门禁保持，SCIENCE_TRAINING_READY=False。
+- Git同步按长期授权安全执行，不强推；精确最终HEAD及远端核验见本轮同步记录和最终答复。完成停止。

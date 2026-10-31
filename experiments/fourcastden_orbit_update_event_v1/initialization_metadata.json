@@ -1,0 +1,32 @@
+{
+  "label": "HISTORICAL_SP3_INITIALIZED_VIRTUAL_PROPAGATION",
+  "SP3_source": {
+    "sources": [
+      {
+        "path": "/workspace/data/20261016/data/raw/swarm_coordinate_orbit_readiness_v1/extracted/SW_OPER_SP3ACOM_2__20230103T235942_20230104T235942_0203.sp3",
+        "sha256": "52e9b1d540c09511dc814bf8ad2957d71cef4a55f3c079f446533e683b48205e",
+        "version": "d",
+        "frame": "IGS20",
+        "native_time_system": "GPS",
+        "satellite_id": "L47",
+        "epochs": 8640,
+        "hdr_time_difference_s": 0.0,
+        "hdr_quality_indicator": "000",
+        "hdr_creation_date": "UTC=2026-08-25T09:09:44",
+        "formal_accuracy_exponents": [
+          "0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0"
+        ],
+        "maneuver_flag_available": false
+      }
+    ],
+    "reference_kind": "reduced-dynamic postprocessed orbit",
+    "reference_uncertainty_quantified": false,
+    "itrs_realization_assumption": "IGS20 aligned with ITRF2020; used as ITRS, no estimated Helmert correction"
+  },
+  "UTC": "2023-01-04T06:30:00",
+  "frame": "GCRS",
+  "position_unit": "m",
+  "velocity_unit": "m/s",
+  "later_native_epoch_used_s": 2,
+  "SP3_used_after_t0_in_force": false
+}

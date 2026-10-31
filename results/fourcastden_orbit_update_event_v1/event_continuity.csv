@@ -1,0 +1,9 @@
+group,mode,position_jump_m,velocity_jump_m_s,state_identical,initial_state_identical,left_end_s,right_start_s,RHS_domain_checked
+A_NoDrag,base,0.0,0.0,True,True,1800.0,1800.0,True
+B_Open,base,0.0,0.0,True,True,1800.0,1800.0,True
+C_Updated,base,0.0,0.0,True,True,1800.0,1800.0,True
+D_Reference,base,0.0,0.0,True,True,1800.0,1800.0,True
+A_NoDrag,tight,0.0,0.0,True,True,1800.0,1800.0,True
+B_Open,tight,0.0,0.0,True,True,1800.0,1800.0,True
+C_Updated,tight,0.0,0.0,True,True,1800.0,1800.0,True
+D_Reference,tight,0.0,0.0,True,True,1800.0,1800.0,True

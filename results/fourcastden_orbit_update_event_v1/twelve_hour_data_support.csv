@@ -1,0 +1,7 @@
+group,branch,start,stop,frames,invalid_column_times,valid_min_top_m,valid_max_bottom_m,interpretation
+B_Open,before,2023-01-04T01:00:00.000,2023-01-04T07:00:00.000,7,0,580417.2167286525,96951.18703899052,"native column availability, not proven full12h free-orbit coverage"
+B_Open,after,2023-01-04T07:00:00.000,2023-01-04T13:00:00.000,7,0,591057.6869456745,96953.20600030546,"native column availability, not proven full12h free-orbit coverage"
+C_Updated,before,2023-01-04T01:00:00.000,2023-01-04T07:00:00.000,7,0,580417.2167286525,96951.18703899052,"native column availability, not proven full12h free-orbit coverage"
+C_Updated,after,2023-01-04T07:00:00.000,2023-01-04T13:00:00.000,7,0,584791.0323344296,96955.43228488542,"native column availability, not proven full12h free-orbit coverage"
+D_Reference,before,2023-01-04T01:00:00.000,2023-01-04T07:00:00.000,7,0,580414.24,96950.73,"native column availability, not proven full12h free-orbit coverage"
+D_Reference,after,2023-01-04T07:00:00.000,2023-01-04T13:00:00.000,7,0,585506.72,96950.73,"native column availability, not proven full12h free-orbit coverage"

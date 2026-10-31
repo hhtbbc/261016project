@@ -1,0 +1,8 @@
+{
+  "error": "ModuleNotFoundError: No module named 'psutil'",
+  "formal_model_launches_before_fix": 0,
+  "correction": "read-only /proc RSS tree monitor, no installation",
+  "old_runner_SHA": "bcbeaeaf438665af6fd32cd04903a812ef659859cc6889fdb4019b9113f20903",
+  "new_runner_SHA": "e542444007191aff6f33fc64ff462bb96b95f86a09893283f099698ee1bae578",
+  "physics_and_tolerances_unchanged": true
+}

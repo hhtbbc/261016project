@@ -1,0 +1,9 @@
+group,mode,total_queries,valid_queries,branch_brackets_qualified,no_atmosphere_for_no_drag,P_V_event_continuous
+A_NoDrag,base,0,0,True,True,True
+B_Open,base,837,837,True,False,True
+C_Updated,base,837,837,True,False,True
+D_Reference,base,837,837,True,False,True
+A_NoDrag,tight,0,0,True,True,True
+B_Open,tight,1557,1557,True,False,True
+C_Updated,tight,1557,1557,True,False,True
+D_Reference,tight,1557,1557,True,False,True

@@ -1,0 +1,6 @@
+{
+  "before_SHA": "e542444007191aff6f33fc64ff462bb96b95f86a09893283f099698ee1bae578",
+  "final_SHA": "92d65f596fa6a6ceed65743ba9e5f425bb9ff32fc33bf3b4e904a7d900f8c9fd",
+  "correction": "count supervisor process tree once, without double-counting worker",
+  "formal_model_launches": 0
+}
