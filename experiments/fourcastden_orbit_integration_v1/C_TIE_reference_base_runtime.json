@@ -1,0 +1,26 @@
+{
+  "model": "C_TIE_reference",
+  "mode": "base",
+  "method": "RK45",
+  "rtol": 1e-10,
+  "atol_si": [
+    0.001,
+    0.001,
+    0.001,
+    1e-06,
+    1e-06,
+    1e-06
+  ],
+  "max_step_s": 30.0,
+  "accepted_steps": 124,
+  "nfev": 746,
+  "elapsed_s": 50.34859580732882,
+  "output_samples": 61,
+  "success": true,
+  "message": "The solver successfully reached the end of the integration interval.",
+  "min_accepted_step_s": 0.01844437563239913,
+  "max_accepted_step_s": 30.000000000000004,
+  "native_query_count": 807,
+  "native_query_time_s": 0.6757814195007086,
+  "peak_RSS_MiB": 207.80078125
+}

@@ -1,0 +1,19 @@
+{
+  "historical_scientific_SHA_verified": 2346,
+  "changed": [],
+  "task_input_SHA_verified": 59,
+  "all_six_pair_convergence_pass": true,
+  "common_path_queries": 122,
+  "common_path_AI_reference_relative_P95": 0.011446518744839818,
+  "invalid_Flow_columns_preserved": 29,
+  "first_invalid_Flow_lead": 4,
+  "workflow_source_SHA": {
+    "src/atmosphere/fourcastden_density.py": "103a1d8005fb0a06be52192c670b869cd47b51a921cf74d48a8d72b07f386801",
+    "scripts/run_fourcastden_orbit_integration_v1.py": "cb01338c88a61421982a912f0e0955dc9860b57cdc5fc785baa34a3ac65258f7",
+    "scripts/finalize_fourcastden_orbit_delivery.py": "411d6a3c0a69e8e04824ad7aeef0816f6d1bc4775d40016af6922dc6805c9fd1"
+  },
+  "inventory_headers_verified": 51,
+  "postprocess_wall_s": 13.598851397633553,
+  "new_propagations": 0,
+  "new_GPU_forwards": 0
+}

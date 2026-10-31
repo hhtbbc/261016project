@@ -1,0 +1,74 @@
+{
+  "labels": "PROVISIONAL / VIRTUAL_SATELLITE / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST / CONDITIONAL_HEIGHT_REGISTRATION / FORCE_MODEL_INCOMPLETE",
+  "virtual": true,
+  "start": "2023-03-24T01:00:00",
+  "stop": "2023-03-24T02:00:00",
+  "duration_s": 3600,
+  "models": [
+    "A_no_drag",
+    "B_NRLMSIS21",
+    "C_TIE_reference",
+    "D_AI_Direct"
+  ],
+  "new_forward_count": 0,
+  "coordinate_assumption": "EXPLICIT A_WGS84_AS_NATIVE_ZG for virtual demonstration only; NOT validated Earth height registration",
+  "AI_height": "source-derived molecular-mass inversion then calczg; only predicted TN/DEN/Z and allowed TLBC conditions",
+  "geometry_qualification": {
+    "reference_density_difference_due_only_to_reconstructed_height_p95_limit": 0.001,
+    "reference_density_difference_due_only_to_reconstructed_height_max_limit": 0.01,
+    "rationale": "engineering interpolation error budget 0.1% P95/1% local maximum, not scientific atmospheric accuracy; frozen before full target validation"
+  },
+  "convergence": {
+    "single_trajectory_max_m": 0.02,
+    "paired_drag_response_fraction": 0.01
+  },
+  "controls": {
+    "mass_kg": 400,
+    "area_m2": 1,
+    "Cd": 2.2,
+    "wind": "zero ITRS neutral wind",
+    "inclination_deg": 60,
+    "initial_GCRS_radius_m": 6828137,
+    "initial_speed": "sqrt(EGM2008_GM / radius)",
+    "gravity": "unchanged H6 EGM2008 40x40 + ERFA Sun/Moon",
+    "base": {
+      "rtol": 1e-10,
+      "atol": [
+        0.001,
+        0.001,
+        0.001,
+        1e-06,
+        1e-06,
+        1e-06
+      ],
+      "max_step": 30.0
+    },
+    "tight": {
+      "rtol": 1e-12,
+      "atol": [
+        1e-05,
+        1e-05,
+        1e-05,
+        1e-08,
+        1e-08,
+        1e-08
+      ],
+      "max_step": 15.0
+    }
+  },
+  "limits": {
+    "propagation_wall_s": 600,
+    "process_RSS_MiB": 1536,
+    "new_files_MiB": 100,
+    "minimum_free_GiB": 20,
+    "max_propagations": 8,
+    "no_retry": true
+  },
+  "expected": {
+    "wall_s": 400,
+    "memory_MiB": 350,
+    "new_files_MiB": 20
+  },
+  "SP3_overlap": false,
+  "source_SP3_window": "2023-03-21 00:00:02 to 2023-03-23 00:00:02; not reused for new date"
+}

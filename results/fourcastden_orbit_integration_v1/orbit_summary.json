@@ -1,0 +1,12 @@
+{
+  "AI_minus_reference_end_m": 0.005396859470894118,
+  "AI_minus_reference_max_m": 0.005396859470894118,
+  "AI_minus_reference_RMS_m": 0.001705154542838035,
+  "model_difference_not_real_prediction_error": true,
+  "end_differences": {
+    "A_no_drag": 0.0,
+    "B_NRLMSIS21": 9.848618656874864,
+    "C_TIE_reference": 7.53693187746253,
+    "D_AI_Direct": 7.541791661548476
+  }
+}

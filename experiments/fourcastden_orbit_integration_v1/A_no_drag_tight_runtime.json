@@ -1,0 +1,26 @@
+{
+  "model": "A_no_drag",
+  "mode": "tight",
+  "method": "RK45",
+  "rtol": 1e-12,
+  "atol_si": [
+    1e-05,
+    1e-05,
+    1e-05,
+    1e-08,
+    1e-08,
+    1e-08
+  ],
+  "max_step_s": 15.0,
+  "accepted_steps": 244,
+  "nfev": 1466,
+  "elapsed_s": 62.04836671985686,
+  "output_samples": 61,
+  "success": true,
+  "message": "The solver successfully reached the end of the integration interval.",
+  "min_accepted_step_s": 0.007342838195640698,
+  "max_accepted_step_s": 15.000000000000007,
+  "native_query_count": 0,
+  "native_query_time_s": 0,
+  "peak_RSS_MiB": 207.80078125
+}

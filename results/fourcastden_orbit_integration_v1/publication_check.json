@@ -1,0 +1,30 @@
+{
+  "new_file_bytes_in_experiment_and_result": 1872514,
+  "figures_verified_readable": [
+    "results/fourcastden_orbit_integration_v1/layer_dependent_error_growth.png",
+    "results/fourcastden_orbit_integration_v1/native_layer_error.png",
+    "results/fourcastden_orbit_integration_v1/common_path_density.png",
+    "results/fourcastden_orbit_integration_v1/existing_12hour_error_growth.png",
+    "results/fourcastden_orbit_integration_v1/global_density.png",
+    "results/fourcastden_orbit_integration_v1/virtual_orbits_3d.png",
+    "results/fourcastden_orbit_integration_v1/orbit_RAC.png",
+    "results/fourcastden_orbit_integration_v1/orbit_differences_and_density.png"
+  ],
+  "test_count": 11,
+  "new_model_forwards": 0,
+  "new_TIE_integrations": 0,
+  "real_satellite_accuracy_claim": false,
+  "no_historical_results_modified": true,
+  "source_code_files": [
+    "src/atmosphere/fourcastden_density.py",
+    "scripts/run_fourcastden_orbit_integration_v1.py",
+    "scripts/finalize_fourcastden_orbit_delivery.py",
+    "tests/test_fourcastden_density.py"
+  ],
+  "readiness": {
+    "native_density_query_engineering": "PASS on valid columns",
+    "virtual_H6_RK45_integration": "PASS conditional coordinates only",
+    "formal_external_height_registration": "UNVERIFIED",
+    "SCIENTIFIC_TRAINING_READY": false
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "height_gate": {
+    "status": "ENGINEERING_NATIVE_RECONSTRUCTION_ONLY",
+    "relative_density_height_effect_P95": 4.039317805972775e-05,
+    "relative_density_height_effect_max": 0.00013354366815110374,
+    "samples": 5184,
+    "passed": true,
+    "WGS84_to_ZG_registration_solved": false,
+    "future_AI_height_accuracy_proven": false
+  },
+  "analysis_wall_s": 3.9933875780552626,
+  "peak_RSS_MiB": 270.421875,
+  "prediction_height_records": [
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "invalid_reconstruction_columns": 0,
+      "total_columns": 33696,
+      "mass_min": 4.9979727093665645,
+      "mass_max": 28.75485713264515,
+      "valid_bottom_min_m": 95711.00000019139,
+      "valid_top_min_m": 580417.2167286525,
+      "valid_top_max_m": 731004.1226767598
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "invalid_reconstruction_columns": 0,
+      "total_columns": 33696,
+      "mass_min": 4.9663424914636884,
+      "mass_max": 28.75844826245526,
+      "valid_bottom_min_m": 95710.10319417082,
+      "valid_top_min_m": 580417.2167286525,
+      "valid_top_max_m": 731053.0401876107
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "invalid_reconstruction_columns": 0,
+      "total_columns": 33696,
+      "mass_min": 5.014121779038694,
+      "mass_max": 28.751103982413774,
+      "valid_bottom_min_m": 95709.2090015284,
+      "valid_top_min_m": 580418.6671167322,
+      "valid_top_max_m": 730431.2473924458
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "invalid_reconstruction_columns": 0,
+      "total_columns": 33696,
+      "mass_min": 4.945083883469293,
+      "mass_max": 29.118569228136487,
+      "valid_bottom_min_m": 95711.00000019139,
+      "valid_top_min_m": 580417.2167286525,
+      "valid_top_max_m": 733629.2467058176
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "invalid_reconstruction_columns": 0,
+      "total_columns": 33696,
+      "mass_min": 6.672546457534898,
+      "mass_max": 31.633432967139605,
+      "valid_bottom_min_m": 95650.9125469996,
+      "valid_top_min_m": 616361.9328485711,
+      "valid_top_max_m": 873888.1152869007
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "invalid_reconstruction_columns": 29,
+      "total_columns": 33696,
+      "mass_min": 6.302159997860816,
+      "mass_max": 33.531818351002144,
+      "valid_bottom_min_m": 95670.18998611037,
+      "valid_top_min_m": 616361.9328485711,
+      "valid_top_max_m": 879555.4767946826
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "invalid_reconstruction_columns": 0,
+      "total_columns": 33696,
+      "mass_min": 6.739680185074299,
+      "mass_max": 30.85084229028982,
+      "valid_bottom_min_m": 95669.44456471932,
+      "valid_top_min_m": 616362.397040626,
+      "valid_top_max_m": 866012.9150863836
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "invalid_reconstruction_columns": 0,
+      "total_columns": 33696,
+      "mass_min": 6.262525840688818,
+      "mass_max": 31.864151290006582,
+      "valid_bottom_min_m": 95665.12148804322,
+      "valid_top_min_m": 616361.9328485711,
+      "valid_top_max_m": 888288.1157838134
+    }
+  ]
+}

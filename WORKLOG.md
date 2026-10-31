@@ -676,3 +676,19 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 交付首分叉/内部影响报告、最小探针及条件修复方案（未实现未运行）、主线决策B，以及docs/TIEGCM_END_TO_END_EXPLAINED.md中文详细原理、源码入口、全数据流Mermaid与3分钟领导讲解。原源码和阈值不改；无证据支持实际恢复补丁，未假称修复成功。
 - 项目决策B：已有17天完整连续轨迹不依赖Restart；重启失败不自动否定连续轨迹工程/有界敏感性研究，但组分/2022/训练协议门禁独立保留。Restart FAIL、插桩PARTIAL、预算PARTIAL、科学训练FAIL；122帧候选不重提取/不拟合统计/不训练，不延长预热或新轨道。下一任务优先数据科学质量和训练协议，恢复工程按最小探针有限投入，任何新数值实验仍等待授权。
 - 本轮仅建立本地提交；提交后真实HEAD/远端状态记录于logs/tiegcm_restart_divergence_git_state.json，不将未同步报告为成功。完成后停止。
+
+
+## 2026-10-31：FourCastDEN密度查询与一小时虚拟卫星H6/RK45集成
+
+- 读取AGENTS/STATUS/WORKLOG、Restart主线决策、端到端讲解、FourCastDEN分析/评价/长时决策及原轨道密度协议/H6报告。唯一ROOT、各写入目录realpath均在项目内。起始HEAD3245380，既有未跟踪logs/tiegcm_restart_divergence_git_state.json保留；远端只读仍a53ce69，不覆盖/暂存原未提交资产。继承最近远端限制，本轮不push。
+- 盘点51个data/processed/fourcastden*/NPZ的pred NPY头、统计键/形状（不重新推理）；确认Jan4/Mar24四模型13状态完整，旧五日期2h和两日期6h保留。真实Swarm H6窗03-21至23与本次Mar24不重合，因此选择受控虚拟卫星，不平移旧SP3/初态。不下载任何新数据。
+- 学习实际dt.F DEN与addiag.F/calczg：Z常重力870cm/s²、DEN/ZG在ilev、TN在lev。实现源方程驱动的界面质量B=rho R Ti/p反演中点M，再用TN/M及预测Z逐层构建原生ZG；仅用保存预测TN/DEN/Z、ilev/纬度/常数及作者允许的目标TLBC，不用未来真实ZG/组分。保持顶压力重复与顶高度源码构造；质量超4—32、非单调/非正/非有限拒绝，不裁剪。正式ITRS/WGS84到ZG登记未解决，不把该近似误称真实高度精度。
+- 新src/atmosphere/fourcastden_density.py支持原生高度和压力索引查询、原NPZ自身统计反归一化/log10恢复、SI转换、周期经度、双线性水平/密度线性时间/log垂直插值、全部8列有效域门禁。正式density_kg_m3仍EXTERNAL_DATUM_UNVERIFIED，轨道仅独立脚本显式VirtualBridge采用A_WGS84_AS_NATIVE_ZG条件假设；不修改原H6/DragForce/RK45/正式TIE接口。
+- 命令source scripts/activate_orbit.sh；python tests/test_fourcastden_density.py。初10项通过0.206秒；新增未来参考ZG毒化测试后最终11项全部通过0.217秒，原/毒化NPZ的AI密度和重建高度逐元素相同。未安装依赖、无GPU/真实训练。
+- python scripts/run_fourcastden_orbit_integration_v1.py prepare；analyze。提前冻结Mar24 01→02一小时、Direct基线、4×base/tight最多8传播、600秒/RSS1536MiB/新文件100MiB/余盘20GiB，单轨0.02m/配对响应1%，原生重建参考450km的密度影响P95 0.1%/max1%工程预算（非科学精度标准）。59输入SHA与原runtime匹配，原H6实现哈希一致。
+- 26个参考小时场高度重建：Jan4逐帧P95最高2.136m/max26.825m；Mar24 P95最高7.239m/max119.146m，残差非零，不能宣称精确ZG或将全部差归因float32。实际目标两帧5184个450km参考点的密度高度影响P95=0.0040393%/max0.0133544%，工程门禁通过；将Z直接当ZG的P95约13.35—13.46km。完整12h预测的Mar24 Flow 29列时刻反推质量超界，首次+4h，原DEN仍正；完整保存失败位置，未放宽或删除。
+- python scripts/run_fourcastden_orbit_integration_v1.py integrate（唯一正式8传播，无重试）。Mar24 01—02 UTC，虚拟60°倾角/名义450km，m400kg/A1m²/Cd2.2，零ITRS风，同H6与完整状态坐标转换。A无阻力/B冻结GFZ NRLMSIS2.1/C作者参考DEN+ZG/D Direct预测DEN+自重建ZG。每组61输出；base各746RHS，tight1466RHS。总556.789334秒，RSS207.800781MiB，均正常完成，预算内。MPI/TIE积分0、新AI forward0/backward0/optimizer0。
+- python scripts/run_fourcastden_orbit_integration_v1.py finalize；python scripts/finalize_fourcastden_orbit_delivery.py。四单轨base/tight最大约1.55mm，六组配对向量收敛均通过；D-C终点/最大0.00539685947m、全窗RMS0.00170515454m，配对数值差3.635693e-6m。B/C/D相对A终点9.848619/7.536932/7.541792m；它们是条件模型差，非真实SP3/大气预测精度。共同A路径密度相对差P95 1.14465%，不线性推断真实轨道误差。
+- 生成8张真实PNG（全球450km原生密度、压力层误差、既有12h曲线、三维轨道、位置/沿轨密度、RAC、共同路径密度、层间时效对照），2张已人工图像检查；完整CSV、状态NPZ、RHS查询、协议/输入SHA/运行日志保留。2346项历史科学资产及59本任务输入SHA再核验无变化；51个NPY头独立复核。大型原预测仅只读，无新权重/NetCDF/候选NPZ。
+- 交付reports/FOURCASTDEN_ORBIT_INTEGRATION_V1.md及docs/FOURCASTDEN_STATE_UPDATE_EXPERIMENT_PLAN.md。原生查询和条件虚拟轨道工程通过；未来AI几何高度精度/外部登记仍未证明，科学训练READY不改，122候选保持。下一步建议另授权同12h任务在+6h理想TIE全状态更新对照，明确不是业务观测同化；本轮不执行、不宣布最佳修正周期，不扩大长窗。
+- 实际Git提交/远端只读状态记录本轮Git审计日志；仅安全本地提交任务代码、轻量表图及报告，原未推送提交与未跟踪文件保留，不强推。任务结束停止。

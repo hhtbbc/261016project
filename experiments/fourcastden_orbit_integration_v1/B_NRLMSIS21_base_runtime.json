@@ -1,0 +1,26 @@
+{
+  "model": "B_NRLMSIS21",
+  "mode": "base",
+  "method": "RK45",
+  "rtol": 1e-10,
+  "atol_si": [
+    0.001,
+    0.001,
+    0.001,
+    1e-06,
+    1e-06,
+    1e-06
+  ],
+  "max_step_s": 30.0,
+  "accepted_steps": 124,
+  "nfev": 746,
+  "elapsed_s": 51.42661351710558,
+  "output_samples": 61,
+  "success": true,
+  "message": "The solver successfully reached the end of the integration interval.",
+  "min_accepted_step_s": 0.018444375632398875,
+  "max_accepted_step_s": 30.000000000000227,
+  "native_query_count": 0,
+  "native_query_time_s": 0,
+  "peak_RSS_MiB": 207.80078125
+}

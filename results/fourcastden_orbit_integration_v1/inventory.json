@@ -1,0 +1,206 @@
+[
+  {
+    "path": "data/processed/fourcastden_flow_two_step_v1/result.npz",
+    "bytes": 17923601
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-03-23_Direct.npz",
+    "bytes": 25962448
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-03-23_Flow.npz",
+    "bytes": 26033070
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-03-23_History.npz",
+    "bytes": 30939866
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-03-23_LogDEN.npz",
+    "bytes": 26738408
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-06-21_Direct.npz",
+    "bytes": 25993421
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-06-21_Flow.npz",
+    "bytes": 26062317
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-06-21_History.npz",
+    "bytes": 30975336
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-06-21_LogDEN.npz",
+    "bytes": 26853315
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-09-23_Direct.npz",
+    "bytes": 26009015
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-09-23_Flow.npz",
+    "bytes": 26076505
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-09-23_History.npz",
+    "bytes": 30994782
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-09-23_LogDEN.npz",
+    "bytes": 26802928
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-12-21_Direct.npz",
+    "bytes": 25928496
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-12-21_Flow.npz",
+    "bytes": 26008850
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-12-21_History.npz",
+    "bytes": 30895154
+  },
+  {
+    "path": "data/processed/fourcastden_four_model_multidate_v1/2023-12-21_LogDEN.npz",
+    "bytes": 26877385
+  },
+  {
+    "path": "data/processed/fourcastden_history_comparison_v1/Direct.npz",
+    "bytes": 26105258
+  },
+  {
+    "path": "data/processed/fourcastden_history_comparison_v1/Flow.npz",
+    "bytes": 26166487
+  },
+  {
+    "path": "data/processed/fourcastden_history_comparison_v1/History.npz",
+    "bytes": 31113069
+  },
+  {
+    "path": "data/processed/fourcastden_history_comparison_v1/LogDEN.npz",
+    "bytes": 26954245
+  },
+  {
+    "path": "data/processed/fourcastden_logden_multidate_v1/2023-01-04.npz",
+    "bytes": 18753413
+  },
+  {
+    "path": "data/processed/fourcastden_logden_multidate_v1/2023-03-23.npz",
+    "bytes": 18607842
+  },
+  {
+    "path": "data/processed/fourcastden_logden_multidate_v1/2023-06-21.npz",
+    "bytes": 18675538
+  },
+  {
+    "path": "data/processed/fourcastden_logden_multidate_v1/2023-09-23.npz",
+    "bytes": 18648842
+  },
+  {
+    "path": "data/processed/fourcastden_logden_multidate_v1/2023-12-21.npz",
+    "bytes": 18690016
+  },
+  {
+    "path": "data/processed/fourcastden_multidate_v1/2023-03-23_Direct.npz",
+    "bytes": 17767568
+  },
+  {
+    "path": "data/processed/fourcastden_multidate_v1/2023-03-23_Flow.npz",
+    "bytes": 17838234
+  },
+  {
+    "path": "data/processed/fourcastden_multidate_v1/2023-06-21_Direct.npz",
+    "bytes": 17780793
+  },
+  {
+    "path": "data/processed/fourcastden_multidate_v1/2023-06-21_Flow.npz",
+    "bytes": 17851278
+  },
+  {
+    "path": "data/processed/fourcastden_multidate_v1/2023-09-23_Direct.npz",
+    "bytes": 17797124
+  },
+  {
+    "path": "data/processed/fourcastden_multidate_v1/2023-09-23_Flow.npz",
+    "bytes": 17865202
+  },
+  {
+    "path": "data/processed/fourcastden_multidate_v1/2023-12-21_Direct.npz",
+    "bytes": 17736806
+  },
+  {
+    "path": "data/processed/fourcastden_multidate_v1/2023-12-21_Flow.npz",
+    "bytes": 17820308
+  },
+  {
+    "path": "data/processed/fourcastden_six_hour_v1/2023-01-04_Direct.npz",
+    "bytes": 44161492
+  },
+  {
+    "path": "data/processed/fourcastden_six_hour_v1/2023-01-04_Flow.npz",
+    "bytes": 44348962
+  },
+  {
+    "path": "data/processed/fourcastden_six_hour_v1/2023-01-04_History.npz",
+    "bytes": 55881703
+  },
+  {
+    "path": "data/processed/fourcastden_six_hour_v1/2023-01-04_LogDEN.npz",
+    "bytes": 46976956
+  },
+  {
+    "path": "data/processed/fourcastden_six_hour_v1/2023-03-24_Direct.npz",
+    "bytes": 43566094
+  },
+  {
+    "path": "data/processed/fourcastden_six_hour_v1/2023-03-24_Flow.npz",
+    "bytes": 43877460
+  },
+  {
+    "path": "data/processed/fourcastden_six_hour_v1/2023-03-24_History.npz",
+    "bytes": 55109588
+  },
+  {
+    "path": "data/processed/fourcastden_six_hour_v1/2023-03-24_LogDEN.npz",
+    "bytes": 46867283
+  },
+  {
+    "path": "data/processed/fourcastden_twelve_hour_jan4_v1/2023-01-04_Direct.npz",
+    "bytes": 83488156
+  },
+  {
+    "path": "data/processed/fourcastden_twelve_hour_jan4_v1/2023-01-04_Flow.npz",
+    "bytes": 83891714
+  },
+  {
+    "path": "data/processed/fourcastden_twelve_hour_jan4_v1/2023-01-04_History.npz",
+    "bytes": 105241963
+  },
+  {
+    "path": "data/processed/fourcastden_twelve_hour_jan4_v1/2023-01-04_LogDEN.npz",
+    "bytes": 89190729
+  },
+  {
+    "path": "data/processed/fourcastden_twelve_hour_mar24_v1/2023-03-24_Direct.npz",
+    "bytes": 82372782
+  },
+  {
+    "path": "data/processed/fourcastden_twelve_hour_mar24_v1/2023-03-24_Flow.npz",
+    "bytes": 82987554
+  },
+  {
+    "path": "data/processed/fourcastden_twelve_hour_mar24_v1/2023-03-24_History.npz",
+    "bytes": 103805287
+  },
+  {
+    "path": "data/processed/fourcastden_twelve_hour_mar24_v1/2023-03-24_LogDEN.npz",
+    "bytes": 89000018
+  },
+  {
+    "path": "data/processed/fourcastden_two_step_v1/result.npz",
+    "bytes": 17863786
+  }
+]
