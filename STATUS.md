@@ -1,5 +1,7 @@
 # 当前状态
 
+> GitHub权限复核（2026-10-31，用户称已修改后）：有界重推仍403。独立API确认账号对仓库有admin/push且仓库未归档；最小Git内容写接口仍403 Resource not accessible by personal access token，响应要求contents=write。因此需再次核对本枚PAT所选仓库及Repository permissions/Contents读写并保存，不能仅据账号push=true判断令牌可写。未推送、未强推，原本地提交全部保留，令牌未持久化。
+
 > GitHub认证更新（2026-10-31）：用户另提供临时PAT并要求后续优先此方式；只通过关闭回显的标准输入和Git进程内存使用，未写入文件/URL/配置。GitHub认证确认账号hhtbbc，但目标仓库push返回403 Permission denied；当前阻碍是令牌仓库写入权限，而非账号识别。需确认该仓库授权及Contents读写后再推。原提交保留，远端仍a53ce69，不绕过权限或强推。
 
 > GitHub同步（2026-10-31，用户新授权）：待推送成果已检查，无大文件/权重/原始数组；服务器旧VS Code认证socket失效，换当前同用户通道后55秒推送超时，独立凭据预检12秒未取得可用凭据。连接器账号hhtbbc可读，但远端未包含4b5b3d7；本地成果完整保留，未强推/重建历史。需恢复服务器Git认证后继续，实际远端仍a53ce69。

@@ -708,3 +708,10 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 首次PAT push exit128；随后独立GitHub认证预检确认authenticated_login=hhtbbc，清空继承HTTP头后使用HTTP/1.1/Expect禁用的有界push仍exit128，明确403：Permission to hhtbbc/261016project.git denied to hhtbbc。只读复核远端仍a53ce69、本地此前1a3f09a，未同步。
 - 需要用户核对PAT所选仓库及Contents Read and write权限。未将未能写入的凭据放入持久凭据库，也不改用重建提交或强推绕过。若以后配置认证，仅使用安全凭据管理器或仓库限定内存缓存，不明文保存；当前未声称跨会话已永久保存令牌。
 - 脱敏审计logs/github_sync_20261031_pat_result.json和logs/github_sync_20261031_pat_diagnostic.json保留本地；本轮仅提交状态记录，原科研提交及未跟踪日志保持。无reset/clean/rebase、无新模型/轨道/训练任务。
+
+
+## 2026-10-31：用户修改权限后再核查，PAT内容写权限仍未生效
+
+- 再次核对main/远端祖先关系与未跟踪审计日志，临时内存认证重推仍403，远端保持a53ce69。没有强推或重新生成历史提交。
+- 最小API复核：仓库GET200，未归档/未disabled，账号admin/push均true；对Git内容对象的最小空blob写探针返回403 Resource not accessible by personal access token，X-Accepted-GitHub-Permissions=contents=write。写探针未创建文件或改变分支；账号权限与PAT仓库授权/权限必须分开判断。
+- 令牌仅通过关闭回显标准输入与短命进程内存使用，不写日志/配置/URL，未配置无效写权限凭据的长期存储。只记录脱敏结果logs/github_sync_20261031_reauthorized.json及logs/github_sync_20261031_permission_probe.json。需用户确认同一PAT的Repository access含hhtbbc/261016project，Repository permissions/Contents为Read and write并保存后再试，无科学实验。
