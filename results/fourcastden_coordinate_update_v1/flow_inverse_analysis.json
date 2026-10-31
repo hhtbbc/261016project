@@ -1,0 +1,19 @@
+{
+  "matrix_condition_2": 58.13414601446905,
+  "inverse_infinity_norm": 56.0,
+  "forward_infinity_norm": 2.0,
+  "double_vs_longdouble_max": 1.1368683772161603e-13,
+  "float32_recurrence_difference_max": 2.3049329424651432e-05,
+  "failed_updated_columns": 337,
+  "all_interface_masses_inside_among_failed": 334,
+  "source_notes": [
+    "addiag.F:93-124 M to B smoothing and lower extrapolation",
+    "dt.F:220-245 density from B,T_interface",
+    "addiag.F:267-275 calczg uses inferred midpoint indices0..26 for increments; top ZG extrapolated",
+    "legacy validator still tests0..28; no gate changed"
+  ],
+  "statements": {
+    "proven": "linear inverse can amplify alternating interface errors; TN/DEN product perturbations decompose exactly; Z absent from mass inversion",
+    "not_proven": "a conservation-law violation, causal network failure mechanism, or exact future true height error"
+  }
+}

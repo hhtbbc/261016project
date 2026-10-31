@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ncar_grid",
+    "URL": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/grid.html",
+    "status": 200,
+    "bytes": 17939,
+    "SHA256": "ab394c295fc50894dbd98e4aeaeeb78ce86c36403b2e558005289d2ebd63d886",
+    "path": "experiments/fourcastden_coordinate_update_v1/official_metadata/ncar_grid.txt"
+  },
+  {
+    "name": "swarm_handbook",
+    "URL": "https://swarmhandbook.earth.esa.int/catalogue/SW_DNSxPOD_2",
+    "status": 403,
+    "bytes": 179,
+    "SHA256": "1f2e1251b1d5fab2f47bbfe3e09b149064e61571f98a5e02c6ace5f86bacb1d5",
+    "path": "experiments/fourcastden_coordinate_update_v1/official_metadata/swarm_handbook.txt"
+  },
+  {
+    "name": "vires_dns_info",
+    "URL": "https://vires.services/hapi/info?id=SW_OPER_DNSAPOD_2_",
+    "status": 200,
+    "bytes": 1831,
+    "SHA256": "17ccced134a05fee2fd991acf6c1dbd44f166ed8239cf6435af11e3cef2c69ac",
+    "path": "experiments/fourcastden_coordinate_update_v1/official_metadata/vires_dns_info.txt"
+  }
+]

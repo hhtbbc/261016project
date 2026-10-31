@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "new_tests": 17,
+  "real_queries": 192,
+  "expected_invalid_queries": 4,
+  "branch_stencil_respects_event": true,
+  "old_Flow_failure_counts_reproduced": true,
+  "PNG_verified": 6,
+  "input_SHA_unchanged": 95,
+  "historical_SHA_unchanged": 2346,
+  "source_SHA": {
+    "src/atmosphere/event_aware_density.py": "8e95687babcd83b6b1789fead166f7815bec4281015d763d3ed389294e4ad97e",
+    "src/orbit/event_segments.py": "fa9dc968adc1a2c318d987a9242330a500e3bf4c0f081dc95e41b79a344e47b5",
+    "tests/test_event_aware_density.py": "ca54809795c46f89ee14854738b76ef00116f365a33e9747b9f7cc26d3566d92",
+    "scripts/audit_fourcastden_coordinate_update_v1.py": "0167cb1d9c3b21fc4f547d625c492007794f71b24167051cb0a3b963a284b88d",
+    "scripts/plot_fourcastden_coordinate_update_v1.py": "671d372f1ecc2ff4ce074bfab43a0915c23e7760dbbb978cb6e02d4b00a76035",
+    "scripts/finalize_fourcastden_coordinate_update_v1.py": "ba71b0b15eeede7598834608acad36524a2a1b548c01e6a5195bd8afe34533a0"
+  },
+  "files_under_budget": true,
+  "external_registration": "BLOCKED",
+  "SCIENTIFIC_TRAINING_READY": false
+}

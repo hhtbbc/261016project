@@ -1,0 +1,358 @@
+{
+  "NetCDF": "experiments/tiegcm2023_s7_continuous_v1/secondary_010.nc",
+  "variables": {
+    "lat": {
+      "dimensions": [
+        "lat"
+      ],
+      "shape": [
+        36
+      ],
+      "attrs": {
+        "long_name": "geographic latitude (-south, +north)",
+        "units": "degrees_north"
+      }
+    },
+    "lon": {
+      "dimensions": [
+        "lon"
+      ],
+      "shape": [
+        72
+      ],
+      "attrs": {
+        "long_name": "geographic longitude (-west, +east)",
+        "units": "degrees_east"
+      }
+    },
+    "lev": {
+      "dimensions": [
+        "lev"
+      ],
+      "shape": [
+        29
+      ],
+      "attrs": {
+        "long_name": "midpoint levels",
+        "short_name": "ln(p0/p)",
+        "units": "",
+        "positive": "up",
+        "standard_name": "atmosphere_ln_pressure_coordinate",
+        "formula_terms": "p0: p0 lev: lev",
+        "formula": "p(k) = p0 * exp(-lev(k))"
+      }
+    },
+    "ilev": {
+      "dimensions": [
+        "ilev"
+      ],
+      "shape": [
+        29
+      ],
+      "attrs": {
+        "long_name": "interface levels",
+        "short_name": "ln(p0/p)",
+        "units": "",
+        "positive": "up",
+        "standard_name": "atmosphere_ln_pressure_coordinate",
+        "formula_terms": "p0: p0 lev: ilev",
+        "formula": "p(k) = p0 * exp(-ilev(k))"
+      }
+    },
+    "Z": {
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        24,
+        29,
+        36,
+        72
+      ],
+      "attrs": {
+        "long_name": "GEOPOTENTIAL HEIGHT",
+        "units": "cm",
+        "missing_value": "1e+36"
+      }
+    },
+    "ZG": {
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        24,
+        29,
+        36,
+        72
+      ],
+      "attrs": {
+        "long_name": "Geometric Height ZG",
+        "units": "cm",
+        "missing_value": "1e+36"
+      }
+    },
+    "DEN": {
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        24,
+        29,
+        36,
+        72
+      ],
+      "attrs": {
+        "long_name": "Total Density",
+        "units": "g/cm3",
+        "missing_value": "1e+36"
+      }
+    },
+    "TN": {
+      "dimensions": [
+        "time",
+        "lev",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        24,
+        29,
+        36,
+        72
+      ],
+      "attrs": {
+        "long_name": "NEUTRAL TEMPERATURE",
+        "units": "K",
+        "missing_value": "1e+36"
+      }
+    }
+  },
+  "global_attributes": {
+    "Conventions": "CF-1.0",
+    "label": "S7 continuous 2023 hindcast; 7-day candidate spin-up NOT proven converged",
+    "create_date": "10/20/26 01:17:04",
+    "logname": "root",
+    "host": "ws-10-1791952224",
+    "system": "LINUX",
+    "model_name": "tiegcm",
+    "model_version": "tiegcm_trunk",
+    "svn_revision": "tiegcm2.0",
+    "output_file": "secondary_010.nc",
+    "history_type": "secondary",
+    "run_type": "initial",
+    "source_file": "/workspace/data/20261016/data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc (initial)",
+    "source_mtime": "[80  0  0]",
+    "initial_file": "/workspace/data/20261016/data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc",
+    "initial_mtime": "[73  0  0]",
+    "lev_to_hPa_method1": "p0*exp(-lev(k))",
+    "lev_to_hPa_method2": "p0_model*1.e-3*exp(-lev(k))",
+    "nhist": "24",
+    "delhist_mins": "10",
+    "missing_value": "1e+36",
+    "potential_model": "HEELIS",
+    "tuv_lbc_intop": "0",
+    "contents": "23081  81  8 10 to 23081  81 12  0 by   10 tiegcm_trunk secondary",
+    "contents_desc": "yyddd day hour min to yyddd day hour min by delta_mins"
+  },
+  "source_lines": {
+    "addiag.F": [
+      {
+        "line": 258,
+        "text": "r0 = 2.*g0/(3.085462e-6 + 2.27e-9*c2) ! effective earth radius"
+      },
+      {
+        "line": 267,
+        "text": "zg(lev0,i,j) = z(lev0,i,j)"
+      }
+    ],
+    "cons.F": [
+      {
+        "line": 27,
+        "text": "|  re_dyn = 6.378165e8, ! earth radius for apex"
+      },
+      {
+        "line": 130,
+        "text": "|  zbound          ! background low bound of Z (formerly ZBA in annual tide)"
+      },
+      {
+        "line": 315,
+        "text": "zbound = 136.291/sqrt(2.)*1.e5  ! background lower boundary of Z (cm)"
+      },
+      {
+        "line": 381,
+        "text": "write(6,\"('  zbound (cm) = ',e14.6)\") zbound"
+      }
+    ],
+    "lbc.F": [
+      {
+        "line": 13,
+        "text": "use cons_module,only: tbound,zbound"
+      },
+      {
+        "line": 69,
+        "text": "|  gswm_mi_di_ncfile,  ! gswm migrating diurnal data file"
+      },
+      {
+        "line": 70,
+        "text": "|  gswm_mi_sdi_ncfile, ! gswm migrating semi-diurnal data file"
+      },
+      {
+        "line": 71,
+        "text": "|  gswm_nm_di_ncfile,  ! gswm non-migrating diurnal data file"
+      },
+      {
+        "line": 72,
+        "text": "|  gswm_nm_sdi_ncfile  ! gswm non-migrating semi-diurnal data file"
+      },
+      {
+        "line": 73,
+        "text": "use gswm_module,only: getgswm, ! (nlonp4,nlat)"
+      },
+      {
+        "line": 74,
+        "text": "|  gswm_mi_di_z, gswm_mi_sdi_z, gswm_nm_di_z, gswm_nm_sdi_z,"
+      },
+      {
+        "line": 75,
+        "text": "|  gswm_mi_di_t, gswm_mi_sdi_t, gswm_nm_di_t, gswm_nm_sdi_t,"
+      },
+      {
+        "line": 76,
+        "text": "|  gswm_mi_di_u, gswm_mi_sdi_u, gswm_nm_di_u, gswm_nm_sdi_u,"
+      },
+      {
+        "line": 77,
+        "text": "|  gswm_mi_di_v, gswm_mi_sdi_v, gswm_nm_di_v, gswm_nm_sdi_v"
+      },
+      {
+        "line": 115,
+        "text": "z_lbc(lon0:lon1,lat0:lat1) = zbound"
+      },
+      {
+        "line": 122,
+        "text": "! Add gswm perturbations:"
+      },
+      {
+        "line": 125,
+        "text": "call getgswm(istep,iyear,iday,secs)"
+      },
+      {
+        "line": 127,
+        "text": "! Add gswm or Hough mode perturbations:"
+      },
+      {
+        "line": 129,
+        "text": "! GSWM migrating diurnal:"
+      },
+      {
+        "line": 130,
+        "text": "if (len_trim(gswm_mi_di_ncfile) > 0) then"
+      },
+      {
+        "line": 133,
+        "text": "t_lbc(i,j) = t_lbc(i,j)+gswm_mi_di_t(i,j)"
+      },
+      {
+        "line": 134,
+        "text": "u_lbc(i,j) = u_lbc(i,j)+gswm_mi_di_u(i,j)"
+      }
+    ],
+    "getapex.F": [
+      {
+        "line": 19,
+        "text": "use apex,only: apex_mka, apex_mall, apex_q2g"
+      },
+      {
+        "line": 139,
+        "text": "call apex_mall("
+      },
+      {
+        "line": 145,
+        "text": "if (ist .ne. 0) call shutdown('apex_mall')"
+      }
+    ],
+    "apex.F90": [
+      {
+        "line": 37,
+        "text": "!   Convert from quasi-dipole to geodetic coordinates"
+      },
+      {
+        "line": 349,
+        "text": "glat             ,& ! Geographic (geodetic) latitude (deg)"
+      },
+      {
+        "line": 350,
+        "text": "glon             ,& ! Geographic (geodetic) longitude (deg)"
+      },
+      {
+        "line": 446,
+        "text": "! Convert from quasi-dipole to geodetic coordinates. This subroutine"
+      },
+      {
+        "line": 447,
+        "text": "! (input magnetic, output geodetic) is the functional inverse of"
+      },
+      {
+        "line": 448,
+        "text": "! subroutine apex_mall (input geodetic, output magnetic). Sub apex_mka"
+      },
+      {
+        "line": 458,
+        "text": "gdlat,            & ! geodetic latitude (deg)"
+      },
+      {
+        "line": 459,
+        "text": "gdlon               ! geodetic longitude (deg)"
+      },
+      {
+        "line": 537,
+        "text": "! corresponding to the geodetic coordinates YLAT, YLON."
+      },
+      {
+        "line": 622,
+        "text": "! geodetic coordinates.  All gradients are in inverse km.  Assumes"
+      },
+      {
+        "line": 968,
+        "text": "! Convert from geodetic to earth centered cartesian coordinates:"
+      },
+      {
+        "line": 1016,
+        "text": "! Convert space point from geodetic to geocentric or vice versa."
+      },
+      {
+        "line": 1018,
+        "text": "! iflag = 1: Convert from geodetic to cylindrical"
+      },
+      {
+        "line": 1019,
+        "text": "!   Input:  gdlat = Geodetic latitude (deg)"
+      },
+      {
+        "line": 1024,
+        "text": "! iflag = 2: Convert from geodetic to geocentric spherical"
+      },
+      {
+        "line": 1025,
+        "text": "!   Input:  gdlat = Geodetic latitude (deg)"
+      },
+      {
+        "line": 1030,
+        "text": "! iflag = 3: Convert from cylindrical to geodetic"
+      },
+      {
+        "line": 1033,
+        "text": "!   Output: gdlat = Geodetic latitude (deg)"
+      }
+    ]
+  }
+}

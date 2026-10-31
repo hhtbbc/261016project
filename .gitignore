@@ -214,3 +214,7 @@ credentials.json
 # Ideal-update detailed table retained locally; lossless xz is published.
 /results/fourcastden_ideal_update_6h_v1/layer_metrics.csv
 /results/fourcastden_ideal_update_6h_v1/layer_metrics.csv.gz
+
+# Keep raw official web pages/terms locally; publish request SHA manifests.
+/experiments/fourcastden_coordinate_update_v1/official_metadata/*.txt
+/experiments/fourcastden_coordinate_update_v1/official_metadata/*.pdf

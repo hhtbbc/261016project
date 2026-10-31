@@ -1,0 +1,13 @@
+{
+  "status": "EXTERNAL_DATUM_UNVERIFIED",
+  "existing_source": "S7/SP3 2023-03-21 to 23; not Jan4/Mar24",
+  "existing_single_factor_samples": 577,
+  "new_density_queries": 0,
+  "independent_ITRS_recalculation": true,
+  "missing": [
+    "external lower-boundary zero reference and error budget",
+    "model geographic latitude vs Earth-fixed registration",
+    "independently validated forward/inverse external mapping"
+  ],
+  "official_grid_URL": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/grid.html"
+}

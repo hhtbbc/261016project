@@ -736,3 +736,16 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 交付：reports/FOURCASTDEN_IDEAL_UPDATE_6H_V1.md、docs/FOURCASTDEN_IDEAL_UPDATE_6H_TALK.md、results/fourcastden_ideal_update_6h_v1/16图及CSV、experiments同标签协议/日志/SHA。大型预测NPZ仅本地，逐层CSV以无损xz公开。
 - 故障保留：审计最终JSON序列化变量覆盖报错，仅修复记录输出并以--finish核验既有表；报告生成f-string兼容性错误仅修正文档脚本。原错误日志保留，未重跑GPU或修改科研数据/容差。
 - 下一步仅建议：可获得的实际更新状态、物理一致性、外部坐标登记和07时密度接缝验证；本轮结束停止。安全同步前审查仅本任务轻量文件；实际提交/远端HEAD以同步审计及最终汇报为准。
+
+
+## 2026-10-31：外部坐标登记、理想更新接缝与轨道准备
+
+- 目标：复用48forward及旧轨道成果，核查外部坐标，实际开发事件感知密度和RK45分段组合，有限诊断Flow反演并审查真实观测。源码/临时/元信息均在项目内；无GPU、TIE/MPI、H6轨道、网络训练或大数据下载。
+- 新代码：src/atmosphere/event_aware_density.py、src/orbit/event_segments.py；scripts/audit_fourcastden_coordinate_update_v1.py及plot脚本；tests/test_event_aware_density.py。原H6/RK45/正式密度源码不改。source scripts/activate_orbit.sh后运行；最初15项测试通过，新增真实provider绑定ODE及失败中止测试后17项通过0.440秒。
+- 主离线审查17.267秒、411.672MiB RSS，192次真实事件查询逐元素匹配，188有效、4次Flow原坏列拒绝。07左右帧独立，06—07不读更新分支；普通查询右连续，事件侧可显式选择。
+- 3组保存的120秒解析二次阻力ODE：max位置误差2.393887e-3/2.952025e-5/3.247987e-7m，事件P/V跳变为0，加速度4倍；nfev100/130/232外加每组2次事件加速度诊断。单元测试另有合成ODE调用，均非H6/真实轨道；无12小时轨道执行。
+- 复用旧S7/SP3的577组A/B及D纬度单因素/E高度单因素，独立ITRS几何复算；纬度差绝对P95约0.178611deg、高度差P95约14.071km；密度差P95纬度单因素0.08478%、高度24.0931%，均为条件敏感性、不是登记误差或置信界。正式EXTERNAL_DATUM_UNVERIFIED保持。
+- Flow Updated337个列—时刻中334个界面B均4—32内，中点M却超界，全部坏列有用于calczg增量的低层失败；最严重索引4—8且均高纬。线性逆cond2=58.134、逆无穷范数56，高精度重算差1.14e-13、float32重算差2.30e-5g/mol，无法解释最大5.7883越界。DEN/TN对称代数分解逐点闭合约1e-13，不能称物理过程或网络因果百分比。未裁剪/补真值/修改旧门槛。
+- 官方NCAR网格HTTP200、VirES HAPI DNS info200、ESA handbook403原响应保留；条款为ESA PDF已存SHA。新元信息约58kB、无新Swarm观测下载。HAPI标GRS80，Height_GD说明文字有误；旧本地DNS0301为03-21至23、30秒、每2880条，SP3 GPS/IGS20十秒；不覆盖Jan4/Mar24目标。沿轨密度不能提供全球171状态，归档21天延迟非当前业务保证。缺requests时仅改用标准库urllib，未安装软件。
+- 95本轮输入和2346历史科学资产SHA不变。交付主报告FOURCASTDEN_COORDINATE_AND_UPDATE_INTERFACE_V1.md、3分钟讲稿、6张PNG、逐时/层/区域/失败列/观测CSV及实验审计。
+- 决策：正式真实轨道BLOCKED；显式A假设虚拟12小时PARTIAL，待授权、完整路径有效覆盖与全窗数值门槛。原122候选/科学训练READY=False不改。下一步仅建议坐标依据/同UTC真实观测算子和反演资格验证，不自动延长模拟。提交与同步实际HEAD见最终Git审计；保留其他未跟踪日志，不强推。

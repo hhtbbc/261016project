@@ -1,0 +1,19 @@
+{
+  "input_assets_unchanged": 95,
+  "changed": [],
+  "wall_s": 17.266674671322107,
+  "peak_RSS_MiB": 411.671875,
+  "output_bytes": 1155393,
+  "real_event_queries": 192,
+  "failed_queries": 4,
+  "numerical_branch_match": true,
+  "new_GPU_forward": 0,
+  "new_TIE": 0,
+  "new_H6_orbit": 0,
+  "external_registration": "BLOCKED",
+  "event_interface": "PASS",
+  "synthetic_segmented_RK45": "PASS",
+  "conditional_12h_orbit": "PARTIAL; separate authorization and full path valid coverage required",
+  "real_satellite_orbit": "BLOCKED",
+  "SCIENTIFIC_TRAINING_READY": false
+}

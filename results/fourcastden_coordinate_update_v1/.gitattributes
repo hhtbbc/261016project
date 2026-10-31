@@ -1,0 +1,2 @@
+# csv.DictWriter uses RFC 4180 CRLF; preserve scientific bytes.
+*.csv whitespace=cr-at-eol
