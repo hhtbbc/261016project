@@ -1,0 +1,20 @@
+{
+  "tag": "tiegcm_restart_divergence_v2",
+  "new_model_launches": 0,
+  "new_model_steps": 0,
+  "protected_verified": 2346,
+  "changed": [],
+  "recomputed_rows": 111,
+  "clock_records": 12,
+  "minute_log_records": 160,
+  "prefix_numeric_pass": true,
+  "saved_34_exact": true,
+  "endpoint_primary_failed": 28,
+  "endpoint_secondary_failed": 9,
+  "first_restart_specific_divergence": "UNOBSERVED: after disk checkpoint at 00:10, by endpoint 00:20; RAM read/init/first-step unresolved",
+  "decision": "B: continuous integrations; restart remains isolated engineering gate",
+  "wall_s": 8.916242020204663,
+  "peak_process_RSS_MiB": 61.10546875,
+  "no_physical_patch": true,
+  "no_remote_sync": true
+}

@@ -1,0 +1,34 @@
+file,line,text
+tgcm.F,155,call readsource(ier)
+tgcm.F,161,call init_lbc ! lbc module
+rdsource.F,134,call define_phim3d(itp)
+advance.F,125,istep = 0
+advance.F,246,if (istep==1) call rdgpi ! read gpi data
+advance.F,248,if (istep==1) iprint = 1
+advance.F,255,if (istep==1) iprint = 1
+advance.F,287,if (istep==1) iprint = 1
+advance.F,343,if (istep==1) iprint = 1
+advance.F,357,"if (debug) write(6,""('advance call pefield')"")"
+advance.F,358,call pefield
+advance.F,503,"call dynamics(nstep,istep)"
+advance.F,559,call pdynamo
+advance.F,577,"call prepare_phig3d(wrprim,wrsech)"
+advance.F,893,phim3d = 0.
+advance.F,896,emz3d = 0.
+pdynamo.F,579,if (istep==1) then
+pdynamo.F,648,if (istep==1) then
+pdynamo.F,676,if (istep==1) then
+pdynamo.F,1182,phim3d = 0.
+pdynamo.F,1191,ephi3d = 0.
+pdynamo.F,1194,elam3d = 0.
+pdynamo.F,1197,emz3d = 0.
+pdynamo.F,2354,ephi3d = 0.
+pdynamo.F,2355,elam3d = 0.
+pdynamo.F,2356,emz3d = 0.
+pdynamo.F,2598,if (istep==1) then
+pdynamo.F,2707,endif ! istep == 1
+gswm.F,76,if (istep==1) iprint = 1
+gswm.F,80,"if (istep==1) call rdgswm(gswm_mi_di_ncfile,'mi_di')"
+gswm.F,86,"if (istep==1) call rdgswm(gswm_mi_sdi_ncfile,'mi_sdi')"
+gswm.F,92,"if (istep==1) call rdgswm(gswm_nm_di_ncfile,'nm_di')"
+gswm.F,98,"if (istep==1) call rdgswm(gswm_nm_sdi_ncfile,'nm_sdi')"

@@ -1,0 +1,8 @@
+{
+  "failed_attempt": "v1 offline only",
+  "exception": "KeyError: DEN; frozen JSON lists only primary variables",
+  "log_SHA256": "43591bcac723a08743fd58d0dc0c16ddb73d32bd8972c83e1a61c45e4479fa93",
+  "fix": "explicitly inherit existing secondary unit tolerances, then verify all 43 core endpoint rows against preserved result",
+  "new_model_launches": 0,
+  "threshold_relaxation": false
+}

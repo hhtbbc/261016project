@@ -1,0 +1,73 @@
+{
+  "protected_files_reverified": 2346,
+  "changed": [],
+  "all_new_input_hashes_still_match": true,
+  "clock_iter_independently_checked": 12,
+  "new_CPU_tests": 4,
+  "model_launches": 0,
+  "physical_patches": 0,
+  "science_gate_unchanged": true,
+  "file_ledger": {
+    "scripts/analyze_tiegcm_restart_divergence.py": {
+      "bytes": 10788,
+      "SHA256": "d8722488e4feb8e158d02a5797af22c6013da9e072658bc5e79f59386f429393"
+    },
+    "tests/test_tiegcm_restart_divergence.py": {
+      "bytes": 2360,
+      "SHA256": "0f8af055d82e9ab7558f3e4440dc489c67407747ec08b31247d76d7d75351520"
+    },
+    "reports/TIEGCM_RESTART_FIRST_DIVERGENCE_20261031.md": {
+      "bytes": 9404,
+      "SHA256": "2abfcc42e696f239598414e45a29fcf72674dccff06f3d003f61ec500416c604"
+    },
+    "docs/TIEGCM_RESTART_MINIMAL_DIAGNOSTIC_PLAN.md": {
+      "bytes": 4704,
+      "SHA256": "97d7afd1906ea61ccd2e7eeddefe2f32151a90c2cc73d4ca8392ab40e24c12f4"
+    },
+    "docs/TIEGCM_RESTART_MAINLINE_DECISION.md": {
+      "bytes": 3939,
+      "SHA256": "23037c2fd038a587f23dccc7dddd8acefc49728628f5b4152b615e69a2e6678a"
+    },
+    "docs/TIEGCM_END_TO_END_EXPLAINED.md": {
+      "bytes": 21444,
+      "SHA256": "a32adab07699a76ca5945537ef63284d27f64a5e2dbe5b23137205da605c68f1"
+    },
+    "STATUS.md": {
+      "bytes": 82051,
+      "SHA256": "dbc07920e772a5807137570bfe3bfb9f27b4f9eba5b776bfb55a593f7a4a2ae5"
+    },
+    "WORKLOG.md": {
+      "bytes": 160505,
+      "SHA256": "2c1ffe40aee1b17702865cecad8c1cd65ca86b5ee09918daafaf9cbcea0dc90d"
+    },
+    "results/tiegcm_restart_divergence_v2/analysis_incident.json": {
+      "bytes": 390,
+      "SHA256": "526d629dabc10bc957fd6f44bcc23c3a23b137733a06eaf6ce63394e8cf425b2"
+    },
+    "results/tiegcm_restart_divergence_v2/audit.json": {
+      "bytes": 697,
+      "SHA256": "9b55ebac7f6f49e4febf48c2289eb5adcd545762198188de393c3dd1d12eef04"
+    },
+    "results/tiegcm_restart_divergence_v2/clock_records.csv": {
+      "bytes": 898,
+      "SHA256": "a2c5cf07e7362c2911a5cbb6874c96124e374f99c2dc6109438efe465eca84ed"
+    },
+    "results/tiegcm_restart_divergence_v2/field_comparison.csv": {
+      "bytes": 14546,
+      "SHA256": "9ce49b7f8f3f449a6c208dca56f5d393305079687cba46346562cd77ae22130d"
+    },
+    "results/tiegcm_restart_divergence_v2/inputs_sha256.json": {
+      "bytes": 2488,
+      "SHA256": "ffd111dd89fd632d4818e55b880a26d1ab26d8442b154f20557f4c27c876bcb9"
+    },
+    "results/tiegcm_restart_divergence_v2/minute_drivers.csv": {
+      "bytes": 6358,
+      "SHA256": "1c5c5c5ffa03412a83a4ef494341ddcecb3ec8f3485afd6a7c7520dc92f80b9b"
+    },
+    "results/tiegcm_restart_divergence_v2/source_control_flow.csv": {
+      "bytes": 1276,
+      "SHA256": "72cd6e4dd0cbf031cc4eda1c373f32add47887d12fdd6f1b09ed3a21f06f7044"
+    }
+  },
+  "verification_wall_s": 9.128008551895618
+}

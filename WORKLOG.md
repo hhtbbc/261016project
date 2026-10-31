@@ -663,3 +663,16 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 交付三报告、结果tiegcm_runtime_restart_audit_v1、冻结实验元数据/原始NC/输入输出SHA/控制前缀和67行终点统计/真实差场图/独立故障记录。四门禁FAIL/PARTIAL/PARTIAL/FAIL，PARTIAL只表静态方案已有而下游未执行；scientific_training_READY=false不解除。下一阶段先明确恢复诊断/内部原生状态序列化和短验证协议，不能直接延长预热或开展预算/训练。
 - 本轮只建立本地审查提交，远端保持原状态，不推送；实际本地SHA及只读远端核查写入本地logs/tiegcm_runtime_restart_audit_v1_git_state.json。结束停止，不自动追加任何实验。
 - 交付检查：代码/报告/CSV/JSON的git whitespace检查单独通过；原模型stdout和冻结namelist含原生尾随空格，保留原字节以维护SHA审计，不对实验输入/原日志做格式化。分阶段停止与完整性最终复核通过不改变科学恢复FAIL结论。
+
+
+## 2026-10-31：重启首分叉定位与主线恢复（离线）
+
+- 依次读取AGENTS/STATUS/WORKLOG及runtime、instrumentation、stepwise和process-budget报告，核对真实本地工作区；起始HEAD 86c0d97a44812f0373fe47303a83e305df2fa4cc、只读git ls-remote远端main a53ce69646eb8a49e797777af98c57753f1f7ef7，保留原未推送提交。不fetch/reset/clean/rebase/push。用户最近明确远端限制继续执行。
+- 实际审查tgcm→init/readsource→magdyn/init_lbc→advance→pefield→dynamics→pdynamo调用顺序，源文件行号/SHA及首步分支索引独立保存。R省略SOURCE/SOURCE_START，按START在独立OUTPUT找到n=2的00:10，绝对iter118090；首恢复步00:11与连续同UTC，但istep=1对11。新增确认pdynamo首步二维几何重映射也需排查，不能把四磁数组当唯一原因。
+- source scripts/activate_orbit.sh；python scripts/analyze_tiegcm_restart_divergence.py。首v1离线因旧冻结JSON只枚举primary、无DEN条目而KeyError，错误日志logs/tiegcm_restart_divergence_v1.log保留，无模型启动。v2显式沿用旧analyzer UNIT政策（DEN atol=1e-25 SI、ZG沿Z、N2沿O1，float32 rtol=1e-6），没有放宽阈值；新独立results/tiegcm_restart_divergence_v2不覆盖失败标签。
+- 成功命令同上，日志logs/tiegcm_restart_divergence_v2.log。独立复算111行字段比较，对核心终点43行与历史结果核对一致；12条CF/UTC/iter记录、160条rank分钟驱动日志核验；2346项历史SHA通过。8.916242秒、进程峰值RSS61.105MiB；新模型启动0、积分步0、GPU0、编译0、物理补丁0。
+- 34项文件内00:10检查点保真；C/S前缀存在末位差但冻结数值全部PASS；终点28/34 primary、9/9 secondary FAIL，TN/UN/VN/POTEN/ZG最大差仍0.214774K/0.615428m/s/0.945317m/s/6.802985V/254.28m。读后RAM、首次完整步、四原生磁数组数值均未捕获，不能把文件内相等说成内存恢复PASS；第一处恢复特有分叉准确分钟仍UNOBSERVED。
+- 新测试python tests/test_tiegcm_restart_divergence.py，4项通过0.020秒：异CF起算原点等价、错误年份拒绝、mask差异拒绝、NaN不被mask遮蔽。未重复旧7项预算/旧6项恢复测试，未重跑原三组模型。未安装依赖。
+- 交付首分叉/内部影响报告、最小探针及条件修复方案（未实现未运行）、主线决策B，以及docs/TIEGCM_END_TO_END_EXPLAINED.md中文详细原理、源码入口、全数据流Mermaid与3分钟领导讲解。原源码和阈值不改；无证据支持实际恢复补丁，未假称修复成功。
+- 项目决策B：已有17天完整连续轨迹不依赖Restart；重启失败不自动否定连续轨迹工程/有界敏感性研究，但组分/2022/训练协议门禁独立保留。Restart FAIL、插桩PARTIAL、预算PARTIAL、科学训练FAIL；122帧候选不重提取/不拟合统计/不训练，不延长预热或新轨道。下一任务优先数据科学质量和训练协议，恢复工程按最小探针有限投入，任何新数值实验仍等待授权。
+- 本轮仅建立本地提交；提交后真实HEAD/远端状态记录于logs/tiegcm_restart_divergence_git_state.json，不将未同步报告为成功。完成后停止。
