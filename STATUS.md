@@ -1,5 +1,7 @@
 # 当前状态
 
+> GitHub同步成功（2026-10-31）：用户提供新的有效认证后，全部此前本地提交已安全推送main，含FourCastDEN虚拟轨道集成及重启审计成果，远端HEAD已独立核验。此前403是旧认证历史。按用户偏好仅配置本仓库、项目内socket的24小时内存认证缓存，不把令牌写文件/URL/Git配置；缓存过期/重启/令牌撤销后需重新认证。同步记录提交后再次安全推送并核对最终HEAD，无新科研实验。
+
 > GitHub权限复核（2026-10-31，用户称已修改后）：有界重推仍403。独立API确认账号对仓库有admin/push且仓库未归档；最小Git内容写接口仍403 Resource not accessible by personal access token，响应要求contents=write。因此需再次核对本枚PAT所选仓库及Repository permissions/Contents读写并保存，不能仅据账号push=true判断令牌可写。未推送、未强推，原本地提交全部保留，令牌未持久化。
 
 > GitHub认证更新（2026-10-31）：用户另提供临时PAT并要求后续优先此方式；只通过关闭回显的标准输入和Git进程内存使用，未写入文件/URL/配置。GitHub认证确认账号hhtbbc，但目标仓库push返回403 Permission denied；当前阻碍是令牌仓库写入权限，而非账号识别。需确认该仓库授权及Contents读写后再推。原提交保留，远端仍a53ce69，不绕过权限或强推。

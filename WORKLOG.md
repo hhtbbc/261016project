@@ -715,3 +715,10 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 再次核对main/远端祖先关系与未跟踪审计日志，临时内存认证重推仍403，远端保持a53ce69。没有强推或重新生成历史提交。
 - 最小API复核：仓库GET200，未归档/未disabled，账号admin/push均true；对Git内容对象的最小空blob写探针返回403 Resource not accessible by personal access token，X-Accepted-GitHub-Permissions=contents=write。写探针未创建文件或改变分支；账号权限与PAT仓库授权/权限必须分开判断。
 - 令牌仅通过关闭回显标准输入与短命进程内存使用，不写日志/配置/URL，未配置无效写权限凭据的长期存储。只记录脱敏结果logs/github_sync_20261031_reauthorized.json及logs/github_sync_20261031_permission_probe.json。需用户确认同一PAT的Repository access含hhtbbc/261016project，Repository permissions/Contents为Read and write并保存后再试，无科学实验。
+
+
+## 2026-10-31：新认证恢复GitHub同步
+
+- 用户提供新认证并授权使用；关闭TTY回显、仅Git进程内存HTTP认证，不写令牌到文件、URL或配置。正常fast-forward push成功，第一轮独立核验本地与远端均为34cf711c4593e83badb56478564667d68553eea1；此前待推送科研和同步记录提交全部保留并上传，无强推/reset/rebase。
+- 为后续推送配置本仓库限定credential-cache，项目内.cache/git-credential/socket、目录0700、24小时内存有效；仅Git本地配置包含helper路径和用户名，不含令牌，全局配置不改。缓存过期、服务器重启或令牌撤销后需重新认证，不承诺永久保留。
+- 本次只同步与记录，未运行科研模型、训练或轨道积分。原未跟踪审计日志不自动提交。提交本条同步记录后再次安全推送，最终精确HEAD见logs/github_sync_20261031_new_auth_success.json。
