@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "new_CPU_tests": 8,
+  "independent_actual_interpolation_checks": 112,
+  "PNGs": 9,
+  "output_bytes": 27279988,
+  "final_audit_wall_s": 8.304343074560165,
+  "peak_RSS_MiB": 270.34765625,
+  "raw_observation_upload": false,
+  "formal_datum": "EXTERNAL_DATUM_UNVERIFIED",
+  "real_orbit_READY": false,
+  "SCIENTIFIC_TRAINING_READY": false,
+  "new_GPU_forward": 0,
+  "new_TIE": 0,
+  "new_orbit": 0
+}

@@ -1,0 +1,8 @@
+{
+  "unpublished_commit_preserved_in_local_private_ref": "52d399d121ae41af13e701b71b8f3cfaff289f38",
+  "remote_main_unchanged": "304aded2ef0b222ca3f22f2368e025618dd125c8",
+  "public_pushes_before_correction": 0,
+  "reason": "two aligned local NPZ tracked by results inclusion rule; publication scan caught before push",
+  "correction": "remove only from own unpublished commit; keep local files; preserve old main ancestry; no force/reset/rebase",
+  "local_data_unchanged": true
+}

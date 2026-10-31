@@ -1,0 +1,15 @@
+{
+  "start_UTC": "2026-10-31T07:13:25.392",
+  "models": [
+    "Direct",
+    "Flow",
+    "LogDEN",
+    "History"
+  ],
+  "mappings": [
+    "A",
+    "B",
+    "D_lat_only",
+    "E_height_only"
+  ]
+}

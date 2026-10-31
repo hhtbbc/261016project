@@ -749,3 +749,20 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 官方NCAR网格HTTP200、VirES HAPI DNS info200、ESA handbook403原响应保留；条款为ESA PDF已存SHA。新元信息约58kB、无新Swarm观测下载。HAPI标GRS80，Height_GD说明文字有误；旧本地DNS0301为03-21至23、30秒、每2880条，SP3 GPS/IGS20十秒；不覆盖Jan4/Mar24目标。沿轨密度不能提供全球171状态，归档21天延迟非当前业务保证。缺requests时仅改用标准库urllib，未安装软件。
 - 95本轮输入和2346历史科学资产SHA不变。交付主报告FOURCASTDEN_COORDINATE_AND_UPDATE_INTERFACE_V1.md、3分钟讲稿、6张PNG、逐时/层/区域/失败列/观测CSV及实验审计。
 - 决策：正式真实轨道BLOCKED；显式A假设虚拟12小时PARTIAL，待授权、完整路径有效覆盖与全窗数值门槛。原122候选/科学训练READY=False不改。下一步仅建议坐标依据/同UTC真实观测算子和反演资格验证，不自动延长模拟。提交与同步实际HEAD见最终Git审计；保留其他未跟踪日志，不强推。
+
+
+## 2026-10-31：Swarm-A同期真实反演密度与FourCastDEN条件对照
+
+- 授权范围：只读复用四模型两窗12h及6h理想更新；实际取得同期小规模DNS，不训练、不forward、不TIE/MPI、不轨道、不拟合偏移/参数。
+- 官方Sat_A清单实际列出Jan4/Mar24各唯一0301文件，139812/139918字节，合279730；按预冻结预算下载，长度/ZIP CRC/成员字节/SHA通过。每日2880条UTC30s，目标各1441；flag全0，按照官方0 nominal/1 anomalous、未知隔离+正有限非fill的规则处理；瞬时density和轨道均值分开。HAPI每日期1记录逐值核对GRS80坐标、密度和flag，先由GRS80建地固位置再转WGS84。原件及逐点重打包结果仅本地。
+- 新代码：prepare/analyze/finalize/plot/write_fourcastden_swarm_observation*、audit_fourcastden_swarm_delivery.py，src/evaluation/swarm_density_comparison.py、tests/test_swarm_density_comparison.py。source scripts/activate_orbit.sh；8新测试0.039秒通过，无依赖安装。
+- 实际103752次基本查询（另参考±1km、07左右诊断），A/B及纬度D/高度E单因素均保留。86任务输入及2346历史科学资产SHA不变。主分析84.171秒、RSS434.078MiB；独立3072单元/20832标量核验15.458秒；112真实插值独立抽查和9图验收8.304秒。均未超1800秒/4GiB/500MiB限制。
+- 相同后窗08—13主集合：Jan4 N601，Mar24 N583/601，拒绝18点为Updated Flow无效重建；其余模型也用同583点，不静默改样本。过渡07—08另拒绝5点。07事件不计预测提升，前720点Open/Updated逐元素一致。
+- A下后窗相对RMS：Jan4 Direct18.4101→17.0928%、Flow18.4352→17.0422%、LogDEN18.6661→16.9303%、History17.8080→17.4946%；Mar24 Direct17.4501→12.6269%、Flow17.7301→12.6872%、LogDEN17.4919→12.2123%、History17.9943→10.8323%。
+- B下Jan4 History恶化3.79%；Mar24四模型相对RMS分别恶化15.94/20.20/22.03/9.93%，部分绝对RMSE仍小幅改善，不能只选有利指标。A下Mar24北高纬四组亦恶化；07时A/Direct观测相对偏差从-21.35%变-59.81%，单点另报不混入后窗成绩。
+- 同轨参考A/B响应绝对P95 Jan4 26.7124%、Mar24 21.9821%；纬度单因素0.2458/0.2206%、高度26.7339/21.9687%。仅敏感性，不是误差置信界、不拟合更优映射、不相加总误差。
+- 交付reports/FOURCASTDEN_SWARM_OBSERVATION_COMPARISON_V1.md、docs/FOURCASTDEN_SWARM_OBSERVATION_TALK.md、results同标签聚合CSV/9图及experiments配置/SHA/审计。图排版两版中间产物保留，最终图明确0301/PROVISIONAL；无科研数据重算覆盖。
+- 原GPS/IGS20 SP3不移用；旧官方目录有同期0203候选但未下载实际头/PV；真实气动/姿态/推力/坐标仍缺，真实轨道BLOCKED。沿轨反演不是无误差真值或全球171状态；两日期相关样本不支持全年/显著性/最佳周期结论。科学训练False保留。
+- 安全同步轻量代码、派生指标和图，不发布原始观测/模型/逐点完整数据；旧未跟踪同步日志保留。实际Git HEAD及远端状态见最终同步审计。任务完成停止，不自动继续下载、训练或积分。
+
+- 发布检查事件：results通配包含使两个aligned_local.npz进入本轮自有未推送提交；扫描发现且远端仍旧HEAD，未上传。保留本地数据及原未发布提交到本地private审计ref，只修正本轮自有提交的发布文件集合；原main科研历史不改、不强推。新增精确忽略规则并重新独立扫描，后续Git步骤不与失败检查放在同一无退出保护的shell中。

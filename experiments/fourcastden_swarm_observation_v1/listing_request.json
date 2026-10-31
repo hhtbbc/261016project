@@ -1,0 +1,30 @@
+{
+  "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=10000&pos=0&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A",
+  "status": 200,
+  "bytes": 1452680,
+  "SHA256": "cc3cb2ec84e212ff8b90ff30df65d711c57115756fb9120664e22111f5751be8",
+  "targets": [
+    {
+      "mtime": 1726599546,
+      "size": 139812,
+      "name": "SW_OPER_DNSAPOD_2__20230104T000000_20230104T235930_0301.ZIP",
+      "path": "swarm/Level2daily/Latest_baselines/DNS/POD/Sat_A/SW_OPER_DNSAPOD_2__20230104T000000_20230104T235930_0301.ZIP",
+      "is_dir": false,
+      "is_readable": true,
+      "is_writable": false,
+      "is_executable": false,
+      "more": 0
+    },
+    {
+      "mtime": 1726628352,
+      "size": 139918,
+      "name": "SW_OPER_DNSAPOD_2__20230324T000000_20230324T235930_0301.ZIP",
+      "path": "swarm/Level2daily/Latest_baselines/DNS/POD/Sat_A/SW_OPER_DNSAPOD_2__20230324T000000_20230324T235930_0301.ZIP",
+      "is_dir": false,
+      "is_readable": true,
+      "is_writable": false,
+      "is_executable": false,
+      "more": 0
+    }
+  ]
+}

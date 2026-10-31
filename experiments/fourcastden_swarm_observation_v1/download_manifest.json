@@ -1,0 +1,44 @@
+[
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20230104T000000_20230104T235930_0301.ZIP",
+    "bytes": 139812,
+    "SHA256": "4916e9dfad0fb2bad68f8d5a1f22048e2bb544ceafb7dafb71cf5517e63ab1e1",
+    "path": "data/raw/fourcastden_swarm_observation_v1/SW_OPER_DNSAPOD_2__20230104T000000_20230104T235930_0301.ZIP",
+    "HTTP": 200,
+    "members": [
+      {
+        "path": "data/raw/fourcastden_swarm_observation_v1/extracted/SW_OPER_DNSAPOD_2__20230104T000000_20230104T235930_0301.cdf",
+        "SHA256": "c816c8c57dc954c025a85257510d52c8c279104cdbda554ddad6779f38cd4049",
+        "CRC32": "737ddab3",
+        "bytes": 191682
+      },
+      {
+        "path": "data/raw/fourcastden_swarm_observation_v1/extracted/SW_OPER_DNSAPOD_2__20230104T000000_20230104T235930_0301.HDR",
+        "SHA256": "5f34fd4c40048cc72058f8476daedc414ef811a3240c8e46d894ed2cad09c934",
+        "CRC32": "6856ffbb",
+        "bytes": 2757
+      }
+    ]
+  },
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20230324T000000_20230324T235930_0301.ZIP",
+    "bytes": 139918,
+    "SHA256": "abe101720f1d7952671a88b9c783b5cee41f6483e7be9b12071aa1cdc0b50b85",
+    "path": "data/raw/fourcastden_swarm_observation_v1/SW_OPER_DNSAPOD_2__20230324T000000_20230324T235930_0301.ZIP",
+    "HTTP": 200,
+    "members": [
+      {
+        "path": "data/raw/fourcastden_swarm_observation_v1/extracted/SW_OPER_DNSAPOD_2__20230324T000000_20230324T235930_0301.cdf",
+        "SHA256": "0cd8b0487fec7108b9f17947141db8416e2ddcd46ea5f975d712aceff74f3244",
+        "CRC32": "ae5e49a7",
+        "bytes": 191682
+      },
+      {
+        "path": "data/raw/fourcastden_swarm_observation_v1/extracted/SW_OPER_DNSAPOD_2__20230324T000000_20230324T235930_0301.HDR",
+        "SHA256": "25242e1d37fcedb41d58e1579a7cef11bc42626cd0d017ec5c14971ded0348f5",
+        "CRC32": "b447df0f",
+        "bytes": 2757
+      }
+    ]
+  }
+]

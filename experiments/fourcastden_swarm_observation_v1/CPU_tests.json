@@ -1,0 +1,7 @@
+{
+  "tests": 8,
+  "status": "PASS",
+  "wall_s": 0.039,
+  "command": "source scripts/activate_orbit.sh; python tests/test_swarm_density_comparison.py",
+  "log": "logs/fourcastden_swarm_observation_v1_tests.log"
+}

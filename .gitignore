@@ -218,3 +218,10 @@ credentials.json
 # Keep raw official web pages/terms locally; publish request SHA manifests.
 /experiments/fourcastden_coordinate_update_v1/official_metadata/*.txt
 /experiments/fourcastden_coordinate_update_v1/official_metadata/*.pdf
+
+# Swarm observational originals and pointwise repackaging stay local.
+/results/fourcastden_swarm_observation_v1/*_local.csv
+/experiments/fourcastden_swarm_observation_v1/HAPI_CDF_point_registration.json
+/experiments/fourcastden_swarm_observation_v1/figure_layout_*/
+
+/results/fourcastden_swarm_observation_v1/*_local.npz

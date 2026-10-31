@@ -1,0 +1,230 @@
+[
+  {
+    "file": "data/raw/fourcastden_swarm_observation_v1/extracted/SW_OPER_DNSAPOD_2__20230104T000000_20230104T235930_0301.cdf",
+    "SHA256": "c816c8c57dc954c025a85257510d52c8c279104cdbda554ddad6779f38cd4049",
+    "global_attributes": {
+      "TITLE": [
+        "SW_OPER_DNSAPOD_2__20230104T000000_20230104T235930_0301"
+      ],
+      "ORIGINAL_PRODUCT_NAME": [
+        "SA_FASTSPARTANF/Density_Direct/1 (in ZVar 'density')",
+        "SA_FASTSPARTANF/Density_Direct_OrbitMean/1 (in ZVar 'density_orbitmean')",
+        "SA_FASTSPARTANF/DataFlags_Validation/1 (in ZVar 'validity_flag')",
+        "SA_Basic/Orbit_Geo/1 (in ZVar 'altitude')",
+        "SA_Basic/Orbit_Geo/3 (in ZVar 'latitude')",
+        "SA_Basic/Orbit_Geo/2 (in ZVar 'longitude')",
+        "SA_Basic/Orbit_Geo/4 (in ZVar 'local_solar_time')"
+      ],
+      "CREATOR": [
+        "DUT"
+      ],
+      "TIME SYSTEM": [
+        "UTC"
+      ],
+      "SATELLITE": [
+        "Swarm-A"
+      ],
+      "DESCRIPTION": [
+        "Thermospheric density at the satellite location derived from ACCxPOD_2"
+      ],
+      "ORBITAL_PERIOD_SECONDS": [
+        "5627"
+      ]
+    },
+    "variables": {
+      "time": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Time of observation",
+          "UNITS": "-",
+          "FORMAT": "CDF Epoch (UTC time system)",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_EPOCH"
+      },
+      "density": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Density derived from GPS accelerations (FAST)",
+          "UNITS": "kg/m3",
+          "FORMAT": "E16.9",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_DOUBLE"
+      },
+      "density_orbitmean": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Orbit-average of density derived from GPS accelerations",
+          "UNITS": "kg/m3",
+          "FORMAT": "E16.9",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_DOUBLE"
+      },
+      "validity_flag": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Flag: 0 = nominal data, 1 = anomalous data",
+          "UNITS": "unknown units",
+          "FORMAT": "E16.9",
+          "FILLVAL": "127"
+        },
+        "type": "CDF_INT1"
+      },
+      "altitude": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Altitude",
+          "UNITS": "m",
+          "FORMAT": "E16.9",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_DOUBLE"
+      },
+      "latitude": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Geodetic latitude",
+          "UNITS": "deg",
+          "FORMAT": "E16.9",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_DOUBLE"
+      },
+      "longitude": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Geodetic longitude",
+          "UNITS": "deg",
+          "FORMAT": "E16.9",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_DOUBLE"
+      },
+      "local_solar_time": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Local solar time",
+          "UNITS": "h",
+          "FORMAT": "E16.9",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_DOUBLE"
+      }
+    },
+    "records": 2880,
+    "start": "2023-01-04T00:00:00.000000000",
+    "end": "2023-01-04T23:59:30.000000000",
+    "cadence_s": 30,
+    "flag_distribution": {
+      "0": 2880
+    }
+  },
+  {
+    "file": "data/raw/fourcastden_swarm_observation_v1/extracted/SW_OPER_DNSAPOD_2__20230324T000000_20230324T235930_0301.cdf",
+    "SHA256": "0cd8b0487fec7108b9f17947141db8416e2ddcd46ea5f975d712aceff74f3244",
+    "global_attributes": {
+      "TITLE": [
+        "SW_OPER_DNSAPOD_2__20230324T000000_20230324T235930_0301"
+      ],
+      "ORIGINAL_PRODUCT_NAME": [
+        "SA_FASTSPARTANF/Density_Direct/1 (in ZVar 'density')",
+        "SA_FASTSPARTANF/Density_Direct_OrbitMean/1 (in ZVar 'density_orbitmean')",
+        "SA_FASTSPARTANF/DataFlags_Validation/1 (in ZVar 'validity_flag')",
+        "SA_Basic/Orbit_Geo/1 (in ZVar 'altitude')",
+        "SA_Basic/Orbit_Geo/3 (in ZVar 'latitude')",
+        "SA_Basic/Orbit_Geo/2 (in ZVar 'longitude')",
+        "SA_Basic/Orbit_Geo/4 (in ZVar 'local_solar_time')"
+      ],
+      "CREATOR": [
+        "DUT"
+      ],
+      "TIME SYSTEM": [
+        "UTC"
+      ],
+      "SATELLITE": [
+        "Swarm-A"
+      ],
+      "DESCRIPTION": [
+        "Thermospheric density at the satellite location derived from ACCxPOD_2"
+      ],
+      "ORBITAL_PERIOD_SECONDS": [
+        "5621"
+      ]
+    },
+    "variables": {
+      "time": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Time of observation",
+          "UNITS": "-",
+          "FORMAT": "CDF Epoch (UTC time system)",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_EPOCH"
+      },
+      "density": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Density derived from GPS accelerations (FAST)",
+          "UNITS": "kg/m3",
+          "FORMAT": "E16.9",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_DOUBLE"
+      },
+      "density_orbitmean": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Orbit-average of density derived from GPS accelerations",
+          "UNITS": "kg/m3",
+          "FORMAT": "E16.9",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_DOUBLE"
+      },
+      "validity_flag": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Flag: 0 = nominal data, 1 = anomalous data",
+          "UNITS": "unknown units",
+          "FORMAT": "E16.9",
+          "FILLVAL": "127"
+        },
+        "type": "CDF_INT1"
+      },
+      "altitude": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Altitude",
+          "UNITS": "m",
+          "FORMAT": "E16.9",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_DOUBLE"
+      },
+      "latitude": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Geodetic latitude",
+          "UNITS": "deg",
+          "FORMAT": "E16.9",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_DOUBLE"
+      },
+      "longitude": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Geodetic longitude",
+          "UNITS": "deg",
+          "FORMAT": "E16.9",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_DOUBLE"
+      },
+      "local_solar_time": {
+        "attrs": {
+          "VARIABLE DESCRIPTION": "Local solar time",
+          "UNITS": "h",
+          "FORMAT": "E16.9",
+          "FILLVAL": "0.99900E+33"
+        },
+        "type": "CDF_DOUBLE"
+      }
+    },
+    "records": 2880,
+    "start": "2023-03-24T00:00:00.000000000",
+    "end": "2023-03-24T23:59:30.000000000",
+    "cadence_s": 30,
+    "flag_distribution": {
+      "0": 2880
+    }
+  }
+]

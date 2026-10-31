@@ -1,5 +1,7 @@
 # 当前状态
 
+> 最新（2026-10-31，同期Swarm对照）：实际下载Jan4/Mar24 DNSAPOD0301两日原ZIP279730字节（各UTC30秒/2880条，目标各1441）；质量0名义有效，HAPI同点坐标/密度核对通过。复用原场103752次A/B/D/E查询，无GPU/TIE/轨道。主后窗共同N601/583，Mar24 Flow更新后18点明确拒绝，所有模型统一样本；A下八组相对RMS改善1.76%—39.80%，B下Mar24四组相对RMS反而增9.93%—22.03%，不得择优映射。8新测试、3072单元/20832标量及112插值独立核查，86输入/2346历史SHA不变，9图及讲稿完成。正式高度仍EXTERNAL_DATUM_UNVERIFIED、真实轨道BLOCKED、科学训练False；观测原件与逐点表仅本地。入口reports/FOURCASTDEN_SWARM_OBSERVATION_COMPARISON_V1.md。
+
 > 最新（2026-10-31，坐标/接缝）：事件感知原生密度接口和分段RK45组合已实现，17项CPU测试通过；192次真实查询与分支逐元素一致，188有效/4明确拒绝。120秒解析跳变测试P/V连续，tight位置误差3.248e-7m；未新增H6传播/GPU/TIE/训练。577旧Swarm/S7单因素复核仍是坐标假设敏感性，外部登记EXTERNAL_DATUM_UNVERIFIED不解除。Flow337坏列中334个界面质量在范围内而中点反演超界，独立矩阵/高精度复算指向交错层反演敏感性，非仅舍入；不能认定完整守恒律违规。现有Swarm观测无目标两窗重合且非171全状态。真实12h轨道BLOCKED，显式假设虚拟方案PARTIAL/待另授权。95输入及2346历史科学资产SHA不变，科学训练READY=False。入口reports/FOURCASTDEN_COORDINATE_AND_UPDATE_INTERFACE_V1.md。
 
 > 最新（2026-10-31，6小时理想更新）：两个固定窗口、四模型新增8×6=48次forward完成，无Open-loop重跑。13UTC高层DEN相对RMS八组均改善54.37%—84.92%，但Mar24 Flow南高纬顶部恶化、热力重建失败列—时刻26→337；07重置成绩不计预测提升。基线576/96记录及10752独立标量复核通过，70任务/2346历史资产SHA不变。GPU监督47.75秒、峰值树RSS1.318GiB；16图及3分钟稿已生成。离线理想全状态更新非观测同化，不确定最佳周期；122候选科学训练READY=False保持，无轨道/TIE/训练。入口reports/FOURCASTDEN_IDEAL_UPDATE_6H_V1.md。

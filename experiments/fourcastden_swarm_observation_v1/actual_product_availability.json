@@ -1,0 +1,22 @@
+[
+  {
+    "HDR": "data/raw/fourcastden_swarm_observation_v1/extracted/SW_OPER_DNSAPOD_2__20230104T000000_20230104T235930_0301.HDR",
+    "metadata": {
+      "Validity_Start": "UTC=2023-01-04T00:00:00",
+      "Validity_Stop": "UTC=2023-01-04T23:59:30",
+      "File_Version": "0301",
+      "Creation_Date": "UTC=2024-09-17T14:04:02",
+      "Proc_Time": "UTC=2024-09-17T14:04:02.000000"
+    }
+  },
+  {
+    "HDR": "data/raw/fourcastden_swarm_observation_v1/extracted/SW_OPER_DNSAPOD_2__20230324T000000_20230324T235930_0301.HDR",
+    "metadata": {
+      "Validity_Start": "UTC=2023-03-24T00:00:00",
+      "Validity_Stop": "UTC=2023-03-24T23:59:30",
+      "File_Version": "0301",
+      "Creation_Date": "UTC=2024-09-17T14:04:30",
+      "Proc_Time": "UTC=2024-09-17T14:04:30.000000"
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "date": "2023-01-04",
+    "request": {
+      "URL": "https://vires.services/hapi/data?id=SW_OPER_DNSAPOD_2_&time.min=2023-01-04T01%3A00%3A00Z&time.max=2023-01-04T01%3A00%3A30Z&parameters=Timestamp%2CLatitude_GD%2CLongitude_GD%2CHeight_GD%2Cdensity%2Cvalidity_flag&format=csv",
+      "bytes": 104,
+      "SHA256": "0f5774db9d3aa47a8db298429faa9df386523338b052781292698f4f5ab0705d",
+      "path": "data/raw/fourcastden_swarm_observation_v1/2023-01-04_HAPI_point.csv",
+      "HTTP": 200
+    },
+    "fields": [
+      "latitude",
+      "longitude",
+      "altitude",
+      "density",
+      "validity_flag"
+    ],
+    "pointwise_equality_PASS": true,
+    "coordinate_contract": "GRS80 geodetic per actual service info; point verified"
+  },
+  {
+    "date": "2023-03-24",
+    "request": {
+      "URL": "https://vires.services/hapi/data?id=SW_OPER_DNSAPOD_2_&time.min=2023-03-24T01%3A00%3A00Z&time.max=2023-03-24T01%3A00%3A30Z&parameters=Timestamp%2CLatitude_GD%2CLongitude_GD%2CHeight_GD%2Cdensity%2Cvalidity_flag&format=csv",
+      "bytes": 107,
+      "SHA256": "ddcf9553e326d57f8790cd045c7c26e5f67a52f0d1b0c4f36de6959ed7e5296c",
+      "path": "data/raw/fourcastden_swarm_observation_v1/2023-03-24_HAPI_point.csv",
+      "HTTP": 200
+    },
+    "fields": [
+      "latitude",
+      "longitude",
+      "altitude",
+      "density",
+      "validity_flag"
+    ],
+    "pointwise_equality_PASS": true,
+    "coordinate_contract": "GRS80 geodetic per actual service info; point verified"
+  }
+]

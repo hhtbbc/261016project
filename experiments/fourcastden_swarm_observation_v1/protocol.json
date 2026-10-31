@@ -1,0 +1,61 @@
+{
+  "tag": "fourcastden_swarm_observation_v1",
+  "label": "PROVISIONAL_OBSERVATION_COMPARISON / HINDCAST",
+  "dates": [
+    "2023-01-04",
+    "2023-03-24"
+  ],
+  "UTC_hours": [
+    1,
+    13
+  ],
+  "update_hour": 7,
+  "models": [
+    "Direct",
+    "Flow",
+    "LogDEN",
+    "History"
+  ],
+  "download_bytes_expected": 279730,
+  "raw_download_limit_bytes": 10485760,
+  "CPU_wall_limit_s": 1800,
+  "RSS_limit_GiB": 4,
+  "output_limit_MiB": 500,
+  "available_memory": {
+    "MemAvailable": 1988764377088
+  },
+  "expected_analysis_s": 600,
+  "expected_analysis_RSS_GiB": 1,
+  "expected_output_MiB": 60,
+  "quality": "actual 0301 CDF + official flag definition: 0 nominal, 1 anomalous, unknown flags explicitly rejected",
+  "density_field": "density only; density_orbitmean separately preserved, never substituted",
+  "coordinates": {
+    "input": "product geodetic, GRS80 per official service; verify one actual point per day",
+    "A": "WGS84 geodetic lat and ellipsoid height as native hypothesis",
+    "B": "geocentric latitude, r-6371000m hypothesis",
+    "D": "A height with B latitude; single-factor diagnostic",
+    "E": "A latitude with B height; single-factor diagnostic"
+  },
+  "metrics": {
+    "units": "kg/m3",
+    "weights": "one equal weight per 30s observation, not independent replicates",
+    "relative_denominator": "positive observed instantaneous density; no floor",
+    "periods": {
+      "pre": "01<=UTC<07",
+      "event": "UTC=07; separate left/right, excluded from forecast gain",
+      "transition": "07<UTC<08",
+      "post": "08<=UTC<=13"
+    },
+    "regions": {
+      "south": "latitude<=-60",
+      "north": "latitude>=60",
+      "midlow": "abs(latitude)<60"
+    },
+    "primary_mask": "same quality-valid samples valid for reference and all 8 branches under both A/B mappings; per-model paired masks reported separately"
+  },
+  "no_training": true,
+  "no_GPU": true,
+  "no_TIE": true,
+  "no_orbit": true,
+  "formal_external_datum": "EXTERNAL_DATUM_UNVERIFIED"
+}

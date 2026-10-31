@@ -1,0 +1,96 @@
+{
+  "request": {
+    "URL": "https://vires.services/hapi/info?id=SW_OPER_DNSAPOD_2_",
+    "bytes": 1831,
+    "SHA256": "17ccced134a05fee2fd991acf6c1dbd44f166ed8239cf6435af11e3cef2c69ac",
+    "path": "data/raw/fourcastden_swarm_observation_v1/HAPI_info.json",
+    "HTTP": 200
+  },
+  "contract": {
+    "HAPI": "3.0",
+    "status": {
+      "code": 1200,
+      "message": "OK"
+    },
+    "x_dataset": "SW_OPER_DNSAPOD_2_",
+    "x_datasetType": "SW_DNSxPOD_2_",
+    "startDate": "2014-01-01T00:00:00Z",
+    "stopDate": "2026-09-30T23:59:30Z",
+    "cadence": "PT30S",
+    "x_maxTimeSelection": "P150D",
+    "modificationDate": "2026-10-21T14:41:43.100Z",
+    "description": "Swarm A thermosphere density observations derived from precise orbit determination data only",
+    "x_dataTerms": "This dataset is provided by the European Space Agency and it is subject to terms condition described in https://vires.services/data_terms.",
+    "resourceURL": "https://swarmhandbook.earth.esa.int/catalogue/SW_DNSxPOD_2_",
+    "parameters": [
+      {
+        "name": "Timestamp",
+        "description": "Time of observation, UTC",
+        "units": "UTC",
+        "type": "isotime",
+        "length": 24,
+        "x_standard": "UTC",
+        "x_epoch": "1970-01-01T00:00:00Z",
+        "x_unit": "ms",
+        "x_type": "int64",
+        "fill": null
+      },
+      {
+        "name": "Latitude_GD",
+        "description": "GRS80 geodetic latitude",
+        "units": "deg",
+        "type": "double",
+        "x_type": "float64",
+        "fill": null
+      },
+      {
+        "name": "Longitude_GD",
+        "description": "GRS80 geodetic longitude",
+        "units": "deg",
+        "type": "double",
+        "x_type": "float64",
+        "fill": null
+      },
+      {
+        "name": "Height_GD",
+        "description": "GRS80 latitude",
+        "units": "m",
+        "type": "double",
+        "x_type": "float64",
+        "fill": null
+      },
+      {
+        "name": "local_solar_time",
+        "description": "Local solar time",
+        "units": "h",
+        "type": "double",
+        "x_type": "float64",
+        "fill": null
+      },
+      {
+        "name": "density",
+        "description": "Mass density",
+        "units": "kg/m3",
+        "type": "double",
+        "x_type": "float64",
+        "fill": null
+      },
+      {
+        "name": "density_orbitmean",
+        "description": "Orbit average of mass density",
+        "units": "kg/m3",
+        "type": "double",
+        "x_type": "float64",
+        "fill": null
+      },
+      {
+        "name": "validity_flag",
+        "description": "0 = nominal data, 1 = anomalous data",
+        "units": null,
+        "type": "integer",
+        "x_type": "int8",
+        "fill": null
+      }
+    ]
+  }
+}

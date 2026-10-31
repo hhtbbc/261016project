@@ -1,0 +1,53 @@
+{
+  "source": "data/raw/meeting_sources/swarm_A_all.txt",
+  "source_SHA256": "bd4c2ef9c365a6190b1e93f141c26c94f7c68c3735881acfaa99fb5efda0c750",
+  "candidates": [
+    {
+      "mtime": 1675695483,
+      "size": 440301,
+      "name": "SW_OPER_SP3ACOM_2__20230103T235942_20230104T235942_0201.ZIP",
+      "path": "swarm/Level2daily/Latest_baselines/POD/RD/Sat_A/SW_OPER_SP3ACOM_2__20230103T235942_20230104T235942_0201.ZIP",
+      "is_dir": false,
+      "is_readable": true,
+      "is_writable": false,
+      "is_executable": false,
+      "more": 0
+    },
+    {
+      "mtime": 1787661918,
+      "size": 440043,
+      "name": "SW_OPER_SP3ACOM_2__20230103T235942_20230104T235942_0203.ZIP",
+      "path": "swarm/Level2daily/Latest_baselines/POD/RD/Sat_A/SW_OPER_SP3ACOM_2__20230103T235942_20230104T235942_0203.ZIP",
+      "is_dir": false,
+      "is_readable": true,
+      "is_writable": false,
+      "is_executable": false,
+      "more": 0
+    },
+    {
+      "mtime": 1681892294,
+      "size": 440197,
+      "name": "SW_OPER_SP3ACOM_2__20230323T235942_20230324T235942_0201.ZIP",
+      "path": "swarm/Level2daily/Latest_baselines/POD/RD/Sat_A/SW_OPER_SP3ACOM_2__20230323T235942_20230324T235942_0201.ZIP",
+      "is_dir": false,
+      "is_readable": true,
+      "is_writable": false,
+      "is_executable": false,
+      "more": 0
+    },
+    {
+      "mtime": 1787682161,
+      "size": 440229,
+      "name": "SW_OPER_SP3ACOM_2__20230323T235942_20230324T235942_0203.ZIP",
+      "path": "swarm/Level2daily/Latest_baselines/POD/RD/Sat_A/SW_OPER_SP3ACOM_2__20230323T235942_20230324T235942_0203.ZIP",
+      "is_dir": false,
+      "is_readable": true,
+      "is_writable": false,
+      "is_executable": false,
+      "more": 0
+    }
+  ],
+  "preferred_version": "0203 consistent with old orbit baseline; not chosen by residual",
+  "new_SP3_downloads": 0,
+  "interpretation": "cached official catalogue confirms specific candidates; local raw headers and actual t0 P/V not yet acquired for either target date"
+}
