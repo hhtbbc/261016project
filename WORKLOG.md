@@ -692,3 +692,11 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 生成8张真实PNG（全球450km原生密度、压力层误差、既有12h曲线、三维轨道、位置/沿轨密度、RAC、共同路径密度、层间时效对照），2张已人工图像检查；完整CSV、状态NPZ、RHS查询、协议/输入SHA/运行日志保留。2346项历史科学资产及59本任务输入SHA再核验无变化；51个NPY头独立复核。大型原预测仅只读，无新权重/NetCDF/候选NPZ。
 - 交付reports/FOURCASTDEN_ORBIT_INTEGRATION_V1.md及docs/FOURCASTDEN_STATE_UPDATE_EXPERIMENT_PLAN.md。原生查询和条件虚拟轨道工程通过；未来AI几何高度精度/外部登记仍未证明，科学训练READY不改，122候选保持。下一步建议另授权同12h任务在+6h理想TIE全状态更新对照，明确不是业务观测同化；本轮不执行、不宣布最佳修正周期，不扩大长窗。
 - 实际Git提交/远端只读状态记录本轮Git审计日志；仅安全本地提交任务代码、轻量表图及报告，原未推送提交与未跟踪文件保留，不强推。任务结束停止。
+
+
+## 2026-10-31：用户授权提交GitHub，服务器Git认证受阻
+
+- 检查本地main 4b5b3d7及3个待推送提交、origin=https://github.com/hhtbbc/261016project.git，远端a53ce69是本地祖先，可fast-forward。123个差异文件逐项检查，最大295376字节，无新增NetCDF/NPZ/权重/环境或凭据模式。原两份未跟踪审计日志保留。
+- 首次有界git push因旧VS Code socket ECONNREFUSED而认证失败（exit128）。只读检查同UID socket后，仅在Git进程指定当前有效通道和credential.username=hhtbbc，未修改全局配置/remote/保存凭据；第二次55秒push超时exit124。随后git credential fill仅在内存预检、12秒超时并终止该进程组，未输出/保存任何凭据。没有在无凭据条件下盲目重复网络上传。
+- 只读ls-remote仍a53ce69646eb8a49e797777af98c57753f1f7ef7；GitHub连接器确认用户hhtbbc，但获取本地4b5b3d7提交对象返回404。连接器create_commit不支持保留原作者/时间等完整原始对象，故未改用重建提交方式制造SHA分叉或覆盖历史。没有远端写入成功，不声称同步。
+- 本轮仅记录同步阻碍并保留本地提交；无模型运行、训练、轨道传播、下载或科学文件修改。下一步需当前服务器VS Code Git认证恢复后安全重推并核对HEAD。审计logs/github_sync_20261031_preflight.json及logs/github_sync_20261031_result.json；不强推、不reset/clean/rebase。

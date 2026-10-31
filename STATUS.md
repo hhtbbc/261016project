@@ -1,5 +1,7 @@
 # 当前状态
 
+> GitHub同步（2026-10-31，用户新授权）：待推送成果已检查，无大文件/权重/原始数组；服务器旧VS Code认证socket失效，换当前同用户通道后55秒推送超时，独立凭据预检12秒未取得可用凭据。连接器账号hhtbbc可读，但远端未包含4b5b3d7；本地成果完整保留，未强推/重建历史。需恢复服务器Git认证后继续，实际远端仍a53ce69。
+
 > 最新（2026-10-31，AI密度集成）：复用既有预测，新增FourCastDENDensity原生查询与源方程驱动的TN/DEN/TLBC平均分子量反演→原生ZG诊断重建。11项CPU测试通过，含未来参考ZG毒化。Mar24 01—02时虚拟卫星A无阻力/B MSIS/C参考/D Direct共8次base/tight完成，556.789秒、RSS207.801MiB；6组配对收敛通过，D−C终点差0.005396859m，属于条件模型差而非真实轨道误差。正式外部高度登记仍未通过，轨道私有桥显式采用PROVISIONAL A假设，正式density接口继续拒绝；未来AI几何高度准确度未证明。29个Mar24 Flow重建无效列保留；新GPU/TIE/训练0，59输入及2346历史SHA不变，122候选门禁不改。入口reports/FOURCASTDEN_ORBIT_INTEGRATION_V1.md、docs/FOURCASTDEN_STATE_UPDATE_EXPERIMENT_PLAN.md。仅本地提交，不自动新增长窗/推理/训练。
 
 > 最新（2026-10-31）：完成重启首分叉的离线复算与主线决策B。111行比较复现28/34 primary、9/9 secondary超差；12条UTC记录及160条rank驱动日志核对，2346项历史SHA不变。确认磁势回映射和istep首步分支路径不同，但首次恢复特有数值分叉仍未观测，不能归因于唯一数组。新增模型/编译/训练0；新4项CPU测试通过。建议连续积分与Restart工程问题解耦；科学训练门禁仍FAIL，原122帧不改。入口：reports/TIEGCM_RESTART_FIRST_DIVERGENCE_20261031.md、docs/TIEGCM_RESTART_MAINLINE_DECISION.md、docs/TIEGCM_END_TO_END_EXPLAINED.md。保留原未推送提交，本轮按最近远端限制仅本地提交，不push。
