@@ -1,0 +1,148 @@
+[
+  {
+    "date": "2023-01-04",
+    "model": "Direct",
+    "initial_hours": [
+      7
+    ],
+    "future_targets_feedback": false,
+    "exact_feedback": true,
+    "poison_check": true,
+    "post_targets": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "date": "2023-01-04",
+    "model": "Flow",
+    "initial_hours": [
+      7
+    ],
+    "future_targets_feedback": false,
+    "exact_feedback": true,
+    "poison_check": true,
+    "post_targets": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "date": "2023-01-04",
+    "model": "LogDEN",
+    "initial_hours": [
+      7
+    ],
+    "future_targets_feedback": false,
+    "exact_feedback": true,
+    "poison_check": true,
+    "post_targets": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "date": "2023-01-04",
+    "model": "History",
+    "initial_hours": [
+      6,
+      7
+    ],
+    "future_targets_feedback": false,
+    "exact_feedback": true,
+    "poison_check": true,
+    "post_targets": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "date": "2023-03-24",
+    "model": "Direct",
+    "initial_hours": [
+      7
+    ],
+    "future_targets_feedback": false,
+    "exact_feedback": true,
+    "poison_check": true,
+    "post_targets": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "date": "2023-03-24",
+    "model": "Flow",
+    "initial_hours": [
+      7
+    ],
+    "future_targets_feedback": false,
+    "exact_feedback": true,
+    "poison_check": true,
+    "post_targets": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "date": "2023-03-24",
+    "model": "LogDEN",
+    "initial_hours": [
+      7
+    ],
+    "future_targets_feedback": false,
+    "exact_feedback": true,
+    "poison_check": true,
+    "post_targets": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "date": "2023-03-24",
+    "model": "History",
+    "initial_hours": [
+      6,
+      7
+    ],
+    "future_targets_feedback": false,
+    "exact_feedback": true,
+    "poison_check": true,
+    "post_targets": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  }
+]

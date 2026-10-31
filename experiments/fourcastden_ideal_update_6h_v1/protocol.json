@@ -1,0 +1,168 @@
+{
+  "tag": "fourcastden_ideal_update_6h_v1",
+  "labels": [
+    "OFFLINE_IDEAL_TIEGCM_FULL_STATE_UPDATE",
+    "HINDCAST",
+    "TIEGCM_REFERENCE_ONLY",
+    "NO_TRAINING"
+  ],
+  "dates": [
+    "2023-01-04",
+    "2023-03-24"
+  ],
+  "models": [
+    "Direct",
+    "Flow",
+    "LogDEN",
+    "History"
+  ],
+  "original_start_hour": 1,
+  "reset_hour": 7,
+  "targets": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "history_real_initial_hours": [
+    6,
+    7
+  ],
+  "other_real_initial_hours": [
+    7
+  ],
+  "future_physical_targets_feedback": false,
+  "extra_forward_budget": 48,
+  "sequences": 8,
+  "forwards_each": 6,
+  "GPU_precheck_forwards": 0,
+  "open_loop_reruns": 0,
+  "metric_regions": {
+    "global": "all centres",
+    "south": "lat<=-60",
+    "north": "lat>=60",
+    "midlow": "abs(lat)<60"
+  },
+  "DEN_groups": {
+    "all": "0:29",
+    "near400_500": "per-target reference ZG global median in [400,500] km",
+    "upper20_28": "20:29",
+    "top": "28"
+  },
+  "density_denominator": "strict positive reference; no numerical floor",
+  "weights": "cos(latitude)",
+  "primary_relative_statistic": "mean per-layer weighted relative RMS, matching existing windows CSV",
+  "baseline_tolerance": {
+    "rtol": 2e-10,
+    "relative_atol": 1e-15,
+    "DEN_absolute_atol_SI": 1e-25,
+    "other_absolute_atol_SI": 1e-08
+  },
+  "scientific_training_READY": false,
+  "limits": {
+    "GPU_wall_s": 600,
+    "RSS_bytes": 4294967296,
+    "GPU_allocated_bytes": 4294967296,
+    "new_bytes": 838860800,
+    "free_disk_bytes": 21474836480
+  },
+  "estimate": {
+    "conservative_wall_s": 120,
+    "new_bytes": 524288000,
+    "peak_RSS_bytes": 2147483648
+  },
+  "gpu": "NVIDIA A100-SXM4-80GB, 81920 MiB, 81153 MiB",
+  "other_GPU_apps": "",
+  "CPU_memory": {
+    "MemTotal": 2071502446592,
+    "MemAvailable": 1988444241920
+  },
+  "free_disk_bytes": 687855370240,
+  "historical_performance": [
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "load_s": 1.2869081925600767,
+      "GPU_forward_total_ms": 358.0819797515869,
+      "GPU_peak_allocated_bytes": 331036160,
+      "RSS_KiB": 1316092,
+      "bytes": 83488156
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "load_s": 1.0904945116490126,
+      "GPU_forward_total_ms": 217.9010887145996,
+      "GPU_peak_allocated_bytes": 331036160,
+      "RSS_KiB": 1323324,
+      "bytes": 83891714
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "load_s": 1.0818331073969603,
+      "GPU_forward_total_ms": 219.40351676940918,
+      "GPU_peak_allocated_bytes": 332240384,
+      "RSS_KiB": 1418488,
+      "bytes": 89190729
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "load_s": 1.1582251135259867,
+      "GPU_forward_total_ms": 225.4795207977295,
+      "GPU_peak_allocated_bytes": 345241600,
+      "RSS_KiB": 1469484,
+      "bytes": 105241963
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "load_s": 1.296181770041585,
+      "GPU_forward_total_ms": 352.57439613342285,
+      "GPU_peak_allocated_bytes": 331036160,
+      "RSS_KiB": 1315796,
+      "bytes": 82372782
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "load_s": 1.1133243199437857,
+      "GPU_forward_total_ms": 218.04668617248535,
+      "GPU_peak_allocated_bytes": 331036160,
+      "RSS_KiB": 1325688,
+      "bytes": 82987554
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "load_s": 1.094795098528266,
+      "GPU_forward_total_ms": 214.30572700500488,
+      "GPU_peak_allocated_bytes": 332240384,
+      "RSS_KiB": 1420292,
+      "bytes": 89000018
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "load_s": 1.2591668609529734,
+      "GPU_forward_total_ms": 220.80713653564453,
+      "GPU_peak_allocated_bytes": 345241600,
+      "RSS_KiB": 1474852,
+      "bytes": 103805287
+    }
+  ],
+  "baseline_reproduction": "PASS",
+  "baseline_rows": 576,
+  "baseline_density_rows": 96,
+  "baseline_wall_s": 24.521257057785988,
+  "config_SHA": {
+    "Direct": "f3344fbb61e9104c7740b3e83fdf66c19ad748f961fc53f51b7ff375d691381d",
+    "Flow": "1dd689a4cbf2267614f442183dcf5c1715221a75071d72e35d8b79b570843c6b",
+    "LogDEN": "682a723a32f6c6cf9087dfe4448bef24674e4f3d54df86ec68e23e7ab08ba950",
+    "History": "5706476c4559a3ff4749592e28ce6dfce7eb0a36479293482399f2e96b17d05a"
+  },
+  "no_retry": true
+}

@@ -1,0 +1,22 @@
+{
+  "historical_assets_SHA_verified": 2346,
+  "changed": [],
+  "task_assets_SHA_verified": 70,
+  "independent_metric_rows": 1536,
+  "independent_scalar_metrics": 10752,
+  "forward_count": 48,
+  "GPU_prechecks": 0,
+  "open_loop_model_reruns": 0,
+  "orbit_integrations": 0,
+  "TIE_integrations": 0,
+  "training_steps": 0,
+  "compressed_layer_CSV_bytes": 5250853,
+  "published_xz_bytes": 4125744,
+  "compressed_layer_CSV_restores_exact_SHA": "041cfbc87354a37c730f0ee54f4a7ca5b1595e27ef1b46d58cbd010ab560552c",
+  "original_layer_CSV_SHA": "041cfbc87354a37c730f0ee54f4a7ca5b1595e27ef1b46d58cbd010ab560552c",
+  "PNGs_verified": 16,
+  "all_07_UTC_reset_scores_excluded": true,
+  "audit_finalization_wall_s": 27.667990082874894,
+  "peak_RSS_MiB": 139.3046875,
+  "prior_serialization_incident": "preserved in experiments/audit_serialization_incident.json; no scientific tolerances changed"
+}

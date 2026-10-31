@@ -1,5 +1,7 @@
 # 当前状态
 
+> 最新（2026-10-31，6小时理想更新）：两个固定窗口、四模型新增8×6=48次forward完成，无Open-loop重跑。13UTC高层DEN相对RMS八组均改善54.37%—84.92%，但Mar24 Flow南高纬顶部恶化、热力重建失败列—时刻26→337；07重置成绩不计预测提升。基线576/96记录及10752独立标量复核通过，70任务/2346历史资产SHA不变。GPU监督47.75秒、峰值树RSS1.318GiB；16图及3分钟稿已生成。离线理想全状态更新非观测同化，不确定最佳周期；122候选科学训练READY=False保持，无轨道/TIE/训练。入口reports/FOURCASTDEN_IDEAL_UPDATE_6H_V1.md。
+
 > GitHub同步成功（2026-10-31）：用户提供新的有效认证后，全部此前本地提交已安全推送main，含FourCastDEN虚拟轨道集成及重启审计成果，远端HEAD已独立核验。此前403是旧认证历史。按用户偏好仅配置本仓库、项目内socket的24小时内存认证缓存，不把令牌写文件/URL/Git配置；缓存过期/重启/令牌撤销后需重新认证。同步记录提交后再次安全推送并核对最终HEAD，无新科研实验。
 
 > GitHub权限复核（2026-10-31，用户称已修改后）：有界重推仍403。独立API确认账号对仓库有admin/push且仓库未归档；最小Git内容写接口仍403 Resource not accessible by personal access token，响应要求contents=write。因此需再次核对本枚PAT所选仓库及Repository permissions/Contents读写并保存，不能仅据账号push=true判断令牌可写。未推送、未强推，原本地提交全部保留，令牌未持久化。

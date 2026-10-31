@@ -1,0 +1,23 @@
+{
+  "statuses": {
+    "BASELINE_REPRODUCTION_READY": "PASS",
+    "IDEAL_UPDATE_INFERENCE_READY": "PASS",
+    "POST_UPDATE_EVALUATION_READY": "PASS",
+    "PHYSICAL_CONSISTENCY_EVALUATED": "PASS (evaluated; not a guarantee of physical consistency)",
+    "STATE_UPDATE_CONCLUSION_READY": "PASS (two-window diagnostic only)",
+    "SCIENTIFIC_TRAINING_READY": "FAIL (prior release gate unchanged)"
+  },
+  "metric_rows": 9568,
+  "layer_rows": 125856,
+  "paired_rows": 2496,
+  "current_jump_scored_as_forecast": false,
+  "regions": {
+    "global": "all centres",
+    "south": "lat<=-60",
+    "north": "lat>=60",
+    "midlow": "abs(lat)<60"
+  },
+  "physical_coordinate": "native pressure; reference-selected 400-500km layer group, not fixed altitude",
+  "evaluation_wall_s": 48.2277521584183,
+  "peak_RSS_MiB": 627.48046875
+}

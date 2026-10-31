@@ -1,0 +1,848 @@
+{
+  "status": "PASS",
+  "attempted_forwards": 48,
+  "effective_forwards": 48,
+  "extra_precheck_forwards": 0,
+  "GPU_phase_wall_s": 39.039489245042205,
+  "records": [
+    {
+      "date": "2023-01-04",
+      "model": "Direct",
+      "model_load_s": 1.2945689596235752,
+      "model_reused": false,
+      "read_preprocess_s": 0.11470070481300354,
+      "read_decode_s": 0.08867000974714756,
+      "normalization_s": 0.003669336438179016,
+      "reset_state_extraction_s": 0.11470070481300354,
+      "reset_cost_note": "overlaps preprocessing; not additive; external reference acquisition excluded",
+      "loop_read_decode_s": 0.0890820287168026,
+      "loop_normalization_s": 0.003756709396839142,
+      "six_step_loop_s": 1.0062005780637264,
+      "forward_GPU_ms": [
+        159.6703338623047,
+        24.765567779541016,
+        24.926559448242188,
+        24.325408935546875,
+        27.37273597717285,
+        24.263456344604492
+      ],
+      "network_GPU_total_ms": 285.3240623474121,
+      "native_metric_GPU_ms": 552.0332722961903,
+      "save_s": 2.1235372368246317,
+      "peak_allocated_bytes": 334389760,
+      "peak_reserved_bytes": 1193279488,
+      "process_peak_RSS_KiB": 1137412,
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "feedback": {
+        "passed": true,
+        "forwards": 6,
+        "history": 0,
+        "future_physical_truth_used": false,
+        "future_auxiliary_and_scalars_used": true,
+        "all_steps_exact": true,
+        "flow_delta_checked": false,
+        "history_after_second_step_is_fully_predicted": false
+      },
+      "future_truth_poison_PASS": true,
+      "state_hours_UTC": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "initial_history_hours": [
+        7
+      ],
+      "physics": [
+        {
+          "target_hour": 8,
+          "TN_min_K": 152.04185900210507,
+          "DEN_min_kg_m3": 5.682354567020218e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 9,
+          "TN_min_K": 151.80536710928573,
+          "DEN_min_kg_m3": 5.704380390485275e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 10,
+          "TN_min_K": 151.68674832926547,
+          "DEN_min_kg_m3": 5.86391003317356e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 11,
+          "TN_min_K": 151.51593861294896,
+          "DEN_min_kg_m3": 6.05210563728328e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 12,
+          "TN_min_K": 151.37532192875608,
+          "DEN_min_kg_m3": 6.258011194043956e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 13,
+          "TN_min_K": 151.0951717249411,
+          "DEN_min_kg_m3": 6.407216110395471e-14,
+          "nonfinite": 0
+        }
+      ],
+      "checkpoint_SHA": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+      "result_SHA": "e2668cd227551bd9d1a92d69ba864e8844b22c0332a358321916469171f607c0",
+      "bytes": 42565712
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Direct",
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "read_preprocess_s": 0.11035155318677425,
+      "read_decode_s": 0.09058986976742744,
+      "normalization_s": 0.003767509013414383,
+      "reset_state_extraction_s": 0.11035155318677425,
+      "reset_cost_note": "overlaps preprocessing; not additive; external reference acquisition excluded",
+      "loop_read_decode_s": 0.09048876911401749,
+      "loop_normalization_s": 0.003922455012798309,
+      "six_step_loop_s": 0.2964088749140501,
+      "forward_GPU_ms": [
+        25.168703079223633,
+        24.69036865234375,
+        24.539072036743164,
+        24.51363182067871,
+        24.500608444213867,
+        24.39472007751465
+      ],
+      "network_GPU_total_ms": 147.80710411071777,
+      "native_metric_GPU_ms": 1.7172479927539825,
+      "save_s": 2.193715862929821,
+      "peak_allocated_bytes": 334389760,
+      "peak_reserved_bytes": 1193279488,
+      "process_peak_RSS_KiB": 1149192,
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "feedback": {
+        "passed": true,
+        "forwards": 6,
+        "history": 0,
+        "future_physical_truth_used": false,
+        "future_auxiliary_and_scalars_used": true,
+        "all_steps_exact": true,
+        "flow_delta_checked": false,
+        "history_after_second_step_is_fully_predicted": false
+      },
+      "future_truth_poison_PASS": true,
+      "state_hours_UTC": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "initial_history_hours": [
+        7
+      ],
+      "physics": [
+        {
+          "target_hour": 8,
+          "TN_min_K": 147.42416978424103,
+          "DEN_min_kg_m3": 5.4874799169458806e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 9,
+          "TN_min_K": 146.90949642214616,
+          "DEN_min_kg_m3": 6.130032541588152e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 10,
+          "TN_min_K": 146.28297730376528,
+          "DEN_min_kg_m3": 6.032096221345297e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 11,
+          "TN_min_K": 145.73831860022347,
+          "DEN_min_kg_m3": 6.473717191730361e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 12,
+          "TN_min_K": 145.5986956582267,
+          "DEN_min_kg_m3": 6.375352883396858e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 13,
+          "TN_min_K": 145.54246629210593,
+          "DEN_min_kg_m3": 6.00946732375251e-14,
+          "nonfinite": 0
+        }
+      ],
+      "checkpoint_SHA": "212187479c2df3ead151ec339683198f9e0632e23b892ac4d829ce1048724efb",
+      "result_SHA": "85338fce2db2a6c3c614026dab1e1aa276657028bf789fa6db88620c063fe436",
+      "bytes": 41983672
+    },
+    {
+      "date": "2023-01-04",
+      "model": "Flow",
+      "model_load_s": 1.148784151300788,
+      "model_reused": false,
+      "read_preprocess_s": 0.1051905918866396,
+      "read_decode_s": 0.08920638263225555,
+      "normalization_s": 0.003635341301560402,
+      "reset_state_extraction_s": 0.1051905918866396,
+      "reset_cost_note": "overlaps preprocessing; not additive; external reference acquisition excluded",
+      "loop_read_decode_s": 0.08932136930525303,
+      "loop_normalization_s": 0.003942370414733887,
+      "six_step_loop_s": 0.29237559251487255,
+      "forward_GPU_ms": [
+        25.38617515563965,
+        24.55673599243164,
+        24.65648078918457,
+        24.6844482421875,
+        24.687807083129883,
+        24.550655364990234
+      ],
+      "network_GPU_total_ms": 148.52230262756348,
+      "native_metric_GPU_ms": 1.8411520048975945,
+      "save_s": 2.0995368845760822,
+      "peak_allocated_bytes": 334389760,
+      "peak_reserved_bytes": 1193279488,
+      "process_peak_RSS_KiB": 1279404,
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "feedback": {
+        "passed": true,
+        "forwards": 6,
+        "history": 0,
+        "future_physical_truth_used": false,
+        "future_auxiliary_and_scalars_used": true,
+        "all_steps_exact": true,
+        "flow_delta_checked": true,
+        "history_after_second_step_is_fully_predicted": false
+      },
+      "future_truth_poison_PASS": true,
+      "state_hours_UTC": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "initial_history_hours": [
+        7
+      ],
+      "physics": [
+        {
+          "target_hour": 8,
+          "TN_min_K": 152.05597908352718,
+          "DEN_min_kg_m3": 5.693171479661234e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 9,
+          "TN_min_K": 151.87839201658733,
+          "DEN_min_kg_m3": 5.73466638409983e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 10,
+          "TN_min_K": 151.57974436187976,
+          "DEN_min_kg_m3": 5.886927038148548e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 11,
+          "TN_min_K": 151.3168267150445,
+          "DEN_min_kg_m3": 6.049532845238364e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 12,
+          "TN_min_K": 150.96756166937587,
+          "DEN_min_kg_m3": 6.171617420795806e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 13,
+          "TN_min_K": 150.8106037673574,
+          "DEN_min_kg_m3": 6.255298819519477e-14,
+          "nonfinite": 0
+        }
+      ],
+      "checkpoint_SHA": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+      "result_SHA": "92f20e0a7c246c2427bd3a53a74f3c71d39a25e891e1d0c2bc33ef01f8df7c3f",
+      "bytes": 42780213
+    },
+    {
+      "date": "2023-03-24",
+      "model": "Flow",
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "read_preprocess_s": 0.10772991552948952,
+      "read_decode_s": 0.0907144732773304,
+      "normalization_s": 0.004008367657661438,
+      "reset_state_extraction_s": 0.10772991552948952,
+      "reset_cost_note": "overlaps preprocessing; not additive; external reference acquisition excluded",
+      "loop_read_decode_s": 0.09087995253503323,
+      "loop_normalization_s": 0.003891490399837494,
+      "six_step_loop_s": 0.2954849526286125,
+      "forward_GPU_ms": [
+        25.761920928955078,
+        24.783071517944336,
+        24.62892723083496,
+        24.713695526123047,
+        24.603967666625977,
+        24.78188705444336
+      ],
+      "network_GPU_total_ms": 149.27346992492676,
+      "native_metric_GPU_ms": 1.729536011815071,
+      "save_s": 2.1572193652391434,
+      "peak_allocated_bytes": 334389760,
+      "peak_reserved_bytes": 1193279488,
+      "process_peak_RSS_KiB": 1279404,
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "feedback": {
+        "passed": true,
+        "forwards": 6,
+        "history": 0,
+        "future_physical_truth_used": false,
+        "future_auxiliary_and_scalars_used": true,
+        "all_steps_exact": true,
+        "flow_delta_checked": true,
+        "history_after_second_step_is_fully_predicted": false
+      },
+      "future_truth_poison_PASS": true,
+      "state_hours_UTC": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "initial_history_hours": [
+        7
+      ],
+      "physics": [
+        {
+          "target_hour": 8,
+          "TN_min_K": 147.46577714980435,
+          "DEN_min_kg_m3": 6.341203810914104e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 9,
+          "TN_min_K": 147.11100108972164,
+          "DEN_min_kg_m3": 5.4683371768914594e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 10,
+          "TN_min_K": 146.3830914214111,
+          "DEN_min_kg_m3": 5.154907393957214e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 11,
+          "TN_min_K": 145.43203254396212,
+          "DEN_min_kg_m3": 5.0761070048673374e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 12,
+          "TN_min_K": 145.4433199553216,
+          "DEN_min_kg_m3": 5.235134734249318e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 13,
+          "TN_min_K": 145.17567013410985,
+          "DEN_min_kg_m3": 5.434703149167792e-14,
+          "nonfinite": 0
+        }
+      ],
+      "checkpoint_SHA": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+      "result_SHA": "d583bd99b6b27c4480c589590b413c131b8235dcf9100de903bd1ac24a888152",
+      "bytes": 42309626
+    },
+    {
+      "date": "2023-01-04",
+      "model": "LogDEN",
+      "model_load_s": 1.1401595678180456,
+      "model_reused": false,
+      "read_preprocess_s": 0.10487550310790539,
+      "read_decode_s": 0.08932023122906685,
+      "normalization_s": 0.0038387086242437363,
+      "reset_state_extraction_s": 0.10487550310790539,
+      "reset_cost_note": "overlaps preprocessing; not additive; external reference acquisition excluded",
+      "loop_read_decode_s": 0.0896478109061718,
+      "loop_normalization_s": 0.0041804686188697815,
+      "six_step_loop_s": 0.4391429480165243,
+      "forward_GPU_ms": [
+        25.5284481048584,
+        24.77680015563965,
+        25.0515193939209,
+        24.56697654724121,
+        24.561920166015625,
+        24.434463500976562
+      ],
+      "network_GPU_total_ms": 148.92012786865234,
+      "native_metric_GPU_ms": 115.01788936555386,
+      "save_s": 2.153264220803976,
+      "peak_allocated_bytes": 335593984,
+      "peak_reserved_bytes": 1193279488,
+      "process_peak_RSS_KiB": 1279404,
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "feedback": {
+        "passed": true,
+        "forwards": 6,
+        "history": 0,
+        "future_physical_truth_used": false,
+        "future_auxiliary_and_scalars_used": true,
+        "all_steps_exact": true,
+        "flow_delta_checked": false,
+        "history_after_second_step_is_fully_predicted": false
+      },
+      "future_truth_poison_PASS": true,
+      "state_hours_UTC": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "initial_history_hours": [
+        7
+      ],
+      "physics": [
+        {
+          "target_hour": 8,
+          "TN_min_K": 152.0587405921301,
+          "DEN_min_kg_m3": 5.679788606169496e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 9,
+          "TN_min_K": 151.90626291864385,
+          "DEN_min_kg_m3": 5.80707648668967e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 10,
+          "TN_min_K": 151.74689209095118,
+          "DEN_min_kg_m3": 5.854887687799453e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 11,
+          "TN_min_K": 151.43997556037448,
+          "DEN_min_kg_m3": 6.096435472948428e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 12,
+          "TN_min_K": 151.0864548087659,
+          "DEN_min_kg_m3": 6.280844234141352e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 13,
+          "TN_min_K": 150.78217833304097,
+          "DEN_min_kg_m3": 6.43630056911507e-14,
+          "nonfinite": 0
+        }
+      ],
+      "checkpoint_SHA": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18",
+      "result_SHA": "1fd64bde4c31bbb4d089fdafa75d5cf013ac7a57e160a63f2416b49130a3c620",
+      "bytes": 42413123
+    },
+    {
+      "date": "2023-03-24",
+      "model": "LogDEN",
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "read_preprocess_s": 0.10658349096775055,
+      "read_decode_s": 0.09020860120654106,
+      "normalization_s": 0.004374280571937561,
+      "reset_state_extraction_s": 0.10658349096775055,
+      "reset_cost_note": "overlaps preprocessing; not additive; external reference acquisition excluded",
+      "loop_read_decode_s": 0.08961880393326283,
+      "loop_normalization_s": 0.004040401428937912,
+      "six_step_loop_s": 0.2970507610589266,
+      "forward_GPU_ms": [
+        25.513919830322266,
+        24.622400283813477,
+        24.609600067138672,
+        24.324703216552734,
+        24.38697624206543,
+        24.334463119506836
+      ],
+      "network_GPU_total_ms": 147.7920627593994,
+      "native_metric_GPU_ms": 2.237600013613701,
+      "save_s": 2.1232471764087677,
+      "peak_allocated_bytes": 335593984,
+      "peak_reserved_bytes": 1193279488,
+      "process_peak_RSS_KiB": 1279404,
+      "input_shape": [
+        1,
+        177,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "feedback": {
+        "passed": true,
+        "forwards": 6,
+        "history": 0,
+        "future_physical_truth_used": false,
+        "future_auxiliary_and_scalars_used": true,
+        "all_steps_exact": true,
+        "flow_delta_checked": false,
+        "history_after_second_step_is_fully_predicted": false
+      },
+      "future_truth_poison_PASS": true,
+      "state_hours_UTC": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "initial_history_hours": [
+        7
+      ],
+      "physics": [
+        {
+          "target_hour": 8,
+          "TN_min_K": 147.47577073551088,
+          "DEN_min_kg_m3": 6.387140443854721e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 9,
+          "TN_min_K": 147.33525889305338,
+          "DEN_min_kg_m3": 6.46527389979954e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 10,
+          "TN_min_K": 146.8308691607226,
+          "DEN_min_kg_m3": 6.385160012543497e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 11,
+          "TN_min_K": 146.13220620521088,
+          "DEN_min_kg_m3": 6.434491377030701e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 12,
+          "TN_min_K": 146.17310964845842,
+          "DEN_min_kg_m3": 6.545893285230352e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 13,
+          "TN_min_K": 146.2933322342061,
+          "DEN_min_kg_m3": 6.368048008573027e-14,
+          "nonfinite": 0
+        }
+      ],
+      "checkpoint_SHA": "d314241ef9b91ba8e3405d77090b24ded03ceff361404f9ff5bd6212b828db18",
+      "result_SHA": "e4099027e551609ab7fe6592b79c3ce9419ce16d9899ad26cf7f3525f86f3195",
+      "bytes": 42247360
+    },
+    {
+      "date": "2023-01-04",
+      "model": "History",
+      "model_load_s": 1.1749718934297562,
+      "model_reused": false,
+      "read_preprocess_s": 0.119752561673522,
+      "read_decode_s": 0.10087788291275501,
+      "normalization_s": 0.00434989295899868,
+      "reset_state_extraction_s": 0.119752561673522,
+      "reset_cost_note": "overlaps preprocessing; not additive; external reference acquisition excluded",
+      "loop_read_decode_s": 0.10108432359993458,
+      "loop_normalization_s": 0.0043287258595228195,
+      "six_step_loop_s": 0.30806406773626804,
+      "forward_GPU_ms": [
+        26.508832931518555,
+        24.519872665405273,
+        24.347135543823242,
+        24.40265655517578,
+        24.464672088623047,
+        24.450016021728516
+      ],
+      "network_GPU_total_ms": 148.6931858062744,
+      "native_metric_GPU_ms": 1.789952002465725,
+      "save_s": 2.6986667420715094,
+      "peak_allocated_bytes": 348793344,
+      "peak_reserved_bytes": 1226833920,
+      "process_peak_RSS_KiB": 1382196,
+      "input_shape": [
+        1,
+        354,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "feedback": {
+        "passed": true,
+        "forwards": 6,
+        "history": 1,
+        "future_physical_truth_used": false,
+        "future_auxiliary_and_scalars_used": true,
+        "all_steps_exact": true,
+        "flow_delta_checked": false,
+        "history_after_second_step_is_fully_predicted": true
+      },
+      "future_truth_poison_PASS": true,
+      "state_hours_UTC": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "initial_history_hours": [
+        6,
+        7
+      ],
+      "physics": [
+        {
+          "target_hour": 8,
+          "TN_min_K": 152.4135885348207,
+          "DEN_min_kg_m3": 5.686917503686645e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 9,
+          "TN_min_K": 152.21669128298606,
+          "DEN_min_kg_m3": 5.829079584196491e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 10,
+          "TN_min_K": 152.03088168446425,
+          "DEN_min_kg_m3": 5.994984304035014e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 11,
+          "TN_min_K": 151.726858591201,
+          "DEN_min_kg_m3": 6.218616349350151e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 12,
+          "TN_min_K": 151.71301110379204,
+          "DEN_min_kg_m3": 6.353716626364311e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 13,
+          "TN_min_K": 151.7870614838098,
+          "DEN_min_kg_m3": 6.454853130284964e-14,
+          "nonfinite": 0
+        }
+      ],
+      "checkpoint_SHA": "cc4b44f6daea6188e4bfbde06796b950a50cfb215c0ad2295cff176a21a4ddc4",
+      "result_SHA": "7486ab634e5056e405872c33e369c599eae35256e7264b8d9b58288824b9bbf3",
+      "bytes": 54241413
+    },
+    {
+      "date": "2023-03-24",
+      "model": "History",
+      "model_load_s": 0.0,
+      "model_reused": true,
+      "read_preprocess_s": 0.12752065621316433,
+      "read_decode_s": 0.10316997766494751,
+      "normalization_s": 0.004609201103448868,
+      "reset_state_extraction_s": 0.12752065621316433,
+      "reset_cost_note": "overlaps preprocessing; not additive; external reference acquisition excluded",
+      "loop_read_decode_s": 0.10286836884915829,
+      "loop_normalization_s": 0.004780016839504242,
+      "six_step_loop_s": 0.31373619846999645,
+      "forward_GPU_ms": [
+        25.288063049316406,
+        24.622880935668945,
+        24.497312545776367,
+        24.373600006103516,
+        24.51299285888672,
+        24.52751922607422
+      ],
+      "network_GPU_total_ms": 147.82236862182617,
+      "native_metric_GPU_ms": 1.8165760189294815,
+      "save_s": 2.783042414113879,
+      "peak_allocated_bytes": 348793344,
+      "peak_reserved_bytes": 1226833920,
+      "process_peak_RSS_KiB": 1382196,
+      "input_shape": [
+        1,
+        354,
+        36,
+        72
+      ],
+      "output_shape": [
+        1,
+        171,
+        36,
+        72
+      ],
+      "feedback": {
+        "passed": true,
+        "forwards": 6,
+        "history": 1,
+        "future_physical_truth_used": false,
+        "future_auxiliary_and_scalars_used": true,
+        "all_steps_exact": true,
+        "flow_delta_checked": false,
+        "history_after_second_step_is_fully_predicted": true
+      },
+      "future_truth_poison_PASS": true,
+      "state_hours_UTC": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "initial_history_hours": [
+        6,
+        7
+      ],
+      "physics": [
+        {
+          "target_hour": 8,
+          "TN_min_K": 147.73698511615078,
+          "DEN_min_kg_m3": 6.251625903541556e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 9,
+          "TN_min_K": 147.48160058323458,
+          "DEN_min_kg_m3": 6.121764103486902e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 10,
+          "TN_min_K": 146.85207716152354,
+          "DEN_min_kg_m3": 6.015168319659977e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 11,
+          "TN_min_K": 146.27876147148777,
+          "DEN_min_kg_m3": 6.406140303967616e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 12,
+          "TN_min_K": 146.16995174905196,
+          "DEN_min_kg_m3": 6.209967099118245e-14,
+          "nonfinite": 0
+        },
+        {
+          "target_hour": 13,
+          "TN_min_K": 146.05661610061998,
+          "DEN_min_kg_m3": 6.404912269957519e-14,
+          "nonfinite": 0
+        }
+      ],
+      "checkpoint_SHA": "cc4b44f6daea6188e4bfbde06796b950a50cfb215c0ad2295cff176a21a4ddc4",
+      "result_SHA": "51147fbcbb433534d9d91d3753d4533ac99a53a5a8266ebfb264fb19ea930263",
+      "bytes": 53494671
+    }
+  ],
+  "torch": "2.4.1+cu121",
+  "cuda": "12.1",
+  "device": "NVIDIA A100-SXM4-80GB",
+  "FP32": true,
+  "TF32": false
+}

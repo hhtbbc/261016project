@@ -1,0 +1,12 @@
+{
+  "error": "Final audit JSON serialization: local h variable shadowed hashlib object after all checks",
+  "source_SHA256": "519b9308bb8e74b7841ef7b238a2ad4f4b2da5b2d05fb05970be335e208cfae8",
+  "log": "logs/fourcastden_ideal_update_6h_v1_audit.log",
+  "network_or_orbit_reruns": 0,
+  "tolerance_changes": false,
+  "preserved_completed_checks": [
+    "independent_DEN_metric_checks.csv",
+    "standalone_reset_processing_cost.csv",
+    "layer_metrics.csv.gz"
+  ]
+}

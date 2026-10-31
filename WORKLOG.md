@@ -722,3 +722,17 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 用户提供新认证并授权使用；关闭TTY回显、仅Git进程内存HTTP认证，不写令牌到文件、URL或配置。正常fast-forward push成功，第一轮独立核验本地与远端均为34cf711c4593e83badb56478564667d68553eea1；此前待推送科研和同步记录提交全部保留并上传，无强推/reset/rebase。
 - 为后续推送配置本仓库限定credential-cache，项目内.cache/git-credential/socket、目录0700、24小时内存有效；仅Git本地配置包含helper路径和用户名，不含令牌，全局配置不改。缓存过期、服务器重启或令牌撤销后需重新认证，不承诺永久保留。
 - 本次只同步与记录，未运行科研模型、训练或轨道积分。原未跟踪审计日志不自动提交。提交本条同步记录后再次安全推送，最终精确HEAD见logs/github_sync_20261031_new_auth_success.json。
+
+
+## 2026-10-31：FourCastDEN第6小时理想全状态更新实际对照
+
+- 目标：固定Jan4/Mar24 01—13UTC，复用已有12h Open-loop；07时参考全状态重置，History另用06时，08—13共8组6步、48次新forward。未训练、未新增TIE/轨道、未下载大数据，原122帧门禁不改。
+- 环境/命令：source scripts/activate_orbit.sh；run_fourcastden_ideal_update_6h.py baseline/supervise；analyze/plot/audit_fourcastden_ideal_update_6h.py；write_fourcastden_ideal_update_report.py。正式标签拒绝重放。8项新CPU测试通过；原GPU关键代码冻结，权重严格加载、FP32、自回归hooks及未来真值毒化通过。
+- 基线576变量及96密度窗口记录复现；独立1536行/10752标量检查通过；70本轮资产及2346历史科学资产SHA不变。逐层125856行、聚合9568行、配对2496行。
+- GPU监督47.752秒、worker39.039秒、48次网络CUDA event累计1.324秒，4次权重加载4.758秒、保存18.332秒；树RSS峰值1.318GiB、allocated显存0.325GiB。外部全球更新状态获取成本NOT_MEASURED，不计算业务加速倍数。
+- 13UTC高层相对RMS：Jan4 Direct1.331348→0.214793%、Flow1.623416→0.244823%、LogDEN1.446208→0.277519%、History1.899883→0.866898%；Mar24分别3.759760→1.101757%、3.964593→1.372466%、3.674795→1.195478%、4.078700→1.249540%。原生层组并非固定450km。
+- 全球六变量逐时均改善，但局地不一致：Mar24 Flow南高纬顶部13时相对RMS7.6086→8.9208%；Direct北高纬UN42.085→57.988m/s。Mar2408—13热力反演无效列—时刻Flow26→337、Direct0→7、History0→1、LogDEN0→0，全部保留；无负DEN/TN或非有限预测。
+- 07更新跳变独立报告，不计为零误差成绩。History多一帧参考信息，不作纯网络消融。结论只适用两窗一种理想更新间隔，不能认定6小时最优或真实观测改善。
+- 交付：reports/FOURCASTDEN_IDEAL_UPDATE_6H_V1.md、docs/FOURCASTDEN_IDEAL_UPDATE_6H_TALK.md、results/fourcastden_ideal_update_6h_v1/16图及CSV、experiments同标签协议/日志/SHA。大型预测NPZ仅本地，逐层CSV以无损xz公开。
+- 故障保留：审计最终JSON序列化变量覆盖报错，仅修复记录输出并以--finish核验既有表；报告生成f-string兼容性错误仅修正文档脚本。原错误日志保留，未重跑GPU或修改科研数据/容差。
+- 下一步仅建议：可获得的实际更新状态、物理一致性、外部坐标登记和07时密度接缝验证；本轮结束停止。安全同步前审查仅本任务轻量文件；实际提交/远端HEAD以同步审计及最终汇报为准。

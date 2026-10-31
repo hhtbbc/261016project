@@ -210,3 +210,7 @@ credentials.json
 # Runtime restart qualification: raw NetCDF remain local; audit metadata only.
 !/logs/tiegcm_runtime_restart_audit_v1_*.log
 /logs/tiegcm_runtime_restart_audit_v1_git_state.json
+
+# Ideal-update detailed table retained locally; lossless xz is published.
+/results/fourcastden_ideal_update_6h_v1/layer_metrics.csv
+/results/fourcastden_ideal_update_6h_v1/layer_metrics.csv.gz

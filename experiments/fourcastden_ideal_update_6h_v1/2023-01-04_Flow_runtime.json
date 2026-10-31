@@ -1,0 +1,104 @@
+{
+  "date": "2023-01-04",
+  "model": "Flow",
+  "model_load_s": 1.148784151300788,
+  "model_reused": false,
+  "read_preprocess_s": 0.1051905918866396,
+  "read_decode_s": 0.08920638263225555,
+  "normalization_s": 0.003635341301560402,
+  "reset_state_extraction_s": 0.1051905918866396,
+  "reset_cost_note": "overlaps preprocessing; not additive; external reference acquisition excluded",
+  "loop_read_decode_s": 0.08932136930525303,
+  "loop_normalization_s": 0.003942370414733887,
+  "six_step_loop_s": 0.29237559251487255,
+  "forward_GPU_ms": [
+    25.38617515563965,
+    24.55673599243164,
+    24.65648078918457,
+    24.6844482421875,
+    24.687807083129883,
+    24.550655364990234
+  ],
+  "network_GPU_total_ms": 148.52230262756348,
+  "native_metric_GPU_ms": 1.8411520048975945,
+  "save_s": 2.0995368845760822,
+  "peak_allocated_bytes": 334389760,
+  "peak_reserved_bytes": 1193279488,
+  "process_peak_RSS_KiB": 1279404,
+  "input_shape": [
+    1,
+    177,
+    36,
+    72
+  ],
+  "output_shape": [
+    1,
+    171,
+    36,
+    72
+  ],
+  "feedback": {
+    "passed": true,
+    "forwards": 6,
+    "history": 0,
+    "future_physical_truth_used": false,
+    "future_auxiliary_and_scalars_used": true,
+    "all_steps_exact": true,
+    "flow_delta_checked": true,
+    "history_after_second_step_is_fully_predicted": false
+  },
+  "future_truth_poison_PASS": true,
+  "state_hours_UTC": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "initial_history_hours": [
+    7
+  ],
+  "physics": [
+    {
+      "target_hour": 8,
+      "TN_min_K": 152.05597908352718,
+      "DEN_min_kg_m3": 5.693171479661234e-14,
+      "nonfinite": 0
+    },
+    {
+      "target_hour": 9,
+      "TN_min_K": 151.87839201658733,
+      "DEN_min_kg_m3": 5.73466638409983e-14,
+      "nonfinite": 0
+    },
+    {
+      "target_hour": 10,
+      "TN_min_K": 151.57974436187976,
+      "DEN_min_kg_m3": 5.886927038148548e-14,
+      "nonfinite": 0
+    },
+    {
+      "target_hour": 11,
+      "TN_min_K": 151.3168267150445,
+      "DEN_min_kg_m3": 6.049532845238364e-14,
+      "nonfinite": 0
+    },
+    {
+      "target_hour": 12,
+      "TN_min_K": 150.96756166937587,
+      "DEN_min_kg_m3": 6.171617420795806e-14,
+      "nonfinite": 0
+    },
+    {
+      "target_hour": 13,
+      "TN_min_K": 150.8106037673574,
+      "DEN_min_kg_m3": 6.255298819519477e-14,
+      "nonfinite": 0
+    }
+  ],
+  "checkpoint_SHA": "cc88b4bbee4d70b7a49c94ae3a8127768c1529368abbd7d5f76018d0166a3021",
+  "result_SHA": "92f20e0a7c246c2427bd3a53a74f3c71d39a25e891e1d0c2bc33ef01f8df7c3f",
+  "bytes": 42780213
+}
