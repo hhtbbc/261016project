@@ -1,0 +1,855 @@
+{
+  "status": "PASS",
+  "wall_s": 6627.935063144192,
+  "runs": [
+    {
+      "group": "A_NoDrag",
+      "mode": "base",
+      "integration_s": 374.1064255721867,
+      "total_with_diagnostics_s": 374.2995369601995,
+      "nfev": 8692,
+      "segment_stats": [
+        {
+          "method": "RK45",
+          "rtol": 1e-10,
+          "atol_si": [
+            0.001,
+            0.001,
+            0.001,
+            1e-06,
+            1e-06,
+            1e-06
+          ],
+          "max_step_s": 30.0,
+          "accepted_steps": 724,
+          "nfev": 4346,
+          "elapsed_s": 186.60946441814303,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.019880229972562623,
+          "max_accepted_step_s": 30.000000000000455
+        },
+        {
+          "method": "RK45",
+          "rtol": 1e-10,
+          "atol_si": [
+            0.001,
+            0.001,
+            0.001,
+            1e-06,
+            1e-06,
+            1e-06
+          ],
+          "max_step_s": 30.0,
+          "accepted_steps": 724,
+          "nfev": 4346,
+          "elapsed_s": 187.35216409154236,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.01899653660802869,
+          "max_accepted_step_s": 30.0
+        }
+      ],
+      "event_records": [
+        {
+          "time_s": 21600.0,
+          "position_jump_m": 0.0,
+          "velocity_jump_m_s": 0.0,
+          "acceleration_left": [
+            7.330158310543246,
+            -3.9143058107762325,
+            1.8560436754650396
+          ],
+          "acceleration_right": [
+            7.330158310543246,
+            -3.9143058107762325,
+            1.8560436754650396
+          ]
+        }
+      ],
+      "event_density_drag_limits": [
+        {
+          "side": "left",
+          "rho_kg_m3": null,
+          "drag_gcrs_m_s2": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "drag_norm_m_s2": 0.0
+        },
+        {
+          "side": "right",
+          "rho_kg_m3": null,
+          "drag_gcrs_m_s2": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "drag_norm_m_s2": 0.0
+        }
+      ],
+      "RHS_count_with_event_diagnostics": 8694,
+      "actual_rhs_time_domains": [
+        [
+          0.0,
+          21600.0
+        ],
+        [
+          21600.0,
+          43200.0
+        ]
+      ],
+      "rhs_density_queries": 0,
+      "all_density_queries": 0,
+      "all_density_queries_valid": true,
+      "query_elapsed_s": 0,
+      "peak_RSS_MiB": 313.27734375
+    },
+    {
+      "group": "B_Open",
+      "mode": "base",
+      "integration_s": 596.7969388756901,
+      "total_with_diagnostics_s": 615.7028453033417,
+      "nfev": 8692,
+      "segment_stats": [
+        {
+          "method": "RK45",
+          "rtol": 1e-10,
+          "atol_si": [
+            0.001,
+            0.001,
+            0.001,
+            1e-06,
+            1e-06,
+            1e-06
+          ],
+          "max_step_s": 30.0,
+          "accepted_steps": 724,
+          "nfev": 4346,
+          "elapsed_s": 298.41199183277786,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.01988022997356608,
+          "max_accepted_step_s": 30.00000000000091
+        },
+        {
+          "method": "RK45",
+          "rtol": 1e-10,
+          "atol_si": [
+            0.001,
+            0.001,
+            0.001,
+            1e-06,
+            1e-06,
+            1e-06
+          ],
+          "max_step_s": 30.0,
+          "accepted_steps": 724,
+          "nfev": 4346,
+          "elapsed_s": 298.23413337394595,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.018996486283867853,
+          "max_accepted_step_s": 30.000000000003638
+        }
+      ],
+      "event_records": [
+        {
+          "time_s": 21600.0,
+          "position_jump_m": 0.0,
+          "velocity_jump_m_s": 0.0,
+          "acceleration_left": [
+            7.330210476397634,
+            -3.9143257914508403,
+            1.8559001155629087
+          ],
+          "acceleration_right": [
+            7.330210476397634,
+            -3.9143257914508403,
+            1.8559001155629087
+          ]
+        }
+      ],
+      "event_density_drag_limits": [
+        {
+          "side": "left",
+          "rho_kg_m3": 8.191526692014204e-13,
+          "drag_gcrs_m_s2": [
+            2.387749352760249e-08,
+            -1.5389217373706568e-08,
+            -1.2779494376544524e-07
+          ],
+          "drag_norm_m_s2": 1.3091413354007735e-07
+        },
+        {
+          "side": "right",
+          "rho_kg_m3": 8.191526692014204e-13,
+          "drag_gcrs_m_s2": [
+            2.387749352760249e-08,
+            -1.5389217373706568e-08,
+            -1.2779494376544524e-07
+          ],
+          "drag_norm_m_s2": 1.3091413354007735e-07
+        }
+      ],
+      "RHS_count_with_event_diagnostics": 8694,
+      "actual_rhs_time_domains": [
+        [
+          0.0,
+          21600.0
+        ],
+        [
+          21600.0,
+          43200.0
+        ]
+      ],
+      "rhs_density_queries": 8694,
+      "all_density_queries": 9417,
+      "all_density_queries_valid": true,
+      "query_elapsed_s": 8.393278302624822,
+      "peak_RSS_MiB": 313.27734375
+    },
+    {
+      "group": "C_Updated",
+      "mode": "base",
+      "integration_s": 599.2195311244577,
+      "total_with_diagnostics_s": 618.2987676914781,
+      "nfev": 8692,
+      "segment_stats": [
+        {
+          "method": "RK45",
+          "rtol": 1e-10,
+          "atol_si": [
+            0.001,
+            0.001,
+            0.001,
+            1e-06,
+            1e-06,
+            1e-06
+          ],
+          "max_step_s": 30.0,
+          "accepted_steps": 724,
+          "nfev": 4346,
+          "elapsed_s": 299.3938596379012,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.01988022997356608,
+          "max_accepted_step_s": 30.00000000000091
+        },
+        {
+          "method": "RK45",
+          "rtol": 1e-10,
+          "atol_si": [
+            0.001,
+            0.001,
+            0.001,
+            1e-06,
+            1e-06,
+            1e-06
+          ],
+          "max_step_s": 30.0,
+          "accepted_steps": 724,
+          "nfev": 4346,
+          "elapsed_s": 299.67215335555375,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.018996486283867853,
+          "max_accepted_step_s": 30.000000000003638
+        }
+      ],
+      "event_records": [
+        {
+          "time_s": 21600.0,
+          "position_jump_m": 0.0,
+          "velocity_jump_m_s": 0.0,
+          "acceleration_left": [
+            7.330210476397634,
+            -3.9143257914508403,
+            1.8559001155629087
+          ],
+          "acceleration_right": [
+            7.330210478251195,
+            -3.914325792645474,
+            1.8559001056424465
+          ]
+        }
+      ],
+      "event_density_drag_limits": [
+        {
+          "side": "left",
+          "rho_kg_m3": 8.191526692014204e-13,
+          "drag_gcrs_m_s2": [
+            2.387749352760249e-08,
+            -1.5389217373706568e-08,
+            -1.2779494376544524e-07
+          ],
+          "drag_norm_m_s2": 1.3091413354007735e-07
+        },
+        {
+          "side": "right",
+          "rho_kg_m3": 8.827418295281106e-13,
+          "drag_gcrs_m_s2": [
+            2.573105492245998e-08,
+            -1.658385110643056e-08,
+            -1.377154060596883e-07
+          ],
+          "drag_norm_m_s2": 1.4107673221026825e-07
+        }
+      ],
+      "RHS_count_with_event_diagnostics": 8694,
+      "actual_rhs_time_domains": [
+        [
+          0.0,
+          21600.0
+        ],
+        [
+          21600.0,
+          43200.0
+        ]
+      ],
+      "rhs_density_queries": 8694,
+      "all_density_queries": 9417,
+      "all_density_queries_valid": true,
+      "query_elapsed_s": 8.421835873275995,
+      "peak_RSS_MiB": 313.27734375
+    },
+    {
+      "group": "D_Reference",
+      "mode": "base",
+      "integration_s": 598.5012743342668,
+      "total_with_diagnostics_s": 617.4802112057805,
+      "nfev": 8692,
+      "segment_stats": [
+        {
+          "method": "RK45",
+          "rtol": 1e-10,
+          "atol_si": [
+            0.001,
+            0.001,
+            0.001,
+            1e-06,
+            1e-06,
+            1e-06
+          ],
+          "max_step_s": 30.0,
+          "accepted_steps": 724,
+          "nfev": 4346,
+          "elapsed_s": 299.6137492004782,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.01988022997356608,
+          "max_accepted_step_s": 30.00000000000091
+        },
+        {
+          "method": "RK45",
+          "rtol": 1e-10,
+          "atol_si": [
+            0.001,
+            0.001,
+            0.001,
+            1e-06,
+            1e-06,
+            1e-06
+          ],
+          "max_step_s": 30.0,
+          "accepted_steps": 724,
+          "nfev": 4346,
+          "elapsed_s": 298.7346993982792,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.018996485796378693,
+          "max_accepted_step_s": 30.0
+        }
+      ],
+      "event_records": [
+        {
+          "time_s": 21600.0,
+          "position_jump_m": 0.0,
+          "velocity_jump_m_s": 0.0,
+          "acceleration_left": [
+            7.330211017071274,
+            -3.9143260053740208,
+            1.855898752729356
+          ],
+          "acceleration_right": [
+            7.330211017071274,
+            -3.9143260053740208,
+            1.855898752729356
+          ]
+        }
+      ],
+      "event_density_drag_limits": [
+        {
+          "side": "left",
+          "rho_kg_m3": 8.827426936926978e-13,
+          "drag_gcrs_m_s2": [
+            2.573106041134805e-08,
+            -1.6583856990962425e-08,
+            -1.3771554836753558e-07
+          ],
+          "drag_norm_m_s2": 1.4107687282031795e-07
+        },
+        {
+          "side": "right",
+          "rho_kg_m3": 8.827426936926978e-13,
+          "drag_gcrs_m_s2": [
+            2.573106041134805e-08,
+            -1.6583856990962425e-08,
+            -1.3771554836753558e-07
+          ],
+          "drag_norm_m_s2": 1.4107687282031795e-07
+        }
+      ],
+      "RHS_count_with_event_diagnostics": 8694,
+      "actual_rhs_time_domains": [
+        [
+          0.0,
+          21600.0
+        ],
+        [
+          21600.0,
+          43200.0
+        ]
+      ],
+      "rhs_density_queries": 8694,
+      "all_density_queries": 9417,
+      "all_density_queries_valid": true,
+      "query_elapsed_s": 8.401799894869328,
+      "peak_RSS_MiB": 313.27734375
+    },
+    {
+      "group": "A_NoDrag",
+      "mode": "tight",
+      "integration_s": 751.7503649741411,
+      "total_with_diagnostics_s": 751.9444524552673,
+      "nfev": 17332,
+      "segment_stats": [
+        {
+          "method": "RK45",
+          "rtol": 1e-12,
+          "atol_si": [
+            1e-05,
+            1e-05,
+            1e-05,
+            1e-08,
+            1e-08,
+            1e-08
+          ],
+          "max_step_s": 15.0,
+          "accepted_steps": 1444,
+          "nfev": 8666,
+          "elapsed_s": 376.6469739340246,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.007914462104329735,
+          "max_accepted_step_s": 15.000000000000227
+        },
+        {
+          "method": "RK45",
+          "rtol": 1e-12,
+          "atol_si": [
+            1e-05,
+            1e-05,
+            1e-05,
+            1e-08,
+            1e-08,
+            1e-08
+          ],
+          "max_step_s": 15.0,
+          "accepted_steps": 1444,
+          "nfev": 8666,
+          "elapsed_s": 375.00216145440936,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.007562657428934472,
+          "max_accepted_step_s": 15.000000000003638
+        }
+      ],
+      "event_records": [
+        {
+          "time_s": 21600.0,
+          "position_jump_m": 0.0,
+          "velocity_jump_m_s": 0.0,
+          "acceleration_left": [
+            7.3301583346124985,
+            -3.9143058198791207,
+            1.8560436073190472
+          ],
+          "acceleration_right": [
+            7.3301583346124985,
+            -3.9143058198791207,
+            1.8560436073190472
+          ]
+        }
+      ],
+      "event_density_drag_limits": [
+        {
+          "side": "left",
+          "rho_kg_m3": null,
+          "drag_gcrs_m_s2": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "drag_norm_m_s2": 0.0
+        },
+        {
+          "side": "right",
+          "rho_kg_m3": null,
+          "drag_gcrs_m_s2": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "drag_norm_m_s2": 0.0
+        }
+      ],
+      "RHS_count_with_event_diagnostics": 17334,
+      "actual_rhs_time_domains": [
+        [
+          0.0,
+          21600.0
+        ],
+        [
+          21600.0,
+          43200.0
+        ]
+      ],
+      "rhs_density_queries": 0,
+      "all_density_queries": 0,
+      "all_density_queries_valid": true,
+      "query_elapsed_s": 0,
+      "peak_RSS_MiB": 313.27734375
+    },
+    {
+      "group": "B_Open",
+      "mode": "tight",
+      "integration_s": 1196.9017244968563,
+      "total_with_diagnostics_s": 1215.8712640628219,
+      "nfev": 17332,
+      "segment_stats": [
+        {
+          "method": "RK45",
+          "rtol": 1e-12,
+          "atol_si": [
+            1e-05,
+            1e-05,
+            1e-05,
+            1e-08,
+            1e-08,
+            1e-08
+          ],
+          "max_step_s": 15.0,
+          "accepted_steps": 1444,
+          "nfev": 8666,
+          "elapsed_s": 598.8371489327401,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.00791446210472922,
+          "max_accepted_step_s": 15.000000000000227
+        },
+        {
+          "method": "RK45",
+          "rtol": 1e-12,
+          "atol_si": [
+            1e-05,
+            1e-05,
+            1e-05,
+            1e-08,
+            1e-08,
+            1e-08
+          ],
+          "max_step_s": 15.0,
+          "accepted_steps": 1444,
+          "nfev": 8666,
+          "elapsed_s": 597.9105138015002,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.007562637394585181,
+          "max_accepted_step_s": 15.0
+        }
+      ],
+      "event_records": [
+        {
+          "time_s": 21600.0,
+          "position_jump_m": 0.0,
+          "velocity_jump_m_s": 0.0,
+          "acceleration_left": [
+            7.330210500212255,
+            -3.914325800461742,
+            1.8559000482190424
+          ],
+          "acceleration_right": [
+            7.330210500212255,
+            -3.914325800461742,
+            1.8559000482190424
+          ]
+        }
+      ],
+      "event_density_drag_limits": [
+        {
+          "side": "left",
+          "rho_kg_m3": 8.191527248234464e-13,
+          "drag_gcrs_m_s2": [
+            2.3877494215414e-08,
+            -1.5389217931323376e-08,
+            -1.277949527649751e-07
+          ],
+          "drag_norm_m_s2": 1.309141425161816e-07
+        },
+        {
+          "side": "right",
+          "rho_kg_m3": 8.191527248234464e-13,
+          "drag_gcrs_m_s2": [
+            2.3877494215414e-08,
+            -1.5389217931323376e-08,
+            -1.277949527649751e-07
+          ],
+          "drag_norm_m_s2": 1.309141425161816e-07
+        }
+      ],
+      "RHS_count_with_event_diagnostics": 17334,
+      "actual_rhs_time_domains": [
+        [
+          0.0,
+          21600.0
+        ],
+        [
+          21600.0,
+          43200.0
+        ]
+      ],
+      "rhs_density_queries": 17334,
+      "all_density_queries": 18057,
+      "all_density_queries_valid": true,
+      "query_elapsed_s": 16.199524944648147,
+      "peak_RSS_MiB": 313.27734375
+    },
+    {
+      "group": "C_Updated",
+      "mode": "tight",
+      "integration_s": 1197.665217090398,
+      "total_with_diagnostics_s": 1216.7106481995434,
+      "nfev": 17332,
+      "segment_stats": [
+        {
+          "method": "RK45",
+          "rtol": 1e-12,
+          "atol_si": [
+            1e-05,
+            1e-05,
+            1e-05,
+            1e-08,
+            1e-08,
+            1e-08
+          ],
+          "max_step_s": 15.0,
+          "accepted_steps": 1444,
+          "nfev": 8666,
+          "elapsed_s": 598.0627029519528,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.00791446210472922,
+          "max_accepted_step_s": 15.000000000000227
+        },
+        {
+          "method": "RK45",
+          "rtol": 1e-12,
+          "atol_si": [
+            1e-05,
+            1e-05,
+            1e-05,
+            1e-08,
+            1e-08,
+            1e-08
+          ],
+          "max_step_s": 15.0,
+          "accepted_steps": 1444,
+          "nfev": 8666,
+          "elapsed_s": 599.4478932600468,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.007562637394585181,
+          "max_accepted_step_s": 15.0
+        }
+      ],
+      "event_records": [
+        {
+          "time_s": 21600.0,
+          "position_jump_m": 0.0,
+          "velocity_jump_m_s": 0.0,
+          "acceleration_left": [
+            7.330210500212255,
+            -3.914325800461742,
+            1.8559000482190424
+          ],
+          "acceleration_right": [
+            7.330210502065816,
+            -3.914325801656376,
+            1.8559000382985795
+          ]
+        }
+      ],
+      "event_density_drag_limits": [
+        {
+          "side": "left",
+          "rho_kg_m3": 8.191527248234464e-13,
+          "drag_gcrs_m_s2": [
+            2.3877494215414e-08,
+            -1.5389217931323376e-08,
+            -1.277949527649751e-07
+          ],
+          "drag_norm_m_s2": 1.309141425161816e-07
+        },
+        {
+          "side": "right",
+          "rho_kg_m3": 8.827418892449064e-13,
+          "drag_gcrs_m_s2": [
+            2.5731055657163053e-08,
+            -1.6583851703143543e-08,
+            -1.377154157230348e-07
+          ],
+          "drag_norm_m_s2": 1.4107674184752134e-07
+        }
+      ],
+      "RHS_count_with_event_diagnostics": 17334,
+      "actual_rhs_time_domains": [
+        [
+          0.0,
+          21600.0
+        ],
+        [
+          21600.0,
+          43200.0
+        ]
+      ],
+      "rhs_density_queries": 17334,
+      "all_density_queries": 18057,
+      "all_density_queries_valid": true,
+      "query_elapsed_s": 16.210907217115164,
+      "peak_RSS_MiB": 313.27734375
+    },
+    {
+      "group": "D_Reference",
+      "mode": "tight",
+      "integration_s": 1196.2352238278836,
+      "total_with_diagnostics_s": 1215.4435617774725,
+      "nfev": 17332,
+      "segment_stats": [
+        {
+          "method": "RK45",
+          "rtol": 1e-12,
+          "atol_si": [
+            1e-05,
+            1e-05,
+            1e-05,
+            1e-08,
+            1e-08,
+            1e-08
+          ],
+          "max_step_s": 15.0,
+          "accepted_steps": 1444,
+          "nfev": 8666,
+          "elapsed_s": 597.7079427987337,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.00791446210472922,
+          "max_accepted_step_s": 15.000000000000227
+        },
+        {
+          "method": "RK45",
+          "rtol": 1e-12,
+          "atol_si": [
+            1e-05,
+            1e-05,
+            1e-05,
+            1e-08,
+            1e-08,
+            1e-08
+          ],
+          "max_step_s": 15.0,
+          "accepted_steps": 1444,
+          "nfev": 8666,
+          "elapsed_s": 598.3720153458416,
+          "output_samples": 2,
+          "success": true,
+          "message": "The solver successfully reached the end of the integration interval.",
+          "min_accepted_step_s": 0.007562637201772304,
+          "max_accepted_step_s": 15.000000000003638
+        }
+      ],
+      "event_records": [
+        {
+          "time_s": 21600.0,
+          "position_jump_m": 0.0,
+          "velocity_jump_m_s": 0.0,
+          "acceleration_left": [
+            7.330211041110125,
+            -3.9143260144689522,
+            1.8558986847340768
+          ],
+          "acceleration_right": [
+            7.330211041110125,
+            -3.9143260144689522,
+            1.8558986847340768
+          ]
+        }
+      ],
+      "event_density_drag_limits": [
+        {
+          "side": "left",
+          "rho_kg_m3": 8.827427539463793e-13,
+          "drag_gcrs_m_s2": [
+            2.5731061151876392e-08,
+            -1.6583857592564473e-08,
+            -1.3771555811789957e-07
+          ],
+          "drag_norm_m_s2": 1.410768825441526e-07
+        },
+        {
+          "side": "right",
+          "rho_kg_m3": 8.827427539463793e-13,
+          "drag_gcrs_m_s2": [
+            2.5731061151876392e-08,
+            -1.6583857592564473e-08,
+            -1.3771555811789957e-07
+          ],
+          "drag_norm_m_s2": 1.410768825441526e-07
+        }
+      ],
+      "RHS_count_with_event_diagnostics": 17334,
+      "actual_rhs_time_domains": [
+        [
+          0.0,
+          21600.0
+        ],
+        [
+          21600.0,
+          43200.0
+        ]
+      ],
+      "rhs_density_queries": 17334,
+      "all_density_queries": 18057,
+      "all_density_queries_valid": true,
+      "query_elapsed_s": 16.181504495441914,
+      "peak_RSS_MiB": 313.27734375
+    }
+  ],
+  "labels": "HISTORICAL_SP3_INITIALIZED_VIRTUAL_PROPAGATION / PROVISIONAL_COORDINATE_A / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST / FORCE_MODEL_INCOMPLETE / PROVISIONAL_EPHEMERIS"
+}

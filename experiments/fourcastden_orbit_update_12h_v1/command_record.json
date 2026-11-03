@@ -1,0 +1,22 @@
+{
+  "actual_commands": [
+    "source scripts/activate_orbit.sh",
+    "python tests/test_fourcastden_orbit_update_12h.py",
+    "python scripts/run_fourcastden_orbit_update_12h_v1.py prepare",
+    "python scripts/run_fourcastden_orbit_update_12h_v1.py supervise",
+    "python scripts/analyze_fourcastden_orbit_update_12h_v1.py",
+    "python scripts/plot_fourcastden_orbit_update_12h_v1.py",
+    "python scripts/audit_fourcastden_orbit_update_12h_v1.py",
+    "python scripts/document_fourcastden_orbit_update_12h_v1.py",
+    "python scripts/extend_fourcastden_orbit_update_12h_audit.py"
+  ],
+  "completed_tag_do_not_replay": true,
+  "formal_workers": 1,
+  "complete_trajectories": 8,
+  "RK45_segments": 16,
+  "new_forward": 0,
+  "new_TIE": 0,
+  "run_date_UTC": "2026-10-31",
+  "offline_completion_date_UTC": "2026-11-03",
+  "baseline_HEAD": "142a8d7f7ac82e2a59db679539b2681e23d7837c"
+}

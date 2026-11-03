@@ -1,0 +1,19 @@
+{
+  "audit_status": "PASS",
+  "numerical_status": "FAIL_RETAINED",
+  "single_PASS": 0,
+  "paired_PASS": 6,
+  "all_queries": 82422,
+  "all_valid": true,
+  "event_P_V_bitwise_continuous": true,
+  "pre_event_B_C_bitwise_equal": true,
+  "protected_assets_unchanged": 170,
+  "historical_assets_unchanged": 2346,
+  "PNG_verified": 8,
+  "wall_s": 13.498165842145681,
+  "recorded_compute_s": 6670.44389882125,
+  "peak_RSS_MiB": 86.9609375,
+  "no_threshold_change": true,
+  "formal_external_datum": "EXTERNAL_DATUM_UNVERIFIED",
+  "scientific_training_READY": false
+}

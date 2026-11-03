@@ -1,0 +1,106 @@
+{
+  "group": "B_Open",
+  "mode": "tight",
+  "integration_s": 1196.9017244968563,
+  "total_with_diagnostics_s": 1215.8712640628219,
+  "nfev": 17332,
+  "segment_stats": [
+    {
+      "method": "RK45",
+      "rtol": 1e-12,
+      "atol_si": [
+        1e-05,
+        1e-05,
+        1e-05,
+        1e-08,
+        1e-08,
+        1e-08
+      ],
+      "max_step_s": 15.0,
+      "accepted_steps": 1444,
+      "nfev": 8666,
+      "elapsed_s": 598.8371489327401,
+      "output_samples": 2,
+      "success": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "min_accepted_step_s": 0.00791446210472922,
+      "max_accepted_step_s": 15.000000000000227
+    },
+    {
+      "method": "RK45",
+      "rtol": 1e-12,
+      "atol_si": [
+        1e-05,
+        1e-05,
+        1e-05,
+        1e-08,
+        1e-08,
+        1e-08
+      ],
+      "max_step_s": 15.0,
+      "accepted_steps": 1444,
+      "nfev": 8666,
+      "elapsed_s": 597.9105138015002,
+      "output_samples": 2,
+      "success": true,
+      "message": "The solver successfully reached the end of the integration interval.",
+      "min_accepted_step_s": 0.007562637394585181,
+      "max_accepted_step_s": 15.0
+    }
+  ],
+  "event_records": [
+    {
+      "time_s": 21600.0,
+      "position_jump_m": 0.0,
+      "velocity_jump_m_s": 0.0,
+      "acceleration_left": [
+        7.330210500212255,
+        -3.914325800461742,
+        1.8559000482190424
+      ],
+      "acceleration_right": [
+        7.330210500212255,
+        -3.914325800461742,
+        1.8559000482190424
+      ]
+    }
+  ],
+  "event_density_drag_limits": [
+    {
+      "side": "left",
+      "rho_kg_m3": 8.191527248234464e-13,
+      "drag_gcrs_m_s2": [
+        2.3877494215414e-08,
+        -1.5389217931323376e-08,
+        -1.277949527649751e-07
+      ],
+      "drag_norm_m_s2": 1.309141425161816e-07
+    },
+    {
+      "side": "right",
+      "rho_kg_m3": 8.191527248234464e-13,
+      "drag_gcrs_m_s2": [
+        2.3877494215414e-08,
+        -1.5389217931323376e-08,
+        -1.277949527649751e-07
+      ],
+      "drag_norm_m_s2": 1.309141425161816e-07
+    }
+  ],
+  "RHS_count_with_event_diagnostics": 17334,
+  "actual_rhs_time_domains": [
+    [
+      0.0,
+      21600.0
+    ],
+    [
+      21600.0,
+      43200.0
+    ]
+  ],
+  "rhs_density_queries": 17334,
+  "all_density_queries": 18057,
+  "all_density_queries_valid": true,
+  "query_elapsed_s": 16.199524944648147,
+  "peak_RSS_MiB": 313.27734375
+}

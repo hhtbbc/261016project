@@ -1,0 +1,20 @@
+{
+  "terminal_open_reference_m": 9.177625127182976,
+  "terminal_updated_reference_m": 4.4824348326751995,
+  "terminal_reduction_fraction": 0.5115909867141131,
+  "full_RMS_open_m": 3.493828216272746,
+  "full_RMS_updated_m": 2.1152686690852165,
+  "post_RMS_open_m": 4.929061073107548,
+  "post_RMS_updated_m": 2.9680323183864106,
+  "post_samples": 360,
+  "post_closer_samples": 337,
+  "post_farther_samples": 23,
+  "farther_intervals_seconds_since01": [
+    [
+      21660,
+      22980
+    ]
+  ],
+  "strict_comparison_no_extra_threshold": true,
+  "claims_only_at_60s_outputs": true
+}

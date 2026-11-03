@@ -1,0 +1,11 @@
+type,comparison,error_m,limit_m,passed
+single,A_NoDrag,0.2434680893386828,0.02,False
+single,B_Open,0.2421490360244119,0.02,False
+single,C_Updated,0.24165413092547036,0.02,False
+single,D_Reference,0.2437076415626598,0.02,False
+pair_vector,A_NoDrag minus B_Open,0.0013881250792342219,4.893143525590211,True
+pair_vector,A_NoDrag minus C_Updated,0.0019382304718071938,4.9400741516575915,True
+pair_vector,A_NoDrag minus D_Reference,0.00024253923019183408,4.9848978858020505,True
+pair_vector,B_Open minus C_Updated,0.0005506914572810762,0.04698346661408155,True
+pair_vector,B_Open minus D_Reference,0.0015590850946938914,0.09177625127182976,True
+pair_vector,C_Updated minus D_Reference,0.0020876294233106688,0.044824348326751993,True

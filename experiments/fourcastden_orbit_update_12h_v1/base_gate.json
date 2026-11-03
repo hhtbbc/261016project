@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checked": [
+    "A_NoDrag",
+    "B_Open",
+    "C_Updated",
+    "D_Reference"
+  ],
+  "finite_complete_continuous": true,
+  "pre_event_B_C_bitwise_equal": true,
+  "Tight_permitted": true
+}

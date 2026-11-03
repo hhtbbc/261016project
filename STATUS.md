@@ -1,5 +1,7 @@
 # 当前状态
 
+> 最新（2026-11-03接续离线验收，10-31实际运行）：Jan4 Direct 01—13四组H6 Base/Tight共8轨/16段/各721点全部完成，监督6633.434秒、峰值树RSS359.766MiB，82422次密度查询全有效。07 P/V位级连续，B/C前6h位级一致。Tight Updated−Open终点4.698347m（R−0.369602/A+4.683784/C+0.005227m）；Open−TIE9.177625m、Updated−TIE4.482435m，终点缩小51.1591%，全窗RMS3.493828→2.115269m；07:01—07:23更新组反而更远，保留23点。关键：四单轨Base/Tight最大位置差0.24165—0.24371m，全部超过冻结0.02m；六配对1%门槛通过但整体数值收敛FAIL，8图明确红色标注。6新CPU测试、独立审计170任务/2346历史SHA不变。实际条件计算不是真实Swarm精度；正式坐标/气动/真实轨道BLOCKED、科学训练False不变。未自动重跑/扩窗/训练。入口reports/FOURCASTDEN_ORBIT_UPDATE_12H_V1.md。
+
 > 最新（2026-10-31，状态更新轨道）：Jan4 06:30—07:30 Direct四组H6 Base/Tight共8条/16段实际完成，监督580.941秒、峰值树RSS359.586MiB；7182次实际密度查询全部有效，07左右P/V位级连续，B/C更新前位级一致。Updated−Open终点16.232023mm（R−15.128/A+5.866/C−0.451mm）；相对TIE参考条件轨道由16.235424mm降至6.286545mm。4单轨/6配对收敛及5新CPU测试通过，92任务/2346历史SHA不变。5图与讲稿完成。全部为PROVISIONAL_COORDINATE_A/合成气动/HINDCAST虚拟模型间差异，不是真实Swarm精度；正式高度/轨道BLOCKED、科学训练False保留。12h四组双精度外推6894秒，需另授权及覆盖检查，本轮未执行。入口reports/FOURCASTDEN_ORBIT_UPDATE_EVENT_V1.md。
 
 > 最新（2026-10-31，同期SP3/准入）：Jan4/Mar24官方0203 SP3实际取得，880272字节，两日GPS/IGS20/SP3-d含原生P/V/10秒。DNS UTC与其原生网格近邻差2秒，Hermite+留出及独立插值核查通过，10新CPU测试；DNS/SP3名义共同地固位置差RMS4.367/3.594m，高度1.344/0.626m。01整点初始化含t0后2秒括点，明确历史回算；非实时可用性证明。复用缓存256单元有符号/均方残差预算，交叉抵消解释A/B效果反转；无新密度查询/模型/TIE/轨道。实际apex旧椭球常数明确，但不证明calczg零面，EXTERNAL_DATUM_UNVERIFIED继续，专家咨询仅草稿。102任务/2346历史SHA不变，Flow18失败保留；真实轨道BLOCKED，科学训练False。入口reports/SWARM_COORDINATE_ORBIT_READINESS_V1.md。

@@ -1,0 +1,22 @@
+{
+  "free_disk_bytes": 687392948224,
+  "meminfo": "MemTotal:       2022951608 kB\nMemFree:         9637884 kB\nMemAvailable:   1942149200 kB\nBuffers:        14415072 kB\nCached:         1820568864 kB\nSwapCached:            0 kB\nActive:         1436508724 kB\nInactive:       437755160 kB\nActive(anon):   39292252 kB\nInactive(anon):   581336 kB\nActive(file):   1397216472 kB\nInactive(file): 437173824 kB\nUnevictable:       18252 kB\nMlocked:           18252 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:               292 kB\nWriteback:             0 kB\nAnonPages:      38875212 kB\nMapped:          2561428 kB\nShmem:            585760 kB\nKReclaimable:   109549580 kB\nSlab:           115084500 kB\nSReclaimable:   109549580 kB\nSUnreclaim:      5534920 kB\nKernelStack:       54816 kB\nPageTables:       226540 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    1011475804 kB\nCommitted_AS:   64853220 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:      589220 kB\nVmallocChunk:          0 kB\nPercpu:           275072 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:  28084224 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nCmaTotal:              0 kB\nCmaFree:               0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:    65432384 kB\nDirectMap2M:    1592363008 kB\nDirectMap1G:    399507456 kB\n",
+  "processes": [
+    "    PID %CPU %MEM COMMAND",
+    "1377061  105  0.0 python",
+    "1281586  2.0  0.0 node",
+    "1377039  0.4  0.0 bash",
+    "1202060  0.2  0.0 codex",
+    " 102717  0.2  0.0 codex",
+    "    890  0.1  0.0 node",
+    "     91  0.0  0.0 node",
+    "1281597  0.0  0.0 node",
+    "1281615  0.0  0.0 codex",
+    " 931443  0.0  0.0 codex",
+    "   3472  0.0  0.0 codex"
+  ],
+  "expected_s": 6893.766,
+  "safety_s": 10340.65,
+  "authorized_s": 10500,
+  "no_new_download": true
+}

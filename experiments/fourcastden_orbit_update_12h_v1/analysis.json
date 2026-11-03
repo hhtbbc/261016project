@@ -1,0 +1,21 @@
+{
+  "gates": {
+    "TWELVE_HOUR_DATA_COVERAGE_READY": "PASS",
+    "TWELVE_HOUR_ORBIT_BASE_READY": "PASS",
+    "TWELVE_HOUR_ORBIT_TIGHT_READY": "PASS",
+    "EVENT_CONTINUITY_READY": "PASS",
+    "ORBIT_NUMERICAL_CONVERGENCE_READY": "FAIL",
+    "SCIENTIFIC_REAL_ORBIT_VALIDATION_READY": "BLOCKED"
+  },
+  "wall_s": 0.28329287096858025,
+  "budget_compute_s": 6656.945732979104,
+  "peak_RSS_MiB": 91.44921875,
+  "completed_trajectories": 8,
+  "event_segments": 16,
+  "all_queries_valid": true,
+  "total_queries": 82422,
+  "new_GPU": 0,
+  "new_TIE": 0,
+  "scientific_training_READY": false,
+  "retain_failed_numerical_gates": true
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "wall_s": 0.24291051179170609,
+  "recorded_total_compute_s": 6670.686809333041,
+  "accepted_step_limits_PASS": 8,
+  "SI_state_scales_PASS": 8,
+  "signed_vector_residual_identity": true,
+  "no_new_RHS": true,
+  "no_new_queries": true,
+  "no_new_propagations": true
+}

@@ -234,3 +234,10 @@ credentials.json
 /experiments/fourcastden_orbit_update_event_v1/*_local.csv
 /experiments/fourcastden_orbit_update_event_v1/*_local.npz
 /experiments/fourcastden_orbit_update_event_v1/*_local.npy
+
+# Twelve-hour virtual propagation raw states and per-query locations stay local
+/experiments/fourcastden_orbit_update_12h_v1/*_local.csv
+/experiments/fourcastden_orbit_update_12h_v1/*_local.npz
+/experiments/fourcastden_orbit_update_12h_v1/*_local.npy
+/results/fourcastden_orbit_update_12h_v1/pair_curves.csv
+/experiments/fourcastden_orbit_update_12h_v1/figure_draft_v1_local/

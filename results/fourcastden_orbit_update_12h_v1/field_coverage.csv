@@ -1,0 +1,7 @@
+group,branch,frames,start,stop,invalid_column_times,valid_min_top_m,valid_max_bottom_m,units,all_finite_positive
+B_Open,left,7,2023-01-04T01:00:00.000,2023-01-04T07:00:00.000,0,580417.2167286525,96951.18703899052,density kg/m3; native ZG m,True
+B_Open,right,7,2023-01-04T07:00:00.000,2023-01-04T13:00:00.000,0,591057.6869456745,96953.20600030546,density kg/m3; native ZG m,True
+C_Updated,left,7,2023-01-04T01:00:00.000,2023-01-04T07:00:00.000,0,580417.2167286525,96951.18703899052,density kg/m3; native ZG m,True
+C_Updated,right,7,2023-01-04T07:00:00.000,2023-01-04T13:00:00.000,0,584791.0323344296,96955.43228488542,density kg/m3; native ZG m,True
+D_Reference,left,7,2023-01-04T01:00:00.000,2023-01-04T07:00:00.000,0,580414.24,96950.73,density kg/m3; native ZG m,True
+D_Reference,right,7,2023-01-04T07:00:00.000,2023-01-04T13:00:00.000,0,585506.72,96950.73,density kg/m3; native ZG m,True

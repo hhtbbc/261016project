@@ -1,0 +1,6 @@
+{
+  "issue": "visual check found single-row chart xlabel too close to two-line footnote",
+  "action": "increase bottom margin .16 to .25 only; preserve first figures/source in figure_draft_v1_local",
+  "no_data_or_statistics_change": true,
+  "no_model_orbit_or_density_query": true
+}

@@ -1,0 +1,496 @@
+{
+  "files": [
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/B_Open_base_states_local.npz",
+      "bytes": 39132,
+      "SHA256": "80882b3ff30c6b207fe67279b88f58dc2ec7fbf3406e3fade3c05d874bcf2378"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/independent_audit.json",
+      "bytes": 558,
+      "SHA256": "b45c3bf4b4c16f85641eeb77262771772953de400615732a184685e90d8318f6"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/analysis.json",
+      "bytes": 626,
+      "SHA256": "fd06d3af060e51df1dc07d90dfa0a7d9ba2873a4860f5f55bbab70b4404eb360"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/update_effect.json",
+      "bytes": 580,
+      "SHA256": "8a3962c3f6e9eefd6fcdd16887b7ee0ef6fa9e8d8076390bee36845ba8b95ff2"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/C_Updated_base_states_local.npz",
+      "bytes": 39137,
+      "SHA256": "728ae8415150c33a543bb4c90591a4260ac39196a323d4873db4aa7268c90616"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/C_Updated_base_runtime.json",
+      "bytes": 2466,
+      "SHA256": "5a4bed7cbb3a19da593c99ef5d9b799854bdc1957019e8adc7e703e67c6e8cdd"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/A_NoDrag_base_states_local.npz",
+      "bytes": 39141,
+      "SHA256": "75d3f59d23b8785b9049d1042ff4f1af6cfa3aa5dd478cd6363149244558e872"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/D_Reference_base_states_local.npz",
+      "bytes": 39134,
+      "SHA256": "ca209a94b4e567154919e3fae68475930293d95addb5750d6fe3b58bac490270"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/D_Reference_base_launch.json",
+      "bytes": 230,
+      "SHA256": "1f0c97774a96dc4baebd19d70db8172610d82d25b7a82247871d22af37ce26ca"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/supervisor_once.json",
+      "bytes": 44,
+      "SHA256": "62d1a00bd63b893dbd7a33938b382adfde9eae55b7764750b2c57416e1c68cf9"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/D_Reference_tight_launch.json",
+      "bytes": 231,
+      "SHA256": "d52cf40ac1a0ae51017a81cb8f952a903319120998585d58e3c2a90ae741abe9"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/C_Updated_tight_runtime.json",
+      "bytes": 2458,
+      "SHA256": "eb9ca1ab327ec4496a483eb244953ab5bfffb6fb078a339b3fd9f9f19f418cb8"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/base_gate.json",
+      "bytes": 212,
+      "SHA256": "d128f1960f2a2061310752248e59c0d008ebf5dfb49c3b23d3fbda938a08c49e"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/supervision.json",
+      "bytes": 126,
+      "SHA256": "562c1087182885dc9ba4451ed30db5fd4adec1cde0631faa409de8b9345ea625"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/D_Reference_base_queries_local.csv",
+      "bytes": 2159535,
+      "SHA256": "0ef13b470d7f71665cfea55b789db026dca5b3c930b51b817a0009b00603d59c"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/D_Reference_tight_states_local.npz",
+      "bytes": 42085,
+      "SHA256": "e2c500372499e0c33606338b1323e7bac597497255ee5b10580e7bed04f2734b"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/preflight.json",
+      "bytes": 299,
+      "SHA256": "31c76cae21d680605db34f0c13ca6c5fe0f52cd065eed6d7a2567d5587e2fba3"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/C_Updated_tight_queries_local.csv",
+      "bytes": 4412493,
+      "SHA256": "b6156cf071f40c698e5210e554f59ec885cabaa140c1de3b8769c7da63f67afc"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/context_read.json",
+      "bytes": 838,
+      "SHA256": "a80b7376435ea0b22a49bf6f2cb0dce97531b0cb98b21a103bb33eeb74a7131a"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/C_Updated_tight_states_local.npz",
+      "bytes": 42091,
+      "SHA256": "66027ec77fb5ca4de45a2d7021bffac1c5d06d80bd62bcde9e45caf21494b1b9"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/figure_layout_revision.json",
+      "bytes": 284,
+      "SHA256": "459987d7bb6de3a33d8bea7156212c345b5c398cfdaed0d547dc84979284c283"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/A_NoDrag_base_launch.json",
+      "bytes": 227,
+      "SHA256": "d5225a98b5b220652b2519ec6037efd7ef39e525cb406f4f148a4f984ced6a05"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/B_Open_base_runtime.json",
+      "bytes": 2467,
+      "SHA256": "a7cdf70d61e06b39d9f6879d80cc2a7468ca41c1c5aa54654b43ed3d54899f25"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/D_Reference_base_runtime.json",
+      "bytes": 2454,
+      "SHA256": "8fec7fb71cc4bb314082ba55d012c216659cb849f0f33cc7f37509d1a6b67bf3"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/tight_budget_gate.json",
+      "bytes": 113,
+      "SHA256": "86b7d3633bbd09ce74c73ece64b9b21c61840fa616fd158e096d9c900681ae59"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/CPU_test_result.json",
+      "bytes": 173,
+      "SHA256": "3957cc26eb6ace8aa28c6ac3234aa9ae7a61f52fcb92aa8163b013a21fce9e73"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/protected.json",
+      "bytes": 22438,
+      "SHA256": "14eeb0fd8277881c4fae7c24fde1597ddbc762279df11a9a9f33cd07de950ee8"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/prelaunch_syntax_incident.json",
+      "bytes": 333,
+      "SHA256": "8a82bfb4c4bd6b8e05f3c453a6cfbdc99b2a3d9e851884772433a1627dc98402"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/A_NoDrag_base_runtime.json",
+      "bytes": 2246,
+      "SHA256": "10b1f7ffc2ff7cc7fbd6ad4ed1b1aaa65d14e42554aad367bcca294a2c98a096"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/A_NoDrag_tight_launch.json",
+      "bytes": 228,
+      "SHA256": "4a14c14bc58ad1f9737abf4e6a5fbd275b7d6e74327d37906013decbe324c7ef"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/protected_runtime_v2.json",
+      "bytes": 22438,
+      "SHA256": "14eeb0fd8277881c4fae7c24fde1597ddbc762279df11a9a9f33cd07de950ee8"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/B_Open_base_launch.json",
+      "bytes": 225,
+      "SHA256": "3936d4f05c795d33d5c8c00d1363fa786e82b6b40570abe04a9847862f5d0544"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/B_Open_tight_states_local.npz",
+      "bytes": 42087,
+      "SHA256": "0426241c99e78b685ffb4882b1e0ce3f285e2351ad3c0fc94f01f2fa0680ae1a"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/C_Updated_base_queries_local.csv",
+      "bytes": 2301127,
+      "SHA256": "2e97582cb407a481551b0440c07c800c1dfcba0fd3f2bf079a7b7b96a04c5d8b"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/SP3_coverage_local.csv",
+      "bytes": 3229521,
+      "SHA256": "bbcf3e686a10ed6c78ecf8ba0106e92c90d29be5a426fdeb65f27aa88b77c4be"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/initial_GCRS_local.npy",
+      "bytes": 176,
+      "SHA256": "75c16067a16319946d318c93a20f7d44e36dff8d271a189ba74653676a3ba1e1"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/C_Updated_base_launch.json",
+      "bytes": 228,
+      "SHA256": "c56f7b93af5dfa3023df9696b094e9633c3f572673ea2ef4dcbf94265f816a1a"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/B_Open_tight_runtime.json",
+      "bytes": 2452,
+      "SHA256": "6b874628e43991da9fffe0a4ffbe852d9dda831c3389370f006f61bad71522be"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/C_Updated_tight_launch.json",
+      "bytes": 229,
+      "SHA256": "5fa1d977ea040374b45f04b4ab54487a5e9040082fb4a9ff4024d3b1026b83d5"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/delivery_source_SHA.json",
+      "bytes": 1088,
+      "SHA256": "cdcd100efd3a47fe5901a8cada2cfc66dbd5abe1bb70ba3e6996fe9ab759bd0a"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/B_Open_tight_queries_local.csv",
+      "bytes": 4412665,
+      "SHA256": "80aa5825b07b6e5e0e8bbcf8e8ad9299588ffb12277532086381f4ea630ffb00"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/B_Open_base_queries_local.csv",
+      "bytes": 2301245,
+      "SHA256": "8d40742ea701f1309edb268b91f5bb25a0bdf0ffca319b88ca1c551858c9bdc2"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/extended_state_audit.json",
+      "bytes": 290,
+      "SHA256": "7743e58cfaa301ca2075760ed0bdad139363e7f9dcbdf5feefc228ff9276ff89"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/worker_once.json",
+      "bytes": 55,
+      "SHA256": "f3e12c56d4738641d7522fb3abffab6fe5fc1837059286b02326ef84b4f691d3"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/initialization_metadata.json",
+      "bytes": 1366,
+      "SHA256": "436ef86b27b65bdbf412217ea9bf66f8b54f19eda3880d01a7aad73caddd2531"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/protocol.json",
+      "bytes": 1681,
+      "SHA256": "6fc71bd06e7c1de404b4f06cf731de90f50e9ec4467dd79765838d4e8d140b6b"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/resource_preflight.json",
+      "bytes": 2096,
+      "SHA256": "8f7b7aaf43ccfa62d406bc1e0bd962530390aaca31d4b193dafee2a22e6daad7"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/B_Open_tight_launch.json",
+      "bytes": 226,
+      "SHA256": "84a1430b201b60e8ac60233aa08f8789845fdfa494194d4defece9a620ee846c"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/worker_complete.json",
+      "bytes": 22945,
+      "SHA256": "30969c60fcf0f283f9d1ba3f3e5f6f1c80ac0d341ead52d2f284bb6229be55c8"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/compressed_result_manifest.json",
+      "bytes": 427,
+      "SHA256": "88fcd0e7b916f77c0c13eff112e10bd3b18dab2f7c5984abdbaf7f0ee8bb7579"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/A_NoDrag_tight_states_local.npz",
+      "bytes": 42106,
+      "SHA256": "35a8fa07475b49c2801e7a8d95f0fdb9746274dc3091349102ffe978e10eb91f"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/A_NoDrag_tight_runtime.json",
+      "bytes": 2267,
+      "SHA256": "571898df86d7b539aada9909fe303ca12080faf253422c1baf00c70fea807c25"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/command_record.json",
+      "bytes": 883,
+      "SHA256": "52009870c0e270ad8837b901d606a2ab73f6bd3ba39920c40041afb713b84e26"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/D_Reference_tight_runtime.json",
+      "bytes": 2481,
+      "SHA256": "f78b4211f36204f22590a6ab746572c38d72be11ca6112dd6ce8a2a88cb355a6"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/D_Reference_tight_queries_local.csv",
+      "bytes": 4140942,
+      "SHA256": "1751293d50a8d477c04a075e5fbc67501ed6caeba8983251647f639fc04be6c9"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/figure_draft_v1_local/reference_orbit_differences.png",
+      "bytes": 182944,
+      "SHA256": "efa798a0c52c1ebfb56cdf3075085e1185993007ec9fba9a67ae9ea3bf5d74da"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/figure_draft_v1_local/numerical_convergence.png",
+      "bytes": 161611,
+      "SHA256": "e3231bffd41b552555dde23ab03d508f3324cf3d27afd11525a43d1fa65a1d21"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/figure_draft_v1_local/plot_source.py",
+      "bytes": 7982,
+      "SHA256": "08492b2d0867fb6fd6f963dc96e9e203421462e03ba922e9d496930f732f1d6d"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/figure_draft_v1_local/event_07UTC_detail.png",
+      "bytes": 182413,
+      "SHA256": "76949dc14ed1f6748c37a0d887ae3f176c1aee647aa9f9c2e3c3851e0b9be7bc"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/figure_draft_v1_local/figure_sources.csv",
+      "bytes": 1239,
+      "SHA256": "486784f7576273bdfbcbbb997a24fd05230378641156fba0526b96dc5aaaab16"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/figure_draft_v1_local/RAC_12h.png",
+      "bytes": 310605,
+      "SHA256": "150a169dda68a1e2d57c1f462f6e242b0310904252692472675ead51ba768a4e"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/figure_draft_v1_local/updated_minus_open.png",
+      "bytes": 152376,
+      "SHA256": "dea76ec851c6d5dea63279e34ac5b0fc8445896b4e2ccd7533243a6468d31d5e"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/figure_draft_v1_local/drag_12h.png",
+      "bytes": 204273,
+      "SHA256": "eb1dc47a1444b7dfe452239c5664539843f3a6b969daccf79b5731a57f5bd528"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/figure_draft_v1_local/density_12h.png",
+      "bytes": 220627,
+      "SHA256": "eb229dbe7cb987bdd182d73aa9241e87f7cce55921ffe730704dd5b636578f28"
+    },
+    {
+      "path": "experiments/fourcastden_orbit_update_12h_v1/figure_draft_v1_local/time_block_statistics.png",
+      "bytes": 86244,
+      "SHA256": "6caae300ed498b7691122c8bca619642bc841b23a5f20b30d443d4b03d94c612"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/field_coverage.csv",
+      "bytes": 890,
+      "SHA256": "3c1ccd74a94cd661a0f8b63b11fd155b03d3740b3edfa49b920dc627580d82e0"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/reference_orbit_differences.png",
+      "bytes": 179249,
+      "SHA256": "b26b559fcb5fd7069b513e6c7e400e4a50e8347c83b80409ccbfd85e58547f09"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/lead_time_summary.csv",
+      "bytes": 11428,
+      "SHA256": "402920e8265af2ead2e700010622a3b585b462558cfb2f68b21136a146e1fa5b"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/numerical_convergence.png",
+      "bytes": 159525,
+      "SHA256": "e4cb69b031a7808adb645ba7ed6839b3972e42619e8fd14ed8d5e894174c4144"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/independent_numerical_check.csv",
+      "bytes": 728,
+      "SHA256": "92f90be603e1853ca7ab782a53e8aed46ad2e9b880549f31af573dabcc4836c0"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/reference_proximity.csv",
+      "bytes": 63107,
+      "SHA256": "8c34eaffa1f7f84d38e9650b198004a28d65243f45e6a7e8b8f944c24353aa30"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/event_07UTC_detail.png",
+      "bytes": 177012,
+      "SHA256": "8cbda77faa2dbd3f0d8ad5080cd0a5e28ec143783eadeac6d871e97c35fd6235"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/figure_sources.csv",
+      "bytes": 1239,
+      "SHA256": "8d881787d5cfc6a714e754949cb41de313e738959e37cf36c192906e2a861cd4"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/A_NoDrag_base_samples.csv",
+      "bytes": 43863,
+      "SHA256": "3f763dadcadaea16015ecac8390aca81c543c39bbc6b7a098604e271ea5ea1c1"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/event_density_drag_jump.csv",
+      "bytes": 1017,
+      "SHA256": "d4350903d988d55efda53a611186054b4474b60254cb180f4b0868277007160f"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/A_NoDrag_tight_samples.csv",
+      "bytes": 44584,
+      "SHA256": "ec72d48ad2df00ebec831f084129430ba0ab3057ce5d80f16eb01e34b103c697"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/RAC_12h.png",
+      "bytes": 295642,
+      "SHA256": "084c0a377c8455772ab69c03d56c8c2954c24fec00fd30f4918727920f10a29c"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/B_Open_base_samples.csv",
+      "bytes": 111876,
+      "SHA256": "3a40b0684817981611132f9280163522aff6854df424d8e93c6bce1e0628ce17"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/event_continuity.csv",
+      "bytes": 522,
+      "SHA256": "24e873f2ee8c6304af3b2b4b3c619035190c4afc4b22c989c6ffc6812457d07d"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/updated_minus_open.png",
+      "bytes": 150214,
+      "SHA256": "d5dd68c8568af377731df83ecef74bcb01e384375326c34e0c7f9e37ccee60b6"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/C_Updated_base_samples.csv",
+      "bytes": 114007,
+      "SHA256": "7c4f9015952aee4220db6e04a2095b9c738f45d4e890a407d3b83530f52acb92"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/performance.csv",
+      "bytes": 954,
+      "SHA256": "5250c1f2e9b3c462f4369044ec666c78f42ad53208b612c29a135b0cab6f7c42"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/D_Reference_base_samples.csv",
+      "bytes": 115470,
+      "SHA256": "55230ae20c9e408b901a9a54ee27c500d925703f21b7e7a3d1fc26e700c7db22"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/pair_curves.csv",
+      "bytes": 2253906,
+      "SHA256": "29e91faa3600a9ce30fe23afb32a88b35c9b0da883b29efe9d1c4c5039abbcdf"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/drag_12h.png",
+      "bytes": 195310,
+      "SHA256": "b2a98e33421125f346b1bc6e05802758a54f90c1e998fbe7277a372ebb5e15ac"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/D_Reference_tight_samples.csv",
+      "bytes": 116159,
+      "SHA256": "2674379637f9f50476f52942a0a7980b45770667620ec081cc8dbcd0fd5da6bf"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/pair_summary.csv",
+      "bytes": 2590,
+      "SHA256": "d74fdeab98883e6e61aa259315f2fc25590052d75975ac5780b93084061e1ead"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/density_12h.png",
+      "bytes": 210953,
+      "SHA256": "ece6e8d27e1ab53c6000c83bde83f1df2acb360cca1de15bbf9b834da9545356"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/independent_query_accounting.csv",
+      "bytes": 653,
+      "SHA256": "d244ee5bcd8fe92a9c6f0cd6285086f53c8db80c28e01b80a2b211a93440bfc6"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/density_drag_speed_chain.csv",
+      "bytes": 426678,
+      "SHA256": "44abfd4fca6c7b5de32d26bb853ae531814e461052a507b4dd4ddc08dd508c3d"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/C_Updated_tight_samples.csv",
+      "bytes": 114663,
+      "SHA256": "8e7aea0d039fbfe25a7032e867ca948d59072230f3bcc9ba2880e53de9f3674d"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/B_Open_tight_samples.csv",
+      "bytes": 112572,
+      "SHA256": "19855821698e0b152d4ae1f4f5d2cdf155fa2a36fcdf82793b5b00da4af37a76"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/time_block_statistics.png",
+      "bytes": 86737,
+      "SHA256": "2a66d8a654e78994fe188caa04830486e05f9afc70301fa07e85d6bde90fee95"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/pair_curves.csv.xz",
+      "bytes": 589852,
+      "SHA256": "360983307bdc02b13483debeb190f86fab2d6d3c8b866723c780777acb24a127"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/independent_step_and_SI_scale.csv",
+      "bytes": 1246,
+      "SHA256": "3273a1718a66effac59295cf98824140ee220eac77de20d9fd94efc6efdb84be"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/time_block_summary.csv",
+      "bytes": 4813,
+      "SHA256": "12b8ee67fa1b58c41aa63d272debb18561475eb0ebb8d1edc9fa0701ef9c333f"
+    },
+    {
+      "path": "results/fourcastden_orbit_update_12h_v1/numerical_convergence.csv",
+      "bytes": 1247,
+      "SHA256": "2a0410b4dca2dd30c3026d1d154e8b06d4a795edd86dd3abe2404cce54c377a0"
+    }
+  ],
+  "experiment_bytes": 24893939,
+  "results_bytes": 5588706,
+  "raw_trajectories_and_query_positions_local_only": true,
+  "current_PNGs_verified": 8,
+  "compressed_CSV_byte_identity_PASS": true,
+  "scientific_training_READY": false,
+  "overall_numerical_gate": "FAIL"
+}

@@ -1,0 +1,9 @@
+group,mode,initial_state_identical,position_jump_m,velocity_jump_m_s,output_records,time_gap,left_end_UTC,right_start_UTC
+A_NoDrag,base,True,0.0,0.0,721,False,07:00,07:00
+B_Open,base,True,0.0,0.0,721,False,07:00,07:00
+C_Updated,base,True,0.0,0.0,721,False,07:00,07:00
+D_Reference,base,True,0.0,0.0,721,False,07:00,07:00
+A_NoDrag,tight,True,0.0,0.0,721,False,07:00,07:00
+B_Open,tight,True,0.0,0.0,721,False,07:00,07:00
+C_Updated,tight,True,0.0,0.0,721,False,07:00,07:00
+D_Reference,tight,True,0.0,0.0,721,False,07:00,07:00
