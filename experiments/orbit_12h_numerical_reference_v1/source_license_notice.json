@@ -4,5 +4,8 @@
   "version": "1.15.3",
   "license_file": "SCIPY_LICENSE.md",
   "intent": "read-only runtime source audit; no installed source modification or dependency installation",
-  "license_text_unchanged": true
+  "license_text_unchanged": false,
+  "normalization": "Only trailing whitespace stripped; copyright/license wording retained",
+  "original_installed_license_SHA256": "828cb9a7369c0a9f633ce7c10023f8d822f0f76b54ce25c723361d45b088879a",
+  "normalized_license_SHA256": "c8e3ca4563746d91fd85de769a654653bf146ab637c4a798cc2761007c4f1c9e"
 }
