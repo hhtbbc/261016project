@@ -1,0 +1,352 @@
+{
+  "files": [
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/independent_audit.json",
+      "size_bytes": 856,
+      "SHA256": "7ee780803852aa347d610da6fccf02b84a1d01a811e802d20961d5a156c16de2"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/analysis.json",
+      "size_bytes": 5331,
+      "SHA256": "803e7e182403122c0e82389e4b2f6764dbc0eb405b55f780f39d03d75555940a"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/new_code_SHA_final.json",
+      "size_bytes": 730,
+      "SHA256": "95bb23b0bad19d7d56f61f9e662c58acb31608b7a64070350d16cecaf0e8b3a9"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/independent_audit_first_render.json",
+      "size_bytes": 856,
+      "SHA256": "e9e344aeab4e47f8ce759099e7917ee08e899195b8028fab3c3afeb6d5bdd473"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/D_Reference_DOP30_launch.json",
+      "size_bytes": 79,
+      "SHA256": "3086e83db7b44fdfec6599e5dd675e317723a88a0b90d69aad45200dc98ed86c"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/new_code_SHA.json",
+      "size_bytes": 730,
+      "SHA256": "54d2a6819ef8e01cfb6135252fe63a0730176f086e253c2e87f9125abc821c2c"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/DOP15_budget_gate.json",
+      "size_bytes": 92,
+      "SHA256": "240d33dd55be6dc9161d5bf10c150f09fdfe815ebf135c7ae6713c2d1d200f09"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/D_Reference_DOP30_runtime.json",
+      "size_bytes": 2225,
+      "SHA256": "f8fdec6e48a63f2f3d3092986d25ad0dddf9afe8cca3f6f0f10e42c3fa1d4de6"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/SP3_precheck_local.csv",
+      "size_bytes": 382520,
+      "SHA256": "8b122bb1f1efec574b93fa22b3c04031ba92fbd40f9440610e5498f6fa35e81a"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/supervisor_once.json",
+      "size_bytes": 78,
+      "SHA256": "1236d8e40856d9d3e9d91831e182e875937615982f2cb8325e960b2a30d115cc"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/D_Reference_DOP15_launch.json",
+      "size_bytes": 79,
+      "SHA256": "74cc3e3789dcf8c25cc8f7a4ecb82dc501539d2f5bff4aa95648e32a572b5998"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/supervision.json",
+      "size_bytes": 126,
+      "SHA256": "fc67a323cc156c1e8a18c90fc3d8d339dff8cee2b6e370ff570f3b53c4ef3f14"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/preflight.json",
+      "size_bytes": 272,
+      "SHA256": "147644ca58d8b4a59baf22fe3aa6eb0d0dc9698186bef010ef8f062c579155f0"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/D_Reference_DOP15_runtime.json",
+      "size_bytes": 2247,
+      "SHA256": "be423cb0c21a6c1a72a1c8155557dff7a9554d6c880d0ad4ba83356443601bf1"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/context_read.json",
+      "size_bytes": 836,
+      "SHA256": "6b801e7912355a79c9e53ec89e7e071b7c66a47d13617bc9b8075d359c8675ab"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/effect_assessment.json",
+      "size_bytes": 1627,
+      "SHA256": "2fbad26d484a66bb830d6503fccfcfced23a5b1bf7247fe2b4d51563bbf874ab"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/offline_refinement.json",
+      "size_bytes": 288,
+      "SHA256": "2d30aee90ab86a6df55424d95526e5bf30540fc11ad628371984c60c69cef963"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/protected.json",
+      "size_bytes": 53866,
+      "SHA256": "cfdde244c32ce3b20e94ba48920999fcfa917cde9f2c59e9c162668406d5a059"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/DOP30_gate.json",
+      "size_bytes": 133,
+      "SHA256": "30e8a2dde3e8ae68251adf240df20ed75dae01e25e9eb1e763c137460de37b0f"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/D_Reference_DOP30_queries_local.csv",
+      "size_bytes": 5148164,
+      "SHA256": "5bd4f6f774da264dc73c46b2e010b3f3b15a784d0bdc6e0c131758cbbdbe2175"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/D_reference_identity.json",
+      "size_bytes": 886,
+      "SHA256": "199e8cf4351269b3d1f0630a784e8219714cc5c804cfaf57fb520438b34c1c32"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/D_Reference_DOP15_states_local.npz",
+      "size_bytes": 42075,
+      "SHA256": "19785552b182b98dd4ecb1812cc4c68bffd5f82320d44c7081fb7ade6e5c7f31"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/D_Reference_DOP15_queries_local.csv",
+      "size_bytes": 10098065,
+      "SHA256": "2d2bfa12b46d0380daaa9dcf708907987537b59d4e022f0d23cfdb995a233e0d"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/worker_once.json",
+      "size_bytes": 79,
+      "SHA256": "9788e874f50c6fd68b5d94fa97aac8f5dcdea90675d37cc6c03a587e2a3c4a48"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/protocol.json",
+      "size_bytes": 1335,
+      "SHA256": "e02dc0a5f8a6664008d6bba8c87bd02ec14a8530fb7fb5ce2f7d71a624236b76"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/resource_preflight.json",
+      "size_bytes": 1994,
+      "SHA256": "c742724b12aab1b01a84c65d7d84b4f7be1424ffc8540a1a894cf730fe9a2f73"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/worker_complete.json",
+      "size_bytes": 5368,
+      "SHA256": "2532e3bb0589d5fe6483bb0e916e9e964c61fe4da7119cbf7287655842a70c8a"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/compressed_result_manifest.json",
+      "size_bytes": 377,
+      "SHA256": "e35e074d8ff54b61e580e8f31ecb06ec99597ac90f34c2307b11a158d41d6a60"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/DOP15_gate.json",
+      "size_bytes": 133,
+      "SHA256": "35ba33b5ab901f94e9a674ab11812428d2e43997bf673efaf92794b4ab41e4f7"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/command_record.json",
+      "size_bytes": 606,
+      "SHA256": "d45b719137a0e386b724946a160b9841edb3d24bc34cde42ee7c10a57affe79d"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/D_Reference_DOP30_states_local.npz",
+      "size_bytes": 39110,
+      "SHA256": "e18b8f02b5001a5529161efb9ee0a2896509744edd057f2796231a226a7c9ff3"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/D_single_convergence.png",
+      "size_bytes": 146558,
+      "SHA256": "b696d41399f9a4987135e282a9d755a687713256e32ee2471e1ec0e7d17c13a2"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/independent_convergence.csv",
+      "size_bytes": 664,
+      "SHA256": "4fb74879d02dd734a023c2038b80226c0e3d80d957e8de21dc039f30c351b44c"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/endpoint_and_RMS.png",
+      "size_bytes": 90918,
+      "SHA256": "63db0c0a98fa219793bfedd421836d58b6cdaad19694d2bc94f420afebc208f4"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/event_07UTC.png",
+      "size_bytes": 172341,
+      "SHA256": "1d98760c0496dd5ff49fdba9133bb214fdb7d05f88cde1ac7d2de7c8235b4857"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/drag_acceleration_12h.png",
+      "size_bytes": 220294,
+      "SHA256": "a3ffe06bc5f143e721b9b287534186c2f0f95d8d3980d41309d639768b716f60"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/figure_sources.csv",
+      "size_bytes": 1333,
+      "SHA256": "4a70eb62d52cd4569c1106200fdfa2103e2b64cc9645d8effffa805ec63e0781"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/RK45_DOP853_comparison.png",
+      "size_bytes": 147351,
+      "SHA256": "165020369078f64623f05d00911ede2fa7ae4ba1924f9379afdae8b6778dbf1b"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/six_pair_convergence.png",
+      "size_bytes": 98193,
+      "SHA256": "562bdd6fdef7bbf8e1edf05501b9193dbd3360a27cc4d2b10080530ccebc36d8"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/density_12h.png",
+      "size_bytes": 217786,
+      "SHA256": "867ee7c64656eeb5c2592ae87c1e8aa70f1c2472041a541d58b17f3100fa343b"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/RAC_differences.png",
+      "size_bytes": 269621,
+      "SHA256": "354ca307ba8961c3540981c366991a8e0abb97a476932cc7a563ff0489807a7d"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/independent_query_accounting.csv",
+      "size_bytes": 295,
+      "SHA256": "343446c1924b1e4ac217d1aeeaa857a680aa2c063497e932e3c9d31b6dabab5c"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/relative_reference_12h.png",
+      "size_bytes": 127249,
+      "SHA256": "4c8d24b8905872024aa4fd1dfacf627b192cad0b63cdfd78d0f6c413e2f25949"
+    },
+    {
+      "path": "experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/improvement_and_worsening.png",
+      "size_bytes": 161082,
+      "SHA256": "bc34b8fd2260dad2d78cc364b77c95b7b340c253e9100f44ad28c29f54ccab15"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/D_single_convergence.png",
+      "size_bytes": 146558,
+      "SHA256": "b696d41399f9a4987135e282a9d755a687713256e32ee2471e1ec0e7d17c13a2"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/pair_convergence.csv",
+      "size_bytes": 943,
+      "SHA256": "feb4c31c2fc2da32ca67fd69d2a0bebe64a6ef30fa0ded2949f4865db0e89e7f"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/field_coverage.csv",
+      "size_bytes": 302,
+      "SHA256": "c16102c69e98661542966e15182f05d207792a6776276293afa868902e1ddbba"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/event_limits.csv",
+      "size_bytes": 315,
+      "SHA256": "2d2c243da142236188cbca335960b575a4333aad22fc979a443daa37da6c30cd"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/D_Reference_DOP30_samples.csv",
+      "size_bytes": 129181,
+      "SHA256": "b2ed46bbc494afd95e2b012f0f185cdbe437ccec349fb116bdb366da5c3e9d2d"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/independent_convergence.csv",
+      "size_bytes": 664,
+      "SHA256": "4fb74879d02dd734a023c2038b80226c0e3d80d957e8de21dc039f30c351b44c"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/endpoint_and_RMS.png",
+      "size_bytes": 90918,
+      "SHA256": "63db0c0a98fa219793bfedd421836d58b6cdaad19694d2bc94f420afebc208f4"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/event_07UTC.png",
+      "size_bytes": 188946,
+      "SHA256": "51af7c309f0975671a44f78a510b059c97a4f659795d767df56a846c37695437"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/lead_time_summary.csv",
+      "size_bytes": 23458,
+      "SHA256": "e1592b829098222cef08aaae9c9bdb431dee29ed3ee38ea52e190161826740fd"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/D_Reference_DOP15_samples.csv",
+      "size_bytes": 129175,
+      "SHA256": "0f7dee60b5316bd1325c0fbe5e806e4b72b083e7c15916db6c9f410534ae705e"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/drag_acceleration_12h.png",
+      "size_bytes": 220294,
+      "SHA256": "a3ffe06bc5f143e721b9b287534186c2f0f95d8d3980d41309d639768b716f60"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/comparison_curves.csv",
+      "size_bytes": 3579567,
+      "SHA256": "febf0106642d13292c6e055d3c266e6cf78b563116600148b6d971f151c9428a"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/comparison_curves.csv.xz",
+      "size_bytes": 875764,
+      "SHA256": "d287515176c2620687b870f2de9d73966ffc61f22dda9370e434fb4c80998449"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/figure_sources.csv",
+      "size_bytes": 1333,
+      "SHA256": "3dd30912dbfa96a4c2882090723bbbd85c2a6e9e9518faa94949df9b64e1dc46"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/comparison_summary.csv",
+      "size_bytes": 5219,
+      "SHA256": "238e5fafa82fe179f13cbe20733052a9a8e04b2694b97ad08276a4d670784c38"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/RK45_DOP853_comparison.png",
+      "size_bytes": 147351,
+      "SHA256": "165020369078f64623f05d00911ede2fa7ae4ba1924f9379afdae8b6778dbf1b"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/six_pair_convergence.png",
+      "size_bytes": 98193,
+      "SHA256": "562bdd6fdef7bbf8e1edf05501b9193dbd3360a27cc4d2b10080530ccebc36d8"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/performance.csv",
+      "size_bytes": 305,
+      "SHA256": "61e16efb3304cea8cba17f3ed3a87115b42064a09081855170b52890e39e7b20"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/update_benefit_timeseries.csv",
+      "size_bytes": 56643,
+      "SHA256": "8058f55dfe9408ab82be3cff03c9644dee4d9fd4440f7ae1380e9530d1df19aa"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/density_12h.png",
+      "size_bytes": 217786,
+      "SHA256": "867ee7c64656eeb5c2592ae87c1e8aa70f1c2472041a541d58b17f3100fa343b"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/RAC_differences.png",
+      "size_bytes": 269621,
+      "SHA256": "354ca307ba8961c3540981c366991a8e0abb97a476932cc7a563ff0489807a7d"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/independent_query_accounting.csv",
+      "size_bytes": 295,
+      "SHA256": "343446c1924b1e4ac217d1aeeaa857a680aa2c063497e932e3c9d31b6dabab5c"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/D_period_convergence.csv",
+      "size_bytes": 427,
+      "SHA256": "758d533f9cafd79ab9550aece92ff4426875f58150a1ffa1a21a6fbde4ea1842"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/relative_reference_12h.png",
+      "size_bytes": 127249,
+      "SHA256": "4c8d24b8905872024aa4fd1dfacf627b192cad0b63cdfd78d0f6c413e2f25949"
+    },
+    {
+      "path": "results/orbit_12h_abcd_dop853_closure_v1/improvement_and_worsening.png",
+      "size_bytes": 161082,
+      "SHA256": "bc34b8fd2260dad2d78cc364b77c95b7b340c253e9100f44ad28c29f54ccab15"
+    }
+  ],
+  "experiment_bytes": 17444848,
+  "result_bytes": 6471589,
+  "raw_states_and_query_geometry_not_public": true
+}

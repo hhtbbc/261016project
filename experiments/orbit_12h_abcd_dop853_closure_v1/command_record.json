@@ -1,0 +1,16 @@
+{
+  "UTC": "2026-11-03T07:01:37.609116+00:00",
+  "commands": [
+    "source scripts/activate_orbit.sh",
+    "python scripts/run_orbit_12h_abcd_dop853_closure_v1.py prepare",
+    "python scripts/run_orbit_12h_abcd_dop853_closure_v1.py supervise"
+  ],
+  "later_offline_commands": [
+    "python scripts/analyze_orbit_12h_abcd_dop853_closure_v1.py",
+    "python scripts/plot_orbit_12h_abcd_dop853_closure_v1.py",
+    "python scripts/audit_orbit_12h_abcd_dop853_closure_v1.py",
+    "python scripts/document_orbit_12h_abcd_dop853_closure_v1.py"
+  ],
+  "no_A_B_C_reintegration": true,
+  "no_new_GPU_or_TIE": true
+}

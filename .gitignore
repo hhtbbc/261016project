@@ -252,3 +252,10 @@ credentials.json
 /experiments/orbit_12h_bc_dop853_validation_v1/*_local.npy
 /experiments/orbit_12h_bc_dop853_validation_v1/*_local.csv
 /results/orbit_12h_bc_dop853_validation_v1/comparison_curves.csv
+
+# Four-group closure: raw states, SP3-path and query geometry remain local
+/experiments/orbit_12h_abcd_dop853_closure_v1/*_local.npz
+/experiments/orbit_12h_abcd_dop853_closure_v1/*_local.npy
+/experiments/orbit_12h_abcd_dop853_closure_v1/*_local.csv
+/experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/
+/results/orbit_12h_abcd_dop853_closure_v1/comparison_curves.csv

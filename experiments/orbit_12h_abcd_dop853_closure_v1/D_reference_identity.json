@@ -1,0 +1,50 @@
+[
+  {
+    "branch": "left",
+    "source": "TIEGCM_reference",
+    "height_source": "AUTHOR_REFERENCE_ZG",
+    "frames": 7,
+    "start": "2023-01-04T01:00:00.000",
+    "stop": "2023-01-04T07:00:00.000",
+    "latitude_count": 36,
+    "longitude_count": 72,
+    "rho_shape": [
+      7,
+      29,
+      36,
+      72
+    ],
+    "height_shape": [
+      7,
+      29,
+      36,
+      72
+    ],
+    "all_columns_valid": true,
+    "provenance": {}
+  },
+  {
+    "branch": "right",
+    "source": "TIEGCM_reference",
+    "height_source": "AUTHOR_REFERENCE_ZG",
+    "frames": 7,
+    "start": "2023-01-04T07:00:00.000",
+    "stop": "2023-01-04T13:00:00.000",
+    "latitude_count": 36,
+    "longitude_count": 72,
+    "rho_shape": [
+      7,
+      29,
+      36,
+      72
+    ],
+    "height_shape": [
+      7,
+      29,
+      36,
+      72
+    ],
+    "all_columns_valid": true,
+    "provenance": {}
+  }
+]

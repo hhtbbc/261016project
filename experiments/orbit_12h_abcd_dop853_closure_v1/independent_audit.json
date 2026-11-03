@@ -1,0 +1,28 @@
+{
+  "audit_status": "PASS",
+  "new_trajectories": 2,
+  "new_A_B_C": 0,
+  "new_D": 2,
+  "all_queries": 66483,
+  "all_valid": true,
+  "pre_event_BC_bitwise_identical": true,
+  "event_P_V_bitwise_continuous": true,
+  "vector_effect_independently_verified": true,
+  "protected_SHA_unchanged": 393,
+  "historical_SHA_unchanged": 2346,
+  "NoDrag_SHA_verified": 2,
+  "PNGs_verified": 10,
+  "old_RK45_gate": "FAIL_UNCHANGED",
+  "current_ABCD_gates": {
+    "D_DOP853_30_READY": "PASS",
+    "D_DOP853_15_READY": "PASS",
+    "D_SINGLE_ORBIT_CONVERGENCE_READY": "PASS",
+    "ABCD_HIGH_ORDER_COMPARISON_READY": "PASS",
+    "SIX_PAIR_EFFECT_CONVERGENCE_READY": "PASS",
+    "IDEAL_UPDATE_ORBIT_EFFECT_VALIDATED": "PASS",
+    "SCIENTIFIC_REAL_ORBIT_VALIDATION_READY": "BLOCKED"
+  },
+  "wall_s": 13.015090052038431,
+  "real_orbit": "BLOCKED",
+  "science_training": false
+}

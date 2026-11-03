@@ -1,0 +1,52 @@
+{
+  "open": {
+    "comparison": "B_Open minus D_Reference DOP15",
+    "max_position_m": 9.177466951166874,
+    "terminal_m": 9.177466951166874,
+    "RMS_m": 3.4937240278870774,
+    "post6h_RMS_m": 4.928917616109864,
+    "max_velocity_m_s": 0.010249623333307168,
+    "terminal_velocity_m_s": 0.010249623333307168,
+    "terminal_R_m": 0.4874556925793322,
+    "terminal_A_m": -9.164510105445487,
+    "terminal_C_m": -0.006412076084362006
+  },
+  "updated": {
+    "comparison": "C_Updated minus D_Reference DOP15",
+    "max_position_m": 4.482618107802351,
+    "terminal_m": 4.482618107802351,
+    "RMS_m": 2.1152518167520387,
+    "post6h_RMS_m": 2.968015654692272,
+    "max_velocity_m_s": 0.00499322595795831,
+    "terminal_velocity_m_s": 0.00499322595795831,
+    "terminal_R_m": 0.11786374309041975,
+    "terminal_A_m": -4.481068157568592,
+    "terminal_C_m": -0.0011856167465715828
+  },
+  "endpoint_reduction_percent": 51.156259873729034,
+  "full_RMS_reduction_percent": 39.45566965598901,
+  "post6h_RMS_reduction_percent": 39.783622169064145,
+  "post_samples": 360,
+  "closer_samples": 337,
+  "farther_samples": 23,
+  "equal_samples": 0,
+  "closer_intervals": [
+    {
+      "start_UTC": "07:24:00",
+      "stop_UTC": "13:00:00",
+      "samples": 337
+    }
+  ],
+  "farther_intervals": [
+    {
+      "start_UTC": "07:01:00",
+      "stop_UTC": "07:23:00",
+      "samples": 23
+    }
+  ],
+  "sample_cadence_s": 60,
+  "samples_not_independent": true,
+  "historical_RK45_endpoint_open_m": 9.177625127182976,
+  "historical_RK45_endpoint_updated_m": 4.4824348326751995,
+  "historical_RK45_endpoint_reduction_percent": 51.15909867141131
+}
