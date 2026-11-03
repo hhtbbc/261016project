@@ -1,0 +1,18 @@
+{
+  "provisional_only": true,
+  "second_DOP_still_running": true,
+  "comparison_to_DOP30": [
+    {
+      "old_mode": "base",
+      "max_position_m": 0.25176558067604654,
+      "terminal_m": 0.25176558067604654,
+      "max_speed_m_s": 0.0002808926338545462
+    },
+    {
+      "old_mode": "tight",
+      "max_position_m": 0.008297492105246846,
+      "terminal_m": 0.008297492105246846,
+      "max_speed_m_s": 9.252872740043085e-06
+    }
+  ]
+}

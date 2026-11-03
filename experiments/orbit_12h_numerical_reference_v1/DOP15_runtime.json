@@ -1,0 +1,28 @@
+{
+  "name": "DOP15",
+  "total_s": 1833.982565332204,
+  "segments": [
+    {
+      "start_s": 0.0,
+      "stop_s": 21600.0,
+      "nfev": 21647,
+      "accepted": 1443,
+      "min_step": 0.0381681380644266,
+      "max_step": 15.00000000000091,
+      "wall_s": 917.4600427299738
+    },
+    {
+      "start_s": 21600.0,
+      "stop_s": 43200.0,
+      "nfev": 21647,
+      "accepted": 1443,
+      "min_step": 0.03617234550983994,
+      "max_step": 15.0,
+      "wall_s": 916.5173855945468
+    }
+  ],
+  "nfev": 43294,
+  "position_event_jump_m": 0.0,
+  "velocity_event_jump_m_s": 0.0,
+  "states_SHA": "6593dbfbe5ecc63e4e4b1ccb03af069d5286af465749eb786cb1a5b8722e8d73"
+}

@@ -1,0 +1,131 @@
+"""Bounded conclusions and next-matrix decision from independently audited data."""
+from pathlib import Path
+import sys,csv,json
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
+from run_orbit_12h_numerical_reference_v1 import F,O
+
+def read(n):return list(csv.DictReader((O/n).open()))
+def main():
+    a=json.loads((F/'reference_assessment.json').read_text());sup=json.loads((F/'supervision.json').read_text());force=json.loads((F/'force_audit.json').read_text());old=read('old_error_summary.csv');common=read('common_error.csv');summary=read('reference_comparison.csv');runs=read('reference_runtime.csv');steps=read('accepted_rejected_steps.csv');qualified=a['reference_status']=='PASS_BOUNDED'
+    def md(rows,keys):return '\n'.join('|'+'|'.join(str(r[k]) for k in keys)+'|' for r in rows)
+    result=md(summary,['comparison','max_position_m','terminal_m','RMS_m','max_speed_m_s','below_original_002m']);oldtable=md(old,['group','max_m','terminal_R_m','terminal_A_m','terminal_C_m','max_speed_m_s']);ct=md(common,['group','terminal_cosine','position_vector_component_flat_correlation','max_difference_to_A_m','energy_fraction_A_projection'])
+    runtime=md(runs,['name','total_s','nfev']);ratio=a['terminal_error_ratio_Base_over_Tight'];order=a['descriptive_halving_order']
+    dop30=next(float(r['total_s']) for r in runs if r['name']=='DOP30');dop15=next(float(r['total_s']) for r in runs if r['name']=='DOP15');est=3*(dop30+dop15)*1.65
+    conclusion=('两套DOP853结果满足原0.02m有界参考门槛' if qualified else '两套DOP853结果尚未满足原0.02m参考门槛，不能据其确定RK45绝对误差')
+    report=f'''# 12小时轨道数值误差定位与独立积分参考 V1
+
+## 1. 本轮结论
+
+只新增无阻力A的两条12h DOP853轨迹，没有重跑旧8轨或B/C/D。{conclusion}。原RK45 Base/Tight单轨FAIL与真实轨道BLOCKED不变。
+
+原误差高度共同：相同时间/相同GCRS基中的四条Base−Tight误差在终点几乎同向，配对误差小由共同误差抵消得到直接代数支持。高相关性本身不证明物理或数值根因。
+
+新独立求解器结果：原NoDrag Tight对DOP15最大位置差{a['RK45_Tight_to_DOP15_max_m']:.12g}m，Base对DOP15为{a['RK45_Base_to_DOP15_max_m']:.12g}m；两DOP设置差{a['DOP30_DOP15_max_position_m']:.12g}m。它们是同一冻结H6下的数值比较，不是真实轨道误差，DOP15也不是已证明精确解。
+
+## 2. 数据保护及离线诊断
+
+读取AGENTS/STATUS/WORKLOG及用户指定4份实验报告/协议和实际代码、完整721点输出与旧SHA。文件清单见本轮context/source审计。旧8条轨迹无覆盖；原输出记录97项SHA独立核对，170余冻结输入及历史科学资产最终审计另列。无新AI/TIE/GPU/观测下载、无训练及归一化重拟合。
+
+误差定义`e_i=r_i,Base−r_i,Tight`，速度同理；唯一RAC基使用原A_NoDrag Tight，始终未更换。721等间隔输出只作描述统计，不作独立重复样本。
+
+|组|最大位置差m|终点R m|终点A m|终点C m|最大速度差m/s|
+|---|---:|---:|---:|---:|---:|
+{oldtable}
+
+|相对A组|终点方向余弦|误差向量分量展平相关|最大误差向量差m|投影至A的能量比例|
+|---|---:|---:|---:|---:|
+{ct}
+
+向量内积、投影能量是同单位同基下的描述量。e=0的初始时刻不定义余弦，未补成1或将其作为差异很小的科学样本。均值共同分量及组间残余见`mean_error.csv`，逐小时/四个时间块见`old_error_hourly.csv`、`error_growth_blocks.csv`。
+
+六组逐元素验证`(e_i−e_j)=(r_i,Base−r_j,Base)−(r_i,Tight−r_j,Tight)`精确成立，证据见`pair_identity.csv`。因此配对数值差小确实包含共同误差抵消，不能据此反推四条单轨已经通过。
+
+## 3. 实际积分路径与增长时段
+
+原`rk45_propagator.py`直接solve_ivp(method=RK45)、六维SI状态、分量atol、dense_output=True，无t_eval干预接受步长；60秒输出由连续插值取得。`event_segments.py`在21600s精确结束左段、复制全部六维状态、独立求右段，不重置轨道。
+
+实际nfev/accepted记录用当前SciPy RK45源码复核：每段2个启动调用加6×试步数。16个旧积分段推得拒绝步均为0；Base约99.31%、Tight约99.65%接受步达到max_step。故实际步序列主要被30/15秒上限限制，而不是因误差估计频繁缩步。容差仍影响起步、终步和每步误差控制，旧实验同时改变了tol和max_step，**没有完成严格单因素容差消融**。
+
+逐时曲线呈共同的累计增长；07段界附近没有P/V不连续，A/B/D无大气更新同样出现误差，反对把约0.24m主要归因于FourCastDEN或更新接缝。但本轮只能对保存点和记录步序列作判断，不能据有限曲线宣称所有亚步过程完全光滑。
+
+## 4. H6与时间求值检查
+
+源码映射在`source_evidence.csv`，含实际文件/行号/SHA：
+
+- 40阶完整EGM2008原始系数、归一化、GM/半径不改；Cartesian solid harmonics求解析梯度，无以位置差分估计地球重力。
+- 地固引力只经Q.T旋回GCRS，不重复叠加中心/J2。EarthFixedFrame每次按Astropy完整P/V及ERFA c2t06a求值，冻结IERS-B/闰秒，禁止外推。
+- 日月每次用ERFA epv00/moon98在当前时间求值，未使用人为分段星历表。TimeDelta浮点秒保持原两部分JD接口；全物理窗口01—13UTC，不跨UTC午夜。
+- ITRS/GCRS速度链可能包含框架导数处理；但NoDrag引力只使用变换后位置和Q。固定位置/时间改变速度±0.001m/s，实际NoDrag力逐元素相同，未观察到速度有限差分影响其加速度。
+
+抽取8个冻结状态（含07前/恰好/后），同状态同时间3次重复位级一致。小时间±1、0.1、0.01、0.001、0.0001s和空间±1/0.01m探针全部有限；实际224次调用耗时{force['wall_s']:.3f}s，median {force['median_call_s']:.6f}s。未发现抽样点上的明显大跳变，极小δ下二阶差分可放大舍入，不能据它单独认定力不光滑。也不证明所有轨迹状态/所有时间的全局光滑性或H6物理准确性。
+
+未修改时间处理、物理常数、坐标、力模型、任何旧状态及科学阈值。源代码/有限探针没有支持需要立即修正H6的直接证据。
+
+## 5. 独立高阶参考设计及资源
+
+候选10/5秒DOP853按实测15次RHS/接受步（12步进+3连续输出）估计约{force['candidate_10_5s_estimate_s']:.1f}s，超过3600s。因此**在新参考结果出现前**冻结30/15秒两套DOP853，仍是真正不同阶数积分器的独立数值检查，不冒称执行了10/5秒。
+
+两套相同rtol=2.5e-13、atol位置1e-6m、速度1e-9m/s，高于SciPy的100eps rtol下限；典型状态加权尺度为数微米/数纳米每秒，大于双精度单次表示间隔，严容差不等于可以忽略累计舍入。初态、H6、UTC/GCRS、07分段、721输出完全相同，不使用未来SP3修正。
+
+冻结估计{force['chosen_30_15s_estimate_s']:.1f}s、1.2系数加60秒后{force['safety_estimate_s']:.1f}s。CPU/内存/余盘检查与第二条预算门禁保留。只有A_NoDrag两条正式积分，每条一次，无重试。
+
+|参考|含保存实际秒|nfev|
+|---|---:|---:|
+{runtime}
+
+监督墙钟{sup['wall_s']:.3f}s，峰值树RSS{sup['peak_tree_RSS_bytes']/2**20:.3f}MiB，均不超过3600s/4GiB。逐段接受/拒绝步、SHA、07交接和单位检查见DOP_accepted_rejected.csv及runtime；新物理计算不涉及大气。
+
+## 6. 新数值结果与误差来源证据
+
+|比较|全程最大位置差m|终点m|全窗RMS m|最大速度差m/s|低于原0.02m|
+|---|---:|---:|---:|---:|---|
+{result}
+
+Base/参考与Tight/参考终点范数比{ratio:.6g}，按步长减半计算的描述阶数log2比值约{order:.6g}。结合>99%最大步长、无拒绝步及独立高阶参考，可以判断原设置的有限步长低阶截断误差是主要候选解释；只有当比值接近五阶预期32时，它才进一步支持RK45五阶步长误差标度。此处不将“高阶求解器”或单个比值当作绝对精确性证明，也没有隔离容差起步效应、时间求值舍入和全部有限精度误差。
+
+对当前冻结H6，{conclusion}。它可以判断原NoDrag Tight是否落入0.02m范围，不能倒改历史Base−Tight已经失败的事实。新基准是**相同物理函数的独立积分器/步长收敛证据**，不验证共同H6中的系统物理偏差。
+
+## 7. 4.698米结果与后续矩阵决策
+
+原Updated−Open 4.698346661m两设置配对最大数值差0.000550691m，通过原1%配对门槛；本轮证实共同误差抵消解释了一部分稳定性。无阻力参考不能直接证明B/C/D各自相对高阶参考的误差，也不能将旧配对差当真实误差上界。该4.698m保留为有较强两设置配对稳定证据的**条件结果**，尚未完成独立高阶B/C验证。
+
+不需要从头重做物理数据、密度接口或旧8条轨迹。本轮后若要建立全矩阵的新数值资格，建议在独立标签只对B/C/D各做DOP853两设置（30/15秒，rtol2.5e-13、位置atol1e-6m/速度1e-9m/s），A可只读复用本轮两条。大气时空插值导数和07硬更新可能改变步长行为，不能直接照搬NoDrag合格结论。
+
+按本轮A实测及旧drag/no-drag约1.65成本系数，六条B/C/D新传播约{est:.1f}s，1.5安全系数约{est*1.5:.1f}s；RSS预估<1GiB、上限4GiB，新输出预估<100MiB。它们仅为外推，不是已批准或已测耗时。需重新冻结整体预算，且每步密度100%有效、P/V连续、每组两设置位置差≤0.02m、所有六配对差向量≤1%均须通过。不得用本轮NoDrag近似正确作为其余三组PASS。
+
+若新参考不合格，优先继续小范围数值原因定位，不能启动矩阵。若合格，下一轮最小实验可先B/C两组双设置验证更新效应，D可随后获得独立授权；无论哪种，未经授权本轮都不执行。
+
+## 8. 交付、复现与停止
+
+结果含旧单轨/共同分量/RAC/时间块、H6探针、独立DOP/RK45比较、逐时和运行统计；8张真实图来源与SHA在figure_sources.csv。源码审计证据含当前SciPy实现与版本，3项新CPU合同测试通过（六维atol和DOP连续输出、RK45调用计数、DOP阶段数）；未重放旧事件测试或8轨。
+
+```bash
+source scripts/activate_orbit.sh
+python tests/test_orbit_numerical_reference_v1.py
+python scripts/run_orbit_12h_numerical_reference_v1.py offline
+python scripts/run_orbit_12h_numerical_reference_v1.py force_audit
+python scripts/run_orbit_12h_numerical_reference_v1.py freeze
+python scripts/run_orbit_12h_numerical_reference_v1.py supervise
+python scripts/analyze_orbit_12h_numerical_reference_v1.py
+python scripts/plot_orbit_12h_numerical_reference_v1.py
+python scripts/document_orbit_12h_numerical_reference_v1.py
+```
+
+正式已用标签禁止重放。新轨迹NPZ仅本地，公开轻量CSV/图/代码/报告及SHA，不上传SP3、原轨迹、权重或凭据。旧ORBIT_NUMERICAL_CONVERGENCE_READY=FAIL_UNCHANGED，真实Swarm轨道BLOCKED，科学训练False。本轮完成停止，不追加B/C/D、24小时、多日期或真实卫星实验。
+'''
+    path=ROOT/'reports/ORBIT_12H_NUMERICAL_REFERENCE_V1.md';assert not path.exists();path.write_text(report)
+    talk=f'''# 三分钟中文组会汇报稿：为什么单轨差24厘米、配对却稳定
+
+本轮没有重跑上一轮八条轨道，而是先读取全部保存状态，弄清楚Base和Tight差在哪里。结果发现，四组数值误差几乎同向、同步增长，终点方向余弦超过0.9999999。对两条轨道相减时，这部分共同误差又被减掉，所以配对差很稳定，但这不能说明单条轨道已经满足两厘米要求。
+
+我们还查了实际步长和函数调用。旧RK45没有拒绝步，超过99%的步都卡在事前设置的30秒或15秒上限。无阻力组同样存在问题，说明不能把主要原因直接归咎于AI密度或七点大气更新。H6的重复加速度求值位级一致，有限时间和空间扰动没有发现明显跳变；这只是有限检查，不是证明物理模型等于真实世界。
+
+接着只对无阻力组增加两条DOP853高阶积分。原候选10秒和5秒估计超过预算，所以在看到结果前就冻结30秒、15秒两组相同严格容差，保持相同H6、初态和七点分段。两条新参考最大位置差为{a['DOP30_DOP15_max_position_m']:.6g}米。旧Tight对新参考最大差{a['RK45_Tight_to_DOP15_max_m']:.6g}米，Base为{a['RK45_Base_to_DOP15_max_m']:.6g}米。终点误差比约{ratio:.3f}，可结合步长受限事实判断有限步长截断误差的作用。
+
+现在的证据比只看Base和Tight更强，但新参考仍是相同力模型下的数值参考，不是真实卫星轨道真值。历史那次Base与Tight相差超过两厘米的失败记录不能改成通过，B、C、D也没有新高阶参考。
+
+因此，之前更新与不更新相差4.698米，已有两设置配对稳定性支持，也确认其中存在共同误差抵消，但还不能说完成了独立高精度验证。下一步若获授权，应在新标签下只补B/C的两套高阶设置，再检查同一密度有效域和配对收敛，必要时补D。真实高度登记、气动和推力条件仍然需要单独解决，不能因为换了更高阶积分器就宣称真实轨道精度提升。
+'''
+    q=ROOT/'docs/ORBIT_12H_NUMERICAL_REFERENCE_TALK.md';assert not q.exists();q.write_text(talk)
+    print('report and talk saved')
+if __name__=='__main__':main()

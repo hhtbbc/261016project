@@ -241,3 +241,8 @@ credentials.json
 /experiments/fourcastden_orbit_update_12h_v1/*_local.npy
 /results/fourcastden_orbit_update_12h_v1/pair_curves.csv
 /experiments/fourcastden_orbit_update_12h_v1/figure_draft_v1_local/
+
+# Independent orbit numerical reference raw trajectories remain local
+/experiments/orbit_12h_numerical_reference_v1/*_local.npz
+/experiments/orbit_12h_numerical_reference_v1/*_local.npy
+/experiments/orbit_12h_numerical_reference_v1/*_local.csv

@@ -1,0 +1,10 @@
+{
+  "Python": "3.10.19 (main, Jan 14 2026, 19:36:24) [Clang 21.1.4 ]",
+  "executable": "/workspace/data/20261016/.venv310/bin/python",
+  "numpy": "1.25.0",
+  "scipy": "1.15.3",
+  "astropy": "6.1.7",
+  "activation": "source scripts/activate_orbit.sh",
+  "long_solver": "DOP853",
+  "no_dependency_install": true
+}

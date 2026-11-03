@@ -1,0 +1,23 @@
+{
+  "commands_executed": [
+    "source scripts/activate_orbit.sh",
+    "python scripts/run_orbit_12h_numerical_reference_v1.py offline",
+    "python scripts/run_orbit_12h_numerical_reference_v1.py force_audit",
+    "python tests/test_orbit_numerical_reference_v1.py",
+    "python scripts/run_orbit_12h_numerical_reference_v1.py freeze",
+    "python scripts/run_orbit_12h_numerical_reference_v1.py supervise",
+    "python scripts/audit_reference_rhs_equivalence_v1.py",
+    "python scripts/analyze_orbit_12h_numerical_reference_v1.py",
+    "python scripts/plot_orbit_12h_numerical_reference_v1.py",
+    "python scripts/audit_orbit_12h_numerical_reference_v1.py",
+    "python scripts/document_orbit_12h_numerical_reference_v1.py"
+  ],
+  "onset_extension": "inline equivalent preserved as scripts/extend_orbit_numerical_offline_v1.py",
+  "do_not_replay_completed_tag": true,
+  "new_long_trajectories": 2,
+  "new_short_H6_trajectories": 0,
+  "old_8_trajectories_rerun": 0,
+  "baseline_HEAD": "7c3e5f6580d3db8024478a8c24fcf4baa21d6a8d",
+  "real_orbit_gate": "BLOCKED",
+  "scientific_training_READY": false
+}

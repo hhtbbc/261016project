@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "sample_calls": 224,
+  "repeat_bitwise": true,
+  "velocity_invariance": true,
+  "all_finite": true,
+  "wall_s": 9.434715054929256,
+  "median_call_s": 0.041786326095461845,
+  "P95_call_s": 0.04266738761216402,
+  "candidate_10_5s_estimate_s": 8123.261792957783,
+  "chosen_30_15s_estimate_s": 2707.7539309859276,
+  "safety_estimate_s": 3309.304717183113,
+  "no_obvious_jump_proven_only_at_sampled_states": true,
+  "not_global_smoothness_proof": true
+}

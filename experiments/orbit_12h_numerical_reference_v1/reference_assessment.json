@@ -1,0 +1,21 @@
+{
+  "reference_status": "PASS_BOUNDED",
+  "DOP30_DOP15_max_position_m": 1.277897769820596e-06,
+  "original_reference_gate_m": 0.02,
+  "RK45_Tight_to_DOP15_max_m": 0.008296215935892958,
+  "RK45_Base_to_DOP15_max_m": 0.251764304490606,
+  "terminal_error_ratio_Base_over_Tight": 30.346884222403922,
+  "descriptive_halving_order": 4.923476494477382,
+  "max_step_limited_RK45_paths_observed": true,
+  "ratio_is_descriptive_not_isolated_causal_test": true,
+  "isolated_tolerance_ablation_performed": false,
+  "old_ORBIT_NUMERICAL_CONVERGENCE_READY": "FAIL_UNCHANGED",
+  "new_reference_does_not_rewrite_history": true,
+  "common_force_physical_accuracy_not_validated": true,
+  "B_C_D_new_reference_status": "NOT_COMPUTED",
+  "previous_updated_open_4point698m": "supported by old paired sensitivity only; no independent high-order B/C verification",
+  "protected_unchanged": 269,
+  "historical_unchanged": 2346,
+  "analysis_wall_s": 13.42775059118867,
+  "analysis_RSS_MiB": 88.8828125
+}

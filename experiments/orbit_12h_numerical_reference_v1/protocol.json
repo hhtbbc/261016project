@@ -1,0 +1,57 @@
+{
+  "epoch": "2023-01-04T01:00:00",
+  "duration_s": 43200,
+  "event_s": 21600,
+  "output_s": 60,
+  "group": "A_NoDrag only",
+  "solver": "DOP853",
+  "cases": [
+    {
+      "name": "DOP30",
+      "max_step": 30.0
+    },
+    {
+      "name": "DOP15",
+      "max_step": 15.0
+    }
+  ],
+  "rtol": 2.5e-13,
+  "atol": [
+    1e-06,
+    1e-06,
+    1e-06,
+    1e-09,
+    1e-09,
+    1e-09
+  ],
+  "rtol_above_scipy_100eps_floor": true,
+  "rationale": "Same tolerance for both high-order references; max30/15 chosen before results to fit measured 3600s budget; 10/5 candidates exceed budget",
+  "reference_pair_gate_m": 0.02,
+  "old_single_gate_m": 0.02,
+  "limits": {
+    "wall_s": 3600,
+    "RSS_GiB": 4,
+    "free_disk_GiB": 20,
+    "output_MiB": 100
+  },
+  "estimate": {
+    "status": "PASS",
+    "sample_calls": 224,
+    "repeat_bitwise": true,
+    "velocity_invariance": true,
+    "all_finite": true,
+    "wall_s": 9.434715054929256,
+    "median_call_s": 0.041786326095461845,
+    "P95_call_s": 0.04266738761216402,
+    "candidate_10_5s_estimate_s": 8123.261792957783,
+    "chosen_30_15s_estimate_s": 2707.7539309859276,
+    "safety_estimate_s": 3309.304717183113,
+    "no_obvious_jump_proven_only_at_sampled_states": true,
+    "not_global_smoothness_proof": true
+  },
+  "initial_state_file": "experiments/fourcastden_orbit_update_12h_v1/initial_GCRS_local.npy",
+  "initial_SHA": "75c16067a16319946d318c93a20f7d44e36dff8d271a189ba74653676a3ba1e1",
+  "no_SP3_feedback": true,
+  "no_old_matrix_rerun": true,
+  "no_physics_change": true
+}

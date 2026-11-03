@@ -1,0 +1,7 @@
+pair,vector_identity_max_abs,max_pair_position_numerical_m,max_pair_velocity_numerical_m_s
+A_NoDrag minus B_Open,0.0,0.0013881250792342219,1.5265613937298982e-06
+A_NoDrag minus C_Updated,0.0,0.0019382304718071938,2.1139165948448743e-06
+A_NoDrag minus D_Reference,0.0,0.00024253923019183408,2.5676227118240437e-07
+B_Open minus C_Updated,0.0,0.0005506914572810762,5.887407463695943e-07
+B_Open minus D_Reference,0.0,0.0015590850946938914,1.735290917883707e-06
+C_Updated minus D_Reference,0.0,0.0020876294233106688,2.302022993816279e-06

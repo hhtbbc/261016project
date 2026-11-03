@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "new_NoDrag_trajectories": 2,
+  "new_B_C_D": 0,
+  "summary_comparisons_independently_verified": 3,
+  "old_pair_identities": 6,
+  "protected_unchanged": 269,
+  "original_outputs_verified": 97,
+  "old_overall_gate": "FAIL_UNCHANGED",
+  "PNGs": 8,
+  "wall_s": 4.453571852296591,
+  "no_new_force_calls": true,
+  "real_orbit_gate": "BLOCKED",
+  "scientific_training_READY": false
+}

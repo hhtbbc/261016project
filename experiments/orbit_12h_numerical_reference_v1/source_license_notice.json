@@ -1,0 +1,8 @@
+{
+  "copied_source": "scipy_implementation.json; RK45._step_impl/DOP853._dense_output_impl",
+  "package": "SciPy",
+  "version": "1.15.3",
+  "license_file": "SCIPY_LICENSE.md",
+  "intent": "read-only runtime source audit; no installed source modification or dependency installation",
+  "license_text_unchanged": true
+}

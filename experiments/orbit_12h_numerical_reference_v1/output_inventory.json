@@ -1,0 +1,263 @@
+{
+  "files": [
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/RHS_equivalence.json",
+      "bytes": 643,
+      "SHA256": "d8625e0a5fa115329dbc3181d19ef556af15d2b48af90d7605de4223f4f4656f"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/independent_audit.json",
+      "bytes": 401,
+      "SHA256": "4aba99e7cf86ee8c0cdcb09688440d32e542c39c158b249358d47af75544af7f"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/DOP30_states_local.npz",
+      "bytes": 39142,
+      "SHA256": "cb44685393c962c5e9bedc14d0cae7aa0a5c8f580f1db71804ba47d8628dd4ba"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/reference_assessment.json",
+      "bytes": 979,
+      "SHA256": "90b15817a7601092e885473330a1455ded7a941d8e8a689f8e582c4f851cc1eb"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/supervisor_once.json",
+      "bytes": 58,
+      "SHA256": "089787a0bd9e34a6c4c2e4b58a88cf514635b4ab22590e6fa0daa9ab55bd8170"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/supervision.json",
+      "bytes": 126,
+      "SHA256": "1aa08587b65f05aecb0a2dd362b7bfe4bf2e657a19b7a4347839b5bf862dcaad"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/second_run_budget_gate.json",
+      "bytes": 94,
+      "SHA256": "b3f39939366343a5e3f4d9ab6e90090dcf9718045b45507f40e42a88fcb40c44"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/context_read.json",
+      "bytes": 719,
+      "SHA256": "c3e0334a2f4e2faa173273fb9e1e90bda92f630f1522bad6275ad3c08c46c721"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/first_reference_provisional_comparison.json",
+      "bytes": 441,
+      "SHA256": "c824088a0223c7e310349620e5034c81650635f530f52ecaeaf3fa9a8720e203"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/CPU_test_result.json",
+      "bytes": 184,
+      "SHA256": "faa9de64a3351d41e67680c1be046b2ec92971338295b5cdee4aefb1530504dd"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/protected.json",
+      "bytes": 36550,
+      "SHA256": "debefe6d2f0064f6dc79c76e5c82df667328533230a2893b7a1c3352e58db5a9"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/original_output_verification.json",
+      "bytes": 217,
+      "SHA256": "1f3d1aacd5573e59af81d634761e0755067f4ab113d4e33dff06b7a3e191e7f6"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/offline_complete.json",
+      "bytes": 220,
+      "SHA256": "4377be066e6662e28fa794b8a91eef45369bc55dd78bc37330abcc65023477cf"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/force_audit.json",
+      "bytes": 473,
+      "SHA256": "f4d47a10c0931170000a71147fea1ecf0e1c0d23d7c5fcb117b7e93292ada47d"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/software_versions.json",
+      "bytes": 312,
+      "SHA256": "6856cc9606accc71ae5627a22592f5079c9f725c912c7dcb4264024c14d7c4f4"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/DOP30_runtime.json",
+      "bytes": 646,
+      "SHA256": "136f457c5aae1a6359c7e63f9f90b94bab96b5634067ececdab0f2f2f0f249f7"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/delivery_source_SHA.json",
+      "bytes": 1326,
+      "SHA256": "15597ca1f4905ad05bd045fb1a4e03312999277feede2e45f72afc0d2be96274"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/worker_once.json",
+      "bytes": 54,
+      "SHA256": "abebb025515059488c5e5d773a71e34334a34c40267602475ae4dee16dbb1624"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/DOP15_runtime.json",
+      "bytes": 661,
+      "SHA256": "75237a248e68a798848a719a9ebcfd0f2175f741f5af2b004fbad6a83bab0a55"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/DOP15_states_local.npz",
+      "bytes": 42089,
+      "SHA256": "6593dbfbe5ecc63e4e4b1ccb03af069d5286af465749eb786cb1a5b8722e8d73"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/protocol.json",
+      "bytes": 1529,
+      "SHA256": "35a28198718c9238e1ef9f82f6f0e65f208a8f2535902283c4c05a3c51c09bef"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/resource_preflight.json",
+      "bytes": 1989,
+      "SHA256": "fb01afd250bfb75431b6fa0a45a64506dc7e8b602f6edbd0ee7e85c649b9d696"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/worker_complete.json",
+      "bytes": 1603,
+      "SHA256": "e59e316f24a5107249a45147de98a31bf9cf39e5c96b1b2520ea9e416be69e70"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/scipy_implementation.json",
+      "bytes": 2778,
+      "SHA256": "16c82cf1f2dbd3085ef328518dfec167aee594fad42c886265e30820558ca6a7"
+    },
+    {
+      "path": "experiments/orbit_12h_numerical_reference_v1/command_record.json",
+      "bytes": 1103,
+      "SHA256": "6082dcfa13febe463c2f8eeaf658a7a796bda061aad9a430238c3ef5b617bb7b"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/reference_runtime.csv",
+      "bytes": 217,
+      "SHA256": "ff1249c22f12a9fc10fd2cb05a25cf4ff76e18fa464145f16300b54d2df50041"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/mean_error.csv",
+      "bytes": 44924,
+      "SHA256": "dcf64afdfa203d6eb5866a2f93ef2ade8102b91955f925f94fe5746cc8be0f40"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/source_evidence.csv",
+      "bytes": 4243,
+      "SHA256": "af17dcbcfd003896e1f021ffae6c8212850f4addd72df771db89b4ee17ab46bc"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/old_four_track_errors.png",
+      "bytes": 140745,
+      "SHA256": "84deaf7b02fc4e6f8ea1ed0cbc183c5bd3b610f06670ccf94e29a2d3220be3d3"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/reference_curves.csv",
+      "bytes": 471434,
+      "SHA256": "dfaaa4bdc4c03c5968f64708b800458cdc5a11612cfa5a128dc527fa0dbad0b3"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/error_growth_blocks.csv",
+      "bytes": 1557,
+      "SHA256": "22982a997023782b0ac819217abe64dfa1a1d44837d96a002a21a51635a72853"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/figure_sources.csv",
+      "bytes": 900,
+      "SHA256": "e7fafec238b8ac63117125efb95efdafee7b1a852c2ea081aab81cda7cf305b4"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/old_error_hourly.csv",
+      "bytes": 9447,
+      "SHA256": "9d8a85dde08145cdfede5216e3a632cf9a909d40811c23b0d51daad93f782a33"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/pair_identity.csv",
+      "bytes": 533,
+      "SHA256": "1bdfc9cd13a1f203f766a77fcf20ee81fbbdbbbfbd0996295b13bd11b9658cf6"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/reference_comparison.csv",
+      "bytes": 736,
+      "SHA256": "b6f1c14bc2fa2e22e46e4d87059d7b547f3b0c1c8677cdfc01e7297cda04b248"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/common_error.csv",
+      "bytes": 627,
+      "SHA256": "95ef51ae70f56ae8f823d9fab1200b08cbb6d1ecdeacc74a4b9e449583bec3d1"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/force_time_probes.png",
+      "bytes": 129863,
+      "SHA256": "33b3baddb9c705fcb6bddefd4f51da098b2c9c9de6874c57493652ed5bc13802"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/RK45_DOP853_comparison.png",
+      "bytes": 140618,
+      "SHA256": "0491a1f4ecaba1d9ea0f59417bf41e817f266da5643b1f161d386a0a48140c2b"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/accepted_rejected_steps.csv",
+      "bytes": 1423,
+      "SHA256": "6d4c6f1753319477d69acd64bb03f3931f371fa4cb5e52c69141afd9460ceb3a"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/old_error_curves.csv",
+      "bytes": 580145,
+      "SHA256": "fd7e9e9feecf70b61399d91ac5239da735d819777b6d869075de38d0e00eb830"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/force_perturbations.csv",
+      "bytes": 8972,
+      "SHA256": "de8a67f3b9b6d4f3e62c68a6c44df8caa7ca85419ab081047b8a628a10b3bd9a"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/reference_hourly.csv",
+      "bytes": 7757,
+      "SHA256": "5b4caf7383427583c28bbc8c49154ff17fde593c962095deca717d1bcf1d1211"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/reference_RAC.png",
+      "bytes": 177479,
+      "SHA256": "11379166a40942e60e848f13c36e41a03c2557be0f0a4c9a73f415fb74f31b21"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/step_ratio_evidence.csv",
+      "bytes": 1556,
+      "SHA256": "7eae0d1045390fa972d3d1becfbc346a758f95efec1dfdb712d3934514c70384"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/error_growth_blocks.png",
+      "bytes": 74857,
+      "SHA256": "7f16229c3ce2ec494f92301bf8fb51458ff96f1fe1820a7f7b092fc992f1870e"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/error_onset_and_event.csv",
+      "bytes": 1195,
+      "SHA256": "34d2a5f018de5016b6338c5ccbb935648097fcf499df15aaf8bb8b27f8ef42da"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/old_error_summary.csv",
+      "bytes": 809,
+      "SHA256": "8d0ab3ebd5d159a1de73a927f61fdd2ea4fd7101d9c0af68455c59927eb084e3"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/old_RAC_errors.png",
+      "bytes": 181699,
+      "SHA256": "8a3d8d3f390c9857abc7a94f810db731dae423d6b81f5c59ccd4d3f75ea9f511"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/DOP_reference_convergence.png",
+      "bytes": 134417,
+      "SHA256": "07a4d3999b91848510d217dd6e9451901b418017929682ee0658ccbfc46ca1d9"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/DOP_accepted_rejected.csv",
+      "bytes": 263,
+      "SHA256": "0fd72d0b3b640a7bc9648358c80636f7065d6335f75b371b47a3c9928a8b78e4"
+    },
+    {
+      "path": "results/orbit_12h_numerical_reference_v1/common_error_component.png",
+      "bytes": 125630,
+      "SHA256": "7619570f3aac69ea2e12387635cf775860f1e82d417463a6face69b88ef1fa67"
+    }
+  ],
+  "raw_states_local_only": true,
+  "old_gate": "FAIL_UNCHANGED",
+  "new_NoDrag_reference": "PASS_BOUNDED",
+  "all_PNGs_verified": 8
+}

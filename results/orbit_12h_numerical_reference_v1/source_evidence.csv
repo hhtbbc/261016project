@@ -1,0 +1,24 @@
+file,line,code,SHA256
+src/orbit/rk45_propagator.py,17,"rtol=1e-10, atol=(1e-3, 1e-3, 1e-3, 1e-6, 1e-6, 1e-6), max_step=30.):",b713b74e7716aad4d8aeb972da3de43749ab2516cddd61092cf88ce12c60a3fb
+src/orbit/rk45_propagator.py,28,"if tolerance.shape != (6,) or not np.isfinite(tolerance).all() or np.any(tolerance <= 0) or not np.isfinite(rtol) or rtol <= 0 or not np.isfinite(max_step) or max_step <= 0:",b713b74e7716aad4d8aeb972da3de43749ab2516cddd61092cf88ce12c60a3fb
+src/orbit/rk45_propagator.py,31,"solution = solve_ivp(rhs, span, y0, method='RK45', rtol=rtol, atol=tolerance,",b713b74e7716aad4d8aeb972da3de43749ab2516cddd61092cf88ce12c60a3fb
+src/orbit/rk45_propagator.py,32,"max_step=max_step, dense_output=True)",b713b74e7716aad4d8aeb972da3de43749ab2516cddd61092cf88ce12c60a3fb
+src/orbit/rk45_propagator.py,40,"'method':'RK45', 'rtol':rtol, 'atol_si':tolerance.tolist(), 'max_step_s':max_step,",b713b74e7716aad4d8aeb972da3de43749ab2516cddd61092cf88ce12c60a3fb
+src/orbit/event_segments.py,38,"def bounded_rhs(t, y):",fa9dc968adc1a2c318d987a9242330a500e3bf4c0f081dc95e41b79a344e47b5
+src/orbit/event_segments.py,43,"seg = propagate(bounded_rhs, state[:3], state[3:], (a, b), [a, b], **kwargs)",fa9dc968adc1a2c318d987a9242330a500e3bf4c0f081dc95e41b79a344e47b5
+src/orbit/event_segments.py,53,state = seg.states[-1].copy(); segments.append(seg),fa9dc968adc1a2c318d987a9242330a500e3bf4c0f081dc95e41b79a344e47b5
+src/orbit/spherical_harmonics_gravity.py,46,"def evaluate_itrs(self, position_m):",600f5fd704a50327fd1d6f2a104e02f9b023fb8378dfb29116152fa3a4cec0ff
+src/orbit/spherical_harmonics_gravity.py,69,"def acceleration_itrs(self, position_m):return self.evaluate_itrs(position_m)[1]",600f5fd704a50327fd1d6f2a104e02f9b023fb8378dfb29116152fa3a4cec0ff
+src/orbit/spherical_harmonics_gravity.py,70,"def potential_itrs(self, position_m):return self.evaluate_itrs(position_m)[0]",600f5fd704a50327fd1d6f2a104e02f9b023fb8378dfb29116152fa3a4cec0ff
+src/orbit/spherical_harmonics_gravity.py,73,"""""""Exact existing ERFA c2t06a per call, frozen EOP; force rotates only.""""""",600f5fd704a50327fd1d6f2a104e02f9b023fb8378dfb29116152fa3a4cec0ff
+src/orbit/drag.py,4,from astropy.time import TimeDelta,29f92963bf81c40bfaa682e9d9518099e84c63c435a2664e27dbd994d0d94ab3
+src/orbit/drag.py,44,"times=self.epoch+TimeDelta([float(seconds)],format='sec')",29f92963bf81c40bfaa682e9d9518099e84c63c435a2664e27dbd994d0d94ab3
+src/orbit/drag.py,46,"r,v=transform_state(np.asarray(position)[None,:],np.asarray(velocity)[None,:],times,'GCRS','ITRS')",29f92963bf81c40bfaa682e9d9518099e84c63c435a2664e27dbd994d0d94ab3
+src/orbit/drag.py,48,"Q=erfa.c2t06a(times.tt.jd1,times.tt.jd2,times.ut1.jd1,times.ut1.jd2,",29f92963bf81c40bfaa682e9d9518099e84c63c435a2664e27dbd994d0d94ab3
+src/orbit/frames.py,22,leap.update_erfa_leap_seconds(initialize_erfa=True),a5d262501e8e6f148df0a8934003622fc3c868091d50a65267e63637b3b39c8c
+src/orbit/frames.py,43,if np.any(status!=iers.FROM_IERS_B) or np.any(pm_status!=iers.FROM_IERS_B):,a5d262501e8e6f148df0a8934003622fc3c868091d50a65267e63637b3b39c8c
+src/orbit/frames.py,51,"def transform_state(position_m,velocity_m_s,times,source,target):",a5d262501e8e6f148df0a8934003622fc3c868091d50a65267e63637b3b39c8c
+src/orbit/third_body_gravity.py,3,"PROVISIONAL_EPHEMERIS: frozen ERFA epv00 Sun, moon98 Moon; no online access.",6099491ef26a45fce4e741ef03fc5d6bf371f97f4f4ee683e0f503ae95de4655
+src/orbit/third_body_gravity.py,11,from astropy.time import TimeDelta,6099491ef26a45fce4e741ef03fc5d6bf371f97f4f4ee683e0f503ae95de4655
+src/orbit/third_body_gravity.py,23,"self.metadata={'status':'PROVISIONAL_EPHEMERIS','position_source':'ERFA epv00 geometric heliocentric Earth (negative) for Sun; ERFA moon98 TT native GCRS Moon','erfa_version':erfa.__version__,'GM_source_sha256':meta['sha256'],'GM_time_scale':'DE440 TDB-compatible SI values; full TT rescaling/spatial mapping omitted at leading Newtonian order','no_runtime_download':True,'full_relativistic_mapping':False}",6099491ef26a45fce4e741ef03fc5d6bf371f97f4f4ee683e0f503ae95de4655
+src/orbit/third_body_gravity.py,27,"t=self.epoch+TimeDelta(seconds,format='sec');helio,bary=erfa.epv00(t.tdb.jd1,t.tdb.jd2);moon=erfa.moon98(t.tt.jd1,t.tt.jd2)",6099491ef26a45fce4e741ef03fc5d6bf371f97f4f4ee683e0f503ae95de4655

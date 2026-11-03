@@ -1,0 +1,7 @@
+{
+  "new_CPU_tests": 3,
+  "status": "PASS",
+  "wall_s": 0.084,
+  "scope": "installed solver contracts, no H6 propagation",
+  "log": "logs/orbit_12h_numerical_reference_v1_tests.log"
+}

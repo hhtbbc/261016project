@@ -1,5 +1,7 @@
 # 当前状态
 
+> 最新（2026-11-03，独立数值参考）：不重跑旧8轨，仅新增A_NoDrag两条12h DOP853（冻结max30/15秒，同rtol2.5e-13、atol位置1e-6m/速度1e-9m/s），监督2755.582秒、峰值树RSS236.414MiB，均在3600秒/4GiB内。两DOP全窗最大差1.277898e-6m；旧RK45 Tight对DOP15最大0.008296216m、Base0.251764304m，终点比30.3469/描述阶4.9235。旧RK45无拒绝步、>99%受max_step限制，支持较大步长累计截断误差主导共同约0.24m差异；纯tol消融未做，H6未发现需改的直接错误。六配对恒等关系精确、共同误差抵消证实；269任务资产/97原输出/2346历史SHA不变，3新CPU合同测试通过。新NoDrag参考PASS_BOUNDED，旧ORBIT_NUMERICAL_CONVERGENCE_READY=FAIL不改，B/C/D高阶参考未执行，真实轨道BLOCKED/科学训练False保持。8图/报告/3分钟稿及复算决策完成；下一轮优先独立B/C高阶验证4.698m，需新授权。入口reports/ORBIT_12H_NUMERICAL_REFERENCE_V1.md。
+
 > 最新（2026-11-03接续离线验收，10-31实际运行）：Jan4 Direct 01—13四组H6 Base/Tight共8轨/16段/各721点全部完成，监督6633.434秒、峰值树RSS359.766MiB，82422次密度查询全有效。07 P/V位级连续，B/C前6h位级一致。Tight Updated−Open终点4.698347m（R−0.369602/A+4.683784/C+0.005227m）；Open−TIE9.177625m、Updated−TIE4.482435m，终点缩小51.1591%，全窗RMS3.493828→2.115269m；07:01—07:23更新组反而更远，保留23点。关键：四单轨Base/Tight最大位置差0.24165—0.24371m，全部超过冻结0.02m；六配对1%门槛通过但整体数值收敛FAIL，8图明确红色标注。6新CPU测试、独立审计170任务/2346历史SHA不变。实际条件计算不是真实Swarm精度；正式坐标/气动/真实轨道BLOCKED、科学训练False不变。未自动重跑/扩窗/训练。入口reports/FOURCASTDEN_ORBIT_UPDATE_12H_V1.md。
 
 > 最新（2026-10-31，状态更新轨道）：Jan4 06:30—07:30 Direct四组H6 Base/Tight共8条/16段实际完成，监督580.941秒、峰值树RSS359.586MiB；7182次实际密度查询全部有效，07左右P/V位级连续，B/C更新前位级一致。Updated−Open终点16.232023mm（R−15.128/A+5.866/C−0.451mm）；相对TIE参考条件轨道由16.235424mm降至6.286545mm。4单轨/6配对收敛及5新CPU测试通过，92任务/2346历史SHA不变。5图与讲稿完成。全部为PROVISIONAL_COORDINATE_A/合成气动/HINDCAST虚拟模型间差异，不是真实Swarm精度；正式高度/轨道BLOCKED、科学训练False保留。12h四组双精度外推6894秒，需另授权及覆盖检查，本轮未执行。入口reports/FOURCASTDEN_ORBIT_UPDATE_EVENT_V1.md。
