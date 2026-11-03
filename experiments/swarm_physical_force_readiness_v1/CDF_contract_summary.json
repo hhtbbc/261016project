@@ -1,0 +1,336 @@
+[
+  {
+    "product": "SC_ADYN",
+    "path": "data/raw/swarm_physical_force_readiness_v1/extracted/SW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601_MDR_SC_DYN.cdf",
+    "SHA256": "b07c7b523fcd5118d7edf6d329a5ccf17dfe9209376415d77ad78eb4127593b4",
+    "variables": {
+      "Timestamp": {
+        "attributes": {
+          "DESCRIPTION": "Time stamp",
+          "UNITS": "-"
+        },
+        "dtype": "CDF_EPOCH",
+        "dimensions": []
+      },
+      "SyncStatus": {
+        "attributes": {
+          "DESCRIPTION": "Synchronization status",
+          "UNITS": "-"
+        },
+        "dtype": "CDF_UINT2",
+        "dimensions": []
+      },
+      "a_Sun": {
+        "attributes": {
+          "DESCRIPTION": "Acceleration due to Solar radiation pressure, S/C frame",
+          "UNITS": "m/s2"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          3
+        ]
+      },
+      "e_Sun": {
+        "attributes": {
+          "DESCRIPTION": "Direction to the Sun, unit vector, S/C frame",
+          "UNITS": "-"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          3
+        ]
+      },
+      "m_SC": {
+        "attributes": {
+          "DESCRIPTION": "Actual mass of S/C",
+          "UNITS": "kg"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": []
+      },
+      "r_CoG": {
+        "attributes": {
+          "DESCRIPTION": "Center of gravity, S/C frame",
+          "UNITS": "m"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          3
+        ]
+      },
+      "A_head": {
+        "attributes": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,front",
+          "UNITS": "m2"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          3
+        ]
+      },
+      "A_right": {
+        "attributes": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,right",
+          "UNITS": "m2"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          3
+        ]
+      },
+      "A_left": {
+        "attributes": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,left",
+          "UNITS": "m2"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          3
+        ]
+      },
+      "A_down": {
+        "attributes": {
+          "DESCRIPTION": "Cross sections of the S/C, orbit frame,down",
+          "UNITS": "m2"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          3
+        ]
+      },
+      "K_Earth": {
+        "attributes": {
+          "DESCRIPTION": "Downward optical reflectivity of the S/C",
+          "UNITS": "m2"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          3
+        ]
+      },
+      "P_Gas": {
+        "attributes": {
+          "DESCRIPTION": "Pressure of gas tanks",
+          "UNITS": "Pa"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          2
+        ]
+      },
+      "T_Gas": {
+        "attributes": {
+          "DESCRIPTION": "Temperature of gas tanks",
+          "UNITS": "deg C"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          2
+        ]
+      },
+      "Flags_Platform": {
+        "attributes": {
+          "DESCRIPTION": "Flags characterizing the S/C platform information",
+          "UNITS": "-"
+        },
+        "dtype": "CDF_UINT2",
+        "dimensions": []
+      },
+      "Flags_q": {
+        "attributes": {
+          "DESCRIPTION": "Flags characterizing the attitude information",
+          "UNITS": "-"
+        },
+        "dtype": "CDF_UINT1",
+        "dimensions": []
+      },
+      "dt_thr": {
+        "attributes": {
+          "DESCRIPTION": "Thruster on-time",
+          "UNITS": "s"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          12
+        ]
+      },
+      "thr_set": {
+        "attributes": {
+          "DESCRIPTION": "Flag indicating which thruster branch is active ",
+          "UNITS": "-"
+        },
+        "dtype": "CDF_UINT2",
+        "dimensions": []
+      },
+      "f_thr": {
+        "attributes": {
+          "DESCRIPTION": "Nominal thrust force of activated thrusters (combined x, y, z)",
+          "UNITS": "mN"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          3
+        ]
+      },
+      "a_centr": {
+        "attributes": {
+          "DESCRIPTION": "Centrifugal acceleration, S/C frame",
+          "UNITS": "m/s2"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          3
+        ]
+      },
+      "a_GG": {
+        "attributes": {
+          "DESCRIPTION": "Gravity gradient acceleration, S/C frame",
+          "UNITS": "m/s2"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          3
+        ]
+      }
+    },
+    "full_day_records": 86400,
+    "target_records": 43200,
+    "target_first_UTC": "2023-01-04T01:00:00.756796875",
+    "target_last_UTC": "2023-01-04T12:59:59.757007812",
+    "cadence_min_s": 0.996273438,
+    "cadence_max_s": 1.00384375,
+    "time_scale": "CDF_EPOCH with fractional ms preserved, anchored to UTC Sensing_Start",
+    "serialized_epoch_ULP_s": 7.8125e-06,
+    "version_applicability": "CDF self-description verified; external0601 codebook NOT acquired",
+    "globals_summary": {
+      "File_Name": [
+        "SW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601"
+      ],
+      "File_Type": [
+        "SC_ADYN_1B"
+      ],
+      "File_Version": [
+        "0601"
+      ],
+      "Ref_Doc": [
+        "SW-RS-DSC-SY-0007"
+      ],
+      "Software_Version": [
+        "ACCELE/03.25"
+      ],
+      "Proc_Time": [
+        "UTC=2025-07-19T06:54:29.321421"
+      ],
+      "Sensing_Start": [
+        "UTC=2023-01-04T00:00:00.756792"
+      ],
+      "Sensing_Stop": [
+        "UTC=2023-01-04T23:59:59.757010"
+      ],
+      "Mission": [
+        "Swarm"
+      ],
+      "Quality_Indicator": [
+        "000"
+      ],
+      "Maneuver_Id_1": [
+        "004"
+      ]
+    },
+    "full_header_retained_locally_only": true
+  },
+  {
+    "product": "STRAATT",
+    "path": "data/raw/swarm_physical_force_readiness_v1/extracted/SW_OPER_STRAATT_1B_20230104T000000_20230104T235959_0601_MDR_SAT_AT.cdf",
+    "SHA256": "3a76ca56c98694f465b366c9a8d3aec4286e3825c49776c01b6ab5700b08fb2e",
+    "variables": {
+      "Timestamp": {
+        "attributes": {
+          "DESCRIPTION": "Time stamp",
+          "UNITS": "-"
+        },
+        "dtype": "CDF_EPOCH",
+        "dimensions": []
+      },
+      "SyncStatus": {
+        "attributes": {
+          "DESCRIPTION": "Synchronization status",
+          "UNITS": "-"
+        },
+        "dtype": "CDF_UINT2",
+        "dimensions": []
+      },
+      "q": {
+        "attributes": {
+          "DESCRIPTION": "Quaternion, transformation: ITRF <- S/C",
+          "UNITS": "-"
+        },
+        "dtype": "CDF_DOUBLE",
+        "dimensions": [
+          4
+        ]
+      },
+      "Flags_q": {
+        "attributes": {
+          "DESCRIPTION": "Flags characterizing the attitude information,",
+          "UNITS": "-"
+        },
+        "dtype": "CDF_UINT1",
+        "dimensions": []
+      },
+      "Maneuver_Id": {
+        "attributes": {
+          "DESCRIPTION": "Current maneuver identification code",
+          "UNITS": "-"
+        },
+        "dtype": "CDF_UINT1",
+        "dimensions": []
+      }
+    },
+    "full_day_records": 86400,
+    "target_records": 43201,
+    "target_first_UTC": "2023-01-04T01:00:00.000000000",
+    "target_last_UTC": "2023-01-04T13:00:00.000000000",
+    "cadence_min_s": 1.0,
+    "cadence_max_s": 1.0,
+    "time_scale": "CDF_EPOCH with fractional ms preserved, anchored to UTC Sensing_Start",
+    "serialized_epoch_ULP_s": 7.8125e-06,
+    "version_applicability": "CDF self-description verified; external0601 codebook NOT acquired",
+    "globals_summary": {
+      "File_Name": [
+        "SW_OPER_STRAATT_1B_20230104T000000_20230104T235959_0601"
+      ],
+      "File_Type": [
+        "STRAATT_1B"
+      ],
+      "File_Version": [
+        "0601"
+      ],
+      "Ref_Doc": [
+        "SW-RS-DSC-SY-0007"
+      ],
+      "Software_Version": [
+        "ORBATT/03.25"
+      ],
+      "Proc_Time": [
+        "UTC=2025-07-10T01:24:48.617578"
+      ],
+      "Sensing_Start": [
+        "UTC=2023-01-04T00:00:00.000000"
+      ],
+      "Sensing_Stop": [
+        "UTC=2023-01-04T23:59:59.000000"
+      ],
+      "Mission": [
+        "Swarm"
+      ],
+      "Quality_Indicator": [
+        "000"
+      ],
+      "Maneuver_Id_1": [
+        "004"
+      ]
+    },
+    "full_header_retained_locally_only": true
+  }
+]

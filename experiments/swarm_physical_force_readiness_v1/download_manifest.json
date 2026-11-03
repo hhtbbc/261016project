@@ -1,0 +1,56 @@
+[
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel1b%2FLatest_baselines%2FSC_xDYN%2FSat_A%2FSW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601.CDF.ZIP",
+    "bytes": 3557965,
+    "SHA256": "7086e3486be13de81b79929c44371915318e19acfcb455ee73a57b44c18cc74b",
+    "path": "data/raw/swarm_physical_force_readiness_v1/SW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601.CDF.ZIP",
+    "HTTP": 200,
+    "members": [
+      {
+        "path": "data/raw/swarm_physical_force_readiness_v1/extracted/SW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601_MDR_SC_DYN.cdf",
+        "bytes": 3685835,
+        "CRC32": "51101565",
+        "SHA256": "b07c7b523fcd5118d7edf6d329a5ccf17dfe9209376415d77ad78eb4127593b4"
+      },
+      {
+        "path": "data/raw/swarm_physical_force_readiness_v1/extracted/SW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601.HDR",
+        "bytes": 11699,
+        "CRC32": "46ed4076",
+        "SHA256": "5a97c0a87c630b65fe1e15a33137789ab1c80f7c9a7f998433914f3de4f57c19"
+      },
+      {
+        "path": "data/raw/swarm_physical_force_readiness_v1/extracted/SW_OPER_REPA_DQC___20250719T065437_SC_ADYN_1B20230104T000000.EEF",
+        "bytes": 1625,
+        "CRC32": "a8ddce04",
+        "SHA256": "3283efd2675a9a0dbe0e2ef4a387381f519aecdb53e39680fcbfbfc1bf27ed5a"
+      }
+    ]
+  },
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel1b%2FLatest_baselines%2FSTRxATT%2FSat_A%2FSW_OPER_STRAATT_1B_20230104T000000_20230104T235959_0601.CDF.ZIP",
+    "bytes": 2774673,
+    "SHA256": "057596c443a245ed9e0b3d7016a23c83d57beb549aec6e0fbf06b4373682101a",
+    "path": "data/raw/swarm_physical_force_readiness_v1/SW_OPER_STRAATT_1B_20230104T000000_20230104T235959_0601.CDF.ZIP",
+    "HTTP": 200,
+    "members": [
+      {
+        "path": "data/raw/swarm_physical_force_readiness_v1/extracted/SW_OPER_STRAATT_1B_20230104T000000_20230104T235959_0601_MDR_SAT_AT.cdf",
+        "bytes": 2907767,
+        "CRC32": "5099902c",
+        "SHA256": "3a76ca56c98694f465b366c9a8d3aec4286e3825c49776c01b6ab5700b08fb2e"
+      },
+      {
+        "path": "data/raw/swarm_physical_force_readiness_v1/extracted/SW_OPER_STRAATT_1B_20230104T000000_20230104T235959_0601.HDR",
+        "bytes": 21170,
+        "CRC32": "a4907a2e",
+        "SHA256": "708717186bcd9117578e79e1fbbac18374580f3faab43917ae39a3a3504b2567"
+      },
+      {
+        "path": "data/raw/swarm_physical_force_readiness_v1/extracted/SW_OPER_REPA_DQC___20250710T012516_STRAATT_1B20230104T000000.EEF",
+        "bytes": 1625,
+        "CRC32": "0d538afd",
+        "SHA256": "3bc0d5016f6f7d59d9baa0d4be77bb7174513518d77e36d755d17158f71331cf"
+      }
+    ]
+  }
+]

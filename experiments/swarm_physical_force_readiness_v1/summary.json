@@ -1,0 +1,62 @@
+{
+  "SC_ADYN": {
+    "records": 43200,
+    "SyncStatus": {
+      "0": 43200
+    },
+    "Flags_q": {
+      "0": 29541,
+      "1": 46,
+      "3": 394,
+      "4": 14,
+      "6": 10548,
+      "18": 2657
+    },
+    "finite_timestamp": true,
+    "mass_min_kg": 400.712,
+    "mass_max_kg": 400.815,
+    "mass_mean_kg": 400.7552217129629,
+    "mass_std_descriptive_kg": 0.018848568342111675,
+    "mass_range_NOT_uncertainty": true,
+    "mass_relative_to_400_percent_min": 0.17799999999998928,
+    "mass_relative_to_400_percent_max": 0.20374999999999144,
+    "largest_adjacent_mass_step_kg": 0.0020000000000095497,
+    "mass_finite_positive": true,
+    "dt_thr_positive_records": 82,
+    "max_record_channel_on_time_s": 0.11000000000000001,
+    "total_channel_on_time_s": 16.862000000000002,
+    "nominal_force_nonzero_records": 0,
+    "Flags_Platform": {
+      "0": 42904,
+      "16": 296
+    },
+    "thr_set": {
+      "1": 43200
+    }
+  },
+  "STRAATT": {
+    "records": 43201,
+    "SyncStatus": {
+      "0": 43136,
+      "1": 65
+    },
+    "Flags_q": {
+      "0": 29542,
+      "1": 46,
+      "3": 394,
+      "4": 14,
+      "6": 10548,
+      "18": 2657
+    },
+    "finite_timestamp": true,
+    "quaternion_nonfinite_rows": 0,
+    "quaternion_norm_min": 0.9999999991311157,
+    "quaternion_norm_max": 1.0000000008892331,
+    "norm_max_abs_deviation": 8.892331315735191e-10,
+    "Maneuver_Id": {
+      "0": 28927,
+      "4": 14274
+    },
+    "actual_rotation_enabled": false
+  }
+}

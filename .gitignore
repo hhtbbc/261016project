@@ -259,3 +259,14 @@ credentials.json
 /experiments/orbit_12h_abcd_dop853_closure_v1/*_local.csv
 /experiments/orbit_12h_abcd_dop853_closure_v1/figure_draft_v1_local/
 /results/orbit_12h_abcd_dop853_closure_v1/comparison_curves.csv
+
+# Real Swarm auxiliary originals, complete repackaging and examples stay local
+/results/swarm_physical_force_readiness_v1/*_local.csv
+/experiments/swarm_physical_force_readiness_v1/*_local.json
+/experiments/swarm_physical_force_readiness_v1/test_fixture_*/
+/logs/swarm_physical_force_readiness_v1_git_sync.json
+
+/experiments/swarm_physical_force_readiness_v1/initial_millisecond_export_local/
+
+# Complete product headers include raw state vectors; publish sanitized schema only
+/experiments/swarm_physical_force_readiness_v1/CDF_contracts.json

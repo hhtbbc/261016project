@@ -1,0 +1,17 @@
+{
+  "target_UTC": [
+    "2023-01-04T01:00:00",
+    "2023-01-04T13:00:00"
+  ],
+  "new_raw_download_limit": 31457280,
+  "raw_plus_metadata_hard_limit": 31457280,
+  "listing_limit_each": 4194304,
+  "extraction_limit": 104857600,
+  "no_propagation": true,
+  "no_GPU": true,
+  "no_TIE": true,
+  "formal_orbit": "BLOCKED",
+  "expected_version": "0601",
+  "formal_gate_cannot_be_bypassed": true,
+  "free_disk_bytes": 645075566592
+}

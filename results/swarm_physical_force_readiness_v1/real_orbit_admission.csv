@@ -1,0 +1,13 @@
+item,status,source,remaining
+SP3 reference,PARTIAL,Official Jan4 SP3ACOM0203 / prior geometry audit,Time/frame/file validated; precise-orbit validation product and accuracy qualification incomplete
+Initial P/V,PARTIAL,Existing SP3 Hermite frozen initial state,"Uses t0+2s: retrospective smoothing, not causal real-time initialization"
+Density fields,PARTIAL,"Jan4 DNSAPOD0301, author TIE-GCM, Direct saved states",DNS is POD-derived; source uncertainties and external mapping remain
+External height datum,BLOCKED,TIE-GCM2.0 native ZG; existing NCAR draft,External zero surface/geographic convention unconfirmed
+Spacecraft mass,PARTIAL,"SC_ADYN0601 m_SC, kg",Record integrity/units checked; version-specific flags and uncertainty not certified
+Spacecraft attitude,PARTIAL,STRAATT0601 q ITRF <- S/C,Component order and active/passive matrix convention; current flag semantics missing
+Effective frontal area,BLOCKED,SC_ADYN A_head/right/left/down orbit-frame vectors,"Complete macrogeometry, orbit-frame basis, visibility/occlusion and reference area unverified"
+Drag coefficient,BLOCKED,GSI literature identifies model families only,No certified Swarm geometry/GSI/material/environment parameterization
+Actual thrust,PARTIAL,SC_ADYN dt_thr/f_thr/thr_set; STRAATT Maneuver_Id,Candidate records identified; channel geometry/calibration/code dictionary missing
+AUXAORBMAN0355,NOT_AVAILABLE,Exact input named in STRAATT global metadata,Not obtained; current public L1 listings do not expose an AUX directory
+Complete force model,BLOCKED,Existing H6 and high-order numerical qualification,"Gravity truncation, tides/radiation/relativity as applicable, real aerodynamic/thrust inputs incomplete"
+Conditional numerical solver,PASS,ABCD DOP853 closure report,Only numerical qualification under frozen conditional assumptions

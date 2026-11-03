@@ -1,0 +1,23 @@
+{
+  "commands": [
+    "source scripts/activate_orbit.sh",
+    "python scripts/prepare_swarm_physical_force_v1.py",
+    "python scripts/analyze_swarm_physical_force_v1.py",
+    "python tests/test_swarm_force_inputs.py",
+    "python scripts/finalize_swarm_physical_force_v1.py"
+  ],
+  "executed_revisions": "initial millisecond export archived; final fractional-millisecond export rebuilt offline only",
+  "logs_SHA": {
+    "logs/swarm_physical_force_v1_tests_complete_final.log": "4d285d124e98aa204d15d76f69471a233838f1a1973119671fd9888759500096",
+    "logs/swarm_physical_force_v1_finalize_precise_time.log": "257ae5398889dd0e7d0df17a54b51d56cfd077ead0c2b0fc153bffaa4bd1f6b0",
+    "logs/swarm_physical_force_v1_analysis_precise_time.log": "ef7e891fddc009c267d482599b2531721ab6bf493ec3ad24e7e9e36967716089",
+    "logs/swarm_physical_force_v1_download.log": "1258fc3a1187f861b32b86b1d4028a9c4109c13d9d736d6717567fcc3d3b5874",
+    "logs/swarm_physical_force_v1_tests_final.log": "d8894704dd55334850b7a8c584c2b81859eb797e91522e695179d93329e8f869",
+    "logs/swarm_physical_force_v1_finalize.log": "ae236be594ba698e1964979d0fb2fdd4e036a64090293af7695669ab2bd541d1",
+    "logs/swarm_physical_force_v1_analysis.log": "7de91bea91fb66f7ff6c6830d6fd379b251cb9b74306e8b01793b1abcb6cc5b3",
+    "logs/swarm_physical_force_v1_tests_metadata_final.log": "565115d92d91a1d0e0ec814604c686b2998b1aae2e856fb542e33bf1428fd111",
+    "logs/swarm_physical_force_v1_tests.log": "9607394ffb1d7831f39a6ac7939624e3bda77ed0e4f07ceb5d68b57de14dbbfc",
+    "logs/swarm_physical_force_v1_tests_precise_time_final.log": "16454c9eb02547dfbc840790e3c0b45beb9e6e1190a802a986724a996cf98688"
+  },
+  "no_old_scientific_result_recomputed": true
+}

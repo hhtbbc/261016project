@@ -1,0 +1,243 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 10094,
+      "SHA256": "b247ac25572c811cbc04d3d2c0baabf79e5533ccffb2474d2ef403e235a47c94"
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 93528,
+      "SHA256": "c7a33e5cf88c798443cbd04d83bf519554453952ae2231207154dda31bc74936"
+    },
+    {
+      "path": "WORKLOG.md",
+      "bytes": 204425,
+      "SHA256": "b695be29c9b7dc3da611f59adf1b48eda8bbaff73a09d7180f301a9975cd210b"
+    },
+    {
+      "path": "docs/SWARM_0601_FORCE_INPUT_QUESTIONS.md",
+      "bytes": 2414,
+      "SHA256": "61e4158cf3f114dde0af6ccc430197308de5ac9b5f778d84b41352e181b887f6"
+    },
+    {
+      "path": "docs/TIEGCM_ZG_REGISTRATION_STATUS_20261103.md",
+      "bytes": 1407,
+      "SHA256": "18de2b0b4b792ca62973f4776760c673598044f3ffa1459f7ee88166bb8bce2b"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/CDF_contract_summary.json",
+      "bytes": 8476,
+      "SHA256": "38b1224d48d66e3d933e3c7bb7ab0853e196d4510596ba0108640dc60248a169"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/L1_latest_metadata_receipt.json",
+      "bytes": 313,
+      "SHA256": "ae5332071a1ae36898892a9bc2cbf68f9f80ff32dadc82b1c452f9eb2e69580d"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/SW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601.CDF.ZIP_receipt.json",
+      "bytes": 1278,
+      "SHA256": "8afe4a3820fb8734e80c37bbae59f38011f7beab14541ec7b51e62ba2ccd733a"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/SW_OPER_STRAATT_1B_20230104T000000_20230104T235959_0601.CDF.ZIP_receipt.json",
+      "bytes": 1278,
+      "SHA256": "90ec9595415b8c969ce5d8aa0e02decdbad0872e84046283c88169a92fe23f15"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/additional_metadata_receipts.json",
+      "bytes": 699,
+      "SHA256": "f4e60677b6219072d0023ecd6233f3217b42edf3480d53a91387d0ae98253c74"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/analysis_resource.json",
+      "bytes": 207,
+      "SHA256": "2d26147da56ad79f25ab0a1ad58c7edf0c12dd717286dc07297e5c3473f35baa"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/command_record.json",
+      "bytes": 1706,
+      "SHA256": "16bf8833b78a30d0481dc95b4e17e9e8b0bdbdeea60c01208dd659047944d360"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/context_read.json",
+      "bytes": 967,
+      "SHA256": "f95829efbcf8a1bd5187f4f303ea2b8eb82e506897b1e4839b45db12f044ba23"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/download_complete.json",
+      "bytes": 221,
+      "SHA256": "8790ad25a49213f5a74890a56b840d0eb1674d7a44216f3b77b3d62854d94d0e"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/download_manifest.json",
+      "bytes": 2669,
+      "SHA256": "532cd124e82099ae55129340d9f4de5a72299dfb51d16ebd8d8407ebfc1e044f"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/download_plan.json",
+      "bytes": 954,
+      "SHA256": "897998f14b4a5b7de1013c2be69200c0e4d818b71fe01a3f793b09ac31932cfd"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/final_code_SHA.json",
+      "bytes": 563,
+      "SHA256": "dcc97484eb78cc0e8e8586b62c5486ea07471496c11117957f711aa7c7ddfb1b"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/final_delivery_audit.json",
+      "bytes": 840,
+      "SHA256": "6d784fbaebb6308cf19a22275db9e13db53ccdfc49c32f05df917c63bb9f1e03"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/gap_audit.json",
+      "bytes": 128,
+      "SHA256": "58b9b14364cfc4118541beb281fd5a52e2d948397db049bba7255567d825a042"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/geometry_evidence.json",
+      "bytes": 1306,
+      "SHA256": "95f114e0665d661315b17df604670d5224ab038548bd6b68220439b1ea1a56c4"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/independent_audit.json",
+      "bytes": 431,
+      "SHA256": "257ae5398889dd0e7d0df17a54b51d56cfd077ead0c2b0fc153bffaa4bd1f6b0"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/output_inventory.json",
+      "bytes": 13711,
+      "SHA256": "541a0c6f5a6b0cfbf6c05e21e2c6733f1d125190b640c7cee192c23fe3edc2d1"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/protected.json",
+      "bytes": 64115,
+      "SHA256": "c30b675f7044d234234eaf28f27468b1a355f04e2fa3ce215d0efc593c9050b1"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/protocol.json",
+      "bytes": 425,
+      "SHA256": "ea4f49cd90a2e9305c89c55687933f090917bbe4fd1bf8989c295d3aa78bd94e"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/root_metadata_receipt.json",
+      "bytes": 279,
+      "SHA256": "1996d70a0cf0b0f482470c562f9dba84cf5f6fe0b67e527cceed131ade6d0908"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/summary.json",
+      "bytes": 1471,
+      "SHA256": "085c69a50c827390a2d670e636b070a35b6bafc21efbf8300f2e2765fb008344"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/test_results.json",
+      "bytes": 194,
+      "SHA256": "b3077fffce71760a78dbd99dbd4094b590b27f031a8f6b64cfe3044651f95097"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/test_results_complete.json",
+      "bytes": 170,
+      "SHA256": "f9a624954af6c04b551981dd12126a98577fce20e49bdec177075951114cfb9b"
+    },
+    {
+      "path": "experiments/swarm_physical_force_readiness_v1/time_alignment.json",
+      "bytes": 319,
+      "SHA256": "7f5c63764dbce5951428716813855a516dfd7b4fbd2f985a26696f1794a9e183"
+    },
+    {
+      "path": "reports/SWARM_PHYSICAL_FORCE_READINESS_V1.md",
+      "bytes": 15381,
+      "SHA256": "d8ad1f7166de99040315f236f986ab4d619d8b4191a4097ac6d4da5b82479896"
+    },
+    {
+      "path": "reports/SWARM_PHYSICAL_FORCE_READINESS_V1_TALK.md",
+      "bytes": 2182,
+      "SHA256": "95e7135d966d8f991f0e410c5cefbfe5f3253c00487ab5bc8d2615483e276e34"
+    },
+    {
+      "path": "results/swarm_physical_force_readiness_v1/attitude_quality_and_codes.png",
+      "bytes": 214333,
+      "SHA256": "eb575dbc46b359c636fe5b3a270b1deec2060dd3414e10e262f3c6eddd966f73"
+    },
+    {
+      "path": "results/swarm_physical_force_readiness_v1/candidate_event_intervals.csv",
+      "bytes": 12981,
+      "SHA256": "8c0895b1d52cd44604a475d4fef99b51f7c4f5cc070887a06e93467965d78d40"
+    },
+    {
+      "path": "results/swarm_physical_force_readiness_v1/figure_sources.csv",
+      "bytes": 699,
+      "SHA256": "79bbba4c9059ea38c7bafae6ec4499f81de1d68414324c19490d784d2baddc4d"
+    },
+    {
+      "path": "results/swarm_physical_force_readiness_v1/hourly_availability.csv",
+      "bytes": 437,
+      "SHA256": "387f4fcf0f2f7eb48e6400ec32df578905d71ad9a1b8cf7e7ecefcb351dabf15"
+    },
+    {
+      "path": "results/swarm_physical_force_readiness_v1/hourly_coverage_and_candidates.png",
+      "bytes": 164354,
+      "SHA256": "dfdc06d37ea3bb1f0fe939c044e725de445e86498184489818499cd816843a25"
+    },
+    {
+      "path": "results/swarm_physical_force_readiness_v1/mass_and_mass_only_sensitivity.png",
+      "bytes": 316065,
+      "SHA256": "f13b10cc9899108beddd60c2e68eecc5fd57c97696f559dea92ed6d7e8cf7a7c"
+    },
+    {
+      "path": "results/swarm_physical_force_readiness_v1/mass_hourly_summary.csv",
+      "bytes": 1121,
+      "SHA256": "f85b6617da812f8ce45d3fbdf26e8c2116e8874f0af92d93e3c033afc89a70d3"
+    },
+    {
+      "path": "results/swarm_physical_force_readiness_v1/official_evidence_review.csv",
+      "bytes": 2136,
+      "SHA256": "b30b2443da478aada1b2189fce277134a9bc64a4f0edf9006132d73be2d050ec"
+    },
+    {
+      "path": "results/swarm_physical_force_readiness_v1/physical_readiness_matrix.png",
+      "bytes": 119540,
+      "SHA256": "49131d1fbb1192ce722d36685f2bd3b2104819da54bd1d7d338bae95693d0430"
+    },
+    {
+      "path": "results/swarm_physical_force_readiness_v1/real_orbit_admission.csv",
+      "bytes": 1815,
+      "SHA256": "982e1bef1fa42718877581e54462b1f014e54eb6fedd5f524d9517faf5e3a5ef"
+    },
+    {
+      "path": "results/swarm_physical_force_readiness_v1/thruster_candidates.png",
+      "bytes": 135377,
+      "SHA256": "1536622271d9817b98f9c7313bd3789ccf4b4a054cf477d0d262a658f67afcf8"
+    },
+    {
+      "path": "scripts/analyze_swarm_physical_force_v1.py",
+      "bytes": 7180,
+      "SHA256": "38e84fa7d219acba48a3640bc041de7fbb71be2ee79181d7870be67f83ec1b0e"
+    },
+    {
+      "path": "scripts/finalize_swarm_physical_force_v1.py",
+      "bytes": 28946,
+      "SHA256": "7f7c23abcc9a38bbf3111b379a8471144bc0cc7538f9e43840777f865e0a5ef8"
+    },
+    {
+      "path": "scripts/prepare_swarm_physical_force_v1.py",
+      "bytes": 4010,
+      "SHA256": "1ce64b715f972e52802eda7a143ba99fce0b18119d65cfeb0c488948d70f4863"
+    },
+    {
+      "path": "src/orbit/swarm_force_inputs.py",
+      "bytes": 9407,
+      "SHA256": "33f4293eea48f61ed9a61872e62802a2059d102a4950cde193e338c8ae68cb22"
+    },
+    {
+      "path": "tests/test_swarm_force_inputs.py",
+      "bytes": 8928,
+      "SHA256": "e79af0effc41e97ceec97132dc887b8bd49ab8e2102a5a817b52f0ccee705bb9"
+    }
+  ],
+  "publication_scan": "PASS",
+  "original_data_or_header_state_vectors_uploaded": false,
+  "staged_total_bytes": 1459480,
+  "source_manifest_verified": true
+}

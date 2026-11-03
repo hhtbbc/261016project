@@ -1,0 +1,17 @@
+[
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel1b%2FLatest_baselines%2FSC_xDYN.txt&maxfiles=1000&pos=0",
+    "error": "ValueError: Advertised size exceeds budget"
+  },
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel1b%2FLatest_baselines%2FSTRxATT.txt&maxfiles=1000&pos=0",
+    "error": "ValueError: Advertised size exceeds budget"
+  },
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=list&file=swarm%2FLevel1b&maxfiles=1000&pos=0",
+    "bytes": 416,
+    "SHA256": "eef2f2492ee4f6b819da27830b72815a5bf11e3d15b5081dd983f41a0a9f62ce",
+    "path": "data/raw/swarm_physical_force_readiness_v1/L1_directory_local.txt",
+    "HTTP": 200
+  }
+]

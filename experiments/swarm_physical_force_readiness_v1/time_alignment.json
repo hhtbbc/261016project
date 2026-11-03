@@ -1,0 +1,9 @@
+{
+  "method": "Separate actual UTC axes retained; previous-record snapshots, no interpolation",
+  "common_pairs": 43199,
+  "past_age_min_s": 0.23909375,
+  "past_age_max_s": 0.243210938,
+  "nearest_future_offset_min_s": 0.756789062,
+  "nearest_future_offset_max_s": 0.76090625,
+  "different_axes_not_relabelled": true
+}

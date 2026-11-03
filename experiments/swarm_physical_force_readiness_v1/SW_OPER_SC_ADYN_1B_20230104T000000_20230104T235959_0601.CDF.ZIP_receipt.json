@@ -1,0 +1,27 @@
+{
+  "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel1b%2FLatest_baselines%2FSC_xDYN%2FSat_A%2FSW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601.CDF.ZIP",
+  "bytes": 3557965,
+  "SHA256": "7086e3486be13de81b79929c44371915318e19acfcb455ee73a57b44c18cc74b",
+  "path": "data/raw/swarm_physical_force_readiness_v1/SW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601.CDF.ZIP",
+  "HTTP": 200,
+  "members": [
+    {
+      "path": "data/raw/swarm_physical_force_readiness_v1/extracted/SW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601_MDR_SC_DYN.cdf",
+      "bytes": 3685835,
+      "CRC32": "51101565",
+      "SHA256": "b07c7b523fcd5118d7edf6d329a5ccf17dfe9209376415d77ad78eb4127593b4"
+    },
+    {
+      "path": "data/raw/swarm_physical_force_readiness_v1/extracted/SW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601.HDR",
+      "bytes": 11699,
+      "CRC32": "46ed4076",
+      "SHA256": "5a97c0a87c630b65fe1e15a33137789ab1c80f7c9a7f998433914f3de4f57c19"
+    },
+    {
+      "path": "data/raw/swarm_physical_force_readiness_v1/extracted/SW_OPER_REPA_DQC___20250719T065437_SC_ADYN_1B20230104T000000.EEF",
+      "bytes": 1625,
+      "CRC32": "a8ddce04",
+      "SHA256": "3283efd2675a9a0dbe0e2ef4a387381f519aecdb53e39680fcbfbfc1bf27ed5a"
+    }
+  ]
+}

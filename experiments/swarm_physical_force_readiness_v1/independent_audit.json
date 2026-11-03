@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "protected_unchanged": 464,
+  "historical_unchanged": 2346,
+  "new_ODE": 0,
+  "new_GPU": 0,
+  "new_TIE": 0,
+  "new_raw_ZIP_bytes": 6332638,
+  "all_downloaded_payload_bytes": 9329038,
+  "ZIP_CRC_and_extracted_identity_verified": true,
+  "source_products": 2,
+  "tests": 28,
+  "figures": 5,
+  "wall_s": 19.715775031596422,
+  "RSS_MiB": 287.26953125,
+  "formal_orbit": "BLOCKED",
+  "science_training": false
+}

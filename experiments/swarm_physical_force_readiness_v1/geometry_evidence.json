@@ -1,0 +1,62 @@
+[
+  {
+    "field": "A_head",
+    "definition": {
+      "DESCRIPTION": "Cross sections of the S/C, orbit frame,front",
+      "UNITS": "m2"
+    },
+    "shape": [
+      43200,
+      3
+    ],
+    "all_finite": true,
+    "component_min_m2": -0.499,
+    "component_max_m2": 1.399,
+    "effective_frontal_area_computed": false
+  },
+  {
+    "field": "A_right",
+    "definition": {
+      "DESCRIPTION": "Cross sections of the S/C, orbit frame,right",
+      "UNITS": "m2"
+    },
+    "shape": [
+      43200,
+      3
+    ],
+    "all_finite": true,
+    "component_min_m2": -2.0220000000000002,
+    "component_max_m2": 3.58,
+    "effective_frontal_area_computed": false
+  },
+  {
+    "field": "A_left",
+    "definition": {
+      "DESCRIPTION": "Cross sections of the S/C, orbit frame,left",
+      "UNITS": "m2"
+    },
+    "shape": [
+      43200,
+      3
+    ],
+    "all_finite": true,
+    "component_min_m2": -3.466,
+    "component_max_m2": 0.131,
+    "effective_frontal_area_computed": false
+  },
+  {
+    "field": "A_down",
+    "definition": {
+      "DESCRIPTION": "Cross sections of the S/C, orbit frame,down",
+      "UNITS": "m2"
+    },
+    "shape": [
+      43200,
+      3
+    ],
+    "all_finite": true,
+    "component_min_m2": -0.444,
+    "component_max_m2": 7.227,
+    "effective_frontal_area_computed": false
+  }
+]

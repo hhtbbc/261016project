@@ -1,0 +1,31 @@
+{
+  "targets": [
+    {
+      "mtime": 1754050895,
+      "size": 3557965,
+      "name": "SW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601.CDF.ZIP",
+      "path": "swarm/Level1b/Latest_baselines/SC_xDYN/Sat_A/SW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601.CDF.ZIP",
+      "is_dir": false,
+      "is_readable": true,
+      "is_writable": false,
+      "is_executable": false,
+      "more": 0
+    },
+    {
+      "mtime": 1752959256,
+      "size": 2774673,
+      "name": "SW_OPER_STRAATT_1B_20230104T000000_20230104T235959_0601.CDF.ZIP",
+      "path": "swarm/Level1b/Latest_baselines/STRxATT/Sat_A/SW_OPER_STRAATT_1B_20230104T000000_20230104T235959_0601.CDF.ZIP",
+      "is_dir": false,
+      "is_readable": true,
+      "is_writable": false,
+      "is_executable": false,
+      "more": 0
+    }
+  ],
+  "expected_ZIP_bytes": 6332638,
+  "metadata_bytes": 2989088,
+  "limit": 31457280,
+  "official_public_service": true,
+  "no_other_dates": true
+}
