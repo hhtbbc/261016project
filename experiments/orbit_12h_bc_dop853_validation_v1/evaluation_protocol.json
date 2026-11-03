@@ -1,0 +1,12 @@
+{
+  "RAC_basis": "original A_NoDrag RK45 Tight, unchanged from old12h and numerical-reference experiment; same basis for all current comparisons",
+  "single_gate_m": 0.02,
+  "pair_gate_fraction_of_max_DOP15_effect": 0.01,
+  "compare_pair_vectors_not_norm_difference": true,
+  "primary_DOP15_after_qualifying": true,
+  "reuse_NoDrag_DOP15": "additional conditional drag-response comparison only, no new A propagation",
+  "old_RK45_fail_unchanged": true,
+  "D_reference_high_order": "NOT_RUN",
+  "real_orbit": "BLOCKED",
+  "no_tolerance_or_parameter_selection_from_current_results": true
+}

@@ -1,0 +1,60 @@
+{
+  "tag": "orbit_12h_bc_dop853_validation_v1",
+  "epoch": "2023-01-04T01:00:00",
+  "duration_s": 43200,
+  "event_s": 21600,
+  "output_s": 60,
+  "groups": [
+    "B_Open",
+    "C_Updated"
+  ],
+  "case_order": [
+    "B_Open DOP30",
+    "C_Updated DOP30",
+    "B_Open DOP15",
+    "C_Updated DOP15"
+  ],
+  "rtol": 2.5e-13,
+  "atol": [
+    1e-06,
+    1e-06,
+    1e-06,
+    1e-09,
+    1e-09,
+    1e-09
+  ],
+  "max_steps": {
+    "DOP30": 30.0,
+    "DOP15": 15.0
+  },
+  "aero": {
+    "mass_kg": 400,
+    "area_m2": 1,
+    "Cd": 2.2,
+    "wind": "zero ITRS neutral wind"
+  },
+  "single_gate_m": 0.02,
+  "paired_gate_fraction": 0.01,
+  "labels": "HISTORICAL_SP3_INITIALIZED_VIRTUAL_PROPAGATION / PROVISIONAL_COORDINATE_A / SYNTHETIC_AERODYNAMIC_PARAMETERS / HINDCAST / FORCE_MODEL_INCOMPLETE / PROVISIONAL_EPHEMERIS",
+  "limits": {
+    "wall_s": 13620,
+    "RSS_GiB": 4,
+    "output_MiB": 100,
+    "free_disk_GiB": 20
+  },
+  "estimate": {
+    "expected_s": 9074,
+    "safety_s": 13612,
+    "peak_RSS_GiB": 1,
+    "output_MiB": 90
+  },
+  "initial_file": "experiments/fourcastden_orbit_update_12h_v1/initial_GCRS_local.npy",
+  "initial_SHA": "75c16067a16319946d318c93a20f7d44e36dff8d271a189ba74653676a3ba1e1",
+  "NoDrag_reused": true,
+  "D_new_runs": 0,
+  "no_new_forward": true,
+  "no_new_TIE": true,
+  "old_numeric_gate": "FAIL_UNCHANGED",
+  "real_orbit": "BLOCKED",
+  "science_training": false
+}

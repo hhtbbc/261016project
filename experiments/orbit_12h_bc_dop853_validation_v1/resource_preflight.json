@@ -1,0 +1,18 @@
+{
+  "free_disk_bytes": 645154209792,
+  "meminfo": "MemTotal:       2022951608 kB\nMemFree:        52554928 kB\nMemAvailable:   1941798044 kB\nBuffers:        14340100 kB\nCached:         1778499024 kB\nSwapCached:            0 kB\nActive:         1481624512 kB\nInactive:       350716152 kB\nActive(anon):   39513848 kB\nInactive(anon):   635396 kB\nActive(file):   1442110664 kB\nInactive(file): 350080756 kB\nUnevictable:       18252 kB\nMlocked:           18252 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:              4072 kB\nWriteback:             0 kB\nAnonPages:      39087116 kB\nMapped:          3152404 kB\nShmem:            639792 kB\nKReclaimable:   108480256 kB\nSlab:           114027512 kB\nSReclaimable:   108480256 kB\nSUnreclaim:      5547256 kB\nKernelStack:       55920 kB\nPageTables:       210916 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    1011475804 kB\nCommitted_AS:   69327628 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:      610644 kB\nVmallocChunk:          0 kB\nPercpu:           275072 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:  30107648 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nCmaTotal:              0 kB\nCmaFree:               0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:    66046784 kB\nDirectMap2M:    1595942912 kB\nDirectMap1G:    395313152 kB\n",
+  "processes": [
+    "    PID %CPU %MEM COMMAND",
+    "1465018  102  0.0 python",
+    "1439000  2.7  0.0 node",
+    "1464989  0.3  0.0 bash",
+    "1202060  0.2  0.0 codex",
+    " 102717  0.2  0.0 codex",
+    "1439011  0.2  0.0 node",
+    "    890  0.1  0.0 node",
+    "     91  0.0  0.0 node",
+    "1439029  0.0  0.0 codex",
+    " 931443  0.0  0.0 codex",
+    "   3472  0.0  0.0 codex"
+  ]
+}

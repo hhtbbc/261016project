@@ -1,0 +1,13 @@
+{
+  "scripts/run_orbit_12h_bc_dop853_validation_v1.py": "5a33cdec2f3ce9c7413d287effbd174b5f387be94bf1ad8164dc0b842a1dab0c",
+  "scripts/analyze_orbit_12h_bc_dop853_validation_v1.py": "974f7783c6d289a496fc027786ad3feb5db3e8a8eb385e3ed7830041099e9d6b",
+  "scripts/document_orbit_12h_bc_dop853_validation_v1.py": "210d7b0544721699d928df0e5a763bb900ddf5bfd988b7f45a3bc6bdf722a3ca",
+  "scripts/audit_orbit_12h_bc_dop853_validation_v1.py": "b878fea16648cd86cedda9f2f0ece741dbde9b09e6b416afde5699bfb9abc273",
+  "scripts/plot_orbit_12h_bc_dop853_validation_v1.py": "eb0391ae41ec62b0e81527f993fc5fb784489ef1863e4b6fe431b26b551be784",
+  "scripts/extend_bc_dop853_sensitivity_v1.py": "fe0706529038d0c7c4cd0b38ca744dcf9edbd463fa3197ad3ce2af3c0d768160",
+  "src/orbit/dop853_events.py": "ec2d7922b5277096d1d41ccd1a32e3126286fbda1741f5998dcd9759afab2d5c",
+  "tests/test_dop853_events.py": "a336ec345ff7dc946910447643e44e4ceedee5885e09556206393222ce9c1fba",
+  "reports/ORBIT_12H_BC_DOP853_VALIDATION_V1.md": "aea11ab0ba7a204237d8f2a0c610d0e6ed9391aa7e81a38d9f0ba74ddff1b9d6",
+  "docs/ORBIT_12H_BC_DOP853_TALK.md": "686f02d8cae2de4a338cc97e534b2a09ea52fbd45bd733464cd8406dd8a1a10f",
+  "docs/ORBIT_12H_D_HIGH_ORDER_NEXT_DECISION.md": "09a766b281ccf3bd8fea45c4c26e5bf2876b6d3abcb8ac4ea61dcc2514eaf874"
+}

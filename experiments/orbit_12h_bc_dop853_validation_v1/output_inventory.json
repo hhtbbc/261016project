@@ -1,0 +1,339 @@
+{
+  "files": [
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/independent_audit.json",
+      "bytes": 899,
+      "SHA256": "90fca4062b34463f3b2af3498cab1af5ccbd9af4da5e69212ac750ff2cd84984"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/analysis.json",
+      "bytes": 751,
+      "SHA256": "52026a73671b26269992e59461eb6f31d2854695ebe1ae25020946cdaa16757d"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/DOP15_budget_gate.json",
+      "bytes": 93,
+      "SHA256": "a64b3b90fc1279dd54b11d9df1fa77a524bcdf4509afab5d847035377c657d44"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/SP3_precheck_local.csv",
+      "bytes": 734665,
+      "SHA256": "97e7a2f31bb50ad05cb426c5f7f762074c8d29ba453ac409ad05c2066e701894"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/supervisor_once.json",
+      "bytes": 79,
+      "SHA256": "15f4b8fc04ecb81a6ca5c59746042c3eff99325db564a7e359d1de354dc9664d"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/B_Open_DOP30_queries_local.csv",
+      "bytes": 5485684,
+      "SHA256": "4b20175d9a22c1a54b51bf9c9031a9224744805d82058e74c93a8a609f768919"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/supervision.json",
+      "bytes": 126,
+      "SHA256": "c7672dc7c82721858f6de3d7738fb418f6e4de37fe7d380df26f1c805fc9489a"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/preflight.json",
+      "bytes": 274,
+      "SHA256": "bb30c14475fc0ab5f7287904f67e15956aa723886da8ff7f22ef8b6e6d3fd728"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/context_read.json",
+      "bytes": 839,
+      "SHA256": "e98a9cddc4fbbc9fb8e3b83c0b1106e27060eda899cf7e066370e1d6a0f571fd"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/B_Open_DOP30_runtime.json",
+      "bytes": 2221,
+      "SHA256": "e4547126e41e5f09bc5906ea02427666a4d97abd0c2bb7b5158b37d07a36a8f3"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/effect_assessment.json",
+      "bytes": 2196,
+      "SHA256": "2e077003c535c2dd165df80c83aadd0e444c2a60afb697f6fc13fa66b751b939"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/C_Updated_DOP30_queries_local.csv",
+      "bytes": 5485636,
+      "SHA256": "7bdee298da2104563c02f34c34e23ae35fadc4a7d33f8c3340deca68fb0653d4"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/CPU_test_result.json",
+      "bytes": 240,
+      "SHA256": "bea1bbca72f01a18c8d7882e8b2993629f5765f6f9765d9dd29824787fd7a47f"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/protected.json",
+      "bytes": 44355,
+      "SHA256": "259f4577c62eeddda74ce63c7edeeb2bc7c69c4f31e626b25bea84ecc8fc74ed"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/sensitivity_extension.json",
+      "bytes": 660,
+      "SHA256": "602e4f15e247f6c740bed27ef27425bb535ac69485f72618e3e7fb0994c9856d"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/C_Updated_DOP30_runtime.json",
+      "bytes": 2225,
+      "SHA256": "1e1bf5fa7b1d78f3e3aaac270c0c4f051aff9963f05c5c329d322da85be3bf2e"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/B_Open_DOP15_queries_local.csv",
+      "bytes": 10760522,
+      "SHA256": "a24b7f5cd3af198122dc4f452fc07e4af51fc76b45a9765fd2ae946fec36b246"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/DOP30_gate.json",
+      "bytes": 183,
+      "SHA256": "bc1e021cd625e97bb3dc311c909a53d54d1f3208d50e7951e2ae64409ed0fd7f"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/C_Updated_DOP15_states_local.npz",
+      "bytes": 42090,
+      "SHA256": "c90df083812fcbcc2748170bcdb5ed6af85fd39834441c07366bf8c20feeeebd"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/C_Updated_DOP15_runtime.json",
+      "bytes": 2228,
+      "SHA256": "1c99d217960fc63380dbe030a86883412aca9619cda8e7d316239715ea1f65b1"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/software_versions.json",
+      "bytes": 285,
+      "SHA256": "60e99f4c02e21677d89079226d58a4181f19379f0d3f127165c04205ab210da0"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/B_Open_DOP15_runtime.json",
+      "bytes": 2241,
+      "SHA256": "38764bd1099508e19cd0dc7d58441728e214a7157c7f5b900e7b5db30924fef7"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/C_Updated_DOP15_queries_local.csv",
+      "bytes": 10760480,
+      "SHA256": "b607eb64d68c009dddd0009f9094f52d79ff1fb036fb3416bf901b081bb58c70"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/delivery_source_SHA.json",
+      "bytes": 1284,
+      "SHA256": "9d16edbea8d84dab1e312c0ef218c1a503946273e47f0dcaa25da383afe31163"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/C_Updated_DOP30_launch.json",
+      "bytes": 75,
+      "SHA256": "2674610bb9750d9cef028b47aa4c84e667b040547ba409a70b17c63f708facd8"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/B_Open_DOP15_launch.json",
+      "bytes": 74,
+      "SHA256": "f321a8dbaebe0dca3fe208bea30c40fac40320870a777068dcf323387b0fe24b"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/DOP30_stage_provisional_summary.json",
+      "bytes": 266,
+      "SHA256": "53a9d2b9dc7f7cdff0dae5915297cf05578573516f83f5e5ca3c96c512a06bbe"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/C_Updated_DOP15_launch.json",
+      "bytes": 77,
+      "SHA256": "ab92b7aa0b539baf934f6d94ca7f9c5c06862afcc28c54db78a7caca763fab94"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/B_Open_DOP30_launch.json",
+      "bytes": 74,
+      "SHA256": "c1cc7afeccca41e1e3bc6f2827cb8870647e1a683127635733b0f1bb9492d250"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/worker_once.json",
+      "bytes": 79,
+      "SHA256": "45814a40ffcb6e45f52416bb1438102d827c6c982ad63e492d9422e875e0ec2d"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/C_Updated_DOP30_states_local.npz",
+      "bytes": 39139,
+      "SHA256": "660f80c37a8ec21f6f047355b3a2814946408c5b47890d36d642cc897789b01b"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/protocol.json",
+      "bytes": 1387,
+      "SHA256": "254fb49b5741da213ef5fd904f09e03349b58d8f73346033b54b46451e4e877b"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/resource_preflight.json",
+      "bytes": 1994,
+      "SHA256": "30988d1706caf51cd13ae1a77e751985fcee8247e4a5df5b2e46ac11244d4785"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/worker_complete.json",
+      "bytes": 10637,
+      "SHA256": "427a6c0156adddb3385e0291782153996c4d9aa3e11e8e0481e147526f903953"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/compressed_result_manifest.json",
+      "bytes": 411,
+      "SHA256": "315a4aa78b9652dbbec07eeeeb3012aa77da0756b348649a89c2bc0e194b0c76"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/B_Open_DOP15_states_local.npz",
+      "bytes": 42084,
+      "SHA256": "3f9c112de73412968461ac4348c09dca5c3ce449a0d08d0b6a89fd82e8cc1ce7"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/DOP15_gate.json",
+      "bytes": 183,
+      "SHA256": "1caccdaa6de00da61364f128d99b82cf50137e762b8b02a71a06fead4afb0816"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/evaluation_protocol.json",
+      "bytes": 588,
+      "SHA256": "07291509c6563d7edf60b1c909e372241375131f8c43a3fb746bfee29a2be955"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/command_record.json",
+      "bytes": 855,
+      "SHA256": "ae0110c9dec47678fc0a6bd1914805a60697d47e775351f2a397c84515eb745b"
+    },
+    {
+      "path": "experiments/orbit_12h_bc_dop853_validation_v1/B_Open_DOP30_states_local.npz",
+      "bytes": 39128,
+      "SHA256": "01df574cd8959b5294293f299fa2e8e4bc05a6a9585d635efb2b392fa66c840c"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/per_time_effect_sensitivity.csv",
+      "bytes": 44056,
+      "SHA256": "d55f5244b11ed37d5ec5305e17e7c61588598c8432631ffbba9b6dc9354d07a3"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/C_Updated_DOP30_samples.csv",
+      "bytes": 127694,
+      "SHA256": "70071d1386e40e13d7925a365df1b5074132de541a4e37301eb7dd1f1fc7798e"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/field_coverage.csv",
+      "bytes": 577,
+      "SHA256": "e01f5799dff3b813278e065516b8776b3696204285cdeff75c6002e66b931e99"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/runtime_and_evaluations.png",
+      "bytes": 95688,
+      "SHA256": "43abb442b6ee9c42cbc564c0a22479075555fd8cb764b15d4a198e66d846c965"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/single_orbit_convergence.png",
+      "bytes": 167911,
+      "SHA256": "698ca9c6a2180f9f12af22bf0b11cf88be6b2712f1b4dbc45aa83251510eaba5"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/event_limits.csv",
+      "bytes": 669,
+      "SHA256": "de34c5b8c1bc70cb74d9c04865bf840965a57fa59268b214ae10997679ba93b2"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/independent_convergence.csv",
+      "bytes": 259,
+      "SHA256": "a6c2d258d2ae793afab8051d61288f9400335ce6dab9c599d80137302a2e205c"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/event_07UTC.png",
+      "bytes": 166950,
+      "SHA256": "0df5403b035d92c9cc0d82bd297e5b3e9c0cf30c1c30f2166b5489616d15fe46"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/lead_time_summary.csv",
+      "bytes": 9602,
+      "SHA256": "d2ec3bc2a83e872159512a3ddc517af836c7aa2ad3d1c17bb7f9c251d0020a67"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/update_effect_RAC.png",
+      "bytes": 199263,
+      "SHA256": "0dc88bf38f7018581034d695c4110ebde612f581b693b93709571fb4725d8421"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/comparison_curves.csv",
+      "bytes": 1932880,
+      "SHA256": "1666245baef204bf75f0d0c396ea9ed2a03d31f975392b90a556de255d18771e"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/comparison_curves.csv.xz",
+      "bytes": 490592,
+      "SHA256": "2ded21b480a4b701f19f042beaf69655ce013f1b67791666750968c855ea38f0"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/figure_sources.csv",
+      "bytes": 1043,
+      "SHA256": "d78b21423b26fe3a857590b403d5fc42e335ad5fe53ba0fb63e09f37a4ce2f5c"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/B_Open_DOP30_samples.csv",
+      "bytes": 125533,
+      "SHA256": "a8843e8d871e38c49a43cab4f328e7322c2bda1ccdd06436fb733132ab428695"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/update_effect_12h.png",
+      "bytes": 173825,
+      "SHA256": "eab59cd6613da05c3eefe1d8b4cb891a0aedff7ace7bc3630fa4043c578c327b"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/comparison_summary.csv",
+      "bytes": 2542,
+      "SHA256": "720a8bcd8e4affb3e90b2bc9aec95f328a43a2552c2f536898daaf485014cc94"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/density_and_drag.png",
+      "bytes": 270838,
+      "SHA256": "47f40e548a3d2c7b368e76ff3ad2cb9edc3f6255782b8574fce8cd1118034ff2"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/RK45_DOP853_comparison.png",
+      "bytes": 182968,
+      "SHA256": "f8a1fca22117c4506155f34e78495b45757f68d36a0f112d13a401da4804f27c"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/accepted_rejected_steps.csv",
+      "bytes": 572,
+      "SHA256": "904388ea73260ea81513c2239a6eaf13e65987e88e621349871576d351820578"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/B_Open_DOP15_samples.csv",
+      "bytes": 125594,
+      "SHA256": "932cddc7dc398731d562d0078b209c48a3abc1e05fd88d2bbfc1d98eb9435eff"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/event_response_checkpoints.csv",
+      "bytes": 672,
+      "SHA256": "b102bbbba58d81018f7e0945f9698c72a572d571205a601a7405629a4024c7c2"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/performance.csv",
+      "bytes": 566,
+      "SHA256": "9fbab4e766582d0f9ea9b656831aa2fc7e8567e5340cccdc5599bf83a138f7e5"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/C_Updated_DOP15_samples.csv",
+      "bytes": 127700,
+      "SHA256": "b513461160df19e9c84cdb1d2e2839ef6b73e59fa235ce3ae3c80f0ba589c010"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/paired_effect_convergence.png",
+      "bytes": 165757,
+      "SHA256": "fb180043dac21ed9342545356ecd7a5e68bdfeed27232934de2b36a340470b2c"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/period_sensitivity.csv",
+      "bytes": 750,
+      "SHA256": "4ee8cf3fa3abce06a80b984422e6a7611501edf3abe3416f1d008e03832f5651"
+    },
+    {
+      "path": "results/orbit_12h_bc_dop853_validation_v1/independent_query_accounting.csv",
+      "bytes": 450,
+      "SHA256": "f29c16d4ecd5e391a57ec3cb12e3b0a1ab4d9bca4d618a32b8756a9e7e525ae1"
+    }
+  ],
+  "raw_states_and_query_locations_local_only": true,
+  "original_RK45_gate": "FAIL_UNCHANGED",
+  "D_reference_high_order": "NOT_RUN",
+  "final_PNGs_verified": 8,
+  "compressed_CSV_byte_identity": true
+}

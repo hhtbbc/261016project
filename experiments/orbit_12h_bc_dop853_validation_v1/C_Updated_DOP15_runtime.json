@@ -1,0 +1,103 @@
+{
+  "group": "C_Updated",
+  "mode": "DOP15",
+  "total_s": 3007.388308636844,
+  "integration_s": 2988.196066532284,
+  "nfev": 43309,
+  "segments": [
+    {
+      "method": "DOP853",
+      "rtol": 2.5e-13,
+      "atol": [
+        1e-06,
+        1e-06,
+        1e-06,
+        1e-09,
+        1e-09,
+        1e-09
+      ],
+      "max_step_s": 15.0,
+      "nfev": 21647,
+      "accepted_steps": 1443,
+      "min_accepted_step_s": 0.03816813806658231,
+      "max_accepted_step_s": 15.000000000000455,
+      "elapsed_s": 1493.2569235824049,
+      "success": true
+    },
+    {
+      "method": "DOP853",
+      "rtol": 2.5e-13,
+      "atol": [
+        1e-06,
+        1e-06,
+        1e-06,
+        1e-09,
+        1e-09,
+        1e-09
+      ],
+      "max_step_s": 15.0,
+      "nfev": 21662,
+      "accepted_steps": 1444,
+      "min_accepted_step_s": 0.0361722348825424,
+      "max_accepted_step_s": 15.0,
+      "elapsed_s": 1494.7704122662544,
+      "success": true
+    }
+  ],
+  "event_records": [
+    {
+      "time_s": 21600.0,
+      "position_jump_m": 0.0,
+      "velocity_jump_m_s": 0.0,
+      "acceleration_left": [
+        7.330210501112999,
+        -3.9143258007955857,
+        1.8559000455362897
+      ],
+      "acceleration_right": [
+        7.33021050296656,
+        -3.9143258019902194,
+        1.8559000356158268
+      ]
+    }
+  ],
+  "event_limits": [
+    {
+      "side": "left",
+      "rho_kg_m3": 8.191527267391043e-13,
+      "drag_gcrs_m_s2": [
+        2.3877494233965136e-08,
+        -1.538921794785249e-08,
+        -1.2779495307625115e-07
+      ],
+      "drag_norm_m_s2": 1.309141428253677e-07
+    },
+    {
+      "side": "right",
+      "rho_kg_m3": 8.827418913049658e-13,
+      "drag_gcrs_m_s2": [
+        2.5731055677028735e-08,
+        -1.658385172087486e-08,
+        -1.3771541605780265e-07
+      ],
+      "drag_norm_m_s2": 1.410767421800206e-07
+    }
+  ],
+  "RHS_domains": [
+    [
+      0.0,
+      21600.0
+    ],
+    [
+      21600.0,
+      43200.0
+    ]
+  ],
+  "RHS_calls": 43311,
+  "RHS_density_queries": 43311,
+  "all_density_queries": 44034,
+  "all_queries_valid": true,
+  "query_s": 39.00923938304186,
+  "peak_RSS_MiB": 313.23046875,
+  "state_SHA": "c90df083812fcbcc2748170bcdb5ed6af85fd39834441c07366bf8c20feeeebd"
+}

@@ -1,0 +1,57 @@
+{
+  "DOP15_effect": {
+    "comparison": "Updated minus Open DOP15",
+    "max_position_m": 4.6980053218506646,
+    "terminal_m": 4.6980053218506646,
+    "RMS_m": 1.4618196392317224,
+    "max_velocity_m_s": 0.005257778203270969,
+    "terminal_velocity_m_s": 0.005257778203270969,
+    "RMS_velocity_m_s": 0.0016393471244235702,
+    "terminal_R_m": -0.36959194948891266,
+    "terminal_A_m": 4.683441947876896,
+    "terminal_C_m": 0.005226459337790201
+  },
+  "DOP30_effect": {
+    "comparison": "Updated minus Open DOP30",
+    "max_position_m": 4.698984337247326,
+    "terminal_m": 4.698984337247326,
+    "RMS_m": 1.4621289778507605,
+    "max_velocity_m_s": 0.005258854154940122,
+    "terminal_velocity_m_s": 0.005258854154940122,
+    "RMS_velocity_m_s": 0.0016396949611778855,
+    "terminal_R_m": -0.36968708580592646,
+    "terminal_A_m": 4.68441649965218,
+    "terminal_C_m": 0.0052266691522104836
+  },
+  "paired_delta": {
+    "comparison": "BC effect DOP30 minus DOP15",
+    "max_position_m": 0.0009791844185569765,
+    "terminal_m": 0.0009791844185569765,
+    "RMS_m": 0.00031490773008187485,
+    "max_velocity_m_s": 1.0761732281257033e-06,
+    "terminal_velocity_m_s": 1.0761732281257033e-06,
+    "RMS_velocity_m_s": 3.5205830756575214e-07,
+    "terminal_R_m": -9.513631701369321e-05,
+    "terminal_A_m": 0.0009745517752832545,
+    "terminal_C_m": 2.0981442019045058e-07
+  },
+  "paired_fraction": 0.00020842556605943791,
+  "paired_gate_m": 0.046980053218506644,
+  "RK45_effect_delta": {
+    "comparison": "BC effect RK45_Tight minus DOP15",
+    "max_position_m": 0.0003417402545229646,
+    "terminal_m": 0.0003417402545229646,
+    "RMS_m": 0.00011786740925576295,
+    "max_velocity_m_s": 3.84266135926744e-07,
+    "terminal_velocity_m_s": 3.84266135926744e-07,
+    "RMS_velocity_m_s": 1.3021017694048265e-07,
+    "terminal_R_m": -1.0362157439799523e-05,
+    "terminal_A_m": 0.0003415831053516635,
+    "terminal_C_m": 9.69171178777286e-08
+  },
+  "RK45_terminal_norm": 4.698346661408155,
+  "terminal_norm_difference_DOP15_minus_RK45": -0.00034133955749027223,
+  "pre_event_BC_bitwise_identical": true,
+  "post_event_zero_or_nonzero_effect_only": true,
+  "no_high_order_D_improvement_claim": true
+}

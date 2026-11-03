@@ -1,0 +1,7 @@
+{
+  "tests": 3,
+  "status": "PASS",
+  "wall_s": 0.044,
+  "scope": "DOP853 event solver substitution / analytic acceleration jump / failure abort / no original globals mutation",
+  "log": "logs/orbit_12h_bc_dop853_validation_v1_tests.log"
+}

@@ -1,0 +1,23 @@
+{
+  "actual_commands": [
+    "source scripts/activate_orbit.sh",
+    "python tests/test_dop853_events.py",
+    "python scripts/run_orbit_12h_bc_dop853_validation_v1.py prepare",
+    "python scripts/run_orbit_12h_bc_dop853_validation_v1.py supervise",
+    "python scripts/analyze_orbit_12h_bc_dop853_validation_v1.py",
+    "python scripts/plot_orbit_12h_bc_dop853_validation_v1.py",
+    "python scripts/audit_orbit_12h_bc_dop853_validation_v1.py",
+    "python scripts/document_orbit_12h_bc_dop853_validation_v1.py",
+    "python scripts/extend_bc_dop853_sensitivity_v1.py"
+  ],
+  "tag_completed_do_not_replay": true,
+  "new_long_trajectories": 4,
+  "RK_segments": 8,
+  "actual_solver": "DOP853",
+  "new_A": 0,
+  "new_D": 0,
+  "new_GPU": 0,
+  "new_TIE": 0,
+  "baseline_HEAD": "1da08974bcaf77e5ec8b358f165e53f1a4418e15",
+  "old_RK45_gate": "FAIL_UNCHANGED"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "groups": [
+    "B_Open",
+    "C_Updated"
+  ],
+  "mode": "DOP15",
+  "records_per_run": 721,
+  "event_continuous": true,
+  "pre_event_BC_bitwise_equal": true
+}
