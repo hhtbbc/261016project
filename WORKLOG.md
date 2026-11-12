@@ -891,3 +891,5 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 主阶段69.351秒、峰值RSS373.359MiB。5张实际图、来源索引、下载/输入/质量/驱动/独立审计与SHA齐全。新原始观测和逐点NPZ/CSV仅本地，不上传。无TIE-GCM、GPU、训练或轨道启动，原122候选及原科学门禁保持。
 - 实际命令：source scripts/activate_orbit.sh；PYTHONPATH=src python -m unittest discover -s tests -p test_hourly_tiegcm_observation.py -v；python scripts/run_swarm_tiegcm_2021_observation.py；python scripts/finalize_swarm_tiegcm_2021_observation.py。完成标签拒绝覆盖，后续复现须显式改新标签。
 - 交付报告reports/SWARM_TIEGCM_2021_SPINUP_OBSERVATION_V1.md，结果与实验目录同标签。下一步建议2022同期独立观测比较与组分/高度依据补充，不据此启动真实AI训练。Git只安全提交轻量代码、报告、聚合CSV和图，不强推；最终同步状态见本轮答复与同步记录。
+
+- Git实际结果：本轮科研提交26227f9930731ee83fbee9c339f0221cf6befd1c已保存。首次push因旧VS Code socket失效/认证被拒；仅Git进程切换到同用户活跃socket后仍未在约一分钟有界等待内完成，停止该push，再核对远端main仍为159398508c2df1efa0fc893b51d8457badf521d2。未强推、未写入凭据，当前远端同步未完成；所有本地成果保留。CSV使用标准CRLF格式，git whitespace检查将CR记为行尾空白，未改变统计数值，未重写科研表求通过。
