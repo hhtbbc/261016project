@@ -1,0 +1,15 @@
+{
+  "reason": "Explicit pressure-level DEN label and per-case height coverage; numerical data unchanged",
+  "files": [
+    {
+      "file": "crossyear_internal_comparison.png",
+      "old_SHA256": "0ad7bd4966fd9da704382ed5d4bb41e3f2a0879c36841ed7dac094aa364b0e70",
+      "final_SHA256": "2d59335c94b06938bd86ddc17f0aa2cf24a7bd10d8ed10dfb4fd2cb596976cea"
+    },
+    {
+      "file": "multivariable_acceptance.png",
+      "old_SHA256": "0e294da075fd9c30997bf02f35a0b80f9c7481b54526f97028596254620032c2",
+      "final_SHA256": "2e1c78c616be7c6e324fcf68b5a27969673519fb6c6221f83a26ab119a4afeab"
+    }
+  ]
+}

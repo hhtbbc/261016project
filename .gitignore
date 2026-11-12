@@ -282,3 +282,9 @@ credentials.json
 /experiments/swarm_tiegcm_2022_observation_v1/*_local.json
 /experiments/swarm_tiegcm_2022_observation_v1/figure_draft_local/
 /experiments/swarm_tiegcm_2022_observation_v1/git_sync*.json
+
+# 2022 dual-initial raw model histories and complete pointwise observation data local only
+/results/tiegcm_2022_dual_initial_spinup_v1/observation/*_local.csv
+/results/tiegcm_2022_dual_initial_spinup_v1/observation/*_local.npz
+/experiments/tiegcm_2022_dual_initial_spinup_v1/figure_draft_local/
+/experiments/tiegcm_2022_dual_initial_spinup_v1/git_sync*.json

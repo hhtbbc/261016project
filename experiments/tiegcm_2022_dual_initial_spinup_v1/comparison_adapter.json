@@ -1,0 +1,13 @@
+{
+  "origin": "scripts/compare_tiegcm_2021_initial_conditions.py",
+  "original_SHA256": "c16871259a37fbe4646c7520b1ecb6034b9b954d74ba7e042f7e7d47e1b6ebec",
+  "adapted_SHA256": "6e9de9b0ed51dcecb63bad2ec2a02d186df8c7e8f83b5cb68778a37bdc3d4a11",
+  "changes": [
+    "experiment paths",
+    "stopDOY85->84",
+    "last24h startDOY84->83",
+    "endpoint array239->215",
+    "plot date26->25"
+  ],
+  "metrics_gate_AST_identical": true
+}

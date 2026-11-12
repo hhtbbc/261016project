@@ -494,3 +494,13 @@ A14/B14共同03-23 00:00 primary_015均为完整34项float64标准状态（iter1
 - 新7项分组/指标测试及原8项小时接口回归均通过；16组旧2021指标复现、8组新跨年全局指标独立算术核验，历史SHA不变。主阶段50.370秒/RSS268.652MiB；下载含元数据1594255字节<10MiB；9张实际图，无新模型启动或训练。
 - 报告：reports/SWARM_TIEGCM_2022_OBSERVATION_V1.md、reports/SWARM_TIEGCM_2021_2022_COMPARISON_V1.md；结果results/swarm_tiegcm_2022_observation_v1/。
 - 2022双初态及14天未执行，SPINUP_SUFFICIENCY_UNVERIFIED、SCIENCE_TRAINING_READY=False、正式真实轨道BLOCKED保持。建议先另授权2022第二初态7天方案配对，再决定14天资源；外部高度依据并行处理，不自动进入下一轮。
+
+## 2026-11-12：2022 smax单次连续模拟、双初态及Swarm对照完成
+
+- `tiegcm_2022_dual_initial_spinup_v1`：新增且仅一次2022-03-16至25的smax连续积分，12960步/1374.713820秒、4MPI正常退出，峰值采样树RSS949.137MiB，NetCDF1903953476字节。10主/216次历史完整，原2022 smin/2021全部轨迹及122候选只读，无Restart或重试。
+- 配置仅SOURCE不同，官方smax完整34状态/合法2002 DOY80记录、GPI/可执行/apex及旧输入SHA核验；暖态时间/网格/五驱动相同。冷echo源标量不同保留，不冒称实际GPI不一致。
+- 450km候选/最后24h/终点双初态加权P95为8.93109/8.08026/7.32292%，覆盖100%，均超5%。原生压力层DEN/TN逐格规则通过；风候选572/最后24h340失败格，O1/O2/N2/HE仍FAIL。不能用压力层DEN通过替代固定高度通过。
+- 2022-03-24四映射×双轨迹共同2880观测均有效。Map-A smin/smax RMSE2.91516/2.32728×10⁻¹³kg/m³，相对RMS20.5497/18.5338%；RMSE降低20.1663%、相对RMS降低9.8098%。Map-B/E相对RMS反而恶化约2.38%，不择优认定高度/初态。
+- 匹配03-23至25的49帧，2021 7天/14天及2022 7天450km内部P95=6.05950/2.12373/8.93109%。19个实际图；7新测试通过，19新NC/304保护资产SHA及观测指标、450km独立复算通过。
+- 报告入口：TIEGCM_2022_SMAX_LONGRUN_VALIDATION、TIEGCM_2022_DUAL_INITIAL_SPINUP_V1、SWARM_TIEGCM_2022_DUAL_INITIAL_OBSERVATION_V1、TIEGCM_2021_2022_DUAL_INITIAL_COMPARISON_V1。结果results/tiegcm_2022_dual_initial_spinup_v1/。
+- 建议A：另行授权14天双初态研究以检验仍超限但下降的固定高度差异；不能预设充分或观测改善。需要补7天Fobs/56个Kp桶并新建GPI。当前科学训练False、EXTERNAL_DATUM_UNVERIFIED与真实轨道BLOCKED保持；本轮已结束模型运行，不自动14天/训练/轨道。

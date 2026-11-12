@@ -1,0 +1,38 @@
+{
+  "PASS": true,
+  "stages": {
+    "audit_tiegcm_2022_dual_initial.py": {
+      "returncode": 0,
+      "wall_s": 15.839943140745163,
+      "log": "logs/tiegcm_2022_dual_initial_spinup_v1_audit_tiegcm_2022_dual_initial.log"
+    },
+    "compare_tiegcm_2022_dual_initial.py": {
+      "returncode": 0,
+      "wall_s": 44.4831329472363,
+      "log": "logs/tiegcm_2022_dual_initial_spinup_v1_compare_tiegcm_2022_dual_initial.log"
+    },
+    "accept_tiegcm_2022_dual_initial.py": {
+      "returncode": 0,
+      "wall_s": 3.6220570392906666,
+      "log": "logs/tiegcm_2022_dual_initial_spinup_v1_accept_tiegcm_2022_dual_initial.log"
+    },
+    "observe_tiegcm_2022_dual_initial.py": {
+      "returncode": 0,
+      "wall_s": 8.077791050076485,
+      "log": "logs/tiegcm_2022_dual_initial_spinup_v1_observe_tiegcm_2022_dual_initial.log"
+    },
+    "joint_tiegcm_dual_initial_years.py": {
+      "returncode": 0,
+      "wall_s": 9.22963160276413,
+      "log": "logs/tiegcm_2022_dual_initial_spinup_v1_joint_tiegcm_dual_initial_years.log"
+    },
+    "finalize_tiegcm_2022_dual_initial.py": {
+      "returncode": 0,
+      "wall_s": 2.870423696935177,
+      "log": "logs/tiegcm_2022_dual_initial_spinup_v1_finalize_tiegcm_2022_dual_initial.log"
+    }
+  },
+  "total_new_generated_bytes": 1913788464,
+  "wait_plus_analysis_wall_s": 1017.0930651836097,
+  "new_model_launches": 0
+}

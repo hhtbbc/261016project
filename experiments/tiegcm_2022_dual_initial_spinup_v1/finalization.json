@@ -1,0 +1,17 @@
+{
+  "main_next_decision": "A",
+  "figure_files": [
+    "DEN450_evolution.png",
+    "multivariable_acceptance.png",
+    "Swarm_density_timeseries.png",
+    "Swarm_metrics.png",
+    "crossyear_internal_comparison.png",
+    "internal_vs_external.png",
+    "composition_profiles.png",
+    "observation_map_sensitivity.png"
+  ],
+  "wall_s": 2.280716720968485,
+  "peak_RSS_MiB": 141.375,
+  "science_training_ready": false,
+  "external_datum": "EXTERNAL_DATUM_UNVERIFIED"
+}

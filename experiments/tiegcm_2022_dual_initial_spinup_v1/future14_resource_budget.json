@@ -1,0 +1,18 @@
+{
+  "planning_only": true,
+  "model_start": "2022-03-09T00:00:00Z",
+  "model_stop": "2022-03-25T00:00:00Z",
+  "steps_each": 23040,
+  "primary_records_each": 17,
+  "primary_volumes_each": 17,
+  "secondary_records_each": 384,
+  "secondary_volumes_each": 16,
+  "secondary_capacity": 24,
+  "NetCDF_volume_scaled_bytes_each": 3371589223,
+  "NetCDF_volume_scaled_GiB_each": 3.140037155896425,
+  "safety_wall_per_run_s": 4800,
+  "safety_wall_total_s": 9600,
+  "output_limit_each_GiB": 5,
+  "output_limit_total_GiB": 12,
+  "no_new_run_authorized": true
+}

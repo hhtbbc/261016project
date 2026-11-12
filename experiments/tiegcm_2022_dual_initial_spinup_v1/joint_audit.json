@@ -1,0 +1,25 @@
+{
+  "verified_files": {
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_007.nc": "e96e1a9879dfcb2638428dd4aaafb2c30e6c2b7b311bfedc2f6d87b58487f027",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_008.nc": "233fd66f506aa2400915814f425d9fd28989a7fc83d8c1b31c172ee66058f646",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_009.nc": "27c45918656b562212e34ccb700e64585cb5bb7f81a2603fa6081292ba0610cc",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_007.nc": "9583e279162bfc5acde23146a7914bbdae732a5ccc85451bea0470cbe7aae10f",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_008.nc": "68c867ef059cb1eac5b774bb55ef7677a4c3d1231668270e2b3478482517413f",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_009.nc": "79fcf865819545c2f122acf217823265aba27019b3882d82724bad1aaf651b7f",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_014.nc": "99659c04e987b9ab917d30b431eff8f52ee3ed939b37853a313510f2d15852ef",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_015.nc": "4f4bb235455733b15e2abc5cae77690bf06183dee197c6be1b13c54bacdc9f4a",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_016.nc": "c84ade29980da5e48b66b7620ad8a964196333c73420dd7f64f88c3458f3b40c",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_014.nc": "2a6b0bcb869a34c2a4392d8b34ed87871a88ea46968297f2b2ec6a3bdf1149d9",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_007.nc": "8215cf58ff10fb4f1e0c791edbdeecf35e57d6a459197d213c5bfd543e1576aa",
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_008.nc": "2d883664b96d82714448c2459267dc6dec4d451cdd3c779d9536a66b4b8c1a21",
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_009.nc": "bd787cd363817100c075c7dc51b9db405aac17d19660110c14677303191eb9c7",
+    "experiments/tiegcm_2022_dual_initial_spinup_v1/secondary_007.nc": "9622a0cc0c999af2e83b44bc30ae01d6c6486da6066b88f89c1b4dd2c736538d",
+    "experiments/tiegcm_2022_dual_initial_spinup_v1/secondary_008.nc": "0cb6465ff5abf8e1f1945e034d23a8c2d29827b158138b631173648b1e75ee6d",
+    "experiments/tiegcm_2022_dual_initial_spinup_v1/secondary_009.nc": "b868e461af00d043e6b0615875d2980f8a54d96f83c53c40b775c4197b922d4c"
+  },
+  "matched_window": "each year March23 00 to March25 00;49 hourlyframes",
+  "no_original_results_modified": true,
+  "wall_s": 7.9215663112699986
+}

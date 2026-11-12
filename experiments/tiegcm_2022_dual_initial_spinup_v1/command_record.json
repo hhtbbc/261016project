@@ -1,0 +1,17 @@
+{
+  "commands": [
+    "source scripts/activate_tiegcm.sh",
+    "PYTHONPATH=src python -m unittest discover -s tests -p test_tiegcm_2022_dual_initial.py -v",
+    "python scripts/run_tiegcm_2022_dual_initial.py",
+    "python scripts/run_tiegcm_2022_dual_initial.py --execute",
+    "source scripts/activate_orbit.sh",
+    "python scripts/analyze_tiegcm_2022_dual_initial.py",
+    "python scripts/audit_tiegcm_2022_dual_delivery.py",
+    "python scripts/supplement_tiegcm_dual_native_years.py",
+    "python scripts/supplement_tiegcm_2022_dual_evidence.py"
+  ],
+  "analysis_controller_waits_for_existing_run": true,
+  "no_automatic_MPI_launch_or_retry": true,
+  "plot_annotation_revision": "isolated copy of first plots; explicit native-pressure label and height coverage; numerical inputs unchanged",
+  "note": "Completed tags are exclusively created. Do not replay execute: launch already consumed."
+}

@@ -1,0 +1,366 @@
+{
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/PET2.ESMF_LogFile": {
+    "SHA256": "21e897221abbd424cda2a8a046a1cd31baa8d4b7c12df596716c011a70b7a8e3",
+    "bytes": 1457
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/data_audit.json": {
+    "SHA256": "4e226fa8d6596e6004676498d925621a17a819928c0227f5934840d7f609a6a1",
+    "bytes": 18785
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/observation_audit.json": {
+    "SHA256": "dd02088a785f8eb99aa84aece5dd7a97a5d43a323d168602898bb1fd002775d5",
+    "bytes": 324
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/input.inp": {
+    "SHA256": "6e3144287d30204b393fb2238c6b0fbadb85cca2ed641d4aaa8988d3a58676ca",
+    "bytes": 1351
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/future14_resource_budget.json": {
+    "SHA256": "7493c1dda1bcf4085d7a5d7b1479ed3ef87ae045c8766cbb9417793bf495e340",
+    "bytes": 546
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/progress.json": {
+    "SHA256": "07473fd0ed171eea52e294db7490d798362b2bb00733c214858d5cb0657644fb",
+    "bytes": 119
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/offline_progress.json": {
+    "SHA256": "c7723b367145db4d863b0cd4fbca141cb24f43620f7fbb92fb918d6c024c0342",
+    "bytes": 1148
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/figure_annotation_revision.json": {
+    "SHA256": "bc8cecec40ec9ed208a0ac323ec645130e06d76e0b61d3d36ea4ef842a91919f",
+    "bytes": 601
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/preflight.json": {
+    "SHA256": "9859db97e3a78be49e942da741aa77137df34ed5c331aa7e7faf6ac10f9e30b6",
+    "bytes": 3584
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/PET1.ESMF_LogFile": {
+    "SHA256": "b77326ae48e212f4a70ec72b4d27d7bd890d33e7b24792080392e5e011c2d86e",
+    "bytes": 1457
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/initial_state_audit.json": {
+    "SHA256": "55372409c16e3416ed2f3036144047a3e2f921f13027e23d2c52497e0f67b6ed",
+    "bytes": 9748
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/comparison_adapter.json": {
+    "SHA256": "02c3eae955fbd5d3621673ea886d3ba444b5a9a2440b065579278d0dcda886f0",
+    "bytes": 429
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/acceptance_runtime.json": {
+    "SHA256": "d6c561dbe50733ff63da5a5b090dbcbd9d3dea7c292e1171f0d0ebc71c6cd728",
+    "bytes": 116
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/configuration_diff.json": {
+    "SHA256": "a2f42e19b683ca03993caa635424feca25af909e121d97a6b47adf14e51f96cc",
+    "bytes": 653
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/delivery_audit.json": {
+    "SHA256": "0e3f4deb2e666addbf998a4f56151d00d8003ee4dff67bfed49f312c669caa3c",
+    "bytes": 657
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/PET0.ESMF_LogFile": {
+    "SHA256": "9745ab3de1bd07c1539fcca164f38134e3ff1e0b01cec14c439a40c6ea3d0862",
+    "bytes": 1457
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/protected_files.json": {
+    "SHA256": "108675b8b4a9943c4265556b290951eea3e3fc88a1b09ac107da978d3b04c7d0",
+    "bytes": 44156
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/joint_native_matched_runtime.json": {
+    "SHA256": "f98661b04c9dadb6f8bcb9a194ee9a5202aeb47f7190b65c67f58ead2f6125f7",
+    "bytes": 138
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/launch_once.json": {
+    "SHA256": "d88792ed55e3e25b84236e152eedfd7e1249a77e30054c4d7aed8122e37621eb",
+    "bytes": 64
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/engineering_audit_adapter.json": {
+    "SHA256": "0b7724eaf85a7669700049e62c1c0560fd4e63e723864ab9cfc88c37ebc808e6",
+    "bytes": 346
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/PET3.ESMF_LogFile": {
+    "SHA256": "9b5504e3cf20b91628d7c23fa39250a10cc8dec0ac715b7269bf45abd011c995",
+    "bytes": 1457
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/run_status.json": {
+    "SHA256": "99efbf02bd9bdb873e071c703965bff5e52b285df8ce56d00dd916ebf79c4908",
+    "bytes": 40023
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/finalization.json": {
+    "SHA256": "77bfdeed3267385525470ad8c2b0d775997a8f21a2a54821c911dc7aa3ce046e",
+    "bytes": 467
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/offline_analysis_frozen_code.json": {
+    "SHA256": "d1f199b68fe14d85cf6d5596f1df8e85b68981301bd5dc1b270457ad7e4752b6",
+    "bytes": 653
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/offline_status.json": {
+    "SHA256": "b2ec447f2b4c349db10a6243672631e6b4ea03e2595a1e92be46da1cb229ea86",
+    "bytes": 1363
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/cwd": {
+    "SHA256": "73a7f84483c81fb3e1d050cdbf6292b5cf383804163c3ecb42e8a1a802d6d710",
+    "bytes": 72
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/frozen_comparison_rules.json": {
+    "SHA256": "ee579b5579811934bcb137f31911cc3639dbb0260dff5665b78bb2617d8b9339",
+    "bytes": 2206
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/joint_audit.json": {
+    "SHA256": "3ece08627412de5cdf7d750e37596dacda96dcf71eecf2b5b5ed06069e00cbdb",
+    "bytes": 2698
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/runtime_environment.json": {
+    "SHA256": "7f9d4bde346b14fba59837475125de98d3ca7917f9614ce7701186e3bbdcc341",
+    "bytes": 194
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/future14_support_inventory.json": {
+    "SHA256": "121d6b83806f18438da15ad0039d1918a9f99d0544bc3480c1f186e444eb4032",
+    "bytes": 2549
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/analysis_protocol.json": {
+    "SHA256": "222066723ee2a7a9e973c12a0eb6b8bd266b2c33514d4a324c17f5d9c7ed2956",
+    "bytes": 885
+  },
+  "experiments/tiegcm_2022_dual_initial_spinup_v1/command_record.json": {
+    "SHA256": "e694a8db1d1e960a81f07f55600ae8d069a09dc63764adbee22693d9ffc88f1e",
+    "bytes": 898
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/acceptance_by_period.json": {
+    "SHA256": "2155a174623e00f3784a04c4fb7c1ee617d46d5ebee4a01345197032b90f953f",
+    "bytes": 5237
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/joint_native_matched.csv": {
+    "SHA256": "724a6a7336ffd700c71f05c09936fc813062f10d6327b41d43f5336fd61b01c6",
+    "bytes": 77132
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/acceptance_region_level_matrix.csv": {
+    "SHA256": "f4b052fbab4894b657880de3cfe66820ea4c18443ab01f112f19b350819af7dd",
+    "bytes": 334099
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/figure_sources.csv": {
+    "SHA256": "ab19487e73a8d4c8d3cc3b80b063055e430d7b9d6e3d69040e176bc65a3a2f85",
+    "bytes": 6686
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/joint_matched_native_ZG_hourly.csv": {
+    "SHA256": "d7c3a5967330ded2872e70903a54eface4220de7e8476859d72f6f897125ad0a",
+    "bytes": 185417
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/joint_matched_native_ZG.csv": {
+    "SHA256": "48c34a51686f49f47c76b18f486ce7ef625dcb1b05c453f883c5c5258f68d889",
+    "bytes": 73060
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/N2_small_diagnostics.csv": {
+    "SHA256": "282489080b69e17c7d4687498a493653199a73294f3f7dc168c0d8966acf320c",
+    "bytes": 20046
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/N2_small_extended.csv": {
+    "SHA256": "53572406e2692c8021bb612ac47973c1746c298c206687e4accd9fc9f5d86b0e",
+    "bytes": 12521
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/joint_native_matched_gates.csv": {
+    "SHA256": "2aae23c6f4a226da13aaee797215a13b75b4ad8af0d90d1480e70cd965c0f981",
+    "bytes": 3636
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/figures/Swarm_density_timeseries.png": {
+    "SHA256": "bd5e5f7578c4011ade384190cafa2cce458d31e207e81358ec1772106163c3e1",
+    "bytes": 230619
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/figures/composition_profiles.png": {
+    "SHA256": "3d50c8301b372d5e106ebf9e59be8f313a632943250104062c9ab15f3d8b07e7",
+    "bytes": 130458
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/figures/crossyear_internal_comparison.png": {
+    "SHA256": "2d59335c94b06938bd86ddc17f0aa2cf24a7bd10d8ed10dfb4fd2cb596976cea",
+    "bytes": 77122
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/figures/DEN450_evolution.png": {
+    "SHA256": "fd1d028bde0e850b578d51de51e8d4aa867c227fd7e5738546bed73a4bc4388b",
+    "bytes": 73717
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/figures/Swarm_metrics.png": {
+    "SHA256": "6f117f72044bd5a06dc40e304583cff8fb05e73b06a51c00fad1d1e696f80d29",
+    "bytes": 69568
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/figures/multivariable_acceptance.png": {
+    "SHA256": "2e1c78c616be7c6e324fcf68b5a27969673519fb6c6221f83a26ab119a4afeab",
+    "bytes": 73450
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/figures/internal_vs_external.png": {
+    "SHA256": "5048dcaecf3833655ecf13198f90edc264fffd74dbbba324e4a496ae01f5fc30",
+    "bytes": 78257
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/figures/observation_map_sensitivity.png": {
+    "SHA256": "e31e74cf9f3a61e24fe7a3da1cb5e1a05ccbcec77cf0e2548522f1188f6427b0",
+    "bytes": 64894
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/observation/metrics.csv": {
+    "SHA256": "289c78f012a66bad78898ffce2797a7a29b18e903f857a80357a8054c22e3c63",
+    "bytes": 51175
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/observation/coverage.csv": {
+    "SHA256": "7b916b6d7a22e7f450ba14cee6bea350e45f70d282bbd4f98da76f11b9f240a6",
+    "bytes": 284
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/observation/internal_along_track.csv": {
+    "SHA256": "875c466133e2bcbea13a721b463994a3992cbee57b3c83bd75592e16b14be4d6",
+    "bytes": 684
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/engineering/drivers.png": {
+    "SHA256": "965841c6d131861e60c34a34882bcc3a9231b127b094332a70fb181c98be0caa",
+    "bytes": 98140
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/engineering/ZG_structure.png": {
+    "SHA256": "9e96ec4e7937536fa2558b1d226b0a3b42480f04d22c5d7fc21ac92284c55977",
+    "bytes": 42331
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/engineering/latitude_bands.png": {
+    "SHA256": "3fa2a2afd2997b65ddd242b26377f7049b31720dfce71c02dd7cd98bf5877114",
+    "bytes": 82918
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/engineering/hourly_diagnostics.csv": {
+    "SHA256": "846419d59470ca17f3666348d960de7dcac59dbc0b4ad68ff07701d70342f021",
+    "bytes": 118053
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/engineering/temperature_wind.png": {
+    "SHA256": "d1e2d5260f0297f31f443c350f3fab08c3f2dadecf7c114ad7130c9d619e41a8",
+    "bytes": 116109
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/engineering/median_ZG_profiles_km.csv": {
+    "SHA256": "b7d8fb1a49e3f254ef522fd408e9f83412af37a97031e1df6b460e38f0e773ee",
+    "bytes": 156600
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/engineering/composition.png": {
+    "SHA256": "7e358f8d979c3260014175347edb4eb50d07b272fb65d2b30746cfe52b65250d",
+    "bytes": 95875
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/engineering/density.png": {
+    "SHA256": "4762a619f43c0738294284a042841eee1c49ffd320e6f2d65f96600c8281ec7b",
+    "bytes": 56872
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/native_density_group_hourly.csv": {
+    "SHA256": "6a44a92dea396e8ae692ae1dcadb7063f861c36edf180cc533c47611a9ee74f8",
+    "bytes": 127054
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/summary.json": {
+    "SHA256": "95e7ebd1c3825e257254ebd413efc4c045dbf95b1cfce7b717d3b55989b905cf",
+    "bytes": 1722837
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/native_profiles.csv": {
+    "SHA256": "54f1b15cb12ea3b20b34d52a1fa439f67fc5f5a24fb69db5668643b6a38ed070",
+    "bytes": 638617
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/native_ZG_density.csv": {
+    "SHA256": "e2e4d948d75a3d48929466dd4e571c246c665c5f2f5e6420d873226c5f978eff",
+    "bytes": 22493
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/native_ZG_density_hourly.csv": {
+    "SHA256": "0f9c6b431167d19dac7136edb0e660df87c5d76703b17f06a14df68acb130f60",
+    "bytes": 1566326
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/native_ZG_450km_maps.csv": {
+    "SHA256": "cc630c45096e12e2ceab01f3ac3e60d13150fa8c2e47e047f3c0555e0184c1f8",
+    "bytes": 203704
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/native_density_groups.csv": {
+    "SHA256": "aab57ecdee9a86a33bf1f04a9edc54c320f8b3b1e322e94d5c26a3ab99eae35f",
+    "bytes": 7840
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/native_hourly.csv": {
+    "SHA256": "6c65a325ea7d8b7d630688116a2fda114211e2c5f29bf99dc5b3a19fe3eb2dc1",
+    "bytes": 418299
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/last24h_trends.csv": {
+    "SHA256": "3872d4e20171405b0ecaa2e8bf812e2cbe87051d05a45b97dd89a739d05029ef",
+    "bytes": 516
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/native_summary.csv": {
+    "SHA256": "0bb0caab953a2823045fdd9057bf14cb7f8aeb99a7b075944ac0cb2adfc74fab",
+    "bytes": 35821
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/figures/native_ZG_density_evolution.png": {
+    "SHA256": "a89609a9713777e1ea46a7d1649f15b0b966b12ca4e0903319e6c7d211623e01",
+    "bytes": 86868
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/figures/native_evolution.png": {
+    "SHA256": "d169f123c9b96f423264e94b53705bb2344cf4158483861848268ad4f21ff23a",
+    "bytes": 108260
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/figures/native_ZG_450km_maps.png": {
+    "SHA256": "5af49179fc5cafd12929cef24a23a5626a97c029a370288e726067dd413dc4e9",
+    "bytes": 60271
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/figures/density_pressure_profiles.png": {
+    "SHA256": "b0f71a9fabcf002d3f30b221e7e4cb23b8fd8e418a9aa8294631fe6d464de2fb",
+    "bytes": 119331
+  },
+  "results/tiegcm_2022_dual_initial_spinup_v1/comparison/figures/composition_evolution.png": {
+    "SHA256": "1084a6eea74d3671b98671d4c2c7d36d50a3186bccf50d2f2689804ac2f50159",
+    "bytes": 75563
+  },
+  "scripts/compare_tiegcm_2022_dual_initial.py": {
+    "SHA256": "6f26847f04367fa3ebed605fab5130c6ca7bb6925cec212383d024de18d9c76c",
+    "bytes": 2001
+  },
+  "scripts/analyze_tiegcm_2022_dual_initial.py": {
+    "SHA256": "31f4cd87d91bb8138ffde69e09a0bb075f39e13c856295922ad3f79b3e84dbf5",
+    "bytes": 2298
+  },
+  "scripts/audit_tiegcm_2022_dual_initial.py": {
+    "SHA256": "3726a112490438477544ecb2b9d6dcfb247f6df279a8c126b904730ddeb48e0e",
+    "bytes": 1340
+  },
+  "scripts/run_tiegcm_2022_dual_initial.py": {
+    "SHA256": "a2861976e11aa8aff6a7366e104e6b73927ae702ebc9973f7ade9f8d88970411",
+    "bytes": 7330
+  },
+  "scripts/finalize_tiegcm_2022_dual_initial.py": {
+    "SHA256": "8338a583b84182ecff348f17c232ae3f290a06196463908006a96f96cf66e7b0",
+    "bytes": 16390
+  },
+  "scripts/accept_tiegcm_2022_dual_initial.py": {
+    "SHA256": "3d942821fc5a4c5ed1649812d639fd2581211c33dd005714895d7a659b01379a",
+    "bytes": 4829
+  },
+  "scripts/observe_tiegcm_2022_dual_initial.py": {
+    "SHA256": "784a1e523ce5e554d4901373bbb25aa753ed9679767e589f14b2a7d090f627ad",
+    "bytes": 4699
+  },
+  "scripts/joint_tiegcm_dual_initial_years.py": {
+    "SHA256": "d0f3225108d3db4237d2b81d6cb8e402d446c6441e7ce3be8711b11dfb06410f",
+    "bytes": 2896
+  },
+  "scripts/supplement_tiegcm_dual_native_years.py": {
+    "SHA256": "08cc378122e1cadfb41356be6c605db1d6c61c76337be3c2161e8dd6986f4be4",
+    "bytes": 2855
+  },
+  "scripts/audit_tiegcm_2022_dual_delivery.py": {
+    "SHA256": "ca4468d2c1a0d81715b9eaf5f6d244117c4a9189c667f49145ad4f24943cf46b",
+    "bytes": 4344
+  },
+  "tests/test_tiegcm_2022_dual_initial.py": {
+    "SHA256": "787ed3d557075e1f73e6b7ec19230f75af6f1e67eafd3b6203a7b6ab12123cbb",
+    "bytes": 1823
+  },
+  "reports/TIEGCM_2022_DUAL_INITIAL_SPINUP_V1.md": {
+    "SHA256": "b8f3ae2080d929e23f644ddb13d1d41ca16df57bdb5e68698349cca4f216a1d5",
+    "bytes": 3180
+  },
+  "reports/SWARM_TIEGCM_2022_DUAL_INITIAL_OBSERVATION_V1.md": {
+    "SHA256": "68b5cae056d9485b55f9ca7c5282daf8ec41d92371eb48dbea9b0b58ca14b1bd",
+    "bytes": 2289
+  },
+  "reports/TIEGCM_2021_2022_DUAL_INITIAL_COMPARISON_V1.md": {
+    "SHA256": "c6730f8b92c2bf0978956efae4636216d785b713b1f9865f6a775c3bf28a406e",
+    "bytes": 1773
+  },
+  "reports/TIEGCM_2022_SMAX_LONGRUN_VALIDATION.md": {
+    "SHA256": "55989e4e676ad25c48ed3348d7e4a90ad003e8652319abd40d8e665cb118679d",
+    "bytes": 1734
+  },
+  "docs/TIEGCM_2022_14DAY_SPINUP_DECISION.md": {
+    "SHA256": "3eab30354c4b7748ff278931fb9931bfc1abe31744096b0a8574fa7b1e38339e",
+    "bytes": 2618
+  }
+}

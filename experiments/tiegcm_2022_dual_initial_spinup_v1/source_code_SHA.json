@@ -1,0 +1,22 @@
+{
+  "scripts/compare_tiegcm_2022_dual_initial.py": "6f26847f04367fa3ebed605fab5130c6ca7bb6925cec212383d024de18d9c76c",
+  "scripts/analyze_tiegcm_2022_dual_initial.py": "31f4cd87d91bb8138ffde69e09a0bb075f39e13c856295922ad3f79b3e84dbf5",
+  "scripts/audit_tiegcm_2022_dual_initial.py": "3726a112490438477544ecb2b9d6dcfb247f6df279a8c126b904730ddeb48e0e",
+  "scripts/run_tiegcm_2022_dual_initial.py": "a2861976e11aa8aff6a7366e104e6b73927ae702ebc9973f7ade9f8d88970411",
+  "scripts/finalize_tiegcm_2022_dual_initial.py": "8338a583b84182ecff348f17c232ae3f290a06196463908006a96f96cf66e7b0",
+  "scripts/accept_tiegcm_2022_dual_initial.py": "3d942821fc5a4c5ed1649812d639fd2581211c33dd005714895d7a659b01379a",
+  "scripts/observe_tiegcm_2022_dual_initial.py": "784a1e523ce5e554d4901373bbb25aa753ed9679767e589f14b2a7d090f627ad",
+  "scripts/audit_tiegcm_2022_dual_delivery.py": "ca4468d2c1a0d81715b9eaf5f6d244117c4a9189c667f49145ad4f24943cf46b",
+  "scripts/supplement_tiegcm_2022_dual_evidence.py": "67ea050be4985d736676ff8ad365dea5ee72600b2731e40c746858dafb48a8e4",
+  "scripts/supplement_tiegcm_dual_native_years.py": "08cc378122e1cadfb41356be6c605db1d6c61c76337be3c2161e8dd6986f4be4",
+  "scripts/joint_tiegcm_dual_initial_years.py": "d0f3225108d3db4237d2b81d6cb8e402d446c6441e7ce3be8711b11dfb06410f",
+  "scripts/compare_tiegcm_2021_initial_conditions.py": "c16871259a37fbe4646c7520b1ecb6034b9b954d74ba7e042f7e7d47e1b6ebec",
+  "scripts/audit_tiegcm_mar23_2022_longrun.py": "949313b3b38b380b6d91a705ccb722dd9f4e761fdfe8aca5fb50b9491e213dec",
+  "scripts/run_tiegcm_mar23_2022_longrun.py": "934894175130dcd0d54cfa151f361fe44dae70cfc38475fc91fd5574207b0d9b",
+  "scripts/run_tiegcm_mar23_diagnostic.py": "4406d96c248cceda0b38f68b27bf6238ea0b374138f76ab68009c1392de942e4",
+  "src/atmosphere/hourly_tiegcm_observation.py": "31d3cba796e6304f00e73fe8cb08b1aedf6de3e11b8ef4b20b0860d3e4066ff8",
+  "src/atmosphere/tiegcm_density_provider.py": "2af64d466f40fa235915ce6e4b29cf4fc28dad086245d3df9e30b7bc1db0291f",
+  "src/evaluation/swarm_density_comparison.py": "c97d1284144b9fd0dbdce754705ddbf2adcccc0db59ad4143b8a8f9fc27fe2fc",
+  "src/evaluation/swarm_crossyear.py": "5fbe5916cede884e9f519279f766134781ecf96784fa4ea6113954b300d63ca2",
+  "tests/test_tiegcm_2022_dual_initial.py": "787ed3d557075e1f73e6b7ec19230f75af6f1e67eafd3b6203a7b6ab12123cbb"
+}

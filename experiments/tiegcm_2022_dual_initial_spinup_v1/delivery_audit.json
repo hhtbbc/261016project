@@ -1,0 +1,16 @@
+{
+  "PASS": true,
+  "protected_assets_unchanged": 304,
+  "new_NetCDF_SHA_verified": 19,
+  "model_launches": 1,
+  "independent_column_interpolation_weighted_450_P95": 0.08931085898296919,
+  "independent_weighted_450_RMSE": 5.392931311326664e-14,
+  "observation_metric_sets_independently_recomputed": 8,
+  "figures_verified": 19,
+  "log_WARNING_ERROR_NaN_Inf_count": 0,
+  "total_generated_bytes": 1913797424,
+  "source_SHA_after": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+  "stdout_SHA256": "1d78428011cdb5ca1fa40df44ea6d6431a582bedf90018e69e192c40378f4ecf",
+  "scientific_training_ready": false,
+  "formal_real_orbit": "BLOCKED"
+}

@@ -1,0 +1,36 @@
+{
+  "derived_from": "2021 frozen multivariable protocol; previous 2022 observation protocol",
+  "main_observation_map": "A",
+  "all_maps": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "relative_DEN_denominator": "A7 simulation for sensitivity; instantaneous positive DNS for observation errors",
+  "composition_floor": 1e-08,
+  "small_diagnostic_subsets": [
+    "all",
+    "N2_A<=1e-5",
+    "N2_A>1e-5"
+  ],
+  "small_subset_changes_acceptance": false,
+  "periods": {
+    "candidate": [
+      "2022-03-23",
+      "2022-03-25"
+    ],
+    "last24h": [
+      "2022-03-24",
+      "2022-03-25"
+    ],
+    "endpoint": [
+      "2022-03-25",
+      "2022-03-25"
+    ]
+  },
+  "matched_crossyear_window": "March23 to March25 inclusive49 frames in each year; no causal year attribution",
+  "new_candidate_extraction": false,
+  "mean_normalization_fitting": false,
+  "science_training_ready": false
+}

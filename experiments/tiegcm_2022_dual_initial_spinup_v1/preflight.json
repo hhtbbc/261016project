@@ -1,0 +1,111 @@
+{
+  "runner_sha256": "a2861976e11aa8aff6a7366e104e6b73927ae702ebc9973f7ade9f8d88970411",
+  "protocol_sha256": "46db1717a799280afdc826fc045cedc20ef946a28ab6e73e5dd23d03f71cd8d3",
+  "gpi_sha256": "9bf83f53133a9290002d72300705681fc9da9ee89b2d2ed712271cdc799ec6f7",
+  "apex_sha256": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3",
+  "executable_sha256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+  "free_disk_bytes": 1379417456640,
+  "year": 2022,
+  "expected_drivers": {
+    "0": {
+      "f107d": 105.8875,
+      "f107a": 119.33641975308643,
+      "kp": 2.1665,
+      "hpower": 28.784468342698254,
+      "ctpoten": 51.2524778
+    },
+    "60": {
+      "f107d": 105.8868631615128,
+      "f107a": 119.33636891051013,
+      "kp": 2.16465,
+      "hpower": 28.76455671186364,
+      "ctpoten": 51.218317698
+    },
+    "120": {
+      "f107d": 105.88622579750371,
+      "f107a": 119.33631812031022,
+      "kp": 2.1628000000000003,
+      "hpower": 28.744656865226005,
+      "ctpoten": 51.18416307200001
+    },
+    "180": {
+      "f107d": 105.88558791292921,
+      "f107a": 119.33626738247015,
+      "kp": 2.16095,
+      "hpower": 28.724768795811173,
+      "ctpoten": 51.150013922
+    },
+    "240": {
+      "f107d": 105.88494951274578,
+      "f107a": 119.33621669697344,
+      "kp": 2.1591,
+      "hpower": 28.704892496649094,
+      "ctpoten": 51.115870248
+    },
+    "300": {
+      "f107d": 105.8843106019099,
+      "f107a": 119.33616606380345,
+      "kp": 2.15725,
+      "hpower": 28.68502796077385,
+      "ctpoten": 51.08173205
+    },
+    "360": {
+      "f107d": 105.88367118537808,
+      "f107a": 119.33611548294373,
+      "kp": 2.1554,
+      "hpower": 28.66517518122363,
+      "ctpoten": 51.047599328000004
+    },
+    "420": {
+      "f107d": 105.8830312681068,
+      "f107a": 119.3360649543777,
+      "kp": 2.15355,
+      "hpower": 28.645334151040743,
+      "ctpoten": 51.013472082
+    },
+    "480": {
+      "f107d": 105.88239085505258,
+      "f107a": 119.33601447808883,
+      "kp": 2.1517,
+      "hpower": 28.625504863271622,
+      "ctpoten": 50.979350312
+    },
+    "540": {
+      "f107d": 105.88174995117187,
+      "f107a": 119.33596405406058,
+      "kp": 2.1498500000000003,
+      "hpower": 28.605687310966836,
+      "ctpoten": 50.94523401800001
+    },
+    "600": {
+      "f107d": 105.88110856142119,
+      "f107a": 119.33591368227641,
+      "kp": 2.148,
+      "hpower": 28.585881487181013,
+      "ctpoten": 50.9111232
+    }
+  },
+  "predicted_wall_s": 19.17270776629448,
+  "initial_state": "2002 numerical initial guess, NOT TRAINING DATA",
+  "restart_sha256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+  "source_path": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+  "expected_steps": 12960,
+  "primary_records": 10,
+  "secondary_records": 216,
+  "primary_files": 10,
+  "secondary_files": 9,
+  "estimated_wall_s": 1355.1675367690623,
+  "estimated_safety_wall_s": 2032.7513051535934,
+  "estimated_netcdf_bytes": 1903952612,
+  "estimated_RSS_bytes": 992591872,
+  "wall_limit_s": 3600,
+  "aggregate_rss_limit_bytes": 17179869184,
+  "generated_limit_bytes": 5368709120,
+  "volume_limit_bytes": 268435456,
+  "mem_available_bytes": 1966848126976,
+  "cpu_affinity_count": 112,
+  "frozen_comparison_rules_SHA256": "ee579b5579811934bcb137f31911cc3639dbb0260dff5665b78bb2617d8b9339",
+  "static_pass": true,
+  "input_sha256": "6e3144287d30204b393fb2238c6b0fbadb85cca2ed641d4aaa8988d3a58676ca",
+  "supervisor_sha256": "934894175130dcd0d54cfa151f361fe44dae70cfc38475fc91fd5574207b0d9b"
+}

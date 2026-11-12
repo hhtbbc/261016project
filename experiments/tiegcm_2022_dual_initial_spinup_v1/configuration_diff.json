@@ -1,0 +1,18 @@
+{
+  "only_changed_namelist_field": "SOURCE",
+  "output_identity": "independent cwd; original LABEL retained without physical effect",
+  "diff": [
+    "--- A7/input.inp\n",
+    "+++ B7/input.inp\n",
+    "@@ -3,7 +3,7 @@\n",
+    "  START_YEAR = 2022",
+    "  START_DAY = 75",
+    "  CALENDAR_ADVANCE = 1",
+    "- SOURCE = '/workspace/data/20261016/data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc'",
+    "+ SOURCE = '/workspace/data/20261016/data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc'",
+    "  SOURCE_START = 80 0 0",
+    "  START = 75 0 0",
+    "  STOP = 84 0 0"
+  ],
+  "source_start_unchanged": true
+}

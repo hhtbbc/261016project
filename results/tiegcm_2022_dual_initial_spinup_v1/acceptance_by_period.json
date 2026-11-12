@@ -1,0 +1,242 @@
+{
+  "candidate": {
+    "DEN": {
+      "evaluated_cells": 8526,
+      "failed_cells": 0,
+      "worst_fraction": 0.9814814814814815,
+      "PASS": true
+    },
+    "HE": {
+      "evaluated_cells": 8526,
+      "failed_cells": 5335,
+      "worst_fraction": 0.21296296296296297,
+      "PASS": false
+    },
+    "N2": {
+      "evaluated_cells": 8526,
+      "failed_cells": 4930,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "O1": {
+      "evaluated_cells": 8526,
+      "failed_cells": 5417,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "O2": {
+      "evaluated_cells": 8526,
+      "failed_cells": 6023,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "TN": {
+      "evaluated_cells": 8232,
+      "failed_cells": 0,
+      "worst_fraction": 0.9768518518518519,
+      "PASS": true
+    },
+    "WIND_VECTOR": {
+      "evaluated_cells": 8232,
+      "failed_cells": 572,
+      "worst_fraction": 0.7708333333333334,
+      "PASS": false
+    },
+    "ZG_200km": {
+      "evaluated_cells": 294,
+      "failed_cells": 0,
+      "worst_fraction": 1.0,
+      "PASS": true
+    },
+    "ZG_300km": {
+      "evaluated_cells": 294,
+      "failed_cells": 80,
+      "worst_fraction": 0.4826388888888889,
+      "PASS": false
+    },
+    "ZG_400km": {
+      "evaluated_cells": 294,
+      "failed_cells": 294,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "ZG_450km": {
+      "evaluated_cells": 294,
+      "failed_cells": 294,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "ZG_475km": {
+      "evaluated_cells": 294,
+      "failed_cells": 294,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "ZG_500km": {
+      "evaluated_cells": 294,
+      "failed_cells": 294,
+      "worst_fraction": 0.0,
+      "PASS": false
+    }
+  },
+  "last24h": {
+    "DEN": {
+      "evaluated_cells": 4350,
+      "failed_cells": 0,
+      "worst_fraction": 0.9930555555555556,
+      "PASS": true
+    },
+    "HE": {
+      "evaluated_cells": 4350,
+      "failed_cells": 2572,
+      "worst_fraction": 0.21296296296296297,
+      "PASS": false
+    },
+    "N2": {
+      "evaluated_cells": 4350,
+      "failed_cells": 2487,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "O1": {
+      "evaluated_cells": 4350,
+      "failed_cells": 2726,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "O2": {
+      "evaluated_cells": 4350,
+      "failed_cells": 2995,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "TN": {
+      "evaluated_cells": 4200,
+      "failed_cells": 0,
+      "worst_fraction": 0.9861111111111112,
+      "PASS": true
+    },
+    "WIND_VECTOR": {
+      "evaluated_cells": 4200,
+      "failed_cells": 340,
+      "worst_fraction": 0.8032407407407407,
+      "PASS": false
+    },
+    "ZG_200km": {
+      "evaluated_cells": 150,
+      "failed_cells": 0,
+      "worst_fraction": 1.0,
+      "PASS": true
+    },
+    "ZG_300km": {
+      "evaluated_cells": 150,
+      "failed_cells": 0,
+      "worst_fraction": 0.9537037037037037,
+      "PASS": true
+    },
+    "ZG_400km": {
+      "evaluated_cells": 150,
+      "failed_cells": 150,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "ZG_450km": {
+      "evaluated_cells": 150,
+      "failed_cells": 150,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "ZG_475km": {
+      "evaluated_cells": 150,
+      "failed_cells": 150,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "ZG_500km": {
+      "evaluated_cells": 150,
+      "failed_cells": 150,
+      "worst_fraction": 0.0,
+      "PASS": false
+    }
+  },
+  "endpoint": {
+    "DEN": {
+      "evaluated_cells": 174,
+      "failed_cells": 0,
+      "worst_fraction": 1.0,
+      "PASS": true
+    },
+    "HE": {
+      "evaluated_cells": 174,
+      "failed_cells": 116,
+      "worst_fraction": 0.5879629629629629,
+      "PASS": false
+    },
+    "N2": {
+      "evaluated_cells": 174,
+      "failed_cells": 97,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "O1": {
+      "evaluated_cells": 174,
+      "failed_cells": 107,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "O2": {
+      "evaluated_cells": 174,
+      "failed_cells": 117,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "TN": {
+      "evaluated_cells": 168,
+      "failed_cells": 0,
+      "worst_fraction": 1.0,
+      "PASS": true
+    },
+    "WIND_VECTOR": {
+      "evaluated_cells": 168,
+      "failed_cells": 0,
+      "worst_fraction": 0.9583333333333334,
+      "PASS": true
+    },
+    "ZG_200km": {
+      "evaluated_cells": 6,
+      "failed_cells": 0,
+      "worst_fraction": 1.0,
+      "PASS": true
+    },
+    "ZG_300km": {
+      "evaluated_cells": 6,
+      "failed_cells": 0,
+      "worst_fraction": 1.0,
+      "PASS": true
+    },
+    "ZG_400km": {
+      "evaluated_cells": 6,
+      "failed_cells": 6,
+      "worst_fraction": 0.05092592592592592,
+      "PASS": false
+    },
+    "ZG_450km": {
+      "evaluated_cells": 6,
+      "failed_cells": 6,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "ZG_475km": {
+      "evaluated_cells": 6,
+      "failed_cells": 6,
+      "worst_fraction": 0.0,
+      "PASS": false
+    },
+    "ZG_500km": {
+      "evaluated_cells": 6,
+      "failed_cells": 6,
+      "worst_fraction": 0.0,
+      "PASS": false
+    }
+  }
+}
