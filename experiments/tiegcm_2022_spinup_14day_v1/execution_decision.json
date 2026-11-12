@@ -1,0 +1,18 @@
+{
+  "statuses": {
+    "DRIVER_VALIDATION": "PASS",
+    "A14_DATA_INTEGRITY": "PASS",
+    "A14_ENGINEERING": "PARTIAL",
+    "B14_ENGINEERING": "NOT_RUN",
+    "DUAL14_SENSITIVITY": "NOT_AVAILABLE",
+    "FOUR_TRAJECTORY_OBSERVATION": "PARTIAL",
+    "SCIENCE_TRAINING_READY": false,
+    "EXTERNAL_DATUM": "EXTERNAL_DATUM_UNVERIFIED",
+    "REAL_ORBIT": "BLOCKED"
+  },
+  "model_launches": 1,
+  "unused_B14_authorization_not_consumed": true,
+  "reason": "A14 launcher exit code unrecoverable after original supervisor /proc race; mandatory complete engineering gate not met",
+  "no_retry": true,
+  "allow_future_launch": false
+}

@@ -1,0 +1,14 @@
+{
+  "attached_pid": 1794822,
+  "actual_model_launches_added": 0,
+  "reason": "original RSS /proc glob ProcessLookupError",
+  "initial_process_elapsed_s": 1181.04552609846,
+  "original_progress": {
+    "wall_s": 441.22763803973794,
+    "rss_bytes": 991936512,
+    "generated_bytes": 605320364,
+    "completed_volumes_checked": 4
+  },
+  "budget_clock": "original /proc start tick; +10s conservative guard only",
+  "exact_launcher_exit_required": true
+}

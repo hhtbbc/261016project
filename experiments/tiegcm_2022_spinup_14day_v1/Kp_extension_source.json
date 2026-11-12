@@ -1,0 +1,21 @@
+{
+  "URL": "https://kp.gfz.de/app/json/?start=2022-03-07T00:00:00Z&end=2022-03-13T23:59:59Z&index=Kp&status=def",
+  "HTTP": 200,
+  "bytes": 2017,
+  "SHA256": "223ed5b584b6fd3db8642c61f266d0eddc4893d6f23d8441a714aab8a2b643de",
+  "path": "data/raw/tiegcm_2022_spinup_14day_v1/Kp_extension.json",
+  "requested_dates": [
+    "2022-03-07",
+    "2022-03-13"
+  ],
+  "actual_first": "2022-03-07T00:00:00+00:00",
+  "actual_last": "2022-03-13T21:00:00+00:00",
+  "count": 56,
+  "missing": 0,
+  "license": "CC BY 4.0",
+  "quality": "all def",
+  "source_meta": {
+    "license": "CC BY 4.0",
+    "source": "GFZ Potsdam"
+  }
+}

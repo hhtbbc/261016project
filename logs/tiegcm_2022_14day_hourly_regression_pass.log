@@ -1,0 +1,13 @@
+test_all_eight (test_hourly_tiegcm_observation.TestHourly) ... ok
+test_common (test_hourly_tiegcm_observation.TestHourly) ... ok
+test_formal_gate (test_hourly_tiegcm_observation.TestHourly) ... ok
+test_hourly_midpoint (test_hourly_tiegcm_observation.TestHourly) ... ok
+test_metrics (test_hourly_tiegcm_observation.TestHourly) ... ok
+test_no_extrapolation (test_hourly_tiegcm_observation.TestHourly) ... ok
+test_periodic (test_hourly_tiegcm_observation.TestHourly) ... ok
+test_quality (test_hourly_tiegcm_observation.TestHourly) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.199s
+
+OK

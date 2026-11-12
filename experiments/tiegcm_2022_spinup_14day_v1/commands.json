@@ -1,0 +1,14 @@
+{
+  "environment": "source scripts/activate_tiegcm.sh; orbit/offline use scripts/activate_orbit.sh",
+  "commands": [
+    "python scripts/prepare_tiegcm_2022_14day_drivers.py",
+    "python -m unittest discover -s tests -p test_tiegcm_2022_14day.py -v",
+    "python scripts/run_tiegcm_2022_14day.py --group A14",
+    "python scripts/run_tiegcm_2022_14day_pair.py",
+    "python scripts/tiegcm_2022_runtime_guardian.py",
+    "python scripts/resume_tiegcm_2022_14day_after_guardian.py",
+    "python scripts/finalize_tiegcm_2022_14day.py",
+    "python scripts/audit_tiegcm_2022_14day_final.py"
+  ],
+  "warning": "Single-use launch commands MUST NOT be repeated on existing run tag. Initial prelaunch failure was 0 model starts; supervisor failure did NOT restart A14."
+}

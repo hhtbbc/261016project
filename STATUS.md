@@ -504,3 +504,16 @@ A14/B14共同03-23 00:00 primary_015均为完整34项float64标准状态（iter1
 - 匹配03-23至25的49帧，2021 7天/14天及2022 7天450km内部P95=6.05950/2.12373/8.93109%。19个实际图；7新测试通过，19新NC/304保护资产SHA及观测指标、450km独立复算通过。
 - 报告入口：TIEGCM_2022_SMAX_LONGRUN_VALIDATION、TIEGCM_2022_DUAL_INITIAL_SPINUP_V1、SWARM_TIEGCM_2022_DUAL_INITIAL_OBSERVATION_V1、TIEGCM_2021_2022_DUAL_INITIAL_COMPARISON_V1。结果results/tiegcm_2022_dual_initial_spinup_v1/。
 - 建议A：另行授权14天双初态研究以检验仍超限但下降的固定高度差异；不能预设充分或观测改善。需要补7天Fobs/56个Kp桶并新建GPI。当前科学训练False、EXTERNAL_DATUM_UNVERIFIED与真实轨道BLOCKED保持；本轮已结束模型运行，不自动14天/训练/轨道。
+
+
+## 2026-11-12：2022十四天预热任务部分完成，B14停止放行
+
+- 新扩展GPI完成：代码精算raw 03-07至27、中心81日Fobs01-26至05-06，101天Fobs/168个def Kp桶；仅补7天Fobs/56桶Kp，官方小型下载2298字节。新旧12961共同分钟驱动一致，新23041节点合法，无缺测填补/Fadj替代。
+- A14仅一次连续运行03-09至25，23040步、17主/384小时次记录、33卷3371587712字节。原进程起算2433.814729秒；日志4 NORMAL EXIT，全部文件数据/日历/单位/网格/实际驱动审计通过。
+- **完整工程状态PARTIAL：原监督器/proc竞态异常，接管原MPI无新增启动，但启动器退出码最终未取得（returncode=null）。不能以NORMAL EXIT伪造rc0。A14工程门禁未通过，B14未启动，无重试/续算。** 接管段采样峰值953.477MiB，采样缺口和缺失CPU waitrusage保留，不能称全程峰值已测得。
+- 仅完成合法独立的A7/A14跨起日/历史驱动离线比较，以及A7/B7/A14四映射12组合共同2880观测对照。Map-A A7/A14 RMSE2.915160/2.739357e-13kg/m³（降低6.03066%）、相对RMS20.549745/19.892541%（降低3.19811%）；Map-B/E相对RMS分别恶化0.62390%/0.62777%。不据此认定正确映射/双初态收敛。
+- A14/A7候选450km差异P95=2.786925%，是同源不同起日/历史响应，**不是A14/B14双初态P95**，不能与7天8.9311%计算收敛改善率。双初态14天、多变量14天充分性及完整跨年矩阵仍N/A。
+- 9项CPU测试通过；422历史保护资产SHA不变、33新卷SHA、12观测指标组与450km独立插值统计复核通过，7张实际图。A7/A14主分析39.298秒/RSS1546.711MiB，观测7.543秒/RSS339.219MiB，最终独立审计10.915秒/RSS162.625MiB。
+- 入口：reports/TIEGCM_2022_14DAY_LONGRUN_VALIDATION.md、TIEGCM_2022_SPINUP_7VS14_COMPARISON.md、SWARM_TIEGCM_2022_7VS14_OBSERVATION_V1.md；实验/结果tiegcm_2022_spinup_14day_v1，execution_decision.json明确停止B14。
+- 原122帧/全部旧轨迹/第三方源码不变。SCIENCE_TRAINING_READY=False、EXTERNAL_DATUM_UNVERIFIED、真实轨道BLOCKED不变。后续先独立验证监督器可靠退出状态采集，再另行决定补齐方案；不自动重跑A14、启动B14、训练或轨道传播。
+- 补充原8项小时查询接口回归通过，本轮共17项聚焦测试；首次独立回归命令缺PYTHONPATH的导入失败日志保留，不属模型数值失败。

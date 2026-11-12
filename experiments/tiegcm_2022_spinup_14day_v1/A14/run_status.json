@@ -1,0 +1,1752 @@
+{
+  "model_launches": 1,
+  "returncode": null,
+  "stop_reason": "launcher_disappeared_without_observable_exit_status",
+  "elapsed_s": 2433.814729437232,
+  "started_utc": "2026-11-12T07:11:05.709513+00:00",
+  "ended_utc": "2026-11-12T07:51:39.524336+00:00",
+  "normal_exit_count": 4,
+  "peak_sampled_tree_rss_bytes": 999792640,
+  "resource_samples": [
+    {
+      "wall_s": 1181.0502762533724,
+      "rss_bytes": 993558528,
+      "generated_bytes": 1629996939,
+      "completed_volumes_checked": 14,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1186.5904459282756,
+      "rss_bytes": 993615872,
+      "generated_bytes": 1630000829,
+      "completed_volumes_checked": 14,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1192.057743769139,
+      "rss_bytes": 993615872,
+      "generated_bytes": 1638031106,
+      "completed_volumes_checked": 14,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1197.5250629596412,
+      "rss_bytes": 993558528,
+      "generated_bytes": 1646061383,
+      "completed_volumes_checked": 14,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1203.0035753250122,
+      "rss_bytes": 993558528,
+      "generated_bytes": 1654091660,
+      "completed_volumes_checked": 14,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1208.4779500290751,
+      "rss_bytes": 993558528,
+      "generated_bytes": 1662121937,
+      "completed_volumes_checked": 14,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1213.963011201471,
+      "rss_bytes": 993558528,
+      "generated_bytes": 1670152834,
+      "completed_volumes_checked": 14,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1219.3534539416432,
+      "rss_bytes": 993427456,
+      "generated_bytes": 1695176817,
+      "completed_volumes_checked": 15,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1224.8284987546504,
+      "rss_bytes": 993615872,
+      "generated_bytes": 1703225623,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1230.3093030638993,
+      "rss_bytes": 993615872,
+      "generated_bytes": 1703228723,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1235.7831238396466,
+      "rss_bytes": 993558528,
+      "generated_bytes": 1711258998,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1241.2636086419225,
+      "rss_bytes": 993558528,
+      "generated_bytes": 1719289277,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1246.656389232725,
+      "rss_bytes": 993615872,
+      "generated_bytes": 1727320174,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1252.1400651708245,
+      "rss_bytes": 993525760,
+      "generated_bytes": 1735350451,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1257.6270582191646,
+      "rss_bytes": 993558528,
+      "generated_bytes": 1743380728,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1263.1019633486867,
+      "rss_bytes": 993558528,
+      "generated_bytes": 1751411005,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1268.6111882925034,
+      "rss_bytes": 993558528,
+      "generated_bytes": 1751414105,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1274.0931061431766,
+      "rss_bytes": 993558528,
+      "generated_bytes": 1759445002,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1279.5786489397287,
+      "rss_bytes": 993558528,
+      "generated_bytes": 1767475278,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1285.0638123601675,
+      "rss_bytes": 993558528,
+      "generated_bytes": 1775505556,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1290.5533909201622,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1783535833,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1296.0466719195247,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1791566110,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1301.5352655239403,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1799597007,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1307.0298598334193,
+      "rss_bytes": 993886208,
+      "generated_bytes": 1807627284,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1312.5176012329757,
+      "rss_bytes": 993886208,
+      "generated_bytes": 1807630384,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1318.0083862058818,
+      "rss_bytes": 993738752,
+      "generated_bytes": 1815660660,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1323.405324190855,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1823690938,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1328.808131609112,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1831721835,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1334.2978904619813,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1839752112,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1339.6988154165447,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1847782389,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1345.0981440991163,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1855812666,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1350.5962525345385,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1855815765,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1355.9985781870782,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1863846043,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1361.496065467596,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1871876940,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1366.9348513521254,
+      "rss_bytes": 993886208,
+      "generated_bytes": 1879907217,
+      "completed_volumes_checked": 16,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1372.3592757210135,
+      "rss_bytes": 993697792,
+      "generated_bytes": 1904931200,
+      "completed_volumes_checked": 17,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1377.8137031048536,
+      "rss_bytes": 993886208,
+      "generated_bytes": 1912980005,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1383.0158480256796,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1921010283,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1388.1351983994246,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1921013383,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1393.5376414693892,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1929043660,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1399.0405496656895,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1937073936,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1404.344655893743,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1945104214,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1409.8498221673071,
+      "rss_bytes": 993828864,
+      "generated_bytes": 1953135111,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1415.2574329040945,
+      "rss_bytes": 994099200,
+      "generated_bytes": 1961165387,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1420.364778611809,
+      "rss_bytes": 994099200,
+      "generated_bytes": 1961167868,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1425.6734448038042,
+      "rss_bytes": 994099200,
+      "generated_bytes": 1969198145,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1430.8788074553013,
+      "rss_bytes": 994000896,
+      "generated_bytes": 1977228422,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1436.286829482764,
+      "rss_bytes": 994099200,
+      "generated_bytes": 1985258699,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1441.4027525894344,
+      "rss_bytes": 994099200,
+      "generated_bytes": 1993288976,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1446.40984525159,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2001319253,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1451.6205524541438,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2001322353,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1456.7298980876803,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2009352630,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1461.741183590144,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2017382287,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1466.8546378277242,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2025412562,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1471.8598761744797,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2033442841,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1476.8676455542445,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2033445941,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1481.8757665529847,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2041475597,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1486.9009066037834,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2049505874,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1491.9386169984937,
+      "rss_bytes": 994066432,
+      "generated_bytes": 2057536152,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1496.9767367430031,
+      "rss_bytes": 990859264,
+      "generated_bytes": 2065566429,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1502.0086322650313,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2065568908,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1507.027721568942,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2073599185,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1512.0495787113905,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2081629463,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1517.0659469850361,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2089659740,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1522.086687181145,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2089663131,
+      "completed_volumes_checked": 18,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1527.1606905087829,
+      "rss_bytes": 993968128,
+      "generated_bytes": 2114686203,
+      "completed_volumes_checked": 19,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1532.2010631337762,
+      "rss_bytes": 994156544,
+      "generated_bytes": 2122735009,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1537.2285912446678,
+      "rss_bytes": 994099200,
+      "generated_bytes": 2130765286,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1542.2559192813933,
+      "rss_bytes": 994369536,
+      "generated_bytes": 2138795562,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1547.281594865024,
+      "rss_bytes": 994426880,
+      "generated_bytes": 2138798043,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1552.3088480196893,
+      "rss_bytes": 994283520,
+      "generated_bytes": 2146828320,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1557.3422498591244,
+      "rss_bytes": 994369536,
+      "generated_bytes": 2154858597,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1562.3718887753785,
+      "rss_bytes": 994369536,
+      "generated_bytes": 2162888874,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1567.407576866448,
+      "rss_bytes": 994369536,
+      "generated_bytes": 2170918530,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1572.4356671981514,
+      "rss_bytes": 994369536,
+      "generated_bytes": 2170921629,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1577.4671070799232,
+      "rss_bytes": 994369536,
+      "generated_bytes": 2178951907,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1582.495466656983,
+      "rss_bytes": 994369536,
+      "generated_bytes": 2186982184,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1587.5247666612267,
+      "rss_bytes": 994369536,
+      "generated_bytes": 2195012462,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1592.5546525418758,
+      "rss_bytes": 994369536,
+      "generated_bytes": 2203042119,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1597.599805392325,
+      "rss_bytes": 994369536,
+      "generated_bytes": 2203045219,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1602.6346282996237,
+      "rss_bytes": 994381824,
+      "generated_bytes": 2211075496,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1607.677137348801,
+      "rss_bytes": 994439168,
+      "generated_bytes": 2219105773,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1612.7197832986712,
+      "rss_bytes": 994349056,
+      "generated_bytes": 2227135430,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1617.7694210745394,
+      "rss_bytes": 994381824,
+      "generated_bytes": 2235165706,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1622.8152705654502,
+      "rss_bytes": 994381824,
+      "generated_bytes": 2235168807,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1627.8688894845545,
+      "rss_bytes": 994381824,
+      "generated_bytes": 2243199083,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1632.9084906429052,
+      "rss_bytes": 994381824,
+      "generated_bytes": 2251229361,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1637.954846315086,
+      "rss_bytes": 994381824,
+      "generated_bytes": 2259259018,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1642.9926742911339,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2267289295,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1648.0349752046168,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2267292394,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1653.0740743912756,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2275322672,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1658.123121727258,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2283352949,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1663.1669525429606,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2291382604,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1668.2169141806662,
+      "rss_bytes": 994492416,
+      "generated_bytes": 2299412883,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1673.264571171254,
+      "rss_bytes": 994492416,
+      "generated_bytes": 2299415983,
+      "completed_volumes_checked": 20,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1678.3403392508626,
+      "rss_bytes": 994455552,
+      "generated_bytes": 2324439965,
+      "completed_volumes_checked": 21,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1683.4524391144514,
+      "rss_bytes": 994643968,
+      "generated_bytes": 2332488152,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1688.5214188210666,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2340518428,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1693.5647720843554,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2348548706,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1698.62025655061,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2348551806,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1703.6765451990068,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2356582083,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1708.7360158786178,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2364611740,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1713.795780479908,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2372642017,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1718.8585500344634,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2380672294,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1723.9233619719744,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2380675393,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1728.9856147170067,
+      "rss_bytes": 994643968,
+      "generated_bytes": 2388705671,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1734.058327164501,
+      "rss_bytes": 994553856,
+      "generated_bytes": 2396735947,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1739.126341123134,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2404765605,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1744.193834181875,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2412795882,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1749.2544190585613,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2412798982,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1754.317522585392,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2420829259,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1759.3826636746526,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2428859536,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1764.447091575712,
+      "rss_bytes": 994586624,
+      "generated_bytes": 2436889192,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1769.519033562392,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2444919469,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1774.580110091716,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2444922570,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1779.6503390818834,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2452952847,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1784.7158537469804,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2460983124,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1789.785483110696,
+      "rss_bytes": 994762752,
+      "generated_bytes": 2469012781,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1794.862917393446,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2477043058,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1799.9462606273592,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2477046157,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1805.0236459299922,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2485076435,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1810.1063718423247,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2493106712,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1815.1765429340303,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2501136369,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1820.2514251880348,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2509166646,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1825.3394184932113,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2509169745,
+      "completed_volumes_checked": 22,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1830.4362265579402,
+      "rss_bytes": 994721792,
+      "generated_bytes": 2534193729,
+      "completed_volumes_checked": 23,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1835.5333218574524,
+      "rss_bytes": 994910208,
+      "generated_bytes": 2542242535,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1840.6139520220459,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2550272811,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1845.7118151560426,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2558302468,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1850.7956536486745,
+      "rss_bytes": 994910208,
+      "generated_bytes": 2558305568,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1855.8807860091329,
+      "rss_bytes": 994820096,
+      "generated_bytes": 2566335846,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1860.9665341451764,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2574366122,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1866.0553038232028,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2582396400,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1871.1403217613697,
+      "rss_bytes": 994852864,
+      "generated_bytes": 2590426057,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1876.2223142124712,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2590429156,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1881.3047731742263,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2598459434,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1886.3964832536876,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2606489711,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1891.4870810732245,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2614519988,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1896.5750499553978,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2622549645,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1901.6651492528617,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2622552744,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1906.7576652951539,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2630583021,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1911.854580823332,
+      "rss_bytes": 994988032,
+      "generated_bytes": 2638613299,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1916.9737393632531,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2646643576,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1922.0689718574286,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2654673853,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1927.157296527177,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2654676953,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1932.2557761222124,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2662706610,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1937.3515164591372,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2670736887,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1942.4492717087269,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2678767164,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1947.5581797510386,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2686797441,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1952.6595216058195,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2694827718,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1957.7686107978225,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2694830818,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1962.8915217742324,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2702860474,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1968.0009545125067,
+      "rss_bytes": 995135488,
+      "generated_bytes": 2710890752,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1973.107766918838,
+      "rss_bytes": 995045376,
+      "generated_bytes": 2718921029,
+      "completed_volumes_checked": 24,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1978.2148578204215,
+      "rss_bytes": 994947072,
+      "generated_bytes": 2743945012,
+      "completed_volumes_checked": 25,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1983.3427086733282,
+      "rss_bytes": 994947072,
+      "generated_bytes": 2743948112,
+      "completed_volumes_checked": 25,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1988.4579877965152,
+      "rss_bytes": 995135488,
+      "generated_bytes": 2751996917,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1993.5649151168764,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2760026573,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 1998.670928299427,
+      "rss_bytes": 995078144,
+      "generated_bytes": 2768056852,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2003.7785429954529,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2776087129,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2008.886657398194,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2776090229,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2013.9964747168124,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2784120506,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2019.1244291551411,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2792150783,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2024.2363891080022,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2800181059,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2029.3475436754525,
+      "rss_bytes": 995237888,
+      "generated_bytes": 2808210717,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2034.4570738561451,
+      "rss_bytes": 995237888,
+      "generated_bytes": 2808213817,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2039.5818663947284,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2816244094,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2044.706235975027,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2824274371,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2049.8452511765063,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2832304647,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2054.959557823837,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2840334924,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2060.101285982877,
+      "rss_bytes": 992104448,
+      "generated_bytes": 2848365202,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2065.2303924374282,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2848368301,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2070.354831378907,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2856397959,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2075.475189257413,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2864428236,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2080.60449372977,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2872458513,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2085.7330208458006,
+      "rss_bytes": 995344384,
+      "generated_bytes": 2880488790,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2090.860667899251,
+      "rss_bytes": 995401728,
+      "generated_bytes": 2880491890,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2095.9910919740796,
+      "rss_bytes": 995581952,
+      "generated_bytes": 2888522166,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2101.123816087842,
+      "rss_bytes": 995614720,
+      "generated_bytes": 2896551823,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2106.251453705132,
+      "rss_bytes": 995614720,
+      "generated_bytes": 2904582100,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2111.3874576687813,
+      "rss_bytes": 995614720,
+      "generated_bytes": 2912612378,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2116.5172097608447,
+      "rss_bytes": 995860480,
+      "generated_bytes": 2912615478,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2121.650152038783,
+      "rss_bytes": 995860480,
+      "generated_bytes": 2920645755,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2126.784735262394,
+      "rss_bytes": 995860480,
+      "generated_bytes": 2928676032,
+      "completed_volumes_checked": 26,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2131.956497721374,
+      "rss_bytes": 995729408,
+      "generated_bytes": 2953700014,
+      "completed_volumes_checked": 27,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2137.120504345745,
+      "rss_bytes": 995917824,
+      "generated_bytes": 2961748200,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2142.2680532075465,
+      "rss_bytes": 995917824,
+      "generated_bytes": 2961751301,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2147.399947229773,
+      "rss_bytes": 995860480,
+      "generated_bytes": 2969781578,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2152.547699265182,
+      "rss_bytes": 995774464,
+      "generated_bytes": 2977811854,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2157.686273422092,
+      "rss_bytes": 995860480,
+      "generated_bytes": 2985842131,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2162.827685777098,
+      "rss_bytes": 995860480,
+      "generated_bytes": 2993872409,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2167.9653678908944,
+      "rss_bytes": 995860480,
+      "generated_bytes": 3001902686,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2173.1076080687344,
+      "rss_bytes": 995860480,
+      "generated_bytes": 3001905786,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2178.2484726645052,
+      "rss_bytes": 995860480,
+      "generated_bytes": 3009935443,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2183.391129832715,
+      "rss_bytes": 995860480,
+      "generated_bytes": 3017965719,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2188.535585105419,
+      "rss_bytes": 995860480,
+      "generated_bytes": 3025995997,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2193.6832725182176,
+      "rss_bytes": 995860480,
+      "generated_bytes": 3034026274,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2198.841368149966,
+      "rss_bytes": 995860480,
+      "generated_bytes": 3034029374,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2203.989565510303,
+      "rss_bytes": 995860480,
+      "generated_bytes": 3042059650,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2209.144329354167,
+      "rss_bytes": 995917824,
+      "generated_bytes": 3050089928,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2214.3043355718255,
+      "rss_bytes": 995827712,
+      "generated_bytes": 3058120205,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2219.4552412107587,
+      "rss_bytes": 995860480,
+      "generated_bytes": 3066150481,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2224.6052693277597,
+      "rss_bytes": 995860480,
+      "generated_bytes": 3066153581,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2229.762627851218,
+      "rss_bytes": 995860480,
+      "generated_bytes": 3074183238,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2234.942136518657,
+      "rss_bytes": 995860480,
+      "generated_bytes": 3082213515,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2240.127631891519,
+      "rss_bytes": 995860480,
+      "generated_bytes": 3090243793,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2245.3319423496723,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3098274069,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2250.5301865898073,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3106304347,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2255.762699380517,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3106307446,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2260.9244700446725,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3114337724,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2266.08297874406,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3122368001,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2271.250361584127,
+      "rss_bytes": 996024320,
+      "generated_bytes": 3130398278,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2276.435951437801,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3138428555,
+      "completed_volumes_checked": 28,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2281.6177050061524,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3155425361,
+      "completed_volumes_checked": 29,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2286.824687846005,
+      "rss_bytes": 995995648,
+      "generated_bytes": 3163455637,
+      "completed_volumes_checked": 29,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2292.0158790946007,
+      "rss_bytes": 996184064,
+      "generated_bytes": 3171503824,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2297.182952787727,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3179534100,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2302.3506729006767,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3187564378,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2307.5274016559124,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3195594655,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2312.688479229808,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3195597754,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2317.8657807558775,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3203628031,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2323.037199061364,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3211658309,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2328.2168792411685,
+      "rss_bytes": 996184064,
+      "generated_bytes": 3219688586,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2333.3950884379447,
+      "rss_bytes": 996093952,
+      "generated_bytes": 3227718863,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2338.567819122225,
+      "rss_bytes": 996093952,
+      "generated_bytes": 3227721341,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2343.7338243052363,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3235751619,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2348.912120062858,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3243781897,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2354.0869423411787,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3251812173,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2359.2698893472552,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3259842451,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2364.4544313400984,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3267872728,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2369.6321687959135,
+      "rss_bytes": 996126720,
+      "generated_bytes": 3267875828,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2374.8619382046163,
+      "rss_bytes": 996397056,
+      "generated_bytes": 3275906104,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2380.0453518368304,
+      "rss_bytes": 996397056,
+      "generated_bytes": 3283936382,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2385.229932088405,
+      "rss_bytes": 996397056,
+      "generated_bytes": 3291966659,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2390.4239489100873,
+      "rss_bytes": 996302848,
+      "generated_bytes": 3299996315,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2395.613591298461,
+      "rss_bytes": 996302848,
+      "generated_bytes": 3299999416,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2400.7972278371453,
+      "rss_bytes": 996397056,
+      "generated_bytes": 3308029693,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2405.9805598407984,
+      "rss_bytes": 996397056,
+      "generated_bytes": 3316059970,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2411.1670325808227,
+      "rss_bytes": 996397056,
+      "generated_bytes": 3324090247,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2416.355634562671,
+      "rss_bytes": 996397056,
+      "generated_bytes": 3332120524,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2421.5600230917335,
+      "rss_bytes": 996397056,
+      "generated_bytes": 3340150801,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2426.74512475729,
+      "rss_bytes": 996397056,
+      "generated_bytes": 3340153900,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    },
+    {
+      "wall_s": 2431.9367402233183,
+      "rss_bytes": 996397056,
+      "generated_bytes": 3348184178,
+      "completed_volumes_checked": 30,
+      "supervision": "guardian same original MPI group"
+    }
+  ],
+  "completed_volumes_checked_online": 30,
+  "netcdf_bytes": 3371587712,
+  "total_generated_bytes": 3373224858,
+  "supervisor_recovered": true,
+  "exact_launcher_raw_wait_status": null,
+  "launcher_exit_source": "observed /proc stat zombie exit_code; not inferred from log",
+  "sum_current_process_lifetime_VmHWM_bytes": 1001533440,
+  "per_pid_lifetime_VmHWM": {
+    "1794822": 20135936,
+    "1794825": 264736768,
+    "1794826": 240242688,
+    "1794827": 240496640,
+    "1794828": 235921408
+  },
+  "sampled_cumulative_cpu_seconds": {
+    "1794822": [
+      0.22,
+      0.38
+    ],
+    "1794825": [
+      2321.36,
+      109.49
+    ],
+    "1794826": [
+      2212.37,
+      221.14
+    ],
+    "1794827": [
+      2259.16,
+      174.31
+    ],
+    "1794828": [
+      2200.88,
+      232.61
+    ]
+  },
+  "children_user_cpu_s": null,
+  "children_system_cpu_s": null,
+  "rss_note": "sampling gap after original supervisor crash; guardian sampled peak is not whole-run peak; per-process lifetime VmHWM retained; no invented waitpid/rusage"
+}

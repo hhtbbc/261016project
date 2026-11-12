@@ -1,0 +1,454 @@
+{
+  "status": "PASS",
+  "file": "data/processed/tiegcm_2022_spinup_14day_v1/gpi_2022_14day.nc",
+  "SHA256": "bd603d2e47c7fa2e61858f6732cad12d98a5e602ca40141640e63185dd51bf41",
+  "model_dates": [
+    "2022-03-09",
+    "2022-03-25"
+  ],
+  "raw_dates": [
+    "2022-03-07",
+    "2022-03-27"
+  ],
+  "solar_dates": [
+    "2022-01-26",
+    "2022-05-06"
+  ],
+  "Fobs_count": 101,
+  "Kp_count": 168,
+  "missing": 0,
+  "estimated_or_adjusted_used": false,
+  "sources": [
+    {
+      "path": "data/raw/tiegcm_training_years_v1/2022_Fobs.json",
+      "SHA256": "e5b665880486903071efa5ad33964288bcd0b74195e31f380099366df270aab8",
+      "bytes": 2784,
+      "reuse": true
+    },
+    {
+      "path": "data/raw/tiegcm_training_years_v1/2022_Kp.json",
+      "SHA256": "9ed616a8b8e8fceb56b41bc7f243b5f0f518e233505cd97632004bf8e02b25f5",
+      "bytes": 3943,
+      "reuse": true
+    },
+    {
+      "URL": "https://kp.gfz.de/app/json/?start=2022-02-02T00:00:00Z&end=2022-02-14T23:59:59Z&index=Fobs",
+      "HTTP": 200,
+      "bytes": 455,
+      "SHA256": "8318254b1fe966e805818bff0ff535ca0645ad7b8db1304dc0ffb9872d5b3f65",
+      "path": "data/raw/training_window_mar23_v2/2022_Fobs_additional.json",
+      "requested_dates": [
+        "2022-02-02",
+        "2022-02-14"
+      ],
+      "actual_first": "2022-02-02T00:00:00+00:00",
+      "actual_last": "2022-02-14T00:00:00+00:00",
+      "count": 13,
+      "missing": 0,
+      "license": "CC BY 4.0",
+      "quality": "no per-record quality flag exposed; finite/positive/continuous only",
+      "source_meta": {
+        "license": "CC BY 4.0",
+        "source": "GFZ Potsdam"
+      }
+    },
+    {
+      "URL": "https://kp.gfz.de/app/json/?start=2022-03-14T00:00:00Z&end=2022-03-26T23:59:59Z&index=Kp&status=def",
+      "HTTP": 200,
+      "bytes": 3655,
+      "SHA256": "d38b7d3da6be7cab0bd01505740f0c64c491e093f1d3f72801e42a0317842d62",
+      "path": "data/raw/training_window_mar23_v2/2022_Kp_additional.json",
+      "requested_dates": [
+        "2022-03-14",
+        "2022-03-26"
+      ],
+      "actual_first": "2022-03-14T00:00:00+00:00",
+      "actual_last": "2022-03-26T21:00:00+00:00",
+      "count": 104,
+      "missing": 0,
+      "license": "CC BY 4.0",
+      "quality": "all def",
+      "source_meta": {
+        "license": "CC BY 4.0",
+        "source": "GFZ Potsdam"
+      }
+    },
+    {
+      "URL": "https://kp.gfz.de/app/json/?start=2022-01-26T00:00:00Z&end=2022-02-01T23:59:59Z&index=Fobs",
+      "HTTP": 200,
+      "bytes": 281,
+      "SHA256": "c25de3e9c5abfc87461abdda044d0489987ac7e380f75b3973bc607dfab514d7",
+      "path": "data/raw/tiegcm_2022_spinup_14day_v1/Fobs_extension.json",
+      "requested_dates": [
+        "2022-01-26",
+        "2022-02-01"
+      ],
+      "actual_first": "2022-01-26T00:00:00+00:00",
+      "actual_last": "2022-02-01T00:00:00+00:00",
+      "count": 7,
+      "missing": 0,
+      "license": "CC BY 4.0",
+      "quality": "no per-record quality flag exposed; finite/positive/continuous only",
+      "source_meta": {
+        "license": "CC BY 4.0",
+        "source": "GFZ Potsdam"
+      }
+    },
+    {
+      "URL": "https://kp.gfz.de/app/json/?start=2022-03-07T00:00:00Z&end=2022-03-13T23:59:59Z&index=Kp&status=def",
+      "HTTP": 200,
+      "bytes": 2017,
+      "SHA256": "223ed5b584b6fd3db8642c61f266d0eddc4893d6f23d8441a714aab8a2b643de",
+      "path": "data/raw/tiegcm_2022_spinup_14day_v1/Kp_extension.json",
+      "requested_dates": [
+        "2022-03-07",
+        "2022-03-13"
+      ],
+      "actual_first": "2022-03-07T00:00:00+00:00",
+      "actual_last": "2022-03-13T21:00:00+00:00",
+      "count": 56,
+      "missing": 0,
+      "license": "CC BY 4.0",
+      "quality": "all def",
+      "source_meta": {
+        "license": "CC BY 4.0",
+        "source": "GFZ Potsdam"
+      }
+    }
+  ],
+  "downloaded_sources": [
+    {
+      "URL": "https://kp.gfz.de/app/json/?start=2022-01-26T00:00:00Z&end=2022-02-01T23:59:59Z&index=Fobs",
+      "HTTP": 200,
+      "bytes": 281,
+      "SHA256": "c25de3e9c5abfc87461abdda044d0489987ac7e380f75b3973bc607dfab514d7",
+      "path": "data/raw/tiegcm_2022_spinup_14day_v1/Fobs_extension.json",
+      "requested_dates": [
+        "2022-01-26",
+        "2022-02-01"
+      ],
+      "actual_first": "2022-01-26T00:00:00+00:00",
+      "actual_last": "2022-02-01T00:00:00+00:00",
+      "count": 7,
+      "missing": 0,
+      "license": "CC BY 4.0",
+      "quality": "no per-record quality flag exposed; finite/positive/continuous only",
+      "source_meta": {
+        "license": "CC BY 4.0",
+        "source": "GFZ Potsdam"
+      }
+    },
+    {
+      "URL": "https://kp.gfz.de/app/json/?start=2022-03-07T00:00:00Z&end=2022-03-13T23:59:59Z&index=Kp&status=def",
+      "HTTP": 200,
+      "bytes": 2017,
+      "SHA256": "223ed5b584b6fd3db8642c61f266d0eddc4893d6f23d8441a714aab8a2b643de",
+      "path": "data/raw/tiegcm_2022_spinup_14day_v1/Kp_extension.json",
+      "requested_dates": [
+        "2022-03-07",
+        "2022-03-13"
+      ],
+      "actual_first": "2022-03-07T00:00:00+00:00",
+      "actual_last": "2022-03-13T21:00:00+00:00",
+      "count": 56,
+      "missing": 0,
+      "license": "CC BY 4.0",
+      "quality": "all def",
+      "source_meta": {
+        "license": "CC BY 4.0",
+        "source": "GFZ Potsdam"
+      }
+    }
+  ],
+  "download_bytes": 2298,
+  "independent_mean_max_difference": 2.842170943040401e-14,
+  "independent_interpolation_max_difference": 1.2789769243681803e-13,
+  "common_12961_minute_nodes_max_difference": 0.0,
+  "static_minute_nodes": 23041,
+  "prior_GPI_unchanged": true,
+  "prior_GPI_SHA256": "9bf83f53133a9290002d72300705681fc9da9ee89b2d2ed712271cdc799ec6f7",
+  "arrays": {
+    "year_day": [
+      2022066,
+      2022067,
+      2022068,
+      2022069,
+      2022070,
+      2022071,
+      2022072,
+      2022073,
+      2022074,
+      2022075,
+      2022076,
+      2022077,
+      2022078,
+      2022079,
+      2022080,
+      2022081,
+      2022082,
+      2022083,
+      2022084,
+      2022085,
+      2022086
+    ],
+    "f107d": [
+      118.3,
+      115.3,
+      114.8,
+      127.1,
+      126.5,
+      124.7,
+      122.9,
+      114.9,
+      110.4,
+      106.6,
+      102.8,
+      97.8,
+      94.4,
+      94.9,
+      97.7,
+      105.9,
+      105.6,
+      111.6,
+      112.4,
+      118.7,
+      130.3
+    ],
+    "f107a": [
+      115.28518518518517,
+      115.69382716049381,
+      116.10617283950616,
+      116.68271604938273,
+      117.17901234567901,
+      117.60864197530866,
+      118.01604938271603,
+      118.40123456790124,
+      118.77530864197533,
+      119.14691358024693,
+      119.3851851851852,
+      119.5777777777778,
+      119.68395061728397,
+      119.63827160493828,
+      119.59629629629632,
+      119.38765432098768,
+      119.31234567901234,
+      119.32098765432099,
+      119.56296296296297,
+      119.74197530864198,
+      119.89876543209878
+    ],
+    "kp": [
+      [
+        2.333,
+        2.333,
+        0.667,
+        1.333,
+        3.0,
+        2.333,
+        2.0,
+        1.333
+      ],
+      [
+        2.667,
+        2.333,
+        0.333,
+        0.667,
+        0.667,
+        0.0,
+        1.333,
+        2.0
+      ],
+      [
+        2.667,
+        0.667,
+        0.667,
+        1.0,
+        1.0,
+        0.667,
+        0.333,
+        1.667
+      ],
+      [
+        1.667,
+        0.667,
+        1.333,
+        1.333,
+        1.333,
+        2.333,
+        3.667,
+        2.333
+      ],
+      [
+        4.0,
+        3.333,
+        4.0,
+        2.333,
+        3.0,
+        3.0,
+        3.0,
+        4.333
+      ],
+      [
+        4.667,
+        4.333,
+        2.333,
+        1.0,
+        1.0,
+        0.333,
+        1.0,
+        1.333
+      ],
+      [
+        1.333,
+        0.667,
+        0.333,
+        4.0,
+        5.667,
+        5.333,
+        5.667,
+        6.333
+      ],
+      [
+        5.667,
+        2.667,
+        1.667,
+        1.667,
+        1.667,
+        2.0,
+        0.667,
+        1.0
+      ],
+      [
+        1.0,
+        1.333,
+        0.667,
+        0.333,
+        1.667,
+        2.0,
+        1.333,
+        3.0
+      ],
+      [
+        0.667,
+        0.0,
+        0.667,
+        1.333,
+        2.0,
+        2.0,
+        2.333,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        1.667,
+        1.667,
+        0.667,
+        0.667,
+        0.333,
+        0.667
+      ],
+      [
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        0.667,
+        0.667,
+        0.667,
+        0.333
+      ],
+      [
+        0.667,
+        0.333,
+        2.0,
+        1.667,
+        0.333,
+        0.667,
+        1.333,
+        2.0
+      ],
+      [
+        3.0,
+        3.333,
+        2.0,
+        1.0,
+        0.667,
+        1.0,
+        0.667,
+        2.667
+      ],
+      [
+        2.0,
+        0.0,
+        0.333,
+        0.333,
+        0.667,
+        0.667,
+        0.667,
+        1.0
+      ],
+      [
+        2.0,
+        2.667,
+        1.333,
+        0.333,
+        1.667,
+        1.667,
+        3.333,
+        2.333
+      ],
+      [
+        2.0,
+        1.0,
+        1.667,
+        1.333,
+        1.667,
+        2.0,
+        1.667,
+        0.667
+      ],
+      [
+        3.333,
+        2.667,
+        1.333,
+        2.333,
+        3.333,
+        2.333,
+        1.0,
+        1.667
+      ],
+      [
+        3.0,
+        2.667,
+        1.333,
+        2.0,
+        2.0,
+        1.667,
+        1.667,
+        0.667
+      ],
+      [
+        2.0,
+        0.333,
+        0.667,
+        1.333,
+        0.333,
+        2.0,
+        3.0,
+        2.0
+      ],
+      [
+        1.667,
+        2.0,
+        2.0,
+        3.333,
+        2.667,
+        4.0,
+        4.0,
+        3.333
+      ]
+    ]
+  },
+  "wall_s": 7.809740621596575
+}

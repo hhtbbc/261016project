@@ -1,0 +1,13 @@
+{
+  "initial_invocation": "missing project src PYTHONPATH; import error before test execution; log retained",
+  "initial_log_SHA256": "9afb4cf6fb08e39dcf7f2091f3c53f89204b8ab832c4b1117652620cc68739f5",
+  "correct_invocation": "source scripts/activate_orbit.sh; PYTHONPATH=\"$PWD/src:$PWD/scripts\" python -m unittest discover -s tests -p test_hourly_tiegcm_observation.py -v",
+  "final_log_SHA256": "75e54f0916d9e0b86605a5485d8e6de25c1dda5c546086e442bc3ec2c489ab80",
+  "final_tail": [
+    "",
+    "----------------------------------------------------------------------",
+    "Ran 8 tests in 0.199s",
+    "",
+    "OK"
+  ]
+}

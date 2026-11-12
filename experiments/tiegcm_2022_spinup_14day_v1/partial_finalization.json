@@ -1,0 +1,24 @@
+{
+  "figures": [
+    "partial_swarm_density_timeseries.png",
+    "partial_observation_map_sensitivity.png",
+    "partial_observation_scatter.png",
+    "partial_A14_A7_450km.png",
+    "partial_pressure_vs_height.png",
+    "partial_composition_profiles.png",
+    "partial_supervision_gap.png"
+  ],
+  "wall_s": 2.1673294380307198,
+  "peak_RSS_MiB": 127.421875,
+  "statuses": {
+    "DRIVER_VALIDATION": "PASS",
+    "A14_DATA_INTEGRITY": "PASS",
+    "A14_ENGINEERING": "PARTIAL",
+    "B14_ENGINEERING": "NOT_RUN",
+    "DUAL14_SENSITIVITY": "NOT_AVAILABLE",
+    "FOUR_TRAJECTORY_OBSERVATION": "PARTIAL",
+    "SCIENCE_TRAINING_READY": false,
+    "EXTERNAL_DATUM": "EXTERNAL_DATUM_UNVERIFIED",
+    "REAL_ORBIT": "BLOCKED"
+  }
+}

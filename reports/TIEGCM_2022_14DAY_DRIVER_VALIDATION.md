@@ -1,0 +1,7 @@
+# 2022扩展GPI审计：PASS
+
+实际代码精确计算：模型03-09至25，raw GPI03-07至27；中心81日Fobs支持01-26至05-06，共101天Fobs/168个def Kp桶。
+本地缺7天Fobs与56个Kp桶，本轮从原官方GFZ接口补齐2298字节，无Fadj替代、缺测估算或填补。中心81日平均独立fsum核算，23041分钟静态节点合法；新旧12961个共有节点驱动一致至冻结容差。
+新GPI SHA256 `bd603d2e47c7fa2e61858f6732cad12d98a5e602ca40141640e63185dd51bf41`。
+实际A14输出2304个十分钟日志节点与所有暖态NetCDF驱动已核验，最大差见A14/data_audit.json；冷echo继承源场标量，不能当实际GPI覆盖。
+全部来源和SHA见experiments/tiegcm_2022_spinup_14day_v1/driver_audit.json。原GPI保持不变。

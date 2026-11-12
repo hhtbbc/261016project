@@ -1,0 +1,12 @@
+{
+  "error": "duplicate free_disk_bytes keyword in static preflight; outer script attempted execution before successful prepare",
+  "model_launches": 0,
+  "no_group_launch_marker_or_NetCDF": true,
+  "preserved_files": {
+    "logs/tiegcm_2022_14day_A14_prepare.log": "8f6ee3f503dae834cd36772fc331bbea6baa5d5b6a69590d7c5d8f224318e867",
+    "logs/tiegcm_2022_14day_A14_supervisor.log": "956cf1955662d648b19627008bd5587485fdc0853a5535c3bf220ee89062b8c1",
+    "logs/tiegcm_2022_14day_pair_supervisor.log": "a192fdd84703f147c073b6263d6a2a33ecfe41073ea0f443cecde5ce2c9cb117",
+    "experiments/tiegcm_2022_spinup_14day_v1/pair_launch_once.json": "a63e19bb0b0d6bcda4cfb630afd46059223a8daa7944241c288242f5a10df844"
+  },
+  "fix": "exclude inherited free_disk_bytes before setting updated value; inspect prepare exit before separate pair launch"
+}

@@ -288,3 +288,14 @@ credentials.json
 /results/tiegcm_2022_dual_initial_spinup_v1/observation/*_local.npz
 /experiments/tiegcm_2022_dual_initial_spinup_v1/figure_draft_local/
 /experiments/tiegcm_2022_dual_initial_spinup_v1/git_sync*.json
+
+# 2022 fourteen-day pair: raw fields, original observation repackaging and incident drafts local only
+/experiments/tiegcm_2022_spinup_14day_v1/*/input.inp
+/experiments/tiegcm_2022_spinup_14day_v1/prelaunch_incident_local/
+/results/tiegcm_2022_spinup_14day_v1/**/*_local.csv
+/results/tiegcm_2022_spinup_14day_v1/**/*_local.npz
+/results/tiegcm_2022_spinup_14day_v1/*_local.npz
+/experiments/tiegcm_2022_spinup_14day_v1/*_local.json
+!/experiments/tiegcm_2022_spinup_14day_v1/README.md
+!/logs/tiegcm_2022_14day_tests_final.log
+!/logs/tiegcm_2022_14day_hourly_regression_pass.log
