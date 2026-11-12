@@ -477,3 +477,11 @@ A14/B14共同03-23 00:00 primary_015均为完整34项float64标准状态（iter1
 中断前34项均在旧冻结数值容差内，6项位级相同；恢复终点28/34标准primary及9/9核心secondary超差（TN最大0.214774K、UN/VN0.615428/0.945317m/s、POTEN6.802985V）。初版离线分析误断言控制前缀位级相同而停止，保留原日志/SHA，另只读复核按原数值容差完成，未重跑或放宽。2346保护文件不变。
 
 107行状态表与97源码有效构建清单、516条声明索引指出内部磁势/坐标电场缺持久化，另区分同名legacy数组/ESMF对象；未声称全部隐藏状态已穷尽或唯一根因已确定。RESTART_RECOVERY_READY=FAIL；INSTRUMENTATION_INVARIANCE_READY=PARTIAL（未执行）；STEPWISE_BUDGET_READY=PARTIAL（未执行）；SCIENTIFIC_TRAINING_READY=FAIL（放行条件未满足）。后两阶段无构建/无模型启动，预算R不可评价。详见TIEGCM_RUNTIME_RESTART_AUDIT、TIEGCM_INSTRUMENTATION_INVARIANCE、TIEGCM_STEPWISE_BUDGET_CLOSURE三报告。本轮不推送、不新增NPZ/统计/训练/长预热或2022实验。
+
+## 2026-11-12：2021预热轨迹与同期Swarm密度条件对照
+
+- `swarm_tiegcm_2021_spinup_observation_v1`已完成：取得2021-03-24官方DNSAPOD 0301，30秒2880条；四轨迹25个模型整点、同网格及原SHA核验，逐小时适配器复用原八列查询，不改10分钟接口。
+- A/B/D/E四假设×A7/B7/A14/B14共46080查询全部有效，共同观测2880。A映射A初态RMSE改善0.4608%，B初态恶化6.5900%；双初态沿轨相对RMS差4.0065%→1.4477%。初态趋同不等于更接近真实反演观测。
+- 8项新单元测试通过；4组实际网格点及16主指标独立复算通过；5张真实图。主阶段69.351秒，峰值373.359MiB；下载含元数据1595104字节<10MiB。无模型/轨道启动。
+- 报告`reports/SWARM_TIEGCM_2021_SPINUP_OBSERVATION_V1.md`；代码`src/atmosphere/hourly_tiegcm_observation.py`；结果`results/swarm_tiegcm_2021_spinup_observation_v1/`。
+- `EXTERNAL_DATUM_UNVERIFIED`、科学训练False和真实轨道BLOCKED保持，原122帧与历史实验不改。下一步可另授权2022同期条件观测对照；不自动积分、训练或扩大下载。

@@ -1,0 +1,90 @@
+{
+  "experiments/swarm_tiegcm_2021_spinup_observation_v1/download_plan.json": {
+    "SHA256": "7f96bc96c4e42dd26ea28997c738f8bcaddda30cbe3d404f8d9adf19faada225",
+    "bytes": 770
+  },
+  "experiments/swarm_tiegcm_2021_spinup_observation_v1/independent_audit.json": {
+    "SHA256": "3e9023b44b4e4c883413d3a9cd25b1a462ee4e35346e8df182d8bf950de169ae",
+    "bytes": 1871
+  },
+  "experiments/swarm_tiegcm_2021_spinup_observation_v1/quality.json": {
+    "SHA256": "e0d10045c3dfa3091a2e969892f7c9ce0e2e25ceb300870a5dad9c0eafb611a8",
+    "bytes": 69
+  },
+  "experiments/swarm_tiegcm_2021_spinup_observation_v1/driver_equality.json": {
+    "SHA256": "cdd060fc1804116f79a66b388009803eec52db5676c09387192e0049cc45dc17",
+    "bytes": 2918
+  },
+  "experiments/swarm_tiegcm_2021_spinup_observation_v1/runtime.json": {
+    "SHA256": "7caa17bfa95834542fec9e846ffd0d59d2a6f5c861a8b258de131dd92b467b3a",
+    "bytes": 125
+  },
+  "experiments/swarm_tiegcm_2021_spinup_observation_v1/downloads.json": {
+    "SHA256": "a04fb35efc301fb0fe0c4f794d0004d64c38e087ac3507f2bbf21d45cbc50942",
+    "bytes": 1628
+  },
+  "experiments/swarm_tiegcm_2021_spinup_observation_v1/inputs.json": {
+    "SHA256": "c8a1beb4588dfd2b2e9cb2214dc8396cdcb9ce08d50b9d831f1a6e99175ad4ff",
+    "bytes": 17453
+  },
+  "experiments/swarm_tiegcm_2021_spinup_observation_v1/config.json": {
+    "SHA256": "b6c5aa84daef591a28851bf59b92d24b3df8076007138314b843b29ff47e19c9",
+    "bytes": 727
+  },
+  "results/swarm_tiegcm_2021_spinup_observation_v1/metrics.csv": {
+    "SHA256": "a2cecf6816c40cc84953ec0b2f74c0d431db1fa97d436f390b32778ecc242ef6",
+    "bytes": 11882
+  },
+  "results/swarm_tiegcm_2021_spinup_observation_v1/paired_simulation_differences.csv": {
+    "SHA256": "57b684d819a7d430482251f922d28be966a3bf0f28f79e28ba7e721dfb675b20",
+    "bytes": 2737
+  },
+  "results/swarm_tiegcm_2021_spinup_observation_v1/timeseries_B.png": {
+    "SHA256": "cb2c0270764bc2f96424ca8c0c9a9b2416274ff46397f0686fb29eaaa7dcaefd",
+    "bytes": 201917
+  },
+  "results/swarm_tiegcm_2021_spinup_observation_v1/spinup_metrics.png": {
+    "SHA256": "43775890afc952acc66224ab27e44bd98dff58055007ca5e8a034f7d923587c8",
+    "bytes": 55735
+  },
+  "results/swarm_tiegcm_2021_spinup_observation_v1/coverage.csv": {
+    "SHA256": "badc834422ab5d01b3b60a6fa7e868847d4883db8aaf57bf902b68d4004f7490",
+    "bytes": 437
+  },
+  "results/swarm_tiegcm_2021_spinup_observation_v1/figure_sources.csv": {
+    "SHA256": "0bc86a781d0e107b6e233cbbdbf4288c0141eb2e26a48e9a1bde230dd59c0376",
+    "bytes": 393
+  },
+  "results/swarm_tiegcm_2021_spinup_observation_v1/scatter.png": {
+    "SHA256": "95cd8ca189941e841d15f82c4542ff1d7a599bb27393bbe4c8412f8fcec05ad8",
+    "bytes": 317607
+  },
+  "results/swarm_tiegcm_2021_spinup_observation_v1/coordinate_sensitivity.png": {
+    "SHA256": "b4501b8ddb13c78078e63260ebd5dedd26842e76c0d2daa5303b6aa4d8cf0efa",
+    "bytes": 177176
+  },
+  "results/swarm_tiegcm_2021_spinup_observation_v1/timeseries_A.png": {
+    "SHA256": "c92cb3e678d701e9c6e532f61b0dc8059d4a62ee5d188f269d2c0cc0256d2d02",
+    "bytes": 196406
+  },
+  "src/atmosphere/hourly_tiegcm_observation.py": {
+    "SHA256": "31d3cba796e6304f00e73fe8cb08b1aedf6de3e11b8ef4b20b0860d3e4066ff8",
+    "bytes": 2955
+  },
+  "scripts/run_swarm_tiegcm_2021_observation.py": {
+    "SHA256": "18d4f77f956d4b7b56095d62ea174ca9d4bf54e556d778255d076e728c4d44d4",
+    "bytes": 8094
+  },
+  "scripts/finalize_swarm_tiegcm_2021_observation.py": {
+    "SHA256": "36c8d2c28a0953606a3f991a144978fb58be50ca19e090088b468f66c1f11d97",
+    "bytes": 9209
+  },
+  "tests/test_hourly_tiegcm_observation.py": {
+    "SHA256": "4a9a32566765e24628339c67cbbb199f4a08ed5e31d087cef07c78dbe2e30a65",
+    "bytes": 2129
+  },
+  "reports/SWARM_TIEGCM_2021_SPINUP_OBSERVATION_V1.md": {
+    "SHA256": "24107bc92f72e9bc2e9e5a5e86552b41f4b69905b7b64f4d74906951bdd9517c",
+    "bytes": 6055
+  }
+}

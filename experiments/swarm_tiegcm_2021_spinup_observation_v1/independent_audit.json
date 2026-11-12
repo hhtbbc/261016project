@@ -1,0 +1,40 @@
+{
+  "PASS": true,
+  "verified_input_files": 8,
+  "protected": {
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_008.nc": "233fd66f506aa2400915814f425d9fd28989a7fc83d8c1b31c172ee66058f646",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_009.nc": "27c45918656b562212e34ccb700e64585cb5bb7f81a2603fa6081292ba0610cc",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_008.nc": "68c867ef059cb1eac5b774bb55ef7677a4c3d1231668270e2b3478482517413f",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_009.nc": "79fcf865819545c2f122acf217823265aba27019b3882d82724bad1aaf651b7f",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_015.nc": "4f4bb235455733b15e2abc5cae77690bf06183dee197c6be1b13c54bacdc9f4a",
+    "experiments/tiegcm_2021_spinup_14day_v1/A14/secondary_016.nc": "c84ade29980da5e48b66b7620ad8a964196333c73420dd7f64f88c3458f3b40c",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415"
+  },
+  "small_actual_checks": [
+    {
+      "group": "A7",
+      "gridpoint_query": 4.814951493330758e-12,
+      "independent_column": 4.814951493330758e-12
+    },
+    {
+      "group": "B7",
+      "gridpoint_query": 4.790256606838038e-12,
+      "independent_column": 4.790256606838038e-12
+    },
+    {
+      "group": "A14",
+      "gridpoint_query": 4.811750090044223e-12,
+      "independent_column": 4.811750090044223e-12
+    },
+    {
+      "group": "B14",
+      "gridpoint_query": 4.80419357320454e-12,
+      "independent_column": 4.80419357320454e-12
+    }
+  ],
+  "metrics_independently_recalculated": 16,
+  "common_samples": 2880,
+  "quality_pass": 2880,
+  "no_model_launches": true
+}

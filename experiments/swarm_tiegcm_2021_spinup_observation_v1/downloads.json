@@ -1,0 +1,36 @@
+{
+  "listing": {
+    "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=10000&pos=0&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A",
+    "bytes": 1452680,
+    "SHA256": "cc3cb2ec84e212ff8b90ff30df65d711c57115756fb9120664e22111f5751be8",
+    "path": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/listing.json",
+    "HTTP": 200
+  },
+  "product": {
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20210324T000000_20210324T235930_0301.ZIP",
+    "bytes": 140593,
+    "SHA256": "c3beede9cfe482c7d332cee954631afc8978a8c2cf3f03783f56ead0c056a00f",
+    "path": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/SW_OPER_DNSAPOD_2__20210324T000000_20210324T235930_0301.ZIP",
+    "HTTP": 200
+  },
+  "members": [
+    {
+      "path": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/SW_OPER_DNSAPOD_2__20210324T000000_20210324T235930_0301.HDR",
+      "SHA256": "c5912dac6dd2565bc460c16a89eed87c281b03a62f410c1903f7eb507c316054",
+      "CRC32": 2994175102
+    },
+    {
+      "path": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/SW_OPER_DNSAPOD_2__20210324T000000_20210324T235930_0301.cdf",
+      "SHA256": "6598d825abe1099fcacea873d48b99b356f5edc209632b42e81d8ef2b40be54f",
+      "CRC32": 152356650
+    }
+  ],
+  "info": {
+    "URL": "https://vires.services/hapi/info?id=SW_OPER_DNSAPOD_2_",
+    "bytes": 1831,
+    "SHA256": "17ccced134a05fee2fd991acf6c1dbd44f166ed8239cf6435af11e3cef2c69ac",
+    "path": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/HAPI_info.json",
+    "HTTP": 200
+  },
+  "total_bytes": 1595104
+}

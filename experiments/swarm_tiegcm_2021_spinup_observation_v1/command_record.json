@@ -1,0 +1,9 @@
+{
+  "environment": "source scripts/activate_orbit.sh",
+  "commands": [
+    "PYTHONPATH=src python -m unittest discover -s tests -p test_hourly_tiegcm_observation.py -v",
+    "python scripts/run_swarm_tiegcm_2021_observation.py",
+    "python scripts/finalize_swarm_tiegcm_2021_observation.py"
+  ],
+  "model_launches": 0
+}

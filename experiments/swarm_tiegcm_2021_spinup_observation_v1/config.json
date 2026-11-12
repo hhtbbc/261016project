@@ -1,0 +1,26 @@
+{
+  "date": "2021-03-24",
+  "end": "2021-03-25T00:00:00",
+  "download_limit": 10485760,
+  "wall_limit_s": 1800,
+  "RSS_limit_GiB": 4,
+  "groups": {
+    "A7": "tiegcm_training_mar23_v2_2021_longrun",
+    "B7": "tiegcm_2021_spinup_initial_condition_v1/B",
+    "A14": "tiegcm_2021_spinup_14day_v1/A14",
+    "B14": "tiegcm_2021_spinup_14day_v1/B14"
+  },
+  "maps": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "sphere_radius_m": 6371000,
+  "quality": "0301 flag0 nominal; unknown rejected",
+  "formal_datum": "EXTERNAL_DATUM_UNVERIFIED",
+  "relative_denominator": "positive instantaneous observed density; no floor",
+  "common": "intersection of all 16 predictions and quality",
+  "expected_wall_s": 300,
+  "expected_RSS_MiB": 350
+}

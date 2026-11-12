@@ -270,3 +270,8 @@ credentials.json
 
 # Complete product headers include raw state vectors; publish sanitized schema only
 /experiments/swarm_physical_force_readiness_v1/CDF_contracts.json
+
+# 2021 spinup vs Swarm: original observation and full pointwise copies local only
+/results/swarm_tiegcm_2021_spinup_observation_v1/*_local.csv
+/results/swarm_tiegcm_2021_spinup_observation_v1/*_local.npz
+/experiments/swarm_tiegcm_2021_spinup_observation_v1/CDF_contract.json
