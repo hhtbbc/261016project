@@ -1,0 +1,57 @@
+{
+  "records": 2880,
+  "valid": 2880,
+  "flag_distribution": {
+    "0": 2880
+  },
+  "CDF_schema": {
+    "time": {
+      "VARIABLE DESCRIPTION": "Time of observation",
+      "UNITS": "-",
+      "FORMAT": "CDF Epoch (UTC time system)",
+      "FILLVAL": "0.99900E+33"
+    },
+    "density": {
+      "VARIABLE DESCRIPTION": "Density derived from GPS accelerations (FAST)",
+      "UNITS": "kg/m3",
+      "FORMAT": "E16.9",
+      "FILLVAL": "0.99900E+33"
+    },
+    "density_orbitmean": {
+      "VARIABLE DESCRIPTION": "Orbit-average of density derived from GPS accelerations",
+      "UNITS": "kg/m3",
+      "FORMAT": "E16.9",
+      "FILLVAL": "0.99900E+33"
+    },
+    "validity_flag": {
+      "VARIABLE DESCRIPTION": "Flag: 0 = nominal data, 1 = anomalous data",
+      "UNITS": "unknown units",
+      "FORMAT": "E16.9",
+      "FILLVAL": "127"
+    },
+    "altitude": {
+      "VARIABLE DESCRIPTION": "Altitude",
+      "UNITS": "m",
+      "FORMAT": "E16.9",
+      "FILLVAL": "0.99900E+33"
+    },
+    "latitude": {
+      "VARIABLE DESCRIPTION": "Geodetic latitude",
+      "UNITS": "deg",
+      "FORMAT": "E16.9",
+      "FILLVAL": "0.99900E+33"
+    },
+    "longitude": {
+      "VARIABLE DESCRIPTION": "Geodetic longitude",
+      "UNITS": "deg",
+      "FORMAT": "E16.9",
+      "FILLVAL": "0.99900E+33"
+    },
+    "local_solar_time": {
+      "VARIABLE DESCRIPTION": "Local solar time",
+      "UNITS": "h",
+      "FORMAT": "E16.9",
+      "FILLVAL": "0.99900E+33"
+    }
+  }
+}

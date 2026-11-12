@@ -1,0 +1,42 @@
+{
+  "date": "2022-03-24",
+  "primary_comparison": "2021 A7 vs 2022 single smin seven-day trajectory; NOT single-factor year experiment",
+  "maps": [
+    "A",
+    "B",
+    "D",
+    "E"
+  ],
+  "primary_map": "A",
+  "sphere_radius_m": 6371000,
+  "minimum_samples": 30,
+  "height_edges_km": [
+    400,
+    430,
+    440,
+    450,
+    460,
+    470,
+    500
+  ],
+  "latitude": "low abs<30; mid30<=abs<60; high abs>=60; north>=60/south<=-60; hemispheres>=0/<0",
+  "UTC_blocks_hours": 3,
+  "quality": "0301:0 nominal,1 anomalous,unknown rejected; instantaneous positive finite density",
+  "relative_denominator": "observed instantaneous density; no floor",
+  "relative_bias": "mean((model-observed)/observed); separately bias/mean(observed)",
+  "common_domain": "within-year intersection of quality and ALL mappings (2021 frozen four trajectories/16 combinations; 2022 four combinations); no cross-year sample identity asserted",
+  "interpolation": "existing hourly adapter; all eight columns; vertical logDEN/horizontal density bilinear/time density linear",
+  "download_limit_bytes": 10485760,
+  "CPU_wall_limit_s": 1800,
+  "RSS_limit_GiB": 4,
+  "expected_wall_s": 180,
+  "expected_RSS_MiB": 350,
+  "output_limit_MiB": 100,
+  "free_disk_bytes": 1379423748096,
+  "meminfo_available": [
+    "MemAvailable:   1920374508 kB"
+  ],
+  "external_datum": "EXTERNAL_DATUM_UNVERIFIED",
+  "no_training": true,
+  "no_model_launches": true
+}

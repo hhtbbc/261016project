@@ -1,0 +1,16 @@
+{
+  "PASS": true,
+  "global_metric_sets_independently_recomputed": 8,
+  "figures": [
+    "2022_density_timeseries.png",
+    "2022_density_scatter.png",
+    "crossyear_metrics.png",
+    "latitude_errors.png",
+    "coordinate_sensitivity.png",
+    "three_hour_blocks.png",
+    "actual_drivers.png"
+  ],
+  "old_assets_unchanged": true,
+  "wall_s": 2.545092210173607,
+  "peak_RSS_MiB": 170.47265625
+}

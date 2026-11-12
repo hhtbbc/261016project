@@ -485,3 +485,12 @@ A14/B14共同03-23 00:00 primary_015均为完整34项float64标准状态（iter1
 - 8项新单元测试通过；4组实际网格点及16主指标独立复算通过；5张真实图。主阶段69.351秒，峰值373.359MiB；下载含元数据1595104字节<10MiB。无模型/轨道启动。
 - 报告`reports/SWARM_TIEGCM_2021_SPINUP_OBSERVATION_V1.md`；代码`src/atmosphere/hourly_tiegcm_observation.py`；结果`results/swarm_tiegcm_2021_spinup_observation_v1/`。
 - `EXTERNAL_DATUM_UNVERIFIED`、科学训练False和真实轨道BLOCKED保持，原122帧与历史实验不改。下一步可另授权2022同期条件观测对照；不自动积分、训练或扩大下载。
+
+## 2026-11-12：2022同期Swarm与2021/2022跨年条件对照
+
+- 现有2022 smin单轨迹只读复用；2022-03-24 DNSAPOD0301实际取得，2880个30秒点，质量均通过。四映射11520查询全有效，25小时模型帧包含03-25端点，未伪造10分钟输出。
+- Map-A：2021 A7/2022基线RMSE为1.23805/2.91516×10⁻¹³kg/m³，相对RMS23.2364/20.5497%，平均有符号相对偏差−8.1984/−11.1713%，Pearson0.96155/0.97229，覆盖100%。绝对与相对指标不可混排；2022低纬相对误差较低、高纬较高。
+- B/A条件密度变化绝对P95两年33.4775/29.2966%；仅纬度D/A约0.1618/0.1347%，仅高度E/A约33.4843/29.2839%。未知ZG参考面不因此解决。
+- 新7项分组/指标测试及原8项小时接口回归均通过；16组旧2021指标复现、8组新跨年全局指标独立算术核验，历史SHA不变。主阶段50.370秒/RSS268.652MiB；下载含元数据1594255字节<10MiB；9张实际图，无新模型启动或训练。
+- 报告：reports/SWARM_TIEGCM_2022_OBSERVATION_V1.md、reports/SWARM_TIEGCM_2021_2022_COMPARISON_V1.md；结果results/swarm_tiegcm_2022_observation_v1/。
+- 2022双初态及14天未执行，SPINUP_SUFFICIENCY_UNVERIFIED、SCIENCE_TRAINING_READY=False、正式真实轨道BLOCKED保持。建议先另授权2022第二初态7天方案配对，再决定14天资源；外部高度依据并行处理，不自动进入下一轮。

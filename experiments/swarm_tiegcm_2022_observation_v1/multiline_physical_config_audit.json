@@ -1,0 +1,15 @@
+{
+  "PASS": true,
+  "fields": {
+    "SOURCE": "'/workspace/data/20261016/data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc'",
+    "SOURCE_START": "80 0 0",
+    "STEP": "60",
+    "POTENTIAL_MODEL": "'HEELIS'",
+    "CALC_HELIUM": "1",
+    "GSWM_MI_DI_NCFILE": "'/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc'",
+    "GSWM_MI_SDI_NCFILE": "'/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc'",
+    "SECFLDS": "'TN' 'UN' 'VN' 'WN' 'O2' 'O1' 'N2' 'NO' 'N4S' 'HE' 'NE' 'TE' 'TI' 'TEC' 'O2P' 'OP' 'POTEN' 'UI_ExB' 'VI_ExB' 'WI_ExB' 'DEN' 'QJOULE' 'HMF2' 'NMF2' 'Z' 'ZG'",
+    "HIST": "1 0 0",
+    "SECHIST": "0 1 0"
+  }
+}

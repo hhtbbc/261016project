@@ -1,0 +1,174 @@
+{
+  "experiments/swarm_tiegcm_2022_observation_v1/download_plan.json": {
+    "SHA256": "1900738a11b163ae1a603afe407931e2f64933be81351998a8b10eef37b46186",
+    "bytes": 756
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/independent_audit.json": {
+    "SHA256": "e02e8bcf713a0bd8a14e736e51b230a96bdb3dca306487b51b1ecb92fc5fab1d",
+    "bytes": 173
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/swarm_crossyear_tests_final.log": {
+    "SHA256": "be60c5fecc173bf7cc72f6324958ab4e8a92dcef8d96d130c00f3b714dd5a84b",
+    "bytes": 574
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/multiline_physical_config_audit.json": {
+    "SHA256": "2e7734b66c1d0e111f394e20f69b25dd1c0912972ff4cd7d464cada50eba7162",
+    "bytes": 674
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/swarm_tiegcm_2022_observation_v1.log": {
+    "SHA256": "e3b5a76d0d6cd10267e55a76d750080ef3bed47c6a606c7af730abb3a7f38236",
+    "bytes": 548
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/quality.json": {
+    "SHA256": "c1c28319fc0d1ebb28cefd8478251443216cf996237334e9349f896be53dc224",
+    "bytes": 1461
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/protected_after.json": {
+    "SHA256": "14c48ed7fe95e9288f4f5c92f5e4d52c84e86c0930a5934a50f9c0ddc8947178",
+    "bytes": 4663
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/configuration_comparability.json": {
+    "SHA256": "3f35dd7d1184e5e16a3bcf1353e4d23efec8a14ed9db02e6179d3fc2e5a3c978",
+    "bytes": 21712
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/swarm_crossyear_hourly_regression.log": {
+    "SHA256": "cb8c03c3eae70912783f8fe46e1f05f560cdd98bec560151922d8da0ccccad95",
+    "bytes": 633
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/postprocess_audit.json": {
+    "SHA256": "9c0b107b3ed7200c67b1d8e56f82cec5501c847e4ed1f301ca504ffa108e9ed1",
+    "bytes": 397
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/protected_before.json": {
+    "SHA256": "4d5f3f06b5aeb2e3d0b071d032d75292d28fc741eec5791fc38ce2827512ee3e",
+    "bytes": 3983
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/figure_revision.json": {
+    "SHA256": "ad23e36ed9fecb1673520e17fa373b0e027f59f9089209af6a1b4f853e9ff57c",
+    "bytes": 260
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/runtime.json": {
+    "SHA256": "b833d5fea0d994d3149e697b82d0b771eb056acceca876cf76a7d4643ef39ada",
+    "bytes": 128
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/downloads.json": {
+    "SHA256": "2934f9b6fb3734f6011b1d2ee67942a520893d71275ac3e4f0f5976fed1c1f18",
+    "bytes": 1594
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/final_independent_audit.json": {
+    "SHA256": "450832cc97e4973fd406da966cc96644f8ea6e1f9208fdfb5a56cd30494b7290",
+    "bytes": 5326
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/protocol.json": {
+    "SHA256": "14d0adceadf9489ceb9c2ef4a85f2e5a88812c45576bdb070d932647c796b4dc",
+    "bytes": 1421
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/inputs.json": {
+    "SHA256": "464d6b72ff756c9617594c48ce1b4cad4ba23375e4094ac5fb5dd61d3c69350b",
+    "bytes": 3900
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/swarm_tiegcm_crossyear_finalize_v1.log": {
+    "SHA256": "68c531887b69c642e105814b9f46bf67082a403183e47c962e90a55644693c32",
+    "bytes": 437
+  },
+  "experiments/swarm_tiegcm_2022_observation_v1/command_record.json": {
+    "SHA256": "9332020b79f9244bf74a84ba337cb6d73408eebbaaaec7b9bf1860701f466ea3",
+    "bytes": 620
+  },
+  "results/swarm_tiegcm_2022_observation_v1/metrics.csv": {
+    "SHA256": "5d9331badf0097e6fb343730d3139b15a64b52509404350cb7d5c0a2615ad4c8",
+    "bytes": 53428
+  },
+  "results/swarm_tiegcm_2022_observation_v1/normalized_density_trends.png": {
+    "SHA256": "4bc9adbf47e9502e93b17f5a9b6a3480b298855a36a685a3a685ef313d7b317e",
+    "bytes": 372514
+  },
+  "results/swarm_tiegcm_2022_observation_v1/three_hour_blocks.png": {
+    "SHA256": "7c220bc37fe2eeb287f5fccb94b1651ea2b24f882b59dd26e03503e22b39f001",
+    "bytes": 135773
+  },
+  "results/swarm_tiegcm_2022_observation_v1/height_errors.png": {
+    "SHA256": "8d23ecfd3f9d3441e94f02fcacee7c260b0090cf7a63d2819bd53cb1b4cb27e7",
+    "bytes": 125534
+  },
+  "results/swarm_tiegcm_2022_observation_v1/geometry.csv": {
+    "SHA256": "ca7ced6ffd0e9689e05bb4083314746696737d2122194b23db8b9da1839f300d",
+    "bytes": 306
+  },
+  "results/swarm_tiegcm_2022_observation_v1/coverage.csv": {
+    "SHA256": "4f1f2fa459435ec57dc2c838927f4f08979a40b466fb6122233959eaf5ad8fd1",
+    "bytes": 295
+  },
+  "results/swarm_tiegcm_2022_observation_v1/figure_sources.csv": {
+    "SHA256": "53ee34723cb46b8fd5dc81a98a85e1d3dbcd8184c8e895593e5e69aafe144f80",
+    "bytes": 882
+  },
+  "results/swarm_tiegcm_2022_observation_v1/2022_density_timeseries.png": {
+    "SHA256": "d7755dfde2a2cbcfecaf0a88b7d7f1b16a61d07d384a6c169f9980406b802c81",
+    "bytes": 186095
+  },
+  "results/swarm_tiegcm_2022_observation_v1/drivers.csv": {
+    "SHA256": "bf611cbca95a7ac7f0c4223344a8eb5410804e278cd87f491f5da0450dda40b9",
+    "bytes": 3796
+  },
+  "results/swarm_tiegcm_2022_observation_v1/mapping_sensitivity.csv": {
+    "SHA256": "ce7adc6e74bdf62978693d3491cd6b69daf958caefd94738ff26821ac570c4f9",
+    "bytes": 768
+  },
+  "results/swarm_tiegcm_2022_observation_v1/2022_density_scatter.png": {
+    "SHA256": "575a4d6bad2602eca6f6a5f87b1bcf25e82e594be190a0e299dd4d2030ba5002",
+    "bytes": 148659
+  },
+  "results/swarm_tiegcm_2022_observation_v1/coordinate_sensitivity.png": {
+    "SHA256": "173d1b8f15850d3acb452f35168eadc12682d074b332559e69aadae489e43aad",
+    "bytes": 119489
+  },
+  "results/swarm_tiegcm_2022_observation_v1/crossyear_differences.csv": {
+    "SHA256": "49c20bf8a555e22366a02c7ef219edf4f0c63ee90fb11d29fff27ea5fd574e97",
+    "bytes": 616
+  },
+  "results/swarm_tiegcm_2022_observation_v1/actual_drivers.png": {
+    "SHA256": "7c3ec97357c766c787f9a26943e6255a45533bacff492c1a11e5f2b01f60b15f",
+    "bytes": 100591
+  },
+  "results/swarm_tiegcm_2022_observation_v1/supplement_figure_sources.csv": {
+    "SHA256": "aa72bfff60c233215d30cebd61b59a5fa842295d7ad5001c5cb4c9a29a846d92",
+    "bytes": 327
+  },
+  "results/swarm_tiegcm_2022_observation_v1/latitude_errors.png": {
+    "SHA256": "d24372c5858e3940e08c230884bf4cafeea6c477a8f812c480aa15e576a5a526",
+    "bytes": 78621
+  },
+  "results/swarm_tiegcm_2022_observation_v1/crossyear_metrics.png": {
+    "SHA256": "1b3a690f23d28d216dd55f53f559dec64371af805ae3e1555810931073d37859",
+    "bytes": 75615
+  },
+  "src/evaluation/swarm_crossyear.py": {
+    "SHA256": "5fbe5916cede884e9f519279f766134781ecf96784fa4ea6113954b300d63ca2",
+    "bytes": 2400
+  },
+  "tests/test_swarm_crossyear.py": {
+    "SHA256": "2b7d231223f68ad1853c1ce3d793438d717361da2577c37605cff71cde567bb1",
+    "bytes": 1488
+  },
+  "scripts/finalize_swarm_tiegcm_crossyear.py": {
+    "SHA256": "0f76157dabe975d988c029f964fe4df51425acfdf780dffd319bf06d68e1d58e",
+    "bytes": 13724
+  },
+  "scripts/supplement_swarm_crossyear_figures.py": {
+    "SHA256": "a56b2e7b721ab538889da66771aa805eddbbc7d926f340894a762b13237352c8",
+    "bytes": 2549
+  },
+  "scripts/run_swarm_tiegcm_2022_observation.py": {
+    "SHA256": "d51b9acb6bad26bdd5869ebf8a5e988a6c0edcedd843ba9dbd53f4885adc712c",
+    "bytes": 14154
+  },
+  "reports/SWARM_TIEGCM_2022_OBSERVATION_V1.md": {
+    "SHA256": "3da3124a6a32eba9dc220d8c2867d6f3953cff9092160d36ee8eb8c0cf8d95aa",
+    "bytes": 4099
+  },
+  "reports/SWARM_TIEGCM_2021_2022_COMPARISON_V1.md": {
+    "SHA256": "bd072f5f6515a87259193054aece06472ae2db979c95915b0d19c1bd3404f7b3",
+    "bytes": 6183
+  }
+}

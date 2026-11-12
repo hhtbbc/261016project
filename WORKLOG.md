@@ -893,3 +893,18 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 交付报告reports/SWARM_TIEGCM_2021_SPINUP_OBSERVATION_V1.md，结果与实验目录同标签。下一步建议2022同期独立观测比较与组分/高度依据补充，不据此启动真实AI训练。Git只安全提交轻量代码、报告、聚合CSV和图，不强推；最终同步状态见本轮答复与同步记录。
 
 - Git实际结果：本轮科研提交26227f9930731ee83fbee9c339f0221cf6befd1c已保存。首次push因旧VS Code socket失效/认证被拒；仅Git进程切换到同用户活跃socket后仍未在约一分钟有界等待内完成，停止该push，再核对远端main仍为159398508c2df1efa0fc893b51d8457badf521d2。未强推、未写入凭据，当前远端同步未完成；所有本地成果保留。CSV使用标准CRLF格式，git whitespace检查将CR记为行尾空白，未改变统计数值，未重写科研表求通过。
+
+## 2026-11-12：2022独立Swarm密度对照与跨年份验证
+
+- 核对唯一根目录和main，实际本地/远端9585e6b一致；用户提示的“上次未推送”是旧状态，已读取本地成功同步记录确认，未reset/覆盖。读取指定报告/协议、2021实际runner/finalizer/tests和2022配置/数据审计，保留全部旧未跟踪日志。
+- 预先冻结Map-A主结果及A/B/D/E、观测分母无floor、逐年全映射共同域、低中高纬30/60°、南北/半球、固定高度分箱、3小时块、少于30点N/A。新src/evaluation/swarm_crossyear.py复用原compare_density/paired_valid_mask，仅扩展描述性分组和有符号相对偏差，不拟合、不改旧指标。
+- 本地无20220324原件，官方清单确认唯一0301；ZIP139744字节、CRC和成员SHA/逐字节独立核验，含目录/HAPI实际1594255字节<10MiB。CDF实物UTC/30秒/瞬时kg/m³，当前官方HAPI核实GRS80和0 nominal/1 anomalous；全2880点flag0，nominal不作无误差保证。原件只本地。
+- 核对2021/2022源smin、SOURCE_START、60秒、HEELIS/GSWM、完整多行SECFLDS和输出规则相同；源/GPI/实际可执行/apex SHA核验。2022只有一套03-16至25连续运行，预热充分性仍未验证；目标03-24距启动8—9天，7天是候选预热方案名，不把目标日说成刚好第7天。
+- 复用HourlyTiegcmObservation，目标25整点原NetCDF SHA、CF/mtime、DEN/ZG ilev与SI转换、有限/正性/高度单调和实际网格点独立列公式通过。完整四映射11520查询全有效，无外推/补洞。2021只读旧aligned数组和原CDF，16组既有主指标复现，未重跑46080查询；旧结果SHA全保持。
+- 两年Map-A：RMSE1.238053e-13/2.915160e-13、相对RMS23.236426/20.549745%、平均逐点有符号相对Bias−8.198387/−11.171306%、Pearson0.961548/0.972295。两年共同覆盖均2880/2880，但不是同位置/同高度/同驱动的单因素实验。四映射下2022相对RMS均较低，Map-A相对降低11.562%、Map-B仅1.464%，没有捏造排序反转。
+- 区域主结果：低纬2021/2022相对RMS30.909/18.392%，高纬15.895/22.610%。全球汇总不能掩盖极区。仅高度E/A条件密度变化P95约33.484/29.284%，仅纬度D/A约0.162/0.135%，不把敏感性当未知登记误差界。逐高度/半球/3小时块及观测均值、f107d/f107a/Kp实测整点均输出，不归因太阳活动因果，不构造虚假置信区间。
+- 新7项CPU测试初始0.044秒/最终0.037秒PASS，原8项小时接口回归0.164秒PASS，8跨年主指标独立点积/相对误差算术复核PASS。主阶段50.370秒/RSS268.652MiB，主要绘图独立核验2.545秒/RSS170.473MiB；分阶段墙钟不是纯CPU秒。NetCDF缺测属性dtype警告日志保留，实际选取字段无缺值。纬度图首版样本注释超轴范围，初版保留本地，只调整注释位置，无统计重算或删样本。
+- 交付两份报告、9真实PNG、全指标/覆盖/驱动/几何/敏感性CSV、冻结配置/下载清单/原SHA/独立审计与命令日志。完整逐点数组及原CDF本地，公开只轻量派生图表。无TIE-GCM、GPU、轨道或训练启动，原122帧与科学门禁不改。
+- 实际命令：source scripts/activate_orbit.sh；PYTHONPATH=src python -m unittest discover -s tests -p test_swarm_crossyear.py -v；PYTHONPATH=src python -m unittest discover -s tests -p test_hourly_tiegcm_observation.py -v；python scripts/run_swarm_tiegcm_2022_observation.py；python scripts/finalize_swarm_tiegcm_crossyear.py；python scripts/supplement_swarm_crossyear_figures.py。完成标签独占写保护，复现须新标签。
+- 下一步建议先2022 smax 9天连续配对（预估1355秒、安全2033秒、约1GiB树RSS/1.78GiB NetCDF），凭冻结多变量结果决定14天双初态，不从观测残差直接推断延长有益。并行请求ZG独立依据；训练仅可继续只读门禁审查，不自动正式训练或拟合统计。所有新增积分均待授权。
+- Git按既有规则安全提交/同步轻量文件，不上传原始观测/权重/逐点副本，不强推；实际同步结果以本轮最终HEAD/远端核验和同步日志为准。

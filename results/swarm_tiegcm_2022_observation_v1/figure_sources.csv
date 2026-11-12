@@ -1,0 +1,8 @@
+figure,source,status,date
+2022_density_timeseries.png,metrics.csv;aligned_local.npz;prior 2021 aligned_local.npz;drivers.csv,PROVISIONAL,2021/2022-03-24
+2022_density_scatter.png,metrics.csv;aligned_local.npz;prior 2021 aligned_local.npz;drivers.csv,PROVISIONAL,2021/2022-03-24
+crossyear_metrics.png,metrics.csv;aligned_local.npz;prior 2021 aligned_local.npz;drivers.csv,PROVISIONAL,2021/2022-03-24
+latitude_errors.png,metrics.csv;aligned_local.npz;prior 2021 aligned_local.npz;drivers.csv,PROVISIONAL,2021/2022-03-24
+coordinate_sensitivity.png,metrics.csv;aligned_local.npz;prior 2021 aligned_local.npz;drivers.csv,PROVISIONAL,2021/2022-03-24
+three_hour_blocks.png,metrics.csv;aligned_local.npz;prior 2021 aligned_local.npz;drivers.csv,PROVISIONAL,2021/2022-03-24
+actual_drivers.png,metrics.csv;aligned_local.npz;prior 2021 aligned_local.npz;drivers.csv,PROVISIONAL,2021/2022-03-24

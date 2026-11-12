@@ -275,3 +275,10 @@ credentials.json
 /results/swarm_tiegcm_2021_spinup_observation_v1/*_local.csv
 /results/swarm_tiegcm_2021_spinup_observation_v1/*_local.npz
 /experiments/swarm_tiegcm_2021_spinup_observation_v1/CDF_contract.json
+
+# Cross-year observation originals and full pointwise arrays remain local
+/results/swarm_tiegcm_2022_observation_v1/*_local.csv
+/results/swarm_tiegcm_2022_observation_v1/*_local.npz
+/experiments/swarm_tiegcm_2022_observation_v1/*_local.json
+/experiments/swarm_tiegcm_2022_observation_v1/figure_draft_local/
+/experiments/swarm_tiegcm_2022_observation_v1/git_sync*.json
