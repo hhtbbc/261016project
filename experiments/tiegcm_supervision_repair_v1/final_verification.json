@@ -1,0 +1,22 @@
+{
+  "real_model_starts": 0,
+  "final_test_count": 23,
+  "final_test_pass": true,
+  "final_test_log": "logs/tiegcm_supervision_repair_v1_tests_final.log",
+  "historical_state_preserved": true,
+  "code_and_log_SHA256": {
+    "src/runtime/supervisor.py": "a4eaa514590ac30e2bd5ee581630272ad637fdcf378ddf2446742a0a1508a1b7",
+    "src/runtime/__init__.py": "1de7d56d65d34cbcd27bd2e8adfb271f9286c3c80c2355c81d4012400490e602",
+    "tests/test_runtime_supervisor.py": "3f06091ad1e6223ef2a9c3f1b76d0cbf4970b9d13f54e6def7068ebe5366436d",
+    "scripts/audit_tiegcm_supervision_repair.py": "ce4aa589219c95aeff1b403c26b6f163ea32fdee7dfde918bf2c447c8509398c",
+    "scripts/finalize_tiegcm_supervision_repair.py": "269a63173769d217a29c70ed3cc4bcb0327df34ec78eac737ee6a872a7d6a4d3",
+    "logs/tiegcm_supervision_repair_v1_audit.log": "15953c7a0b75104721cbf34c36713de1d4ddd7137ca7ffe4880d0574055c70e2",
+    "logs/tiegcm_supervision_repair_v1_audit_v2.log": "88d9db50f6bca14da0c1c1fec1550a6f1ad22e5453aae237a1353c4cf04dd57c",
+    "logs/tiegcm_supervision_repair_v1_tests_v5.log": "6bc89f77a4b170912852b575313afbf2c4a6fd24353843cefeaf20ed7682212b",
+    "logs/tiegcm_supervision_repair_v1_tests.log": "3d1c09cfefee0a604846937ba1bf9571b60a94ddef0c7e86a7cd61bbf2d4cf9c",
+    "logs/tiegcm_supervision_repair_v1_tests_final.log": "ddaf89154ba6fcb9ed7c1179c82f9a93ac4311ba440da31792900a6ce21d7e46",
+    "logs/tiegcm_supervision_repair_v1_tests_v2.log": "6ee35a317f50b2726a2c99ae0ecca56331215e7e207d9aa707d1476eb6f2e895",
+    "logs/tiegcm_supervision_repair_v1_tests_v3.log": "766f05ea196c303a3c0ab2110c0781c085b74141824049cbb1c0156fdfdc18a7",
+    "logs/tiegcm_supervision_repair_v1_tests_v4.log": "f5065ad03fb16fad46191dd53cc20756e9c47d32222680df12c0387a039f4807"
+  }
+}

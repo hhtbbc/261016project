@@ -299,3 +299,8 @@ credentials.json
 !/experiments/tiegcm_2022_spinup_14day_v1/README.md
 !/logs/tiegcm_2022_14day_tests_final.log
 !/logs/tiegcm_2022_14day_hourly_regression_pass.log
+
+# Supervisor repair: mock-job directories and final local sync record stay local
+/results/tiegcm_supervision_repair_v1/tests_local/
+/experiments/tiegcm_supervision_repair_v1/*_local.json
+!/logs/tiegcm_supervision_repair_v1*.log

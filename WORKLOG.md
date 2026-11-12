@@ -947,3 +947,19 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 未执行训练/新GPU推理/卫星传播/2022 B14；不替换122候选。后续需要可靠父进程waitpid或明确子进程回收机制的独立短测试，不能以普通进程列表轮询承诺必能恢复退出码；是否补齐B14或新工程合格A14待另授权。
 - Git只提交本轮公开代码、轻量审计、报告/CSV/PNG；原NC/观测及逐点派生、缓存/凭据不入库，旧无关同步日志保留不提交。远端同步以最终实际核验为准。
 - 补充8项既有小时密度接口回归通过（0.199秒），与9项新测试合计17项。第一次单独运行旧测试漏设项目src的PYTHONPATH，导入阶段失败、未执行测试；保留原日志，按既有正确PYTHONPATH入口运行后通过，未改变测试或模块。记录见hourly_regression.json。公开包包含README区分实际执行/未执行代码，不把准备代码当实验结果。
+
+
+## 2026-11-12：监督机制修复、A14只读审计与B14静态准备
+
+- 新src/runtime/supervisor.py将直接Popen/wait与资源采样解耦；/proc逐PID捕获竞态、PID出生ticks/UID/PGID/SID核验，pidfd身份固定后送信号，不用未知PID组盲目终止。当前Python无原生pidfd导出，实测libc接口可用；无安装/无模型物理变更。
+- 最终23项短CPU测试通过（1.402秒），包括真实0/7退出、短命进程竞态、超时、五类资源限制/小NC超限、采样异常/持续失败、信号/监督器SIGTERM、进程组KILL、无关进程保护、PID复用/异UID拒绝、未知退出/未知RSS、闭卷回调失败与禁止覆盖。初始失败和修复过程均保留。真实MPI/TIE端到端未执行，不能称已完整模型验证。
+- 独立只读审计A14全部33卷及76项原历史文件前后SHA一致；23040日志最大步数、4 NORMAL EXIT、17主/384小时记录/网格单位填充与物理字段通过，实际驱动最大差2.842e-14。采样缺口739.822638秒保留；真实launcher退出状态在留存证据中不可恢复，A14_ENGINEERING=PARTIAL不改。
+- B14仅静态预检：smax34项状态/合法SOURCE_START、扩展GPI23041分钟、可执行/apex/初场SHA及只有SOURCE变化的配置通过；当前112CPU亲和核、可用内存1831.8GiB、余盘1279.7GiB。按A14×B7/A7外推2468.92秒，1.5安全3703.38秒；参考4800秒/16GiB/5GiB/256MiB卷/余盘20GiB。不是新授权，未来须重查并给清理留预算。
+- 协议A仍BLOCKED；协议B仅探索性v2草案，建议用户另行授权后可将A14 PARTIAL作为受限输入补B14，绝不回填原rc0或宣称原协议PASS。B14_STATIC_PRECHECK=PASS、B14_LAUNCH_ADMISSION=BLOCKED_PENDING_PROTOCOL_AUTHORIZATION、B14_ENGINEERING=NOT_RUN。
+- 本轮真实模型启动0、无新查询/下载/训练/轨道。原122帧、DUAL14_SENSITIVITY=NOT_AVAILABLE、SCIENCE_TRAINING_READY=False、EXTERNAL_DATUM_UNVERIFIED不变。
+- 入口：reports/TIEGCM_SUPERVISION_REPAIR_V1.md、reports/TIEGCM_A14_EVIDENCE_AUDIT_V1.md、docs/TIEGCM_B14_PRELAUNCH_PROTOCOL_DECISION_V1.md；一页研究说明docs/TIEGCM_2022_A14_STAGE_BRIEF_V1.md。实验/结果标签tiegcm_supervision_repair_v1。
+
+- 实际命令：source scripts/activate_orbit.sh；PYTHONPATH="$PWD/src:$PWD/scripts" python tests/test_runtime_supervisor.py（各版日志保留）；python scripts/audit_tiegcm_supervision_repair.py；python scripts/finalize_tiegcm_supervision_repair.py。audit_v2只读审计15.559秒，最终测试1.402秒；每个模拟任务小于3秒/内存数MiB量级，无TIE启动。
+- 初轮测试发现Python pidfd API缺失，补libc绑定；第二轮验证器异常计数提前归零，移至全部采样成功后才清零；首审计误以为primary均有DEN，按实际schema记录合法未输出诊断，未改原物理检查/原数据。初始18测试5失败1错误、第二版20测试1失败均原样保留，最终23通过。源/日志SHA见final_verification.json，早期source_logs_SHA256为阶段快照。
+- 新监督器不是抗SIGKILL/断电的服务；永久I/O阻塞或外部强杀下无法保证收尾记录，必须UNKNOWN/PARTIAL。当前只支持本机专属会话进程；跨主机MPI/主动逃逸会话不在本轮证据范围。采样RSS非连续峰值；原A14资源缺口不插补。
+- 仅安全提交本轮新代码/测试/轻量报告/审计与失败日志，保留所有历史提交及无关未跟踪日志；Git同步以本轮最终本地/远端核验记录为准，不强推、不上传原始NC/观测/凭据。结束停止，不启动B14。

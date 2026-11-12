@@ -1,0 +1,81 @@
+test_A_normal_exit (__main__.Supervision) ... ok
+test_B_nonzero (__main__.Supervision) ... ok
+test_C_actual_short_lived_unrelated_processes (__main__.Supervision) ... ok
+test_C_disappearing_proc_deterministic (__main__.Supervision) ... ok
+test_D_timeout (__main__.Supervision) ... FAIL
+test_E_real_small_volume (__main__.Supervision) ... FAIL
+test_E_resource_limits (__main__.Supervision) ... ok
+test_F_persistent_sampling_error_fails_closed (__main__.Supervision) ... FAIL
+test_F_recoverable_sampling_error (__main__.Supervision) ... ok
+test_G_group_kill_and_unrelated_protection (__main__.Supervision) ... FAIL
+test_G_signal_exit (__main__.Supervision) ... ok
+test_H_unknown_never_pass (__main__.Supervision) ... ok
+test_fatal_log_even_at_immediate_exit (__main__.Supervision) ... ok
+test_identity_reuse_refuses_signal (__main__.Supervision) ... ERROR
+test_launcher_error (__main__.Supervision) ... ok
+test_model_validator_failure_does_not_lose_wait (__main__.Supervision) ... FAIL
+test_no_overwrite_or_outside (__main__.Supervision) ... ok
+test_unknown_target_rss_is_not_zero (__main__.Supervision) ... ok
+
+======================================================================
+ERROR: test_identity_reuse_refuses_signal (__main__.Supervision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/data/20261016/tests/test_runtime_supervisor.py", line 116, in test_identity_reuse_refuses_signal
+    with patch('runtime.supervisor.signal.pidfd_send_signal') as send:
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/unittest/mock.py", line 1447, in __enter__
+    original, local = self.get_original()
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/unittest/mock.py", line 1420, in get_original
+    raise AttributeError(
+AttributeError: <module 'signal' from '/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/signal.py'> does not have the attribute 'pidfd_send_signal'
+
+======================================================================
+FAIL: test_D_timeout (__main__.Supervision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/data/20261016/tests/test_runtime_supervisor.py", line 54, in test_D_timeout
+    self.assertEqual(r['exit_kind'],'TIMEOUT');self.assertLess(r['returncode'],0)
+AssertionError: 'UNKNOWN' != 'TIMEOUT'
+- UNKNOWN
++ TIMEOUT
+
+
+======================================================================
+FAIL: test_E_real_small_volume (__main__.Supervision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/data/20261016/tests/test_runtime_supervisor.py", line 66, in test_E_real_small_volume
+    self.assertEqual(r['stop_reason'],'volume_limit');self.assertTrue(r['cleanup_verified'])
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_F_persistent_sampling_error_fails_closed (__main__.Supervision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/data/20261016/tests/test_runtime_supervisor.py", line 83, in test_F_persistent_sampling_error_fails_closed
+    self.assertEqual(r['stop_reason'],'monitoring_unavailable');self.assertIsNotNone(r['returncode'])
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_G_group_kill_and_unrelated_protection (__main__.Supervision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/data/20261016/tests/test_runtime_supervisor.py", line 103, in test_G_group_kill_and_unrelated_protection
+    self.assertIn(state,['gone','Z']);self.assertTrue(r['cleanup_verified'])
+AssertionError: 'S' not found in ['gone', 'Z']
+
+======================================================================
+FAIL: test_model_validator_failure_does_not_lose_wait (__main__.Supervision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/data/20261016/tests/test_runtime_supervisor.py", line 135, in test_model_validator_failure_does_not_lose_wait
+    self.assertEqual(r['stop_reason'],'monitoring_unavailable');self.assertIsNotNone(r['returncode'])
+AssertionError: 'final_validation_error' != 'monitoring_unavailable'
+- final_validation_error
++ monitoring_unavailable
+
+
+----------------------------------------------------------------------
+Ran 18 tests in 6.249s
+
+FAILED (failures=5, errors=1)

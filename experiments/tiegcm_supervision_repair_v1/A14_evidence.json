@@ -1,0 +1,2867 @@
+{
+  "data_integrity": "PASS",
+  "physical_field_engineering": "PASS",
+  "actual_exit_status": "UNKNOWN_UNRECOVERABLE_FROM_RETAINED_EVIDENCE",
+  "limited_offline_analysis": "ALLOWED_WITH_DISCLOSURE",
+  "original_complete_engineering": "PARTIAL",
+  "steps_log_max": 23040,
+  "printed_step_records": 9216,
+  "normal_exit_count": 4,
+  "primary_records": 17,
+  "secondary_records": 384,
+  "NetCDF_files": [
+    {
+      "file": "primary_001.nc",
+      "records": 1,
+      "SHA256": "69a455403213119a686ee28ee7e1c227b43602dd492f5f4a67a542bd13ee3bed",
+      "first_doy_seconds": 5875200,
+      "last_doy_seconds": 5875200,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_002.nc",
+      "records": 1,
+      "SHA256": "9840037d8dcae265ad1bb92207ef95e8dc60ce3930d0083604a63718aab297e5",
+      "first_doy_seconds": 5961600,
+      "last_doy_seconds": 5961600,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_003.nc",
+      "records": 1,
+      "SHA256": "0f00d314969dd687fe41a22a04d7f8088dc3f171e56a8a5168c35d42d4f7d46b",
+      "first_doy_seconds": 6048000,
+      "last_doy_seconds": 6048000,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_004.nc",
+      "records": 1,
+      "SHA256": "e05dac2f73b30aab8d0cc72aff7e748796af798a472ab59f5cf028386c09dd39",
+      "first_doy_seconds": 6134400,
+      "last_doy_seconds": 6134400,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_005.nc",
+      "records": 1,
+      "SHA256": "bd49df238657be51284b0eae06c30937af33fac393cf2c8ae07fc84a9977689c",
+      "first_doy_seconds": 6220800,
+      "last_doy_seconds": 6220800,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_006.nc",
+      "records": 1,
+      "SHA256": "65d95c477ff0aca1f292974eafa84189e8ab31e9ebfdae2106e48958c68975b6",
+      "first_doy_seconds": 6307200,
+      "last_doy_seconds": 6307200,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_007.nc",
+      "records": 1,
+      "SHA256": "e52931e3788a1c2ea73f80946777762a237e3841c2252811f6dab346891f0afe",
+      "first_doy_seconds": 6393600,
+      "last_doy_seconds": 6393600,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_008.nc",
+      "records": 1,
+      "SHA256": "cb55c02b7849d47c326a521dd098bc65a8492ce28adf45121c77d247a8dc7bb8",
+      "first_doy_seconds": 6480000,
+      "last_doy_seconds": 6480000,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_009.nc",
+      "records": 1,
+      "SHA256": "83460bf9e47e96aa9e5bfe28e5583d4061625621e59e0098602be2e4b8678780",
+      "first_doy_seconds": 6566400,
+      "last_doy_seconds": 6566400,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_010.nc",
+      "records": 1,
+      "SHA256": "167b4a3d620ecad119437a0dbb0d9a2064831ff14ee5ba9b3895d996d8e77b7d",
+      "first_doy_seconds": 6652800,
+      "last_doy_seconds": 6652800,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_011.nc",
+      "records": 1,
+      "SHA256": "7ce8f03bd1317a6da27c011cd72810eb303c1470616701840db8d550421a95bf",
+      "first_doy_seconds": 6739200,
+      "last_doy_seconds": 6739200,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_012.nc",
+      "records": 1,
+      "SHA256": "773eb5c6e0dd20161cd29d82a7d7845eefc2921a4330571685a26c992045bd95",
+      "first_doy_seconds": 6825600,
+      "last_doy_seconds": 6825600,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_013.nc",
+      "records": 1,
+      "SHA256": "05640235e9f0625f38dd508575c09000c85f5d518af92ccd775491d9dd88ccf2",
+      "first_doy_seconds": 6912000,
+      "last_doy_seconds": 6912000,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_014.nc",
+      "records": 1,
+      "SHA256": "8e10b5b27a6b70ce7f1f9d80832e741d1e159ecc3c82f0272acd7bb20c401383",
+      "first_doy_seconds": 6998400,
+      "last_doy_seconds": 6998400,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_015.nc",
+      "records": 1,
+      "SHA256": "80b7c25d4a59f1261ad8aec66f731a837424e3422c78465ddbe21fa58c6a1b73",
+      "first_doy_seconds": 7084800,
+      "last_doy_seconds": 7084800,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_016.nc",
+      "records": 1,
+      "SHA256": "95623f3565f6571cfa1887c59880e3e1ec9795aaef6b5b7a8efbbd0100617b67",
+      "first_doy_seconds": 7171200,
+      "last_doy_seconds": 7171200,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "primary_017.nc",
+      "records": 1,
+      "SHA256": "15c4ffb1f92c94c04381907450ad2508505b5a0f76f6c86147ade0a69d966139",
+      "first_doy_seconds": 7257600,
+      "last_doy_seconds": 7257600,
+      "schema": {
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float64"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float64"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float64"
+        }
+      },
+      "absent_diagnostic_fields": [
+        "DEN",
+        "ZG"
+      ]
+    },
+    {
+      "file": "secondary_001.nc",
+      "records": 24,
+      "SHA256": "8fd723adeabcafed980ab14c62f292a2bfc44c890c0e66c0b97b76575391e702",
+      "first_doy_seconds": 5878800,
+      "last_doy_seconds": 5961600,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_002.nc",
+      "records": 24,
+      "SHA256": "0b897334c88a0672613b92a65b72b2952dacd2cf500502135baf14acf2a77b42",
+      "first_doy_seconds": 5965200,
+      "last_doy_seconds": 6048000,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_003.nc",
+      "records": 24,
+      "SHA256": "9a631c89b4903974b75a5fed8632711b4de179db44a758d9cf1c5f667bb08e5c",
+      "first_doy_seconds": 6051600,
+      "last_doy_seconds": 6134400,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_004.nc",
+      "records": 24,
+      "SHA256": "88c150462e914a15bd3fa3381e30cadc03beafd0c106f6a69fedd516ac3835df",
+      "first_doy_seconds": 6138000,
+      "last_doy_seconds": 6220800,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_005.nc",
+      "records": 24,
+      "SHA256": "629d13a85d26ec6976d287d80dc0025a554c0eb615418db9bff8f46020953ef6",
+      "first_doy_seconds": 6224400,
+      "last_doy_seconds": 6307200,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_006.nc",
+      "records": 24,
+      "SHA256": "dea1ccaa5dbcd89d8c5b778ca7b6ec004157f03c03459de0173745f32dbe6cb0",
+      "first_doy_seconds": 6310800,
+      "last_doy_seconds": 6393600,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_007.nc",
+      "records": 24,
+      "SHA256": "999a4ad53b44d9e5de04d271cca1b5c392171ba6b78fdb0dc8a991e0e8f3c1f3",
+      "first_doy_seconds": 6397200,
+      "last_doy_seconds": 6480000,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_008.nc",
+      "records": 24,
+      "SHA256": "2b21fd5d3b8e3c65340e7db5149d04866923dac4aab7284eb09d7c8f93b1edf5",
+      "first_doy_seconds": 6483600,
+      "last_doy_seconds": 6566400,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_009.nc",
+      "records": 24,
+      "SHA256": "cbdbb5ef8ed9b6168a389125eba1f3bc62b515c7ab32167d77d6e71e074373c7",
+      "first_doy_seconds": 6570000,
+      "last_doy_seconds": 6652800,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_010.nc",
+      "records": 24,
+      "SHA256": "5374adf6984001fd1add848688f72ae7994eb329016a4da0547e262aa9f7f965",
+      "first_doy_seconds": 6656400,
+      "last_doy_seconds": 6739200,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_011.nc",
+      "records": 24,
+      "SHA256": "955074d9e5042ccadc513b417fd6a66b2723ecf6e9af408d68b7c183c112a887",
+      "first_doy_seconds": 6742800,
+      "last_doy_seconds": 6825600,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_012.nc",
+      "records": 24,
+      "SHA256": "3f19a503e31e434f85a28c91429539b1c5d22cda2e2537cf9ad8f4d50b673a6d",
+      "first_doy_seconds": 6829200,
+      "last_doy_seconds": 6912000,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_013.nc",
+      "records": 24,
+      "SHA256": "ced1c28b7cc29fbf031c31e0c7617cf1c76663982c3e1b3969aa98c06cf645fb",
+      "first_doy_seconds": 6915600,
+      "last_doy_seconds": 6998400,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_014.nc",
+      "records": 24,
+      "SHA256": "d74aee47a92177341d8c27f82ff9588fc5bf21ff95d914e1edd8a0cdf1c6a9c2",
+      "first_doy_seconds": 7002000,
+      "last_doy_seconds": 7084800,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_015.nc",
+      "records": 24,
+      "SHA256": "882efd8bab7f39e7f3b69debc71188de41ec9bc7869c3f4ba03f69a7c429d0e5",
+      "first_doy_seconds": 7088400,
+      "last_doy_seconds": 7171200,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    },
+    {
+      "file": "secondary_016.nc",
+      "records": 24,
+      "SHA256": "6d3dcf2098ddbf0332b6a5c60df54a4bdb3804768f362bcae780203f546b01e9",
+      "first_doy_seconds": 7174800,
+      "last_doy_seconds": 7257600,
+      "schema": {
+        "DEN": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "g/cm3",
+          "dtype": "float32"
+        },
+        "ZG": {
+          "dimensions": [
+            "time",
+            "ilev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm",
+          "dtype": "float32"
+        },
+        "TN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "K",
+          "dtype": "float32"
+        },
+        "UN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "VN": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "cm/s",
+          "dtype": "float32"
+        },
+        "O1": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "O2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "N2": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        },
+        "HE": {
+          "dimensions": [
+            "time",
+            "lev",
+            "lat",
+            "lon"
+          ],
+          "units": "mmr",
+          "dtype": "float32"
+        }
+      },
+      "absent_diagnostic_fields": []
+    }
+  ],
+  "driver_max_abs_difference": 2.842170943040401e-14,
+  "sampling_gap_s": 739.8226382136345,
+  "previous_rss_sample_s": 441.22763803973794,
+  "first_guardian_sample_s": 1181.0502762533724,
+  "returncode": null,
+  "exit_evidence_search": [
+    "original supervisor traceback: exited before wait",
+    "original guardian status: raw wait status null",
+    "resume controller assertion: did not launch B14",
+    "no retained waitpid/wait4/system-accounting return status found in prior manifests/logs"
+  ],
+  "historical_proc_now_not_used_as_exit_evidence": true
+}

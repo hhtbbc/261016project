@@ -1,0 +1,773 @@
+{
+  "success": true,
+  "tests": 23,
+  "results": [
+    {
+      "test": "test_A_normal_exit",
+      "exit_kind": "NORMAL",
+      "returncode": 0,
+      "signal": null,
+      "qualification": "PASS",
+      "stop_reason": null,
+      "elapsed_s": 0.11489176377654076,
+      "identity": {
+        "pid": 1821463,
+        "start_ticks": 1763617695,
+        "uid": 0,
+        "pgid": 1821463,
+        "sid": 1821463
+      },
+      "wait_source": "direct subprocess.Popen.wait",
+      "peak_sampled_tree_rss_bytes": 11788288,
+      "samples": [
+        {
+          "wall_s": 0.02751898020505905,
+          "rss_bytes": 11788288,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 565,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 6
+        },
+        {
+          "wall_s": 0.051764581352472305,
+          "rss_bytes": 11788288,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 792,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 6
+        },
+        {
+          "wall_s": 0.07590650394558907,
+          "rss_bytes": 11788288,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1019,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 6
+        },
+        {
+          "wall_s": 0.10005808249115944,
+          "rss_bytes": 11788288,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1246,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 6
+        }
+      ],
+      "gaps": [],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.008449,
+      "children_cpu_system_s": 0.006255999999999999,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    },
+    {
+      "test": "test_B_nonzero",
+      "exit_kind": "NONZERO",
+      "returncode": 7,
+      "signal": null,
+      "qualification": "FAIL",
+      "stop_reason": null,
+      "elapsed_s": 0.02383553236722946,
+      "identity": {
+        "pid": 1821465,
+        "start_ticks": 1763617707,
+        "uid": 0,
+        "pgid": 1821465,
+        "sid": 1821465
+      },
+      "wait_source": "direct subprocess.Popen.wait",
+      "peak_sampled_tree_rss_bytes": null,
+      "samples": [],
+      "gaps": [],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.014358999999999999,
+      "children_cpu_system_s": 0.0,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    },
+    {
+      "test": "test_C_actual_short_lived_unrelated_processes",
+      "exit_kind": "NORMAL",
+      "returncode": 0,
+      "signal": null,
+      "qualification": "PASS",
+      "stop_reason": null,
+      "elapsed_s": 0.15040020272135735,
+      "identity": {
+        "pid": 1821478,
+        "start_ticks": 1763617710,
+        "uid": 0,
+        "pgid": 1821478,
+        "sid": 1821478
+      },
+      "wait_source": "direct subprocess.Popen.wait",
+      "peak_sampled_tree_rss_bytes": 11964416,
+      "samples": [
+        {
+          "wall_s": 0.027276545763015747,
+          "rss_bytes": 11964416,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 533,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.05213150009512901,
+          "rss_bytes": 11964416,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 760,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.07683086395263672,
+          "rss_bytes": 11964416,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 986,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.1016007661819458,
+          "rss_bytes": 11964416,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1212,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.1263333596289158,
+          "rss_bytes": 11964416,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1439,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        }
+      ],
+      "gaps": [],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.010424,
+      "children_cpu_system_s": 0.004103000000000001,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    },
+    {
+      "test": "test_D_timeout",
+      "exit_kind": "TIMEOUT",
+      "returncode": -15,
+      "signal": 15,
+      "qualification": "FAIL",
+      "stop_reason": "wall_timeout",
+      "elapsed_s": 0.13073459640145302,
+      "identity": {
+        "pid": 1821479,
+        "start_ticks": 1763617725,
+        "uid": 0,
+        "pgid": 1821479,
+        "sid": 1821479
+      },
+      "wait_source": "direct subprocess.Popen.wait",
+      "peak_sampled_tree_rss_bytes": 11780096,
+      "samples": [
+        {
+          "wall_s": 0.01621214672923088,
+          "rss_bytes": 11780096,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 535,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.030258089303970337,
+          "rss_bytes": 11780096,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 762,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.044238459318876266,
+          "rss_bytes": 11780096,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 988,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.0583074614405632,
+          "rss_bytes": 11780096,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1214,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.07229364663362503,
+          "rss_bytes": 11780096,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1441,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.08633818104863167,
+          "rss_bytes": 11780096,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1668,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.10044961050152779,
+          "rss_bytes": 11780096,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1895,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.11454370245337486,
+          "rss_bytes": 11780096,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 2121,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        }
+      ],
+      "gaps": [],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.009167999999999982,
+      "children_cpu_system_s": 0.003056000000000003,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    },
+    {
+      "test": "test_E_real_small_volume",
+      "exit_kind": "CONTROLLED_STOP",
+      "returncode": -15,
+      "signal": 15,
+      "qualification": "FAIL",
+      "stop_reason": "volume_limit",
+      "elapsed_s": 0.037354521453380585,
+      "identity": {
+        "pid": 1821480,
+        "start_ticks": 1763617739,
+        "uid": 0,
+        "pgid": 1821480,
+        "sid": 1821480
+      },
+      "wait_source": "direct subprocess.Popen.wait",
+      "peak_sampled_tree_rss_bytes": 11821056,
+      "samples": [
+        {
+          "wall_s": 0.026264511048793793,
+          "rss_bytes": 11821056,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 764,
+          "largest_volume_bytes": 200,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        }
+      ],
+      "gaps": [],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.012259999999999993,
+      "children_cpu_system_s": 0.0,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    },
+    {
+      "test": "test_F_persistent_sampling_error_fails_closed",
+      "exit_kind": "CONTROLLED_STOP",
+      "returncode": -15,
+      "signal": 15,
+      "qualification": "PARTIAL",
+      "stop_reason": "monitoring_unavailable",
+      "elapsed_s": 0.07366733998060226,
+      "identity": {
+        "pid": 1821481,
+        "start_ticks": 1763617743,
+        "uid": 0,
+        "pgid": 1821481,
+        "sid": 1821481
+      },
+      "wait_source": "direct subprocess.Popen.wait",
+      "peak_sampled_tree_rss_bytes": null,
+      "samples": [],
+      "gaps": [
+        {
+          "wall_s": 0.02225208654999733,
+          "error": "OSError('injected monitor unavailable')"
+        },
+        {
+          "wall_s": 0.042632412165403366,
+          "error": "OSError('injected monitor unavailable')"
+        },
+        {
+          "wall_s": 0.06294114887714386,
+          "error": "OSError('injected monitor unavailable')"
+        }
+      ],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.003031000000000006,
+      "children_cpu_system_s": 0.00909,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    },
+    {
+      "test": "test_F_recoverable_sampling_error",
+      "exit_kind": "NORMAL",
+      "returncode": 0,
+      "signal": null,
+      "qualification": "PARTIAL",
+      "stop_reason": null,
+      "elapsed_s": 0.16552361845970154,
+      "identity": {
+        "pid": 1821482,
+        "start_ticks": 1763617750,
+        "uid": 0,
+        "pgid": 1821482,
+        "sid": 1821482
+      },
+      "wait_source": "direct subprocess.Popen.wait",
+      "peak_sampled_tree_rss_bytes": 11825152,
+      "samples": [
+        {
+          "wall_s": 0.04633542150259018,
+          "rss_bytes": 11825152,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 673,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.07042191922664642,
+          "rss_bytes": 11825152,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 900,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.09447314217686653,
+          "rss_bytes": 11825152,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1126,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.11863097921013832,
+          "rss_bytes": 11825152,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1353,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.14276612177491188,
+          "rss_bytes": 11825152,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1580,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        }
+      ],
+      "gaps": [
+        {
+          "wall_s": 0.022207114845514297,
+          "error": "ProcessLookupError('injected disappearing process')"
+        }
+      ],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.009738999999999998,
+      "children_cpu_system_s": 0.0038709999999999994,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    },
+    {
+      "test": "test_G_group_kill_and_unrelated_protection",
+      "exit_kind": "TIMEOUT",
+      "returncode": -9,
+      "signal": 9,
+      "qualification": "FAIL",
+      "stop_reason": "wall_timeout",
+      "elapsed_s": 0.33686285465955734,
+      "identity": {
+        "pid": 1821484,
+        "start_ticks": 1763617767,
+        "uid": 0,
+        "pgid": 1821484,
+        "sid": 1821484
+      },
+      "wait_source": "direct subprocess.Popen.wait",
+      "peak_sampled_tree_rss_bytes": 26296320,
+      "samples": [
+        {
+          "wall_s": 0.026063144207000732,
+          "rss_bytes": 13926400,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 779,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.05034909397363663,
+          "rss_bytes": 26296320,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1005,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.07452280446887016,
+          "rss_bytes": 26296320,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1231,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.09870249032974243,
+          "rss_bytes": 26296320,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1458,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.12290849164128304,
+          "rss_bytes": 26296320,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1685,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.14713482931256294,
+          "rss_bytes": 26296320,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1912,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.17139539122581482,
+          "rss_bytes": 26296320,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 2139,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.19570166245102882,
+          "rss_bytes": 26296320,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 2365,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.21989111602306366,
+          "rss_bytes": 26296320,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 2592,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        }
+      ],
+      "gaps": [],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.011160000000000003,
+      "children_cpu_system_s": 0.011160000000000003,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    },
+    {
+      "test": "test_G_signal_exit",
+      "exit_kind": "SIGNAL",
+      "returncode": -15,
+      "signal": 15,
+      "qualification": "FAIL",
+      "stop_reason": null,
+      "elapsed_s": 0.023675154894590378,
+      "identity": {
+        "pid": 1821489,
+        "start_ticks": 1763617801,
+        "uid": 0,
+        "pgid": 1821489,
+        "sid": 1821489
+      },
+      "wait_source": "direct subprocess.Popen.wait",
+      "peak_sampled_tree_rss_bytes": null,
+      "samples": [],
+      "gaps": [],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.0070280000000000065,
+      "children_cpu_system_s": 0.007028999999999994,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    },
+    {
+      "test": "test_H_actual_wait_result_unavailable",
+      "exit_kind": "UNKNOWN",
+      "returncode": null,
+      "signal": null,
+      "qualification": "PARTIAL",
+      "stop_reason": "supervisor_error",
+      "elapsed_s": 0.026951223611831665,
+      "identity": {
+        "pid": 1821492,
+        "start_ticks": 1763617815,
+        "uid": 0,
+        "pgid": 1821492,
+        "sid": 1821492
+      },
+      "wait_source": "UNKNOWN",
+      "peak_sampled_tree_rss_bytes": null,
+      "samples": [],
+      "gaps": [
+        {
+          "wall_s": 0.017301712185144424,
+          "error": "ChildProcessError('injected lost wait ownership after actual child reaped')"
+        },
+        {
+          "error": "wait unavailable: ChildProcessError('injected lost wait ownership after actual child reaped')"
+        }
+      ],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.010562000000000016,
+      "children_cpu_system_s": 0.0035209999999999964,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    },
+    {
+      "test": "test_fatal_log_even_at_immediate_exit",
+      "exit_kind": "CONTROLLED_STOP",
+      "returncode": 0,
+      "signal": null,
+      "qualification": "FAIL",
+      "stop_reason": "fatal_log_pattern",
+      "elapsed_s": 0.024624045938253403,
+      "identity": {
+        "pid": 1821493,
+        "start_ticks": 1763617817,
+        "uid": 0,
+        "pgid": 1821493,
+        "sid": 1821493
+      },
+      "wait_source": "direct subprocess.Popen.wait",
+      "peak_sampled_tree_rss_bytes": null,
+      "samples": [],
+      "gaps": [],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.010450000000000015,
+      "children_cpu_system_s": 0.003482999999999986,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    },
+    {
+      "test": "test_model_validator_failure_does_not_lose_wait",
+      "exit_kind": "CONTROLLED_STOP",
+      "returncode": -15,
+      "signal": 15,
+      "qualification": "PARTIAL",
+      "stop_reason": "monitoring_unavailable",
+      "elapsed_s": 0.08566297590732574,
+      "identity": {
+        "pid": 1821496,
+        "start_ticks": 1763617821,
+        "uid": 0,
+        "pgid": 1821496,
+        "sid": 1821496
+      },
+      "wait_source": "direct subprocess.Popen.wait",
+      "peak_sampled_tree_rss_bytes": 11911168,
+      "samples": [
+        {
+          "wall_s": 0.025823485106229782,
+          "rss_bytes": 11911168,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 531,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.0500931479036808,
+          "rss_bytes": 11911168,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 885,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        },
+        {
+          "wall_s": 0.07440339028835297,
+          "rss_bytes": 11911168,
+          "races": 0,
+          "issue": null,
+          "output_bytes": 1237,
+          "largest_volume_bytes": 0,
+          "free_disk_bytes": 1374108516352,
+          "total_output_bytes": null,
+          "log_size": 0
+        }
+      ],
+      "gaps": [
+        {
+          "wall_s": 0.026319492608308792,
+          "error": "ValueError('invalid completed volume')"
+        },
+        {
+          "wall_s": 0.05060054361820221,
+          "error": "ValueError('invalid completed volume')"
+        },
+        {
+          "wall_s": 0.074869554489851,
+          "error": "ValueError('invalid completed volume')"
+        }
+      ],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.008596999999999966,
+      "children_cpu_system_s": 0.004298999999999997,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    },
+    {
+      "test": "test_no_overwrite_or_outside",
+      "exit_kind": "NORMAL",
+      "returncode": 0,
+      "signal": null,
+      "qualification": "PASS",
+      "stop_reason": null,
+      "elapsed_s": 0.024719521403312683,
+      "identity": {
+        "pid": 1821497,
+        "start_ticks": 1763617829,
+        "uid": 0,
+        "pgid": 1821497,
+        "sid": 1821497
+      },
+      "wait_source": "direct subprocess.Popen.wait",
+      "peak_sampled_tree_rss_bytes": null,
+      "samples": [],
+      "gaps": [],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.007013000000000047,
+      "children_cpu_system_s": 0.007012000000000018,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    },
+    {
+      "test": "test_staged_input_and_signal_api",
+      "exit_kind": "NORMAL",
+      "returncode": 0,
+      "signal": null,
+      "qualification": "PASS",
+      "stop_reason": null,
+      "elapsed_s": 0.02467856928706169,
+      "identity": {
+        "pid": 1821498,
+        "start_ticks": 1763617832,
+        "uid": 0,
+        "pgid": 1821498,
+        "sid": 1821498
+      },
+      "wait_source": "direct subprocess.Popen.wait",
+      "peak_sampled_tree_rss_bytes": null,
+      "samples": [],
+      "gaps": [],
+      "cleanup_verified": true,
+      "children_cpu_user_s": 0.01353399999999999,
+      "children_cpu_system_s": 0.0,
+      "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+    }
+  ]
+}

@@ -517,3 +517,14 @@ A14/B14共同03-23 00:00 primary_015均为完整34项float64标准状态（iter1
 - 入口：reports/TIEGCM_2022_14DAY_LONGRUN_VALIDATION.md、TIEGCM_2022_SPINUP_7VS14_COMPARISON.md、SWARM_TIEGCM_2022_7VS14_OBSERVATION_V1.md；实验/结果tiegcm_2022_spinup_14day_v1，execution_decision.json明确停止B14。
 - 原122帧/全部旧轨迹/第三方源码不变。SCIENCE_TRAINING_READY=False、EXTERNAL_DATUM_UNVERIFIED、真实轨道BLOCKED不变。后续先独立验证监督器可靠退出状态采集，再另行决定补齐方案；不自动重跑A14、启动B14、训练或轨道传播。
 - 补充原8项小时查询接口回归通过，本轮共17项聚焦测试；首次独立回归命令缺PYTHONPATH的导入失败日志保留，不属模型数值失败。
+
+
+## 2026-11-12：监督机制修复、A14只读审计与B14静态准备
+
+- 新src/runtime/supervisor.py将直接Popen/wait与资源采样解耦；/proc逐PID捕获竞态、PID出生ticks/UID/PGID/SID核验，pidfd身份固定后送信号，不用未知PID组盲目终止。当前Python无原生pidfd导出，实测libc接口可用；无安装/无模型物理变更。
+- 最终23项短CPU测试通过（1.402秒），包括真实0/7退出、短命进程竞态、超时、五类资源限制/小NC超限、采样异常/持续失败、信号/监督器SIGTERM、进程组KILL、无关进程保护、PID复用/异UID拒绝、未知退出/未知RSS、闭卷回调失败与禁止覆盖。初始失败和修复过程均保留。真实MPI/TIE端到端未执行，不能称已完整模型验证。
+- 独立只读审计A14全部33卷及76项原历史文件前后SHA一致；23040日志最大步数、4 NORMAL EXIT、17主/384小时记录/网格单位填充与物理字段通过，实际驱动最大差2.842e-14。采样缺口739.822638秒保留；真实launcher退出状态在留存证据中不可恢复，A14_ENGINEERING=PARTIAL不改。
+- B14仅静态预检：smax34项状态/合法SOURCE_START、扩展GPI23041分钟、可执行/apex/初场SHA及只有SOURCE变化的配置通过；当前112CPU亲和核、可用内存1831.8GiB、余盘1279.7GiB。按A14×B7/A7外推2468.92秒，1.5安全3703.38秒；参考4800秒/16GiB/5GiB/256MiB卷/余盘20GiB。不是新授权，未来须重查并给清理留预算。
+- 协议A仍BLOCKED；协议B仅探索性v2草案，建议用户另行授权后可将A14 PARTIAL作为受限输入补B14，绝不回填原rc0或宣称原协议PASS。B14_STATIC_PRECHECK=PASS、B14_LAUNCH_ADMISSION=BLOCKED_PENDING_PROTOCOL_AUTHORIZATION、B14_ENGINEERING=NOT_RUN。
+- 本轮真实模型启动0、无新查询/下载/训练/轨道。原122帧、DUAL14_SENSITIVITY=NOT_AVAILABLE、SCIENCE_TRAINING_READY=False、EXTERNAL_DATUM_UNVERIFIED不变。
+- 入口：reports/TIEGCM_SUPERVISION_REPAIR_V1.md、reports/TIEGCM_A14_EVIDENCE_AUDIT_V1.md、docs/TIEGCM_B14_PRELAUNCH_PROTOCOL_DECISION_V1.md；一页研究说明docs/TIEGCM_2022_A14_STAGE_BRIEF_V1.md。实验/结果标签tiegcm_supervision_repair_v1。

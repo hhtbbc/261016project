@@ -1,0 +1,67 @@
+{
+  "status": "STATIC_PREPARATION_ONLY_NOT_AUTHORIZATION",
+  "protocol_A": "BLOCKED: historical A14 full engineering requirement unsatisfied",
+  "protocol_B": "DRAFT_REQUIRES_SEPARATE_USER_AUTHORIZATION_AND_PRELAUNCH_FREEZE",
+  "future_output": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14 (must not exist)",
+  "argv": [
+    "mpirun",
+    "-np",
+    "4",
+    "/workspace/data/20261016/experiments/tiegcm2_apex2023_v1/tiegcm2.0",
+    "input.inp"
+  ],
+  "namelist": "&tgcm_input\n LABEL = 'INDEPENDENT_TIEGCM_DATA_GENERATION; 2022 nine-day; spinup UNVERIFIED'\n START_YEAR = 2022\n START_DAY = 68\n CALENDAR_ADVANCE = 1\n SOURCE = '/workspace/data/20261016/data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc'\n SOURCE_START = 80 0 0\n START = 68 0 0\n STOP = 84 0 0\n STEP  = 60\n HIST = 1 0 0\n OUTPUT = 'primary_001.nc', 'primary_002.nc', 'primary_003.nc', 'primary_004.nc', 'primary_005.nc', 'primary_006.nc', 'primary_007.nc', 'primary_008.nc', 'primary_009.nc', 'primary_010.nc', 'primary_011.nc', 'primary_012.nc', 'primary_013.nc', 'primary_014.nc', 'primary_015.nc', 'primary_016.nc', 'primary_017.nc'\n MXHIST_PRIM = 1\n SECSTART = 68 1 0\n SECSTOP = 84 0 0\n SECHIST = 0 1 0\n SECOUT = 'secondary_001.nc', 'secondary_002.nc', 'secondary_003.nc', 'secondary_004.nc', 'secondary_005.nc', 'secondary_006.nc', 'secondary_007.nc', 'secondary_008.nc', 'secondary_009.nc', 'secondary_010.nc', 'secondary_011.nc', 'secondary_012.nc', 'secondary_013.nc', 'secondary_014.nc', 'secondary_015.nc', 'secondary_016.nc'\n MXHIST_SECH = 24\n SECFLDS = 'TN' 'UN' 'VN' 'WN' 'O2' 'O1' 'N2' 'NO' 'N4S' 'HE' 'NE' \n           'TE' 'TI' 'TEC' 'O2P' 'OP' 'POTEN' 'UI_ExB' 'VI_ExB' \n           'WI_ExB' 'DEN' 'QJOULE' 'HMF2' 'NMF2' 'Z' 'ZG'\n GSWM_MI_DI_NCFILE  = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc'\n GSWM_MI_SDI_NCFILE = '/workspace/data/20261016/data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc'\n POTENTIAL_MODEL = 'HEELIS'\n CALC_HELIUM = 1\n GPI_NCFILE = '/workspace/data/20261016/data/processed/tiegcm_2022_spinup_14day_v1/gpi_2022_14day.nc'\n/\n",
+  "namelist_SHA256": "43921699e56bf35730539a80614a81f4a2ba090e2103c9c612dc5fc3d6b85432",
+  "configuration_diff": [
+    "--- A14\n",
+    "+++ B14_future\n",
+    "@@ -3,7 +3,7 @@\n",
+    "  START_YEAR = 2022",
+    "  START_DAY = 68",
+    "  CALENDAR_ADVANCE = 1",
+    "- SOURCE = '/workspace/data/20261016/data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc'",
+    "+ SOURCE = '/workspace/data/20261016/data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc'",
+    "  SOURCE_START = 80 0 0",
+    "  START = 68 0 0",
+    "  STOP = 84 0 0"
+  ],
+  "expected_steps": 23040,
+  "expected_primary_records": 17,
+  "expected_secondary_records": 384,
+  "MPI": 4,
+  "OMP_NUM_THREADS": 1,
+  "SOURCE_START": [
+    80,
+    0,
+    0
+  ],
+  "input_SHA256": {
+    "data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc": "180475215a4922e9c55a77e80153cf641bc8fbb2b8d52633b4686ddee6942fff",
+    "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+    "data/processed/tiegcm_2022_spinup_14day_v1/gpi_2022_14day.nc": "bd603d2e47c7fa2e61858f6732cad12d98a5e602ca40141640e63185dd51bf41",
+    "experiments/tiegcm2_apex2023_v1/tiegcm2.0": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "experiments/tiegcm2_apex2023_v1/apex.F90": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3"
+  },
+  "estimated_wall_s": 2468.918900171622,
+  "safety_wall_s": 3703.3783502574333,
+  "reference_wall_limit_s": 4800,
+  "reference_RSS_limit_bytes": 17179869184,
+  "reference_output_limit_bytes": 5368709120,
+  "reference_volume_limit_bytes": 268435456,
+  "reference_disk_floor_bytes": 21474836480,
+  "estimated_NetCDF_bytes": 3371587712,
+  "current_free_disk_bytes": 1374108516352,
+  "current_available_memory_bytes": 1966884864000,
+  "cpu_affinity_count": 112,
+  "active_TIEGCM_pids": [],
+  "current_resources_PASS": true,
+  "supervisor": "runtime.supervisor.supervise, direct owned child, pidfd termination, independent closed-volume validator",
+  "required_future_steps": [
+    "user authorizes protocol version and new output identity",
+    "revalidate all SHA and current resources, exclude concurrent TIE",
+    "freeze environment, supervisor SHA, validator SHA and whole-run budget including cleanup",
+    "stage exact namelist via input_files in fresh output; exclusive launch marker; no retries",
+    "validator checks only closed NC while running, all33 after true wait returncode0",
+    "separate engineering and scientific states; no promotion of historical A14"
+  ]
+}

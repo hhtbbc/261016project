@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/workspace/data/20261016/scripts/audit_tiegcm_supervision_repair.py", line 57, in <module>
+    if __name__=='__main__':main()
+  File "/workspace/data/20261016/scripts/audit_tiegcm_supervision_repair.py", line 31, in main
+    records.append(dict(file=path.name,records=len(clock),SHA256=e['SHA256'],first_doy_seconds=clock[0],last_doy_seconds=clock[-1],schema={k:dict(dimensions=n[k].dimensions,units=getattr(n[k],'units',None),dtype=str(n[k].dtype)) for k in ['DEN','ZG','TN','UN','VN','O1','O2','N2','HE']}))
+  File "/workspace/data/20261016/scripts/audit_tiegcm_supervision_repair.py", line 31, in <dictcomp>
+    records.append(dict(file=path.name,records=len(clock),SHA256=e['SHA256'],first_doy_seconds=clock[0],last_doy_seconds=clock[-1],schema={k:dict(dimensions=n[k].dimensions,units=getattr(n[k],'units',None),dtype=str(n[k].dtype)) for k in ['DEN','ZG','TN','UN','VN','O1','O2','N2','HE']}))
+  File "src/netCDF4/_netCDF4.pyx", line 2519, in netCDF4._netCDF4.Dataset.__getitem__
+IndexError: DEN not found in /

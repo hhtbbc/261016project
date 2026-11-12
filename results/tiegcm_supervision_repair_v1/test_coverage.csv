@@ -1,0 +1,9 @@
+requirement,evidence,status
+A,normal wait rc0,PASS
+B,nonzero rc7,PASS
+C,deterministic proc disappearance and12 real short-lived helpers,PASS
+D,real timeout TERM,PASS
+E,mock5 resource limits and real200-byte NC,PASS
+F,one and persistent sampler error; model validator failure,PASS
+G,child signal; process-group KILL; unrelated process alive; supervisor SIGTERM,PASS
+H,real child wait result fault injection -> UNKNOWN; nonchild waitpid failure,PASS

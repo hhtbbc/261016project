@@ -1,0 +1,27 @@
+test_A_normal_exit (__main__.Supervision) ... ok
+test_B_nonzero (__main__.Supervision) ... ok
+test_C_actual_short_lived_unrelated_processes (__main__.Supervision) ... ok
+test_C_disappearing_proc_deterministic (__main__.Supervision) ... ok
+test_D_timeout (__main__.Supervision) ... ok
+test_E_real_small_volume (__main__.Supervision) ... ok
+test_E_resource_limits (__main__.Supervision) ... ok
+test_F_persistent_sampling_error_fails_closed (__main__.Supervision) ... ok
+test_F_recoverable_sampling_error (__main__.Supervision) ... ok
+test_G_group_kill_and_unrelated_protection (__main__.Supervision) ... ok
+test_G_signal_exit (__main__.Supervision) ... ok
+test_H_actual_wait_result_unavailable (__main__.Supervision) ... ok
+test_H_unknown_never_pass (__main__.Supervision) ... ok
+test_fatal_log_even_at_immediate_exit (__main__.Supervision) ... ok
+test_foreign_uid_refuses_signal (__main__.Supervision) ... ok
+test_identity_reuse_refuses_signal (__main__.Supervision) ... ok
+test_launcher_error (__main__.Supervision) ... ok
+test_model_validator_failure_does_not_lose_wait (__main__.Supervision) ... ok
+test_no_overwrite_or_outside (__main__.Supervision) ... ok
+test_root_birth_mismatch_rss_is_unknown (__main__.Supervision) ... ok
+test_staged_input_and_signal_api (__main__.Supervision) ... ok
+test_unknown_target_rss_is_not_zero (__main__.Supervision) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.305s
+
+OK
