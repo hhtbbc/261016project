@@ -17,7 +17,6 @@ def aggregate(rows):
   valid=[x['log_RMS'] for x in a if x['log_RMS'] is not None];r['log_RMS']=float(np.sqrt(np.mean(np.square(valid)))) if valid else None;r['log_valid_hours']=len(valid);r['max_abs']=max(x['max_abs'] for x in a);out.append(r)
  return out
 if __name__=='__main__':
- os.environ['CUDA_VISIBLE_DEVICES']=''
  start=time.perf_counter();assert json.loads((F/'cpu_data_audit.json').read_text())['PASS'];manifest=json.loads((F/'dataset_manifest.json').read_text())['frames'];lat=np.load(ROOT/'data/processed/static/lat.npy');allrows=[]
  for year in ['2021','2022']:
   rr=[];frames=manifest[year]

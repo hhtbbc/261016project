@@ -1,0 +1,771 @@
+{
+  "PASS": true,
+  "frames": [
+    73,
+    49
+  ],
+  "pairs": [
+    72,
+    48
+  ],
+  "checked_future_poison_pairs": 120,
+  "checks": [
+    {
+      "year": 2021,
+      "pair": 0,
+      "target_UTC": "2021-03-23T01:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 1,
+      "target_UTC": "2021-03-23T02:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 2,
+      "target_UTC": "2021-03-23T03:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 3,
+      "target_UTC": "2021-03-23T04:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 4,
+      "target_UTC": "2021-03-23T05:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 5,
+      "target_UTC": "2021-03-23T06:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 6,
+      "target_UTC": "2021-03-23T07:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 7,
+      "target_UTC": "2021-03-23T08:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 8,
+      "target_UTC": "2021-03-23T09:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 9,
+      "target_UTC": "2021-03-23T10:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 10,
+      "target_UTC": "2021-03-23T11:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 11,
+      "target_UTC": "2021-03-23T12:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 12,
+      "target_UTC": "2021-03-23T13:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 13,
+      "target_UTC": "2021-03-23T14:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 14,
+      "target_UTC": "2021-03-23T15:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 15,
+      "target_UTC": "2021-03-23T16:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 16,
+      "target_UTC": "2021-03-23T17:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 17,
+      "target_UTC": "2021-03-23T18:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 18,
+      "target_UTC": "2021-03-23T19:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 19,
+      "target_UTC": "2021-03-23T20:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 20,
+      "target_UTC": "2021-03-23T21:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 21,
+      "target_UTC": "2021-03-23T22:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 22,
+      "target_UTC": "2021-03-23T23:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 23,
+      "target_UTC": "2021-03-24T00:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 24,
+      "target_UTC": "2021-03-24T01:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 25,
+      "target_UTC": "2021-03-24T02:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 26,
+      "target_UTC": "2021-03-24T03:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 27,
+      "target_UTC": "2021-03-24T04:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 28,
+      "target_UTC": "2021-03-24T05:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 29,
+      "target_UTC": "2021-03-24T06:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 30,
+      "target_UTC": "2021-03-24T07:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 31,
+      "target_UTC": "2021-03-24T08:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 32,
+      "target_UTC": "2021-03-24T09:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 33,
+      "target_UTC": "2021-03-24T10:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 34,
+      "target_UTC": "2021-03-24T11:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 35,
+      "target_UTC": "2021-03-24T12:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 36,
+      "target_UTC": "2021-03-24T13:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 37,
+      "target_UTC": "2021-03-24T14:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 38,
+      "target_UTC": "2021-03-24T15:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 39,
+      "target_UTC": "2021-03-24T16:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 40,
+      "target_UTC": "2021-03-24T17:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 41,
+      "target_UTC": "2021-03-24T18:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 42,
+      "target_UTC": "2021-03-24T19:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 43,
+      "target_UTC": "2021-03-24T20:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 44,
+      "target_UTC": "2021-03-24T21:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 45,
+      "target_UTC": "2021-03-24T22:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 46,
+      "target_UTC": "2021-03-24T23:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 47,
+      "target_UTC": "2021-03-25T00:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 48,
+      "target_UTC": "2021-03-25T01:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 49,
+      "target_UTC": "2021-03-25T02:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 50,
+      "target_UTC": "2021-03-25T03:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 51,
+      "target_UTC": "2021-03-25T04:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 52,
+      "target_UTC": "2021-03-25T05:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 53,
+      "target_UTC": "2021-03-25T06:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 54,
+      "target_UTC": "2021-03-25T07:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 55,
+      "target_UTC": "2021-03-25T08:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 56,
+      "target_UTC": "2021-03-25T09:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 57,
+      "target_UTC": "2021-03-25T10:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 58,
+      "target_UTC": "2021-03-25T11:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 59,
+      "target_UTC": "2021-03-25T12:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 60,
+      "target_UTC": "2021-03-25T13:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 61,
+      "target_UTC": "2021-03-25T14:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 62,
+      "target_UTC": "2021-03-25T15:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 63,
+      "target_UTC": "2021-03-25T16:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 64,
+      "target_UTC": "2021-03-25T17:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 65,
+      "target_UTC": "2021-03-25T18:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 66,
+      "target_UTC": "2021-03-25T19:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 67,
+      "target_UTC": "2021-03-25T20:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 68,
+      "target_UTC": "2021-03-25T21:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 69,
+      "target_UTC": "2021-03-25T22:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 70,
+      "target_UTC": "2021-03-25T23:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2021,
+      "pair": 71,
+      "target_UTC": "2021-03-26T00:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 0,
+      "target_UTC": "2022-03-23T01:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 1,
+      "target_UTC": "2022-03-23T02:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 2,
+      "target_UTC": "2022-03-23T03:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 3,
+      "target_UTC": "2022-03-23T04:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 4,
+      "target_UTC": "2022-03-23T05:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 5,
+      "target_UTC": "2022-03-23T06:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 6,
+      "target_UTC": "2022-03-23T07:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 7,
+      "target_UTC": "2022-03-23T08:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 8,
+      "target_UTC": "2022-03-23T09:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 9,
+      "target_UTC": "2022-03-23T10:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 10,
+      "target_UTC": "2022-03-23T11:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 11,
+      "target_UTC": "2022-03-23T12:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 12,
+      "target_UTC": "2022-03-23T13:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 13,
+      "target_UTC": "2022-03-23T14:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 14,
+      "target_UTC": "2022-03-23T15:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 15,
+      "target_UTC": "2022-03-23T16:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 16,
+      "target_UTC": "2022-03-23T17:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 17,
+      "target_UTC": "2022-03-23T18:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 18,
+      "target_UTC": "2022-03-23T19:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 19,
+      "target_UTC": "2022-03-23T20:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 20,
+      "target_UTC": "2022-03-23T21:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 21,
+      "target_UTC": "2022-03-23T22:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 22,
+      "target_UTC": "2022-03-23T23:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 23,
+      "target_UTC": "2022-03-24T00:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 24,
+      "target_UTC": "2022-03-24T01:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 25,
+      "target_UTC": "2022-03-24T02:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 26,
+      "target_UTC": "2022-03-24T03:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 27,
+      "target_UTC": "2022-03-24T04:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 28,
+      "target_UTC": "2022-03-24T05:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 29,
+      "target_UTC": "2022-03-24T06:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 30,
+      "target_UTC": "2022-03-24T07:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 31,
+      "target_UTC": "2022-03-24T08:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 32,
+      "target_UTC": "2022-03-24T09:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 33,
+      "target_UTC": "2022-03-24T10:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 34,
+      "target_UTC": "2022-03-24T11:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 35,
+      "target_UTC": "2022-03-24T12:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 36,
+      "target_UTC": "2022-03-24T13:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 37,
+      "target_UTC": "2022-03-24T14:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 38,
+      "target_UTC": "2022-03-24T15:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 39,
+      "target_UTC": "2022-03-24T16:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 40,
+      "target_UTC": "2022-03-24T17:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 41,
+      "target_UTC": "2022-03-24T18:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 42,
+      "target_UTC": "2022-03-24T19:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 43,
+      "target_UTC": "2022-03-24T20:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 44,
+      "target_UTC": "2022-03-24T21:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 45,
+      "target_UTC": "2022-03-24T22:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 46,
+      "target_UTC": "2022-03-24T23:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    },
+    {
+      "year": 2022,
+      "pair": 47,
+      "target_UTC": "2022-03-25T00:00:00+00:00",
+      "future_physics_poison_input_exact": true
+    }
+  ],
+  "train_statistics_unchanged": true,
+  "statistics_fitted": false,
+  "extraction_performed": false,
+  "DEN_channel_indices": [
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170
+  ],
+  "max_DEN_relative_roundtrip_error": 2.4007059748029602e-08,
+  "protected_files": 412,
+  "wall_s": 43.01709332689643
+}

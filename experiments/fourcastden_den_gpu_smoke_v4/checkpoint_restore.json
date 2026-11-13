@@ -1,0 +1,10 @@
+{
+  "PASS": true,
+  "step": 5,
+  "checkpoint_SHA256": "f30aeba7bd553661ea6b9a14afd5665b64d66e24bc35db1be0327cb14c878dcd",
+  "model_exact": true,
+  "optimizer_exact": true,
+  "scheduler_exact": true,
+  "prediction_exact": true,
+  "save_restore_wall_s": 5.167960301041603
+}

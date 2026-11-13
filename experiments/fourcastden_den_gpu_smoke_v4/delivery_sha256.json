@@ -1,0 +1,202 @@
+{
+  "docs/FOURCASTDEN_DEN_GPU_V4_NEXT_TRAINING_PLAN.md": {
+    "SHA256": "4da9a75f37b3c77ff36aacccaae7196d5ce16522829d11c9751933987daa6c01",
+    "bytes": 4285
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/GPU_result.json": {
+    "SHA256": "1c76c5e1766f46acb2d1b8c85bfe4dc7facef99c6132497a882e1ed453359b7f",
+    "bytes": 10467
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/checkpoint_restore.json": {
+    "SHA256": "7e9c92d1471dd71c9c4fac32471fa31ea32d3f3624d96d98a5eeed3d818175ef",
+    "bytes": 271
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/commands.json": {
+    "SHA256": "f3e78c71bd3e58f32e9afd700eb72a19a18c129972249b2156c5231ce8ccd8ee",
+    "bytes": 1356
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/compatibility_diff.patch": {
+    "SHA256": "f3a259b28d793e701c2232e0639b92a51a7dfb18bde5af9fd1f3d1415ab6f2a9",
+    "bytes": 4834
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/cuda_initialization.json": {
+    "SHA256": "b99757ccc7436ad07311a49043dc24d2f2544f756360dbfd5e780571a3960c03",
+    "bytes": 268
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/data_audit.json": {
+    "SHA256": "8c415c084c844cba190b49bcf4a5255a591b179fed1de6fc575b1d4c6ce2cf09",
+    "bytes": 18393
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/engineering_gate.json": {
+    "SHA256": "46a8bd573bd131307c2cc67130557c1fa99cd08d458eafedc1b44cfc7f9e5563",
+    "bytes": 150
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/final_audit.json": {
+    "SHA256": "9f111d95b9d8ede1326213145e2298865e29b9df03545effef9ea128b87589d6",
+    "bytes": 491
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/plan.json": {
+    "SHA256": "8f95b1a2baba945a7b3a59de7962daa2d51b4954845a41fb3471b37e69df3558",
+    "bytes": 3231
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/preflight.json": {
+    "SHA256": "5dd682e1141eab5154f297672b8e8a521f0e73b99a96ff44043f700212fa2392",
+    "bytes": 64258
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/protected_inputs.json": {
+    "SHA256": "9f0349618056e3d265a40f4d66604c8ccc7abd65109566a9206c624c6752e525",
+    "bytes": 58883
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/resources_initial.json": {
+    "SHA256": "9240ed8cf223c9c5ee6f887a2cb313d14899d6632be3afd0d953d3eda64440be",
+    "bytes": 367
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/supervisor_status.json": {
+    "SHA256": "39257afc0bfa3a34974a0bd70a3c90cf4bccd61330829bd6abb86b5cf8fd8a88",
+    "bytes": 12330
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/training_launch_once.json": {
+    "SHA256": "8ffe5e89d226693b76fd1177c42650644f5ad61f9a779d5979eca57d43e5185a",
+    "bytes": 129
+  },
+  "experiments/fourcastden_den_gpu_smoke_v4/worker_launch_once.json": {
+    "SHA256": "589f5c0a0ad303f575a24375cf6095293f46f953d20140eb1bb5d25c060cec5a",
+    "bytes": 114
+  },
+  "logs/den_gpu_smoke_v4_DEN_tests.log": {
+    "SHA256": "1244cfa7ac39d411eb5c5c0bdf27e4259e94174099d7f198d1bd7a8d4d1b24ef",
+    "bytes": 107
+  },
+  "logs/den_gpu_smoke_v4_GPU_supervisor.log": {
+    "SHA256": "b165fd00eff2d0daad3125ae9dd7d6fb2c7c493573de7895db6f3d55b92667c3",
+    "bytes": 47
+  },
+  "logs/den_gpu_smoke_v4_environment_tests.log": {
+    "SHA256": "908b8734e2f819fc6bcc9b092b1dae5cd67df74e7f66077b547c15c4eedc28fb",
+    "bytes": 111
+  },
+  "logs/den_gpu_smoke_v4_finalization.log": {
+    "SHA256": "9a797c60fa1f6c9bb6152f091a92baf219e5365df1cd747bc275b2ed146415aa",
+    "bytes": 1929
+  },
+  "logs/den_gpu_smoke_v4_import_tests.log": {
+    "SHA256": "91656216c0076c1bf27d9e7a2c208ee450eefb19fbe888d7021ccca191e77693",
+    "bytes": 98
+  },
+  "logs/den_gpu_smoke_v4_interface_tests.log": {
+    "SHA256": "12abb76b3dcb50cd3ccbc1bf41fcba8f43a0c9b9fa1e764d8b705dd876dbaf97",
+    "bytes": 106
+  },
+  "logs/den_gpu_smoke_v4_pipeline_tests.log": {
+    "SHA256": "f12e05c5f19ad53d115d7ef4b899d06db095b7774e4e6a521a635aa498bfd03c",
+    "bytes": 106
+  },
+  "logs/den_gpu_smoke_v4_readonly_audit.log": {
+    "SHA256": "94d886ba2fe54cb32ed7393b7160cb3a258ddf0bfdd663dcea81895e645f9b70",
+    "bytes": 55
+  },
+  "reports/FOURCASTDEN_DEN_GPU_SMOKE_V4.md": {
+    "SHA256": "94e0aa4952d5c36076a8112c625f204861b59035ff7645388b056004e9c0e018",
+    "bytes": 12475
+  },
+  "results/fourcastden_den_gpu_smoke_v4/01_actual_training_loss.png": {
+    "SHA256": "804f3ec5928aefe875e0ffa8fed60cb269342a121e90c34806e7bdc9a5b18bed",
+    "bytes": 68107
+  },
+  "results/fourcastden_den_gpu_smoke_v4/02_training_validation_separate_metrics.png": {
+    "SHA256": "18a85e980c06bda3911208c6f15e101615fec2e85428e38fb5d65f652d3f3b94",
+    "bytes": 82310
+  },
+  "results/fourcastden_den_gpu_smoke_v4/03_AI_persistence_by_layer.png": {
+    "SHA256": "e7ff521895f9ceaf2ff0d543e3d45560748d4134b54b2336254ff741989486d9",
+    "bytes": 120681
+  },
+  "results/fourcastden_den_gpu_smoke_v4/04_frozen_real_DEN_prediction.png": {
+    "SHA256": "a4ae8a526c8b88805a9de0d4684df0a04ae2d8b55077b7d9ca06b2d8f37b6ce3",
+    "bytes": 97472
+  },
+  "results/fourcastden_den_gpu_smoke_v4/05_GPU_resources.png": {
+    "SHA256": "81072b7f8d4211dd55c8eea0925be70787b63ca95eb36ffb69e313f8dbfb57f8",
+    "bytes": 95925
+  },
+  "results/fourcastden_den_gpu_smoke_v4/AI_validation_hourly.csv": {
+    "SHA256": "358ab48094fa7c8fa630febf55ec8978ee0df6d0907517f859b322eabceda412",
+    "bytes": 1463814
+  },
+  "results/fourcastden_den_gpu_smoke_v4/AI_validation_summary.csv": {
+    "SHA256": "f86f2ae388079ad595e9cc69f510213240826a67236a81b52d8c715c8f17d39f",
+    "bytes": 24276
+  },
+  "results/fourcastden_den_gpu_smoke_v4/AI_vs_Persistence.csv": {
+    "SHA256": "b05a1b943a5fd42e01eea17cafc9b66a9f7b7dd64d1d44f22bbe4ae408397323",
+    "bytes": 29436
+  },
+  "results/fourcastden_den_gpu_smoke_v4/Persistence_validation_summary.csv": {
+    "SHA256": "afda1ee8b5dbdff30ec1312571637f29b4baba79fd01f3c9afa03ffffdcb2eb4",
+    "bytes": 23086
+  },
+  "results/fourcastden_den_gpu_smoke_v4/independent_AI_all_layer_metrics.csv": {
+    "SHA256": "2fc8809e05e0c7ef334595e316fd9b9c662d9c709b51730a3d119e5d5402fcae",
+    "bytes": 3267
+  },
+  "results/fourcastden_den_gpu_smoke_v4/matched_positive_log_hourly.csv": {
+    "SHA256": "88f223f6a3e50b875d893cce0b9d10a8f31110e054dd9be092b56c6f8fa2e0fe",
+    "bytes": 11286
+  },
+  "results/fourcastden_den_gpu_smoke_v4/training_updates.csv": {
+    "SHA256": "55ba234d5e5e34aa7d430962763a04e9776e475889d20fbfc3db16e3cb3ec5b5",
+    "bytes": 2316
+  },
+  "scripts/build_den_engineering_v3.py": {
+    "SHA256": "e11f360ab84eebddfed9c5ba5c9093de346eab22fd33305dc022d705e6b84f2f",
+    "bytes": 7508
+  },
+  "scripts/finalize_den_engineering_v3.py": {
+    "SHA256": "76f9d74657f36eaae4670cb9a1f3cb87db4cfd9f995a589c759505ea4da3607d",
+    "bytes": 8333
+  },
+  "scripts/finalize_den_gpu_smoke_v4.py": {
+    "SHA256": "57abe950a1a15aba9d35e20ee7f524230eda4466d02993de1f91054f2ee2da3f",
+    "bytes": 8948
+  },
+  "scripts/launch_den_engineering_v3.py": {
+    "SHA256": "724239d6fade7c365305b0fe5d87dd124de9f984dc331f04bf7f76e4c38a1ac2",
+    "bytes": 5106
+  },
+  "scripts/launch_den_gpu_smoke_v4.py": {
+    "SHA256": "c75d8734f439480222d92733914a94844d073cae622766b2474250372707d28b",
+    "bytes": 4578
+  },
+  "scripts/persistence_den_engineering_v3.py": {
+    "SHA256": "32e53e940d562df9f3b5822095eaa7e19060f762eb3239b770462512e7525537",
+    "bytes": 2587
+  },
+  "scripts/prepare_den_engineering_v3.py": {
+    "SHA256": "e628a59e6599d0c8b86bb9fd7d322cdd67298f13d19ef11b968a7133e1c05046",
+    "bytes": 4241
+  },
+  "scripts/prepare_den_gpu_smoke_v4.py": {
+    "SHA256": "cb95ffea0d7185dfccce3c7f8841492efbccad2d4fb2120f26578f267e6e4878",
+    "bytes": 4838
+  },
+  "scripts/train_den_engineering_v3.py": {
+    "SHA256": "eac3c676d3d1ffa1e6399bf741b59c4179c45dc61824e8ab72cff704d8e54f1c",
+    "bytes": 7664
+  },
+  "scripts/train_den_gpu_smoke_v4.py": {
+    "SHA256": "f460aa04ad74cd0206c52a6e02e631903c5419caef840ab30595ca13016404c9",
+    "bytes": 10143
+  },
+  "src/runtime/gpu_environment.py": {
+    "SHA256": "f613dcc30cdaef68e3c66a4fcedc44c3c37fea94f1b3dfd4b236b11bd2b7b44e",
+    "bytes": 2163
+  },
+  "src/training/den_engineering.py": {
+    "SHA256": "437acf9871f7d13056958c8c90b580663625833a90e52dbd5fd17d8189660815",
+    "bytes": 6962
+  },
+  "tests/test_den_gpu_environment_v4.py": {
+    "SHA256": "39cd9fd9b3d3c9bc8fb56351c54726295a5fccd78a21558b97ff1bc33fe80eb4",
+    "bytes": 4047
+  }
+}

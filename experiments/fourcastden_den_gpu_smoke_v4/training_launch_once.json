@@ -1,0 +1,9 @@
+{
+  "training_tasks": 1,
+  "max_updates": 10,
+  "no_retry": true,
+  "visibility": {
+    "present": false,
+    "value": null
+  }
+}

@@ -1,6 +1,5 @@
 """CPU-only final evidence, physical plots and bounded failed-launch accounting."""
 import os
-os.environ['CUDA_VISIBLE_DEVICES']=''
 from pathlib import Path
 import sys,json,csv,time,resource,hashlib
 ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT/'src'),str(ROOT/'scripts')]

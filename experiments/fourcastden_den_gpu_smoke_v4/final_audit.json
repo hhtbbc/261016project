@@ -1,0 +1,15 @@
+{
+  "PASS": true,
+  "v3_data_and_statistics_unchanged": true,
+  "protected_input_files": 412,
+  "checkpoint_SHA_verified": true,
+  "independent_AI_metrics_PASS": true,
+  "independent_AI_metric_float32_serialization_rtol": 5e-06,
+  "persistence_recomputed_48_pairs_exact": true,
+  "same_validation_times_and_samples": true,
+  "nonpositive_predictions": 1316,
+  "nonfinite_predictions": 0,
+  "wall_s": 21.040586847811937,
+  "CPU_peak_RSS_MiB": 566.65234375,
+  "science_training_ready": false
+}

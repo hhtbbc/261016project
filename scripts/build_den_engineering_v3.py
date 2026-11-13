@@ -1,6 +1,5 @@
 """Author converter, train-only streaming statistics and real CPU contract audit."""
 import os
-os.environ['CUDA_VISIBLE_DEVICES']=''
 from pathlib import Path
 import sys,json,time,csv,resource
 from datetime import datetime,timedelta,timezone

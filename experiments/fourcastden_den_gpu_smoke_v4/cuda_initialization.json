@@ -1,0 +1,14 @@
+{
+  "PASS": true,
+  "visibility": {
+    "present": false,
+    "value": null
+  },
+  "torch": "2.4.1+cu121",
+  "CUDA": "12.1",
+  "visible_devices": 1,
+  "selected_logical_device": 0,
+  "GPU": "NVIDIA A100-SXM4-80GB",
+  "total_bytes": 85094825984,
+  "CuBLAS": ":4096:8"
+}

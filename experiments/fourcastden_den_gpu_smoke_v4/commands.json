@@ -1,0 +1,26 @@
+{
+  "commands": [
+    "source scripts/activate_orbit.sh",
+    "CUDA_VISIBLE_DEVICES=empty (only CPU test child) python -m unittest discover -s tests -p test_den_gpu_environment_v4.py",
+    "CUDA_VISIBLE_DEVICES=empty (only CPU test child) python -m unittest discover -s tests -p test_den_engineering_v3.py",
+    "CUDA_VISIBLE_DEVICES=empty (only CPU test child) python -m unittest discover -s tests -p test_training_pipeline.py",
+    "CUDA_VISIBLE_DEVICES=empty (only CPU test child) python -m unittest discover -s tests -p test_fourcastden_real_data_interface.py",
+    "CUDA_VISIBLE_DEVICES=empty (only CPU test child) python -m unittest discover -s tests -p test_den_import_isolation.py",
+    "python scripts/prepare_den_gpu_smoke_v4.py",
+    "python scripts/launch_den_gpu_smoke_v4.py (single successful GPU task,10 updates,62 forwards,no retry)",
+    "python scripts/finalize_den_gpu_smoke_v4.py"
+  ],
+  "logs": [
+    "logs/den_gpu_smoke_v4_DEN_tests.log",
+    "logs/den_gpu_smoke_v4_GPU_supervisor.log",
+    "logs/den_gpu_smoke_v4_environment_tests.log",
+    "logs/den_gpu_smoke_v4_finalization.log",
+    "logs/den_gpu_smoke_v4_import_tests.log",
+    "logs/den_gpu_smoke_v4_interface_tests.log",
+    "logs/den_gpu_smoke_v4_pipeline_tests.log",
+    "logs/den_gpu_smoke_v4_readonly_audit.log"
+  ],
+  "GPU_tasks": 1,
+  "updates": 10,
+  "no_retry": true
+}

@@ -103,10 +103,12 @@ def evaluate_fields(pred,truth,lat,zg):
             rows.append(dict(group=group,region=region,levels=' '.join(map(str,levels)),**density_metrics(pred[levels][:,mask],truth[levels][:,mask],lat[mask])))
     return rows
 
-def restore_den(trainer,path,expected_sha):
+def restore_den(trainer,path,expected_sha,*,trusted_root=None):
     """Restore only this task's SHA-verified locally generated v3 checkpoint."""
     import hashlib,random
-    path=Path(path).resolve();path.relative_to(F)
+    root=F if trusted_root is None else Path(trusted_root).resolve()
+    root.relative_to(ROOT/'experiments')
+    path=Path(path).resolve();path.relative_to(root)
     if path.suffix!='.pt' or hashlib.sha256(path.read_bytes()).hexdigest()!=expected_sha:
         raise ValueError('Untrusted/mismatched v3 checkpoint')
     payload=torch.load(path,map_location='cpu',weights_only=False)

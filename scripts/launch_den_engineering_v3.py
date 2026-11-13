@@ -42,7 +42,7 @@ if __name__=='__main__':
    assert stream_sha(ROOT/frame['path'])==frame['SHA256'];frozen[frame['path']]=frame['SHA256']
  dump(F/'GPU_preflight.json',dict(PASS=True,hardware=info,free_memory_MiB=int(mem.splitlines()[0]),other_GPU_processes=procs,frozen_SHA256=frozen,probe='capability only; no model or updates',single_training_launch=True))
  folder=F/'gpu_job';folder.mkdir();dump(F/'GPU_task_once.json',dict(launches=1,max_updates=10,no_retry=True,CuBLAS=':4096:8'))
- env=dict(os.environ,CUBLAS_WORKSPACE_CONFIG=':4096:8',CUDA_VISIBLE_DEVICES='0',OMP_NUM_THREADS='4',OPENBLAS_NUM_THREADS='4')
+ env=dict(os.environ,CUBLAS_WORKSPACE_CONFIG=':4096:8',OMP_NUM_THREADS='4',OPENBLAS_NUM_THREADS='4')
  status=supervise([sys.executable,str(ROOT/'scripts/train_den_engineering_v3.py')],folder,Limits(890,16*2**30,20*2**30,2*2**30,2*2**30,1.,3.,1,180.),env=env,sampler=sampler,total_dir=F)
  print('GPU supervised exit',status['returncode'],status['qualification'],status['elapsed_s'],flush=True)
  assert status['qualification']=='PASS' and status['returncode']==0 and status['elapsed_s']<=900 and generated_bytes()<2*2**30

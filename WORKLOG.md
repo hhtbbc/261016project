@@ -1000,3 +1000,20 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - Git仅提交本任务轻量代码、CSV/PNG、协议与审计；NPZ/NC、原始观测、权重、checkpoint、缓存与凭据不入库，无关同步日志保留。远端/本地提交核验见本轮最终同步记录。
 
 - Git实际结果：成果提交541a6d9b405bab0082572c37f98d218996920447；仅一次push因既有VS Code Git socket失效/远端认证失败退出128，未重试/强推。远端main独立读取仍6ba60c9d077a524189f1f6bab8b1b4cb8702912e。本地成果保留；本条同步失败记录另提交，原无关未跟踪日志保留。
+
+
+## 2026-11-13 CUDA污染修复与DEN首次真实GPU训练v4
+
+- 接续：本地/远端均1e9d0740c456add606449a1754847c97d2a1cabb；此前认证问题已解决，本轮不覆盖旧v3失败、数据或统计。以新fourcastden_den_gpu_smoke_v4执行唯一授权GPU任务。
+- 根因代码/原日志/旧SHA与patch核实：v3 worker先设CUDA0，再导入旧Persistence清空CUDA；上一轮已移main，本轮进一步去掉CPU构建/后处理/Persistence与旧worker/launcher的设备赋值。新gpu_environment显式配置CuBLAS并验证前后visibility，继承用户/调度分配，禁GPU或异常时拒绝，不重置0。
+- 实际37项CPU测试通过：11环境、9DEN、8pipeline、8真实接口、1import。246是历史保护文件数不是测试数；本轮412冻结资产包含原246及v3数据/统计/报告/失败身份，最终SHA不变。120对重新只读毒化/契约、122帧DEN正/ZG单调/往返与统计来源检查通过，无提取或拟合。
+- 同原AFNONet64,695,744参数/177输入/4条件/171头，仅DEN142:171监督；seed20261113、AdamW1e-4/weight_decay0、batch1、clip1、常数LR/FP32确定性。2021前10对更新、2022全48对no_grad验证。其他142头梯度0/参数精确不变；148梯度张量有限且非零。闲置norm.weight/bias无梯度由原作者forward未调用的源码证实，未改网络。
+- 唯一真实训练：监督器直接wait rc0/PASS、38.743094秒，worker35.954204秒。10optimizer hooks/10更新/62forward（训练10、固定训练对2、checkpoint探针2、验证48），无额外更新或重试。每步loss162.235962→15.630704（不同连续训练样本）；固定同训练对before162.235962→after14.358800；2022 normalized loss36.120926。
+- 第5步可信本地完整模型/AdamW/StepLR/RNG/config/代码与数据SHA保存及恢复，模型/optimizer/scheduler与GPU预测精确一致，随后只跑6—10。最终step10保存。每份776596618bytes，两份SHA见GPU_result；未上传权重。
+- 2022公平物理对照48对全部保留，Persistence逐层/区域与旧CSV复算一致。全29层AI相对RMS31.851231% vs1.992488%；upper20—28为38.221614% vs2.242242%；top28为37.463726% vs2.909416%。全部29层AI更差。AI全层RMSE4.638778e-8 vs3.474371e-9kg/m³，不能因低层主导解释成400km指标。
+- 3608064预测全部有限，1316非正，正值率99.963526%；普通指标保留所有预测，不裁剪/补值。log原条件域披露覆盖，另算AI正值共同子域下双方logRMS：全层0.3315203 vs0.0199782等。不是观测精度或泛化能力证明。
+- 更新平均0.156330秒/中位0.126887秒，forward GPU中位31.686ms；allocated峰值1.535GiB、reserved1.709GiB、进程GPU采样2.260GiB；CPU自身峰值2091.582MiB/监督采样1845.582MiB，监控缺口0。训练输出约1.46GiB<2GiB，GPU/900秒限额满足。独立后处理21.041秒/566.652MiB，原数据审计43.056秒，均CPU另计。
+- 新增GPU策略、prepare/worker/launcher/finalize、11环境回归；restore_den仅扩可信项目内实验root，旧pipeline行为不改。5张真实图及逐步/逐层/逐区指标，预注册2022第0对/ilev24展示，不挑样。GPU任务期间冻结代码不修改；后处理新增共域log审查，不改变损失/数据/普通误差。
+- 报告reports/FOURCASTDEN_DEN_GPU_SMOKE_V4.md；下一步docs/FOURCASTDEN_DEN_GPU_V4_NEXT_TRAINING_PLAN.md。工程真实更新/恢复/独立验证PASS；AI优于Persistence及物理正值FAIL；SCIENCE_TRAINING_READY=False、EXTERNAL_DATUM_UNVERIFIED、真实轨道BLOCKED、A14历史PARTIAL/旧v3FAIL均保持。
+- 命令与日志索引experiments/fourcastden_den_gpu_smoke_v4/commands.json。activate_orbit/.venv310，所有输出/缓存项目内。未TIE/新下载/轨道/训练数据重建/统计拟合/多步/额外GPU任务。只提出下轮100步固定样本过拟合300秒预算，不执行。
+- Git仅安全提交本任务轻量代码、协议、审计、CSV与5PNG；checkpoint/完整预测NPZ/raw日志不上传。原无关未跟踪同步记录保留，不强推。最终HEAD/远端核验另存本tag同步记录。

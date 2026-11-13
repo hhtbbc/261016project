@@ -1,7 +1,6 @@
 """One real B14 GPU task: at most10 updates, random original AFNONet171."""
 import os
 os.environ['CUBLAS_WORKSPACE_CONFIG']=':4096:8'
-os.environ['CUDA_VISIBLE_DEVICES']='0'
 from pathlib import Path
 import sys,json,time,gc,hashlib,resource
 ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT/'src'),str(ROOT/'scripts')]

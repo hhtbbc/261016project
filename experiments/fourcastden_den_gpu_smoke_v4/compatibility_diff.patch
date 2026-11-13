@@ -1,0 +1,78 @@
+diff --git a/scripts/build_den_engineering_v3.py b/scripts/build_den_engineering_v3.py
+index 0b11a81..c37e6cd 100644
+--- a/scripts/build_den_engineering_v3.py
++++ b/scripts/build_den_engineering_v3.py
+@@ -1,6 +1,5 @@
+ """Author converter, train-only streaming statistics and real CPU contract audit."""
+ import os
+-os.environ['CUDA_VISIBLE_DEVICES']=''
+ from pathlib import Path
+ import sys,json,time,csv,resource
+ from datetime import datetime,timedelta,timezone
+diff --git a/scripts/finalize_den_engineering_v3.py b/scripts/finalize_den_engineering_v3.py
+index c4e2b8f..95a1981 100644
+--- a/scripts/finalize_den_engineering_v3.py
++++ b/scripts/finalize_den_engineering_v3.py
+@@ -1,6 +1,5 @@
+ """CPU-only final evidence, physical plots and bounded failed-launch accounting."""
+ import os
+-os.environ['CUDA_VISIBLE_DEVICES']=''
+ from pathlib import Path
+ import sys,json,csv,time,resource,hashlib
+ ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT/'src'),str(ROOT/'scripts')]
+diff --git a/scripts/launch_den_engineering_v3.py b/scripts/launch_den_engineering_v3.py
+index 474837b..5b9a0dc 100644
+--- a/scripts/launch_den_engineering_v3.py
++++ b/scripts/launch_den_engineering_v3.py
+@@ -42,7 +42,7 @@ if __name__=='__main__':
+    assert stream_sha(ROOT/frame['path'])==frame['SHA256'];frozen[frame['path']]=frame['SHA256']
+  dump(F/'GPU_preflight.json',dict(PASS=True,hardware=info,free_memory_MiB=int(mem.splitlines()[0]),other_GPU_processes=procs,frozen_SHA256=frozen,probe='capability only; no model or updates',single_training_launch=True))
+  folder=F/'gpu_job';folder.mkdir();dump(F/'GPU_task_once.json',dict(launches=1,max_updates=10,no_retry=True,CuBLAS=':4096:8'))
+- env=dict(os.environ,CUBLAS_WORKSPACE_CONFIG=':4096:8',CUDA_VISIBLE_DEVICES='0',OMP_NUM_THREADS='4',OPENBLAS_NUM_THREADS='4')
++ env=dict(os.environ,CUBLAS_WORKSPACE_CONFIG=':4096:8',OMP_NUM_THREADS='4',OPENBLAS_NUM_THREADS='4')
+  status=supervise([sys.executable,str(ROOT/'scripts/train_den_engineering_v3.py')],folder,Limits(890,16*2**30,20*2**30,2*2**30,2*2**30,1.,3.,1,180.),env=env,sampler=sampler,total_dir=F)
+  print('GPU supervised exit',status['returncode'],status['qualification'],status['elapsed_s'],flush=True)
+  assert status['qualification']=='PASS' and status['returncode']==0 and status['elapsed_s']<=900 and generated_bytes()<2*2**30
+diff --git a/scripts/persistence_den_engineering_v3.py b/scripts/persistence_den_engineering_v3.py
+index 8446e8e..db18bf1 100644
+--- a/scripts/persistence_den_engineering_v3.py
++++ b/scripts/persistence_den_engineering_v3.py
+@@ -17,7 +17,6 @@ def aggregate(rows):
+   valid=[x['log_RMS'] for x in a if x['log_RMS'] is not None];r['log_RMS']=float(np.sqrt(np.mean(np.square(valid)))) if valid else None;r['log_valid_hours']=len(valid);r['max_abs']=max(x['max_abs'] for x in a);out.append(r)
+  return out
+ if __name__=='__main__':
+- os.environ['CUDA_VISIBLE_DEVICES']=''
+  start=time.perf_counter();assert json.loads((F/'cpu_data_audit.json').read_text())['PASS'];manifest=json.loads((F/'dataset_manifest.json').read_text())['frames'];lat=np.load(ROOT/'data/processed/static/lat.npy');allrows=[]
+  for year in ['2021','2022']:
+   rr=[];frames=manifest[year]
+diff --git a/scripts/train_den_engineering_v3.py b/scripts/train_den_engineering_v3.py
+index 95134d2..6ea642d 100644
+--- a/scripts/train_den_engineering_v3.py
++++ b/scripts/train_den_engineering_v3.py
+@@ -1,7 +1,6 @@
+ """One real B14 GPU task: at most10 updates, random original AFNONet171."""
+ import os
+ os.environ['CUBLAS_WORKSPACE_CONFIG']=':4096:8'
+-os.environ['CUDA_VISIBLE_DEVICES']='0'
+ from pathlib import Path
+ import sys,json,time,gc,hashlib,resource
+ ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT/'src'),str(ROOT/'scripts')]
+diff --git a/src/training/den_engineering.py b/src/training/den_engineering.py
+index e9e3961..1786de2 100644
+--- a/src/training/den_engineering.py
++++ b/src/training/den_engineering.py
+@@ -103,10 +103,12 @@ def evaluate_fields(pred,truth,lat,zg):
+             rows.append(dict(group=group,region=region,levels=' '.join(map(str,levels)),**density_metrics(pred[levels][:,mask],truth[levels][:,mask],lat[mask])))
+     return rows
+ 
+-def restore_den(trainer,path,expected_sha):
++def restore_den(trainer,path,expected_sha,*,trusted_root=None):
+     """Restore only this task's SHA-verified locally generated v3 checkpoint."""
+     import hashlib,random
+-    path=Path(path).resolve();path.relative_to(F)
++    root=F if trusted_root is None else Path(trusted_root).resolve()
++    root.relative_to(ROOT/'experiments')
++    path=Path(path).resolve();path.relative_to(root)
+     if path.suffix!='.pt' or hashlib.sha256(path.read_bytes()).hexdigest()!=expected_sha:
+         raise ValueError('Untrusted/mismatched v3 checkpoint')
+     payload=torch.load(path,map_location='cpu',weights_only=False)

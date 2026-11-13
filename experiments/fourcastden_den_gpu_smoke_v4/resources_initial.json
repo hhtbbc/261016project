@@ -1,0 +1,10 @@
+{
+  "CUDA_visibility": {
+    "present": false,
+    "value": null
+  },
+  "GPU_inventory": "index, uuid, name, memory.total [MiB], memory.free [MiB]\n0, GPU-1b5079d0-affa-980d-8bae-521a81ff9947, NVIDIA A100-SXM4-80GB, 81920 MiB, 81153 MiB\n",
+  "other_GPU_processes": "pid, used_gpu_memory [MiB]\n",
+  "free_disk_bytes": 1367552819200,
+  "available_CPU_affinity": 112
+}

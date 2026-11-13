@@ -319,3 +319,10 @@ credentials.json
 /experiments/fourcastden_den_engineering_v3/gpu_job/
 /experiments/fourcastden_den_engineering_v3/*_local.json
 !/logs/den_engineering_v3*.log
+
+# DEN v4 real GPU job: checkpoint/state arrays and raw worker logs stay local
+/experiments/fourcastden_den_gpu_smoke_v4/gpu_job/
+/experiments/fourcastden_den_gpu_smoke_v4/*_local.json
+/experiments/fourcastden_den_gpu_smoke_v4/*.pt
+/results/fourcastden_den_gpu_smoke_v4/*_local.npz
+!/logs/den_gpu_smoke_v4*.log
