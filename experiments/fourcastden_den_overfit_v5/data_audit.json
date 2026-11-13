@@ -1,0 +1,14 @@
+{
+  "PASS": true,
+  "train_pair_index": 0,
+  "training_samples": 1,
+  "train_year": 2021,
+  "validation_in_gradient": false,
+  "statistics_refitted": false,
+  "data_reextracted": false,
+  "source_SHA_verified": true,
+  "future_poison_PASS": true,
+  "max_DEN_relative_roundtrip_error": 9.597505816508674e-09,
+  "protected_files": 449,
+  "wall_s": 19.961186476051807
+}

@@ -1,0 +1,9 @@
+{
+  "PASS": true,
+  "training_tasks": 1,
+  "updates": 100,
+  "validation_passes": 1,
+  "validation_pairs": 48,
+  "supervised_wall_s": 59.2359457090497,
+  "science_training_ready": false
+}

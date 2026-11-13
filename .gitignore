@@ -326,3 +326,10 @@ credentials.json
 /experiments/fourcastden_den_gpu_smoke_v4/*.pt
 /results/fourcastden_den_gpu_smoke_v4/*_local.npz
 !/logs/den_gpu_smoke_v4*.log
+
+# DEN fixed-pair overfit v5: raw state arrays and full checkpoints local only
+/experiments/fourcastden_den_overfit_v5/gpu_job/
+/experiments/fourcastden_den_overfit_v5/*_local.json
+/experiments/fourcastden_den_overfit_v5/*.pt
+/results/fourcastden_den_overfit_v5/*_local.npz
+!/logs/den_overfit_v5*.log

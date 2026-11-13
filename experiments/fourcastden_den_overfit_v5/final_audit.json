@@ -1,0 +1,23 @@
+{
+  "PASS": true,
+  "actual_updates": 100,
+  "fixed_pair_only": true,
+  "fixed_check_steps": [
+    0,
+    10,
+    50,
+    100
+  ],
+  "initial_seed_hash_matches_v4": true,
+  "protected_files_verified": 449,
+  "old_data_statistics_v4_unchanged": true,
+  "final_checkpoint_SHA_verified": true,
+  "fixed_metrics_recomputed": true,
+  "normalized_loss_independently_recomputed": true,
+  "independent_validation_metrics": true,
+  "Persistence_recomputed48_pairs_matches_v3": true,
+  "one_final_validation_pass": true,
+  "wall_s": 22.83104543015361,
+  "CPU_peak_RSS_MiB": 604.78515625,
+  "science_training_ready": false
+}

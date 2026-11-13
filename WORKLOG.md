@@ -1017,3 +1017,20 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 报告reports/FOURCASTDEN_DEN_GPU_SMOKE_V4.md；下一步docs/FOURCASTDEN_DEN_GPU_V4_NEXT_TRAINING_PLAN.md。工程真实更新/恢复/独立验证PASS；AI优于Persistence及物理正值FAIL；SCIENCE_TRAINING_READY=False、EXTERNAL_DATUM_UNVERIFIED、真实轨道BLOCKED、A14历史PARTIAL/旧v3FAIL均保持。
 - 命令与日志索引experiments/fourcastden_den_gpu_smoke_v4/commands.json。activate_orbit/.venv310，所有输出/缓存项目内。未TIE/新下载/轨道/训练数据重建/统计拟合/多步/额外GPU任务。只提出下轮100步固定样本过拟合300秒预算，不执行。
 - Git仅安全提交本任务轻量代码、协议、审计、CSV与5PNG；checkpoint/完整预测NPZ/raw日志不上传。原无关未跟踪同步记录保留，不强推。最终HEAD/远端核验另存本tag同步记录。
+
+
+## 2026-11-13 AFNONet真实DEN固定单样本100步过拟合v5
+
+- 接续本地/远端ca09097700874650af716ff3675bc7c46094e2c1；只新fourcastden_den_overfit_v5，原v3数据/统计、v4记录和两checkpoint、官方模型/权重/static只读。无TIE、数据提取/统计重拟合、Swarm、轨道、多步。
+- 冻结2021 B14第一对03-23 00→01；CPU读一次/GPU拷一次固定tuple100次，input object身份100次核验、X/D/Y缓存最终SHA精确一致。原AFNONet64695744参数177/4/171仅DEN142:171，seed20261113、AdamW1e-4/weight_decay0、clip1、StepLR gamma1、batch1、FP32/确定性；不续v4，初始模型SHA与v4同种子完全相同。
+- 42项CPU通过（新增5策略/真样本，原环境11/DEN9/pipeline8/interface8/import1）；固定样本未来物理毒化、单位/形状/正值/ZG/往返及训练统计2021来源通过。449项历史资产最终SHA保持，含v4两完整checkpoint及v3冻结数据。未改变成熟训练器，只新实验编排/小型策略helpers。
+- 唯一GPU真实任务100optimizer hooks/100更新/153forward（训练100、0/10/50/100评价4、恢复1、最终验证48），监督直接wait rc0/PASS59.235946秒，worker56.319710秒。原CUDA继承/CuBLAS首次torch前配置，无外部GPU0硬编码、无重试/变参。
+- 固定样本检查点normalized loss162.235962/8.943881/0.455307/0.199936；全层relativeRMS59.678349/14.046070/3.153300/2.084117%，upper66.663092/15.767940/3.549186/2.384187%，top86.014904/20.193869/3.995043/3.043031%。Persistence固定相应1.673781/1.748587/2.372184%。非正3312/9/0/0，step50/100正值100%。只有level08胜Persistence（1.451635% vs1.513853%），其余28层保留。
+- loss整体下降99.876762%但99相邻变化29次上升，最后20条均值0.231769，存在小幅震荡；全部clip前梯度9.954618—294.416887>1，148张量有限非零、有效参数每步变化，其他142头梯度0/参数不变，闲置norm两个参数如旧报告。不能由有限梯度值直接称爆炸，也不能loss下降即充分过拟合。
+- 2022只在100步和checkpoint恢复后创建并一次48对no_grad验证，模型/optimizer/step不变。全层/upper/top相对RMS20.706686/25.205819/27.530085%，Persistence1.992488/2.242242/2.909416%；全部29层仍更差。3608064预测0非有限、18非正均顶层，正值99.999501%。普通误差全保留，无裁剪；log披露无效域并共同正值配对。相比历史v4数值较低但训练样本组织不同，无本轮2022中途曲线，不作纯90步因果或盲测声明。
+- 可信本地step100.pt完整模型/AdamW/StepLR/RNG/配置/代码数据SHA，776602314bytes，SHA e5183727e11c487b8f0c964dc5c80220f7e6a8448ecf60f3de5ef28165524eda；新模型恢复后状态/optimizer/scheduler及GPU171输出精确一致，未执行第101更新。不存中间全量checkpoint、不覆盖v4。
+- 纯更新12.364493秒、均值0.123645/中位0.120352秒；fixed评价7.682428秒、保存恢复5.730622秒、最终验证5.874228秒、保存数组1.372579秒；计时有包含关系不机械相加。allocated峰值1.521GiB/reserved1.715GiB/进程GPU采样2.265625GiB，CPU树2089.473MiB，无采样缺口；新GPU产物约0.752GiB、预算300秒/20GiB/8GiB/2GiB/余盘20GiB满足。
+- 独立CPU后处理22.831秒/604.785MiB，物理数组复算所有固定点及48对验证；用实际float32目标重算逐层normalized MSE一致，保存std/target比例解释归一化误差和相对误差并非同量。Persistence最终48对与v3逐值相同；未重跑网络评价。
+- 7主图+3细节图来自真实结果，原全量图保留，log尺度显露末段震荡/全层最终细节/ilev24最终共色标细节明确排除step0仅显示细节，未换样本。报告reports/FOURCASTDEN_DEN_OVERFIT_V5.md；下一步docs/FOURCASTDEN_DEN_OVERFIT_V5_NEXT_DECISION.md：先有界固定样本200步收敛对照，再72对200步/321forward对照，预算仅申请不执行，不同时换网络/loss。
+- 实际命令/日志在本tag commands.json；activate_orbit/.venv310，所有缓存/数据/文件项目内。工程100步/恢复/验证PASS，局部拟合改善明确但不设事后1%门槛；科学训练False/外部高度未验证/真实轨道BLOCKED/A14PARTIAL/旧v3FAIL不改。
+- 只提交轻量代码/协议/CSV/PNG/报告/审计，原NPZ/NC、完整预测/checkpoint和凭据不上传；保留无关未跟踪文件，安全核对远端与本地后同步，不强推。同步核验独立记入本tag。结束停止。

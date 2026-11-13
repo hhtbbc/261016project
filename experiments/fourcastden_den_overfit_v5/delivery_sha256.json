@@ -1,0 +1,238 @@
+{
+  "docs/FOURCASTDEN_DEN_OVERFIT_V5_NEXT_DECISION.md": {
+    "SHA256": "8b41930f76f8344b881ea7edbad47d3b6ec857db7b9608c5437abde99520fe2b",
+    "bytes": 4410
+  },
+  "experiments/fourcastden_den_overfit_v5/GPU_result.json": {
+    "SHA256": "98981c7f6201e042132a2c104ef16f18cb6d6b8157ffc2483a2f1499a7edcf61",
+    "bytes": 9159
+  },
+  "experiments/fourcastden_den_overfit_v5/checkpoint_restore.json": {
+    "SHA256": "254453d5d305a25431bbc241fffcecaa295dd432595b46182a2dfc1e859bb44e",
+    "bytes": 264
+  },
+  "experiments/fourcastden_den_overfit_v5/commands.json": {
+    "SHA256": "b70b19860fd5ee857ffc4a989b26545f41ec166ab9f6147b5f54748ba40e8d14",
+    "bytes": 1667
+  },
+  "experiments/fourcastden_den_overfit_v5/data_audit.json": {
+    "SHA256": "5f857d307783818509e2ad301301be4565a4fe8adc850f0aa4ae7e8d93a3d2da",
+    "bytes": 366
+  },
+  "experiments/fourcastden_den_overfit_v5/engineering_gate.json": {
+    "SHA256": "6466e822e0c350b2e928a3c1c79159b3ae0293fabc457d1328832e36756bceb9",
+    "bytes": 187
+  },
+  "experiments/fourcastden_den_overfit_v5/final_audit.json": {
+    "SHA256": "c77b8d67c06663ee1000fef3b8ce087c88bb3b1574783e0b819175c9eff33577",
+    "bytes": 613
+  },
+  "experiments/fourcastden_den_overfit_v5/fixed_step0.json": {
+    "SHA256": "d21a6428ecc34f447a3af2e2a5e851b9bab386502c66947c134c92506bc6fcbc",
+    "bytes": 1614
+  },
+  "experiments/fourcastden_den_overfit_v5/fixed_step10.json": {
+    "SHA256": "05b61ea8fcdbc8e945516886e6ff797bcc501a5c68fdfa37224343ccb173570b",
+    "bytes": 1615
+  },
+  "experiments/fourcastden_den_overfit_v5/fixed_step100.json": {
+    "SHA256": "184f00cc8bc5c5c51d2b585f973d16ffad2c66a78f344972146b57ccfbcb82b2",
+    "bytes": 1518
+  },
+  "experiments/fourcastden_den_overfit_v5/fixed_step50.json": {
+    "SHA256": "20e9ff3ae902f47e01ee9385643c0a52181cb337f5a8d260400bb75942f05b7b",
+    "bytes": 1516
+  },
+  "experiments/fourcastden_den_overfit_v5/learning_summary.json": {
+    "SHA256": "9f11f3bc67bb903c39127ce091a9226c31f6a76b918fb18ac02e9b269259e3a9",
+    "bytes": 620
+  },
+  "experiments/fourcastden_den_overfit_v5/plan.json": {
+    "SHA256": "136196ca6f9b631cde195f54d2879464c8d806c97d786ae58dcecc9165afb74f",
+    "bytes": 4820
+  },
+  "experiments/fourcastden_den_overfit_v5/preflight.json": {
+    "SHA256": "c791fb731f30fd56aaf6fe5a6982e877cefb72bb0d880add9a63a96d6c84b72c",
+    "bytes": 69553
+  },
+  "experiments/fourcastden_den_overfit_v5/protected_inputs.json": {
+    "SHA256": "50150e099e5bad40331b4a52e510574778c7d21df8e71fd8b8f60e8d9f7d61ce",
+    "bytes": 63900
+  },
+  "experiments/fourcastden_den_overfit_v5/resources_initial.json": {
+    "SHA256": "75f3794820c101f593dc60109276f7cb6d813d9e17057defedc172a051033101",
+    "bytes": 240
+  },
+  "experiments/fourcastden_den_overfit_v5/supervisor_status.json": {
+    "SHA256": "fa340b49188713787ac6024be52c56328ed5b0f1865f876991237e7c51f0fd53",
+    "bytes": 18685
+  },
+  "experiments/fourcastden_den_overfit_v5/training_launch_once.json": {
+    "SHA256": "5ea5533cfadfca46efc0e8e9436a92b9c6b3e3a9336cede81a9d7e2d1ce34b30",
+    "bytes": 67
+  },
+  "experiments/fourcastden_den_overfit_v5/worker_launch_once.json": {
+    "SHA256": "6afbe0f087d42ec3f66c3c3a5db7d1dd1668a7f7471f16472025065dadd6c066",
+    "bytes": 110
+  },
+  "logs/den_overfit_v5_DEN_tests.log": {
+    "SHA256": "1244cfa7ac39d411eb5c5c0bdf27e4259e94174099d7f198d1bd7a8d4d1b24ef",
+    "bytes": 107
+  },
+  "logs/den_overfit_v5_GPU_supervisor.log": {
+    "SHA256": "ff4fe4f8b15b05b7cbb722a66f17744829bf55878d159a19433784bc408f5e57",
+    "bytes": 44
+  },
+  "logs/den_overfit_v5_environment_tests.log": {
+    "SHA256": "f6ace97403af1e76f1c95f983149b919116596dabc9b7abfdd4310b9c258a2ea",
+    "bytes": 111
+  },
+  "logs/den_overfit_v5_figure_detail.log": {
+    "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "logs/den_overfit_v5_finalization.log": {
+    "SHA256": "a830bd2cca00e31886390422821fe98f90432d33314e0badcf97f89aae80c277",
+    "bytes": 7521
+  },
+  "logs/den_overfit_v5_import_tests.log": {
+    "SHA256": "3586b1f70b861403da87c2df3423aa9123d5a7cb456ece963ba59ab051431b1c",
+    "bytes": 98
+  },
+  "logs/den_overfit_v5_interface_tests.log": {
+    "SHA256": "12abb76b3dcb50cd3ccbc1bf41fcba8f43a0c9b9fa1e764d8b705dd876dbaf97",
+    "bytes": 106
+  },
+  "logs/den_overfit_v5_overfit_tests.log": {
+    "SHA256": "00712b72d37f3418406afda15288199a2fa97274c9e47b4f0b5c02370daa6801",
+    "bytes": 103
+  },
+  "logs/den_overfit_v5_pipeline_tests.log": {
+    "SHA256": "8afd58640640c4f7169976f696a9d2f3ff5dc4a74412dd542fe09f6c701cdf42",
+    "bytes": 106
+  },
+  "logs/den_overfit_v5_prepare.log": {
+    "SHA256": "3b5c39c570a643abad356452734139512b3c5be6b7580a0220f003d4cf71577f",
+    "bytes": 71
+  },
+  "logs/den_overfit_v5_report.log": {
+    "SHA256": "b49d00cba85d450a9381115c50331cbac459364c75cdcf74c0bb9637bba94cfe",
+    "bytes": 31
+  },
+  "reports/FOURCASTDEN_DEN_OVERFIT_V5.md": {
+    "SHA256": "90a7de9dc40ab0a1cd9e08aef2c7449a29c395daa2327e7488895fedf22d12d0",
+    "bytes": 12681
+  },
+  "results/fourcastden_den_overfit_v5/01_fixed_100_update_loss.png": {
+    "SHA256": "fa94c930687d0dbbbc226155566d1cde6473ed437ffcdb18b6b604d1b8ea00f5",
+    "bytes": 76211
+  },
+  "results/fourcastden_den_overfit_v5/01b_loss_log_scale.png": {
+    "SHA256": "3eab666bc9cfa617fe94dafbc9a98b06eac2c642aa398e61ebd2358b1423421f",
+    "bytes": 73067
+  },
+  "results/fourcastden_den_overfit_v5/02_fixed_physical_error_checkpoints.png": {
+    "SHA256": "c4e87a285991b45ad1367390326d55f5a5fb5f9bfddcd19f69e5b758972ba676",
+    "bytes": 87531
+  },
+  "results/fourcastden_den_overfit_v5/03_fixed_by_layer.png": {
+    "SHA256": "b1895377002df85bc74bbcc17f2a270ea75704b629360f1276261bebcf5051f2",
+    "bytes": 105362
+  },
+  "results/fourcastden_den_overfit_v5/03b_final_layer_detail.png": {
+    "SHA256": "c46540a24ef34a1c2c9ea5dbdc7e4d588f985e8932d6fc0e99d4e5eddd40a875",
+    "bytes": 112644
+  },
+  "results/fourcastden_den_overfit_v5/04_fixed_density_maps.png": {
+    "SHA256": "98e678409af9bd5ff00b2307903ad4d7997e1a23e8da8f772d56972a161bf6f4",
+    "bytes": 104832
+  },
+  "results/fourcastden_den_overfit_v5/04b_fixed_final_detail.png": {
+    "SHA256": "f060ee4deaf9984674e812b8a94ed1979b7cc730ef311089205b0e04e4f60b05",
+    "bytes": 126491
+  },
+  "results/fourcastden_den_overfit_v5/05_nonpositive_checkpoints.png": {
+    "SHA256": "f2201f3f3065b9952337de4435d8ee28f19cc1e7007e3345a23af99448ca0a5d",
+    "bytes": 79519
+  },
+  "results/fourcastden_den_overfit_v5/06_2022_final_validation.png": {
+    "SHA256": "49a24c5869507b70c25984dd0c7a564ce463872fd090529a80db298663561adb",
+    "bytes": 92403
+  },
+  "results/fourcastden_den_overfit_v5/07_resources_and_timing.png": {
+    "SHA256": "c3e30814357ebfc33b15529dad0088c80e2ac585a89ab1ac4c59f362cca579f8",
+    "bytes": 118547
+  },
+  "results/fourcastden_den_overfit_v5/Persistence_validation_summary.csv": {
+    "SHA256": "afda1ee8b5dbdff30ec1312571637f29b4baba79fd01f3c9afa03ffffdcb2eb4",
+    "bytes": 23086
+  },
+  "results/fourcastden_den_overfit_v5/fixed_AI_vs_Persistence.csv": {
+    "SHA256": "8470c6959f49da381e1715a1a40dde0fc5a1e5e6e64257f9ad62dabdda4b894b",
+    "bytes": 99821
+  },
+  "results/fourcastden_den_overfit_v5/fixed_Persistence.csv": {
+    "SHA256": "e7659696795ef9d85a3e3d0df63d54baa4d7d8ec4d3a76c3297aa9c40462d395",
+    "bytes": 27901
+  },
+  "results/fourcastden_den_overfit_v5/fixed_normalized_layer_audit.csv": {
+    "SHA256": "8031bc14cb32b947b917705e92bbf87ac62b09332445c823e6af5f8664575050",
+    "bytes": 9992
+  },
+  "results/fourcastden_den_overfit_v5/fixed_sample_metrics.csv": {
+    "SHA256": "09eac28602894938231d70063e4d3cd7b680c31fc5d0fcdd109f5d8c0e1e224e",
+    "bytes": 106118
+  },
+  "results/fourcastden_den_overfit_v5/independent_validation_metrics.csv": {
+    "SHA256": "f363dabe40a972b989d58de2a8f320ff8b9fdde3a93443d16951fe54de5a96dd",
+    "bytes": 3328
+  },
+  "results/fourcastden_den_overfit_v5/matched_positive_log.csv": {
+    "SHA256": "9b80da4eb068f50c867144b8745c15ac2a23b2f7b06f684b9105fa9855b1958f",
+    "bytes": 13538
+  },
+  "results/fourcastden_den_overfit_v5/training_updates.csv": {
+    "SHA256": "9119d28559e3fe705907509fbd96902ba32e9c93e6d48c38ab7fb062e6079bd7",
+    "bytes": 25437
+  },
+  "results/fourcastden_den_overfit_v5/validation_AI_vs_Persistence.csv": {
+    "SHA256": "db27917def5cc13ff18d825e63d95854a0631d3267b9218b245c34172679a87e",
+    "bytes": 24899
+  },
+  "results/fourcastden_den_overfit_v5/validation_hourly.csv": {
+    "SHA256": "6d633be7710cd0b2a14d7a186c85a0bbcabf0272811d6f8a1e3026041cbfc8b5",
+    "bytes": 1433775
+  },
+  "results/fourcastden_den_overfit_v5/validation_summary.csv": {
+    "SHA256": "2c6ec34816ccf18978bc3eefcfaf71849bda3c7dcaea507e230e53e24ece06f7",
+    "bytes": 23040
+  },
+  "scripts/detail_den_overfit_figures_v5.py": {
+    "SHA256": "0b0b73010edae75670da3b27e897edbb24e5218e5a9ac391c9d581b143afed52",
+    "bytes": 2555
+  },
+  "scripts/finalize_den_overfit_v5.py": {
+    "SHA256": "0d0d18af59f0d143bcf36bb2254687043b59e31996de2ba984168527c1d566d2",
+    "bytes": 12418
+  },
+  "scripts/launch_den_overfit_v5.py": {
+    "SHA256": "9a6d10540d966897a450e06985c41f3ac19b869f46f814cb6cf150f6a04ab0ec",
+    "bytes": 4619
+  },
+  "scripts/prepare_den_overfit_v5.py": {
+    "SHA256": "e1d4269fbe93a8ad39137b56f870949176ddbfb2ccb5f0d69d4e697ecb862fe7",
+    "bytes": 5169
+  },
+  "scripts/train_den_overfit_v5.py": {
+    "SHA256": "92c8faf054e029ddecb2570deea23c152db7a5bc2188884bae502a03aa5422fe",
+    "bytes": 11666
+  },
+  "src/training/den_overfit.py": {
+    "SHA256": "9a2fd1a327f723e60382236585a1143720e9812d0109d0a6ee281a36e206c921",
+    "bytes": 2063
+  },
+  "tests/test_den_overfit_v5.py": {
+    "SHA256": "362194893fb695a51342d8bbcdaf8b8a9316b3774f8e49fe13427d123ce2324d",
+    "bytes": 2636
+  }
+}
