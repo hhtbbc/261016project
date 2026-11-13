@@ -1,0 +1,19 @@
+{
+  "PASS": true,
+  "new_updates": 520,
+  "cumulative_updates": 720,
+  "actual_model_forwards": 642,
+  "protected_assets_verified": 638,
+  "old_assets_unchanged": true,
+  "checkpoint_SHA_verified": true,
+  "independent_physical_global_metrics_pairs": 120,
+  "all_layer_region_AI_metrics_recomputed": true,
+  "Persistence120_pairs_recomputed_exact": true,
+  "normalized_layer_loss_audit_PASS": true,
+  "source_model_mode_and_RNG_audit_PASS": true,
+  "config_max200_preserved": true,
+  "uninterrupted720_bitwise_equivalence": "NOT_TESTED",
+  "science_training_ready": false,
+  "CPU_postprocess_wall_s": 39.09524066373706,
+  "CPU_peak_RSS_MiB": 666.75
+}

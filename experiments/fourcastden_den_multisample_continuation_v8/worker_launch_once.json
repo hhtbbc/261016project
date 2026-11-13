@@ -1,0 +1,10 @@
+{
+  "GPU_tasks": 1,
+  "start_step": 200,
+  "max_additional_updates": 520,
+  "source_checkpoint": "experiments/fourcastden_den_multisample_v7/step200.pt",
+  "visibility": {
+    "present": false,
+    "value": null
+  }
+}

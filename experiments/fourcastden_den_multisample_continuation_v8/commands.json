@@ -1,0 +1,60 @@
+{
+  "source_commit": "d16e3edcafe21757ff1099e1590251898fecd203",
+  "commands": [
+    {
+      "command": "source scripts/activate_orbit.sh; CUDA_VISIBLE_DEVICES='' python -m unittest discover -s tests -p test_den_multisample_continuation_v8.py",
+      "log": "logs/den_multisample_v8_resume_tests.log"
+    },
+    {
+      "command": "source scripts/activate_orbit.sh; CUDA_VISIBLE_DEVICES='' python -m unittest discover -s tests -p test_den_multisample_v7.py",
+      "log": "logs/den_multisample_v8_multisample_tests.log"
+    },
+    {
+      "command": "source scripts/activate_orbit.sh; CUDA_VISIBLE_DEVICES='' python -m unittest discover -s tests -p test_den_continuation_v6.py",
+      "log": "logs/den_multisample_v8_continuation_tests.log"
+    },
+    {
+      "command": "source scripts/activate_orbit.sh; CUDA_VISIBLE_DEVICES='' python -m unittest discover -s tests -p test_den_overfit_v5.py",
+      "log": "logs/den_multisample_v8_overfit_tests.log"
+    },
+    {
+      "command": "source scripts/activate_orbit.sh; CUDA_VISIBLE_DEVICES='' python -m unittest discover -s tests -p test_den_gpu_environment_v4.py",
+      "log": "logs/den_multisample_v8_environment_tests.log"
+    },
+    {
+      "command": "source scripts/activate_orbit.sh; CUDA_VISIBLE_DEVICES='' python -m unittest discover -s tests -p test_den_engineering_v3.py",
+      "log": "logs/den_multisample_v8_DEN_tests.log"
+    },
+    {
+      "command": "source scripts/activate_orbit.sh; CUDA_VISIBLE_DEVICES='' python -m unittest discover -s tests -p test_training_pipeline.py",
+      "log": "logs/den_multisample_v8_pipeline_tests.log"
+    },
+    {
+      "command": "source scripts/activate_orbit.sh; CUDA_VISIBLE_DEVICES='' python -m unittest discover -s tests -p test_fourcastden_real_data_interface.py",
+      "log": "logs/den_multisample_v8_interface_tests.log"
+    },
+    {
+      "command": "source scripts/activate_orbit.sh; CUDA_VISIBLE_DEVICES='' python -m unittest discover -s tests -p test_den_import_isolation.py",
+      "log": "logs/den_multisample_v8_import_tests.log"
+    },
+    {
+      "command": "source scripts/activate_orbit.sh; CUDA_VISIBLE_DEVICES='' python scripts/prepare_den_multisample_v8.py",
+      "log": "logs/den_multisample_v8_prepare.log"
+    },
+    {
+      "command": "source scripts/activate_orbit.sh; python scripts/launch_den_multisample_v8.py",
+      "log": "logs/den_multisample_v8_GPU_supervisor.log"
+    },
+    {
+      "command": "source scripts/activate_orbit.sh; CUDA_VISIBLE_DEVICES='' python scripts/finalize_den_multisample_v8.py",
+      "log": "logs/den_multisample_v8_finalization.log"
+    }
+  ],
+  "CPU_tests": 65,
+  "actual_GPU_tasks": 1,
+  "actual_new_updates": 520,
+  "cumulative_updates": 720,
+  "actual_forwards": 642,
+  "no_retry": true,
+  "finalization_model_calls": 0
+}

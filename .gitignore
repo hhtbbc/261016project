@@ -347,3 +347,10 @@ credentials.json
 /experiments/fourcastden_den_multisample_v7/*.pt
 /results/fourcastden_den_multisample_v7/*_local.npz
 !/logs/den_multisample_v7*.log
+
+# DEN v8 continuation: checkpoint, physical arrays and raw GPU logs local only
+/experiments/fourcastden_den_multisample_continuation_v8/gpu_job/
+/experiments/fourcastden_den_multisample_continuation_v8/*_local.json
+/experiments/fourcastden_den_multisample_continuation_v8/*.pt
+/results/fourcastden_den_multisample_continuation_v8/*_local.npz
+!/logs/den_multisample_v8*.log

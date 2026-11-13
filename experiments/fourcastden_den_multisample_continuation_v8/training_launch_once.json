@@ -1,0 +1,7 @@
+{
+  "GPU_tasks": 1,
+  "start_step": 200,
+  "max_additional_updates": 520,
+  "model_forwards_budget": 642,
+  "no_retry": true
+}

@@ -1074,3 +1074,22 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - Git仅提交轻量代码/配置/报告/CSV/PNG/审计，原NetCDF-NPZ、预测数组/完整checkpoint、worker环境和凭据不上传；保留历史未跟踪文件，不强推，安全同步与最终HEAD核验独立记录于本tag。结束停止。
 
 - 交付扫描首个一次性工具在项目Python3.10误用了3.11才有的hashlib.file_digest，未生成交付manifest；改用既有streaming sha后重新完成扫描，8PNG/586旧SHA与公开文件检查通过。此为CPU交付工具兼容问题，无新增模型推理/训练重试。
+
+
+## 2026-11-13 AFNONet72对真实DEN累计720步训练长度接续v8
+
+- 起始main本地/远端d16e3edcafe21757ff1099e1590251898fecd203；读取AGENTS/STATUS/WORKLOG、v7主报告/决策/plan/GPU结果/恢复证据与v6接续协议，保留无关历史未跟踪日志。新tag fourcastden_den_multisample_continuation_v8，原作者模型/旧训练器/恢复/监督模块不改，新增独立policy、准备/训练/启动/CPU终结与8项测试。
+- 唯一可信源experiments/fourcastden_den_multisample_v7/step200.pt SHA82483f890db2d20ec00159ff0588217dd71d37889195ca5b77b1b3ac740e722f，可信本地SHA核实后检查tag/数据/统计/config/200/148 AdamW内部step200/scheduler/Python-NumPy-Torch-CUDA RNG/原model_training=False。模型SHA b8ced924...与v7一致，不从v6/官方/新随机参数训练；新网络仅作严格加载容器。
+- 原restore_den/checkpoint_summary/audited_restore严格校验不变，config max_train_steps200保留；ContinuationBudget(start200,additional520)在optimizer前后hook核对，累计720拒绝721。GPU初始探针eval/no_grad对同首对DEN与v7保存数组逐元素相同，最大abs差0；模型/optimizer/scheduler/RNG不变、新更新数0，之后显式train且逐次forward断言training=True，原train_step也自动train。未验证与step1无中断720逐位等价，不做该声明。
+- DEN v3原2021 B14 73帧/72对与2022 B14 49帧/48对只读，统计SHA df9a8c2b...与manifest c94f251b...不变；全122帧SHA/正DEN/严格递增ZG、120对X-D-Y SHA和未来物理真值毒化通过。638旧资产含v3-v7数据/统计/作者实现/权重/历史产物最终SHA不变。无提取/新统计/Swarm/TIE/轨道。
+- 65CPU测试通过：新增8项接续schedule从56开始/每对10次/config200不改/拒绝v6或错SHA/拒绝超预算与中间开发/642forward/探针无状态变化/eval切train实际train_step，57旧回归。CPU夹具不冒充真实模型恢复。
+- 冻结新520索引，201—216为56—71，217—720按累计index%72；与v7原200只读拼接完整720条，每对10次。原AFNONet64695744、177/4/171、DEN142:171 29层、FP32/AdamW1e-4 wd0/StepLRgamma1/clip1/cos纬度normalized MSE不变。所有输入仍当前真状态/合法未来辅助与驱动，HINDCAST，无未来物理状态输入，无142未监督输出反馈。
+- 唯一GPU任务真实新增520次至累计720；200步历史不重跑，642forward=恢复1+训练520+train72+dev48+最终恢复1。全程每步148有限非零梯度张量、有效head参数变；非DEN head行梯度0/参数精确不变，原闲置norm.weight/bias记录。clip前11.629607—16.521229，全520clip1，无异常/改参/重试/追加。
+- 最终720后train72与dev48各eval/no_grad一次，模型/AdamW/step/空梯度不变；2022不用于训练/统计/选checkpoint。训练全层/upper/toprelative RMS=2.276034/2.597529/3.485630%，P1.722953/1.793025/2.451758%；开发6.725325/8.435358/10.315506%，P1.992488/2.242242/2.909416%。较v7全层降低40.174961%/33.294283%，但训练0/72对胜P、两年均0/29层胜P，仍非预测优势。
+- 2021全部72对（1.892739—2.826061%）、2022全部48对（6.352296—7.150970%）和两年全部29层均较v7改善，非只挑时段；开发/训练差4.449291百分点，开发为P3.375倍，不能全归因过拟合/数据少。训练北/南高纬3.16998/3.36043%，开发6.81826/6.49682%；高层误差仍较大。两个年份分别5412096/3608064预测均正且有限，非正0、不裁剪不删点，ordinary/positive/log覆盖100%。
+- 10个完整72访问遍历均值10.034221/0.802052/0.509115/0.375271/0.312443/0.271111/0.239297/0.213519/0.192064/0.175885；第10次较第9次低8.423658%，72/72同pair访问下降，仍改善未证实平台。这些pre-update值对应不断变化的模型，不能代替统一checkpoint误差。最终train normalized loss0.233667（v7 .653466，降64.241967%）、dev1.469681（原3.359030）。
+- 最终只保存step720.pt=776768010bytes，SHA04a4d9fc45a35c375ac9d4c1528c3ecc23b33cddace68ba62d157bcc900afd1f；完整model/AdamW/scheduler/RNG/720/原config200/源SHA/独立预算/520记录与索引/数据代码SHA/资源快照。可信恢复完整171输出逐元素一致；原v7 checkpoint不覆盖。伴随包清单绑定最终监督/计划/恢复/合并历史与曝光证据SHA。
+- A100-SXM4-80GB/torch2.4.1+cu121；继承CUDA可见性，torch前CuBLAS4096:8与确定性/FP32保持。监督exit0/PASS131.596228秒，worker128.747013；新520纯更新61.846914秒（均0.118936/中位0.117721），训练循环73.859106；缓存2.882023、容器1.931383、初始严格恢复4.653986、train72评价5.999296、dev48评价5.976961、保存恢复7.328037、保存数组3.262770秒，分项有包含关系。allocated1.520779GiB/reserved1.708984GiB，进程GPU2.259766GiB/CPU树2.458340GiB，128采样/0缺口；worker产物约0.790223GiB，300秒/20GiB/8GiB/2GiB与余盘20GiB满足。
+- CPU后处理39.095241秒/666.75MiB：直接数组复算120全层指标、统一模块独立重算全部AI逐层/纬区指标、Persistence与v3全部匹配，normalized逐层损失反算通过，9真实PNG/完整720历史和逐层区域CSV。无额外模型forward。
+- 命令与日志索引本tag commands.json；source scripts/activate_orbit.sh/.venv310，全部文件/缓存项目内。报告reports/FOURCASTDEN_DEN_MULTISAMPLE_CONTINUATION_V8.md；决策docs/FOURCASTDEN_DEN_MULTISAMPLE_V8_NEXT_DECISION.md建议残差单因素对照，不因当前未胜P无限追加训练，直接DEN尚未平台。残差基于当前DEN+标准化增量，沿用仅2021统计、无正值保证，不与旧checkpoint兼容；严谨对照需冻结与v7/v8相同阶段边界，资源预算仅建议未执行。
+- 工程恢复/更新/最终评价/保存PASS，Persistence优势FAIL；SCIENCE_TRAINING_READY=False、EXTERNAL_DATUM_UNVERIFIED、真实轨道BLOCKED、A14历史PARTIAL与旧FAIL不改。只公开轻量代码/配置/审计/CSV/PNG/报告；原大数据、预测数组、完整checkpoint与凭据不上传。不强推、保留无关未跟踪成果，最终Git同步审计本地保存；任务完成停止。
