@@ -998,3 +998,5 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 命令、原异常、来源/统计/代码SHA、GPU退出与修复diff在experiments/fourcastden_den_engineering_v3；实际入口commands.json，日志logs/den_engineering_v3*.log。全部输出/缓存在项目内，.venv310 via activate_orbit.sh。
 - 门禁：DEN数据与CPU工程PASS，真实GPU预检FAIL_BEFORE_FIRST_FORWARD、AI验证NOT_RUN、GPU恢复NOT_TESTED。科学训练False、A14工程PARTIAL、外部高度未验证、真实轨道BLOCKED均不改。下轮先新tag同配置≤10步工程预检，之后再申请单样本过拟合；本轮停止，不启动后续。
 - Git仅提交本任务轻量代码、CSV/PNG、协议与审计；NPZ/NC、原始观测、权重、checkpoint、缓存与凭据不入库，无关同步日志保留。远端/本地提交核验见本轮最终同步记录。
+
+- Git实际结果：成果提交541a6d9b405bab0082572c37f98d218996920447；仅一次push因既有VS Code Git socket失效/远端认证失败退出128，未重试/强推。远端main独立读取仍6ba60c9d077a524189f1f6bab8b1b4cb8702912e。本地成果保留；本条同步失败记录另提交，原无关未跟踪日志保留。
