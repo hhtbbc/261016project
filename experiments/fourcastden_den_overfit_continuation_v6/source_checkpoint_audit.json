@@ -1,0 +1,138 @@
+{
+  "PASS": true,
+  "deserialized_CPU_only": true,
+  "source": {
+    "checkpoint_SHA256": "e5183727e11c487b8f0c964dc5c80220f7e6a8448ecf60f3de5ef28165524eda",
+    "step": 100,
+    "config": {
+      "label": "DEN_ONLY / ENGINEERING_RESEARCH / HINDCAST / LIMITED_PHYSICAL_VALIDATION",
+      "seed": 20261113,
+      "architecture": {
+        "img_size": [
+          36,
+          72
+        ],
+        "patch_size": 4,
+        "in_chans": 177,
+        "out_chans": 171,
+        "in_inds": 4,
+        "embed_dim": 768,
+        "depth": 12,
+        "num_blocks": 8,
+        "mlp_ratio": 4,
+        "drop_rate": 0.0
+      },
+      "optimizer": {
+        "name": "AdamW",
+        "lr": 0.0001,
+        "weight_decay": 0.0
+      },
+      "scheduler": {
+        "step_size": 1,
+        "gamma": 1.0
+      },
+      "gradient_clip_norm": 1.0,
+      "latitude_deg": [
+        -87.5,
+        -82.5,
+        -77.5,
+        -72.5,
+        -67.5,
+        -62.5,
+        -57.5,
+        -52.5,
+        -47.5,
+        -42.5,
+        -37.5,
+        -32.5,
+        -27.5,
+        -22.5,
+        -17.5,
+        -12.5,
+        -7.5,
+        -2.5,
+        2.5,
+        7.5,
+        12.5,
+        17.5,
+        22.5,
+        27.5,
+        32.5,
+        37.5,
+        42.5,
+        47.5,
+        52.5,
+        57.5,
+        62.5,
+        67.5,
+        72.5,
+        77.5,
+        82.5,
+        87.5
+      ],
+      "max_train_steps": 100,
+      "batch_size": 1,
+      "statistics_SHA256": "df9a8c2bd31026de0e0ebcae07c6d7a8ff1d56832486d93e11b70fd1bba46bf5",
+      "supervised_indices": [
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170
+      ],
+      "validation_pairs": 48,
+      "display_validation_pair": 0,
+      "no_official_weights": true,
+      "normalization": "v3_train2021_native_linear"
+    },
+    "model_SHA256": "7dfb2b5d04e871774eafdb3663fed8c080ff7954ca1178e0611a3a95db1119a4",
+    "optimizer_SHA256": "83356e0509cb715eafb25101c9c0f9a188e12f8a88e2402c926b3cafd46ac21e",
+    "scheduler_SHA256": "19426adc18e3beba86b425fbfbe92b8bb452051f4154ededafcdf6a18134aa2f",
+    "RNG": {
+      "python": "092e7e75060c22a24786d911fe52c044594393ae8645e7dc28f68557b69976da",
+      "numpy_keys": "9e74e4f874925480de36c9249f80792e1f613dc671e6a591b1dca0184d7c7c8a",
+      "numpy_metadata": [
+        "MT19937",
+        624,
+        0,
+        0.0
+      ],
+      "torch": "65476c0cc7904501e9c5b955088461bce4d04a628f5f4611af1110bd3bc3e1fd",
+      "cuda": [
+        "15d09e5bfa7bc828756fb446aacd56c4b08faa585974770abe99b15f43818799"
+      ]
+    },
+    "model_training": true,
+    "metadata_checks": {
+      "tag": "fourcastden_den_overfit_v5",
+      "statistics_SHA256": "df9a8c2bd31026de0e0ebcae07c6d7a8ff1d56832486d93e11b70fd1bba46bf5",
+      "manifest_SHA256": "c94f251b092422b45fd96f46ccf90a22e457fbe386e0cc424b997a9c552a787b",
+      "train_pair_index": 0
+    },
+    "optimizer_state_entries": 148
+  }
+}

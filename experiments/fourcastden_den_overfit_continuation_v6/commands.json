@@ -1,0 +1,33 @@
+{
+  "commands": [
+    "source scripts/activate_orbit.sh",
+    "CUDA_VISIBLE_DEVICES=empty (CPU test child only) python -m unittest discover -s tests -p test_den_continuation_v6.py",
+    "CUDA_VISIBLE_DEVICES=empty (CPU test child only) python -m unittest discover -s tests -p test_den_overfit_v5.py",
+    "CUDA_VISIBLE_DEVICES=empty (CPU test child only) python -m unittest discover -s tests -p test_den_gpu_environment_v4.py",
+    "CUDA_VISIBLE_DEVICES=empty (CPU test child only) python -m unittest discover -s tests -p test_den_engineering_v3.py",
+    "CUDA_VISIBLE_DEVICES=empty (CPU test child only) python -m unittest discover -s tests -p test_training_pipeline.py",
+    "CUDA_VISIBLE_DEVICES=empty (CPU test child only) python -m unittest discover -s tests -p test_fourcastden_real_data_interface.py",
+    "CUDA_VISIBLE_DEVICES=empty (CPU test child only) python -m unittest discover -s tests -p test_den_import_isolation.py",
+    "python scripts/prepare_den_continuation_v6.py",
+    "python scripts/launch_den_continuation_v6.py (ONE job;initial exact restore gate,100 new updates101-200,152 forward,final2022once)",
+    "python scripts/finalize_den_continuation_v6.py",
+    "python scripts/write_den_continuation_v6_report.py"
+  ],
+  "logs": [
+    "logs/den_continuation_v6_DEN_tests.log",
+    "logs/den_continuation_v6_GPU_supervisor.log",
+    "logs/den_continuation_v6_continuation_tests.log",
+    "logs/den_continuation_v6_environment_tests.log",
+    "logs/den_continuation_v6_finalization.log",
+    "logs/den_continuation_v6_import_tests.log",
+    "logs/den_continuation_v6_interface_tests.log",
+    "logs/den_continuation_v6_overfit_tests.log",
+    "logs/den_continuation_v6_pipeline_tests.log",
+    "logs/den_continuation_v6_prepare.log",
+    "logs/den_continuation_v6_report.log"
+  ],
+  "GPU_tasks": 1,
+  "additional_optimizer_updates": 100,
+  "cumulative_step": 200,
+  "no_retry": true
+}

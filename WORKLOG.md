@@ -1034,3 +1034,22 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 7主图+3细节图来自真实结果，原全量图保留，log尺度显露末段震荡/全层最终细节/ilev24最终共色标细节明确排除step0仅显示细节，未换样本。报告reports/FOURCASTDEN_DEN_OVERFIT_V5.md；下一步docs/FOURCASTDEN_DEN_OVERFIT_V5_NEXT_DECISION.md：先有界固定样本200步收敛对照，再72对200步/321forward对照，预算仅申请不执行，不同时换网络/loss。
 - 实际命令/日志在本tag commands.json；activate_orbit/.venv310，所有缓存/数据/文件项目内。工程100步/恢复/验证PASS，局部拟合改善明确但不设事后1%门槛；科学训练False/外部高度未验证/真实轨道BLOCKED/A14PARTIAL/旧v3FAIL不改。
 - 只提交轻量代码/协议/CSV/PNG/报告/审计，原NPZ/NC、完整预测/checkpoint和凭据不上传；保留无关未跟踪文件，安全核对远端与本地后同步，不强推。同步核验独立记入本tag。结束停止。
+
+
+## 2026-11-13 AFNONet固定真实DEN累计200步接续v6
+
+- 接续main本地/远端4d67a9d385f0df62fc279b80d180d960cdbeb9df；独立fourcastden_den_overfit_continuation_v6。v5step100.pt源SHA e5183727e11c487b8f0c964dc5c80220f7e6a8448ecf60f3de5ef28165524eda，原始路径/metadata身份/统计与manifest/pair0/config/step100、AdamW148组state各100通过。532项旧数据/统计/源码/官方资源/v4-v5 checkpoint和历史产物最终SHA不变。
+- 原restore_den与原config严格校验不改，保留max_train_steps100；新增独立ContinuationBudget在optimizer前后约束start100/new100/end200。48CPU测试通过（6新严格恢复/RNG/预算，原42回归）；CPU模拟夹具不是实际step100模型。
+- 源model SHA7dfb2b5d...精确恢复，AdamW/scheduler、Python/NumPy/Torch/CUDA RNG与模式精确一致。初始no_grad固定2021 03-23 00→01输入，DEN与v5保存数组逐元素相同、最大绝对差0、loss差0、三组各指标差0，新更新计数仍0才开门。原训练样本缓存100次对象身份/前后X-D-Y SHA一致。无重新随机权重训练、无额外样本。
+- 同原AFNONet64695744/177-4-171仅DEN142:171、AdamW1e-4/weight_decay0/StepLRgamma1/clip1/FP32/确定性，CUDA可见性继承。一次GPU任务实际累计101—200/新100步、原AdamW内部计数逐步一致；152forward=训练100+固定100/150/200三次+最终恢复1+验证48，无重试/改参/续超过200。
+- 固定100/150/200 normalized loss0.199936286/0.155578896/0.091136366；全29层relativeRMS2.084117/1.859141/1.419518%，upper2.384187/2.078698/1.547587%，top3.043031/2.767925/2.048351%。固定Persistence1.673781/1.748587/2.372184%，三个聚合胜P，但只有28/29单层胜P，level24为1.595718% vs1.592990%。全部29层相对100有改善，三新物理点均0非正/100%正值。
+- 后100normalized loss降54.417296%、全层relativeRMS降31.888771%；44/99次相邻loss上升，末20均值0.111417808（历史0.231769），存在震荡但检查点仍降，未证明不可降低平台。clip前梯度7.914377—16.264854，全100clip生效；148张量有限非零，每步有效参数变，非DEN头梯度0/头参数精确不变，闲置norm如历史保留。不能以震荡推断lr错误或梯度爆炸。
+- 只在累计200及恢复后创建2022验证，48对no_grad一次，模型/optimizer/step不变。全层relativeRMS20.706686→19.711886%，upper25.205819→23.897766%，top27.530085→26.411914%，仍全部29层差于P1.992488/2.242242/2.909416%。3608064预测0非有限、13非正均顶层，正值99.999640%；普通误差不删/裁剪，log披露有效域与共同正值配对。2022旧开发验证不称新盲测。
+- 只保存step200.pt=776610058bytes，SHA3ec6eaeed7427924fbcae2b5ae50c12554da0a41ff7a37d103e6a46a4bd7e80f；完整模型/AdamW/scheduler/RNG/config/源SHA/独立预算/数据代码SHA，累计200且config仍100。新模型恢复所有状态与GPU171输出精确一致，未执行201，v5源不覆盖。
+- 实际监督exit0/PASS65.083723秒、worker62.230206秒；纯100新更新12.246442秒，均值0.122464/中位0.119643；初始恢复6.447578、固定评价6.436304、最终保存恢复8.222694、验证5.909815、保存数组1.356527秒（计时有包含关系）。allocated峰值1.520GiB/reserved1.709GiB，进程GPU采样2.259766GiB，CPU树2162.277MiB/自身2168.926MiB，无采样缺口；新增约0.752GiB<2GiB，300秒/20GiB/8GiB/余盘20GiB满足。
+- 独立CPU后处理24.368秒/606.773MiB，复算新100/150/200全部物理与normalized指标、48对验证直接数组求和、Persistence与旧CSV逐值一致；历史0—100只读引用、不重跑其模型、不重算旧指标。7实际图完整拼接/来源区分、保留level24/震荡/2022劣势，未补造中间物理时点。
+- 主报告reports/FOURCASTDEN_DEN_CONTINUATION_V6.md；下一轮docs/FOURCASTDEN_DEN_CONTINUATION_V6_NEXT_PLAN.md：同seed从随机初始化72对固定顺序200更新，前56对3次/余16对2次，最终72训练+48验证+恢复探针计321forward，预算300秒/20GiB/8GiB/2GiB仅候选。保持现网络loss、不同参数化另单因素，当前不执行。
+- 所有文件/缓存项目内、activate_orbit/.venv310；命令与日志索引本tag commands.json。无新TIE/数据提取/统计拟合/Swarm/轨道/多步/超参搜索。工程恢复/新100更新/最终验证PASS，科学训练False/外部高度未验证/真实轨道BLOCKED/A14PARTIAL/旧v3FAIL不改。
+- Git仅轻量代码/协议/审计/CSV/PNG/报告，checkpoint/原NPZ-NC/完整预测/环境凭据不入库。保留无关未跟踪文件，安全核对远端同步、不强推，最终本地/远端SHA记录本tag。结束停止。
+
+- 最终checkpoint包以checkpoint_bundle_manifest.json将step200.pt SHA与100条JSONL/CSV更新、计划/preflight/恢复证据SHA绑定；逐步记录作为伴随文件，不重复嵌入pickle，原权重和已验证状态不作事后修改。

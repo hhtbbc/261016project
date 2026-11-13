@@ -1,0 +1,18 @@
+{
+  "PASS": true,
+  "additional_updates": 100,
+  "cumulative_step200": true,
+  "config_max100_preserved": true,
+  "source_restore_gate_PASS": true,
+  "new_fixed_physical_and_normalized_metrics_recomputed": true,
+  "historical0_100_not_rerun": true,
+  "old_v5_validation_readonly": true,
+  "independent_validation_metrics_PASS": true,
+  "Persistence48_pairs_recomputed_exact": true,
+  "final_checkpoint_SHA_verified": true,
+  "protected_assets_verified": 532,
+  "old_assets_unchanged": true,
+  "wall_s": 24.367972407490015,
+  "CPU_peak_RSS_MiB": 606.7734375,
+  "science_training_ready": false
+}

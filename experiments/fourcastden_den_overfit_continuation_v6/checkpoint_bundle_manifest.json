@@ -1,0 +1,39 @@
+{
+  "checkpoint": {
+    "path": "experiments/fourcastden_den_overfit_continuation_v6/step200.pt",
+    "SHA256": "3ec6eaeed7427924fbcae2b5ae50c12554da0a41ff7a37d103e6a46a4bd7e80f"
+  },
+  "source_checkpoint_SHA256": "e5183727e11c487b8f0c964dc5c80220f7e6a8448ecf60f3de5ef28165524eda",
+  "cumulative_step": 200,
+  "new_updates": 100,
+  "original_config_max_steps": 100,
+  "statistics_SHA256": "df9a8c2bd31026de0e0ebcae07c6d7a8ff1d56832486d93e11b70fd1bba46bf5",
+  "data_manifest_SHA256": "c94f251b092422b45fd96f46ccf90a22e457fbe386e0cc424b997a9c552a787b",
+  "updates_storage": "companion100-row logs, SHA-bound to checkpoint; not duplicated inside pickle",
+  "files": {
+    "experiments/fourcastden_den_overfit_continuation_v6/plan.json": {
+      "SHA256": "0fdcb78bca30880717f26771b12162c55b3baa42fda4c9c575d603f14c46cff1",
+      "bytes": 8762
+    },
+    "experiments/fourcastden_den_overfit_continuation_v6/preflight.json": {
+      "SHA256": "a9867802bba42937848f2c708d98ceba007724e20d5d25c1263b6f32b3036b22",
+      "bytes": 76649
+    },
+    "experiments/fourcastden_den_overfit_continuation_v6/updates.jsonl": {
+      "SHA256": "dfd20a88c7bc373fadc09241c16a6697f141c0fe0e8e1226d535871bdcedf46b",
+      "bytes": 62064
+    },
+    "results/fourcastden_den_overfit_continuation_v6/training_updates.csv": {
+      "SHA256": "3b30424b21d4a6a4edf9ce840234f622d86534d011b8e767e7fb91591e95c9ac",
+      "bytes": 23880
+    },
+    "experiments/fourcastden_den_overfit_continuation_v6/initial_restore_gate.json": {
+      "SHA256": "0221119863b3f7acb295e76a6ca5384e251fd828dc086d5bcd395fd6ef16f7e0",
+      "bytes": 3940
+    },
+    "experiments/fourcastden_den_overfit_continuation_v6/final_checkpoint_restore.json": {
+      "SHA256": "8badea6f830425b6a07b9d7cca130b887b959fdac71af29e2c89a1e5b834eced",
+      "bytes": 3372
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "PASS": true,
+  "GPU_tasks": 1,
+  "start_step": 100,
+  "additional_updates": 100,
+  "end_step": 200,
+  "validation_passes": 1,
+  "supervised_wall_s": 65.08372309431434,
+  "science_training_ready": false
+}

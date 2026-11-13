@@ -333,3 +333,10 @@ credentials.json
 /experiments/fourcastden_den_overfit_v5/*.pt
 /results/fourcastden_den_overfit_v5/*_local.npz
 !/logs/den_overfit_v5*.log
+
+# DEN v6 continuation: full checkpoints, raw arrays and worker logs local only
+/experiments/fourcastden_den_overfit_continuation_v6/gpu_job/
+/experiments/fourcastden_den_overfit_continuation_v6/*_local.json
+/experiments/fourcastden_den_overfit_continuation_v6/*.pt
+/results/fourcastden_den_overfit_continuation_v6/*_local.npz
+!/logs/den_continuation_v6*.log
