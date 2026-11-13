@@ -1,0 +1,18 @@
+{
+  "figures": [
+    "450km_7vs14_timeseries.png",
+    "multivariable_acceptance.png",
+    "swarm_four_schemes_timeseries.png",
+    "swarm_error_metrics.png",
+    "coordinate_map_sensitivity.png",
+    "joint_year_internal_sensitivity.png",
+    "internal_vs_external.png",
+    "pressure_vs_geometric_height.png",
+    "height_coverage.png"
+  ],
+  "wall_s": 2.9135060347616673,
+  "peak_RSS_MiB": 139.40625,
+  "A14_engineering": "PARTIAL",
+  "B14_engineering": "PASS",
+  "science_training_ready": false
+}

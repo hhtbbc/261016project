@@ -1,0 +1,11 @@
+{
+  "returncode": 0,
+  "stop_reason": null,
+  "model_launches": 1,
+  "normal_exit_count": 4,
+  "elapsed_s": 2429.787853844464,
+  "peak_sampled_tree_rss_bytes": 989720576,
+  "netcdf_bytes": 3371589248,
+  "wait_source": "direct subprocess.Popen.wait",
+  "raw_supervisor_status_SHA256": "b6606040da4b567e5a06915dcdb5216fd795366080d4571229f5787605a20a73"
+}

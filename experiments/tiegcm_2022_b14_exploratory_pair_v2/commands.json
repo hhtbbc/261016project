@@ -1,0 +1,15 @@
+{
+  "commands": [
+    "source scripts/activate_tiegcm.sh",
+    "python scripts/run_tiegcm_2022_b14_v2.py prepare",
+    "python scripts/run_tiegcm_2022_b14_v2.py mpi-test",
+    "python scripts/run_tiegcm_2022_b14_v2.py execute",
+    "python scripts/finish_tiegcm_2022_b14_v2.py",
+    "source scripts/activate_orbit.sh",
+    "python scripts/finalize_tiegcm_2022_b14_v2.py",
+    "python scripts/verify_tiegcm_2022_b14_v2.py"
+  ],
+  "warning": "Launch commands are single-use and reject existing identities. Do not replay on this tag. Analysis commands run only after direct-wait B14 engineering PASS.",
+  "old_B14_launcher_never_called": true,
+  "A14_reruns": 0
+}

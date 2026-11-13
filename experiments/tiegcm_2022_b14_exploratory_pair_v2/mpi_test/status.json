@@ -1,0 +1,145 @@
+{
+  "exit_kind": "NORMAL",
+  "returncode": 0,
+  "signal": null,
+  "qualification": "PASS",
+  "stop_reason": null,
+  "elapsed_s": 0.6228439323604107,
+  "identity": {
+    "pid": 1828559,
+    "start_ticks": 1763916829,
+    "uid": 0,
+    "pgid": 1828559,
+    "sid": 1828559
+  },
+  "wait_source": "direct subprocess.Popen.wait",
+  "peak_sampled_tree_rss_bytes": 66797568,
+  "samples": [
+    {
+      "wall_s": 0.05935744196176529,
+      "rss_bytes": 9342976,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 747,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1374103273472,
+      "total_output_bytes": 86945,
+      "log_size": 0
+    },
+    {
+      "wall_s": 0.1148582436144352,
+      "rss_bytes": 66797568,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 1216,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1374102224896,
+      "total_output_bytes": 87414,
+      "log_size": 244
+    },
+    {
+      "wall_s": 0.17050175741314888,
+      "rss_bytes": 66797568,
+      "races": 1,
+      "issue": null,
+      "output_bytes": 1446,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1374102224896,
+      "total_output_bytes": 87644,
+      "log_size": 244
+    },
+    {
+      "wall_s": 0.22600709274411201,
+      "rss_bytes": 66797568,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 1676,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1374102224896,
+      "total_output_bytes": 87874,
+      "log_size": 244
+    },
+    {
+      "wall_s": 0.2815134786069393,
+      "rss_bytes": 66797568,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 1906,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1374102224896,
+      "total_output_bytes": 88104,
+      "log_size": 244
+    },
+    {
+      "wall_s": 0.3369845040142536,
+      "rss_bytes": 66797568,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 2134,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1374102224896,
+      "total_output_bytes": 88332,
+      "log_size": 244
+    },
+    {
+      "wall_s": 0.39241743087768555,
+      "rss_bytes": 66797568,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 2364,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1374102224896,
+      "total_output_bytes": 88562,
+      "log_size": 244
+    },
+    {
+      "wall_s": 0.44788217544555664,
+      "rss_bytes": 66797568,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 2594,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1374102224896,
+      "total_output_bytes": 88792,
+      "log_size": 244
+    },
+    {
+      "wall_s": 0.5032432489097118,
+      "rss_bytes": 66797568,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 2824,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1374102224896,
+      "total_output_bytes": 89022,
+      "log_size": 244
+    },
+    {
+      "wall_s": 0.558673694729805,
+      "rss_bytes": 66797568,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 3053,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1374102224896,
+      "total_output_bytes": 89251,
+      "log_size": 244
+    },
+    {
+      "wall_s": 0.6139249205589294,
+      "rss_bytes": 0,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 3281,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1374103273472,
+      "total_output_bytes": 89479,
+      "log_size": 244
+    }
+  ],
+  "gaps": [],
+  "cleanup_verified": true,
+  "children_cpu_user_s": 0.08938499999999999,
+  "children_cpu_system_s": 0.07219199999999999,
+  "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+}

@@ -1,0 +1,56 @@
+{
+  "version": "tiegcm_2022_b14_exploratory_pair_v2",
+  "user_authorization": "Current task explicitly selects exploratory protocol B and authorizes exactly one smax B14 continuous run after all gates; no A14 rerun",
+  "A14": {
+    "path": "experiments/tiegcm_2022_spinup_14day_v1/A14",
+    "data_integrity": "PASS",
+    "historical_engineering": "PARTIAL",
+    "launcher_exit": "UNKNOWN",
+    "limited_offline_analysis": true
+  },
+  "B14": {
+    "path": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14",
+    "new_continuous_run": true,
+    "max_launches": 1,
+    "no_retry": true,
+    "direct_parent_wait": true,
+    "engineering_independent": true
+  },
+  "conclusion_limits": [
+    "Not a v1 complete engineering PASS",
+    "Never promote A14 engineering",
+    "Internal agreement is not observational accuracy",
+    "No automatic scientific training qualification"
+  ],
+  "year": 2022,
+  "start_UTC": "2022-03-09T00:00:00Z",
+  "stop_UTC": "2022-03-25T00:00:00Z",
+  "candidate_UTC": [
+    "2022-03-23T00:00:00Z",
+    "2022-03-25T00:00:00Z"
+  ],
+  "steps": 23040,
+  "step_seconds": 60,
+  "MPI": 4,
+  "OMP": 1,
+  "primary_records": 17,
+  "secondary_records": 384,
+  "primary_volumes": 17,
+  "secondary_volumes": 16,
+  "wall_limit_s": 4800,
+  "supervisor_stop_deadline_s": 4770,
+  "cleanup_and_final_check_reserve_s": 30,
+  "rss_limit_bytes": 17179869184,
+  "B14_output_limit_bytes": 5368709120,
+  "combined_output_limit_bytes": 12884901888,
+  "existing_A14_bytes": 3371687933,
+  "new_protocol_remaining_output_limit_bytes": 9513213955,
+  "volume_limit_bytes": 268435456,
+  "disk_floor_bytes": 21474836480,
+  "estimated_wall_s": 2468.918900171622,
+  "estimated_safety_wall_s": 3703.3783502574333,
+  "estimated_NetCDF_bytes": 3371587712,
+  "cpu_affinity_count": 112,
+  "free_disk_bytes": 1374103273472,
+  "available_memory_bytes": 1959148273664
+}

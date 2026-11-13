@@ -1,0 +1,8 @@
+{
+  "PASS": true,
+  "returncode": 0,
+  "source": "direct subprocess.Popen.wait",
+  "wall_s": 2429.787853844464,
+  "A14_engineering": "PARTIAL",
+  "v1_pair_engineering": "NOT_PASS"
+}

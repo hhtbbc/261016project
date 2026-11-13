@@ -1,0 +1,20 @@
+{
+  "model_wallclock_begin": [
+    "11/12/26  09:21:42",
+    "11/12/26  09:21:42",
+    "11/12/26  09:21:42",
+    "11/12/26  09:21:42"
+  ],
+  "model_wallclock_end": [
+    "11/12/26  10:02:11",
+    "11/12/26  10:02:11",
+    "11/12/26  10:02:11",
+    "11/12/26  10:02:11"
+  ],
+  "environment_timezone": "Etc/UTC",
+  "filesystem_mtime_disagrees_with_model_clock": true,
+  "reason_not_independently_proven": "possible differing host/filesystem timebase; do not infer exact cause",
+  "supervision_budget_clock": "monotonic, not file mtime",
+  "protocol_freeze_order_evidence": "read/check frozen protocol and input hashes before direct Popen; source and launched event",
+  "collection_date_UTC": "2026-11-13T01:05:49.410057+00:00"
+}

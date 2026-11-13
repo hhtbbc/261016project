@@ -1,0 +1,57 @@
+{
+  "original_direct_parent": 1828714,
+  "members": [
+    {
+      "pid": 1828769,
+      "start_ticks": 1763919720,
+      "uid": 0,
+      "pgid": 1828769,
+      "sid": 1828769,
+      "comm": "prterun",
+      "state": "S",
+      "rss_bytes": 15216640
+    },
+    {
+      "pid": 1828772,
+      "start_ticks": 1763919726,
+      "uid": 0,
+      "pgid": 1828772,
+      "sid": 1828769,
+      "comm": "tiegcm2.0",
+      "state": "R",
+      "rss_bytes": 259543040
+    },
+    {
+      "pid": 1828773,
+      "start_ticks": 1763919727,
+      "uid": 0,
+      "pgid": 1828773,
+      "sid": 1828769,
+      "comm": "tiegcm2.0",
+      "state": "R",
+      "rss_bytes": 236003328
+    },
+    {
+      "pid": 1828774,
+      "start_ticks": 1763919727,
+      "uid": 0,
+      "pgid": 1828774,
+      "sid": 1828769,
+      "comm": "tiegcm2.0",
+      "state": "R",
+      "rss_bytes": 236515328
+    },
+    {
+      "pid": 1828775,
+      "start_ticks": 1763919727,
+      "uid": 0,
+      "pgid": 1828775,
+      "sid": 1828769,
+      "comm": "tiegcm2.0",
+      "state": "R",
+      "rss_bytes": 237416448
+    }
+  ],
+  "rss_bytes": 984694784,
+  "sampling_issue": null
+}

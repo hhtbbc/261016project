@@ -1,0 +1,35 @@
+{
+  "PASS": true,
+  "real_TIEGCM_steps": 0,
+  "ranks": [
+    {
+      "rank": 1,
+      "pid": 1828563,
+      "sid": 1828559,
+      "pgid": 1828563
+    },
+    {
+      "rank": 0,
+      "pid": 1828562,
+      "sid": 1828559,
+      "pgid": 1828562
+    },
+    {
+      "rank": 2,
+      "pid": 1828564,
+      "sid": 1828559,
+      "pgid": 1828564
+    },
+    {
+      "rank": 3,
+      "pid": 1828565,
+      "sid": 1828559,
+      "pgid": 1828565
+    }
+  ],
+  "returncode": 0,
+  "wait_source": "direct subprocess.Popen.wait",
+  "elapsed_s": 0.6228439323604107,
+  "cleanup_verified": true,
+  "supervisor_SHA256": "a4eaa514590ac30e2bd5ee581630272ad637fdcf378ddf2446742a0a1508a1b7"
+}

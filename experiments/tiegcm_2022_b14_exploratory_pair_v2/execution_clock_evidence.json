@@ -1,0 +1,20 @@
+{
+  "launch_marker_filesystem_mtime_UTC": "2026-11-12T09:23:07.134676+00:00",
+  "kernel_start_ticks": 1763919720,
+  "clock_ticks_per_second": 100,
+  "UTC_estimate_from_kernel_start_and_current_clock": "2026-11-12T09:21:42.149512+00:00",
+  "UTC_estimate_is_derived_not_original_logged_wallclock": true,
+  "current_monotonic": 17639641.501027983,
+  "launch_event": {
+    "wall_s": 0.0035690031945705414,
+    "event": "launched",
+    "identity": {
+      "pid": 1828769,
+      "start_ticks": 1763919720,
+      "uid": 0,
+      "pgid": 1828769,
+      "sid": 1828769
+    },
+    "direct_parent": 1828714
+  }
+}

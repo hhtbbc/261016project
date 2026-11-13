@@ -304,3 +304,12 @@ credentials.json
 /results/tiegcm_supervision_repair_v1/tests_local/
 /experiments/tiegcm_supervision_repair_v1/*_local.json
 !/logs/tiegcm_supervision_repair_v1*.log
+
+# Exploratory B14 v2: native model fields and pointwise observational copies local only
+/experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/input.inp
+/experiments/tiegcm_2022_b14_exploratory_pair_v2/*_local.json
+/results/tiegcm_2022_b14_exploratory_pair_v2/**/*_local.csv
+/results/tiegcm_2022_b14_exploratory_pair_v2/**/*_local.npz
+/results/tiegcm_2022_b14_exploratory_pair_v2/*_local.npz
+!/logs/tiegcm_2022_b14_v2_mpi_test.log
+/results/tiegcm_2022_b14_exploratory_pair_v2/figure_draft_local/
