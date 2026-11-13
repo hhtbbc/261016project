@@ -1,0 +1,7 @@
+{
+  "reason": "Solar-flux unit string is exact SI definition of sfu, not literal sfu",
+  "original_NPZ_written": 0,
+  "GPU_launches": 0,
+  "fix": "Explicitly validate 1.e-22 W/m2/Hz; retain identical numeric values",
+  "empty_directory_preserved": true
+}

@@ -1,0 +1,48 @@
+{
+  "exit_kind": "NONZERO",
+  "returncode": 1,
+  "signal": null,
+  "qualification": "FAIL",
+  "stop_reason": null,
+  "elapsed_s": 2.9279594756662846,
+  "identity": {
+    "pid": 1886808,
+    "start_ticks": 1769808461,
+    "uid": 0,
+    "pgid": 1886808,
+    "sid": 1886808
+  },
+  "wait_source": "direct subprocess.Popen.wait",
+  "peak_sampled_tree_rss_bytes": 472109056,
+  "samples": [
+    {
+      "wall_s": 1.029257394373417,
+      "rss_bytes": 377159680,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 3742948,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1369179160576,
+      "total_output_bytes": 183408,
+      "log_size": 0,
+      "GPU_process_bytes": 0
+    },
+    {
+      "wall_s": 2.054461643099785,
+      "rss_bytes": 472109056,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 3743204,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1369179160576,
+      "total_output_bytes": 183664,
+      "log_size": 0,
+      "GPU_process_bytes": 0
+    }
+  ],
+  "gaps": [],
+  "cleanup_verified": true,
+  "children_cpu_user_s": 2.373001,
+  "children_cpu_system_s": 0.8705280000000001,
+  "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+}

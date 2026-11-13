@@ -1,0 +1,13 @@
+test_2023_training_validation_guard_unchanged (test_fourcastden_real_data_interface.ReadOnlyTests) ... ok
+test_every_training_year_and_validation_year (test_fourcastden_real_data_interface.ReadOnlyTests) ... ok
+test_future_state_poison_changes_target_only (test_fourcastden_real_data_interface.ReadOnlyTests) ... ok
+test_gap_duplicate_cross_year_reject (test_fourcastden_real_data_interface.ReadOnlyTests) ... ok
+test_nan_and_wrong_channel_reject (test_fourcastden_real_data_interface.ReadOnlyTests) ... ok
+test_nonUTC_and_naive_reject (test_fourcastden_real_data_interface.ReadOnlyTests) ... ok
+test_real_year_allowed_only_diagnostic_and_no_tensors_returned (test_fourcastden_real_data_interface.ReadOnlyTests) ... ok
+test_split_boundary_reject (test_fourcastden_real_data_interface.ReadOnlyTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.092s
+
+OK

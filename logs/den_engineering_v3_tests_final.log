@@ -1,0 +1,14 @@
+test_actual_dataset_contract_and_year_separation (test_den_engineering_v3.DenTests) ... ok
+test_den_slice (test_den_engineering_v3.DenTests) ... ok
+test_loss_only_den_and_real_gradient (test_den_engineering_v3.DenTests) ... ok
+test_physical_metrics_and_negative_prediction_retained (test_den_engineering_v3.DenTests) ... ok
+test_statistics_fit_only_training_hashes (test_den_engineering_v3.DenTests) ... ok
+test_tiny_and_zero_variance_policy (test_den_engineering_v3.DenTests) ... ok
+test_v3_checkpoint_restore_not_synthetic_label (test_den_engineering_v3.DenTests) ... ok
+test_validation_no_gradient_or_update (test_den_engineering_v3.DenTests) ... ok
+test_zero_target_rejected (test_den_engineering_v3.DenTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.504s
+
+OK

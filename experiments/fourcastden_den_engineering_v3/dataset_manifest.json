@@ -1,0 +1,1109 @@
+{
+  "label": "DEN_ONLY / ENGINEERING_RESEARCH / HINDCAST / LIMITED_PHYSICAL_VALIDATION",
+  "frames": {
+    "2021": [
+      {
+        "UTC": "2021-03-23T00:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_000000.npz",
+        "SHA256": "0ad3dc5219cd595bef3e7cbbb6a728763c77462bb9dfa2b3aeccd59ae3112036",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_014.nc",
+        "source_SHA256": "2a6b0bcb869a34c2a4392d8b34ed87871a88ea46968297f2b2ec6a3bdf1149d9",
+        "record": 23,
+        "bytes": 2057876
+      },
+      {
+        "UTC": "2021-03-23T01:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_010000.npz",
+        "SHA256": "7dce48b6ab8bc3537544ef3473f8a127fbad67e42ce7e1cb88d1e263656c0e73",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 0,
+        "bytes": 2059378
+      },
+      {
+        "UTC": "2021-03-23T02:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_020000.npz",
+        "SHA256": "f5e72702de62b1ab3ee93e901c908d64f7837abbe8c1d28306d1963a44c496e1",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 1,
+        "bytes": 2062476
+      },
+      {
+        "UTC": "2021-03-23T03:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_030000.npz",
+        "SHA256": "72ea7d9ee1accbe950fe70ad7a7453e07bec6f2ed6d93dc8a2771b4221606ca4",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 2,
+        "bytes": 2064219
+      },
+      {
+        "UTC": "2021-03-23T04:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_040000.npz",
+        "SHA256": "ec7a50e0a887bb7880c31070f7401bd6e6fe2dd9df3e513790b6eb673de2a9d9",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 3,
+        "bytes": 2065041
+      },
+      {
+        "UTC": "2021-03-23T05:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_050000.npz",
+        "SHA256": "c6d5aef843e47df66641b99b5f840c5897f468aaef62c75b77bf50539228cf61",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 4,
+        "bytes": 2065378
+      },
+      {
+        "UTC": "2021-03-23T06:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_060000.npz",
+        "SHA256": "d9c3d819a85f107d9dcfb8710ea9f1bafddf3efe739ce57754ccca3c63a00361",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 5,
+        "bytes": 2064634
+      },
+      {
+        "UTC": "2021-03-23T07:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_070000.npz",
+        "SHA256": "fe60b3024d7310a4cbf167a3409210f2817c3d1489b78f39ada88a650a75ea9a",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 6,
+        "bytes": 2063228
+      },
+      {
+        "UTC": "2021-03-23T08:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_080000.npz",
+        "SHA256": "30ccb4750a6ee4f5c07eb067225f116916339882d17e7ddc80e0bd514be69c5f",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 7,
+        "bytes": 2060992
+      },
+      {
+        "UTC": "2021-03-23T09:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_090000.npz",
+        "SHA256": "cbd1d6bbefbbfc943f133caceb18b9ab8d46ddca8c6e78b20b8414fafbaa6e1f",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 8,
+        "bytes": 2059432
+      },
+      {
+        "UTC": "2021-03-23T10:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_100000.npz",
+        "SHA256": "6bafffd3ae9cbfde387f0aa52a1a8ddff69e1294a16a0eeb797d3ce4e6306e8e",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 9,
+        "bytes": 2058726
+      },
+      {
+        "UTC": "2021-03-23T11:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_110000.npz",
+        "SHA256": "3eaa2977ed339ceb7e08c63cf370ca939270ca297fb551e25a002a79d8d81a7d",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 10,
+        "bytes": 2058223
+      },
+      {
+        "UTC": "2021-03-23T12:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_120000.npz",
+        "SHA256": "cb54dca102c6312d73e9c2519d0a36e05e897064e4a16bf143eb3d09bbca02ed",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 11,
+        "bytes": 2057891
+      },
+      {
+        "UTC": "2021-03-23T13:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_130000.npz",
+        "SHA256": "4a56dfe896f91383588f96fd566dcfc691f9d0a5509434fa81fb684f9884c33d",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 12,
+        "bytes": 2057616
+      },
+      {
+        "UTC": "2021-03-23T14:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_140000.npz",
+        "SHA256": "211fc099d9563cb144fc42259ea34cdafa299c444d75faf210c31093ec6ccf8f",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 13,
+        "bytes": 2058023
+      },
+      {
+        "UTC": "2021-03-23T15:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_150000.npz",
+        "SHA256": "f28e3fb7d246aaf22ef6ace716e1adbe12783d9fc2e47e90cfe4af1acc3ae1a0",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 14,
+        "bytes": 2058433
+      },
+      {
+        "UTC": "2021-03-23T16:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_160000.npz",
+        "SHA256": "b7c0178bd52c30b0fba15022d0d94c4adf35565e7b1934f34ee92f4b08bcea3b",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 15,
+        "bytes": 2058858
+      },
+      {
+        "UTC": "2021-03-23T17:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_170000.npz",
+        "SHA256": "3d2613d74e4f04181f0b3c84db69fffc3600ea157abd459d1ad71f155deb680e",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 16,
+        "bytes": 2058821
+      },
+      {
+        "UTC": "2021-03-23T18:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_180000.npz",
+        "SHA256": "d92384cef2c42f97f6ef74b18a8e5e2dfec7f15022f514bb1e455e401162a9a8",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 17,
+        "bytes": 2058735
+      },
+      {
+        "UTC": "2021-03-23T19:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_190000.npz",
+        "SHA256": "d1c9756c710bbd3788ac1d5376bb6c506641ff819929275a951093e09e28365e",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 18,
+        "bytes": 2058227
+      },
+      {
+        "UTC": "2021-03-23T20:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_200000.npz",
+        "SHA256": "3515802b9a70615554ab948992b0e0fba36866cccc0dee5f21d97384ac970378",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 19,
+        "bytes": 2057849
+      },
+      {
+        "UTC": "2021-03-23T21:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_210000.npz",
+        "SHA256": "e53d91f6f076a432a2cc02f6481527cd92001befb609a3db106882b820a685d9",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 20,
+        "bytes": 2057822
+      },
+      {
+        "UTC": "2021-03-23T22:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_220000.npz",
+        "SHA256": "ac52945fc42679bd852aeafdc96b6f4068ea53da23d8fb5a55c0e0c0621c4a0f",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 21,
+        "bytes": 2058775
+      },
+      {
+        "UTC": "2021-03-23T23:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_23_230000.npz",
+        "SHA256": "20b88a0149e08956bdab5faeb8a46b6cb64fdad1af6fcb2f75e6d70fa5284c93",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 22,
+        "bytes": 2059657
+      },
+      {
+        "UTC": "2021-03-24T00:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_000000.npz",
+        "SHA256": "1cabafa109d8564681006141db9a1e6cd8213529a65e05fb38f2b2dc648d3c85",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+        "source_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "record": 23,
+        "bytes": 2060350
+      },
+      {
+        "UTC": "2021-03-24T01:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_010000.npz",
+        "SHA256": "4e7d807365225291dd1b817556447d3d644f3413acd6feb4022d3de7199ef984",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 0,
+        "bytes": 2061721
+      },
+      {
+        "UTC": "2021-03-24T02:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_020000.npz",
+        "SHA256": "37e3783b87067f243ac10bacee60afe616f1d88677de36056f310bdac68fe6e7",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 1,
+        "bytes": 2062552
+      },
+      {
+        "UTC": "2021-03-24T03:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_030000.npz",
+        "SHA256": "0ce20036a2f6d1e69d36c5a0121a0b709df85a48ea0eee4c9b060e88e6d7e71c",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 2,
+        "bytes": 2063008
+      },
+      {
+        "UTC": "2021-03-24T04:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_040000.npz",
+        "SHA256": "baee44dc2313029b093c3a0db135595b29fda534e89ef11ec14a3a0ba2c54cc1",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 3,
+        "bytes": 2062256
+      },
+      {
+        "UTC": "2021-03-24T05:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_050000.npz",
+        "SHA256": "a0a62d2e79eb0c9f1b5be9ac972ac1e274a52e9b1f49e331cb1ebb203baf9c59",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 4,
+        "bytes": 2061749
+      },
+      {
+        "UTC": "2021-03-24T06:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_060000.npz",
+        "SHA256": "db4fff6f48f0115be60740ee46840190277a2d254d6c038abc9c621149a0c9ea",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 5,
+        "bytes": 2060594
+      },
+      {
+        "UTC": "2021-03-24T07:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_070000.npz",
+        "SHA256": "94410760a7813762dc0e18cdcb989f858a466110556656b0e93c1a99ee58d28b",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 6,
+        "bytes": 2060277
+      },
+      {
+        "UTC": "2021-03-24T08:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_080000.npz",
+        "SHA256": "d7ce7f885d74598a2d3b3dec1632604d263e3805a938a0924b5eb35300dd243f",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 7,
+        "bytes": 2060142
+      },
+      {
+        "UTC": "2021-03-24T09:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_090000.npz",
+        "SHA256": "f912d8b091ba5c8bb05df0d7c5234f5eb28f9d41c1c90d171a9a163c1fe8ad17",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 8,
+        "bytes": 2059729
+      },
+      {
+        "UTC": "2021-03-24T10:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_100000.npz",
+        "SHA256": "cf986ee01e2953d36b0bf6fc21ff92cc0febb3780a932cbf0318c526a94fef88",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 9,
+        "bytes": 2059140
+      },
+      {
+        "UTC": "2021-03-24T11:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_110000.npz",
+        "SHA256": "baa4226903aed6b1b88dc3262c5188690bd971827856a820e321a5a398bd7e9a",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 10,
+        "bytes": 2058668
+      },
+      {
+        "UTC": "2021-03-24T12:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_120000.npz",
+        "SHA256": "4142120f23b80f139410e169e231056682dbe4e1c33523fdbc9c8d701422abee",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 11,
+        "bytes": 2057820
+      },
+      {
+        "UTC": "2021-03-24T13:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_130000.npz",
+        "SHA256": "75fefbc8f3d894bcbedcca7908827748d1fe7e245d30d31bfce55b2e5d3c17cc",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 12,
+        "bytes": 2057483
+      },
+      {
+        "UTC": "2021-03-24T14:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_140000.npz",
+        "SHA256": "2fa5e5dffdd398cff57ff9a07eac93023651a7177315fa8e1ee74a8dc6746dc0",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 13,
+        "bytes": 2057825
+      },
+      {
+        "UTC": "2021-03-24T15:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_150000.npz",
+        "SHA256": "ca0ccd8173c38d95244fbc06eb157631c6da52aa8c30dbe8119fc8be1293ade2",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 14,
+        "bytes": 2057933
+      },
+      {
+        "UTC": "2021-03-24T16:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_160000.npz",
+        "SHA256": "1074805d65828110cf4d43eb3965e9a29bd0d1441008fc5435cd9da25d70593f",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 15,
+        "bytes": 2057547
+      },
+      {
+        "UTC": "2021-03-24T17:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_170000.npz",
+        "SHA256": "6862acd96cc6180aee86574757db144a31b848b6e0aa0da72d099513d131a1df",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 16,
+        "bytes": 2057385
+      },
+      {
+        "UTC": "2021-03-24T18:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_180000.npz",
+        "SHA256": "eb21319be5eb10cc8adc13777a53873e7a7ea69912f20fd84d2a32726ebb580d",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 17,
+        "bytes": 2057271
+      },
+      {
+        "UTC": "2021-03-24T19:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_190000.npz",
+        "SHA256": "6071a3ddeb52549e54e095372a03cf47c627d391a759b48a25559d21b45fe5ab",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 18,
+        "bytes": 2057126
+      },
+      {
+        "UTC": "2021-03-24T20:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_200000.npz",
+        "SHA256": "700eb91ac28027ce08df4528d73f6bb40628754a57fa1f5091832e660de162bd",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 19,
+        "bytes": 2056942
+      },
+      {
+        "UTC": "2021-03-24T21:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_210000.npz",
+        "SHA256": "9592964eb939b28e80657939f347a994d8f34999be3857b8ee61842f0469f2a6",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 20,
+        "bytes": 2058217
+      },
+      {
+        "UTC": "2021-03-24T22:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_220000.npz",
+        "SHA256": "c3b93e6d699e252608c2cc1b5906a978b4aa23270638b173aec7c167e01ba8fc",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 21,
+        "bytes": 2059790
+      },
+      {
+        "UTC": "2021-03-24T23:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_24_230000.npz",
+        "SHA256": "dba5a058696f4daa9d56e845bd3ccdcc52ef9da79148edb91c02e7fb9cd53fd1",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 22,
+        "bytes": 2061638
+      },
+      {
+        "UTC": "2021-03-25T00:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_000000.npz",
+        "SHA256": "e4b5414fbe5ab135fd8b552c6f4184d3da782fe556fd50ce4aa972a0e03232a5",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_016.nc",
+        "source_SHA256": "be8682c7c46a3cc88625f85bceb4ae7af6393abf2ee4b4d3ecf3469275cce415",
+        "record": 23,
+        "bytes": 2064543
+      },
+      {
+        "UTC": "2021-03-25T01:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_010000.npz",
+        "SHA256": "60898f69d1b40e8d5666c76dd75c51ef062c83ba23f4e6375f3ea19314caec7e",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 0,
+        "bytes": 2068519
+      },
+      {
+        "UTC": "2021-03-25T02:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_020000.npz",
+        "SHA256": "4b21a8ed843b6294c7ee828e7c19b836370bdf40139e842d5f576d19419d2367",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 1,
+        "bytes": 2070857
+      },
+      {
+        "UTC": "2021-03-25T03:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_030000.npz",
+        "SHA256": "aa57d49f65e059ed2d407e90304e0ca67cf0ad9e4e1e08b8d25e4d1b3da8bc83",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 2,
+        "bytes": 2071952
+      },
+      {
+        "UTC": "2021-03-25T04:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_040000.npz",
+        "SHA256": "3576f7c5420140fc355fea5d3fcd699b4adc87ff4d2b49c2e0140083c026e29d",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 3,
+        "bytes": 2071906
+      },
+      {
+        "UTC": "2021-03-25T05:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_050000.npz",
+        "SHA256": "63b89d90da7bcf6af7045b8a254a612cc8d74c711c617738327c56bd0ff3e7ec",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 4,
+        "bytes": 2070110
+      },
+      {
+        "UTC": "2021-03-25T06:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_060000.npz",
+        "SHA256": "14a3edd9987e75b3a3adfe801aff3666f439c56d7b833e551fbaaceeea499f8b",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 5,
+        "bytes": 2067019
+      },
+      {
+        "UTC": "2021-03-25T07:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_070000.npz",
+        "SHA256": "3dfd496133d39be21d2fae328ad639b0d5a9bd0c5ef310d3f8248580fd9eb223",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 6,
+        "bytes": 2065455
+      },
+      {
+        "UTC": "2021-03-25T08:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_080000.npz",
+        "SHA256": "6da23ede1e14658ceb728a71fda8db63cc770dd2368d0b1377cb1995e61bfc2c",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 7,
+        "bytes": 2064323
+      },
+      {
+        "UTC": "2021-03-25T09:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_090000.npz",
+        "SHA256": "3b4ebeed4d51119b35571b4956c56146fc05404c046d2ca80d9b1145a5c7c312",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 8,
+        "bytes": 2063630
+      },
+      {
+        "UTC": "2021-03-25T10:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_100000.npz",
+        "SHA256": "85789cb36ea1337f9f5b8cda5aa176e88cdd1b217078371ea3cd1c9ad830ef4f",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 9,
+        "bytes": 2063105
+      },
+      {
+        "UTC": "2021-03-25T11:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_110000.npz",
+        "SHA256": "1ee67503695fc9ebf45e21e062f2e4bc6e789f4bd7b16953cc1b21c9d854a42c",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 10,
+        "bytes": 2061770
+      },
+      {
+        "UTC": "2021-03-25T12:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_120000.npz",
+        "SHA256": "c09e6f81ed493c47594ef6d968fddb85a86b33cd7fe447245b9f4efb3a80916d",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 11,
+        "bytes": 2060381
+      },
+      {
+        "UTC": "2021-03-25T13:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_130000.npz",
+        "SHA256": "a8fcde5fe53d923d20ce2858b6bad1753fb8fe7648326d6aba4ea28aa04c738e",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 12,
+        "bytes": 2060133
+      },
+      {
+        "UTC": "2021-03-25T14:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_140000.npz",
+        "SHA256": "90129f5cd9528ada997c8fa071e629c84570d79f64e65e48fbd009fab13da03f",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 13,
+        "bytes": 2059955
+      },
+      {
+        "UTC": "2021-03-25T15:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_150000.npz",
+        "SHA256": "639f7aa4ac500a1d6dec0094c3588cbc2127cc1c443e3365a7559a4a79a13539",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 14,
+        "bytes": 2060115
+      },
+      {
+        "UTC": "2021-03-25T16:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_160000.npz",
+        "SHA256": "d22c9c7e2227f7c240cb70cde2f63944ec1ff4a2da90d0771d1c7cb4faac89ab",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 15,
+        "bytes": 2059733
+      },
+      {
+        "UTC": "2021-03-25T17:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_170000.npz",
+        "SHA256": "dbcd1929f0bef3f1850d3180372c9be836d9eb21bb89d8bfcd54222f3282d553",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 16,
+        "bytes": 2059150
+      },
+      {
+        "UTC": "2021-03-25T18:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_180000.npz",
+        "SHA256": "64293853f7701906a73fc3b226de6555f58807ce2b1d717a1ab95fd47217f793",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 17,
+        "bytes": 2058753
+      },
+      {
+        "UTC": "2021-03-25T19:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_190000.npz",
+        "SHA256": "8db6dd5274075e1a646f468012f0404771f908938110329e684807c1b04d03d0",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 18,
+        "bytes": 2058232
+      },
+      {
+        "UTC": "2021-03-25T20:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_200000.npz",
+        "SHA256": "c12c7186266d71bb2c27ee9b1ede174a1565bef8ceeb045a3e8daa039a88ec38",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 19,
+        "bytes": 2058188
+      },
+      {
+        "UTC": "2021-03-25T21:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_210000.npz",
+        "SHA256": "715f068683be27e7c35b760df47afc84085955418602346e0e95e4f953e845de",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 20,
+        "bytes": 2058059
+      },
+      {
+        "UTC": "2021-03-25T22:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_220000.npz",
+        "SHA256": "7ee02dae999492fa6003e0eeb2cf2e119cbe9d5ff34e91988452cc5dd762e218",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 21,
+        "bytes": 2058712
+      },
+      {
+        "UTC": "2021-03-25T23:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_25_230000.npz",
+        "SHA256": "1dd29134554e1d2e0d965ad8f113b201f00e0af0c3d1cbbfc1858dccfdaf9a09",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 22,
+        "bytes": 2061727
+      },
+      {
+        "UTC": "2021-03-26T00:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2021/2021_03_26_000000.npz",
+        "SHA256": "b59efe72593fb77e073e7cbe1aa7ef2fb6d941ed9d745695a4c5f04e39df547e",
+        "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_017.nc",
+        "source_SHA256": "eaeb1dae26a06765b40d0e6eeb8a19b6d0d7c3f933af02af356b778a71778c9f",
+        "record": 23,
+        "bytes": 2063271
+      }
+    ],
+    "2022": [
+      {
+        "UTC": "2022-03-23T00:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_000000.npz",
+        "SHA256": "f92e472a0f6186187634e0cfdcc43f104c36156ec899dc2dfcecb84720387e7a",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_014.nc",
+        "source_SHA256": "e77fefac77d21bb3a788212c278ba414c486f5cd36888a4cc6b223f3ddd39adb",
+        "record": 23,
+        "bytes": 2068396
+      },
+      {
+        "UTC": "2022-03-23T01:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_010000.npz",
+        "SHA256": "72e1fd739b707d1a5a32cf14145d61ff5badb974972c77336adee38d48afbf72",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 0,
+        "bytes": 2068060
+      },
+      {
+        "UTC": "2022-03-23T02:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_020000.npz",
+        "SHA256": "45ae0282348ca9e3d319174dc2c645fa9da0bd269c859e6f3371efcb6f4e7a68",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 1,
+        "bytes": 2068075
+      },
+      {
+        "UTC": "2022-03-23T03:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_030000.npz",
+        "SHA256": "d7cd5e86b3e5a2d95e071f649546e9362ec8bcf2d704b7ca59a81ed1a8f17772",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 2,
+        "bytes": 2068164
+      },
+      {
+        "UTC": "2022-03-23T04:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_040000.npz",
+        "SHA256": "68e0449ba5a96e84e93cc2e59d2908941b5e2a14f554cde09d3743e9aa8ccc70",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 3,
+        "bytes": 2068360
+      },
+      {
+        "UTC": "2022-03-23T05:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_050000.npz",
+        "SHA256": "b5c43a58f3526bebc2cccbdc17e5a015a31a4fe1e95a0efe81e39a68baaa84d5",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 4,
+        "bytes": 2066893
+      },
+      {
+        "UTC": "2022-03-23T06:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_060000.npz",
+        "SHA256": "65434cba5dcabedabaf15b7dc373fe8feb616b1b0106fba5a3d7a50a8b6be864",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 5,
+        "bytes": 2065778
+      },
+      {
+        "UTC": "2022-03-23T07:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_070000.npz",
+        "SHA256": "5d8a6a7b93c6cc975df6b7db6889d4b660b76974de2b73b16268fc4c1c3e5eaf",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 6,
+        "bytes": 2065059
+      },
+      {
+        "UTC": "2022-03-23T08:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_080000.npz",
+        "SHA256": "983f2e8dffd6429e4458a9040bde130cdf6f60f4afd24cde231df6d690638cb9",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 7,
+        "bytes": 2064491
+      },
+      {
+        "UTC": "2022-03-23T09:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_090000.npz",
+        "SHA256": "cd3f656dad15401d426b12af8df44f1f3b97de089fcb2a34078b4230617c424e",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 8,
+        "bytes": 2063979
+      },
+      {
+        "UTC": "2022-03-23T10:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_100000.npz",
+        "SHA256": "e24750e4ea97b360942eca5c3b60589efdd9d1b76de057e3de0b272593a26c20",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 9,
+        "bytes": 2064442
+      },
+      {
+        "UTC": "2022-03-23T11:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_110000.npz",
+        "SHA256": "0eba6dc907553846ce8c12a78b7068039fda0857936e4d7109f7112c84a12a61",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 10,
+        "bytes": 2064526
+      },
+      {
+        "UTC": "2022-03-23T12:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_120000.npz",
+        "SHA256": "f6208eb94f181eb96f986606514c88f93939969ffa594592e26f144295a5ead5",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 11,
+        "bytes": 2063972
+      },
+      {
+        "UTC": "2022-03-23T13:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_130000.npz",
+        "SHA256": "0eb8e8f409306eb349a133944f981096d2c4c0150885f2d13556bee69cb5de08",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 12,
+        "bytes": 2064284
+      },
+      {
+        "UTC": "2022-03-23T14:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_140000.npz",
+        "SHA256": "c877b5e0da92dfe6f5be24a048914f8c8ee4560434d2858ac1d16d182e198f9a",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 13,
+        "bytes": 2064741
+      },
+      {
+        "UTC": "2022-03-23T15:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_150000.npz",
+        "SHA256": "6a661d24f172d28ffc432a392e477cc4c079ff2f58180b4160d2d16faaa9633c",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 14,
+        "bytes": 2065503
+      },
+      {
+        "UTC": "2022-03-23T16:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_160000.npz",
+        "SHA256": "87b709de69b06f4ec17a924602041222d80c3dcc3a682a3716d0780ced11a764",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 15,
+        "bytes": 2066025
+      },
+      {
+        "UTC": "2022-03-23T17:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_170000.npz",
+        "SHA256": "8d6136a219bddcd02eb7ad6f470ad1be65b00125aad286af268699b2392823d7",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 16,
+        "bytes": 2066498
+      },
+      {
+        "UTC": "2022-03-23T18:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_180000.npz",
+        "SHA256": "7eae9d94ef4ddbdbc76daa6cbd24ff118c17fceff656fd2a1d8c553eb89ab816",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 17,
+        "bytes": 2066631
+      },
+      {
+        "UTC": "2022-03-23T19:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_190000.npz",
+        "SHA256": "e9efbee282a239c91a575cfaa8e26faa3ba470b37763d0476a9b996ebba86f4e",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 18,
+        "bytes": 2066225
+      },
+      {
+        "UTC": "2022-03-23T20:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_200000.npz",
+        "SHA256": "1edf45b3850c52dd356006ce94f44ab4210926b28525b3d600b4c57420c27b77",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 19,
+        "bytes": 2065732
+      },
+      {
+        "UTC": "2022-03-23T21:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_210000.npz",
+        "SHA256": "72359e0ea1e9a714295c66e1c52cf16778855dfff256bdd2b6e3372a28cbd426",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 20,
+        "bytes": 2064973
+      },
+      {
+        "UTC": "2022-03-23T22:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_220000.npz",
+        "SHA256": "8458ddc7c2faf31b5bb8200d88673bbe67fe9c66bc6571c465291ddab336cd13",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 21,
+        "bytes": 2064223
+      },
+      {
+        "UTC": "2022-03-23T23:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_23_230000.npz",
+        "SHA256": "b866e5e00104f6d12c0ea05a4a9cd1b7fc1dd179d24ab67f3b4f9ecaa2faf156",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 22,
+        "bytes": 2064380
+      },
+      {
+        "UTC": "2022-03-24T00:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_000000.npz",
+        "SHA256": "17a6efea46b2ade90ff1410560f2bed99f3b0ab397a685498859b2a5c3c6981e",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+        "source_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "record": 23,
+        "bytes": 2064332
+      },
+      {
+        "UTC": "2022-03-24T01:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_010000.npz",
+        "SHA256": "566525f47c302836ece798851031f953c38ab258196cdda93796c222c7ecf8dd",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 0,
+        "bytes": 2066353
+      },
+      {
+        "UTC": "2022-03-24T02:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_020000.npz",
+        "SHA256": "d8d920d56d8fdfebb6872eec41a06f76f7a88f3aae335438ad2035cf6e21a025",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 1,
+        "bytes": 2069393
+      },
+      {
+        "UTC": "2022-03-24T03:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_030000.npz",
+        "SHA256": "a631d1a7c272491fe2c49c228a25228bb4e981d82269f664095f0cb033851a95",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 2,
+        "bytes": 2071369
+      },
+      {
+        "UTC": "2022-03-24T04:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_040000.npz",
+        "SHA256": "887f89bd370d90b2b0b475e707cd66638c0f42992f725721ab7cc9052d465d9f",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 3,
+        "bytes": 2071903
+      },
+      {
+        "UTC": "2022-03-24T05:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_050000.npz",
+        "SHA256": "18dffaa38dba594b780ade23edcf49ee1cccff0f35de3571dcb896a5875a9fa2",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 4,
+        "bytes": 2071646
+      },
+      {
+        "UTC": "2022-03-24T06:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_060000.npz",
+        "SHA256": "071193086e24f80b4f5b6c51052146390b319d346ed8ec86330b3015537d235d",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 5,
+        "bytes": 2070564
+      },
+      {
+        "UTC": "2022-03-24T07:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_070000.npz",
+        "SHA256": "df0f514408e726921bc2104d3bf97464a24ddfdd2cf51b545074f288e67d77ec",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 6,
+        "bytes": 2069469
+      },
+      {
+        "UTC": "2022-03-24T08:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_080000.npz",
+        "SHA256": "1c8406664f8455807ae1cc0b01fae1edfcf9aa3b399a583dc95deb240ed759f6",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 7,
+        "bytes": 2068029
+      },
+      {
+        "UTC": "2022-03-24T09:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_090000.npz",
+        "SHA256": "9e6d471a8538c2f199f3047b861f27ebc80cbfcc3ef4a0d8d4995a16f60cdabc",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 8,
+        "bytes": 2066999
+      },
+      {
+        "UTC": "2022-03-24T10:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_100000.npz",
+        "SHA256": "76df497481fa670485aa3d83aa0947ea4f566d88003280fb8f6e957f44a53f2c",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 9,
+        "bytes": 2066312
+      },
+      {
+        "UTC": "2022-03-24T11:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_110000.npz",
+        "SHA256": "70e1773fbb0647e7aebdca8ec10c6bf463957c61892179ca3b10a62f4003467e",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 10,
+        "bytes": 2066871
+      },
+      {
+        "UTC": "2022-03-24T12:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_120000.npz",
+        "SHA256": "f3e39dbc064929552ade6b38b60f85e5c6d14474bbc9d19d25cc7db3cbd48d58",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 11,
+        "bytes": 2067733
+      },
+      {
+        "UTC": "2022-03-24T13:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_130000.npz",
+        "SHA256": "55ae238c814a6b93dc94769b5a59bb96ed2142ec91be7d2783ed9dd1d215fbf2",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 12,
+        "bytes": 2069008
+      },
+      {
+        "UTC": "2022-03-24T14:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_140000.npz",
+        "SHA256": "9bd4f554941de2164005656bc0f2a90a11318de5bf27955c2fad24d539564e23",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 13,
+        "bytes": 2069795
+      },
+      {
+        "UTC": "2022-03-24T15:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_150000.npz",
+        "SHA256": "f07095076f68f1c3d58b60d6dd79bddf6870a574fc411feaf6c9980e92e46681",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 14,
+        "bytes": 2069781
+      },
+      {
+        "UTC": "2022-03-24T16:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_160000.npz",
+        "SHA256": "399c5f262ee723139d128d98551a81986bc5a0c0f1f04208627e047a65251cdb",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 15,
+        "bytes": 2070002
+      },
+      {
+        "UTC": "2022-03-24T17:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_170000.npz",
+        "SHA256": "0d4299ec2a48aae4d377caf9edb321ec8d20c78f9cbef3faf45ce27a2751c98a",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 16,
+        "bytes": 2070033
+      },
+      {
+        "UTC": "2022-03-24T18:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_180000.npz",
+        "SHA256": "0daf2a25b66e297e6c2fb9fd8bea34b06ec8ae101c1db26bed818a199aa721e3",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 17,
+        "bytes": 2068779
+      },
+      {
+        "UTC": "2022-03-24T19:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_190000.npz",
+        "SHA256": "4ea1489fbfefdb80eff19cf84e84b37d4ad141fb6d8808285200463272a2e3d3",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 18,
+        "bytes": 2067534
+      },
+      {
+        "UTC": "2022-03-24T20:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_200000.npz",
+        "SHA256": "c794a8b7265033cfc50165d0b30b1bace6d701f75e84aa64503e662278898eaf",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 19,
+        "bytes": 2066755
+      },
+      {
+        "UTC": "2022-03-24T21:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_210000.npz",
+        "SHA256": "e6c579e4001b9a6907fb75d5666086a8bea6f63b90beb74145126923bc77ead8",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 20,
+        "bytes": 2065656
+      },
+      {
+        "UTC": "2022-03-24T22:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_220000.npz",
+        "SHA256": "83227184ff1368e1bcb9b67c9c017e0057da8121ccdcadabd0658c78bb396b89",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 21,
+        "bytes": 2065081
+      },
+      {
+        "UTC": "2022-03-24T23:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_24_230000.npz",
+        "SHA256": "24b3bd9ede999ece4a7effc5133cdab565cc99aaef0389e5549241e8a3601850",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 22,
+        "bytes": 2064972
+      },
+      {
+        "UTC": "2022-03-25T00:00:00+00:00",
+        "path": "data/processed/fourcastden_den_engineering_v3/2022/2022_03_25_000000.npz",
+        "SHA256": "38a96973598d8af83591e7f3cc1ea83f63ac50410339ea112f882cd0e43b18b6",
+        "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+        "source_SHA256": "869920c71f76b6e2660ca3f70347e2f08664d347c24c871a1f6d9a6825c47651",
+        "record": 23,
+        "bytes": 2065281
+      }
+    ]
+  },
+  "statistics": "df9a8c2bd31026de0e0ebcae07c6d7a8ff1d56832486d93e11b70fd1bba46bf5",
+  "old_122_replaced": false
+}

@@ -1,0 +1,11 @@
+{
+  "PASS": true,
+  "train_pairs": 72,
+  "validation_pairs": 48,
+  "relative_denominator": "strictly positive physical target; no floor/filter",
+  "units": "kg/m3",
+  "area_weight": "cos(latitude)",
+  "time_aggregation": "equal-hour RMSE squared mean then sqrt; log positive-prediction domain only and coverage reported",
+  "wall_s": 4.904342673718929,
+  "peak_RSS_MiB": 467.10546875
+}

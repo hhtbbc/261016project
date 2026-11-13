@@ -1,0 +1,31 @@
+{
+  "commands": [
+    "source scripts/activate_orbit.sh",
+    "python scripts/prepare_den_engineering_v3.py",
+    "python scripts/build_den_engineering_v3.py (three CPU invocations, failures and final PASS retained)",
+    "python scripts/persistence_den_engineering_v3.py",
+    "python -m unittest discover -s tests -p test_den_engineering_v3.py",
+    "python -m unittest discover -s tests -p test_training_pipeline.py",
+    "python -m unittest discover -s tests -p test_fourcastden_real_data_interface.py",
+    "python scripts/launch_den_engineering_v3.py (ONE training task, rc1, zero forward/update, NO retry)",
+    "python -m unittest discover -s tests -p test_den_import_isolation.py",
+    "python scripts/finalize_den_engineering_v3.py"
+  ],
+  "logs": [
+    "logs/den_engineering_v3_GPU_supervisor.log",
+    "logs/den_engineering_v3_build.log",
+    "logs/den_engineering_v3_build_v2.log",
+    "logs/den_engineering_v3_build_v3.log",
+    "logs/den_engineering_v3_finalization.log",
+    "logs/den_engineering_v3_import_regression.log",
+    "logs/den_engineering_v3_interface_regression.log",
+    "logs/den_engineering_v3_persistence.log",
+    "logs/den_engineering_v3_prepare.log",
+    "logs/den_engineering_v3_tests.log",
+    "logs/den_engineering_v3_tests_final.log",
+    "logs/den_engineering_v3_training_regression.log"
+  ],
+  "no_training_retry": true,
+  "executed_baseline_SHA256": "5203256fdb30a809eea57e75e254fecc48cd51387f4bb8592e60487ac049cdf0",
+  "fixed_baseline_SHA256": "9cb7f4e5007d95b6562fe9fbbebd79807313e55e278f366b35ff0378562ef644"
+}

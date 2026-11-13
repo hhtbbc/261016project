@@ -1,0 +1,19 @@
+{
+  "PASS": false,
+  "status": "FAIL_BEFORE_FIRST_FORWARD",
+  "training_task_launches": 1,
+  "optimizer_updates": 0,
+  "model_forwards": 0,
+  "checkpoints_saved": 0,
+  "returncode": 1,
+  "supervised_wall_s": 2.9279594756662846,
+  "peak_sampled_tree_RSS_bytes": 472109056,
+  "preflight_GPU_available": true,
+  "actual_failure": "torch.cuda.is_available() assertion",
+  "proven_cause": "train imports persistence_den_engineering_v3, whose module-level assignment cleared CUDA_VISIBLE_DEVICES after training set it to 0",
+  "fix": "move CPU device selection under persistence __main__; import-isolation subprocess regression PASS; GPU not retried",
+  "loss_curve": "NOT_AVAILABLE: no forward/loss/update",
+  "AI_validation": "NOT_AVAILABLE",
+  "checkpoint_GPU_restore": "NOT_TESTED",
+  "science_training_ready": false
+}

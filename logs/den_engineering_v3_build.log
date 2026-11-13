@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/workspace/data/20261016/scripts/build_den_engineering_v3.py", line 80, in <module>
+    if __name__=='__main__':main()
+  File "/workspace/data/20261016/scripts/build_den_engineering_v3.py", line 30, in main
+    if k in UNITS and k!='Kp':assert getattr(n[k],'units',None)==UNITS[k],(k,n[k].units,UNITS[k])
+AssertionError: ('f107d', '1.e-22 W/m2/Hz', 'sfu')

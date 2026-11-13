@@ -1,0 +1,13 @@
+test_affine_roundtrip_and_bad_stats (test_training_pipeline.TrainingTests) ... ok
+test_bad_batch_and_untrusted_checkpoint_fail (test_training_pipeline.TrainingTests) ... ok
+test_disjoint_splits (test_training_pipeline.TrainingTests) ... ok
+test_future_physical_truth_not_input (test_training_pipeline.TrainingTests) ... ok
+test_repeat_seed_reproduces_updates (test_training_pipeline.TrainingTests) ... ok
+test_resume_exact_optimizer_scheduler_rng_and_continuation (test_training_pipeline.TrainingTests) ... ok
+test_shapes_backward_updates_and_validation_no_update (test_training_pipeline.TrainingTests) ... ok
+test_test_year_cross_year_missing_duplicates_and_timezone_rejected (test_training_pipeline.TrainingTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.653s
+
+OK

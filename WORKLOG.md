@@ -982,3 +982,19 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 模型/监督执行无错误；离线NetCDF missing_value dtype警告保留，有效值/填充检查通过。一次报告源编辑定位断言和一次收尾编排语法错误均未启动任何模型或改动科学结果，修正后语法检查通过；无模型重试/阈值变化。数值指标函数复用不改，只有新路径/身份/输出适配。
 - 仅安全提交本任务公开代码、冻结配置、报告、轻量CSV/PNG与审计清单。新/旧NetCDF、逐点观测、权重与凭据不上传；无关未跟踪同步日志保留。远端同步见最终本地核验记录。结束停止，不自动生成候选、训练或追加模拟。
 - 图表终检发现验收矩阵横轴标签重叠；只改纵横比例和换行，首版PNG保留本地figure_draft_local，数值完全不改。layout_revision.json与pre_layout SHA快照保留，最终代码/图SHA重核验于final_delivery_verification.json和code_output_sha.json。
+
+
+## 2026-11-13 DEN专项工程数据v3与唯一GPU预检
+
+- 目标：不再运行TIE/下载/轨道，采用2021/2022 B14建立独立DEN工程数据，训练统计只用2021，Persistence和CPU门禁后最多一次10更新GPU。来源为最新6ba60c9d，原始B14与旧122帧/权重/static保持。
+- 实际：新提取73+49帧（72+48对），原NetCDF float32逐元素核验/UTC/单位/正值/单调ZG通过；DEN=142:171，X177/D4/Y171但只DEN29监督。完整174通道2021统计Welford与独立两遍一致；120对作者输入精确拼接与未来真值毒化通过。2022不拟合、2023未读取物理场。
+- Persistence：2021/2022全层相对RMS1.722953%/1.992488%，upper20—28为1.793025%/2.242242%，严格正目标无floor、cos纬度加权；逐层/区域/小时CSV与独立数组求和验证，100%覆盖。绝对全层RMSE由低层高密度主导，不代表400km误差。
+- 复用作者TGCMDataset/read_var、EpochPairs/AffineNormalizer/DirectTrainer；新den_engineering模块与6个独立脚本，旧pipeline/readonly不改。原AFNONet171头随机初始化方案A，DEN29损失，其他142不具备训练资格。seed20261113、AdamW1e-4、batch1、clip1、常数LR、CuBLAS :4096:8。
+- CPU：9新DEN+8pipeline+8真实接口共25前置通过；真实CPU checkpoint小模型测试不当作GPU AFNONet成功。唯一GPU任务失败后1项import-isolation子进程回归通过，共26。
+- GPU：预检A10080GB/CUDA12.1/PyTorch2.4.1可见，81153MiB可用；唯一训练任务direct wait rc1、监督2.927959秒、采样树RSS450.238MiB，实际0forward/0更新/0checkpoint。训练导入Persistence时其模块级CUDA_VISIBLE_DEVICES=''覆盖worker设置，是直接根因；已将设置移至main，新旧SHA及精确diff保留。本轮没有GPU重试，没有真实训练损失曲线/AI验证/模型泛化结论。
+- 资源：成功CPU提取31.197秒/峰值1095.340MiB；Persistence4.904秒/467.105MiB；最终审计绘图46.394秒/743.527MiB。数据约241MiB、结果约3.9MiB。246保护文件最终SHA一致；原始与122新帧SHA均核验。
+- 两次CPU构建失败保留原日志：原F107单位字符串与sfu表达差异，明确1.e-22 W/m2/Hz等价不改值；独立统计路径ROOT[...]笔误，修正后只读验证已有NPZ继续，无覆盖源数据。
+- 图：01分布、02归一化、03Persistence、04预注册2022首对/ilev24标签与Persistence。GPU失败不画虚构loss/AI图。主报告reports/FOURCASTDEN_DEN_ENGINEERING_V3.md；后续资源申请docs/FOURCASTDEN_DEN_V3_NEXT_TRAINING_DECISION.md。
+- 命令、原异常、来源/统计/代码SHA、GPU退出与修复diff在experiments/fourcastden_den_engineering_v3；实际入口commands.json，日志logs/den_engineering_v3*.log。全部输出/缓存在项目内，.venv310 via activate_orbit.sh。
+- 门禁：DEN数据与CPU工程PASS，真实GPU预检FAIL_BEFORE_FIRST_FORWARD、AI验证NOT_RUN、GPU恢复NOT_TESTED。科学训练False、A14工程PARTIAL、外部高度未验证、真实轨道BLOCKED均不改。下轮先新tag同配置≤10步工程预检，之后再申请单样本过拟合；本轮停止，不启动后续。
+- Git仅提交本任务轻量代码、CSV/PNG、协议与审计；NPZ/NC、原始观测、权重、checkpoint、缓存与凭据不入库，无关同步日志保留。远端/本地提交核验见本轮最终同步记录。

@@ -1,0 +1,5 @@
+GPU supervised exit 1 FAIL 2.9279594756662846
+Traceback (most recent call last):
+  File "/workspace/data/20261016/scripts/launch_den_engineering_v3.py", line 48, in <module>
+    assert status['qualification']=='PASS' and status['returncode']==0 and status['elapsed_s']<=900 and generated_bytes()<2*2**30
+AssertionError

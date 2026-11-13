@@ -1,0 +1,6 @@
+{
+  "launches": 1,
+  "max_updates": 10,
+  "no_retry": true,
+  "CuBLAS": ":4096:8"
+}

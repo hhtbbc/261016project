@@ -1,0 +1,13 @@
+/workspace/data/20261016/third_party/FourCastDEN_linux/dataset/tiegcm_utils.py:372: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  var = src[varname][timeIdx, :].data
+/workspace/data/20261016/scripts/build_den_engineering_v3.py:36: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  raw=np.asarray(n[k][i]);raw=raw[:-1] if k in ['TN','UN','VN'] else raw
+/workspace/data/20261016/scripts/build_den_engineering_v3.py:36: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  raw=np.asarray(n[k][i]);raw=raw[:-1] if k in ['TN','UN','VN'] else raw
+/workspace/data/20261016/third_party/FourCastDEN_linux/dataset/tiegcm_utils.py:372: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  var = src[varname][timeIdx, :].data
+Real v3 extraction/statistics/contracts PASS 120 31.199662912636995

@@ -1,0 +1,120 @@
+{
+  "label": "DEN_ONLY / ENGINEERING_RESEARCH / HINDCAST / LIMITED_PHYSICAL_VALIDATION",
+  "sources": {
+    "2021": "experiments/tiegcm_2021_spinup_14day_v1/B14",
+    "2022": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14"
+  },
+  "windows": {
+    "2021": [
+      "2021-03-23T00:00:00Z",
+      "2021-03-26T00:00:00Z"
+    ],
+    "2022": [
+      "2022-03-23T00:00:00Z",
+      "2022-03-25T00:00:00Z"
+    ]
+  },
+  "frames": {
+    "2021": 73,
+    "2022": 49
+  },
+  "pairs": {
+    "2021": 72,
+    "2022": 48
+  },
+  "channel_order": [
+    "TN",
+    "UN",
+    "VN",
+    "WN",
+    "Z",
+    "DEN",
+    "TLBC",
+    "ULBC",
+    "VLBC"
+  ],
+  "lengths": [
+    28,
+    28,
+    28,
+    29,
+    29,
+    29,
+    1,
+    1,
+    1
+  ],
+  "DEN_output_indices": [
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170
+  ],
+  "DEN_grid": "ilev, all29",
+  "native_units": "author native CGS, SI evaluation DEN*1000",
+  "inputs": "current171 + next-hour LBC3 / solar1 / magnetic2",
+  "conditions": "next-hour F107/F107A/Kp affine fixed author bounds + solar sfeps",
+  "normalization": "float64 Welford per variable/layer; population std; only73 training frames2021; spatial/time equally weighted; no logDEN",
+  "small_std_rule": "std<=1e-12*max(abs(mean),maxabs,float64tiny): use abs(mean) if nonzero else1 native unit; never modify raw values",
+  "relative_error_rule": "all finite, strictly positive target DEN; no denominator floor; negative finite predictions remain in RMSE/relative RMS; log only positive predictions with coverage",
+  "loss": "cos(latitude)-weighted normalized DEN29 MSE, equal layer weights",
+  "scheme": "A: original AFNONet171 output, only DEN supervised; other142 NOT trained state; single-step only",
+  "alternative_B": "29 output head changes model and official compatibility; not selected this round",
+  "statistical_status": "ENGINEERING_ONLY; full SCIENCE_TRAINING_READY remains False",
+  "sample_selection": {
+    "train_steps": "first10 chronological training pairs, no shuffle",
+    "validation": "all48 independent2022 pairs",
+    "display_validation_pair_index": 0,
+    "checkpoint_probe_pair_index": 0
+  },
+  "GPU_max_launches": 1,
+  "GPU_max_updates": 10,
+  "GPU_wall_limit_s": 900,
+  "GPU_allocated_limit_bytes": 21474836480,
+  "GPU_output_limit_bytes": 2147483648,
+  "disk_floor_bytes": 21474836480,
+  "estimated_dataset_MiB": 300,
+  "estimated_single_checkpoint_MiB": 750,
+  "estimated_training_wall_s": 120,
+  "estimates_not_measurements": true,
+  "seed": 20261113,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.0
+  },
+  "scheduler": {
+    "step_size": 1,
+    "gamma": 1.0
+  },
+  "gradient_clip_norm": 1.0,
+  "no_official_weights": true,
+  "no_2023_data": true,
+  "no_A14_labels": true,
+  "no_old_122_replacement": true
+}

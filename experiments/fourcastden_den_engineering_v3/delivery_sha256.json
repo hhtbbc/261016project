@@ -1,0 +1,222 @@
+{
+  "scripts/launch_den_engineering_v3.py": {
+    "SHA256": "023b7bb88ddb6beb96286298d6da0d54e391c390a5532a733868d1b9cf8cc6f9",
+    "bytes": 5131
+  },
+  "scripts/prepare_den_engineering_v3.py": {
+    "SHA256": "e628a59e6599d0c8b86bb9fd7d322cdd67298f13d19ef11b968a7133e1c05046",
+    "bytes": 4241
+  },
+  "scripts/finalize_den_engineering_v3.py": {
+    "SHA256": "57348064fe870baf14cc69face55f00388bb1f9849da07d96d7cff003d51f4fa",
+    "bytes": 8371
+  },
+  "scripts/persistence_den_engineering_v3.py": {
+    "SHA256": "9cb7f4e5007d95b6562fe9fbbebd79807313e55e278f366b35ff0378562ef644",
+    "bytes": 2626
+  },
+  "scripts/train_den_engineering_v3.py": {
+    "SHA256": "cb5064a89e60f5399a8d0875e40717225a87aee0ae740042420163f7a767597c",
+    "bytes": 7703
+  },
+  "scripts/build_den_engineering_v3.py": {
+    "SHA256": "352f2315f213027a09fd6f9aff2576a787ef3754a483b0e627b281eaf1bd888e",
+    "bytes": 7546
+  },
+  "src/training/den_engineering.py": {
+    "SHA256": "4513b0e2fee96eb51eedbcc21ba2651761da60e042f674ce170d9490d493e561",
+    "bytes": 6829
+  },
+  "tests/test_den_engineering_v3.py": {
+    "SHA256": "1bdf54c4758125a208aa0887eca70cdb86d2ee1aa0f5f3725ea3268db5fe2865",
+    "bytes": 3888
+  },
+  "tests/test_den_import_isolation.py": {
+    "SHA256": "142e25410240ed33b9b43f05d8f4398a994570dfd9eca1f6baa454a5d33a3392",
+    "bytes": 578
+  },
+  "reports/FOURCASTDEN_DEN_ENGINEERING_V3.md": {
+    "SHA256": "c12e8883fef7948888635e1bf6834b5892d780b545c095182aadc1146d148984",
+    "bytes": 11968
+  },
+  "docs/FOURCASTDEN_DEN_V3_NEXT_TRAINING_DECISION.md": {
+    "SHA256": "d4f60ed391737d364307c698ed9f31280defec7de5fd3d342557e1f0fe0bb0bc",
+    "bytes": 3746
+  },
+  "results/fourcastden_den_engineering_v3/01_density_distribution.png": {
+    "SHA256": "07e352b00b3c066ad753a215f6cfce1fee9cef6a20aa89d3d2e62ca5aa10f1d9",
+    "bytes": 99791
+  },
+  "results/fourcastden_den_engineering_v3/03_persistence.png": {
+    "SHA256": "1ca5bf1a34190c43f93eb0c3570fbc18f25a6c99943afaef53b1fcb3c418b2fe",
+    "bytes": 128103
+  },
+  "results/fourcastden_den_engineering_v3/persistence_2022_hourly.csv": {
+    "SHA256": "08be29666532d2e86a1f38e1e11aa7c064a560a83d9cc3009ab96871c3ede133",
+    "bytes": 1381895
+  },
+  "results/fourcastden_den_engineering_v3/distribution_statistics.csv": {
+    "SHA256": "e8582e780471a0d436e3ff031867ce66c983c11f927a7575ceac08c31b04c517",
+    "bytes": 7196
+  },
+  "results/fourcastden_den_engineering_v3/02_normalization.png": {
+    "SHA256": "b8c8d2baea000a6cb46c312c88961dc7e74c15f203fd501895ae1045b43c2dd0",
+    "bytes": 119929
+  },
+  "results/fourcastden_den_engineering_v3/persistence_summary.csv": {
+    "SHA256": "2407ed90fe9d1904e72c00847bd43b318fa27db6a317b7d17384640f800366a5",
+    "bytes": 50638
+  },
+  "results/fourcastden_den_engineering_v3/normalization_174_channels.csv": {
+    "SHA256": "558ede7d77bb496f6f25d118b9e676ba7200de26dde56ebfe06179fe5e90b19b",
+    "bytes": 9204
+  },
+  "results/fourcastden_den_engineering_v3/persistence_2021_hourly.csv": {
+    "SHA256": "a929cf4d7fccb3dee51503feb35ae3c66116f18b1b4d975e8438a135442f8879",
+    "bytes": 2076219
+  },
+  "results/fourcastden_den_engineering_v3/persistence_2021_summary.csv": {
+    "SHA256": "98f0582b239c30477ac0d0d0a87488d8db269cf4c86f5d777706bfb3736b1c95",
+    "bytes": 25446
+  },
+  "results/fourcastden_den_engineering_v3/persistence_2022_summary.csv": {
+    "SHA256": "ac853c35107ff4df4039e67f96af5811c2083bb58d9d39146c0c727fc55f7e13",
+    "bytes": 25342
+  },
+  "results/fourcastden_den_engineering_v3/04_fixed_real_DEN_sample.png": {
+    "SHA256": "e8c9bedd5bccf11492990a565bab8a0db38ad6fbda232871699a15bc646359aa",
+    "bytes": 107210
+  },
+  "experiments/fourcastden_den_engineering_v3/training_config.json": {
+    "SHA256": "b357092008948f4e6e912ad36047b3c21626bcb2044c2b48085074101bdb56a1",
+    "bytes": 1496
+  },
+  "experiments/fourcastden_den_engineering_v3/gpu_launch_once.json": {
+    "SHA256": "1f6ed2f2fe116f5a874206e01734640c36133b414bfd25a1531f70d2806f3b5f",
+    "bytes": 89
+  },
+  "experiments/fourcastden_den_engineering_v3/GPU_exit_status.json": {
+    "SHA256": "93c8ebd0fc35eb3284a884a2c050ee24d37dd33f38b27e5b296d77545d91d2a9",
+    "bytes": 1244
+  },
+  "experiments/fourcastden_den_engineering_v3/independent_physical_metrics.json": {
+    "SHA256": "c075a5bbb4b5c1908b53f1a574eb0dfc6ac83aaec2c2c67418446f20e7f0dde9",
+    "bytes": 425
+  },
+  "experiments/fourcastden_den_engineering_v3/dataset_manifest.json": {
+    "SHA256": "c94f251b092422b45fd96f46ccf90a22e457fbe386e0cc424b997a9c552a787b",
+    "bytes": 56844
+  },
+  "experiments/fourcastden_den_engineering_v3/cpu_data_audit.json": {
+    "SHA256": "bd1537e4c978d61917348f826c50af5c6fcb9ec7da8999489d84f9f01d29bff2",
+    "bytes": 46475
+  },
+  "experiments/fourcastden_den_engineering_v3/build_initial_failure.json": {
+    "SHA256": "4579de674c2c95518bde9d76c25c2d324206d4225dc171598541e2cb52a9d7a3",
+    "bytes": 254
+  },
+  "experiments/fourcastden_den_engineering_v3/grid_audit.json": {
+    "SHA256": "b27c26359eeca195479d50e5d1fe02d4b06082513fe48e23894fa207b4f9063b",
+    "bytes": 2523
+  },
+  "experiments/fourcastden_den_engineering_v3/protected_files.json": {
+    "SHA256": "2fe2a6aaad6d310411bc474f781d82d7f9d8e19908231626aa4fff10ed108aa3",
+    "bytes": 34958
+  },
+  "experiments/fourcastden_den_engineering_v3/GPU_failure_audit.json": {
+    "SHA256": "680a63678c7c64b79307ce882aa9700e839cd0a8b81fc83015b9a3ab2a9f77aa",
+    "bytes": 816
+  },
+  "experiments/fourcastden_den_engineering_v3/final_cpu_audit.json": {
+    "SHA256": "0fe9cb95a1309300cd202b61a301c979b2c726bc59d0d332f2e3ab50af40c94e",
+    "bytes": 326
+  },
+  "experiments/fourcastden_den_engineering_v3/statistics.json": {
+    "SHA256": "d53f62798f63773349999711c3f8e89d4810c3921b79121f9df386a36c8700bb",
+    "bytes": 18241
+  },
+  "experiments/fourcastden_den_engineering_v3/persistence_audit.json": {
+    "SHA256": "567977a8f812817a317ac1c2381552636afdba6cc0909b270067f3dd0e05d05f",
+    "bytes": 385
+  },
+  "experiments/fourcastden_den_engineering_v3/GPU_frozen_plan.json": {
+    "SHA256": "f8dc4b10bbbf2f172b077dbd10c0f706148c8c9e5d4844836a5324140d33de71",
+    "bytes": 1142
+  },
+  "experiments/fourcastden_den_engineering_v3/GPU_task_once.json": {
+    "SHA256": "ed6c8605c1f2cacc9e95ba60a72688fa182e9e093b97f3fc3eee079e7963496a",
+    "bytes": 83
+  },
+  "experiments/fourcastden_den_engineering_v3/protocol.json": {
+    "SHA256": "238c445a2ac752f5a5bdd680902d7f882785fef8209a3e804ed6a22f99697ef8",
+    "bytes": 2982
+  },
+  "experiments/fourcastden_den_engineering_v3/commands.json": {
+    "SHA256": "0d2140abb13c0d5f4565bfdee50250d82c457f0414079ac522e1d5b9576df9fa",
+    "bytes": 1555
+  },
+  "experiments/fourcastden_den_engineering_v3/resource_preflight_initial.json": {
+    "SHA256": "fb57539f017db1d530948fc3e27eaa4f30e0cc93f47df2dae74f96115ce0e85e",
+    "bytes": 221
+  },
+  "experiments/fourcastden_den_engineering_v3/GPU_preflight.json": {
+    "SHA256": "342a515e8bd4bcff2be232e762d99465dfeec609a19a0526e7c1fcb6be6442d6",
+    "bytes": 19748
+  },
+  "experiments/fourcastden_den_engineering_v3/import_fix.patch": {
+    "SHA256": "0703e528563e5972b3d2a074edd1ad09c38a6ad724c7ace20e574637239169dd",
+    "bytes": 909
+  },
+  "logs/den_engineering_v3_tests_final.log": {
+    "SHA256": "819ab839c01dd9bba439e2e7bfdf0cc306402f5e16aa26f7aaa49caabe61f163",
+    "bytes": 819
+  },
+  "logs/den_engineering_v3_GPU_supervisor.log": {
+    "SHA256": "224e60c3a13b75995f94161e06b91968b093df8031d5ab8cfba4544f3fa496d6",
+    "bytes": 319
+  },
+  "logs/den_engineering_v3_build.log": {
+    "SHA256": "e0843502ab278847bcea913200771d1ebd9c69118b31330c8850d679d3403fa6",
+    "bytes": 399
+  },
+  "logs/den_engineering_v3_import_regression.log": {
+    "SHA256": "7a6906878acd43b067f76a75e2ba89d65e94d82d0553663e5a444fc7f7b840d7",
+    "bytes": 98
+  },
+  "logs/den_engineering_v3_postfix_tests.log": {
+    "SHA256": "066700620923648abe0177f53dcdb3f6ee6568f93ff400615700cde12767dee0",
+    "bytes": 107
+  },
+  "logs/den_engineering_v3_training_regression.log": {
+    "SHA256": "315b55405c677aaa89a0409d25090fe55a096cb263b6fbab8f4ece88cad48339",
+    "bytes": 821
+  },
+  "logs/den_engineering_v3_build_v2.log": {
+    "SHA256": "c4cf45dae55fb3009fb7f82ac6aeb1c314fe6c068b40571c9796c74db69a5dfe",
+    "bytes": 1631
+  },
+  "logs/den_engineering_v3_tests.log": {
+    "SHA256": "964a8de467f04d0ed026bfc6332a41a5e4ae95450ab7544db15286d9bf1767a7",
+    "bytes": 736
+  },
+  "logs/den_engineering_v3_build_v3.log": {
+    "SHA256": "1a1d037359ddcd3581078de1667dce79c7d125ebaeba047e1adfc0db81747775",
+    "bytes": 980
+  },
+  "logs/den_engineering_v3_finalization.log": {
+    "SHA256": "168ad308e24f22cb4a6d3ed9e33013b2c162b4f1f4327553b8727c381d5d8948",
+    "bytes": 4781
+  },
+  "logs/den_engineering_v3_persistence.log": {
+    "SHA256": "2f6929ec67b26ad96f3a652ac9ba5e678b5f7099d0c3d0801e55b365611a3297",
+    "bytes": 30
+  },
+  "logs/den_engineering_v3_interface_regression.log": {
+    "SHA256": "6c13e3080f5d41ee2a5cd0becb9a33b5059c78fbb0bad356e0af9417bdcf4dfe",
+    "bytes": 904
+  },
+  "logs/den_engineering_v3_prepare.log": {
+    "SHA256": "05340ee22523ee6f883e7b9b40925a9e41ee05e9428c5f7abe296705c8a13f10",
+    "bytes": 31
+  }
+}

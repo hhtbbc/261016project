@@ -1,0 +1,12 @@
+{
+  "PASS": true,
+  "protected_files_verified": 246,
+  "source_and_frame_SHA_verified": true,
+  "grid_verified": true,
+  "independent_baseline_verified": true,
+  "CPU_tests_before_launch": 25,
+  "post_failure_import_regression": 1,
+  "wall_s": 46.394377280026674,
+  "peak_RSS_MiB": 743.52734375,
+  "real_training_updates": 0
+}

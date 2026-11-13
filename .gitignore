@@ -313,3 +313,9 @@ credentials.json
 /results/tiegcm_2022_b14_exploratory_pair_v2/*_local.npz
 !/logs/tiegcm_2022_b14_v2_mpi_test.log
 /results/tiegcm_2022_b14_exploratory_pair_v2/figure_draft_local/
+
+# DEN v3: real frames/statistics/checkpoints and local GPU arrays stay local
+/results/fourcastden_den_engineering_v3/*_local.npz
+/experiments/fourcastden_den_engineering_v3/gpu_job/
+/experiments/fourcastden_den_engineering_v3/*_local.json
+!/logs/den_engineering_v3*.log

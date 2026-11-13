@@ -1,0 +1,18 @@
+{
+  "PASS": true,
+  "results": [
+    {
+      "year": "2021",
+      "RMSE": 3.472136164405874e-09,
+      "relative_RMS": 0.017229525566722904,
+      "bias": 9.803486407944847e-14
+    },
+    {
+      "year": "2022",
+      "RMSE": 3.4743711563462755e-09,
+      "relative_RMS": 0.019924882919115976,
+      "bias": 2.306140405164232e-12
+    }
+  ],
+  "method": "direct weighted array sums over all 120 pairs, no evaluation helper"
+}

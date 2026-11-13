@@ -1,0 +1,6 @@
+{
+  "free_disk_bytes": 1369435013120,
+  "GPU": "index, name, memory.total [MiB], memory.free [MiB]\n0, NVIDIA A100-SXM4-80GB, 81920 MiB, 81153 MiB\n",
+  "processes": "pid, used_gpu_memory [MiB]\n",
+  "CPU_affinity": 112
+}

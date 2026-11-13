@@ -1,0 +1,20 @@
+/workspace/data/20261016/third_party/FourCastDEN_linux/dataset/tiegcm_utils.py:372: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  var = src[varname][timeIdx, :].data
+/workspace/data/20261016/scripts/build_den_engineering_v3.py:36: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  raw=np.asarray(n[k][i]);raw=raw[:-1] if k in ['TN','UN','VN'] else raw
+/workspace/data/20261016/scripts/build_den_engineering_v3.py:36: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  raw=np.asarray(n[k][i]);raw=raw[:-1] if k in ['TN','UN','VN'] else raw
+/workspace/data/20261016/third_party/FourCastDEN_linux/dataset/tiegcm_utils.py:372: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  var = src[varname][timeIdx, :].data
+Traceback (most recent call last):
+  File "/workspace/data/20261016/scripts/build_den_engineering_v3.py", line 81, in <module>
+    if __name__=='__main__':main()
+  File "/workspace/data/20261016/scripts/build_den_engineering_v3.py", line 53, in main
+    stack=np.stack([native_fields(ROOT[x['path']]) for x in manifest['2021']]);ind_mean=stack.mean(axis=(0,2,3));ind_std=stack.std(axis=(0,2,3),ddof=0);del stack
+  File "/workspace/data/20261016/scripts/build_den_engineering_v3.py", line 53, in <listcomp>
+    stack=np.stack([native_fields(ROOT[x['path']]) for x in manifest['2021']]);ind_mean=stack.mean(axis=(0,2,3));ind_std=stack.std(axis=(0,2,3),ddof=0);del stack
+TypeError: 'PosixPath' object is not subscriptable
