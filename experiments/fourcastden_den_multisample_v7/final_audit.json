@@ -1,0 +1,16 @@
+{
+  "PASS": true,
+  "actual_updates": 200,
+  "actual_model_forwards": 321,
+  "protected_assets_verified": 586,
+  "old_assets_unchanged": true,
+  "checkpoint_SHA_verified": true,
+  "independent_physical_metrics_120_pairs_PASS": true,
+  "Persistence120_pairs_recomputed_exact": true,
+  "model_initialization_exact": true,
+  "v6_model_not_loaded": true,
+  "v6_full72_metrics": "NOT_AVAILABLE; no extra inference",
+  "science_training_ready": false,
+  "CPU_postprocess_wall_s": 30.26163111627102,
+  "CPU_peak_RSS_MiB": 633.00390625
+}

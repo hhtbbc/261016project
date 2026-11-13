@@ -1,0 +1,10 @@
+{
+  "PASS": true,
+  "GPU_tasks": 1,
+  "updates": 200,
+  "model_forwards": 321,
+  "train_pairs": 72,
+  "validation_pairs": 48,
+  "supervised_wall_s": 79.09860457479954,
+  "science_training_ready": false
+}

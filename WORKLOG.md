@@ -1053,3 +1053,24 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - Git仅轻量代码/协议/审计/CSV/PNG/报告，checkpoint/原NPZ-NC/完整预测/环境凭据不入库。保留无关未跟踪文件，安全核对远端同步、不强推，最终本地/远端SHA记录本tag。结束停止。
 
 - 最终checkpoint包以checkpoint_bundle_manifest.json将step200.pt SHA与100条JSONL/CSV更新、计划/preflight/恢复证据SHA绑定；逐步记录作为伴随文件，不重复嵌入pickle，原权重和已验证状态不作事后修改。
+
+
+## 2026-11-13 AFNONet72对真实DEN多样本200步v7
+
+- 接续main本地/远端2006ae2579bd36c90c336619ade21ebd7be8b318，独立fourcastden_den_multisample_v7；保留无关历史未跟踪同步日志。先阅读AGENTS/STATUS/WORKLOG与v3/v4/v5/v6报告、计划和训练实现，复用pipeline/DenTrainer/原AFNONet/归一化/Persistence/通用监督/可信恢复，新增顺序与门禁辅助、准备/启动/训练/CPU终结脚本，无原核心改动。
+- 2021 B14 73帧72对训练、2022 B14 49帧48对开发，全部NPZ SHA/时间/正DEN/严格递增ZG核实；统计SHA df9a8c2b...仅2021，数据无重提取/无重拟合。120对177/4/171契约与未来真实物理状态毒化不改X/D；DEN142:171、native ilev29、原单位转换，归一化往返DEN最大relative2.400706e-8。586旧数据/统计/作者实现/v4-v6 checkpoint及历史产物SHA最终一致。
+- 新9项CPU测试：精确顺序/56×3与16×2曝光/修改协议拒绝/初始SHA门禁/200更新上限/跨年隔离/验证禁止backward-step/独占启动标记/资源限额；原48回归通过，共57。仅CPU夹具，真实GPU证据另外记录。
+- 启动前冻结plan/preflight与全200索引CSV；不恢复v6，不加载官方权重，从seed20261113新初始化64,695,744参数原AFNONet，实际initialstate SHA b3c177d26245e7be75f25995f243318b47f8a44148645010f6a3d4cfe16a68e7通过后才训练。原架构/FP32/AdamW1e-4 wd0/StepLRgamma1/clip1/cos纬度DEN-only normalized MSE不变。CUDA继承、torch前CuBLAS4096:8、确定性保留。
+- 唯一GPU任务实际200次optimizer.step，pair_index=(step-1)%72，全程真实输入SHA/UTC/梯度/参数变化/LR/耗时/显存逐次记录。每步148有限非零梯度张量，DEN之外head梯度0且参数逐元素不变，闲置norm.weight/bias按原作者实现记录；clip前12.1643—294.4169，全200次clip1。前56对各3次、后16对各2次，未擅自到216。
+- 200训练forward后才eval/no_grad最终72训练及48开发，模型/optimizer SHA与step不变，无中途2022；最终checkpoint恢复探针1，共321forward与冻结预算完全一致。2022不参与训练/统计/超参选择。本轮未测完整初始72对物理误差，不能虚构整体下降量；各对末访pre-update loss均低于首访（72/72），首访均值10.03422/末访0.563178，但不是同模型整集初末评价。原始loss首162.235962/末0.669284，尾随24步均值仅描述性。
+- 最终train72相对RMS全层/upper20—28/top28=3.804484/4.347241/5.609567%，P1.722953/1.793025/2.451758%；dev48=10.082082/12.401138/13.167300%，P1.992488/2.242242/2.909416%。训练各对3.250987—4.217717%，0/72胜P、两年逐层均0/29胜P；2022各对9.527256—10.746636%。训练全层normalized loss0.653466/开发3.359030，不能与relative RMS混淆。
+- 与v6只读对照：首对v7全层3.757451% vs v6单样本1.419518%与P1.673781%；开发10.082082% vs v6 19.711886%，下降48.852777%但仍P的5.06倍。v6从未完整评价全部72训练对，保持NOT_AVAILABLE、不加载模型补算。不能把多样本策略解释成纯训练时长，也不能把开发改善宣称可靠跨季节泛化。
+- 两年最终预测分别5412096/3608064值全部有限且正，非正0，普通/正值/log覆盖100%，无裁剪/删坏样本；matched_positive_log.csv给出共同正域配对。训练北/南高纬全层5.74979/5.60373%，2022为9.86857/9.43719%，详CSV。原生层上部误差偏大，不等同固定几何高度。
+- step200.pt SHA82483f890db2d20ec00159ff0588217dd71d37889195ca5b77b1b3ac740e722f；完整模型/AdamW/scheduler/RNG/200索引/数据代码SHA/资源快照，148 optimizer状态各step200。可信本地恢复全状态与模式精确一致，完整171输出bitwise相同，无201步。伴随manifest绑定checkpoint、顺序/JSONL/CSV、计划/preflight/恢复/最终监督SHA，不追写历史权重。
+- 监督exit0/PASS79.098605秒，worker76.279626；纯更新24.545047秒（均值0.122725/中位0.119255），训练循环29.189485；CPU缓存2.848311、建模1.950818、train72评价5.984823、dev48评价5.979260、保存恢复7.211193、保存数组3.236812秒，计时存在包含关系。A100-SXM4-80GB/torch2.4.1+cu121，allocated1.521465GiB、reserved1.710938GiB、进程GPU采样2.261719GiB、CPU树2.385857GiB，77采样/0缺口，输出约0.7893GiB<2GiB，余盘>20GiB，300秒/20GiB/8GiB限制满足。
+- 独立CPU后处理30.261631秒、633.004MiB：全部120全层物理指标直接数组加权复算、Persistence120对全部组/区与v3精确一致，8实际PNG、逐层/纬区/逐时CSV、v6对照与曝光诊断。无额外GPU/model forward。
+- 实际命令及日志索引experiments/fourcastden_den_multisample_v7/commands.json；source scripts/activate_orbit.sh/.venv310，所有缓存/临时/数据在项目内。主报告reports/FOURCASTDEN_DEN_MULTISAMPLE_V7.md，下一步docs/FOURCASTDEN_DEN_MULTISAMPLE_V7_NEXT_DECISION.md：优先同72对训练长度单因素至720累计（新增520、642forward、300秒候选）；后续残差/log/正值独立实验。本轮不执行下一轮。
+- 工程训练/数据/恢复/最终评价PASS，但Persistence优势FAIL；SCIENCE_TRAINING_READY=False、EXTERNAL_DATUM_UNVERIFIED、真实轨道BLOCKED、A14历史PARTIAL及旧FAIL不变。只DEN受监督，其他142输出不能当可信全状态或用于多步反馈。无新TIE/数据/统计/Swarm/轨道/调参。
+- Git仅提交轻量代码/配置/报告/CSV/PNG/审计，原NetCDF-NPZ、预测数组/完整checkpoint、worker环境和凭据不上传；保留历史未跟踪文件，不强推，安全同步与最终HEAD核验独立记录于本tag。结束停止。
+
+- 交付扫描首个一次性工具在项目Python3.10误用了3.11才有的hashlib.file_digest，未生成交付manifest；改用既有streaming sha后重新完成扫描，8PNG/586旧SHA与公开文件检查通过。此为CPU交付工具兼容问题，无新增模型推理/训练重试。

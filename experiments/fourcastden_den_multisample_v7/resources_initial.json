@@ -1,0 +1,6 @@
+{
+  "CUDA_VISIBLE_DEVICES": null,
+  "GPU": "index, name, memory.total [MiB], memory.free [MiB]\n0, NVIDIA A100-SXM4-80GB, 81920 MiB, 81153 MiB\n",
+  "other_GPU_processes": "pid, used_gpu_memory [MiB]\n",
+  "free_disk_bytes": 1364359905280
+}

@@ -1,0 +1,15 @@
+{
+  "identity": "final checkpoint plus immutable companion evidence; full checkpoints remain local",
+  "SHA256": {
+    "experiments/fourcastden_den_multisample_v7/step200.pt": "82483f890db2d20ec00159ff0588217dd71d37889195ca5b77b1b3ac740e722f",
+    "experiments/fourcastden_den_multisample_v7/updates.jsonl": "c1e4b5e01b33c1df9293ec0791825871b472468e14f0b937623d928ccc32bdfa",
+    "experiments/fourcastden_den_multisample_v7/plan.json": "a7f99af8f4979c3901de5d880fe67e9353f3b99bbec992512281dc6f12648dbc",
+    "experiments/fourcastden_den_multisample_v7/preflight.json": "563ac3cc9d2c36f77b16087c9c1d36085d8d4db6cad8a5e916e83eda90ddad2d",
+    "experiments/fourcastden_den_multisample_v7/GPU_result.json": "bb2e07826fe14fb74351a47b45722d7a04d0cc7173612355d391e532a691c2e6",
+    "experiments/fourcastden_den_multisample_v7/checkpoint_restore.json": "6827a4b115b9f03f36a531e1f8f5b3aa9e7584aa7d42fd0b329733c46364052a",
+    "experiments/fourcastden_den_multisample_v7/engineering_gate.json": "0668f6f13ef2400015b8c548bd95a27d365590eb9600a44d68c0b22dea1f708c",
+    "experiments/fourcastden_den_multisample_v7/gpu_job/status.json": "b98d9f524c90f30e9b714acaefbfdfb22224a2052a1de7ae6a9a8dd9a2e378c9",
+    "results/fourcastden_den_multisample_v7/frozen_training_order.csv": "6ec9d0e5099088ad2c333c44373324cb155575d1ec4e7d282407bff40eac6917",
+    "results/fourcastden_den_multisample_v7/training_updates.csv": "6e78b29f11f9b9331d7e01980cf0a1f34cc0936fe603ee5e063e3e66f44cdba1"
+  }
+}

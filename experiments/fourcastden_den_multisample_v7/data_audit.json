@@ -1,0 +1,20 @@
+{
+  "PASS": true,
+  "frames": [
+    73,
+    49
+  ],
+  "pairs": [
+    72,
+    48
+  ],
+  "future_poison_checks": 120,
+  "all_pair_contracts_PASS": true,
+  "year_separation_PASS": true,
+  "statistics_2021_only": true,
+  "statistics_refitted": false,
+  "data_reextracted": false,
+  "max_DEN_relative_roundtrip_error": 2.4007059748029602e-08,
+  "protected_assets": 586,
+  "wall_s": 33.74445045739412
+}

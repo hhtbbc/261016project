@@ -340,3 +340,10 @@ credentials.json
 /experiments/fourcastden_den_overfit_continuation_v6/*.pt
 /results/fourcastden_den_overfit_continuation_v6/*_local.npz
 !/logs/den_continuation_v6*.log
+
+# DEN v7: final full checkpoint, predictions and raw GPU worker logs remain local
+/experiments/fourcastden_den_multisample_v7/gpu_job/
+/experiments/fourcastden_den_multisample_v7/*_local.json
+/experiments/fourcastden_den_multisample_v7/*.pt
+/results/fourcastden_den_multisample_v7/*_local.npz
+!/logs/den_multisample_v7*.log

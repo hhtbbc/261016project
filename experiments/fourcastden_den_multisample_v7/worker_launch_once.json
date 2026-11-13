@@ -1,0 +1,9 @@
+{
+  "GPU_tasks": 1,
+  "max_updates": 200,
+  "initialization": "fresh random, not resume",
+  "visibility": {
+    "present": false,
+    "value": null
+  }
+}

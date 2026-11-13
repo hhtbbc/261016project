@@ -1,0 +1,16 @@
+{
+  "pairs_first_last_loss_improved": 72,
+  "pairs_total": 72,
+  "first_visit_mean_loss": 10.034221437242296,
+  "last_visit_mean_loss": 0.5631775309642156,
+  "first_visit_is_not_full_initial_model_evaluation": true,
+  "clipped_updates": 200,
+  "unused_parameters": [
+    "norm.weight",
+    "norm.bias"
+  ],
+  "mean_update_s": 0.12272523602470756,
+  "training_layers_better_than_Persistence": [],
+  "validation_layers_better_than_Persistence": [],
+  "train_pairs_better_than_Persistence": 0
+}
