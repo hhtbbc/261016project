@@ -389,3 +389,7 @@ credentials.json
 # ZG registration evidence package: synchronization audit remains local
 /experiments/tiegcm_zg_external_registration_v2/*_local.*
 !/logs/zg_registration_v2*.log
+
+# ZG inquiry V2.1: fetched-page caches and sync records remain local
+/experiments/tiegcm_zg_external_registration_v2_1/*_local.*
+!/logs/zg_registration_v2_1*.log

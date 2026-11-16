@@ -1,0 +1,20 @@
+test_actual_host (test_zg_external_share_redaction.RedactionTests) ... ok
+test_credential_assignment (test_zg_external_share_redaction.RedactionTests) ... ok
+test_decoded_escaped_path (test_zg_external_share_redaction.RedactionTests) ... ok
+test_known_token (test_zg_external_share_redaction.RedactionTests) ... ok
+test_nested_keys (test_zg_external_share_redaction.RedactionTests) ... ok
+test_no_full_logs_or_extra_data (test_zg_external_share_redaction.RedactionTests) ... ok
+test_official_URL (test_zg_external_share_redaction.RedactionTests) ... ok
+test_official_email (test_zg_external_share_redaction.RedactionTests) ... ok
+test_original_attribute_keys (test_zg_external_share_redaction.RedactionTests) ... ok
+test_private_email (test_zg_external_share_redaction.RedactionTests) ... ok
+test_project_relative (test_zg_external_share_redaction.RedactionTests) ... ok
+test_raw_file (test_zg_external_share_redaction.RedactionTests) ... ok
+test_unix_paths (test_zg_external_share_redaction.RedactionTests) ... ok
+test_whitelist (test_zg_external_share_redaction.RedactionTests) ... ok
+test_windows (test_zg_external_share_redaction.RedactionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.004s
+
+OK

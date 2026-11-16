@@ -1,0 +1,140 @@
+{
+  "scope": "Independent TIE-GCM runs; not the FourCastDEN authors original2023 configuration",
+  "official_source": {
+    "version": "tiegcm2.0",
+    "commit": "da712811d925376ff8ef40ff64bda7cc070ca661",
+    "URL": "https://github.com/NCAR/tiegcm/tree/da712811d925376ff8ef40ff64bda7cc070ca661"
+  },
+  "apex_update": {
+    "commit": "84185ee0b97307567c78e32ce85643b48a5cc1a9",
+    "URL": "https://raw.githubusercontent.com/NCAR/tiegcm/84185ee0b97307567c78e32ce85643b48a5cc1a9/src/apex.F90",
+    "source_SHA256": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3",
+    "patch_SHA256": "336086a838722957e65390a46eae552e743f3d2707b839d95dc59a2e3448519e"
+  },
+  "height_chain_source_SHA256": {
+    "cons.F": "2c2475235247888c1cf7a9d46d18466f0d05acbe95fad2f75feb8d5ad16ea127",
+    "lbc.F": "bc597c256683f89c30d697303719ece761600923814a3b80640b4821da4b04b5",
+    "addiag.F": "0ad6c5cd0fa1058f10de0da6b156f5e466022a722f700ebf124f8efc4ac4e3e4",
+    "getapex.F": "379ac098eb76ce19e7ec0e4a0088a7c9096632d4e537788d9cb7a83f059fa506"
+  },
+  "compiler_compatibility": "Recorded GNU12 compatibility overlays; core height-chain routines unchanged",
+  "runs": {
+    "2021": {
+      "background": "B14 official full smax initial state",
+      "start_UTC": "2021-03-09T00:00:00Z",
+      "stop_UTC": "2021-03-26T00:00:00Z",
+      "source_record_day_hour_min": [
+        80,
+        0,
+        0
+      ],
+      "horizontal_grid_degrees": 5,
+      "latitude_centres": 36,
+      "longitude_centres": 72,
+      "pressure_interface_spacing": 0.5,
+      "ibgrddata": 0,
+      "STEP_s": 60,
+      "MPI": 4,
+      "OMP": 1,
+      "zbound_formula": "136.291/sqrt(2.)*1.e5 cm",
+      "zbound_approx_km": 96.37229031469575,
+      "GSWM_migrating_diurnal": true,
+      "GSWM_migrating_semidiurnal": true,
+      "GSWM_nonmigrating_diurnal": false,
+      "GSWM_nonmigrating_semidiurnal": false,
+      "lower_boundary": "default background zbound plus enabled GSWM height perturbations; external zero surface not established",
+      "engineering": "PASS; does not imply full-state scientific quality or external datum validation"
+    },
+    "2022": {
+      "background": "B14 official full smax initial state",
+      "start_UTC": "2022-03-09T00:00:00Z",
+      "stop_UTC": "2022-03-25T00:00:00Z",
+      "source_record_day_hour_min": [
+        80,
+        0,
+        0
+      ],
+      "horizontal_grid_degrees": 5,
+      "latitude_centres": 36,
+      "longitude_centres": 72,
+      "pressure_interface_spacing": 0.5,
+      "ibgrddata": 0,
+      "STEP_s": 60,
+      "MPI": 4,
+      "OMP": 1,
+      "zbound_formula": "136.291/sqrt(2.)*1.e5 cm",
+      "zbound_approx_km": 96.37229031469575,
+      "GSWM_migrating_diurnal": true,
+      "GSWM_migrating_semidiurnal": true,
+      "GSWM_nonmigrating_diurnal": false,
+      "GSWM_nonmigrating_semidiurnal": false,
+      "lower_boundary": "default background zbound plus enabled GSWM height perturbations; external zero surface not established",
+      "engineering": "PASS; does not imply full-state scientific quality or external datum validation"
+    }
+  },
+  "variables": {
+    "2021": {
+      "DEN": {
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "units": "g/cm3",
+        "interface_count": 29,
+        "SI_multiplier": 1000
+      },
+      "ZG": {
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "units": "cm",
+        "interface_count": 29,
+        "SI_multiplier": 0.01
+      }
+    },
+    "2022": {
+      "DEN": {
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "units": "g/cm3",
+        "interface_count": 29,
+        "SI_multiplier": 1000
+      },
+      "ZG": {
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "units": "cm",
+        "interface_count": 29,
+        "SI_multiplier": 0.01
+      }
+    }
+  },
+  "Swarm": {
+    "mission": "Swarm",
+    "satellite": "A",
+    "product_id": "SW_OPER_DNSAPOD_2_",
+    "product_version": "0301",
+    "density": "instantaneous density, kg/m3",
+    "geodetic_contract": "GRS80 geodetic latitude/longitude and height in metres; precise terrestrial frame realization not established",
+    "contract_wording_caveat": "Height_GD prose contains the apparent latitude wording error; no additional datum accuracy inferred"
+  },
+  "Map_A": {
+    "flow": "GRS80 geodetic location -> nominal Earth-fixed Cartesian position -> WGS84 geodetic coordinates -> explicit assumption latitude=model latitude and ellipsoid height=native ZG",
+    "interpolation": "two time frames x four horizontal columns, log-density interpolation along native ZG; all8columns valid; no extrapolation",
+    "status": "PROVISIONAL; query coverage does not verify external height registration"
+  },
+  "unresolved_gate": "EXTERNAL_DATUM_UNVERIFIED"
+}

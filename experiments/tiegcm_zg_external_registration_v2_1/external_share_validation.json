@@ -1,0 +1,49 @@
+{
+  "redaction_PASS": true,
+  "file_checks": [
+    {
+      "file": "question_evidence_matrix_external.csv",
+      "SHA256": "9048d40f1f22faa00b0f63987157a62a02d3977a2f96f66fb373d4b9feeadbaf",
+      "bytes": 2723,
+      "findings": 0
+    },
+    {
+      "file": "configuration_summary_external.json",
+      "SHA256": "606df0a35b868002f16001b781c822c62957894556df99bde9d9c3c8d38b3235",
+      "bytes": 4939,
+      "findings": 0
+    },
+    {
+      "file": "technical_summary_external.md",
+      "SHA256": "c549bf1583a7f2c4e940ebb7c594cae50f281ed2f634766fbfbb288be047a537",
+      "bytes": 2900,
+      "findings": 0
+    },
+    {
+      "file": "SENDING_GUIDE.md",
+      "SHA256": "b22b32b93337c2710c796601f14fdc6cf5cb6ff1fa904252c34e9ab69d29b616",
+      "bytes": 2439,
+      "findings": 0
+    }
+  ],
+  "findings": [],
+  "JSON_recursive_scanned": true,
+  "CSV_every_field_scanned": true,
+  "Markdown_full_text_scanned": true,
+  "email_draft_scanned": true,
+  "original_history_SHA_unchanged": true,
+  "technical_email_body_exactly_unchanged": true,
+  "model_configuration_whitelist_values_match": true,
+  "source_hashes_preserved": true,
+  "raw_data_or_full_logs_present": false,
+  "sent": false,
+  "subscribed": false,
+  "form_submitted": false,
+  "contact_route_fully_verified": false,
+  "independent_posting_and_subscription_policy_verification": "BLOCKED_HTTP404",
+  "manual_sending_ready": false,
+  "readiness": "ATTACHMENTS_SANITIZED_CONTACT_ROUTE_UNVERIFIED",
+  "wall_s": 0.017204556614160538,
+  "CPU_s": 0.014986705,
+  "peak_process_RSS_MiB": 17.26171875
+}

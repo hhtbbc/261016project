@@ -1,0 +1,11 @@
+{
+  "environment": "source scripts/activate_orbit.sh",
+  "preparation": "python scripts/prepare_zg_registration_v2_1.py",
+  "validation": "python scripts/verify_zg_registration_v2_1.py",
+  "web_read_URLs": [
+    "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/contact.html",
+    "https://mailman.ucar.edu/mailman/listinfo/tgcmgroup"
+  ],
+  "bounded_GET": "same exact Mailman URL,25s timeout,128KiB response bound,approved same-URL redirect only; HTTP404",
+  "no_send_command": true
+}

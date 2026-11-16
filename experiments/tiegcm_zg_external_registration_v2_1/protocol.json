@@ -1,0 +1,42 @@
+{
+  "tag": "tiegcm_zg_external_registration_v2_1",
+  "base_commit": "915347f916e8080cebc5f707ac80622d12db918e",
+  "purpose": "Contact-route clarification and independently sanitized external attachments; unsent",
+  "preserved_history_SHA256": {
+    "docs/TIEGCM_ZG_EXTERNAL_REGISTRATION_REQUEST_V2.md": "96af938d424f3111201ba1d05fcbdfeb992ddf86ead2065a5d119640675f54c9",
+    "reports/TIEGCM_ZG_EXTERNAL_REGISTRATION_PACKAGE_V2.md": "9aadd58efeaff71ddd24cd325c0e96cec007ecda5b90c794b6c67d0aea3c304a",
+    "experiments/tiegcm_zg_external_registration_v2/review_validation.json": "314f05cfa3dc50c6d6d015460fb9bd868352446b31fd4f1462876ceac895cc74",
+    "experiments/tiegcm_zg_external_registration_v2/response_validation_checklist.json": "c21b93969ec7459852c0a685bf0267f06a397b9dacda488821d5b076c794cc6e",
+    "experiments/tiegcm_zg_external_registration_v2/git_sync_local.json": "24aef5751b93f9fc9361ba3bb094da6e57de56bed48fd217938c157046fce342",
+    "experiments/tiegcm_zg_external_registration_v2/official_source_inventory.json": "b791f8f7bdb1b1cde2528f02c3abca0eae7680400e89e382b9f6fac560b02284",
+    "experiments/tiegcm_zg_external_registration_v2/source_preservation.json": "b7be3e20a89697cbae03d7618645207b79cb35649c804136e235672ae5dcbe6b",
+    "experiments/tiegcm_zg_external_registration_v2/sha256_manifest.json": "d13e89072e6349a09c9c5b7fad623eb67cc8e626df1fa43f289ce1965cabd36b",
+    "experiments/tiegcm_zg_external_registration_v2/independent_verification.json": "c9604d43ecc0ad206c46b5e71089c6887c009eb5ccfd93cff098a290139e2544",
+    "experiments/tiegcm_zg_external_registration_v2/source_chain_excerpts.csv": "cddb51eacdd512cd66cef98c7bd6a1994dd1699a643d8ca6a73b59b80d83dc78",
+    "experiments/tiegcm_zg_external_registration_v2/response_acceptance_matrix.csv": "14eaa59103cf56de3cc524a9f106d02048ea05124ffe2198bd54da714eb73a6e",
+    "experiments/tiegcm_zg_external_registration_v2/resource_audit.json": "09a284bbe8bbb0058cf94c092000f1a45cce9277f06d9e303d73cb8620082ff6",
+    "experiments/tiegcm_zg_external_registration_v2/model_configuration_manifest.json": "660784717ea51ab461d4f35e1630b37a251c30a9603e6e0319e3009b4b25fd32",
+    "experiments/tiegcm_zg_external_registration_v2/question_evidence_matrix.csv": "1e04001f8d5ec274f2b994aa4be1bee883eca49cf35e6ef5c335b641bd2a5a1e",
+    "experiments/tiegcm_zg_external_registration_v2/protocol.json": "fd337aaa34c8d4b8ce13a112bdd24ed649ee3f291277779cb296833805202f06",
+    "experiments/tiegcm_zg_external_registration_v2/commands.json": "165bf9dd5006fba7cdc1dddeb3a2f6f0a53b45e1ee045e0c64494823cab98687",
+    "experiments/tiegcm_zg_external_registration_v2/runtime_boundary_evidence.csv": "ad48bd0841c6635962d7a5a449a0330585e5c6f07df48d49bb733def0b6290ee"
+  },
+  "allowed_pages": [
+    "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/contact.html",
+    "https://mailman.ucar.edu/mailman/listinfo/tgcmgroup"
+  ],
+  "emails_sent": 0,
+  "subscriptions": 0,
+  "forms_submitted": 0,
+  "model_integrations": 0,
+  "GPU": 0,
+  "DART": 0,
+  "orbit": 0,
+  "training": 0,
+  "observations_downloaded": 0,
+  "limits": {
+    "CPU_s": 600,
+    "RSS_GiB": 4,
+    "public_output_MiB": 150
+  }
+}

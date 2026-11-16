@@ -1,0 +1,27 @@
+{
+  "files": {
+    "question_evidence_matrix_external.csv": {
+      "SHA256": "9048d40f1f22faa00b0f63987157a62a02d3977a2f96f66fb373d4b9feeadbaf",
+      "bytes": 2723
+    },
+    "configuration_summary_external.json": {
+      "SHA256": "606df0a35b868002f16001b781c822c62957894556df99bde9d9c3c8d38b3235",
+      "bytes": 4939
+    },
+    "technical_summary_external.md": {
+      "SHA256": "c549bf1583a7f2c4e940ebb7c594cae50f281ed2f634766fbfbb288be047a537",
+      "bytes": 2900
+    },
+    "SENDING_GUIDE.md": {
+      "SHA256": "b22b32b93337c2710c796601f14fdc6cf5cb6ff1fa904252c34e9ab69d29b616",
+      "bytes": 2439
+    }
+  },
+  "generation": "Explicit whitelist of scalar technical facts; original manifest not copied",
+  "technical_email_body_SHA256": "b8c13ce7584a791a49713c7a25365347c4f7630c34c11f1dc8ef4f0dfcbaf248",
+  "technical_email_body_unchanged": true,
+  "attachments_ready_status": "SANITIZED_ATTACHMENTS_READY",
+  "contact_route_status": "UNVERIFIED_HTTP404",
+  "manual_sending_ready": false,
+  "overall_package_status": "CONTACT_ROUTE_REVALIDATION_REQUIRED"
+}

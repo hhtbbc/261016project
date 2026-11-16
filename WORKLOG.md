@@ -1190,3 +1190,14 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 资源：准备墙钟1.617804s/CPU1.583448s/进程峰RSS794.992MiB；独立检查0.995463s/CPU0.973781s/峰18.285MiB，受测CPU合计2.557229s。浏览/Git/编辑不冒充连续进程监控，原始新数据0、模型/GPU/DART/轨道/训练/查询/拟合0，公开成果远低150MiB。
 结果/问题：仍未证实整个模型地理纬度的外部定义、ZG/zbound零面与椭球关系、官方产品专用严格转换或总误差界。CONTACT为官方旧文档渠道已核实而当前可投递未核实；无维护者回复。EXTERNAL_DATUM_UNVERIFIED/科学训练False/RestartFAIL/DART未准入/真实轨道BLOCKED/A14历史资格均保持。
 下一步：用户补姓名单位并确认收件渠道后决定发送；任何实际回复先核版本、独立数学、坐标样例、误差预算、共同沿轨域五项，再另授权审查接口。任务完成停止，不进入代表性诊断/v14/DART。Git采用逐文件白名单及远端再核对，不强推；最终SHA/同步结果记录于本轮ignored sync本地审计与最终答复。
+
+
+## 2026-11-16 — ZG外部登记咨询包V2.1：渠道校正与外部附件脱敏
+
+目标：仅核实指定两官方联系页，保持技术问题不变，制作可对外分享副本。根目录/realpath正确；初始本地远端main均915347f916e8080cebc5f707ac80622d12db918e；旧未跟踪同步记录保留。V2邮件/报告/全目录SHA冻结保护，不修改原manifest。
+官方结果：Contact网页工具与直接GET200（5419字节，SHA7f914849...），显示tgcmgroup@ucar.edu，字面锚点http://mailman.ucar.edu/mailman/listinfo/tgcmgroup仅记录未访问。用户指定HTTPS Mailman页两种读取均404，未重试其他域名/协议、未提交表单。用户提供的发帖地址tgcmgroup@mailman.ucar.edu与管理员批准要求明确标USER_SUPPLIED_PENDING_OFFICIAL_REVALIDATION；当前subscriber-only/closed-list政策未验证，moderated不等于封闭列表。
+实现：scripts/prepare_zg_registration_v2_1.py白名单生成四份英文external_share附件，不复制原manifest。新V2.1 To按用户要求填写，前提为人工复核当前渠道、成功订阅/管理员批准；技术正文与V2逐字不变，个人信息均占位。无消息/订阅/表单/外部联系。
+验证：scripts/verify_zg_registration_v2_1.py独立全文/递归JSON/CSV字段扫描，新附件/邮件0问题；tests/test_zg_external_share_redaction.py15项全通过。实际hostname/账号值只在内存检测不输出；禁内部路径/敏感字段/原始模型或观测文件名/非批准邮箱/凭据模式/额外日志。V2原件SHA和更早文档/接口SHA保持；出口commit/sourceSHA/apexSHA/日历/单位/数值独立比对通过。
+命令环境：source scripts/activate_orbit.sh；python scripts/prepare_zg_registration_v2_1.py；python -m unittest discover -s tests -p test_zg_external_share_redaction.py -v；python scripts/verify_zg_registration_v2_1.py。两种官方读取失败/成功的实际记录、规则、SHA及资源均存新目录；_local页面/同步记录不公开。
+资源：四外部附件13001字节，受测三进程CPU约0.01979s、测试主体0.004s，峰进程自报794.992MiB；页面等待单列，不冒充全程连续监控。新观测0、模型/GPU/DART/轨道/训练0。
+结论：附件SANITIZED_ATTACHMENTS_READY；整体TIEGCM_ZG_EXTERNAL_REGISTRATION_V2_1=ATTACHMENTS_SANITIZED_CONTACT_ROUTE_UNVERIFIED，不把当前404渠道认定已验证，manual_sending_ready=False。外部高度未验证/科学训练False/RestartFAIL/DART未准入/真实轨道BLOCKED及A14身份不变。下一步用户补渠道证据、确认审批并填占位符后决定人工发送，未批准前不宣称可立即投递；完成停止，无v14/历史代表性/DART。Git逐文件白名单、远端复核、正常推送，最终精确SHA在本地ignored同步审计及最终汇报。

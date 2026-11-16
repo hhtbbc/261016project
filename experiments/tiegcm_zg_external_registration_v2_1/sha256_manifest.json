@@ -1,0 +1,113 @@
+{
+  "public_files": {
+    ".gitignore": {
+      "SHA256": "7993ab7d29f05d003572fc29f0e674705544073943be29ddc8051a68061f0935",
+      "bytes": 16078
+    },
+    "STATUS.md": {
+      "SHA256": "4d32360faf9ea9972f0e287aeb075417b5bfa738108970e08d163b8b4d5435c0",
+      "bytes": 122993
+    },
+    "WORKLOG.md": {
+      "SHA256": "8d5e893c9472cd0503ca2614974833793ac1495a6f854a25766eb3f734718650",
+      "bytes": 287777
+    },
+    "docs/TIEGCM_ZG_EXTERNAL_REGISTRATION_REQUEST_V2_1.md": {
+      "SHA256": "ad6367e4628bdf7c1935ea9ee96906414a6c20535c97e75193624e7f6f057d21",
+      "bytes": 8106
+    },
+    "reports/TIEGCM_ZG_EXTERNAL_REGISTRATION_PACKAGE_V2_1.md": {
+      "SHA256": "01a373809c2aed924b04f80e3dbcf764c353047e033ddb27e79c2b956179a46c",
+      "bytes": 6514
+    },
+    "scripts/prepare_zg_registration_v2_1.py": {
+      "SHA256": "3d110b855b526343aba384601629a67f822acc06d42fcbb2327f6edd2725db73",
+      "bytes": 17259
+    },
+    "scripts/verify_zg_registration_v2_1.py": {
+      "SHA256": "15eae53618f51d5f4fed29cf6c7b48418e6f1a8d11efc3047e4099aa44265bd4",
+      "bytes": 6675
+    },
+    "tests/test_zg_external_share_redaction.py": {
+      "SHA256": "585d750692a6478df3e96bd8fd4a7b98ae29fc866c8aa2cb448552a0c757d8c0",
+      "bytes": 1999
+    },
+    "logs/zg_registration_v2_1_redaction_tests.log": {
+      "SHA256": "5019529ccd37347cb0e1e9a4fddd221d4449530aba0dc52d1ca6f916a3bfd97d",
+      "bytes": 1256
+    },
+    "logs/zg_registration_v2_1_independent_validation.log": {
+      "SHA256": "86afe0cde6c4739382e8efc08582d2a46f660fefff23d67c6199196470d196f6",
+      "bytes": 1370
+    },
+    "experiments/tiegcm_zg_external_registration_v2_1/external_share_manifest.json": {
+      "SHA256": "c2b15115c9d4eadf8b9a9178a62a3a5d21f1c6fe5e3c6df5221063c86392563a",
+      "bytes": 1067
+    },
+    "experiments/tiegcm_zg_external_registration_v2_1/external_share_validation.json": {
+      "SHA256": "882cff768823f3b7e9e5f5024bc048cae708c5b249f415f2e008b65d7b6a6263",
+      "bytes": 1555
+    },
+    "experiments/tiegcm_zg_external_registration_v2_1/resource_audit.json": {
+      "SHA256": "d2c57436f3d881792fc199e59367747dc5c85a223e9b381a06f06b45d412caac",
+      "bytes": 1058
+    },
+    "experiments/tiegcm_zg_external_registration_v2_1/technical_export_verification.json": {
+      "SHA256": "96e8faafa837a44628bc1c764654aea07bbaaac13c80d48d975009a4b8a044b1",
+      "bytes": 1356
+    },
+    "experiments/tiegcm_zg_external_registration_v2_1/protocol.json": {
+      "SHA256": "9f76896d03360c8e44f2ad228113ed97b187a8f92aee3aba0eb42f30782ce3c2",
+      "bytes": 3151
+    },
+    "experiments/tiegcm_zg_external_registration_v2_1/commands.json": {
+      "SHA256": "87531d6805f43980a751d45a233959f57200441bd8f9b1c7327609ac04be7307",
+      "bytes": 501
+    },
+    "experiments/tiegcm_zg_external_registration_v2_1/contact_route_evidence.json": {
+      "SHA256": "b2279a50e6e0479cc1ad42ced5f69f2c4c040bd8b418cdccbf17217641e68885",
+      "bytes": 2534
+    },
+    "experiments/tiegcm_zg_external_registration_v2_1/external_share/question_evidence_matrix_external.csv": {
+      "SHA256": "9048d40f1f22faa00b0f63987157a62a02d3977a2f96f66fb373d4b9feeadbaf",
+      "bytes": 2723
+    },
+    "experiments/tiegcm_zg_external_registration_v2_1/external_share/configuration_summary_external.json": {
+      "SHA256": "606df0a35b868002f16001b781c822c62957894556df99bde9d9c3c8d38b3235",
+      "bytes": 4939
+    },
+    "experiments/tiegcm_zg_external_registration_v2_1/external_share/technical_summary_external.md": {
+      "SHA256": "c549bf1583a7f2c4e940ebb7c594cae50f281ed2f634766fbfbb288be047a537",
+      "bytes": 2900
+    },
+    "experiments/tiegcm_zg_external_registration_v2_1/external_share/SENDING_GUIDE.md": {
+      "SHA256": "b22b32b93337c2710c796601f14fdc6cf5cb6ff1fa904252c34e9ab69d29b616",
+      "bytes": 2439
+    }
+  },
+  "protected_original_SHA256": {
+    "docs/TIEGCM_ZG_EXTERNAL_REGISTRATION_REQUEST_V2.md": "96af938d424f3111201ba1d05fcbdfeb992ddf86ead2065a5d119640675f54c9",
+    "reports/TIEGCM_ZG_EXTERNAL_REGISTRATION_PACKAGE_V2.md": "9aadd58efeaff71ddd24cd325c0e96cec007ecda5b90c794b6c67d0aea3c304a",
+    "experiments/tiegcm_zg_external_registration_v2/review_validation.json": "314f05cfa3dc50c6d6d015460fb9bd868352446b31fd4f1462876ceac895cc74",
+    "experiments/tiegcm_zg_external_registration_v2/response_validation_checklist.json": "c21b93969ec7459852c0a685bf0267f06a397b9dacda488821d5b076c794cc6e",
+    "experiments/tiegcm_zg_external_registration_v2/git_sync_local.json": "24aef5751b93f9fc9361ba3bb094da6e57de56bed48fd217938c157046fce342",
+    "experiments/tiegcm_zg_external_registration_v2/official_source_inventory.json": "b791f8f7bdb1b1cde2528f02c3abca0eae7680400e89e382b9f6fac560b02284",
+    "experiments/tiegcm_zg_external_registration_v2/source_preservation.json": "b7be3e20a89697cbae03d7618645207b79cb35649c804136e235672ae5dcbe6b",
+    "experiments/tiegcm_zg_external_registration_v2/sha256_manifest.json": "d13e89072e6349a09c9c5b7fad623eb67cc8e626df1fa43f289ce1965cabd36b",
+    "experiments/tiegcm_zg_external_registration_v2/independent_verification.json": "c9604d43ecc0ad206c46b5e71089c6887c009eb5ccfd93cff098a290139e2544",
+    "experiments/tiegcm_zg_external_registration_v2/source_chain_excerpts.csv": "cddb51eacdd512cd66cef98c7bd6a1994dd1699a643d8ca6a73b59b80d83dc78",
+    "experiments/tiegcm_zg_external_registration_v2/response_acceptance_matrix.csv": "14eaa59103cf56de3cc524a9f106d02048ea05124ffe2198bd54da714eb73a6e",
+    "experiments/tiegcm_zg_external_registration_v2/resource_audit.json": "09a284bbe8bbb0058cf94c092000f1a45cce9277f06d9e303d73cb8620082ff6",
+    "experiments/tiegcm_zg_external_registration_v2/model_configuration_manifest.json": "660784717ea51ab461d4f35e1630b37a251c30a9603e6e0319e3009b4b25fd32",
+    "experiments/tiegcm_zg_external_registration_v2/question_evidence_matrix.csv": "1e04001f8d5ec274f2b994aa4be1bee883eca49cf35e6ef5c335b641bd2a5a1e",
+    "experiments/tiegcm_zg_external_registration_v2/protocol.json": "fd337aaa34c8d4b8ce13a112bdd24ed649ee3f291277779cb296833805202f06",
+    "experiments/tiegcm_zg_external_registration_v2/commands.json": "165bf9dd5006fba7cdc1dddeb3a2f6f0a53b45e1ee045e0c64494823cab98687",
+    "experiments/tiegcm_zg_external_registration_v2/runtime_boundary_evidence.csv": "ad48bd0841c6635962d7a5a449a0330585e5c6f07df48d49bb733def0b6290ee"
+  },
+  "local_page_audit_SHA256": {
+    "contact_page_local.html": "7f914849cc980bcd3b03052e7d0bf6405a44437c420b1a24fe3ac441185e1c27",
+    "mailman_fetch_local.json": "80263657b91c6751dc929d4268e7817044a1650dcd0cc7059d9aec5afd07c0de",
+    "contact_fetch_local.json": "3b43e6d671886819a7b60b3a244bb33eee15997fd4e0b645021e6ba21aba2f8a"
+  },
+  "manifest_self_excluded": true
+}

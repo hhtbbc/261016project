@@ -1,0 +1,55 @@
+{
+  "checked_UTC": "2026-11-16T09:00:41.398087+00:00",
+  "official_pages": [
+    {
+      "URL": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/contact.html",
+      "retrieval": "web read success",
+      "original_excerpts": [
+        "please subscribe to the moderated email list",
+        "may also contact the following HAO scientists"
+      ],
+      "displayed_list_name": "tgcmgroup",
+      "displayed_address": "tgcmgroup@ucar.edu",
+      "link_target": "http://mailman.ucar.edu/mailman/listinfo/tgcmgroup",
+      "status": "LEGACY_OFFICIAL_DOCUMENT_TEXT_VERIFIED",
+      "other_support": "Legacy page lists individual HAO scientists for physics/chemistry/numerical/results questions; no individual addresses exported or contacted; current roles not established",
+      "link_target_as_retrieved": "http://mailman.ucar.edu/mailman/listinfo/tgcmgroup",
+      "link_target_note": "HTTPS endpoint specified by user tested separately; literal legacy anchor retained",
+      "cached_HTML_SHA256": "7f914849cc980bcd3b03052e7d0bf6405a44437c420b1a24fe3ac441185e1c27",
+      "queried_HTTPS_subscription_URL": "https://mailman.ucar.edu/mailman/listinfo/tgcmgroup"
+    },
+    {
+      "URL": "https://mailman.ucar.edu/mailman/listinfo/tgcmgroup",
+      "retrieval": "HTTP404 in web read and bounded HTTPS GET",
+      "original_excerpts": [],
+      "page_text_available": false,
+      "posting_address": null,
+      "subscription_required_to_post": null,
+      "administrator_approval_required": null,
+      "closed_list": null,
+      "status": "CURRENT_MAILMAN_POLICY_NOT_VERIFIED"
+    }
+  ],
+  "user_supplied_claims": {
+    "posting_address": "tgcmgroup@mailman.ucar.edu",
+    "subscription_requires_admin_approval": true,
+    "provenance": "Explicit current task text; not independently verified page text",
+    "status": "USER_SUPPLIED_PENDING_OFFICIAL_REVALIDATION"
+  },
+  "prepared_sending_workflow": {
+    "To": "tgcmgroup@mailman.ucar.edu",
+    "preconditions": [
+      "user verifies current official posting route",
+      "user successfully subscribes and receives administrator approval",
+      "user fills sender placeholders"
+    ],
+    "basis": "User-requested conservative precondition, not a claim that currently retrieved policy proves subscriber-only posting"
+  },
+  "not_equated_display_address_with_posting": true,
+  "delivery_test": false,
+  "current_maintainer_identity_verified": false,
+  "emails_sent": 0,
+  "subscriptions": 0,
+  "forms_submitted": 0,
+  "only_two_allowed_page_URLs_accessed": true
+}

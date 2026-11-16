@@ -1,0 +1,20 @@
+{
+  "PASS": true,
+  "source_SHA_fields_independently_match": true,
+  "calendar_and_SI_match": true,
+  "older_documents_and_interfaces_unchanged": 9,
+  "checked_SHA256": {
+    "docs/TIEGCM_ZG_EXTERNAL_REGISTRATION_QUESTIONS.md": "72033dacfc1ef1661973a0bcbf9c09da9bca2bffba7243f9334d572049bcf5b6",
+    "docs/TIEGCM_ZG_REGISTRATION_STATUS_20261103.md": "18de2b0b4b792ca62973f4776760c673598044f3ffa1459f7ee88166bb8bce2b",
+    "docs/TIEGCM_SWARM_COORDINATE_DATUM.md": "db31a695b7f40f4da9755969af0976b3a8a6106489ee2241a083877fb751cbf2",
+    "docs/TIEGCM2023_HEIGHT_DATUM_REVIEW.md": "807ec8720d1672b197ae36c7ad8f9c229038ef87bc7f34ca2e5dab2d5b7c4262",
+    "docs/CAUSAL_DENSITY_LATITUDE_CORRECTION_NEXT_DECISION_V1.md": "1a35017d439f12ab38a60bc6ad873efc52965c10f7eada5e151ecf2cb191d0ec",
+    "src/atmosphere/tiegcm_density_provider.py": "2af64d466f40fa235915ce6e4b29cf4fc28dad086245d3df9e30b7bc1db0291f",
+    "src/atmosphere/provisional_coordinate_adapter.py": "70487ead9b944e8e33187a567ad87666595789238c27416a552044d421a96e15",
+    "src/atmosphere/density_interface.py": "e40a2c4e96918bf155f20ba8c8eb73277ab07f9e4db8e19f2a6fb760f5a82b11",
+    "src/atmosphere/causal_observation_operator.py": "82ba4d1f413cc8f1c6c16219927204dc8b8ba888a1bf6172715738b3cac43f0d"
+  },
+  "wall_s": 0.0024431273341178894,
+  "CPU_s": 0.001065728999999998,
+  "peak_RSS_MiB": 15.80859375
+}
