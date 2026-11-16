@@ -1,0 +1,14 @@
+{
+  "working_directory": "/workspace/data/20261016",
+  "environment": "source scripts/activate_orbit.sh",
+  "command": "python scripts/prepare_zg_registration_package_v2.py",
+  "refuse_overwrite": true,
+  "reads": "bounded pinned source ranges and two NetCDF metadata/coordinates; not full field re-audit",
+  "web": "official grid/index/HAPI/contact/ESA catalog only",
+  "forbidden_actions_executed": 0,
+  "base_commit": "30671bd15d2712361e77d230cd7162349925809b",
+  "independent_command": "python scripts/verify_zg_registration_package_v2.py > logs/zg_registration_v2_verification.log 2>&1",
+  "draft": "English V2 manually refined from preserved original question draft; no sending command",
+  "source_browse": "rg/sed of listed source ranges and actual boundary logs; browser official-only URLs in official_source_inventory.json",
+  "no_large_audit_replay": true
+}

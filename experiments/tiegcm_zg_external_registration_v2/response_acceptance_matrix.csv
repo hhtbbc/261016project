@@ -1,0 +1,8 @@
+reply_type,next_action,required_validation,result_before_review,automatic_interface_release
+明确给出ZG零面和椭球关系,保留原文/日期/维护者身份及适用版本配置，核实数学定义，不直接改接口,版本+独立数学+坐标样例+高度误差预算+真实沿轨共同有效域全部通过后另任务审查,PENDING_VERSION_MATH_DOMAIN_REVIEW,False
+明确给出近似方法和误差,单列有界近似协议，明确误差性质/置信与适用域，禁止称精确转换,相同五项验证并经独立精度需求审查；不得外推官方有效域,BOUNDED_APPROXIMATION_CANDIDATE_ONLY,False
+仅明确模型纬度,只关闭纬度子问题，其他问题保持未验证,ZG零面和完整映射仍需补证,LATITUDE_ONLY_PARTIAL_CLOSURE,False
+仅说明ZG是几何高度,保存证据，但几何名称不能识别外部零面,门禁不解除,EXTERNAL_DATUM_UNVERIFIED,False
+只提供apex椭球信息,记录磁坐标约定，不自动绑定calczg/ZG,要求明确跨模块桥接和相同版本适用证据,EXTERNAL_DATUM_UNVERIFIED,False
+未回复或无法确认,记录日期/实际状态，不猜测，不拟合偏移替代,无新增官方证据则保持原状态,EXTERNAL_DATUM_UNVERIFIED,False
+回复仅适用其他版本或其他下边界,列出差异，询问2.0/实际B14的适用性,未做版本适配验证不能继承结论,VERSION_MISMATCH_BLOCKED,False

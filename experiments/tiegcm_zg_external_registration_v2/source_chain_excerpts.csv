@@ -1,0 +1,302 @@
+file,SHA256,line_start,line_end,excerpt
+third_party/TIEGCM2.0/src/cons.F,2c2475235247888c1cf7a9d46d18466f0d05acbe95fad2f75feb8d5ad16ea127,20,33,"20: !   Sub init_cons is called by sub init (init_mod.F).
+21: ! Parameter constants:
+22: !
+23:       integer,parameter :: ndays =366  ! maximum number of days in a year
+24:       real,parameter ::
+25:      |  dzp  = dz,           ! alias for dz (also dlev)
+26:      |  re   = 6.37122e8,    ! earth radius (cm)                  C(51)
+27:      |  re_dyn = 6.378165e8, ! earth radius for apex
+28:      |  re_inv = 1./re,      ! inverse of earth radius            C(52)
+29:      |  avo  = 6.023e23,     ! avogadro number                    C(85)
+30:      |  boltz = 1.38E-16,    ! boltzman's constant                C(84)
+31:      |  p0   = 5.0e-4,       ! standard pressure                  C(81)
+32:      |  gask = 8.314e7,      ! gas constant                       C(57)
+33:      |  grav_par = 3.986004415e20, ! standard gravitational parameter (cm^3/sec^2)"
+third_party/TIEGCM2.0/src/cons.F,2c2475235247888c1cf7a9d46d18466f0d05acbe95fad2f75feb8d5ad16ea127,124,140,"124:      |  cor(nlat),
+125:      |  grav,           ! accel due to gravity (dependent on lower boundary)
+126:      |  dzgrav,         ! grav/gask C(65)
+127:      |  difk(nlev+1,ndays),   ! background eddy diffusion
+128:      |  dift(nlev+1,ndays),   ! background thermal conductivity
+129:      |  xmue(nlev+1,ndays),   ! eddy viscosity (?)
+130:      |  zbound          ! background low bound of Z (formerly ZBA in annual tide)
+131: !
+132: ! Constants for dynamo and electric field calculations:
+133:       real,parameter :: h0 =9.0e6, r0 =re+h0    ! use mean earth radius
+134: !
+135: ! Save gdlat,gdlon(nmlonp1,nmlat) in degrees from apex for sub define_mag (mpi.F)
+136: !     real,dimension(nmlonp1,nmlat) :: gdlatdeg,gdlondeg
+137:
+138:       real,parameter :: hs=1.3e7
+139:       real ::
+140:      |  dlatg, dlong, dlatm, dlonm,dmagphrlon,"
+third_party/TIEGCM2.0/src/cons.F,2c2475235247888c1cf7a9d46d18466f0d05acbe95fad2f75feb8d5ad16ea127,310,317,"310:       dlamda_2div3 = 2./(3.*dlamda)   ! C(10)
+311:       dlamda_1div12 = 1./(12.*dlamda) ! C(11)
+312:       dlamda2_5div2 = 5./(2.*dlamda**2)   ! C(10)
+313:       dlamda2_4div3 = 4./(3.*dlamda**2)   ! C(10)
+314:       dlamda2_1div12 = 1./(12.*dlamda**2) ! C(11)
+315:       zbound = 136.291/sqrt(2.)*1.e5  ! background lower boundary of Z (cm)
+316: !
+317: ! expz(kmax) is exp(-zp) at midpoints:"
+third_party/TIEGCM2.0/src/cons.F,2c2475235247888c1cf7a9d46d18466f0d05acbe95fad2f75feb8d5ad16ea127,354,359,"354:       freq_semidi = 4.*pi/(24.*60.*60.)  ! was C(23)
+355: !
+356: ! Set gravity according to lower boundary:
+357:       grav = 870. ! (is 945. in time-gcm)
+358:       dzgrav = grav/gask   ! C(65)
+359: !"
+third_party/TIEGCM2.0/src/init.F,5ef58725bd7924d78e4eaa0bcae00dea42e84d2c77e25191b15154b47adbecdf,155,185,"155:       igswm_mi_di = 0
+156:       if (len_trim(gswm_mi_di_ncfile) > 0) igswm_mi_di = 1
+157:       if (igswm_mi_di > 0)
+158:      |  write(6,""('  gswm_mi_di_ncfile = ',a)"") trim(gswm_mi_di_ncfile)
+159: ! Set GSWM flag for semidiurnal tides:
+160:       igswm_mi_sdi = 0
+161:       if (len_trim(gswm_mi_sdi_ncfile) > 0) igswm_mi_sdi = 1
+162:       if (igswm_mi_sdi > 0)
+163:      |  write(6,""('  gswm_mi_sdi_ncfile = ',a)"")trim(gswm_mi_sdi_ncfile)
+164: ! Set GSWM flag for nonmigrating diurnal tides:
+165:       igswm_nm_di = 0
+166:       if (len_trim(gswm_nm_di_ncfile) > 0) igswm_nm_di = 1
+167:       if (igswm_nm_di > 0)
+168:      |  write(6,""('  gswm_nm_di_ncfile = ',a)"") trim(gswm_nm_di_ncfile)
+169: ! Set GSWM flag for nonmigrating semidiurnal tides:
+170:       igswm_nm_sdi = 0
+171:       if (len_trim(gswm_nm_sdi_ncfile) > 0) igswm_nm_sdi = 1
+172:       if (igswm_nm_sdi > 0)
+173:      |  write(6,""('  gswm_nm_sdi_ncfile = ',a)"")
+174:      |  trim(gswm_nm_sdi_ncfile)
+175: !
+176: ! If any gswm tides are used, set igetgswm==1:
+177:       igetgswm = 0
+178:       if (igswm_mi_di>0 .or. igswm_mi_sdi>0 .or.
+179:      |    igswm_nm_di>0 .or. igswm_nm_sdi>0) igetgswm = 1
+180: !
+181: ! Background saber/tidi, msis/hwm:
+182:       ibgrddata = 0
+183:       if (len_trim(bgrddata_ncfile) > 0) ibgrddata = 1
+184:       if (ibgrddata > 0)
+185:      |  write(6,""('  bgrddata_ncfile = ',a)"") trim(bgrddata_ncfile)"
+third_party/TIEGCM2.0/src/lbc.F,bc597c256683f89c30d697303719ece761600923814a3b80640b4821da4b04b5,105,115,"105:       if (ibgrddata > 0 ) then ! background based on data
+106:         call get_bgrddata(istep,iyear,iday,secs)
+107:         t_lbc(lon0:lon1,lat0:lat1) = bgrddata_t(lon0:lon1,lat0:lat1)
+108:         u_lbc(lon0:lon1,lat0:lat1) = bgrddata_u(lon0:lon1,lat0:lat1)
+109:         v_lbc(lon0:lon1,lat0:lat1) = bgrddata_v(lon0:lon1,lat0:lat1)
+110:         z_lbc(lon0:lon1,lat0:lat1) = bgrddata_z(lon0:lon1,lat0:lat1)
+111:       else !(default see cons module):
+112:         t_lbc(lon0:lon1,lat0:lat1) = tbound
+113:         u_lbc(lon0:lon1,lat0:lat1) = 0.
+114:         v_lbc(lon0:lon1,lat0:lat1) = 0.
+115:         z_lbc(lon0:lon1,lat0:lat1) = zbound"
+third_party/TIEGCM2.0/src/lbc.F,bc597c256683f89c30d697303719ece761600923814a3b80640b4821da4b04b5,128,159,"128: !
+129: ! GSWM migrating diurnal:
+130:       if (len_trim(gswm_mi_di_ncfile) > 0) then
+131:         do j=lat0,lat1
+132:           do i=lon0,lon1
+133:             t_lbc(i,j) = t_lbc(i,j)+gswm_mi_di_t(i,j)
+134:             u_lbc(i,j) = u_lbc(i,j)+gswm_mi_di_u(i,j)
+135:             v_lbc(i,j) = v_lbc(i,j)+gswm_mi_di_v(i,j)
+136:             z_lbc(i,j) = z_lbc(i,j)+gswm_mi_di_z(i,j)
+137:           enddo
+138:         enddo
+139: !
+140: ! Hough mode diurnal:
+141:       else ! use Hough functions for diurnal tide
+142:         do j=lat0,lat1
+143:           do i=lon0,lon1
+144:             t_lbc(i,j) = t_lbc(i,j)+real(t_di(j)*bnd_di(i)*t_expt_di)
+145:             u_lbc(i,j) = u_lbc(i,j)+real(u_di(j)*bnd_di(i)*uvz_expt_di)
+146:             v_lbc(i,j) = v_lbc(i,j)+real(v_di(j)*bnd_di(i)*uvz_expt_di)
+147:             z_lbc(i,j) = z_lbc(i,j)+real(z_di(j)*bnd_di(i)*uvz_expt_di)
+148:           enddo
+149:         enddo
+150:       endif
+151: !
+152: ! GSWM migrating semi-diurnal:
+153:       if (len_trim(gswm_mi_sdi_ncfile) > 0) then
+154:         do j=lat0,lat1
+155:           do i=lon0,lon1
+156:             t_lbc(i,j) = t_lbc(i,j)+gswm_mi_sdi_t(i,j)
+157:             u_lbc(i,j) = u_lbc(i,j)+gswm_mi_sdi_u(i,j)
+158:             v_lbc(i,j) = v_lbc(i,j)+gswm_mi_sdi_v(i,j)
+159:             z_lbc(i,j) = z_lbc(i,j)+gswm_mi_sdi_z(i,j)"
+third_party/TIEGCM2.0/src/addiag.F,0ad6c5cd0fa1058f10de0da6b156f5e466022a722f700ebf124f8efc4ac4e3e4,157,202,"157: !
+158: ! Calculate geopotential Z:
+159: !
+160:       do j=lat0,lat1
+161:         z(1,lon0:lon1,j) = z_lbc(lon0:lon1,j)
+162: !
+163: ! Complete calculation of geopotential Z:
+164: !
+165: ! w1 = barm
+166:         do i=lon0,lon1
+167:           do k=lev0,lev1-1
+168:             w1(k,i) = (barm(k,i,j)+barm(k+1,i,j))*0.5
+169:           enddo
+170:         enddo
+171: !       call addfld('W1a',' ',' ',w1,'lev',lev0,lev1,'lon',lon0,lon1,j)
+172: !
+173: ! w1 = tn/w1 (old model comment: s1=s2/s1=(t+t0)/m)
+174:         do i=lon0,lon1
+175:           do k=lev0,lev1-1
+176:             w1(k,i) = tn(k,i,j)/w1(k,i)
+177:           enddo
+178:         enddo
+179: !       call addfld('TNa',' ',' ',tn(:,lon0:lon1,j),
+180: !    |    'lev',lev0,lev1,'lon',lon0,lon1,j)
+181: !       call addfld('W1b',' ',' ',w1,'lev',lev0,lev1,'lon',lon0,lon1,j)
+182: !
+183: ! w1=(ds*r/g)*w1
+184: !
+185:         do i=lon0,lon1
+186:           do k=lev0,lev1-1
+187:             w1(k,i) = (dz/dzgrav) * w1(k,i)
+188:           enddo
+189:         enddo
+190: !       call addfld('W1c',' ',' ',w1,'lev',lev0,lev1,'lon',lon0,lon1,j)
+191: !
+192: ! Extend Z upward:
+193:         do i=lon0,lon1
+194:           do k=lev0,lev1-1
+195:             z(k+1,i,j) = w1(k,i)+z(k,i,j)
+196:           enddo
+197:         enddo
+198: !       call addfld('ADIAG_Z','Geopotential from addiag',
+199: !    |    'cm',z(:,lon0:lon1,j),'ilev',lev0,lev1,'lon',lon0,lon1,j)
+200:       enddo ! j=lat0,lat1
+201: !
+202: ! Calculate diagnostic geopotential zg, with varying gravity:"
+third_party/TIEGCM2.0/src/addiag.F,0ad6c5cd0fa1058f10de0da6b156f5e466022a722f700ebf124f8efc4ac4e3e4,221,282,"221:       subroutine calczg(tn,o2,o1,n2,he,z,zg,lon0,lon1,lev0,lev1,
+222:      |  lat0,lat1)
+223: !
+224: ! Given geopotential z (calculated with the model constant gravity),
+225: !   calculate geopotential zg with varying gravity. This is taken from
+226: !   tgcmproc_f90, routines calchts and glatf in proclat.F.
+227: ! ZG will be put on secondary histories, along with the regular Z.
+228: !
+229:       use params_module,only: dz,glat
+230:       use init_module,only: istep
+231:       use cons_module,only: boltz,avo
+232:       use addfld_module,only: addfld
+233: !
+234: ! Args:
+235:       integer,intent(in) :: lon0,lon1,lev0,lev1,lat0,lat1
+236:       real,dimension(lev0:lev1,lon0-2:lon1+2,lat0-2:lat1+2),intent(in)::
+237:      |  tn, ! neutral temperature (deg K)
+238:      |  o2, ! molecular oxygen (mmr)
+239:      |  o1, ! atomic oxygen (mmr)
+240:      |  he, ! helium (mmr)
+241:      |  n2, ! molecular nitrogen (mmr)
+242:      |  z   ! geopotential calculated with constant gravity (from addiag)
+243:       real,dimension(lev0:lev1,lon0-2:lon1+2,lat0-2:lat1+2),
+244:      |  intent(out) ::
+245:      |  zg  ! output geopotential calculated with varying gravity
+246: !
+247: ! Local:
+248:       integer :: i,j,k
+249:       real :: g0,r0,c2
+250:       real,dimension(lev0:lev1) :: xmas,g
+251:       real,parameter :: dgtr=1.74533E-2
+252: !
+253: ! Latitude scan:
+254: ! 1/20/10 btf: changed float(j) to glat(j) in cos of c2 calculation
+255:       do j=lat0,lat1
+256:         c2 = cos(2.*dgtr*glat(j))
+257:         g0 = 980.616*(1.-.0026373*c2)
+258:         r0 = 2.*g0/(3.085462e-6 + 2.27e-9*c2) ! effective earth radius
+259: !
+260: ! Longitude scan:
+261:         do i=lon0,lon1
+262:           g(1)=g0*(r0/(r0+0.5*(z(1,i,j)+z(2,i,j))))**2
+263:           xmas(:) = 1./(o1(:,i,j)/16.+o2(:,i,j)/32.+he(:,i,j)/4.+
+264:      |                  n2(:,i,j)/28.)/avo
+265: !
+266: ! Interface levels:
+267:           zg(lev0,i,j) = z(lev0,i,j)
+268:           do k=lev0+1,lev1-1
+269:             zg(k,i,j) = zg(k-1,i,j) + boltz*dz*tn(k-1,i,j) /
+270:      |        (xmas(k-1)*g(k-1))
+271:             g(k)=g0*(r0/(r0+0.5*(zg(k,i,j)+z(k+1,i,j))))**2
+272:           enddo ! k=lev0+1,lev1-1
+273:           zg(lev1,i,j) = 2.0*zg(lev1-1,i,j)-zg(lev1-2,i,j)
+274:         enddo ! i=lon0,lon1
+275: !
+276: ! Save ZG to secondary histories:
+277: ! PLEASE DO NOT COMMENT THIS OUT -- ZG IS A MANDATORY FIELD ON SECH HISTORIES
+278: !
+279:         call addfld('ZG','Geometric Height ZG',
+280:      |    'cm',zg(:,lon0:lon1,j),'ilev',lev0,lev1,'lon',lon0,lon1,j)
+281:       enddo ! j=lat0,lat1
+282:       end subroutine calczg"
+third_party/TIEGCM2.0/src/getapex.F,379ac098eb76ce19e7ec0e4a0088a7c9096632d4e537788d9cb7a83f059fa506,125,145,"125: ! cslatg, snlatg, alatm, alonm are in magfield module (magfield.F)
+126: !
+127:       re = re_dyn
+128:       rekm = re*1.e-5
+129:       h0km = h0*1.e-5
+130:       alt  = hs*1.e-5
+131:       hr = alt
+132:       ror03= ((rekm + alt)/(rekm + h0km))**3
+133:       do j = 0,nlatp1
+134: 	glat = ylatg(j)*rtd
+135: 	cslatg(j) = cos(ylatg(j))
+136: 	snlatg(j) = sin(ylatg(j))
+137: 	do i = 1,nlonp1
+138: 	  glon = ylong(i)*rtd
+139:           call apex_mall(
+140:      |      glat,glon,alt,hr,                         !Inputs
+141:      |      b,bhat,bmag,si,                           !Mag Fld
+142:      |      alon,                                     !Apx Lon
+143:      |      xlatm,vmp,w,d,be3,sim,d1,d2,d3,e1,e2,e3,  !Mod Apx
+144:      |      xlatqd,f,f1,f2 , ist)                     !Qsi-Dpl
+145:           if (ist .ne. 0) call shutdown('apex_mall')"
+experiments/tiegcm2_apex2023_v1/apex.F90,7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3,348,361,"348: subroutine apex_mall(glat,glon,alt,hr, b,bhat,bmag,si,alon,xlatm,vmp,w,&
+349:   d,be3,sim,d1,d2,d3,e1,e2,e3,xlatqd,f,f1,f2,ier)
+350: !
+351: ! Compute Modified Apex coordinates, quasi-dipole coordinates,
+352: ! base vectors and other parameters by interpolation from
+353: ! precalculated arrays. Subroutine apex_mka must be called
+354: ! before calling this subroutine.
+355: !
+356: ! Args:
+357:   real,intent(in)  :: & ! Input
+358:     glat             ,& ! Geographic (geodetic) latitude (deg)
+359:     glon             ,& ! Geographic (geodetic) longitude (deg)
+360:     alt              ,& ! Altitude (km)
+361:     hr                  ! Reference altitude (km)"
+experiments/tiegcm2_apex2023_v1/apex.F90,7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3,1038,1076,"1038: !
+1039: ! iflag = 1: Convert from geodetic to cylindrical
+1040: !   Input:  gdlat = Geodetic latitude (deg)
+1041: !           alt   = Altitude above reference ellipsoid (km)
+1042: !   Output: x1    = Distance from Earth's rotation axis (km)
+1043: !           x2    = Distance above (north of) Earth's equatorial plane (km)
+1044: !
+1045: ! iflag = 2: Convert from geodetic to geocentric spherical
+1046: !   Input:  gdlat = Geodetic latitude (deg)
+1047: !           alt   = Altitude above reference ellipsoid (km)
+1048: !   Output: x1    = Geocentric latitude (deg)
+1049: !           x2    = Geocentric distance (km)
+1050: !
+1051: ! iflag = 3: Convert from cylindrical to geodetic
+1052: !   Input:  x1    = Distance from Earth's rotation axis (km)
+1053: !           x2    = Distance from Earth's equatorial plane (km)
+1054: !   Output: gdlat = Geodetic latitude (deg)
+1055: !           alt   = Altitude above reference ellipsoid (km)
+1056: !
+1057: ! iflag = 4: Convert from geocentric spherical to geodetic
+1058: !   Input:  x1    = Geocentric latitude (deg)
+1059: !           x2    = Geocentric distance (km)
+1060: !   Output: gdlat = Geodetic latitude (deg)
+1061: !           alt   = Altitude above reference ellipsoid (km)
+1062: !
+1063: ! Args:
+1064:   integer,intent(in) :: iflag
+1065:   real,intent(inout) :: gdlat,alt
+1066:   real,intent(inout) :: x1,x2
+1067: !
+1068: ! Local:
+1069:   real :: sinlat,coslat,d,z,rho,rkm,scl,gclat,ri,a2,a4,a6,a8,&
+1070:     ccl,s2cl,c2cl,s4cl,c4cl,s8cl,s6cl,dltcl,sgl
+1071:   real,parameter ::                                         &
+1072:     fltnvrs = 298.25                                      , &
+1073:     e2=(2.-1./fltnvrs)/fltnvrs                            , &
+1074:     e4=e2*e2, e6=e4*e2, e8=e4*e4                          , &
+1075:     ome2req = (1.-e2)*req                                 , &
+1076:     A21 =     (512.*E2 + 128.*E4 + 60.*E6 + 35.*E8)/1024. , &"

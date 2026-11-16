@@ -1,0 +1,18 @@
+{
+  "PASS": true,
+  "checks": [
+    "base/APEX/patch SHA agree with actual build provenance",
+    "Make.env resolution: cons/lbc/addiag/getapex from untouched original tree; apex from overlay",
+    "both B14 executable and apex SHA match historical launch evidence",
+    "both runtime logs ibgrddata0/GSWM1,1,0,0 and zbound echo",
+    "both v13-B NetCDF SHA exact; DEN/ZG time,ilev,lat,lon with g/cm3/cm",
+    "lev=ilev+0.25; each29; TN semantics not copied onto DEN",
+    "official HAPI checksum and GRS80/units contract",
+    "no old draft/reports/protected provider changes",
+    "7 questions and7 acceptance reply types, no automatic interface release"
+  ],
+  "tests_scope": "static provenance/metadata assertions, not new geophysical coordinate validation",
+  "new_density_queries": 0,
+  "new_error_metrics": 0,
+  "excerpt_format": "Line numbers added and trailing whitespace removed for display; file SHA is for original unchanged source"
+}

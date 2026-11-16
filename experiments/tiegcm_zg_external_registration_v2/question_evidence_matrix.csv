@@ -1,0 +1,8 @@
+question,existing_evidence,official_source_ids,status,missing_evidence,current_conclusion
+模型纬度定义,params/defs规则地理格点，getapex直接传入ylatg*rtd，apex_mall声明geodetic,NCAR_BASE_SOURCE;NCAR_APEX_SOURCE;NCAR_GRID,PARTIALLY_VERIFIED,辅助入口约定已知；整个动力网格的外部大地/地心/球面及椭球定义未闭合,辅助入口为geodetic已明确，但全模型外部纬度约定仍待维护者确认
+ZG零点,ZG底层=Z底层=z_lbc；官方建议几何ZG用于观测比较,NCAR_BASE_SOURCE;NCAR_GRID;NCAR_ALTITUDE_PDF,UNVERIFIED,外部椭球/海平面/大地水准面/参考球或纯内部零面及原始引用,未找到可靠外部零面定义，不解除门禁
+zbound参考面,默认136.291/sqrt(2)*1e5cm，两B14 ibgrddata0，GSWM高度扰动相加,NCAR_BASE_SOURCE;NCAR_GRID,PARTIALLY_VERIFIED,默认经验常数的外部参考面、由Z到ZG底层等置的近似范围,默认计算及潮汐影响已核实，外部参考面未核实
+apex椭球关系,实际覆盖层req6378.160km/逆扁率298.25；getapex高度hs130km,NCAR_APEX_SOURCE;NCAR_BASE_SOURCE,PARTIALLY_VERIFIED,apex参数属于磁坐标；尚无其定义整个热力ZG零面的官方桥接证据,apex常数不能作为ZG外部登记公式
+GRS80/WGS84转换,官方产品GRS80；项目两椭球经同一XYZ数学转换，Map-A为显式假设,VIRES_HAPI;ESA_CATALOG;NCAR_GRID,PARTIALLY_VERIFIED,完整ITRF实现与模型纬度/ZG严格转换，不能用精确椭球数学回差替代,两椭球数学转换可追溯，不能推出模型ZG等价关系
+官方沿轨登记方法,官方要求ZG且按变量lev/ilev对齐；实际DEN/ZG均ilev,NCAR_GRID;NCAR_ALTITUDE_PDF;NCAR_BASE_SOURCE,PARTIALLY_VERIFIED,针对DNSAPOD GRS80/WGS84的版本适用完整流程/可验证示例,一般几何高度建议已明确，产品专用严格登记流程未找到
+登记误差范围,尚无适用当前零面/纬度约定的官方总误差界,NCAR_GRID;NCAR_ALTITUDE_PDF,UNVERIFIED,近似适用高度/纬度、来源和保守误差预算；不使用密度残差反推,没有可应用到本项目的官方总登记误差界

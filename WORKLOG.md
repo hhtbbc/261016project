@@ -1177,3 +1177,16 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 资源：预检3.425s，正式监督15.440s/exit0/PASS，worker14.366s/峰RSS318.047MiB，独立核验4.075s；采样树317.379MiB不是连续最大值。CPU计算阶段远低600s，输出约21MiB且<150MiB；编辑/交互不虚构连续采样。详见resource_audit.json。
 文件：src/evaluation/causal_density_latitude.py，prepare/run/verify/launch/finalize入口，tests/test_causal_density_latitude.py，新实验CSV/JSON/8图；reports/CAUSAL_DENSITY_LATITUDE_CORRECTION_V1.md和下一阶段决策。完整逐点原始值/查询轨迹只保存在_local缓存，不入库。
 状态：COMPLETE仅工程执行，科学训练False/高度未登记/RestartFAIL/DART未准入/真实轨道BLOCKED不变，2021A14工程PASS仅历史敏感性、2022A14PARTIAL保持。下一步建议先闭合高度与只读历史代表性诊断，不自动新校正/同化；完成后停止。Git按安全规则逐文件白名单、远端复核再正常推送，最终SHA与同步结果由本轮本地sync审计及最终答复记录。
+
+
+## 2026-11-16 — TIE-GCM ZG外部高度登记咨询准备V2
+
+目标：只复核证据并形成可发送英文咨询/回复验收，不进行新物理实验。起始realpath=/workspace/data/20261016，本地/远端main=30671bd15d2712361e77d230cd7162349925809b，无并发提交；旧未跟踪同步日志保留不入库。
+读取：AGENTS/STATUS/WORKLOG及九项指定历史资料；实际cons/lbc/addiag/getapex/apex覆盖层/Make.env与编译SHA、2021/2022 B14 input/log/preflight及v13-B原卷元数据。旧草稿和所有正式/临时接口均保护。
+方法：学习高度链→有限行段摘录→实际运行配置追溯→官方证据矩阵→四组英文咨询→预注册回复验收。calczg有效半径与apex椭球分开，ZG底层=Z底层=z_lbc而非已知现代椭球零面；实际DEN/ZG均ilev(g/cm3/cm)，lev=ilev+.25。两B14 ibgrddata0/迁移GSWM1,1/非迁移0,0，默认zbound约96.372290km；实际二进制/apexSHA与历史启动一致。作者2023配置不由此推定。
+官方有界查阅：NCAR grid、manual index、contact和VirES HAPI网页成功；ESA Handbook产品页406不可读，未绕过/重试或下载新数据。旧PDF/HAPI缓存SHA核实。Contact官方2016文档列示tgcmgroup渠道，当前投递/负责人仍未验证；无消息/表单/订阅操作。
+产物：experiments/tiegcm_zg_external_registration_v2/的protocol、source inventory、model manifest、7问证据/7类回复矩阵、源码及回显摘录、SHA/资源/命令/两项验证；docs/TIEGCM_ZG_EXTERNAL_REGISTRATION_REQUEST_V2.md（复用旧稿，未发送）；reports/TIEGCM_ZG_EXTERNAL_REGISTRATION_PACKAGE_V2.md。完整原始NetCDF/CDF不上传，host/logname私有属性不公开。
+实际命令：source scripts/activate_orbit.sh；python scripts/prepare_zg_registration_package_v2.py；python scripts/verify_zg_registration_package_v2.py（日志logs/zg_registration_v2_verification.log）；未重做大规模场或沿轨审计。静态溯源/元数据断言通过，独立验证88受保护文件逐字SHA不变；7问题=5部分/2未验证、0完整闭合；7类回复都不自动放行。
+资源：准备墙钟1.617804s/CPU1.583448s/进程峰RSS794.992MiB；独立检查0.995463s/CPU0.973781s/峰18.285MiB，受测CPU合计2.557229s。浏览/Git/编辑不冒充连续进程监控，原始新数据0、模型/GPU/DART/轨道/训练/查询/拟合0，公开成果远低150MiB。
+结果/问题：仍未证实整个模型地理纬度的外部定义、ZG/zbound零面与椭球关系、官方产品专用严格转换或总误差界。CONTACT为官方旧文档渠道已核实而当前可投递未核实；无维护者回复。EXTERNAL_DATUM_UNVERIFIED/科学训练False/RestartFAIL/DART未准入/真实轨道BLOCKED/A14历史资格均保持。
+下一步：用户补姓名单位并确认收件渠道后决定发送；任何实际回复先核版本、独立数学、坐标样例、误差预算、共同沿轨域五项，再另授权审查接口。任务完成停止，不进入代表性诊断/v14/DART。Git采用逐文件白名单及远端再核对，不强推；最终SHA/同步结果记录于本轮ignored sync本地审计与最终答复。

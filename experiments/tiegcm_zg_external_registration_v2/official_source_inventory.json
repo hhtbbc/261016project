@@ -1,0 +1,93 @@
+{
+  "sources": [
+    {
+      "id": "NCAR_GRID",
+      "official_URL": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/grid.html",
+      "publisher": "NCAR/HAO",
+      "version": "TIE-GCM2.0; altitude author date April2016",
+      "cached": {
+        "path": "data/raw/tiegcm2023_sources/grid_official_20261020.html",
+        "SHA256": "ab394c295fc50894dbd98e4aeaeeb78ce86c36403b2e558005289d2ebd63d886",
+        "bytes": 17939
+      },
+      "current_check": "2026-11-16 web read success",
+      "scope": "ZG/calczg/pressure grid; no explicit external zero surface located"
+    },
+    {
+      "id": "NCAR_ALTITUDE_PDF",
+      "official_URL": "https://download.hao.ucar.edu/pub/stans/tgcm/ZCoordinates.pdf",
+      "publisher": "NCAR/HAO",
+      "version": "cached official2016 altitude note",
+      "cached": {
+        "path": "data/raw/tiegcm2023_sources/ZCoordinates_official_20261020.pdf",
+        "SHA256": "b76e040fbfbf60e9563d199b3c380b7d442e24c7f521718635c11b75f5abe512",
+        "bytes": 85756
+      },
+      "current_check": "reuse only; no redownload",
+      "scope": "DEN interface note; geometric registration; not modern ellipsoid definition"
+    },
+    {
+      "id": "NCAR_BASE_SOURCE",
+      "official_URL": "https://github.com/NCAR/tiegcm/tree/da712811d925376ff8ef40ff64bda7cc070ca661",
+      "publisher": "NCAR",
+      "version": "tiegcm2.0",
+      "cached": {
+        "path": "logs/tiegcm_source_acquisition.json",
+        "SHA256": "af6e97fb2f726b1346873fe1db1be68442fd41351438466da4e8da4751d7595f",
+        "bytes": 397
+      },
+      "current_check": "local pinned source/SHA review; no new archive",
+      "scope": "implementation facts, not proof of external datum"
+    },
+    {
+      "id": "NCAR_APEX_SOURCE",
+      "official_URL": "https://raw.githubusercontent.com/NCAR/tiegcm/84185ee0b97307567c78e32ce85643b48a5cc1a9/src/apex.F90",
+      "publisher": "NCAR",
+      "version": "84185ee0b97307567c78e32ce85643b48a5cc1a9",
+      "cached": {
+        "path": "experiments/tiegcm2_apex2023_v1/apex.F90",
+        "SHA256": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3",
+        "bytes": 103680
+      },
+      "current_check": "local actual compiled overlay hash confirmed",
+      "scope": "apex geodetic interface/own ellipsoid; no calczg linkage proven"
+    },
+    {
+      "id": "VIRES_HAPI",
+      "official_URL": "https://vires.services/hapi/info?id=SW_OPER_DNSAPOD_2_",
+      "publisher": "ESA VirES service",
+      "version": "frozen official contract plus0301 CDF audit",
+      "cached": {
+        "path": "data/raw/fourcastden_swarm_observation_v1/HAPI_info.json",
+        "SHA256": "17ccced134a05fee2fd991acf6c1dbd44f166ed8239cf6435af11e3cef2c69ac",
+        "bytes": 1831
+      },
+      "current_check": "cached info SHA verified; official landing page read success",
+      "scope": "GRS80 product contract; Height_GD prose typo retained"
+    },
+    {
+      "id": "ESA_CATALOG",
+      "official_URL": "https://swarmhandbook.earth.esa.int/catalogue/SW_DNSxPOD_2_",
+      "publisher": "ESA Swarm Handbook",
+      "version": "linked by frozen official HAPI",
+      "current_check": "2026-11-16 web read failed HTTP406 Not Acceptable; no bypass/retry/data download",
+      "scope": "current page content unavailable; do not invent definitions"
+    },
+    {
+      "id": "NCAR_CONTACT",
+      "official_URL": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/contact.html",
+      "publisher": "NCAR/HAO",
+      "version": "2.0 manual, copyright2016",
+      "current_check": "2026-11-16 web read success from index Contact Information link",
+      "contact": "tgcmgroup@ucar.edu",
+      "contact_status": "OFFICIAL_DOCUMENTED_CHANNEL; DELIVERY_AND_CURRENT_OWNERSHIP_UNVERIFIED",
+      "scope": "moderated list in legacy official manual; not proof of current deliverability; no contact performed"
+    }
+  ],
+  "new_raw_data_download_bytes": 0,
+  "official_web_checks": "5 distinct URLs: grid/index/HAPI/contact/ESA catalog; grid read twice by browser positioning",
+  "web_transport_bytes_not_metered": true,
+  "not_claiming_zero_web_traffic": true,
+  "no_forum_sources": true,
+  "no_emails_or_forms_sent": true
+}

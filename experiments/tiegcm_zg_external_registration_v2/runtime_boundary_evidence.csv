@@ -1,0 +1,13 @@
+year,file,SHA256,key,line,text
+2021,logs/tiegcm_2021_14day_B14.log,53e6bd8b228cac1c281288e544726d15fb195280028fddf9a898b5191d517ce8,ibgrddata,886,"ibgrddata=      0    (If > 0, background datafile will be used.)"
+2021,logs/tiegcm_2021_14day_B14.log,53e6bd8b228cac1c281288e544726d15fb195280028fddf9a898b5191d517ce8,zbound,761,zbound (cm) =   0.963723E+07
+2021,logs/tiegcm_2021_14day_B14.log,53e6bd8b228cac1c281288e544726d15fb195280028fddf9a898b5191d517ce8,igswm_mi_di,875,"igswm_mi_di =      1    (If > 0, GSWM diurnal tidal database will be used.)"
+2021,logs/tiegcm_2021_14day_B14.log,53e6bd8b228cac1c281288e544726d15fb195280028fddf9a898b5191d517ce8,igswm_mi_sdi,883,"igswm_mi_sdi=      1    (If > 0, GSWM semidiurnal tidal database will be used.)"
+2021,logs/tiegcm_2021_14day_B14.log,53e6bd8b228cac1c281288e544726d15fb195280028fddf9a898b5191d517ce8,igswm_nm_di,884,"igswm_nm_di=      0    (If > 0, GSWM nonmigrating diurnal tidal database will be used.)"
+2021,logs/tiegcm_2021_14day_B14.log,53e6bd8b228cac1c281288e544726d15fb195280028fddf9a898b5191d517ce8,igswm_nm_sdi,885,"igswm_nm_sdi=      0    (If > 0, GSWM nonmigrating semidiurnal tidal database will be used.)"
+2022,experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/stdout.log,97065ac6f5592741429d5071c5e5e32f1729b619f3ec3e43c007d2a06de72e0f,ibgrddata,872,"ibgrddata=      0    (If > 0, background datafile will be used.)"
+2022,experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/stdout.log,97065ac6f5592741429d5071c5e5e32f1729b619f3ec3e43c007d2a06de72e0f,zbound,751,zbound (cm) =   0.963723E+07
+2022,experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/stdout.log,97065ac6f5592741429d5071c5e5e32f1729b619f3ec3e43c007d2a06de72e0f,igswm_mi_di,868,"igswm_mi_di =      1    (If > 0, GSWM diurnal tidal database will be used.)"
+2022,experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/stdout.log,97065ac6f5592741429d5071c5e5e32f1729b619f3ec3e43c007d2a06de72e0f,igswm_mi_sdi,869,"igswm_mi_sdi=      1    (If > 0, GSWM semidiurnal tidal database will be used.)"
+2022,experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/stdout.log,97065ac6f5592741429d5071c5e5e32f1729b619f3ec3e43c007d2a06de72e0f,igswm_nm_di,870,"igswm_nm_di=      0    (If > 0, GSWM nonmigrating diurnal tidal database will be used.)"
+2022,experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/stdout.log,97065ac6f5592741429d5071c5e5e32f1729b619f3ec3e43c007d2a06de72e0f,igswm_nm_sdi,871,"igswm_nm_sdi=      0    (If > 0, GSWM nonmigrating semidiurnal tidal database will be used.)"

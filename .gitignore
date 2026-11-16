@@ -385,3 +385,7 @@ credentials.json
 /experiments/causal_density_latitude_correction_v1/*_local.*
 /experiments/causal_density_latitude_correction_v1/**/*_local.*
 !/logs/latitude_correction_v1*.log
+
+# ZG registration evidence package: synchronization audit remains local
+/experiments/tiegcm_zg_external_registration_v2/*_local.*
+!/logs/zg_registration_v2*.log

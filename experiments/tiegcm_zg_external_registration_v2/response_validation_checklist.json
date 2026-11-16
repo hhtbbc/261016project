@@ -1,0 +1,15 @@
+{
+  "current_reply": "NONE",
+  "sent": false,
+  "required_all": [
+    "archive original reply with UTC, official identity and references",
+    "applicability to pinned2.0/apex overlay/default zbound/GSWM and variable grid",
+    "derive units/forward-inverse transform independently; no use of calczg r0 as ellipsoid",
+    "independent coordinate examples including equator, mid/high latitudes, longitude seam, unit and roundtrip checks",
+    "height error budget separating known ellipsoid geometry from unknown zero/lower boundary/gravity/discretization; require externally justified bounds",
+    "along-track common domain: all8columns, no extrapolation/fill, report exclusions and fixed validity rules",
+    "separate user-authorized formal-interface review; preserve previous provisional histories"
+  ],
+  "all_satisfied": false,
+  "gate": "EXTERNAL_DATUM_UNVERIFIED"
+}

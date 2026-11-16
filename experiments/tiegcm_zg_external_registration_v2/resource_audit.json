@@ -1,0 +1,23 @@
+{
+  "wall_s": 1.6178041324019432,
+  "process_CPU_s": 1.583447569,
+  "peak_process_RSS_MiB": 794.9921875,
+  "resource_scope": "package preparation process only; browser/Git/interactive editing not claimed continuously sampled",
+  "new_raw_download_bytes": 0,
+  "official_page_queries": true,
+  "model_integrations": 0,
+  "GPU": 0,
+  "DART": 0,
+  "orbit": 0,
+  "training": 0,
+  "messages_sent": 0,
+  "output_bytes_at_audit": 75504,
+  "limits_CPU_s": 600,
+  "limits_RSS_GiB": 4,
+  "limits_public_MiB": 150,
+  "independent_validation_wall_s": 0.9954633228480816,
+  "independent_validation_CPU_s": 0.9737811799999999,
+  "measured_process_CPU_s_total": 2.557228749,
+  "independent_validation_peak_RSS_MiB": 18.28515625,
+  "verification_failures": 0
+}
