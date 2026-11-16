@@ -1,0 +1,330 @@
+{
+  "protocol_SHA256": "bb1346ddbb0bae33fb8678a0b5341d804b627612999fd94e113a7c23ca90941c",
+  "Global_and_Latitude": {
+    "2021": {
+      "B14": {
+        "global_fit": {
+          "N": 360,
+          "first_UTC": "2021-03-23T15:00:00.000000000Z",
+          "last_UTC": "2021-03-23T17:59:30.000000000Z",
+          "sample_SHA256": "8b7267d237f33756b8b0e47efda02cbb5f4103701994ab29bcba34d9b6fd3640",
+          "status": "SUPPORTED",
+          "b": 0.08822672690027211,
+          "multiplier": 1.0922357331792325
+        },
+        "latitude": {
+          "low": {
+            "N": 123,
+            "first_UTC": "2021-03-23T15:05:30.000000000Z",
+            "last_UTC": "2021-03-23T17:40:30.000000000Z",
+            "sample_SHA256": "61cd84c7cbd24994b77c5482cd2f41131b691742910b151381d6e2c37ecef45e",
+            "status": "SUPPORTED",
+            "b": 0.20603258859996032,
+            "multiplier": 1.2287932479944124
+          },
+          "mid": {
+            "N": 122,
+            "first_UTC": "2021-03-23T15:00:00.000000000Z",
+            "last_UTC": "2021-03-23T17:48:30.000000000Z",
+            "sample_SHA256": "288430cd7edb631753c200d9cc3aa2b43c46c753fcdf5435fe820e48fa5bce47",
+            "status": "SUPPORTED",
+            "b": 0.12091361973114978,
+            "multiplier": 1.1285274256545075
+          },
+          "high": {
+            "N": 115,
+            "first_UTC": "2021-03-23T15:29:00.000000000Z",
+            "last_UTC": "2021-03-23T17:59:30.000000000Z",
+            "sample_SHA256": "cb1960e80d11aa6e58ba5c24f150f4f1a924cff214883278f4b2f2bc143430ac",
+            "status": "SUPPORTED",
+            "b": 0.07014310577234895,
+            "multiplier": 1.0726616743484574
+          }
+        },
+        "day": "2021-03-23",
+        "cutoff": "2021-03-23T18:00:00Z",
+        "satellite": "A",
+        "CDF_SHA256": "e6a03398dda6efedfb4cfc3aa8646daabc19f976911698330b41b8a6ef571b0d",
+        "NetCDF_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+        "protocol_SHA256": "bb1346ddbb0bae33fb8678a0b5341d804b627612999fd94e113a7c23ca90941c",
+        "future_poison_test": "future_poison_test.json after parameter freeze"
+      },
+      "A7": {
+        "global_fit": {
+          "N": 360,
+          "first_UTC": "2021-03-23T15:00:00.000000000Z",
+          "last_UTC": "2021-03-23T17:59:30.000000000Z",
+          "sample_SHA256": "6c03b8772c8cd57d95bc99282ee46f366d7fcc2c5b8e29a2fd02ff0f43739679",
+          "status": "SUPPORTED",
+          "b": 0.11247271581614093,
+          "multiplier": 1.1190417243561013
+        },
+        "latitude": {
+          "low": {
+            "N": 123,
+            "first_UTC": "2021-03-23T15:05:30.000000000Z",
+            "last_UTC": "2021-03-23T17:40:30.000000000Z",
+            "sample_SHA256": "6aa6db665d60dfe0df4794c9d89fe6e1eb2a9f276f69b02ffe657e9448dff5fa",
+            "status": "SUPPORTED",
+            "b": 0.22202455594350212,
+            "multiplier": 1.2486020380889404
+          },
+          "mid": {
+            "N": 122,
+            "first_UTC": "2021-03-23T15:00:00.000000000Z",
+            "last_UTC": "2021-03-23T17:48:30.000000000Z",
+            "sample_SHA256": "6d231cf06f25d874ab3513b0b7652739391c8aef045f30b7a74b55f4f7be1e54",
+            "status": "SUPPORTED",
+            "b": 0.13528769503236227,
+            "multiplier": 1.1448661092688281
+          },
+          "high": {
+            "N": 115,
+            "first_UTC": "2021-03-23T15:29:00.000000000Z",
+            "last_UTC": "2021-03-23T17:59:30.000000000Z",
+            "sample_SHA256": "7c7d70deb6a17203a05f4bac18c7b07427a4b821cd72008bc65e54b7c7ca1d01",
+            "status": "SUPPORTED",
+            "b": 0.0958060512713459,
+            "multiplier": 1.100545593874761
+          }
+        },
+        "day": "2021-03-23",
+        "cutoff": "2021-03-23T18:00:00Z",
+        "satellite": "A",
+        "CDF_SHA256": "e6a03398dda6efedfb4cfc3aa8646daabc19f976911698330b41b8a6ef571b0d",
+        "NetCDF_SHA256": "233fd66f506aa2400915814f425d9fd28989a7fc83d8c1b31c172ee66058f646",
+        "protocol_SHA256": "bb1346ddbb0bae33fb8678a0b5341d804b627612999fd94e113a7c23ca90941c",
+        "future_poison_test": "future_poison_test.json after parameter freeze"
+      },
+      "B7": {
+        "global_fit": {
+          "N": 360,
+          "first_UTC": "2021-03-23T15:00:00.000000000Z",
+          "last_UTC": "2021-03-23T17:59:30.000000000Z",
+          "sample_SHA256": "d5f519c5998f98b11189b0554da69c21bd7d393444053ef3b6c693aaa77eb4b5",
+          "status": "SUPPORTED",
+          "b": 0.06749527988538695,
+          "multiplier": 1.0698252098883778
+        },
+        "latitude": {
+          "low": {
+            "N": 123,
+            "first_UTC": "2021-03-23T15:05:30.000000000Z",
+            "last_UTC": "2021-03-23T17:40:30.000000000Z",
+            "sample_SHA256": "979af3ac2f99a647161affb4ee324d9517088bb40376c2acee6ba6fc02a2188d",
+            "status": "SUPPORTED",
+            "b": 0.17453110703108976,
+            "multiplier": 1.1906877805707459
+          },
+          "mid": {
+            "N": 122,
+            "first_UTC": "2021-03-23T15:00:00.000000000Z",
+            "last_UTC": "2021-03-23T17:48:30.000000000Z",
+            "sample_SHA256": "8e0581c672940d5b8da8813973d070988b8c5ddb154bc42b2307a54458713d91",
+            "status": "SUPPORTED",
+            "b": 0.10207294333666184,
+            "multiplier": 1.1074642509194415
+          },
+          "high": {
+            "N": 115,
+            "first_UTC": "2021-03-23T15:29:00.000000000Z",
+            "last_UTC": "2021-03-23T17:59:30.000000000Z",
+            "sample_SHA256": "cc60208bf7b356eb62dd89d9b7d2060520ec23baa0049765cefe19e53c99db7d",
+            "status": "SUPPORTED",
+            "b": 0.04607910535932902,
+            "multiplier": 1.047157243430663
+          }
+        },
+        "day": "2021-03-23",
+        "cutoff": "2021-03-23T18:00:00Z",
+        "satellite": "A",
+        "CDF_SHA256": "e6a03398dda6efedfb4cfc3aa8646daabc19f976911698330b41b8a6ef571b0d",
+        "NetCDF_SHA256": "68c867ef059cb1eac5b774bb55ef7677a4c3d1231668270e2b3478482517413f",
+        "protocol_SHA256": "bb1346ddbb0bae33fb8678a0b5341d804b627612999fd94e113a7c23ca90941c",
+        "future_poison_test": "future_poison_test.json after parameter freeze"
+      }
+    },
+    "2022": {
+      "B14": {
+        "global_fit": {
+          "N": 360,
+          "first_UTC": "2022-03-23T15:00:00.000000000Z",
+          "last_UTC": "2022-03-23T17:59:30.000000000Z",
+          "sample_SHA256": "1f0b41de04f8e342ea355bab4c06d11b92d62b246b7c69e99b4695cba9debc9c",
+          "status": "SUPPORTED",
+          "b": 0.11940772751592199,
+          "multiplier": 1.126829263934712
+        },
+        "latitude": {
+          "low": {
+            "N": 119,
+            "first_UTC": "2022-03-23T15:00:00.000000000Z",
+            "last_UTC": "2022-03-23T17:32:30.000000000Z",
+            "sample_SHA256": "ecacfde292997303766ab5c33ecef5f1ce2fc85cd7c1edcdfda7ce57202d4e90",
+            "status": "SUPPORTED",
+            "b": 0.03545858325822948,
+            "multiplier": 1.0360947355713088
+          },
+          "mid": {
+            "N": 117,
+            "first_UTC": "2022-03-23T15:13:00.000000000Z",
+            "last_UTC": "2022-03-23T17:59:30.000000000Z",
+            "sample_SHA256": "33a638c9817d3811c1eaf416568d408f4fe05eec6a11ba0311c5cbe99f3f9276",
+            "status": "SUPPORTED",
+            "b": 0.07177760141176748,
+            "multiplier": 1.074416368807322
+          },
+          "high": {
+            "N": 124,
+            "first_UTC": "2022-03-23T15:21:00.000000000Z",
+            "last_UTC": "2022-03-23T17:55:30.000000000Z",
+            "sample_SHA256": "791978b04e2fce87ec2093927a71e884a75465865996b0cfacac7668dbd8f391",
+            "status": "SUPPORTED",
+            "b": 0.12638043326970738,
+            "multiplier": 1.1347137690495157
+          }
+        },
+        "day": "2022-03-23",
+        "cutoff": "2022-03-23T18:00:00Z",
+        "satellite": "A",
+        "CDF_SHA256": "7b37f210c9b202d99212eff0fc329918b71532d4b79932655340859bd5847398",
+        "NetCDF_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+        "protocol_SHA256": "bb1346ddbb0bae33fb8678a0b5341d804b627612999fd94e113a7c23ca90941c",
+        "future_poison_test": "future_poison_test.json after parameter freeze"
+      },
+      "A7": {
+        "global_fit": {
+          "N": 360,
+          "first_UTC": "2022-03-23T15:00:00.000000000Z",
+          "last_UTC": "2022-03-23T17:59:30.000000000Z",
+          "sample_SHA256": "7942413fd5afe3417eba8c5b851f6f5efb4f260da1533362fba8a8d68148b2b4",
+          "status": "SUPPORTED",
+          "b": 0.16734083960461632,
+          "multiplier": 1.1821571226158656
+        },
+        "latitude": {
+          "low": {
+            "N": 119,
+            "first_UTC": "2022-03-23T15:00:00.000000000Z",
+            "last_UTC": "2022-03-23T17:32:30.000000000Z",
+            "sample_SHA256": "af4a840dcffa8c3e0f9434e6e61f18f1d2956f37b49011cc48979f1b97e0b4f4",
+            "status": "SUPPORTED",
+            "b": 0.07131813209919713,
+            "multiplier": 1.0739228208506848
+          },
+          "mid": {
+            "N": 117,
+            "first_UTC": "2022-03-23T15:13:00.000000000Z",
+            "last_UTC": "2022-03-23T17:59:30.000000000Z",
+            "sample_SHA256": "60d6b4420508b4e42fd7f0a98c82e1bf0d09488eac83d72245caadc7cf8aef4b",
+            "status": "SUPPORTED",
+            "b": 0.11178074286355155,
+            "multiplier": 1.118267645601696
+          },
+          "high": {
+            "N": 124,
+            "first_UTC": "2022-03-23T15:21:00.000000000Z",
+            "last_UTC": "2022-03-23T17:55:30.000000000Z",
+            "sample_SHA256": "1207f81e63f9d153278fc9264897f37e1edf3937cd3414425d9c7758b60ab2d1",
+            "status": "SUPPORTED",
+            "b": 0.1763596126167375,
+            "multiplier": 1.1928669515342623
+          }
+        },
+        "day": "2022-03-23",
+        "cutoff": "2022-03-23T18:00:00Z",
+        "satellite": "A",
+        "CDF_SHA256": "7b37f210c9b202d99212eff0fc329918b71532d4b79932655340859bd5847398",
+        "NetCDF_SHA256": "2d883664b96d82714448c2459267dc6dec4d451cdd3c779d9536a66b4b8c1a21",
+        "protocol_SHA256": "bb1346ddbb0bae33fb8678a0b5341d804b627612999fd94e113a7c23ca90941c",
+        "future_poison_test": "future_poison_test.json after parameter freeze"
+      },
+      "B7": {
+        "global_fit": {
+          "N": 360,
+          "first_UTC": "2022-03-23T15:00:00.000000000Z",
+          "last_UTC": "2022-03-23T17:59:30.000000000Z",
+          "sample_SHA256": "e40d0995d1d68e74251dd1c5662d872959578ad649b120a9516ef68a0649614a",
+          "status": "SUPPORTED",
+          "b": 0.10271970277723419,
+          "multiplier": 1.1081807455536787
+        },
+        "latitude": {
+          "low": {
+            "N": 119,
+            "first_UTC": "2022-03-23T15:00:00.000000000Z",
+            "last_UTC": "2022-03-23T17:32:30.000000000Z",
+            "sample_SHA256": "ac185d5658e2eda604235b345912b285bebdd8662f4a07b1c5bc237cdbf6a982",
+            "status": "SUPPORTED",
+            "b": 0.02228796321525195,
+            "multiplier": 1.0225381954651196
+          },
+          "mid": {
+            "N": 117,
+            "first_UTC": "2022-03-23T15:13:00.000000000Z",
+            "last_UTC": "2022-03-23T17:59:30.000000000Z",
+            "sample_SHA256": "24d9c1b0ed662b21090f9c8976aa585f1d041be0f1768cf0185608f475f45e9e",
+            "status": "SUPPORTED",
+            "b": 0.05945857933926746,
+            "multiplier": 1.0612618019040907
+          },
+          "high": {
+            "N": 124,
+            "first_UTC": "2022-03-23T15:21:00.000000000Z",
+            "last_UTC": "2022-03-23T17:55:30.000000000Z",
+            "sample_SHA256": "5a2fccd3901b9c288cd825a930f264587e3b2adb109f116ca0935123cf679782",
+            "status": "SUPPORTED",
+            "b": 0.10849503405055749,
+            "multiplier": 1.1145993734804605
+          }
+        },
+        "day": "2022-03-23",
+        "cutoff": "2022-03-23T18:00:00Z",
+        "satellite": "A",
+        "CDF_SHA256": "7b37f210c9b202d99212eff0fc329918b71532d4b79932655340859bd5847398",
+        "NetCDF_SHA256": "0cb6465ff5abf8e1f1945e034d23a8c2d29827b158138b631173648b1e75ee6d",
+        "protocol_SHA256": "bb1346ddbb0bae33fb8678a0b5341d804b627612999fd94e113a7c23ca90941c",
+        "future_poison_test": "future_poison_test.json after parameter freeze"
+      }
+    }
+  },
+  "Stale06": {
+    "2021": {
+      "coefficient": {
+        "N": 360,
+        "first_UTC": "2021-03-23T03:00:00.000000000Z",
+        "last_UTC": "2021-03-23T05:59:30.000000000Z",
+        "sample_SHA256": "f82d4b85906cd33c71eb6f1773f5e60fed32746757825f3654ef6ef8edea81cc",
+        "status": "SUPPORTED",
+        "b": 0.01590407657631232,
+        "multiplier": 1.016031219538388
+      },
+      "day": "2021-03-23",
+      "background": "B14",
+      "history": "[03,06)",
+      "CDF_SHA256": "e6a03398dda6efedfb4cfc3aa8646daabc19f976911698330b41b8a6ef571b0d",
+      "NetCDF_SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+      "protocol_SHA256": "bb1346ddbb0bae33fb8678a0b5341d804b627612999fd94e113a7c23ca90941c",
+      "future_poison_test": "future_poison_test.json after parameter freeze"
+    },
+    "2022": {
+      "coefficient": {
+        "N": 360,
+        "first_UTC": "2022-03-23T03:00:00.000000000Z",
+        "last_UTC": "2022-03-23T05:59:30.000000000Z",
+        "sample_SHA256": "c76aad223cbc8bee4460b431318176a392e5565aee8d335a552fcf9f06e6bcb2",
+        "status": "SUPPORTED",
+        "b": 0.07744231497506071,
+        "multiplier": 1.080519900843349
+      },
+      "day": "2022-03-23",
+      "background": "B14",
+      "history": "[03,06)",
+      "CDF_SHA256": "7b37f210c9b202d99212eff0fc329918b71532d4b79932655340859bd5847398",
+      "NetCDF_SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+      "protocol_SHA256": "bb1346ddbb0bae33fb8678a0b5341d804b627612999fd94e113a7c23ca90941c",
+      "future_poison_test": "future_poison_test.json after parameter freeze"
+    }
+  },
+  "all_coefficients_before_future_scores": true
+}

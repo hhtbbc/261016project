@@ -1,0 +1,19 @@
+test_29_unsupported_no_borrow (test_causal_density_latitude.LatitudeTests) ... ok
+test_30_supported (test_causal_density_latitude.LatitudeTests) ... ok
+test_boundaries_and_negative_latitudes (test_causal_density_latitude.LatitudeTests) ... ok
+test_future_own_region_used (test_causal_density_latitude.LatitudeTests) ... ok
+test_future_poison_global_local_and_Stale (test_causal_density_latitude.LatitudeTests) ... ok
+test_future_region_NA_cannot_pass (test_causal_density_latitude.LatitudeTests) ... ok
+test_global_only_stale_and_unsupported_full_score (test_causal_density_latitude.LatitudeTests) ... ok
+test_invalid_application_rejected (test_causal_density_latitude.LatitudeTests) ... ok
+test_invalid_density_rejected (test_causal_density_latitude.LatitudeTests) ... ok
+test_matches_global_baseline (test_causal_density_latitude.LatitudeTests) ... ok
+test_missing_support_cannot_pass (test_causal_density_latitude.LatitudeTests) ... ok
+test_no_overwrite (test_causal_density_latitude.LatitudeTests) ... ok
+test_nonA_rejected (test_causal_density_latitude.LatitudeTests) ... ok
+test_nonfinite_latitude_rejected (test_causal_density_latitude.LatitudeTests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.048s
+
+OK

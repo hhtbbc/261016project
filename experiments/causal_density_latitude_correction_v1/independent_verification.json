@@ -1,0 +1,45 @@
+{
+  "PASS": true,
+  "independent_sorted_median_coefficients": 26,
+  "independent_metric_rows": 560,
+  "independent_joint_rows": 98,
+  "CDF_checks": [
+    {
+      "year": "2021",
+      "N": 2880,
+      "quality": 2880,
+      "late_N": 1080,
+      "early_N": 360,
+      "SHA_PASS": true,
+      "units": {
+        "VARIABLE DESCRIPTION": "Density derived from GPS accelerations (FAST)",
+        "UNITS": "kg/m3",
+        "FORMAT": "E16.9",
+        "FILLVAL": "0.99900E+33"
+      }
+    },
+    {
+      "year": "2022",
+      "N": 2880,
+      "quality": 2880,
+      "late_N": 1080,
+      "early_N": 360,
+      "SHA_PASS": true,
+      "units": {
+        "VARIABLE DESCRIPTION": "Density derived from GPS accelerations (FAST)",
+        "UNITS": "kg/m3",
+        "FORMAT": "E16.9",
+        "FILLVAL": "0.99900E+33"
+      }
+    }
+  ],
+  "original_sources_SHA_PASS": true,
+  "protected_history_files_unchanged": 205,
+  "future_poison_PASS": true,
+  "requested_sample_identity_PASS": true,
+  "manual_prediction_and_exp_PASS": true,
+  "rtol": 1e-13,
+  "atol": 0,
+  "wall_s": 4.075123991817236,
+  "peak_RSS_MiB": 83.9453125
+}

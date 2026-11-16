@@ -1,0 +1,11 @@
+{
+  "PASS": true,
+  "early_B14_queries": 720,
+  "early_valid": 720,
+  "code_tests": "test_causal_density_latitude.py passed before freeze",
+  "CDF_SHA_PASS": true,
+  "NetCDF_SHA_PASS": true,
+  "wall_s": 3.42474552243948,
+  "peak_RSS_MiB": 270.34765625,
+  "protected_history_files": 205
+}

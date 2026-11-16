@@ -1,0 +1,17 @@
+{
+  "engineering_workflow_PASS": true,
+  "wall_s": 14.366274364292622,
+  "peak_RSS_MiB": 318.046875,
+  "late_queries": 6480,
+  "late_valid": 6480,
+  "early_queries_reused_from_gate": 720,
+  "new_early_queries_in_run": 0,
+  "all_parameters_before_future_metrics": true,
+  "future_poison_PASS": true,
+  "plots": 8,
+  "downloads": 0,
+  "GPU": 0,
+  "TIE": 0,
+  "DART": 0,
+  "orbit": 0
+}

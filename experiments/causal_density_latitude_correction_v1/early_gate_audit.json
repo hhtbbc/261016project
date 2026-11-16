@@ -1,0 +1,65 @@
+{
+  "PASS": true,
+  "case_queries": [
+    {
+      "year": "2021",
+      "case": "B14",
+      "frames": 4,
+      "total_queries": 360,
+      "valid": 360,
+      "failed": 0,
+      "first_UTC": "2021-03-23T03:00:00.000000000Z",
+      "last_UTC": "2021-03-23T05:59:30.000000000Z",
+      "eight_columns": true,
+      "no_extrapolation": true
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "frames": 4,
+      "total_queries": 360,
+      "valid": 360,
+      "failed": 0,
+      "first_UTC": "2022-03-23T03:00:00.000000000Z",
+      "last_UTC": "2022-03-23T05:59:30.000000000Z",
+      "eight_columns": true,
+      "no_extrapolation": true
+    }
+  ],
+  "explicit_scan": [
+    {
+      "year": "2021",
+      "case": "B14",
+      "field": "DEN",
+      "frames": 4,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2021",
+      "case": "B14",
+      "field": "ZG",
+      "frames": 4,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "field": "DEN",
+      "frames": 4,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "field": "ZG",
+      "frames": 4,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    }
+  ],
+  "correction_fits": 0,
+  "future_scores": 0
+}

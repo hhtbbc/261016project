@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/data/20261016/scripts/verify_causal_density_latitude_v1.py", line 73, in <module>
+    if __name__=='__main__':main()
+  File "/workspace/data/20261016/scripts/verify_causal_density_latitude_v1.py", line 31, in main
+    for key,k in [('density','density'),('latitude','lat'),('utc','utc')]:assert np.array_equal(obs[key][late],a[y+'_'+k])
+  File "/workspace/data/20261016/.venv310/lib/python3.10/site-packages/numpy/lib/npyio.py", line 263, in __getitem__
+    raise KeyError(f"{key} is not a file in the archive")
+KeyError: '2021_lat is not a file in the archive'

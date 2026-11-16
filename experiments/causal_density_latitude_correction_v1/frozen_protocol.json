@@ -1,0 +1,106 @@
+{
+  "tag": "causal_density_latitude_correction_v1",
+  "frozen_UTC": "2026-11-16T07:58:22.196383+00:00",
+  "identity": "PROVISIONAL Map-A / HINDCAST / NOT_BLIND / EXTERNAL_DATUM_UNVERIFIED / DATE_HELD_OUT / SAME_CONTINUOUS_TIE_RUN",
+  "days": [
+    "2021-03-23",
+    "2022-03-23"
+  ],
+  "primary": "B14",
+  "controls": [
+    "A7",
+    "B7"
+  ],
+  "A14": "EXCLUDED",
+  "GlobalAdaptive18": "separate case same-day [15,18) median(ln(obs)-ln(model))",
+  "LatitudeAdaptive18": "same estimator/mask/window, low abs(GRS80 lat)<30;mid30<=abs<60;high>=60; no hemisphere split",
+  "Stale06": "B14 only, newly estimated same03-23[03,06); never use03-24 coefficients",
+  "methods": [
+    "Raw",
+    "GlobalAdaptive18",
+    "LatitudeAdaptive18",
+    "Stale06 B14 only"
+  ],
+  "calibration_half_open": [
+    "15:00",
+    "18:00"
+  ],
+  "Stale_history_half_open": [
+    "03:00",
+    "06:00"
+  ],
+  "future_half_open": [
+    [
+      "18:00",
+      "19:00"
+    ],
+    [
+      "18:00",
+      "21:00"
+    ],
+    [
+      "18:00",
+      "24:00"
+    ]
+  ],
+  "nonoverlap": [
+    [
+      "18:00",
+      "19:00"
+    ],
+    [
+      "19:00",
+      "21:00"
+    ],
+    [
+      "21:00",
+      "24:00"
+    ]
+  ],
+  "min_history_samples": 30,
+  "min_future_region_samples": 30,
+  "insufficient": "UNSUPPORTED history, no fallback/interpolation/global borrowing; full local result and joint N/A when any selected future region unsupported or any region N<30",
+  "latitude_application": "future point uses its own original GRS80 latitude band",
+  "shared_masks": "all source quality/model-valid points per year; no dropping unsupported local points to manufacture complete score",
+  "metrics": "unchanged metric_row/compare_density; observed denominator; MAE/RMSE/relativeRMS/P95/Bias/relativeBias/logRMS/Pearson/max_abs",
+  "joint": {
+    "RMSE_BENEFIT": "strict decrease",
+    "RELATIVE_RMS_BENEFIT": "strict decrease",
+    "TAIL_NONWORSENED": "relativeP95 <=Raw",
+    "LOW_LATITUDE_BIAS_NONWORSENED": "abs(relativeBias_low)<=Raw",
+    "JOINT_NO_REGRET": "all4 and all3 regions supported andN>=30 elseFAIL/N/A"
+  },
+  "parameters_saved_before_future_metrics": true,
+  "future_poison_factor": 1e+20,
+  "no_fit_height_longitude_LST_decay_kernel_smoothing_search": true,
+  "code_SHA256": {
+    "src/evaluation/causal_density_latitude.py": "a0c3f96aa949a98093874ddb87c07671c87002efd04d1eb75af4b16c53dac2a8",
+    "scripts/prepare_causal_density_latitude_v1.py": "4713e1750340bdc7ba9adac6abc30813ab8e532525521d0615b1038b173fa4bd",
+    "scripts/run_causal_density_latitude_v1.py": "4e40ce255f64cd64d66aae7dcd8e1ab7ec43a3e74977cae436fbf7dec7a662cc",
+    "tests/test_causal_density_latitude.py": "937bb596bfd73f90ca111d21ec3566e76d668cc91b2651a9a6a03edaa0f72c6f",
+    "src/atmosphere/hourly_tiegcm_observation.py": "31d3cba796e6304f00e73fe8cb08b1aedf6de3e11b8ef4b20b0860d3e4066ff8",
+    "src/atmosphere/causal_observation_operator.py": "82ba4d1f413cc8f1c6c16219927204dc8b8ba888a1bf6172715738b3cac43f0d",
+    "src/atmosphere/tiegcm_density_provider.py": "2af64d466f40fa235915ce6e4b29cf4fc28dad086245d3df9e30b7bc1db0291f",
+    "src/evaluation/swarm_crossyear.py": "5fbe5916cede884e9f519279f766134781ecf96784fa4ea6113954b300d63ca2",
+    "src/evaluation/swarm_density_comparison.py": "c97d1284144b9fd0dbdce754705ddbf2adcccc0db59ad4143b8a8f9fc27fe2fc",
+    "src/evaluation/late_day_correction.py": "dcec926510a194a5992a4dea98603dcdf824c80b5e30f9ec72758819cb31d050"
+  },
+  "early_match_SHA256": "a9e7c837f667f5f5107f42d0304f44480859885e34b581eda58d9a0a663b7880",
+  "resources": {
+    "CPU_wall_s": 600,
+    "RSS_GiB": 4,
+    "output_MiB": 150,
+    "downloads": 0,
+    "GPU": 0,
+    "TIE": 0,
+    "DART": 0,
+    "orbit": 0
+  },
+  "scientific_guards": {
+    "training": false,
+    "external_datum": "EXTERNAL_DATUM_UNVERIFIED",
+    "Restart": "FAIL",
+    "DART": "NOT_ADMITTED",
+    "real_orbit": "BLOCKED"
+  }
+}

@@ -1,0 +1,23 @@
+test_boundaries (test_tiegcm_density_provider.DensityTests) ... ok
+test_cache_repeat_close (test_tiegcm_density_provider.DensityTests) ... ok
+test_cf_mismatch_rejected (test_tiegcm_density_provider.DensityTests) ... ok
+test_datum (test_tiegcm_density_provider.DensityTests) ... ok
+test_duplicate_rejected (test_tiegcm_density_provider.DensityTests) ... ok
+test_fill_corner (test_tiegcm_density_provider.DensityTests) ... ok
+test_grid_units (test_tiegcm_density_provider.DensityTests) ... ok
+test_hand_calculation (test_tiegcm_density_provider.DensityTests) ... ok
+test_linear_alternative (test_tiegcm_density_provider.DensityTests) ... ok
+test_nan_corner (test_tiegcm_density_provider.DensityTests) ... ok
+test_no_handle_leak (test_tiegcm_density_provider.DensityTests) ... ok
+test_nonuniform_horizontal_and_seam (test_tiegcm_density_provider.DensityTests) ... ok
+test_order_corner (test_tiegcm_density_provider.DensityTests) ... ok
+test_periodic (test_tiegcm_density_provider.DensityTests) ... ok
+test_poles (test_tiegcm_density_provider.DensityTests) ... ok
+test_source (test_tiegcm_density_provider.DensityTests) ... ok
+test_time (test_tiegcm_density_provider.DensityTests) ... ok
+test_zero_weight_bad_neighbor_rejected (test_tiegcm_density_provider.DensityTests) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 1.016s
+
+OK

@@ -1,0 +1,22 @@
+{
+  "actual_order": [
+    "source scripts/activate_orbit.sh",
+    "python -m unittest discover -s tests -p test_causal_density_latitude.py -v",
+    "python scripts/prepare_causal_density_latitude_v1.py",
+    "python scripts/launch_causal_density_latitude_v1.py",
+    "python scripts/verify_causal_density_latitude_v1.py"
+  ],
+  "regressions": [
+    "test_late_day_correction.py",
+    "test_observation_feasibility_v1.py",
+    "test_hourly_tiegcm_observation.py",
+    "test_tiegcm_density_provider.py"
+  ],
+  "no_rerun_warning": "prepare refuses existing experiment; supervisor launch_once marker refuses repeated run; do not remove histories to rerun",
+  "verification_initial_error_log": "logs/latitude_correction_v1_verification.log",
+  "verification_success_log": "logs/latitude_correction_v1_verification_fixed.log",
+  "new_model_queries": 7200,
+  "network": "no observation/data network access; Git synchronization only",
+  "base_code_commit": "dcff26fca4f637d6c7bda693a1ef0319e6ba59b9",
+  "frozen_code_SHA": "frozen_protocol.json.code_SHA256"
+}

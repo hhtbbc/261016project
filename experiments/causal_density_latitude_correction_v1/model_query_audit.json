@@ -1,0 +1,279 @@
+{
+  "cases": [
+    {
+      "year": "2021",
+      "case": "B14",
+      "frames": 10,
+      "queries": 1080,
+      "valid": 1080,
+      "failed": 0,
+      "first_frame": "2021-03-23T15:00:00.000",
+      "last_frame": "2021-03-24T00:00:00.000",
+      "wall_s": 1.3145618811249733
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "frames": 10,
+      "queries": 1080,
+      "valid": 1080,
+      "failed": 0,
+      "first_frame": "2021-03-23T15:00:00.000",
+      "last_frame": "2021-03-24T00:00:00.000",
+      "wall_s": 1.0455046780407429
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "frames": 10,
+      "queries": 1080,
+      "valid": 1080,
+      "failed": 0,
+      "first_frame": "2021-03-23T15:00:00.000",
+      "last_frame": "2021-03-24T00:00:00.000",
+      "wall_s": 1.0169084072113037
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "frames": 10,
+      "queries": 1080,
+      "valid": 1080,
+      "failed": 0,
+      "first_frame": "2022-03-23T15:00:00.000",
+      "last_frame": "2022-03-24T00:00:00.000",
+      "wall_s": 1.2834416814148426
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "frames": 10,
+      "queries": 1080,
+      "valid": 1080,
+      "failed": 0,
+      "first_frame": "2022-03-23T15:00:00.000",
+      "last_frame": "2022-03-24T00:00:00.000",
+      "wall_s": 1.0415700115263462
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "frames": 10,
+      "queries": 1080,
+      "valid": 1080,
+      "failed": 0,
+      "first_frame": "2022-03-23T15:00:00.000",
+      "last_frame": "2022-03-24T00:00:00.000",
+      "wall_s": 1.0647714920341969
+    }
+  ],
+  "explicit_scan": [
+    {
+      "year": "2021",
+      "case": "B14",
+      "field": "DEN",
+      "frames": 10,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2021",
+      "case": "B14",
+      "field": "ZG",
+      "frames": 10,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "field": "DEN",
+      "frames": 10,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "field": "ZG",
+      "frames": 10,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "field": "DEN",
+      "frames": 10,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "field": "ZG",
+      "frames": 10,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "field": "DEN",
+      "frames": 10,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "field": "ZG",
+      "frames": 10,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "field": "DEN",
+      "frames": 10,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "field": "ZG",
+      "frames": 10,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "field": "DEN",
+      "frames": 10,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "field": "ZG",
+      "frames": 10,
+      "invalid": 0,
+      "nonmonotonic_ZG": 0
+    }
+  ],
+  "interpolation_probes": [
+    {
+      "year": "2021",
+      "case": "B14",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "B14",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "B14",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "index": 1079,
+      "relative_difference": 0.0
+    }
+  ],
+  "all_eight_columns": true
+}

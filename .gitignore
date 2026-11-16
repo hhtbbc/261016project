@@ -380,3 +380,8 @@ credentials.json
 /experiments/causal_density_latitude_acquisition_v1/*_local.*
 /experiments/causal_density_latitude_acquisition_v1/**/*_local.*
 !/logs/latitude_acquisition_v1*.log
+
+# v13-B: immutable original values and full matched/query diagnostics stay local
+/experiments/causal_density_latitude_correction_v1/*_local.*
+/experiments/causal_density_latitude_correction_v1/**/*_local.*
+!/logs/latitude_correction_v1*.log

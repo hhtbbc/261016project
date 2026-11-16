@@ -1,0 +1,53 @@
+{
+  "PASS": true,
+  "after_parameter_SHA_freeze": true,
+  "parameter_SHA256_unchanged": "723e634fd1644082e387c7789ffb1aeb2a4dd6d299ff127ce70692a2ff5ba732",
+  "checks": [
+    {
+      "year": "2021",
+      "case": "B14",
+      "GlobalAdaptive18_PASS": true,
+      "LatitudeAdaptive18_PASS": true
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "GlobalAdaptive18_PASS": true,
+      "LatitudeAdaptive18_PASS": true
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "GlobalAdaptive18_PASS": true,
+      "LatitudeAdaptive18_PASS": true
+    },
+    {
+      "year": "2021",
+      "case": "B14_Stale06",
+      "Stale06_PASS": true
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "GlobalAdaptive18_PASS": true,
+      "LatitudeAdaptive18_PASS": true
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "GlobalAdaptive18_PASS": true,
+      "LatitudeAdaptive18_PASS": true
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "GlobalAdaptive18_PASS": true,
+      "LatitudeAdaptive18_PASS": true
+    },
+    {
+      "year": "2022",
+      "case": "B14_Stale06",
+      "Stale06_PASS": true
+    }
+  ]
+}

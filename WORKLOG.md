@@ -1165,3 +1165,15 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 测试：52当前CPU项通过（12传输/安全/CRC、14质量、8hourly、18native），初版11项另留。独立5760CDF、6480查询缓存及18原列重建探针通过，CRC/SHA/HTTP/样本计数再次核验，无科学误差指标。
 - 资源：已计量核心含失败/误报监督和最终审计/独立核验/全部测试合计25.973秒，峰值采样RSS296.570MiB，报告前审计目录17.269MiB；准备与交互文件操作不逐项计时，不冒称对话墙钟/连续RSS峰值。网络/解压/600秒/4GiB/150MiB均未扩张。
 - 交付：reports/CAUSAL_DENSITY_LATITUDE_ACQUISITION_V1.md，docs/CAUSAL_DENSITY_LATITUDE_ACQUISITION_NEXT_DECISION_V1.md，protocol/download/CDF合同/质量/样本计数/model coverage/资源/原始异常/独立审计/命令/SHA。状态获取COMPLETE，纬度任务READY_FOR_V13_PROTOCOL_FREEZE；算法未执行，等待下一轮，不自动算Stale06/局地b或任何未来误差。科学训练False、EXTERNAL_DATUM_UNVERIFIED、RestartFAIL、DART未准入、真实轨道BLOCKED与两年A14资格保持。Git仅轻量审计，实际同步以远端HEAD独立核验为准。
+
+
+## 2026-11-16 — v13-B 纬度分区因果密度校正
+
+目标：仅改变空间代表性，03-23独立观测日期，B14主/A7B7控制，A14排除。根目录realpath已核验；起始本地/远端main=dcff26fca4f637d6c7bda693a1ef0319e6ba59b9，无覆盖旧目录。
+实际：重验两CDF与六原卷/配置/驱动SHA；B14同日[03,06)各360/360四帧八列、晚间六背景各1080/1080十帧，共7200有效查询，无外推或填充值；协议SHA bb1346ddbb0bae33fb8678a0b5341d804b627612999fd94e113a7c23ca90941c。所有26系数先冻结再未来毒化和评分，Stale不借03-24。三纬区历史N2021=123/122/115，2022=119/117/124。
+环境/命令：source scripts/activate_orbit.sh；unittest新14+旧51=65项；prepare_causal_density_latitude_v1.py→launch_causal_density_latitude_v1.py→verify_causal_density_latitude_v1.py。入口有已存在目录/一次性标记拒绝重复，未运行GPU/TIE/DART/轨道或下载。完整命令见experiments/causal_density_latitude_correction_v1/commands.json。
+结果：B14局地1/3/6h绝对RMSE均下降，但relative RMS仅2021首小时下降；联合0/6、控制局地0/12。2021六小时Raw/Global/Latitude相对RMS20.795/23.426/28.354%，2022为22.197/28.189/26.319%。低纬Bias2021从+1.450%变+24.661%，2022从−1.913%变+1.627%；未形成一致收益。B14局地四旗标计11/24（6+1+0+4），全部局地尾部未通过。42项主要未来联合评价中仅2021 B14 Stale首小时通过，不是新方法成功。
+验证：独立排序中位数/exp/历史N和SHA/560指标/98联合行，rtol1e-13 atol0；未来毒化不影响系数；205保护文件不变，8PNG。核验器首试误读缓存latitude为lat发生KeyError，仅修正核验脚本后复核成功，失败日志与成功日志均保留，正式拟合评价未重跑。
+资源：预检3.425s，正式监督15.440s/exit0/PASS，worker14.366s/峰RSS318.047MiB，独立核验4.075s；采样树317.379MiB不是连续最大值。CPU计算阶段远低600s，输出约21MiB且<150MiB；编辑/交互不虚构连续采样。详见resource_audit.json。
+文件：src/evaluation/causal_density_latitude.py，prepare/run/verify/launch/finalize入口，tests/test_causal_density_latitude.py，新实验CSV/JSON/8图；reports/CAUSAL_DENSITY_LATITUDE_CORRECTION_V1.md和下一阶段决策。完整逐点原始值/查询轨迹只保存在_local缓存，不入库。
+状态：COMPLETE仅工程执行，科学训练False/高度未登记/RestartFAIL/DART未准入/真实轨道BLOCKED不变，2021A14工程PASS仅历史敏感性、2022A14PARTIAL保持。下一步建议先闭合高度与只读历史代表性诊断，不自动新校正/同化；完成后停止。Git按安全规则逐文件白名单、远端复核再正常推送，最终SHA与同步结果由本轮本地sync审计及最终答复记录。
