@@ -1,0 +1,22 @@
+{
+  "state": "BLOCKED_MISSING_HOLDOUT_OBSERVATION",
+  "observation_gate_PASS": false,
+  "missing_dates": [
+    "2021-03-23",
+    "2022-03-23"
+  ],
+  "both_official_products_in_cached_listing": true,
+  "current_official_availability": "NOT_RECHECKED",
+  "target_CDFs_found": 0,
+  "target_ZIPs_found": 0,
+  "target_HDRs_found": 0,
+  "known_Mar24_data_not_substituted": true,
+  "TIE_target_day_static_or_eight_column_gate": "NOT_RUN: stopped at earlier observation gate; do not infer PASS from March24 audit",
+  "phase2_protocol_frozen": false,
+  "correction_parameters_computed": 0,
+  "model_density_queries": 0,
+  "future_metric_evaluations": 0,
+  "figures_generated": 0,
+  "new_observation_download_bytes": 0,
+  "wall_s": 2.309883024543524
+}

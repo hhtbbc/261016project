@@ -1,0 +1,23 @@
+{
+  "workspace": "/workspace/data/20261016",
+  "environment": "source scripts/activate_orbit.sh",
+  "executed": [
+    "pwd",
+    "realpath .",
+    "git status --short --branch",
+    "git log -1 --oneline",
+    "git ls-remote origin refs/heads/main",
+    "rg --files --hidden --no-ignore /workspace/data/20261016 | rg 'SW_OPER_DNSAPOD_2__202(1|2)0323'",
+    "python scripts/audit_latitude_holdout_v1.py"
+  ],
+  "not_executed": [
+    "download",
+    "CDF target-day parsing (absent)",
+    "NetCDF target-day query",
+    "protocol freeze phase2",
+    "fit",
+    "future metrics",
+    "plots"
+  ],
+  "rerun_warning": "Immutable audit folder; new authorization requires explicit continuation record, never overwrite this blocked audit"
+}

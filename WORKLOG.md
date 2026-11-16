@@ -1142,3 +1142,14 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 资源：监督exit0/PASS 20.462秒；核心预检+监督+核验+5套测试已计量合计30.981秒，峰值采样RSS328.352MiB，报告前目录19.823MiB；交互小文件操作不逐项计时，不冒称对话自然墙钟/连续RSS峰值，600秒/4GiB/150MiB未扩张。
 - 高度：复用v10官方证据更新，无新定义/维护者回复，不重复历史搜索或发邮件。EXTERNAL_DATUM_UNVERIFIED、RestartFAIL、DART未准入、训练False、真实轨道BLOCKED保持。
 - 交付：reports/CAUSAL_DENSITY_LATE_DAY_VALIDATION_V1.md、docs/CAUSAL_DENSITY_LATE_DAY_NEXT_DECISION_V1.md、协议/来源/系数/指标/区域/密度箱/逐点/时间块/联合/资源/SHA/命令/9图。研究状态COMPLETE非科学PASS；有局地单因素假设依据，尚未证实局地有效，下一轮另授权，不自动执行。只公开轻量派生结果，原始和完整查询/匹配本地；Git结果以实际逐字HEAD核验为准。
+
+
+## 2026-11-16：v13纬度分区独立日期数据准入审计（BLOCKED）
+- 起始本地/远端main逐字一致b3e4fc1a31dbc5a6c674be8915e3dd356ce74bbc，未重复推送旧成果；AGENTS/STATUS/WORKLOG与v10/v11/v12报告/v12决策实际读取。旧同步未跟踪日志不动。
+- 按本轮2.2先查本地观测：97487个工作区文件无2021/2022-03-23 A0301目标ZIP/CDF/HDR；独立rg --files --hidden --no-ignore全根扫描也0匹配。两旧listing.json SHA cc3cb2ec...与各自HTTP200下载凭证一致，准确列示20210323...0301.ZIP 140271字节、20220323...0301.ZIP139397字节，官方路径及原凭证保存。只使用缓存，不声称当前服务器可访问。
+- 数据缺口：两日实际CDF未取得，CDF SHA/UTC覆盖/2880记录/30秒/单位/flag/经纬高均NOT_VERIFIED_NO_CDF，不照搬3月24日有效率。禁止下载严格执行，原始新增0字节；不改日期，不用2023替代。
+- 停止边界：CAUSAL_DENSITY_LATITUDE=BLOCKED_MISSING_HOLDOUT_OBSERVATION；未进入阶段2，无frozen_protocol/参数/拟合/未来指标/科研图。原模型目标日15—24Z、次日00/8列沿轨验收未运行，不根据旧03-24报告写PASS。3月23日Stale06也尚未拟合，不借03-24系数。
+- 交付：scripts/audit_latitude_holdout_v1.py（仅本地审计、无网络/模型/拟合入口），新run preflight/candidate_holdout_audit/source_manifest/data_acquisition_request/resource/commands/独立复核/SHA；reports/CAUSAL_DENSITY_LATITUDE_VALIDATION_V1.md明确未运行，docs/CAUSAL_DENSITY_LATITUDE_NEXT_DECISION_V1.md只申请数据。
+- 实测：本地审计2.310秒，单进程rusage峰值27.238MiB，资源限制未扩张；小交互/Git操作不逐项计时。独立核验2日期、缓存SHA和279668字节合计、无替代/无阶段2输出通过。未实施数值算法，故不虚构局地数值测试/系数或联合通过数。
+- 下一步：等待用户授权仅取得两日A ZIP与必要小元数据（缓存合计约0.267MiB，建议下载上限1MiB、安全解压2MiB；实际版本/大小变化即停），验证SHA/CRC/CDF再做模型门禁，之后才能冻结和执行既定纬区方法。请求不是授权，本轮不执行。
+- 状态：科学训练False、EXTERNAL_DATUM_UNVERIFIED、RestartFAIL、DART未准入、真实轨道BLOCKED、2021A14工程PASS仅敏感性/2022A14PARTIAL保持。v10—v12原代码/数据/结果不覆盖，按安全规则只提交轻量审计/文档；最终Git以实际HEAD核验记录为准。

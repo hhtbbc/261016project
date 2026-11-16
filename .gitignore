@@ -371,3 +371,7 @@ credentials.json
 # Late-day pilot: complete observation matches and per-query caches remain local
 /experiments/causal_density_late_day_v1/*_local.*
 !/logs/late_day_causal_v1*.log
+
+# Latitude holdout gate: local sync/credential records never public
+/experiments/causal_density_latitude_v1/*_local.*
+!/logs/latitude_holdout_v1*.log
