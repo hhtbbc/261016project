@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/workspace/data/20261016/scripts/query_causal_density_v1.py", line 74, in <module>
+    if __name__=='__main__':main()
+  File "/workspace/data/20261016/scripts/query_causal_density_v1.py", line 39, in main
+    oldpath=ROOT/'results/tiegcm_2022_b14_exploratory_pair_v2/observation/aligned_local.npz';old=np.load(oldpath);oldproof=json.loads((V/'protected_inputs.json').read_text());assert sha(oldpath)==oldproof[str(oldpath.relative_to(ROOT))];protected[str(oldpath.relative_to(ROOT))]=sha(oldpath)
+KeyError: 'results/tiegcm_2022_b14_exploratory_pair_v2/observation/aligned_local.npz'

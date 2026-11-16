@@ -1,0 +1,79 @@
+{
+  "exit_kind": "NONZERO",
+  "returncode": 1,
+  "signal": null,
+  "qualification": "FAIL",
+  "stop_reason": null,
+  "elapsed_s": 1.8030417189002037,
+  "identity": {
+    "pid": 2066111,
+    "start_ticks": 1796608447,
+    "uid": 0,
+    "pgid": 2066111,
+    "sid": 2066111
+  },
+  "wait_source": "direct subprocess.Popen.wait",
+  "peak_sampled_tree_rss_bytes": 87285760,
+  "samples": [
+    {
+      "wall_s": 0.3091193176805973,
+      "rss_bytes": 52654080,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 580,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1358171209728,
+      "total_output_bytes": 14970,
+      "log_size": 0
+    },
+    {
+      "wall_s": 0.6146629080176353,
+      "rss_bytes": 78393344,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 806,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1358171209728,
+      "total_output_bytes": 15196,
+      "log_size": 0
+    },
+    {
+      "wall_s": 0.9199749492108822,
+      "rss_bytes": 81772544,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 1032,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1358171209728,
+      "total_output_bytes": 15422,
+      "log_size": 0
+    },
+    {
+      "wall_s": 1.225469846278429,
+      "rss_bytes": 86523904,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 1259,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1358171209728,
+      "total_output_bytes": 15649,
+      "log_size": 0
+    },
+    {
+      "wall_s": 1.5311108753085136,
+      "rss_bytes": 87285760,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 1485,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1358171209728,
+      "total_output_bytes": 15875,
+      "log_size": 0
+    }
+  ],
+  "gaps": [],
+  "cleanup_verified": true,
+  "children_cpu_user_s": 1.632363,
+  "children_cpu_system_s": 0.432913,
+  "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+}

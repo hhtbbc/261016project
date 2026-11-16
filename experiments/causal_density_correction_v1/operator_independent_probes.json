@@ -1,0 +1,196 @@
+{
+  "PASS": true,
+  "CDF_checks": [
+    {
+      "file": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/SW_OPER_DNSAPOD_2__20210324T000000_20210324T235930_0301.cdf",
+      "record": 0,
+      "PASS": true
+    },
+    {
+      "file": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/SW_OPER_DNSAPOD_2__20210324T000000_20210324T235930_0301.cdf",
+      "record": 1440,
+      "PASS": true
+    },
+    {
+      "file": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/SW_OPER_DNSAPOD_2__20210324T000000_20210324T235930_0301.cdf",
+      "record": 2879,
+      "PASS": true
+    },
+    {
+      "file": "data/raw/swarm_tiegcm_2022_observation_v1/SW_OPER_DNSAPOD_2__20220324T000000_20220324T235930_0301.cdf",
+      "record": 0,
+      "PASS": true
+    },
+    {
+      "file": "data/raw/swarm_tiegcm_2022_observation_v1/SW_OPER_DNSAPOD_2__20220324T000000_20220324T235930_0301.cdf",
+      "record": 1440,
+      "PASS": true
+    },
+    {
+      "file": "data/raw/swarm_tiegcm_2022_observation_v1/SW_OPER_DNSAPOD_2__20220324T000000_20220324T235930_0301.cdf",
+      "record": 2879,
+      "PASS": true
+    },
+    {
+      "file": "data/raw/thermosphere_observation_assimilation_feasibility_v1/SW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.cdf",
+      "record": 0,
+      "PASS": true
+    },
+    {
+      "file": "data/raw/thermosphere_observation_assimilation_feasibility_v1/SW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.cdf",
+      "record": 1440,
+      "PASS": true
+    },
+    {
+      "file": "data/raw/thermosphere_observation_assimilation_feasibility_v1/SW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.cdf",
+      "record": 2879,
+      "PASS": true
+    }
+  ],
+  "interpolation_reconstructions": [
+    {
+      "case": "B14",
+      "satellite": "A",
+      "sample": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B14",
+      "satellite": "A",
+      "sample": 540,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B14",
+      "satellite": "A",
+      "sample": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B14",
+      "satellite": "C",
+      "sample": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B14",
+      "satellite": "C",
+      "sample": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B14",
+      "satellite": "C",
+      "sample": 719,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "satellite": "A",
+      "sample": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "satellite": "A",
+      "sample": 540,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "satellite": "A",
+      "sample": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "satellite": "C",
+      "sample": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "satellite": "C",
+      "sample": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "satellite": "C",
+      "sample": 719,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "satellite": "A",
+      "sample": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "satellite": "A",
+      "sample": 540,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "satellite": "A",
+      "sample": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "satellite": "C",
+      "sample": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "satellite": "C",
+      "sample": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "satellite": "C",
+      "sample": 719,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A14",
+      "satellite": "A",
+      "sample": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A14",
+      "satellite": "A",
+      "sample": 540,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A14",
+      "satellite": "A",
+      "sample": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A14",
+      "satellite": "C",
+      "sample": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A14",
+      "satellite": "C",
+      "sample": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A14",
+      "satellite": "C",
+      "sample": 719,
+      "relative_difference": 0.0
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "PASS": true,
+  "explicit_native_mask_scan": [
+    {
+      "case": "B14",
+      "file": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+      "variable": "DEN",
+      "used_hourly_records": 0,
+      "tested_grid_values": 0,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "B14",
+      "file": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+      "variable": "ZG",
+      "used_hourly_records": 0,
+      "tested_grid_values": 0,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "B14",
+      "file": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+      "variable": "DEN",
+      "used_hourly_records": 10,
+      "tested_grid_values": 751680,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "B14",
+      "file": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_016.nc",
+      "variable": "ZG",
+      "used_hourly_records": 10,
+      "tested_grid_values": 751680,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "A7",
+      "file": "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_008.nc",
+      "variable": "DEN",
+      "used_hourly_records": 0,
+      "tested_grid_values": 0,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "A7",
+      "file": "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_008.nc",
+      "variable": "ZG",
+      "used_hourly_records": 0,
+      "tested_grid_values": 0,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "A7",
+      "file": "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_009.nc",
+      "variable": "DEN",
+      "used_hourly_records": 10,
+      "tested_grid_values": 751680,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "A7",
+      "file": "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_009.nc",
+      "variable": "ZG",
+      "used_hourly_records": 10,
+      "tested_grid_values": 751680,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "B7",
+      "file": "experiments/tiegcm_2022_dual_initial_spinup_v1/secondary_008.nc",
+      "variable": "DEN",
+      "used_hourly_records": 0,
+      "tested_grid_values": 0,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "B7",
+      "file": "experiments/tiegcm_2022_dual_initial_spinup_v1/secondary_008.nc",
+      "variable": "ZG",
+      "used_hourly_records": 0,
+      "tested_grid_values": 0,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "B7",
+      "file": "experiments/tiegcm_2022_dual_initial_spinup_v1/secondary_009.nc",
+      "variable": "DEN",
+      "used_hourly_records": 10,
+      "tested_grid_values": 751680,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "B7",
+      "file": "experiments/tiegcm_2022_dual_initial_spinup_v1/secondary_009.nc",
+      "variable": "ZG",
+      "used_hourly_records": 10,
+      "tested_grid_values": 751680,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "A14",
+      "file": "experiments/tiegcm_2022_spinup_14day_v1/A14/secondary_015.nc",
+      "variable": "DEN",
+      "used_hourly_records": 0,
+      "tested_grid_values": 0,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "A14",
+      "file": "experiments/tiegcm_2022_spinup_14day_v1/A14/secondary_015.nc",
+      "variable": "ZG",
+      "used_hourly_records": 0,
+      "tested_grid_values": 0,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "A14",
+      "file": "experiments/tiegcm_2022_spinup_14day_v1/A14/secondary_016.nc",
+      "variable": "DEN",
+      "used_hourly_records": 10,
+      "tested_grid_values": 751680,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    },
+    {
+      "case": "A14",
+      "file": "experiments/tiegcm_2022_spinup_14day_v1/A14/secondary_016.nc",
+      "variable": "ZG",
+      "used_hourly_records": 10,
+      "tested_grid_values": 751680,
+      "explicit_fill_or_nonfinite_or_nonpositive_count": 0
+    }
+  ],
+  "pointwise_diagnostics": [
+    {
+      "case": "B14",
+      "satellite": "A",
+      "N": 720,
+      "improved_points": 514,
+      "worsened_points": 206,
+      "unchanged_points": 0,
+      "nonpositive_corrected": 0,
+      "nonfinite_corrected": 0
+    },
+    {
+      "case": "B14",
+      "satellite": "C",
+      "N": 720,
+      "improved_points": 520,
+      "worsened_points": 200,
+      "unchanged_points": 0,
+      "nonpositive_corrected": 0,
+      "nonfinite_corrected": 0
+    },
+    {
+      "case": "A7",
+      "satellite": "A",
+      "N": 720,
+      "improved_points": 535,
+      "worsened_points": 185,
+      "unchanged_points": 0,
+      "nonpositive_corrected": 0,
+      "nonfinite_corrected": 0
+    },
+    {
+      "case": "A7",
+      "satellite": "C",
+      "N": 720,
+      "improved_points": 543,
+      "worsened_points": 177,
+      "unchanged_points": 0,
+      "nonpositive_corrected": 0,
+      "nonfinite_corrected": 0
+    },
+    {
+      "case": "B7",
+      "satellite": "A",
+      "N": 720,
+      "improved_points": 512,
+      "worsened_points": 208,
+      "unchanged_points": 0,
+      "nonpositive_corrected": 0,
+      "nonfinite_corrected": 0
+    },
+    {
+      "case": "B7",
+      "satellite": "C",
+      "N": 720,
+      "improved_points": 518,
+      "worsened_points": 202,
+      "unchanged_points": 0,
+      "nonpositive_corrected": 0,
+      "nonfinite_corrected": 0
+    },
+    {
+      "case": "A14",
+      "satellite": "A",
+      "N": 720,
+      "improved_points": 521,
+      "worsened_points": 199,
+      "unchanged_points": 0,
+      "nonpositive_corrected": 0,
+      "nonfinite_corrected": 0
+    },
+    {
+      "case": "A14",
+      "satellite": "C",
+      "N": 720,
+      "improved_points": 528,
+      "worsened_points": 192,
+      "unchanged_points": 0,
+      "nonpositive_corrected": 0,
+      "nonfinite_corrected": 0
+    }
+  ],
+  "protected_inputs_unchanged": 24,
+  "figures": 6,
+  "wall_s": 3.5660288967192173,
+  "peak_RSS_MiB": 64.09375
+}

@@ -359,3 +359,7 @@ credentials.json
 /experiments/thermosphere_observation_assimilation_feasibility_v1/*_local.json
 /results/thermosphere_observation_assimilation_feasibility_v1/*_local.csv
 !/logs/thermosphere_feasibility_v1*.log
+
+# Causal density pilot: original values, full per-query diagnostics stay local
+/experiments/causal_density_correction_v1/*_local.*
+!/logs/causal_density_v1*.log

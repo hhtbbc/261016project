@@ -1,0 +1,6 @@
+{
+  "file": "results/tiegcm_2022_b14_exploratory_pair_v2/observation/aligned_local.npz",
+  "SHA256": "e810b9e9a15ae705de0dc26a9458b9fd27b776729e2ed1609ffdf84b357c105b",
+  "historical_expected_SHA_available": false,
+  "role": "Auxiliary prior-output comparison only; actual experiment re-queries original NetCDF with historical per-volume SHA"
+}

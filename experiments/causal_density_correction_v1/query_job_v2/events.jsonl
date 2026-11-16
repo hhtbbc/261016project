@@ -1,0 +1,11 @@
+{"wall_s": 0.003635711967945099, "event": "launched", "identity": {"pid": 2066480, "start_ticks": 1796613366, "uid": 0, "pgid": 2066480, "sid": 2066480}, "direct_parent": 2066478}
+{"wall_s": 0.31004932150244713, "event": "sample", "rss_bytes": 53751808, "races": 0, "issue": null, "output_bytes": 579, "largest_volume_bytes": 0, "free_disk_bytes": 1358171209728, "total_output_bytes": 27210, "log_size": 0}
+{"wall_s": 0.6163305975496769, "event": "sample", "rss_bytes": 78745600, "races": 0, "issue": null, "output_bytes": 806, "largest_volume_bytes": 0, "free_disk_bytes": 1358171209728, "total_output_bytes": 27437, "log_size": 0}
+{"wall_s": 0.9228294529020786, "event": "sample", "rss_bytes": 85704704, "races": 0, "issue": null, "output_bytes": 1032, "largest_volume_bytes": 0, "free_disk_bytes": 1358171209728, "total_output_bytes": 27663, "log_size": 0}
+{"wall_s": 1.229242343455553, "event": "sample", "rss_bytes": 86433792, "races": 0, "issue": null, "output_bytes": 1259, "largest_volume_bytes": 0, "free_disk_bytes": 1358171209728, "total_output_bytes": 27890, "log_size": 0}
+{"wall_s": 1.5357425659894943, "event": "sample", "rss_bytes": 87384064, "races": 0, "issue": null, "output_bytes": 1485, "largest_volume_bytes": 0, "free_disk_bytes": 1358171209728, "total_output_bytes": 28116, "log_size": 0}
+{"wall_s": 1.842757672071457, "event": "sample", "rss_bytes": 280248320, "races": 0, "issue": null, "output_bytes": 1712, "largest_volume_bytes": 0, "free_disk_bytes": 1358171209728, "total_output_bytes": 28343, "log_size": 0}
+{"wall_s": 2.1494541242718697, "event": "sample", "rss_bytes": 281866240, "races": 0, "issue": null, "output_bytes": 1939, "largest_volume_bytes": 0, "free_disk_bytes": 1358171209728, "total_output_bytes": 28570, "log_size": 0}
+{"wall_s": 2.45582390204072, "event": "sample", "rss_bytes": 102264832, "races": 0, "issue": null, "output_bytes": 2619, "largest_volume_bytes": 0, "free_disk_bytes": 1358171209728, "total_output_bytes": 29250, "log_size": 452}
+{"wall_s": 2.4601334147155285, "event": "signal_delivery", "identity": {"pid": 2066480, "start_ticks": 1796613366, "uid": 0, "pgid": 2066480, "sid": 2066480}, "signal": 15, "delivered": true}
+{"wall_s": 2.4735631607472897, "event": "child_wait_final", "returncode": -15, "cleanup_verified": true}

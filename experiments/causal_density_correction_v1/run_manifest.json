@@ -1,0 +1,16 @@
+{
+  "state": "PILOT_COMPLETE",
+  "scientific_validation": "CONDITIONAL_SINGLE_DAY_ONLY",
+  "frozen_protocol_SHA256": "175439e6d2b8ca88340d6ea080205dbd31de44a6f57a3ab19b930b0fa0a325f1",
+  "query_count": 7200,
+  "fit_samples_per_case": 360,
+  "final_test_count": 52,
+  "CDF_probes": 9,
+  "real_interpolation_probes": 24,
+  "resources": "resource_audit.json",
+  "science_training": false,
+  "external_datum": "EXTERNAL_DATUM_UNVERIFIED",
+  "real_orbit": "BLOCKED",
+  "A14": "PARTIAL",
+  "new_GPI_TIE_DART_GPU_orbit_runs": 0
+}

@@ -1,0 +1,11 @@
+{
+  "qualification": "FAIL",
+  "returncode": -15,
+  "elapsed_s": 2.4738718271255493,
+  "peak_sampled_tree_rss_bytes": 281866240,
+  "stop_reason": "fatal_log_pattern"
+}
+Traceback (most recent call last):
+  File "/workspace/data/20261016/scripts/launch_causal_density_query_v1.py", line 10, in <module>
+    print(json.dumps({k:result.get(k) for k in ['qualification','returncode','elapsed_s','peak_sampled_tree_rss_bytes','stop_reason']},indent=2));assert result['qualification']=='PASS' and result['returncode']==0
+AssertionError

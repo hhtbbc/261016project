@@ -1,0 +1,7 @@
+{
+  "stage": "Before first actual model-density query",
+  "reason": "v9 protected list does not include historical aligned NPZ",
+  "fix": "Freeze current NPZ identity as auxiliary reference; original NetCDF prior SHA remains authoritative",
+  "no_model_launches": true,
+  "first_supervised_attempt": "query_job/status.json"
+}

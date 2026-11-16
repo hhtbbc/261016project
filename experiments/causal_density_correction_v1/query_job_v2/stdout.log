@@ -1,0 +1,6 @@
+/workspace/data/20261016/src/atmosphere/hourly_tiegcm_observation.py:31: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  z=np.ma.filled(n['ZG'][i],np.nan).astype(float)*.01
+/workspace/data/20261016/src/atmosphere/hourly_tiegcm_observation.py:32: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  r=np.ma.filled(n['DEN'][i],np.nan).astype(float)*1000

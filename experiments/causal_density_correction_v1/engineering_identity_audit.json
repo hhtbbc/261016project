@@ -1,0 +1,58 @@
+[
+  {
+    "case": "B14",
+    "engineering": "PASS",
+    "original_run_status": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/run_status.json",
+    "original_status_SHA256": "84ec7b3735adba29b8c1ec22452fed8db032bb56c32764db639be913f91e3d6c",
+    "returncode": 0,
+    "original_run_wall_s": 2429.787853844464,
+    "normal_exit_count": 4,
+    "density_queries_valid": true,
+    "hourly_frames": 10,
+    "DEN": "g/cm3,ilev29 ->kg/m3 *1000",
+    "ZG": "cm,ilev29 ->m *.01",
+    "A_previous_output_max_relative_difference": 6.661338147750939e-16
+  },
+  {
+    "case": "A7",
+    "engineering": "PASS",
+    "original_run_status": "experiments/tiegcm_training_mar23_v2_2022_longrun/run_status.json",
+    "original_status_SHA256": "265557e0cd44e1e5e2bae8177b71bce4a134c5caa36aee13371bf715b3981da0",
+    "returncode": 0,
+    "original_run_wall_s": 1355.1675367690623,
+    "normal_exit_count": 4,
+    "density_queries_valid": true,
+    "hourly_frames": 10,
+    "DEN": "g/cm3,ilev29 ->kg/m3 *1000",
+    "ZG": "cm,ilev29 ->m *.01",
+    "A_previous_output_max_relative_difference": 6.661338147750939e-16
+  },
+  {
+    "case": "B7",
+    "engineering": "PASS",
+    "original_run_status": "experiments/tiegcm_2022_dual_initial_spinup_v1/run_status.json",
+    "original_status_SHA256": "99efbf02bd9bdb873e071c703965bff5e52b285df8ce56d00dd916ebf79c4908",
+    "returncode": 0,
+    "original_run_wall_s": 1374.7138202264905,
+    "normal_exit_count": 4,
+    "density_queries_valid": true,
+    "hourly_frames": 10,
+    "DEN": "g/cm3,ilev29 ->kg/m3 *1000",
+    "ZG": "cm,ilev29 ->m *.01",
+    "A_previous_output_max_relative_difference": 6.661338147750939e-16
+  },
+  {
+    "case": "A14",
+    "engineering": "PARTIAL",
+    "original_run_status": "experiments/tiegcm_2022_spinup_14day_v1/A14/run_status.json",
+    "original_status_SHA256": "c37a48560528ab73e26d62d61943cf95355cef62a1a6568bebb036f381cf1937",
+    "returncode": null,
+    "original_run_wall_s": 2433.814729437232,
+    "normal_exit_count": 4,
+    "density_queries_valid": true,
+    "hourly_frames": 10,
+    "DEN": "g/cm3,ilev29 ->kg/m3 *1000",
+    "ZG": "cm,ilev29 ->m *.01",
+    "A_previous_output_max_relative_difference": 6.661338147750939e-16
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "tag": "causal_density_correction_v1",
+  "frozen_UTC": "2026-11-16T04:14:19.868917+00:00",
+  "primary_case": "B14",
+  "controls": [
+    "A7",
+    "B7"
+  ],
+  "sensitivity_only": {
+    "A14": "historical ENGINEERING PARTIAL; never pooled into primary conclusion"
+  },
+  "case_selection": "B14 per v9 engineering/provenance, not future RMSE",
+  "method": "b=median(log(observed)-log(background)) using only valid A [03,06); corrected=background*exp(b) fixed until12",
+  "v9_candidate_resolution": "v9 section3 explicitly deferred final freezing of local kernels; current user section4.1/4.2 authorizes scalar median. No kernel/decay/trend/hyperparameter search. Optional clarification presented before fitting; current explicit formula used.",
+  "cutoff": "2022-03-24T06:00:00Z",
+  "history_half_open": [
+    "2022-03-24T03:00:00Z",
+    "2022-03-24T06:00:00Z"
+  ],
+  "future_half_open": {
+    "1": [
+      "2022-03-24T06:00:00Z",
+      "2022-03-24T07:00:00Z"
+    ],
+    "3": [
+      "2022-03-24T06:00:00Z",
+      "2022-03-24T09:00:00Z"
+    ],
+    "6": [
+      "2022-03-24T06:00:00Z",
+      "2022-03-24T12:00:00Z"
+    ]
+  },
+  "additional_descriptive_nonoverlap_windows": [
+    "[06,07)",
+    "[07,09)",
+    "[09,12)"
+  ],
+  "calibration_source": "Swarm A only; no C or B",
+  "C_role": "cross-satellite development diagnostic, related POD retrieval",
+  "B_role": "reserved unread; no new download",
+  "map": "A only: frozen GRS80 ITRS to WGS84 geodetic treated as native model latitude/ZG; external datum unverified",
+  "metrics": "existing compare_density / metric_row; observed-density denominator, no floor; log residual predicted/observed; no posthoc filtering; Pearson scale-invariant",
+  "masks": "same valid sample identities for raw/corrected; quality0301 exactly0; all eight model columns valid; report separate per-case and common engineering-PASS cases coverage",
+  "minimum_region_samples": 30,
+  "uncertainty": "descriptive only; no IID significance test; cumulative windows overlap",
+  "resource_limits": {
+    "total_CPU_wall_s": 600,
+    "rss_GiB": 4,
+    "output_MiB": 150,
+    "new_observation_downloads": 0,
+    "GPU": 0,
+    "TIE": 0,
+    "DART": 0,
+    "orbit": 0
+  },
+  "read_only_matching_sha": "ad0908290312499353a71d403b3f31e5450f13b05a27307e043ba5d66e7dc507",
+  "numerical_tests": [
+    "v9 14 PASS",
+    "native provider18 PASS",
+    "hourly8 PASS",
+    "new operator6 PASS",
+    "causal correction6 PASS",
+    "realCDF9 PASS",
+    "real interpolation probes24 PASS"
+  ],
+  "science_guards": {
+    "SCIENCE_TRAINING_READY": false,
+    "EXTERNAL_DATUM": "EXTERNAL_DATUM_UNVERIFIED",
+    "real_orbit": "BLOCKED",
+    "A14": "PARTIAL"
+  }
+}

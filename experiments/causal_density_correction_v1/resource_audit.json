@@ -1,0 +1,79 @@
+{
+  "measured_core_CPU_task_wall_sum_s": 26.310347039371727,
+  "definition": "Sum of 4 supervised subprocess tasks INCLUDING both failed pre-query attempts, independent verifier and 5 passing test suites; small interactive metadata/read/write commands not individually metered; not total conversation elapsed time",
+  "supervised_stages": {
+    "query_job/status.json": {
+      "qualification": "FAIL",
+      "returncode": 1,
+      "stop_reason": null,
+      "elapsed_s": 1.8030417189002037,
+      "peak_sampled_tree_rss_bytes": 87285760,
+      "cleanup_verified": true
+    },
+    "query_job_v3/status.json": {
+      "qualification": "PASS",
+      "returncode": 0,
+      "stop_reason": null,
+      "elapsed_s": 10.92760655656457,
+      "peak_sampled_tree_rss_bytes": 321396736,
+      "cleanup_verified": true
+    },
+    "query_job_v2/status.json": {
+      "qualification": "FAIL",
+      "returncode": -15,
+      "stop_reason": "fatal_log_pattern",
+      "elapsed_s": 2.4738718271255493,
+      "peak_sampled_tree_rss_bytes": 281866240,
+      "cleanup_verified": true
+    },
+    "evaluation_job/status.json": {
+      "qualification": "PASS",
+      "returncode": 0,
+      "stop_reason": null,
+      "elapsed_s": 6.142798040062189,
+      "peak_sampled_tree_rss_bytes": 155975680,
+      "cleanup_verified": true
+    }
+  },
+  "unit_tests": [
+    {
+      "file": "logs/causal_density_v1_v9tests.log",
+      "tests": 14,
+      "wall_s": 0.05
+    },
+    {
+      "file": "logs/causal_density_v1_native_tests.log",
+      "tests": 18,
+      "wall_s": 1.102
+    },
+    {
+      "file": "logs/causal_density_v1_hourly_tests_v2.log",
+      "tests": 8,
+      "wall_s": 0.15
+    },
+    {
+      "file": "logs/causal_density_v1_operator_tests_v2.log",
+      "tests": 6,
+      "wall_s": 0.056
+    },
+    {
+      "file": "logs/causal_density_v1_correction_tests.log",
+      "tests": 6,
+      "wall_s": 0.039
+    }
+  ],
+  "independent_verifier_wall_s": 3.5660288967192173,
+  "peak_sampled_tree_RSS_MiB": 306.5078125,
+  "peak_query_worker_rusage_MiB": 306.5078125,
+  "output_bytes_before_report": 21891029,
+  "limits": {
+    "CPU_wall_s": 600,
+    "RSS_GiB": 4,
+    "output_MiB": 150
+  },
+  "new_download_bytes": 0,
+  "GPU": 0,
+  "TIE": 0,
+  "DART": 0,
+  "orbit": 0
+}

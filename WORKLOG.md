@@ -1106,3 +1106,15 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 结论：内部预热趋同不保证观测误差改善。当前MSIS为2.1，不能改名2.0，也没有本轮2021/22三模型公平计算。新增C与A同为POD反演、非完全独立真值。仅冻结未来校正/验证隔离方案，06Z仅用[03,06)的360条A，未来1/3/6小时不泄漏。
 - 交付：7份新报告/计划、4图、9产品目录、变量/轨迹清单、既有32行观测指标只读引用；入口reports/LEADERSHIP_TECHNICAL_FEASIBILITY_BRIEF_V1.md。后续优先小规模因果输出校正并平行求官方高度登记，DART部署排后；不自动执行。
 - 状态：科学训练False、外部高度未验证、真实轨道BLOCKED、A14历史工程PARTIAL不变。Git同步以本轮实际提交及远端逐字核验为准，认证不成功不追认。
+
+
+## 2026-11-16：严格因果密度校正首轮v1
+- 范围：CPU输出校正、观测算子验证、高度有界官方审查；无原始观测下载、TIE/DART/GPU/轨道。v9本地3c394fc...完整保留；用户记录的v9 SHA有笔误，以实际HEAD为准。远端仍b2c8752...且为本地祖先，正常推送一次因旧VSCode socket认证失败，未强推/覆盖，继续本地实验。
+- 协议：v9局地核为待最终冻结候选，本轮用户明确4.1/4.2常数中位数；曾发澄清，按当前明确公式和半开窗口冻结。B14主背景不由未来表现选择，A7/B7对照，A14工程PARTIAL仅敏感性。过去A[03,06)360点，各背景独立b；C未来不拟合，B未读；未来[06,07)/[06,09)/[06,12)，无衰减/拟合高度/调参。
+- 输入/算子：复用0301 CDF、hourly TIE及独立Map-A适配。4背景10小时帧、29ilev×36×72，7200真实查询全部有效；逐点时空/8邻列/垂直层及权重存query_trace_local.jsonl，原NetCDF/source/GPI/input历史SHA核验。未在v9保护表找到旧aligned NPZ的历史SHA，因此只冻结当前辅助身份，主实验重查原NetCDF。
+- 验证：52 CPU测试通过（14+18+8+6+6），9真实CDF探针、24真实8列重建探针通过；独立显式扫描原DEN/ZG填值/非有限/正性，0无效。未来A毒化20数量级不改变b；C/B禁止拟合；raw/corrected同ID。原数据及统计不改。
+- 结果：B14 b0.1261252775057784、exp(b)1.1344242772252575。A未来1/3/6h RMSE改善43.977936/41.790363/39.639338%；C40.383928/39.631699/38.748437%。6h relativeRMS A19.152622→14.618712%、C19.694606→15.015780%；A206/720、C200/720点恶化，低纬略过校正，Pearson缩放不变。累计RMSE收益略减，相对RMS收益非单调；不拟合衰减率或作IID显著性。全案例/区域/分析期和不重叠时段指标保留。
+- 异常保留：测试入口缺src PYTHONPATH；首查询前旧NPZ SHA列表KeyError；第二次通用监督将NetCDF warning回显np.nan误报fatal。两次未校正；第三次只把Python warnings原样存结构化文件，监督/物理门槛不改，数据不补0。CPU失败/脚本快照/事件日志保留；非模型积分重试。
+- 实测资源：计量核心CPU任务含失败尝试合计26.310秒（不冒称交互文件操作或自然等待总墙钟），查询监督10.928秒、估计绘图监督6.143秒、峰值采样树RSS306.508MiB，目录约20.877MiB；600秒/4GiB/150MiB预算未扩张。6图已生成，图6视觉检查通过，52测试及独立核验日志/完整命令在新run目录。
+- 高度：重读NCAR2016 grid/altitude及VirES官方定义，仍无外部零面等价证明；复用已有咨询草稿，未发邮件。保持EXTERNAL_DATUM_UNVERIFIED。
+- 交付：reports/CAUSAL_DENSITY_CORRECTION_PILOT_V1.md、reports/HEIGHT_DATUM_OFFICIAL_EVIDENCE_UPDATE_V1.md、docs/CAUSAL_DENSITY_CORRECTION_NEXT_DECISION_V1.md；新模块/测试/查询与评价脚本、残差/系数/指标/覆盖/资源/SHA/6图。状态PILOT_COMPLETE不等于科学PASS；优先新cutoff/日期复现+高度登记，DART和真实轨道均不准入，科学训练False、A14PARTIAL不改。

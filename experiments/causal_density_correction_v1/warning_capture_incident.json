@@ -1,0 +1,7 @@
+{
+  "reason": "Generic supervisor fatal regex matched nan in echoed Python warning source line np.nan; no nonfinite model result occurred",
+  "initial_attempt": "query_job_v2/status.json",
+  "fix": "Preserve Python warnings verbatim in structured diagnostic file, leaving actual density and resource gates unchanged",
+  "bounded_CPU_attempts": 3,
+  "no_physics_model_launch": true
+}

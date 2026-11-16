@@ -1,0 +1,16 @@
+{
+  "workspace": "/workspace/data/20261016",
+  "environment": "source scripts/activate_orbit.sh; PYTHONPATH=$PWD/src:$PWD for tests; CPU subprocess CUDA_VISIBLE_DEVICES empty",
+  "commands": [
+    "python -m unittest discover -s tests -p test_observation_feasibility_v1.py -v",
+    "python -m unittest discover -s tests -p test_tiegcm_density_provider.py -v",
+    "python -m unittest discover -s tests -p test_hourly_tiegcm_observation.py -v",
+    "python -m unittest discover -s tests -p test_causal_density_operator.py -v",
+    "python -m unittest discover -s tests -p test_causal_density_correction.py -v",
+    "python scripts/launch_causal_density_query_v1.py",
+    "python scripts/launch_causal_density_evaluation_v1.py",
+    "python scripts/verify_causal_density_v1.py",
+    "python scripts/finalize_causal_density_v1.py"
+  ],
+  "warning": "Existing run directories/parameter files are immutable. No automatic rerun. Initial failures and versioned logs retained."
+}

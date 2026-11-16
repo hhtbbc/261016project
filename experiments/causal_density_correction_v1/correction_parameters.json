@@ -1,0 +1,42 @@
+{
+  "protocol_SHA256": "175439e6d2b8ca88340d6ea080205dbd31de44a6f57a3ab19b930b0fa0a325f1",
+  "parameters": {
+    "B14": {
+      "b": 0.1261252775057784,
+      "density_multiplier": 1.1344242772252575,
+      "calibration_N": 360,
+      "engineering": "PASS",
+      "calibration_first_UTC": "2022-03-24T03:00:00.000000000",
+      "calibration_last_UTC": "2022-03-24T05:59:30.000000000",
+      "future_poison_invariance": true
+    },
+    "A7": {
+      "b": 0.1636621344249214,
+      "density_multiplier": 1.1778163042764502,
+      "calibration_N": 360,
+      "engineering": "PASS",
+      "calibration_first_UTC": "2022-03-24T03:00:00.000000000",
+      "calibration_last_UTC": "2022-03-24T05:59:30.000000000",
+      "future_poison_invariance": true
+    },
+    "B7": {
+      "b": 0.1045711734696706,
+      "density_multiplier": 1.1102344102893749,
+      "calibration_N": 360,
+      "engineering": "PASS",
+      "calibration_first_UTC": "2022-03-24T03:00:00.000000000",
+      "calibration_last_UTC": "2022-03-24T05:59:30.000000000",
+      "future_poison_invariance": true
+    },
+    "A14": {
+      "b": 0.1482995025001479,
+      "density_multiplier": 1.1598602253847472,
+      "calibration_N": 360,
+      "engineering": "PARTIAL",
+      "calibration_first_UTC": "2022-03-24T03:00:00.000000000",
+      "calibration_last_UTC": "2022-03-24T05:59:30.000000000",
+      "future_poison_invariance": true
+    }
+  },
+  "estimated_before_future_evaluation": true
+}

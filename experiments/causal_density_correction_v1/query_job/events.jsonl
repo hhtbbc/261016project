@@ -1,0 +1,8 @@
+{"wall_s": 0.0033468715846538544, "event": "launched", "identity": {"pid": 2066111, "start_ticks": 1796608447, "uid": 0, "pgid": 2066111, "sid": 2066111}, "direct_parent": 2066110}
+{"wall_s": 0.3091241717338562, "event": "sample", "rss_bytes": 52654080, "races": 0, "issue": null, "output_bytes": 580, "largest_volume_bytes": 0, "free_disk_bytes": 1358171209728, "total_output_bytes": 14970, "log_size": 0}
+{"wall_s": 0.6146668531000614, "event": "sample", "rss_bytes": 78393344, "races": 0, "issue": null, "output_bytes": 806, "largest_volume_bytes": 0, "free_disk_bytes": 1358171209728, "total_output_bytes": 15196, "log_size": 0}
+{"wall_s": 0.9199787639081478, "event": "sample", "rss_bytes": 81772544, "races": 0, "issue": null, "output_bytes": 1032, "largest_volume_bytes": 0, "free_disk_bytes": 1358171209728, "total_output_bytes": 15422, "log_size": 0}
+{"wall_s": 1.225473564118147, "event": "sample", "rss_bytes": 86523904, "races": 0, "issue": null, "output_bytes": 1259, "largest_volume_bytes": 0, "free_disk_bytes": 1358171209728, "total_output_bytes": 15649, "log_size": 0}
+{"wall_s": 1.5311151780188084, "event": "sample", "rss_bytes": 87285760, "races": 0, "issue": null, "output_bytes": 1485, "largest_volume_bytes": 0, "free_disk_bytes": 1358171209728, "total_output_bytes": 15875, "log_size": 0}
+{"wall_s": 1.7955418564379215, "event": "wait_returned", "returncode": 1}
+{"wall_s": 1.802718874067068, "event": "child_wait_final", "returncode": 1, "cleanup_verified": true}

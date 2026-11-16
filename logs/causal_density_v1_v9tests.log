@@ -1,0 +1,19 @@
+test_EOS_SI_N2_analytic (test_observation_feasibility_v1.FeasibilityTests) ... ok
+test_EOS_helium_reduces_same_PT_density (test_observation_feasibility_v1.FeasibilityTests) ... ok
+test_EOS_invalid_states_rejected (test_observation_feasibility_v1.FeasibilityTests) ... ok
+test_EOS_no_helium_equals_one (test_observation_feasibility_v1.FeasibilityTests) ... ok
+test_calibration_C_or_reserved_B_not_allowed (test_observation_feasibility_v1.FeasibilityTests) ... ok
+test_causal_window_excludes_current_and_future (test_observation_feasibility_v1.FeasibilityTests) ... ok
+test_corrupted_file_SHA_rejected (test_observation_feasibility_v1.FeasibilityTests) ... ok
+test_cutoff_requires_explicit_UTC (test_observation_feasibility_v1.FeasibilityTests) ... ok
+test_quality_not_all_finite_or_all_nonzero_bad (test_observation_feasibility_v1.FeasibilityTests) ... ok
+test_reserved_B_rejected_before_file_access (test_observation_feasibility_v1.FeasibilityTests) ... ok
+test_secondary_never_qualified_as_complete_restart (test_observation_feasibility_v1.FeasibilityTests) ... ok
+test_source_clock_original_rule (test_observation_feasibility_v1.FeasibilityTests) ... ok
+test_unknown_satellite_rejected (test_observation_feasibility_v1.FeasibilityTests) ... ok
+test_unknown_version_not_silently_reused (test_observation_feasibility_v1.FeasibilityTests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.050s
+
+OK

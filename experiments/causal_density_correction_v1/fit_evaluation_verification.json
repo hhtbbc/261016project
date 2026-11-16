@@ -1,0 +1,66 @@
+{
+  "PASS": true,
+  "future_poison_invariance_all_cases": true,
+  "parameters_frozen_before_future_metrics": true,
+  "Swarm_C_fit_samples": 0,
+  "Swarm_B_read": false,
+  "direct_metrics": [
+    {
+      "case": "B14",
+      "satellite": "A",
+      "N": 720,
+      "direct_RMSE": 1.791600872694623e-13,
+      "PASS": true
+    },
+    {
+      "case": "B14",
+      "satellite": "C",
+      "N": 720,
+      "direct_RMSE": 1.8869566577051943e-13,
+      "PASS": true
+    },
+    {
+      "case": "A7",
+      "satellite": "A",
+      "N": 720,
+      "direct_RMSE": 1.890361906446935e-13,
+      "PASS": true
+    },
+    {
+      "case": "A7",
+      "satellite": "C",
+      "N": 720,
+      "direct_RMSE": 1.987997497299496e-13,
+      "PASS": true
+    },
+    {
+      "case": "B7",
+      "satellite": "A",
+      "N": 720,
+      "direct_RMSE": 1.7735853523406016e-13,
+      "PASS": true
+    },
+    {
+      "case": "B7",
+      "satellite": "C",
+      "N": 720,
+      "direct_RMSE": 1.8704916298998026e-13,
+      "PASS": true
+    },
+    {
+      "case": "A14",
+      "satellite": "A",
+      "N": 720,
+      "direct_RMSE": 1.8424483297517536e-13,
+      "PASS": true
+    },
+    {
+      "case": "A14",
+      "satellite": "C",
+      "N": 720,
+      "direct_RMSE": 1.9381300934373064e-13,
+      "PASS": true
+    }
+  ],
+  "identical_raw_corrected_masks": true
+}
