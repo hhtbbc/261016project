@@ -1,0 +1,20 @@
+{
+  "environment": "source scripts/activate_orbit.sh; CPU subprocess CUDA_VISIBLE_DEVICES empty; project-only cache/temp",
+  "executed": [
+    "python -m unittest discover -s tests -p test_bounded_swarm_acquisition.py -v (initial11, corrected12 suite)",
+    "python scripts/acquire_causal_density_latitude_v1.py prepare",
+    "python scripts/launch_latitude_acquisition_v1.py (2 downloads success, additional HDR CRC algorithm assertion stopped)",
+    "cksum data/raw/causal_density_latitude_v1/*.cdf",
+    "python scripts/verify_local_latitude_acquisition_v1.py (offline; child0 but log-parser negative-wording false positive)",
+    "python scripts/audit_latitude_acquisition_result_v1.py",
+    "python scripts/confirm_latitude_acquisition_v1.py (final supervised independent PASS)",
+    "python -m unittest discover -s tests -p test_observation_feasibility_v1.py -v",
+    "python -m unittest discover -s tests -p test_hourly_tiegcm_observation.py -v",
+    "python -m unittest discover -s tests -p test_tiegcm_density_provider.py -v",
+    "python scripts/finalize_latitude_acquisition_v1.py"
+  ],
+  "network_requests": 2,
+  "no_network_retry": true,
+  "no_fit_or_science_scores": true,
+  "warning": "Immutable prior blocked audit and this run files; no blind replay or automatic next experiment"
+}

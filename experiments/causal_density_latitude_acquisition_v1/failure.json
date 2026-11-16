@@ -1,0 +1,12 @@
+{
+  "phase": "CDF",
+  "error": "AssertionError",
+  "message": "",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/data/20261016/scripts/acquire_causal_density_latitude_v1.py\", line 58, in main\n    hdrcrc=int(root.findtext('Variable_Header/MPH/CRC'));assert rawcrc==hdrcrc;assert int(root.findtext('Variable_Header/MPH/Tot_Size'))==cdf.stat().st_size\nAssertionError\n",
+  "network_bytes": 279668,
+  "extracted_bytes": 388878,
+  "latitude_state": "BLOCKED_MISSING_HOLDOUT_OBSERVATION",
+  "no_retries": true,
+  "no_fits": true,
+  "no_future_metrics": true
+}

@@ -1,0 +1,78 @@
+{
+  "2021": {
+    "file": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.cdf",
+    "SHA256": "e6a03398dda6efedfb4cfc3aa8646daabc19f976911698330b41b8a6ef571b0d",
+    "global_attributes": {
+      "TITLE": [
+        "SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301"
+      ],
+      "TIME SYSTEM": [
+        "UTC"
+      ]
+    },
+    "required_variable_units": {
+      "time": "-",
+      "density": "kg/m3",
+      "latitude": "deg",
+      "longitude": "deg",
+      "altitude": "m",
+      "validity_flag": "unknown units"
+    },
+    "time_data_type": "CDF_EPOCH",
+    "density_field": "density, never density_orbitmean",
+    "coordinate_reference": "GRS80 geodetic per SHA-verified prior HAPI contract; formal model datum still unverified",
+    "HDR": {
+      "file": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.HDR",
+      "SHA256": "273e39d4984eb61d3b88e88dae273b53828ab1e8f4ea18a54ae03a0714c2ff4c",
+      "File_Name": "SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301",
+      "File_Type": "DNSAPOD_2_",
+      "File_Version": "0301",
+      "Mission": "Swarm",
+      "CDF_CRC32": "d2325e04",
+      "ZIP_CDF_CRC32": "d2325e04",
+      "ZIP_zlib_equal": true,
+      "HDR_reported_CDF_cksum": 2091013208,
+      "POSIX_cksum": 2091013208,
+      "independent_GNU_cksum": 2091013208,
+      "HDR_POSIX_equal": true
+    }
+  },
+  "2022": {
+    "file": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.cdf",
+    "SHA256": "7b37f210c9b202d99212eff0fc329918b71532d4b79932655340859bd5847398",
+    "global_attributes": {
+      "TITLE": [
+        "SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301"
+      ],
+      "TIME SYSTEM": [
+        "UTC"
+      ]
+    },
+    "required_variable_units": {
+      "time": "-",
+      "density": "kg/m3",
+      "latitude": "deg",
+      "longitude": "deg",
+      "altitude": "m",
+      "validity_flag": "unknown units"
+    },
+    "time_data_type": "CDF_EPOCH",
+    "density_field": "density, never density_orbitmean",
+    "coordinate_reference": "GRS80 geodetic per SHA-verified prior HAPI contract; formal model datum still unverified",
+    "HDR": {
+      "file": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.HDR",
+      "SHA256": "c0c5534a571b048eb5243dd44a52e9065cb14339139d22a1c3478b8bf51f2d53",
+      "File_Name": "SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301",
+      "File_Type": "DNSAPOD_2_",
+      "File_Version": "0301",
+      "Mission": "Swarm",
+      "CDF_CRC32": "c73622a7",
+      "ZIP_CDF_CRC32": "c73622a7",
+      "ZIP_zlib_equal": true,
+      "HDR_reported_CDF_cksum": 1035431957,
+      "POSIX_cksum": 1035431957,
+      "independent_GNU_cksum": 1035431957,
+      "HDR_POSIX_equal": true
+    }
+  }
+}

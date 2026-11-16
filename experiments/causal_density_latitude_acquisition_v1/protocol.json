@@ -1,0 +1,52 @@
+{
+  "task": "ACQUISITION_AND_COVERAGE_ONLY",
+  "identity": "PROVISIONAL Map-A / HINDCAST / NOT_BLIND / EXTERNAL_DATUM_UNVERIFIED",
+  "targets": [
+    {
+      "year": 2021,
+      "stem": "SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301",
+      "name": "SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.ZIP",
+      "official_path": "swarm/Level2daily/Latest_baselines/DNS/POD/Sat_A/SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.ZIP",
+      "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.ZIP",
+      "expected_bytes": 140271
+    },
+    {
+      "year": 2022,
+      "stem": "SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301",
+      "name": "SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.ZIP",
+      "official_path": "swarm/Level2daily/Latest_baselines/DNS/POD/Sat_A/SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.ZIP",
+      "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.ZIP",
+      "expected_bytes": 139397
+    }
+  ],
+  "network_limit_bytes": 1048576,
+  "extracted_limit_bytes": 2097152,
+  "request_timeout_s": 25,
+  "automatic_retries": 0,
+  "expected_network_bytes": 279668,
+  "CPU_wall_s": 600,
+  "RSS_GiB": 4,
+  "public_output_limit_MiB": 150,
+  "extra_metadata_download_bytes": 0,
+  "hapi": {
+    "path": "data/raw/fourcastden_swarm_observation_v1/HAPI_info.json",
+    "SHA256": "17ccced134a05fee2fd991acf6c1dbd44f166ed8239cf6435af11e3cef2c69ac",
+    "source": "experiments/fourcastden_swarm_observation_v1/official_service_contract.json",
+    "source_SHA256": "bc76f6d2f7a4c98f7c30948b3e4bbfad8368b2029a2027c9d68c11f426abe491"
+  },
+  "allowed_model_cases": [
+    "B14",
+    "A7",
+    "B7"
+  ],
+  "A14": "EXCLUDED",
+  "target_model_time": "15:00 to next-day00:00, ten actual hourly frames",
+  "observe_window": "[15:00,24:00) quality-valid A only",
+  "strict_stop": "any download/archive/CDF or B14 coverage gate failure stops; controls may be unavailable, never substituteA14",
+  "no_correction_fit": true,
+  "no_future_error_metrics": true,
+  "no_joint_assessment": true,
+  "no_v13_algorithm_freeze": true,
+  "no_GPU_TIE_DART_orbit_training": true,
+  "created_UTC": "2026-11-16T07:13:43.911280+00:00"
+}

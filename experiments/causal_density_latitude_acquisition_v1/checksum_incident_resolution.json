@@ -1,0 +1,24 @@
+{
+  "phase": "Additional HDR CRC cross-check before model queries",
+  "original_failure": "failure.json",
+  "original_supervisor": "logs/worker/status.json",
+  "ZIP_CRC_always_PASS": true,
+  "reason": "HDR CRC field matches POSIX cksum incl length, not ZIP CRC-32",
+  "actual_CDF_checks": [
+    {
+      "year": 2021,
+      "ZIP_CRC32": "d2325e04",
+      "HDR_POSIX_cksum": 2091013208
+    },
+    {
+      "year": 2022,
+      "ZIP_CRC32": "c73622a7",
+      "HDR_POSIX_cksum": 1035431957
+    }
+  ],
+  "fix": "Check ZIP with zlib/central CRC; independently check HDR with Python POSIX CRC and GNU cksum",
+  "new_network_requests": 0,
+  "raw_files_modified": false,
+  "thresholds_relaxed": false,
+  "original_failure_retained": true
+}

@@ -1,0 +1,4 @@
+/workspace/data/20261016/scripts/audit_latitude_acquisition_result_v1.py:35: UserWarning: WARNING: missing_value not used since it
+cannot be safely cast to variable data type
+  z=np.asarray(n['ZG'][col['record'],:,col['lat_index'],col['lon_index']],float)*.01;r=np.asarray(n['DEN'][col['record'],:,col['lat_index'],col['lon_index']],float)*1000;assert z[0]<=height<=z[-1] and (np.diff(z)>0).all();vals.append(np.exp(np.interp(height,z,np.log(r))))
+INDEPENDENT ACQUISITION/COVERAGE PASS 5760 6480 18

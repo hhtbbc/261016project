@@ -1,0 +1,51 @@
+{
+  "protected": {
+    "experiments/causal_density_latitude_v1/git_sync_local.json": "b1f86303e3f43aca347285d5161c09141d80ccc546010796dc66674b10a97d00",
+    "experiments/causal_density_latitude_v1/source_manifest.json": "0881313ff3af4654a0946140afd208d07af8e52a90abff7fae1cdcd794569840",
+    "experiments/causal_density_latitude_v1/candidate_holdout_audit.csv": "98bb04d441b88334dfafc42dc97a4486a392d6b674d9fdcf1d753519c267789d",
+    "experiments/causal_density_latitude_v1/preflight.json": "72e44df2847cde9925bb696181a8ef7bf15218a60978760ccd9d06712da0d5a2",
+    "experiments/causal_density_latitude_v1/sha256_manifest.json": "1aceb1e30017264f5315e1ea297f0e0d4d77abb822264ec8ae0b7c5a4cbdd94a",
+    "experiments/causal_density_latitude_v1/resource_audit.json": "6f1f0c6c6c3414ab26540c848de1bccc2c43f9ea931845e6b9c0a64d38789664",
+    "experiments/causal_density_latitude_v1/data_acquisition_request.md": "64aa20d44e9c8665844288fe231f5a3b8c13a2e2dad4bfafa5a082369d52a47a",
+    "experiments/causal_density_latitude_v1/independent_audit_verification.json": "7e93ef67f1b1743ceb42ccc1368f4de6448d7177c5379a107da9379aade909e7",
+    "experiments/causal_density_latitude_v1/commands.json": "89d905dcbb510728671e7c493850c68fed3d62ff1de3175e835e6a64d4f0ce97",
+    "data/raw/fourcastden_swarm_observation_v1/HAPI_info.json": "17ccced134a05fee2fd991acf6c1dbd44f166ed8239cf6435af11e3cef2c69ac",
+    "experiments/fourcastden_swarm_observation_v1/official_service_contract.json": "bc76f6d2f7a4c98f7c30948b3e4bbfad8368b2029a2027c9d68c11f426abe491",
+    "data/raw/swarm_tiegcm_2021_spinup_observation_v1/listing.json": "cc3cb2ec84e212ff8b90ff30df65d711c57115756fb9120664e22111f5751be8",
+    "data/raw/swarm_tiegcm_2022_observation_v1/listing.json": "cc3cb2ec84e212ff8b90ff30df65d711c57115756fb9120664e22111f5751be8"
+  },
+  "context": {
+    "AGENTS.md": {
+      "SHA256": "c1c8cf70e42fb77236ec210fd7e58284fb39b6f7bd272e4f5ddadbdf165ca681",
+      "bytes": 31605
+    },
+    "STATUS.md": {
+      "SHA256": "536de6105838d542d2ccac72994d855d5d186ba108af9c0efe9c613a3ff7a565",
+      "bytes": 118721
+    },
+    "WORKLOG.md": {
+      "SHA256": "be83d8e728218a644c16401b681af1f66bea9f6557147860a295752c3c2db2b9",
+      "bytes": 275664
+    },
+    "reports/CAUSAL_DENSITY_LATITUDE_VALIDATION_V1.md": {
+      "SHA256": "3715d3402653efd1ce34514f7c94cee47c58a91e2374d8c4d78ba0dc8efb647c",
+      "bytes": 2473
+    },
+    "docs/CAUSAL_DENSITY_LATITUDE_NEXT_DECISION_V1.md": {
+      "SHA256": "9dd21d08cad33d30eca73512f54a594cf072ca9df15648c7d103b29662cb4bb3",
+      "bytes": 1175
+    },
+    "experiments/causal_density_latitude_v1/data_acquisition_request.md": {
+      "SHA256": "64aa20d44e9c8665844288fe231f5a3b8c13a2e2dad4bfafa5a082369d52a47a",
+      "bytes": 2890
+    },
+    "experiments/causal_density_latitude_v1/source_manifest.json": {
+      "SHA256": "0881313ff3af4654a0946140afd208d07af8e52a90abff7fae1cdcd794569840",
+      "bytes": 18476
+    },
+    "experiments/causal_density_late_day_v1/source_manifest.json": {
+      "SHA256": "c3abd7bd6143b8d84b3531f471483f64552ed33cb95dc4bad9e9966f21c965a4",
+      "bytes": 41057
+    }
+  }
+}

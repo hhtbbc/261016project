@@ -1,0 +1,538 @@
+{
+  "identity": "PROVISIONAL Map-A / HINDCAST / NOT_BLIND / EXTERNAL_DATUM_UNVERIFIED",
+  "cases": [
+    {
+      "year": "2021",
+      "case": "B14",
+      "state": "PASS",
+      "folder": "experiments/tiegcm_2021_spinup_14day_v1/B14",
+      "files": [
+        {
+          "file": "secondary_015.nc",
+          "SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+          "bytes": 192669016,
+          "UTC": [
+            "2021-03-23T01:00:00+00:00",
+            "2021-03-23T02:00:00+00:00",
+            "2021-03-23T03:00:00+00:00",
+            "2021-03-23T04:00:00+00:00",
+            "2021-03-23T05:00:00+00:00",
+            "2021-03-23T06:00:00+00:00",
+            "2021-03-23T07:00:00+00:00",
+            "2021-03-23T08:00:00+00:00",
+            "2021-03-23T09:00:00+00:00",
+            "2021-03-23T10:00:00+00:00",
+            "2021-03-23T11:00:00+00:00",
+            "2021-03-23T12:00:00+00:00",
+            "2021-03-23T13:00:00+00:00",
+            "2021-03-23T14:00:00+00:00",
+            "2021-03-23T15:00:00+00:00",
+            "2021-03-23T16:00:00+00:00",
+            "2021-03-23T17:00:00+00:00",
+            "2021-03-23T18:00:00+00:00",
+            "2021-03-23T19:00:00+00:00",
+            "2021-03-23T20:00:00+00:00",
+            "2021-03-23T21:00:00+00:00",
+            "2021-03-23T22:00:00+00:00",
+            "2021-03-23T23:00:00+00:00",
+            "2021-03-24T00:00:00+00:00"
+          ],
+          "NetCDF_format": "NETCDF3_CLASSIC",
+          "history_type": "secondary"
+        }
+      ],
+      "grid": [
+        29,
+        36,
+        72
+      ],
+      "engineering_returncode": 0,
+      "wall_s": 1.5446241050958633
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "state": "PASS",
+      "folder": "experiments/tiegcm_training_mar23_v2_2021_longrun",
+      "files": [
+        {
+          "file": "secondary_008.nc",
+          "SHA256": "233fd66f506aa2400915814f425d9fd28989a7fc83d8c1b31c172ee66058f646",
+          "bytes": 192668972,
+          "UTC": [
+            "2021-03-23T01:00:00+00:00",
+            "2021-03-23T02:00:00+00:00",
+            "2021-03-23T03:00:00+00:00",
+            "2021-03-23T04:00:00+00:00",
+            "2021-03-23T05:00:00+00:00",
+            "2021-03-23T06:00:00+00:00",
+            "2021-03-23T07:00:00+00:00",
+            "2021-03-23T08:00:00+00:00",
+            "2021-03-23T09:00:00+00:00",
+            "2021-03-23T10:00:00+00:00",
+            "2021-03-23T11:00:00+00:00",
+            "2021-03-23T12:00:00+00:00",
+            "2021-03-23T13:00:00+00:00",
+            "2021-03-23T14:00:00+00:00",
+            "2021-03-23T15:00:00+00:00",
+            "2021-03-23T16:00:00+00:00",
+            "2021-03-23T17:00:00+00:00",
+            "2021-03-23T18:00:00+00:00",
+            "2021-03-23T19:00:00+00:00",
+            "2021-03-23T20:00:00+00:00",
+            "2021-03-23T21:00:00+00:00",
+            "2021-03-23T22:00:00+00:00",
+            "2021-03-23T23:00:00+00:00",
+            "2021-03-24T00:00:00+00:00"
+          ],
+          "NetCDF_format": "NETCDF3_CLASSIC",
+          "history_type": "secondary"
+        }
+      ],
+      "grid": [
+        29,
+        36,
+        72
+      ],
+      "engineering_returncode": 0,
+      "wall_s": 1.2818652354180813
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "state": "PASS",
+      "folder": "experiments/tiegcm_2021_spinup_initial_condition_v1/B",
+      "files": [
+        {
+          "file": "secondary_008.nc",
+          "SHA256": "68c867ef059cb1eac5b774bb55ef7677a4c3d1231668270e2b3478482517413f",
+          "bytes": 192669020,
+          "UTC": [
+            "2021-03-23T01:00:00+00:00",
+            "2021-03-23T02:00:00+00:00",
+            "2021-03-23T03:00:00+00:00",
+            "2021-03-23T04:00:00+00:00",
+            "2021-03-23T05:00:00+00:00",
+            "2021-03-23T06:00:00+00:00",
+            "2021-03-23T07:00:00+00:00",
+            "2021-03-23T08:00:00+00:00",
+            "2021-03-23T09:00:00+00:00",
+            "2021-03-23T10:00:00+00:00",
+            "2021-03-23T11:00:00+00:00",
+            "2021-03-23T12:00:00+00:00",
+            "2021-03-23T13:00:00+00:00",
+            "2021-03-23T14:00:00+00:00",
+            "2021-03-23T15:00:00+00:00",
+            "2021-03-23T16:00:00+00:00",
+            "2021-03-23T17:00:00+00:00",
+            "2021-03-23T18:00:00+00:00",
+            "2021-03-23T19:00:00+00:00",
+            "2021-03-23T20:00:00+00:00",
+            "2021-03-23T21:00:00+00:00",
+            "2021-03-23T22:00:00+00:00",
+            "2021-03-23T23:00:00+00:00",
+            "2021-03-24T00:00:00+00:00"
+          ],
+          "NetCDF_format": "NETCDF3_CLASSIC",
+          "history_type": "secondary"
+        }
+      ],
+      "grid": [
+        29,
+        36,
+        72
+      ],
+      "engineering_returncode": 0,
+      "wall_s": 1.267400223761797
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "state": "PASS",
+      "folder": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14",
+      "files": [
+        {
+          "file": "secondary_015.nc",
+          "SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+          "bytes": 192669016,
+          "UTC": [
+            "2022-03-23T01:00:00+00:00",
+            "2022-03-23T02:00:00+00:00",
+            "2022-03-23T03:00:00+00:00",
+            "2022-03-23T04:00:00+00:00",
+            "2022-03-23T05:00:00+00:00",
+            "2022-03-23T06:00:00+00:00",
+            "2022-03-23T07:00:00+00:00",
+            "2022-03-23T08:00:00+00:00",
+            "2022-03-23T09:00:00+00:00",
+            "2022-03-23T10:00:00+00:00",
+            "2022-03-23T11:00:00+00:00",
+            "2022-03-23T12:00:00+00:00",
+            "2022-03-23T13:00:00+00:00",
+            "2022-03-23T14:00:00+00:00",
+            "2022-03-23T15:00:00+00:00",
+            "2022-03-23T16:00:00+00:00",
+            "2022-03-23T17:00:00+00:00",
+            "2022-03-23T18:00:00+00:00",
+            "2022-03-23T19:00:00+00:00",
+            "2022-03-23T20:00:00+00:00",
+            "2022-03-23T21:00:00+00:00",
+            "2022-03-23T22:00:00+00:00",
+            "2022-03-23T23:00:00+00:00",
+            "2022-03-24T00:00:00+00:00"
+          ],
+          "history_type": "secondary",
+          "NetCDF_format": "NETCDF3_CLASSIC"
+        }
+      ],
+      "grid": [
+        29,
+        36,
+        72
+      ],
+      "engineering_returncode": 0,
+      "wall_s": 1.5499730594456196
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "state": "PASS",
+      "folder": "experiments/tiegcm_training_mar23_v2_2022_longrun",
+      "files": [
+        {
+          "file": "secondary_008.nc",
+          "SHA256": "2d883664b96d82714448c2459267dc6dec4d451cdd3c779d9536a66b4b8c1a21",
+          "bytes": 192668972,
+          "UTC": [
+            "2022-03-23T01:00:00+00:00",
+            "2022-03-23T02:00:00+00:00",
+            "2022-03-23T03:00:00+00:00",
+            "2022-03-23T04:00:00+00:00",
+            "2022-03-23T05:00:00+00:00",
+            "2022-03-23T06:00:00+00:00",
+            "2022-03-23T07:00:00+00:00",
+            "2022-03-23T08:00:00+00:00",
+            "2022-03-23T09:00:00+00:00",
+            "2022-03-23T10:00:00+00:00",
+            "2022-03-23T11:00:00+00:00",
+            "2022-03-23T12:00:00+00:00",
+            "2022-03-23T13:00:00+00:00",
+            "2022-03-23T14:00:00+00:00",
+            "2022-03-23T15:00:00+00:00",
+            "2022-03-23T16:00:00+00:00",
+            "2022-03-23T17:00:00+00:00",
+            "2022-03-23T18:00:00+00:00",
+            "2022-03-23T19:00:00+00:00",
+            "2022-03-23T20:00:00+00:00",
+            "2022-03-23T21:00:00+00:00",
+            "2022-03-23T22:00:00+00:00",
+            "2022-03-23T23:00:00+00:00",
+            "2022-03-24T00:00:00+00:00"
+          ],
+          "NetCDF_format": "NETCDF3_CLASSIC",
+          "history_type": "secondary"
+        }
+      ],
+      "grid": [
+        29,
+        36,
+        72
+      ],
+      "engineering_returncode": 0,
+      "wall_s": 1.2449613362550735
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "state": "PASS",
+      "folder": "experiments/tiegcm_2022_dual_initial_spinup_v1",
+      "files": [
+        {
+          "file": "secondary_008.nc",
+          "SHA256": "0cb6465ff5abf8e1f1945e034d23a8c2d29827b158138b631173648b1e75ee6d",
+          "bytes": 192669020,
+          "UTC": [
+            "2022-03-23T01:00:00+00:00",
+            "2022-03-23T02:00:00+00:00",
+            "2022-03-23T03:00:00+00:00",
+            "2022-03-23T04:00:00+00:00",
+            "2022-03-23T05:00:00+00:00",
+            "2022-03-23T06:00:00+00:00",
+            "2022-03-23T07:00:00+00:00",
+            "2022-03-23T08:00:00+00:00",
+            "2022-03-23T09:00:00+00:00",
+            "2022-03-23T10:00:00+00:00",
+            "2022-03-23T11:00:00+00:00",
+            "2022-03-23T12:00:00+00:00",
+            "2022-03-23T13:00:00+00:00",
+            "2022-03-23T14:00:00+00:00",
+            "2022-03-23T15:00:00+00:00",
+            "2022-03-23T16:00:00+00:00",
+            "2022-03-23T17:00:00+00:00",
+            "2022-03-23T18:00:00+00:00",
+            "2022-03-23T19:00:00+00:00",
+            "2022-03-23T20:00:00+00:00",
+            "2022-03-23T21:00:00+00:00",
+            "2022-03-23T22:00:00+00:00",
+            "2022-03-23T23:00:00+00:00",
+            "2022-03-24T00:00:00+00:00"
+          ],
+          "NetCDF_format": "NETCDF3_CLASSIC",
+          "history_type": "secondary"
+        }
+      ],
+      "grid": [
+        29,
+        36,
+        72
+      ],
+      "engineering_returncode": 0,
+      "wall_s": 1.5080100372433662
+    }
+  ],
+  "NetCDF_input_SHA256": {
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/input.inp": "da93512112df6f7db2250ee7bd3fdc77a3923fb32ce4ed0153ffc1950e4d582b",
+    "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+    "data/processed/tiegcm_2021_spinup_14day_v1/gpi_2021_14day.nc": "6dad9d0ff290e841c32fb736b8f097365d7c4eebe2e12a0cef5c301b0eae8847",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/data_audit.json": "b947caca749161a5d6e08ef4f348acca42051aa590c292e5ddda02395c421a05",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/run_status.json": "7b26b7c1389cd35fb55719a0acef9b9284de6ac77319d3f93ea28d1214eb7ecf",
+    "experiments/swarm_tiegcm_2021_spinup_observation_v1/inputs.json": "c8a1beb4588dfd2b2e9cb2214dc8396cdcb9ce08d50b9d831f1a6e99175ad4ff",
+    "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/input.inp": "1df3a0a1657d1dc2e9fb66c8409afd04fb17839ad4a4fdbc67881a2e5a338180",
+    "data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc": "180475215a4922e9c55a77e80153cf641bc8fbb2b8d52633b4686ddee6942fff",
+    "data/processed/training_window_mar23_v2/gpi_2021_mar23_v2.nc": "d9fdad36af5672ae8a34c977d67247437ba20084406d04b417905739b10c783b",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/data_audit.json": "e4aaac3b88a55f917de5a650b349005795aed432e125fe746d807f364c26b0db",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/run_status.json": "20d1bf78b9ca46309e2a36f16351dc632f72234a7bc52cceaf57dcfd0af26d14",
+    "experiments/tiegcm_training_mar23_v2_2021_longrun/secondary_008.nc": "233fd66f506aa2400915814f425d9fd28989a7fc83d8c1b31c172ee66058f646",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/input.inp": "02dae74428d8ada452cb5ab98e80eb57ee58de266133b69c09dfd50135213ce6",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/data_audit.json": "08534833f17148a38ee8d43513c6cde26bd08e2a13db9d81e5280b7794eae636",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/run_status.json": "cb0dca6a5ca63d60d2216e6504c06aadbad0709011cfd9c745bf85b7c3c2a06b",
+    "experiments/tiegcm_2021_spinup_initial_condition_v1/B/secondary_008.nc": "68c867ef059cb1eac5b774bb55ef7677a4c3d1231668270e2b3478482517413f",
+    "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/input.inp": "43921699e56bf35730539a80614a81f4a2ba090e2103c9c612dc5fc3d6b85432",
+    "data/processed/tiegcm_2022_spinup_14day_v1/gpi_2022_14day.nc": "bd603d2e47c7fa2e61858f6732cad12d98a5e602ca40141640e63185dd51bf41",
+    "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/data_audit.json": "9821e66850be40dc2c2a91a8d64fc6f2431ab4b0550b584cf68e4a6d8b2bcdc2",
+    "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/run_status.json": "84ec7b3735adba29b8c1ec22452fed8db032bb56c32764db639be913f91e3d6c",
+    "experiments/swarm_tiegcm_2022_observation_v1/inputs.json": "464d6b72ff756c9617594c48ce1b4cad4ba23375e4094ac5fb5dd61d3c69350b",
+    "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/input.inp": "0305b08a7ea09d5dc814349d27d519d0051360d9951e136946f89750b21891d3",
+    "data/processed/training_window_mar23_v2/gpi_2022_mar23_v2.nc": "9bf83f53133a9290002d72300705681fc9da9ee89b2d2ed712271cdc799ec6f7",
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/data_audit.json": "30af80731fa41bf68a9f0836ecdef4fb82b1a897704acfd4cbc50605522ce036",
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/run_status.json": "265557e0cd44e1e5e2bae8177b71bce4a134c5caa36aee13371bf715b3981da0",
+    "experiments/tiegcm_training_mar23_v2_2022_longrun/secondary_008.nc": "2d883664b96d82714448c2459267dc6dec4d451cdd3c779d9536a66b4b8c1a21",
+    "experiments/tiegcm_2022_dual_initial_spinup_v1/input.inp": "6e3144287d30204b393fb2238c6b0fbadb85cca2ed641d4aaa8988d3a58676ca",
+    "experiments/tiegcm_2022_dual_initial_spinup_v1/data_audit.json": "4e226fa8d6596e6004676498d925621a17a819928c0227f5934840d7f609a6a1",
+    "experiments/tiegcm_2022_dual_initial_spinup_v1/run_status.json": "99efbf02bd9bdb873e071c703965bff5e52b285df8ce56d00dd916ebf79c4908",
+    "experiments/tiegcm_2022_dual_initial_spinup_v1/secondary_008.nc": "0cb6465ff5abf8e1f1945e034d23a8c2d29827b158138b631173648b1e75ee6d"
+  },
+  "explicit_native_scan": [
+    {
+      "year": "2021",
+      "case": "B14",
+      "file": "secondary_015.nc",
+      "variable": "DEN",
+      "units": "g/cm3",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "used_records": 10,
+      "values_scanned": 751680,
+      "invalid": 0,
+      "nonmonotonic_ZG_pairs": 0
+    },
+    {
+      "year": "2021",
+      "case": "B14",
+      "file": "secondary_015.nc",
+      "variable": "ZG",
+      "units": "cm",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "used_records": 10,
+      "values_scanned": 751680,
+      "invalid": 0,
+      "nonmonotonic_ZG_pairs": 0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "file": "secondary_008.nc",
+      "variable": "DEN",
+      "units": "g/cm3",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "used_records": 10,
+      "values_scanned": 751680,
+      "invalid": 0,
+      "nonmonotonic_ZG_pairs": 0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "file": "secondary_008.nc",
+      "variable": "ZG",
+      "units": "cm",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "used_records": 10,
+      "values_scanned": 751680,
+      "invalid": 0,
+      "nonmonotonic_ZG_pairs": 0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "file": "secondary_008.nc",
+      "variable": "DEN",
+      "units": "g/cm3",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "used_records": 10,
+      "values_scanned": 751680,
+      "invalid": 0,
+      "nonmonotonic_ZG_pairs": 0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "file": "secondary_008.nc",
+      "variable": "ZG",
+      "units": "cm",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "used_records": 10,
+      "values_scanned": 751680,
+      "invalid": 0,
+      "nonmonotonic_ZG_pairs": 0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "file": "secondary_015.nc",
+      "variable": "DEN",
+      "units": "g/cm3",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "used_records": 10,
+      "values_scanned": 751680,
+      "invalid": 0,
+      "nonmonotonic_ZG_pairs": 0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "file": "secondary_015.nc",
+      "variable": "ZG",
+      "units": "cm",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "used_records": 10,
+      "values_scanned": 751680,
+      "invalid": 0,
+      "nonmonotonic_ZG_pairs": 0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "file": "secondary_008.nc",
+      "variable": "DEN",
+      "units": "g/cm3",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "used_records": 10,
+      "values_scanned": 751680,
+      "invalid": 0,
+      "nonmonotonic_ZG_pairs": 0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "file": "secondary_008.nc",
+      "variable": "ZG",
+      "units": "cm",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "used_records": 10,
+      "values_scanned": 751680,
+      "invalid": 0,
+      "nonmonotonic_ZG_pairs": 0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "file": "secondary_008.nc",
+      "variable": "DEN",
+      "units": "g/cm3",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "used_records": 10,
+      "values_scanned": 751680,
+      "invalid": 0,
+      "nonmonotonic_ZG_pairs": 0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "file": "secondary_008.nc",
+      "variable": "ZG",
+      "units": "cm",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "used_records": 10,
+      "values_scanned": 751680,
+      "invalid": 0,
+      "nonmonotonic_ZG_pairs": 0
+    }
+  ],
+  "query_scope": "quality-valid A[15,24); no prediction-error computation",
+  "density_unit": "g/cm3 *1000 to kg/m3",
+  "height_unit": "cm *.01 to m",
+  "no_extrapolation": true,
+  "eight_columns_including_zero_weights_required": true
+}

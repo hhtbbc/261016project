@@ -1,0 +1,10 @@
+{
+  "qualification": "FAIL",
+  "returncode": 1,
+  "elapsed_s": 7.734477866441011,
+  "stop_reason": null
+}
+Traceback (most recent call last):
+  File "/workspace/data/20261016/scripts/launch_latitude_acquisition_v1.py", line 9, in <module>
+    print(json.dumps({k:r.get(k) for k in ['qualification','returncode','elapsed_s','stop_reason']},indent=2));assert r['qualification']=='PASS' and r['returncode']==0
+AssertionError

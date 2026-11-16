@@ -1,0 +1,89 @@
+{
+  "measured_core_task_wall_sum_s": 25.973363208800553,
+  "definition": "Sum of both acquisition/local-verification supervisors INCLUDING failed qualification records, final successful supervised audit, initial standalone independent audit and all5 test-suite invocations; preparation/interactive file/report commands not individually timed; not total conversation elapsed time",
+  "stages": {
+    "logs/worker/status.json": {
+      "returncode": 1,
+      "qualification": "FAIL",
+      "stop_reason": null,
+      "elapsed_s": 7.734477866441011,
+      "peak_sampled_tree_rss_bytes": 84287488,
+      "cleanup_verified": true
+    },
+    "logs/local_verify/status.json": {
+      "returncode": 0,
+      "qualification": "FAIL",
+      "stop_reason": "fatal_log_pattern",
+      "elapsed_s": 11.897731132805347,
+      "peak_sampled_tree_rss_bytes": 310976512,
+      "cleanup_verified": true
+    },
+    "logs/final_audit/status.json": {
+      "returncode": 0,
+      "qualification": "PASS",
+      "stop_reason": null,
+      "elapsed_s": 2.594157736748457,
+      "peak_sampled_tree_rss_bytes": 59068416,
+      "cleanup_verified": true
+    }
+  },
+  "peak_sampled_tree_RSS_MiB": 296.5703125,
+  "worker_peak_rusage_MiB": 296.5703125,
+  "RSS_definition": "sampled launched same-UID session, not guaranteed continuous global peak",
+  "network_actual_body_bytes": 279668,
+  "extracted_verified_bytes": 388878,
+  "raw_directory_bytes": 668546,
+  "public_and_local_audit_directory_bytes_before_report": 18107399,
+  "raw_metadata_downloads": 0,
+  "HTTP_product_requests": 2,
+  "network_retries": 0,
+  "offline_validation_resume_requests": 0,
+  "tests": [
+    {
+      "log": "latitude_acquisition_v1_transport_tests.log",
+      "tests": 11,
+      "wall_s": 0.035,
+      "superseded": true
+    },
+    {
+      "log": "latitude_acquisition_v1_transport_tests_v2.log",
+      "tests": 12,
+      "wall_s": 0.057,
+      "superseded": false
+    },
+    {
+      "log": "latitude_acquisition_v1_quality_tests.log",
+      "tests": 14,
+      "wall_s": 0.046,
+      "superseded": false
+    },
+    {
+      "log": "latitude_acquisition_v1_hourly_tests.log",
+      "tests": 8,
+      "wall_s": 0.144,
+      "superseded": false
+    },
+    {
+      "log": "latitude_acquisition_v1_native_tests.log",
+      "tests": 18,
+      "wall_s": 1.086,
+      "superseded": false
+    }
+  ],
+  "distinct_current_tests": 52,
+  "test_executions_including_superseded_suite": 63,
+  "correction_fits": 0,
+  "future_error_scores": 0,
+  "joint_assessments": 0,
+  "GPU": 0,
+  "TIE": 0,
+  "DART": 0,
+  "orbit": 0,
+  "limits": {
+    "network_bytes": 1048576,
+    "extract_bytes": 2097152,
+    "CPU_wall_s": 600,
+    "RSS_GiB": 4,
+    "public_output_MiB": 150
+  }
+}

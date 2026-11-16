@@ -1,0 +1,39 @@
+{
+  "PASS": true,
+  "independent_CDF_records": 5760,
+  "CRC_and_SHA_member_checks": [
+    {
+      "path": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.HDR",
+      "SHA256": "273e39d4984eb61d3b88e88dae273b53828ab1e8f4ea18a54ae03a0714c2ff4c",
+      "ZIP_CRC32": "8b35744a"
+    },
+    {
+      "path": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.cdf",
+      "SHA256": "e6a03398dda6efedfb4cfc3aa8646daabc19f976911698330b41b8a6ef571b0d",
+      "ZIP_CRC32": "d2325e04"
+    },
+    {
+      "path": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.HDR",
+      "SHA256": "c0c5534a571b048eb5243dd44a52e9065cb14339139d22a1c3478b8bf51f2d53",
+      "ZIP_CRC32": "eec5461d"
+    },
+    {
+      "path": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.cdf",
+      "SHA256": "7b37f210c9b202d99212eff0fc329918b71532d4b79932655340859bd5847398",
+      "ZIP_CRC32": "c73622a7"
+    }
+  ],
+  "actual_downloads": 2,
+  "network_bytes": 279668,
+  "extract_bytes": 388878,
+  "model_trace_queries": 6480,
+  "eight_column_PASS": 6480,
+  "native_density_reconstruction_probes": 18,
+  "all_model_cases_PASS": 6,
+  "old_blocked_audit_unchanged": true,
+  "correction_fits": 0,
+  "prediction_errors": 0,
+  "joint_assessments": 0,
+  "wall_s": 2.367618404328823,
+  "peak_RSS_MiB": 63.55859375
+}

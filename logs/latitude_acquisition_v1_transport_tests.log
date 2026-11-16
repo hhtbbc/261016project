@@ -1,0 +1,18 @@
+test_HTML_rejected (test_bounded_swarm_acquisition.AcquisitionTests) ... ok
+test_atomic_no_overwrite (test_bounded_swarm_acquisition.AcquisitionTests) ... ok
+test_budget_before_request (test_bounded_swarm_acquisition.AcquisitionTests) ... ok
+test_declared_size_change (test_bounded_swarm_acquisition.AcquisitionTests) ... ok
+test_extraction_limit (test_bounded_swarm_acquisition.AcquisitionTests) ... ok
+test_final_redirect_host_rejected (test_bounded_swarm_acquisition.AcquisitionTests) ... ok
+test_host_and_credentials_rejected (test_bounded_swarm_acquisition.AcquisitionTests) ... ok
+test_symlink_member_rejected (test_bounded_swarm_acquisition.AcquisitionTests) ... ok
+test_truncated_body_retained (test_bounded_swarm_acquisition.AcquisitionTests) ... ok
+test_unsafe_or_extra_names (test_bounded_swarm_acquisition.AcquisitionTests) ... /workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/zipfile.py:1541: UserWarning: Duplicate name: 'SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.cdf'
+  return self._open_to_write(zinfo, force_zip64=force_zip64)
+ok
+test_valid_mock_download_extract (test_bounded_swarm_acquisition.AcquisitionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.035s
+
+OK

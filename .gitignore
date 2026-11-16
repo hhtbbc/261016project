@@ -375,3 +375,8 @@ credentials.json
 # Latitude holdout gate: local sync/credential records never public
 /experiments/causal_density_latitude_v1/*_local.*
 !/logs/latitude_holdout_v1*.log
+
+# Latitude acquisition: immutable raw products and full query caches local only
+/experiments/causal_density_latitude_acquisition_v1/*_local.*
+/experiments/causal_density_latitude_acquisition_v1/**/*_local.*
+!/logs/latitude_acquisition_v1*.log

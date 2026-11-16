@@ -1,0 +1,15 @@
+{
+  "state": "COMPLETE",
+  "latitude_state": "READY_FOR_V13_PROTOCOL_FREEZE",
+  "two_CDFs_verified": true,
+  "two_B14_coverage_PASS": true,
+  "model_queries": 6480,
+  "successful_queries": 6480,
+  "calibration_coefficients": 0,
+  "future_errors": 0,
+  "joint_assessments": 0,
+  "wall_s": 11.144297491759062,
+  "peak_RSS_MiB": 296.5703125,
+  "network_bytes": 279668,
+  "extracted_bytes": 388878
+}

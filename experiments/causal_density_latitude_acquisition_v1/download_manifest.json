@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.ZIP",
+      "final_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.ZIP",
+      "HTTP": 200,
+      "Content_Length": 140271,
+      "bytes": 140271,
+      "SHA256": "74008af37c37cd7b58f89c0c2c452b485d7df7c2f4e9c197e4bcbabff7645145",
+      "path": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.ZIP",
+      "existing": false,
+      "new_download_bytes": 140271,
+      "CRC_test_PASS": true,
+      "members": [
+        {
+          "name": "SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.HDR",
+          "bytes": 2757,
+          "CRC32": "8b35744a"
+        },
+        {
+          "name": "SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.cdf",
+          "bytes": 191682,
+          "CRC32": "d2325e04"
+        }
+      ],
+      "download_started_unix": 1794813284.2000117,
+      "download_finished_unix": 1794813289.9935946,
+      "TLS": "ssl.create_default_context; hostname/certificate verification enabled",
+      "timeout_s": 25,
+      "year": 2021,
+      "extracted_members": [
+        {
+          "path": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.HDR",
+          "bytes": 2757,
+          "SHA256": "273e39d4984eb61d3b88e88dae273b53828ab1e8f4ea18a54ae03a0714c2ff4c",
+          "CRC32": "8b35744a",
+          "CRC_PASS": true,
+          "existing": false
+        },
+        {
+          "path": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.cdf",
+          "bytes": 191682,
+          "SHA256": "e6a03398dda6efedfb4cfc3aa8646daabc19f976911698330b41b8a6ef571b0d",
+          "CRC32": "d2325e04",
+          "CRC_PASS": true,
+          "existing": false
+        }
+      ]
+    },
+    {
+      "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.ZIP",
+      "final_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.ZIP",
+      "HTTP": 200,
+      "Content_Length": 139397,
+      "bytes": 139397,
+      "SHA256": "8c7bb8e3bfcb3a2e016936dff9459ca8afa0d80d49d3ed26c49c6c6a47e5fefe",
+      "path": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.ZIP",
+      "existing": false,
+      "new_download_bytes": 139397,
+      "CRC_test_PASS": true,
+      "members": [
+        {
+          "name": "SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.HDR",
+          "bytes": 2757,
+          "CRC32": "eec5461d"
+        },
+        {
+          "name": "SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.cdf",
+          "bytes": 191682,
+          "CRC32": "c73622a7"
+        }
+      ],
+      "download_started_unix": 1794813290.0061524,
+      "download_finished_unix": 1794813291.1079817,
+      "TLS": "ssl.create_default_context; hostname/certificate verification enabled",
+      "timeout_s": 25,
+      "year": 2022,
+      "extracted_members": [
+        {
+          "path": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.HDR",
+          "bytes": 2757,
+          "SHA256": "c0c5534a571b048eb5243dd44a52e9065cb14339139d22a1c3478b8bf51f2d53",
+          "CRC32": "eec5461d",
+          "CRC_PASS": true,
+          "existing": false
+        },
+        {
+          "path": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.cdf",
+          "bytes": 191682,
+          "SHA256": "7b37f210c9b202d99212eff0fc329918b71532d4b79932655340859bd5847398",
+          "CRC32": "c73622a7",
+          "CRC_PASS": true,
+          "existing": false
+        }
+      ]
+    }
+  ],
+  "actual_network_body_bytes": 279668,
+  "verified_extracted_bytes": 388878,
+  "network_limit": 1048576,
+  "extraction_limit": 2097152,
+  "final": true,
+  "phase": "CDF"
+}

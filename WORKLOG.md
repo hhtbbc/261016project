@@ -1153,3 +1153,15 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 实测：本地审计2.310秒，单进程rusage峰值27.238MiB，资源限制未扩张；小交互/Git操作不逐项计时。独立核验2日期、缓存SHA和279668字节合计、无替代/无阶段2输出通过。未实施数值算法，故不虚构局地数值测试/系数或联合通过数。
 - 下一步：等待用户授权仅取得两日A ZIP与必要小元数据（缓存合计约0.267MiB，建议下载上限1MiB、安全解压2MiB；实际版本/大小变化即停），验证SHA/CRC/CDF再做模型门禁，之后才能冻结和执行既定纬区方法。请求不是授权，本轮不执行。
 - 状态：科学训练False、EXTERNAL_DATUM_UNVERIFIED、RestartFAIL、DART未准入、真实轨道BLOCKED、2021A14工程PASS仅敏感性/2022A14PARTIAL保持。v10—v12原代码/数据/结果不覆盖，按安全规则只提交轻量审计/文档；最终Git以实际HEAD核验记录为准。
+
+
+## 2026-11-16：v13-A独立日期获取及目标模型覆盖预检
+- 授权范围：仅两份03-23 A0301 ZIP下载≤1MiB、解压≤2MiB、CDF/模型覆盖；无拟合/未来误差/联合评价、TIE/DART/GPU/轨道/训练。起始本地/远端477c6a8...一致；旧experiments/causal_density_latitude_v1全目录SHA保留，不改历史BLOCKED审计。
+- 下载：复用旧缓存精确URL/大小；HTTPS证书+主机、25秒超时、HTTP200/Content-Length/最终官方host、流式计数/ZIP头、独占临时文件与原子不覆盖发布。2021 140271字节SHA74008af3...，2022 139397字节SHA8c7bb8e3...；实际2请求合计279668字节，0元数据新下载/0重试。HAPI原文件SHA17ccced1...与已提交官方合同一致。
+- 归档：ZIP各恰好CDF+HDR，testzip/成员CRC/安全路径/无符号链接重复通过，解压合计388878字节；CDF各191682、HDR各2757。CRC详细见download_manifest/CDF_contracts，原件仅data/raw/causal_density_latitude_v1且Git忽略。
+- 质量：0301 TITLE/HDR身份、CDF_EPOCH/UTC00至23:59:30、2880条严格30秒、density瞬时kg/m3/经纬deg/高度m独立核验。两日flag0各2880，flag1/未知/无效密度/无效坐标0，最终各2880。过去[15,18)低/中/高2021 123/122/115，2022 119/117/124；仅计数、没有b。
+- 模型：原source/GPI/input/NetCDF历史SHA及退出0/4NORMAL EXIT核验，两年B14/A7/B7目标03-23 15—03-24 00真实10帧，DEN/ZG ilev29/单位/填值/有限正性/ZG严格单调通过。6480质量有效Map-A查询全成功，全部八列、无外推；支持末23:59:30。B14最小模型顶高余量33.667/94.944km不是正式高度误差界。
+- 异常真实保留：两ZIP完整后首次worker因把HDR CRC误等同ZIP/zlib CRC而退出1。独立GNU cksum与Python POSIX(含长度)验证HDR2091013208/1035431957，ZIP成员CRC d2325e04/c73622a7单独通过。无下载或解压重试，后续verify-local只读既有SHA原件。该进程实际rc0，却因末尾NO FIT OR ERROR METRICS触发通用TIE日志ERROR误报；其qualificationFAIL/日志保留不改。改未来措辞，最终独立受监督审计rc0/PASS，不重新查询模型、不改原件或质量阈值。
+- 测试：52当前CPU项通过（12传输/安全/CRC、14质量、8hourly、18native），初版11项另留。独立5760CDF、6480查询缓存及18原列重建探针通过，CRC/SHA/HTTP/样本计数再次核验，无科学误差指标。
+- 资源：已计量核心含失败/误报监督和最终审计/独立核验/全部测试合计25.973秒，峰值采样RSS296.570MiB，报告前审计目录17.269MiB；准备与交互文件操作不逐项计时，不冒称对话墙钟/连续RSS峰值。网络/解压/600秒/4GiB/150MiB均未扩张。
+- 交付：reports/CAUSAL_DENSITY_LATITUDE_ACQUISITION_V1.md，docs/CAUSAL_DENSITY_LATITUDE_ACQUISITION_NEXT_DECISION_V1.md，protocol/download/CDF合同/质量/样本计数/model coverage/资源/原始异常/独立审计/命令/SHA。状态获取COMPLETE，纬度任务READY_FOR_V13_PROTOCOL_FREEZE；算法未执行，等待下一轮，不自动算Stale06/局地b或任何未来误差。科学训练False、EXTERNAL_DATUM_UNVERIFIED、RestartFAIL、DART未准入、真实轨道BLOCKED与两年A14资格保持。Git仅轻量审计，实际同步以远端HEAD独立核验为准。
