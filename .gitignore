@@ -354,3 +354,8 @@ credentials.json
 /experiments/fourcastden_den_multisample_continuation_v8/*.pt
 /results/fourcastden_den_multisample_continuation_v8/*_local.npz
 !/logs/den_multisample_v8*.log
+
+# Observation feasibility: raw contracts and complete observed values local only
+/experiments/thermosphere_observation_assimilation_feasibility_v1/*_local.json
+/results/thermosphere_observation_assimilation_feasibility_v1/*_local.csv
+!/logs/thermosphere_feasibility_v1*.log

@@ -1,0 +1,45 @@
+{
+  "access_date": "2026-11-16",
+  "DART_docs": {
+    "URL": "https://docs.dart.ucar.edu/en/latest/models/tiegcm/readme.html",
+    "web_read": true,
+    "server_download_HTTP": 403,
+    "version_display": "11.25.4"
+  },
+  "paper": {
+    "DOI": "10.1029/2023SW003811",
+    "title": "Assimilating Space-Based Thermospheric Neutral Density (TND) Data Into the TIE-GCM Coupled Model During Periods With Low and High Solar Activity",
+    "published": "2024-03-31",
+    "web_PDF_read": true,
+    "local_PDF_saved": false,
+    "URL": "https://vbn.aau.dk/ws/portalfiles/portal/709792548/Space_Weather_-_2024_-_Kosary_-_Assimilating_Space_Based_Thermospheric_Neutral_Density_TND_Data_Into_the_TIE_GCM_Coupled.pdf",
+    "verified_sections": [
+      "2.1 model and grid",
+      "2.2 intercalibration and GRACE400 mapping",
+      "3.2 ensemble90/15days/1800s window/GC/no vertical localization/statevector",
+      "3.3 metrics",
+      "data availability"
+    ],
+    "R_numeric_configuration": "Not independently reproduced; author input.nml/obs_seq required",
+    "no_project_improvement_promise": true
+  },
+  "Zenodo": {
+    "v1": 10731921,
+    "v2": 10732144,
+    "large_mat_files_downloaded": false,
+    "code_archive_acquired": true,
+    "archive_contents_decompressed": false,
+    "metadata_typo_E3_3015_preserved": true
+  },
+  "TUDelft": {
+    "URL": "https://thermosphere.tudelft.nl/",
+    "access": "server TLS timeout; no claimed content read"
+  },
+  "MSIS": {
+    "primary_docs": "https://swxtrec.github.io/pymsis/index.html",
+    "changelog": "https://github.com/SWxTREC/pymsis/blob/main/CHANGELOG.md",
+    "project_version": "2.1",
+    "version20_not_relabelled": true
+  },
+  "no_external_messages_sent": true
+}

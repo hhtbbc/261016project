@@ -1,0 +1,58 @@
+{
+  "C": {
+    "20210324": [
+      {
+        "mtime": 1727397191,
+        "size": 140619,
+        "name": "SW_OPER_DNSCPOD_2__20210324T000000_20210324T235930_0301.ZIP",
+        "path": "swarm/Level2daily/Latest_baselines/DNS/POD/Sat_C/SW_OPER_DNSCPOD_2__20210324T000000_20210324T235930_0301.ZIP",
+        "is_dir": false,
+        "is_readable": true,
+        "is_writable": false,
+        "is_executable": false,
+        "more": 0
+      }
+    ],
+    "20220324": [
+      {
+        "mtime": 1727164146,
+        "size": 139647,
+        "name": "SW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.ZIP",
+        "path": "swarm/Level2daily/Latest_baselines/DNS/POD/Sat_C/SW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.ZIP",
+        "is_dir": false,
+        "is_readable": true,
+        "is_writable": false,
+        "is_executable": false,
+        "more": 0
+      }
+    ]
+  },
+  "B": {
+    "20210324": [
+      {
+        "mtime": 1727374388,
+        "size": 140650,
+        "name": "SW_OPER_DNSBPOD_2__20210324T000000_20210324T235930_0301.ZIP",
+        "path": "swarm/Level2daily/Latest_baselines/DNS/POD/Sat_B/SW_OPER_DNSBPOD_2__20210324T000000_20210324T235930_0301.ZIP",
+        "is_dir": false,
+        "is_readable": true,
+        "is_writable": false,
+        "is_executable": false,
+        "more": 0
+      }
+    ],
+    "20220324": [
+      {
+        "mtime": 1727142785,
+        "size": 140015,
+        "name": "SW_OPER_DNSBPOD_2__20220324T000000_20220324T235930_0301.ZIP",
+        "path": "swarm/Level2daily/Latest_baselines/DNS/POD/Sat_B/SW_OPER_DNSBPOD_2__20220324T000000_20220324T235930_0301.ZIP",
+        "is_dir": false,
+        "is_readable": true,
+        "is_writable": false,
+        "is_executable": false,
+        "more": 0
+      }
+    ]
+  }
+}

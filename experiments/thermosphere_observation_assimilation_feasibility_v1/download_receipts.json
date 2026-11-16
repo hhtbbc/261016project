@@ -1,0 +1,192 @@
+{
+  "receipts": [
+    {
+      "URL": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/quickstart.html",
+      "bytes": 16254,
+      "SHA256": "66a58932aba2a4c0acfcee9f39663f253c578b030492dedf31b692b4740aa65f",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/quickstart.html",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/output.html",
+      "bytes": 11472,
+      "SHA256": "5bb07695a88552e40cd58f5e54f1f515ed0977de6105d851e8b6273d5222dfe4",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/output.html",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/diags.html",
+      "bytes": 113899,
+      "SHA256": "d55b30d80dcc8f3a03122fb2bcfbc35ef98343a03f62c3d46cb178296d1d7d1a",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/diags.html",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://api.github.com/repos/NCAR/DART/commits/main",
+      "bytes": 10573,
+      "SHA256": "a8c23b949933892b8ed42aa0715936d3e05155d1c094f39e68d916fbd7922f34",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/DART_commit.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://api.github.com/repos/NCAR/DART/contents/models/tiegcm",
+      "bytes": 2912,
+      "SHA256": "653998c2151e9a8f629c5a61f6d422ba27c4ad6c91a981a80d48786f2c1c8853",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/DART_directory.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://zenodo.org/api/records/10731921",
+      "bytes": 5232,
+      "SHA256": "b90f0ae1e8c28d048818499cfd8587aeb8045329414bf57ecd6cd5aea993d99d",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/zenodo_v1.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://zenodo.org/api/records/10732144",
+      "bytes": 5488,
+      "SHA256": "ebd58db6bf04a63caf55f085200dc565d83c7f15a3c2ddfebe360841695e8cbd",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/zenodo_latest.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://vires.services/hapi/catalog",
+      "bytes": 5738,
+      "SHA256": "32dba406f4106573873ac16596bdaeca4edd660aeb155b81b8121ec124a8f64b",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/HAPI_catalog.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/NCAR/DART/df5b08d03aa44c3a6b2b561a903b00b7193611ca/models/tiegcm/model_mod.f90",
+      "bytes": 60503,
+      "SHA256": "1dc52ee33c8bcfb18e2282c64d034d24dd5785a0f6c2bcacfa024ff98b910507",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/model_mod.f90",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/NCAR/DART/df5b08d03aa44c3a6b2b561a903b00b7193611ca/observations/forward_operators/obs_def_upper_atm_mod.f90",
+      "bytes": 37095,
+      "SHA256": "cceddbb618894f795057218fc847fce265caf1885d4c8167d94590d291d584d8",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/obs_def_upper_atm_mod.f90",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/NCAR/DART/df5b08d03aa44c3a6b2b561a903b00b7193611ca/models/tiegcm/work/input.nml",
+      "bytes": 13307,
+      "SHA256": "e33f6011c341ac9519fab363bec85e1b0d1f62b5693a67cd66d111730441682b",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/input.nml",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/NCAR/DART/df5b08d03aa44c3a6b2b561a903b00b7193611ca/models/tiegcm/work/quickbuild.sh",
+      "bytes": 789,
+      "SHA256": "76c5a280d77d449c20d626e648ca6f2754ef7b55e31132a623f6bb7a11118473",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/quickbuild.sh",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://vires.services/hapi/info?id=SW_OPER_DNSAPOD_2_",
+      "bytes": 1831,
+      "SHA256": "17ccced134a05fee2fd991acf6c1dbd44f166ed8239cf6435af11e3cef2c69ac",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/SW_OPER_DNSAPOD_2__info.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://vires.services/hapi/info?id=SW_OPER_DNSBPOD_2_",
+      "bytes": 1831,
+      "SHA256": "d717770201326a92f9697d0b4c767374fa1fdd25ae75c31b760605f0f4ed1b14",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/SW_OPER_DNSBPOD_2__info.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://vires.services/hapi/info?id=SW_OPER_DNSCPOD_2_",
+      "bytes": 1831,
+      "SHA256": "7113d0443b30ff0d3a625b3fdb6d3143f4920abecfd1bb66eb779d048294bd35",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/SW_OPER_DNSCPOD_2__info.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://vires.services/hapi/info?id=SW_OPER_DNSAACC_2_",
+      "bytes": 1550,
+      "SHA256": "788dab033bf559b37f09ff16acc17dce982fdf3007547cb5cf5649c9ad15e4a5",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/SW_OPER_DNSAACC_2__info.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://vires.services/hapi/info?id=SW_OPER_DNSBACC_2_",
+      "bytes": 1550,
+      "SHA256": "b03d62d8d2da01f5556fb0635d71ebe7a2dc557e3a7ae5ac522703ac924cb23b",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/SW_OPER_DNSBACC_2__info.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://vires.services/hapi/info?id=SW_OPER_DNSCACC_2_",
+      "bytes": 1550,
+      "SHA256": "255930093869ded032d5203e37205f7b722ecc2133e2d284a29e7bd3e1e3ec22",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/SW_OPER_DNSCACC_2__info.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://vires.services/hapi/info?id=GF_OPER_DNS1ACC_2_",
+      "bytes": 1962,
+      "SHA256": "d0076ea8d7f53be417afb426cedba1499b52f6b15d5b46c66337c87e5dd24475",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/GF_OPER_DNS1ACC_2__info.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://vires.services/hapi/info?id=GR_OPER_DNS1ACC_2_",
+      "bytes": 1959,
+      "SHA256": "f56a829e405aca8a8529ba1a7adf3788ae150d739db8c7c2dcb66a778077560b",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/GR_OPER_DNS1ACC_2__info.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://vires.services/hapi/info?id=CH_OPER_DNS_ACC_2_",
+      "bytes": 1957,
+      "SHA256": "35d27532c89eaa978faf905026b2fe596d3e8dc888b7726ecf88584925a9c382",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/CH_OPER_DNS_ACC_2__info.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=10000&pos=0&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_C",
+      "bytes": 1455811,
+      "SHA256": "5fbd310c0508ee5ab851845c5f8a6176487d223de2f3a94de76581f52e301fda",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/Sat_C_listing.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=10000&pos=0&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_B",
+      "bytes": 1456434,
+      "SHA256": "7b9f6f3c104d4530d26e83d5a047a0535f29fb16ada27f5c7d379a1c8554ac0c",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/Sat_B_listing.json",
+      "HTTP": 200
+    },
+    {
+      "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_C%2FSW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.ZIP",
+      "bytes": 139647,
+      "SHA256": "4c62f9ecbccfdd4048dfa154b375aaea78d833ed40aaee026e2dec7db97387cd",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/SW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.ZIP",
+      "HTTP": 200
+    }
+  ],
+  "failures": [
+    {
+      "URL": "https://docs.dart.ucar.edu/en/latest/models/tiegcm/readme.html",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/DART_tiegcm.html",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "URL": "https://thermosphere.tudelft.nl/",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/TU_Delft.html",
+      "error": "URLError: <urlopen error _ssl.c:1000: The handshake operation timed out>"
+    },
+    {
+      "URL": "https://vbn.aau.dk/files/709792548/Space_Weather_-_2024_-_Kosary_-_Assimilating_Space_Based_Thermospheric_Neutral_Density_TND_Data_Into_the_TIE_GCM_Coupled.pdf",
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/official/Kosary_2024_published.pdf",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ],
+  "total_saved_download_bytes": 3351175,
+  "limit_bytes": 10485760,
+  "Swarm_B_density_values_read": false
+}

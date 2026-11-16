@@ -1,0 +1,85 @@
+{
+  "PASS": true,
+  "source": "Zenodo10732144v2",
+  "archive_SHA256": "1ed9ccc8bf4593ef0c43957415f2be2d5d09844095e130efa5ba8c8144753bfe",
+  "official_MD5_matches": true,
+  "header_CRCs_verified": 10,
+  "entries": [
+    {
+      "name": "Code/Edit_tiegcm_Inp_Ensemble_DART.m",
+      "directory": false,
+      "unpacked_bytes": 1303,
+      "packed_bytes": 538,
+      "compression_method": 3,
+      "safe_relative_name": true,
+      "contents_read": false
+    },
+    {
+      "name": "Code/Ensemble.csh",
+      "directory": false,
+      "unpacked_bytes": 1334,
+      "packed_bytes": 622,
+      "compression_method": 3,
+      "safe_relative_name": true,
+      "contents_read": false
+    },
+    {
+      "name": "Code/Georgd2yearday.m",
+      "directory": false,
+      "unpacked_bytes": 1355,
+      "packed_bytes": 264,
+      "compression_method": 3,
+      "safe_relative_name": true,
+      "contents_read": false
+    },
+    {
+      "name": "Code/gpi_1960001-2019365.nc",
+      "directory": false,
+      "unpacked_bytes": 1842240,
+      "packed_bytes": 234295,
+      "compression_method": 3,
+      "safe_relative_name": true,
+      "contents_read": false
+    },
+    {
+      "name": "Code/Make_Ensemble.m",
+      "directory": false,
+      "unpacked_bytes": 1480,
+      "packed_bytes": 648,
+      "compression_method": 3,
+      "safe_relative_name": true,
+      "contents_read": false
+    },
+    {
+      "name": "Code/Make_Ensemble_Primary_DART.m",
+      "directory": false,
+      "unpacked_bytes": 975,
+      "packed_bytes": 484,
+      "compression_method": 3,
+      "safe_relative_name": true,
+      "contents_read": false
+    },
+    {
+      "name": "Code",
+      "directory": true,
+      "unpacked_bytes": 0,
+      "packed_bytes": 0,
+      "compression_method": 0,
+      "safe_relative_name": true,
+      "contents_read": false
+    },
+    {
+      "name": "QO",
+      "directory": false,
+      "unpacked_bytes": 76,
+      "packed_bytes": 76,
+      "compression_method": 0,
+      "safe_relative_name": true,
+      "contents_read": false
+    }
+  ],
+  "contents_decompressed": false,
+  "code_executed": false,
+  "limitation": "No local RAR5 decompressor; only archive member names/sizes proven, not program contents",
+  "specification": "https://www.rarlab.com/technote.htm"
+}

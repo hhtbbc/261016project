@@ -1,0 +1,76 @@
+{
+  "PASS": true,
+  "direct_CDF_probes": [
+    {
+      "source_file": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/SW_OPER_DNSAPOD_2__20210324T000000_20210324T235930_0301.cdf",
+      "record": 0,
+      "UTC": "2021-03-24T00:00:00.000000000Z",
+      "exact_density_coordinate_UTC_match": true
+    },
+    {
+      "source_file": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/SW_OPER_DNSAPOD_2__20210324T000000_20210324T235930_0301.cdf",
+      "record": 1440,
+      "UTC": "2021-03-24T12:00:00.000000000Z",
+      "exact_density_coordinate_UTC_match": true
+    },
+    {
+      "source_file": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/SW_OPER_DNSAPOD_2__20210324T000000_20210324T235930_0301.cdf",
+      "record": 2879,
+      "UTC": "2021-03-24T23:59:30.000000000Z",
+      "exact_density_coordinate_UTC_match": true
+    },
+    {
+      "source_file": "data/raw/swarm_tiegcm_2022_observation_v1/SW_OPER_DNSAPOD_2__20220324T000000_20220324T235930_0301.cdf",
+      "record": 0,
+      "UTC": "2022-03-24T00:00:00.000000000Z",
+      "exact_density_coordinate_UTC_match": true
+    },
+    {
+      "source_file": "data/raw/swarm_tiegcm_2022_observation_v1/SW_OPER_DNSAPOD_2__20220324T000000_20220324T235930_0301.cdf",
+      "record": 1440,
+      "UTC": "2022-03-24T12:00:00.000000000Z",
+      "exact_density_coordinate_UTC_match": true
+    },
+    {
+      "source_file": "data/raw/swarm_tiegcm_2022_observation_v1/SW_OPER_DNSAPOD_2__20220324T000000_20220324T235930_0301.cdf",
+      "record": 2879,
+      "UTC": "2022-03-24T23:59:30.000000000Z",
+      "exact_density_coordinate_UTC_match": true
+    },
+    {
+      "source_file": "data/raw/thermosphere_observation_assimilation_feasibility_v1/SW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.cdf",
+      "record": 0,
+      "UTC": "2022-03-24T00:00:00.000000000Z",
+      "exact_density_coordinate_UTC_match": true
+    },
+    {
+      "source_file": "data/raw/thermosphere_observation_assimilation_feasibility_v1/SW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.cdf",
+      "record": 1440,
+      "UTC": "2022-03-24T12:00:00.000000000Z",
+      "exact_density_coordinate_UTC_match": true
+    },
+    {
+      "source_file": "data/raw/thermosphere_observation_assimilation_feasibility_v1/SW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.cdf",
+      "record": 2879,
+      "UTC": "2022-03-24T23:59:30.000000000Z",
+      "exact_density_coordinate_UTC_match": true
+    }
+  ],
+  "unified_records": 8640,
+  "real_C_records": 2880,
+  "Swarm_B_density_values_read": false,
+  "old_assets_unchanged": 690,
+  "raw_and_reference_download_bytes": 3588547,
+  "raw_Swarm_C_ZIP_bytes": 139647,
+  "figures_verified": 4,
+  "CPU_unit_tests": 14,
+  "new_GPU_tasks": 0,
+  "new_TIE_runs": 0,
+  "new_DART_runs": 0,
+  "new_orbit_runs": 0,
+  "corrections_fitted": 0,
+  "SCIENCE_TRAINING_READY": false,
+  "EXTERNAL_DATUM": "EXTERNAL_DATUM_UNVERIFIED",
+  "real_orbit": "BLOCKED",
+  "A14_engineering": "PARTIAL"
+}

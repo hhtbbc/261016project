@@ -1093,3 +1093,16 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - CPU后处理39.095241秒/666.75MiB：直接数组复算120全层指标、统一模块独立重算全部AI逐层/纬区指标、Persistence与v3全部匹配，normalized逐层损失反算通过，9真实PNG/完整720历史和逐层区域CSV。无额外模型forward。
 - 命令与日志索引本tag commands.json；source scripts/activate_orbit.sh/.venv310，全部文件/缓存项目内。报告reports/FOURCASTDEN_DEN_MULTISAMPLE_CONTINUATION_V8.md；决策docs/FOURCASTDEN_DEN_MULTISAMPLE_V8_NEXT_DECISION.md建议残差单因素对照，不因当前未胜P无限追加训练，直接DEN尚未平台。残差基于当前DEN+标准化增量，沿用仅2021统计、无正值保证，不与旧checkpoint兼容；严谨对照需冻结与v7/v8相同阶段边界，资源预算仅建议未执行。
 - 工程恢复/更新/最终评价/保存PASS，Persistence优势FAIL；SCIENCE_TRAINING_READY=False、EXTERNAL_DATUM_UNVERIFIED、真实轨道BLOCKED、A14历史PARTIAL与旧FAIL不改。只公开轻量代码/配置/审计/CSV/PNG/报告；原大数据、预测数组、完整checkpoint与凭据不上传。不强推、保留无关未跟踪成果，最终Git同步审计本地保存；任务完成停止。
+
+
+## 2026-11-16：观测约束物理优先技术路线可行性v1
+- 授权：初场/Restart及DART静态审查，多卫星目录，复用A两日、最多一个C单日≤10MiB；无模型积分、同化、校正拟合、训练和轨道传播。新优先级OBSERVATION_CONSTRAINED_PHYSICS_FIRST，历史AI成果不作废。
+- 复用：既有0301 CDF读取/质量筛选、原生密度和坐标隔离接口、多年预热/观测指标、H6/SP3/真实受力审计；新增src/observations/density_catalog.py与独立DART EOS检查，不改变正式外部接口或第三方模型。
+- 真实输入：两日A原件只读，新增C 2022-03-24 DNSCPOD0301 ZIP139647字节，CRC与SHA验证；2880个30秒记录全部质量有效。全部原始/文档/固定DART源码/作者Code.rar下载共3588547字节；B仅目录与HAPI元数据，无密度值下载或读取。Code.rar仅验证官方MD5、RAR5目录头CRC/成员名，未解压执行，约2.55GB结果mat未下载。
+- 审计：官方2002 smin/smax真实日期/34primary变量/当前前时层及边界，8轨迹来源、6实际状态文件与568变量行。完整状态可作新背景，既有严格重启一致性FAIL仍保留。DART示例9变量和本地匹配，但示例、文档、论文配置不同；默认O/O2/N2密度路径忽略本地He，真实B14 lev24条件EOS比值P95变化约13.14%/14.03%，不是已测DART同化误差或Swarm误差。
+- 实验：prepare_thermosphere_feasibility_v1.py（113.45秒）；analyze_thermosphere_feasibility_v1.py（23.892972秒、峰值RSS570.085938MiB）；inspect_author_archive_metadata_v1.py；verify_thermosphere_feasibility_v1.py。激活scripts/activate_orbit.sh，CPU分析使用子进程CUDA_VISIBLE_DEVICES=''，不修改库导入环境。完整命令见本run commands.json。
+- 验证：tests/test_observation_feasibility_v1.py 14项通过（0.052秒），覆盖版本/SHA/质量/保留B/因果截止/单位EOS及状态结构。独立直读CDF的9时刻UTC/密度/坐标精确匹配，4图格式验证且密度时序图视觉检查通过；690旧资产逐一SHA未变。原件和完整观测值CSV仅本地，公开文件索引/统计/小图。
+- 异常：CPU分析第一次因2021旧run-tag路径少spinup而在数据读取前失败；保存analysis_initial_failed.py、analysis_path_incident.json与失败日志，最小路径修正后独立v2分析成功，不涉及模型或下载重试。服务器DART文档403/论文PDF403及TU Delft访问超时保留，网页工具实际可读的官方文档/论文与本地下载状态分开；未安装解压器或DART。
+- 结论：内部预热趋同不保证观测误差改善。当前MSIS为2.1，不能改名2.0，也没有本轮2021/22三模型公平计算。新增C与A同为POD反演、非完全独立真值。仅冻结未来校正/验证隔离方案，06Z仅用[03,06)的360条A，未来1/3/6小时不泄漏。
+- 交付：7份新报告/计划、4图、9产品目录、变量/轨迹清单、既有32行观测指标只读引用；入口reports/LEADERSHIP_TECHNICAL_FEASIBILITY_BRIEF_V1.md。后续优先小规模因果输出校正并平行求官方高度登记，DART部署排后；不自动执行。
+- 状态：科学训练False、外部高度未验证、真实轨道BLOCKED、A14历史工程PARTIAL不变。Git同步以本轮实际提交及远端逐字核验为准，认证不成功不追认。

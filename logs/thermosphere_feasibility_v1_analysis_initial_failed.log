@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/workspace/data/20261016/scripts/analyze_thermosphere_feasibility_v1.py", line 89, in <module>
+    if __name__=='__main__':main()
+  File "/workspace/data/20261016/scripts/analyze_thermosphere_feasibility_v1.py", line 32, in main
+    prior=json.loads((ROOT/f'experiments/swarm_tiegcm_{year}_observation_v1/downloads.json').read_text());assert any(x['path']==str(path.relative_to(ROOT)) and x['SHA256']==expected for x in prior['members'])
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/workspace/data/20261016/.local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/data/20261016/experiments/swarm_tiegcm_2021_observation_v1/downloads.json'

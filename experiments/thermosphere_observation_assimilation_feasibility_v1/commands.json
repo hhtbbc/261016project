@@ -1,0 +1,15 @@
+{
+  "workspace": "/workspace/data/20261016",
+  "commands": [
+    "source scripts/activate_orbit.sh",
+    "python scripts/prepare_thermosphere_feasibility_v1.py",
+    "CUDA_VISIBLE_DEVICES='' python -m unittest discover -s tests -p test_observation_feasibility_v1.py -v",
+    "CUDA_VISIBLE_DEVICES='' python scripts/analyze_thermosphere_feasibility_v1.py",
+    "python scripts/inspect_author_archive_metadata_v1.py",
+    "CUDA_VISIBLE_DEVICES='' python scripts/verify_thermosphere_feasibility_v1.py"
+  ],
+  "downloads_one_time": true,
+  "model_launches": 0,
+  "correction_fits": 0,
+  "rerun_note": "Downloader refuses duplicate launch; analysis initial path failure and v2 completion preserved. Do not replay blindly."
+}

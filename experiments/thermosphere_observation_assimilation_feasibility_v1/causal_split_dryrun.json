@@ -1,0 +1,10 @@
+{
+  "PASS": true,
+  "cutoff": "2022-03-24T06:00:00Z",
+  "history_hours": 3,
+  "calibration_times_only": 360,
+  "C_development": true,
+  "B_reserved": true,
+  "no_fitting": true,
+  "no_model_density_queries": true
+}

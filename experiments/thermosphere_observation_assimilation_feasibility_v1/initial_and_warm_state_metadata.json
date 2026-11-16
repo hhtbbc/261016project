@@ -1,0 +1,860 @@
+[
+  {
+    "label": "official_smin",
+    "file": "data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc",
+    "SHA256": "180475215a4922e9c55a77e80153cf641bc8fbb2b8d52633b4686ddee6942fff",
+    "bytes": 16993144,
+    "history_type": "primary",
+    "run_type": "initial",
+    "model_version": "tiegcm_trunk",
+    "source_file": "/glade/p/hao/tgcm/data/tiegcm1.95/TGCM.tiegcm1.95.pcntr_mareqx_smin.nc (initial)",
+    "dimensions": {
+      "time": 1,
+      "lon": 72,
+      "lat": 36,
+      "lev": 29,
+      "ilev": 29,
+      "mlon": 81,
+      "mlat": 97,
+      "mlev": 32,
+      "imlev": 32,
+      "mtimedim": 3,
+      "latlon": 2,
+      "dtidedim": 2,
+      "sdtidedim": 10,
+      "datelen": 24,
+      "filelen": 1024
+    },
+    "UTC_from_time_units": [
+      "2002-03-21 00:00:00"
+    ],
+    "mtime": [
+      [
+        80,
+        0,
+        0
+      ]
+    ],
+    "structure_audit": {
+      "file": "/workspace/data/20261016/data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc",
+      "history_type": "primary",
+      "missing_required": [],
+      "selected_record_count": 1,
+      "available_mtime": [
+        [
+          80,
+          0,
+          0
+        ]
+      ],
+      "all_required_double": true,
+      "structure_complete": true,
+      "record_available": true,
+      "validated_continuation": false
+    }
+  },
+  {
+    "label": "official_smax",
+    "file": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+    "SHA256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+    "bytes": 16993144,
+    "history_type": "primary",
+    "run_type": "initial",
+    "model_version": "tiegcm_trunk",
+    "source_file": "/glade/p/hao/tgcm/data/tiegcm1.95/TGCM.tiegcm1.95.pcntr_mareqx_smax.nc (initial)",
+    "dimensions": {
+      "time": 1,
+      "lon": 72,
+      "lat": 36,
+      "lev": 29,
+      "ilev": 29,
+      "mlon": 81,
+      "mlat": 97,
+      "mlev": 32,
+      "imlev": 32,
+      "mtimedim": 3,
+      "latlon": 2,
+      "dtidedim": 2,
+      "sdtidedim": 10,
+      "datelen": 24,
+      "filelen": 1024
+    },
+    "UTC_from_time_units": [
+      "2002-03-21 00:00:00"
+    ],
+    "mtime": [
+      [
+        80,
+        0,
+        0
+      ]
+    ],
+    "structure_audit": {
+      "file": "/workspace/data/20261016/data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+      "history_type": "primary",
+      "missing_required": [],
+      "selected_record_count": 1,
+      "available_mtime": [
+        [
+          80,
+          0,
+          0
+        ]
+      ],
+      "all_required_double": true,
+      "structure_complete": true,
+      "record_available": true,
+      "validated_continuation": false
+    }
+  },
+  {
+    "label": "2021_B14_warm",
+    "file": "experiments/tiegcm_2021_spinup_14day_v1/B14/primary_015.nc",
+    "SHA256": "16df7f01187dc1cf3e22cc048c716b6ca73ec4001eee356e153adcbbfefca8a1",
+    "bytes": 16993248,
+    "history_type": "primary",
+    "run_type": "initial",
+    "model_version": "tiegcm_trunk",
+    "source_file": "/workspace/data/20261016/data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc (initial)",
+    "dimensions": {
+      "time": 1,
+      "lon": 72,
+      "lat": 36,
+      "lev": 29,
+      "ilev": 29,
+      "mlon": 81,
+      "mlat": 97,
+      "mlev": 32,
+      "imlev": 32,
+      "mtimedim": 3,
+      "latlon": 2,
+      "dtidedim": 2,
+      "sdtidedim": 10,
+      "datelen": 24,
+      "filelen": 1024
+    },
+    "UTC_from_time_units": [
+      "2021-03-23 00:00:00"
+    ],
+    "mtime": [
+      [
+        82,
+        0,
+        0
+      ]
+    ],
+    "structure_audit": {
+      "file": "/workspace/data/20261016/experiments/tiegcm_2021_spinup_14day_v1/B14/primary_015.nc",
+      "history_type": "primary",
+      "missing_required": [],
+      "selected_record_count": 1,
+      "available_mtime": [
+        [
+          82,
+          0,
+          0
+        ]
+      ],
+      "all_required_double": true,
+      "structure_complete": true,
+      "record_available": true,
+      "validated_continuation": false
+    }
+  },
+  {
+    "label": "2022_B14_warm",
+    "file": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/primary_015.nc",
+    "SHA256": "5971f897d61d65c3486129d18dcef6825f2e453b5ba14213e5a8f3c2bd2b2b33",
+    "bytes": 16993248,
+    "history_type": "primary",
+    "run_type": "initial",
+    "model_version": "tiegcm_trunk",
+    "source_file": "/workspace/data/20261016/data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc (initial)",
+    "dimensions": {
+      "time": 1,
+      "lon": 72,
+      "lat": 36,
+      "lev": 29,
+      "ilev": 29,
+      "mlon": 81,
+      "mlat": 97,
+      "mlev": 32,
+      "imlev": 32,
+      "mtimedim": 3,
+      "latlon": 2,
+      "dtidedim": 2,
+      "sdtidedim": 10,
+      "datelen": 24,
+      "filelen": 1024
+    },
+    "UTC_from_time_units": [
+      "2022-03-23 00:00:00"
+    ],
+    "mtime": [
+      [
+        82,
+        0,
+        0
+      ]
+    ],
+    "structure_audit": {
+      "file": "/workspace/data/20261016/experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/primary_015.nc",
+      "history_type": "primary",
+      "missing_required": [],
+      "selected_record_count": 1,
+      "available_mtime": [
+        [
+          82,
+          0,
+          0
+        ]
+      ],
+      "all_required_double": true,
+      "structure_complete": true,
+      "record_available": true,
+      "validated_continuation": false
+    }
+  },
+  {
+    "label": "2021_B14_secondary",
+    "file": "experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+    "SHA256": "082bad2d5c4789fc1fbcac6f5f1b67f7eda4a0ffaded3442608df8bcadd918dc",
+    "bytes": 192669016,
+    "history_type": "secondary",
+    "run_type": "initial",
+    "model_version": "tiegcm_trunk",
+    "source_file": "/workspace/data/20261016/data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc (initial)",
+    "dimensions": {
+      "time": 24,
+      "lon": 72,
+      "lat": 36,
+      "lev": 29,
+      "ilev": 29,
+      "mlon": 81,
+      "mlat": 97,
+      "mlev": 32,
+      "imlev": 32,
+      "mtimedim": 3,
+      "latlon": 2,
+      "dtidedim": 2,
+      "sdtidedim": 10,
+      "datelen": 24,
+      "filelen": 1024
+    },
+    "UTC_from_time_units": [
+      "2021-03-23 01:00:00",
+      "2021-03-23 02:00:00",
+      "2021-03-23 03:00:00",
+      "2021-03-23 04:00:00",
+      "2021-03-23 05:00:00",
+      "2021-03-23 06:00:00",
+      "2021-03-23 07:00:00",
+      "2021-03-23 08:00:00",
+      "2021-03-23 09:00:00",
+      "2021-03-23 10:00:00",
+      "2021-03-23 11:00:00",
+      "2021-03-23 12:00:00",
+      "2021-03-23 13:00:00",
+      "2021-03-23 14:00:00",
+      "2021-03-23 15:00:00",
+      "2021-03-23 16:00:00",
+      "2021-03-23 17:00:00",
+      "2021-03-23 18:00:00",
+      "2021-03-23 19:00:00",
+      "2021-03-23 20:00:00",
+      "2021-03-23 21:00:00",
+      "2021-03-23 22:00:00",
+      "2021-03-23 23:00:00",
+      "2021-03-24 00:00:00"
+    ],
+    "mtime": [
+      [
+        82,
+        1,
+        0
+      ],
+      [
+        82,
+        2,
+        0
+      ],
+      [
+        82,
+        3,
+        0
+      ],
+      [
+        82,
+        4,
+        0
+      ],
+      [
+        82,
+        5,
+        0
+      ],
+      [
+        82,
+        6,
+        0
+      ],
+      [
+        82,
+        7,
+        0
+      ],
+      [
+        82,
+        8,
+        0
+      ],
+      [
+        82,
+        9,
+        0
+      ],
+      [
+        82,
+        10,
+        0
+      ],
+      [
+        82,
+        11,
+        0
+      ],
+      [
+        82,
+        12,
+        0
+      ],
+      [
+        82,
+        13,
+        0
+      ],
+      [
+        82,
+        14,
+        0
+      ],
+      [
+        82,
+        15,
+        0
+      ],
+      [
+        82,
+        16,
+        0
+      ],
+      [
+        82,
+        17,
+        0
+      ],
+      [
+        82,
+        18,
+        0
+      ],
+      [
+        82,
+        19,
+        0
+      ],
+      [
+        82,
+        20,
+        0
+      ],
+      [
+        82,
+        21,
+        0
+      ],
+      [
+        82,
+        22,
+        0
+      ],
+      [
+        82,
+        23,
+        0
+      ],
+      [
+        83,
+        0,
+        0
+      ]
+    ],
+    "structure_audit": {
+      "file": "/workspace/data/20261016/experiments/tiegcm_2021_spinup_14day_v1/B14/secondary_015.nc",
+      "history_type": "secondary",
+      "missing_required": [
+        "AR",
+        "N2D",
+        "OMEGA",
+        "TN_NM",
+        "UN_NM",
+        "VN_NM",
+        "O2_NM",
+        "O1_NM",
+        "N4S_NM",
+        "NO_NM",
+        "OP_NM",
+        "HE_NM",
+        "AR_NM"
+      ],
+      "selected_record_count": 1,
+      "available_mtime": [
+        [
+          82,
+          1,
+          0
+        ],
+        [
+          82,
+          2,
+          0
+        ],
+        [
+          82,
+          3,
+          0
+        ],
+        [
+          82,
+          4,
+          0
+        ],
+        [
+          82,
+          5,
+          0
+        ],
+        [
+          82,
+          6,
+          0
+        ],
+        [
+          82,
+          7,
+          0
+        ],
+        [
+          82,
+          8,
+          0
+        ],
+        [
+          82,
+          9,
+          0
+        ],
+        [
+          82,
+          10,
+          0
+        ],
+        [
+          82,
+          11,
+          0
+        ],
+        [
+          82,
+          12,
+          0
+        ],
+        [
+          82,
+          13,
+          0
+        ],
+        [
+          82,
+          14,
+          0
+        ],
+        [
+          82,
+          15,
+          0
+        ],
+        [
+          82,
+          16,
+          0
+        ],
+        [
+          82,
+          17,
+          0
+        ],
+        [
+          82,
+          18,
+          0
+        ],
+        [
+          82,
+          19,
+          0
+        ],
+        [
+          82,
+          20,
+          0
+        ],
+        [
+          82,
+          21,
+          0
+        ],
+        [
+          82,
+          22,
+          0
+        ],
+        [
+          82,
+          23,
+          0
+        ],
+        [
+          83,
+          0,
+          0
+        ]
+      ],
+      "all_required_double": false,
+      "structure_complete": false,
+      "record_available": true,
+      "validated_continuation": false
+    }
+  },
+  {
+    "label": "2022_B14_secondary",
+    "file": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+    "SHA256": "e0ff06cc9cde96ab36e71c07a7eb3d5cec4ac31a0080627a95dc399a2eb12a4f",
+    "bytes": 192669016,
+    "history_type": "secondary",
+    "run_type": "initial",
+    "model_version": "tiegcm_trunk",
+    "source_file": "/workspace/data/20261016/data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc (initial)",
+    "dimensions": {
+      "time": 24,
+      "lon": 72,
+      "lat": 36,
+      "lev": 29,
+      "ilev": 29,
+      "mlon": 81,
+      "mlat": 97,
+      "mlev": 32,
+      "imlev": 32,
+      "mtimedim": 3,
+      "latlon": 2,
+      "dtidedim": 2,
+      "sdtidedim": 10,
+      "datelen": 24,
+      "filelen": 1024
+    },
+    "UTC_from_time_units": [
+      "2022-03-23 01:00:00",
+      "2022-03-23 02:00:00",
+      "2022-03-23 03:00:00",
+      "2022-03-23 04:00:00",
+      "2022-03-23 05:00:00",
+      "2022-03-23 06:00:00",
+      "2022-03-23 07:00:00",
+      "2022-03-23 08:00:00",
+      "2022-03-23 09:00:00",
+      "2022-03-23 10:00:00",
+      "2022-03-23 11:00:00",
+      "2022-03-23 12:00:00",
+      "2022-03-23 13:00:00",
+      "2022-03-23 14:00:00",
+      "2022-03-23 15:00:00",
+      "2022-03-23 16:00:00",
+      "2022-03-23 17:00:00",
+      "2022-03-23 18:00:00",
+      "2022-03-23 19:00:00",
+      "2022-03-23 20:00:00",
+      "2022-03-23 21:00:00",
+      "2022-03-23 22:00:00",
+      "2022-03-23 23:00:00",
+      "2022-03-24 00:00:00"
+    ],
+    "mtime": [
+      [
+        82,
+        1,
+        0
+      ],
+      [
+        82,
+        2,
+        0
+      ],
+      [
+        82,
+        3,
+        0
+      ],
+      [
+        82,
+        4,
+        0
+      ],
+      [
+        82,
+        5,
+        0
+      ],
+      [
+        82,
+        6,
+        0
+      ],
+      [
+        82,
+        7,
+        0
+      ],
+      [
+        82,
+        8,
+        0
+      ],
+      [
+        82,
+        9,
+        0
+      ],
+      [
+        82,
+        10,
+        0
+      ],
+      [
+        82,
+        11,
+        0
+      ],
+      [
+        82,
+        12,
+        0
+      ],
+      [
+        82,
+        13,
+        0
+      ],
+      [
+        82,
+        14,
+        0
+      ],
+      [
+        82,
+        15,
+        0
+      ],
+      [
+        82,
+        16,
+        0
+      ],
+      [
+        82,
+        17,
+        0
+      ],
+      [
+        82,
+        18,
+        0
+      ],
+      [
+        82,
+        19,
+        0
+      ],
+      [
+        82,
+        20,
+        0
+      ],
+      [
+        82,
+        21,
+        0
+      ],
+      [
+        82,
+        22,
+        0
+      ],
+      [
+        82,
+        23,
+        0
+      ],
+      [
+        83,
+        0,
+        0
+      ]
+    ],
+    "structure_audit": {
+      "file": "/workspace/data/20261016/experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/secondary_015.nc",
+      "history_type": "secondary",
+      "missing_required": [
+        "AR",
+        "N2D",
+        "OMEGA",
+        "TN_NM",
+        "UN_NM",
+        "VN_NM",
+        "O2_NM",
+        "O1_NM",
+        "N4S_NM",
+        "NO_NM",
+        "OP_NM",
+        "HE_NM",
+        "AR_NM"
+      ],
+      "selected_record_count": 1,
+      "available_mtime": [
+        [
+          82,
+          1,
+          0
+        ],
+        [
+          82,
+          2,
+          0
+        ],
+        [
+          82,
+          3,
+          0
+        ],
+        [
+          82,
+          4,
+          0
+        ],
+        [
+          82,
+          5,
+          0
+        ],
+        [
+          82,
+          6,
+          0
+        ],
+        [
+          82,
+          7,
+          0
+        ],
+        [
+          82,
+          8,
+          0
+        ],
+        [
+          82,
+          9,
+          0
+        ],
+        [
+          82,
+          10,
+          0
+        ],
+        [
+          82,
+          11,
+          0
+        ],
+        [
+          82,
+          12,
+          0
+        ],
+        [
+          82,
+          13,
+          0
+        ],
+        [
+          82,
+          14,
+          0
+        ],
+        [
+          82,
+          15,
+          0
+        ],
+        [
+          82,
+          16,
+          0
+        ],
+        [
+          82,
+          17,
+          0
+        ],
+        [
+          82,
+          18,
+          0
+        ],
+        [
+          82,
+          19,
+          0
+        ],
+        [
+          82,
+          20,
+          0
+        ],
+        [
+          82,
+          21,
+          0
+        ],
+        [
+          82,
+          22,
+          0
+        ],
+        [
+          82,
+          23,
+          0
+        ],
+        [
+          83,
+          0,
+          0
+        ]
+      ],
+      "all_required_double": false,
+      "structure_complete": false,
+      "record_available": true,
+      "validated_continuation": false
+    }
+  }
+]

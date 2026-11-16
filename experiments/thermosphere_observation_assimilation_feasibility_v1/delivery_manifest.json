@@ -1,0 +1,250 @@
+{
+  "files": {
+    ".gitignore": {
+      "bytes": 14613,
+      "SHA256": "76a1eddf519cc697457101ec83c969d2e4d630362829dfc074ab05f05879417b"
+    },
+    "STATUS.md": {
+      "bytes": 114441,
+      "SHA256": "d74496cfaceac5c142e34714084e0963e2f147350f472912e60b38db74f86b88"
+    },
+    "WORKLOG.md": {
+      "bytes": 263894,
+      "SHA256": "39e2e097ab4ac3ce3188bc6542c901e79a383469755b392239c2684f4de30458"
+    },
+    "docs/OBSERVATION_CONSTRAINED_DENSITY_EXPERIMENT_PLAN_V1.md": {
+      "bytes": 7296,
+      "SHA256": "0f6bd7addea8592d9c27426de0a8cd68a564f9734468f4d8923bd63ed1869a77"
+    },
+    "docs/ORBIT_VALIDATION_AFTER_ASSIMILATION_PLAN_V1.md": {
+      "bytes": 6205,
+      "SHA256": "3b8c632f09f9dbdce4e49102e088da9a1c1e7798802ad3f6d72736f6d3e7358b"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/DART_pinned_revision.json": {
+      "bytes": 149,
+      "SHA256": "03201ef225a828a37f0901ba54532d068ffec3ce5a0b10148d293350a15a8414"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/Swarm_C_download_complete.json": {
+      "bytes": 1077,
+      "SHA256": "ebc85f58b09982996cc62f84e780bae706ebee6445094ee92c4432d254c1025b"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/Swarm_C_download_plan.json": {
+      "bytes": 471,
+      "SHA256": "6686b7273afd7f25feec091823373024126fbbf8bd781e194760e01a0732a150"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/analysis_complete.json": {
+      "bytes": 365,
+      "SHA256": "a4b1155206d9e0cba78b73764d6092b5f5a4fdc8a4bdadbfc77c4b33da162760"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/analysis_initial_failed.py": {
+      "bytes": 12982,
+      "SHA256": "a425991634479a77ece5940fd585d1ef8f0c35fb944ca716a2356b1825e4da90"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/analysis_path_incident.json": {
+      "bytes": 422,
+      "SHA256": "49d032a8d9d6a5fc26b3b850b2aeec9e44069e3bb53979a525c5e364f325268b"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/analysis_started.json": {
+      "bytes": 116,
+      "SHA256": "2fe57b6b8c17ab2c0e65e0b46a2138400941801d39e0e1f51e77b64df256ad7a"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/analysis_started_v2.json": {
+      "bytes": 116,
+      "SHA256": "2fe57b6b8c17ab2c0e65e0b46a2138400941801d39e0e1f51e77b64df256ad7a"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/author_code_archive_inventory.json": {
+      "bytes": 2266,
+      "SHA256": "12e1b711a9cd8ba2bd1a06c2a7efebf71fcc1812d3152976f570fdeff79c0448"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/author_code_download_plan.json": {
+      "bytes": 395,
+      "SHA256": "eabe30717e4aa09946e1918ff030301daf28521b64e6b9f8851952181871e977"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/author_code_download_receipt.json": {
+      "bytes": 355,
+      "SHA256": "c03361696f1c06c5ba28a2f421d61f70bf5a4cd6b825a5f87d7e03449b1808de"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/causal_split_dryrun.json": {
+      "bytes": 215,
+      "SHA256": "a11107f1e92b087a9f51248b8b2dae264e729be3d7c9f1bd71e1f4630008d28b"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/commands.json": {
+      "bytes": 720,
+      "SHA256": "c6bc02f7bfa1ed4f6b727d678fa9a7705e45f19962c1ef534235e17642cb623b"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/context_source_audit.json": {
+      "bytes": 5249,
+      "SHA256": "175efd71128cddb0881886194d942d5a38bd9ea093175cd67e44996b0d4077c2"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/download_receipts.json": {
+      "bytes": 9172,
+      "SHA256": "645d1081d13f944656a59b668c93be6ae231b6005a7a0cc005b84ecc216c83e2"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/download_started.json": {
+      "bytes": 220,
+      "SHA256": "5b43ce59d828b575b3f30309351e500bd56c69b78688b6f2651c9208798a9016"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/independent_verification.json": {
+      "bytes": 2946,
+      "SHA256": "bde3fd45f0fe3099101aab95339faf0a2d7b3f93fefeb7427ed34f61b9521c6d"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/initial_and_warm_state_metadata.json": {
+      "bytes": 15123,
+      "SHA256": "e5a5754ddda1f56456a3c7565d6c8b2f5ad806cf60ab30ac2748fa174e678d77"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/local_software_static_audit.json": {
+      "bytes": 3077,
+      "SHA256": "e8f0473aafa90ceda2df4e627b87f8e41e1c55d8c76388edc5318eb04cd71585"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/observation_quality.json": {
+      "bytes": 3355,
+      "SHA256": "35bef388a9161f4e7589027b948fdd65757a596a2fe8220ccd8beb614dcdacff"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/paper_mirror_receipt.json": {
+      "bytes": 289,
+      "SHA256": "9df068073f5783919b7bc3109bbf4a742d4a5ea4f03ea61c281fe850b4a2bcaf"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/preparation_done.json": {
+      "bytes": 199,
+      "SHA256": "37ef215e03bcfaf8e9b5f04a82a5e0c1ee94f9a94d3befa4ea73809cce664227"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/product_availability.json": {
+      "bytes": 1769,
+      "SHA256": "cda38aaf64edc8162fd8ffe7051b6872147792ca898964d57d998c39606c3b91"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/protected_inputs.json": {
+      "bytes": 97273,
+      "SHA256": "8eec6820fdcf4a7e86e0f7ffb0363eb52ea728f3761c03fa4e2f6d14f35d0427"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/research_protocol.json": {
+      "bytes": 1349,
+      "SHA256": "9271a278d3772dd9e94d0bc6363ca49c2204e7ffde472a24e06645eccd579b7e"
+    },
+    "experiments/thermosphere_observation_assimilation_feasibility_v1/source_review.json": {
+      "bytes": 1712,
+      "SHA256": "346942858d7e56345b22007136b7f4c92e50956266d039d33c3cdac5121522f6"
+    },
+    "logs/thermosphere_feasibility_v1_analysis.log": {
+      "bytes": 3063,
+      "SHA256": "efa9b92f391ba9f71bb342cc3eac12d35ae004c355aa41065c22a389f4866a63"
+    },
+    "logs/thermosphere_feasibility_v1_analysis_initial_failed.log": {
+      "bytes": 1024,
+      "SHA256": "6d3b3240c0c9234bc46653d6f3b9118d2ccc42b014657af8b4eb8972169066d3"
+    },
+    "logs/thermosphere_feasibility_v1_author_archive.log": {
+      "bytes": 1679,
+      "SHA256": "0073958584902bf5fb1d5f0c7337e089788dd629ab19df2751f76f13c6ead1c3"
+    },
+    "logs/thermosphere_feasibility_v1_independent.log": {
+      "bytes": 54,
+      "SHA256": "54f95c4ba5e36cbbf8a89fe48a6ec8d0df311ad0db959f0f0c563401407ce6aa"
+    },
+    "logs/thermosphere_feasibility_v1_prepare.log": {
+      "bytes": 58,
+      "SHA256": "6082781f2f22d18ef7805c57f42c200c4e37c4025344603e3baf3046ecd174ea"
+    },
+    "logs/thermosphere_feasibility_v1_tests.log": {
+      "bytes": 113,
+      "SHA256": "f2985e54ed7498e534ca07a638a380f94819d7ef07a591c42b4d610e91704378"
+    },
+    "reports/DART_TIEGCM_ASSIMILATION_REVIEW_V1.md": {
+      "bytes": 9824,
+      "SHA256": "044317265ecd2ee2eb8e7aa6b93990f81852e29fe2b9547d8f23571433efd5cf"
+    },
+    "reports/LEADERSHIP_TECHNICAL_FEASIBILITY_BRIEF_V1.md": {
+      "bytes": 3117,
+      "SHA256": "a7bfd2e6d3c622faf0b97e9a5f164735097c0165eb3563203340d033eed39b70"
+    },
+    "reports/MULTISATELLITE_DENSITY_DATA_AUDIT_V1.md": {
+      "bytes": 6365,
+      "SHA256": "b39eca3dedbcb5554528282733efc27179bfe804569d0b47d9ac696bbfdeb547"
+    },
+    "reports/TIEGCM_INITIAL_STATE_RESTART_FEASIBILITY_V1.md": {
+      "bytes": 8969,
+      "SHA256": "ccdb95baab671e7c517639bc495868c887266077bdfeb2f5eca57793e89220b3"
+    },
+    "reports/TIEGCM_REAL_DENSITY_BASELINE_READINESS_V1.md": {
+      "bytes": 5463,
+      "SHA256": "32a572309d5dd4d1bec97770938dbfe61f5c513f7fafb354cef3957460ad04d7"
+    },
+    "results/thermosphere_observation_assimilation_feasibility_v1/01_observation_density_UTC.png": {
+      "bytes": 290584,
+      "SHA256": "95235f308e6fa2398db762901970ad2b83b26b46ced979d043ddb6c7415fb696"
+    },
+    "results/thermosphere_observation_assimilation_feasibility_v1/02_actual_height_UTC.png": {
+      "bytes": 311886,
+      "SHA256": "b23bbb20de90d26ffa4b4320e5409cc8d301f2e63f493387cd5d6f38fbd2db47"
+    },
+    "results/thermosphere_observation_assimilation_feasibility_v1/03_latitude_density.png": {
+      "bytes": 288327,
+      "SHA256": "957e8e31ba47f6a483c21e576002366923e0302c8ecbaf2936eb51ef455ff529"
+    },
+    "results/thermosphere_observation_assimilation_feasibility_v1/04_satellite_height_coverage.png": {
+      "bytes": 71475,
+      "SHA256": "49f8c11b03c55ab2aebae34f8c78d9920bb95b207e8c11f969c65cb8fa6fc596"
+    },
+    "results/thermosphere_observation_assimilation_feasibility_v1/DART_He_EOS_sensitivity.csv": {
+      "bytes": 10699,
+      "SHA256": "99f6fe815b6385db101820b13df2ed7391ea9d2b6263170d8a88e1c2ac60aaba"
+    },
+    "results/thermosphere_observation_assimilation_feasibility_v1/DART_example_variable_compatibility.csv": {
+      "bytes": 804,
+      "SHA256": "739249cb7a51917503d02a7871bb4e5dd940dc18773826524b0e4b8084071e62"
+    },
+    "results/thermosphere_observation_assimilation_feasibility_v1/actual_variable_inventory.csv": {
+      "bytes": 103923,
+      "SHA256": "76e4152e99f2929ad25da995e38a94a1acad0df166e28a8c0103452c02267ea8"
+    },
+    "results/thermosphere_observation_assimilation_feasibility_v1/baseline_metrics_readonly_reference.csv": {
+      "bytes": 9563,
+      "SHA256": "aee3c3785d9e3aecbd8466c5e49914b96d58817eace095cd10f3e6553d799be4"
+    },
+    "results/thermosphere_observation_assimilation_feasibility_v1/eight_trajectory_provenance.csv": {
+      "bytes": 3855,
+      "SHA256": "229deff404039c5254b02ea21f0b1f91974882ddf80ba974a9689b5620137b16"
+    },
+    "results/thermosphere_observation_assimilation_feasibility_v1/observation_file_index.csv": {
+      "bytes": 1146,
+      "SHA256": "e37ba2c59dda64ab92ad073956028437092fcf73c33e5b58e30ac6fca468cc0f"
+    },
+    "results/thermosphere_observation_assimilation_feasibility_v1/product_catalog.csv": {
+      "bytes": 5335,
+      "SHA256": "f59ae340d8964183d2775b6066546a1ee2e3e373865401b61cd8283d605522f1"
+    },
+    "scripts/analyze_thermosphere_feasibility_v1.py": {
+      "bytes": 13075,
+      "SHA256": "eb4d1af7592ec748128e8e67ea89caccad665bcac052a42a8a8e12ff3737bbbb"
+    },
+    "scripts/inspect_author_archive_metadata_v1.py": {
+      "bytes": 2081,
+      "SHA256": "8e7ea72ba4be391915fa8aa24742c8492841811ca576c46b4af0150bdc59e675"
+    },
+    "scripts/prepare_thermosphere_feasibility_v1.py": {
+      "bytes": 6304,
+      "SHA256": "a28bb87fe6e2aeb74854bd75876a616db761031c812db452bb12cdd4e541f83b"
+    },
+    "scripts/verify_thermosphere_feasibility_v1.py": {
+      "bytes": 2575,
+      "SHA256": "b71913c48ac483e1d7a4ef43bfb6ace681ce23504a5ff735062fe49af4b61d22"
+    },
+    "src/atmosphere/dart_density_audit.py": {
+      "bytes": 1062,
+      "SHA256": "7e220a4227f6440caa834127f60095df38d09aa68ef50761d73490ac44688fda"
+    },
+    "src/observations/__init__.py": {
+      "bytes": 79,
+      "SHA256": "23dafb36a937111aed59fc7bfcd87a04ef2d6c28bebd66f16d5e315770d37467"
+    },
+    "src/observations/density_catalog.py": {
+      "bytes": 3493,
+      "SHA256": "bd63e06e6805d9a9004a3a2be62a70ccb654088dde4a3a9e93beaf52f383ec9e"
+    },
+    "tests/test_observation_feasibility_v1.py": {
+      "bytes": 3493,
+      "SHA256": "e5e05c2bfeba67da61270b6e8a26051340e39542356a3280bb5b80d696c0f289"
+    }
+  },
+  "raw_files_and_complete_observations_excluded": true,
+  "old_untracked_sync_logs_not_staged": true
+}

@@ -1,0 +1,130 @@
+{
+  "read_existing_sources_SHA256": {
+    "AGENTS.md": "c1c8cf70e42fb77236ec210fd7e58284fb39b6f7bd272e4f5ddadbdf165ca681",
+    "STATUS.md": "df252aaca9f42356f3d75db256c4ae01979e9fcc048faf53a9cf84dfc431f8ac",
+    "WORKLOG.md": "2d53e4b899c3defd1c73bf999bc07861820c4c240bd043f915f767e079af009c",
+    "docs/TIEGCM_SWARM_COORDINATE_DATUM.md": "db31a695b7f40f4da9755969af0976b3a8a6106489ee2241a083877fb751cbf2",
+    "docs/TIEGCM_ZG_REGISTRATION_STATUS_20261103.md": "18de2b0b4b792ca62973f4776760c673598044f3ffa1459f7ee88166bb8bce2b",
+    "reports/TIEGCM_2021_INITIAL_STATE_AUDIT.md": "6fa480b013a0bec6b9efbec2ae499b48b0c4d08134ecf29e3636c4febfe208e6",
+    "reports/TIEGCM2023_RESTART_VALIDATION.md": "7e7bfc14b033043b64fb2ca458f15ea8c208df02fd101c295ee1c9b61036e134",
+    "reports/TIEGCM_RUNTIME_RESTART_AUDIT.md": "b43a8ff70f0b8841ee7f48f723e1a8da8846d09c26c49fa005d74f3aa1e9ac45",
+    "reports/TIEGCM_2021_2022_SPINUP_SYNTHESIS_V2.md": "8b19a4a6a9cf98bee417492943c02513b591355958d939bb7e06c46d8e1bf8e1",
+    "reports/SWARM_TIEGCM_2021_2022_COMPARISON_V1.md": "bd072f5f6515a87259193054aece06472ae2db979c95915b0d19c1bd3404f7b3",
+    "reports/SWARM_TIEGCM_2022_FOUR_SCHEME_V2.md": "a6155e7927d53633cfb0b8caf7cd1a13dd34780140ae338a337c19169d59467d",
+    "reports/NRLMSIS_TIEGCM_COMPARISON.md": "375424ade4a7bd5a18c166d2153f8c6e22966bd5626fd1d8b5238067884d1bb2",
+    "docs/FORMAL_ORBIT_VALIDATION_GAPS.md": "cef89e8198a9d28d1df11bf58ccc148641ef8ec1681ee00efcdf5c22dad4fde0",
+    "docs/ORBIT_DRAG_INTEGRATION_READINESS.md": "c3972b118f4384c9c8b372f113bf4ca4d532b802d27306c4f1453aafa5682fed",
+    "src/atmosphere/tiegcm_density_provider.py": "2af64d466f40fa235915ce6e4b29cf4fc28dad086245d3df9e30b7bc1db0291f",
+    "src/atmosphere/hourly_tiegcm_observation.py": "31d3cba796e6304f00e73fe8cb08b1aedf6de3e11b8ef4b20b0860d3e4066ff8",
+    "src/atmosphere/provisional_coordinate_adapter.py": "70487ead9b944e8e33187a567ad87666595789238c27416a552044d421a96e15",
+    "src/atmosphere/msis_density_provider.py": "6a66076d7442343dae449c1f5d0c38010938499fd65852719512026b85852586",
+    "src/evaluation/sp3_reader.py": "00696e0c55a5cabd6eb7477f8fbfa5e3d5820cca047a5b6a7124487c0db510dc",
+    "src/evaluation/orbit_interpolation.py": "3106b8a2f318ba6f4a366af99da86a6ccc9d81d168e7e39ab3404c40b4a0b510",
+    "src/orbit/swarm_force_inputs.py": "33f4293eea48f61ed9a61872e62802a2059d102a4950cde193e338c8ae68cb22",
+    "src/orbit/common_force_model.py": "c72de832b565935a89ffc2f21076f3faaac9ab38e080d17a3b8d1c937316a84c"
+  },
+  "six_state_files_match_prior_SHA": true,
+  "DART_nml_fields": [
+    {
+      "name": "NE",
+      "DART_quantity": "QTY_ELECTRON_DENSITY",
+      "minimum": "1000.0",
+      "maximum": "NA",
+      "file": "restart",
+      "copy_back": "UPDATE",
+      "local_field_present": true,
+      "local_unit": "cm-3",
+      "local_dimensions": "time ilev lat lon"
+    },
+    {
+      "name": "OP",
+      "DART_quantity": "QTY_DENSITY_ION_OP",
+      "minimum": "NA",
+      "maximum": "NA",
+      "file": "restart",
+      "copy_back": "UPDATE",
+      "local_field_present": true,
+      "local_unit": "cm-3",
+      "local_dimensions": "time lev lat lon"
+    },
+    {
+      "name": "TI",
+      "DART_quantity": "QTY_TEMPERATURE_ION",
+      "minimum": "NA",
+      "maximum": "NA",
+      "file": "restart",
+      "copy_back": "UPDATE",
+      "local_field_present": true,
+      "local_unit": "K",
+      "local_dimensions": "time lev lat lon"
+    },
+    {
+      "name": "TE",
+      "DART_quantity": "QTY_TEMPERATURE_ELECTRON",
+      "minimum": "NA",
+      "maximum": "NA",
+      "file": "restart",
+      "copy_back": "UPDATE",
+      "local_field_present": true,
+      "local_unit": "K",
+      "local_dimensions": "time lev lat lon"
+    },
+    {
+      "name": "OP_NM",
+      "DART_quantity": "QTY_DENSITY_ION_OP",
+      "minimum": "NA",
+      "maximum": "NA",
+      "file": "restart",
+      "copy_back": "UPDATE",
+      "local_field_present": true,
+      "local_unit": "cm-3",
+      "local_dimensions": "time lev lat lon"
+    },
+    {
+      "name": "O1",
+      "DART_quantity": "QTY_ATOMIC_OXYGEN_MIXING_RATIO",
+      "minimum": "0.00001",
+      "maximum": "0.99999",
+      "file": "restart",
+      "copy_back": "NO_COPY_BACK",
+      "local_field_present": true,
+      "local_unit": "mmr",
+      "local_dimensions": "time lev lat lon"
+    },
+    {
+      "name": "O2",
+      "DART_quantity": "QTY_MOLEC_OXYGEN_MIXING_RATIO",
+      "minimum": "0.00001",
+      "maximum": "0.99999",
+      "file": "restart",
+      "copy_back": "UPDATE",
+      "local_field_present": true,
+      "local_unit": "mmr",
+      "local_dimensions": "time lev lat lon"
+    },
+    {
+      "name": "TN",
+      "DART_quantity": "QTY_TEMPERATURE",
+      "minimum": "0.0",
+      "maximum": "6000.0",
+      "file": "restart",
+      "copy_back": "UPDATE",
+      "local_field_present": true,
+      "local_unit": "K",
+      "local_dimensions": "time lev lat lon"
+    },
+    {
+      "name": "ZG",
+      "DART_quantity": "QTY_GEOMETRIC_HEIGHT",
+      "minimum": "NA",
+      "maximum": "NA",
+      "file": "secondary",
+      "copy_back": "NO_COPY_BACK",
+      "local_field_present": true,
+      "local_unit": "cm",
+      "local_dimensions": "time ilev lat lon"
+    }
+  ],
+  "new_models": 0,
+  "no_calibration": true
+}

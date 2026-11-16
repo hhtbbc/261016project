@@ -1,0 +1,16 @@
+{
+  "PASS": true,
+  "real_observation_records": 8640,
+  "sources": 3,
+  "figures": 4,
+  "prior_assets_unchanged": 690,
+  "state_files_read": 6,
+  "variables_inventory_rows": 568,
+  "new_model_launches": 0,
+  "corrections_fitted": 0,
+  "DART_runs": 0,
+  "GPU_tasks": 0,
+  "Swarm_B_values_read": false,
+  "wall_s": 23.892972365021706,
+  "peak_RSS_MiB": 570.0859375
+}

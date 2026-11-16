@@ -1,0 +1,24 @@
+{
+  "product": {
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_C%2FSW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.ZIP",
+    "bytes": 139647,
+    "SHA256": "4c62f9ecbccfdd4048dfa154b375aaea78d833ed40aaee026e2dec7db97387cd",
+    "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/SW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.ZIP",
+    "HTTP": 200
+  },
+  "members": [
+    {
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/SW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.HDR",
+      "SHA256": "c087d8e06e371c2b15fa8589b54c3d0ce9a7d511fc2eb8cd55164372f92ee7f7",
+      "bytes": 2757,
+      "CRC32": "b5cff213"
+    },
+    {
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/SW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.cdf",
+      "SHA256": "40b3ce3c0c8617c29de310effc44d5f16145f4f355c24a95b6a8938df0becf37",
+      "bytes": 191682,
+      "CRC32": "14f82075"
+    }
+  ],
+  "archive_CRC_PASS": true
+}

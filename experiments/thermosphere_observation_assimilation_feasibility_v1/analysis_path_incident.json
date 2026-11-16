@@ -1,0 +1,8 @@
+{
+  "failure": "2021 prior run tag contains spinup, unlike2022; filename template wrong",
+  "stage": "before first observation source read or model query",
+  "original_script_SHA256": "a425991634479a77ece5940fd585d1ef8f0c35fb944ca716a2356b1825e4da90",
+  "minimal_fix": "Use actual existing2021 experiment tag; unique v2 CPU analysis marker; no data/source change",
+  "new_model_launches": 0,
+  "old_data_changed": false
+}
