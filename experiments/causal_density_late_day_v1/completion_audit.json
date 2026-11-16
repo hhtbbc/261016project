@@ -1,0 +1,22 @@
+{
+  "state": "COMPLETE",
+  "engineering_execution_PASS": true,
+  "science_full_benefit_PASS": false,
+  "joint_future_tests": 30,
+  "joint_future_pass": 0,
+  "joint_future_NA": 0,
+  "tests": 53,
+  "queries": 6480,
+  "valid_queries": 6480,
+  "CDF_records_independent": 2160,
+  "metric_rows_independent": 112,
+  "bin_partitions_independent": 80,
+  "joint_rows_independent": 70,
+  "EXTERNAL_DATUM": "EXTERNAL_DATUM_UNVERIFIED",
+  "Restart": "FAIL",
+  "DART": "NOT_ADMITTED",
+  "real_orbit": "BLOCKED",
+  "training": false,
+  "A14_2021": "PASS/sensitivity only, excluded",
+  "A14_2022": "PARTIAL, excluded"
+}

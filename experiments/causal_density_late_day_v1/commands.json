@@ -1,0 +1,15 @@
+{
+  "environment": "source scripts/activate_orbit.sh; PYTHONPATH=$PWD/src:$PWD; CPU subprocess CUDA_VISIBLE_DEVICES empty, inherited GPU environment otherwise untouched",
+  "commands": [
+    "python -m unittest discover -s tests -p test_late_day_correction.py -v",
+    "python scripts/prepare_late_day_causal_v1.py",
+    "python scripts/launch_late_day_causal_v1.py",
+    "python -m unittest discover -s tests -p test_cross_year_correction.py -v",
+    "python -m unittest discover -s tests -p test_causal_density_correction.py -v",
+    "python -m unittest discover -s tests -p test_hourly_tiegcm_observation.py -v",
+    "python -m unittest discover -s tests -p test_tiegcm_density_provider.py -v",
+    "python scripts/verify_late_day_causal_v1.py",
+    "python scripts/finalize_late_day_causal_v1.py"
+  ],
+  "warning": "Immutable run folders and parameters refuse replay. Future reproduction requires a separate authorized tag."
+}

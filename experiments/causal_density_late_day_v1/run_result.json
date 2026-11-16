@@ -1,0 +1,17 @@
+{
+  "PASS": true,
+  "wall_s": 19.263224843889475,
+  "peak_RSS_MiB": 329.94140625,
+  "queries": 6480,
+  "all_queries_valid": true,
+  "history_per_year_case": 360,
+  "future_per_year": 720,
+  "plots": 9,
+  "no_future_fitting": true,
+  "Swarm_B_C_read": false,
+  "new_observation_bytes": 0,
+  "GPU": 0,
+  "TIE": 0,
+  "DART": 0,
+  "orbit": 0
+}

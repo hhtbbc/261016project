@@ -1,0 +1,47 @@
+{
+  "measured_core_CPU_wall_sum_s": 30.981370069265367,
+  "definition": "preflight + supervised matching/6 coefficient fits/evaluation/9 plots + independent validation +5 test suites; interactive file/metadata/report commands not individually timed, not whole conversation wallclock",
+  "supervisor_elapsed_s": 20.46204910799861,
+  "supervisor_returncode": 0,
+  "peak_sampled_tree_RSS_MiB": 328.3515625,
+  "worker_peak_rusage_MiB": 329.94140625,
+  "sampling_definition": "same-UID launched session; not continuous global peak",
+  "output_bytes_before_report": 20786270,
+  "tests": [
+    {
+      "log": "late_day_causal_v1_tests.log",
+      "N": 11,
+      "wall_s": 0.041
+    },
+    {
+      "log": "late_day_causal_v1_cross_year_tests.log",
+      "N": 10,
+      "wall_s": 0.041
+    },
+    {
+      "log": "late_day_causal_v1_v10_tests.log",
+      "N": 6,
+      "wall_s": 0.036
+    },
+    {
+      "log": "late_day_causal_v1_hourly_tests.log",
+      "N": 8,
+      "wall_s": 0.142
+    },
+    {
+      "log": "late_day_causal_v1_native_tests.log",
+      "N": 18,
+      "wall_s": 1.023
+    }
+  ],
+  "budgets": {
+    "CPU_wall_s": 600,
+    "RSS_GiB": 4,
+    "output_MiB": 150
+  },
+  "new_observation_bytes": 0,
+  "GPU": 0,
+  "TIE": 0,
+  "DART": 0,
+  "orbit": 0
+}

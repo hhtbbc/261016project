@@ -1,0 +1,72 @@
+{
+  "protocol_SHA256": "b3c15493a06c18d8753f81e7c2633fc6c3305d0427e6b6183fc1b35397912bf1",
+  "adaptive18": {
+    "2021": {
+      "B14": {
+        "b18": 0.11749836810129466,
+        "multiplier18": 1.1246797945787346,
+        "N": 360,
+        "first_fit_UTC": "2021-03-24T15:00:00.000000000",
+        "last_fit_UTC": "2021-03-24T17:59:30.000000000",
+        "future_poison_invariant": true
+      },
+      "A7": {
+        "b18": 0.14127174400825737,
+        "multiplier18": 1.15173758325101,
+        "N": 360,
+        "first_fit_UTC": "2021-03-24T15:00:00.000000000",
+        "last_fit_UTC": "2021-03-24T17:59:30.000000000",
+        "future_poison_invariant": true
+      },
+      "B7": {
+        "b18": 0.10136644011694429,
+        "multiplier18": 1.1066821001889835,
+        "N": 360,
+        "first_fit_UTC": "2021-03-24T15:00:00.000000000",
+        "last_fit_UTC": "2021-03-24T17:59:30.000000000",
+        "future_poison_invariant": true
+      }
+    },
+    "2022": {
+      "B14": {
+        "b18": 0.12331192397950375,
+        "multiplier18": 1.131237225937738,
+        "N": 360,
+        "first_fit_UTC": "2022-03-24T15:00:00.000000000",
+        "last_fit_UTC": "2022-03-24T17:59:30.000000000",
+        "future_poison_invariant": true
+      },
+      "A7": {
+        "b18": 0.16851106214422273,
+        "multiplier18": 1.1835413192772106,
+        "N": 360,
+        "first_fit_UTC": "2022-03-24T15:00:00.000000000",
+        "last_fit_UTC": "2022-03-24T17:59:30.000000000",
+        "future_poison_invariant": true
+      },
+      "B7": {
+        "b18": 0.10200159507864548,
+        "multiplier18": 1.1073852380930702,
+        "N": 360,
+        "first_fit_UTC": "2022-03-24T15:00:00.000000000",
+        "last_fit_UTC": "2022-03-24T17:59:30.000000000",
+        "future_poison_invariant": true
+      }
+    }
+  },
+  "B14_applied_b": {
+    "2021": {
+      "Adaptive18": 0.11749836810129466,
+      "Stale06": 0.09399076703699727,
+      "CrossYearTransfer18": 0.12331192397950375
+    },
+    "2022": {
+      "Adaptive18": 0.12331192397950375,
+      "Stale06": 0.1261252775057784,
+      "CrossYearTransfer18": 0.11749836810129466
+    }
+  },
+  "all_parameters_frozen_before_future_metrics": true,
+  "Swarm_A_only": true,
+  "no_C_or_B_read": true
+}

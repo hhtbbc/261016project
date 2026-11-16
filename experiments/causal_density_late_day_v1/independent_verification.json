@@ -1,0 +1,65 @@
+{
+  "PASS": true,
+  "exact_CDF_records": 2160,
+  "metric_rows_checked": 112,
+  "bin_partitions_checked": 80,
+  "joint_rows_checked": 70,
+  "all_weight_identities_PASS": true,
+  "all_coefficients_exact_history_or_frozen_origins": true,
+  "corrected_nonpositive": 0,
+  "corrected_nonfinite": 0,
+  "pointwise_B14": [
+    {
+      "year": "2021",
+      "method": "Adaptive18",
+      "N": 720,
+      "improved": 450,
+      "worsened": 270,
+      "unchanged": 0
+    },
+    {
+      "year": "2021",
+      "method": "Stale06",
+      "N": 720,
+      "improved": 457,
+      "worsened": 263,
+      "unchanged": 0
+    },
+    {
+      "year": "2021",
+      "method": "CrossYearTransfer18",
+      "N": 720,
+      "improved": 448,
+      "worsened": 272,
+      "unchanged": 0
+    },
+    {
+      "year": "2022",
+      "method": "Adaptive18",
+      "N": 720,
+      "improved": 293,
+      "worsened": 427,
+      "unchanged": 0
+    },
+    {
+      "year": "2022",
+      "method": "Stale06",
+      "N": 720,
+      "improved": 290,
+      "worsened": 430,
+      "unchanged": 0
+    },
+    {
+      "year": "2022",
+      "method": "CrossYearTransfer18",
+      "N": 720,
+      "improved": 302,
+      "worsened": 418,
+      "unchanged": 0
+    }
+  ],
+  "old_SHA_unchanged": 87,
+  "figures": 9,
+  "wall_s": 2.8528137803077698,
+  "peak_RSS_MiB": 64.6640625
+}

@@ -1,0 +1,374 @@
+{
+  "cases": [
+    {
+      "year": "2021",
+      "case": "B14",
+      "queries": 1080,
+      "valid": 1080,
+      "first_frame": "2021-03-24T15:00:00.000",
+      "last_frame": "2021-03-25T00:00:00.000",
+      "frames": 10,
+      "failure_reasons": {},
+      "wall_s": 1.5322119556367397
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "queries": 1080,
+      "valid": 1080,
+      "first_frame": "2021-03-24T15:00:00.000",
+      "last_frame": "2021-03-25T00:00:00.000",
+      "frames": 10,
+      "failure_reasons": {},
+      "wall_s": 1.2476443126797676
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "queries": 1080,
+      "valid": 1080,
+      "first_frame": "2021-03-24T15:00:00.000",
+      "last_frame": "2021-03-25T00:00:00.000",
+      "frames": 10,
+      "failure_reasons": {},
+      "wall_s": 1.2341948114335537
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "queries": 1080,
+      "valid": 1080,
+      "first_frame": "2022-03-24T15:00:00.000",
+      "last_frame": "2022-03-25T00:00:00.000",
+      "frames": 10,
+      "failure_reasons": {},
+      "wall_s": 1.4509398341178894
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "queries": 1080,
+      "valid": 1080,
+      "first_frame": "2022-03-24T15:00:00.000",
+      "last_frame": "2022-03-25T00:00:00.000",
+      "frames": 10,
+      "failure_reasons": {},
+      "wall_s": 1.2123804055154324
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "queries": 1080,
+      "valid": 1080,
+      "first_frame": "2022-03-24T15:00:00.000",
+      "last_frame": "2022-03-25T00:00:00.000",
+      "frames": 10,
+      "failure_reasons": {},
+      "wall_s": 1.226039994508028
+    }
+  ],
+  "real_interpolation_probes": [
+    {
+      "year": "2021",
+      "case": "B14",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "B14",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "B14",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "index": 1079,
+      "relative_difference": 0.0
+    }
+  ],
+  "explicit_fill_scan": [
+    {
+      "year": "2021",
+      "case": "B14",
+      "file": "secondary_015.nc",
+      "variable": "DEN",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "year": "2021",
+      "case": "B14",
+      "file": "secondary_015.nc",
+      "variable": "ZG",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "year": "2021",
+      "case": "B14",
+      "file": "secondary_016.nc",
+      "variable": "DEN",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "year": "2021",
+      "case": "B14",
+      "file": "secondary_016.nc",
+      "variable": "ZG",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "file": "secondary_008.nc",
+      "variable": "DEN",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "file": "secondary_008.nc",
+      "variable": "ZG",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "file": "secondary_009.nc",
+      "variable": "DEN",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "year": "2021",
+      "case": "A7",
+      "file": "secondary_009.nc",
+      "variable": "ZG",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "file": "secondary_008.nc",
+      "variable": "DEN",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "file": "secondary_008.nc",
+      "variable": "ZG",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "file": "secondary_009.nc",
+      "variable": "DEN",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "year": "2021",
+      "case": "B7",
+      "file": "secondary_009.nc",
+      "variable": "ZG",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "file": "secondary_015.nc",
+      "variable": "DEN",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "file": "secondary_015.nc",
+      "variable": "ZG",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "file": "secondary_016.nc",
+      "variable": "DEN",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "year": "2022",
+      "case": "B14",
+      "file": "secondary_016.nc",
+      "variable": "ZG",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "file": "secondary_008.nc",
+      "variable": "DEN",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "file": "secondary_008.nc",
+      "variable": "ZG",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "file": "secondary_009.nc",
+      "variable": "DEN",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "year": "2022",
+      "case": "A7",
+      "file": "secondary_009.nc",
+      "variable": "ZG",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "file": "secondary_008.nc",
+      "variable": "DEN",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "file": "secondary_008.nc",
+      "variable": "ZG",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "file": "secondary_009.nc",
+      "variable": "DEN",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "year": "2022",
+      "case": "B7",
+      "file": "secondary_009.nc",
+      "variable": "ZG",
+      "values_scanned": 751680,
+      "invalid": 0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+test_2021_counts (test_cross_year_correction.CrossYearTests) ... ok
+test_cross_year_input_not_selected (test_cross_year_correction.CrossYearTests) ... ok
+test_disjoint_incremental_windows (test_cross_year_correction.CrossYearTests) ... ok
+test_future_poison_invariant (test_cross_year_correction.CrossYearTests) ... ok
+test_half_open (test_cross_year_correction.CrossYearTests) ... ok
+test_matches_v10_same_year (test_cross_year_correction.CrossYearTests) ... ok
+test_no_tuned_coefficient (test_cross_year_correction.CrossYearTests) ... ok
+test_nonA_rejected (test_cross_year_correction.CrossYearTests) ... ok
+test_other_background_transfer_rejected (test_cross_year_correction.CrossYearTests) ... ok
+test_transfer_unchanged (test_cross_year_correction.CrossYearTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.041s
+
+OK

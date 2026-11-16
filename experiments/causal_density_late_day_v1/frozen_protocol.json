@@ -1,0 +1,90 @@
+{
+  "tag": "causal_density_late_day_v1",
+  "frozen_UTC": "2026-11-16T05:13:25.632386+00:00",
+  "identity": "LATE_DAY_ROLLING_ORIGIN / PROVISIONAL Map-A / HINDCAST / NOT_BLIND / EXTERNAL_DATUM_UNVERIFIED",
+  "years": [
+    2021,
+    2022
+  ],
+  "cutoff_hour": 18,
+  "history_half_open": [
+    "15:00",
+    "18:00"
+  ],
+  "cumulative_half_open": [
+    [
+      "18:00",
+      "19:00"
+    ],
+    [
+      "18:00",
+      "21:00"
+    ],
+    [
+      "18:00",
+      "24:00"
+    ]
+  ],
+  "nonoverlap_half_open": [
+    [
+      "18:00",
+      "19:00"
+    ],
+    [
+      "19:00",
+      "21:00"
+    ],
+    [
+      "21:00",
+      "24:00"
+    ]
+  ],
+  "primary": "B14",
+  "controls": [
+    "A7",
+    "B7"
+  ],
+  "A14": "EXCLUDED both years; historical engineering2021PASS/2022PARTIAL unchanged",
+  "methods": {
+    "Raw": "b=0",
+    "Adaptive18": "each year/background median past A log(obs/model), unchanged estimator",
+    "Stale06": "B14 only, exact frozen same-year06Z coefficient, no refit",
+    "CrossYearTransfer18": "B14 only, other-year15-18 coefficient, no target-future fitting"
+  },
+  "stale06_coefficients": {
+    "2021": 0.09399076703699727,
+    "2022": 0.1261252775057784
+  },
+  "parameter_freeze": "All 6 own late-day coefficients and4 B14 applied coefficients written before any future-error evaluation",
+  "quality": "0301 flag0; positive finite; eight model columns mandatory; no fill/extrapolation",
+  "common": "per-year intersection all3 cases; separate own and common coverage",
+  "metrics": "existing metric_row; original observation relative denominator; relativeP95; physical units; N<30 N/A",
+  "density_bins": "Per-year per-future-window observation quintiles (np.quantile linear), ties remain together; descriptive only; not fit/tune/select",
+  "density_contributions": "both SSE sum, SSE/N (MSE contribution), share of total; relative analog; identity verified without different density weighting",
+  "regions": "Frozen v11 strata; additional low/mid/high x preexisting height bins; raw observed ellipsoid height used only for descriptive stratification; N>=30",
+  "joint_rules": {
+    "RMSE_BENEFIT": "corrected RMSE < raw RMSE",
+    "RELATIVE_RMS_BENEFIT": "corrected relative RMS < raw",
+    "TAIL_NONWORSENED": "corrected relative P95 <= raw",
+    "LOW_LATITUDE_BIAS_NONWORSENED": "abs(mean corrected low-lat relativeBias) <= abs(raw); lowN>=30",
+    "JOINT_NO_REGRET": "all4 true; missing region never PASS"
+  },
+  "no_parameter_search": true,
+  "no_new_observation_download": true,
+  "science_guards": {
+    "training": false,
+    "external": "EXTERNAL_DATUM_UNVERIFIED",
+    "Restart": "FAIL",
+    "DART": "NOT_ADMITTED",
+    "real_orbit": "BLOCKED"
+  },
+  "resources": {
+    "CPU_wall_s": 600,
+    "RSS_GiB": 4,
+    "output_MiB": 150,
+    "GPU": 0,
+    "TIE": 0,
+    "DART": 0,
+    "orbit": 0
+  }
+}
