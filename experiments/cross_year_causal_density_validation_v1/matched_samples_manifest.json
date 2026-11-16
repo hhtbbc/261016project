@@ -1,0 +1,250 @@
+{
+  "cases": [
+    {
+      "case": "B14",
+      "engineering": "PASS",
+      "role": "PRIMARY",
+      "frames": 10,
+      "queries": 1080,
+      "valid": 1080,
+      "failure_reasons": {},
+      "wall_s": 1.5470527410507202
+    },
+    {
+      "case": "A7",
+      "engineering": "PASS",
+      "role": "CONTROL",
+      "frames": 10,
+      "queries": 1080,
+      "valid": 1080,
+      "failure_reasons": {},
+      "wall_s": 1.2668934501707554
+    },
+    {
+      "case": "B7",
+      "engineering": "PASS",
+      "role": "CONTROL",
+      "frames": 10,
+      "queries": 1080,
+      "valid": 1080,
+      "failure_reasons": {},
+      "wall_s": 1.2704506777226925
+    },
+    {
+      "case": "A14",
+      "engineering": "PASS",
+      "role": "SENSITIVITY_ONLY",
+      "frames": 10,
+      "queries": 1080,
+      "valid": 1080,
+      "failure_reasons": {},
+      "wall_s": 1.2511424645781517
+    }
+  ],
+  "all_case_common": 1080,
+  "observation_file": {
+    "mission": "Swarm",
+    "satellite": "A",
+    "year": 2021,
+    "product_id": "SW_OPER_DNSAPOD_2_",
+    "product_version": "0301",
+    "records": 2880,
+    "valid": 2880,
+    "valid_fraction": 1.0,
+    "flags": {
+      "0": 2880
+    },
+    "UTC_start": "2021-03-24T00:00:00.000000000Z",
+    "UTC_stop": "2021-03-24T23:59:30.000000000Z",
+    "cadence_seconds": 30.0,
+    "missing_slots": 0,
+    "density_min_kg_m3": 1.4703623115723444e-13,
+    "density_max_kg_m3": 9.014324817562694e-13,
+    "height_min_km": 431.53382358159683,
+    "height_max_km": 461.52253849056456,
+    "latitude_min_deg": -87.37422547925522,
+    "latitude_max_deg": 87.37314613212764,
+    "source_file": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/SW_OPER_DNSAPOD_2__20210324T000000_20210324T235930_0301.cdf",
+    "source_SHA256": "6598d825abe1099fcacea873d48b99b356f5edc209632b42e81d8ef2b40be54f",
+    "coordinate_reference": "GRS80 geodetic product contract; ellipsoid height m",
+    "metadata_height_description_typo": "GRS80 latitude",
+    "C_SP3_geometry_independently_verified": "prior2023 alignment does not prove2021/2022 same-date SP3"
+  },
+  "interpolation_probes": [
+    {
+      "case": "B14",
+      "sample": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B14",
+      "sample": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B14",
+      "sample": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "sample": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "sample": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "sample": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "sample": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "sample": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "sample": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A14",
+      "sample": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A14",
+      "sample": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A14",
+      "sample": 1079,
+      "relative_difference": 0.0
+    }
+  ],
+  "explicit_fill_scan": [
+    {
+      "case": "B14",
+      "file": "secondary_015.nc",
+      "field": "DEN",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "case": "B14",
+      "file": "secondary_015.nc",
+      "field": "ZG",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "case": "B14",
+      "file": "secondary_016.nc",
+      "field": "DEN",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "case": "B14",
+      "file": "secondary_016.nc",
+      "field": "ZG",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "case": "A7",
+      "file": "secondary_008.nc",
+      "field": "DEN",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "case": "A7",
+      "file": "secondary_008.nc",
+      "field": "ZG",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "case": "A7",
+      "file": "secondary_009.nc",
+      "field": "DEN",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "case": "A7",
+      "file": "secondary_009.nc",
+      "field": "ZG",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "case": "B7",
+      "file": "secondary_008.nc",
+      "field": "DEN",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "case": "B7",
+      "file": "secondary_008.nc",
+      "field": "ZG",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "case": "B7",
+      "file": "secondary_009.nc",
+      "field": "DEN",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "case": "B7",
+      "file": "secondary_009.nc",
+      "field": "ZG",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "case": "A14",
+      "file": "secondary_015.nc",
+      "field": "DEN",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "case": "A14",
+      "file": "secondary_015.nc",
+      "field": "ZG",
+      "values_scanned": 0,
+      "invalid": 0
+    },
+    {
+      "case": "A14",
+      "file": "secondary_016.nc",
+      "field": "DEN",
+      "values_scanned": 751680,
+      "invalid": 0
+    },
+    {
+      "case": "A14",
+      "file": "secondary_016.nc",
+      "field": "ZG",
+      "values_scanned": 751680,
+      "invalid": 0
+    }
+  ],
+  "coordinate": "GRS80 geodetic ->ITRS ->WGS84 Map-A as native ZG; no formal datum equivalence"
+}

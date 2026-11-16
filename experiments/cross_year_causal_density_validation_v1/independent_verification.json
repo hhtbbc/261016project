@@ -1,0 +1,13 @@
+{
+  "PASS": true,
+  "CDF_exactly_matched_records": 1080,
+  "independently_recomputed_metric_rows": 54,
+  "all_adaptive_parameters_exact_history_medians": true,
+  "transfer_constant_unchanged": true,
+  "old_files_SHA_unchanged": 100,
+  "nonpositive_corrected": 0,
+  "nonfinite_corrected": 0,
+  "figures": 7,
+  "wall_s": 1.8912599980831146,
+  "peak_RSS_MiB": 55.8046875
+}

@@ -363,3 +363,7 @@ credentials.json
 # Causal density pilot: original values, full per-query diagnostics stay local
 /experiments/causal_density_correction_v1/*_local.*
 !/logs/causal_density_v1*.log
+
+# Cross-year causal pilot: full observation matches/query diagnostics local only
+/experiments/cross_year_causal_density_validation_v1/*_local.*
+!/logs/cross_year_causal_v1*.log

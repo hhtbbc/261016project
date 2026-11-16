@@ -1,0 +1,57 @@
+{
+  "protocol_SHA256": "d7d3ff0699c3986330b73dba8fe6bec707a00a1cce14449098b3c9f7bef545a1",
+  "adaptive": {
+    "B14": {
+      "b_2021": 0.09399076703699727,
+      "multiplier_2021": 1.0985496030025081,
+      "N": 360,
+      "source_satellite": "A",
+      "first_UTC": "2021-03-24T03:00:00.000000000",
+      "last_UTC": "2021-03-24T05:59:30.000000000",
+      "engineering": "PASS",
+      "role": "PRIMARY",
+      "future_poison_invariance": true
+    },
+    "A7": {
+      "b_2021": 0.1166618715881178,
+      "multiplier_2021": 1.1237393972265173,
+      "N": 360,
+      "source_satellite": "A",
+      "first_UTC": "2021-03-24T03:00:00.000000000",
+      "last_UTC": "2021-03-24T05:59:30.000000000",
+      "engineering": "PASS",
+      "role": "CONTROL",
+      "future_poison_invariance": true
+    },
+    "B7": {
+      "b_2021": 0.06966488630835066,
+      "multiplier_2021": 1.0721488292935162,
+      "N": 360,
+      "source_satellite": "A",
+      "first_UTC": "2021-03-24T03:00:00.000000000",
+      "last_UTC": "2021-03-24T05:59:30.000000000",
+      "engineering": "PASS",
+      "role": "CONTROL",
+      "future_poison_invariance": true
+    },
+    "A14": {
+      "b_2021": 0.10879844959322504,
+      "multiplier_2021": 1.1149376115649732,
+      "N": 360,
+      "source_satellite": "A",
+      "first_UTC": "2021-03-24T03:00:00.000000000",
+      "last_UTC": "2021-03-24T05:59:30.000000000",
+      "engineering": "PASS",
+      "role": "SENSITIVITY_ONLY",
+      "future_poison_invariance": true
+    }
+  },
+  "transfer": {
+    "case": "B14",
+    "b_2022": 0.1261252775057784,
+    "multiplier": 1.1344242772252575,
+    "source_SHA256": "99af170f7bf7bc45eaf7d79add9a86180be4a266e5dcd51622f69b68bcf8d140",
+    "no2021_fit": true
+  },
+  "parameters_frozen_before_future_metrics": true
+}

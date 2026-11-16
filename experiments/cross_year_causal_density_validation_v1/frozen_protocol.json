@@ -1,0 +1,80 @@
+{
+  "tag": "cross_year_causal_density_validation_v1",
+  "frozen_UTC": "2026-11-16T04:48:06.316074+00:00",
+  "identity": "CROSS_YEAR_METHOD_REPLICATION / PROVISIONAL MAP_A / HINDCAST / NOT_BLIND",
+  "day": "2021-03-24",
+  "cutoff": "2021-03-24T06:00:00Z",
+  "calibration_half_open": [
+    "03:00",
+    "06:00"
+  ],
+  "cumulative_future_half_open": [
+    [
+      "06:00",
+      "07:00"
+    ],
+    [
+      "06:00",
+      "09:00"
+    ],
+    [
+      "06:00",
+      "12:00"
+    ]
+  ],
+  "nonoverlap_half_open": [
+    [
+      "06:00",
+      "07:00"
+    ],
+    [
+      "07:00",
+      "09:00"
+    ],
+    [
+      "09:00",
+      "12:00"
+    ]
+  ],
+  "primary": "B14",
+  "controls": [
+    "A7",
+    "B7"
+  ],
+  "sensitivity": [
+    "A14"
+  ],
+  "A14_engineering_2021": "PASS; sensitivity by role",
+  "A14_engineering_2022": "PARTIAL unchanged",
+  "methods": {
+    "Raw": "b=0",
+    "Transfer": "B14 ONLY, exact v10 b2022; no 2021 fit",
+    "Adaptive": "separate case median(log(obs)-log(background)), A history only"
+  },
+  "transfer_b": 0.1261252775057784,
+  "transfer_multiplier": 1.1344242772252575,
+  "no_hyperparameter_search": true,
+  "no_future_observations_in_fit": true,
+  "mask": "Same per-window IDs for Raw/Transfer/Adaptive; all-case own/common coverage also reported",
+  "regions": "existing frozen strata; low abs<30,mid30-60,high>=60,north/south>=60 and height400/430/440/450/460/470/500km; N<30 N/A",
+  "metrics": "existing compare_density/metric_row; observed denominator no new floor; model-observation Bias; log_RMS; relative P95; pointwise counts",
+  "comparison2022": "read-only frozen v10 history residuals/parameters/metrics; never re-estimate2022",
+  "illustration": "B14 fixed primary, all four backgrounds retained, no best-example selection",
+  "resource_limits": {
+    "CPU_wall_s": 600,
+    "RSS_GiB": 4,
+    "output_MiB": 150,
+    "downloads": 0,
+    "GPU": 0,
+    "TIE": 0,
+    "DART": 0,
+    "orbit": 0
+  },
+  "science_guards": {
+    "training": false,
+    "external_datum": "EXTERNAL_DATUM_UNVERIFIED",
+    "real_orbit": "BLOCKED",
+    "restart": "FAIL",
+    "DART": "NOT_ADMITTED"
+  }
+}

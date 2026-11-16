@@ -1,0 +1,14 @@
+{
+  "PASS": true,
+  "source_volumes_SHA_pass": 8,
+  "observations_SHA_pass": true,
+  "all2021_engineering_PASS": true,
+  "full_state_science_PASS": false,
+  "old_v10_files_unchanged": 74,
+  "free_disk_bytes": 1358148141056,
+  "available_memory": [
+    "MemAvailable:   1920657224 kB"
+  ],
+  "cpu_affinity": 112,
+  "wall_s": 1.7552949823439121
+}

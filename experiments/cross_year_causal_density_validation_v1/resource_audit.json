@@ -1,0 +1,47 @@
+{
+  "measured_core_CPU_task_wall_sum_s": 19.135446353912354,
+  "wall_definition": "preflight + supervised matching/fitting/evaluation/7plots + independent validation +5 test suites; small interactive metadata/report/write commands not individually metered; not conversation elapsed time",
+  "supervisor_elapsed_s": 14.142891373485327,
+  "supervisor_returncode": 0,
+  "peak_sampled_tree_RSS_MiB": 326.02734375,
+  "worker_peak_rusage_MiB": 326.02734375,
+  "RSS_definition": "same UID child session sampled; not continuous global peak",
+  "directory_bytes_before_reports": 13528757,
+  "tests": [
+    {
+      "log": "cross_year_causal_v1_tests.log",
+      "N": 10,
+      "wall_s": 0.04
+    },
+    {
+      "log": "cross_year_causal_v1_v10_correction_tests.log",
+      "N": 6,
+      "wall_s": 0.04
+    },
+    {
+      "log": "cross_year_causal_v1_operator_tests.log",
+      "N": 6,
+      "wall_s": 0.052
+    },
+    {
+      "log": "cross_year_causal_v1_hourly_tests.log",
+      "N": 8,
+      "wall_s": 0.14
+    },
+    {
+      "log": "cross_year_causal_v1_native_tests.log",
+      "N": 18,
+      "wall_s": 1.074
+    }
+  ],
+  "new_observation_bytes": 0,
+  "GPU": 0,
+  "TIE": 0,
+  "DART": 0,
+  "orbit": 0,
+  "limits": {
+    "wall_s": 600,
+    "RSS_GiB": 4,
+    "output_MiB": 150
+  }
+}

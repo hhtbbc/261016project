@@ -1,0 +1,17 @@
+{
+  "state": "COMPLETE",
+  "identity": "CROSS_YEAR_METHOD_REPLICATION, not blind",
+  "stable_all_metric_benefit": false,
+  "engineering_workflow_PASS": true,
+  "tests": 48,
+  "queries": 4320,
+  "query_coverage": 1.0,
+  "independent_metric_rows": 54,
+  "full_science_PASS": false,
+  "formal_datum": "EXTERNAL_DATUM_UNVERIFIED",
+  "DART": "NOT_ADMITTED",
+  "restart": "FAIL",
+  "real_orbit": "BLOCKED",
+  "A14_2021": "engineering PASS/sensitivity role",
+  "A14_2022": "engineering PARTIAL"
+}

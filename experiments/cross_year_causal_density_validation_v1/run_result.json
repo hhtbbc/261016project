@@ -1,0 +1,18 @@
+{
+  "PASS": true,
+  "wall_s": 12.925740636885166,
+  "peak_RSS_MiB": 326.02734375,
+  "queries": 4320,
+  "query_valid": 4320,
+  "history_samples_per_case": 360,
+  "future_samples": 720,
+  "parameters_frozen_before_future_evaluation": true,
+  "plots": 7,
+  "fit_2022": false,
+  "C_B_read": false,
+  "downloads": 0,
+  "GPU": 0,
+  "TIE": 0,
+  "DART": 0,
+  "orbit": 0
+}

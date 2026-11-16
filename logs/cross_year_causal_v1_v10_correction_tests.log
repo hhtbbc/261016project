@@ -1,0 +1,11 @@
+test_C_and_B_cannot_fit (test_causal_density_correction.TestCorrection) ... ok
+test_empty_past_rejected (test_causal_density_correction.TestCorrection) ... ok
+test_existing_nine_CDF_checks (test_causal_density_correction.TestCorrection) ... ok
+test_invalid_never_filled (test_causal_density_correction.TestCorrection) ... ok
+test_median_and_future_poison (test_causal_density_correction.TestCorrection) ... ok
+test_no_mutation (test_causal_density_correction.TestCorrection) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.040s
+
+OK

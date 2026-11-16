@@ -1,0 +1,11 @@
+test_affine_horizontal_time_exponential_vertical (test_causal_density_operator.TestCausalOperator) ... ok
+test_half_open_causal_windows (test_causal_density_operator.TestCausalOperator) ... ok
+test_map_a_trace_and_formal_gate (test_causal_density_operator.TestCausalOperator) ... ok
+test_no_fallback_at_invalid_zero_weight_column (test_causal_density_operator.TestCausalOperator) ... ok
+test_periodic_longitude (test_causal_density_operator.TestCausalOperator) ... ok
+test_time_height_and_polar_rejection (test_causal_density_operator.TestCausalOperator) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.052s
+
+OK

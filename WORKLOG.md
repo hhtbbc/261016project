@@ -1118,3 +1118,15 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 - 实测资源：计量核心CPU任务含失败尝试合计26.310秒（不冒称交互文件操作或自然等待总墙钟），查询监督10.928秒、估计绘图监督6.143秒、峰值采样树RSS306.508MiB，目录约20.877MiB；600秒/4GiB/150MiB预算未扩张。6图已生成，图6视觉检查通过，52测试及独立核验日志/完整命令在新run目录。
 - 高度：重读NCAR2016 grid/altitude及VirES官方定义，仍无外部零面等价证明；复用已有咨询草稿，未发邮件。保持EXTERNAL_DATUM_UNVERIFIED。
 - 交付：reports/CAUSAL_DENSITY_CORRECTION_PILOT_V1.md、reports/HEIGHT_DATUM_OFFICIAL_EVIDENCE_UPDATE_V1.md、docs/CAUSAL_DENSITY_CORRECTION_NEXT_DECISION_V1.md；新模块/测试/查询与评价脚本、残差/系数/指标/覆盖/资源/SHA/6图。状态PILOT_COMPLETE不等于科学PASS；优先新cutoff/日期复现+高度登记，DART和真实轨道均不准入，科学训练False、A14PARTIAL不改。
+
+
+## 2026-11-16：跨年份严格因果密度校正v11
+- 授权范围：仅CPU复用2021 A与TIE四组，固定2022 B14系数Transfer、2021过去3h Adaptive，不增加模型复杂度，无新观测下载/TIE/GPU/DART/轨道。起始本地远端均c469f9c...，未重复推送，保护历史未跟踪同步日志。
+- 预注册：B14主、A7/B7对照、A14敏感性；2021[03,06)360与未来[06,07)/[06,09)/[06,12)120/360/720及不重叠时间窗。仅B14 Transfer，精确b2022 .1261252775057784。所有Adaptive只各自过去A残差中位数，参数先冻结再未来评价；未来毒化不变，B/C未读。
+- 输入：2021CDF SHA/UTC/单位/flag0共2880检查；inputs.json的8原NetCDF卷SHA与历史审计匹配，DEN/ZG ilev29及g/cm3×1000/cm×.01不改。四组真实退出0和4NORMAL EXIT、工程PASS；2021 A14仍仅敏感性，与2022历史PARTIAL分别保留。全状态O1/O2/N2科学失败不解除。
+- 复用：原hourly/provider、Map-A、v10标量应用、quality/metric_row/strata；新日期显式evaluation.cross_year_correction模块不改变旧2022入口。4320真实查询全有效、10小时帧；8列/层/权重完整本地记录，所有填值/非有限/非正扫描通过。48CPU测试通过，1080CDF数据独立精确匹配、12插值探针、54指标行物理公式独立复算通过。
+- 结果：B14 b2021 .09399076703699727、乘数1.0985496030025081。1/3/6h Adaptive绝对RMSE下降27.6119/20.4714/20.4004%，Transfer34.7921/24.9096/25.9526%；但相对RMS全部累计窗口恶化。6h Raw/Adaptive/Transfer relativeRMS24.0041/25.0208/26.2255%，relativeP9541.0294/54.9278/59.9872%，logRMS .248409/.224725/.225218，Pearson缩放不变。A7/B7/A14亦RMSE改善而相对RMS恶化。
+- 结构：2021低纬有符号relativeBias .4502→10.3495% Adaptive/13.9532% Transfer，过校正重复；低纬及430—440km相对RMS变差，中高纬改善。6h Adaptive470改善250恶化，Transfer455改善265恶化。7—9h相对误差恶化、9—12h改善，不拟合衰减或作IID显著性；不把两年差异归因单一太阳活动。
+- 实测：监督任务正常exit0/PASS 14.143秒，核心任务含预检/核验/测试墙钟合计19.135秒（零散文件检查不逐项计时，不冒称自然墙钟），峰值采样树RSS326.027MiB，报告前目录12.902MiB。无失败重试，600秒/4GiB/150MiB未扩大。7图已生成，图5视觉检查通过。
+- 高度：仅复核官方grid页仍April2016，无新零面定义/维护者回复，不重复历史搜索，不发邮件；引用v10高度报告。EXTERNAL_DATUM_UNVERIFIED、RestartFAIL、DART未准入、真实轨道BLOCKED和科学训练False保持。
+- 交付：reports/CROSS_YEAR_CAUSAL_DENSITY_VALIDATION_V1.md、docs/CROSS_YEAR_CAUSAL_DENSITY_NEXT_DECISION_V1.md及新run协议/输入/系数/区域/点级/资源/命令/SHA/7图。结论绝对RMSE部分跨年收益复现，但全指标稳定收益未成立；下一轮仅建议联合评价目标和预注册新截点/日期，不自动运行。原始观测、完整匹配和逐点查询只本地；Git最终SHA及同步结果以实际核验记录为准。
