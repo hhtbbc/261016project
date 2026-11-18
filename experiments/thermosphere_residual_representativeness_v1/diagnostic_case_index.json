@@ -1,0 +1,154 @@
+[
+  {
+    "date": "2021-03-23",
+    "cutoff": 6,
+    "prefix": "D20210323H06",
+    "methods": {
+      "B14": [
+        "Raw"
+      ],
+      "A7": [
+        "Raw"
+      ],
+      "B7": [
+        "Raw"
+      ]
+    }
+  },
+  {
+    "date": "2021-03-23",
+    "cutoff": 18,
+    "prefix": "D20210323H18",
+    "methods": {
+      "B14": [
+        "Raw",
+        "GlobalAdaptive",
+        "LatitudeAdaptive"
+      ],
+      "A7": [
+        "Raw",
+        "GlobalAdaptive",
+        "LatitudeAdaptive"
+      ],
+      "B7": [
+        "Raw",
+        "GlobalAdaptive",
+        "LatitudeAdaptive"
+      ]
+    }
+  },
+  {
+    "date": "2021-03-24",
+    "cutoff": 6,
+    "prefix": "D20210324H06",
+    "methods": {
+      "B14": [
+        "Raw",
+        "GlobalAdaptive"
+      ],
+      "A7": [
+        "Raw",
+        "GlobalAdaptive"
+      ],
+      "B7": [
+        "Raw",
+        "GlobalAdaptive"
+      ]
+    }
+  },
+  {
+    "date": "2021-03-24",
+    "cutoff": 18,
+    "prefix": "D20210324H18",
+    "methods": {
+      "B14": [
+        "Raw",
+        "GlobalAdaptive"
+      ],
+      "A7": [
+        "Raw",
+        "GlobalAdaptive"
+      ],
+      "B7": [
+        "Raw",
+        "GlobalAdaptive"
+      ]
+    }
+  },
+  {
+    "date": "2022-03-23",
+    "cutoff": 6,
+    "prefix": "D20220323H06",
+    "methods": {
+      "B14": [
+        "Raw"
+      ],
+      "A7": [
+        "Raw"
+      ],
+      "B7": [
+        "Raw"
+      ]
+    }
+  },
+  {
+    "date": "2022-03-23",
+    "cutoff": 18,
+    "prefix": "D20220323H18",
+    "methods": {
+      "B14": [
+        "Raw",
+        "GlobalAdaptive",
+        "LatitudeAdaptive"
+      ],
+      "A7": [
+        "Raw",
+        "GlobalAdaptive",
+        "LatitudeAdaptive"
+      ],
+      "B7": [
+        "Raw",
+        "GlobalAdaptive",
+        "LatitudeAdaptive"
+      ]
+    }
+  },
+  {
+    "date": "2022-03-24",
+    "cutoff": 6,
+    "prefix": "D20220324H06",
+    "methods": {
+      "B14": [
+        "Raw",
+        "GlobalAdaptive"
+      ],
+      "A7": [
+        "Raw",
+        "GlobalAdaptive"
+      ],
+      "B7": [
+        "Raw",
+        "GlobalAdaptive"
+      ]
+    }
+  },
+  {
+    "date": "2022-03-24",
+    "cutoff": 18,
+    "prefix": "D20220324H18",
+    "methods": {
+      "B14": [
+        "Raw",
+        "GlobalAdaptive"
+      ],
+      "A7": [
+        "Raw",
+        "GlobalAdaptive"
+      ],
+      "B7": [
+        "Raw",
+        "GlobalAdaptive"
+      ]
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "PASS": true,
+  "days": 4,
+  "date_cutoff_combinations": 8,
+  "background_combinations": 24,
+  "raw_observation_records": 11520,
+  "new_fit_allowed": false,
+  "free_disk_bytes": 1357656358912,
+  "wall_s": 3.5577676221728325,
+  "peak_RSS_MiB": 88.64453125,
+  "algorithm_tests": "run after protocol freeze, before supervised diagnostic",
+  "protected_files": 203
+}

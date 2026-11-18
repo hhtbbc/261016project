@@ -1,0 +1,17 @@
+test_MAD_unscaled (test_residual_representativeness.DiagnosticTests) ... ok
+test_contribution_identity (test_residual_representativeness.DiagnosticTests) ... ok
+test_coordinates (test_residual_representativeness.DiagnosticTests) ... ok
+test_half_open (test_residual_representativeness.DiagnosticTests) ... ok
+test_invalid (test_residual_representativeness.DiagnosticTests) ... ok
+test_latitude_boundaries (test_residual_representativeness.DiagnosticTests) ... ok
+test_longitude_periodicity (test_residual_representativeness.DiagnosticTests) ... ok
+test_overflow_preserved (test_residual_representativeness.DiagnosticTests) ... ok
+test_overlap (test_residual_representativeness.DiagnosticTests) ... ok
+test_quintile_ties (test_residual_representativeness.DiagnosticTests) ... ok
+test_residual (test_residual_representativeness.DiagnosticTests) ... ok
+test_threshold (test_residual_representativeness.DiagnosticTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.043s
+
+OK

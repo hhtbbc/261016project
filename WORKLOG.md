@@ -1201,3 +1201,16 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 命令环境：source scripts/activate_orbit.sh；python scripts/prepare_zg_registration_v2_1.py；python -m unittest discover -s tests -p test_zg_external_share_redaction.py -v；python scripts/verify_zg_registration_v2_1.py。两种官方读取失败/成功的实际记录、规则、SHA及资源均存新目录；_local页面/同步记录不公开。
 资源：四外部附件13001字节，受测三进程CPU约0.01979s、测试主体0.004s，峰进程自报794.992MiB；页面等待单列，不冒充全程连续监控。新观测0、模型/GPU/DART/轨道/训练0。
 结论：附件SANITIZED_ATTACHMENTS_READY；整体TIEGCM_ZG_EXTERNAL_REGISTRATION_V2_1=ATTACHMENTS_SANITIZED_CONTACT_ROUTE_UNVERIFIED，不把当前404渠道认定已验证，manual_sending_ready=False。外部高度未验证/科学训练False/RestartFAIL/DART未准入/真实轨道BLOCKED及A14身份不变。下一步用户补渠道证据、确认审批并填占位符后决定人工发送，未批准前不宣称可立即投递；完成停止，无v14/历史代表性/DART。Git逐文件白名单、远端复核、正常推送，最终精确SHA在本地ignored同步审计及最终汇报。
+
+
+## 2026-11-18 — 历史残差代表性与坐标数值一致性诊断 V1
+
+目标/范围：OBSERVATION_CONSTRAINED_PHYSICS_FIRST，4固定日期(2021/2022-03-23/24)×06/18Z，B14主/A7B7控制，A14排除。开始根目录/realpath和main/远端=5b4d1be17841040fd7a29ff4eafae3bba6d784a2核实，读全部指定资料和已有模块。冻结协议SHA dfdeb2fe5354dbcd7d1652bd233e2ad9951182a3600a0b99b83eab84009e4077，先于未来分布与坐标试验。
+数据：四原CDF SHA/flag0/UTC30s/GRS80/密度正值通过，六背景12卷原SHA/ilevDEN(g/cm3)/ZG(cm)及工程记录通过。v10缓存格式不同（无source_manifest）已按它原始SHA清单处理；仅复用A值，不读取C/B/A14值参与分析。20160旧配对值复用，03-23早窗5760必要八列查询重建全有效，无外推。203受保护旧文件/参数/接口不改。
+学习/实现/运行：新增residual_representativeness模块、prepare/run/verify/launch/finalize脚本及12基础测试。source scripts/activate_orbit.sh；首次unittest缺PYTHONPATH导入失败，日志保留，设PYTHONPATH="$PWD/src:$PWD"后12通过，源码和协议无变化；既有临时坐标14/小时8/联合11通过，合计45不同测试。唯一CPU监督运行python scripts/launch_residual_representativeness_v1.py，真实exit0/PASS。服务器随后在整理阶段重启；恢复先检查run_result/退出证据/文件，不再启动诊断。
+结果：384分布统计、288中位数差、区域与覆盖/固定1h块，3744贡献行、596坐标行；126历史指标/54旧四旗标逐项核验不变。新03-23早窗无冻结校正结果，仅Raw统计；未来中位数不产生预测，无新拟合。B14全域Δb范围−.133064至+.120258，3/24符号翻转；2021-03-23 18Z全域中位数.088227/.086280近似稳定，但旧Global relativeRMS仍恶化12.649%。低纬历史代表性与估计目标不一致均有实测依据，非唯一物理因果归因。
+贡献：两年03-23晚窗Q5驱动大部分绝对净收益，Q1/Q2驱动相对损失；纬度法2021最差5%点全部低纬/低密度，2022最差5%全低密度而非低纬。保留全分箱/纬度/时间块，未删除不利点或普通IID显著性。
+坐标：预冻结独立显式椭球+Astropy/ERFA数值容差XYZ/高1e−5m、角5e−10deg，596行均通过；198解析/100固定卫星位置、原向量本地保留。往返XYZ最大2.945e−9m，库坐标独立正算最大2.013e−6m；同一卫星XYZ的GRS/WGS高度差最大.104568mm、大地地心纬差最大.180224deg。数值自洽不能解决ZG零面或模型纬度外部定义。
+资源：唯一监督30.827680s，worker29.822154s/CPU33.409526s/峰RSS330.895MiB，采样树峰约329.656MiB；独立8.590895s已含worker，不能重复相加。预检3.557768s，输出约19MiB；计算远低600s/4GiB/公开150MiB；交互编辑/Git/服务器暂停不冒充连续采样。原始新下载/模型/GPU/DART/轨道/训练/新校正/高度拟合/外部联系均0。
+文件：新experiments/thermosphere_residual_representativeness_v1/派生CSV/JSON及8PNG；报告reports/THERMOSPHERE_RESIDUAL_REPRESENTATIVENESS_V1.md；决策docs/THERMOSPHERE_RESIDUAL_REPRESENTATIVENESS_NEXT_DECISION_V1.md；实际命令/错误/资源/SHA均保存。完整配对、查询和原始XYZ_local仅本地，不上传。
+状态：COMPLETE仅诊断；SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED和A14历史身份不变。下一步建议另授权新增独立日期覆盖、同算法同指标复现，先核模型有效域/预热和观测资产，不自动更换日期或积分；本轮完成停止，不新校正/AI/DART/轨道。按安全白名单正常提交/推送并独立核远端，最终SHA和同步结果在本地ignored审计及最终答复记录。

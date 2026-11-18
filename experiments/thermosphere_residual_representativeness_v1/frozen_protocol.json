@@ -1,0 +1,129 @@
+{
+  "tag": "thermosphere_residual_representativeness_v1",
+  "frozen_UTC": "2026-11-18T04:05:48.555608+00:00",
+  "identity": "PROVISIONAL Map-A / HINDCAST / NOT_BLIND / EXTERNAL_DATUM_UNVERIFIED",
+  "days": [
+    "2021-03-23",
+    "2021-03-24",
+    "2022-03-23",
+    "2022-03-24"
+  ],
+  "cutoffs_UTC": [
+    6,
+    18
+  ],
+  "primary": "B14",
+  "controls": [
+    "A7",
+    "B7"
+  ],
+  "A14": "EXCLUDED",
+  "half_open": true,
+  "history_hours": 3,
+  "future_hours": [
+    1,
+    3,
+    6
+  ],
+  "nonoverlap_future_hours": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      6
+    ]
+  ],
+  "descriptive_time_block_hours": 1,
+  "min_region_samples": 30,
+  "statistics": "mean/median/population std ddof0/unscaledMAD/linear quantiles .05,.25,.75,.95/strict positive fraction",
+  "residual": "ln(observation)-ln(model); future median descriptive only, never used to make prediction",
+  "overlap": "sum min(histogram probabilities); fixed residual edges -inf,-4 to4 step.1,+inf; no dropped overflow; descriptive only",
+  "latitude_regions": "abs(GRS80 lat)<30,30<=abs<60,abs>=60; merged hemispheres",
+  "density_bins": "unchanged v12 diagnostic_quintiles, ties together; future observed quintiles descriptive only",
+  "decomposition": "same paired IDs; absolute/relative SS and contributions normalized by whole windowN; byquintile/latitude/timeblock and quintile xlatitude; groupN<30 clearly descriptive smallN",
+  "frozen_prediction_scope": "only existing GlobalAdaptive/LatitudeAdaptive forecasts;03-23 06Z only raw residual diagnostics, no new forecast from historical median; unavailable methodsN/A",
+  "coordinate_contract": {
+    "ellipsoids": {
+      "GRS80": [
+        6378137.0,
+        298.257222101
+      ],
+      "WGS84": [
+        6378137.0,
+        298.257223563
+      ]
+    },
+    "independent": "explicit double precision ellipsoid forward and20-step fixed-point inverse, independent of Astropy EarthLocation; same-point GRS/WGS differences not forced tozero",
+    "analytic_lat": [
+      0,
+      30,
+      -30,
+      45,
+      -45,
+      60,
+      -60,
+      89.999,
+      -89.999,
+      90,
+      -90
+    ],
+    "analytic_lon": [
+      -180,
+      180,
+      540,
+      -540,
+      0,
+      90
+    ],
+    "analytic_height_m": [
+      0,
+      450000,
+      800000
+    ],
+    "actual_points": "every120th record eachday pluslast record:25/day,100 total",
+    "tolerances": {
+      "XYZ_m": 1e-05,
+      "height_m": 1e-05,
+      "angle_deg": 5e-10,
+      "metric_rtol": 1e-13,
+      "metric_atol": 0,
+      "identity_rtol": 1e-12
+    },
+    "rationale": "float64 epsilon~2.22e-16, Earth position scale~1e7m; numerical regression tolerances with guard factors, not physical accuracy bounds; no post-result adjustment",
+    "pole_longitude": "undefined at horizontal radius<1e-6m; compare Cartesian position and height, not longitude"
+  },
+  "new_queries": "only missing03-23 early B14future720 and A7/B7 history+future1080each, peryear2880; bothyears5760; exact old Map-A/eight-column rule",
+  "old_results_recomputed": "independent reproduction only, no tuning or new fitted parameters",
+  "resources": {
+    "supervised_wall_s": 600,
+    "RSS_GiB": 4,
+    "public_MiB": 150,
+    "downloads": 0,
+    "GPU": 0,
+    "TIE": 0,
+    "DART": 0,
+    "orbit": 0
+  },
+  "code_SHA256": {
+    "src/evaluation/residual_representativeness.py": "65635e7ca5d4a5acddd29f678894f9ded4b857656af9a3dc42e3e7deea565662",
+    "scripts/run_residual_representativeness_v1.py": "f2e8706b40d6657ed72aa092a81df4423d7d6ddb9cca5ccda7365ca1ed8e82bf",
+    "scripts/verify_residual_representativeness_v1.py": "4f3a76f9b7916844d5895bfa9395040cee14824e18a6f9f0bcdee20bfcf821f9",
+    "scripts/prepare_residual_representativeness_v1.py": "505336d066949b8c5b2ca273cde72871d262e38e01f22c005fe2c199a2568b4d",
+    "tests/test_residual_representativeness.py": "3f2a11e2443cc059e2bd869f4b4ba19b8c82f834a99121b1ccbd9d247bb72d11",
+    "src/evaluation/swarm_crossyear.py": "5fbe5916cede884e9f519279f766134781ecf96784fa4ea6113954b300d63ca2",
+    "src/evaluation/late_day_correction.py": "dcec926510a194a5992a4dea98603dcdf824c80b5e30f9ec72758819cb31d050",
+    "src/evaluation/causal_density_latitude.py": "a0c3f96aa949a98093874ddb87c07671c87002efd04d1eb75af4b16c53dac2a8",
+    "src/atmosphere/causal_density_correction.py": "faf2919297e7d9971cc22df06029a5032f293a40bfae65f02ed5cfa6e56c71c2",
+    "src/atmosphere/provisional_coordinate_adapter.py": "70487ead9b944e8e33187a567ad87666595789238c27416a552044d421a96e15",
+    "src/atmosphere/causal_observation_operator.py": "82ba4d1f413cc8f1c6c16219927204dc8b8ba888a1bf6172715738b3cac43f0d",
+    "src/atmosphere/hourly_tiegcm_observation.py": "31d3cba796e6304f00e73fe8cb08b1aedf6de3e11b8ef4b20b0860d3e4066ff8",
+    "src/atmosphere/tiegcm_density_provider.py": "2af64d466f40fa235915ce6e4b29cf4fc28dad086245d3df9e30b7bc1db0291f",
+    "src/atmosphere/density_interface.py": "e40a2c4e96918bf155f20ba8c8eb73277ab07f9e4db8e19f2a6fb760f5a82b11"
+  }
+}

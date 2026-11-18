@@ -1,0 +1,9 @@
+{
+  "PASS": true,
+  "paired_rows": 25920,
+  "formula": "vector ln(obs)-ln(model) versus independent scalar math.log(obs/model); compare exp of difference",
+  "max_relative_ratio_difference": 3.552713678800501e-15,
+  "rtol": 1e-13,
+  "atol": 0,
+  "no_forecast_generated": true
+}

@@ -1,0 +1,19 @@
+test_both_poles (test_provisional_coordinate_adapter.GeometryTests) ... ok
+test_dateline (test_provisional_coordinate_adapter.GeometryTests) ... ok
+test_equator (test_provisional_coordinate_adapter.GeometryTests) ... ok
+test_explicit_assumptions (test_provisional_coordinate_adapter.GeometryTests) ... ok
+test_midlatitude (test_provisional_coordinate_adapter.GeometryTests) ... ok
+test_no_drag_protocol (test_provisional_coordinate_adapter.GeometryTests) ... ok
+test_offsets (test_provisional_coordinate_adapter.GeometryTests) ... ok
+test_spherical_geometry (test_provisional_coordinate_adapter.GeometryTests) ... ok
+test_bottom_failure (test_provisional_coordinate_adapter.QueryTests) ... ok
+test_derivative_and_dimension_separation (test_provisional_coordinate_adapter.QueryTests) ... ok
+test_formal_gate_unchanged (test_provisional_coordinate_adapter.QueryTests) ... ok
+test_source_switch_and_provisional (test_provisional_coordinate_adapter.QueryTests) ... ok
+test_time_failure (test_provisional_coordinate_adapter.QueryTests) ... ok
+test_top_failure (test_provisional_coordinate_adapter.QueryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.218s
+
+OK

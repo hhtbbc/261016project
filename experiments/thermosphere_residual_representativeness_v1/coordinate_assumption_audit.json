@@ -1,0 +1,31 @@
+{
+  "identity": "NUMERICAL CONSISTENCY ONLY / NOT DATUM VALIDATION",
+  "ellipsoid_constants": {
+    "GRS80": [
+      6378137.0,
+      298.257222101
+    ],
+    "WGS84": [
+      6378137.0,
+      298.257223563
+    ]
+  },
+  "tolerances_frozen_before_execution": {
+    "XYZ_m": 1e-05,
+    "height_m": 1e-05,
+    "angle_deg": 5e-10,
+    "metric_rtol": 1e-13,
+    "metric_atol": 0,
+    "identity_rtol": 1e-12
+  },
+  "sample_points": 298,
+  "coordinate_test_rows": 596,
+  "all_PASS": true,
+  "pole_longitude_treated_as_undefined": true,
+  "original_position_vectors_preserved_local": true,
+  "Map_A_unchanged": true,
+  "XYZ_to_ellipsoid_numerical_consistency": true,
+  "ZG_ellipsoid_equivalence_proved": false,
+  "zero_surface_resolved": false,
+  "external_gate": "EXTERNAL_DATUM_UNVERIFIED"
+}

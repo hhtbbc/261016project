@@ -1,0 +1,183 @@
+{
+  "cases": [
+    {
+      "date": "2021-03-23",
+      "case": "B14",
+      "queries": 720,
+      "valid": 720,
+      "failed": 0,
+      "eight_columns": true,
+      "extrapolation": false,
+      "frames": 7,
+      "wall_s": 0.6150416061282158
+    },
+    {
+      "date": "2021-03-23",
+      "case": "A7",
+      "queries": 1080,
+      "valid": 1080,
+      "failed": 0,
+      "eight_columns": true,
+      "extrapolation": false,
+      "frames": 10,
+      "wall_s": 0.9074040241539478
+    },
+    {
+      "date": "2021-03-23",
+      "case": "B7",
+      "queries": 1080,
+      "valid": 1080,
+      "failed": 0,
+      "eight_columns": true,
+      "extrapolation": false,
+      "frames": 10,
+      "wall_s": 0.8947881646454334
+    },
+    {
+      "date": "2022-03-23",
+      "case": "B14",
+      "queries": 720,
+      "valid": 720,
+      "failed": 0,
+      "eight_columns": true,
+      "extrapolation": false,
+      "frames": 7,
+      "wall_s": 0.5985045693814754
+    },
+    {
+      "date": "2022-03-23",
+      "case": "A7",
+      "queries": 1080,
+      "valid": 1080,
+      "failed": 0,
+      "eight_columns": true,
+      "extrapolation": false,
+      "frames": 10,
+      "wall_s": 0.903474222868681
+    },
+    {
+      "date": "2022-03-23",
+      "case": "B7",
+      "queries": 1080,
+      "valid": 1080,
+      "failed": 0,
+      "eight_columns": true,
+      "extrapolation": false,
+      "frames": 10,
+      "wall_s": 0.9124735705554485
+    }
+  ],
+  "probes": [
+    {
+      "date": "2021-03-23",
+      "case": "B14",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2021-03-23",
+      "case": "B14",
+      "index": 720,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2021-03-23",
+      "case": "B14",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2021-03-23",
+      "case": "A7",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2021-03-23",
+      "case": "A7",
+      "index": 540,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2021-03-23",
+      "case": "A7",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2021-03-23",
+      "case": "B7",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2021-03-23",
+      "case": "B7",
+      "index": 540,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2021-03-23",
+      "case": "B7",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2022-03-23",
+      "case": "B14",
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2022-03-23",
+      "case": "B14",
+      "index": 720,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2022-03-23",
+      "case": "B14",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2022-03-23",
+      "case": "A7",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2022-03-23",
+      "case": "A7",
+      "index": 540,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2022-03-23",
+      "case": "A7",
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2022-03-23",
+      "case": "B7",
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2022-03-23",
+      "case": "B7",
+      "index": 540,
+      "relative_difference": 0.0
+    },
+    {
+      "date": "2022-03-23",
+      "case": "B7",
+      "index": 1079,
+      "relative_difference": 0.0
+    }
+  ],
+  "new_queries": 5760,
+  "no_operator_changes": true,
+  "old_caches_preferred": true
+}

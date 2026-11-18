@@ -1,0 +1,16 @@
+{
+  "PASS": true,
+  "median_stat_rows": 384,
+  "median_gap_rows": 288,
+  "contribution_rows": 3744,
+  "old_joint_rows_reverified": 54,
+  "coordinate_rows": 596,
+  "coordinate_ERFA_height_crosscheck_max_m": 2.9685907065868378e-09,
+  "history_future_IDs_disjoint": true,
+  "no_future_median_forecast": true,
+  "no_new_correction_fit": true,
+  "old_SHA_unchanged": true,
+  "rtol": 1e-13,
+  "atol": 0,
+  "wall_s": 8.59089458361268
+}

@@ -1,0 +1,25 @@
+date,cutoff,case,N,history_N,future_6h_N,quality_valid,query_valid,coverage,new_queries,provenance,corrected_prediction_methods
+2021-03-23,6,B14,1080,360,720,1080,1080,1.0,720,B14 history frozen v13 early cache; missing future rebuilt,N/A_NO_FROZEN_PREDICTION
+2021-03-23,6,A7,1080,360,720,1080,1080,1.0,1080,missing03-23 early history/future rebuilt,N/A_NO_FROZEN_PREDICTION
+2021-03-23,6,B7,1080,360,720,1080,1080,1.0,1080,missing03-23 early history/future rebuilt,N/A_NO_FROZEN_PREDICTION
+2021-03-23,18,B14,1080,360,720,1080,1080,1.0,0,frozen v13-B,GlobalAdaptive;LatitudeAdaptive
+2021-03-23,18,A7,1080,360,720,1080,1080,1.0,0,frozen v13-B,GlobalAdaptive;LatitudeAdaptive
+2021-03-23,18,B7,1080,360,720,1080,1080,1.0,0,frozen v13-B,GlobalAdaptive;LatitudeAdaptive
+2021-03-24,6,B14,1080,360,720,1080,1080,1.0,0,frozen v11,GlobalAdaptive
+2021-03-24,6,A7,1080,360,720,1080,1080,1.0,0,frozen v11,GlobalAdaptive
+2021-03-24,6,B7,1080,360,720,1080,1080,1.0,0,frozen v11,GlobalAdaptive
+2021-03-24,18,B14,1080,360,720,1080,1080,1.0,0,frozen v12,GlobalAdaptive
+2021-03-24,18,A7,1080,360,720,1080,1080,1.0,0,frozen v12,GlobalAdaptive
+2021-03-24,18,B7,1080,360,720,1080,1080,1.0,0,frozen v12,GlobalAdaptive
+2022-03-23,6,B14,1080,360,720,1080,1080,1.0,720,B14 history frozen v13 early cache; missing future rebuilt,N/A_NO_FROZEN_PREDICTION
+2022-03-23,6,A7,1080,360,720,1080,1080,1.0,1080,missing03-23 early history/future rebuilt,N/A_NO_FROZEN_PREDICTION
+2022-03-23,6,B7,1080,360,720,1080,1080,1.0,1080,missing03-23 early history/future rebuilt,N/A_NO_FROZEN_PREDICTION
+2022-03-23,18,B14,1080,360,720,1080,1080,1.0,0,frozen v13-B,GlobalAdaptive;LatitudeAdaptive
+2022-03-23,18,A7,1080,360,720,1080,1080,1.0,0,frozen v13-B,GlobalAdaptive;LatitudeAdaptive
+2022-03-23,18,B7,1080,360,720,1080,1080,1.0,0,frozen v13-B,GlobalAdaptive;LatitudeAdaptive
+2022-03-24,6,B14,1080,360,720,1080,1080,1.0,0,frozen v10,GlobalAdaptive
+2022-03-24,6,A7,1080,360,720,1080,1080,1.0,0,frozen v10,GlobalAdaptive
+2022-03-24,6,B7,1080,360,720,1080,1080,1.0,0,frozen v10,GlobalAdaptive
+2022-03-24,18,B14,1080,360,720,1080,1080,1.0,0,frozen v12,GlobalAdaptive
+2022-03-24,18,A7,1080,360,720,1080,1080,1.0,0,frozen v12,GlobalAdaptive
+2022-03-24,18,B7,1080,360,720,1080,1080,1.0,0,frozen v12,GlobalAdaptive

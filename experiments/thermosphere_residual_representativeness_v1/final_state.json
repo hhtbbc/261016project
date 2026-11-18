@@ -1,0 +1,17 @@
+{
+  "RESIDUAL_REPRESENTATIVENESS_DIAGNOSTIC": "COMPLETE",
+  "completion_scope": "diagnostic execution only, no scientific correction PASS",
+  "RESEARCH_PRIORITY": "OBSERVATION_CONSTRAINED_PHYSICS_FIRST",
+  "SCIENCE_TRAINING_READY": false,
+  "EXTERNAL_DATUM": "EXTERNAL_DATUM_UNVERIFIED",
+  "Restart": "FAIL",
+  "DART": "NOT_ADMITTED",
+  "REAL_ORBIT": "BLOCKED",
+  "A14_inherited_not_reaudited": {
+    "2021": "ENGINEERING_PASS; excluded from current diagnosis",
+    "2022": "ENGINEERING_PARTIAL; excluded from current diagnosis"
+  },
+  "new_correction_fits": 0,
+  "new_forecasts": 0,
+  "emails_sent": 0
+}

@@ -1,0 +1,18 @@
+{
+  "environment": "source scripts/activate_orbit.sh",
+  "preflight": "python scripts/prepare_residual_representativeness_v1.py",
+  "tests": "PYTHONPATH=\"$PWD/src:$PWD\" python -m unittest discover -s tests -p test_residual_representativeness.py -v",
+  "regressions": [
+    "test_provisional_coordinate_adapter.py",
+    "test_hourly_tiegcm_observation.py",
+    "test_late_day_correction.py"
+  ],
+  "sole_supervised_task": "python scripts/launch_residual_representativeness_v1.py",
+  "independent_audit": "verify_residual_representativeness_v1.verify() invoked within worker; no standalone re-run",
+  "finalization": "python scripts/finalize_residual_representativeness_v1.py; read computed outputs only, no query/fitting",
+  "failed_initial_import_log": "logs/residual_representativeness_v1_tests_initial_import.log",
+  "initial_schema_note": "v10 has no source_manifest.json; use its own sha256_manifest and frozen matched cache, not an assumed common filename",
+  "existing_directory_policy": "prepare and launch refuse existing directory/marker; do not remove outputs to rerun",
+  "base_commit": "5b4d1be17841040fd7a29ff4eafae3bba6d784a2",
+  "protocol_SHA256": "dfdeb2fe5354dbcd7d1652bd233e2ad9951182a3600a0b99b83eab84009e4077"
+}
