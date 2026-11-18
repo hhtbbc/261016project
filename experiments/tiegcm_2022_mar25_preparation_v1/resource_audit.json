@@ -1,0 +1,43 @@
+{
+  "PASS": true,
+  "supervised_preparation_wall_s": 26.135416239500046,
+  "worker": {
+    "status": "RUN_READY_NOT_LAUNCHED",
+    "wall_s": 25.835147846490145,
+    "CPU_s": 8.852467407,
+    "peak_RSS_MiB": 90.25390625,
+    "old_assets_unchanged": true,
+    "new_model_launches": 0
+  },
+  "independent_verification_wall_s": 4.1623085252940655,
+  "independent_verification_CPU_s": 4.041161079999999,
+  "test_body_times_s": {
+    "static": 0.004,
+    "supervisor": 1.443,
+    "acquisition": 0.045,
+    "driver": 0.053
+  },
+  "test_counts": {
+    "static": 7,
+    "supervisor": 23,
+    "acquisition": 12,
+    "driver": 8
+  },
+  "measured_compute_wall_s": 31.842724764794113,
+  "sampled_preparation_tree_peak_bytes": 88109056,
+  "limits": {
+    "wall_s": 600,
+    "RSS_bytes": 4294967296,
+    "network_bytes": 1048576,
+    "public_bytes": 157286400
+  },
+  "network_download_bytes": 139665,
+  "driver_download_bytes": 0,
+  "new_TIEGCM_starts": 0,
+  "GPU": 0,
+  "DART": 0,
+  "orbit": 0,
+  "correction_fits": 0,
+  "future_density_metrics": 0,
+  "scope": "Measured CPU test/preparation/verification, not continuous monitoring of editing/Git; nested MPI/helper probe included in preparation"
+}

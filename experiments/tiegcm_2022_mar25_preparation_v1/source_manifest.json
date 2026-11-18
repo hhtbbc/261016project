@@ -1,0 +1,592 @@
+{
+  "base_release": {
+    "tag": "tiegcm2.0",
+    "commit": "da712811d925376ff8ef40ff64bda7cc070ca661",
+    "archive_SHA256": "4c9c43cdb2c8ad20fef45a711eec5b8cc8c079511c18de8cde576cd7b31a352d",
+    "evidence": {
+      "path": "logs/tiegcm_source_acquisition.json",
+      "SHA256": "af6e97fb2f726b1346873fe1db1be68442fd41351438466da4e8da4751d7595f",
+      "bytes": 397
+    }
+  },
+  "apex_update": {
+    "official_notice": "https://www.hao.ucar.edu/modeling/tgcm/index.php",
+    "commit": "84185ee0b97307567c78e32ce85643b48a5cc1a9",
+    "raw_url": "https://raw.githubusercontent.com/NCAR/tiegcm/84185ee0b97307567c78e32ce85643b48a5cc1a9/src/apex.F90",
+    "source_sha256": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3",
+    "patch_sha256": "336086a838722957e65390a46eae552e743f3d2707b839d95dc59a2e3448519e",
+    "old_source_sha256": "9b227da3fdf31692424a7f39f0107deed5f28f01514c4a222f3d5d725ecc8cf4",
+    "original_source_preserved": true,
+    "source_list_apex_entries": [
+      "apex.F90"
+    ],
+    "version_label": "TIE-GCM2.0 + official 2025 apex/IGRF14 update + recorded GNU12 compatibility overlays"
+  },
+  "compiled_source_inventory": [
+    {
+      "path": "third_party/TIEGCM2.0/src/addfld.F",
+      "SHA256": "839738beac7fbeed5ceeacf9d50aec61e17d8dde82180b913bfc5d62e2a55d01",
+      "bytes": 21799
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/addiag.F",
+      "SHA256": "0ad6c5cd0fa1058f10de0da6b156f5e466022a722f700ebf124f8efc4ac4e3e4",
+      "bytes": 8915
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/advance.F",
+      "SHA256": "e8916693bfc712eb7bfe6612bc0272c8aa0ca0b67f45fcf10db51937cc6fa393",
+      "bytes": 32445
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/advec.F",
+      "SHA256": "751ffe61e34d2535b67d501df2592e220ffd7642132f3f776f3295165f0d577c",
+      "bytes": 6109
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/allocdata.F",
+      "SHA256": "804d5b0141ab1dc1fe7a695c957fd8d9715eec573ffb5890da11476e457f0ecb",
+      "bytes": 4054
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/amie.F",
+      "SHA256": "e8e272e899ba0c3f857b084a048d14cd13db79cb823b63e1c2f06b69d61a5b37",
+      "bytes": 51402
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/amieoutput.F",
+      "SHA256": "7294ecdee40ef2c5de7e7838353bda204ac5f95814d60bc73fed53766b0e73c7",
+      "bytes": 7831
+    },
+    {
+      "path": "experiments/tiegcm2_apex2023_v1/apex.F90",
+      "SHA256": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3",
+      "bytes": 103680
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/aurora.F",
+      "SHA256": "c942e4c78624b511da83290f236ac84b727aac98e4b6398f55d68673106f9cc8",
+      "bytes": 50551
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/bgrd_data.F",
+      "SHA256": "9436e3097f40bcd8dcb6871879de263f66fe8d334df5c56d894f419d9fa334ce",
+      "bytes": 20083
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/chapman.F",
+      "SHA256": "a55a3b5eeeee5945e1dcd40807469a2bce0a90a83430a003a876983a7dd7b468",
+      "bytes": 8781
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/chemrates.F",
+      "SHA256": "64c5c4adf4e2dc2022d38bceef58f54d46fdc981f63f13399dd205bb01e4e077",
+      "bytes": 12182
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/cism_adhoc.F",
+      "SHA256": "4396234d2fa13d80f70c5986ff739956354864bddabbe7b5ab5678c98a2c3302",
+      "bytes": 6280
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/cism_coupling.F",
+      "SHA256": "1f37d6cb188fac2631f88eca2e0eb83b17db7d8ce884c306f1fa5e218056548c",
+      "bytes": 19773
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/cism_intercomm.F",
+      "SHA256": "ba82e4159d05ea43154719da8fad7018bfc8b259008f3f8a1cb4570c656239c0",
+      "bytes": 6577
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/colath.F",
+      "SHA256": "048a1da2380cd28b83658985ee77c70e120208dc06934c51a1343dd27711cc87",
+      "bytes": 2787
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/comp.F",
+      "SHA256": "93235f1b619b38dacd837d5897b83c47881a1566c247a260aad6168cb0718e3f",
+      "bytes": 45827
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/comp_ar.F",
+      "SHA256": "af1a631f68e741085dba5a0e60d272c1cdac81d5e3def80fb0d52e7d61c8fd86",
+      "bytes": 6072
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/comp_n2d.F",
+      "SHA256": "94b3370d196b0238f5d64b2e4ee99f6c21d2b8a8a21857105de58f053fe7814d",
+      "bytes": 2560
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/comp_n4s.F",
+      "SHA256": "cf32ff2db50b9e74ef103d461470d89fc7221c5e4bbf80ec633e55f43642d26d",
+      "bytes": 8145
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/comp_no.F",
+      "SHA256": "8a7200ef798bded8d5b6eb76107037bb9e0fcc504d5a5a0b964c59b91ab845b9",
+      "bytes": 6559
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/comp_o2o.F",
+      "SHA256": "2d457e512f4446201ea63fada51c589a50282f26f965a82a2556febdb65cd425",
+      "bytes": 7327
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/cons.F",
+      "SHA256": "2c2475235247888c1cf7a9d46d18466f0d05acbe95fad2f75feb8d5ad16ea127",
+      "bytes": 21214
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/cpktkm.F",
+      "SHA256": "75d6f59de973d65e2880c418784f4c2a560066ec002dc4ba9322b0938fe30332",
+      "bytes": 4331
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/ctmt.F",
+      "SHA256": "61b5bc1bd4f80456df81f26a9c13b00785cd5cf5f2faa4118381b9158a37be01",
+      "bytes": 19176
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/current.F90",
+      "SHA256": "67cde30d625938c4b4d0283bd85fcb3c1d1637dc18ea159941f20351ee41c902",
+      "bytes": 36098
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/diags.F",
+      "SHA256": "406a87917a5446493d7e0fdcb6a744271e7930f7151020f66134b4adc0b35a35",
+      "bytes": 49121
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/dispose.F",
+      "SHA256": "9ae4db5076068617ce139936910d3827ab01d80784310c107039b9289f2bcff5",
+      "bytes": 6802
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/divrg.F",
+      "SHA256": "d7588fcb0089c1383e69cb6cec008498ef83685031ca37199b89aaec114fea71",
+      "bytes": 3158
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/dt.F",
+      "SHA256": "96268596120ce4164f666899c0387dd9676df51adadd156eb8ae76b5fb8312eb",
+      "bytes": 16975
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/duv.F",
+      "SHA256": "6191c6f984a4163daa368e56fa1ce12bcd8464e1917433b8ab686c83d66f069e",
+      "bytes": 36626
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/dynamics.F",
+      "SHA256": "1823849bbdf3a5ff97e20276b5187518edc69fd6b857045ba372992cdb6ba3c1",
+      "bytes": 38437
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/dyndiag.F",
+      "SHA256": "6650b80d720f6a2000808ceea2bd11e9326ddcd4be4bdab2339f365f19ecc50d",
+      "bytes": 15294
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/elden.F",
+      "SHA256": "2f2d474fd263bd6ecf60ee7acbe86ad617df220315c63b23bb609b4f3db58d77",
+      "bytes": 12356
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/esmf.F",
+      "SHA256": "d5d82bcf904faef59d0b76f59e2c270434ebf3c13a773987e6770cd2f365eb79",
+      "bytes": 42134
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/fft9.F",
+      "SHA256": "ba1171afbb1de859ccd0113a78ea3eadad37211354b087e903b27020ce8e282c",
+      "bytes": 34791
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/fields.F",
+      "SHA256": "3182f3c4993ee8252f3168bfe4a0fa8a4f04d1f4f2c9f8bfaf60cd92e5598004",
+      "bytes": 37601
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/filter.F",
+      "SHA256": "7cb7f4b9b28bfc08213584f6b654460ae160a3b80517e89c7b7d532c4880756f",
+      "bytes": 5864
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/getapex.F",
+      "SHA256": "379ac098eb76ce19e7ec0e4a0088a7c9096632d4e537788d9cb7a83f059fa506",
+      "bytes": 12528
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/getfile.F",
+      "SHA256": "7fab0a74baf69cab0325f149a7b188bdf7dbf36e0abaaf097562f64eed38c8a5",
+      "bytes": 1516
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/gpi.F",
+      "SHA256": "bbc1e592f569d19b9462401ee161209bea5e19b4becf674c2007125fc67ed56e",
+      "bytes": 31619
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/gswm.F",
+      "SHA256": "9f1789ecdebaebef88581150efa1d66ddec263695f6fa1e632464864758e0f3c",
+      "bytes": 30079
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/hdif.F",
+      "SHA256": "3f0a2f81c18e97e893e36fd2aca8aa253397a7692e0fb04bc879d4c1920ebab1",
+      "bytes": 23892
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/he_coef0_dres.F",
+      "SHA256": "97714c293ab11af3610f3848be39e29a67e19a9c864c20cd598b1afc76da31ca",
+      "bytes": 4585903
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/he_coef1_dres.F",
+      "SHA256": "f9031ca0cbbccdfc08dbc61c72ddc4439e667599299cb1a6c0ee46743b097b6d",
+      "bytes": 4585818
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/he_coefs_sres.F",
+      "SHA256": "8daebde3b18e96437d2d3eed1cfc2f443cee2cb01cc845c7d3f5e47a2c6d36f8",
+      "bytes": 1173553
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/heelis.F",
+      "SHA256": "e382832aebd29915f07934ac0ec867b95fa42a54bf4fea1a21903b5a2ed50512",
+      "bytes": 8302
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/hist.F",
+      "SHA256": "83fbb16e50c845f40aa35f04dc34da0e256b99679fa2b8723bd61d5c88819aad",
+      "bytes": 23516
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/imf.F",
+      "SHA256": "64d58d34286b0732bd1fe8852fa2b5fa83393240e75faaee98453912c7f735f8",
+      "bytes": 13407
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/init.F",
+      "SHA256": "5ef58725bd7924d78e4eaa0bcae00dea42e84d2c77e25191b15154b47adbecdf",
+      "bytes": 11364
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/input.F",
+      "SHA256": "1ededc56addcd6b445bab304e5f06b47cfc25e9bc5b5e01e98dd1522654d7358",
+      "bytes": 86724
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/input_read.F",
+      "SHA256": "8b24127d5c99a80d35ed3daa8d6f814d4b9dbe4dfe6db4d5a047f135bd0c114b",
+      "bytes": 1272
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/ionvel.F",
+      "SHA256": "b95a6778bad6681e2e5f8fc6a38e7178d330546e9bdb5a7bd2cc69354370bf21",
+      "bytes": 5965
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/lamdas.F",
+      "SHA256": "dcd4b42d10053d9a7d2692827f93771d6824d2850a910bba385846d442097230",
+      "bytes": 17437
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/laplacian.F",
+      "SHA256": "03f47cdccd6e35d71384883765922e3b0c3f2231698f1d4cce6be07d50776c11",
+      "bytes": 6754
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/lbc.F",
+      "SHA256": "bc597c256683f89c30d697303719ece761600923814a3b80640b4821da4b04b5",
+      "bytes": 22336
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/lsqdsq.F",
+      "SHA256": "303f5374027ca2ef1f887f4cd60ab797afc3dd2b0f80b239394f74d3674be4cf",
+      "bytes": 1768
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/magfield.F",
+      "SHA256": "1a62f4cd3c3339119e49fd64e2db2ce97e1f3eea6274f820ee2767d899eb5586",
+      "bytes": 10337
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/magpres_g.F",
+      "SHA256": "43e6086cc49c80399644a403a33a03ddfa7a90b7c99a9f1149dca464fdfbcbec",
+      "bytes": 16956
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/minor.F",
+      "SHA256": "0ccfceb2064b299486b4c91b64b7a47032ec75c368fcb68f1e8be0f454291976",
+      "bytes": 22297
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/mk_polelat.F",
+      "SHA256": "ac171b4f25679b34e341ee8f0c9794d701648a193f27980463fc8fbef7e83d2f",
+      "bytes": 1721
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/mkhvols.F",
+      "SHA256": "f2dc34f345f37dbac2b2318c5bb5e2db051f2fc6a78478c75f8095f13de11039",
+      "bytes": 9720
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/mpi.F",
+      "SHA256": "062513acd45b3aa3d3bf6593839f6d9f317aa7b5bfaf304be0dca4076b7ce3ca",
+      "bytes": 189859
+    },
+    {
+      "path": "experiments/tiegcm2_apex2023_v1/mud.F",
+      "SHA256": "589b1ee3f941ec3ec6a26ddcced589f5235501fb83297133f7fb7bb50d1cb164",
+      "bytes": 39269
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/mudcom.F",
+      "SHA256": "db0157f76395dd06acb3f2346a7dce2a28b9ff1ee48a80cc96a7770f21101057",
+      "bytes": 72852
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/mudmod.F",
+      "SHA256": "e25ee140c1838fc2beb0eb1be7d27a8a86b14e902ff0ac461300cac8f03aae7a",
+      "bytes": 21958
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/muh2cr.F",
+      "SHA256": "1e92ebb5a86dbefb2026af363bca01577277f5e92a2057d6bfe3a477f36c0d61",
+      "bytes": 53602
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/nchist.F",
+      "SHA256": "eb2c9f33ad919a69e4b5732b72da40ff113183f06901d444a9aeddfcc7a2c8b8",
+      "bytes": 141754
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/newton.F",
+      "SHA256": "684af3aef1814a806457a85c22ea00ec184d7458fe9438902a4564986e672b55",
+      "bytes": 8493
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/numfiles.F",
+      "SHA256": "448276370e60fa3036e30c77382c7418edca6a21078f66fe13c349c63b5ca5e9",
+      "bytes": 5975
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/oplus.F",
+      "SHA256": "40cd77ec2397e1a37da81bab55beb09e397656aab6b5361b38f377fa1179e467",
+      "bytes": 46599
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/output.F",
+      "SHA256": "607a30a4814f01c1d22a47a45cf6efcb6d8f5a92d51db248840acadc585af4e4",
+      "bytes": 20277
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/params.F",
+      "SHA256": "5ed64aacd1411bbb614e5f680e07a3ac4cfe6cc469168eb73decb3939e429683",
+      "bytes": 3488
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/pdynamo.F",
+      "SHA256": "c22482d82ed74caeae4ba0b35d02a6cff1adbfabe2942ce30452c01ae8da0014",
+      "bytes": 150914
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/qinite.F",
+      "SHA256": "30ca9a0ad231410ff083fe1dbc38e0814934082c8fa741c1cc32a83f6f96c182",
+      "bytes": 5613
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/qjion.F",
+      "SHA256": "a9b25111637db9bd63f5e6380e2be9c6bb51441c0797bd9d0e49cae22015383f",
+      "bytes": 6197
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/qjnno.F",
+      "SHA256": "8364c7db03d80aecf44ab70c7a135aea0d1f539062b44254bfff894e55b3c01c",
+      "bytes": 2534
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/qjoule.F",
+      "SHA256": "4155ba246b55f188b90b3d1593f22e4403b83eb631f52715e0e223d6ef97c3db",
+      "bytes": 8339
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/qrj.F",
+      "SHA256": "d8b5204b223fa16ae29da7538194bb71120556cf26e021db6fb4774dd811c8ae",
+      "bytes": 37851
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/rdsource.F",
+      "SHA256": "388da684a5ae2b40a2782bf3b75c684a409bf7973e5846462fbb1dd948f348dd",
+      "bytes": 9299
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/rgrd1.F",
+      "SHA256": "07e1859f375687dc8e063012368ba2bd01bbba422ed3795946465d680a4aec4d",
+      "bytes": 7814
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/rgrd2.F",
+      "SHA256": "0ac3346b08a2c49a142ab1189b1df2c86ad58d9e6a4d72d1f9de736cc985f6f1",
+      "bytes": 14474
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/rgrd3.F",
+      "SHA256": "789da0059a4933895bc4013334e59611c815724f3c8facbf706a49e307ae58db",
+      "bytes": 19162
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/saber_tidi.F",
+      "SHA256": "bad7f8913b373721e5d2c97a705918e2b23151fc76fd05963a4effde2de910da",
+      "bytes": 22449
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/settei.F",
+      "SHA256": "2dd0f6de7b6d58eb700c19a602581a65eda62c0fd3bc8f36ea3ccea8d5389ca5",
+      "bytes": 24449
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/smooth.F",
+      "SHA256": "eb14e07514493672f455a6b831d7c0830329c8487a92a1659a754af30f8c1d28",
+      "bytes": 2153
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/soldata.F",
+      "SHA256": "7c703259d7f1fdce98dfe785a066003b2205e6bd5bf4fc8d65d716d8b8affe7d",
+      "bytes": 12281
+    },
+    {
+      "path": "experiments/tiegcm2_apex2023_v1/sphpac.F",
+      "SHA256": "297846c4dde2f352a77d953c7bcaeda0b9d2a51e1566b83dceb6818f05f5e9cd",
+      "bytes": 23971
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/swdot.F",
+      "SHA256": "29ccbe5b5d04d7a01baec66e2c55e34cc7815f32fa4dbd13462a8316bfa9a02e",
+      "bytes": 4715
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/tgcm.F",
+      "SHA256": "90858d39c8cf3cccb0a71768558d0e33244c72c9fa84b2c40e64ebabcbcb3e63",
+      "bytes": 7528
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/timing.F",
+      "SHA256": "16b1c0caea43b73cb28f31cbc4b74cd024e5e1d256f4cc73a94642573e41b1ac",
+      "bytes": 13869
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/timing_mpi.F",
+      "SHA256": "415df84f181e5ecd52375aa6d10f82cdec0ee2705833f9cd060004e07029ab29",
+      "bytes": 4407
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/trsolv.F",
+      "SHA256": "d63a195eb313fe22201ce52203991028babc10cd11a8f162ecde6f7f557c6f2a",
+      "bytes": 2883
+    },
+    {
+      "path": "experiments/tiegcm2_apex2023_v1/util.F",
+      "SHA256": "268107076eb816e48ce981ddb58226d8e063328ac1f84ef0781f80c5e60f6c6e",
+      "bytes": 46314
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/vtsetup.F",
+      "SHA256": "2752ffb3a9396167cc3fd05b2c82c2249534a1e2ec006a757dc3727556c5abff",
+      "bytes": 7834
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/wei05sc.F",
+      "SHA256": "b062248bfde2440c0e41d6c58b7dafa4e17b8ae4531aeeab1292c6e1f67a3dab",
+      "bytes": 51848
+    },
+    {
+      "path": "third_party/TIEGCM2.0/src/wrhist.F",
+      "SHA256": "1787944b15808605836b4eca8351dd6fab7a39e08b8535e2dbfd9eabc2f2f1c3",
+      "bytes": 6474
+    }
+  ],
+  "compiled_resolution": "Make.env DIRS order: build overlay first, original2.0 src second; actual binary unchanged from historical run. Current source hashes are not a new recompilation.",
+  "verified_history_manifest": {
+    "path": "experiments/tiegcm_zg_external_registration_v2/model_configuration_manifest.json",
+    "SHA256": "660784717ea51ab461d4f35e1630b37a251c30a9603e6e0319e3009b4b25fd32",
+    "bytes": 28395
+  },
+  "old_model_and_assets": {
+    "third_party/TIEGCM2.0/src/cons.F": "2c2475235247888c1cf7a9d46d18466f0d05acbe95fad2f75feb8d5ad16ea127",
+    "third_party/TIEGCM2.0/src/lbc.F": "bc597c256683f89c30d697303719ece761600923814a3b80640b4821da4b04b5",
+    "third_party/TIEGCM2.0/src/addiag.F": "0ad6c5cd0fa1058f10de0da6b156f5e466022a722f700ebf124f8efc4ac4e3e4",
+    "third_party/TIEGCM2.0/src/getapex.F": "379ac098eb76ce19e7ec0e4a0088a7c9096632d4e537788d9cb7a83f059fa506",
+    "third_party/TIEGCM2.0/src/init.F": "5ef58725bd7924d78e4eaa0bcae00dea42e84d2c77e25191b15154b47adbecdf",
+    "third_party/TIEGCM2.0/src/diags.F": "406a87917a5446493d7e0fdcb6a744271e7930f7151020f66134b4adc0b35a35",
+    "third_party/TIEGCM2.0/src/dt.F": "96268596120ce4164f666899c0387dd9676df51adadd156eb8ae76b5fb8312eb",
+    "third_party/TIEGCM2.0/src/params.F": "5ed64aacd1411bbb614e5f680e07a3ac4cfe6cc469168eb73decb3939e429683",
+    "third_party/TIEGCM2.0/src/apex.F90": "9b227da3fdf31692424a7f39f0107deed5f28f01514c4a222f3d5d725ecc8cf4",
+    "experiments/tiegcm2_apex2023_v1/apex.F90": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3",
+    "experiments/tiegcm2_apex2023_v1/Make.env": "4c7ce67f7c7052fc1ba5862cc43155eadfa5c62f59895d8046de21c9c15708a5",
+    "experiments/tiegcm2_apex2023_v1/Make.workspace": "d1e14765c13897bdfa4b783717ab77618821a8c31f67ec4ee063f58c9391c936",
+    "experiments/tiegcm2_apex2023_v1/Makefile": "08a70a47e7793bba73a9ead5d26fa997718c14d0599ea9488e28dd2339fc51cc",
+    "experiments/tiegcm2_apex2023_v1/Srcfiles": "8a7a7d15c7f5bd5d491b7e5542c9e3e12e12b2791257ef58d2ee31e788e5127a",
+    "experiments/tiegcm2_apex2023_v1/defs.h": "a98bc43baed2a2a241deda001af24a2e556eaa3f7bcab60b36641718003b5e0a",
+    "experiments/tiegcm2_apex2023_v1/apex_provenance.json": "ae53ce60f6521d8604016b19c959aaeac47a37222cdc1f856983dc080d363dfb",
+    "experiments/tiegcm2_apex2023_v1/tiegcm2.0": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "experiments/tiegcm2_apex2023_v1/sphpac.F": "297846c4dde2f352a77d953c7bcaeda0b9d2a51e1566b83dceb6818f05f5e9cd",
+    "experiments/tiegcm2_apex2023_v1/util.F": "268107076eb816e48ce981ddb58226d8e063328ac1f84ef0781f80c5e60f6c6e",
+    "experiments/tiegcm2_apex2023_v1/mud.F": "589b1ee3f941ec3ec6a26ddcced589f5235501fb83297133f7fb7bb50d1cb164",
+    "configs/patches/tiegcm2_gfortran12_ieee_constants.patch": "a1771508392574acded745e9c7bbf881ade8962a6d7d7aee2ad70d7367dc664e",
+    "configs/patches/tiegcm2_gfortran12_theta_rank.patch": "b35ef728d0944e47b77d29acdc93ccc663dc29f81160a4cb1448a20f19595a44",
+    "configs/patches/tiegcm2_gfortran12_mud_iprm.patch": "ac2875b228e003d0c414eee249eb2e5b7ae4d631a848fa2f9d414236b4a0e3a9",
+    "configs/patches/tiegcm2_official_apex2023.patch": "336086a838722957e65390a46eae552e743f3d2707b839d95dc59a2e3448519e",
+    "data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc": "180475215a4922e9c55a77e80153cf641bc8fbb2b8d52633b4686ddee6942fff",
+    "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+    "data/processed/tiegcm_2022_spinup_14day_v1/gpi_2022_14day.nc": "bd603d2e47c7fa2e61858f6732cad12d98a5e602ca40141640e63185dd51bf41",
+    "data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc": "91a9e5245f3e43807863b30bd9b08e8d8338f8278fb932fda81dd5d7690af4f0",
+    "data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc": "4c266f98bd496e0d681ed49cf6f08079ede53656af760c1914c1342067091340"
+  },
+  "new_GPI": {
+    "path": "experiments/tiegcm_2022_mar25_preparation_v1/gpi_2022_extended.nc",
+    "SHA256": "5834bf48ebb6d024d5e3e0f8fe407649608699ba5b9091cd61ffdb2eb51223d4",
+    "bytes": 2640
+  },
+  "new_CDF": {
+    "path": "data/raw/tiegcm_2022_mar25_preparation_v1/SW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.cdf",
+    "SHA256": "d2f647f723f774a446e6c07c9b1108c1dc521b76bb21a2d524d321d379b440a8",
+    "bytes": 191682
+  },
+  "mpirun": {
+    "path": ".envs/tiegcm/bin/mpirun",
+    "SHA256": "7b6c839e5d90310bf741efe3f9cbba68460083c74721513d5f3697b158119639",
+    "bytes": 190592
+  },
+  "preparation_code": [
+    {
+      "path": "scripts/prepare_tiegcm_2022_mar25_v1.py",
+      "SHA256": "bc5ed7654f24a1de170943bc83086368e9a639cb1b15c2ecb95d50d9802be876",
+      "bytes": 20691
+    },
+    {
+      "path": "scripts/verify_tiegcm_2022_mar25_preparation_v1.py",
+      "SHA256": "79e16493fbe58eabaf25019b2bbcffa720bef8436a8aa9067dcb87ec0d9b6792",
+      "bytes": 5929
+    },
+    {
+      "path": "scripts/execute_tiegcm_2022_mar25_v1.py",
+      "SHA256": "09e508626ce63bd39f3eaec802d52a43741a88b4ff0ccee47e6c845cd8e0053c",
+      "bytes": 3481
+    },
+    {
+      "path": "scripts/finalize_tiegcm_2022_mar25_preparation_v1.py",
+      "SHA256": "967c3cc74fb0403ebf241ffcab8e992214275ef8005add6d93cd1d1b01db9dfb",
+      "bytes": 14855
+    },
+    {
+      "path": "tests/test_tiegcm_mar25_preparation.py",
+      "SHA256": "c21a59f17e8df8b9bbcd33eb973e6d4498aa7b7a35df391421bcb8016a5afa4b",
+      "bytes": 1807
+    }
+  ],
+  "history_protected_files": 2372
+}

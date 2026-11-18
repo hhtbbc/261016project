@@ -1,0 +1,354 @@
+{
+  "file": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+  "history_type": "primary",
+  "missing_required": [],
+  "selected_record_count": 1,
+  "available_mtime": [
+    [
+      80,
+      0,
+      0
+    ]
+  ],
+  "all_required_double": true,
+  "structure_complete": true,
+  "record_available": true,
+  "validated_continuation": false,
+  "required_native_fields": {
+    "TN": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "K",
+      "native_masked": 2592
+    },
+    "UN": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "cm/s",
+      "native_masked": 2592
+    },
+    "VN": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "cm/s",
+      "native_masked": 2592
+    },
+    "O2": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "mmr",
+      "native_masked": 0
+    },
+    "O1": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "mmr",
+      "native_masked": 0
+    },
+    "N4S": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "mmr",
+      "native_masked": 0
+    },
+    "NO": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "mmr",
+      "native_masked": 0
+    },
+    "HE": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "mmr",
+      "native_masked": 0
+    },
+    "AR": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "MMR",
+      "native_masked": 0
+    },
+    "OP": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "cm-3",
+      "native_masked": 0
+    },
+    "N2D": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "mmr",
+      "native_masked": 0
+    },
+    "TI": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "K",
+      "native_masked": 2592
+    },
+    "TE": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "K",
+      "native_masked": 2592
+    },
+    "NE": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "cm-3",
+      "native_masked": 0
+    },
+    "O2P": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "cm-3",
+      "native_masked": 0
+    },
+    "OMEGA": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "s-1",
+      "native_masked": 0
+    },
+    "Z": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "cm",
+      "native_masked": 0
+    },
+    "POTEN": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "volts",
+      "native_masked": 0
+    },
+    "TN_NM": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "K",
+      "native_masked": 2592
+    },
+    "UN_NM": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "cm/s",
+      "native_masked": 2592
+    },
+    "VN_NM": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "cm/s",
+      "native_masked": 2592
+    },
+    "O2_NM": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "mmr",
+      "native_masked": 0
+    },
+    "O1_NM": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "mmr",
+      "native_masked": 0
+    },
+    "N4S_NM": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "mmr",
+      "native_masked": 0
+    },
+    "NO_NM": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "mmr",
+      "native_masked": 0
+    },
+    "OP_NM": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "cm-3",
+      "native_masked": 0
+    },
+    "HE_NM": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "mmr",
+      "native_masked": 0
+    },
+    "AR_NM": {
+      "shape": [
+        1,
+        29,
+        36,
+        72
+      ],
+      "units": "MMR",
+      "native_masked": 0
+    },
+    "TLBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "units": "K",
+      "native_masked": 0
+    },
+    "ULBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "units": "cm/s",
+      "native_masked": 0
+    },
+    "VLBC": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "units": "cm/s",
+      "native_masked": 0
+    },
+    "TLBC_NM": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "units": "K",
+      "native_masked": 0
+    },
+    "ULBC_NM": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "units": "cm/s",
+      "native_masked": 0
+    },
+    "VLBC_NM": {
+      "shape": [
+        1,
+        36,
+        72
+      ],
+      "units": "cm/s",
+      "native_masked": 0
+    }
+  },
+  "native_mask_preserved": true
+}

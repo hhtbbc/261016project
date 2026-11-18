@@ -1,0 +1,70 @@
+{
+  "PASS": true,
+  "free_disk_bytes": 1357611270144,
+  "MemAvailable_bytes": 1960991232000,
+  "cpu_affinity_count": 112,
+  "active_model_count": 0,
+  "output_dir": "experiments/tiegcm_2022_mar25_preparation_v1/run",
+  "output_directory_empty_of_NetCDF": true,
+  "exclusive_writable": true,
+  "history_estimation_evidence": [
+    {
+      "evidence": "experiments/tiegcm_2021_spinup_14day_v1/B14/run_status.json",
+      "SHA256": "7b26b7c1389cd35fb55719a0acef9b9284de6ac77319d3f93ea28d1214eb7ecf",
+      "steps": 24480,
+      "days": 17,
+      "MPI": 4,
+      "OMP": 1,
+      "actual_wall_s": 2553.404599379748,
+      "actual_netcdf_bytes": 3581251512,
+      "seconds_per_step": 0.1043057434387152,
+      "bytes_per_day": 210661853.6470588
+    },
+    {
+      "evidence": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/run_status.json",
+      "SHA256": "84ec7b3735adba29b8c1ec22452fed8db032bb56c32764db639be913f91e3d6c",
+      "steps": 23040,
+      "days": 16,
+      "MPI": 4,
+      "OMP": 1,
+      "actual_wall_s": 2429.787853844464,
+      "actual_netcdf_bytes": 3371589248,
+      "seconds_per_step": 0.10545954226755486,
+      "bytes_per_day": 210724328.0
+    }
+  ],
+  "estimate": {
+    "proposal": "2022_March25_fresh_continuous",
+    "days_per_run": 17,
+    "runs": 1,
+    "steps_per_run": 24480,
+    "predicted_wall_s_min": 2553.404599379748,
+    "predicted_wall_s_max": 2581.649594709743,
+    "planning_safety_factor": 1.5,
+    "planning_wall_budget_s_per_run": 3872.474392064614,
+    "predicted_netcdf_bytes_min": 3581251512.0,
+    "predicted_netcdf_bytes_max": 3582313576.0,
+    "sequential_total_estimated_wall_s": 2581.649594709743,
+    "sequential_total_safety_wall_s": 3872.474392064614,
+    "total_netcdf_bytes_max": 3582313576.0,
+    "MPI": 4,
+    "OMP": 1,
+    "GPU": 0,
+    "additional_authorization_required": true,
+    "estimate_not_confidence_bound": true
+  },
+  "limits": {
+    "wall_s": 4800,
+    "supervisor_stop_s": 4770,
+    "cleanup_reserve_s": 30,
+    "RSS_bytes": 17179869184,
+    "output_bytes": 5368709120,
+    "disk_floor_bytes": 21474836480,
+    "MPI": 4,
+    "OMP": 1,
+    "model_max_launches": 1,
+    "retry": 0,
+    "GPU": 0
+  },
+  "resources_dynamic_recheck_required": true
+}

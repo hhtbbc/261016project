@@ -1,0 +1,26 @@
+[
+  {
+    "group": "static",
+    "log_project_relative": "logs/mar25_preparation_static_tests.log",
+    "log_SHA256": "a126eca6beeae21bd076b7d81105cf0f7444efeec884412c1e4d317cf983d320",
+    "result": "PASS"
+  },
+  {
+    "group": "supervisor",
+    "log_project_relative": "logs/mar25_preparation_supervisor_tests.log",
+    "log_SHA256": "f48ce5f3f55567f98236a5d782427054e7671f890e5fb28a776ef75e5919a84b",
+    "result": "PASS"
+  },
+  {
+    "group": "acquisition",
+    "log_project_relative": "logs/mar25_preparation_acquisition_tests.log",
+    "log_SHA256": "3f5dd9f5af6233a77c9f202046fc66a092f59f6bd2230d0de7d991f4de3b882a",
+    "result": "PASS"
+  },
+  {
+    "group": "driver",
+    "log_project_relative": "logs/mar25_preparation_driver_tests.log",
+    "log_SHA256": "7d810aa44e451a8cc05d02f4bcf4667da21df7afa44724e752c20dd2b0939d9e",
+    "result": "PASS"
+  }
+]

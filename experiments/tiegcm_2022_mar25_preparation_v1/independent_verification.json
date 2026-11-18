@@ -1,0 +1,26 @@
+{
+  "PASS": true,
+  "raw_observation_independent": true,
+  "raw_drivers_independent": true,
+  "mean_max_abs": 2.842170943040401e-14,
+  "Kp_independent_buckets": 176,
+  "common_raw_arrays_exact": true,
+  "configuration_changed_keys": [
+    "GPI_NCFILE",
+    "OUTPUT",
+    "SECOUT",
+    "SECSTOP",
+    "STOP"
+  ],
+  "source_34_fields": true,
+  "old_protected_files": 2372,
+  "old_NetCDF_original_SHA_verified": true,
+  "future_launcher_unauthorized_refusal": true,
+  "new_model_launches": 0,
+  "actual_target_queries": "NOT_RUN_MODEL_OUTPUT_NOT_YET_CREATED",
+  "fitting": 0,
+  "metrics": 0,
+  "wall_s": 4.1623085252940655,
+  "CPU_s": 4.041161079999999,
+  "peak_RSS_MiB": 62.59375
+}

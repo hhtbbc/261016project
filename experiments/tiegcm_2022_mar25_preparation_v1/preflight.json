@@ -1,0 +1,15 @@
+{
+  "PASS": true,
+  "status": "RUN_READY_NOT_LAUNCHED",
+  "observation_PASS": true,
+  "GPI_PASS": true,
+  "model_static_PASS": true,
+  "resource_PASS": true,
+  "new_model_launches": 0,
+  "correction_fits": 0,
+  "metrics_computed": 0,
+  "external_datum": "UNVERIFIED",
+  "restart": "FAIL",
+  "DART": "NOT_ADMITTED",
+  "real_orbit": "BLOCKED"
+}

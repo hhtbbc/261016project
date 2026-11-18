@@ -1,0 +1,22 @@
+{
+  "PASS": true,
+  "arrays_bitwise_equal": {
+    "f107d": true,
+    "f107a": true,
+    "kp": true
+  },
+  "raw_common_days": 21,
+  "common_Kp_buckets": 168,
+  "minute_node_common_max_abs": 0.0,
+  "old_GPI": {
+    "path": "data/processed/tiegcm_2022_spinup_14day_v1/gpi_2022_14day.nc",
+    "SHA256": "bd603d2e47c7fa2e61858f6732cad12d98a5e602ca40141640e63185dd51bf41",
+    "bytes": 2556
+  },
+  "new_GPI": {
+    "path": "experiments/tiegcm_2022_mar25_preparation_v1/gpi_2022_extended.nc",
+    "SHA256": "5834bf48ebb6d024d5e3e0f8fe407649608699ba5b9091cd61ffdb2eb51223d4",
+    "bytes": 2640
+  },
+  "tolerance_relaxed": false
+}

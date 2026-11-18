@@ -1,0 +1,54 @@
+{
+  "start_UTC": "2022-03-09T00:00:00Z",
+  "stop_UTC": "2022-03-26T00:00:00Z",
+  "step_s": 60,
+  "steps": 24480,
+  "mode": "independent cold-start continuous; no restart or append",
+  "cwd": "experiments/tiegcm_2022_mar25_preparation_v1/run",
+  "argv": [
+    ".envs/tiegcm/bin/mpirun",
+    "-np",
+    "4",
+    "experiments/tiegcm2_apex2023_v1/tiegcm2.0",
+    "input.inp"
+  ],
+  "executable": {
+    "path": "experiments/tiegcm2_apex2023_v1/tiegcm2.0",
+    "SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "bytes": 2663712
+  },
+  "input": {
+    "path": "experiments/tiegcm_2022_mar25_preparation_v1/run/input.inp",
+    "SHA256": "56d13f1dd08e2ba3b1fd223eb4b7c0075e4b429c0eaa4d077065357342cbe100",
+    "bytes": 1660
+  },
+  "GPI": {
+    "path": "experiments/tiegcm_2022_mar25_preparation_v1/gpi_2022_extended.nc",
+    "SHA256": "5834bf48ebb6d024d5e3e0f8fe407649608699ba5b9091cd61ffdb2eb51223d4",
+    "bytes": 2640
+  },
+  "environment_activation": "source scripts/activate_tiegcm.sh",
+  "limits": {
+    "wall_s": 4800,
+    "supervisor_stop_s": 4770,
+    "cleanup_reserve_s": 30,
+    "RSS_bytes": 17179869184,
+    "output_bytes": 5368709120,
+    "disk_floor_bytes": 21474836480,
+    "MPI": 4,
+    "OMP": 1,
+    "model_max_launches": 1,
+    "retry": 0,
+    "GPU": 0
+  },
+  "launch_authorization": "NOT_GRANTED_THIS_TASK; next explicit user instruction and --authorize-17day-run required",
+  "model_started": false,
+  "once_marker": "run/launch_once.json created by supervisor; never remove to retry",
+  "supervisor": {
+    "path": "src/runtime/supervisor.py",
+    "SHA256": "a4eaa514590ac30e2bd5ee581630272ad637fdcf378ddf2446742a0a1508a1b7",
+    "bytes": 17877
+  },
+  "original_environment_policy": "same MPI5 stack and runtime settings as old B14; inherited environment plus explicit MPI transport and OMP settings",
+  "frozen_evaluation_SHA256": "ebb7ca240e88fd4250a37c1e7e06b4ab1c750c56fe09959bb4f8c05e13068632"
+}

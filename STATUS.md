@@ -579,3 +579,10 @@ A14/B14共同03-23 00:00 primary_015均为完整34项float64标准状态（iter1
 ## 2026-11-18 V14-A 新日期复现及扩展计划
 
 NEW_DATE_VALIDATION=COMPLETE；MULTIDATE_EXPANSION_PLAN=COMPLETE。2021-03-25指定ZIP实际下载140187bytes，2880条质量有效；三背景25帧及6480/6480八列查询通过。37测试及独立复核通过，旧2979文件SHA不变。唯一监督任务38.466秒、CPU23.902秒、峰值331.223MiB。B14联合1/12，仅Latitude18首小时PASS；A7为2/12、B7为1/12，3/6小时局地方法仍FAIL。2022完整新日缺24小时帧，不能未经验证Restart续算。报告reports/CAUSAL_DENSITY_NEW_DATE_VALIDATION_V1.md；计划docs/THERMOSPHERE_MULTIDATE_DATA_EXPANSION_PLAN_V1.md。命令与资源见新实验目录。本轮未启动任何积分/GPU/DART/轨道，不自动进入下一轮；既有科学/高度/Restart门禁不变。
+
+
+## 2026-11-18 V14-B：2022 Mar25正式运行准入准备
+
+TIEGCM_2022_MAR25=RUN_READY_NOT_LAUNCHED。真实模型启动0、密度拟合/评价0。仅下载指定Swarm A0301ZIP139665bytes，2880条UTC30秒、flag0/质量有效2880，CRC/SHA通过。复用六份GFZ原始响应，扩展GPI22天/176桶/102天Fobs，21共同日逐元素一致、共同分钟差0，24481分钟边界通过。保留旧smax完整34状态、二进制/apex/GSWM及物理设置；独立新input只变STOP/SECSTOP/两输出卷列表/GPI路径，17天24480步，18primary/408secondary。MPI4 Python探针和监督终止清理通过；50CPU测试及独立复核通过，2372旧文件和全部旧B14原卷SHA不变。准备监督26.135秒，workerCPU8.852秒、RSS90.254MiB。
+
+入口：experiments/tiegcm_2022_mar25_preparation_v1/launch_protocol.json；报告reports/TIEGCM_2022_MAR25_RUN_PREPARATION_V1.md；决策docs/TIEGCM_2022_MAR25_EXECUTION_DECISION_V1.md；实际input/GPI仅本地，公共配置脱敏。后续拟4800s/16GiB/5GiB/MPI4OMP1、一次不重试，须新授权；本轮不启动首小时/17天积分。新目标日八列覆盖尚待真实模型输出后验，不提前声称通过。科学训练False/外部高度未验证/RestartFAIL/DART未准入/真实轨道BLOCKED/A14历史身份全部保持。执行结束停止，不自动进入正式运行或评价。

@@ -1,0 +1,20 @@
+{
+  "completed": [
+    "source scripts/activate_tiegcm.sh",
+    "PYTHONPATH=project/src:project python -m unittest discover -s tests -p test_tiegcm_mar25_preparation.py -v",
+    "Existing test_runtime_supervisor.Supervision via unittest import with BASE redirected to this new experiment/supervisor_tests_local (no old result write)",
+    "python -m unittest discover -s tests -p test_bounded_swarm_acquisition.py -v",
+    "python -m unittest discover -s tests -p test_tiegcm_training_drivers.py -v",
+    "runtime.supervisor supervised python scripts/prepare_tiegcm_2022_mar25_v1.py:550s/4GiB/150MiB",
+    "python scripts/verify_tiegcm_2022_mar25_preparation_v1.py",
+    "python scripts/finalize_tiegcm_2022_mar25_preparation_v1.py"
+  ],
+  "test_logs": [
+    "logs/mar25_preparation_static_tests.log",
+    "logs/mar25_preparation_supervisor_tests.log",
+    "logs/mar25_preparation_acquisition_tests.log",
+    "logs/mar25_preparation_driver_tests.log"
+  ],
+  "future_only_NOT_EXECUTED": "source scripts/activate_tiegcm.sh; python scripts/execute_tiegcm_2022_mar25_v1.py --authorize-17day-run",
+  "future_requires_new_explicit_user_authorization": true
+}

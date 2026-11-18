@@ -1,0 +1,87 @@
+{
+  "PASS": true,
+  "sources": [
+    {
+      "path": "data/raw/tiegcm_training_years_v1/2022_Fobs.json",
+      "SHA256": "e5b665880486903071efa5ad33964288bcd0b74195e31f380099366df270aab8",
+      "bytes": 2784,
+      "key": "Fobs",
+      "records": 94,
+      "first": "2022-02-15T00:00:00+00:00",
+      "last": "2022-05-19T00:00:00+00:00",
+      "source_URL": "https://kp.gfz.de/en/data",
+      "quality": "observed, no per-record quality flag"
+    },
+    {
+      "path": "data/raw/tiegcm_training_years_v1/2022_Kp.json",
+      "SHA256": "9ed616a8b8e8fceb56b41bc7f243b5f0f518e233505cd97632004bf8e02b25f5",
+      "bytes": 3943,
+      "key": "Kp",
+      "records": 112,
+      "first": "2022-03-27T00:00:00+00:00",
+      "last": "2022-04-09T21:00:00+00:00",
+      "source_URL": "https://kp.gfz.de/en/data",
+      "quality": "definitive"
+    },
+    {
+      "path": "data/raw/training_window_mar23_v2/2022_Fobs_additional.json",
+      "SHA256": "8318254b1fe966e805818bff0ff535ca0645ad7b8db1304dc0ffb9872d5b3f65",
+      "bytes": 455,
+      "key": "Fobs",
+      "records": 13,
+      "first": "2022-02-02T00:00:00+00:00",
+      "last": "2022-02-14T00:00:00+00:00",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-02-02T00:00:00Z&end=2022-02-14T23:59:59Z&index=Fobs",
+      "quality": "observed, no per-record quality flag"
+    },
+    {
+      "path": "data/raw/training_window_mar23_v2/2022_Kp_additional.json",
+      "SHA256": "d38b7d3da6be7cab0bd01505740f0c64c491e093f1d3f72801e42a0317842d62",
+      "bytes": 3655,
+      "key": "Kp",
+      "records": 104,
+      "first": "2022-03-14T00:00:00+00:00",
+      "last": "2022-03-26T21:00:00+00:00",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-03-14T00:00:00Z&end=2022-03-26T23:59:59Z&index=Kp&status=def",
+      "quality": "definitive"
+    },
+    {
+      "path": "data/raw/tiegcm_2022_spinup_14day_v1/Fobs_extension.json",
+      "SHA256": "c25de3e9c5abfc87461abdda044d0489987ac7e380f75b3973bc607dfab514d7",
+      "bytes": 281,
+      "key": "Fobs",
+      "records": 7,
+      "first": "2022-01-26T00:00:00+00:00",
+      "last": "2022-02-01T00:00:00+00:00",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-01-26T00:00:00Z&end=2022-02-01T23:59:59Z&index=Fobs",
+      "quality": "observed, no per-record quality flag"
+    },
+    {
+      "path": "data/raw/tiegcm_2022_spinup_14day_v1/Kp_extension.json",
+      "SHA256": "223ed5b584b6fd3db8642c61f266d0eddc4893d6f23d8441a714aab8a2b643de",
+      "bytes": 2017,
+      "key": "Kp",
+      "records": 56,
+      "first": "2022-03-07T00:00:00+00:00",
+      "last": "2022-03-13T21:00:00+00:00",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-03-07T00:00:00Z&end=2022-03-13T23:59:59Z&index=Kp&status=def",
+      "quality": "definitive"
+    }
+  ],
+  "required_solar": [
+    "2022-01-26",
+    "2022-05-07"
+  ],
+  "required_GPI": [
+    "2022-03-07",
+    "2022-03-28"
+  ],
+  "required_Fobs": 102,
+  "required_Kp": 176,
+  "missing_Fobs": [],
+  "missing_Kp": [],
+  "all_raw_sources_reused": true,
+  "network_driver_bytes": 0,
+  "estimated_or_adjusted_used": false,
+  "duplicate_records": 0
+}

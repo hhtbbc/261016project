@@ -1,0 +1,27 @@
+{
+  "PASS": true,
+  "GPI": {
+    "path": "experiments/tiegcm_2022_mar25_preparation_v1/gpi_2022_extended.nc",
+    "SHA256": "5834bf48ebb6d024d5e3e0f8fe407649608699ba5b9091cd61ffdb2eb51223d4",
+    "bytes": 2640
+  },
+  "ndays": 22,
+  "nkp": 176,
+  "Fobs": 102,
+  "first": "2022-03-07",
+  "last": "2022-03-28",
+  "valid_start": "2022-03-09",
+  "valid_end": "2022-03-26",
+  "NETCDF": "NETCDF3_CLASSIC",
+  "schema": {
+    "year_day": "int32 YYYYDDD",
+    "f107d": "float64 sfu",
+    "f107a": "float64 sfu",
+    "kp": "float64 dimensionless (22,8)"
+  },
+  "minute_nodes": 24481,
+  "independent_mean_max_abs": 2.842170943040401e-14,
+  "independent_interpolation_max_abs": 1.2789769243681803e-13,
+  "F107A": "centered 81 days observed Fobs",
+  "no_missing_fill": true
+}

@@ -1,0 +1,87 @@
+{
+  "PASS": true,
+  "product": "SW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301",
+  "ZIP": {
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.ZIP",
+    "final_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.ZIP",
+    "HTTP": 200,
+    "Content_Length": 139665,
+    "bytes": 139665,
+    "SHA256": "345cddeabe8f315ffc720197660dd6025bfa13e06312a7f807b1bd0d35d1af5a",
+    "path": "data/raw/tiegcm_2022_mar25_preparation_v1/SW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.ZIP",
+    "existing": false,
+    "new_download_bytes": 139665,
+    "CRC_test_PASS": true,
+    "members": [
+      {
+        "name": "SW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.HDR",
+        "bytes": 2757,
+        "CRC32": "de3b357a"
+      },
+      {
+        "name": "SW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.cdf",
+        "bytes": 191682,
+        "CRC32": "70b139c2"
+      }
+    ],
+    "download_started_unix": 1794987082.408673,
+    "download_finished_unix": 1794987098.431872,
+    "TLS": "ssl.create_default_context; hostname/certificate verification enabled",
+    "timeout_s": 25
+  },
+  "members": [
+    {
+      "path": "data/raw/tiegcm_2022_mar25_preparation_v1/SW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.HDR",
+      "bytes": 2757,
+      "SHA256": "1ce79883ee245cc514c1a2e9b7feeee817e3a4639b3636a41df992b20c2a0862",
+      "CRC32": "de3b357a",
+      "CRC_PASS": true,
+      "existing": false
+    },
+    {
+      "path": "data/raw/tiegcm_2022_mar25_preparation_v1/SW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.cdf",
+      "bytes": 191682,
+      "SHA256": "d2f647f723f774a446e6c07c9b1108c1dc521b76bb21a2d524d321d379b440a8",
+      "CRC32": "70b139c2",
+      "CRC_PASS": true,
+      "existing": false
+    }
+  ],
+  "CDF": {
+    "path": "data/raw/tiegcm_2022_mar25_preparation_v1/SW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.cdf",
+    "SHA256": "d2f647f723f774a446e6c07c9b1108c1dc521b76bb21a2d524d321d379b440a8",
+    "bytes": 191682
+  },
+  "HDR": {
+    "path": "data/raw/tiegcm_2022_mar25_preparation_v1/SW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.HDR",
+    "SHA256": "1ce79883ee245cc514c1a2e9b7feeee817e3a4639b3636a41df992b20c2a0862",
+    "bytes": 2757
+  },
+  "hapi": {
+    "path": "data/raw/fourcastden_swarm_observation_v1/HAPI_info.json",
+    "SHA256": "17ccced134a05fee2fd991acf6c1dbd44f166ed8239cf6435af11e3cef2c69ac",
+    "source": "experiments/fourcastden_swarm_observation_v1/official_service_contract.json",
+    "source_SHA256": "bc76f6d2f7a4c98f7c30948b3e4bbfad8368b2029a2027c9d68c11f426abe491"
+  },
+  "cached_listing": {
+    "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=10000&pos=0&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A",
+    "bytes": 1452680,
+    "SHA256": "cc3cb2ec84e212ff8b90ff30df65d711c57115756fb9120664e22111f5751be8",
+    "path": "data/raw/swarm_tiegcm_2022_observation_v1/listing.json",
+    "HTTP": 200
+  },
+  "records": 2880,
+  "UTC_start": "2022-03-25T00:00:00.000000000",
+  "UTC_stop": "2022-03-25T23:59:30.000000000",
+  "cadence_s": 30,
+  "flag0": 2880,
+  "flag1": 0,
+  "unknown_flags": 0,
+  "invalid_density": 0,
+  "quality_valid": 2880,
+  "coordinates": "GRS80 geodetic product contract; formal ZG datum unverified",
+  "HDR_POSIX_CRC": 2527928113,
+  "network_bytes": 139665,
+  "extracted_bytes": 194439,
+  "official_checksum_claim": false
+}

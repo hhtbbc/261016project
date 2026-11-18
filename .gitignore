@@ -407,3 +407,11 @@ credentials.json
 !/experiments/causal_density_new_date_validation_v1/*.csv
 !/experiments/causal_density_new_date_validation_v1/figures/
 !/experiments/causal_density_new_date_validation_v1/figures/*.png
+
+# V14-B: publish flat sanitized preparation records only; physical inputs stay local
+/experiments/tiegcm_2022_mar25_preparation_v1/**
+!/experiments/tiegcm_2022_mar25_preparation_v1/
+!/experiments/tiegcm_2022_mar25_preparation_v1/*.json
+!/experiments/tiegcm_2022_mar25_preparation_v1/*.csv
+!/experiments/tiegcm_2022_mar25_preparation_v1/input.template.inp
+/experiments/tiegcm_2022_mar25_preparation_v1/*_local.*

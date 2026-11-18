@@ -1,0 +1,38 @@
+{
+  "PASS": true,
+  "allowed": [
+    "STOP",
+    "SECSTOP",
+    "OUTPUT",
+    "SECOUT",
+    "GPI_NCFILE"
+  ],
+  "changes": {
+    "STOP": {
+      "old": "84 0 0",
+      "new": "85 0 0"
+    },
+    "OUTPUT": {
+      "old": "'primary_001.nc', 'primary_002.nc', 'primary_003.nc', 'primary_004.nc', 'primary_005.nc', 'primary_006.nc', 'primary_007.nc', 'primary_008.nc', 'primary_009.nc', 'primary_010.nc', 'primary_011.nc', 'primary_012.nc', 'primary_013.nc', 'primary_014.nc', 'primary_015.nc', 'primary_016.nc', 'primary_017.nc'",
+      "new": "'primary_001.nc', 'primary_002.nc', 'primary_003.nc', 'primary_004.nc', 'primary_005.nc', 'primary_006.nc', 'primary_007.nc', 'primary_008.nc', 'primary_009.nc', 'primary_010.nc', 'primary_011.nc', 'primary_012.nc', 'primary_013.nc', 'primary_014.nc', 'primary_015.nc', 'primary_016.nc', 'primary_017.nc', 'primary_018.nc'"
+    },
+    "SECSTOP": {
+      "old": "84 0 0",
+      "new": "85 0 0"
+    },
+    "SECOUT": {
+      "old": "'secondary_001.nc', 'secondary_002.nc', 'secondary_003.nc', 'secondary_004.nc', 'secondary_005.nc', 'secondary_006.nc', 'secondary_007.nc', 'secondary_008.nc', 'secondary_009.nc', 'secondary_010.nc', 'secondary_011.nc', 'secondary_012.nc', 'secondary_013.nc', 'secondary_014.nc', 'secondary_015.nc', 'secondary_016.nc'",
+      "new": "'secondary_001.nc', 'secondary_002.nc', 'secondary_003.nc', 'secondary_004.nc', 'secondary_005.nc', 'secondary_006.nc', 'secondary_007.nc', 'secondary_008.nc', 'secondary_009.nc', 'secondary_010.nc', 'secondary_011.nc', 'secondary_012.nc', 'secondary_013.nc', 'secondary_014.nc', 'secondary_015.nc', 'secondary_016.nc', 'secondary_017.nc'"
+    },
+    "GPI_NCFILE": {
+      "old": "'data/processed/tiegcm_2022_spinup_14day_v1/gpi_2022_14day.nc'",
+      "new": "'experiments/tiegcm_2022_mar25_preparation_v1/gpi_2022_extended.nc'"
+    }
+  },
+  "no_other_physics_change": true,
+  "output_primary_volumes": 18,
+  "output_secondary_volumes": 17,
+  "primary_records": 18,
+  "secondary_records": 408,
+  "expected_steps": 24480
+}
