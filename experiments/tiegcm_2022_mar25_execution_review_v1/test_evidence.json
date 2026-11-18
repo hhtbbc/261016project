@@ -1,0 +1,56 @@
+{
+  "PASS": true,
+  "identity": "CPU_HELPERS_AND_SIMULATED_FIXTURES_ONLY_NOT_ACTUAL_MODEL",
+  "distinct_tests": 60,
+  "groups": {
+    "execution": {
+      "PASS": true,
+      "distinct_tests": 22,
+      "body_wall_s": 1.143,
+      "log_relative": "experiments/tiegcm_2022_mar25_execution_review_v1/tests_local/execution_review_complete_tests.log",
+      "log_SHA256": "1ba4c99419b9b3bbd7b0cec7c3d223b010272a8c37c5bb9715e7a1e1a61dd9c9"
+    },
+    "frozen_science": {
+      "PASS": true,
+      "distinct_tests": 5,
+      "body_wall_s": 0.01,
+      "log_relative": "experiments/tiegcm_2022_mar25_execution_review_v1/tests_local/frozen_science_contract_tests.log",
+      "log_SHA256": "b2a41fa31babd627811fa4d3b0fbcee046a600e3bbbdf61e0d89a740af7b1d90"
+    },
+    "latitude": {
+      "PASS": true,
+      "distinct_tests": 14,
+      "body_wall_s": 0.05,
+      "log_relative": "experiments/tiegcm_2022_mar25_execution_review_v1/tests_local/test_causal_density_latitude.log",
+      "log_SHA256": "ba951c4ed78c98ebaa8aa0b175f8e90d33cb0cc3c626e8cb38b6ab2042e321dd"
+    },
+    "hourly_operator": {
+      "PASS": true,
+      "distinct_tests": 8,
+      "body_wall_s": 0.141,
+      "log_relative": "experiments/tiegcm_2022_mar25_execution_review_v1/tests_local/test_hourly_tiegcm_observation.log",
+      "log_SHA256": "679ad65eb41c70055d853c986bcf63b2c749bb3cc87c6ba6c5d0a4b70db50402"
+    },
+    "late_day": {
+      "PASS": true,
+      "distinct_tests": 11,
+      "body_wall_s": 0.035,
+      "log_relative": "experiments/tiegcm_2022_mar25_execution_review_v1/tests_local/test_late_day_correction.log",
+      "log_SHA256": "8f14862fe08faf29108106d57ad95742d37910059081c54d3f44259a83db37f2"
+    }
+  },
+  "earlier_test_development_failures": [
+    {
+      "log": "execution_review_tests_failed01.log",
+      "cause": "Test incorrectly required all four peer receipts after MPI abort; missing receipts now fail acceptance, never inferred0"
+    },
+    {
+      "log": "execution_review_tests_final.log",
+      "cause": "Failure fixture passed empty protocol, causing KeyError before intended rank failure assertion; fixture now supplies explicit helper identities"
+    }
+  ],
+  "failed_logs_retained_local": true,
+  "actual_model_run": "NOT_RUN",
+  "no_synthetic_engineering_PASS_published": true,
+  "session_membership_verified_with_MPI_C_helper": true
+}

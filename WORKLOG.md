@@ -1226,3 +1226,14 @@ NEW_DATE_VALIDATION=COMPLETE；MULTIDATE_EXPANSION_PLAN=COMPLETE。2021-03-25指
 TIEGCM_2022_MAR25=RUN_READY_NOT_LAUNCHED。真实模型启动0、密度拟合/评价0。仅下载指定Swarm A0301ZIP139665bytes，2880条UTC30秒、flag0/质量有效2880，CRC/SHA通过。复用六份GFZ原始响应，扩展GPI22天/176桶/102天Fobs，21共同日逐元素一致、共同分钟差0，24481分钟边界通过。保留旧smax完整34状态、二进制/apex/GSWM及物理设置；独立新input只变STOP/SECSTOP/两输出卷列表/GPI路径，17天24480步，18primary/408secondary。MPI4 Python探针和监督终止清理通过；50CPU测试及独立复核通过，2372旧文件和全部旧B14原卷SHA不变。准备监督26.135秒，workerCPU8.852秒、RSS90.254MiB。
 
 入口：experiments/tiegcm_2022_mar25_preparation_v1/launch_protocol.json；报告reports/TIEGCM_2022_MAR25_RUN_PREPARATION_V1.md；决策docs/TIEGCM_2022_MAR25_EXECUTION_DECISION_V1.md；实际input/GPI仅本地，公共配置脱敏。后续拟4800s/16GiB/5GiB/MPI4OMP1、一次不重试，须新授权；本轮不启动首小时/17天积分。新目标日八列覆盖尚待真实模型输出后验，不提前声称通过。科学训练False/外部高度未验证/RestartFAIL/DART未准入/真实轨道BLOCKED/A14历史身份全部保持。执行结束停止，不自动进入正式运行或评价。
+
+
+## 2026-11-18：2022 Mar25执行机制复审与自动工程验收
+
+TIEGCM_2022_MAR25_EXECUTION_REVIEW=STATIC_AND_CPU_TESTED_READY_FOR_EXPLICIT_AUTHORIZATION；ACTUAL_MODEL_RUN=NOT_RUN。起始本地远端cd4fe5eb2818194a62e66f3a85cf4b585b57db18。发现旧input已在run目录而supervise要求空目录的真实冲突、并发exists竞态、入口代码更新与冻结manifest冲突，以及仅MPI父退出0可能误判的问题。保留旧准备input/GPI/科学协议/报告，唯一旧源码修改为execute_tiegcm_2022_mar25_v1.py薄入口；execution_overlay钉住旧/新入口SHA并只允许此项运维替代。新工作目录atomic mkdir预约，supervisor原input_files暂存同字节，无重试。
+
+新增四rank直接wait回执/SID/实际模型退出码；微型普通C MPI_Init/Finalize握手验证包装器/子进程均在监督session；模型stdout转发保留原致命日志/进展监控。新增只读工程验收：真实MPI父+四rank退出、24480进度和暖态iter、18主/408小时次记录及日历、DEN/ZG ilev/单位/填值、原GPI实际驱动、输出SHA、全部合格Swarm A点原Map-A八列无外推查询；全部PASS入口才成功返回。实际五项验收当前均NOT_RUN；原模型/数据无写入、新TIE/GPU/DART/轨道/真实拟合评分/下载均0。
+
+60项最终不同CPU测试通过（执行22/冻结流程5/纬度14/小时8/晚间11），保留早期MPI abort缺peer回执和空fixture协议测试错误日志，未伪装为实际积分成功。只读旧首primary和一个暖态小时DEN/ZG样本；未重做整套原始CDF/GPI或长历史模型检查。2402受保护历史文件不变（仅上面明确旧入口修改例外）。命令、测试及资源分项见experiments/tiegcm_2022_mar25_execution_review_v1/。
+
+报告reports/TIEGCM_2022_MAR25_EXECUTION_REVIEW_V1.md；清单docs/TIEGCM_2022_MAR25_POSTRUN_CHECKLIST_V1.md。后续需新授权一次MPI4OMP1、模型4800秒目标/16GiB/5GiB/余盘20GiB，零重试；单独自动只读验收另申请600秒/4GiB，非OS严格隔离，SIGKILL/断电可能UNKNOWN。CPU模拟通过不是Fortran物理积分或科学精度证明。科学训练False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DART未准入/REAL_ORBITBLOCKED/A14历史身份不变。本轮完成停止，不自动积分、评价或训练。

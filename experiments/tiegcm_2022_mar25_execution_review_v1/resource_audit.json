@@ -1,0 +1,28 @@
+{
+  "PASS": true,
+  "final_measured_execution_tests": {
+    "identity": "CPU_HELPERS_ONLY_NO_PHYSICAL_MODEL",
+    "PASS": true,
+    "tests": 22,
+    "wall_s": 1.332040999084711,
+    "CPU_s": 0.286635963,
+    "peak_self_RSS_KiB": 62228,
+    "children_CPU_s": 1.221177,
+    "children_max_RSS_KiB": 62228
+  },
+  "all_final_test_body_wall_s": 1.379,
+  "collection_and_static_check_wall_s": 0.9020456187427044,
+  "collection_CPU_s": 0.5154137710000001,
+  "collection_self_peak_RSS_KiB": 52156,
+  "definition": "measured final CPU test process and final collection only; editing/Git/development reruns not continuous monitored",
+  "new_TIEGCM_starts": 0,
+  "new_observation_download_bytes": 0,
+  "GPU": 0,
+  "DART": 0,
+  "orbit": 0,
+  "real_density_fits": 0,
+  "real_future_metrics": 0,
+  "observed_development_test_invocations": 13,
+  "observed_test_body_wall_s_including_failed_development_attempts": 8.081,
+  "continuous_full_task_tree_peak_RSS": "NOT_SAMPLED; final test self/child maxima reported separately"
+}

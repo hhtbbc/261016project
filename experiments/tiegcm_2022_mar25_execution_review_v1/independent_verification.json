@@ -1,0 +1,18 @@
+{
+  "PASS": true,
+  "identity": "REVIEW_VERIFICATION_NOT_MODEL_ACCEPTANCE",
+  "ACTUAL_MODEL_RUN": "NOT_RUN",
+  "original_preparation_manifest_unchanged": true,
+  "original_input_GPI_and_evaluation_protocol_unchanged": true,
+  "only_intentional_old_code_change": "scripts/execute_tiegcm_2022_mar25_v1.py",
+  "historical_files_unchanged": 2402,
+  "reviewed_new_code_SHA_pinned": true,
+  "old_frozen_SHA_conflict_handled_by_explicit_single_launcher_supersession": true,
+  "formal_entry_not_invoked": true,
+  "actual_engineering_checks": "ALL_NOT_RUN",
+  "distinct_CPU_tests": 60,
+  "no_real_density_fit_or_metrics": true,
+  "wall_s": 0.6953857317566872,
+  "self_peak_RSS_KiB": 52192,
+  "final_code_and_tests_receipts_revalidated": true
+}

@@ -415,3 +415,9 @@ credentials.json
 !/experiments/tiegcm_2022_mar25_preparation_v1/*.csv
 !/experiments/tiegcm_2022_mar25_preparation_v1/input.template.inp
 /experiments/tiegcm_2022_mar25_preparation_v1/*_local.*
+
+# Execution review publishes only flat, sanitized receipts; actual runs and tests stay local
+/experiments/tiegcm_2022_mar25_execution_review_v1/**
+!/experiments/tiegcm_2022_mar25_execution_review_v1/
+!/experiments/tiegcm_2022_mar25_execution_review_v1/*.json
+/experiments/tiegcm_2022_mar25_execution_review_v1/*_local.*

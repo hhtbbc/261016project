@@ -1,0 +1,18 @@
+{
+  "completed": [
+    "source scripts/activate_tiegcm.sh",
+    "PYTHONPATH=project/src:project python -m unittest discover -s tests -p test_tiegcm_mar25_execution_review.py -v (CPU helpers only)",
+    "python unittest discover test_mar25_frozen_science_contract.py",
+    "python unittest discover test_causal_density_latitude.py",
+    "python unittest discover test_hourly_tiegcm_observation.py",
+    "python unittest discover test_late_day_correction.py",
+    "python scripts/finalize_tiegcm_mar25_execution_review_v1.py"
+  ],
+  "explicitly_NOT_EXECUTED": [
+    "scripts/execute_tiegcm_2022_mar25_v1.py formal CLI entry",
+    "physical TIEGCM executable",
+    "future actual model acceptance queries",
+    "density fitting/scoring on real2022-03-25"
+  ],
+  "future_only": "After explicit approval: source scripts/activate_tiegcm.sh; python scripts/execute_tiegcm_2022_mar25_v1.py --authorize-17day-run"
+}

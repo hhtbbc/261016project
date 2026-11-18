@@ -1,0 +1,45 @@
+{
+  "identity": "OPERATIONAL_LAUNCH_FIX_ONLY_NO_SCIENTIFIC_CHANGE",
+  "superseded_launcher": "scripts/execute_tiegcm_2022_mar25_v1.py",
+  "old_launcher_SHA256": "09e508626ce63bd39f3eaec802d52a43741a88b4ff0ccee47e6c845cd8e0053c",
+  "new_launcher_SHA256": "480737ab3634b551ec76f89282b3a9aac4ac5f15adfacf9e1af72b3cd04ccdfb",
+  "preparation_manifest_SHA256": "c52cc7c6ad3d1512e8eef3cb5ad5eff8e0329f0d6abc019682288d0e351ef8f5",
+  "scientific_evaluation_protocol_SHA256": "ebb7ca240e88fd4250a37c1e7e06b4ab1c750c56fe09959bb4f8c05e13068632",
+  "old_prepared_cwd": "experiments/tiegcm_2022_mar25_preparation_v1/run",
+  "effective_run_directory": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run",
+  "staging": "Original frozen input bytes staged by existing supervisor into atomic-new empty directory",
+  "scientific_config_unchanged": true,
+  "source_GPI_and_inputs_unchanged": true,
+  "wrapper": "four direct model-child wait receipts plus unchanged root MPI wait; CPU MPI_Init/Finalize handshake tested",
+  "once": "atomic mkdir; reservation retained for nonzero exit, interruption, launch failure; no retry",
+  "execution_code_SHA256": {
+    "scripts/execute_tiegcm_2022_mar25_v1.py": "480737ab3634b551ec76f89282b3a9aac4ac5f15adfacf9e1af72b3cd04ccdfb",
+    "scripts/audit_tiegcm_2022_mar25_execution_v1.py": "e8e02e4dfb4606737363204b53538aa23441f22a04b24584ff761586a0a9e695",
+    "src/runtime/tiegcm_mar25_execution.py": "7f090a87094bbcd8c63d0535847333a45c384324c65d5f611deb1f48f1980513",
+    "src/runtime/tiegcm_rank_exit.py": "33e1aa50d3872c21eaf083fad2c49953cf986e31a1026be1403726be7e2cd0f9",
+    "src/atmosphere/tiegcm_mar25_acceptance.py": "4263fa8fad4948932db5b74ddb6f067f0323878102fe7967f029f17f926aab5a",
+    "scripts/finalize_tiegcm_mar25_execution_review_v1.py": "2dd749f7a55dd83e4ec4d3015a451e6f12b5b41348ae76aeb2892689e3525a5a",
+    "tests/test_tiegcm_mar25_execution_review.py": "595474b39526425f80363e72c52cce70be844a8eef5d1cf3941e0f172ccc2d9d",
+    "tests/test_mar25_frozen_science_contract.py": "5aa20832f7b0ac4ee785b4e5181d2ee71053aca99743b322fec1310c73da9c07"
+  },
+  "model_limits": {
+    "stop_trigger_s": 4770,
+    "cleanup_reserve_s": 30,
+    "wall_target_s": 4800,
+    "RSS_GiB": 16,
+    "output_GiB": 5,
+    "free_floor_GiB": 20,
+    "MPI": 4,
+    "OMP": 1,
+    "physical_launch_max": 1,
+    "retry": 0
+  },
+  "postrun_audit_limits": {
+    "wall_s": 600,
+    "RSS_GiB": 4,
+    "output_MiB": 150,
+    "model_launches": 0
+  },
+  "authorization": "NOT_GRANTED_IN_THIS_TASK; explicit next-task authorization required",
+  "rank_session_policy": "Wrapper and actual model child SID must match monitored root MPI session; verified with CPU MPI_Init/Finalize helper"
+}

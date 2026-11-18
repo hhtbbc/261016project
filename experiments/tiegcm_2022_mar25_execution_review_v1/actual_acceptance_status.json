@@ -1,0 +1,27 @@
+{
+  "ACTUAL_MODEL_RUN": "NOT_RUN",
+  "overall": "NOT_RUN",
+  "checks": {
+    "supervision": {
+      "status": "NOT_RUN",
+      "evidence": "No actual completed model available"
+    },
+    "MPI_rank_exits": {
+      "status": "NOT_RUN",
+      "evidence": "No actual completed model available"
+    },
+    "step_logs": {
+      "status": "NOT_RUN",
+      "evidence": "No actual completed model available"
+    },
+    "output_files": {
+      "status": "NOT_RUN",
+      "evidence": "No actual completed model available"
+    },
+    "target_observation_queries": {
+      "status": "NOT_RUN",
+      "evidence": "No actual completed model available"
+    }
+  },
+  "scientific_gates_unchanged": true
+}

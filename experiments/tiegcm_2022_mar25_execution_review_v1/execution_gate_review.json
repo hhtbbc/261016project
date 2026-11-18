@@ -1,0 +1,54 @@
+{
+  "ACTUAL_MODEL_RUN": "NOT_RUN",
+  "review": "STATIC_AND_CPU_TESTED_READY_FOR_EXPLICIT_AUTHORIZATION",
+  "checks": [
+    {
+      "check": "explicit authorization",
+      "status": "PASS",
+      "basis": "CPU test verifies refusal before supervisor; CLI error branch retained; formal entry not invoked this task"
+    },
+    {
+      "check": "one attempt and concurrency",
+      "status": "PASS",
+      "basis": "atomic mkdir tested with threads and two independent CPU processes; no reservation removal"
+    },
+    {
+      "check": "supervisor staging",
+      "status": "PASS",
+      "basis": "old nonempty directory conflict reproduced; existing supervisor input_files stages exact bytes in new empty directory"
+    },
+    {
+      "check": "SHA fail closed",
+      "status": "PASS",
+      "basis": "old preparation SHA pinned; exactly one documented launcher supersession; new execution code pinned; mismatch test refuses"
+    },
+    {
+      "check": "rank exit accountability",
+      "status": "PASS",
+      "basis": "ordinary MPI helpers + real MPI_Init/Finalize C helper test; four direct child receipts required; missing/failed receipt never normal"
+    },
+    {
+      "check": "physical model via rank wrapper",
+      "status": "NOT_RUN",
+      "basis": "MPI C handshake is not actual TIE-GCM execution"
+    },
+    {
+      "check": "full24480step and NetCDF acceptance",
+      "status": "NOT_RUN",
+      "basis": "acceptor implemented; exception tests/tiny NC and one historical warm record only"
+    },
+    {
+      "check": "actual full target-day8column coverage",
+      "status": "NOT_RUN",
+      "basis": "needs future model outputs; all2880 quality-eligible Swarm A points must pass"
+    },
+    {
+      "check": "scientific density benefit",
+      "status": "NOT_RUN",
+      "basis": "No real coefficients or future density metrics this task"
+    }
+  ],
+  "original_core_supervisor_unchanged": true,
+  "old_physical_input_and_GPI_unchanged": true,
+  "old_preparation_reports_not_overwritten": true
+}

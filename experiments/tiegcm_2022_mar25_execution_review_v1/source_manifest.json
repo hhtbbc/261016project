@@ -1,0 +1,26 @@
+{
+  "base_HEAD": "cd4fe5eb2818194a62e66f3a85cf4b585b57db18",
+  "preparation_manifest_SHA256": "c52cc7c6ad3d1512e8eef3cb5ad5eff8e0329f0d6abc019682288d0e351ef8f5",
+  "old_model_input_SHA256": "56d13f1dd08e2ba3b1fd223eb4b7c0075e4b429c0eaa4d077065357342cbe100",
+  "old_GPI": {
+    "path": "experiments/tiegcm_2022_mar25_preparation_v1/gpi_2022_extended.nc",
+    "SHA256": "5834bf48ebb6d024d5e3e0f8fe407649608699ba5b9091cd61ffdb2eb51223d4",
+    "bytes": 2640
+  },
+  "frozen_evaluation_protocol_SHA256": "ebb7ca240e88fd4250a37c1e7e06b4ab1c750c56fe09959bb4f8c05e13068632",
+  "historical_protected_files": 2402,
+  "only_old_code_changed": "scripts/execute_tiegcm_2022_mar25_v1.py",
+  "execution_code": {
+    "scripts/execute_tiegcm_2022_mar25_v1.py": "480737ab3634b551ec76f89282b3a9aac4ac5f15adfacf9e1af72b3cd04ccdfb",
+    "scripts/audit_tiegcm_2022_mar25_execution_v1.py": "e8e02e4dfb4606737363204b53538aa23441f22a04b24584ff761586a0a9e695",
+    "src/runtime/tiegcm_mar25_execution.py": "7f090a87094bbcd8c63d0535847333a45c384324c65d5f611deb1f48f1980513",
+    "src/runtime/tiegcm_rank_exit.py": "33e1aa50d3872c21eaf083fad2c49953cf986e31a1026be1403726be7e2cd0f9",
+    "src/atmosphere/tiegcm_mar25_acceptance.py": "4263fa8fad4948932db5b74ddb6f067f0323878102fe7967f029f17f926aab5a",
+    "scripts/finalize_tiegcm_mar25_execution_review_v1.py": "2dd749f7a55dd83e4ec4d3015a451e6f12b5b41348ae76aeb2892689e3525a5a",
+    "tests/test_tiegcm_mar25_execution_review.py": "595474b39526425f80363e72c52cce70be844a8eef5d1cf3941e0f172ccc2d9d",
+    "tests/test_mar25_frozen_science_contract.py": "5aa20832f7b0ac4ee785b4e5181d2ee71053aca99743b322fec1310c73da9c07"
+  },
+  "reused_supervisor_SHA256": "a4eaa514590ac30e2bd5ee581630272ad637fdcf378ddf2446742a0a1508a1b7",
+  "reused_warm_validator": "scripts/run_tiegcm_2022_14day.py:basic_file (existing year-adapted function); native masks/thresholds unchanged",
+  "old_raw_observation_and_drivers": "Prior SHA-pinned preparation reused; no new acquisition or density fitting"
+}

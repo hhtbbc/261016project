@@ -1,0 +1,28 @@
+{
+  "status": "UNCHANGED_CONTRACT_SYNTHETIC_FLOW_TESTED",
+  "SHA256": "ebb7ca240e88fd4250a37c1e7e06b4ab1c750c56fe09959bb4f8c05e13068632",
+  "cutoffs": [
+    6,
+    18
+  ],
+  "history": "past3h half-open",
+  "future_hours": [
+    1,
+    3,
+    6
+  ],
+  "no_overlap_of_fit_and_future": true,
+  "nonoverlap_subblocks_retained": true,
+  "latitude_minimum_N": 30,
+  "stale": "same date06Z coefficient, never historical March23/24",
+  "parameter_freeze_before_scores": true,
+  "poison_factor": 1e+20,
+  "poison_test": "Synthetic only; actual data poison remains required after future model admission",
+  "joint_criteria_unchanged": true,
+  "common_ID_policy": "all methods must receive exactly same predeclared IDs; array metric primitives cannot prevent a caller intentionally supplying different masks",
+  "invalid_or_NA_never_PASS": true,
+  "reference_2021": "old frozen results SHA protected, never refit",
+  "no_IID_significance": true,
+  "actual2022evaluation": "NOT_RUN",
+  "future_evaluation_entry": "Reuse unchanged fit/metrics modules and V14-A workflow; integrate newly admitted2022 output path in a separately authorized evaluation task, do not rerun hardcoded2021 experiment directory"
+}
