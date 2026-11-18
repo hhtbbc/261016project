@@ -1,0 +1,138 @@
+{
+  "PASS": true,
+  "inventory_groups": 23,
+  "inventory_schema_limit": "metadata only outside registered target; not full-field engineering requalification",
+  "inventory_errors": [],
+  "year2022": {
+    "actual_first": "2022-03-09T01:00:00.000000000",
+    "actual_last": "2022-03-25T00:00:00.000000000",
+    "missing_full_day_hourly_frames": 24,
+    "missing_direct_query_frames": 20,
+    "missing_primary_boundary": "2022-03-26T00:00:00",
+    "existing_GPI": {
+      "file": "data/processed/tiegcm_2022_spinup_14day_v1/gpi_2022_14day.nc",
+      "SHA256": "bd603d2e47c7fa2e61858f6732cad12d98a5e602ca40141640e63185dd51bf41",
+      "first_YYYYDDD": 2022066,
+      "last_YYYYDDD": 2022086,
+      "records": 21,
+      "variables": {
+        "year_day": {
+          "shape": [
+            21
+          ],
+          "units": "YYYYDDD"
+        },
+        "f107d": {
+          "shape": [
+            21
+          ],
+          "units": "sfu"
+        },
+        "f107a": {
+          "shape": [
+            21
+          ],
+          "units": "sfu"
+        },
+        "kp": {
+          "shape": [
+            21,
+            8
+          ],
+          "units": "1"
+        }
+      }
+    },
+    "input_source_config": {
+      "case": "2022_B14",
+      "input": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/input.inp",
+      "input_SHA256": "43921699e56bf35730539a80614a81f4a2ba090e2103c9c612dc5fc3d6b85432",
+      "source": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+      "source_SHA256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "SOURCE_START": "80 0 0",
+      "START_YEAR": "2022",
+      "START": "68 0 0",
+      "STOP": "84 0 0",
+      "STEP": "60",
+      "GPI": "data/processed/tiegcm_2022_spinup_14day_v1/gpi_2022_14day.nc",
+      "GPI_SHA256": "bd603d2e47c7fa2e61858f6732cad12d98a5e602ca40141640e63185dd51bf41",
+      "POTENTIAL_MODEL": "'HEELIS'",
+      "CALC_HELIUM": "1",
+      "engineering": "prior audit PASS; not re-executed"
+    },
+    "restart_consistency": "FAIL",
+    "no_native_continuation_authorized": true,
+    "required_new_continuous_identity": "17days Mar09-toMar26 if approved; no silent append",
+    "GPI_conservative_plan": "If retaining original +/-2day raw support: Mar07-Mar28, centered Fobs Jan26-May07,102 Fobs and176Kp buckets; audit local gaps anew, generate nothing now"
+  },
+  "historical_cost_evidence": [
+    {
+      "evidence": "experiments/tiegcm_2021_spinup_14day_v1/B14/run_status.json",
+      "SHA256": "7b26b7c1389cd35fb55719a0acef9b9284de6ac77319d3f93ea28d1214eb7ecf",
+      "steps": 24480,
+      "days": 17,
+      "MPI": 4,
+      "OMP": 1,
+      "actual_wall_s": 2553.404599379748,
+      "actual_netcdf_bytes": 3581251512,
+      "seconds_per_step": 0.1043057434387152,
+      "bytes_per_day": 210661853.6470588
+    },
+    {
+      "evidence": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/run_status.json",
+      "SHA256": "84ec7b3735adba29b8c1ec22452fed8db032bb56c32764db639be913f91e3d6c",
+      "steps": 23040,
+      "days": 16,
+      "MPI": 4,
+      "OMP": 1,
+      "actual_wall_s": 2429.787853844464,
+      "actual_netcdf_bytes": 3371589248,
+      "seconds_per_step": 0.10545954226755486,
+      "bytes_per_day": 210724328.0
+    }
+  ],
+  "budgets": [
+    {
+      "proposal": "2022_March25_fresh_continuous",
+      "days_per_run": 17,
+      "runs": 1,
+      "steps_per_run": 24480,
+      "predicted_wall_s_min": 2553.404599379748,
+      "predicted_wall_s_max": 2581.649594709743,
+      "planning_safety_factor": 1.5,
+      "planning_wall_budget_s_per_run": 3872.474392064614,
+      "predicted_netcdf_bytes_min": 3581251512.0,
+      "predicted_netcdf_bytes_max": 3582313576.0,
+      "sequential_total_estimated_wall_s": 2581.649594709743,
+      "sequential_total_safety_wall_s": 3872.474392064614,
+      "total_netcdf_bytes_max": 3582313576.0,
+      "MPI": 4,
+      "OMP": 1,
+      "GPU": 0,
+      "additional_authorization_required": true,
+      "estimate_not_confidence_bound": true
+    },
+    {
+      "proposal": "seasonal_new_background",
+      "days_per_run": 16,
+      "runs": 6,
+      "steps_per_run": 23040,
+      "predicted_wall_s_min": 2403.2043288279983,
+      "predicted_wall_s_max": 2429.787853844464,
+      "planning_safety_factor": 1.5,
+      "planning_wall_budget_s_per_run": 3644.6817807666957,
+      "predicted_netcdf_bytes_min": 3370589658.352941,
+      "predicted_netcdf_bytes_max": 3371589248.0,
+      "sequential_total_estimated_wall_s": 14578.727123066783,
+      "sequential_total_safety_wall_s": 21868.090684600174,
+      "total_netcdf_bytes_max": 20229535488.0,
+      "MPI": 4,
+      "OMP": 1,
+      "GPU": 0,
+      "additional_authorization_required": true,
+      "estimate_not_confidence_bound": true
+    }
+  ],
+  "new_integrations": 0,
+  "wall_s": 1.61985057964921
+}

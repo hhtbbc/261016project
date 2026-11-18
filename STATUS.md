@@ -574,3 +574,8 @@ A14/B14共同03-23 00:00 primary_015均为完整34项float64标准状态（iter1
 - 独立复算：473历史资产SHA不变、33新卷一致、16组观测指标、450km逐列独立插值/P95和全部门槛矩阵计数通过；9张真实图可读。独立验证14.462秒/RSS178.664MiB，旧A14与新实验/结果约6.34GiB<12GiB。源码/输入/输出SHA、资源及警告日志保留。
 - 下一步建议另行冻结DEN专项工程候选v3，优先审查同smax且工程完整的2021 B14/2022 B14v2，理由是来源/工程资格一致而非观测误差排名；CPU新版本提取须另授权，随后才小规模单步Direct工程训练。完整171仍需标签稳定性、WN/Z等质量、统计/优化器协议和季节活动覆盖；组分不是171直接目标，但其物理影响不忽略。
 - 原122帧、训练统计、权重及全部旧轨迹不改；无GPU/AI训练或新卫星传播。SCIENCE_TRAINING_READY=False、EXTERNAL_DATUM_UNVERIFIED与真实轨道BLOCKED保持。主报告TIEGCM_2022_B14_EXPLORATORY_V2、TIEGCM_2022_7VS14_COMPARISON_V2、SWARM_TIEGCM_2022_FOUR_SCHEME_V2、TIEGCM_2021_2022_SPINUP_SYNTHESIS_V2；方案docs/FOURCASTDEN_AFTER_B14_V2_TRAINING_PLAN.md。
+
+
+## 2026-11-18 V14-A 新日期复现及扩展计划
+
+NEW_DATE_VALIDATION=COMPLETE；MULTIDATE_EXPANSION_PLAN=COMPLETE。2021-03-25指定ZIP实际下载140187bytes，2880条质量有效；三背景25帧及6480/6480八列查询通过。37测试及独立复核通过，旧2979文件SHA不变。唯一监督任务38.466秒、CPU23.902秒、峰值331.223MiB。B14联合1/12，仅Latitude18首小时PASS；A7为2/12、B7为1/12，3/6小时局地方法仍FAIL。2022完整新日缺24小时帧，不能未经验证Restart续算。报告reports/CAUSAL_DENSITY_NEW_DATE_VALIDATION_V1.md；计划docs/THERMOSPHERE_MULTIDATE_DATA_EXPANSION_PLAN_V1.md。命令与资源见新实验目录。本轮未启动任何积分/GPU/DART/轨道，不自动进入下一轮；既有科学/高度/Restart门禁不变。

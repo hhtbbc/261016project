@@ -1,0 +1,30 @@
+{
+  "supervised_wall_s": 38.4657576456666,
+  "worker": {
+    "NEW_DATE_VALIDATION": "COMPLETE",
+    "MULTIDATE_EXPANSION_PLAN": "COMPLETE",
+    "model_queries": 6480,
+    "successful_queries": 6480,
+    "network_bytes": 140187,
+    "new_integrations": 0,
+    "GPU": 0,
+    "DART": 0,
+    "orbit": 0,
+    "wall_s": 37.26190184429288,
+    "CPU_s": 23.901738154,
+    "peak_RSS_MiB": 331.22265625,
+    "science_gates_unchanged": true
+  },
+  "sampled_tree_peak_bytes": 344834048,
+  "tests_distinct": 37,
+  "test_wall_s": 0.127,
+  "independent_verification_included": true,
+  "public_output_bytes": 2125685,
+  "limits": {
+    "wall_s": 600,
+    "RSS_GiB": 4,
+    "download_bytes": 1048576,
+    "public_MiB": 150
+  },
+  "PASS": true
+}

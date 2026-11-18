@@ -1,0 +1,87 @@
+{
+  "identity": "NEW_DATE_REPLICATION / SAME_CONTINUOUS_TIE_RUN / HINDCAST / PROVISIONAL Map-A / NOT_BLIND / EXTERNAL_DATUM_UNVERIFIED",
+  "date": "2021-03-25",
+  "cutoffs": [
+    6,
+    18
+  ],
+  "half_open": true,
+  "history_hours": 3,
+  "future_hours": [
+    1,
+    3,
+    6
+  ],
+  "nonoverlap_hours": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      6
+    ]
+  ],
+  "primary": "B14",
+  "controls": [
+    "A7",
+    "B7"
+  ],
+  "cases_eligible": [
+    "B14",
+    "A7",
+    "B7"
+  ],
+  "A14": "EXCLUDED",
+  "methods06": [
+    "Raw",
+    "GlobalAdaptive06"
+  ],
+  "methods18": [
+    "Raw",
+    "GlobalAdaptive18",
+    "LatitudeAdaptive18",
+    "Stale06"
+  ],
+  "Stale06": "same-date same-background GlobalAdaptive06; all eligible backgrounds, no cross-case reuse",
+  "estimator": "unchanged median ln(obs)-ln(model)",
+  "latitude": "abs original GRS80lat <30,30<=abs<60,>=60; hemisphere merged",
+  "min_history_and_region_future_N": 30,
+  "no_fallback": true,
+  "joint": "unchanged four criteria; N/A is not PASS",
+  "new_factor": "observation date only; same continuous trajectories, actual warm elapsed time differs and is recorded",
+  "window_identity": "new observation correction evaluation date; model frames were previously available to other research, not blind or cross-season",
+  "no_height_decay_or_new_loss": true,
+  "parameter_freeze_before_future_metrics": true,
+  "future_poison_factor": 1e+20,
+  "metrics_rtol": 1e-13,
+  "metrics_atol": 0,
+  "plot_prior_comparison": "B14 2021March23/24/25 18Z6h, LatitudeMarch24 N/A because never run",
+  "code_SHA256": {
+    "scripts/run_new_date_validation_v1.py": "09a1a5a1e452eb9bf7499ff23d568b8824bef5c9f75b55b478a6c0096f1da0c1",
+    "scripts/verify_new_date_validation_v1.py": "478f04fcb27995eaaf1416f00cdcc5fe48f13bec9516c4ac5ff3cc4f0f72854a",
+    "src/evaluation/causal_density_latitude.py": "a0c3f96aa949a98093874ddb87c07671c87002efd04d1eb75af4b16c53dac2a8",
+    "src/evaluation/late_day_correction.py": "dcec926510a194a5992a4dea98603dcdf824c80b5e30f9ec72758819cb31d050",
+    "src/evaluation/swarm_crossyear.py": "5fbe5916cede884e9f519279f766134781ecf96784fa4ea6113954b300d63ca2",
+    "src/evaluation/swarm_density_comparison.py": "c97d1284144b9fd0dbdce754705ddbf2adcccc0db59ad4143b8a8f9fc27fe2fc",
+    "src/atmosphere/provisional_coordinate_adapter.py": "70487ead9b944e8e33187a567ad87666595789238c27416a552044d421a96e15",
+    "src/atmosphere/causal_observation_operator.py": "82ba4d1f413cc8f1c6c16219927204dc8b8ba888a1bf6172715738b3cac43f0d",
+    "src/atmosphere/hourly_tiegcm_observation.py": "31d3cba796e6304f00e73fe8cb08b1aedf6de3e11b8ef4b20b0860d3e4066ff8",
+    "src/observations/bounded_swarm_acquisition.py": "b86a08f6bd1b897202cac16a7675c3bdee00a702d7a8cc562bd406a66f46b3a6"
+  },
+  "resources": {
+    "wall_s": 600,
+    "RSS_GiB": 4,
+    "download_MiB": 1,
+    "public_MiB": 150,
+    "GPU": 0,
+    "TIE": 0,
+    "DART": 0,
+    "orbit": 0
+  },
+  "frozen_UTC": "2026-11-18T04:53:05.392312+00:00"
+}

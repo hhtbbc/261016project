@@ -1,0 +1,163 @@
+{
+  "protocol_SHA256": "1fcb644995bb3cb0c324079a4d3d61e6bea6376b18430c35c30e3e3d52d90b73",
+  "date": "2021-03-25",
+  "parameters": {
+    "B14": {
+      "GlobalAdaptive06": {
+        "N": 360,
+        "first_UTC": "2021-03-25T03:00:00.000000000Z",
+        "last_UTC": "2021-03-25T05:59:30.000000000Z",
+        "sample_SHA256": "72ea24950dccaf311b22159b0698d9ef5205945a4271e941feffc66144e35976",
+        "status": "SUPPORTED",
+        "b": 0.18989491524790836,
+        "multiplier": 1.2091225306395847
+      },
+      "GlobalAdaptive18": {
+        "N": 360,
+        "first_UTC": "2021-03-25T15:00:00.000000000Z",
+        "last_UTC": "2021-03-25T17:59:30.000000000Z",
+        "sample_SHA256": "bdace60d08bea4f0671af824632b0dc2a1aa305eea8e1a3fe7152437590774c0",
+        "status": "SUPPORTED",
+        "b": 0.11627769769983942,
+        "multiplier": 1.1233077688083657
+      },
+      "LatitudeAdaptive18": {
+        "low": {
+          "N": 124,
+          "first_UTC": "2021-03-25T15:16:30.000000000Z",
+          "last_UTC": "2021-03-25T17:51:00.000000000Z",
+          "sample_SHA256": "342755f693277d3894dae944815ac2ac18bc646e6b32cbd11c01f25c3bebd2de",
+          "status": "SUPPORTED",
+          "b": 0.20197732181886607,
+          "multiplier": 1.2238202537792597
+        },
+        "mid": {
+          "N": 124,
+          "first_UTC": "2021-03-25T15:08:30.000000000Z",
+          "last_UTC": "2021-03-25T17:59:00.000000000Z",
+          "sample_SHA256": "58e04f5283f34bcf998c6d7f7b060873f33621a744aa16a67ab91c1296359a4c",
+          "status": "SUPPORTED",
+          "b": 0.1382123402349773,
+          "multiplier": 1.1482193375542802
+        },
+        "high": {
+          "N": 112,
+          "first_UTC": "2021-03-25T15:00:00.000000000Z",
+          "last_UTC": "2021-03-25T17:59:30.000000000Z",
+          "sample_SHA256": "7053cd8ec7cb5cc9f598e551e497a6b8e5c90c04fc7cb55ce0ef2bd0953c77e4",
+          "status": "SUPPORTED",
+          "b": 0.08228617552619255,
+          "multiplier": 1.085766485168805
+        }
+      },
+      "Stale06_reference": "GlobalAdaptive06",
+      "CDF_SHA256": "2f42b1eb3f75143ed40d48c377f37f82f76c544b0a0dd0433f71335cf26f5d7a",
+      "protocol_SHA256": "1fcb644995bb3cb0c324079a4d3d61e6bea6376b18430c35c30e3e3d52d90b73"
+    },
+    "A7": {
+      "GlobalAdaptive06": {
+        "N": 360,
+        "first_UTC": "2021-03-25T03:00:00.000000000Z",
+        "last_UTC": "2021-03-25T05:59:30.000000000Z",
+        "sample_SHA256": "d38a7cb528e44738a094661deff3b018b6bbc9d134674d63ec6c070f457662b7",
+        "status": "SUPPORTED",
+        "b": 0.21558436740565057,
+        "multiplier": 1.2405866435846833
+      },
+      "GlobalAdaptive18": {
+        "N": 360,
+        "first_UTC": "2021-03-25T15:00:00.000000000Z",
+        "last_UTC": "2021-03-25T17:59:30.000000000Z",
+        "sample_SHA256": "18e02f5500df03f1211ece67a99ba5c9530a006074b2a1f726218ab7cc93bf25",
+        "status": "SUPPORTED",
+        "b": 0.13223771846988974,
+        "multiplier": 1.1413796140354806
+      },
+      "LatitudeAdaptive18": {
+        "low": {
+          "N": 124,
+          "first_UTC": "2021-03-25T15:16:30.000000000Z",
+          "last_UTC": "2021-03-25T17:51:00.000000000Z",
+          "sample_SHA256": "642c6b6ed3a9397c8c31f2cf6756d4e477ac4e23b5a9d7ad3f96fd835d527af6",
+          "status": "SUPPORTED",
+          "b": 0.21376859669046056,
+          "multiplier": 1.2383360665718728
+        },
+        "mid": {
+          "N": 124,
+          "first_UTC": "2021-03-25T15:08:30.000000000Z",
+          "last_UTC": "2021-03-25T17:59:00.000000000Z",
+          "sample_SHA256": "b724d9fba425458718ff5421cec341e49ec3df4b27ed2a1f7bf94499627d9d45",
+          "status": "SUPPORTED",
+          "b": 0.15166545904634887,
+          "multiplier": 1.1637708422941884
+        },
+        "high": {
+          "N": 112,
+          "first_UTC": "2021-03-25T15:00:00.000000000Z",
+          "last_UTC": "2021-03-25T17:59:30.000000000Z",
+          "sample_SHA256": "3623873b7e271fc47407c4e15c9d2f8aaa2ca54c35ea251f9e4468d18163afb3",
+          "status": "SUPPORTED",
+          "b": 0.0997066336344421,
+          "multiplier": 1.1048467456530593
+        }
+      },
+      "Stale06_reference": "GlobalAdaptive06",
+      "CDF_SHA256": "2f42b1eb3f75143ed40d48c377f37f82f76c544b0a0dd0433f71335cf26f5d7a",
+      "protocol_SHA256": "1fcb644995bb3cb0c324079a4d3d61e6bea6376b18430c35c30e3e3d52d90b73"
+    },
+    "B7": {
+      "GlobalAdaptive06": {
+        "N": 360,
+        "first_UTC": "2021-03-25T03:00:00.000000000Z",
+        "last_UTC": "2021-03-25T05:59:30.000000000Z",
+        "sample_SHA256": "9c7e5703f850dfb26695c30308647b319b4e1d39f6b1ac05a0c0bdd17120c416",
+        "status": "SUPPORTED",
+        "b": 0.1690915321523363,
+        "multiplier": 1.1842285289494203
+      },
+      "GlobalAdaptive18": {
+        "N": 360,
+        "first_UTC": "2021-03-25T15:00:00.000000000Z",
+        "last_UTC": "2021-03-25T17:59:30.000000000Z",
+        "sample_SHA256": "39c1b03456cf8c244852382700b472b8b572d914764fd42a10a26b1ef95ad86c",
+        "status": "SUPPORTED",
+        "b": 0.10251619631085518,
+        "multiplier": 1.1079552465520726
+      },
+      "LatitudeAdaptive18": {
+        "low": {
+          "N": 124,
+          "first_UTC": "2021-03-25T15:16:30.000000000Z",
+          "last_UTC": "2021-03-25T17:51:00.000000000Z",
+          "sample_SHA256": "fe32e4be412260d479e5fb4c93f4deea7a1f84ffc2c73d1995c2f68d668c2307",
+          "status": "SUPPORTED",
+          "b": 0.18676449649971438,
+          "multiplier": 1.2053433890348204
+        },
+        "mid": {
+          "N": 124,
+          "first_UTC": "2021-03-25T15:08:30.000000000Z",
+          "last_UTC": "2021-03-25T17:59:00.000000000Z",
+          "sample_SHA256": "7f7c5503210d5c1c66b55c51936aa98164283b7142caf02bb81b9f41bcd9777c",
+          "status": "SUPPORTED",
+          "b": 0.12505292568284077,
+          "multiplier": 1.1332084273095397
+        },
+        "high": {
+          "N": 112,
+          "first_UTC": "2021-03-25T15:00:00.000000000Z",
+          "last_UTC": "2021-03-25T17:59:30.000000000Z",
+          "sample_SHA256": "506acef2bae8f6a86d6e14ed5386b8ebf11231db185fc55391edcde24937aeee",
+          "status": "SUPPORTED",
+          "b": 0.06295042435134768,
+          "multiplier": 1.064974041143679
+        }
+      },
+      "Stale06_reference": "GlobalAdaptive06",
+      "CDF_SHA256": "2f42b1eb3f75143ed40d48c377f37f82f76c544b0a0dd0433f71335cf26f5d7a",
+      "protocol_SHA256": "1fcb644995bb3cb0c324079a4d3d61e6bea6376b18430c35c30e3e3d52d90b73"
+    }
+  },
+  "all_before_future_metrics": true
+}

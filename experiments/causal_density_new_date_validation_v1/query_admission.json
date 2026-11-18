@@ -1,0 +1,169 @@
+{
+  "PASS": true,
+  "rows": [
+    {
+      "case": "B14",
+      "cutoff": 6,
+      "N_requested": 1080,
+      "N_valid": 1080,
+      "frames": 10,
+      "eight_columns": true,
+      "no_extrapolation": true
+    },
+    {
+      "case": "B14",
+      "cutoff": 18,
+      "N_requested": 1080,
+      "N_valid": 1080,
+      "frames": 10,
+      "eight_columns": true,
+      "no_extrapolation": true
+    },
+    {
+      "case": "A7",
+      "cutoff": 6,
+      "N_requested": 1080,
+      "N_valid": 1080,
+      "frames": 10,
+      "eight_columns": true,
+      "no_extrapolation": true
+    },
+    {
+      "case": "A7",
+      "cutoff": 18,
+      "N_requested": 1080,
+      "N_valid": 1080,
+      "frames": 10,
+      "eight_columns": true,
+      "no_extrapolation": true
+    },
+    {
+      "case": "B7",
+      "cutoff": 6,
+      "N_requested": 1080,
+      "N_valid": 1080,
+      "frames": 10,
+      "eight_columns": true,
+      "no_extrapolation": true
+    },
+    {
+      "case": "B7",
+      "cutoff": 18,
+      "N_requested": 1080,
+      "N_valid": 1080,
+      "frames": 10,
+      "eight_columns": true,
+      "no_extrapolation": true
+    }
+  ],
+  "independent_probes": [
+    {
+      "case": "B14",
+      "cutoff": 6,
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B14",
+      "cutoff": 6,
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B14",
+      "cutoff": 6,
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B14",
+      "cutoff": 18,
+      "index": 1080,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B14",
+      "cutoff": 18,
+      "index": 1440,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B14",
+      "cutoff": 18,
+      "index": 2159,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "cutoff": 6,
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "cutoff": 6,
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "cutoff": 6,
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "cutoff": 18,
+      "index": 1080,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "cutoff": 18,
+      "index": 1440,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "A7",
+      "cutoff": 18,
+      "index": 2159,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "cutoff": 6,
+      "index": 0,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "cutoff": 6,
+      "index": 360,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "cutoff": 6,
+      "index": 1079,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "cutoff": 18,
+      "index": 1080,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "cutoff": 18,
+      "index": 1440,
+      "relative_difference": 0.0
+    },
+    {
+      "case": "B7",
+      "cutoff": 18,
+      "index": 2159,
+      "relative_difference": 0.0
+    }
+  ]
+}

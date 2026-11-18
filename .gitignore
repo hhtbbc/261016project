@@ -398,3 +398,12 @@ credentials.json
 /experiments/thermosphere_residual_representativeness_v1/*_local.*
 /experiments/thermosphere_residual_representativeness_v1/**/*_local.*
 !/logs/residual_representativeness_v1*.log
+
+# New-date full matching arrays and query traces stay local
+/experiments/causal_density_new_date_validation_v1/*_local.*
+/experiments/causal_density_new_date_validation_v1/**/*_local.*
+!/logs/new_date_v1*.log
+
+!/experiments/causal_density_new_date_validation_v1/*.csv
+!/experiments/causal_density_new_date_validation_v1/figures/
+!/experiments/causal_density_new_date_validation_v1/figures/*.png

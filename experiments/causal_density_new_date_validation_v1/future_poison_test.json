@@ -1,0 +1,36 @@
+{
+  "PASS": true,
+  "checks": [
+    {
+      "case": "B14",
+      "cutoff": 6,
+      "PASS": true
+    },
+    {
+      "case": "B14",
+      "cutoff": 18,
+      "PASS": true
+    },
+    {
+      "case": "A7",
+      "cutoff": 6,
+      "PASS": true
+    },
+    {
+      "case": "A7",
+      "cutoff": 18,
+      "PASS": true
+    },
+    {
+      "case": "B7",
+      "cutoff": 6,
+      "PASS": true
+    },
+    {
+      "case": "B7",
+      "cutoff": 18,
+      "PASS": true
+    }
+  ],
+  "parameter_SHA256": "bd72dd92e08cd8e6e4ba3ad760662642db6742850553a8f59d757fed7870eb51"
+}

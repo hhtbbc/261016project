@@ -1,0 +1,12 @@
+{
+  "PASS": true,
+  "CDF_SHA": "2f42b1eb3f75143ed40d48c377f37f82f76c544b0a0dd0433f71335cf26f5d7a",
+  "cases_eligible": [
+    "B14",
+    "A7",
+    "B7"
+  ],
+  "B14_complete": true,
+  "query_coverage": 1.0,
+  "coefficients_not_yet_computed": true
+}

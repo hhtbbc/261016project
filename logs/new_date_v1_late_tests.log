@@ -1,0 +1,16 @@
+test_06_compatibility (test_late_day_correction.LateTests) ... ok
+test_counts_and_midnight (test_late_day_correction.LateTests) ... ok
+test_cutoff_and_nextday_excluded (test_late_day_correction.LateTests) ... ok
+test_future_poison (test_late_day_correction.LateTests) ... ok
+test_insufficient_not_pass (test_late_day_correction.LateTests) ... ok
+test_joint_no_regret (test_late_day_correction.LateTests) ... ok
+test_low_bias_uses_absolute_value (test_late_day_correction.LateTests) ... ok
+test_no_B_C_fit (test_late_day_correction.LateTests) ... ok
+test_quintile_contributions (test_late_day_correction.LateTests) ... ok
+test_ties_not_jittered (test_late_day_correction.LateTests) ... ok
+test_weight_identity (test_late_day_correction.LateTests) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.038s
+
+OK

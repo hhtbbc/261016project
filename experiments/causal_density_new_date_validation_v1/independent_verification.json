@@ -1,0 +1,18 @@
+{
+  "PASS": true,
+  "CDF_direct_density_and_UTC_match": true,
+  "coefficients_independently_recomputed": 15,
+  "metric_rows": 504,
+  "joint_rows": 84,
+  "query_count": 6480,
+  "history_future_disjoint": true,
+  "Stale06_same_day_same_background": true,
+  "future_poison_PASS": true,
+  "original_sources_and_history_SHA_unchanged": true,
+  "year2022_missing_frames": 24,
+  "year2022_missing_query_frames": 20,
+  "cost_estimates_recomputed": true,
+  "rtol": 1e-13,
+  "atol": 0,
+  "wall_s": 2.628419440239668
+}

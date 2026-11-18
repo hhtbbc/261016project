@@ -1,0 +1,78 @@
+{
+  "PASS": true,
+  "product": "SW_OPER_DNSAPOD_2_",
+  "version": "0301",
+  "satellite": "A",
+  "CDF": {
+    "path": "data/raw/causal_density_new_date_validation_v1/SW_OPER_DNSAPOD_2__20210325T000000_20210325T235930_0301.cdf",
+    "SHA256": "2f42b1eb3f75143ed40d48c377f37f82f76c544b0a0dd0433f71335cf26f5d7a"
+  },
+  "hapi": {
+    "path": "data/raw/fourcastden_swarm_observation_v1/HAPI_info.json",
+    "SHA256": "17ccced134a05fee2fd991acf6c1dbd44f166ed8239cf6435af11e3cef2c69ac",
+    "source": "experiments/fourcastden_swarm_observation_v1/official_service_contract.json",
+    "source_SHA256": "bc76f6d2f7a4c98f7c30948b3e4bbfad8368b2029a2027c9d68c11f426abe491"
+  },
+  "ZIP": {
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20210325T000000_20210325T235930_0301.ZIP",
+    "final_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20210325T000000_20210325T235930_0301.ZIP",
+    "HTTP": 200,
+    "Content_Length": 140187,
+    "bytes": 140187,
+    "SHA256": "ca9d07b1828cc06f3a807d8db23b312bd292d17b53b95bedbbb49bcc0452a696",
+    "path": "data/raw/causal_density_new_date_validation_v1/SW_OPER_DNSAPOD_2__20210325T000000_20210325T235930_0301.ZIP",
+    "existing": false,
+    "new_download_bytes": 140187,
+    "CRC_test_PASS": true,
+    "members": [
+      {
+        "name": "SW_OPER_DNSAPOD_2__20210325T000000_20210325T235930_0301.HDR",
+        "bytes": 2757,
+        "CRC32": "f02c9184"
+      },
+      {
+        "name": "SW_OPER_DNSAPOD_2__20210325T000000_20210325T235930_0301.cdf",
+        "bytes": 191682,
+        "CRC32": "63c28094"
+      }
+    ],
+    "download_started_unix": 1794977557.3682714,
+    "download_finished_unix": 1794977573.1940794,
+    "TLS": "ssl.create_default_context; hostname/certificate verification enabled",
+    "timeout_s": 25
+  },
+  "extracted_members": [
+    {
+      "path": "data/raw/causal_density_new_date_validation_v1/SW_OPER_DNSAPOD_2__20210325T000000_20210325T235930_0301.HDR",
+      "bytes": 2757,
+      "SHA256": "47d9dfa9d63d4c978caf43b674e6429bff3d9bdc60d54c589aa688a1f1faa168",
+      "CRC32": "f02c9184",
+      "CRC_PASS": true,
+      "existing": false
+    },
+    {
+      "path": "data/raw/causal_density_new_date_validation_v1/SW_OPER_DNSAPOD_2__20210325T000000_20210325T235930_0301.cdf",
+      "bytes": 191682,
+      "SHA256": "2f42b1eb3f75143ed40d48c377f37f82f76c544b0a0dd0433f71335cf26f5d7a",
+      "CRC32": "63c28094",
+      "CRC_PASS": true,
+      "existing": false
+    }
+  ],
+  "network_bytes": 140187,
+  "extracted_bytes": 194439,
+  "HDR_POSIX_CRC": 2937020326,
+  "records": 2880,
+  "cadence_s": 30,
+  "UTC_start": "2021-03-25T00:00:00.000000000",
+  "UTC_stop": "2021-03-25T23:59:30.000000000",
+  "flag0": 2880,
+  "flag1": 0,
+  "unknown_flags": 0,
+  "invalid_density": 0,
+  "quality_valid": 2880,
+  "target_required": 2160,
+  "target_valid": 2160,
+  "coordinate_contract": "GRS80 product metadata; formal ZG datum unverified",
+  "official_checksum_claim": "SHA is local provenance, not a publisher-provided checksum"
+}

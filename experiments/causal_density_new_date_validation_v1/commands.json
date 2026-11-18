@@ -1,0 +1,17 @@
+{
+  "commands": [
+    "source scripts/activate_orbit.sh; python scripts/launch_new_date_validation_v1.py",
+    "python -m unittest discover -s tests -p test_causal_density_latitude.py",
+    "python -m unittest discover -s tests -p test_late_day_correction.py",
+    "python -m unittest discover -s tests -p test_bounded_swarm_acquisition.py",
+    "worker internally: python scripts/verify_new_date_validation_v1.py",
+    "python scripts/finalize_new_date_validation_v1.py"
+  ],
+  "test_logs": [
+    "logs/new_date_v1_latitude_tests.log",
+    "logs/new_date_v1_late_tests.log",
+    "logs/new_date_v1_acquisition_tests.log"
+  ],
+  "supervisor_log": "logs/new_date_v1_supervisor.log",
+  "new_model_starts": 0
+}

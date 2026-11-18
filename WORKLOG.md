@@ -1214,3 +1214,8 @@ v2实际CPU8.060616秒，全部14键/shape/dtype/finite/abs>1e30/正TN TLBC DEN/
 资源：唯一监督30.827680s，worker29.822154s/CPU33.409526s/峰RSS330.895MiB，采样树峰约329.656MiB；独立8.590895s已含worker，不能重复相加。预检3.557768s，输出约19MiB；计算远低600s/4GiB/公开150MiB；交互编辑/Git/服务器暂停不冒充连续采样。原始新下载/模型/GPU/DART/轨道/训练/新校正/高度拟合/外部联系均0。
 文件：新experiments/thermosphere_residual_representativeness_v1/派生CSV/JSON及8PNG；报告reports/THERMOSPHERE_RESIDUAL_REPRESENTATIVENESS_V1.md；决策docs/THERMOSPHERE_RESIDUAL_REPRESENTATIVENESS_NEXT_DECISION_V1.md；实际命令/错误/资源/SHA均保存。完整配对、查询和原始XYZ_local仅本地，不上传。
 状态：COMPLETE仅诊断；SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED和A14历史身份不变。下一步建议另授权新增独立日期覆盖、同算法同指标复现，先核模型有效域/预热和观测资产，不自动更换日期或积分；本轮完成停止，不新校正/AI/DART/轨道。按安全白名单正常提交/推送并独立核远端，最终SHA和同步结果在本地ignored审计及最终答复记录。
+
+
+## 2026-11-18 V14-A 新日期复现及扩展计划
+
+NEW_DATE_VALIDATION=COMPLETE；MULTIDATE_EXPANSION_PLAN=COMPLETE。2021-03-25指定ZIP实际下载140187bytes，2880条质量有效；三背景25帧及6480/6480八列查询通过。37测试及独立复核通过，旧2979文件SHA不变。唯一监督任务38.466秒、CPU23.902秒、峰值331.223MiB。B14联合1/12，仅Latitude18首小时PASS；A7为2/12、B7为1/12，3/6小时局地方法仍FAIL。2022完整新日缺24小时帧，不能未经验证Restart续算。报告reports/CAUSAL_DENSITY_NEW_DATE_VALIDATION_V1.md；计划docs/THERMOSPHERE_MULTIDATE_DATA_EXPANSION_PLAN_V1.md。命令与资源见新实验目录。本轮未启动任何积分/GPU/DART/轨道，不自动进入下一轮；既有科学/高度/Restart门禁不变。

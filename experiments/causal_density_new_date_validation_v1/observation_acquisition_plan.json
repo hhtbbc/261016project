@@ -1,0 +1,13 @@
+{
+  "stem": "SW_OPER_DNSAPOD_2__20210325T000000_20210325T235930_0301",
+  "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20210325T000000_20210325T235930_0301.ZIP",
+  "expected_bytes": 140187,
+  "cached_listing": {
+    "path": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/listing.json",
+    "SHA256": "cc3cb2ec84e212ff8b90ff30df65d711c57115756fb9120664e22111f5751be8"
+  },
+  "existing_actual_products": [],
+  "network_budget_bytes": 1048576,
+  "no_listing_download": true,
+  "no_other_product_allowed": true
+}
