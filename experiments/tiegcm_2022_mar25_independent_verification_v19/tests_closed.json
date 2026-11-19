@@ -1,0 +1,18 @@
+{
+  "PASS": true,
+  "total_tests": 22,
+  "initial_contract_tests": 19,
+  "serialization_and_checkpoint_tests": 3,
+  "test_logs": [
+    {
+      "path": "logs/v19_verification_tests.log",
+      "SHA256": "a6333761872d85b5ef7158ff7bc80b6cbb39434fa9c5e380e01f83dad947dc92"
+    },
+    {
+      "path": "logs/v19_serialization_tests.log",
+      "SHA256": "9710d52d3ebb441eac4b55c830c55f6eb763add3d501929d7fb06670b418a313"
+    }
+  ],
+  "tests_executed_before_complete_metrics_access": true,
+  "zero_atol_no_exception": true
+}

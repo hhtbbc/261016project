@@ -1,0 +1,19 @@
+{
+  "scope": "Only never-reached metric/table stage of original one complete read-only verification; not full-entry retry",
+  "original_partial_attempt": "TypeError at serializing numpy.bool_; C1/C2 completed; no full table values read before failure",
+  "original_once_marker_and_partial_outputs_retained": true,
+  "original_numerical_code_unchanged": true,
+  "table_stage_verbatim_SHA256": "1c32fb4861c313d170511aad0ff94889d9a0f5b2c1aab4ef5ed28440fed7498c",
+  "serialization": "np.generic.item converts bool/int/float losslessly; nonfinite still forbidden",
+  "code_SHA256": {
+    "scripts/continue_density_verification_v19.py": "1f48eb69849c48a9b0809e813f1d9b71c4726f770470b6aef955844ba1da2ca1",
+    "tests/test_v19_serialization.py": "5fd5cb2dd9ea09ed00ecbf50db6c94fd6f8edb52d0e05071d4f3b638ef16641c"
+  },
+  "additional_tests": 3,
+  "tests_PASS": true,
+  "tests_log_SHA256": "9710d52d3ebb441eac4b55c830c55f6eb763add3d501929d7fb06670b418a313",
+  "new_scientific_scoring": 0,
+  "new_fitting": 0,
+  "full_entry_retries": 0,
+  "preserves_original_protocol_and_failure": true
+}

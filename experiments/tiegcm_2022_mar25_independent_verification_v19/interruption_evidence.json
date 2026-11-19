@@ -1,0 +1,15 @@
+{
+  "error": "numpy.bool_ JSON serialization TypeError",
+  "partial_file": "float_roundoff_diagnosis.json retained local, intentionally incomplete JSON",
+  "partial_file_SHA256": "7717039466bc698cfd77fbb70d012f1cfbf2fac519333c86bc5ef0c1917a9333",
+  "main_worker_stdout_SHA256": "3ed8521092012b40f77673e3a930f9d0e3ef2edf836a3db063bfaa05b3b6a5f3",
+  "main_once_marker_retained": true,
+  "full_main_entry_reexecutions": 0,
+  "complete_tables_code_SHA256": "1c32fb4861c313d170511aad0ff94889d9a0f5b2c1aab4ef5ed28440fed7498c",
+  "checkpoint_only": true,
+  "result_paths": [
+    "result.json initial incomplete retained",
+    "result_closed.json definitive complete verification"
+  ],
+  "no_numeric_change_or_tolerance_relaxation": true
+}

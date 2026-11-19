@@ -1,0 +1,43 @@
+{
+  "task": "V19 independent verification only",
+  "original_scientific_scores": 1,
+  "new_scientific_scoring_calls": 0,
+  "new_fits": 0,
+  "read_only": true,
+  "V18_historical_status": "INCONCLUSIVE",
+  "rtol": 1e-13,
+  "atol": 0,
+  "zero_rule": "isclose(main,independent,rtol=1e-13,atol=0); independent zero requires exactly zero, no exceptional Bias rule",
+  "C1": "Diagnostic sorted median/logarithms and exp implementations only; never write parameters",
+  "C2": "Build all corrected predictions only from validated stored raw queries and frozen multiplier; no exponent substitute",
+  "raw_provenance": "Direct CDF exact comparison plus independent native NetCDF 25-frame eight-column query reconstruction at frozen tolerance; stored Raw is the original query numerical contract, not corrected prediction input",
+  "complete_tables": [
+    "metrics.csv",
+    "region_metrics.csv",
+    "time_block_metrics.csv",
+    "joint_assessment.csv",
+    "pointwise_diagnostics.csv",
+    "coverage.csv"
+  ],
+  "window_semantics": "original half-open 06Z/18Z windows and bands, no changes",
+  "minimum_N": 30,
+  "collect_all_checks": true,
+  "one_complete_verification_attempt": true,
+  "failure_no_retry": true,
+  "code_SHA256": {
+    "src/evaluation/density_verification.py": "251c80d473dab63c3e2fdc41a4ffaaaff56de6a367a284c1cfbc7d377cb45887",
+    "scripts/prepare_density_verification_v19.py": "d17906e149aa998a758fa09891ac424255741cea3af72e50bfa641d29f74c3a5",
+    "scripts/verify_density_validation_v19.py": "6e096552bc63cbe3178c7996c9cfeee90d2f37b6944605e007e82ed7539afbd2",
+    "scripts/launch_density_verification_v19.py": "98729ee5b1cfa9a1f4f28506ef49dad605f20a553c56c4616bd865511bf7c018",
+    "tests/test_density_verification_v19.py": "66c775c0768a0b255306c6eb4bb6a5df3155306da6948fdc90572512b2326ef8"
+  },
+  "resources": {
+    "wall_s": 600,
+    "RSS_bytes": 4294967296,
+    "outputs_bytes": 157286400,
+    "GPU": 0,
+    "download": 0,
+    "model": 0
+  },
+  "frozen_UTC": "2026-11-19T02:54:36.554601+00:00"
+}

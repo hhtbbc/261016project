@@ -446,3 +446,11 @@ credentials.json
 !/experiments/tiegcm_2022_mar25_density_validation_v18/figures/
 !/experiments/tiegcm_2022_mar25_density_validation_v18/figures/*.png
 /experiments/tiegcm_2022_mar25_density_validation_v18/*_local.*
+
+# V19: publish read-only verification summaries; fixtures/logs and partial JSON stay local
+/experiments/tiegcm_2022_mar25_independent_verification_v19/**
+!/experiments/tiegcm_2022_mar25_independent_verification_v19/
+!/experiments/tiegcm_2022_mar25_independent_verification_v19/*.json
+!/experiments/tiegcm_2022_mar25_independent_verification_v19/*.csv
+/experiments/tiegcm_2022_mar25_independent_verification_v19/*_local.*
+/experiments/tiegcm_2022_mar25_independent_verification_v19/float_roundoff_diagnosis.json

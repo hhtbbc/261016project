@@ -1,0 +1,13 @@
+cutoff,block,method,V18_joint_row_reference,all_four_flags_match,JOINT_NO_REGRET
+6,block_0_1h,GlobalAdaptive06,future_1h,True,FAIL
+6,block_1_3h,GlobalAdaptive06,block_1_3h,True,FAIL
+6,block_3_6h,GlobalAdaptive06,block_3_6h,True,FAIL
+18,block_0_1h,GlobalAdaptive18,future_1h,True,FAIL
+18,block_1_3h,GlobalAdaptive18,block_1_3h,True,FAIL
+18,block_3_6h,GlobalAdaptive18,block_3_6h,True,FAIL
+18,block_0_1h,LatitudeAdaptive18,future_1h,True,FAIL
+18,block_1_3h,LatitudeAdaptive18,block_1_3h,True,FAIL
+18,block_3_6h,LatitudeAdaptive18,block_3_6h,True,FAIL
+18,block_0_1h,Stale06,future_1h,True,FAIL
+18,block_1_3h,Stale06,block_1_3h,True,FAIL
+18,block_3_6h,Stale06,block_3_6h,True,FAIL

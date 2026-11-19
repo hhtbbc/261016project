@@ -1,0 +1,6 @@
+{
+  "prepare": "python scripts/prepare_density_verification_v19.py",
+  "tests": "python -m unittest discover -s tests -p test_density_verification_v19.py -v",
+  "single_readonly_verification": "python scripts/launch_density_verification_v19.py",
+  "forbidden_V18_entry_not_called": true
+}

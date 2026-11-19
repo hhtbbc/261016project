@@ -1,0 +1,11 @@
+{
+  "status": "VERIFICATION_CLOSED_PASS",
+  "PASS": true,
+  "authoritative_result": "result_closed.json",
+  "initial_worker_result": "result.json retained INCONCLUSIVE TypeError serialization interruption",
+  "original_V18_status": "INCONCLUSIVE retained",
+  "first_worker_returncode": 1,
+  "checkpoint_tables_returncode": 0,
+  "V18_scientific_scores_still_one": true,
+  "scientific_joint_benefit_PASS": false
+}

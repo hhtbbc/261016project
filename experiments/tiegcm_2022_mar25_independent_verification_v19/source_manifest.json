@@ -1,0 +1,23 @@
+{
+  "base_HEAD": "0c93ddcea2bef867a639a3045b5e7937d0d5fa2c",
+  "V18_parent": "experiments/tiegcm_2022_mar25_density_validation_v18",
+  "V18_public_manifest_SHA256": "ccfa78dad4e0954913d8e71775ce3cbc3a0ac0a23f0140940b0379826f5eb263",
+  "frozen_parameters_SHA256": "743cbf099c417a4b74a530151c08c6c5a8c746cfc0ee5ae30a3ca54075521470",
+  "V19_original_protocol_SHA256": "716f5ae14440b812d9daa25078dc6d1a21fd11489fb04bd6e63cb828bfc5185b",
+  "checkpoint_protocol_SHA256": "0cd0506bafa399395da27af1e3ccc5d8d413ca2371d5816bd08688b41c682262",
+  "protected_manifest_SHA256": "93253c5aceedba5d228eb0c0423a06ed4b3941a35a3ff93a3e5e890fa425786b",
+  "matched_local_SHA256": "4621d2fb62339a2a0f6c0d220cc31fcf6aa763eabb802701bc455cff3c85e94d",
+  "common_ID_file_SHA256": "9c66535b17c1fb13e80b8b0e331f2a3ca34691f323348121a6301ec1c45a1657",
+  "old_snapshot_files": 4160,
+  "old_assets_still_identical": true,
+  "new_code": {
+    "src/evaluation/density_verification.py": "251c80d473dab63c3e2fdc41a4ffaaaff56de6a367a284c1cfbc7d377cb45887",
+    "scripts/continue_density_verification_v19.py": "1f48eb69849c48a9b0809e813f1d9b71c4726f770470b6aef955844ba1da2ca1",
+    "scripts/document_density_verification_v19.py": "70f38341faad7600c89c38b04f1dc4dcfd63c612dd91c8fc8a7268169b6f013a",
+    "scripts/launch_density_verification_v19.py": "98729ee5b1cfa9a1f4f28506ef49dad605f20a553c56c4616bd865511bf7c018",
+    "scripts/prepare_density_verification_v19.py": "d17906e149aa998a758fa09891ac424255741cea3af72e50bfa641d29f74c3a5",
+    "scripts/verify_density_validation_v19.py": "6e096552bc63cbe3178c7996c9cfeee90d2f37b6944605e007e82ed7539afbd2",
+    "tests/test_density_verification_v19.py": "66c775c0768a0b255306c6eb4bb6a5df3155306da6948fdc90572512b2326ef8",
+    "tests/test_v19_serialization.py": "5fd5cb2dd9ea09ed00ecbf50db6c94fd6f8edb52d0e05071d4f3b638ef16641c"
+  }
+}

@@ -632,3 +632,14 @@ TIEGCM_2022_MAR25_DENSITY_VALIDATION_V18=INCONCLUSIVE。唯一一次CPU科学评
 33CPU回归通过。独立CDF/25帧/2880点八列复算先行断言通过，但18Z局地历史analysis近零Bias因math.exp与numpy.exp中纬乘数1ULP差使相对差约1.377e-13，超过冻结rtol1e-13/atol0；独立循环中止，联合未独立闭环，不改FAIL为PASS。监督11.810303秒、采样峰346.887MiB、退出1，无模型重启/科学重评分/新参数/容差放宽。故整体INCONCLUSIVE而非完成科学PASS。图表仅整理已存结果并标明复核待闭合；原V17ENGINEERING_PASS与V16历史FAIL不变。
 
 报告reports/TIEGCM_2022_MAR25_DENSITY_VALIDATION_V18.md；决策docs/TIEGCM_V18_NEXT_DECISION.md；独立证据experiments/tiegcm_2022_mar25_density_validation_v18/。下一轮只读闭合算术复核需另授权；SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED全部保持。本轮整理后停止，未TIE/GPU/AI/DART/轨道/下载或外部联系。
+
+
+## 2026-11-19 V19：V18既有评分独立数值复核闭环
+
+TIEGCM_2022_MAR25_INDEPENDENT_VERIFICATION_V19=VERIFICATION_CLOSED_PASS。V18原INCONCLUSIVE与旧失败文件不改；新增正式评分/拟合/积分均0。保护4160文件及35NetCDF/CDF/SHA不变。5个历史b及exp诊断通过，冻结乘数重建6组17280点与正式数组逐位一致；168指标行、18非重叠块、112点级计数、42覆盖、20既有联合、336跨年引用全面复核，9051字段检查失败0。future poison历史输入不变性/同日Stale06/共同ID通过，rtol1e-13 atol0不变。
+
+原math.exp与numpy.exp中纬乘数确差1ULP；原主评分再次调用numpy.exp(b)，结果与冻结multiplier逐位同值。按冻结合同复算原Bias=5.453772204284436e-16 kg/m³，与主值绝对差0。2022联合0/12、单项19/48，2021只读联合1/12独立确认；数值PASS不等于方法科学收益PASS。
+
+22项测试（19合成/3序列化与检查点）通过。原只读worker在表格阶段前因numpy.bool_ JSON序列化中断，原result.json与预约/日志保留；仅无损序列化补充后接续从未执行的冻结表格代码，不重跑原完整入口，闭环独立写result_closed.json。监督两段6.246602+10.389655=16.636257秒，峰采样112.750MiB，退出1/0如实保留。原V18本地NPZ/完整ID缺少旧公开哈希的证据边界明确记录，并以原件/历史样本SHA/窗口ID/原生模型交叉核实当前身份，未伪造追溯证明。
+
+报告reports/TIEGCM_2022_MAR25_INDEPENDENT_VERIFICATION_V19.md；决策docs/TIEGCM_V19_NEXT_DECISION.md；证据experiments/tiegcm_2022_mar25_independent_verification_v19/。仅新证据关闭复核；SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED保持。后续独立日期覆盖审查需新任务，本轮停止，无新模型/下载/AI/轨道/外部联系。

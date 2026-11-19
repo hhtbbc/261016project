@@ -1,0 +1,10 @@
+{
+  "status": "INCONCLUSIVE",
+  "PASS": false,
+  "error_type": "TypeError",
+  "error": "Object of type bool_ is not JSON serializable",
+  "original_assets_not_modified": true,
+  "new_scoring_runs": 0,
+  "new_fits": 0,
+  "automatic_retries": 0
+}

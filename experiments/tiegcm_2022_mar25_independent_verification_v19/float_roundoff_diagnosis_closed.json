@@ -1,0 +1,31 @@
+{
+  "old_failure_reproduced": true,
+  "contract_Bias": 5.453772204284436e-16,
+  "alternative_math_exp_Bias": 5.453772204285187e-16,
+  "old_math_exp_comparison": {
+    "main": 5.453772204284436e-16,
+    "independent": 5.453772204285187e-16,
+    "absolute_difference": 7.513900122230137e-29,
+    "relative_difference": 1.3777436681946943e-13,
+    "allowed_absolute_difference": 5.453772204285188e-29,
+    "rtol": 1e-13,
+    "atol": 0.0,
+    "PASS": false
+  },
+  "frozen_contract_comparison": {
+    "main": 5.453772204284436e-16,
+    "independent": 5.453772204284436e-16,
+    "absolute_difference": 0.0,
+    "relative_difference": 0.0,
+    "allowed_absolute_difference": 5.453772204284436e-29,
+    "rtol": 1e-13,
+    "atol": 0.0,
+    "PASS": true
+  },
+  "one_ULP_mid_band": true,
+  "original_scoring_calls_numpy_exp_from_frozen_b": true,
+  "original_scoring_did_not_directly_use_saved_multiplier": true,
+  "all_five_original_numpy_exp_values_equal_saved_multiplier": true,
+  "serialization_failure_preserved": true,
+  "no_changed_numerical_value": true
+}

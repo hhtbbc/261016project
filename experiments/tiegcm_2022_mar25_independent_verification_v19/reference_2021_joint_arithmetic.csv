@@ -1,0 +1,13 @@
+cutoff,window,method,original,independent,PASS
+6,future_1h,GlobalAdaptive06,FAIL,FAIL,True
+6,future_3h,GlobalAdaptive06,FAIL,FAIL,True
+6,future_6h,GlobalAdaptive06,FAIL,FAIL,True
+18,future_1h,GlobalAdaptive18,FAIL,FAIL,True
+18,future_1h,LatitudeAdaptive18,PASS,PASS,True
+18,future_1h,Stale06,FAIL,FAIL,True
+18,future_3h,GlobalAdaptive18,FAIL,FAIL,True
+18,future_3h,LatitudeAdaptive18,FAIL,FAIL,True
+18,future_3h,Stale06,FAIL,FAIL,True
+18,future_6h,GlobalAdaptive18,FAIL,FAIL,True
+18,future_6h,LatitudeAdaptive18,FAIL,FAIL,True
+18,future_6h,Stale06,FAIL,FAIL,True

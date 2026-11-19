@@ -1,0 +1,26 @@
+{
+  "PASS": true,
+  "native_frames": 25,
+  "raw_queries": 2880,
+  "column_checks": 23040,
+  "all_columns_including_zero_weight": true,
+  "source_SHA256": [
+    {
+      "path": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run/secondary_016.nc",
+      "SHA256": "0931d0ef10a1ae08c1d543cc866eb765f0e715963969009f630fb92ca2d54de4",
+      "bytes": 192669016
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run/secondary_017.nc",
+      "SHA256": "949474cbd3790b2eec7e6ec0163de0decb40cee15ef5cf69792673c47adb95b3",
+      "bytes": 192669016
+    }
+  ],
+  "max_absolute_difference": 8.077935669463161e-28,
+  "max_relative_difference": 4.440892098500626e-16,
+  "rtol": 1e-13,
+  "atol": 0.0,
+  "stored_raw_is_original_query_numerical_contract": true,
+  "corrected_arrays_not_used_as_inputs": true,
+  "history_read_origin_addendum_unchanged": true
+}

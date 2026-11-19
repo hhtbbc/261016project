@@ -1,0 +1,7 @@
+cutoff,method,N,support_N,exact_equal,max_absolute_difference,max_relative_difference,PASS,rtol,atol
+6,Raw,2880,2880,True,0.0,0.0,True,1e-13,0.0
+6,GlobalAdaptive06,2880,2880,True,0.0,0.0,True,1e-13,0.0
+18,Raw,2880,2880,True,0.0,0.0,True,1e-13,0.0
+18,GlobalAdaptive18,2880,2880,True,0.0,0.0,True,1e-13,0.0
+18,LatitudeAdaptive18,2880,2880,True,0.0,0.0,True,1e-13,0.0
+18,Stale06,2880,2880,True,0.0,0.0,True,1e-13,0.0

@@ -1,0 +1,56 @@
+{
+  "PASS": true,
+  "coefficient_history_checks": [
+    {
+      "cutoff": 6,
+      "coefficient": "GlobalAdaptive06",
+      "N": 360,
+      "history_SHA256": "d3cb0b513737eab53b9b2982780753a53bcd11a0bfde7e2ef1fdd0590586d4d1",
+      "historical_inputs_bitwise_unchanged": true,
+      "future_intersection_N": 0,
+      "new_parameter_files": 0
+    },
+    {
+      "cutoff": 18,
+      "coefficient": "GlobalAdaptive18",
+      "N": 360,
+      "history_SHA256": "f9c7374482d127f4721b7ead441e57886c791fa4677eae7ded8b03c4e31e35de",
+      "historical_inputs_bitwise_unchanged": true,
+      "future_intersection_N": 0,
+      "new_parameter_files": 0
+    },
+    {
+      "cutoff": 18,
+      "coefficient": "low",
+      "N": 124,
+      "history_SHA256": "d19ad5ba6dbbdbba7ed87bb6d5f7a084497c9bb9247ccfe1894ffcb7eb4be72c",
+      "historical_inputs_bitwise_unchanged": true,
+      "future_intersection_N": 0,
+      "new_parameter_files": 0
+    },
+    {
+      "cutoff": 18,
+      "coefficient": "mid",
+      "N": 117,
+      "history_SHA256": "0cddd29e3563d4335ebaf771c75060eeb566bdb690b0786dd2ef3157de311cb0",
+      "historical_inputs_bitwise_unchanged": true,
+      "future_intersection_N": 0,
+      "new_parameter_files": 0
+    },
+    {
+      "cutoff": 18,
+      "coefficient": "high",
+      "N": 119,
+      "history_SHA256": "45c201e7838327acfb2bf0a8e4361c9d945ac2473d87c1d5b4a966bf4992fd7d",
+      "historical_inputs_bitwise_unchanged": true,
+      "future_intersection_N": 0,
+      "new_parameter_files": 0
+    }
+  ],
+  "factor": 1e+20,
+  "separate_original_copy_for_each_cutoff": true,
+  "pure_input_invariance_no_formal_fit": true,
+  "Stale06_reference": "GlobalAdaptive06 same date, exact coefficient",
+  "parameter_SHA256": "743cbf099c417a4b74a530151c08c6c5a8c746cfc0ee5ae30a3ca54075521470",
+  "original_poison_SHA256": "2983251f6329fe643b01c1de84692bbee6c3eae47a348d222b06c55643e06e48"
+}
