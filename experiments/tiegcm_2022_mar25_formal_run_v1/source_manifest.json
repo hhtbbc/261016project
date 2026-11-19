@@ -1,0 +1,65 @@
+{
+  "base_HEAD": "bd651d995c55f7f8691cd03d6522482d18e188db",
+  "run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+  "actual_run_project_directory": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run",
+  "inputs": [
+    {
+      "path": "experiments/tiegcm_2022_mar25_preparation_v1/run/input.inp",
+      "SHA256": "56d13f1dd08e2ba3b1fd223eb4b7c0075e4b429c0eaa4d077065357342cbe100",
+      "bytes": 1660
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_preparation_v1/gpi_2022_extended.nc",
+      "SHA256": "5834bf48ebb6d024d5e3e0f8fe407649608699ba5b9091cd61ffdb2eb51223d4",
+      "bytes": 2640
+    },
+    {
+      "path": "experiments/tiegcm2_apex2023_v1/tiegcm2.0",
+      "SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+      "bytes": 2663712
+    }
+  ],
+  "original_scientific_assets": {
+    "third_party/TIEGCM2.0/src/cons.F": "2c2475235247888c1cf7a9d46d18466f0d05acbe95fad2f75feb8d5ad16ea127",
+    "third_party/TIEGCM2.0/src/lbc.F": "bc597c256683f89c30d697303719ece761600923814a3b80640b4821da4b04b5",
+    "third_party/TIEGCM2.0/src/addiag.F": "0ad6c5cd0fa1058f10de0da6b156f5e466022a722f700ebf124f8efc4ac4e3e4",
+    "third_party/TIEGCM2.0/src/getapex.F": "379ac098eb76ce19e7ec0e4a0088a7c9096632d4e537788d9cb7a83f059fa506",
+    "third_party/TIEGCM2.0/src/init.F": "5ef58725bd7924d78e4eaa0bcae00dea42e84d2c77e25191b15154b47adbecdf",
+    "third_party/TIEGCM2.0/src/diags.F": "406a87917a5446493d7e0fdcb6a744271e7930f7151020f66134b4adc0b35a35",
+    "third_party/TIEGCM2.0/src/dt.F": "96268596120ce4164f666899c0387dd9676df51adadd156eb8ae76b5fb8312eb",
+    "third_party/TIEGCM2.0/src/params.F": "5ed64aacd1411bbb614e5f680e07a3ac4cfe6cc469168eb73decb3939e429683",
+    "third_party/TIEGCM2.0/src/apex.F90": "9b227da3fdf31692424a7f39f0107deed5f28f01514c4a222f3d5d725ecc8cf4",
+    "experiments/tiegcm2_apex2023_v1/apex.F90": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3",
+    "experiments/tiegcm2_apex2023_v1/Make.env": "4c7ce67f7c7052fc1ba5862cc43155eadfa5c62f59895d8046de21c9c15708a5",
+    "experiments/tiegcm2_apex2023_v1/Make.workspace": "d1e14765c13897bdfa4b783717ab77618821a8c31f67ec4ee063f58c9391c936",
+    "experiments/tiegcm2_apex2023_v1/Makefile": "08a70a47e7793bba73a9ead5d26fa997718c14d0599ea9488e28dd2339fc51cc",
+    "experiments/tiegcm2_apex2023_v1/Srcfiles": "8a7a7d15c7f5bd5d491b7e5542c9e3e12e12b2791257ef58d2ee31e788e5127a",
+    "experiments/tiegcm2_apex2023_v1/defs.h": "a98bc43baed2a2a241deda001af24a2e556eaa3f7bcab60b36641718003b5e0a",
+    "experiments/tiegcm2_apex2023_v1/apex_provenance.json": "ae53ce60f6521d8604016b19c959aaeac47a37222cdc1f856983dc080d363dfb",
+    "experiments/tiegcm2_apex2023_v1/tiegcm2.0": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "experiments/tiegcm2_apex2023_v1/sphpac.F": "297846c4dde2f352a77d953c7bcaeda0b9d2a51e1566b83dceb6818f05f5e9cd",
+    "experiments/tiegcm2_apex2023_v1/util.F": "268107076eb816e48ce981ddb58226d8e063328ac1f84ef0781f80c5e60f6c6e",
+    "experiments/tiegcm2_apex2023_v1/mud.F": "589b1ee3f941ec3ec6a26ddcced589f5235501fb83297133f7fb7bb50d1cb164",
+    "configs/patches/tiegcm2_gfortran12_ieee_constants.patch": "a1771508392574acded745e9c7bbf881ade8962a6d7d7aee2ad70d7367dc664e",
+    "configs/patches/tiegcm2_gfortran12_theta_rank.patch": "b35ef728d0944e47b77d29acdc93ccc663dc29f81160a4cb1448a20f19595a44",
+    "configs/patches/tiegcm2_gfortran12_mud_iprm.patch": "ac2875b228e003d0c414eee249eb2e5b7ae4d631a848fa2f9d414236b4a0e3a9",
+    "configs/patches/tiegcm2_official_apex2023.patch": "336086a838722957e65390a46eae552e743f3d2707b839d95dc59a2e3448519e",
+    "data/raw/tiegcm2_support/tiegcm_res5.0_mareqx_smin_prim.nc": "180475215a4922e9c55a77e80153cf641bc8fbb2b8d52633b4686ddee6942fff",
+    "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+    "data/processed/tiegcm_2022_spinup_14day_v1/gpi_2022_14day.nc": "bd603d2e47c7fa2e61858f6732cad12d98a5e602ca40141640e63185dd51bf41",
+    "data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc": "91a9e5245f3e43807863b30bd9b08e8d8338f8278fb932fda81dd5d7690af4f0",
+    "data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc": "4c266f98bd496e0d681ed49cf6f08079ede53656af760c1914c1342067091340"
+  },
+  "raw_observation": {
+    "path": "data/raw/tiegcm_2022_mar25_preparation_v1/SW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.cdf",
+    "SHA256": "d2f647f723f774a446e6c07c9b1108c1dc521b76bb21a2d524d321d379b440a8",
+    "bytes": 191682
+  },
+  "frozen_execution_overlay_SHA256": "6b3b0a8b742b402900b9ae484bfd5f586d4fbaf5bb05687919578692bb813f68",
+  "frozen_evaluation_protocol_SHA256": "ebb7ca240e88fd4250a37c1e7e06b4ab1c750c56fe09959bb4f8c05e13068632",
+  "output_manifest_SHA256": "71ac467ca3bf9864c7beb73384430f3dcdc12af558a4fd131085815874759142",
+  "raw_model_status_SHA256": "c7a8c234aa2b49e50c11e4cc932c76528711028e716a7c8f45a6d594455c3ccd",
+  "raw_main_audit_status_SHA256": "49fb8c79f0256b528aa4243c03eb0471435ae929ecb1ad408d7a1c89e4804308",
+  "raw_audit_warning_log_SHA256": "a523f90223a3de683a653efb7fa543faf5e58de010775c42eedbd9ed75726c3d",
+  "historical_assets_unchanged": 2423
+}

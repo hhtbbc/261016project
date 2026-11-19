@@ -1,0 +1,17 @@
+{
+  "status": "AUTOMATIC_ACCEPTANCE_INTERRUPTED",
+  "main_audit_exit_kind": "CONTROLLED_STOP",
+  "main_audit_returncode": -15,
+  "stop_reason": "fatal_log_pattern",
+  "main_acceptance_JSON_exists": false,
+  "original_supervisor_source_SHA256": "a4eaa514590ac30e2bd5ee581630272ad637fdcf378ddf2446742a0a1508a1b7",
+  "matched_lines": [
+    "  z=np.ma.filled(n['ZG'][i],np.nan).astype(float)*.01",
+    "  r=np.ma.filled(n['DEN'][i],np.nan).astype(float)*1000"
+  ],
+  "interpretation": "Existing fatal regex matches np.nan in Python warning source-context lines; this is not itself evidence of NaN values in model arrays. Independent target-day native checks pass; do not infer whole-run engineering PASS.",
+  "original_audit_not_retried": true,
+  "frozen_code_modified": false,
+  "overall": "ENGINEERING_FAIL",
+  "warning_summary": "NetCDF warns that missing_value cannot safely cast to variable dtype; original full warning log remains local, SHA recorded in source_manifest."
+}

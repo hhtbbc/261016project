@@ -1,0 +1,129 @@
+{
+  "overall": "ENGINEERING_FAIL",
+  "ACTUAL_MODEL_RUN": "COMPLETED",
+  "run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+  "physical_model_launches": 1,
+  "automatic_retry": 0,
+  "actual_start_UTC": "2026-11-18T09:03:27.709261Z",
+  "actual_end_UTC": "2026-11-18T09:46:46.653681Z",
+  "time_definition": "First rank pre-Popen receipt through last rank direct wait receipt; parent supervision wall listed separately",
+  "model_interval_UTC": [
+    "2022-03-09T00:00:00Z",
+    "2022-03-26T00:00:00Z"
+  ],
+  "MPI": 4,
+  "OMP": 1,
+  "step_s": 60,
+  "completed_steps": 24480,
+  "MPI_parent_returncode": 0,
+  "formal_entry_returncode": 1,
+  "model_supervisor_qualification": "PASS",
+  "model_supervised_wall_s": 2599.2285841442645,
+  "model_supervised_minutes": 43.32047640240441,
+  "automatic_audit": {
+    "status": "FAIL_INCOMPLETE",
+    "returncode": -15,
+    "reason": "fatal_log_pattern",
+    "wall_s": 9.828932862728834,
+    "peak_sampled_tree_rss_bytes": 281509888,
+    "acceptance_document": false
+  },
+  "independent_checks": {
+    "status": "PASS_WITH_NARROWER_SCOPE",
+    "coverage": {
+      "method": "Independent neighbor/time/vertical eight-column reconstruction; unchanged explicit Map-A assumption, no density-error calculation",
+      "N_total": 2880,
+      "N_eligible": 2880,
+      "N_success": 2880,
+      "N_failure": 0,
+      "reason_counts": {},
+      "column_checks": 23040,
+      "zero_weight_columns_not_skipped": true,
+      "no_extrapolation": true,
+      "comparison_to_main_counts": "NOT_AVAILABLE_MAIN_AUDIT_INTERRUPTED",
+      "identity": "PROVISIONAL Map-A / HINDCAST / NOT_BLIND / EXTERNAL_DATUM_UNVERIFIED"
+    },
+    "wall_s": 5.93127128854394,
+    "driver_wall_s": 0.4192199595272541,
+    "does_not_override_main_failure": true
+  },
+  "records": {
+    "primary": 18,
+    "secondary": 408,
+    "primary_volumes": 18,
+    "secondary_volumes": 17,
+    "target_day_frames": 25,
+    "final_UTC": "2022-03-26T00:00:00Z"
+  },
+  "resources": {
+    "peak_sampled_model_tree_RSS_bytes": 1015971840,
+    "model_children_CPU_user_s": 9591.877862,
+    "model_children_CPU_system_s": 803.120079,
+    "netCDF_bytes": 3581251512,
+    "full_model_run_directory_bytes": 3590165254,
+    "min_sampled_free_disk_bytes": 1352828715008,
+    "model_resource_samples": 9950,
+    "model_sampling_gaps": 0,
+    "postrun_readonly_compute_wall_s": 16.179424110800028,
+    "independent_process_peak_RSS_MiB": 156.92578125,
+    "resource_limits_are_sampled_not_OS_isolation": true
+  },
+  "ranks": [
+    {
+      "rank": 0,
+      "returncode": 0,
+      "run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+      "model_child_pid": 2247476,
+      "started_UTC": "2026-11-18T09:03:27.709489Z",
+      "ended_UTC": "2026-11-18T09:46:46.653681Z",
+      "final_step": 24480,
+      "normal_exit_count": 1,
+      "same_session": true,
+      "receipt_SHA256": "d73b6a33d1699a2d882cb0c0b79131e9f96e750c501920661c3e1e3eee5518ac"
+    },
+    {
+      "rank": 1,
+      "returncode": 0,
+      "run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+      "model_child_pid": 2247474,
+      "started_UTC": "2026-11-18T09:03:27.709261Z",
+      "ended_UTC": "2026-11-18T09:46:46.652682Z",
+      "final_step": 24480,
+      "normal_exit_count": 1,
+      "same_session": true,
+      "receipt_SHA256": "ae11a47530d400451b213f75c5bbce8495aed7b502c4574065f23c5433ec0543"
+    },
+    {
+      "rank": 2,
+      "returncode": 0,
+      "run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+      "model_child_pid": 2247475,
+      "started_UTC": "2026-11-18T09:03:27.709380Z",
+      "ended_UTC": "2026-11-18T09:46:46.652896Z",
+      "final_step": 24480,
+      "normal_exit_count": 1,
+      "same_session": true,
+      "receipt_SHA256": "5ae34ff3313293a060e95e3b7ce7e86217f0f84b7e58f779df77d04aa7cd7e3a"
+    },
+    {
+      "rank": 3,
+      "returncode": 0,
+      "run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+      "model_child_pid": 2247477,
+      "started_UTC": "2026-11-18T09:03:27.709675Z",
+      "ended_UTC": "2026-11-18T09:46:46.652891Z",
+      "final_step": 24480,
+      "normal_exit_count": 1,
+      "same_session": true,
+      "receipt_SHA256": "565e139d59a425c58acc51e64acad41dc595cb8ecd82319c8c3ba82f944c5838"
+    }
+  ],
+  "correction_fits": 0,
+  "density_error_metrics": 0,
+  "new_download_bytes": 0,
+  "AI": 0,
+  "DART": 0,
+  "orbit": 0,
+  "next_density_evaluation": "BLOCKED_PENDING_COMPLETE_ENGINEERING_ACCEPTANCE",
+  "scientific_gates_unchanged": true
+}

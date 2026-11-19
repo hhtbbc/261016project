@@ -1237,3 +1237,14 @@ TIEGCM_2022_MAR25_EXECUTION_REVIEW=STATIC_AND_CPU_TESTED_READY_FOR_EXPLICIT_AUTH
 60项最终不同CPU测试通过（执行22/冻结流程5/纬度14/小时8/晚间11），保留早期MPI abort缺peer回执和空fixture协议测试错误日志，未伪装为实际积分成功。只读旧首primary和一个暖态小时DEN/ZG样本；未重做整套原始CDF/GPI或长历史模型检查。2402受保护历史文件不变（仅上面明确旧入口修改例外）。命令、测试及资源分项见experiments/tiegcm_2022_mar25_execution_review_v1/。
 
 报告reports/TIEGCM_2022_MAR25_EXECUTION_REVIEW_V1.md；清单docs/TIEGCM_2022_MAR25_POSTRUN_CHECKLIST_V1.md。后续需新授权一次MPI4OMP1、模型4800秒目标/16GiB/5GiB/余盘20GiB，零重试；单独自动只读验收另申请600秒/4GiB，非OS严格隔离，SIGKILL/断电可能UNKNOWN。CPU模拟通过不是Fortran物理积分或科学精度证明。科学训练False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DART未准入/REAL_ORBITBLOCKED/A14历史身份不变。本轮完成停止，不自动积分、评价或训练。
+
+
+## 2026-11-19 V16：2022 Mar25唯一17天积分已完成，自动验收链未闭合
+
+TIEGCM_2022_MAR25=ENGINEERING_FAIL；ACTUAL_MODEL_RUN=COMPLETED；AUTOMATED_ENGINEERING_ACCEPTANCE=FAIL_INCOMPLETE；INDEPENDENT_TARGET_DATA_AND_COVERAGE_CHECK=PASS。模型真实运行于2026-11-18 09:03:27—09:46:46 UTC，跨日继续时先读取同一任务结束状态，未重新启动。run_id=094fcac3949c4e2e981d3baac1a5d8bf，唯一MPI4OMP1冷启动24480步，父及四rank均退出0，9950次监督采样/缺口0。18 primary/408小时secondary，35卷，03-26 00边界真实存在；所有新输出SHA和目标日25帧DEN/ZG独立检查完成，2880/2880合格Swarm A点独立八列23040列查询通过，无外推、失败0。408条实际GPI驱动2040比较最大差5.68434e-14，未放宽1e-10。
+
+模型墙钟2599.228584秒=43.320476分钟；采样树峰RSS0.94620GiB，NetCDF3581251512bytes=3.33530GiB，全模型目录约3.344GiB，最低余盘1259.92GiB，未资源超限。主只读自动验收在9.82893秒因fatal_log_pattern被SIGTERM(-15)，未生成acceptance.json；确切匹配为missing_value转换告警附带源码中的np.nan，不是已证实数组NaN。正式入口最终退出1，不能把MPI0当整链PASS。独立检查5.931秒/156.93MiB、驱动专项0.419秒通过，但不覆盖主失败，总状态ENGINEERING_FAIL保留。
+
+命令：source scripts/activate_tiegcm.sh；python scripts/execute_tiegcm_2022_mar25_v1.py --authorize-17day-run，仅一次。此后只读独立脚本scripts/verify_tiegcm_v16_independent.py及固定驱动标量核验，不重跑主验收、不修改任何冻结代码/输入/GPI/坐标或旧科学结果；保护SHA复核保持。所有预约和原始NetCDF/日志保留本地。报告reports/TIEGCM_2022_MAR25_FORMAL_RUN_V16.md，下一步docs/TIEGCM_V16_POSTRUN_FAILURE_DECISION.md；证据experiments/tiegcm_2022_mar25_formal_run_v1/。
+
+下一轮建议另授权最小告警复现和只读验收日志分类修复/重审，再对现有35卷只读完整验收；不需要新17天积分、不删预约。正式密度误差评价暂BLOCKED，等待工程验收闭合并另授权。科学训练False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DART未准入/REAL_ORBITBLOCKED及A14身份保持，无新校正拟合/误差评分/AI/DART/轨道/数据下载。本轮整理后停止。

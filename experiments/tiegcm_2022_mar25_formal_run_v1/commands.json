@@ -1,0 +1,12 @@
+{
+  "model_command": "source scripts/activate_tiegcm.sh; python scripts/execute_tiegcm_2022_mar25_v1.py --authorize-17day-run",
+  "model_entry_calls_planned": 1,
+  "retry": 0,
+  "actual_model_entry_calls": 1,
+  "model_and_main_audit": "frozen entry invoked once; main auto-audit once, no retry",
+  "independent_command": "source scripts/activate_tiegcm.sh; python scripts/verify_tiegcm_v16_independent.py",
+  "supplemental_driver_check": "Read-only independent four-noon-node Lagrange solar interpolation and UTC3h Kp interpolation compared with408 actual NetCDF warm records; no GPI generation",
+  "finalization": "python scripts/finalize_tiegcm_v16.py",
+  "interaction_resumed_UTC": "2026-11-19; original process had completed on2026-11-18; no relaunch",
+  "frozen_code_modified": false
+}

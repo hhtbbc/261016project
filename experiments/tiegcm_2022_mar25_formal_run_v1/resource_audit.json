@@ -1,0 +1,38 @@
+{
+  "model": {
+    "peak_sampled_model_tree_RSS_bytes": 1015971840,
+    "model_children_CPU_user_s": 9591.877862,
+    "model_children_CPU_system_s": 803.120079,
+    "netCDF_bytes": 3581251512,
+    "full_model_run_directory_bytes": 3590165254,
+    "min_sampled_free_disk_bytes": 1352828715008,
+    "model_resource_samples": 9950,
+    "model_sampling_gaps": 0,
+    "postrun_readonly_compute_wall_s": 16.179424110800028,
+    "independent_process_peak_RSS_MiB": 156.92578125,
+    "resource_limits_are_sampled_not_OS_isolation": true
+  },
+  "model_wall_s": 2599.2285841442645,
+  "automatic_audit_wall_s": 9.828932862728834,
+  "independent_wall_s": 5.93127128854394,
+  "read_only_driver_wall_s": 0.4192199595272541,
+  "physical_launch_max": 1,
+  "actual_launches": 1,
+  "no_automatic_retry": true,
+  "model_budget": {
+    "wall_s": 4800,
+    "RSS_GiB": 16,
+    "output_GiB": 5,
+    "disk_start_GiB": 25,
+    "disk_floor_GiB": 20,
+    "MPI": 4,
+    "OMP": 1
+  },
+  "audit_budget": {
+    "wall_s": 600,
+    "RSS_GiB": 4
+  },
+  "within_observed_resource_thresholds": true,
+  "main_audit_failure_is_log_pattern_not_resource_overrun": true,
+  "definition": "Original direct-wait supervisor samples; sampled RSS not continuous maximum and shared pages may double count; CPU is RUSAGE_CHILDREN delta. Cross-day interaction pause is not added to physical run wall."
+}

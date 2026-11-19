@@ -1,0 +1,15 @@
+{
+  "PASS": true,
+  "scope": "Independent scalar-driver cross-check only; not rerun of interrupted main acceptance",
+  "warm_records": 408,
+  "field_comparisons": 2040,
+  "max_abs_difference": 5.684341886080802e-14,
+  "frozen_tolerance": 1e-10,
+  "GPI_SHA256": "5834bf48ebb6d024d5e3e0f8fe407649608699ba5b9091cd61ffdb2eb51223d4",
+  "final_warm_iter": 122400,
+  "expected_base": 97920,
+  "completed_steps": 24480,
+  "wall_s": 0.4192199595272541,
+  "overall_engineering_status_unchanged": "ENGINEERING_FAIL",
+  "density_error_metrics": 0
+}

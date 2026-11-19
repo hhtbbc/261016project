@@ -421,3 +421,12 @@ credentials.json
 !/experiments/tiegcm_2022_mar25_execution_review_v1/
 !/experiments/tiegcm_2022_mar25_execution_review_v1/*.json
 /experiments/tiegcm_2022_mar25_execution_review_v1/*_local.*
+
+# V16: actual NetCDF/logs and monitor trace remain local; only derived summaries publish
+/experiments/tiegcm_2022_mar25_formal_run_v1/**
+!/experiments/tiegcm_2022_mar25_formal_run_v1/
+!/experiments/tiegcm_2022_mar25_formal_run_v1/*.json
+!/experiments/tiegcm_2022_mar25_formal_run_v1/*.csv
+!/experiments/tiegcm_2022_mar25_formal_run_v1/figures/
+!/experiments/tiegcm_2022_mar25_formal_run_v1/figures/*.png
+/experiments/tiegcm_2022_mar25_formal_run_v1/*_local.*

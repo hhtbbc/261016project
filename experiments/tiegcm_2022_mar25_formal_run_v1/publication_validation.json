@@ -1,0 +1,16 @@
+{
+  "publication_ready": true,
+  "overall_engineering_status": "ENGINEERING_FAIL",
+  "frozen_execution_scientific_inputs_and_protocol_SHA_unchanged": true,
+  "historical_files_unchanged": 2423,
+  "model_launches": 1,
+  "model_restarts": 0,
+  "main_auto_audit_attempts": 1,
+  "main_auto_audit_retries": 0,
+  "main_audit_result_not_overwritten": true,
+  "all_reservations_preserved": true,
+  "postrun_readonly_compute_seconds": 16.179424110800028,
+  "density_metrics": 0,
+  "correction_fits": 0,
+  "original_full_logs_raw_NetCDF_CDF_not_for_publication": true
+}

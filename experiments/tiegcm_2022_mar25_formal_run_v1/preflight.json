@@ -1,0 +1,40 @@
+{
+  "PASS": true,
+  "UTC": "2026-11-18T09:03:27.099913+00:00",
+  "HEAD": "bd651d995c55f7f8691cd03d6522482d18e188db",
+  "remote_main": "bd651d995c55f7f8691cd03d6522482d18e188db",
+  "frozen_execution_release_SHA256": "4c7a4363f1793081a51d98891e4b680b2fb78aa68246a89fa4fa4da8eec1c32c",
+  "frozen_preparation_manifest_SHA256": "c52cc7c6ad3d1512e8eef3cb5ad5eff8e0329f0d6abc019682288d0e351ef8f5",
+  "frozen_scientific_protocol_SHA256": "ebb7ca240e88fd4250a37c1e7e06b4ab1c750c56fe09959bb4f8c05e13068632",
+  "free_disk_bytes": 1356391776256,
+  "MemAvailable_bytes": 1958214180864,
+  "cpu_affinity_count": 112,
+  "prior_reservations": false,
+  "assets_SHA_verified": true,
+  "activation": "scripts/activate_tiegcm.sh",
+  "authorized_model_launch_max": 1,
+  "automatic_retry": 0,
+  "model_budget": {
+    "wall_s": 4800,
+    "RSS_GiB": 16,
+    "output_GiB": 5,
+    "disk_start_GiB": 25,
+    "disk_floor_GiB": 20,
+    "MPI": 4,
+    "OMP": 1
+  },
+  "postrun_audit_budget": {
+    "wall_s": 600,
+    "RSS_GiB": 4
+  },
+  "independent_verification": "additional read-only cross-check; no second physical model or full main audit rerun",
+  "prohibited": {
+    "density_error_metrics": true,
+    "correction_fitting": true,
+    "DART": true,
+    "AI": true,
+    "orbit": true,
+    "code_modification": true
+  },
+  "supervision_assessment": "Persistent local process stack and tool session available; no known deadline. Existing direct-wait/session supervisor retained; power loss/SIGKILL remain UNKNOWN, never silently successful."
+}

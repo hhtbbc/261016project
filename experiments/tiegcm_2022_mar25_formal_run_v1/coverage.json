@@ -1,0 +1,13 @@
+{
+  "method": "Independent neighbor/time/vertical eight-column reconstruction; unchanged explicit Map-A assumption, no density-error calculation",
+  "N_total": 2880,
+  "N_eligible": 2880,
+  "N_success": 2880,
+  "N_failure": 0,
+  "reason_counts": {},
+  "column_checks": 23040,
+  "zero_weight_columns_not_skipped": true,
+  "no_extrapolation": true,
+  "comparison_to_main_counts": "NOT_AVAILABLE_MAIN_AUDIT_INTERRUPTED",
+  "identity": "PROVISIONAL Map-A / HINDCAST / NOT_BLIND / EXTERNAL_DATUM_UNVERIFIED"
+}
