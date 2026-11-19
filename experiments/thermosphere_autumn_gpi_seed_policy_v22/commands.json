@@ -8,7 +8,8 @@
     "python scripts/prepare_autumn_gpi_v22.py (one successful generation worker; returncode0)",
     "Project filename/archive metadata inventory; initial tar parse failure retained and classified as ZIP-based PyTorch serialization, no extraction/deserialization",
     "Existing mareqx SHA and NetCDF header read only; old 34-state evidence reused",
-    "Documentation and public-file scan; git staging and safe sync recorded separately"
+    "Documentation and public-file scan; git staging and safe sync recorded separately",
+    "Git whitespace check reported CSV CRLF line endings; normalized only new derived CSV to LF and refreshed delivery hashes, no numerical rerun or old-asset changes"
   ],
   "forbidden_entries_invoked": false,
   "new_raw_data_requests": 0,
