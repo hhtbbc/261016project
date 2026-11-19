@@ -1,0 +1,17 @@
+{
+  "count": 50,
+  "category": "UserWarning",
+  "message": "missing_value cannot be safely cast to variable dtype",
+  "classification": "SHA-pinned original reader metadata warning; raw context separately retained",
+  "source_project_relative": "src/atmosphere/hourly_tiegcm_observation.py",
+  "source_SHA256": "31d3cba796e6304f00e73fe8cb08b1aedf6de3e11b8ef4b20b0860d3e4066ff8",
+  "source_line_counts": {
+    "31": 25,
+    "32": 25
+  },
+  "raw_warning_log_SHA256": "a35e2a600e0ca0fe66b8f2a7d8484e54b58d33578f3ff841fc45df973022a956",
+  "raw_records_SHA256": "7f83506bdca5037bf0c890e840ee543739ec01674a478c13a2f75d5b80ea6648",
+  "raw_warning_logs_not_published": true,
+  "unknown_warnings": 0,
+  "reader_values_or_masks_changed": false
+}

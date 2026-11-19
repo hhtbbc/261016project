@@ -610,3 +610,16 @@ TIEGCM_2022_MAR25=ENGINEERING_FAIL；ACTUAL_MODEL_RUN=COMPLETED；AUTOMATED_ENGI
 下一轮建议另授权最小告警复现和只读验收日志分类修复/重审，再对现有35卷只读完整验收；不需要新17天积分、不删预约。正式密度误差评价暂BLOCKED，等待工程验收闭合并另授权。科学训练False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DART未准入/REAL_ORBITBLOCKED及A14身份保持，无新校正拟合/误差评分/AI/DART/轨道/数据下载。本轮整理后停止。
 
 V16真实模型/失败验收/独立专项证据完整提交：`e46f92df151ce9b69e366d756c1fd31da0cc85c4`。该提交是结果证据版本；随后提交仅登记此SHA。最终同步HEAD以本轮本地git_sync_local.json和最终答复的独立远端核验为准。
+
+
+## 2026-11-19 V17：原真实成果保护与只读工程验收闭环
+
+TIEGCM_2022_MAR25_V17=ENGINEERING_PASS；V16_ORIGINAL_ENGINEERING_STATUS=FAIL（旧文件不变）。本轮新模型启动0，35原始NetCDF逐SHA与V16清单一致，原run_id=094fcac3949c4e2e981d3baac1a5d8bf、父/四rank退出0、24480步、原预约及失败日志全部保留；前后2506保护文件SHA不变。原科学协议、GPI、CDF、初态/二进制/物理源码及冻结reader/acceptor/supervisor字节不改。
+
+根因：真实DEN/ZG为float32，missing_value为float64 1e36，不可精确转换，自动掩码可能忽略标记；警告附带源码np.nan被旧词法监控误杀。只新增独立只读Warning provenance channel，对来源SHA/类型/完整文案严格匹配的该告警保留原文和源码上下文于本地journal，控制日志输出结构事件；未知告警、真实NaN/Inf/填值/Traceback/非零/信号/监控异常仍fail-closed。没有全局关闭警告或模型致命规则，没有改掩码科学规则或容差。
+
+35项最终测试通过（18针对性/9验收回归/8小时算子），首轮子进程fixture短ISO时刻错误及修正保留日志。唯一完整只读复验python scripts/launch_tiegcm_v17_readonly.py，原主验收调用1次/独立算法1次/新TIE0，direct wait0、PASS、cleanup/采样无缺口，22.630436秒，采样树峰260.53MiB，自报进程峰269.20MiB，预算600s/4GiB/150MiB内。50条已知告警保留（31/32行各25），不压制数据异常。
+
+全408暖态secondary原生DENGZ合法性正式通过，18 primary/35卷/UTC完整，原生cold echo按原规则；主实际驱动最大差2.84217e-14，独立5.68434e-14，门槛仍1e-10。主和独立均2880/2880 Swarm A成功、失败0、23040八列检查、无外推，未评分误差或拟合真实系数。
+
+报告reports/TIEGCM_2022_MAR25_POSTRUN_ACCEPTANCE_V17.md；下轮docs/TIEGCM_V17_NEXT_DENSITY_VALIDATION_DECISION.md；完整轻量证据experiments/tiegcm_2022_mar25_postrun_acceptance_v17/，原始日志/夹具只本地。现可申请下一轮固定协议2022-03-25真实密度评价，2021-03-25冻结B14只读对照；本轮未评价且整理后停止。属性元数据风险仍须配合严格原生预检，不能推广任意数据默认掩码安全。SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED及A14身份保持。

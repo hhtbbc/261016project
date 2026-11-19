@@ -1,0 +1,29 @@
+{
+  "PASS": true,
+  "distinct_tests": 35,
+  "groups": {
+    "targeted": {
+      "count": 18,
+      "body_wall_s": 1.564,
+      "log_project_relative": "experiments/tiegcm_2022_mar25_postrun_acceptance_v17/tests_local/targeted_tests_release.log",
+      "log_SHA256": "9c8a4258b8abdf6a5ffc48f0754a31f7ff70136630b4fb9c04d267f5c7961686",
+      "PASS": true
+    },
+    "acceptor_regression": {
+      "count": 9,
+      "body_wall_s": 0.088,
+      "log_project_relative": "experiments/tiegcm_2022_mar25_postrun_acceptance_v17/tests_local/acceptor_regression.log",
+      "log_SHA256": "8074122fa62f11c39fe13ab6d7f2d58a673ccaf0d202dfceae0d4cbd77386ae7",
+      "PASS": true
+    },
+    "hourly_regression": {
+      "count": 8,
+      "body_wall_s": 0.248,
+      "log_project_relative": "experiments/tiegcm_2022_mar25_postrun_acceptance_v17/tests_local/hourly_operator_regression.log",
+      "log_SHA256": "71a5cb092ead0a92c53c6a2231cd9f376192b3b314ddaac779f8a571a794cfe2",
+      "PASS": true
+    }
+  },
+  "earlier_failure_retained": "targeted_tests_01.log: subprocess fixture used abbreviated ISO time; corrected test only, no real audit ran",
+  "real_model_launches": 0
+}

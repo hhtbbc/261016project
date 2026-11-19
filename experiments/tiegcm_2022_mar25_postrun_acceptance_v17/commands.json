@@ -1,0 +1,12 @@
+{
+  "activation": "source scripts/activate_tiegcm.sh",
+  "targeted_tests": "PYTHONPATH=project/src:project python -m unittest discover -s tests -p test_tiegcm_v17_readonly.py -v",
+  "regression_tests": "9 selected immutable test_tiegcm_mar25_execution_review.Review cases with BASE redirected to V17 tests_local;8 test_hourly_tiegcm_observation cases",
+  "full_batch": "python scripts/launch_tiegcm_v17_readonly.py",
+  "full_batch_calls": 1,
+  "main_acceptor_calls": 1,
+  "independent_algorithm_calls": 1,
+  "finalize": "python scripts/finalize_tiegcm_v17.py",
+  "forbidden_model_entry_not_called": true,
+  "raw_logs_kept_local": true
+}

@@ -1,0 +1,27 @@
+{
+  "readonly_batch_wall_s": 22.630435682833195,
+  "sampling_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee",
+  "peak_sampled_tree_RSS_bytes": 273186816,
+  "worker_process_max_RSS_MiB": 269.19921875,
+  "batch_children_CPU_user_s": 18.171919,
+  "batch_children_CPU_system_s": 4.051981,
+  "sampling_gaps": 0,
+  "independent_part_wall_s": 10.223362628370523,
+  "independent_part_CPU_s": 9.959123772000002,
+  "independent_part_already_included_in_batch": true,
+  "budget": {
+    "wall_s": 600,
+    "RSS_GiB": 4,
+    "output_MiB": 150
+  },
+  "samples": 87,
+  "actual_parent_direct_wait": true,
+  "actual_parent_returncode": 0,
+  "full_audit_launches": 1,
+  "full_audit_retry": 0,
+  "new_TIEGCM": 0,
+  "new_download_bytes": 0,
+  "GPU": 0,
+  "DART": 0,
+  "orbit": 0
+}

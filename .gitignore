@@ -430,3 +430,10 @@ credentials.json
 !/experiments/tiegcm_2022_mar25_formal_run_v1/figures/
 !/experiments/tiegcm_2022_mar25_formal_run_v1/figures/*.png
 /experiments/tiegcm_2022_mar25_formal_run_v1/*_local.*
+
+# V17: flat audit summaries only; raw warnings, full logs and fixtures remain local
+/experiments/tiegcm_2022_mar25_postrun_acceptance_v17/**
+!/experiments/tiegcm_2022_mar25_postrun_acceptance_v17/
+!/experiments/tiegcm_2022_mar25_postrun_acceptance_v17/*.json
+!/experiments/tiegcm_2022_mar25_postrun_acceptance_v17/*.csv
+/experiments/tiegcm_2022_mar25_postrun_acceptance_v17/*_local.*

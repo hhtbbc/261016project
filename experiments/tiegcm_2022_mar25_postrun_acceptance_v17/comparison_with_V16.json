@@ -1,0 +1,23 @@
+{
+  "V16_original": "ENGINEERING_FAIL",
+  "V16_failure": "read-only child killed by fatal regex source-context np.nan",
+  "V16_main_acceptance_JSON_exists": false,
+  "V17": "ENGINEERING_PASS",
+  "physical_model_data_identical": true,
+  "primary_records": [
+    18,
+    18
+  ],
+  "secondary_records": [
+    408,
+    408
+  ],
+  "independent_target_coverage": [
+    2880,
+    2880
+  ],
+  "main_target_coverage_V16": "NO_COMPLETE_RESULT",
+  "main_target_coverage_V17": 2880,
+  "new_density_prediction_claim": false,
+  "old_failure_not_overwritten": true
+}

@@ -1,0 +1,75 @@
+{
+  "overall": "ENGINEERING_PASS",
+  "V16_ORIGINAL_ENGINEERING_STATUS": "FAIL",
+  "ACTUAL_MODEL_HISTORY": "COMPLETED_IN_V16",
+  "model_launches_this_task": 0,
+  "full_readonly_reaudit_attempts": 1,
+  "automatic_retries": 0,
+  "main_acceptance": "PASS",
+  "independent_acceptance": "PASS",
+  "batch_parent_returncode": 0,
+  "batch_supervision_qualification": "PASS",
+  "batch_cleanup_verified": true,
+  "read_only_wall_s": 22.630435682833195,
+  "peak_sampled_tree_RSS_bytes": 273186816,
+  "main_checks": {
+    "supervision": "PASS",
+    "MPI_rank_exits": "PASS",
+    "step_logs": "PASS",
+    "output_files": "PASS",
+    "target_observation_queries": "PASS"
+  },
+  "records": {
+    "primary": 18,
+    "secondary": 408,
+    "NetCDF_files": 35,
+    "target_day_frames": 25
+  },
+  "all_warm_native": {
+    "records": 408,
+    "DEN_ZG_fills_nonfinite_nonpositive": 0,
+    "ZG_nonmonotonic": 0,
+    "actual_GPI_max_abs_difference": 5.684341886080802e-14,
+    "tolerance": 1e-10,
+    "source": "independent raw arrays, not main PASS field"
+  },
+  "actual_GPI_main_max_abs": 2.842170943040401e-14,
+  "query_main": {
+    "eligible": 2880,
+    "success": 2880,
+    "failed": 0,
+    "reason_counts": {},
+    "failure_examples": [],
+    "eight_columns": true,
+    "zero_weight_columns_checked": true,
+    "extrapolation": false,
+    "identity": "PROVISIONAL Map-A / HINDCAST / NOT_BLIND / EXTERNAL_DATUM_UNVERIFIED",
+    "no_density_error_metrics": true
+  },
+  "query_independent": {
+    "method": "Independent neighbor/time/vertical eight-column reconstruction; unchanged explicit Map-A assumption, no density-error calculation",
+    "N_total": 2880,
+    "N_eligible": 2880,
+    "N_success": 2880,
+    "N_failure": 0,
+    "reason_counts": {},
+    "column_checks": 23040,
+    "zero_weight_columns_not_skipped": true,
+    "no_extrapolation": true,
+    "comparison_to_main_counts": "MATCH",
+    "identity": "PROVISIONAL Map-A / HINDCAST / NOT_BLIND / EXTERNAL_DATUM_UNVERIFIED"
+  },
+  "warning_count": 50,
+  "distinct_targeted_and_regression_tests": 35,
+  "frozen_scientific_rules_changed": false,
+  "next_density_validation": "READY_TO_REQUEST_EXPLICIT_AUTHORIZATION_NOT_RUN",
+  "density_error_metrics": 0,
+  "correction_fits": 0,
+  "scientific_gates": {
+    "SCIENCE_TRAINING_READY": false,
+    "EXTERNAL_DATUM": "UNVERIFIED",
+    "Restart": "FAIL",
+    "DART": "NOT_ADMITTED",
+    "REAL_ORBIT": "BLOCKED"
+  }
+}

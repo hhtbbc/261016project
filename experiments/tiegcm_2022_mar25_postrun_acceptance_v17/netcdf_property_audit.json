@@ -1,0 +1,651 @@
+{
+  "records": [
+    {
+      "file": "secondary_001.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_001.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_002.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_002.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_003.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_003.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_004.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_004.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_005.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_005.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_006.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_006.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_007.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_007.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_008.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_008.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_009.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_009.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_010.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_010.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_011.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_011.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_012.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_012.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_013.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_013.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_014.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_014.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_015.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_015.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_016.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_016.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_017.nc",
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    },
+    {
+      "file": "secondary_017.nc",
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "attribute_dtype": "float64",
+          "value": 1e+36,
+          "native_cast": 9.999999616903162e+35,
+          "exactly_representable": false
+        }
+      }
+    }
+  ],
+  "policy": "No attribute or data change; explicit native validity gates before old query reader, warnings retained"
+}

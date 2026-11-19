@@ -1,0 +1,58 @@
+{
+  "PASS": true,
+  "run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+  "original_NetCDF_files": 35,
+  "all_NetCDF_SHA_match_V16": true,
+  "parent_and_rank_returncodes": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "steps_all_ranks": 24480,
+  "reservations_and_failed_records_preserved": true,
+  "original_V16_engineering_status": "ENGINEERING_FAIL",
+  "original_input_GPI_CDF_SHA_match": true,
+  "raw_property_examples": [
+    {
+      "variable": "DEN",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "dtype": "float64",
+          "value": 1e+36
+        }
+      }
+    },
+    {
+      "variable": "ZG",
+      "dtype": "float32",
+      "dimensions": [
+        "time",
+        "ilev",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "missing_value": {
+          "dtype": "float64",
+          "value": 1e+36
+        }
+      }
+    }
+  ],
+  "protection": "Application once-reservation plus read-only opens and before/after SHA. Owner-writable files are not OS immutable; no chmod/data changes.",
+  "run_directory_mode": "0o755",
+  "raw_file_modes": [
+    "0o644"
+  ],
+  "protected_files": 2506,
+  "new_model_launches": 0
+}

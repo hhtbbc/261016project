@@ -1,0 +1,24 @@
+{
+  "old_asset_manifest_SHA256": "22353f4c3788a88da7f4e212cf120b6e67097c0451e69fb325fc6b1d1c120079",
+  "actual_run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+  "V16_output_manifest_SHA256": "71ac467ca3bf9864c7beb73384430f3dcdc12af558a4fd131085815874759142",
+  "audit_protocol_SHA256": "99e2e115e72895f41044e0200c3f2b7242fff5cb6721e77add24addfda5b18e4",
+  "actual_batch_status_SHA256": "35867207a26de4fe312781bf3d7232df85fcb8af176b5b6ea38c04aa8fa36633",
+  "actual_main_document_SHA256": "4df8e632179c317cf19954c6183ada1ab1053d6eed0a297f68d0ec97fbde5738",
+  "independent_document_SHA256": "6c99dff31a6a4107075f9abec29444bb0a79ddbee0b324f638f2c6792ee50b31",
+  "new_code": {
+    "src/runtime/readonly_audit_warning_channel.py": "22e798fe1db6916f2762f01b8e43808be534910727cdc0476faab4ff2ad2a89d",
+    "scripts/audit_tiegcm_v17_readonly.py": "446291da6f089af0ef50ed9dedc6afd461eacb1568736694eb69845fb5792dd4",
+    "scripts/launch_tiegcm_v17_readonly.py": "2c63c4cf2e87cf99ec2ce81ae055ae47dfe0f52f1909c62ca3671397f6de8f77",
+    "scripts/verify_tiegcm_v17_independent.py": "bcb7183428dfd9d587f77ff5e70b95154cb7cbd9063662c7250374283c77d4c0",
+    "tests/test_tiegcm_v17_readonly.py": "806ae2399e143cc739413d16292ad791ef6848191faab2edecdcb8bbc656492d",
+    "src/runtime/supervisor.py": "a4eaa514590ac30e2bd5ee581630272ad637fdcf378ddf2446742a0a1508a1b7",
+    "src/atmosphere/tiegcm_mar25_acceptance.py": "4263fa8fad4948932db5b74ddb6f067f0323878102fe7967f029f17f926aab5a",
+    "src/atmosphere/hourly_tiegcm_observation.py": "31d3cba796e6304f00e73fe8cb08b1aedf6de3e11b8ef4b20b0860d3e4066ff8",
+    "src/atmosphere/causal_observation_operator.py": "82ba4d1f413cc8f1c6c16219927204dc8b8ba888a1bf6172715738b3cac43f0d",
+    "src/atmosphere/provisional_coordinate_adapter.py": "70487ead9b944e8e33187a567ad87666595789238c27416a552044d421a96e15",
+    "src/evaluation/swarm_crossyear.py": "5fbe5916cede884e9f519279f766134781ecf96784fa4ea6113954b300d63ca2"
+  },
+  "original_model_logs_not_replayed_as_success": true,
+  "independent_document_written_before_parent_wait": "Its returncode field is pending by design; actual complete parent0 is recorded in result/resource files after direct wait."
+}
