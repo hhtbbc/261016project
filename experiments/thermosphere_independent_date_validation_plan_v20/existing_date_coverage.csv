@@ -1,0 +1,7 @@
+date,role_now,model,model_run_identity,complete_target_day,Swarm_A,scoring,new_run_needed,independent_season,spinup_at_06_days,spinup_at_18_days,oldMarch25gap
+2021-03-23,USED_VALIDATION_NOT_FUTURE_HOLDOUT,experiments/tiegcm_2021_spinup_14day_v1/B14,2021_B14_17DAY,True,ACQUIRED_QUALITY_MATCHED,V13 latitude,False,False,14.25,14.75,not applicable
+2021-03-24,USED_DEVELOPMENT_NOT_BLIND,experiments/tiegcm_2021_spinup_14day_v1/B14,2021_B14_17DAY,True,ACQUIRED_QUALITY_MATCHED,V10/V11/V12 development,False,False,15.25,15.75,not applicable
+2021-03-25,USED_VALIDATION_NOT_FUTURE_HOLDOUT,experiments/tiegcm_2021_spinup_14day_v1/B14,2021_B14_17DAY,True,ACQUIRED_QUALITY_MATCHED,V14A new-date,False,False,16.25,16.75,not applicable
+2022-03-23,USED_VALIDATION_NOT_FUTURE_HOLDOUT,experiments/tiegcm_2022_b14_exploratory_pair_v2/B14,OLD2022_B14_16DAY,True,ACQUIRED_QUALITY_MATCHED,V13 latitude,False,False,14.25,14.75,not applicable
+2022-03-24,USED_DEVELOPMENT_NOT_BLIND,experiments/tiegcm_2022_b14_exploratory_pair_v2/B14,OLD2022_B14_16DAY,True,ACQUIRED_QUALITY_MATCHED,V10/V11/V12 development,False,False,15.25,15.75,not applicable
+2022-03-25,USED_VALIDATION_NOT_FUTURE_HOLDOUT,experiments/tiegcm_2022_mar25_execution_review_v1/actual_run,NEW17DAY_V16,True,ACQUIRED_QUALITY_MATCHED,V18 single score+V19 closed,False,False,16.25,16.75,CLOSED_V16_TO_V19

@@ -1,0 +1,16 @@
+{
+  "PASS": true,
+  "scope": "offline plan dates/index/coverage/cost/core protocol check, not physics or density validation",
+  "candidate_supports_checked": 6,
+  "resource_batches_checked": 3,
+  "oldMarch25gap_closed": true,
+  "observations_all_index_only": true,
+  "seasonal_seed_identity_pending": true,
+  "actual_Fobs_missing2021": [
+    "2021-05-09",
+    "2021-06-16"
+  ],
+  "original_core_fields_unchanged": 22,
+  "no_new_density_access": true,
+  "no_GPI_generation": true
+}

@@ -1,0 +1,88 @@
+{
+  "existing_march_seed": {
+    "path": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+    "SHA256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+    "bytes": 16993144
+  },
+  "official_directory": {
+    "path": "data/raw/tiegcm_2021_spinup_initial_condition_v1/directory.html",
+    "SHA256": "41219d708de8112817dbb8576a3fb10e864c6292cd6542890992dfaf2c42682e",
+    "bytes": 9322
+  },
+  "current_seed_record_year": 2002,
+  "current_seed_SOURCE_START": [
+    80,
+    0,
+    0
+  ],
+  "current_seed_dimensions": {
+    "time": 1,
+    "lon": 72,
+    "lat": 36,
+    "lev": 29,
+    "ilev": 29,
+    "mlon": 81,
+    "mlat": 97,
+    "mlev": 32,
+    "imlev": 32,
+    "mtimedim": 3,
+    "latlon": 2,
+    "dtidedim": 2,
+    "sdtidedim": 10,
+    "datelen": 24,
+    "filelen": 1024
+  },
+  "full_state_count_previously_verified": 34,
+  "original_source_version_field": "tiegcm_trunk",
+  "existing_march_seed_status": "LEGAL_STRUCTURE_SEASON_ADAPTATION_UNVERIFIED",
+  "current_binary": "experiments/tiegcm2_apex2023_v1/tiegcm2.0",
+  "expected_binary_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+  "binary_exists": true,
+  "actual_version": {
+    "tag": "tiegcm2.0",
+    "commit": "da712811d925376ff8ef40ff64bda7cc070ca661",
+    "archive_SHA256": "4c9c43cdb2c8ad20fef45a711eec5b8cc8c079511c18de8cde576cd7b31a352d",
+    "evidence": {
+      "path": "logs/tiegcm_source_acquisition.json",
+      "SHA256": "af6e97fb2f726b1346873fe1db1be68442fd41351438466da4e8da4751d7595f",
+      "bytes": 397
+    }
+  },
+  "apex_update": {
+    "official_notice": "https://www.hao.ucar.edu/modeling/tgcm/index.php",
+    "commit": "84185ee0b97307567c78e32ce85643b48a5cc1a9",
+    "raw_url": "https://raw.githubusercontent.com/NCAR/tiegcm/84185ee0b97307567c78e32ce85643b48a5cc1a9/src/apex.F90",
+    "source_sha256": "7dc94d3826d1b8d555fa6a6dea26e2a3788fbca2a86581aff3bcdefb52c5cdc3",
+    "patch_sha256": "336086a838722957e65390a46eae552e743f3d2707b839d95dc59a2e3448519e",
+    "old_source_sha256": "9b227da3fdf31692424a7f39f0107deed5f28f01514c4a222f3d5d725ecc8cf4",
+    "original_source_preserved": true,
+    "source_list_apex_entries": [
+      "apex.F90"
+    ],
+    "version_label": "TIE-GCM2.0 + official 2025 apex/IGRF14 update + recorded GNU12 compatibility overlays"
+  },
+  "physical_defaults": {
+    "ibgrddata": 0,
+    "zbound_formula": "136.291/sqrt(2.)*1.e5 cm",
+    "zbound_approx_km": 96.37229031469575,
+    "GSWM_migrating_diurnal": true,
+    "GSWM_migrating_semidiurnal": true,
+    "GSWM_nonmigrating_diurnal": false,
+    "GSWM_nonmigrating_semidiurnal": false
+  },
+  "physics": {
+    "grid": "5degrees,36latx72lon,29ilev; DEN/ZG remainilev",
+    "STEP": 60,
+    "MPI": 4,
+    "OMP": 1,
+    "POTENTIAL_MODEL": "HEELIS",
+    "CALC_HELIUM": 1,
+    "GSWM_migrating_diurnal": true,
+    "GSWM_migrating_semidiurnal": true,
+    "ibgrddata": 0
+  },
+  "source_policy": "PENDING: preserving exact mareqx cold seed keeps initializer fixed but summer/winter adaptation unproved. Seasonal official smax seeds are acquisition/audit candidates only, not automatic primary replacements. Before run, explicitly approve/freeze one exact seed SHA per season pair. A changed seed changes background identity; cross-season comparison cannot then isolate date alone.",
+  "source_clock_gate": "Actual00:00 complete primary record required for00:00 START; SOURCE_START must equal actual native selection, not rename/relabel or fabricate_NM",
+  "spinup": "14days candidate only, not proven seasonal convergence; warm elapsed14.25days at06Z and14.75days at18Z",
+  "restart": "FAIL; no restart/append, independently cold-start each run"
+}

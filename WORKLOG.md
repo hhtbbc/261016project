@@ -1285,3 +1285,14 @@ TIEGCM_2022_MAR25_INDEPENDENT_VERIFICATION_V19=VERIFICATION_CLOSED_PASS。V18原
 22项测试（19合成/3序列化与检查点）通过。原只读worker在表格阶段前因numpy.bool_ JSON序列化中断，原result.json与预约/日志保留；仅无损序列化补充后接续从未执行的冻结表格代码，不重跑原完整入口，闭环独立写result_closed.json。监督两段6.246602+10.389655=16.636257秒，峰采样112.750MiB，退出1/0如实保留。原V18本地NPZ/完整ID缺少旧公开哈希的证据边界明确记录，并以原件/历史样本SHA/窗口ID/原生模型交叉核实当前身份，未伪造追溯证明。
 
 报告reports/TIEGCM_2022_MAR25_INDEPENDENT_VERIFICATION_V19.md；决策docs/TIEGCM_V19_NEXT_DECISION.md；证据experiments/tiegcm_2022_mar25_independent_verification_v19/。仅新证据关闭复核；SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED保持。后续独立日期覆盖审查需新任务，本轮停止，无新模型/下载/AI/轨道/外部联系。
+
+
+## 2026-11-19 V20：独立季节/活动条件验证规划
+
+THERMOSPHERE_INDEPENDENT_DATE_VALIDATION_PLAN_V20=PARTIALLY_READY。确认V19数值闭环，2022累计联合0/12、2021冻结1/12，非方法科学收益PASS。旧2022Mar25缺模型/观测和建议重跑17天已过时，V16—V19身份纳入新6日期已用覆盖矩阵，旧计划不改。六个夏秋冬候选均无目标模型场；Swarm0301仅缓存目录确认，实际CDF均未取得/未验证，未读候选密度。
+
+2021夏季101日Fobs有May09/June16两处-1，168Kp完整但GPI不能生成；2022夏季缺77日Fobs/168Kp。2021秋季101Fobs/168Kp已齐，是优先可执行备选；2022秋季缺101/168。冬季2021/22缺Fobs25/97日，2022Kp缺168。官方目录有junsol/sepeqx/decsol5°smax约16M，但均未取得，不能猜SOURCE_START/34状态；现有mareqx原生2002DOY80合法结构不等于夏冬适用。初态政策待批准，换季节源须显式背景身份，不伪称纯日期因素。
+
+方法/窗口/指标/六日期与Kp操作性分类（全8def桶max<=2安静、>=5增强，其余中间，缺失UNKNOWN）已冻结。太阳指标连续报告；2021Jun21 Kpmax1.333安静，Sep23/Dec21均3.667中间，2022未知；不根据密度选阈值/日期。每次16天23040步预计40.05—40.77分钟、约3.14GiB；两次80.11—81.54分钟/约6.28GiB、顺序RSS预算16GiB，模型每次拟4800秒/5GiB，另分工程/评分/复核授权，不一次跑六组。
+
+下一轮明确建议先授权秋季两份A0301ZIP共279776bytes、2022Fobs101/Kp168及一个官方sepeqx_smax初态（小数据1MiB、初态20MiB，合计21MiB网络cap），只取得并静态验收，不积分/生成GPI/评分。保留夏季高科学价值目标及缺口，不自动切换执行。12CPU测试通过；初次datetime通配符遮蔽已修正，错误日志保留，metadata复跑无物理数值扫描。报告reports/THERMOSPHERE_INDEPENDENT_DATE_VALIDATION_PLAN_V20.md；精确下一任务docs/THERMOSPHERE_V20_NEXT_ACQUISITION_TASK.md和新目录next_acquisition_request_final.json。核心预注册成功但数据/初态身份未闭合，不宣称全方案RUN_READY。旧科学/高度/Restart/DART/真实轨道门禁保持；新下载/积分/GPI/评分/拟合/GPU/DART/轨道均0。本轮停止。

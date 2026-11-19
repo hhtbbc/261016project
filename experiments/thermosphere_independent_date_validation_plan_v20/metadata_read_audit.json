@@ -1,0 +1,26 @@
+{
+  "reused_old_inventory_groups": 23,
+  "new_endpoint_files_read": [
+    {
+      "file": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run/secondary_001.nc",
+      "bytes": 192669016,
+      "variables_read": [
+        "year endpoints",
+        "mtime endpoints"
+      ],
+      "DEN_ZG_values_read": false
+    },
+    {
+      "file": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run/secondary_017.nc",
+      "bytes": 192669016,
+      "variables_read": [
+        "year endpoints",
+        "mtime endpoints"
+      ],
+      "DEN_ZG_values_read": false
+    }
+  ],
+  "large_NetCDF_physical_values_read": 0,
+  "original_full_model_SHA_sweep": false,
+  "no_density_CDF_opened": true
+}

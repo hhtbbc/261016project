@@ -1,0 +1,51 @@
+{
+  "execution_now": false,
+  "stage": "First acquire and inspect missing summer inputs, no model or score",
+  "Swarm_products": [
+    {
+      "date": "2021-06-21",
+      "product": "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+      "official_download_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+      "cached_bytes": 140229
+    },
+    {
+      "date": "2022-06-21",
+      "product": "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+      "official_download_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+      "cached_bytes": 138722
+    }
+  ],
+  "Swarm_expected_bytes": 278951,
+  "small_network_total_cap_MiB": 1,
+  "ZIP_extraction_cap_MiB": 2,
+  "GFZ2022": {
+    "Fobs_missing": "2022-05-20 through2022-08-04 inclusive77daily values",
+    "URL": "https://kp.gfz.de/app/json/?start=2022-05-20T00:00:00Z&end=2022-08-04T23:59:59Z&index=Fobs",
+    "Kp_missing": "2022-06-05 through2022-06-25 inclusive168def bins",
+    "Kp_URL": "https://kp.gfz.de/app/json/?start=2022-06-05T00:00:00Z&end=2022-06-25T23:59:59Z&index=Kp&status=def"
+  },
+  "GFZ2021": {
+    "existing": "365day archive and summer Kp already present",
+    "bad_Fobs": [
+      "2021-05-09",
+      "2021-06-16"
+    ],
+    "new_minimal_check": "One small official June16 Fobs response/quality or revision evidence; if -1 persists remain blocked. Do not repeat unchanged May09 full-year/provider-comparison audits or silently use Fadj/INT.",
+    "no_imputation": true
+  },
+  "seasonal_source": {
+    "product": "tiegcm_res5.0_junsol_smax_prim.nc",
+    "URL": "https://download.hao.ucar.edu/pub/tgcm/data/tiegcm2.0/tiegcm_res5.0_junsol_smax_prim.nc",
+    "cached_size": "approx16M NOT Content-Length verified",
+    "separate_network_cap_MiB": 20,
+    "checks": "officialTLS/HTTP/Content-Length/bounded atomic download/SHA; native complete34primary fields/grid/units/year/mtime/00clock; SOURCE_START from actualrecord only; independent seasonal applicability review"
+  },
+  "total_authorization_network_cap_MiB": 21,
+  "no_directory_listing_download": true,
+  "no_other_satellites_or_dates": true,
+  "if_blocked": "Keep summer2021 blocked. Report2022summer independent readiness. Autumn23pair is predeclared alternative requiring explicit approval before switching; no automatic date selection.",
+  "output_new_directory_only": true,
+  "CPU_budget_s": 600,
+  "RSS_budget_GiB": 4,
+  "no_model_no_GPI_generation_without_separate_preparation_authorization": true
+}

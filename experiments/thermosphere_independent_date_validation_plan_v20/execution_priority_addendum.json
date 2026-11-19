@@ -1,0 +1,15 @@
+{
+  "original_protocol_preserved": true,
+  "original_calendar_review_pair_order": [
+    "summer",
+    "autumn",
+    "winter"
+  ],
+  "data_acquisition_recommendation": "autumn pair first because2021summer measured official driver gaps",
+  "dates_methods_or_scoring_rules_changed": false,
+  "target_density_values_accessed": 0,
+  "requires_explicit_user_authorization_to_acquire": true,
+  "all_pairs_remain_in_registered_panel": true,
+  "interpretation": "fixed_pair_order in original preregistration is calendar review/reporting order, not permission to run an ineligible summer pair. Physical execution remains subject to new task and frozen actual seed/driver identity.",
+  "final_next_request_SHA256": "4b8c457b72e192883c9dd4d8b182863240a99e57710e4beb88c99fb8892057c1"
+}

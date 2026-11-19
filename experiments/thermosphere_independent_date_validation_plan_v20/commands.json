@@ -1,0 +1,9 @@
+{
+  "activation": "source scripts/activate_orbit.sh",
+  "tests_final": "PYTHONPATH=project/src:project python -m unittest discover -s tests -p test_independent_date_planning_v20.py -v",
+  "worker": "python scripts/plan_independent_dates_v20.py under existing runtime.supervisor CPU bounds",
+  "documentation": "python scripts/document_independent_dates_v20.py",
+  "initial_failure": "datetime namespace shadowing before model_inventory output; preserved logs/v20_planning_once_local",
+  "successful_supervision": "logs/v20_planning_importfix_local",
+  "no_model_or_scoring_or_GPI_commands": true
+}

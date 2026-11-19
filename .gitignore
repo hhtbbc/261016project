@@ -454,3 +454,10 @@ credentials.json
 !/experiments/tiegcm_2022_mar25_independent_verification_v19/*.csv
 /experiments/tiegcm_2022_mar25_independent_verification_v19/*_local.*
 /experiments/tiegcm_2022_mar25_independent_verification_v19/float_roundoff_diagnosis.json
+
+# V20: offline planning summaries only; no newly acquired resources or execution logs
+/experiments/thermosphere_independent_date_validation_plan_v20/**
+!/experiments/thermosphere_independent_date_validation_plan_v20/
+!/experiments/thermosphere_independent_date_validation_plan_v20/*.json
+!/experiments/thermosphere_independent_date_validation_plan_v20/*.csv
+/experiments/thermosphere_independent_date_validation_plan_v20/*_local.*

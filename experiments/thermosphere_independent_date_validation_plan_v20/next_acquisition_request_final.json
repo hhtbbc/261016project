@@ -1,0 +1,51 @@
+{
+  "status": "REQUEST_ONLY_NOT_EXECUTED",
+  "recommended_packet": "AUTUMN_PAIR_DATA_AND_SEED_AUDIT",
+  "why": "2021autumn raw drivers complete; summer2021 has two invalid official Fobs and cannot currently form a complete pair. This is feasibility ordering, not error-driven date selection.",
+  "original_six_dates_and_methods_unchanged": true,
+  "summer_draft_retained": "next_acquisition_request.json is the reviewed summer alternative, not the final recommended packet",
+  "dates": [
+    "2021-09-23",
+    "2022-09-23"
+  ],
+  "Swarm": [
+    {
+      "date": "2021-09-23",
+      "product": "SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.ZIP",
+      "cached_bytes": "139634",
+      "official_download_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.ZIP"
+    },
+    {
+      "date": "2022-09-23",
+      "product": "SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.ZIP",
+      "cached_bytes": "140142",
+      "official_download_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.ZIP"
+    }
+  ],
+  "Swarm_total_bytes": 279776,
+  "GFZ2021": "Reuse cached full2021 archive; no new2021driver download",
+  "GFZ2022": {
+    "Fobs": "101daily values2022-07-29 through2022-11-06",
+    "Fobs_URL": "https://kp.gfz.de/app/json/?start=2022-07-29T00:00:00Z&end=2022-11-06T23:59:59Z&index=Fobs",
+    "Kp": "168def3h bins2022-09-07 through2022-09-27",
+    "Kp_URL": "https://kp.gfz.de/app/json/?start=2022-09-07T00:00:00Z&end=2022-09-27T23:59:59Z&index=Kp&status=def"
+  },
+  "initial_candidate": {
+    "file": "tiegcm_res5.0_sepeqx_smax_prim.nc",
+    "URL": "https://download.hao.ucar.edu/pub/tgcm/data/tiegcm2.0/tiegcm_res5.0_sepeqx_smax_prim.nc",
+    "size": "cached approx16M; actual Content-Length/SHA/native state must be verified",
+    "purpose": "Acquire/audit only. Does not automatically replace the original mareqx seed or authorize model use."
+  },
+  "requested_network_small_MiB": 1,
+  "requested_initial_separate_MiB": 20,
+  "requested_total_network_MiB": 21,
+  "requested_ZIP_extraction_MiB": 2,
+  "CPU_s": 600,
+  "RSS_GiB": 4,
+  "model_runs": 0,
+  "GPI_generation": 0,
+  "density_scores": 0,
+  "no_other_satellite_or_date": true,
+  "stop_on": "version/size/source/SHA/CRC/CDF contract/source-clock mismatch; badFobs; no imputation",
+  "required_outputs": "bounded receipts, CDF quality/window/band counts, raw GFZ101/168 coverage, actual seasonal34-state primary identity and clock, seed-policy proposal. Do not score/model or auto-use seasonal source."
+}

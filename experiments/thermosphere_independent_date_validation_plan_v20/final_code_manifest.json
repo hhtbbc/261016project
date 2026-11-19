@@ -1,0 +1,24 @@
+{
+  "code": [
+    {
+      "path": "src/evaluation/independent_date_planning.py",
+      "SHA256": "b95fc9371900aca58f5155ea7bf0402eba536555dcb095f39bdc80e57d28f13b"
+    },
+    {
+      "path": "scripts/plan_independent_dates_v20.py",
+      "SHA256": "aa5134f1f573b61ec2afdb65f3a5a972d10e681e10a36402a2a02a8164177df9"
+    },
+    {
+      "path": "scripts/document_independent_dates_v20.py",
+      "SHA256": "52c50930168ee42904ddf36bcb3ea9067f9c86d1eb8b10d4382f26bc85b5a052"
+    },
+    {
+      "path": "tests/test_independent_date_planning_v20.py",
+      "SHA256": "2ed8bcc7c50f6af616f3486fdcee6525ff8fc3dcf5cf8976f202396b537837f7"
+    }
+  ],
+  "protocol_SHA256": "eb27a080199d656f6018f47834cc9eaef07897009360ca184d6511e4d3aeb2c4",
+  "execution_priority_addendum_SHA256": "e36be239ef32e6ddda7445330c4fcd48c148c002d5cb97d0616b2d8e536e506d",
+  "final_request_SHA256": "4b8c457b72e192883c9dd4d8b182863240a99e57710e4beb88c99fb8892057c1",
+  "core_protocol_unmodified": true
+}

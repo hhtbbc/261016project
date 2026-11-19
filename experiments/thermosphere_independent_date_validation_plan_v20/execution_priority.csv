@@ -1,0 +1,4 @@
+execution_acquisition_order,pair,dates,status,reason
+1,autumn2021/22,2021-09-23;2022-09-23,DATA_ACQUISITION_RECOMMENDED_NOT_RUN_READY,"2021rawdrivers complete;2022drivers small,seasonal source indexed; no observed-density error access"
+2,summer2021/22,2021-06-21;2022-06-21,HIGH_SCIENTIFIC_VALUE_BLOCKED_2021_FOBS,"Keep original first-review/high seasonal-increment role; resolveMay09/June16 first; summer2022 alone could later be assessed with explicit authorization, not called a complete pair"
+3,winter2021/22,2021-12-21;2022-12-21,LATER_DATA_AND_SEED_GATES,Crossyear Fobs support25/97missingdays plus2022Kp168; no need to approve all6runs now

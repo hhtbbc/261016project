@@ -1,0 +1,49 @@
+{
+  "historical_runs": [
+    {
+      "source": "experiments/tiegcm_2021_spinup_14day_v1/B14/run_status.json",
+      "SHA256": "7b26b7c1389cd35fb55719a0acef9b9284de6ac77319d3f93ea28d1214eb7ecf",
+      "steps": 24480,
+      "days": 17,
+      "wall_s": 2553.404599379748,
+      "output_bytes": 3581251512,
+      "CPU_s": 10201.597276,
+      "peak_sampled_RSS_bytes": 992591872
+    },
+    {
+      "source": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/run_status.json",
+      "SHA256": "84ec7b3735adba29b8c1ec22452fed8db032bb56c32764db639be913f91e3d6c",
+      "steps": 23040,
+      "days": 16,
+      "wall_s": 2429.787853844464,
+      "output_bytes": 3371589248,
+      "CPU_s": null,
+      "peak_sampled_RSS_bytes": 989720576
+    },
+    {
+      "source": "experiments/tiegcm_2022_mar25_formal_run_v1/result.json + resource_audit.json",
+      "SHA256": "5f2e11cc8c287afe4d06637543906ea20e2b0717e2b94ab8410b8f78322ff1ea",
+      "steps": 24480,
+      "days": 17,
+      "wall_s": 2599.2285841442645,
+      "output_bytes": 3581251512,
+      "CPU_s": 10394.997941,
+      "peak_sampled_RSS_bytes": 1015971840
+    }
+  ],
+  "formulas": "elapsed/actualsteps*23040; output/actualdays*16; actual user+system CPU/steps*23040; 1.5x max soft planning; requested hard4800 distinct from estimate",
+  "historical_engineering": {
+    "V17_wall_s": 22.630435682833195,
+    "records": 408
+  },
+  "historical_scoring": {
+    "V18_wall_s": 11.810303147882223,
+    "scope": "one actual score plus partial independent verifier; exit1, not a fully successful future pipeline timing"
+  },
+  "historical_verification": {
+    "V19_supervised_s": 16.636257253587246,
+    "scope": "C1/C2 and complete table checkpoint, no scoring"
+  },
+  "afterrun_requests": "Separate engineering600s/RSS4GiB, score600s/RSS4GiB, independent verification600s/RSS4GiB perdate, no automatic retry",
+  "sampling_limits_are_not_OS_isolation": true
+}

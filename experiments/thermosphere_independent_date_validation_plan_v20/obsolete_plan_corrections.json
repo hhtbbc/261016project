@@ -1,0 +1,8 @@
+{
+  "original_plan_preserved": true,
+  "old2022Mar25_model_gap": "CLOSED; do not run again",
+  "old2022Mar25_observation_gap": "CLOSED; CDF verified and matched2880",
+  "old17day_recommendation": "ALREADY_EXECUTED_V16_ENGINEERING_V17_NUMERICS_V19",
+  "remaining_new_B14_mature_unused_dates_in_existing_runs": 0,
+  "new_run_vs_old16day": "Same original smax seed/solver/science options; independently launched cold run with STOP/output schedule and GPI coverage extension; common drivers validated by prior preparation, no claim of fresh independent date or new initialization perturbation"
+}

@@ -1,0 +1,202 @@
+{
+  "files": [
+    {
+      "path": "docs/THERMOSPHERE_V20_NEXT_ACQUISITION_TASK.md",
+      "SHA256": "32fd9282bafbf13478d31d2704df889c86cf85eeac1f86613dce3b184465f84e",
+      "bytes": 1243
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/activity_conditions.csv",
+      "SHA256": "4aca113a892da00480a92fedd06d7bce7dd515fe7f19271db5e81bc993b999b4",
+      "bytes": 4022
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/candidate_priority.csv",
+      "SHA256": "43582e5aaa7489a3acb1c31d51634a2c3c3e486f2a9f25f109bde1c6d2ec2abf",
+      "bytes": 1923
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/commands.json",
+      "SHA256": "f5f1bace2d74ec2db372f5b820da7998aaa2a21f8a751932b9012c2b4e12b520",
+      "bytes": 597
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/driver_gap_details.csv",
+      "SHA256": "dda376e358a9c0a6631f387afd74ba4c80f7834d112a869eaf239c33153c0759",
+      "bytes": 79263
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/driver_requirements.csv",
+      "SHA256": "e423f57bb14d7dc64a1a71c04f063caa9dcebe5bc95befdec53682da64fb2a9d",
+      "bytes": 1583
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/driver_source_inventory.json",
+      "SHA256": "ae48280c62972ec7331537749374b434530092a1d750fa44d49e8ccf35dc3bc2",
+      "bytes": 5622
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/execution_priority.csv",
+      "SHA256": "5a91315676691ba6cf96c21a350530f0b34816cc0a939192f08cba1c53209a44",
+      "bytes": 647
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/execution_priority_addendum.json",
+      "SHA256": "e36be239ef32e6ddda7445330c4fcd48c148c002d5cb97d0616b2d8e536e506d",
+      "bytes": 772
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/existing_date_coverage.csv",
+      "SHA256": "a756272adda3cf8a7ff5cd407c9c6caf5a8d2e86b565229679d3e73d0ba909cd",
+      "bytes": 1343
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/existing_model_inventory_updated.csv",
+      "SHA256": "5f2e5a3f549627ed26b6bf2109139036e5407c9c76b69e3f48a5d1b812543399",
+      "bytes": 6468
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/final_code_manifest.json",
+      "SHA256": "025de751db494d28cb74dfdd1c94e08f9f868be654c02552343880a591b80ef6",
+      "bytes": 965
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/independent_verification.json",
+      "SHA256": "fd72552400ca694d4cbdc3b7eff55e79a1e5213e6607f644ded5560b5f344155",
+      "bytes": 480
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/initial_field_and_configuration_audit.json",
+      "SHA256": "ce8c6bd2db7b4902a1384399204e4d1eefef1106ae1c8750cd886d86e35383c2",
+      "bytes": 3674
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/metadata_read_audit.json",
+      "SHA256": "40f76a9a3cfc038c31fda8a986c88f3a91c2c5475a8133101febdfa7f3dfb276",
+      "bytes": 701
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/next_acquisition_request.json",
+      "SHA256": "405f888518a21267b21fd77b6ce58a4da5e7d2df34baa4d9bd46abf95359fb55",
+      "bytes": 2712
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/next_acquisition_request_final.json",
+      "SHA256": "4b8c457b72e192883c9dd4d8b182863240a99e57710e4beb88c99fb8892057c1",
+      "bytes": 2716
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/observation_data_requirements.csv",
+      "SHA256": "f1098faa2aa7109d118202189cf587eb763621654ffbce3872a3ad10cd727cb2",
+      "bytes": 6041
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/obsolete_plan_corrections.json",
+      "SHA256": "d1be039c692eba8663b042deeb4e34a11c30fbb0c7a435a24176efe0c9db6dde",
+      "bytes": 591
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/preflight.json",
+      "SHA256": "2647a07e09c604ab757607a260687be8055d437cd3383f3749c2cd3a27a532ab",
+      "bytes": 373
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/preregistered_protocol.json",
+      "SHA256": "eb27a080199d656f6018f47834cc9eaef07897009360ca184d6511e4d3aeb2c4",
+      "bytes": 5437
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/protected_after.json",
+      "SHA256": "49b2003c265bc9f4551653fb06aa7b7ccb76ac0fd865e1f20d2e818abdea6394",
+      "bytes": 126
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/protected_before.json",
+      "SHA256": "4415d60057119b2264a664199599a2391ea450089e7247a6889446f6069074d6",
+      "bytes": 11496
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/protocol_sha256.json",
+      "SHA256": "b05c07e862d835b5238e881ae64f785a70ff0c181d9f9bf10fb0742fc6c5eb19",
+      "bytes": 153
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/public_validation.json",
+      "SHA256": "72d405bcd48d05ae5606be7b5f90b8c5fbeb38968116c419b16eeb22214f92d1",
+      "bytes": 233
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/resource_audit.json",
+      "SHA256": "cd8a3ca34206a68598938f2a60dac73f04c23ec7b3ef3f3dcfe0670fbc0472bc",
+      "bytes": 875
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/resource_estimation_evidence.json",
+      "SHA256": "6851cd9b4be21221ca43e7eb7adc698475e5f90e2a43402a68aa8025816e0bea",
+      "bytes": 1901
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/resource_requirements.csv",
+      "SHA256": "360990318e69ef348ea7adc37fe452a6aa6847e4ee12df6387b49d158d0bd80e",
+      "bytes": 1796
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/result.json",
+      "SHA256": "29e79bae24d4ee35bac083c4683487234005787e798d46e2c4364e6d8ca24bef",
+      "bytes": 620
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/seasonal_initial_asset_requirements.csv",
+      "SHA256": "53bde3a8bc4a57221a0fd5428e9814700933ed1f6c27a2f8f143cdc49f28ced6",
+      "bytes": 1177
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/source_manifest.json",
+      "SHA256": "bbdafc22ad599580f9d6281d0e5946fb96267c8992762f15c5d068255f36a693",
+      "bytes": 16761
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/supervision_importfix.json",
+      "SHA256": "18ed206b0ea54f54412c688aa09c216ecd9729bfad90c2b0bfc990005b951f10",
+      "bytes": 890
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/supervision_result.json",
+      "SHA256": "f73201d4f42a6d64ebf7feaf729424fcccce38b2e584472b8bd00659f9f9ad62",
+      "bytes": 896
+    },
+    {
+      "path": "experiments/thermosphere_independent_date_validation_plan_v20/tests.json",
+      "SHA256": "3ba9d6ac6fb22976c9f1fca9a9419da4df5a5ea79f347c9d4d54086cf8c01522",
+      "bytes": 396
+    },
+    {
+      "path": "reports/THERMOSPHERE_INDEPENDENT_DATE_VALIDATION_PLAN_V20.md",
+      "SHA256": "88d09926ddf1e9553be764c363571f740d2b804f7d0e1bcf4d15bec346829551",
+      "bytes": 15227
+    },
+    {
+      "path": "scripts/document_independent_dates_v20.py",
+      "SHA256": "52c50930168ee42904ddf36bcb3ea9067f9c86d1eb8b10d4382f26bc85b5a052",
+      "bytes": 27177
+    },
+    {
+      "path": "scripts/plan_independent_dates_v20.py",
+      "SHA256": "aa5134f1f573b61ec2afdb65f3a5a972d10e681e10a36402a2a02a8164177df9",
+      "bytes": 29655
+    },
+    {
+      "path": "src/evaluation/independent_date_planning.py",
+      "SHA256": "b95fc9371900aca58f5155ea7bf0402eba536555dcb095f39bdc80e57d28f13b",
+      "bytes": 3622
+    },
+    {
+      "path": "tests/test_independent_date_planning_v20.py",
+      "SHA256": "2ed8bcc7c50f6af616f3486fdcee6525ff8fc3dcf5cf8976f202396b537837f7",
+      "bytes": 2683
+    }
+  ],
+  "excludes_self": true,
+  "public_bytes_before_manifest": 242857,
+  "raw_data_downloads": 0
+}

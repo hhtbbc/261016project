@@ -1,0 +1,35 @@
+{
+  "exit_kind": "NONZERO",
+  "returncode": 1,
+  "signal": null,
+  "qualification": "FAIL",
+  "stop_reason": null,
+  "elapsed_s": 0.29962635412812233,
+  "identity": {
+    "pid": 2336624,
+    "start_ticks": 1822557492,
+    "uid": 0,
+    "pgid": 2336624,
+    "sid": 2336624
+  },
+  "wait_source": "direct subprocess.Popen.wait",
+  "peak_sampled_tree_rss_bytes": 53882880,
+  "samples": [
+    {
+      "wall_s": 0.25976475700736046,
+      "rss_bytes": 53882880,
+      "races": 0,
+      "issue": null,
+      "output_bytes": 1345,
+      "largest_volume_bytes": 0,
+      "free_disk_bytes": 1352779431936,
+      "total_output_bytes": 11496,
+      "log_size": 765
+    }
+  ],
+  "gaps": [],
+  "cleanup_verified": true,
+  "children_cpu_user_s": 0.147586,
+  "children_cpu_system_s": 0.392157,
+  "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+}

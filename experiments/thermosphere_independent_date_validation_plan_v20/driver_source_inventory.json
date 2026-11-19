@@ -1,0 +1,135 @@
+{
+  "sources": [
+    {
+      "path": "data/raw/f107_2021_recovery_v1/gfz_year.txt",
+      "SHA256": "f969f23b0b0d4aba80dca6f35d3e95c2d35a7e482457bc1812e5c0827090caae",
+      "bytes": 61627,
+      "key": "Fobs+definitive_Kp",
+      "records": 365,
+      "first": "2021-01-01",
+      "last": "2021-12-31",
+      "source_URL": "ftp://ftp.gfz-potsdam.de/pub/home/obs/Kp_ap_Ap_SN_F107/Kp_ap_Ap_SN_F107_2021.txt",
+      "bad_Fobs_dates": [
+        "2021-05-09",
+        "2021-06-16"
+      ],
+      "source_status": "SHA_VERIFIED_CACHED_OFFICIAL",
+      "quality": "Fobs observed column26; D=2 definitive Kp; -1 missing; no filling",
+      "units": "Fobs sfu; Kp dimensionless"
+    },
+    {
+      "path": "data/raw/tiegcm_training_years_v1/2022_Fobs.json",
+      "SHA256": "e5b665880486903071efa5ad33964288bcd0b74195e31f380099366df270aab8",
+      "bytes": 2784,
+      "key": "Fobs",
+      "records": 94,
+      "first": "2022-02-15T00:00:00Z",
+      "last": "2022-05-19T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/en/data",
+      "bad_Fobs_dates": [],
+      "source_status": "SHA_VERIFIED_CACHED_OFFICIAL",
+      "quality": "observed positive finite Fobs, no per-record solar quality flag",
+      "units": "sfu"
+    },
+    {
+      "path": "data/raw/tiegcm_training_years_v1/2022_Kp.json",
+      "SHA256": "9ed616a8b8e8fceb56b41bc7f243b5f0f518e233505cd97632004bf8e02b25f5",
+      "bytes": 3943,
+      "key": "Kp",
+      "records": 112,
+      "first": "2022-03-27T00:00:00Z",
+      "last": "2022-04-09T21:00:00Z",
+      "source_URL": "https://kp.gfz.de/en/data",
+      "bad_Fobs_dates": [],
+      "source_status": "SHA_VERIFIED_CACHED_OFFICIAL",
+      "quality": "def status required",
+      "units": "1"
+    },
+    {
+      "path": "data/raw/training_window_mar23_v2/2022_Fobs_additional.json",
+      "SHA256": "8318254b1fe966e805818bff0ff535ca0645ad7b8db1304dc0ffb9872d5b3f65",
+      "bytes": 455,
+      "key": "Fobs",
+      "records": 13,
+      "first": "2022-02-02T00:00:00Z",
+      "last": "2022-02-14T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-02-02T00:00:00Z&end=2022-02-14T23:59:59Z&index=Fobs",
+      "bad_Fobs_dates": [],
+      "source_status": "SHA_VERIFIED_CACHED_OFFICIAL",
+      "quality": "observed positive finite Fobs, no per-record solar quality flag",
+      "units": "sfu"
+    },
+    {
+      "path": "data/raw/training_window_mar23_v2/2022_Kp_additional.json",
+      "SHA256": "d38b7d3da6be7cab0bd01505740f0c64c491e093f1d3f72801e42a0317842d62",
+      "bytes": 3655,
+      "key": "Kp",
+      "records": 104,
+      "first": "2022-03-14T00:00:00Z",
+      "last": "2022-03-26T21:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-03-14T00:00:00Z&end=2022-03-26T23:59:59Z&index=Kp&status=def",
+      "bad_Fobs_dates": [],
+      "source_status": "SHA_VERIFIED_CACHED_OFFICIAL",
+      "quality": "def status required",
+      "units": "1"
+    },
+    {
+      "path": "data/raw/tiegcm_2022_spinup_14day_v1/Fobs_extension.json",
+      "SHA256": "c25de3e9c5abfc87461abdda044d0489987ac7e380f75b3973bc607dfab514d7",
+      "bytes": 281,
+      "key": "Fobs",
+      "records": 7,
+      "first": "2022-01-26T00:00:00Z",
+      "last": "2022-02-01T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-01-26T00:00:00Z&end=2022-02-01T23:59:59Z&index=Fobs",
+      "bad_Fobs_dates": [],
+      "source_status": "SHA_VERIFIED_CACHED_OFFICIAL",
+      "quality": "observed positive finite Fobs, no per-record solar quality flag",
+      "units": "sfu"
+    },
+    {
+      "path": "data/raw/tiegcm_2022_spinup_14day_v1/Kp_extension.json",
+      "SHA256": "223ed5b584b6fd3db8642c61f266d0eddc4893d6f23d8441a714aab8a2b643de",
+      "bytes": 2017,
+      "key": "Kp",
+      "records": 56,
+      "first": "2022-03-07T00:00:00Z",
+      "last": "2022-03-13T21:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-03-07T00:00:00Z&end=2022-03-13T23:59:59Z&index=Kp&status=def",
+      "bad_Fobs_dates": [],
+      "source_status": "SHA_VERIFIED_CACHED_OFFICIAL",
+      "quality": "def status required",
+      "units": "1"
+    },
+    {
+      "path": "data/raw/meeting_sources/gfz_Fobs_spinup_support.txt",
+      "SHA256": "d820698b22c38316805ff5fc52f51c55e38a8ecf1e09a1f98822d42313e4d666",
+      "bytes": 2833,
+      "key": "Fobs",
+      "records": 95,
+      "first": "2023-01-31T00:00:00Z",
+      "last": "2023-05-05T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/ (full request retained in logs/meeting_sources_http_round5.json)",
+      "bad_Fobs_dates": [],
+      "source_status": "SHA_VERIFIED_CACHED_OFFICIAL",
+      "quality": "observed positive finite Fobs, no per-record solar quality flag",
+      "units": "sfu"
+    }
+  ],
+  "conflicts": [],
+  "network_downloads": 0,
+  "generated_GPI": 0,
+  "ignored_sources": "Fadj, Ap conversions and alternative-provider estimates are not substitutes",
+  "original_builder": {
+    "path": "scripts/prepare_tiegcm_training_drivers.py",
+    "SHA256": "82fdbf2c4d39f04041013de0b3e5a16bd9d9bbeedd7ee31b6c1c0f9eb7465675",
+    "bytes": 6887
+  },
+  "actual_interpolator": {
+    "path": "src/atmosphere/tiegcm_drivers.py",
+    "SHA256": "3bdbd2b576bbf9440be91f84efc6940280bac1b544716b2582e6d3f3196e7f3a",
+    "bytes": 1591
+  },
+  "convention": "center81 observed Fobs; solar four daily noontime interpolation nodes, Kp3h starts00/03/... interpreted at01:30/04:30/... and linearly interpolated; hpower/ctpoten derived by existing formulas; HEELIS, no fixed F107/KP/POWER/CTPOTEN overrides",
+  "future_forcing": "Historical actual future drivers and centered+40day flux support are HINDCAST, not operational forecasts"
+}
