@@ -1248,3 +1248,5 @@ TIEGCM_2022_MAR25=ENGINEERING_FAIL；ACTUAL_MODEL_RUN=COMPLETED；AUTOMATED_ENGI
 命令：source scripts/activate_tiegcm.sh；python scripts/execute_tiegcm_2022_mar25_v1.py --authorize-17day-run，仅一次。此后只读独立脚本scripts/verify_tiegcm_v16_independent.py及固定驱动标量核验，不重跑主验收、不修改任何冻结代码/输入/GPI/坐标或旧科学结果；保护SHA复核保持。所有预约和原始NetCDF/日志保留本地。报告reports/TIEGCM_2022_MAR25_FORMAL_RUN_V16.md，下一步docs/TIEGCM_V16_POSTRUN_FAILURE_DECISION.md；证据experiments/tiegcm_2022_mar25_formal_run_v1/。
 
 下一轮建议另授权最小告警复现和只读验收日志分类修复/重审，再对现有35卷只读完整验收；不需要新17天积分、不删预约。正式密度误差评价暂BLOCKED，等待工程验收闭合并另授权。科学训练False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DART未准入/REAL_ORBITBLOCKED及A14身份保持，无新校正拟合/误差评分/AI/DART/轨道/数据下载。本轮整理后停止。
+
+V16真实模型/失败验收/独立专项证据完整提交：`e46f92df151ce9b69e366d756c1fd31da0cc85c4`。该提交是结果证据版本；随后提交仅登记此SHA。最终同步HEAD以本轮本地git_sync_local.json和最终答复的独立远端核验为准。
