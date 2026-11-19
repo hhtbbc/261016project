@@ -437,3 +437,12 @@ credentials.json
 !/experiments/tiegcm_2022_mar25_postrun_acceptance_v17/*.json
 !/experiments/tiegcm_2022_mar25_postrun_acceptance_v17/*.csv
 /experiments/tiegcm_2022_mar25_postrun_acceptance_v17/*_local.*
+
+# V18: public flat summaries and figures; paired data, traces, logs and draft plots stay local
+/experiments/tiegcm_2022_mar25_density_validation_v18/**
+!/experiments/tiegcm_2022_mar25_density_validation_v18/
+!/experiments/tiegcm_2022_mar25_density_validation_v18/*.json
+!/experiments/tiegcm_2022_mar25_density_validation_v18/*.csv
+!/experiments/tiegcm_2022_mar25_density_validation_v18/figures/
+!/experiments/tiegcm_2022_mar25_density_validation_v18/figures/*.png
+/experiments/tiegcm_2022_mar25_density_validation_v18/*_local.*

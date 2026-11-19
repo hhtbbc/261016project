@@ -1,0 +1,23 @@
+{
+  "PASS": true,
+  "regression_cases": 33,
+  "groups": [
+    {
+      "name": "latitude",
+      "count": 14,
+      "log_SHA256": "0cfcb86fa0c56799776606693c29042513a64772dbd842ff09d9155ad4fd4f5b"
+    },
+    {
+      "name": "late",
+      "count": 11,
+      "log_SHA256": "0c5815fa026a2596cf615a70c6a90224f5c796243755f76f6ef98cc7efa8856c"
+    },
+    {
+      "name": "hourly",
+      "count": 8,
+      "log_SHA256": "30fd434c40e1999352e70bc1bf403d0936b86403e3b763a5039a5118c2a376f1"
+    }
+  ],
+  "scientific_independent_verification_PASS": false,
+  "no_test_implies_scientific_PASS": true
+}

@@ -1,0 +1,21 @@
+{
+  "PASS": false,
+  "status": "FAIL_NUMERICAL_TOLERANCE_NOT_RELAXED",
+  "failed_metric": "18Z LatitudeAdaptive18 historical analysis Bias (not a future score)",
+  "main": 5.453772204284436e-16,
+  "independent_math_exp": 5.453772204285187e-16,
+  "absolute_difference": 7.513900122230137e-29,
+  "relative_difference": 1.376676550535194e-13,
+  "rtol": 1e-13,
+  "atol": 0,
+  "stopped_at_first_failure": true,
+  "coefficients_verified": 5,
+  "raw_CDF_records_verified": 2880,
+  "native_frames_verified": 25,
+  "independent_model_values_reconstructed": 2880,
+  "column_checks": 23040,
+  "all_prior_assertions_passed": true,
+  "future_poison_independently_verified": true,
+  "joint_independent_loop_reached": false,
+  "scientific_status_upgrade": false
+}

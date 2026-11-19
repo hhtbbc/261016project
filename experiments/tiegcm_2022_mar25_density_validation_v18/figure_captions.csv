@@ -1,0 +1,8 @@
+file,Chinese_title,definition_and_interpretation
+figures/01_raw_density.png,图1：真实观测与原始TIE-GCM全天密度,全天曲线仅作描述，正式指标按固定截点未来窗口分别报告。
+figures/02_corrected_density.png,图2：冻结历史系数后的未来密度对照,校正参数仅取各自历史3小时；局地系数按未来样本自身原始大地纬度应用。
+figures/03_horizon_errors.png,图3：绝对RMSE与相对RMS的完整窗口结果,RMSE在原始密度尺度计算；相对误差逐点除以观测密度，二者权重不同。
+figures/04_latitude_errors.png,图4：各纬区相对误差与有符号偏差,分区仅用原始GRS80大地纬度。正Bias表示高估，负值表示低估；包含全部共同样本。
+figures/05_coefficients_crossyear.png,图5：2021与2022年3月25日冻结历史系数,2021参数只读引用，Stale06精确复用各年同日Global06；未跨年迁移系数。
+figures/06_joint_criteria.png,图6：四项联合无退化判据逐项结果,绿色满足，红色失败；同一行四项全部满足才记联合PASS，累计窗口相关，不能视作独立实验。
+figures/07_residual_structure.png,图7：原始残差与纬度、观测密度的关系,空间采样、高度和密度变化相互关联；图中相关性不是已分离的因果贡献。

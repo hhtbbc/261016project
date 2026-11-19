@@ -1,0 +1,22 @@
+{
+  "PASS": true,
+  "factor": 1e+20,
+  "checks": [
+    {
+      "cutoff": 6,
+      "PASS": true,
+      "separate_input": true,
+      "exact_dict_equality": true
+    },
+    {
+      "cutoff": 18,
+      "PASS": true,
+      "separate_input": true,
+      "exact_dict_equality": true
+    }
+  ],
+  "Stale06_is_same_frozen_Global06": true,
+  "parameter_SHA256": "743cbf099c417a4b74a530151c08c6c5a8c746cfc0ee5ae30a3ca54075521470",
+  "scores_not_started": true,
+  "UTC": "2026-11-19T02:32:43.348068+00:00"
+}

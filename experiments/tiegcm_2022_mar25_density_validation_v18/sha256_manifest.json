@@ -1,0 +1,250 @@
+{
+  "files": [
+    {
+      "path": "docs/TIEGCM_V18_NEXT_DECISION.md",
+      "SHA256": "593c2d01edde6d37217d68d7cf0faa98b190342e4a70dd61c90fdbfaa68d1d73",
+      "bytes": 1048
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/asset_protection_after.json",
+      "SHA256": "3fc44e66f34a553cf0527f60543240562d9f3bb113d1674926b981c96b01ba12",
+      "bytes": 196
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/calibration_residuals.csv",
+      "SHA256": "54096a6e69236452a8e962373f69fcf5a58c9e80c8047ea9e422dbcc646a6773",
+      "bytes": 41118
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/code_version_manifest.json",
+      "SHA256": "d84239ea82c66eaa2c48a9b28e7c2c03d2d74a9ae69f287a4ad2d45b442e3b93",
+      "bytes": 945
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/commands.json",
+      "SHA256": "74ea897ec49cccfd40dd29deb1eb0daf6b9c8db974c04638f8e5533d345734e5",
+      "bytes": 247
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/correction_parameters.json",
+      "SHA256": "743cbf099c417a4b74a530151c08c6c5a8c746cfc0ee5ae30a3ca54075521470",
+      "bytes": 2178
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/coverage.csv",
+      "SHA256": "5e6467d84186f037c7d9e867943dc48f026376495e5bf5132f5a4c96e4323a8d",
+      "bytes": 4506
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/cross_year_comparison.csv",
+      "SHA256": "2a8831932620c3093b264d1a4d506637a20d006650a2ef06cf42d3b4b809b4fb",
+      "bytes": 61939
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/figure_captions.csv",
+      "SHA256": "1bc3f2c01d98277d253f06f56a453923fcfa6754e17e2262923e42c1b54f9803",
+      "bytes": 1321
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/figures/01_raw_density.png",
+      "SHA256": "4ff2daccd3281f89011bd7972fa271d28093c3ea99a5ceb009164a0b8b47e249",
+      "bytes": 178137
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/figures/02_corrected_density.png",
+      "SHA256": "3e8cdaafd672bf849f92b03a11b85c28a66e856eeebf06676d7d5fff4b1fb575",
+      "bytes": 309771
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/figures/03_horizon_errors.png",
+      "SHA256": "ebb8e4a1b657ca3e00addb058fa8fc716a0dd7585dacabdfeb461a7874ef2774",
+      "bytes": 154376
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/figures/04_latitude_errors.png",
+      "SHA256": "ab8c805237c9cb0b882d9e18c46927e95b181eb01d91a7f0f20ba5d7f7cda8fd",
+      "bytes": 163367
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/figures/05_coefficients_crossyear.png",
+      "SHA256": "82979c137b0af139a6b7f5140526fddb71c7140de8f71ba1b3f89f53a7f8c8ef",
+      "bytes": 62558
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/figures/06_joint_criteria.png",
+      "SHA256": "5cae28ae6b439f415be2bf3536d0bf95b93825ea913d89afa2b86217da35e3de",
+      "bytes": 141692
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/figures/07_residual_structure.png",
+      "SHA256": "dee2a395e161dffc3da219fcfe6859ed21c33427c88a66a0567dc3bd0686b7f7",
+      "bytes": 245564
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/frozen_protocol.json",
+      "SHA256": "5a16b09a714fd1f3d5dd647fc4fb8c8cf722773d42b2060822929587c13276ce",
+      "bytes": 3870
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/future_poison_test.json",
+      "SHA256": "2983251f6329fe643b01c1de84692bbee6c3eae47a348d222b06c55643e06e48",
+      "bytes": 496
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/history_admission.json",
+      "SHA256": "94c480fe3b2dde7c79eb7062cd3444f609339a90a5105516fc4718a5d459c19b",
+      "bytes": 467
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/history_future_residual_gap.csv",
+      "SHA256": "bfc01a29bacb6a784e6c40bbe04ae57ad06ad56096d3d4b545538ef34db58f60",
+      "bytes": 4408
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/implementation_addendum.json",
+      "SHA256": "8278fc7612511437d7059fb2edd72b199570f8e27f6d7cbf4ef8e95a7c74f5e8",
+      "bytes": 735
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/independent_verification.json",
+      "SHA256": "38bf34bcced62460975fc03d8801679106d4761c0a18cb38d1cab778a5b28b6e",
+      "bytes": 748
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/joint_assessment.csv",
+      "SHA256": "498e8cd3be01320d262549eb7161937b6900d803ae9586183ce1b660c38aa55d",
+      "bytes": 2368
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/metrics.csv",
+      "SHA256": "41937272733d7d2198cb65cae85b8fa6bff2fcc2d9d0c32803966edf65122c4f",
+      "bytes": 13821
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/parameter_freeze_receipt.json",
+      "SHA256": "981ea8be0617172af00b4bf36c14c64243a5a58651e1c308e45124aa0c515647",
+      "bytes": 158
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/pointwise_diagnostics.csv",
+      "SHA256": "3f1eebf5009db98c0534777e34b6429779e2e41363c894de678477908794a850",
+      "bytes": 5472
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/postprocessing_receipt.json",
+      "SHA256": "c10ab4edfaf1780366e7db9319ff020a68d570b7165dcb42aa697989883124de",
+      "bytes": 106
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/postprocessing_supervision.json",
+      "SHA256": "c349d7ff97c906d77e6d07c9a8104ef97ce10c6e950c2623b522b14f927bb192",
+      "bytes": 625
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/postprocessing_syntaxfix_supervision.json",
+      "SHA256": "aad573f20c5668776033d2958f4fc869fec6d8604a2a53383ba4ef88cccfdd2e",
+      "bytes": 11111
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/preflight.json",
+      "SHA256": "b0ff19ca6e2b6db77c565b730b442f9c231b5936732ab26775edd823eef6ecda",
+      "bytes": 328
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/presentation_addendum.json",
+      "SHA256": "e01f4b7dd25bed5ea076dbc78b29bfa1433a9b9e55f41c1d93d7f4632bf12d5e",
+      "bytes": 450
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/query_admission.json",
+      "SHA256": "88e7330d02c1794c320b2a974e607a920a360306ee5bb8b9ab948551291cd2e3",
+      "bytes": 335
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/raw_metrics.csv",
+      "SHA256": "b9f8e231e8ef28ae6d110416bf658ba349c4b9f49391a8552333eff11c8a39d4",
+      "bytes": 4667
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/raw_region_metrics.csv",
+      "SHA256": "8a7fe293d7e643fb1b3bd7ee4f3606cbc40a55905cbfeeb672554ce3267bbbac",
+      "bytes": 13446
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/raw_scoring_receipt.json",
+      "SHA256": "5b571c98d1608f93139fbfd1c1c14fdc8bb715e2755773853eadb53706baea64",
+      "bytes": 182
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/region_metrics.csv",
+      "SHA256": "d140b4285a5c7500d707fab32431413e00275deac722cc6e2cc0949eed2ed61d",
+      "bytes": 40739
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/resource_audit.json",
+      "SHA256": "62b75416976bb69ffb83603042bb299c49c8df4c67c03c6637ed493a0d888472",
+      "bytes": 1205
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/result.json",
+      "SHA256": "e5abf78e9977cc6be6500142d55d9a45c8a036e6a4f326cccc586aa381a2c22b",
+      "bytes": 608
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/roundoff_failure_diagnosis.json",
+      "SHA256": "381ffabe2a9be3ff36591f701ebae3deaf60740062d266e81cee2ab0c37bbe47",
+      "bytes": 1058
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/source_manifest.json",
+      "SHA256": "0870f6093cf14b080aaa975f5278b4adc1c622a43685fe2cd00735dc852703e8",
+      "bytes": 543884
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/supervision_result.json",
+      "SHA256": "5c55d4ce6297be12db5f5ad6026b6602b936895ba3ef5864868b0f02426433ea",
+      "bytes": 13184
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/tests.json",
+      "SHA256": "04ef9acbeb588a88a88ac02fdaa0fb926e45d1c995dbbfe4f3f0d0d47cc6b861",
+      "bytes": 586
+    },
+    {
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/time_block_metrics.csv",
+      "SHA256": "93e82003c6888ad6108bff7760f4f3a1f41195c1428c4451b72df4d0e7745691",
+      "bytes": 6075
+    },
+    {
+      "path": "reports/TIEGCM_2022_MAR25_DENSITY_VALIDATION_V18.md",
+      "SHA256": "70b02b514f5eb4dc5a7416b194e39a2b2f8bab9b773dafef848b3c0cd314347e",
+      "bytes": 16220
+    },
+    {
+      "path": "scripts/finalize_density_validation_v18.py",
+      "SHA256": "7bbfd9630e18fcf923576be92311a911ab40932a50db7b05a3a0e6b57758ab3b",
+      "bytes": 17884
+    },
+    {
+      "path": "scripts/launch_density_validation_v18.py",
+      "SHA256": "e0786af6b4350e1cf3349042f743bcce152c4301d90de6b316eb5707c0d3f0b0",
+      "bytes": 1088
+    },
+    {
+      "path": "scripts/plot_density_validation_v18.py",
+      "SHA256": "c117aeb2cb8350542659a7968df941d708fbce5b63a750a1a696b52fe02ef42a",
+      "bytes": 6498
+    },
+    {
+      "path": "scripts/run_density_validation_v18.py",
+      "SHA256": "8f030ebf8ec6175fb34be38fd8fb7eab6951b43324ada318b6d8506f96b988a0",
+      "bytes": 17222
+    },
+    {
+      "path": "scripts/verify_density_validation_v18.py",
+      "SHA256": "31f6b8261fa3f335a3430cce083c92b17b693ebfdecb75411750d09c763f6df1",
+      "bytes": 7813
+    }
+  ],
+  "excludes_self": true
+}

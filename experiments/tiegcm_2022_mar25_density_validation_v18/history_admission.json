@@ -1,0 +1,24 @@
+{
+  "PASS": true,
+  "queries": [
+    {
+      "requested": 360,
+      "success": 360,
+      "failure": 0,
+      "columns": 2880,
+      "zero_weight_columns_checked": true,
+      "no_extrapolation": true,
+      "cutoff": 6
+    },
+    {
+      "requested": 360,
+      "success": 360,
+      "failure": 0,
+      "columns": 2880,
+      "zero_weight_columns_checked": true,
+      "no_extrapolation": true,
+      "cutoff": 18
+    }
+  ],
+  "only_history_density_access": true
+}

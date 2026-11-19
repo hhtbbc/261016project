@@ -1,0 +1,15 @@
+{
+  "PASS": true,
+  "requested": 2880,
+  "success": 2880,
+  "failure": 0,
+  "columns": 23040,
+  "zero_weight_columns_checked": true,
+  "no_extrapolation": true,
+  "quality_eligible": 2880,
+  "quality_flag_counts": {
+    "0": 2880
+  },
+  "future_first_access_after_parameter_receipt": true,
+  "UTC": "2026-11-19T02:32:43.213606+00:00"
+}

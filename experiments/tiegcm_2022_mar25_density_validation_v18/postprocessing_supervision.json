@@ -1,0 +1,23 @@
+{
+  "exit_kind": "NONZERO",
+  "returncode": 1,
+  "signal": null,
+  "qualification": "FAIL",
+  "stop_reason": null,
+  "elapsed_s": 0.04421865940093994,
+  "identity": {
+    "pid": 2317803,
+    "start_ticks": 1821968884,
+    "uid": 0,
+    "pgid": 2317803,
+    "sid": 2317803
+  },
+  "wait_source": "direct subprocess.Popen.wait",
+  "peak_sampled_tree_rss_bytes": null,
+  "samples": [],
+  "gaps": [],
+  "cleanup_verified": true,
+  "children_cpu_user_s": 0.012211999999999999,
+  "children_cpu_system_s": 0.00407,
+  "resource_definition": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee"
+}

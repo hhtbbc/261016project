@@ -1,0 +1,57 @@
+{
+  "date": "2022-03-25",
+  "protocol_SHA256": "5a16b09a714fd1f3d5dd647fc4fb8c8cf722773d42b2060822929587c13276ce",
+  "observation_SHA256": "d2f647f723f774a446e6c07c9b1108c1dc521b76bb21a2d524d321d379b440a8",
+  "parameters": {
+    "GlobalAdaptive06": {
+      "N": 360,
+      "first_UTC": "2022-03-25T03:00:00.000000000Z",
+      "last_UTC": "2022-03-25T05:59:30.000000000Z",
+      "sample_SHA256": "d3cb0b513737eab53b9b2982780753a53bcd11a0bfde7e2ef1fdd0590586d4d1",
+      "status": "SUPPORTED",
+      "b": -0.01894281508017137,
+      "multiplier": 0.9812354725102888
+    },
+    "GlobalAdaptive18": {
+      "N": 360,
+      "first_UTC": "2022-03-25T15:00:00.000000000Z",
+      "last_UTC": "2022-03-25T17:59:30.000000000Z",
+      "sample_SHA256": "f9c7374482d127f4721b7ead441e57886c791fa4677eae7ded8b03c4e31e35de",
+      "status": "SUPPORTED",
+      "b": 0.12096546690878363,
+      "multiplier": 1.1285859381332504
+    },
+    "LatitudeAdaptive18": {
+      "low": {
+        "N": 124,
+        "first_UTC": "2022-03-25T15:04:30.000000000Z",
+        "last_UTC": "2022-03-25T17:39:00.000000000Z",
+        "sample_SHA256": "d19ad5ba6dbbdbba7ed87bb6d5f7a084497c9bb9247ccfe1894ffcb7eb4be72c",
+        "status": "SUPPORTED",
+        "b": 0.13122399131903073,
+        "multiplier": 1.1402231527984092
+      },
+      "mid": {
+        "N": 117,
+        "first_UTC": "2022-03-25T15:00:00.000000000Z",
+        "last_UTC": "2022-03-25T17:47:00.000000000Z",
+        "sample_SHA256": "0cddd29e3563d4335ebaf771c75060eeb566bdb690b0786dd2ef3157de311cb0",
+        "status": "SUPPORTED",
+        "b": 0.13412716979060235,
+        "multiplier": 1.1435382339160525
+      },
+      "high": {
+        "N": 119,
+        "first_UTC": "2022-03-25T15:27:30.000000000Z",
+        "last_UTC": "2022-03-25T17:59:30.000000000Z",
+        "sample_SHA256": "45c201e7838327acfb2bf0a8e4361c9d945ac2473d87c1d5b4a966bf4992fd7d",
+        "status": "SUPPORTED",
+        "b": 0.11448842140590543,
+        "multiplier": 1.1212996579152021
+      }
+    },
+    "Stale06_reference": "GlobalAdaptive06 same date, exact coefficient"
+  },
+  "freeze_UTC": "2026-11-19T02:32:38.028392+00:00",
+  "future_density_records_read_by_fitting": 0
+}

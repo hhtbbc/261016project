@@ -623,3 +623,12 @@ TIEGCM_2022_MAR25_V17=ENGINEERING_PASS；V16_ORIGINAL_ENGINEERING_STATUS=FAIL（
 全408暖态secondary原生DENGZ合法性正式通过，18 primary/35卷/UTC完整，原生cold echo按原规则；主实际驱动最大差2.84217e-14，独立5.68434e-14，门槛仍1e-10。主和独立均2880/2880 Swarm A成功、失败0、23040八列检查、无外推，未评分误差或拟合真实系数。
 
 报告reports/TIEGCM_2022_MAR25_POSTRUN_ACCEPTANCE_V17.md；下轮docs/TIEGCM_V17_NEXT_DENSITY_VALIDATION_DECISION.md；完整轻量证据experiments/tiegcm_2022_mar25_postrun_acceptance_v17/，原始日志/夹具只本地。现可申请下一轮固定协议2022-03-25真实密度评价，2021-03-25冻结B14只读对照；本轮未评价且整理后停止。属性元数据风险仍须配合严格原生预检，不能推广任意数据默认掩码安全。SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED及A14身份保持。
+
+
+## 2026-11-19 V18：新2022 Mar25密度评价，独立复核未闭合
+
+TIEGCM_2022_MAR25_DENSITY_VALIDATION_V18=INCONCLUSIVE。唯一一次CPU科学评分已生成，未重试；35模型输出与原CDF/旧参数/原协议SHA不变，2880/2880真实八列查询，历史两窗口各360点，参数先冻结、两个截点独立1e20毒化通过。06Z b=-0.01894281508017137，18Z b=0.12096546690878363，局地低/中/高b=0.13122399131903073/0.13412716979060235/0.11448842140590543。18Z6h Raw/Global/Latitude RMSE=2.247752/1.637721/1.608624×10^-13kg/m³，相对RMS=19.1088/25.1090/25.4166%，主表联合0/12、单项19/48满足；2021冻结联合1/12只读对照，不宣称稳定收益。
+
+33CPU回归通过。独立CDF/25帧/2880点八列复算先行断言通过，但18Z局地历史analysis近零Bias因math.exp与numpy.exp中纬乘数1ULP差使相对差约1.377e-13，超过冻结rtol1e-13/atol0；独立循环中止，联合未独立闭环，不改FAIL为PASS。监督11.810303秒、采样峰346.887MiB、退出1，无模型重启/科学重评分/新参数/容差放宽。故整体INCONCLUSIVE而非完成科学PASS。图表仅整理已存结果并标明复核待闭合；原V17ENGINEERING_PASS与V16历史FAIL不变。
+
+报告reports/TIEGCM_2022_MAR25_DENSITY_VALIDATION_V18.md；决策docs/TIEGCM_V18_NEXT_DECISION.md；独立证据experiments/tiegcm_2022_mar25_density_validation_v18/。下一轮只读闭合算术复核需另授权；SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED全部保持。本轮整理后停止，未TIE/GPU/AI/DART/轨道/下载或外部联系。

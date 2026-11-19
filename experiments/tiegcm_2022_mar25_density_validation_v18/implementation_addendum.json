@@ -1,0 +1,10 @@
+{
+  "reason": "Pre-execution analytic timestamp check: different provider time origins can change last bits. Preserve frozen history query outputs for fitting and poison; verify whole-day re-read with already frozen rtol1e-13 atol0. No model data, interpolation rule, metric, coefficient formula, scientific protocol or tolerance changed.",
+  "replacement_SHA256": {
+    "scripts/run_density_validation_v18.py": "8f030ebf8ec6175fb34be38fd8fb7eab6951b43324ada318b6d8506f96b988a0",
+    "scripts/launch_density_validation_v18.py": "e0786af6b4350e1cf3349042f743bcce152c4301d90de6b316eb5707c0d3f0b0"
+  },
+  "original_scripts_retained_as_local_snapshots": true,
+  "scientific_scoring_attempts_so_far": 0,
+  "coefficient_files_exist": false
+}

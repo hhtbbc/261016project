@@ -1,0 +1,32 @@
+{
+  "multipliers": [
+    {
+      "band": "low",
+      "math_exp": 1.1402231527984092,
+      "numpy_exp": 1.1402231527984092,
+      "frozen_multiplier": 1.1402231527984092,
+      "exact_equal": true
+    },
+    {
+      "band": "mid",
+      "math_exp": 1.1435382339160527,
+      "numpy_exp": 1.1435382339160525,
+      "frozen_multiplier": 1.1435382339160525,
+      "exact_equal": false
+    },
+    {
+      "band": "high",
+      "math_exp": 1.1212996579152021,
+      "numpy_exp": 1.1212996579152021,
+      "frozen_multiplier": 1.1212996579152021,
+      "exact_equal": true
+    }
+  ],
+  "failed_analysis_metric_only": true,
+  "math_exp_Bias": 5.453772204285187e-16,
+  "numpy_exp_Bias": 5.453772204284436e-16,
+  "stored_main_Bias": 5.453772204284436e-16,
+  "numpy_exp_matches_main_exactly": true,
+  "interpretation": "One-ULP math.exp versus numpy.exp difference is amplified in relative comparison of a near-cancelling mean Bias. Frozen tolerance remains enforced; no full rerun, parameter change, or PASS upgrade.",
+  "diagnostic_not_scientific_rescoring": true
+}

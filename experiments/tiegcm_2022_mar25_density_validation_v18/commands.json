@@ -1,0 +1,10 @@
+{
+  "prepare": "python scripts/run_density_validation_v18.py prepare",
+  "unique_supervised_analysis": "python scripts/launch_density_validation_v18.py",
+  "stages": [
+    "history",
+    "score"
+  ],
+  "model_commands": 0,
+  "no_downloads": true
+}

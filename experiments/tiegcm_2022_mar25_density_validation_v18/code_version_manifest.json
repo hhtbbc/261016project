@@ -1,0 +1,12 @@
+{
+  "base_HEAD": "7dd203e6981c87a9c012d189f1bca27656df66f8",
+  "final_code_SHA256": {
+    "scripts/finalize_density_validation_v18.py": "7bbfd9630e18fcf923576be92311a911ab40932a50db7b05a3a0e6b57758ab3b",
+    "scripts/launch_density_validation_v18.py": "e0786af6b4350e1cf3349042f743bcce152c4301d90de6b316eb5707c0d3f0b0",
+    "scripts/plot_density_validation_v18.py": "c117aeb2cb8350542659a7968df941d708fbce5b63a750a1a696b52fe02ef42a",
+    "scripts/run_density_validation_v18.py": "8f030ebf8ec6175fb34be38fd8fb7eab6951b43324ada318b6d8506f96b988a0",
+    "scripts/verify_density_validation_v18.py": "31f6b8261fa3f335a3430cce083c92b17b693ebfdecb75411750d09c763f6df1"
+  },
+  "execution_versions": "frozen_protocol original scripts plus implementation_addendum before scoring; plot presentation-only change after stopped score; original snapshots local",
+  "frozen_parameter_SHA256": "743cbf099c417a4b74a530151c08c6c5a8c746cfc0ee5ae30a3ca54075521470"
+}

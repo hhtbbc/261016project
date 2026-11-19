@@ -1,0 +1,22 @@
+{
+  "status": "INCONCLUSIVE",
+  "formal_scientific_scoring_attempts": 1,
+  "scoring_tables_generated": true,
+  "independent_verification": "FAIL_NUMERICAL_TOLERANCE",
+  "scientific_conclusion_upgrade": false,
+  "main_table_joint_pass": 0,
+  "main_table_joint_total": 12,
+  "main_table_flags_pass": 19,
+  "main_table_flags_total": 48,
+  "future_poison": "PASS",
+  "parameter_SHA_unchanged": true,
+  "original_assets_unchanged": true,
+  "queries": 2880,
+  "new_model_runs": 0,
+  "new_downloads": 0,
+  "GPU": 0,
+  "DART": 0,
+  "orbit": 0,
+  "automatic_scoring_retries": 0,
+  "scientific_gates_unchanged": true
+}
