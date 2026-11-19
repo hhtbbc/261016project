@@ -1,0 +1,17 @@
+{
+  "SEED_POLICY": "A_MAREQX_APPROVED",
+  "authorization": "Explicit V23 user instruction approves current mareqx for both autumn years; no physical integration authorization",
+  "actual_model_authorized_this_task": false,
+  "source": {
+    "path": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+    "SHA256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7"
+  },
+  "same_SHA_for_both_years": true,
+  "limitations": [
+    "AUTUMN_ADAPTATION_UNVERIFIED",
+    "FOURTEEN_DAY_SPINUP_NOT_PROVEN_CONVERGED",
+    "SEPEQX_SOURCE_NOT_ACQUIRED"
+  ],
+  "frozen_UTC": "2026-11-19T07:13:53.354964+00:00",
+  "base_HEAD": "b655314c59a2208568c2673cbcbe3f414d97805c"
+}

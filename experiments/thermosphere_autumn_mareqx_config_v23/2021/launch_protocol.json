@@ -1,0 +1,66 @@
+{
+  "year": 2021,
+  "start_UTC": "2021-09-09T00:00:00Z",
+  "stop_UTC": "2021-09-25T00:00:00Z",
+  "target_date": "2021-09-23",
+  "steps": 23040,
+  "step_s": 60,
+  "MPI": 4,
+  "OMP": 1,
+  "cwd": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+  "input": {
+    "path": "experiments/thermosphere_autumn_mareqx_config_v23/2021/input.inp",
+    "SHA256": "1d73a45b25b0af5c5a70a9e5870e07589153b2789ccb3c9353cc957c742ee121"
+  },
+  "source": {
+    "path": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+    "SHA256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7"
+  },
+  "GPI": {
+    "path": "experiments/thermosphere_autumn_gpi_seed_policy_v22/gpi_2021_autumn.nc",
+    "SHA256": "d401d0ae525babb343faaa6d1dd9a8d3c4fb1c2ea85beb26d2b0025cdf001b9a"
+  },
+  "executable": {
+    "path": "experiments/tiegcm2_apex2023_v1/tiegcm2.0",
+    "SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776"
+  },
+  "mpirun": {
+    "path": ".envs/tiegcm/bin/mpirun",
+    "SHA256": "7b6c839e5d90310bf741efe3f9cbba68460083c74721513d5f3697b158119639"
+  },
+  "observation": {
+    "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.cdf",
+    "SHA256": "4b5b7b390b46b8e3c984fd64defc2329e2708c2c2f5d5ccf99a195cbb6bd0404"
+  },
+  "hapi": {
+    "path": "data/raw/fourcastden_swarm_observation_v1/HAPI_info.json",
+    "SHA256": "17ccced134a05fee2fd991acf6c1dbd44f166ed8239cf6435af11e3cef2c69ac"
+  },
+  "eligible_observations": 2880,
+  "output": {
+    "primary_records": 17,
+    "secondary_records": 384,
+    "primary_volumes": 17,
+    "secondary_volumes": 16,
+    "NetCDF_files": 33
+  },
+  "limits": {
+    "model_wall_s": 4800,
+    "stop_trigger_s": 4770,
+    "cleanup_reserve_s": 30,
+    "RSS_bytes": 17179869184,
+    "output_bytes": 5368709120,
+    "start_free_bytes": 26843545600,
+    "run_free_floor_bytes": 21474836480,
+    "postrun_wall_s": 600,
+    "postrun_RSS_bytes": 4294967296,
+    "launches": 1,
+    "retries": 0
+  },
+  "seed_policy_SHA256": "37b976936b89e8acf860d213745c9b64b6938f8199e32dcd584fcf6ce1bb88cd",
+  "preregistered_protocol_SHA256": "eb27a080199d656f6018f47834cc9eaef07897009360ca184d6511e4d3aeb2c4",
+  "activation": "source scripts/activate_tiegcm.sh",
+  "path_environment": "PROJECTROOT set to actual checked project root; no underscore in variable name (Fortran delimiter rule)",
+  "actual_authorization_this_task": false,
+  "readiness": "STATIC_CHECKS_PENDING_TESTS"
+}

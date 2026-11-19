@@ -1,0 +1,12 @@
+{
+  "status": "REVIEWED_INHERITED_INPUT_FORMATTING_ONLY",
+  "files": [
+    "experiments/thermosphere_autumn_mareqx_config_v23/2021/input.inp",
+    "experiments/thermosphere_autumn_mareqx_config_v23/2022/input.inp",
+    "experiments/thermosphere_autumn_mareqx_config_v23/configuration_diff.csv"
+  ],
+  "reason": "Two SECFLDS continuation lines inherit trailing blanks from successful spring input; complete values copied into CSV. Frozen input and release SHAs intentionally not changed for cosmetic cleanup.",
+  "git_default_check_returncode": 2,
+  "other_whitespace_checks": "PASS using per-process core.whitespace=-blank-at-eol; no global Git config changed",
+  "science_or_config_changes": false
+}

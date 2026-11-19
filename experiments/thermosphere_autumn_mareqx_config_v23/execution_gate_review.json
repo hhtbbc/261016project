@@ -1,0 +1,15 @@
+{
+  "authorization": "New per-year --authorize-16day-run plus next explicit user instruction; V23 permits configuration only",
+  "once": "Atomic per-year actual_run mkdir; never delete on failure",
+  "cross_year_concurrency": "Nonblocking flock across whole job; lock file persists but kernel lock releases on process exit; independent permanent year reservation remains",
+  "order": "2021 first.2022 requires separate authorization and2021 main engineering PASS receipt; never chosen/retuned by density error",
+  "hash_gates": "Release code/config/input/seed/GPI/binary/MPI/compiled-source/GSWM/science SHA verified before claiming; each rank rechecks model/input",
+  "rank_exit": "Unchanged direct Popen.wait wrapper; four actual exit receipts and root wait/session checks; missing receipts FAIL",
+  "resources": "Original supervisor unchanged, 4770s stop trigger/30s nominal cleanup reserve, RSS16GiB/output5GiB sampling, startup>=25GiB/run floor20GiB; no OS isolation guarantee",
+  "failure": "No retry; exceptions retain permanent claim/FAILED_OR_UNKNOWN receipt; external SIGKILL/power loss may prevent final receipt and stays UNKNOWN",
+  "postrun": "Independent autumn calendar adapter reuses V17 raw validity/progress/rank/Map-A helpers; narrow warning provenance channel only in read-only audit; no global filter",
+  "acceptance": "All384 warm frames;17 primary records;33NetCDF files;strictUTC/sourcegrid/iter/1e-10drivers;all2880eligible points,eight columns including zero weights,no extrapolation",
+  "independent_after_actual_run": "Still required against actual raw files and rank/wait receipts in next task; static independent config audit not a substitute",
+  "actual_model_run": "NOT_RUN",
+  "actual_acceptance": "NOT_RUN"
+}

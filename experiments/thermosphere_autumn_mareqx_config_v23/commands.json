@@ -1,0 +1,16 @@
+{
+  "steps": [
+    "Checked pwd/realpath, AGENTS/STATUS/WORKLOG, actual local/remote HEAD b655314",
+    "Read V22, V20 protocol, spring execution/review, V17 warning and native field checks, input.F/rdsource.F/init.F/util.F/output.F",
+    "source scripts/activate_tiegcm.sh; PYTHONPATH=src:. python scripts/prepare_tiegcm_autumn_v23.py (static only)",
+    "python scripts/test_tiegcm_autumn_v23.py: 43 actual CPU tests; two ordinary MPI C helper jobs, not physical model",
+    "Four additional source-grid/release-tamper CPU tests, pass",
+    "Compiled only verbatim expand_path subroutine into tiny Fortran path probe: 8 field expansions; original model binary/source unchanged",
+    "python scripts/verify_tiegcm_autumn_v23.py: independent field/date/path/SHA comparison",
+    "Created execution_release.json only after successful tests/independent audit; per-year validate frozen package and absent-run read-only NOT_RUN probes",
+    "Public scan, old asset/hash check, staged-only git commit and no-force sync"
+  ],
+  "ACTUAL_MODEL_RUN": "NOT_RUN",
+  "authorized_model_command_invoked": false,
+  "new_model_config_only": true
+}

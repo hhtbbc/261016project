@@ -1321,3 +1321,17 @@ THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21=DATA_PARTIAL，两年份均DATA_PARTIAL
 官方来源：QuickStart/dirstruct及download.php，文档说明邮箱流程和约1.5GB完整5°包；门户当前仅可解析输入元素，不证明交付可用。没有核实可用替代单文件路径，不重试V21受限URL，不提交表单、联系人员或下载大包。项目文件名及45归档元数据未发现精确sepeqx原件，SOURCE_IDENTITY_PENDING/SEPEQX_SOURCE_NOT_ACQUIRED。既有34状态审查器经合成正反例验证，实际初态NOT_RUN。A/B政策不代用户选择；春分同源可比性与秋分季节适应风险分别保留，两年非RUN_READY。
 
 成果：reports/THERMOSPHERE_AUTUMN_GPI_AND_SEED_POLICY_V22.md，docs/THERMOSPHERE_V22_SEED_ACQUISITION_AND_POLICY.md，experiments/thermosphere_autumn_gpi_seed_policy_v22/。Git仅轻量新代码/报告/CSV/JSON，不含GPI原件。下一步先人工合法提供初态并批准A/B政策，再准备正式配置；本轮停止。科学训练/高度/Restart/DART/真实轨道门禁不变。提交与远端同步核验见Git提交记录及本轮git_sync_local.json（仅本地）。
+
+## 2026-11-19 V23：mareqx受限初态批准、双秋季配置与启动门禁
+
+目标/授权：用户明确批准A路线，禁止真实积分；新目录thermosphere_autumn_mareqx_config_v23，不改V22或更早成果。本地/远端起始b655314c59a2208568c2673cbcbe3f414d97805c，原不相关未跟踪日志保留。
+
+实际执行：读AGENTS/STATUS/WORKLOG、V22/V20/春季执行审查与冻结程序；source scripts/activate_tiegcm.sh，python scripts/prepare_tiegcm_autumn_v23.py生成独占政策收据和2021/2022独立input/launch_protocol。原件SHA与完整34状态、网格、原生2002年第80日00重验，SOURCE_START保持80 0 0。input.F/rdsource.F/init.F证明源记录选择和目标日历分离，目标START252 00合法。原GSWM/HEELIS/STEP等不变，绑定各自V22真实GPI，原文件SHA保护。目录actual_run均未创建。
+
+代码与验证：新增runtime/tiegcm_autumn_execution.py、atmosphere/tiegcm_autumn_acceptance.py及秋季prepare/execute/audit/verify/test脚本；旧supervisor、rank wrapper、原生检查、V17 WarningChannel、Map-A等按SHA复用。每年永久原子预约、跨年flock、显式授权、SHA/动态库/磁盘内存/活动进程门禁。独立namelist解析/UTC/路径/输出列表核对通过，参照原生分卷及已有16天17/384审计确定33文件，不照搬春季17天18/408。V20方法/协议SHA不变，秋季观测只复用质量证据，不读目标误差或拟合。
+
+测试：python scripts/test_tiegcm_autumn_v23.py共43项（含V17告警回归、普通MPI四rank正常/异常辅助作业），2.813031秒、CPU0.525623秒；4新增SHA/源网格反例0.027280秒；原util.F expand_path子程序小探针1项/8字段；2年份冻结包及不允许子进程的NOT_RUN探针，总50项通过。模拟Traceback和rank2非零退出为预期负例，不是物理积分。首次准备0.877754秒、CPU0.732612秒，自峰897808KiB；不是整任务连续采样树峰。路径变量PROJECTROOT刻意不含下划线，原Fortran会把下划线当分隔符；原源码不改，小探针不是重编译模型。
+
+当前状态：两年份CONFIG_FROZEN_READY_FOR_RUN_AUTHORIZATION，真实积分/验收NOT_RUN；每年admission.json为完成静态检查后的最终状态，launch_protocol/preparation_result中的PENDING字段保留创建阶段收据，不覆盖旧文件。A批准不解除秋季适应/14天未证充分/sepeqx缺失限制；March25实际距源启动16天、秋季目标距启动14天，不能作纯季节因果归因。资源快照及源码/ELF/库SHA无明显新阻碍；无额外下载/GPI重建/模型/评分/拟合/GPU/AI/DART/轨道。
+
+成果：reports/THERMOSPHERE_AUTUMN_MAREQX_CONFIG_FREEZE_V23.md，docs/THERMOSPHERE_AUTUMN_V23_NEXT_EXECUTION.md和新目录内决策/配置/diff/原件保护/50项测试/独立核验/资源/release清单。下一轮仅申请2021秋季一次16天及只读工程验收/原件独立复核，4800秒/16GiB/5GiB，另600秒/4GiB审计；2022另授权，不能按未来误差调配置。本轮同步后停止，所有旧科学门禁保留。最终提交/远端核验记录见git_sync_local.json及Git历史，不把未执行模型写成完成。

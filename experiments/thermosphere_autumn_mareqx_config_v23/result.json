@@ -1,0 +1,27 @@
+{
+  "SEED_POLICY": "A_MAREQX_APPROVED",
+  "years": {
+    "2021": "CONFIG_FROZEN_READY_FOR_RUN_AUTHORIZATION",
+    "2022": "CONFIG_FROZEN_READY_FOR_RUN_AUTHORIZATION"
+  },
+  "ACTUAL_MODEL_RUN": "NOT_RUN",
+  "actual_acceptance": "NOT_RUN",
+  "actual_launches": 0,
+  "tests_distinct": 50,
+  "tests_breakdown": {
+    "autumn_and_V17_regression": 43,
+    "additional_tamper_grid": 4,
+    "Fortran_path_probe": 1,
+    "per_year_release_and_readonly_probe": 2
+  },
+  "new_MPI_helper_jobs": 2,
+  "model_binary_never_called": true,
+  "scientific_limitations": [
+    "AUTUMN_ADAPTATION_UNVERIFIED",
+    "FOURTEEN_DAY_SPINUP_NOT_PROVEN_CONVERGED",
+    "SEPEQX_SOURCE_NOT_ACQUIRED",
+    "EXTERNAL_DATUM_UNVERIFIED"
+  ],
+  "next_year": 2021,
+  "next_physical_run_requires_new_user_authorization": true
+}

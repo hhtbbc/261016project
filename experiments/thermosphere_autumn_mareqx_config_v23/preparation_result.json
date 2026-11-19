@@ -1,0 +1,19 @@
+{
+  "model_launches": 0,
+  "ACTUAL_MODEL_RUN": "NOT_RUN",
+  "configuration_created": true,
+  "year_protocols": {
+    "2021": {
+      "path": "experiments/thermosphere_autumn_mareqx_config_v23/2021/launch_protocol.json",
+      "SHA256": "faf5c83f279f5521f1e77cd272b68c1ef23aa02994f2ee7703fed351324fd1ca"
+    },
+    "2022": {
+      "path": "experiments/thermosphere_autumn_mareqx_config_v23/2022/launch_protocol.json",
+      "SHA256": "450d7b4830c8433112350aee53ba90bb1e279fd179957001370619f9c428f928"
+    }
+  },
+  "tests": "PENDING",
+  "elapsed_s": 0.8777541443705559,
+  "CPU_s": 0.7326123739999999,
+  "max_self_RSS_KiB": 897808
+}

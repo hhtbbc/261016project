@@ -1,0 +1,9 @@
+{
+  "state": "CONFIG_FROZEN_READY_FOR_RUN_AUTHORIZATION",
+  "launch_protocol_SHA256": "450d7b4830c8433112350aee53ba90bb1e279fd179957001370619f9c428f928",
+  "execution_release_SHA256": "3e6db19a1ff954e3df2b2c4d6b1050a527e5ac269b9597b87ea2b5200133860f",
+  "ACTUAL_MODEL_RUN": "NOT_RUN",
+  "actual_engineering_acceptance": "NOT_RUN",
+  "new_physical_run_authorization_required": true,
+  "explanation": "launch_protocol readiness and preparation_result tests fields record pre-test creation stage only; this final admission is based on completed static tests and independent release validation"
+}

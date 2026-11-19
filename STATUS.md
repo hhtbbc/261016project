@@ -675,3 +675,15 @@ THERMOSPHERE_AUTUMN_GPI_V22=GPI_READY_SEED_POLICY_PENDING。2021/2022分别GPI_R
 SEPEQX_SOURCE_NOT_ACQUIRED。未重试403；官方文档说明邮箱下载流程、5°数据包约1.5GB，列出精确sepeqx文件，但当前交付及替代单文件路径未验证，未提交表单或下载大包。本地文件/归档成员未发现原件；PyTorch后缀tar实际ZIP的解析澄清保留，未改权重。A mareqx源2002DOY80 00与SHA已核实但秋季适应未知；B SOURCE_IDENTITY_PENDING。两年均非RUN_READY，仍需用户审定初态政策。
 
 报告reports/THERMOSPHERE_AUTUMN_GPI_AND_SEED_POLICY_V22.md；人工操作docs/THERMOSPHERE_V22_SEED_ACQUISITION_AND_POLICY.md；成果experiments/thermosphere_autumn_gpi_seed_policy_v22/。下一步先合法导入审查初态/决定A或B，再冻结配置并另申请逐次16天积分。本轮无模型/评分/拟合/新原始数据/外部联系。SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED不变。
+
+## 2026-11-19 V23：A路线获批，双秋季配置冻结，模型未启动
+
+SEED_POLICY=A_MAREQX_APPROVED。2021/2022分别CONFIG_FROZEN_READY_FOR_RUN_AUTHORIZATION；ACTUAL_MODEL_RUN=NOT_RUN、真实验收NOT_RUN，均没有actual_run目录或真实预约。本轮用户只批准mareqx受限政策和配置准备，不批准积分。V22政策未决历史不改；A路线不再因sepeqx403而阻塞，AUTUMN_ADAPTATION_UNVERIFIED/FOURTEEN_DAY_SPINUP_NOT_PROVEN_CONVERGED/SEPEQX_SOURCE_NOT_ACQUIRED保留。
+
+原件SHA a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7、原生2002DOY80 00、34原生状态、36×72/29网格重验通过且未修改。input.F允许SOURCE_START与START日不同、小时分钟须同；rdsource显式SOURCE走只读冷启动，init按目标START设iter。因此秋季SOURCE_START80 0 0、START252 0 0合法，不重标源日历。两个16天配置STEP60/23040步、17primary/384secondary/33文件，V22各自GPI SHA绑定不变；仅日历、驱动、分卷及LABEL必要变化，SOURCE/GSWM路径变量展开后同原件。目标秋季14天适应与March25实际16天适应差异披露，不称纯季节单因素实验。
+
+新增秋季薄执行/验收适配，旧春季执行器、模型源码/二进制、原科学算法及V20协议不改。复用原supervisor/rank直接wait与V17告警通道；每年原子mkdir永久预约，跨年flock，SHA/资源/活动进程门禁，失败无自动重试，无授权在子进程前拒绝。50项检查通过：43单元与V17回归、4补充反例、1原Fortran路径探针（8字段）、2逐年release/NOT_RUN静态探针；两个普通MPI辅助作业不含真实模型。PROJECTROOT无下划线，规避Fortran变量名分隔符误解析。
+
+MPI5.0.8/全部动态库SHA匹配春季，当前CPU affinity112、余盘约1259.49GiB、主机MemAvailable约1817.23GiB、活动模型0；资源是当前快照非独占/OS隔离保证。单次拟4800秒/16GiB RSS/5GiB输出，启动余盘25GiB、运行余盘20GiB，另600秒/4GiB只读验收及独立复核；每次积分需新授权。下一轮先申请2021秋季单次16天，完成工程验收后停止，2022另行授权，不按2021误差改配置。
+
+报告reports/THERMOSPHERE_AUTUMN_MAREQX_CONFIG_FREEZE_V23.md；方案docs/THERMOSPHERE_AUTUMN_V23_NEXT_EXECUTION.md；证据experiments/thermosphere_autumn_mareqx_config_v23/。新下载/模型积分/科学评分/拟合/GPU/DART/轨道均0。SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED不变。

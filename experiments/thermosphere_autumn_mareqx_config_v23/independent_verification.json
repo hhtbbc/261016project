@@ -1,0 +1,65 @@
+{
+  "PASS": true,
+  "years": {
+    "2021": {
+      "PASS": true,
+      "input_SHA256": "1d73a45b25b0af5c5a70a9e5870e07589153b2789ccb3c9353cc957c742ee121",
+      "protocol_SHA256": "faf5c83f279f5521f1e77cd272b68c1ef23aa02994f2ee7703fed351324fd1ca",
+      "source_SHA256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "GPI_SHA256": "d401d0ae525babb343faaa6d1dd9a8d3c4fb1c2ea85beb26d2b0025cdf001b9a",
+      "expected_changed_physical_or_metadata_fields": [
+        "GPI_NCFILE",
+        "LABEL",
+        "OUTPUT",
+        "SECOUT",
+        "SECSTART",
+        "SECSTOP",
+        "START",
+        "START_DAY",
+        "START_YEAR",
+        "STOP"
+      ],
+      "unexpected_fields": [],
+      "steps": 23040,
+      "primary_records": 17,
+      "secondary_records": 384,
+      "NetCDF_files": 33,
+      "actual_model_run": "NOT_RUN"
+    },
+    "2022": {
+      "PASS": true,
+      "input_SHA256": "f01f3913f9f15b79132fe8f824c7ce9f5ce7c4c1b6591c9622be184ee7b0fa49",
+      "protocol_SHA256": "450d7b4830c8433112350aee53ba90bb1e279fd179957001370619f9c428f928",
+      "source_SHA256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "GPI_SHA256": "7d43db220fe7fbaded6b2182db8db32ee09cedf99dc5760815824ccf8298ebb2",
+      "expected_changed_physical_or_metadata_fields": [
+        "GPI_NCFILE",
+        "LABEL",
+        "OUTPUT",
+        "SECOUT",
+        "SECSTART",
+        "SECSTOP",
+        "START",
+        "START_DAY",
+        "STOP"
+      ],
+      "unexpected_fields": [],
+      "steps": 23040,
+      "primary_records": 17,
+      "secondary_records": 384,
+      "NetCDF_files": 33,
+      "actual_model_run": "NOT_RUN"
+    }
+  },
+  "old_assets_unchanged": 126,
+  "historical_16day_schedule_evidence": {
+    "path": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14/data_audit.json",
+    "SHA256": "9821e66850be40dc2c2a91a8d64fc6f2431ab4b0550b584cf68e4a6d8b2bcdc2",
+    "same_native_16day_volume_schedule": true,
+    "not_scientific_equivalence": true,
+    "A14_engineering_status": "PARTIAL"
+  },
+  "real_output_acceptance": "NOT_RUN",
+  "density_errors_read": 0,
+  "model_launches": 0
+}

@@ -1,0 +1,67 @@
+{
+  "PASS": true,
+  "additional_test_count": 2,
+  "description": "Per-year frozen package validation and no-subprocess NOT_RUN audit probe",
+  "years": {
+    "2021": {
+      "release_SHA_and_assets_valid": true,
+      "actual_acceptance": {
+        "ACTUAL_MODEL_RUN": "NOT_RUN",
+        "overall": "NOT_RUN",
+        "year": 2021,
+        "run_id": "NOT_LAUNCHED_V23",
+        "checks": {
+          "supervision": {
+            "status": "NOT_RUN"
+          },
+          "MPI_rank_exits": {
+            "status": "NOT_RUN"
+          },
+          "step_logs": {
+            "status": "NOT_RUN"
+          },
+          "output_files": {
+            "status": "NOT_RUN"
+          },
+          "target_observation_queries": {
+            "status": "NOT_RUN"
+          }
+        },
+        "scientific_gates_unchanged": true
+      },
+      "configuration_status": "CONFIG_FROZEN_READY_FOR_RUN_AUTHORIZATION",
+      "actual_directory_exists": false,
+      "launch_claim_exists": false
+    },
+    "2022": {
+      "release_SHA_and_assets_valid": true,
+      "actual_acceptance": {
+        "ACTUAL_MODEL_RUN": "NOT_RUN",
+        "overall": "NOT_RUN",
+        "year": 2022,
+        "run_id": "NOT_LAUNCHED_V23",
+        "checks": {
+          "supervision": {
+            "status": "NOT_RUN"
+          },
+          "MPI_rank_exits": {
+            "status": "NOT_RUN"
+          },
+          "step_logs": {
+            "status": "NOT_RUN"
+          },
+          "output_files": {
+            "status": "NOT_RUN"
+          },
+          "target_observation_queries": {
+            "status": "NOT_RUN"
+          }
+        },
+        "scientific_gates_unchanged": true
+      },
+      "configuration_status": "CONFIG_FROZEN_READY_FOR_RUN_AUTHORIZATION",
+      "actual_directory_exists": false,
+      "launch_claim_exists": false
+    }
+  }
+}

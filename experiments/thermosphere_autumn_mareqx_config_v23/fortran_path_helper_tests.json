@@ -1,0 +1,59 @@
+{
+  "PASS": true,
+  "test_count": 1,
+  "cases": [
+    {
+      "year": 2021,
+      "field": "SOURCE",
+      "PASS": true,
+      "expanded_project_relative": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc"
+    },
+    {
+      "year": 2021,
+      "field": "GSWM_MI_DI_NCFILE",
+      "PASS": true,
+      "expanded_project_relative": "data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc"
+    },
+    {
+      "year": 2021,
+      "field": "GSWM_MI_SDI_NCFILE",
+      "PASS": true,
+      "expanded_project_relative": "data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc"
+    },
+    {
+      "year": 2021,
+      "field": "GPI_NCFILE",
+      "PASS": true,
+      "expanded_project_relative": "experiments/thermosphere_autumn_gpi_seed_policy_v22/gpi_2021_autumn.nc"
+    },
+    {
+      "year": 2022,
+      "field": "SOURCE",
+      "PASS": true,
+      "expanded_project_relative": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc"
+    },
+    {
+      "year": 2022,
+      "field": "GSWM_MI_DI_NCFILE",
+      "PASS": true,
+      "expanded_project_relative": "data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc"
+    },
+    {
+      "year": 2022,
+      "field": "GSWM_MI_SDI_NCFILE",
+      "PASS": true,
+      "expanded_project_relative": "data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc"
+    },
+    {
+      "year": 2022,
+      "field": "GPI_NCFILE",
+      "PASS": true,
+      "expanded_project_relative": "experiments/thermosphere_autumn_gpi_seed_policy_v22/gpi_2022_autumn.nc"
+    }
+  ],
+  "source_SHA256": "19d505de53e8dc68ca249e9ba7cbbaeff0784f6dfd014de63a9bb29c502203f9",
+  "verbatim_subroutine_SHA256": "dd6c8bc3d401857520de598ab86e8353cddf043ca19df71e2ed1ae11add5b62e",
+  "elapsed_s": 0.13830305635929108,
+  "meaning": "Only original expand_path subroutine linked to tiny probe; not a model build or physical run",
+  "actual_model_launches": 0
+}

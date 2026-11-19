@@ -475,3 +475,18 @@ credentials.json
 !/experiments/thermosphere_autumn_gpi_seed_policy_v22/*.json
 !/experiments/thermosphere_autumn_gpi_seed_policy_v22/*.csv
 /experiments/thermosphere_autumn_gpi_seed_policy_v22/*_local.*
+
+# V23: public configuration/audit summaries; real runs, raw logs and fixtures remain local
+/experiments/thermosphere_autumn_mareqx_config_v23/**
+!/experiments/thermosphere_autumn_mareqx_config_v23/
+!/experiments/thermosphere_autumn_mareqx_config_v23/*.json
+!/experiments/thermosphere_autumn_mareqx_config_v23/*.csv
+/experiments/thermosphere_autumn_mareqx_config_v23/*_local*
+!/experiments/thermosphere_autumn_mareqx_config_v23/2021/
+!/experiments/thermosphere_autumn_mareqx_config_v23/2022/
+!/experiments/thermosphere_autumn_mareqx_config_v23/2021/input.inp
+!/experiments/thermosphere_autumn_mareqx_config_v23/2022/input.inp
+!/experiments/thermosphere_autumn_mareqx_config_v23/2021/launch_protocol.json
+!/experiments/thermosphere_autumn_mareqx_config_v23/2022/launch_protocol.json
+!/experiments/thermosphere_autumn_mareqx_config_v23/2021/admission.json
+!/experiments/thermosphere_autumn_mareqx_config_v23/2022/admission.json
