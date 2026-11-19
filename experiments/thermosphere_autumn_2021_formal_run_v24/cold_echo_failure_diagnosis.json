@@ -1,0 +1,55 @@
+{
+  "actual": {
+    "file": "primary_001.nc",
+    "file_SHA256": "5ddc4bd7cd47c134a77de0af18f93f116da97c9c912a120e39c20e3f7c4e869e",
+    "history_type": "primary",
+    "run_type_actual": "",
+    "run_type_repr": "''",
+    "comparison_to_frozen_literal_initial": false,
+    "year": [
+      2021
+    ],
+    "day": [
+      252
+    ],
+    "mtime": [
+      [
+        252,
+        0,
+        0
+      ]
+    ],
+    "CF_UTC": "2021-09-09 00:00:00",
+    "time_units": "minutes since 2021-9-9 0:0:0",
+    "initial_year": 2021,
+    "initial_day": 252,
+    "initial_mtime": [
+      252,
+      0,
+      0
+    ],
+    "iter": [
+      115200
+    ],
+    "records": 1,
+    "model_output_changed": false
+  },
+  "earlier_native_examples": [
+    {
+      "file": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run/primary_001.nc",
+      "run_type": "",
+      "history_type": "primary"
+    },
+    {
+      "file": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+      "run_type": "initial",
+      "history_type": "primary"
+    }
+  ],
+  "diagnosis": "Frozen autumn validator requires run_type exactly initial. Inspect actual value and compare upstream output.F vocabulary; no model output/validator altered.",
+  "frozen_source": "src/atmosphere/tiegcm_autumn_acceptance.py",
+  "freeze_unchanged": true,
+  "main_original_status": "FAIL",
+  "independent_raw_checks": "PASS",
+  "no_model_retry": true
+}

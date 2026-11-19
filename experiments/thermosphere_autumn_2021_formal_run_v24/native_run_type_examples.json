@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "file": "primary_001.nc",
+      "run_type": "",
+      "history_type": "primary",
+      "first_mtime": [
+        252,
+        0,
+        0
+      ],
+      "first_iter": 115200
+    },
+    {
+      "file": "primary_002.nc",
+      "run_type": "initial",
+      "history_type": "primary",
+      "first_mtime": [
+        253,
+        0,
+        0
+      ],
+      "first_iter": 364320
+    },
+    {
+      "file": "primary_017.nc",
+      "run_type": "initial",
+      "history_type": "primary",
+      "first_mtime": [
+        268,
+        0,
+        0
+      ],
+      "first_iter": 385920
+    },
+    {
+      "file": "secondary_001.nc",
+      "run_type": "initial",
+      "history_type": "secondary",
+      "first_mtime": [
+        252,
+        1,
+        0
+      ],
+      "first_iter": 362940
+    },
+    {
+      "file": "secondary_016.nc",
+      "run_type": "initial",
+      "history_type": "secondary",
+      "first_mtime": [
+        267,
+        1,
+        0
+      ],
+      "first_iter": 384540
+    }
+  ],
+  "source_code_SHA256": {
+    "third_party/TIEGCM2.0/src/output.F": "607a30a4814f01c1d22a47a45cf6efcb6d8f5a92d51db248840acadc585af4e4",
+    "third_party/TIEGCM2.0/src/nchist.F": "eb2c9f33ad919a69e4b5732b72da40ff113183f06901d444a9aeddfcc7a2c8b8",
+    "third_party/TIEGCM2.0/src/hist.F": "83fbb16e50c845f40aa35f04dc34da0e256b99679fa2b8723bd61d5c88819aad"
+  },
+  "read_only": true,
+  "frozen_validator_not_modified": true,
+  "no_repeat_acceptance": true
+}

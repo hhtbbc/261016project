@@ -1,0 +1,9 @@
+{
+  "initial_version_saved": "experiments/thermosphere_autumn_2021_formal_run_v24/independent_v1_local.py",
+  "initial_SHA256": "c73e683f502638a54cb18b1015d636fa7fd038abb4408c9a36f3f6b961b9aefe",
+  "current_file": "scripts/verify_tiegcm_autumn_2021_v24.py",
+  "current_SHA256": "e7e9aac2f51b0d100b5d0bffb3ef00e09efe645c196716fd4ece1ad37626a2d2",
+  "change": "Add direct secondary TN/wind/composition schema checks already required by V24; no physical code, threshold, model input or frozen V23 tool changed",
+  "tests_PASS": true,
+  "review_of_actual_outputs_not_started": true
+}

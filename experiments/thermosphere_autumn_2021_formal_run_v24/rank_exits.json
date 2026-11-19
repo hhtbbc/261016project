@@ -1,0 +1,66 @@
+{
+  "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+  "ranks": [
+    {
+      "rank": 0,
+      "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+      "returncode": 0,
+      "child_pid": 2377869,
+      "wrapper_sid": 2377861,
+      "child_sid": 2377861,
+      "wait_source": "direct subprocess.Popen.wait",
+      "started_unix": 1795073770.3165433,
+      "ended_unix": 1795076214.2227514,
+      "error": null,
+      "received_signals": []
+    },
+    {
+      "rank": 1,
+      "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+      "returncode": 0,
+      "child_pid": 2377870,
+      "wrapper_sid": 2377861,
+      "child_sid": 2377861,
+      "wait_source": "direct subprocess.Popen.wait",
+      "started_unix": 1795073770.316599,
+      "ended_unix": 1795076214.2227392,
+      "error": null,
+      "received_signals": []
+    },
+    {
+      "rank": 2,
+      "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+      "returncode": 0,
+      "child_pid": 2377868,
+      "wrapper_sid": 2377861,
+      "child_sid": 2377861,
+      "wait_source": "direct subprocess.Popen.wait",
+      "started_unix": 1795073770.316275,
+      "ended_unix": 1795076214.2231154,
+      "error": null,
+      "received_signals": []
+    },
+    {
+      "rank": 3,
+      "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+      "returncode": 0,
+      "child_pid": 2377871,
+      "wrapper_sid": 2377861,
+      "child_sid": 2377861,
+      "wait_source": "direct subprocess.Popen.wait",
+      "started_unix": 1795073770.3166661,
+      "ended_unix": 1795076214.2229385,
+      "error": null,
+      "received_signals": []
+    }
+  ],
+  "parent_returncode": 0,
+  "wait_source": "direct subprocess.Popen.wait",
+  "parent_identity": {
+    "pid": 2377861,
+    "start_ticks": 1823766523,
+    "uid": 0,
+    "pgid": 2377861,
+    "sid": 2377861
+  }
+}

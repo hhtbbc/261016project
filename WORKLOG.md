@@ -1335,3 +1335,17 @@ THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21=DATA_PARTIAL，两年份均DATA_PARTIAL
 当前状态：两年份CONFIG_FROZEN_READY_FOR_RUN_AUTHORIZATION，真实积分/验收NOT_RUN；每年admission.json为完成静态检查后的最终状态，launch_protocol/preparation_result中的PENDING字段保留创建阶段收据，不覆盖旧文件。A批准不解除秋季适应/14天未证充分/sepeqx缺失限制；March25实际距源启动16天、秋季目标距启动14天，不能作纯季节因果归因。资源快照及源码/ELF/库SHA无明显新阻碍；无额外下载/GPI重建/模型/评分/拟合/GPU/AI/DART/轨道。
 
 成果：reports/THERMOSPHERE_AUTUMN_MAREQX_CONFIG_FREEZE_V23.md，docs/THERMOSPHERE_AUTUMN_V23_NEXT_EXECUTION.md和新目录内决策/配置/diff/原件保护/50项测试/独立核验/资源/release清单。下一轮仅申请2021秋季一次16天及只读工程验收/原件独立复核，4800秒/16GiB/5GiB，另600秒/4GiB审计；2022另授权，不能按未来误差调配置。本轮同步后停止，所有旧科学门禁保留。最终提交/远端核验记录见git_sync_local.json及Git历史，不把未执行模型写成完成。
+
+## 2026-11-19 V24：2021秋季一次真实16天计算与未闭环工程验收
+
+授权/环境：明确只授权2021秋季16天冷启动和额外600秒/4GiB只读主验收及独立复核；本地/远端起始8f2490cdcc43a01190ebf6e0a85fefc89156f01c。读AGENTS/STATUS/WORKLOG、V23冻结报告/代码/清单与V20协议；source scripts/activate_tiegcm.sh，verify_package(2021)+environment_review验证全部SHA、初态原生身份、MPI/库、无预约/活动模型。当前CPU112、余盘1258.36GiB、可见主机MemAvailable1816.49GiB。冻结161旧资产SHA及单次授权，2022不在授权内。
+
+真实命令：python scripts/execute_tiegcm_autumn_v23.py --year 2021 --authorize-16day-run。仅一次Popen调用冻结入口，原成熟supervisor持有MPI直接wait，原rank wrapper持有四子进程wait。run_id18726974f5d3450ba61f82c23c8da3a0；最早rank记录2026-11-19T07:36:10.316275Z，最晚08:16:54.223115Z。监督2444.204256秒/40.736738分钟，23040步至2021-09-25 00:00，父/四rank均0，记录完整，无资源超限或重试。原始路径experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run/，真实33NC/17primary/384secondary，共3371588992bytes。CPU user9019.942417/system754.768081秒，采样RSS1070809088bytes，最低余盘1254.856445GiB；采样不是OS硬隔离/瞬时峰保证。
+
+主验收一次执行退出2：首primary run_type空而V23要求initial，output_files FAIL Illegal cold-echo exemption；supervision/rank/step_logs PASS，后续主全扫描及主查询NOT_RUN。冻结入口据此退出1，不等于物理MPI失败。没有改冻工具、清预约、改原NC或二次积分。cold echo实际初始日历正确、iter115200；暖态362940起、385920终。旧V16首primary同样run_type空；查output.F/hist.F/nchist.F原生echo不同于常规define_hist路径，保存header/源码证据，不直接改判据。
+
+独立工具scripts/verify_tiegcm_autumn_2021_v24.py在剩余预算中一次只读运行，直接检查父wait/events/rank、2304条每rank进度、33SHA和全时间轴/384帧原生DEN/ZG/TN/风/组分、独立GFZ中心均值/插值。原始数据检查PASS、实际驱动最大差2.842170943040401e-14；CDF2880全部有效，独立坐标/邻点/log垂向重建2880成功，检查23040列，零权重不跳过、无外推，不算任何密度误差。独立总状态ENGINEERING_FAIL因主FAIL而退出2，不强行闭环。主+独立监督10.250303秒；额外有限header诊断完成时总只读窗口150.514647秒<600，停止原始数值读取。6小型合成/静态测试通过；V24独立工具v1代码副本与v2新增既定schema检查收据保存，无V23修改。
+
+结果/问题：最终ENGINEERING_FAIL，物理积分COMPLETED。scripts/finalize_tiegcm_autumn_v24.py只汇总已完成记录；首result.json主计数null表示主扫描未完成，保留原件，result_final.json明确引用独立实测17/384及主失败；没有将独立PASS冒充完整验收PASS。161旧资产保持SHA，2022冻结配置不变且未启动。所有33输出/hash和完整日志本地保留，公开仅摘要/索引/代码/报告。
+
+交付：reports/THERMOSPHERE_AUTUMN_2021_FORMAL_RUN_V24.md；docs/THERMOSPHERE_AUTUMN_V24_POSTRUN_DECISION.md；experiments/thermosphere_autumn_2021_formal_run_v24/。下一轮先授权只读cold echo身份修复/回归与完整复验，不需重积分；2021主验收PASS前不直接启动2022，之后还需单独授权并审查其同类审计绑定。A_MAREQX_APPROVED有效，秋季适应/14天预热/外部ZG/Restart/科学训练/DART/轨道门禁均保留。新密度评分/拟合、新下载、2022模型、AI/GPU/DART/轨道均0。本轮同步后停止。

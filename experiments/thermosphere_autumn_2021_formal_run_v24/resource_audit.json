@@ -1,0 +1,33 @@
+{
+  "model_supervision_wall_s": 2444.204256169498,
+  "model_minutes": 40.73673760282497,
+  "peak_sampled_tree_RSS_bytes": 1070809088,
+  "children_CPU_user_s": 9019.942417,
+  "children_CPU_system_s": 754.768081,
+  "NetCDF_files": 33,
+  "NetCDF_logical_bytes": 3371588992,
+  "run_logical_bytes": 3379981497,
+  "run_allocated_bytes": 3380199424,
+  "min_sampled_free_disk_bytes": 1347391848448,
+  "readonly_combined": {
+    "combined_budget_s": 600,
+    "actual_elapsed_s": 10.250303253531456,
+    "remaining_before_independent_s": 597.9962878413498,
+    "independent_wall_trigger_s": 595.9962878413498,
+    "within_budget": true
+  },
+  "independent_supervision": {
+    "returncode": 2,
+    "qualification": "FAIL",
+    "elapsed_s": 8.242261681705713,
+    "stop_reason": null,
+    "peak_sampled_tree_rss_bytes": 168587264,
+    "children_cpu_user_s": 6.438523000000714,
+    "children_cpu_system_s": 1.4656800000000203,
+    "cleanup_verified": true
+  },
+  "monitoring_scope": "sampled same-UID new session; shared RSS counted repeatedly; no continuous-peak guarantee",
+  "GPU": 0,
+  "model_launches": 1,
+  "automatic_retry": false
+}

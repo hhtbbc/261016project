@@ -1,0 +1,94 @@
+{
+  "ACTUAL_MODEL_RUN": "ATTEMPTED",
+  "overall": "FAIL",
+  "year": 2021,
+  "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+  "checks": {
+    "supervision": {
+      "status": "PASS",
+      "evidence": {
+        "returncode": 0,
+        "status_SHA256": "290332bad17f747e4af66e2e1d2f7572a9af8ec3bdaa053c5a0a03a5ad16e929",
+        "wait_source": "direct subprocess.Popen.wait"
+      }
+    },
+    "MPI_rank_exits": {
+      "status": "PASS",
+      "evidence": {
+        "ranks": [
+          {
+            "rank": 0,
+            "returncode": 0,
+            "receipt_SHA256": "49aba278c8e98e342d47f3f91ff17c0b35320e7db03439cc56451c69dc431eca",
+            "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+            "input_SHA256": "1d73a45b25b0af5c5a70a9e5870e07589153b2789ccb3c9353cc957c742ee121"
+          },
+          {
+            "rank": 1,
+            "returncode": 0,
+            "receipt_SHA256": "b9b09c12caaa8ccdfb5bf2c980aa54b507f72378963d66828e275a8d6512d84a",
+            "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+            "input_SHA256": "1d73a45b25b0af5c5a70a9e5870e07589153b2789ccb3c9353cc957c742ee121"
+          },
+          {
+            "rank": 2,
+            "returncode": 0,
+            "receipt_SHA256": "37694a780d0c43a88bf95623e2af2368ee523f37d81300927226d956268ea9ce",
+            "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+            "input_SHA256": "1d73a45b25b0af5c5a70a9e5870e07589153b2789ccb3c9353cc957c742ee121"
+          },
+          {
+            "rank": 3,
+            "returncode": 0,
+            "receipt_SHA256": "798d5c53cedcbdd41064fa8c664d2c8efab1c180893f9e2381d0ae671b8fc3ec",
+            "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+            "input_SHA256": "1d73a45b25b0af5c5a70a9e5870e07589153b2789ccb3c9353cc957c742ee121"
+          }
+        ],
+        "source": "rank wrapper direct child wait plus root MPI parent wait; not inferred from NORMAL EXIT count"
+      }
+    },
+    "step_logs": {
+      "status": "PASS",
+      "evidence": {
+        "per_rank": [
+          {
+            "final_step": 23040,
+            "progress_records": 2304,
+            "logging_stride": 10,
+            "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+          },
+          {
+            "final_step": 23040,
+            "progress_records": 2304,
+            "logging_stride": 10,
+            "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+          },
+          {
+            "final_step": 23040,
+            "progress_records": 2304,
+            "logging_stride": 10,
+            "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+          },
+          {
+            "final_step": 23040,
+            "progress_records": 2304,
+            "logging_stride": 10,
+            "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+          }
+        ]
+      }
+    },
+    "output_files": {
+      "status": "FAIL",
+      "error_type": "GateError",
+      "reason": "Illegal cold-echo exemption"
+    },
+    "target_observation_queries": {
+      "status": "NOT_RUN"
+    }
+  },
+  "scientific_gates_unchanged": true,
+  "warning_count": 0,
+  "model_launches_this_audit": 0
+}

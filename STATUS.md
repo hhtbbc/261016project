@@ -687,3 +687,15 @@ SEED_POLICY=A_MAREQX_APPROVED。2021/2022分别CONFIG_FROZEN_READY_FOR_RUN_AUTHO
 MPI5.0.8/全部动态库SHA匹配春季，当前CPU affinity112、余盘约1259.49GiB、主机MemAvailable约1817.23GiB、活动模型0；资源是当前快照非独占/OS隔离保证。单次拟4800秒/16GiB RSS/5GiB输出，启动余盘25GiB、运行余盘20GiB，另600秒/4GiB只读验收及独立复核；每次积分需新授权。下一轮先申请2021秋季单次16天，完成工程验收后停止，2022另行授权，不按2021误差改配置。
 
 报告reports/THERMOSPHERE_AUTUMN_MAREQX_CONFIG_FREEZE_V23.md；方案docs/THERMOSPHERE_AUTUMN_V23_NEXT_EXECUTION.md；证据experiments/thermosphere_autumn_mareqx_config_v23/。新下载/模型积分/科学评分/拟合/GPU/DART/轨道均0。SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED不变。
+
+## 2026-11-19 V24：2021秋季真实积分完成，主验收cold echo误判未闭环
+
+AUTUMN_2021_PHYSICAL_RUN=COMPLETED；AUTUMN_2021_FORMAL_RUN_V24=ENGINEERING_FAIL。明确单次授权后使用V23冻结入口，仅2021冷启动23040步，模型UTC终点2021-09-25 00:00，真实监督2444.204256秒（40.736738分钟），MPI父/四rank均退出0、无stop_reason/采样缺口、cleanup_verified。run_id18726974f5d3450ba61f82c23c8da3a0。真实17primary/384secondary/33NetCDF，共3371588992bytes（3.140037GiB），采样树峰0.997269GiB、CPU合计9774.710498秒；一次性预约和全部原件保留，无重试/续算/模型改编译。
+
+主验收supervision/MPI退出/进度PASS；output_files在首primary因Illegal cold-echo exemption失败，主全程扫描未完成、主Swarm覆盖NOT_RUN。实际首primary global run_type=''，但原生2021DOY252 00/CF/initial日历正确，cold iter115200继承源；暖态首362940、末385920正确。旧V16春季首primary也空，原生echo走copyhist而非常规define_hist，V23严格要求run_type=initial误判。不是NaN告警误杀；本轮不改冻结工具/原NC/判据，不重新验收冒充PASS。
+
+独立原始复核PASS：全33SHA/17+384精确时间轴，全部384帧DEN/ZG及TN/风/组分有效，独立GFZ构造实际驱动最大差2.842170943040401e-14<1e-10，CDF2880合格/2880八列查询成功/0失败、23040列含零权重、不外推。独立汇总仍ENGINEERING_FAIL（主FAIL），不能代替正式闭环。主+独立监督10.250303秒，含后续少量header诊断窗口150.514647秒<600，独立采样RSS160.78MiB；6项新增只读工具小测试PASS，原V23代码及161项保护资产不变。
+
+2022 input/GPI/初态/协议保持冻结，未启动；其运行门禁依赖2021主验收PASS，当前AUTUMN_2022_EXECUTION_GATE=BLOCKED_2021_MAIN_ACCEPTANCE。下一轮建议新授权版本化只读冷echo修复与一次完整复验，保留V24FAIL，不重跑模型；闭环后另审查2022审计绑定并单独申请积分。报告reports/THERMOSPHERE_AUTUMN_2021_FORMAL_RUN_V24.md；决策docs/THERMOSPHERE_AUTUMN_V24_POSTRUN_DECISION.md；最终轻量状态experiments/thermosphere_autumn_2021_formal_run_v24/result_final.json；原始数据留V23/2021/actual_run。首result.json的主记录数null保留，由result_final引用独立实测17/384，不覆盖历史。
+
+SEED_POLICY=A_MAREQX_APPROVED、AUTUMN_ADAPTATION_UNVERIFIED、FOURTEEN_DAY_SPINUP_NOT_PROVEN_CONVERGED、EXTERNAL_DATUM_UNVERIFIED、RestartFAIL、SCIENCE_TRAINING_READY=False、DARTNOT_ADMITTED、REAL_ORBITBLOCKED全部保持。无密度评分/拟合、新下载、2022积分、GPU/AI/DART/轨道；本轮同步后停止。

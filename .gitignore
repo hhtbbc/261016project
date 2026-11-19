@@ -490,3 +490,10 @@ credentials.json
 !/experiments/thermosphere_autumn_mareqx_config_v23/2022/launch_protocol.json
 !/experiments/thermosphere_autumn_mareqx_config_v23/2021/admission.json
 !/experiments/thermosphere_autumn_mareqx_config_v23/2022/admission.json
+
+# V24: lightweight actual-run evidence; original NetCDF/CDF and full logs remain local
+/experiments/thermosphere_autumn_2021_formal_run_v24/**
+!/experiments/thermosphere_autumn_2021_formal_run_v24/
+!/experiments/thermosphere_autumn_2021_formal_run_v24/*.json
+!/experiments/thermosphere_autumn_2021_formal_run_v24/*.csv
+/experiments/thermosphere_autumn_2021_formal_run_v24/*_local*

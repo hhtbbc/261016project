@@ -1,0 +1,36 @@
+{
+  "overall": "ENGINEERING_FAIL",
+  "ACTUAL_MODEL_RUN": "COMPLETED",
+  "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+  "model_launches": 1,
+  "year": 2021,
+  "steps": 23040,
+  "final_UTC": "2021-09-25T00:00:00Z",
+  "primary_records": null,
+  "secondary_records": null,
+  "NetCDF_files": 33,
+  "model_wall_s": 2444.204256169498,
+  "rank_returncodes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "main_acceptance": "FAIL",
+  "independent_acceptance": "ENGINEERING_FAIL",
+  "Swarm_eligible": 2880,
+  "Swarm_success": 2880,
+  "Swarm_failed": 0,
+  "actual_driver_max_abs": null,
+  "independent_GFZ_max_abs": {
+    "f107d": 2.842170943040401e-14,
+    "f107a": 2.842170943040401e-14,
+    "Kp": 8.881784197001252e-16,
+    "hpower": 2.842170943040401e-14,
+    "ctpoten": 2.842170943040401e-14
+  },
+  "year2022_launched": false,
+  "new_scores": 0,
+  "new_fits": 0,
+  "scientific_gates_unchanged": true
+}

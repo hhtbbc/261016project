@@ -1,0 +1,32 @@
+{
+  "start_HEAD": "8f2490cdcc43a01190ebf6e0a85fefc89156f01c",
+  "model_command": [
+    "python",
+    "scripts/execute_tiegcm_autumn_v23.py",
+    "--year",
+    "2021",
+    "--authorize-16day-run"
+  ],
+  "environment_activation": "source scripts/activate_tiegcm.sh",
+  "physical_launches": 1,
+  "retries": 0,
+  "steps": [
+    "Read actual AGENTS/STATUS/WORKLOG/V23 release, reviewed frozen launcher/audit; verify_package(2021), environment_review; SHA/source/calendar/resources/reservations passed",
+    "Single direct Popen of exact frozen2021entry; original supervisor owned MPI wait, no execution code modified",
+    "Polled existing logs and session; no restart/append, no2022",
+    "New independent script adapted existing V17 raw review;6 synthetic/schema/no-launch tests before actual read-only review; initial code saved locally, final code pinned in v2 receipt",
+    "Frozen entry automatically invoked one primary read-only acceptance; failed at empty cold run_type, exit2; frozen entry exit1",
+    "After primary audit, same outer observer invoked one independent read-only review using remaining combined600s budget; raw checks passed but overallFAIL and exit2 due primaryFAIL",
+    "Within remaining budget inspected small native headers and original source code; preserved frozen failure/no model retry; no validator or NetCDF modifications",
+    "Reporting-only finalizer read existing JSON and file size/block metadata; result_final.json quotes independent actual counts, original initial summary with main counts unavailable retained",
+    "After raw diagnostics, only existing JSON/source/config text/public delivery and Git operations; no further scientific scan, score or fit"
+  ],
+  "actual_model_run": "COMPLETED",
+  "overall": "ENGINEERING_FAIL",
+  "main_acceptance_retries": 0,
+  "independent_full_reviews": 1,
+  "year2022_started": false,
+  "science_scores": 0,
+  "correction_fits": 0,
+  "new_data_downloads": 0
+}

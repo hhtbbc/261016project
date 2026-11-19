@@ -1,0 +1,23 @@
+{
+  "task": "V24",
+  "year": 2021,
+  "explicit_user_authorization": true,
+  "authorized_physical_launches": 1,
+  "automatic_retries": 0,
+  "authorize_2022": false,
+  "model_interval": [
+    "2021-09-09T00:00:00Z",
+    "2021-09-25T00:00:00Z"
+  ],
+  "model_budget_s": 4800,
+  "model_stop_trigger_s": 4770,
+  "model_RSS_bytes": 17179869184,
+  "output_bytes": 5368709120,
+  "start_disk_floor_bytes": 26843545600,
+  "run_disk_floor_bytes": 21474836480,
+  "postrun_main_and_independent_combined_wall_s": 600,
+  "postrun_RSS_bytes": 4294967296,
+  "postrun_outputs_bytes": 157286400,
+  "no_scoring_or_fitting": true,
+  "SEED_POLICY": "A_MAREQX_APPROVED"
+}
