@@ -1,0 +1,31 @@
+{
+  "status": "PASS_FOR_GPI_ONLY",
+  "years": {
+    "2021": {
+      "raw_parser_agrees": true,
+      "independent_center81": true,
+      "independent_explicit_cubic": true,
+      "independent_Kp_center_bracketing": true,
+      "independent_hpower_ctpoten": true,
+      "all_23153_queries_under_strict_1e_10": true,
+      "strict_center81_under_1e_12": true,
+      "schema_matches_proven_spring": true,
+      "original_SHA_unchanged": true
+    },
+    "2022": {
+      "raw_parser_agrees": true,
+      "independent_center81": true,
+      "independent_explicit_cubic": true,
+      "independent_Kp_center_bracketing": true,
+      "independent_hpower_ctpoten": true,
+      "all_23153_queries_under_strict_1e_10": true,
+      "strict_center81_under_1e_12": true,
+      "schema_matches_proven_spring": true,
+      "original_SHA_unchanged": true
+    }
+  },
+  "tolerances_changed": false,
+  "actual_initial_field": "NOT_RUN_NOT_ACQUIRED",
+  "initial_inspector": "Existing V21 inspector unchanged; synthetic positive/negative cases only",
+  "model_or_science_pass": false
+}

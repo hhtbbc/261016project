@@ -1,0 +1,300 @@
+{
+  "exact_file_matches": [],
+  "archives": [
+    {
+      "path": ".cache/uv/archive-v0/kWT2Z0o6Rdb_cy8CKdNCL/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz",
+      "bytes": 156400,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "models/checkpoints/checkpoint_files.zip",
+      "bytes": 2901442296,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "models/checkpoints/author/Baseline_1h_history_ckpt.tar",
+      "bytes": 802585484,
+      "metadata_only": true,
+      "status": "UNREADABLE_NOT_A_VERIFIED_OFFICIAL_DATA_PACKAGE",
+      "error_type": "ReadError",
+      "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method tar: ReadError('invalid header')"
+    },
+    {
+      "path": "models/checkpoints/author/Baseline_log_DEN_ckpt.tar",
+      "bytes": 776484108,
+      "metadata_only": true,
+      "status": "UNREADABLE_NOT_A_VERIFIED_OFFICIAL_DATA_PACKAGE",
+      "error_type": "ReadError",
+      "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method tar: ReadError('invalid header')"
+    },
+    {
+      "path": "models/checkpoints/author/Flow_ckpt.tar",
+      "bytes": 776485772,
+      "metadata_only": true,
+      "status": "UNREADABLE_NOT_A_VERIFIED_OFFICIAL_DATA_PACKAGE",
+      "error_type": "ReadError",
+      "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method tar: ReadError('invalid header')"
+    },
+    {
+      "path": "models/checkpoints/author/Direct_ckpt.tar",
+      "bytes": 776485772,
+      "metadata_only": true,
+      "status": "UNREADABLE_NOT_A_VERIFIED_OFFICIAL_DATA_PACKAGE",
+      "error_type": "ReadError",
+      "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method tar: ReadError('invalid header')"
+    },
+    {
+      "path": ".local/python/cpython-3.10.19-linux-x86_64-gnu/lib/python3.10/site-packages/pkg_resources/tests/data/my-test-package-zip/my-test-package.zip",
+      "bytes": 1809,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/static_log.zip",
+      "bytes": 2296512,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/tiegcm2.0_da712811d925.tar.gz",
+      "bytes": 11770244,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/FourCastDEN.zip",
+      "bytes": 90106,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/static.zip",
+      "bytes": 2378058,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20220323T000000_20220323T235930_0301.ZIP",
+      "bytes": 139397,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/causal_density_latitude_v1/SW_OPER_DNSAPOD_2__20210323T000000_20210323T235930_0301.ZIP",
+      "bytes": 140271,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/thermosphere_observation_assimilation_feasibility_v1/SW_OPER_DNSCPOD_2__20220324T000000_20220324T235930_0301.ZIP",
+      "bytes": 139647,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_coordinate_orbit_readiness_v1/SW_OPER_SP3ACOM_2__20230323T235942_20230324T235942_0203.ZIP",
+      "bytes": 440229,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_coordinate_orbit_readiness_v1/SW_OPER_SP3ACOM_2__20230103T235942_20230104T235942_0203.ZIP",
+      "bytes": 440043,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/causal_density_new_date_validation_v1/SW_OPER_DNSAPOD_2__20210325T000000_20210325T235930_0301.ZIP",
+      "bytes": 140187,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_tiegcm_2022_observation_v1/SW_OPER_DNSAPOD_2__20220324T000000_20220324T235930_0301.ZIP",
+      "bytes": 139744,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_tiegcm_2021_spinup_observation_v1/SW_OPER_DNSAPOD_2__20210324T000000_20210324T235930_0301.ZIP",
+      "bytes": 140593,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/fourcastden_swarm_observation_v1/SW_OPER_DNSAPOD_2__20230104T000000_20230104T235930_0301.ZIP",
+      "bytes": 139812,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/fourcastden_swarm_observation_v1/SW_OPER_DNSAPOD_2__20230324T000000_20230324T235930_0301.ZIP",
+      "bytes": 139918,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.ZIP",
+      "bytes": 140142,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.ZIP",
+      "bytes": 139634,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_attitude_2023/SW_OPER_STRAATT_1B_20230321T000000_20230321T235959_0601.CDF.ZIP",
+      "bytes": 2778945,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_attitude_2023/SW_OPER_STRAATT_1B_20230322T000000_20230322T235959_0601.CDF.ZIP",
+      "bytes": 2772686,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_attitude_2023/SW_OPER_STRAATT_1B_20230323T000000_20230323T235959_0601.CDF.ZIP",
+      "bytes": 2775351,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_drag/SW_OPER_DNSAPOD_2__20230323T000000_20230323T235930_0301.ZIP",
+      "bytes": 140099,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_drag/SW_OPER_DNSAPOD_2__20230322T000000_20230322T235930_0301.ZIP",
+      "bytes": 139294,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_drag/SW_OPER_SC_ADYN_1B_20230321T000000_20230321T235959_0601.CDF.ZIP",
+      "bytes": 3581514,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_drag/SW_OPER_DNSAPOD_2__20230321T000000_20230321T235930_0301.ZIP",
+      "bytes": 139072,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_drag/SW_OPER_SC_ADYN_1B_20230323T000000_20230323T235959_0601.CDF.ZIP",
+      "bytes": 3620414,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_drag/SW_OPER_SC_ADYN_1B_20230322T000000_20230322T235959_0601.CDF.ZIP",
+      "bytes": 3558470,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_physical_force_readiness_v1/SW_OPER_STRAATT_1B_20230104T000000_20230104T235959_0601.CDF.ZIP",
+      "bytes": 2774673,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/swarm_physical_force_readiness_v1/SW_OPER_SC_ADYN_1B_20230104T000000_20230104T235959_0601.CDF.ZIP",
+      "bytes": 3557965,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/tiegcm_2022_mar25_preparation_v1/SW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.ZIP",
+      "bytes": 139665,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/orbits/swarm_a/SW_OPER_SP3ACOM_2__20230322T235942_20230323T235942_0203.ZIP",
+      "bytes": 439999,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/orbits/swarm_a/SW_OPER_SP3ACOM_2__20230321T235942_20230322T235942_0203.ZIP",
+      "bytes": 439918,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "data/raw/orbits/swarm_a/SW_OPER_SP3ACOM_2__20230320T235942_20230321T235942_0203.ZIP",
+      "bytes": 440078,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "third_party/FourCastDEN.zip",
+      "bytes": 90106,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/tests_local/extra.zip",
+      "bytes": 509,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/tests_local/unsafe.zip",
+      "bytes": 420,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/tests_local/large.zip",
+      "bytes": 441,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/tests_regression_local/extra.zip",
+      "bytes": 509,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/tests_regression_local/unsafe.zip",
+      "bytes": 420,
+      "metadata_only": true,
+      "member_name_matches": []
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/tests_regression_local/large.zip",
+      "bytes": 441,
+      "metadata_only": true,
+      "member_name_matches": []
+    }
+  ],
+  "files_names_scanned": 53311,
+  "excluded_environment_dirs": [
+    ".envs",
+    ".git",
+    ".venv",
+    ".venv310",
+    "__pycache__",
+    "node_modules"
+  ],
+  "followed_symlinks": false,
+  "status": "SEPEQX_SOURCE_NOT_ACQUIRED",
+  "no_extraction": true,
+  "no_network": true,
+  "earlier_attempt": "Metadata scan stopped on invalid existing tar header; no new artifacts or raw data changed; resumed with per-archive failure evidence, not treated as absent contents",
+  "wall_seconds": 1.14432967081666,
+  "CPU_seconds": 0.786393918,
+  "max_self_RSS_KiB": 18616
+}

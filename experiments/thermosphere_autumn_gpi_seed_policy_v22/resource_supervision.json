@@ -1,0 +1,11 @@
+{
+  "returncode": 0,
+  "wall_seconds": 5.414461694657803,
+  "sampled_tree_RSS_bytes": 60604416,
+  "poll_seconds": 0.1,
+  "terminated_reason": null,
+  "CPU_wall_budget": 600,
+  "RSS_budget_bytes": 4294967296,
+  "not_OS_isolation": true,
+  "supervision_setup_failure": "psutil unavailable before any worker launch; replaced by read-only procfs, no dependency changes"
+}

@@ -1,0 +1,26 @@
+{
+  "access_date_UTC": "2026-11-19T06:55:24.538075+00:00",
+  "official_sources": {
+    "portal": "https://www.hao.ucar.edu/modeling/tgcm/download.php",
+    "quickstart": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/quickstart.html",
+    "directory": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/dirstruct.html",
+    "benchmarks": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/release/html/benchmarks.html"
+  },
+  "quickstart_evidence": {
+    "email_address_required_by_documentation": true,
+    "login_password_required_by_documentation": false,
+    "package": "tiegcm_res5.0_data.tar",
+    "documented_package_size": "1.5 GB",
+    "current_delivery_success": "NOT_VERIFIED"
+  },
+  "portal_observation": "Web reader extracted two Input elements only; no form submitted, no delivery tested",
+  "directory_evidence": "Official 2.0 guide lists exact tiegcm_res5.0_sepeqx_smax_prim.nc among 5-degree startup files",
+  "single_file_alternative": "No newly verified accessible official single-file route; restricted exact URL not requested again",
+  "Globus": "Official benchmark transfer documented, but exact same single-record seed identity and present endpoint availability NOT_VERIFIED; no transfer/login attempted",
+  "license_and_access": "Public documentation describes email download workflow. New terms, eligibility and delivery must be inspected manually; no extra license inferred.",
+  "V21_403_receipt": "experiments/thermosphere_autumn_data_acquisition_v21/initial_http_receipt.json",
+  "binary_download_bytes": 0,
+  "form_submissions": 0,
+  "emails_sent": 0,
+  "initial_status": "SEPEQX_SOURCE_NOT_ACQUIRED"
+}

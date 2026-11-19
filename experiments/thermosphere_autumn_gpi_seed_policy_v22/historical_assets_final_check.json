@@ -1,0 +1,26 @@
+{
+  "PASS": true,
+  "original_protected_files": 98,
+  "additional_HEAD_checks": {
+    "reports/THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21.md": {
+      "HEAD_SHA256": "a42ae9c89f9c4c0b368e2e38d672cde3b33ad97c40c4157508a63d76c5b043e2",
+      "current_SHA256": "a42ae9c89f9c4c0b368e2e38d672cde3b33ad97c40c4157508a63d76c5b043e2"
+    },
+    "docs/THERMOSPHERE_V21_SEED_POLICY_NEXT_DECISION.md": {
+      "HEAD_SHA256": "5430717ba1d0290224dc86a63c4889d07fe182c45d1798eaa1db94a212b88439",
+      "current_SHA256": "5430717ba1d0290224dc86a63c4889d07fe182c45d1798eaa1db94a212b88439"
+    },
+    "src/observations/autumn_validation.py": {
+      "HEAD_SHA256": "a960f496c9e5419054d40fe615f5fc3db91c6a543b80f196b06fb376db04b356",
+      "current_SHA256": "a960f496c9e5419054d40fe615f5fc3db91c6a543b80f196b06fb376db04b356"
+    },
+    "scripts/prepare_tiegcm_training_drivers.py": {
+      "HEAD_SHA256": "82fdbf2c4d39f04041013de0b3e5a16bd9d9bbeedd7ee31b6c1c0f9eb7465675",
+      "current_SHA256": "82fdbf2c4d39f04041013de0b3e5a16bd9d9bbeedd7ee31b6c1c0f9eb7465675"
+    },
+    "src/atmosphere/tiegcm_drivers.py": {
+      "HEAD_SHA256": "3bdbd2b576bbf9440be91f84efc6940280bac1b544716b2582e6d3f3196e7f3a",
+      "current_SHA256": "3bdbd2b576bbf9440be91f84efc6940280bac1b544716b2582e6d3f3196e7f3a"
+    }
+  }
+}

@@ -665,3 +665,13 @@ THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21=DATA_PARTIAL，两年份均DATA_PARTIAL
 成功保存正文288635bytes，全部实际TCP接收319773bytes、发送9598bytes，保守计额329371bytes含失败403/TLS/HTTP/CONNECT（小数据320272/1MiB，初态9099/20MiB），未宣称IP层抓包额度。ZIP唯一解压388878bytes，含所有验证/读取pass保守解码1944390<2MiB。17项不同测试通过；监督10.543813秒、workerCPU0.799568秒、采样树峰84.453MiB，退出0意味着PARTIAL处理完成而非全包成功。原V20协议SHA与受保护旧文件不变。
 
 报告reports/THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21.md；决策docs/THERMOSPHERE_V21_SEED_POLICY_NEXT_DECISION.md；原件仅data/raw/thermosphere_autumn_data_acquisition_v21/。下一步先合法取得并审查初态/政策，不重下已通过数据；未生成GPI/改积分配置/启动模型/评分/拟合/AI/DART/轨道/外部联系。SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED保持。本轮同步后停止。
+
+## 2026-11-19 V22：秋季GPI就绪，初态政策待审定
+
+THERMOSPHERE_AUTUMN_GPI_V22=GPI_READY_SEED_POLICY_PENDING。2021/2022分别GPI_READY：复用V21真实GFZ，21日GPI原始节点09-07—09-27，Fobs支撑07-29—11-06共101日，168def Kp；候选模型区间09-09 00至09-25 00。原春季arrays/write_gpi及运行驱动公式SHA不变。独立原始重解析、中心81日fsum、显式三次插值及Kp中心括区复核，每年23041分钟+112边界节点，最大驱动绝对差5.684341886080802e-14<1e-10，中心平均差≤2.842170943040401e-14<1e-12；无缺失/重复/外推，无填补/平滑。17CPU测试通过，含34状态合成初态审查，非实物sepeqx验证。
+
+新GPI各2556bytes，SHA分别d401d0ae525babb343faaa6d1dd9a8d3c4fb1c2ea85beb26d2b0025cdf001b9a、7d43db220fe7fbaded6b2182db8db32ee09cedf99dc5760815824ccf8298ebb2，仅本地0444，不入GitHub。V21原Swarm/GFZ及V20协议SHA不变，未重新下载。监督5.414462秒/workerCPU5.235911秒，自RSS高水位71.551MiB，采样树57.797MiB；17测试2.887秒。psutil缺失在worker启动前发现，改procfs监测无安装。资源监测不宣称OS隔离。
+
+SEPEQX_SOURCE_NOT_ACQUIRED。未重试403；官方文档说明邮箱下载流程、5°数据包约1.5GB，列出精确sepeqx文件，但当前交付及替代单文件路径未验证，未提交表单或下载大包。本地文件/归档成员未发现原件；PyTorch后缀tar实际ZIP的解析澄清保留，未改权重。A mareqx源2002DOY80 00与SHA已核实但秋季适应未知；B SOURCE_IDENTITY_PENDING。两年均非RUN_READY，仍需用户审定初态政策。
+
+报告reports/THERMOSPHERE_AUTUMN_GPI_AND_SEED_POLICY_V22.md；人工操作docs/THERMOSPHERE_V22_SEED_ACQUISITION_AND_POLICY.md；成果experiments/thermosphere_autumn_gpi_seed_policy_v22/。下一步先合法导入审查初态/决定A或B，再冻结配置并另申请逐次16天积分。本轮无模型/评分/拟合/新原始数据/外部联系。SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED不变。

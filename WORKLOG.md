@@ -1307,3 +1307,17 @@ THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21=DATA_PARTIAL，两年份均DATA_PARTIAL
 成功保存正文288635bytes，全部实际TCP接收319773bytes、发送9598bytes，保守计额329371bytes含失败403/TLS/HTTP/CONNECT（小数据320272/1MiB，初态9099/20MiB），未宣称IP层抓包额度。ZIP唯一解压388878bytes，含所有验证/读取pass保守解码1944390<2MiB。17项不同测试通过；监督10.543813秒、workerCPU0.799568秒、采样树峰84.453MiB，退出0意味着PARTIAL处理完成而非全包成功。原V20协议SHA与受保护旧文件不变。
 
 报告reports/THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21.md；决策docs/THERMOSPHERE_V21_SEED_POLICY_NEXT_DECISION.md；原件仅data/raw/thermosphere_autumn_data_acquisition_v21/。下一步先合法取得并审查初态/政策，不重下已通过数据；未生成GPI/改积分配置/启动模型/评分/拟合/AI/DART/轨道/外部联系。SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED保持。本轮同步后停止。
+
+## 2026-11-19 V22：独立秋季GPI生成与初态路径闭环准备
+
+目标：利用V21已取得原件生成2021/2022秋季GPI，独立复核驱动，保留sepeqx403并调查合法获取，不积分/评分。
+
+环境与命令：项目realpath核对，本地/远端起始d3ead6ebf77e7068fcec9cad60ca5ce3b42caf81；source scripts/activate_orbit.sh，PYTHONPATH=src:scripts；python -m unittest discover -s tests -p test_autumn_gpi_v22.py -v（17项/2.887秒）；python scripts/prepare_autumn_gpi_v22.py由procfs资源监督一次执行，退出0。新模块src/atmosphere/autumn_gpi_validation.py，生成脚本scripts/prepare_autumn_gpi_v22.py，tests/test_autumn_gpi_v22.py；旧生成器、运行插值、初态检查器不改。
+
+实际：先逐文件比V21及V20旧SHA，再独占冻结protocol和每年份input_sources。21日源、101Fobs和168def Kp完整，每份2556bytes NETCDF3_CLASSIC；两年各23041分钟+112边界节点复核，驱动最大差5.684341886080802e-14、中心平均最大差2.842170943040401e-14，保持1e-10/1e-12严格门槛；结构与已实跑春季GPI相同。GPI均GPI_READY，保留源/产物/代码SHA；原GFZ/Swarm和旧协议/参数不变。
+
+问题：初次监督设置因未安装psutil在任何worker启动前失败，改为只读/proc监测不安装依赖。归档元数据初扫遇PyTorch ZIP序列化的tar后缀，记录并按ZIP目录核实，无反序列化/提取/改写。一次GPIworker监督5.414462秒、CPU5.235911秒、自峰73268KiB、采样树60604416bytes；测试与元数据检索分列，不虚构整会话CPU总量。新原始数据下载0，仅官方HTML资料查询（工具无传输字节计数）。
+
+官方来源：QuickStart/dirstruct及download.php，文档说明邮箱流程和约1.5GB完整5°包；门户当前仅可解析输入元素，不证明交付可用。没有核实可用替代单文件路径，不重试V21受限URL，不提交表单、联系人员或下载大包。项目文件名及45归档元数据未发现精确sepeqx原件，SOURCE_IDENTITY_PENDING/SEPEQX_SOURCE_NOT_ACQUIRED。既有34状态审查器经合成正反例验证，实际初态NOT_RUN。A/B政策不代用户选择；春分同源可比性与秋分季节适应风险分别保留，两年非RUN_READY。
+
+成果：reports/THERMOSPHERE_AUTUMN_GPI_AND_SEED_POLICY_V22.md，docs/THERMOSPHERE_V22_SEED_ACQUISITION_AND_POLICY.md，experiments/thermosphere_autumn_gpi_seed_policy_v22/。Git仅轻量新代码/报告/CSV/JSON，不含GPI原件。下一步先人工合法提供初态并批准A/B政策，再准备正式配置；本轮停止。科学训练/高度/Restart/DART/真实轨道门禁不变。提交与远端同步核验见Git提交记录及本轮git_sync_local.json（仅本地）。

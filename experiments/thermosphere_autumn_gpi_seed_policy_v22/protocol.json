@@ -1,0 +1,17 @@
+{
+  "task": "V22",
+  "mean_abs_strict": 1e-12,
+  "driver_abs_strict": 1e-10,
+  "raw_days": 21,
+  "solar_days": 101,
+  "Kp_count": 168,
+  "model_intervals": [
+    "2021-09-09/2021-09-25",
+    "2022-09-09/2022-09-25"
+  ],
+  "time": "UTC; inclusive source days; query seconds in [0,86400)",
+  "builder_SHA256": "82fdbf2c4d39f04041013de0b3e5a16bd9d9bbeedd7ee31b6c1c0f9eb7465675",
+  "formula_changed": false,
+  "no_model_launch": true,
+  "no_scoring": true
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "test_count": 17,
+  "test_names": [
+    "test_Kp_center_corruption",
+    "test_bad_Kp",
+    "test_bad_values",
+    "test_clock",
+    "test_endpoint_corruption",
+    "test_good_full_runtime",
+    "test_initial_missing_state",
+    "test_initial_nonfinite",
+    "test_initial_synthetic_complete",
+    "test_initial_wrong_grid",
+    "test_initial_wrong_units",
+    "test_mean_corruption",
+    "test_missing_day",
+    "test_no_overwrite",
+    "test_nondef_and_duplicate",
+    "test_time_shift",
+    "test_wrong_units"
+  ],
+  "unittest_elapsed_seconds": 2.887,
+  "exitcode": 0,
+  "command": "source scripts/activate_orbit.sh; PYTHONPATH=src:scripts python -m unittest discover -s tests -p test_autumn_gpi_v22.py -v",
+  "fixtures": "experiments/thermosphere_autumn_gpi_v22_tests_local",
+  "evidence_origin": "Actual unittest console results, not a second test execution",
+  "actual_sepeqx_check": "NOT_RUN",
+  "scope": "Synthetic numerical/contract regression; no real model run or science score"
+}

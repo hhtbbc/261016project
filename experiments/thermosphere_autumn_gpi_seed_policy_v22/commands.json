@@ -1,0 +1,16 @@
+{
+  "actual_steps": [
+    "pwd; realpath .; git status --short --branch; git rev-parse HEAD; git ls-remote origin refs/heads/main",
+    "Read AGENTS, STATUS, WORKLOG, V21 report/contracts/admission, previous spring builder and GPI audits",
+    "Official web documentation open/search only; inaccessible invented download.html route returned tool error; used actual quickstart and directory pages",
+    "17 unittest CPU tests, exit 0",
+    "Supervisor import psutil failed before worker creation; replaced dependency-free procfs monitoring",
+    "python scripts/prepare_autumn_gpi_v22.py (one successful generation worker; returncode0)",
+    "Project filename/archive metadata inventory; initial tar parse failure retained and classified as ZIP-based PyTorch serialization, no extraction/deserialization",
+    "Existing mareqx SHA and NetCDF header read only; old 34-state evidence reused",
+    "Documentation and public-file scan; git staging and safe sync recorded separately"
+  ],
+  "forbidden_entries_invoked": false,
+  "new_raw_data_requests": 0,
+  "initial_403_URL_retried": false
+}

@@ -468,3 +468,10 @@ credentials.json
 !/experiments/thermosphere_autumn_data_acquisition_v21/*.json
 !/experiments/thermosphere_autumn_data_acquisition_v21/*.csv
 /experiments/thermosphere_autumn_data_acquisition_v21/*_local.*
+
+# V22: public summaries only; generated GPI and fixtures remain local
+/experiments/thermosphere_autumn_gpi_seed_policy_v22/**
+!/experiments/thermosphere_autumn_gpi_seed_policy_v22/
+!/experiments/thermosphere_autumn_gpi_seed_policy_v22/*.json
+!/experiments/thermosphere_autumn_gpi_seed_policy_v22/*.csv
+/experiments/thermosphere_autumn_gpi_seed_policy_v22/*_local.*

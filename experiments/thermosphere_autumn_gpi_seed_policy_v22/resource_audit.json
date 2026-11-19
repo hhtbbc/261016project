@@ -1,0 +1,38 @@
+{
+  "generation_worker": {
+    "wall_seconds": 5.223441731184721,
+    "CPU_seconds": 5.235910984,
+    "max_self_RSS_KiB": 73268,
+    "raw_data_download_bytes": 0,
+    "GPU": 0,
+    "model_launches": 0
+  },
+  "supervision": {
+    "returncode": 0,
+    "wall_seconds": 5.414461694657803,
+    "sampled_tree_RSS_bytes": 60604416,
+    "poll_seconds": 0.1,
+    "terminated_reason": null,
+    "CPU_wall_budget": 600,
+    "RSS_budget_bytes": 4294967296,
+    "not_OS_isolation": true,
+    "supervision_setup_failure": "psutil unavailable before any worker launch; replaced by read-only procfs, no dependency changes"
+  },
+  "tests_wall_seconds": 2.887,
+  "metadata_seed_search": {
+    "wall_seconds": 1.14432967081666,
+    "CPU_seconds": 0.786393918,
+    "max_self_RSS_KiB": 18616
+  },
+  "interpretation": "CPU/generation and search measured; tests wall measured, no claimed whole-interactive-session CPU total. Completed compute jobs far below 600s. RSS sampling is monitoring, not OS isolation.",
+  "setup_issue": "First supervisor setup lacked psutil and exited before launching worker; used procfs without installing packages.",
+  "metadata_issue": "Tar reader first rejected PyTorch ZIP checkpoint containers; metadata-only ZIP clarification retained, no deserialization or modifications.",
+  "raw_data_download_bytes": 0,
+  "official_page_consultation": "Web tool official HTML/documentation only; tool does not expose transport byte counters, no claim of zero HTTP metadata traffic.",
+  "new_GPI_bytes": 5112,
+  "GPU": 0,
+  "TIEGCM": 0,
+  "scoring": 0,
+  "DART": 0,
+  "orbit": 0
+}

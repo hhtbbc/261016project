@@ -1,0 +1,33 @@
+{
+  "rows": [
+    {
+      "path": "models/checkpoints/author/Baseline_1h_history_ckpt.tar",
+      "ZIP_container_despite_tar_suffix": true,
+      "matching_member_names": [],
+      "deserialization": false,
+      "interpretation": "PyTorch ZIP serialization container; tar parser refusal is not evidence of corruption"
+    },
+    {
+      "path": "models/checkpoints/author/Baseline_log_DEN_ckpt.tar",
+      "ZIP_container_despite_tar_suffix": true,
+      "matching_member_names": [],
+      "deserialization": false,
+      "interpretation": "PyTorch ZIP serialization container; tar parser refusal is not evidence of corruption"
+    },
+    {
+      "path": "models/checkpoints/author/Flow_ckpt.tar",
+      "ZIP_container_despite_tar_suffix": true,
+      "matching_member_names": [],
+      "deserialization": false,
+      "interpretation": "PyTorch ZIP serialization container; tar parser refusal is not evidence of corruption"
+    },
+    {
+      "path": "models/checkpoints/author/Direct_ckpt.tar",
+      "ZIP_container_despite_tar_suffix": true,
+      "matching_member_names": [],
+      "deserialization": false,
+      "interpretation": "PyTorch ZIP serialization container; tar parser refusal is not evidence of corruption"
+    }
+  ],
+  "source_absence": "No exact filename or matching archive member found in searched project assets; environment software excluded"
+}

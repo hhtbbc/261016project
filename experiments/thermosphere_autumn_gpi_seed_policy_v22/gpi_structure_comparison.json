@@ -1,0 +1,127 @@
+{
+  "years": {
+    "2021": {
+      "format": "NETCDF3_CLASSIC",
+      "variables": {
+        "year_day": {
+          "dimensions": [
+            "ndays"
+          ],
+          "dtype": "int32",
+          "units": "YYYYDDD"
+        },
+        "f107d": {
+          "dimensions": [
+            "ndays"
+          ],
+          "dtype": "float64",
+          "units": "sfu"
+        },
+        "f107a": {
+          "dimensions": [
+            "ndays"
+          ],
+          "dtype": "float64",
+          "units": "sfu"
+        },
+        "kp": {
+          "dimensions": [
+            "ndays",
+            "nkp"
+          ],
+          "dtype": "float64",
+          "units": "1"
+        }
+      },
+      "nkp": 8,
+      "dimensions": {
+        "ndays": 21,
+        "nkp": 8
+      },
+      "valid_yearday": [
+        2021252,
+        2021268
+      ],
+      "statistics": {
+        "f107d": {
+          "min": 73.2,
+          "max": 101.2,
+          "masked": 0
+        },
+        "f107a": {
+          "min": 82.61728395061728,
+          "max": 87.79135802469136,
+          "masked": 0
+        },
+        "kp": {
+          "min": 0.0,
+          "max": 5.333,
+          "masked": 0
+        }
+      }
+    },
+    "2022": {
+      "format": "NETCDF3_CLASSIC",
+      "variables": {
+        "year_day": {
+          "dimensions": [
+            "ndays"
+          ],
+          "dtype": "int32",
+          "units": "YYYYDDD"
+        },
+        "f107d": {
+          "dimensions": [
+            "ndays"
+          ],
+          "dtype": "float64",
+          "units": "sfu"
+        },
+        "f107a": {
+          "dimensions": [
+            "ndays"
+          ],
+          "dtype": "float64",
+          "units": "sfu"
+        },
+        "kp": {
+          "dimensions": [
+            "ndays",
+            "nkp"
+          ],
+          "dtype": "float64",
+          "units": "1"
+        }
+      },
+      "nkp": 8,
+      "dimensions": {
+        "ndays": 21,
+        "nkp": 8
+      },
+      "valid_yearday": [
+        2022252,
+        2022268
+      ],
+      "statistics": {
+        "f107d": {
+          "min": 126.1,
+          "max": 154.1,
+          "masked": 0
+        },
+        "f107a": {
+          "min": 129.10987654320988,
+          "max": 131.76666666666668,
+          "masked": 0
+        },
+        "kp": {
+          "min": 0.0,
+          "max": 5.333,
+          "masked": 0
+        }
+      }
+    }
+  },
+  "spring_template": "experiments/tiegcm_2022_mar25_preparation_v1/gpi_2022_extended.nc",
+  "schema_matches": true,
+  "note": "Native GPI stores 21 daily source nodes and 168 Kp buckets, not 23041 runtime nodes. Runtime quantities hpower/ctpoten are derived, not extra NetCDF variables. yearday_end permits the final calendar day in GpiDriver; planned integration stops at Sep25 00:00."
+}

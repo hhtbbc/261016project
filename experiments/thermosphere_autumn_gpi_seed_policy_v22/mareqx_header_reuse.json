@@ -1,0 +1,24 @@
+{
+  "path": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+  "SHA256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+  "NetCDF": "NETCDF3_CLASSIC",
+  "mtime": [
+    [
+      80,
+      0,
+      0
+    ]
+  ],
+  "year": [
+    2002
+  ],
+  "history_type": "primary",
+  "model_version": "tiegcm_trunk",
+  "grid": {
+    "lat": 36,
+    "lon": 72,
+    "lev": 29,
+    "ilev": 29
+  },
+  "current_check": "SHA and header only; complete-state engineering evidence reused from prior audits; not new physical validation"
+}

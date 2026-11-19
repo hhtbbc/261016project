@@ -1,0 +1,3 @@
+year,status,raw_start,raw_end,model_start,model_end,days,Fobs,Kp,minute_nodes,boundary_nodes,missing,duplicates,GPI_SHA256
+2021,GPI_READY,2021-09-07,2021-09-27,2021-09-09T00:00:00Z,2021-09-25T00:00:00Z,21,101,168,23041,112,0,0,d401d0ae525babb343faaa6d1dd9a8d3c4fb1c2ea85beb26d2b0025cdf001b9a
+2022,GPI_READY,2022-09-07,2022-09-27,2022-09-09T00:00:00Z,2022-09-25T00:00:00Z,21,101,168,23041,112,0,0,7d43db220fe7fbaded6b2182db8db32ee09cedf99dc5760815824ccf8298ebb2

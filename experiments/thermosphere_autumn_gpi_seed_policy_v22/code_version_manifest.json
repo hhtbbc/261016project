@@ -1,0 +1,10 @@
+{
+  "src/atmosphere/autumn_gpi_validation.py": "5f67d8d6a2ae89a50d54763776a2752dee56c45769f0ce2eedee1467cbe274e9",
+  "scripts/prepare_autumn_gpi_v22.py": "27665e898786834ba16a19b876ad721ca6f787402fdab67b86d5142f9c0ee0ba",
+  "tests/test_autumn_gpi_v22.py": "47a77c6925a944ddd896a9c1925cd735011b339ead3d850c263cc86df9bd6503",
+  "scripts/prepare_tiegcm_training_drivers.py": "82fdbf2c4d39f04041013de0b3e5a16bd9d9bbeedd7ee31b6c1c0f9eb7465675",
+  "src/atmosphere/tiegcm_drivers.py": "3bdbd2b576bbf9440be91f84efc6940280bac1b544716b2582e6d3f3196e7f3a",
+  "src/observations/autumn_validation.py": "a960f496c9e5419054d40fe615f5fc3db91c6a543b80f196b06fb376db04b356",
+  "third_party/TIEGCM2.0/src/gpi.F": "bbc1e592f569d19b9462401ee161209bea5e19b4becf674c2007125fc67ed56e",
+  "third_party/TIEGCM2.0/src/util.F": "19d505de53e8dc68ca249e9ba7cbbaeff0784f6dfd014de63a9bb29c502203f9"
+}
