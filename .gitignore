@@ -461,3 +461,10 @@ credentials.json
 !/experiments/thermosphere_independent_date_validation_plan_v20/*.json
 !/experiments/thermosphere_independent_date_validation_plan_v20/*.csv
 /experiments/thermosphere_independent_date_validation_plan_v20/*_local.*
+
+# V21: public acquisition summaries only; raw originals, fixtures, attempt markers and logs stay local
+/experiments/thermosphere_autumn_data_acquisition_v21/**
+!/experiments/thermosphere_autumn_data_acquisition_v21/
+!/experiments/thermosphere_autumn_data_acquisition_v21/*.json
+!/experiments/thermosphere_autumn_data_acquisition_v21/*.csv
+/experiments/thermosphere_autumn_data_acquisition_v21/*_local.*

@@ -1,0 +1,104 @@
+{
+  "asset": "Swarm2022",
+  "requests": [
+    {
+      "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.ZIP",
+      "original_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.ZIP",
+      "group": "small",
+      "redirect_hop": 0,
+      "started_unix": 1795063788.6438813,
+      "meter_before": {
+        "limits": {
+          "small": 1048576,
+          "initial": 20971520
+        },
+        "received_transport_bytes": {
+          "small": 146739,
+          "initial": 0
+        },
+        "sent_transport_bytes": {
+          "small": 1966,
+          "initial": 0
+        },
+        "conservative_failed_send_reservations": {
+          "small": 0,
+          "initial": 0
+        },
+        "charged_bytes": {
+          "small": 148705,
+          "initial": 0
+        },
+        "total_received_bytes": 146739,
+        "total_sent_bytes": 1966,
+        "total_charged_bytes": 148705,
+        "definition": "Application TCP-stream consumed bytes inclTLS/HTTP/CONNECT; outbound also charged conservatively; includes all attempts/redirects/errors, not only saved bodies. IP-level overhead/retransmissions not observable; not OS packet isolation."
+      },
+      "HTTP": 200,
+      "TLS_hostname_verified": true,
+      "headers": {
+        "Content-Length": "140142",
+        "Content-Type": "application/zip"
+      },
+      "header_checked_before_body_write": true,
+      "body_bytes": 140142,
+      "final_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.ZIP",
+      "SHA256": "34bc8d451763ac570ae47954c70d776afb1e506333701f28a752dbe3a5271883",
+      "relative_path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.ZIP",
+      "published_atomic_no_clobber": true,
+      "completed_unix": 1795063789.9886813,
+      "file_elapsed_s": 1.3448069095611572,
+      "meter_after": {
+        "limits": {
+          "small": 1048576,
+          "initial": 20971520
+        },
+        "received_transport_bytes": {
+          "small": 293986,
+          "initial": 0
+        },
+        "sent_transport_bytes": {
+          "small": 3932,
+          "initial": 0
+        },
+        "conservative_failed_send_reservations": {
+          "small": 0,
+          "initial": 0
+        },
+        "charged_bytes": {
+          "small": 297918,
+          "initial": 0
+        },
+        "total_received_bytes": 293986,
+        "total_sent_bytes": 3932,
+        "total_charged_bytes": 297918,
+        "definition": "Application TCP-stream consumed bytes inclTLS/HTTP/CONNECT; outbound also charged conservatively; includes all attempts/redirects/errors, not only saved bodies. IP-level overhead/retransmissions not observable; not OS packet isolation."
+      }
+    }
+  ],
+  "meter_snapshot": {
+    "limits": {
+      "small": 1048576,
+      "initial": 20971520
+    },
+    "received_transport_bytes": {
+      "small": 293986,
+      "initial": 0
+    },
+    "sent_transport_bytes": {
+      "small": 3932,
+      "initial": 0
+    },
+    "conservative_failed_send_reservations": {
+      "small": 0,
+      "initial": 0
+    },
+    "charged_bytes": {
+      "small": 297918,
+      "initial": 0
+    },
+    "total_received_bytes": 293986,
+    "total_sent_bytes": 3932,
+    "total_charged_bytes": 297918,
+    "definition": "Application TCP-stream consumed bytes inclTLS/HTTP/CONNECT; outbound also charged conservatively; includes all attempts/redirects/errors, not only saved bodies. IP-level overhead/retransmissions not observable; not OS packet isolation."
+  }
+}

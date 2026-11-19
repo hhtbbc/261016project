@@ -1,0 +1,43 @@
+{
+  "2021": {
+    "PASS": true,
+    "Fobs_count": 101,
+    "Kp_count": 168,
+    "GPI_support_days": 21,
+    "missing_Fobs": [],
+    "missing_Kp": [],
+    "sources": [
+      {
+        "path": "data/raw/f107_2021_recovery_v1/gfz_year.txt",
+        "SHA256": "f969f23b0b0d4aba80dca6f35d3e95c2d35a7e482457bc1812e5c0827090caae",
+        "bytes": 61627
+      }
+    ],
+    "center81_complete": true,
+    "formal_GPI_generated": false,
+    "definition": "historical observed Fobs, centered81/+40future, defKp; HINDCAST not available forecast forcing"
+  },
+  "2022": {
+    "PASS": true,
+    "Fobs_count": 101,
+    "Kp_count": 168,
+    "GPI_support_days": 21,
+    "missing_Fobs": [],
+    "missing_Kp": [],
+    "sources": [
+      {
+        "path": "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Fobs_20220729_20221106.json",
+        "SHA256": "fcfd9d337597aeca2b59c79c189680f0363ca8bcddd3bdd88725f33ac3524744",
+        "bytes": 3000
+      },
+      {
+        "path": "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Kp_def_20220907_20220927.json",
+        "SHA256": "df6aff3f776881803f4d01227a8dd7593367d43271f50b43341b8297e6af99fb",
+        "bytes": 5859
+      }
+    ],
+    "center81_complete": true,
+    "formal_GPI_generated": false,
+    "definition": "historical observed Fobs, centered81/+40future, defKp; HINDCAST not available forecast forcing"
+  }
+}

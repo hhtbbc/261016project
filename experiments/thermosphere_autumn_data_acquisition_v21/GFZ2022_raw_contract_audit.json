@@ -1,0 +1,30 @@
+{
+  "Fobs": {
+    "PASS": true,
+    "actual_records": 101,
+    "required_records": 101,
+    "missing_UTC": [],
+    "extra_UTC": [],
+    "invalid_UTC": [],
+    "duplicate_count": 0,
+    "source": {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Fobs_20220729_20221106.json",
+      "SHA256": "fcfd9d337597aeca2b59c79c189680f0363ca8bcddd3bdd88725f33ac3524744",
+      "bytes": 3000
+    }
+  },
+  "Kp": {
+    "PASS": true,
+    "actual_records": 168,
+    "required_records": 168,
+    "missing_UTC": [],
+    "extra_UTC": [],
+    "invalid_UTC": [],
+    "duplicate_count": 0,
+    "source": {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Kp_def_20220907_20220927.json",
+      "SHA256": "df6aff3f776881803f4d01227a8dd7593367d43271f50b43341b8297e6af99fb",
+      "bytes": 5859
+    }
+  }
+}

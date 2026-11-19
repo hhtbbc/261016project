@@ -1,0 +1,218 @@
+{
+  "files": [
+    {
+      "path": "docs/THERMOSPHERE_V21_SEED_POLICY_NEXT_DECISION.md",
+      "SHA256": "5430717ba1d0290224dc86a63c4889d07fe182c45d1798eaa1db94a212b88439",
+      "bytes": 812
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/GFZ2022_raw_contract_audit.json",
+      "SHA256": "43713f6123fe9bb02f00f60e3dc92a683d59d2b66ad362dd18b3c3cb9bad5b6e",
+      "bytes": 820
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/GFZ_Fobs_http_receipt.json",
+      "SHA256": "6c7bfdc7ee45ebf1aaea70f02c9a97760aef5a374beea90af2bdaa7e22c8345f",
+      "bytes": 3584
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/GFZ_Kp_http_receipt.json",
+      "SHA256": "dbb1949ef7e344cf35895fb217d0e951401736fe75497a0115d8cb946e1eca71",
+      "bytes": 3611
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/Swarm2021_http_receipt.json",
+      "SHA256": "74fd38ecee90e82afb4af2324deb5a8c97f44686179b9db481719a7c79f13be7",
+      "bytes": 3825
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/Swarm2022_http_receipt.json",
+      "SHA256": "fbf7e3ae1b17493a9fb63deea12af66f982eb0924d7ccc029346d6904059df13",
+      "bytes": 3851
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/Swarm_audit.json",
+      "SHA256": "f789119af842b673ecb29f2797eaa02a4cc7ceb999ba88db39bc16d7f6c73e18",
+      "bytes": 4408
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/Swarm_contracts.json",
+      "SHA256": "98274423c5364a87c0c62dd4289ea5a3396d2cf0742014706b4ae775bee4cf33",
+      "bytes": 1808
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/Swarm_quality.csv",
+      "SHA256": "edf9821d732e2122e12d73681cba53f0adb7c7dbd34932989150489affeee047",
+      "bytes": 483
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/Swarm_window_latitude_counts.csv",
+      "SHA256": "d0888378b80f8d25abf24e05f0cf863faf9c433dc8ee95ae1eb11241d9bf21d8",
+      "bytes": 6928
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/ZIP_budget_audit.json",
+      "SHA256": "b18bb6c5fd7907a7530086c8e9bd8226185633546bb314312a69120fc74e3086",
+      "bytes": 216
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/activity_conditions.csv",
+      "SHA256": "5309d4b6e7acda310b981d0e5d5f7c039657d066075fba83c313c2c0c06f8d64",
+      "bytes": 336
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/admission_by_year.csv",
+      "SHA256": "4a38f133025f5e4b0d878e0367a77da7c19e59173031e88d5db589179f9a9209",
+      "bytes": 543
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/asset_protection_after.json",
+      "SHA256": "c9d230985e2eab1e5ce5354986b94074637793c0612b5895f3ba5df998028cac",
+      "bytes": 219
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/center81_static_check.csv",
+      "SHA256": "215ab3ecfa75213170ac251872a8829e9a2ebf426537abf96d45a9e1b8fed961",
+      "bytes": 2517
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/code_version_manifest.json",
+      "SHA256": "133dd207b6b4b94c663cdcb6e7725c151cd57aa7a7631b3f838f99d6c34630fb",
+      "bytes": 1045
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/commands.json",
+      "SHA256": "35bad44e6191cb5ae7be61ba32282b716551d525986b22f5ef0978f4431b0f8c",
+      "bytes": 837
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/download_manifest.json",
+      "SHA256": "bc0da30aba1f995909d2d5f9d88573f056dc98d81418c51cab526c4d5d915148",
+      "bytes": 2434
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/driver_completeness.json",
+      "SHA256": "b0c2e891772317f6a1fc0937af7cb5d1108e8dfce6e06e476b2a40091edfa599",
+      "bytes": 1359
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/failures.json",
+      "SHA256": "1957a2ed9c531b8bbb5e002f3951527db8c5e68520f4ef49e75dcf7db58a4cb2",
+      "bytes": 155
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/independent_verification.json",
+      "SHA256": "67d90a2bb5c4a49d328a6d470eb58a13cff2eebb4694fbef2c5d20f2c8671cbc",
+      "bytes": 2039
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/initial_http_receipt.json",
+      "SHA256": "5a9aab3fff6c06f165d32ebe9baabecc20f6d98a7ad81d5f6b1f62835bd064e5",
+      "bytes": 3310
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/initial_source_admission.json",
+      "SHA256": "885bc600796e9ed6c977a19baebcb9a21bfa97aa90200fadf07c13a002c43e5f",
+      "bytes": 831
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/network_budget_audit.json",
+      "SHA256": "1bf12c2883cabda0a667bd07f8afeaa464b386c7eb45d75db00e09e09154c24a",
+      "bytes": 717
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/next_decision.json",
+      "SHA256": "5893cd23d72f69291d091f11850e3e21787048c37d933caa10a56c29e2fcad93",
+      "bytes": 1418
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/preflight.json",
+      "SHA256": "a39971c1d59e61a39f8a27be8756b98534fab5fc1ed8ac801b2254ab3e2ea0d2",
+      "bytes": 7690
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/raw_asset_protection.json",
+      "SHA256": "2374bf76fee68e80992b0d65cce65028b7af7d9794a291aec6f1854598765db4",
+      "bytes": 3032
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/raw_data_index.csv",
+      "SHA256": "ce1971c910cb3895054ab5e2a3e3c52f3ab43bdeaea3f64aa4b4222f91ec49f4",
+      "bytes": 1832
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/resource_audit.json",
+      "SHA256": "7cb3ff8303fa77cc7e426b5ecdbc31b0d944ab75bd5d6422fba41633ee052111",
+      "bytes": 1356
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/result.json",
+      "SHA256": "7fe1500e6c61f6629a0c66c7d7128192c8302fd2c84933a044fc92b0aecedae3",
+      "bytes": 1607
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/reuse_audit.json",
+      "SHA256": "bdc7284fdfed252c2c3f320f0deff5cc625a8d1beceeeaa4215d3792180d52c8",
+      "bytes": 1147
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/seed_policy_comparison.csv",
+      "SHA256": "9521bd4d137177adee930c63ce621d2d1cd91fa48cee429501c957c70ecaa50c",
+      "bytes": 1360
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/supervision_result.json",
+      "SHA256": "308a9c94bc2e9912d99630bcf3b9538d4fe46a430dbb41e2e98317684abf5501",
+      "bytes": 11594
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/tests.json",
+      "SHA256": "6089899edd2f24b78ed4f329978cbaa6d357ed90f04a5872f837611defbb9027",
+      "bytes": 143
+    },
+    {
+      "path": "experiments/thermosphere_autumn_data_acquisition_v21/tests_final.json",
+      "SHA256": "efd92a0a395ea96854200422e7c7b12177e9249407b2aa620f021eb526dca501",
+      "bytes": 334
+    },
+    {
+      "path": "reports/THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21.md",
+      "SHA256": "a42ae9c89f9c4c0b368e2e38d672cde3b33ad97c40c4157508a63d76c5b043e2",
+      "bytes": 11808
+    },
+    {
+      "path": "scripts/acquire_autumn_data_v21.py",
+      "SHA256": "0764c5c5750b40f9ad101e7d71461d194cd3a5fc8ff34037a38221dea785ee2f",
+      "bytes": 16891
+    },
+    {
+      "path": "scripts/document_autumn_data_v21.py",
+      "SHA256": "b5d610aa7f2c86e5280fd4aa0d31b79d0215f6968a2e4aac2c88caa1604a34dd",
+      "bytes": 21457
+    },
+    {
+      "path": "scripts/verify_autumn_data_v21.py",
+      "SHA256": "5e72c3270e0fdacfebb18904dd0d7a887170c09b2843b32e573fa2c024e94b68",
+      "bytes": 9140
+    },
+    {
+      "path": "src/observations/autumn_acquisition.py",
+      "SHA256": "2bb9f4c61c35ff91580ecfc086aa2ec31fbb24bcf7a303869f1630d227457f0c",
+      "bytes": 9633
+    },
+    {
+      "path": "src/observations/autumn_validation.py",
+      "SHA256": "a960f496c9e5419054d40fe615f5fc3db91c6a543b80f196b06fb376db04b356",
+      "bytes": 6168
+    },
+    {
+      "path": "tests/test_autumn_acquisition_v21.py",
+      "SHA256": "de475e2a4f2ccd01fd023c9791fdb406a27aa043be39760aff3c772de8f0a93b",
+      "bytes": 4420
+    }
+  ],
+  "excludes_self": true,
+  "raw_sources_bytes": 677513,
+  "public_bytes_before_manifest": 157718,
+  "no_original_data_or_full_logs_published": true
+}

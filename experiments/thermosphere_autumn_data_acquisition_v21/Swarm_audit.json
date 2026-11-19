@@ -1,0 +1,124 @@
+{
+  "2021": {
+    "PASS": true,
+    "CDF": {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.cdf",
+      "SHA256": "4b5b7b390b46b8e3c984fd64defc2329e2708c2c2f5d5ccf99a195cbb6bd0404",
+      "bytes": 191682
+    },
+    "ZIP": {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.ZIP",
+      "SHA256": "e0ca625d9d5a473c75104b2cd8e1f784161ba628d415bb7b0d6fd883eb9fe309",
+      "bytes": 139634
+    },
+    "HDR": {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.HDR",
+      "SHA256": "31036c5ec8255024032dda84e63a46cf7f1e06bed08f47c937120d2b9c2da28a",
+      "bytes": 2757
+    },
+    "archive_members": [
+      {
+        "name": "SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.cdf",
+        "bytes": 191682,
+        "CRC32": "530f38ad"
+      },
+      {
+        "name": "SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.HDR",
+        "bytes": 2757,
+        "CRC32": "11df2c73"
+      }
+    ],
+    "extraction": [
+      {
+        "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.cdf",
+        "bytes": 191682,
+        "SHA256": "4b5b7b390b46b8e3c984fd64defc2329e2708c2c2f5d5ccf99a195cbb6bd0404",
+        "CRC32": "530f38ad",
+        "CRC_PASS": true,
+        "existing": false
+      },
+      {
+        "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.HDR",
+        "bytes": 2757,
+        "SHA256": "31036c5ec8255024032dda84e63a46cf7f1e06bed08f47c937120d2b9c2da28a",
+        "CRC32": "11df2c73",
+        "CRC_PASS": true,
+        "existing": false
+      }
+    ],
+    "quality": {
+      "records": 2880,
+      "flag0": 2880,
+      "flag1": 0,
+      "unknown_flags": 0,
+      "invalid_density": 0,
+      "invalid_coordinates": 0,
+      "valid": 2880
+    },
+    "all_windows_regions_N30": true,
+    "all_target_records_quality_valid": true,
+    "density_values_only_used_for_quality": true,
+    "no_density_distribution_or_residual_calculated": true
+  },
+  "2022": {
+    "PASS": true,
+    "CDF": {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.cdf",
+      "SHA256": "c717855e07c2c1b3aa6f458525712572132e3b2fa54aaf91ce69959a95b1d9ab",
+      "bytes": 191682
+    },
+    "ZIP": {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.ZIP",
+      "SHA256": "34bc8d451763ac570ae47954c70d776afb1e506333701f28a752dbe3a5271883",
+      "bytes": 140142
+    },
+    "HDR": {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.HDR",
+      "SHA256": "ed74bbb993bde639d9061f9661fa55683083e3ab61a046ca8575bd46384d9ee6",
+      "bytes": 2757
+    },
+    "archive_members": [
+      {
+        "name": "SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.cdf",
+        "bytes": 191682,
+        "CRC32": "77fb6571"
+      },
+      {
+        "name": "SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.HDR",
+        "bytes": 2757,
+        "CRC32": "979487a3"
+      }
+    ],
+    "extraction": [
+      {
+        "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.cdf",
+        "bytes": 191682,
+        "SHA256": "c717855e07c2c1b3aa6f458525712572132e3b2fa54aaf91ce69959a95b1d9ab",
+        "CRC32": "77fb6571",
+        "CRC_PASS": true,
+        "existing": false
+      },
+      {
+        "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.HDR",
+        "bytes": 2757,
+        "SHA256": "ed74bbb993bde639d9061f9661fa55683083e3ab61a046ca8575bd46384d9ee6",
+        "CRC32": "979487a3",
+        "CRC_PASS": true,
+        "existing": false
+      }
+    ],
+    "quality": {
+      "records": 2880,
+      "flag0": 2880,
+      "flag1": 0,
+      "unknown_flags": 0,
+      "invalid_density": 0,
+      "invalid_coordinates": 0,
+      "valid": 2880
+    },
+    "all_windows_regions_N30": true,
+    "all_target_records_quality_valid": true,
+    "density_values_only_used_for_quality": true,
+    "no_density_distribution_or_residual_calculated": true
+  }
+}

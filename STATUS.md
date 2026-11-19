@@ -654,3 +654,14 @@ THERMOSPHERE_INDEPENDENT_DATE_VALIDATION_PLAN_V20=PARTIALLY_READY。确认V19数
 方法/窗口/指标/六日期与Kp操作性分类（全8def桶max<=2安静、>=5增强，其余中间，缺失UNKNOWN）已冻结。太阳指标连续报告；2021Jun21 Kpmax1.333安静，Sep23/Dec21均3.667中间，2022未知；不根据密度选阈值/日期。每次16天23040步预计40.05—40.77分钟、约3.14GiB；两次80.11—81.54分钟/约6.28GiB、顺序RSS预算16GiB，模型每次拟4800秒/5GiB，另分工程/评分/复核授权，不一次跑六组。
 
 下一轮明确建议先授权秋季两份A0301ZIP共279776bytes、2022Fobs101/Kp168及一个官方sepeqx_smax初态（小数据1MiB、初态20MiB，合计21MiB网络cap），只取得并静态验收，不积分/生成GPI/评分。保留夏季高科学价值目标及缺口，不自动切换执行。12CPU测试通过；初次datetime通配符遮蔽已修正，错误日志保留，metadata复跑无物理数值扫描。报告reports/THERMOSPHERE_INDEPENDENT_DATE_VALIDATION_PLAN_V20.md；精确下一任务docs/THERMOSPHERE_V20_NEXT_ACQUISITION_TASK.md和新目录next_acquisition_request_final.json。核心预注册成功但数据/初态身份未闭合，不宣称全方案RUN_READY。旧科学/高度/Restart/DART/真实轨道门禁保持；新下载/积分/GPI/评分/拟合/GPU/DART/轨道均0。本轮停止。
+
+
+## 2026-11-19 V21：秋季真实数据取得与初态403阻碍
+
+THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21=DATA_PARTIAL，两年份均DATA_PARTIAL。两份指定Swarm A0301ZIP实际139634/140142bytes，CRC/HDR/CDF独立通过；各2880条UTC30秒flag0有效，异常/未知/无效密度坐标均0，历史各360、未来1/3/6h各120/360/720，各纬区最小31≥30。仅质量计数，未展示未来密度分布或计算残差/误差。2021原GFZ复用；2022Fobs101日3000bytes、defKp168桶5859bytes完整，21+21中心均值独立通过，未生成GPI。两年Fobs=89.7/146.3，81均值86.94814814814815/131.76666666666668sfu，Kpmax3.667/3.333均INTERMEDIATE，活动分组对比N/A。
+
+官方sepeqx_smax精确URL一次请求返回HTTP403（TLS主机名已验证，html声明199bytes），停止该文件，未重试/换源/认证/镜像/自动使用mareqx。无初态原件与SHA，真实SOURCE_START、34状态、版本/网格/数值均NOT_RUN，不能猜测或声称初态损坏。A/B政策仍需用户审定，当前非RUN_READY。
+
+成功保存正文288635bytes，全部实际TCP接收319773bytes、发送9598bytes，保守计额329371bytes含失败403/TLS/HTTP/CONNECT（小数据320272/1MiB，初态9099/20MiB），未宣称IP层抓包额度。ZIP唯一解压388878bytes，含所有验证/读取pass保守解码1944390<2MiB。17项不同测试通过；监督10.543813秒、workerCPU0.799568秒、采样树峰84.453MiB，退出0意味着PARTIAL处理完成而非全包成功。原V20协议SHA与受保护旧文件不变。
+
+报告reports/THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21.md；决策docs/THERMOSPHERE_V21_SEED_POLICY_NEXT_DECISION.md；原件仅data/raw/thermosphere_autumn_data_acquisition_v21/。下一步先合法取得并审查初态/政策，不重下已通过数据；未生成GPI/改积分配置/启动模型/评分/拟合/AI/DART/轨道/外部联系。SCIENCE_TRAINING_READY=False/EXTERNAL_DATUM_UNVERIFIED/RestartFAIL/DARTNOT_ADMITTED/REAL_ORBITBLOCKED保持。本轮同步后停止。

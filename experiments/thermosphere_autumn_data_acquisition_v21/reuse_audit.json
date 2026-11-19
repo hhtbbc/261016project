@@ -1,0 +1,18 @@
+{
+  "actual_target_names": {
+    "SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301": [
+      "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.HDR",
+      "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.ZIP",
+      "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.cdf"
+    ],
+    "SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301": [
+      "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.ZIP",
+      "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.HDR",
+      "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.cdf"
+    ]
+  },
+  "earlier_V20_status": "NOT_ACQUIRED for those exact targets; trusted driver2022support missing",
+  "no_other_cached_target_originals_found": true,
+  "year2021_archive_reused_no_download": true,
+  "no_repeated_download_of_previously_verified_assets": true
+}

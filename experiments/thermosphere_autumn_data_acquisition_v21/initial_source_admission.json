@@ -1,0 +1,21 @@
+{
+  "status": "NOT_ACQUIRED_HTTP403",
+  "file": "tiegcm_res5.0_sepeqx_smax_prim.nc",
+  "HTTP": 403,
+  "requests": 1,
+  "automatic_retries": 0,
+  "same_origin_redirects": 0,
+  "raw_file_saved": false,
+  "SHA256": null,
+  "NetCDF_format": "NOT_RUN",
+  "actual_year_day_mtime": "NOT_RUN",
+  "SOURCE_START": null,
+  "complete_34_states": "NOT_RUN",
+  "grid_units_values": "NOT_RUN",
+  "engineering_compatibility": "UNKNOWN_NOT_TESTED",
+  "scientific_seasonal_sufficiency": "UNVERIFIED",
+  "not_a_claim_of_missing_or_corrupt_official_file": true,
+  "no_fallback_to_mareqx": true,
+  "origin_or_route_denial_cause": "UNKNOWN; hostname-verified HTTPS request returned403 via existing transport route; no additional probe or alternative source used",
+  "evidence_SHA256": "5a9aab3fff6c06f165d32ebe9baabecc20f6d98a7ad81d5f6b1f62835bd064e5"
+}

@@ -1,0 +1,12 @@
+{
+  "activation": "source scripts/activate_orbit.sh",
+  "targeted_tests": "python -m unittest discover -s tests -p test_autumn_acquisition_v21.py -v",
+  "test_replay": "same17cases in fresh tests_regression_local namespace after static guards; no old test artifacts overwritten",
+  "one_acquisition_worker": "python scripts/acquire_autumn_data_v21.py via existing CPU supervisor, wall600 RSS4GiB",
+  "documentation": "python scripts/document_autumn_data_v21.py",
+  "independent_tools": "zipfile CRC/member bytes; cdflib direct arrays; system cksum; GFZ direct JSON/archive parser; no separate network request",
+  "model_or_GPI_or_scoring_commands": 0,
+  "initial_http403_attempts": 1,
+  "initial_HTTP_retries": 0,
+  "report_formatter_note": "One syntax-only parenthesis correction before report generator executed; no data phase rerun"
+}

@@ -1,0 +1,42 @@
+{
+  "Swarm2021": {
+    "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.ZIP",
+    "SHA256": "e0ca625d9d5a473c75104b2cd8e1f784161ba628d415bb7b0d6fd883eb9fe309",
+    "bytes": 139634,
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.ZIP",
+    "final_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.ZIP",
+    "HTTP": 200,
+    "Content_Length": 139634,
+    "existing_reused": false
+  },
+  "Swarm2022": {
+    "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.ZIP",
+    "SHA256": "34bc8d451763ac570ae47954c70d776afb1e506333701f28a752dbe3a5271883",
+    "bytes": 140142,
+    "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.ZIP",
+    "final_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.ZIP",
+    "HTTP": 200,
+    "Content_Length": 140142,
+    "existing_reused": false
+  },
+  "GFZ_Fobs": {
+    "path": "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Fobs_20220729_20221106.json",
+    "SHA256": "fcfd9d337597aeca2b59c79c189680f0363ca8bcddd3bdd88725f33ac3524744",
+    "bytes": 3000,
+    "URL": "https://kp.gfz.de/app/json/?start=2022-07-29T00:00:00Z&end=2022-11-06T23:59:59Z&index=Fobs",
+    "final_URL": "https://kp.gfz.de/app/json/?start=2022-07-29T00:00:00Z&end=2022-11-06T23:59:59Z&index=Fobs",
+    "HTTP": 200,
+    "Content_Length": 3000,
+    "existing_reused": false
+  },
+  "GFZ_Kp": {
+    "path": "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Kp_def_20220907_20220927.json",
+    "SHA256": "df6aff3f776881803f4d01227a8dd7593367d43271f50b43341b8297e6af99fb",
+    "bytes": 5859,
+    "URL": "https://kp.gfz.de/app/json/?start=2022-09-07T00:00:00Z&end=2022-09-27T23:59:59Z&index=Kp&status=def",
+    "final_URL": "https://kp.gfz.de/app/json/?start=2022-09-07T00:00:00Z&end=2022-09-27T23:59:59Z&index=Kp&status=def",
+    "HTTP": 200,
+    "Content_Length": 5859,
+    "existing_reused": false
+  }
+}

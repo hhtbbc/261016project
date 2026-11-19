@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2021-09-23",
+    "satellite": "Swarm A via DNSAPOD identifier and HDR",
+    "version": "0301",
+    "title": [
+      "SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301"
+    ],
+    "time_system": "UTC",
+    "time_type": "CDF_EPOCH",
+    "units": {
+      "density": "kg/m3",
+      "latitude": "deg",
+      "longitude": "deg",
+      "altitude": "m"
+    },
+    "coordinate_reference": "GRS80 per SHA-verified existing HAPI product contract",
+    "hapi": {
+      "path": "data/raw/fourcastden_swarm_observation_v1/HAPI_info.json",
+      "SHA256": "17ccced134a05fee2fd991acf6c1dbd44f166ed8239cf6435af11e3cef2c69ac",
+      "source": "experiments/fourcastden_swarm_observation_v1/official_service_contract.json",
+      "source_SHA256": "bc76f6d2f7a4c98f7c30948b3e4bbfad8368b2029a2027c9d68c11f426abe491"
+    },
+    "instantaneous_field": "density",
+    "density_orbitmean_used": false
+  },
+  {
+    "date": "2022-09-23",
+    "satellite": "Swarm A via DNSAPOD identifier and HDR",
+    "version": "0301",
+    "title": [
+      "SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301"
+    ],
+    "time_system": "UTC",
+    "time_type": "CDF_EPOCH",
+    "units": {
+      "density": "kg/m3",
+      "latitude": "deg",
+      "longitude": "deg",
+      "altitude": "m"
+    },
+    "coordinate_reference": "GRS80 per SHA-verified existing HAPI product contract",
+    "hapi": {
+      "path": "data/raw/fourcastden_swarm_observation_v1/HAPI_info.json",
+      "SHA256": "17ccced134a05fee2fd991acf6c1dbd44f166ed8239cf6435af11e3cef2c69ac",
+      "source": "experiments/fourcastden_swarm_observation_v1/official_service_contract.json",
+      "source_SHA256": "bc76f6d2f7a4c98f7c30948b3e4bbfad8368b2029a2027c9d68c11f426abe491"
+    },
+    "instantaneous_field": "density",
+    "density_orbitmean_used": false
+  }
+]

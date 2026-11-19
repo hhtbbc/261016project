@@ -1,0 +1,52 @@
+{
+  "status": "DATA_PARTIAL",
+  "admission_rows": [
+    {
+      "year": 2021,
+      "date": "2021-09-23",
+      "Swarm_original_acquired": true,
+      "Swarm_protocol_support": true,
+      "GFZ_complete": true,
+      "seasonal_source_engineering_compatible": false,
+      "independent_original_checks_PASS": true,
+      "seed_policy_approved": false,
+      "physical_config_written": false,
+      "can_prepare16day_config_after_policy": false,
+      "status": "DATA_PARTIAL",
+      "actual_model_RUN_READY": false,
+      "reason": "See actual missing/invalid evidence; no substitution or retry"
+    },
+    {
+      "year": 2022,
+      "date": "2022-09-23",
+      "Swarm_original_acquired": true,
+      "Swarm_protocol_support": true,
+      "GFZ_complete": true,
+      "seasonal_source_engineering_compatible": false,
+      "independent_original_checks_PASS": true,
+      "seed_policy_approved": false,
+      "physical_config_written": false,
+      "can_prepare16day_config_after_policy": false,
+      "status": "DATA_PARTIAL",
+      "actual_model_RUN_READY": false,
+      "reason": "See actual missing/invalid evidence; no substitution or retry"
+    }
+  ],
+  "received_transport_bytes": 319773,
+  "charged_transport_bytes": 329371,
+  "saved_body_bytes": 288635,
+  "downloaded_files": 4,
+  "network_or_quality_failures": 1,
+  "new_GPI": 0,
+  "new_model_runs": 0,
+  "new_density_scores": 0,
+  "new_fits": 0,
+  "GPU": 0,
+  "DART": 0,
+  "orbit": 0,
+  "seed_policy_decided": false,
+  "wall_s": 10.226486403495073,
+  "CPU_s": 0.7995677529999999,
+  "peak_self_RSS_KiB": 87268,
+  "scientific_gates_unchanged": true
+}

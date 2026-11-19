@@ -1,0 +1,18 @@
+{
+  "base_HEAD": "153c840d77de4c2bc80199765891a9f329aca9ae",
+  "new_code": {
+    "src/observations/autumn_acquisition.py": "2bb9f4c61c35ff91580ecfc086aa2ec31fbb24bcf7a303869f1630d227457f0c",
+    "src/observations/autumn_validation.py": "a960f496c9e5419054d40fe615f5fc3db91c6a543b80f196b06fb376db04b356",
+    "scripts/acquire_autumn_data_v21.py": "0764c5c5750b40f9ad101e7d71461d194cd3a5fc8ff34037a38221dea785ee2f",
+    "scripts/verify_autumn_data_v21.py": "5e72c3270e0fdacfebb18904dd0d7a887170c09b2843b32e573fa2c024e94b68",
+    "scripts/document_autumn_data_v21.py": "b5d610aa7f2c86e5280fd4aa0d31b79d0215f6968a2e4aac2c88caa1604a34dd",
+    "tests/test_autumn_acquisition_v21.py": "de475e2a4f2ccd01fd023c9791fdb406a27aa043be39760aff3c772de8f0a93b"
+  },
+  "frozen_existing_modules_unchanged": [
+    "src/observations/bounded_swarm_acquisition.py",
+    "src/observations/density_catalog.py",
+    "src/evaluation/swarm_density_comparison.py",
+    "src/atmosphere/restart_validation.py"
+  ],
+  "no_frozen_runtime_or_scientific_protocol_changed": true
+}

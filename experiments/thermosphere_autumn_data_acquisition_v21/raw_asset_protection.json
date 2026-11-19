@@ -1,0 +1,71 @@
+{
+  "files": [
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Fobs_20220729_20221106.json",
+      "SHA256": "fcfd9d337597aeca2b59c79c189680f0363ca8bcddd3bdd88725f33ac3524744",
+      "bytes": 3000,
+      "mode": "0o444",
+      "origin": "GFZ",
+      "scientific_role": "quality/driver inputs only; not scored"
+    },
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Kp_def_20220907_20220927.json",
+      "SHA256": "df6aff3f776881803f4d01227a8dd7593367d43271f50b43341b8297e6af99fb",
+      "bytes": 5859,
+      "mode": "0o444",
+      "origin": "GFZ",
+      "scientific_role": "quality/driver inputs only; not scored"
+    },
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.HDR",
+      "SHA256": "31036c5ec8255024032dda84e63a46cf7f1e06bed08f47c937120d2b9c2da28a",
+      "bytes": 2757,
+      "mode": "0o444",
+      "origin": "ESA",
+      "scientific_role": "quality/driver inputs only; not scored"
+    },
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.ZIP",
+      "SHA256": "e0ca625d9d5a473c75104b2cd8e1f784161ba628d415bb7b0d6fd883eb9fe309",
+      "bytes": 139634,
+      "mode": "0o444",
+      "origin": "ESA",
+      "scientific_role": "quality/driver inputs only; not scored"
+    },
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.cdf",
+      "SHA256": "4b5b7b390b46b8e3c984fd64defc2329e2708c2c2f5d5ccf99a195cbb6bd0404",
+      "bytes": 191682,
+      "mode": "0o444",
+      "origin": "ESA",
+      "scientific_role": "quality/driver inputs only; not scored"
+    },
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.HDR",
+      "SHA256": "ed74bbb993bde639d9061f9661fa55683083e3ab61a046ca8575bd46384d9ee6",
+      "bytes": 2757,
+      "mode": "0o444",
+      "origin": "ESA",
+      "scientific_role": "quality/driver inputs only; not scored"
+    },
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.ZIP",
+      "SHA256": "34bc8d451763ac570ae47954c70d776afb1e506333701f28a752dbe3a5271883",
+      "bytes": 140142,
+      "mode": "0o444",
+      "origin": "ESA",
+      "scientific_role": "quality/driver inputs only; not scored"
+    },
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.cdf",
+      "SHA256": "c717855e07c2c1b3aa6f458525712572132e3b2fa54aaf91ce69959a95b1d9ab",
+      "bytes": 191682,
+      "mode": "0o444",
+      "origin": "ESA",
+      "scientific_role": "quality/driver inputs only; not scored"
+    }
+  ],
+  "mode": "0444 for newly acquired originals only; application no-clobber, not root-proof immutable",
+  "existing_mareqx_or_previous_files_not_chmod": true,
+  "original_initial_file_not_acquired": true
+}

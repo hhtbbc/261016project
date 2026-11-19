@@ -1,0 +1,8 @@
+[
+  {
+    "asset": "initial",
+    "stage": "download",
+    "error_type": "ValueError",
+    "reason": "HTTP status not200; no retry or authentication"
+  }
+]
