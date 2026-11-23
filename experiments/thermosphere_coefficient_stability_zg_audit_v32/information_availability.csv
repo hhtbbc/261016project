@@ -1,0 +1,10 @@
+input,status,requirements
+UTC 截点及历法,CAUSALLY_AVAILABLE,独立 UTC；观测发布时间另审
+历史 Swarm 样本及质量,HINDCAST_EVENT_TIME_ONLY,事件时间严格早于截点，终版 POD 坐标和旗标仍需 as-of 发布证据
+历史 Raw 和残差,HINDCAST_EVENT_TIME_ONLY,背景帧须在截点已发布；最后插值帧可能在截点整点
+历史轨迹空间覆盖,HINDCAST_EVENT_TIME_ONLY,精密轨道、坐标和高度需各自 as-of 来源
+同日 06Z 摘要,CAUSAL_CONDITIONAL,18Z 可用此前已发布摘要；06Z 禁读 18Z
+封闭 GFZ Kp 桶,REALTIME_VALUE_UNVERIFIED_NOT_USED,"06Z 为[03,06)，18Z 为[15,18)；终版发布时间/回修未知"
+GFZ 日 Fobs 与中心81日平均,FINALIZED_HINDCAST_ONLY,需 as-of 发布；中心平均含后40日；均未进入因果候选
+未来残差与误差标签,POST_HOC_LABEL_ONLY,先固定特征和代码，只连接既有发布汇总，禁止反向拟合
+V20 夏冬候选,UNSEEN_METADATA_ONLY,只读元数据，未打开目标密度、误差或未来标签

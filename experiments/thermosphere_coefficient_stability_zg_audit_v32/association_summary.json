@@ -1,0 +1,16 @@
+{
+  "arithmetic_only": true,
+  "association_not_predictive": true,
+  "fresh_rows": 8,
+  "fresh_distinct_dates": 4,
+  "drift_rows": 14,
+  "drift_distinct_dates": 7,
+  "unavailable_drift_cells": [
+    "2021-03-25 06Z",
+    "2021-03-25 18Z"
+  ],
+  "pearson_hourly_range_vs_abs_drift": 0.1311070143437613,
+  "pearson_MAD_vs_relative_RMS_gain": -0.44333840480986997,
+  "predictors_used_for_new_forecasts": 0,
+  "selected_thresholds": 0
+}

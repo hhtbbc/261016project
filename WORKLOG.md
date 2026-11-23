@@ -1374,3 +1374,8 @@ V30使用CPU-only Python -B运行 prepare/history/poison、逐年 score、独立
 ## 2026-11-23 V31 春秋误差机制诊断
 
 V31仅复用V30缓存及春季冻结表。CPU Python -B运行 diagnose/verify/plot 三脚本，256残差、48窗、1296分组、6图；156个输入SHA及66卷独立重核，32,008项通过。主8.24s/独立8.27s，峰81572KiB。无重评分或科学阈值变更。方案 docs/THERMOSPHERE_MECHANISM_NEXT_STAGE_PLAN_V31.md。
+
+
+## 2026-11-23 V32 历史稳定性与 ZG 证据审查
+
+CPU Python -B执行stability_zg_v32 roles/history/associate、review_zg_v32与verify_stability_zg_v32。16历史窗先冻特征再连接发表标签。独立首次JSON写出遇numpy.bool_，保留局部证据并仅修正序列化；1570字段和19检查通过。V30/V31/V2/V2.1不改，无积分、GPU、新方法或联系。V33方案 docs/THERMOSPHERE_V33_ZG_SENSITIVITY_AND_CAUSAL_INPUT_PLAN.md。

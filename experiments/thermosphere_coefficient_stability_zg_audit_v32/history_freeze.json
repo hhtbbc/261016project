@@ -1,0 +1,211 @@
+{
+  "history_SHA256": "ac660372d414348de79c77bfe8b522ae62f7ca1de94940f124086a555100e5ed",
+  "groups_SHA256": "410c75d81501cd4e1364dd26490720112fdb74cb2d5733782c758c2f3c97f74a",
+  "feature_code_SHA256": "448330b314b3de67e2dd8a481e52509a14adbd97af8e4d8417ada072e88726fe",
+  "role_SHA256": "5c94115e0b346cb81fe43264154f743c0c6d09dc41accd6432d0364199439150",
+  "assets": {
+    "reports/THERMOSPHERE_SPRING_AUTUMN_FAILURE_MECHANISM_V31.md": "e590a3accf06239d6f44039615a9707b91335ad67f8511f4e060d185fefe1079",
+    "docs/THERMOSPHERE_MECHANISM_NEXT_STAGE_PLAN_V31.md": "82b1243856bfda5ffa55af9de13d33df551e6ad96db67a946b548546cdcff7a5",
+    "reports/THERMOSPHERE_AUTUMN_DENSITY_VALIDATION_V30.md": "c1bcc2755e487137d12863bcce448b29fbbe9f3268cb84c339fce9295f00d605",
+    "reports/THERMOSPHERE_RESIDUAL_REPRESENTATIVENESS_V1.md": "ce6e847356d574153239d03288cff304c673535dcbf3457f9d80e2fae7f3a5e5",
+    "experiments/thermosphere_autumn_density_validation_v30/publication_SHA256.json": "de9cb891e3a8b3860bde212dd5da4465b053fe0af0b99048ef2c1f8b85249ede",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_common_ids.csv": "a2619508e34f6b5e18f779af0080e547e287e443db212e2e57080dd529c088b9",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_joint.csv": "1acbab22469ed306e46460f226aebe7a0ba239c9b373d6b0797e3ce8009c1f49",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_metrics.csv": "7a0ef184f4f408ef56bf6238b7975fb379644fa637b36cf08cc58dc3f44d5d9e",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_parameters.json": "c76e1fd7671efa7b8e1e4eb51ff4a89cb65b52d431abe2fbef4bb46ffb464f40",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_query_admission.json": "f5327de433ca77fc46902bcb5fc95897e8fd3477337fda3d474df5eb7e2b139b",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_raw.csv": "531248cb9ebb65c43a26ac34bbc7ccb87fc41db3300f656d81548ed4abd8ed83",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_score_receipt.json": "6b89828e3467857ac7376023be3971fbc9a66c9a2a8b9b5c7ec4d0fb25083011",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_scoring_once.json": "568c8b909a6d004282065f4f1de953fdea99cd029d3c38ae1ceed2a5914b1af8",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_common_ids.csv": "962b5a5184b3f10b76be2afede4e9703f2223cd4fe07c065cdf52d143a0e17d0",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_joint.csv": "b5bdb36939fab1e7fe15205ac3a534cb6437066eb08a6cffafe56c912ff9c79a",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_metrics.csv": "fe77a3e9f08ebb96ab0c436eed14896f2959559f3c5d5e8295d420d66b1656c3",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_parameters.json": "0a3fd096241af201658cd8c38ac75029b98363f35cc0b237978c8e211d0a7f1d",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_query_admission.json": "f5327de433ca77fc46902bcb5fc95897e8fd3477337fda3d474df5eb7e2b139b",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_raw.csv": "96c12c82ba97667333789151fefc8c870feb94022ffee24f6304db218b5a5d97",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_score_receipt.json": "56c64eb43fc96860999196a1770e776656ccce788ebbf7d8d072f084f8423711",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_scoring_once.json": "6c5eddb75f8dca7b0a1660ba2890c9cbc716cf693c809cc27ce74fabe0d5745e",
+    "experiments/thermosphere_autumn_density_validation_v30/admission.json": "94ccb60be696dd01e97194d1576373e9a730df5c1e4c55f9e094d138ba84eeca",
+    "experiments/thermosphere_autumn_density_validation_v30/cross_season_coefficients.csv": "b36809345ac865d4bc73b6be9d59dfe652076363c7aaafa1ba854361f1b0d438",
+    "experiments/thermosphere_autumn_density_validation_v30/cross_season_metrics.csv": "d5fb3d2f9f0f0dffa4635e81dbff037f7150a914ab6c1b5cb479a4514f362712",
+    "experiments/thermosphere_autumn_density_validation_v30/dual_freeze_receipt.json": "889776e1078140a200a77841b34824a60db369c5c23c5f7adda5854032b22040",
+    "experiments/thermosphere_autumn_density_validation_v30/figure_captions.csv": "baf670e9ee15e9800196c1282a1190ca3d17d485fbc7c5fd5d8927b454d2f235",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/01_raw_time_series.png": "26ffd8d5630d67feffeeb4f71bba33c5a9a083bb80091625c177398cd32f4a97",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/02_correction_time_series.png": "fd53ee88a5248cdff7ac66932bfce606d876da38e430ad9f59824f3d4b5ec142",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/03_rmse.png": "58189b85519ab83d91b0b9fb6a718a8a9df890d11d479cce1426b6656be07fd8",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/04_relative_errors.png": "79c948370d3f2fca0451c6228719eb7388b443fa1899a36f8a06c9af00925572",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/05_latitude_errors.png": "554beab9a137539f6bfb353e987ec375c5b9d6aafd6043586bd17264a7e61e05",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/06_multipliers.png": "5f61175c7a0b0982fbf2220532efe7281dcf58a4d8d4edb4afc56b6994c42a9a",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/07_joint_matrix.png": "de6976a3d6d96f7570f94ce4f4cbd7e10a80b36a0fda974a3ef06980bcd9174e",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/08_spring_autumn.png": "91ae85d334efe9e0c1971b081525c567d92b4268396ca7df2287c9476d81c6b8",
+    "experiments/thermosphere_autumn_density_validation_v30/future_poison_test.json": "00ec4a5d3174e8c9604efc5a605c0238482df61895a698d090cc1457679d539d",
+    "experiments/thermosphere_autumn_density_validation_v30/independent_numeric_checks.csv": "f1c10d30ef4f649e1ba0fd988c055cc1c13305c8729143a2e24aac0323c9c14b",
+    "experiments/thermosphere_autumn_density_validation_v30/independent_verification.json": "d134c07dc1f94cb1643329b12d58b6967f6d70403627785fa6bf491dd12300f2",
+    "experiments/thermosphere_autumn_density_validation_v30/result.json": "0aacdff741ae7a2e1e348d47273bc144925f59c4281168d585d45d308eaed5e9",
+    "experiments/thermosphere_autumn_density_validation_v30/source_manifest.json": "7a8d76713b261841dfb9ec448c8359a27275db9aedbe87e9ec2adbe9d8fae348",
+    "scripts/density_autumn_v30.py": "91594dd0e21e163315a4c072a1b0a768cbad837ee5a4a7cce88e4235c2bed32d",
+    "scripts/plot_density_autumn_v30.py": "cba5734dab2073e57553cb11ca568b66f2885f4ae846c729ecad0116ddcbc4a8",
+    "scripts/verify_density_autumn_v30.py": "ee68cf0ff8c268d479a5deb84a4c6fe5b785883c4b79470a04543e8f050810eb",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/publication_SHA256.json": "9bcabf7973c9d534d8c999a267a2cc9964fd4b5a922e109b3931d0c39f2a6cb0",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/autumn_residual_drift.csv": "23e958d36baf3aa3812cd9020fe0616a2964baf622caa3bce15f26952ea07c2e",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/diagnostic_receipt.json": "9bc234a8d0ef24ff4fb7f042fc5ab71667117f847f695b964b3f3ce90d356ed5",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figure_captions.csv": "36abd6f68f457345a8432e96bb35110146e210c1a530888973d72542e88cb499",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figures/01_four_dates_raw.png": "fcedeab52e765597844b9de4b4e8417bed0f15d6df436cd803a1ace0df3b51f4",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figures/02_residual_drift.png": "194a0140e1f4a40e8535c58dfa64ad5826c288704fbc7e022bd2374c1694e45c",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figures/03_density_contributions.png": "3d67a1c77d0dbf87bcd00a169e7d99c8dcc0045138d92ffd6133bdd4a011778d",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figures/04_coefficient_shift.png": "182b1c39019f50f15a2177c300c6afb1e8ed1e215146f94d41383162f21280d9",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figures/05_time_aggregation.png": "63097cb6655a203a1cdeebdeb8eed84937dcd51d437fe37ff41af1d54fbaba47",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figures/06_case_latitude.png": "3f81abfceb4061cbf90e76b059c851ff36fb1d16073ea9472f48f91da2a5bbb2",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/four_date_identity.csv": "19d133dd3a28e2e39d7dbafad4ebcf09ad1addff9f59f43e083fadf1ce7a460a",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/four_date_raw_frozen.csv": "9afca1b49a354d22dd8c319b2f385fea3017e5c1cefc1c730c4135a2b060a881",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/frozen_joint_readonly.csv": "c037a78862680b7eb310f01f4a4d2e71951cba0de72170190687bb4fe4b3eb41",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/independent_verification.json": "6896b9fe93b53dc5552344f692d8b06fc352d06cce725f679e0887a2b415f263",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/input_identity.json": "6fe8d1196c45bf4c5a04057ba87fd39e561d13c98fbaad9503709b3573a0528b",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/stratified_contributions.csv": "48a367c900f8d59c2915dcca0865968f8b9e8f13602e88035b3c5fb81913c7b3",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/window_decomposition.csv": "b1efb2784816e1a1bbfaba43744135dff8e0f04199913cef8a0fd2243a0a9631",
+    "scripts/diagnose_autumn_v31.py": "2322de4c77aec3f3dfbaddf4d012eaae1cf24d08bfdfd8d02e497ac35069645e",
+    "scripts/plot_autumn_mechanism_v31.py": "3bdb069eba85e7bea1033b7a0c9656ac944a58db8977f4ffe19635602dee6dc3",
+    "scripts/verify_autumn_mechanism_v31.py": "ec7c3d1b60db80080da2c5221de25ba2262e321a69c9179c98b56a6674d92c31",
+    "experiments/thermosphere_residual_representativeness_v1/sha256_manifest.json": "bd8fc29588ea70ebc08430a9af7a7c48f63fc20f1c0a97afba7f1803f352f067",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_matched_local.npz": "f48503792c86aa9f4dcd93f542f9860f03a22577265d06f246aae785c660d944",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_matched_local.npz": "1c8d79cdbde68a5b4ee4691aa610f899a8e0849a1b820de6c3fa60780ba6d5bb"
+  },
+  "history_caches": [
+    {
+      "date": "2021-03-25",
+      "cutoff": 6,
+      "path": "experiments/causal_density_new_date_validation_v1/matched_local.npz",
+      "SHA256": "2161c6b6862e820fc27ad9f03c8dfad7778457854972ab16084723330c993325",
+      "sample_SHA256": "72ea24950dccaf311b22159b0698d9ef5205945a4271e941feffc66144e35976",
+      "identity": "exact_frozen_coefficient_sample_hash"
+    },
+    {
+      "date": "2021-03-25",
+      "cutoff": 18,
+      "path": "experiments/causal_density_new_date_validation_v1/matched_local.npz",
+      "SHA256": "2161c6b6862e820fc27ad9f03c8dfad7778457854972ab16084723330c993325",
+      "sample_SHA256": "bdace60d08bea4f0671af824632b0dc2a1aa305eea8e1a3fe7152437590774c0",
+      "identity": "exact_frozen_coefficient_sample_hash"
+    },
+    {
+      "date": "2022-03-25",
+      "cutoff": 6,
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/history6_local.npz",
+      "SHA256": "1b692b99829a6ff8257ae55e3b1d0c96e9a0694c7cc94eec6d1d91a398ae1cd2",
+      "sample_SHA256": "d3cb0b513737eab53b9b2982780753a53bcd11a0bfde7e2ef1fdd0590586d4d1",
+      "identity": "exact_frozen_coefficient_sample_hash"
+    },
+    {
+      "date": "2022-03-25",
+      "cutoff": 18,
+      "path": "experiments/tiegcm_2022_mar25_density_validation_v18/history18_local.npz",
+      "SHA256": "7e452b5a0963df822e9d0a8baaf9e861cf9602aa7f559d5923b0a7e8b44170a8",
+      "sample_SHA256": "f9c7374482d127f4721b7ead441e57886c791fa4677eae7ded8b03c4e31e35de",
+      "identity": "exact_frozen_coefficient_sample_hash"
+    },
+    {
+      "date": "2021-09-23",
+      "cutoff": 6,
+      "path": "experiments/thermosphere_autumn_density_validation_v30/2021_6_history_local.npz",
+      "SHA256": "0e40efd9803abb19438e76ebf99c81d0e05e50ab48faa469177e01db6b833bf5",
+      "sample_SHA256": "2be9b9e66e383f6420c14893d578b4979f5ed5b7bf984414c0b5a36995087646",
+      "identity": "exact_frozen_coefficient_sample_hash"
+    },
+    {
+      "date": "2021-09-23",
+      "cutoff": 18,
+      "path": "experiments/thermosphere_autumn_density_validation_v30/2021_18_history_local.npz",
+      "SHA256": "689c8ef8b311943e93a4b1bd09605bc413b6b0dcc3ff491ff6340227364b3323",
+      "sample_SHA256": "fd55f3f9f4e116865f5c53caa24f3f62b6895c4ead2d336dfb8ad923db2cc887",
+      "identity": "exact_frozen_coefficient_sample_hash"
+    },
+    {
+      "date": "2022-09-23",
+      "cutoff": 6,
+      "path": "experiments/thermosphere_autumn_density_validation_v30/2022_6_history_local.npz",
+      "SHA256": "968b947b31f2d21afe62e9c8af06ef020579475b24ba21eadc8842a7be75eaa6",
+      "sample_SHA256": "f47713751a3772d56c44546c468f0e866f35ec84f13ba0b96346e69bc882bea5",
+      "identity": "exact_frozen_coefficient_sample_hash"
+    },
+    {
+      "date": "2022-09-23",
+      "cutoff": 18,
+      "path": "experiments/thermosphere_autumn_density_validation_v30/2022_18_history_local.npz",
+      "SHA256": "9e56f609eb024376cd68b056e9da798c46a4e17c29180b4147d20a0ec8bebe56",
+      "sample_SHA256": "45ed86ba5d511afb88da35379144b3324c06524f3cffdce43911aa1eaf8f2061",
+      "identity": "exact_frozen_coefficient_sample_hash"
+    },
+    {
+      "date": "2021-03-23",
+      "cutoff": 6,
+      "path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "sample_SHA256": "f82d4b85906cd33c71eb6f1773f5e60fed32746757825f3654ef6ef8edea81cc",
+      "identity": "V1_manifest_cache_hash"
+    },
+    {
+      "date": "2021-03-23",
+      "cutoff": 18,
+      "path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "sample_SHA256": "8b7267d237f33756b8b0e47efda02cbb5f4103701994ab29bcba34d9b6fd3640",
+      "identity": "V1_manifest_cache_hash"
+    },
+    {
+      "date": "2021-03-24",
+      "cutoff": 6,
+      "path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "sample_SHA256": "de86ade0fcbb6031731a0fd2eb40d9c1d551534927e5261530df103550213296",
+      "identity": "V1_manifest_cache_hash"
+    },
+    {
+      "date": "2021-03-24",
+      "cutoff": 18,
+      "path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "sample_SHA256": "6df8e5a59498d8f0ea073e4105bbce341acc3e5834dd96ecad4d765910c0d6f8",
+      "identity": "V1_manifest_cache_hash"
+    },
+    {
+      "date": "2022-03-23",
+      "cutoff": 6,
+      "path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "sample_SHA256": "c76aad223cbc8bee4460b431318176a392e5565aee8d335a552fcf9f06e6bcb2",
+      "identity": "V1_manifest_cache_hash"
+    },
+    {
+      "date": "2022-03-23",
+      "cutoff": 18,
+      "path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "sample_SHA256": "1f0b41de04f8e342ea355bab4c06d11b92d62b246b7c69e99b4695cba9debc9c",
+      "identity": "V1_manifest_cache_hash"
+    },
+    {
+      "date": "2022-03-24",
+      "cutoff": 6,
+      "path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "sample_SHA256": "8438ec3a281b43e24f106c5e1fa4bac6d883644690b05275eb4735c48151c836",
+      "identity": "V1_manifest_cache_hash"
+    },
+    {
+      "date": "2022-03-24",
+      "cutoff": 18,
+      "path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "sample_SHA256": "a101cb5a060a46643325f518e69b035a09ae1d064c51cb45d572b6b988f75cec",
+      "identity": "V1_manifest_cache_hash"
+    }
+  ],
+  "windows": 16,
+  "future_density_parsed": false,
+  "formal_prediction_count": 0,
+  "resource": {
+    "wall_s": 0.13335027545690536,
+    "CPU_s": 0.50892485,
+    "peak_RSS_KiB": 74624
+  }
+}

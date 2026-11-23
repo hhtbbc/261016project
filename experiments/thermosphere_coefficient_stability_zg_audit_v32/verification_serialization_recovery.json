@@ -1,0 +1,6 @@
+{
+  "first_attempt": "JSON serialization TypeError for numpy.bool_ in cutoff test detail",
+  "correction": "Cast test verdicts to builtin bool only; no data, method, tolerance or published outputs changed.",
+  "historic_partial_saved_locally": true,
+  "formal_predictions": 0
+}

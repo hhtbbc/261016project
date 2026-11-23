@@ -1,0 +1,458 @@
+{
+  "2021_seed": {
+    "path": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+    "SHA256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+    "variables": {
+      "Z": {
+        "unit": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "long_name": "GEOPOTENTIAL HEIGHT",
+        "dtype": "float64"
+      },
+      "TN": {
+        "unit": "K",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "long_name": "NEUTRAL TEMPERATURE",
+        "dtype": "float64"
+      },
+      "lat": {
+        "unit": "degrees_north",
+        "dimensions": [
+          "lat"
+        ],
+        "long_name": "geographic latitude (-south, +north)",
+        "dtype": "float64"
+      }
+    },
+    "p0_mbar": 5e-07,
+    "p0_model_microbar": 0.0005,
+    "native_model_version": "tiegcm_trunk",
+    "lat_count": 36,
+    "lon_count": 72,
+    "ilev": [
+      -7.0,
+      -6.5,
+      -6.0,
+      -5.5,
+      -5.0,
+      -4.5,
+      -4.0,
+      -3.5,
+      -3.0,
+      -2.5,
+      -2.0,
+      -1.5,
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0
+    ],
+    "lev": [
+      -6.75,
+      -6.25,
+      -5.75,
+      -5.25,
+      -4.75,
+      -4.25,
+      -3.75,
+      -3.25,
+      -2.75,
+      -2.25,
+      -1.75,
+      -1.25,
+      -0.75,
+      -0.25,
+      0.25,
+      0.75,
+      1.25,
+      1.75,
+      2.25,
+      2.75,
+      3.25,
+      3.75,
+      4.25,
+      4.75,
+      5.25,
+      5.75,
+      6.25,
+      6.75,
+      7.25
+    ]
+  },
+  "2021_warm": {
+    "path": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run/secondary_015.nc",
+    "SHA256": "5657fd610990aed2e2aeb9c6e72e8567e2718ddf4da8e6f8989825954c30ee6e",
+    "variables": {
+      "ZG": {
+        "unit": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "long_name": "Geometric Height ZG",
+        "dtype": "float32"
+      },
+      "Z": {
+        "unit": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "long_name": "GEOPOTENTIAL HEIGHT",
+        "dtype": "float32"
+      },
+      "DEN": {
+        "unit": "g/cm3",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "long_name": "Total Density",
+        "dtype": "float32"
+      },
+      "TN": {
+        "unit": "K",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "long_name": "NEUTRAL TEMPERATURE",
+        "dtype": "float32"
+      },
+      "lat": {
+        "unit": "degrees_north",
+        "dimensions": [
+          "lat"
+        ],
+        "long_name": "geographic latitude (-south, +north)",
+        "dtype": "float64"
+      }
+    },
+    "p0_mbar": 5e-07,
+    "p0_model_microbar": 0.0005,
+    "native_model_version": "tiegcm_trunk",
+    "lat_count": 36,
+    "lon_count": 72,
+    "ilev": [
+      -7.0,
+      -6.5,
+      -6.0,
+      -5.5,
+      -5.0,
+      -4.5,
+      -4.0,
+      -3.5,
+      -3.0,
+      -2.5,
+      -2.0,
+      -1.5,
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0
+    ],
+    "lev": [
+      -6.75,
+      -6.25,
+      -5.75,
+      -5.25,
+      -4.75,
+      -4.25,
+      -3.75,
+      -3.25,
+      -2.75,
+      -2.25,
+      -1.75,
+      -1.25,
+      -0.75,
+      -0.25,
+      0.25,
+      0.75,
+      1.25,
+      1.75,
+      2.25,
+      2.75,
+      3.25,
+      3.75,
+      4.25,
+      4.75,
+      5.25,
+      5.75,
+      6.25,
+      6.75,
+      7.25
+    ]
+  },
+  "2022_seed": {
+    "path": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+    "SHA256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+    "variables": {
+      "Z": {
+        "unit": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "long_name": "GEOPOTENTIAL HEIGHT",
+        "dtype": "float64"
+      },
+      "TN": {
+        "unit": "K",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "long_name": "NEUTRAL TEMPERATURE",
+        "dtype": "float64"
+      },
+      "lat": {
+        "unit": "degrees_north",
+        "dimensions": [
+          "lat"
+        ],
+        "long_name": "geographic latitude (-south, +north)",
+        "dtype": "float64"
+      }
+    },
+    "p0_mbar": 5e-07,
+    "p0_model_microbar": 0.0005,
+    "native_model_version": "tiegcm_trunk",
+    "lat_count": 36,
+    "lon_count": 72,
+    "ilev": [
+      -7.0,
+      -6.5,
+      -6.0,
+      -5.5,
+      -5.0,
+      -4.5,
+      -4.0,
+      -3.5,
+      -3.0,
+      -2.5,
+      -2.0,
+      -1.5,
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0
+    ],
+    "lev": [
+      -6.75,
+      -6.25,
+      -5.75,
+      -5.25,
+      -4.75,
+      -4.25,
+      -3.75,
+      -3.25,
+      -2.75,
+      -2.25,
+      -1.75,
+      -1.25,
+      -0.75,
+      -0.25,
+      0.25,
+      0.75,
+      1.25,
+      1.75,
+      2.25,
+      2.75,
+      3.25,
+      3.75,
+      4.25,
+      4.75,
+      5.25,
+      5.75,
+      6.25,
+      6.75,
+      7.25
+    ]
+  },
+  "2022_warm": {
+    "path": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run/secondary_015.nc",
+    "SHA256": "1045cadf0ea23789d2f401a66de4bcda1a89032758354d8c1618c5b30be733b2",
+    "variables": {
+      "ZG": {
+        "unit": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "long_name": "Geometric Height ZG",
+        "dtype": "float32"
+      },
+      "Z": {
+        "unit": "cm",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "long_name": "GEOPOTENTIAL HEIGHT",
+        "dtype": "float32"
+      },
+      "DEN": {
+        "unit": "g/cm3",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "long_name": "Total Density",
+        "dtype": "float32"
+      },
+      "TN": {
+        "unit": "K",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "long_name": "NEUTRAL TEMPERATURE",
+        "dtype": "float32"
+      },
+      "lat": {
+        "unit": "degrees_north",
+        "dimensions": [
+          "lat"
+        ],
+        "long_name": "geographic latitude (-south, +north)",
+        "dtype": "float64"
+      }
+    },
+    "p0_mbar": 5e-07,
+    "p0_model_microbar": 0.0005,
+    "native_model_version": "tiegcm_trunk",
+    "lat_count": 36,
+    "lon_count": 72,
+    "ilev": [
+      -7.0,
+      -6.5,
+      -6.0,
+      -5.5,
+      -5.0,
+      -4.5,
+      -4.0,
+      -3.5,
+      -3.0,
+      -2.5,
+      -2.0,
+      -1.5,
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0
+    ],
+    "lev": [
+      -6.75,
+      -6.25,
+      -5.75,
+      -5.25,
+      -4.75,
+      -4.25,
+      -3.75,
+      -3.25,
+      -2.75,
+      -2.25,
+      -1.75,
+      -1.25,
+      -0.75,
+      -0.25,
+      0.25,
+      0.75,
+      1.25,
+      1.75,
+      2.25,
+      2.75,
+      3.25,
+      3.75,
+      4.25,
+      4.75,
+      5.25,
+      5.75,
+      6.25,
+      6.75,
+      7.25
+    ]
+  }
+}

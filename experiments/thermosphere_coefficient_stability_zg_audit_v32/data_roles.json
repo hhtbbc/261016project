@@ -1,0 +1,106 @@
+{
+  "scope": "HINDCAST / DEVELOPMENT_DIAGNOSTIC",
+  "dates": [
+    {
+      "date": "2021-03-25",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "spring historical development/validation",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2022-03-25",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "spring historical development/validation",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2021-09-23",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "V30 preregistered held-out historical evaluation preserved",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2022-09-23",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "V30 preregistered held-out historical evaluation preserved",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2021-03-23",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "spring historical development/validation",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2021-03-24",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "spring historical development/validation",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2022-03-23",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "spring historical development/validation",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2022-03-24",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "spring historical development/validation",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2021-06-21",
+      "role": "UNSEEN_TEST_METADATA_ONLY",
+      "historical_identity": "V20 candidate",
+      "cutoff_history_density_access": false,
+      "already_scored_future_aggregate_join": false,
+      "future_density_access": false
+    },
+    {
+      "date": "2022-06-21",
+      "role": "UNSEEN_TEST_METADATA_ONLY",
+      "historical_identity": "V20 candidate",
+      "cutoff_history_density_access": false,
+      "already_scored_future_aggregate_join": false,
+      "future_density_access": false
+    },
+    {
+      "date": "2021-12-21",
+      "role": "UNSEEN_TEST_METADATA_ONLY",
+      "historical_identity": "V20 candidate",
+      "cutoff_history_density_access": false,
+      "already_scored_future_aggregate_join": false,
+      "future_density_access": false
+    },
+    {
+      "date": "2022-12-21",
+      "role": "UNSEEN_TEST_METADATA_ONLY",
+      "historical_identity": "V20 candidate",
+      "cutoff_history_density_access": false,
+      "already_scored_future_aggregate_join": false,
+      "future_density_access": false
+    }
+  ],
+  "method_validation_dates_in_current_round": [],
+  "new_test_evaluations": 0,
+  "design_requires_frozen_formula_input_availability_hyperparameter_policy_roles_metrics_exclusions_gates": true,
+  "protocol_SHA256": "eb27a080199d656f6018f47834cc9eaef07897009360ca184d6511e4d3aeb2c4",
+  "feature_code_SHA256": "448330b314b3de67e2dd8a481e52509a14adbd97af8e4d8417ada072e88726fe"
+}
