@@ -1,0 +1,9 @@
+{
+  "PASS": true,
+  "samples": 2880,
+  "column_checks": 23040,
+  "extrapolation": false,
+  "zero_weight_columns_checked": true,
+  "warnings": 50,
+  "quality_N": 2880
+}

@@ -1,0 +1,100 @@
+{
+  "PASS": true,
+  "rtol": 1e-13,
+  "atol": 0.0,
+  "field_checks": 6882,
+  "failures": [],
+  "years": {
+    "2021": {
+      "independent_original_CDF": 2880,
+      "native_frames": 25,
+      "independent_queries": 2880,
+      "column_checks": 23040,
+      "max_relative_query_difference": 4.440892098500626e-16,
+      "metric_rows": 172,
+      "joint_rows": 24,
+      "common_ID_rows": 172,
+      "coefficients": [
+        {
+          "cutoff": 6,
+          "region": "global",
+          "N": 360,
+          "numpy_exp_exact": true
+        },
+        {
+          "cutoff": 18,
+          "region": "global",
+          "N": 360,
+          "numpy_exp_exact": true
+        },
+        {
+          "cutoff": 18,
+          "region": "low",
+          "N": 122,
+          "numpy_exp_exact": true
+        },
+        {
+          "cutoff": 18,
+          "region": "mid",
+          "N": 114,
+          "numpy_exp_exact": true
+        },
+        {
+          "cutoff": 18,
+          "region": "high",
+          "N": 124,
+          "numpy_exp_exact": true
+        }
+      ],
+      "numpy_frozen_multiplier_contract": true
+    },
+    "2022": {
+      "independent_original_CDF": 2880,
+      "native_frames": 25,
+      "independent_queries": 2880,
+      "column_checks": 23040,
+      "max_relative_query_difference": 4.440892098500626e-16,
+      "metric_rows": 172,
+      "joint_rows": 24,
+      "common_ID_rows": 172,
+      "coefficients": [
+        {
+          "cutoff": 6,
+          "region": "global",
+          "N": 360,
+          "numpy_exp_exact": true
+        },
+        {
+          "cutoff": 18,
+          "region": "global",
+          "N": 360,
+          "numpy_exp_exact": true
+        },
+        {
+          "cutoff": 18,
+          "region": "low",
+          "N": 113,
+          "numpy_exp_exact": true
+        },
+        {
+          "cutoff": 18,
+          "region": "mid",
+          "N": 119,
+          "numpy_exp_exact": true
+        },
+        {
+          "cutoff": 18,
+          "region": "high",
+          "N": 128,
+          "numpy_exp_exact": true
+        }
+      ],
+      "numpy_frozen_multiplier_contract": true
+    }
+  },
+  "model_volumes_rehashed": 66,
+  "protected_files": 22,
+  "peak_RSS_KiB": 113032,
+  "wall_s": 9.466402918100357,
+  "CPU_s": 9.85748863
+}

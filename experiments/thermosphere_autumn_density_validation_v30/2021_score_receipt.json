@@ -1,0 +1,18 @@
+{
+  "PASS": true,
+  "attempts": 1,
+  "outputs_SHA256": {
+    "2021_raw.csv": "531248cb9ebb65c43a26ac34bbc7ccb87fc41db3300f656d81548ed4abd8ed83",
+    "2021_metrics.csv": "7a0ef184f4f408ef56bf6238b7975fb379644fa637b36cf08cc58dc3f44d5d9e",
+    "2021_common_ids.csv": "a2619508e34f6b5e18f779af0080e547e287e443db212e2e57080dd529c088b9",
+    "2021_joint.csv": "1acbab22469ed306e46460f226aebe7a0ba239c9b373d6b0797e3ce8009c1f49",
+    "2021_matched_local.npz": "f48503792c86aa9f4dcd93f542f9860f03a22577265d06f246aae785c660d944",
+    "2021_query_admission.json": "f5327de433ca77fc46902bcb5fc95897e8fd3477337fda3d474df5eb7e2b139b"
+  },
+  "parameter_SHA256": "c76e1fd7671efa7b8e1e4eb51ff4a89cb65b52d431abe2fbef4bb46ffb464f40",
+  "resource": {
+    "wall_s": 4.416513197124004,
+    "CPU_s": 4.789632953,
+    "peak_RSS_KiB": 267220
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "PASS": true,
+  "protocol_SHA256": "eb27a080199d656f6018f47834cc9eaef07897009360ca184d6511e4d3aeb2c4",
+  "identity": "DATE_HELD_OUT_PREREG / HINDCAST / PROVISIONAL Map-A / NOT_BLIND / EXTERNAL_DATUM_UNVERIFIED",
+  "seed_policy": "A_MAREQX_APPROVED",
+  "metadata_only": true,
+  "verified_model_volumes": 66,
+  "prior_quality_and_coverage_reused": true,
+  "resource": {
+    "wall_s": 8.087335508316755,
+    "CPU_s": 8.459127445,
+    "peak_RSS_KiB": 76224
+  }
+}

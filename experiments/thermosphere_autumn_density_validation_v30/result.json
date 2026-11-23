@@ -1,0 +1,31 @@
+{
+  "status": "SCIENTIFIC_EVALUATION_COMPLETE_VERIFIED",
+  "score_attempts": {
+    "2021": 1,
+    "2022": 1
+  },
+  "per_date_joint": {
+    "2021_spring": {
+      "FAIL": 11,
+      "PASS": 1
+    },
+    "2022_spring": {
+      "FAIL": 12
+    },
+    "2021_autumn": {
+      "PASS": 8,
+      "FAIL": 4
+    },
+    "2022_autumn": {
+      "FAIL": 6,
+      "PASS": 6
+    }
+  },
+  "new_model_runs": 0,
+  "GPU_calls": 0,
+  "threshold_changes": false,
+  "independent_SHA256": "d134c07dc1f94cb1643329b12d58b6967f6d70403627785fa6bf491dd12300f2",
+  "parameter_freeze_SHA256": "889776e1078140a200a77841b34824a60db369c5c23c5f7adda5854032b22040",
+  "methods_retuned": false,
+  "figure_count": 8
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2022-09-23",
+  "parameters": {
+    "GlobalAdaptive06": {
+      "N": 360,
+      "first_UTC": "2022-09-23T03:00:00.000000000Z",
+      "last_UTC": "2022-09-23T05:59:30.000000000Z",
+      "sample_SHA256": "f47713751a3772d56c44546c468f0e866f35ec84f13ba0b96346e69bc882bea5",
+      "status": "SUPPORTED",
+      "b": -0.1540620401527235,
+      "multiplier": 0.8572188373741259
+    },
+    "GlobalAdaptive18": {
+      "N": 360,
+      "first_UTC": "2022-09-23T15:00:00.000000000Z",
+      "last_UTC": "2022-09-23T17:59:30.000000000Z",
+      "sample_SHA256": "45ed86ba5d511afb88da35379144b3324c06524f3cffdce43911aa1eaf8f2061",
+      "status": "SUPPORTED",
+      "b": -0.06603728800049247,
+      "multiplier": 0.9360959584942778
+    },
+    "LatitudeAdaptive18": {
+      "low": {
+        "N": 113,
+        "first_UTC": "2022-09-23T15:00:00.000000000Z",
+        "last_UTC": "2022-09-23T17:29:00.000000000Z",
+        "sample_SHA256": "9ac3b5f9e5517f9ac03c7fbe69bce9fa7b16653bd78c8200ea79bc55eea6ab2d",
+        "status": "SUPPORTED",
+        "b": -0.018613016411393346,
+        "multiplier": 0.981559136031846
+      },
+      "mid": {
+        "N": 119,
+        "first_UTC": "2022-09-23T15:08:30.000000000Z",
+        "last_UTC": "2022-09-23T17:59:30.000000000Z",
+        "sample_SHA256": "6db43fe078e19289ef5a019400c5627e771c80f1d174b10291b9eb4edff4bb08",
+        "status": "SUPPORTED",
+        "b": -0.07598278302052819,
+        "multiplier": 0.926832163672351
+      },
+      "high": {
+        "N": 128,
+        "first_UTC": "2022-09-23T15:16:00.000000000Z",
+        "last_UTC": "2022-09-23T17:52:30.000000000Z",
+        "sample_SHA256": "b67b9dea85ca7d0701e3224273035ed94ff4741cbea0fd427c3d313f09a20fe2",
+        "status": "SUPPORTED",
+        "b": -0.08553806873542413,
+        "multiplier": 0.9180181945971767
+      }
+    }
+  },
+  "Stale06": "same date GlobalAdaptive06",
+  "observation_SHA256": "c717855e07c2c1b3aa6f458525712572132e3b2fa54aaf91ce69959a95b1d9ab",
+  "source_manifest_SHA256": "7a8d76713b261841dfb9ec448c8359a27275db9aedbe87e9ec2adbe9d8fae348",
+  "target_models": [
+    {
+      "file": "secondary_014.nc",
+      "SHA256": "ffd88c673b5e2e9faef33b34bb5fc26c340d1df22bca0322eab51713b298ca73",
+      "bytes": "192669008",
+      "records": "24",
+      "first_UTC": "2022-09-22T01:00:00Z",
+      "last_UTC": "2022-09-23T00:00:00Z",
+      "path": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run/secondary_014.nc"
+    },
+    {
+      "file": "secondary_015.nc",
+      "SHA256": "1045cadf0ea23789d2f401a66de4bcda1a89032758354d8c1618c5b30be733b2",
+      "bytes": "192669008",
+      "records": "24",
+      "first_UTC": "2022-09-23T01:00:00Z",
+      "last_UTC": "2022-09-24T00:00:00Z",
+      "path": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run/secondary_015.nc"
+    }
+  ],
+  "history": {
+    "6": {
+      "samples": 360,
+      "column_checks": 2880,
+      "extrapolation": false,
+      "zero_weight_columns_checked": true,
+      "warnings": 8,
+      "interval": [
+        "2022-09-23T03:00:00.000000000",
+        "2022-09-23T06:00:00.000000000"
+      ],
+      "utc_ID_SHA256": "6f8a0a15a28e5a71874c7fe338431c12bf96b4e448651027415bc5a72cde9410"
+    },
+    "18": {
+      "samples": 360,
+      "column_checks": 2880,
+      "extrapolation": false,
+      "zero_weight_columns_checked": true,
+      "warnings": 8,
+      "interval": [
+        "2022-09-23T15:00:00.000000000",
+        "2022-09-23T18:00:00.000000000"
+      ],
+      "utc_ID_SHA256": "4ce1bee7de8f96f234479a1314084d054386b430420944f747e7132e69177373"
+    }
+  },
+  "protocol_SHA256": "eb27a080199d656f6018f47834cc9eaef07897009360ca184d6511e4d3aeb2c4",
+  "future_density_read": false
+}

@@ -1,0 +1,18 @@
+{
+  "PASS": true,
+  "attempts": 1,
+  "outputs_SHA256": {
+    "2022_raw.csv": "96c12c82ba97667333789151fefc8c870feb94022ffee24f6304db218b5a5d97",
+    "2022_metrics.csv": "fe77a3e9f08ebb96ab0c436eed14896f2959559f3c5d5e8295d420d66b1656c3",
+    "2022_common_ids.csv": "962b5a5184b3f10b76be2afede4e9703f2223cd4fe07c065cdf52d143a0e17d0",
+    "2022_joint.csv": "b5bdb36939fab1e7fe15205ac3a534cb6437066eb08a6cffafe56c912ff9c79a",
+    "2022_matched_local.npz": "1c8d79cdbde68a5b4ee4691aa610f899a8e0849a1b820de6c3fa60780ba6d5bb",
+    "2022_query_admission.json": "f5327de433ca77fc46902bcb5fc95897e8fd3477337fda3d474df5eb7e2b139b"
+  },
+  "parameter_SHA256": "0a3fd096241af201658cd8c38ac75029b98363f35cc0b237978c8e211d0a7f1d",
+  "resource": {
+    "wall_s": 4.3298414424061775,
+    "CPU_s": 4.700752976,
+    "peak_RSS_KiB": 266704
+  }
+}

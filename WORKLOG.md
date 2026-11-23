@@ -1364,3 +1364,8 @@ THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21=DATA_PARTIAL，两年份均DATA_PARTIAL
 ## 2026-11-23 V29 2022 秋季正式积分与验收
 
 起始本地及远端46465e5e0c7cc72e272b0ee6b149def4fa710fc9。CPU明确授权，非PTY/HUP隔离及原V27监督；check-only 后正式命令一次，run_id 4a89e99eaee548f28240ea47f4b98e47。墙钟 2441.927s，MPI父/四rank 0，采样峰 980705280 bytes。独立只读 7.350s 重查33SHA、全部字段、GFZ、Swarm与历史保护，不评分。证据 experiments/thermosphere_autumn_2022_formal_run_v29/；原件 experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run/。
+
+
+## 2026-11-23 V30 两年秋季密度评价
+
+V30使用CPU-only Python -B运行 prepare/history/poison、逐年 score、独立verify及展示脚本。两年66卷、CDF和V20完整哈希；独立共5760点/46080列，详见两年各172行指标和各24行联合结果。初稿图的上标负号缺字，采用数学字体重绘，评分及复核数据未改。实验目录experiments/thermosphere_autumn_density_validation_v30/。没有模型/GPU/调参；后续另授权开展机制诊断与新预注册日期。
