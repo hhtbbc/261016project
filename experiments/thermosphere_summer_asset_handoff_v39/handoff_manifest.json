@@ -1,0 +1,40 @@
+{
+  "staging": "data/raw/thermosphere_summer_data_handoff_v39/staging",
+  "accepted": "data/raw/thermosphere_summer_data_handoff_v39/accepted",
+  "required": [
+    {
+      "product": "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+      "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+      "official_collection": "Level2daily/Latest_baselines/DNS/POD/Sat_A",
+      "status": "NOT_ACQUIRED",
+      "receipt": "save as <file>.source.json if source is available"
+    },
+    {
+      "product": "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+      "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+      "official_collection": "Level2daily/Latest_baselines/DNS/POD/Sat_A",
+      "status": "NOT_ACQUIRED",
+      "receipt": "save as <file>.source.json if source is available"
+    },
+    {
+      "product": "tiegcm_res5.0_junsol_smax_prim.nc",
+      "URL": "https://www.hao.ucar.edu/modeling/tgcm/download.php",
+      "historical_single_file_URL": "https://download.hao.ucar.edu/pub/tgcm/data/tiegcm2.0/tiegcm_res5.0_junsol_smax_prim.nc",
+      "path_relative_to_TGCMDATA": "tiegcm_res5.0_junsol_smax_prim.nc",
+      "archive_prefix": "NOT_VERIFIED",
+      "status": "NOT_ACQUIRED"
+    }
+  ],
+  "formal_checks": "read-only original bytes and static product contract",
+  "source_sidecar": {
+    "download_url": "https://official.example/path",
+    "download_date": "YYYY-MM-DD",
+    "source_note": "Official route and product identity, no credential",
+    "file_sha256": "optional independently computed digest"
+  },
+  "staging_actual": [],
+  "accepted_actual": [],
+  "command": "source scripts/activate_tiegcm.sh && CUDA_VISIBLE_DEVICES=\"\" python -B scripts/import_summer_handoff_v39.py --inspect",
+  "official_provenance_accepted": false,
+  "real_originals_imported": 0
+}

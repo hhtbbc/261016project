@@ -1,0 +1,44 @@
+{
+  "state": "V39_ASSET_PARTIAL",
+  "RUN_READY": false,
+  "may_freeze_configuration": false,
+  "dates": {
+    "2021-06-21": {
+      "GFZ": "GFZ_BLOCKED",
+      "Swarm": "NOT_ACQUIRED",
+      "Swarm_metadata": "NOT_VERIFIED",
+      "junsol": "NOT_ACQUIRED",
+      "season_seed_policy": "SUMMER_SEED_POLICY_PENDING",
+      "state": "SUMMER_ASSET_BLOCKED",
+      "GPI_prerequisite_driver_coverage": false,
+      "formal_GPI_generation_authorized": false,
+      "formal_configuration_ready": false
+    },
+    "2022-06-21": {
+      "GFZ": "GFZ_COMPLETE",
+      "Swarm": "NOT_ACQUIRED",
+      "Swarm_metadata": "NOT_VERIFIED",
+      "junsol": "NOT_ACQUIRED",
+      "season_seed_policy": "SUMMER_SEED_POLICY_PENDING",
+      "state": "SUMMER_ASSET_PARTIAL",
+      "GPI_prerequisite_driver_coverage": true,
+      "formal_GPI_generation_authorized": false,
+      "formal_configuration_ready": false
+    }
+  },
+  "ELF": {
+    "path": "experiments/tiegcm2_apex2023_v1/tiegcm2.0",
+    "SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "available": true,
+    "reusable_candidate": true,
+    "run_ready": false
+  },
+  "GFZ_manual": "No valid GFZ revision found. Other-source path needs prospective authorized amendment and defensible evidence for both missing dates.",
+  "official_provenance_of_requested_originals": "NOT_VERIFIED",
+  "new_model_runs": 0,
+  "new_GPI": 0,
+  "new_formal_input": 0,
+  "unseen_target_density_reads": 0,
+  "new_scores": 0,
+  "GPU": 0
+}

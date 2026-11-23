@@ -1414,3 +1414,9 @@ CPU 先用 scripts/causal_shrinkage_development_v36.py freeze 冻结参数、5,7
 ## 2026-11-23 V38 夏季真实资产获取
 
 CPU 执行 fetch_summer_assets_v38、retry_summer_swarm_v38、audit_summer_assets_v38、verify_summer_assets_v38。四份 GFZ 官方原始 JSON 留服务器，2021仍−1，2022独立复核全部驱动通过。ESA 超时与 NCAR 403 原样留账。31项测试全通过，保留首次 mock fill 属性错误。累计应用层计额77070字节，全部未见读值、正式GPI/input、积分、拟合、评分、GPU均零。成果 experiments/thermosphere_summer_data_acquisition_v38/。
+
+
+
+## 2026-11-23 V39 夏季原件交接
+
+服务器 CPU 运行 scripts/import_summer_handoff_v39.py --inspect 和 scripts/verify_summer_handoff_v39.py，实物零件；40 项合成及回归测试通过，复核 V38 四份 GFZ 原始 SHA、22 项历史发布、V37 10 项保护。加拿大原表 20Z 对照 58/58 完全一致，目标两日仍无合规 GFZ 修订。公开文档核实 ESA 和 NCAR 人工路径，不重复请求旧二进制地址。成果 experiments/thermosphere_summer_asset_handoff_v39/，无下载原件、目标解码、配置、积分、评分或 GPU。

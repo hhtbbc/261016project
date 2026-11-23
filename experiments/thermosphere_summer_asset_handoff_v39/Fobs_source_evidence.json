@@ -1,0 +1,56 @@
+{
+  "status": "GFZ_BLOCKED_NO_CONTRACT_COMPATIBLE_REVISION",
+  "Canada_source": {
+    "URL": "https://spaceweather.gc.ca/solar_flux_data/daily_flux_values/fluxtable.txt",
+    "HTTP": 206,
+    "Content_Range": "bytes 1601822-1657822/2189096",
+    "SHA256": "81b4b3a5b43ef08625aa676da89babcd282bf3fa3d4fb67e3b154b14cc37dede",
+    "bytes": 56001,
+    "path": "data/raw/f107_2021_recovery_v1/canada_bytes_1601822_1657822.txt"
+  },
+  "NOAA_source": {
+    "name": "noaa_q2",
+    "URL": "https://www.ngdc.noaa.gov/stp/space-weather/swpc-products/annual_reports/daily_solar_indices_summaries/daily_solar_data/2021Q2_DSD.txt",
+    "HTTP": 200,
+    "bytes": 7554,
+    "SHA256": "bdfbb4ae63798184a9710c3b1e8fd5a468d74f2bd7cc55fee5eca78433b0f37c",
+    "path": "data/raw/f107_2021_recovery_v1/noaa_q2.txt"
+  },
+  "GFZ_archive": {
+    "path": "data/raw/f107_2021_recovery_v1/gfz_year.txt",
+    "SHA256": "f969f23b0b0d4aba80dca6f35d3e95c2d35a7e482457bc1812e5c0827090caae"
+  },
+  "dates": {
+    "2021-05-09": {
+      "GFZ": -1,
+      "Canada": [],
+      "NOAA_DSD_sfu": 76
+    },
+    "2021-06-16": {
+      "GFZ": -1,
+      "Canada": [
+        {
+          "UTC": "170000",
+          "observed_sfu": 76.9,
+          "adjusted_sfu": 79.4
+        },
+        {
+          "UTC": "230000",
+          "observed_sfu": 77.1,
+          "adjusted_sfu": 79.6
+        }
+      ],
+      "NOAA_DSD_sfu": 76
+    }
+  },
+  "Canada_20UTC_GFZ_overlap": {
+    "start": "2021-04-26",
+    "stop": "2021-06-24",
+    "eligible_pairs": 58,
+    "exact": 58,
+    "maximum_absolute_sfu": 0.0
+  },
+  "raw_evidence_reused": true,
+  "new_GFZ_requests": 0,
+  "driver_substitution": false
+}

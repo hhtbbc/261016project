@@ -1,0 +1,26 @@
+{
+  "new_binary_requests": 0,
+  "new_GFZ_requests": 0,
+  "ESA": {
+    "public_root": "https://swarm-diss.eo.esa.int/",
+    "new_root_web_probe": "Tool reported timeout",
+    "exact_ZIP_requests_repeated": false,
+    "previous_failure": "V38: received no HTTP status on either exact URL after retry",
+    "diagnosed": "No established cause among routing/proxy/TLS/backend latency or auth. No 401/403 for the ESA files.",
+    "official_independent_description": "https://lps25.esa.int/lps25-presentations/presentations/305/_305.pdf",
+    "legal_route": "Browser on ESA archive with own EO Sign In and product terms as required. Navigate exact collection. No certified access session available here."
+  },
+  "NCAR": {
+    "form_public": "https://www.hao.ucar.edu/modeling/tgcm/download.php",
+    "form_metadata": "Two input elements accessible; not submitted",
+    "past_single_file_HTTP": 403,
+    "archive_size_documented_GB": 1.5,
+    "archive_download_attempts": 0,
+    "official_doc": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/quickstart.html",
+    "release_license": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/release/html/release_notes.html",
+    "alternate": "Official Globus page describes benchmark outputs. No confirmed downloadable identical startup file there.",
+    "manual": "Self-submit official email form if prompted, request exact single file and official release provenance."
+  },
+  "Canada_archive": "https://www.spaceweather.gc.ca/forecast-prevision/solar-solaire/solarflux/sx-5-en.php",
+  "Canada_definition": "https://www.spaceweather.gc.ca/forecast-prevision/solar-solaire/solarflux/sx-3-en.php"
+}
