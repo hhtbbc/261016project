@@ -1,0 +1,959 @@
+{
+  "state": "SHRINKAGE_DESIGN_FROZEN_READY",
+  "source_HEAD": "344e54787a50b016128b470f464d20f9ceddc896",
+  "methods": {
+    "Raw": 0.0,
+    "ShrinkageHalf": 0.5,
+    "Global": 1.0
+  },
+  "new_fixed_parameters": 1,
+  "formula": "b_H=median(log(obs)-log(raw)); b_shrink=lambda*b_H; corrected=raw*np.exp(b_shrink)",
+  "lambda_choice": "0.5 is an a priori midpoint contrast; no future outcomes used for selection",
+  "temporal_identity": [
+    "HINDCAST_HISTORY_AVAILABLE",
+    "REALTIME_ASOF_UNVERIFIED"
+  ],
+  "map_identity": "PROVISIONAL Map-A / EXTERNAL_DATUM_UNVERIFIED / FIXED_OFFSET_NOT_ADMITTED",
+  "roles": {
+    "scope": "HINDCAST / DEVELOPMENT_DIAGNOSTIC",
+    "dates": [
+      {
+        "date": "2021-03-25",
+        "role": "DEVELOPMENT_SOURCE",
+        "historical_identity": "spring historical development/validation",
+        "cutoff_history_density_access": true,
+        "already_scored_future_aggregate_join": true,
+        "future_density_access": false
+      },
+      {
+        "date": "2022-03-25",
+        "role": "DEVELOPMENT_SOURCE",
+        "historical_identity": "spring historical development/validation",
+        "cutoff_history_density_access": true,
+        "already_scored_future_aggregate_join": true,
+        "future_density_access": false
+      },
+      {
+        "date": "2021-09-23",
+        "role": "DEVELOPMENT_SOURCE",
+        "historical_identity": "V30 preregistered held-out historical evaluation preserved",
+        "cutoff_history_density_access": true,
+        "already_scored_future_aggregate_join": true,
+        "future_density_access": false
+      },
+      {
+        "date": "2022-09-23",
+        "role": "DEVELOPMENT_SOURCE",
+        "historical_identity": "V30 preregistered held-out historical evaluation preserved",
+        "cutoff_history_density_access": true,
+        "already_scored_future_aggregate_join": true,
+        "future_density_access": false
+      },
+      {
+        "date": "2021-03-23",
+        "role": "DEVELOPMENT_SOURCE",
+        "historical_identity": "spring historical development/validation",
+        "cutoff_history_density_access": true,
+        "already_scored_future_aggregate_join": true,
+        "future_density_access": false
+      },
+      {
+        "date": "2021-03-24",
+        "role": "DEVELOPMENT_SOURCE",
+        "historical_identity": "spring historical development/validation",
+        "cutoff_history_density_access": true,
+        "already_scored_future_aggregate_join": true,
+        "future_density_access": false
+      },
+      {
+        "date": "2022-03-23",
+        "role": "DEVELOPMENT_SOURCE",
+        "historical_identity": "spring historical development/validation",
+        "cutoff_history_density_access": true,
+        "already_scored_future_aggregate_join": true,
+        "future_density_access": false
+      },
+      {
+        "date": "2022-03-24",
+        "role": "DEVELOPMENT_SOURCE",
+        "historical_identity": "spring historical development/validation",
+        "cutoff_history_density_access": true,
+        "already_scored_future_aggregate_join": true,
+        "future_density_access": false
+      },
+      {
+        "date": "2021-06-21",
+        "role": "UNSEEN_TEST_METADATA_ONLY",
+        "historical_identity": "V20 candidate",
+        "cutoff_history_density_access": false,
+        "already_scored_future_aggregate_join": false,
+        "future_density_access": false
+      },
+      {
+        "date": "2022-06-21",
+        "role": "UNSEEN_TEST_METADATA_ONLY",
+        "historical_identity": "V20 candidate",
+        "cutoff_history_density_access": false,
+        "already_scored_future_aggregate_join": false,
+        "future_density_access": false
+      },
+      {
+        "date": "2021-12-21",
+        "role": "UNSEEN_TEST_METADATA_ONLY",
+        "historical_identity": "V20 candidate",
+        "cutoff_history_density_access": false,
+        "already_scored_future_aggregate_join": false,
+        "future_density_access": false
+      },
+      {
+        "date": "2022-12-21",
+        "role": "UNSEEN_TEST_METADATA_ONLY",
+        "historical_identity": "V20 candidate",
+        "cutoff_history_density_access": false,
+        "already_scored_future_aggregate_join": false,
+        "future_density_access": false
+      }
+    ],
+    "method_validation_dates_in_current_round": [],
+    "new_test_evaluations": 0,
+    "design_requires_frozen_formula_input_availability_hyperparameter_policy_roles_metrics_exclusions_gates": true,
+    "protocol_SHA256": "eb27a080199d656f6018f47834cc9eaef07897009360ca184d6511e4d3aeb2c4",
+    "feature_code_SHA256": "448330b314b3de67e2dd8a481e52509a14adbd97af8e4d8417ada072e88726fe"
+  },
+  "availability_matrix": "experiments/thermosphere_coefficient_stability_zg_audit_v32/information_availability.csv",
+  "eligibility_survey": [
+    {
+      "date": "2021-03-25",
+      "cutoff": 6,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/causal_density_new_date_validation_v1/matched_local.npz",
+      "history_cache_SHA256": "2161c6b6862e820fc27ad9f03c8dfad7778457854972ab16084723330c993325",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "SUPPORTED and byte/sample pinned",
+      "admissible_common_comparison": true,
+      "scope": "V36 exploratory comparison only"
+    },
+    {
+      "date": "2021-03-25",
+      "cutoff": 18,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/causal_density_new_date_validation_v1/matched_local.npz",
+      "history_cache_SHA256": "2161c6b6862e820fc27ad9f03c8dfad7778457854972ab16084723330c993325",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "SUPPORTED and byte/sample pinned",
+      "admissible_common_comparison": true,
+      "scope": "V36 exploratory comparison only"
+    },
+    {
+      "date": "2022-03-25",
+      "cutoff": 6,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/tiegcm_2022_mar25_density_validation_v18/history6_local.npz",
+      "history_cache_SHA256": "1b692b99829a6ff8257ae55e3b1d0c96e9a0694c7cc94eec6d1d91a398ae1cd2",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "SUPPORTED and byte/sample pinned",
+      "admissible_common_comparison": true,
+      "scope": "V36 exploratory comparison only"
+    },
+    {
+      "date": "2022-03-25",
+      "cutoff": 18,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/tiegcm_2022_mar25_density_validation_v18/history18_local.npz",
+      "history_cache_SHA256": "7e452b5a0963df822e9d0a8baaf9e861cf9602aa7f559d5923b0a7e8b44170a8",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "SUPPORTED and byte/sample pinned",
+      "admissible_common_comparison": true,
+      "scope": "V36 exploratory comparison only"
+    },
+    {
+      "date": "2021-09-23",
+      "cutoff": 6,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_autumn_density_validation_v30/2021_6_history_local.npz",
+      "history_cache_SHA256": "0e40efd9803abb19438e76ebf99c81d0e05e50ab48faa469177e01db6b833bf5",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "SUPPORTED and byte/sample pinned",
+      "admissible_common_comparison": true,
+      "scope": "V36 exploratory comparison only"
+    },
+    {
+      "date": "2021-09-23",
+      "cutoff": 18,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_autumn_density_validation_v30/2021_18_history_local.npz",
+      "history_cache_SHA256": "689c8ef8b311943e93a4b1bd09605bc413b6b0dcc3ff491ff6340227364b3323",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "SUPPORTED and byte/sample pinned",
+      "admissible_common_comparison": true,
+      "scope": "V36 exploratory comparison only"
+    },
+    {
+      "date": "2022-09-23",
+      "cutoff": 6,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_autumn_density_validation_v30/2022_6_history_local.npz",
+      "history_cache_SHA256": "968b947b31f2d21afe62e9c8af06ef020579475b24ba21eadc8842a7be75eaa6",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "SUPPORTED and byte/sample pinned",
+      "admissible_common_comparison": true,
+      "scope": "V36 exploratory comparison only"
+    },
+    {
+      "date": "2022-09-23",
+      "cutoff": 18,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_autumn_density_validation_v30/2022_18_history_local.npz",
+      "history_cache_SHA256": "9e56f609eb024376cd68b056e9da798c46a4e17c29180b4147d20a0ec8bebe56",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "SUPPORTED and byte/sample pinned",
+      "admissible_common_comparison": true,
+      "scope": "V36 exploratory comparison only"
+    },
+    {
+      "date": "2021-03-23",
+      "cutoff": 6,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "history_cache_SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "N/A_NO_FROZEN_PREDICTION",
+      "admissible_common_comparison": false,
+      "scope": "V1 diagnostic only; no supported harmonized parameter/ID receipt"
+    },
+    {
+      "date": "2021-03-23",
+      "cutoff": 18,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "history_cache_SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "GlobalAdaptive;LatitudeAdaptive",
+      "admissible_common_comparison": false,
+      "scope": "V1 diagnostic only; no supported harmonized parameter/ID receipt"
+    },
+    {
+      "date": "2021-03-24",
+      "cutoff": 6,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "history_cache_SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "GlobalAdaptive",
+      "admissible_common_comparison": false,
+      "scope": "V1 diagnostic only; no supported harmonized parameter/ID receipt"
+    },
+    {
+      "date": "2021-03-24",
+      "cutoff": 18,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "history_cache_SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "GlobalAdaptive",
+      "admissible_common_comparison": false,
+      "scope": "V1 diagnostic only; no supported harmonized parameter/ID receipt"
+    },
+    {
+      "date": "2022-03-23",
+      "cutoff": 6,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "history_cache_SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "N/A_NO_FROZEN_PREDICTION",
+      "admissible_common_comparison": false,
+      "scope": "V1 diagnostic only; no supported harmonized parameter/ID receipt"
+    },
+    {
+      "date": "2022-03-23",
+      "cutoff": 18,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "history_cache_SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "GlobalAdaptive;LatitudeAdaptive",
+      "admissible_common_comparison": false,
+      "scope": "V1 diagnostic only; no supported harmonized parameter/ID receipt"
+    },
+    {
+      "date": "2022-03-24",
+      "cutoff": 6,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "history_cache_SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "GlobalAdaptive",
+      "admissible_common_comparison": false,
+      "scope": "V1 diagnostic only; no supported harmonized parameter/ID receipt"
+    },
+    {
+      "date": "2022-03-24",
+      "cutoff": 18,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_residual_representativeness_v1/matched_diagnostics_local.npz",
+      "history_cache_SHA256": "0f506b83027660e20072d70275c22571405b664e630cd55c13a1a9afd99f116f",
+      "future_common_Raw_N": 720,
+      "old_parameter_state": "GlobalAdaptive",
+      "admissible_common_comparison": false,
+      "scope": "V1 diagnostic only; no supported harmonized parameter/ID receipt"
+    }
+  ],
+  "eligible_windows": [
+    {
+      "date": "2021-03-25",
+      "cutoff": 6,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/causal_density_new_date_validation_v1/matched_local.npz",
+      "history_cache_SHA256": "2161c6b6862e820fc27ad9f03c8dfad7778457854972ab16084723330c993325",
+      "original_global_path": "experiments/causal_density_new_date_validation_v1/correction_parameters.json",
+      "original_global_SHA256": "bd72dd92e08cd8e6e4ba3ad760662642db6742850553a8f59d757fed7870eb51",
+      "history_sample_SHA256": "72ea24950dccaf311b22159b0698d9ef5205945a4271e941feffc66144e35976",
+      "history_UTC_SHA256": "73c2e3439d312673be51a97156c3229a1efb50d88d510f8e63f5619091ecbd48",
+      "future_cache_path": "experiments/causal_density_new_date_validation_v1/matched_local.npz",
+      "future_cache_SHA256": "2161c6b6862e820fc27ad9f03c8dfad7778457854972ab16084723330c993325",
+      "future_cache_identity": "matches prior receipt",
+      "future_background_field": "B14_6_Raw",
+      "background_provenance_manifest": "experiments/causal_density_new_date_validation_v1/source_manifest.json",
+      "original_common_ID_manifest": "experiments/causal_density_new_date_validation_v1/coverage.csv",
+      "original_ID_field": "sample_ID_SHA256",
+      "future_windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "ea389785e81615f2f1aa7cd3f4031dded650e37fb456677120410e3b18c5f2ae"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "ba79a228166a9a5c96d90e2fd97b59493879e7a6e7879e5ab381935a9f55ff9a"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "cb9cfb7fdc8d00d5a62922b0062e26aa243aad6e953cc2318f6a897f65b96d03"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "ea389785e81615f2f1aa7cd3f4031dded650e37fb456677120410e3b18c5f2ae"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "2866b9feed05c51fcc53336eeba6dc5784e774666201e6940dd830258acf14eb"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "d8922d41b9bec4cd29f988228341b2e86480e07512d71512140d7e740fc986b5"
+        }
+      }
+    },
+    {
+      "date": "2021-03-25",
+      "cutoff": 18,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/causal_density_new_date_validation_v1/matched_local.npz",
+      "history_cache_SHA256": "2161c6b6862e820fc27ad9f03c8dfad7778457854972ab16084723330c993325",
+      "original_global_path": "experiments/causal_density_new_date_validation_v1/correction_parameters.json",
+      "original_global_SHA256": "bd72dd92e08cd8e6e4ba3ad760662642db6742850553a8f59d757fed7870eb51",
+      "history_sample_SHA256": "bdace60d08bea4f0671af824632b0dc2a1aa305eea8e1a3fe7152437590774c0",
+      "history_UTC_SHA256": "57dd24a3ff5e5f705cadf600ac791a10e82dd3f3a148e6cc8e5e6bb09d9e4f70",
+      "future_cache_path": "experiments/causal_density_new_date_validation_v1/matched_local.npz",
+      "future_cache_SHA256": "2161c6b6862e820fc27ad9f03c8dfad7778457854972ab16084723330c993325",
+      "future_cache_identity": "matches prior receipt",
+      "future_background_field": "B14_18_Raw",
+      "background_provenance_manifest": "experiments/causal_density_new_date_validation_v1/source_manifest.json",
+      "original_common_ID_manifest": "experiments/causal_density_new_date_validation_v1/coverage.csv",
+      "original_ID_field": "sample_ID_SHA256",
+      "future_windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "4dd5c64b176d440a37deb2a658a1b9363267a97eaceb626253f59f26a3e14cfb"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "c9267b5813c00caca51ace13d1354573eec2ed430a1d82023c5644a29eb89ae5"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "2340a2c1ffc324fbb44a7a5a18d9eb2876703158c5747c17c42cb58b3c37bdf5"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "4dd5c64b176d440a37deb2a658a1b9363267a97eaceb626253f59f26a3e14cfb"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "0f3f7468311d8a3acc5a972aa3444ee8361faa482f407557a1cd3f4f74714ed1"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "d7c309c65cb1f9c398b20a08505d4945252df8986c800d44d5715b46622f397e"
+        }
+      }
+    },
+    {
+      "date": "2022-03-25",
+      "cutoff": 6,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/tiegcm_2022_mar25_density_validation_v18/history6_local.npz",
+      "history_cache_SHA256": "1b692b99829a6ff8257ae55e3b1d0c96e9a0694c7cc94eec6d1d91a398ae1cd2",
+      "original_global_path": "experiments/tiegcm_2022_mar25_density_validation_v18/correction_parameters.json",
+      "original_global_SHA256": "743cbf099c417a4b74a530151c08c6c5a8c746cfc0ee5ae30a3ca54075521470",
+      "history_sample_SHA256": "d3cb0b513737eab53b9b2982780753a53bcd11a0bfde7e2ef1fdd0590586d4d1",
+      "history_UTC_SHA256": "3f901ab8ee5a3945a0baf00a93b068308a810cb4bad009b41336590b1c5f4703",
+      "future_cache_path": "experiments/tiegcm_2022_mar25_density_validation_v18/matched_local.npz",
+      "future_cache_SHA256": "4621d2fb62339a2a0f6c0d220cc31fcf6aa763eabb802701bc455cff3c85e94d",
+      "future_cache_identity": "V35 byte pin of existing V18 cache",
+      "future_background_field": "raw",
+      "background_provenance_manifest": "experiments/tiegcm_2022_mar25_density_validation_v18/source_manifest.json",
+      "original_common_ID_manifest": "experiments/tiegcm_2022_mar25_density_validation_v18/coverage.csv",
+      "original_ID_field": "common_ID_SHA256",
+      "future_windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "d33eb1a27d68120b385efbf705286772219e5e912ddb6b8b4d8b933b33e20de2"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "e2601018c796da161a899c51b4bccd09f4e9249040758e591324192fa4e10751"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "aaafb2d63a4c56367ba01664f32bd9e4162dbc17334a1d3224989fa3aef43dec"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "d33eb1a27d68120b385efbf705286772219e5e912ddb6b8b4d8b933b33e20de2"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "204f45c694417492c48e90097015d36bfc431184508304a3611ba5082aff14ec"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "3581f82d9e3e3362df7c87a2309c2748f7064a3aa09af16bfce5eb5087f8b848"
+        }
+      }
+    },
+    {
+      "date": "2022-03-25",
+      "cutoff": 18,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/tiegcm_2022_mar25_density_validation_v18/history18_local.npz",
+      "history_cache_SHA256": "7e452b5a0963df822e9d0a8baaf9e861cf9602aa7f559d5923b0a7e8b44170a8",
+      "original_global_path": "experiments/tiegcm_2022_mar25_density_validation_v18/correction_parameters.json",
+      "original_global_SHA256": "743cbf099c417a4b74a530151c08c6c5a8c746cfc0ee5ae30a3ca54075521470",
+      "history_sample_SHA256": "f9c7374482d127f4721b7ead441e57886c791fa4677eae7ded8b03c4e31e35de",
+      "history_UTC_SHA256": "987e803b87a88dab88e5c3b504efba310ab310321f4fb8d11f3a4e3bca9ec902",
+      "future_cache_path": "experiments/tiegcm_2022_mar25_density_validation_v18/matched_local.npz",
+      "future_cache_SHA256": "4621d2fb62339a2a0f6c0d220cc31fcf6aa763eabb802701bc455cff3c85e94d",
+      "future_cache_identity": "V35 byte pin of existing V18 cache",
+      "future_background_field": "raw",
+      "background_provenance_manifest": "experiments/tiegcm_2022_mar25_density_validation_v18/source_manifest.json",
+      "original_common_ID_manifest": "experiments/tiegcm_2022_mar25_density_validation_v18/coverage.csv",
+      "original_ID_field": "common_ID_SHA256",
+      "future_windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "81d5a48a49a6b2c7b09bd6a1cc454fa10b6439f039c8c232bfaee7fbca9c2a61"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "1a597344652fd82e399cd50cb36e39756bef19c1c8447b1a78166202ce7fc8d5"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "b47c65d3f0be9dfe2b4145b7bac1e981d9b83219baf358f742d72b739014323c"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "81d5a48a49a6b2c7b09bd6a1cc454fa10b6439f039c8c232bfaee7fbca9c2a61"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "ce687d8cd222847866d62ad00eedec3638f735b82eaaec33e86576b7e54a4661"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "4c7a65ddc1640ef94641f99d992dba817aaff8ad6a39186bd2c99b4cb96ac103"
+        }
+      }
+    },
+    {
+      "date": "2021-09-23",
+      "cutoff": 6,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_autumn_density_validation_v30/2021_6_history_local.npz",
+      "history_cache_SHA256": "0e40efd9803abb19438e76ebf99c81d0e05e50ab48faa469177e01db6b833bf5",
+      "original_global_path": "experiments/thermosphere_autumn_density_validation_v30/2021_parameters.json",
+      "original_global_SHA256": "c76e1fd7671efa7b8e1e4eb51ff4a89cb65b52d431abe2fbef4bb46ffb464f40",
+      "history_sample_SHA256": "2be9b9e66e383f6420c14893d578b4979f5ed5b7bf984414c0b5a36995087646",
+      "history_UTC_SHA256": "ab52e464f321d092e35d7cfb828b53a7f5b5167b8817cc4d55ede114de48a6e9",
+      "future_cache_path": "experiments/thermosphere_autumn_density_validation_v30/2021_matched_local.npz",
+      "future_cache_SHA256": "f48503792c86aa9f4dcd93f542f9860f03a22577265d06f246aae785c660d944",
+      "future_cache_identity": "matches prior receipt",
+      "future_background_field": "raw",
+      "background_provenance_manifest": "experiments/thermosphere_autumn_density_validation_v30/source_manifest.json",
+      "original_common_ID_manifest": "experiments/thermosphere_autumn_density_validation_v30/2021_common_ids.csv",
+      "original_ID_field": "utc_ID_SHA256",
+      "future_windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "96632878d1d0ddb9daca5085a7a21334092fae90f88b45505dd2838bb789ba35"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "2c6b98e4e4e50181ea48d822763d3c7fde03229f7cb5dffedaf4a72cf66766ff"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "a47c36656d3321e4fc717fce2e30e3fb3cd5e86889248a9e5c4c56ffd4c5ba66"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "96632878d1d0ddb9daca5085a7a21334092fae90f88b45505dd2838bb789ba35"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "9caa35c437a0ce94d6d970eb166d29618d311a8c59b2d23071f205a3bb38c693"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "a5ed5239d72d8c21136bc6e38ade92d37832ca0ebbc34a089de3d9673ab48603"
+        }
+      }
+    },
+    {
+      "date": "2021-09-23",
+      "cutoff": 18,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_autumn_density_validation_v30/2021_18_history_local.npz",
+      "history_cache_SHA256": "689c8ef8b311943e93a4b1bd09605bc413b6b0dcc3ff491ff6340227364b3323",
+      "original_global_path": "experiments/thermosphere_autumn_density_validation_v30/2021_parameters.json",
+      "original_global_SHA256": "c76e1fd7671efa7b8e1e4eb51ff4a89cb65b52d431abe2fbef4bb46ffb464f40",
+      "history_sample_SHA256": "fd55f3f9f4e116865f5c53caa24f3f62b6895c4ead2d336dfb8ad923db2cc887",
+      "history_UTC_SHA256": "bb46569ed96a80a11129922fb8e1c5d0300fec898a6da8556bbd100519a1138a",
+      "future_cache_path": "experiments/thermosphere_autumn_density_validation_v30/2021_matched_local.npz",
+      "future_cache_SHA256": "f48503792c86aa9f4dcd93f542f9860f03a22577265d06f246aae785c660d944",
+      "future_cache_identity": "matches prior receipt",
+      "future_background_field": "raw",
+      "background_provenance_manifest": "experiments/thermosphere_autumn_density_validation_v30/source_manifest.json",
+      "original_common_ID_manifest": "experiments/thermosphere_autumn_density_validation_v30/2021_common_ids.csv",
+      "original_ID_field": "utc_ID_SHA256",
+      "future_windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "182bc1402af735976de5043ce8e2a2fb28d74aea99244b901add1867110e0b8b"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "17599e1279e7386ebdda6aaf666d9ac56ffdec39807516b3aea4a15d8af69eb2"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "96ed6ef2df8db22cefe00a24ac1d7926241d8ec48d7b04b0a21e262f5768e44b"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "182bc1402af735976de5043ce8e2a2fb28d74aea99244b901add1867110e0b8b"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "44a3e31e7224fae3b29ae13b03a7fa85eb51d0da2d528f227ef6c6e0ef66498b"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "d465946dc4a72a1473978c2d7ea054d8856aeeddc087c5b2b61cbcbfce4da75f"
+        }
+      }
+    },
+    {
+      "date": "2022-09-23",
+      "cutoff": 6,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_autumn_density_validation_v30/2022_6_history_local.npz",
+      "history_cache_SHA256": "968b947b31f2d21afe62e9c8af06ef020579475b24ba21eadc8842a7be75eaa6",
+      "original_global_path": "experiments/thermosphere_autumn_density_validation_v30/2022_parameters.json",
+      "original_global_SHA256": "0a3fd096241af201658cd8c38ac75029b98363f35cc0b237978c8e211d0a7f1d",
+      "history_sample_SHA256": "f47713751a3772d56c44546c468f0e866f35ec84f13ba0b96346e69bc882bea5",
+      "history_UTC_SHA256": "6f8a0a15a28e5a71874c7fe338431c12bf96b4e448651027415bc5a72cde9410",
+      "future_cache_path": "experiments/thermosphere_autumn_density_validation_v30/2022_matched_local.npz",
+      "future_cache_SHA256": "1c8d79cdbde68a5b4ee4691aa610f899a8e0849a1b820de6c3fa60780ba6d5bb",
+      "future_cache_identity": "matches prior receipt",
+      "future_background_field": "raw",
+      "background_provenance_manifest": "experiments/thermosphere_autumn_density_validation_v30/source_manifest.json",
+      "original_common_ID_manifest": "experiments/thermosphere_autumn_density_validation_v30/2022_common_ids.csv",
+      "original_ID_field": "utc_ID_SHA256",
+      "future_windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "4a4f6c70795ff206a4d036980ea4b130c54493c7dcbcf36a7023d84179dc144d"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "37778ce689ed95a2ac29db678078b80b879e3e83d7688f9c5737c2a4fc53e381"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "e5dbe4ede772ec6f67f9c9ee1287ce1bd009657a54c11b2ad64999237a28889f"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "4a4f6c70795ff206a4d036980ea4b130c54493c7dcbcf36a7023d84179dc144d"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "b04913c39a09ba90254f1708a81b813d4ef8c4722d4ff66e6f973ad904768f41"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "003e3fa212468f698dd45aa140105f28493930884cdc121b33c54eeca6525bef"
+        }
+      }
+    },
+    {
+      "date": "2022-09-23",
+      "cutoff": 18,
+      "history_observable": true,
+      "frozen_background": true,
+      "history_quality_N": 360,
+      "used_in_development": true,
+      "history_path": "experiments/thermosphere_autumn_density_validation_v30/2022_18_history_local.npz",
+      "history_cache_SHA256": "9e56f609eb024376cd68b056e9da798c46a4e17c29180b4147d20a0ec8bebe56",
+      "original_global_path": "experiments/thermosphere_autumn_density_validation_v30/2022_parameters.json",
+      "original_global_SHA256": "0a3fd096241af201658cd8c38ac75029b98363f35cc0b237978c8e211d0a7f1d",
+      "history_sample_SHA256": "45ed86ba5d511afb88da35379144b3324c06524f3cffdce43911aa1eaf8f2061",
+      "history_UTC_SHA256": "4ce1bee7de8f96f234479a1314084d054386b430420944f747e7132e69177373",
+      "future_cache_path": "experiments/thermosphere_autumn_density_validation_v30/2022_matched_local.npz",
+      "future_cache_SHA256": "1c8d79cdbde68a5b4ee4691aa610f899a8e0849a1b820de6c3fa60780ba6d5bb",
+      "future_cache_identity": "matches prior receipt",
+      "future_background_field": "raw",
+      "background_provenance_manifest": "experiments/thermosphere_autumn_density_validation_v30/source_manifest.json",
+      "original_common_ID_manifest": "experiments/thermosphere_autumn_density_validation_v30/2022_common_ids.csv",
+      "original_ID_field": "utc_ID_SHA256",
+      "future_windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "a549881c32b407984a94a76569fc1283a99e24f6278502288aafcde6a7f7e09b"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "c62f2058739a44eb88297aeced52fd90af545b3b6483ec8419d4d90628c0f792"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "48fb3d4bee60eaa3395b9cc1f6119d377dc982bea365a004d355ec742b953890"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "a549881c32b407984a94a76569fc1283a99e24f6278502288aafcde6a7f7e09b"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "ab2aa0427734a0c0f9a38ed6913aa4445d976067d20c0bddaab081b96534fc36"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "c631d3e28e9fe666456c244c239800e4233ef80d164bb50bbbd20222bff8024c"
+        }
+      }
+    }
+  ],
+  "V20_core": {
+    "cutoffs": [
+      6,
+      18
+    ],
+    "history_hours": 3,
+    "half_open": true,
+    "future_hours": [
+      1,
+      3,
+      6
+    ],
+    "nonoverlap_blocks": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "methods06": [
+      "Raw",
+      "GlobalAdaptive06"
+    ],
+    "methods18": [
+      "Raw",
+      "GlobalAdaptive18",
+      "LatitudeAdaptive18",
+      "Stale06"
+    ],
+    "estimator": "median ln(obs)-ln(model)",
+    "latitude_definitions": [
+      "abs(lat)<30",
+      "30<=abs(lat)<60",
+      "abs(lat)>=60"
+    ],
+    "min_history_and_future_region_N": 30,
+    "no_fallback": true,
+    "Stale06": "same date B14 03-06 historical coefficient; never March23/24",
+    "future_poison_factor": 1e+20,
+    "freeze_parameters_before_future_metrics": true,
+    "joint": [
+      "RMSE strictly lower",
+      "relative RMS strictly lower",
+      "relative P95 no higher",
+      "abs low-lat relative Bias no higher"
+    ],
+    "NA_never_PASS": true,
+    "metric_source": {
+      "path": "src/evaluation/swarm_crossyear.py",
+      "SHA256": "5fbe5916cede884e9f519279f766134781ecf96784fa4ea6113954b300d63ca2",
+      "bytes": 2400
+    },
+    "latitude_source": {
+      "path": "src/evaluation/causal_density_latitude.py",
+      "SHA256": "a0c3f96aa949a98093874ddb87c07671c87002efd04d1eb75af4b16c53dac2a8",
+      "bytes": 5317
+    },
+    "Map_A_source": {
+      "path": "src/atmosphere/provisional_coordinate_adapter.py",
+      "SHA256": "70487ead9b944e8e33187a567ad87666595789238c27416a552044d421a96e15",
+      "bytes": 6652
+    },
+    "operator_source": {
+      "path": "src/atmosphere/causal_observation_operator.py",
+      "SHA256": "82ba4d1f413cc8f1c6c16219927204dc8b8ba888a1bf6172715738b3cac43f0d",
+      "bytes": 1125
+    },
+    "hourly_reader_source": {
+      "path": "src/atmosphere/hourly_tiegcm_observation.py",
+      "SHA256": "31d3cba796e6304f00e73fe8cb08b1aedf6de3e11b8ef4b20b0860d3e4066ff8",
+      "bytes": 2955
+    },
+    "no_IID_significance": true
+  },
+  "future_scores": 0,
+  "formal_test_access": 0,
+  "output_directory": "experiments/thermosphere_causal_shrinkage_development_v36/",
+  "authorization": "V36 exploration requires a separate user authorization",
+  "workflow": [
+    "Before future outcome access, verify entire V35 release, date/cutoff/asset pins and one frozen b_H per cutoff",
+    "Only the four admitted dates; enforce one complete same-product UTC/observation-ID manifest per cutoff from frozen quality and Raw admissibility, independent of method outcomes",
+    "Use dataset identity Swarm/A/0301 + ordered UTC ns; legacy ID digest is SHA256 of signed little-endian int64 UTC nanoseconds; join against the same ordered IDs with no silent intersection",
+    "Separate background/ID-only panel from post-freeze observed outcome reader; new multiplier and candidate selection have no outcome input",
+    "Read only admitted future slices, preserve out-of-range/duplicate/missing-query failures; do not shrink the sample set to get supported numbers",
+    "Use V20 frozen metrics, latitude groups and N=30; report joint flags by cumulative window and separate block metrics; unsupported windows are N/A and never PASS",
+    "List all date/cutoff/window results, including harms; stop on pin mismatch, duplicate/unaligned IDs or leak, with no replacement dates or lambda retuning",
+    "Any optional whole-day leave-out diagnostic holds both cutoffs and all future overlaps together; there is no cross-day training or performance-based parameter selection",
+    "Later unseen validation requires a separate preregistration/authorization; no holdout values, errors, or candidate selection in this release"
+  ],
+  "historical_references": {
+    "18Z": [
+      "LatitudeAdaptive18",
+      "Stale06"
+    ],
+    "shrinkage_versions": false
+  },
+  "frozen_sources": {
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/data_roles.json": "5c94115e0b346cb81fe43264154f743c0c6d09dc41accd6432d0364199439150",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/information_availability.csv": "ab96c68a10167d0bb05a11dcbbb5a47dcd9f0aecd27fdb61bef98162a8a8c7d5",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/history_freeze.json": "80f61a41455bd695884a78663a144a7fabcc4bfd7b8c9a44fbd7ae6623ffd153",
+    "experiments/thermosphere_independent_date_validation_plan_v20/preregistered_protocol.json": "eb27a080199d656f6018f47834cc9eaef07897009360ca184d6511e4d3aeb2c4",
+    "experiments/thermosphere_zg_external_datum_v34/admission.json": "138fff4650c1acac0d596c3b5db385ba00c2dae3c4e6682f104598eb3e023262",
+    "experiments/thermosphere_zg_external_datum_v34/evidence_matrix.csv": "1d67f810d0f95333afd85e3f146efb5bcec5fda0bdfcbb9c1e1e7d9f6ec0e038",
+    "reports/THERMOSPHERE_ZG_EXTERNAL_DATUM_EVIDENCE_V34.md": "038aa805da5fa9ee09f68402e3a8f884b1cd921ae12d712c1d5c551ede37f03d",
+    "reports/THERMOSPHERE_COEFFICIENT_STABILITY_AND_ZG_AUDIT_V32.md": "5c577258f293edaff025f4602169eefc77a160ad3b8e74bb410a44bcd4b1c6c3",
+    "reports/THERMOSPHERE_AUTUMN_DENSITY_VALIDATION_V30.md": "c1bcc2755e487137d12863bcce448b29fbbe9f3268cb84c339fce9295f00d605",
+    "reports/THERMOSPHERE_SPRING_AUTUMN_FAILURE_MECHANISM_V31.md": "e590a3accf06239d6f44039615a9707b91335ad67f8511f4e060d185fefe1079",
+    "src/evaluation/causal_density_latitude.py": "a0c3f96aa949a98093874ddb87c07671c87002efd04d1eb75af4b16c53dac2a8",
+    "src/evaluation/swarm_crossyear.py": "5fbe5916cede884e9f519279f766134781ecf96784fa4ea6113954b300d63ca2",
+    "src/evaluation/late_day_correction.py": "dcec926510a194a5992a4dea98603dcdf824c80b5e30f9ec72758819cb31d050",
+    "src/atmosphere/causal_density_correction.py": "faf2919297e7d9971cc22df06029a5032f293a40bfae65f02ed5cfa6e56c71c2",
+    "src/atmosphere/provisional_coordinate_adapter.py": "70487ead9b944e8e33187a567ad87666595789238c27416a552044d421a96e15",
+    "src/atmosphere/tiegcm_density_provider.py": "2af64d466f40fa235915ce6e4b29cf4fc28dad086245d3df9e30b7bc1db0291f",
+    "scripts/density_autumn_v30.py": "91594dd0e21e163315a4c072a1b0a768cbad837ee5a4a7cce88e4235c2bed32d",
+    "src/atmosphere/causal_observation_operator.py": "82ba4d1f413cc8f1c6c16219927204dc8b8ba888a1bf6172715738b3cac43f0d",
+    "src/atmosphere/hourly_tiegcm_observation.py": "31d3cba796e6304f00e73fe8cb08b1aedf6de3e11b8ef4b20b0860d3e4066ff8",
+    "experiments/thermosphere_autumn_density_validation_v30/publication_SHA256.json": "de9cb891e3a8b3860bde212dd5da4465b053fe0af0b99048ef2c1f8b85249ede",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_common_ids.csv": "a2619508e34f6b5e18f779af0080e547e287e443db212e2e57080dd529c088b9",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_joint.csv": "1acbab22469ed306e46460f226aebe7a0ba239c9b373d6b0797e3ce8009c1f49",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_metrics.csv": "7a0ef184f4f408ef56bf6238b7975fb379644fa637b36cf08cc58dc3f44d5d9e",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_parameters.json": "c76e1fd7671efa7b8e1e4eb51ff4a89cb65b52d431abe2fbef4bb46ffb464f40",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_query_admission.json": "f5327de433ca77fc46902bcb5fc95897e8fd3477337fda3d474df5eb7e2b139b",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_raw.csv": "531248cb9ebb65c43a26ac34bbc7ccb87fc41db3300f656d81548ed4abd8ed83",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_score_receipt.json": "6b89828e3467857ac7376023be3971fbc9a66c9a2a8b9b5c7ec4d0fb25083011",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_scoring_once.json": "568c8b909a6d004282065f4f1de953fdea99cd029d3c38ae1ceed2a5914b1af8",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_common_ids.csv": "962b5a5184b3f10b76be2afede4e9703f2223cd4fe07c065cdf52d143a0e17d0",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_joint.csv": "b5bdb36939fab1e7fe15205ac3a534cb6437066eb08a6cffafe56c912ff9c79a",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_metrics.csv": "fe77a3e9f08ebb96ab0c436eed14896f2959559f3c5d5e8295d420d66b1656c3",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_parameters.json": "0a3fd096241af201658cd8c38ac75029b98363f35cc0b237978c8e211d0a7f1d",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_query_admission.json": "f5327de433ca77fc46902bcb5fc95897e8fd3477337fda3d474df5eb7e2b139b",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_raw.csv": "96c12c82ba97667333789151fefc8c870feb94022ffee24f6304db218b5a5d97",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_score_receipt.json": "56c64eb43fc96860999196a1770e776656ccce788ebbf7d8d072f084f8423711",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_scoring_once.json": "6c5eddb75f8dca7b0a1660ba2890c9cbc716cf693c809cc27ce74fabe0d5745e",
+    "experiments/thermosphere_autumn_density_validation_v30/admission.json": "94ccb60be696dd01e97194d1576373e9a730df5c1e4c55f9e094d138ba84eeca",
+    "experiments/thermosphere_autumn_density_validation_v30/cross_season_coefficients.csv": "b36809345ac865d4bc73b6be9d59dfe652076363c7aaafa1ba854361f1b0d438",
+    "experiments/thermosphere_autumn_density_validation_v30/cross_season_metrics.csv": "d5fb3d2f9f0f0dffa4635e81dbff037f7150a914ab6c1b5cb479a4514f362712",
+    "experiments/thermosphere_autumn_density_validation_v30/dual_freeze_receipt.json": "889776e1078140a200a77841b34824a60db369c5c23c5f7adda5854032b22040",
+    "experiments/thermosphere_autumn_density_validation_v30/figure_captions.csv": "baf670e9ee15e9800196c1282a1190ca3d17d485fbc7c5fd5d8927b454d2f235",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/01_raw_time_series.png": "26ffd8d5630d67feffeeb4f71bba33c5a9a083bb80091625c177398cd32f4a97",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/02_correction_time_series.png": "fd53ee88a5248cdff7ac66932bfce606d876da38e430ad9f59824f3d4b5ec142",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/03_rmse.png": "58189b85519ab83d91b0b9fb6a718a8a9df890d11d479cce1426b6656be07fd8",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/04_relative_errors.png": "79c948370d3f2fca0451c6228719eb7388b443fa1899a36f8a06c9af00925572",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/05_latitude_errors.png": "554beab9a137539f6bfb353e987ec375c5b9d6aafd6043586bd17264a7e61e05",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/06_multipliers.png": "5f61175c7a0b0982fbf2220532efe7281dcf58a4d8d4edb4afc56b6994c42a9a",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/07_joint_matrix.png": "de6976a3d6d96f7570f94ce4f4cbd7e10a80b36a0fda974a3ef06980bcd9174e",
+    "experiments/thermosphere_autumn_density_validation_v30/figures/08_spring_autumn.png": "91ae85d334efe9e0c1971b081525c567d92b4268396ca7df2287c9476d81c6b8",
+    "experiments/thermosphere_autumn_density_validation_v30/future_poison_test.json": "00ec4a5d3174e8c9604efc5a605c0238482df61895a698d090cc1457679d539d",
+    "experiments/thermosphere_autumn_density_validation_v30/independent_numeric_checks.csv": "f1c10d30ef4f649e1ba0fd988c055cc1c13305c8729143a2e24aac0323c9c14b",
+    "experiments/thermosphere_autumn_density_validation_v30/independent_verification.json": "d134c07dc1f94cb1643329b12d58b6967f6d70403627785fa6bf491dd12300f2",
+    "experiments/thermosphere_autumn_density_validation_v30/result.json": "0aacdff741ae7a2e1e348d47273bc144925f59c4281168d585d45d308eaed5e9",
+    "experiments/thermosphere_autumn_density_validation_v30/source_manifest.json": "7a8d76713b261841dfb9ec448c8359a27275db9aedbe87e9ec2adbe9d8fae348",
+    "scripts/plot_density_autumn_v30.py": "cba5734dab2073e57553cb11ca568b66f2885f4ae846c729ecad0116ddcbc4a8",
+    "scripts/verify_density_autumn_v30.py": "ee68cf0ff8c268d479a5deb84a4c6fe5b785883c4b79470a04543e8f050810eb",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/publication_SHA256.json": "9bcabf7973c9d534d8c999a267a2cc9964fd4b5a922e109b3931d0c39f2a6cb0",
+    "docs/THERMOSPHERE_MECHANISM_NEXT_STAGE_PLAN_V31.md": "82b1243856bfda5ffa55af9de13d33df551e6ad96db67a946b548546cdcff7a5",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/autumn_residual_drift.csv": "23e958d36baf3aa3812cd9020fe0616a2964baf622caa3bce15f26952ea07c2e",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/diagnostic_receipt.json": "9bc234a8d0ef24ff4fb7f042fc5ab71667117f847f695b964b3f3ce90d356ed5",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figure_captions.csv": "36abd6f68f457345a8432e96bb35110146e210c1a530888973d72542e88cb499",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figures/01_four_dates_raw.png": "fcedeab52e765597844b9de4b4e8417bed0f15d6df436cd803a1ace0df3b51f4",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figures/02_residual_drift.png": "194a0140e1f4a40e8535c58dfa64ad5826c288704fbc7e022bd2374c1694e45c",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figures/03_density_contributions.png": "3d67a1c77d0dbf87bcd00a169e7d99c8dcc0045138d92ffd6133bdd4a011778d",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figures/04_coefficient_shift.png": "182b1c39019f50f15a2177c300c6afb1e8ed1e215146f94d41383162f21280d9",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figures/05_time_aggregation.png": "63097cb6655a203a1cdeebdeb8eed84937dcd51d437fe37ff41af1d54fbaba47",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/figures/06_case_latitude.png": "3f81abfceb4061cbf90e76b059c851ff36fb1d16073ea9472f48f91da2a5bbb2",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/four_date_identity.csv": "19d133dd3a28e2e39d7dbafad4ebcf09ad1addff9f59f43e083fadf1ce7a460a",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/four_date_raw_frozen.csv": "9afca1b49a354d22dd8c319b2f385fea3017e5c1cefc1c730c4135a2b060a881",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/frozen_joint_readonly.csv": "c037a78862680b7eb310f01f4a4d2e71951cba0de72170190687bb4fe4b3eb41",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/independent_verification.json": "6896b9fe93b53dc5552344f692d8b06fc352d06cce725f679e0887a2b415f263",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/input_identity.json": "6fe8d1196c45bf4c5a04057ba87fd39e561d13c98fbaad9503709b3573a0528b",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/stratified_contributions.csv": "48a367c900f8d59c2915dcca0865968f8b9e8f13602e88035b3c5fb81913c7b3",
+    "experiments/thermosphere_spring_autumn_failure_mechanism_v31/window_decomposition.csv": "b1efb2784816e1a1bbfaba43744135dff8e0f04199913cef8a0fd2243a0a9631",
+    "scripts/diagnose_autumn_v31.py": "2322de4c77aec3f3dfbaddf4d012eaae1cf24d08bfdfd8d02e497ac35069645e",
+    "scripts/plot_autumn_mechanism_v31.py": "3bdb069eba85e7bea1033b7a0c9656ac944a58db8977f4ffe19635602dee6dc3",
+    "scripts/verify_autumn_mechanism_v31.py": "ec7c3d1b60db80080da2c5221de25ba2262e321a69c9179c98b56a6674d92c31",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/publication_SHA256.json": "1ddab0b399fd3e2ee6742b808240ec4b73d9ba4e181dc9791f5a38808fe9dadf",
+    "docs/THERMOSPHERE_V33_ZG_SENSITIVITY_AND_CAUSAL_INPUT_PLAN.md": "8038f4dadc70bf634f4b8d217eb38bc08a297ee6b9d4f86708ec4d069972d9fe",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/association_summary.json": "a938272b0e2be6bccc58825269c0ba368ab70efc1980de0245e092adf247e65d",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/drift_descriptive_join.csv": "5fdc9eaba24b47793b834a4f05edbb43062b91ffa65b66ddf908a1f5b5dfd81e",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/frozen_outcome_descriptive_join.csv": "02f4a12816b37943d363001c94a7572349d0a834ceea9be0101c7c0b35443046",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/history_groups.csv": "410c75d81501cd4e1364dd26490720112fdb74cb2d5733782c758c2f3c97f74a",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/history_stability.csv": "ac660372d414348de79c77bfe8b522ae62f7ca1de94940f124086a555100e5ed",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/independent_verification.json": "088e8b0b2520a2c02d66afafb04e750bb1cc97a02377ba68a2d64e0202c35bcb",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/result.json": "1a9ba402174b78016b67eb9a2932201741bf473088e61cf9055c96512f443c75",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/verification_serialization_recovery.json": "32063319ae18f85f736f346bf2e465180d28219320d91ec2a6d06bb3c31fba29",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/zg_evidence_matrix.csv": "7988364af668eb823bcc1a40aba1a8aabbac617468a213b02e00ae7a3dea7854",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/zg_native_headers.json": "710fe2d437314f0fc9fc69eb4fb533de52049a71b39d8946309bd22fe58f063c",
+    "experiments/thermosphere_coefficient_stability_zg_audit_v32/zg_review_receipt.json": "ef36befb3aa44ffc99bc1d99b6c8572952c3dc9a3a6deb9d1958a7632600a663",
+    "scripts/review_zg_v32.py": "dd8c1c4c60c8dbb1ab2b7e5388b2d2c3ae89a2b455f8df927112335ba7f1299d",
+    "scripts/stability_zg_v32.py": "448330b314b3de67e2dd8a481e52509a14adbd97af8e4d8417ada072e88726fe",
+    "scripts/verify_stability_zg_v32.py": "d4e7051589729f28853cbe725b1363ee921c676fdb6b15fdbee3a9a9b74d4366",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/publication_SHA256.json": "219e828c7f42c783b654dbff690be2d189099d0c0ba6ecb976659a91393754a6",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/external_evidence_update.csv": "b5b4b566a8dbbdb4291319c9fb23f3d555721067a1ce4604d8fec47af83afdf4",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/figure_captions.csv": "950a67713ce6f60672b4da6f3689d94b4d6c31ea0583e36045d1f68b289e9e11",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/figures/01_gradients.png": "e24050cf0aa943f273b6873e06b6fe6748b2491cb1a01451423958683a2403a5",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/figures/02_scale_heights.png": "8382eb9c9ae83ebd4ad91202e4b65ffe2cc92e483ef6c27e3c1b370a840dbe46",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/figures/03_common_margins.png": "92bdf5ea153907514899ace48d1b2702ad574ed0823a05537a534b63252cdff7",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/figures/04_finite_difference.png": "873b373b9cfd9014b8fc7da3d822ae2bc25b9dd7fa536d0380fcf2698a7fbc22",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/finite_difference.csv": "8515d45735574ee065ecb3293eeb29add27cdb196f5f0865332254d895aa1a3e",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/gradient_strata.csv": "2fc09dd4f198cc47008d9e51b429c6a314ac37de3934a5cde09d63cffb1c3336",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/independent_calendar_recovery.json": "ae5b29ab1e712d7c1fe715c838663be1a17a03f7c4d5903d7cfa81c66dcde857",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/independent_verification.json": "578be4a4506de00041c266b513851e38762925a53346aa48c8c26accba9e3b89",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/main_receipt.json": "ce4b7c58942238d46d330cf5d4fed549c1079ce53a8af340d23f293fbadbb2f3",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/native_column_brackets.csv": "a7970decba26024386c1d5271e8f335460d55f46790c9036aa78f4a391e26251",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/query_gradients.csv": "e47bb88cad2bc0571825c35ef90267931dbe1031862c21db10d6fc0b8d3e804f",
+    "experiments/thermosphere_zg_vertical_sensitivity_v33/sample_freeze.json": "62904fdd2245771f457d514d9a39964855e90e093ba20f74e1f8d9464d6a13c1",
+    "reports/THERMOSPHERE_ZG_VERTICAL_SENSITIVITY_V33.md": "6460749cf37a5d98b8330ae941ec28fd0d56d4f9bca49e709477fe14671c8b91",
+    "scripts/plot_zg_vertical_v33.py": "d0f89cc1c62da1cb88906b40c5e65322537ec898b85c58b837860cbc161d973c",
+    "scripts/verify_zg_vertical_v33.py": "8403faa0d0d0cc1dd38eb44ad37de12ba7d07060f8468502dee9b29271da625b",
+    "scripts/zg_vertical_v33.py": "2807c2ffe3af14814311beff208fac14c4292eb98409b62e37d351af16bba052",
+    "experiments/tiegcm_2022_mar25_density_validation_v18/source_manifest.json": "0870f6093cf14b080aaa975f5278b4adc1c622a43685fe2cd00735dc852703e8",
+    "experiments/causal_density_new_date_validation_v1/source_manifest.json": "747f2a04c77b024bed66f2214a8ca5faddffaf3d664c79781a35a87978f574b3",
+    "experiments/thermosphere_residual_representativeness_v1/coverage.csv": "8fec43e110df9aff7e1da3d6727489a36f229e493fa44697f2a19267d741936b",
+    "experiments/causal_density_new_date_validation_v1/coverage.csv": "2ee7f5b5cb945afdeeefb45095271317a299df8397474739c6e928ac7a70b4fd",
+    "experiments/causal_density_new_date_validation_v1/correction_parameters.json": "bd72dd92e08cd8e6e4ba3ad760662642db6742850553a8f59d757fed7870eb51",
+    "experiments/tiegcm_2022_mar25_density_validation_v18/coverage.csv": "5e6467d84186f037c7d9e867943dc48f026376495e5bf5132f5a4c96e4323a8d",
+    "experiments/tiegcm_2022_mar25_density_validation_v18/correction_parameters.json": "743cbf099c417a4b74a530151c08c6c5a8c746cfc0ee5ae30a3ca54075521470",
+    "experiments/thermosphere_residual_representativeness_v1/source_manifest.json": "9bfdee2b4fabe380773158feed294c028c0bc91d5db4a3b5a9335df1e5811f8c"
+  },
+  "V35_SHA256": {
+    "src/evaluation/causal_shrinkage_v35.py": "3c38368154b99282fc65d618290fc07ec4224cc489e0b511ec8777a11f6471ff",
+    "scripts/verify_causal_shrinkage_v35.py": "04012253b112cd4983a38d52202acfe3181de9f88f1adfeb806d087976d9181c",
+    "scripts/freeze_causal_shrinkage_v35.py": "98abf0e3a8498e9ad0937fb3a14844e8ef692c1821d2af7b9db56abd660226c4",
+    "experiments/thermosphere_causal_shrinkage_design_v35/verification.json": "63ab5c2e8d67bec344fd6eaffa85a5ec5a9a0c51f7f9f47bdfe5b1577b7beb8d"
+  }
+}

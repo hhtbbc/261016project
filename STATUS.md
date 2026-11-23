@@ -740,3 +740,9 @@ ZG_GRADIENT_VERIFIED + FIXED_OFFSET_NOT_ADMITTED。240/240 个已评分秋季开
 ## 2026-11-23 V34 ZG 外部高度登记证据审查
 
 V34_EVIDENCE_REVIEW_COMPLETE + EXTERNAL_DATUM_UNVERIFIED + FIXED_OFFSET_NOT_ADMITTED。官方 2.0、两年 CDF/HDR 与真实 NetCDF 交叉检查，320 项验证通过；独立外部控制点准入数量为零。V35 推荐先冻结仅用开发数据的因果校正设计。入口 reports/THERMOSPHERE_ZG_EXTERNAL_DATUM_EVIDENCE_V34.md。
+
+
+
+## 2026-11-23 V35 历史系数收缩设计冻结
+
+SHRINKAGE_DESIGN_FROZEN_READY。Raw/Global 冻结，λ=0.5 为唯一新增固定对照。16 个历史窗核验，四日八窗准入 V36；25 项 CPU 测试和两组毒化通过。V36 探索性评分须另行授权，夏冬未见目标继续保护。入口 reports/THERMOSPHERE_CAUSAL_SHRINKAGE_DESIGN_V35.md。

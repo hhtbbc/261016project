@@ -1390,3 +1390,9 @@ CPU Python -B执行stability_zg_v32 roles/history/associate、review_zg_v32与ve
 ## 2026-11-23 V34 ZG 外部高度登记证据审查
 
 查阅 NCAR 2.0、VirES、ESA MOD 及产品方法原文，保留手册访问失败与 HAPI 标签歧义。CPU 执行 scripts/verify_zg_external_datum_v34.py；两处 Python 版本兼容问题经分块 SHA、整数 UTC 编码修复。152 个资产、320 项检查通过，包含 240 个 V33 样本身份及正反例。没有合格的外部物理控制点；未运行新映射、积分、GPU 或评分。成果 experiments/thermosphere_zg_external_datum_v34/。下一轮先冻结路线 B 设计，同步保留独立物理登记路线。
+
+
+
+## 2026-11-23 V35 历史系数收缩设计冻结
+
+在已有 CPU 环境执行 scripts/verify_causal_shrinkage_v35.py 与 scripts/freeze_causal_shrinkage_v35.py。锁定 0/0.5/1、原 Global 参数和共同 ID。保留独立标量 log 舍入差，原 NumPy 对数合同与独立排序在八窗完全一致。25 项测试、两个 cutoff 毒化和 48 个未来窗口 ID 元数据核对通过；没有解码真实未来密度或进行评分。V36 候选仅四日期八窗，成果在 experiments/thermosphere_causal_shrinkage_design_v35/。
