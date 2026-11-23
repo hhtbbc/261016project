@@ -1379,3 +1379,8 @@ V31仅复用V30缓存及春季冻结表。CPU Python -B运行 diagnose/verify/pl
 ## 2026-11-23 V32 历史稳定性与 ZG 证据审查
 
 CPU Python -B执行stability_zg_v32 roles/history/associate、review_zg_v32与verify_stability_zg_v32。16历史窗先冻特征再连接发表标签。独立首次JSON写出遇numpy.bool_，保留局部证据并仅修正序列化；1570字段和19检查通过。V30/V31/V2/V2.1不改，无积分、GPU、新方法或联系。V33方案 docs/THERMOSPHERE_V33_ZG_SENSITIVITY_AND_CAUSAL_INPUT_PLAN.md。
+
+
+## 2026-11-23 V33 原生 ZG 垂直敏感性
+
+在既有 TIE-GCM Python 环境依次执行 scripts/zg_vertical_v33.py 的 freeze、diagnostic，随后运行 scripts/verify_zg_vertical_v33.py 与 scripts/plot_zg_vertical_v33.py。四历史窗冻结 240 点，检验 1,920 列；独立校验按窗口修正次日午夜误判，保留初次错误收据。主任务 9.97 s、86.91 MiB，独立复核 1.54 s、86.52 MiB。CPU 测试 21/21；GPU、积分、正式评分和拟合均为零。成果在 experiments/thermosphere_zg_vertical_sensitivity_v33/。继续补充独立外部高度证据，固定物理偏移未准入。

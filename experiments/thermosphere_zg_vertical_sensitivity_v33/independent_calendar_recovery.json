@@ -1,0 +1,7 @@
+{
+  "initial_exit": 1,
+  "reason": "Independent reader incorrectly required every record in volume to be on target day; the last midnight is correctly next day.",
+  "fix": "Select only target-day historical frames, validate native year and minute for selected frames.",
+  "physics_changed": false,
+  "tolerance_changed": false
+}

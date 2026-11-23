@@ -1,0 +1,14 @@
+{
+  "samples": 240,
+  "valid": 240,
+  "columns": 1920,
+  "code_SHA256": "2807c2ffe3af14814311beff208fac14c4292eb98409b62e37d351af16bba052",
+  "frozen_plan_SHA256": "62904fdd2245771f457d514d9a39964855e90e093ba20f74e1f8d9464d6a13c1",
+  "wall_s": 9.970672685652971,
+  "CPU_s": 10.359532184,
+  "peak_RSS_KiB": 88992,
+  "no_GPU": true,
+  "no_integrations": true,
+  "no_observed_density_read": true,
+  "formal_offset_trials": 0
+}

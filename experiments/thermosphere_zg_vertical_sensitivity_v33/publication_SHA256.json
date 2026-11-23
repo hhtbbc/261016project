@@ -1,0 +1,20 @@
+{
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/external_evidence_update.csv": "b5b4b566a8dbbdb4291319c9fb23f3d555721067a1ce4604d8fec47af83afdf4",
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/figure_captions.csv": "950a67713ce6f60672b4da6f3689d94b4d6c31ea0583e36045d1f68b289e9e11",
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/figures/01_gradients.png": "e24050cf0aa943f273b6873e06b6fe6748b2491cb1a01451423958683a2403a5",
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/figures/02_scale_heights.png": "8382eb9c9ae83ebd4ad91202e4b65ffe2cc92e483ef6c27e3c1b370a840dbe46",
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/figures/03_common_margins.png": "92bdf5ea153907514899ace48d1b2702ad574ed0823a05537a534b63252cdff7",
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/figures/04_finite_difference.png": "873b373b9cfd9014b8fc7da3d822ae2bc25b9dd7fa536d0380fcf2698a7fbc22",
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/finite_difference.csv": "8515d45735574ee065ecb3293eeb29add27cdb196f5f0865332254d895aa1a3e",
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/gradient_strata.csv": "2fc09dd4f198cc47008d9e51b429c6a314ac37de3934a5cde09d63cffb1c3336",
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/independent_calendar_recovery.json": "ae5b29ab1e712d7c1fe715c838663be1a17a03f7c4d5903d7cfa81c66dcde857",
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/independent_verification.json": "578be4a4506de00041c266b513851e38762925a53346aa48c8c26accba9e3b89",
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/main_receipt.json": "ce4b7c58942238d46d330cf5d4fed549c1079ce53a8af340d23f293fbadbb2f3",
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/native_column_brackets.csv": "a7970decba26024386c1d5271e8f335460d55f46790c9036aa78f4a391e26251",
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/query_gradients.csv": "e47bb88cad2bc0571825c35ef90267931dbe1031862c21db10d6fc0b8d3e804f",
+  "experiments/thermosphere_zg_vertical_sensitivity_v33/sample_freeze.json": "62904fdd2245771f457d514d9a39964855e90e093ba20f74e1f8d9464d6a13c1",
+  "reports/THERMOSPHERE_ZG_VERTICAL_SENSITIVITY_V33.md": "6460749cf37a5d98b8330ae941ec28fd0d56d4f9bca49e709477fe14671c8b91",
+  "scripts/plot_zg_vertical_v33.py": "d0f89cc1c62da1cb88906b40c5e65322537ec898b85c58b837860cbc161d973c",
+  "scripts/verify_zg_vertical_v33.py": "8403faa0d0d0cc1dd38eb44ad37de12ba7d07060f8468502dee9b29271da625b",
+  "scripts/zg_vertical_v33.py": "2807c2ffe3af14814311beff208fac14c4292eb98409b62e37d351af16bba052"
+}
