@@ -1,0 +1,14 @@
+{
+  "V26_POSTRUN_VERIFICATION": "ENGINEERING_PASS",
+  "V24_ORIGINAL_ENGINEERING_STATUS": "FAIL",
+  "V24_33_NETCDF_SHA_VERIFIED": true,
+  "main_attempts": 1,
+  "independent_attempts": 2,
+  "model_launches": 0,
+  "GPU_calls": 0,
+  "autumn_2022": "NOT_RUN",
+  "historical_files_unchanged": 31,
+  "wall_s": 7.968960173428059,
+  "CPU_s": 7.968577547999999,
+  "peak_RSS_KiB": 164344
+}

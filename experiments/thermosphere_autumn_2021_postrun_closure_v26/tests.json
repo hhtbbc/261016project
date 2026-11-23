@@ -1,0 +1,38 @@
+{
+  "count": 26,
+  "all_passed": true,
+  "wall_s": 0.235,
+  "tests": [
+    "test_changed_volume",
+    "test_concurrent_directory_claim",
+    "test_duplicate_time",
+    "test_forged_source",
+    "test_gpi_sha",
+    "test_illegal_fill",
+    "test_missing_primary_state",
+    "test_missing_time_attribute_even_with_global_decoy",
+    "test_missing_volume",
+    "test_no_launch_api",
+    "test_nonmonotonic_zg",
+    "test_nonpositive_density",
+    "test_old_fail_cannot_be_audit_destination",
+    "test_rank_exit_nonzero",
+    "test_rank_missing",
+    "test_real_cold_echo",
+    "test_real_netcdf_inf",
+    "test_real_netcdf_nan",
+    "test_time_gap",
+    "test_warm_empty",
+    "test_wrong_cold_iter",
+    "test_wrong_initial_utc",
+    "test_wrong_native_calendar",
+    "test_wrong_position",
+    "test_wrong_source_start",
+    "test_wrong_warm_iter"
+  ],
+  "code_SHA256": {
+    "scripts/tiegcm_autumn_v26_sha.py": "57f765d74360ed72541eccc2760c33e41d3b54bf264ab19abe21b3e2038a6207",
+    "scripts/audit_tiegcm_autumn_v26.py": "83b274c74024b5b4384388f67591f8a45cb27c36bf6de04edf4c91396daadc29",
+    "tests/test_tiegcm_autumn_v26.py": "f198a8f8c81798088141a1290eff2ccd6038d207de20519192e386ef8395f365"
+  }
+}

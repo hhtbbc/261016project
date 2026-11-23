@@ -1,0 +1,19 @@
+{
+  "V26_POSTRUN_VERIFICATION": "ENGINEERING_PASS",
+  "V24_ORIGINAL_ENGINEERING_STATUS": "FAIL",
+  "autumn_2022": "NOT_RUN",
+  "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+  "main_attempts": 1,
+  "model_launches": 0,
+  "GPU_calls": 0,
+  "SHA256": {
+    "experiments/thermosphere_autumn_2021_postrun_closure_v26/sha_verification.json": "46856ace89f1552abd3be558abc72165c9f51dc351cc6f671e196e261d3d7c82",
+    "experiments/thermosphere_autumn_2021_postrun_closure_v26/tests.json": "09e7896b959538374dce7d631e20f7e1fa04b2749e0322a08f7d0be578898fd7",
+    "experiments/thermosphere_autumn_2021_postrun_closure_v26/recovery_tests.json": "0b93074cbe8e3ab3f2da8307e35e62ae9ced843323ce22ca6befee09f7caff11",
+    "experiments/thermosphere_autumn_2021_postrun_closure_v26/formal_once/main_acceptance.json": "a41993dbd8896153f507b9b380734b3ec63ed9ff1772c868b238ac65354248ce",
+    "experiments/thermosphere_autumn_2021_postrun_closure_v26/formal_once/failure.json": "3488b3d050ab948af1fd0611bf4ccb39f0c5c78b6bb2512921d8904d4689a121",
+    "experiments/thermosphere_autumn_2021_postrun_closure_v26/independent_recovery_once/independent_review.json": "0896d635a641c3e62148c44c32c553c9e1e4856e4d8a95dff62e5c295916fba1",
+    "experiments/thermosphere_autumn_2021_postrun_closure_v26/independent_recovery_once/result.json": "4882c4d2399d78edaf9ad32ce932c3b46844df50ebed86da39b68fd2a8e9b60a"
+  },
+  "original_V24_acceptance_SHA256": "3859b363b92f6f5cfb3d10a125db8d83356cfe91d557f72f6b64ad285b998271"
+}

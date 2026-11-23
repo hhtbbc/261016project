@@ -1,0 +1,12 @@
+{
+  "overall": "FAIL",
+  "completed_checks": [
+    "supervision",
+    "MPI_rank_exits",
+    "step_logs",
+    "output_files",
+    "target_observation_queries"
+  ],
+  "error_type": "ValueError",
+  "error": "Independent current SHA/size/calendar does not match published release"
+}

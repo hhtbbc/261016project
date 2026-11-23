@@ -1,0 +1,10 @@
+{
+  "count": 27,
+  "all_passed": true,
+  "wall_s": 0.235,
+  "added": "CSV integer normalization",
+  "code_SHA256": {
+    "scripts/audit_tiegcm_autumn_v26.py": "deda3382885d7f13ea518fa09df863ca5548f5f55ae824040849b733bb318a92",
+    "tests/test_tiegcm_autumn_v26.py": "c6e4135a4a919e0778cdad71867a2432c811052a522b9933fd0d61142f9eb31c"
+  }
+}

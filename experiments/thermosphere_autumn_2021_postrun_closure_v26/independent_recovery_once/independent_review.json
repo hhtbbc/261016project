@@ -1,0 +1,449 @@
+{
+  "identity": {
+    "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+    "parent_returncode": 0,
+    "session": 2377861,
+    "ranks": [
+      {
+        "rank": 0,
+        "returncode": 0,
+        "child_pid": 2377869,
+        "started_unix": 1795073770.3165433,
+        "ended_unix": 1795076214.2227514,
+        "receipt_SHA256": "49aba278c8e98e342d47f3f91ff17c0b35320e7db03439cc56451c69dc431eca"
+      },
+      {
+        "rank": 1,
+        "returncode": 0,
+        "child_pid": 2377870,
+        "started_unix": 1795073770.316599,
+        "ended_unix": 1795076214.2227392,
+        "receipt_SHA256": "b9b09c12caaa8ccdfb5bf2c980aa54b507f72378963d66828e275a8d6512d84a"
+      },
+      {
+        "rank": 2,
+        "returncode": 0,
+        "child_pid": 2377868,
+        "started_unix": 1795073770.316275,
+        "ended_unix": 1795076214.2231154,
+        "receipt_SHA256": "37694a780d0c43a88bf95623e2af2368ee523f37d81300927226d956268ea9ce"
+      },
+      {
+        "rank": 3,
+        "returncode": 0,
+        "child_pid": 2377871,
+        "started_unix": 1795073770.3166661,
+        "ended_unix": 1795076214.2229385,
+        "receipt_SHA256": "798d5c53cedcbdd41064fa8c664d2c8efab1c180893f9e2381d0ae671b8fc3ec"
+      }
+    ],
+    "progress_records_per_rank": 2304,
+    "actual_steps": 23040,
+    "actual_final_UTC": "2021-09-25T00:00:00Z",
+    "direct_wait_journal_verified": true
+  },
+  "outputs": {
+    "secondary_schema": {
+      "TN": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "K",
+        "dtype": "float32"
+      },
+      "UN": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "cm/s",
+        "dtype": "float32"
+      },
+      "VN": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "cm/s",
+        "dtype": "float32"
+      },
+      "O1": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "mmr",
+        "dtype": "float32"
+      },
+      "O2": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "mmr",
+        "dtype": "float32"
+      },
+      "N2": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "mmr",
+        "dtype": "float32"
+      },
+      "HE": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "mmr",
+        "dtype": "float32"
+      }
+    },
+    "primary_records": 17,
+    "secondary_records": 384,
+    "files": [
+      {
+        "file": "primary_001.nc",
+        "SHA256": "5ddc4bd7cd47c134a77de0af18f93f116da97c9c912a120e39c20e3f7c4e869e",
+        "bytes": 16993024,
+        "records": 1,
+        "first_UTC": "2021-09-09T00:00:00Z",
+        "last_UTC": "2021-09-09T00:00:00Z"
+      },
+      {
+        "file": "primary_002.nc",
+        "SHA256": "87fe9fb3bc74daa929f1f6c5d7db2f9680c6dcf09872caf50cf4ab9f748564ea",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-10T00:00:00Z",
+        "last_UTC": "2021-09-10T00:00:00Z"
+      },
+      {
+        "file": "primary_003.nc",
+        "SHA256": "2ccc2f61f90654bab6d21ca9de9351f012575aa732161b9da8d8526015fc1688",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-11T00:00:00Z",
+        "last_UTC": "2021-09-11T00:00:00Z"
+      },
+      {
+        "file": "primary_004.nc",
+        "SHA256": "5027f4cf8575af1097585079d26a8cb03e37417a27e0aed52e14a989926732e8",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-12T00:00:00Z",
+        "last_UTC": "2021-09-12T00:00:00Z"
+      },
+      {
+        "file": "primary_005.nc",
+        "SHA256": "d941d4b20e8afec7dafdb0ed34075abecd6e5dce4e9355fe33e450f8c2d9fd5b",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-13T00:00:00Z",
+        "last_UTC": "2021-09-13T00:00:00Z"
+      },
+      {
+        "file": "primary_006.nc",
+        "SHA256": "f7f778aa79f34c1c2b2d2b7dcc25271479fdf06e0ceba13b8f72e0417a2e9687",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-14T00:00:00Z",
+        "last_UTC": "2021-09-14T00:00:00Z"
+      },
+      {
+        "file": "primary_007.nc",
+        "SHA256": "147cc57f1d95fbbb70e574acf62eecf5dda99ed0ad4e0a5186391b99f7a3fad6",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-15T00:00:00Z",
+        "last_UTC": "2021-09-15T00:00:00Z"
+      },
+      {
+        "file": "primary_008.nc",
+        "SHA256": "95147d06712f7060574a50ca381d9283b8a454ab1f7bb12fd4a9e01ca81c8911",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-16T00:00:00Z",
+        "last_UTC": "2021-09-16T00:00:00Z"
+      },
+      {
+        "file": "primary_009.nc",
+        "SHA256": "1ed5391eb7f5e604a9c3cd98fac3a62283c0246e1430bc2247a57e2f1f4f0a46",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-17T00:00:00Z",
+        "last_UTC": "2021-09-17T00:00:00Z"
+      },
+      {
+        "file": "primary_010.nc",
+        "SHA256": "380a85fb4a28bb0367d8d9c7855c42a2abff40a3e4508b3406790e4fb9c07067",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-18T00:00:00Z",
+        "last_UTC": "2021-09-18T00:00:00Z"
+      },
+      {
+        "file": "primary_011.nc",
+        "SHA256": "f371ad433ee60592e935ac493316e37c4faac6c02fc38b83070c9b0cdebc0709",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-19T00:00:00Z",
+        "last_UTC": "2021-09-19T00:00:00Z"
+      },
+      {
+        "file": "primary_012.nc",
+        "SHA256": "8743bd7d9a7ee31bca85ba7872783d5d10406cf4be68b0fdedc0a552e102f3a7",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-20T00:00:00Z",
+        "last_UTC": "2021-09-20T00:00:00Z"
+      },
+      {
+        "file": "primary_013.nc",
+        "SHA256": "fb16d843e194fc99dc02dab136e2af45e17d801f038e81c0960b2f40cc8da38c",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-21T00:00:00Z",
+        "last_UTC": "2021-09-21T00:00:00Z"
+      },
+      {
+        "file": "primary_014.nc",
+        "SHA256": "16d9943ba2136997caf688d4f12f1513e00d7a2ed7b647455c1a52557aa25a1c",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-22T00:00:00Z",
+        "last_UTC": "2021-09-22T00:00:00Z"
+      },
+      {
+        "file": "primary_015.nc",
+        "SHA256": "06d81046e4c807d868c2f53b0dec58e1b5776f921c0e5dfaf0a19f1c8bfb834a",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-23T00:00:00Z",
+        "last_UTC": "2021-09-23T00:00:00Z"
+      },
+      {
+        "file": "primary_016.nc",
+        "SHA256": "9bbbf2e2d57f25bea9722e944658ebb1e4faf382222dc00101538adb415cc0b8",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-24T00:00:00Z",
+        "last_UTC": "2021-09-24T00:00:00Z"
+      },
+      {
+        "file": "primary_017.nc",
+        "SHA256": "3b9cad09cb7808eb2669f07ca75ebc1f693c322dfce658335af9caa0ec8721cd",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2021-09-25T00:00:00Z",
+        "last_UTC": "2021-09-25T00:00:00Z"
+      },
+      {
+        "file": "secondary_001.nc",
+        "SHA256": "7491a03f13b2d0727ac9496700579da8a261534fbf7ca951d8e53707697b98f2",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-09T01:00:00Z",
+        "last_UTC": "2021-09-10T00:00:00Z"
+      },
+      {
+        "file": "secondary_002.nc",
+        "SHA256": "852b52fba4d6d50b2ff4984ab42c5e3af859d7de4afd737a0392b9ba331afe3d",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-10T01:00:00Z",
+        "last_UTC": "2021-09-11T00:00:00Z"
+      },
+      {
+        "file": "secondary_003.nc",
+        "SHA256": "d837a338460cf59fad3cf6a20f295f0c1db4f6786e7d6f3288c21880a9d05e3e",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-11T01:00:00Z",
+        "last_UTC": "2021-09-12T00:00:00Z"
+      },
+      {
+        "file": "secondary_004.nc",
+        "SHA256": "dc1ba1b479b0612fd47f444781dcd8008a80931c5b7aa4e29e6cde71eb4d05f2",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-12T01:00:00Z",
+        "last_UTC": "2021-09-13T00:00:00Z"
+      },
+      {
+        "file": "secondary_005.nc",
+        "SHA256": "fe1fb65b9287315a72307cc2414e3460946257c6dc1bc05d540cf5ec87b86e4e",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-13T01:00:00Z",
+        "last_UTC": "2021-09-14T00:00:00Z"
+      },
+      {
+        "file": "secondary_006.nc",
+        "SHA256": "c9749d445ef089857f5b4085a80a9cffabc4e47f7e54035c969e3480bec79318",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-14T01:00:00Z",
+        "last_UTC": "2021-09-15T00:00:00Z"
+      },
+      {
+        "file": "secondary_007.nc",
+        "SHA256": "95e96a78fd72c14c6a1860a4e68401813ac388a88495813e6107edcb10a5301a",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-15T01:00:00Z",
+        "last_UTC": "2021-09-16T00:00:00Z"
+      },
+      {
+        "file": "secondary_008.nc",
+        "SHA256": "9ff9110ea99f1a5a2b8c1467b5eafbb3fa2e2c0dd514473e17a508e3644bd2b6",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-16T01:00:00Z",
+        "last_UTC": "2021-09-17T00:00:00Z"
+      },
+      {
+        "file": "secondary_009.nc",
+        "SHA256": "818225f830979d377dbb044bb78b2593f5b243ab07826e1a62811fd1de836dc2",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-17T01:00:00Z",
+        "last_UTC": "2021-09-18T00:00:00Z"
+      },
+      {
+        "file": "secondary_010.nc",
+        "SHA256": "270f6036af21e63b0abf3fef17ed9022c8b56788da73b1503745e01f53a2ede2",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-18T01:00:00Z",
+        "last_UTC": "2021-09-19T00:00:00Z"
+      },
+      {
+        "file": "secondary_011.nc",
+        "SHA256": "ba4d219c4ae5b12340919e2db9960c8cefc0286dba125c07cac9d048f3ee9a00",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-19T01:00:00Z",
+        "last_UTC": "2021-09-20T00:00:00Z"
+      },
+      {
+        "file": "secondary_012.nc",
+        "SHA256": "cce078c5f80dec2b6a8853491245a2b0cc62d4c4b539ae2a2ab2f35d9e6fcdc5",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-20T01:00:00Z",
+        "last_UTC": "2021-09-21T00:00:00Z"
+      },
+      {
+        "file": "secondary_013.nc",
+        "SHA256": "815ee4d61037c12cabdd2286782b2671d86149cb2365391e7f6260fee58865d4",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-21T01:00:00Z",
+        "last_UTC": "2021-09-22T00:00:00Z"
+      },
+      {
+        "file": "secondary_014.nc",
+        "SHA256": "6b636e4f5b175134e2dc90c1e81e5f581f9f173dc7e36c445a352e3702640c8b",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-22T01:00:00Z",
+        "last_UTC": "2021-09-23T00:00:00Z"
+      },
+      {
+        "file": "secondary_015.nc",
+        "SHA256": "5657fd610990aed2e2aeb9c6e72e8567e2718ddf4da8e6f8989825954c30ee6e",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-23T01:00:00Z",
+        "last_UTC": "2021-09-24T00:00:00Z"
+      },
+      {
+        "file": "secondary_016.nc",
+        "SHA256": "aeaff08d7bb7e1053608040390dac32ca89c631ee029d72a4bfd5095f9bc5db8",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2021-09-24T01:00:00Z",
+        "last_UTC": "2021-09-25T00:00:00Z"
+      }
+    ],
+    "NetCDF_files": 33,
+    "NetCDF_bytes": 3371588992,
+    "all_warm_DEN_ZG_records": 384,
+    "cold_primary_echo": 1,
+    "actual_GFZ_max_abs_difference": {
+      "f107d": 2.842170943040401e-14,
+      "f107a": 2.842170943040401e-14,
+      "Kp": 8.881784197001252e-16,
+      "hpower": 2.842170943040401e-14,
+      "ctpoten": 2.842170943040401e-14
+    },
+    "original_GPI_SHA256": "d401d0ae525babb343faaa6d1dd9a8d3c4fb1c2ea85beb26d2b0025cdf001b9a",
+    "physical_fixed_samples": [
+      {
+        "UTC": "2021-09-23T00:00:00Z",
+        "DEN_min_kg_m3": 1.0625522750514805e-13,
+        "DEN_max_kg_m3": 1.2047155495409356e-06,
+        "ZG_min_m": 95678.43000000001,
+        "ZG_max_m": 562218.56
+      },
+      {
+        "UTC": "2021-09-23T12:00:00Z",
+        "DEN_min_kg_m3": 9.862782154657619e-14,
+        "DEN_max_kg_m3": 1.2054899301006117e-06,
+        "ZG_min_m": 95678.43000000001,
+        "ZG_max_m": 564773.16
+      },
+      {
+        "UTC": "2021-09-25T00:00:00Z",
+        "DEN_min_kg_m3": 1.0399687884909048e-13,
+        "DEN_max_kg_m3": 1.2063293697295308e-06,
+        "ZG_min_m": 95681.27,
+        "ZG_max_m": 562146.16
+      }
+    ]
+  },
+  "independent_queries": {
+    "total": 2880,
+    "eligible": 2880,
+    "success": 2880,
+    "failed": 0,
+    "reasons": {},
+    "column_checks": 23040,
+    "zero_weight_columns_checked": true,
+    "no_extrapolation": true,
+    "no_error_metrics": true,
+    "method": "Independent CDF/geodetic conversion and neighbor/time/log-vertical reconstruction; not main PASS fields",
+    "identity": "PROVISIONAL Map-A / HINDCAST / NOT_BLIND / EXTERNAL_DATUM_UNVERIFIED"
+  },
+  "PASS": true,
+  "independent_raw_checks": "PASS",
+  "main_acceptance_status": "FAIL",
+  "main_and_independent_agreement": false,
+  "overall": "ENGINEERING_FAIL",
+  "ACTUAL_MODEL_RUN": "COMPLETED",
+  "model_launches_this_verifier": 0,
+  "actual_physical_model_launches": 1,
+  "new_density_scores": 0,
+  "new_fits": 0,
+  "protected_original_files": 161,
+  "wall_s": 7.414963860064745,
+  "CPU_s": 7.414676402,
+  "self_peak_RSS_KiB": 164344
+}
