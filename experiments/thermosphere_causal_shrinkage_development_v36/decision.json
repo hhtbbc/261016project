@@ -1,0 +1,12 @@
+{
+  "evaluation_status": "DEVELOPMENT_EVALUATION_COMPLETE_VERIFIED",
+  "candidate_decision": "CANDIDATE_FOR_UNSEEN_VALIDATION",
+  "fixed_lambda": 0.5,
+  "comparison_contract": "EXPLORATORY DEVELOPMENT / HINDCAST / PROVISIONAL Map-A / REALTIME_ASOF_UNVERIFIED",
+  "reason": "Four-criterion cumulative passes rose from 7 to 14 of 24, with seven new passes in three dates, no prior joint pass lost, and the RMSE/Relative RMS direction conflicts fell from 12 to 8 versus Raw. This justifies a test of the unchanged contrast.",
+  "counterevidence": "No joint passes on 2022-03-25. Compared with Global, cumulative P95 and low-latitude absolute relative bias worsened in 13 and 15 windows. Some gains reverse in 3–6 h.",
+  "planned_next": "V37 preregister separately authorized unseen validation and pin observation access criteria, failure receipts and fixed controls prior to opening unseen values. No alternative lambda selection.",
+  "independent_test_started": false,
+  "GPU_uses": 0,
+  "physical_runs": 0
+}

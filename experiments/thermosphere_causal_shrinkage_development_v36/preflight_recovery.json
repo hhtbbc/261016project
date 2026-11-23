@@ -1,0 +1,8 @@
+{
+  "phase": "background freeze before outcome access",
+  "failure": "Cache UTC grid mismatch due to assuming 2880 records in spring 2021 cache",
+  "recovery": "Recognize the pinned 2160-record cache made of both complete history/future panels. Verify each ordered record and registered ID hash. Reuse the existing parameter freeze upon exact equality.",
+  "formal_scoring_attempts_at_failure": 0,
+  "future_density_decoded_at_failure": false,
+  "parameters_changed": false
+}

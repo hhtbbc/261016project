@@ -1,0 +1,106 @@
+{
+  "verified": true,
+  "checks": {
+    "frozen_source_SHA256": 124,
+    "outcome_artifact_SHA256": 7,
+    "global_parameter_SHA256": 8,
+    "original_coefficient_identity": 8,
+    "ordered_observation_ID": 5760,
+    "CDF_SHA256": 8,
+    "CDF_UTC": 8,
+    "quality_domain": 8,
+    "cache_SHA256": 8,
+    "old_Raw_and_observation_exact": 8,
+    "lambda_and_multiplier": 24,
+    "exact_prediction_values": 17280,
+    "old_Global_exact": 8,
+    "six_common_ID_hashes": 48,
+    "sample_and_support": 576,
+    "numeric": 9216,
+    "joint_flags": 96
+  },
+  "total_checks": 33195,
+  "errors": {},
+  "maximum_metric_differences": {
+    "MAE": {
+      "absolute": 7.573064690121713e-29,
+      "relative": 4.785229168660823e-16
+    },
+    "RMSE": {
+      "absolute": 1.0097419586828951e-28,
+      "relative": 3.6139275662894806e-16
+    },
+    "bias": {
+      "absolute": 0.0,
+      "relative": 0.0
+    },
+    "relative_RMS": {
+      "absolute": 1.1102230246251565e-16,
+      "relative": 3.961385059182213e-16
+    },
+    "relative_P95": {
+      "absolute": 5.551115123125783e-17,
+      "relative": 1.9047231909015622e-16
+    },
+    "relative_bias": {
+      "absolute": 0.0,
+      "relative": 0.0
+    },
+    "log_RMS": {
+      "absolute": 1.1102230246251565e-16,
+      "relative": 3.141206654169321e-16
+    },
+    "Pearson": {
+      "absolute": 2.220446049250313e-15,
+      "relative": 2.241074791736012e-15
+    },
+    "max_abs": {
+      "absolute": 0.0,
+      "relative": 0.0
+    },
+    "bias_over_mean_observed": {
+      "absolute": 0.0,
+      "relative": 0.0
+    },
+    "observed_mean": {
+      "absolute": 8.077935669463161e-28,
+      "relative": 4.3011652653046457e-16
+    },
+    "simulated_mean": {
+      "absolute": 6.058451752097371e-28,
+      "relative": 5.174822999824675e-16
+    },
+    "RMSE_change_pct": {
+      "absolute": 0.0,
+      "relative": 0.0
+    },
+    "relative_RMS_change_pct": {
+      "absolute": 0.0,
+      "relative": 0.0
+    },
+    "relative_P95_change": {
+      "absolute": 0.0,
+      "relative": 0.0
+    },
+    "abs_relative_bias_change": {
+      "absolute": 0.0,
+      "relative": 0.0
+    }
+  },
+  "rtol": 1e-13,
+  "atol": 0,
+  "scored_dates": [
+    "2021-03-25",
+    "2021-09-23",
+    "2022-03-25",
+    "2022-09-23"
+  ],
+  "unseen_densities_read": 0,
+  "method": "original CDF plus independent scalar predictions, order statistics and reductions",
+  "UTC": "2026-11-23T08:24:23.664329+00:00",
+  "resources": {
+    "wall_seconds": 0.41227493435144424,
+    "cpu_seconds": 0.410087733,
+    "peak_RSS_KiB": 54808
+  }
+}

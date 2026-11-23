@@ -1,0 +1,1054 @@
+{
+  "status": "DEVELOPMENT_EVALUATION_COMPLETE_VERIFIED",
+  "joint_cumulative": {
+    "2021-03-25": {
+      "Global": {
+        "PASS": 0,
+        "FAIL": 6,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 5,
+          "RELATIVE_RMS_BENEFIT": 1,
+          "TAIL_NONWORSENED": 1,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 3
+        }
+      },
+      "ShrinkageHalf": {
+        "PASS": 3,
+        "FAIL": 3,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 6,
+          "RELATIVE_RMS_BENEFIT": 3,
+          "TAIL_NONWORSENED": 3,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 3
+        }
+      }
+    },
+    "2021-09-23": {
+      "Global": {
+        "PASS": 4,
+        "FAIL": 2,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 5,
+          "RELATIVE_RMS_BENEFIT": 6,
+          "TAIL_NONWORSENED": 6,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 5
+        }
+      },
+      "ShrinkageHalf": {
+        "PASS": 6,
+        "FAIL": 0,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 6,
+          "RELATIVE_RMS_BENEFIT": 6,
+          "TAIL_NONWORSENED": 6,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 6
+        }
+      }
+    },
+    "2022-03-25": {
+      "Global": {
+        "PASS": 0,
+        "FAIL": 6,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 3,
+          "RELATIVE_RMS_BENEFIT": 2,
+          "TAIL_NONWORSENED": 3,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 2
+        }
+      },
+      "ShrinkageHalf": {
+        "PASS": 0,
+        "FAIL": 6,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 3,
+          "RELATIVE_RMS_BENEFIT": 3,
+          "TAIL_NONWORSENED": 3,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 2
+        }
+      }
+    },
+    "2022-09-23": {
+      "Global": {
+        "PASS": 3,
+        "FAIL": 3,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 4,
+          "RELATIVE_RMS_BENEFIT": 6,
+          "TAIL_NONWORSENED": 6,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 5
+        }
+      },
+      "ShrinkageHalf": {
+        "PASS": 5,
+        "FAIL": 1,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 5,
+          "RELATIVE_RMS_BENEFIT": 6,
+          "TAIL_NONWORSENED": 6,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 6
+        }
+      }
+    },
+    "spring": {
+      "Global": {
+        "PASS": 0,
+        "FAIL": 12,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 8,
+          "RELATIVE_RMS_BENEFIT": 3,
+          "TAIL_NONWORSENED": 4,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 5
+        }
+      },
+      "ShrinkageHalf": {
+        "PASS": 3,
+        "FAIL": 9,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 9,
+          "RELATIVE_RMS_BENEFIT": 6,
+          "TAIL_NONWORSENED": 6,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 5
+        }
+      }
+    },
+    "autumn": {
+      "Global": {
+        "PASS": 7,
+        "FAIL": 5,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 9,
+          "RELATIVE_RMS_BENEFIT": 12,
+          "TAIL_NONWORSENED": 12,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 10
+        }
+      },
+      "ShrinkageHalf": {
+        "PASS": 11,
+        "FAIL": 1,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 11,
+          "RELATIVE_RMS_BENEFIT": 12,
+          "TAIL_NONWORSENED": 12,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 12
+        }
+      }
+    },
+    "all": {
+      "Global": {
+        "PASS": 7,
+        "FAIL": 17,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 17,
+          "RELATIVE_RMS_BENEFIT": 15,
+          "TAIL_NONWORSENED": 16,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 15
+        }
+      },
+      "ShrinkageHalf": {
+        "PASS": 14,
+        "FAIL": 10,
+        "NA": 0,
+        "flag_pass": {
+          "RMSE_BENEFIT": 20,
+          "RELATIVE_RMS_BENEFIT": 18,
+          "TAIL_NONWORSENED": 18,
+          "LOW_LATITUDE_BIAS_NONWORSENED": 17
+        }
+      }
+    }
+  },
+  "joint_overlap_Global_then_ShrinkageHalf": {
+    "FAIL/FAIL": [
+      {
+        "date": "2021-03-25",
+        "cutoff": 6,
+        "window": "future_1h"
+      },
+      {
+        "date": "2021-03-25",
+        "cutoff": 6,
+        "window": "future_3h"
+      },
+      {
+        "date": "2021-03-25",
+        "cutoff": 6,
+        "window": "future_6h"
+      },
+      {
+        "date": "2022-03-25",
+        "cutoff": 6,
+        "window": "future_1h"
+      },
+      {
+        "date": "2022-03-25",
+        "cutoff": 6,
+        "window": "future_3h"
+      },
+      {
+        "date": "2022-03-25",
+        "cutoff": 6,
+        "window": "future_6h"
+      },
+      {
+        "date": "2022-03-25",
+        "cutoff": 18,
+        "window": "future_1h"
+      },
+      {
+        "date": "2022-03-25",
+        "cutoff": 18,
+        "window": "future_3h"
+      },
+      {
+        "date": "2022-03-25",
+        "cutoff": 18,
+        "window": "future_6h"
+      },
+      {
+        "date": "2022-09-23",
+        "cutoff": 18,
+        "window": "future_6h"
+      }
+    ],
+    "FAIL/PASS": [
+      {
+        "date": "2021-03-25",
+        "cutoff": 18,
+        "window": "future_1h"
+      },
+      {
+        "date": "2021-03-25",
+        "cutoff": 18,
+        "window": "future_3h"
+      },
+      {
+        "date": "2021-03-25",
+        "cutoff": 18,
+        "window": "future_6h"
+      },
+      {
+        "date": "2021-09-23",
+        "cutoff": 6,
+        "window": "future_3h"
+      },
+      {
+        "date": "2021-09-23",
+        "cutoff": 18,
+        "window": "future_1h"
+      },
+      {
+        "date": "2022-09-23",
+        "cutoff": 6,
+        "window": "future_1h"
+      },
+      {
+        "date": "2022-09-23",
+        "cutoff": 18,
+        "window": "future_3h"
+      }
+    ],
+    "PASS/PASS": [
+      {
+        "date": "2021-09-23",
+        "cutoff": 6,
+        "window": "future_1h"
+      },
+      {
+        "date": "2021-09-23",
+        "cutoff": 6,
+        "window": "future_6h"
+      },
+      {
+        "date": "2021-09-23",
+        "cutoff": 18,
+        "window": "future_3h"
+      },
+      {
+        "date": "2021-09-23",
+        "cutoff": 18,
+        "window": "future_6h"
+      },
+      {
+        "date": "2022-09-23",
+        "cutoff": 6,
+        "window": "future_3h"
+      },
+      {
+        "date": "2022-09-23",
+        "cutoff": 6,
+        "window": "future_6h"
+      },
+      {
+        "date": "2022-09-23",
+        "cutoff": 18,
+        "window": "future_1h"
+      }
+    ]
+  },
+  "joint_nonoverlap": {
+    "Global": {
+      "FAIL": 20,
+      "PASS": 4
+    },
+    "ShrinkageHalf": {
+      "FAIL": 15,
+      "PASS": 9
+    }
+  },
+  "directions": {
+    "Global_vs_Raw": {
+      "cumulative": {
+        "RMSE_change_pct": {
+          "improved": 17,
+          "equal": 0,
+          "worse": 7,
+          "unavailable": 0
+        },
+        "relative_RMS_change_pct": {
+          "improved": 15,
+          "equal": 0,
+          "worse": 9,
+          "unavailable": 0
+        },
+        "relative_P95_change": {
+          "improved": 16,
+          "equal": 0,
+          "worse": 8,
+          "unavailable": 0
+        },
+        "abs_relative_bias_change": {
+          "improved": 15,
+          "equal": 0,
+          "worse": 9,
+          "unavailable": 0
+        }
+      },
+      "nonoverlap": {
+        "RMSE_change_pct": {
+          "improved": 14,
+          "equal": 0,
+          "worse": 10,
+          "unavailable": 0
+        },
+        "relative_RMS_change_pct": {
+          "improved": 12,
+          "equal": 0,
+          "worse": 12,
+          "unavailable": 0
+        },
+        "relative_P95_change": {
+          "improved": 13,
+          "equal": 0,
+          "worse": 11,
+          "unavailable": 0
+        },
+        "abs_relative_bias_change": {
+          "improved": 14,
+          "equal": 0,
+          "worse": 10,
+          "unavailable": 0
+        }
+      }
+    },
+    "ShrinkageHalf_vs_Raw": {
+      "cumulative": {
+        "RMSE_change_pct": {
+          "improved": 20,
+          "equal": 0,
+          "worse": 4,
+          "unavailable": 0
+        },
+        "relative_RMS_change_pct": {
+          "improved": 18,
+          "equal": 0,
+          "worse": 6,
+          "unavailable": 0
+        },
+        "relative_P95_change": {
+          "improved": 18,
+          "equal": 0,
+          "worse": 6,
+          "unavailable": 0
+        },
+        "abs_relative_bias_change": {
+          "improved": 17,
+          "equal": 0,
+          "worse": 7,
+          "unavailable": 0
+        }
+      },
+      "nonoverlap": {
+        "RMSE_change_pct": {
+          "improved": 19,
+          "equal": 0,
+          "worse": 5,
+          "unavailable": 0
+        },
+        "relative_RMS_change_pct": {
+          "improved": 15,
+          "equal": 0,
+          "worse": 9,
+          "unavailable": 0
+        },
+        "relative_P95_change": {
+          "improved": 15,
+          "equal": 0,
+          "worse": 9,
+          "unavailable": 0
+        },
+        "abs_relative_bias_change": {
+          "improved": 16,
+          "equal": 0,
+          "worse": 8,
+          "unavailable": 0
+        }
+      }
+    },
+    "ShrinkageHalf_vs_Global": {
+      "cumulative": {
+        "RMSE_change_pct": {
+          "improved": 15,
+          "equal": 0,
+          "worse": 9,
+          "unavailable": 0
+        },
+        "relative_RMS_change_pct": {
+          "improved": 12,
+          "equal": 0,
+          "worse": 12,
+          "unavailable": 0
+        },
+        "relative_P95_change": {
+          "improved": 11,
+          "equal": 0,
+          "worse": 13,
+          "unavailable": 0
+        },
+        "abs_relative_bias_change": {
+          "improved": 9,
+          "equal": 0,
+          "worse": 15,
+          "unavailable": 0
+        }
+      },
+      "nonoverlap": {
+        "RMSE_change_pct": {
+          "improved": 13,
+          "equal": 0,
+          "worse": 11,
+          "unavailable": 0
+        },
+        "relative_RMS_change_pct": {
+          "improved": 15,
+          "equal": 0,
+          "worse": 9,
+          "unavailable": 0
+        },
+        "relative_P95_change": {
+          "improved": 14,
+          "equal": 0,
+          "worse": 10,
+          "unavailable": 0
+        },
+        "abs_relative_bias_change": {
+          "improved": 13,
+          "equal": 0,
+          "worse": 11,
+          "unavailable": 0
+        }
+      }
+    }
+  },
+  "conflicts": {
+    "Global_vs_Raw": {
+      "cumulative": {
+        "RMSE_better_Relative_RMS_worse": [
+          {
+            "date": "2021-03-25",
+            "cutoff": 6,
+            "window": "future_3h",
+            "RMSE_change_pct": -9.34983484357128,
+            "relative_RMS_change_pct": 50.02483318089808
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 6,
+            "window": "future_6h",
+            "RMSE_change_pct": -12.84358891634827,
+            "relative_RMS_change_pct": 49.575852862524506
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 18,
+            "window": "future_3h",
+            "RMSE_change_pct": -24.301908104646785,
+            "relative_RMS_change_pct": 6.990771027957088
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 18,
+            "window": "future_6h",
+            "RMSE_change_pct": -24.473329738531557,
+            "relative_RMS_change_pct": 8.964649207646014
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "future_1h",
+            "RMSE_change_pct": -43.83400506195859,
+            "relative_RMS_change_pct": 3.626529404465084
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "future_3h",
+            "RMSE_change_pct": -31.827993239145346,
+            "relative_RMS_change_pct": 24.3709469423669
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "future_6h",
+            "RMSE_change_pct": -27.139598162559576,
+            "relative_RMS_change_pct": 31.40025436899634
+          }
+        ],
+        "Relative_RMS_better_RMSE_worse": [
+          {
+            "date": "2021-09-23",
+            "cutoff": 18,
+            "window": "future_1h",
+            "RMSE_change_pct": 20.651956365623292,
+            "relative_RMS_change_pct": -0.921560610987826
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 6,
+            "window": "future_1h",
+            "RMSE_change_pct": 1.888892715803947,
+            "relative_RMS_change_pct": -5.252292485807708
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 6,
+            "window": "future_3h",
+            "RMSE_change_pct": 6.9486244923672835,
+            "relative_RMS_change_pct": -1.7640191269657879
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 18,
+            "window": "future_3h",
+            "RMSE_change_pct": 4.2312987740825925,
+            "relative_RMS_change_pct": -22.291170218918655
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 18,
+            "window": "future_6h",
+            "RMSE_change_pct": 9.786319457963977,
+            "relative_RMS_change_pct": -20.475039885123735
+          }
+        ]
+      },
+      "nonoverlap": {
+        "RMSE_better_Relative_RMS_worse": [
+          {
+            "date": "2021-03-25",
+            "cutoff": 6,
+            "window": "block_1_3h",
+            "RMSE_change_pct": -13.700459685524125,
+            "relative_RMS_change_pct": 43.74250866369209
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 6,
+            "window": "block_3_6h",
+            "RMSE_change_pct": -15.085792284074861,
+            "relative_RMS_change_pct": 49.02167242079176
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 18,
+            "window": "block_1_3h",
+            "RMSE_change_pct": -20.748921466273607,
+            "relative_RMS_change_pct": 20.062115534533163
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 18,
+            "window": "block_3_6h",
+            "RMSE_change_pct": -24.649117638717954,
+            "relative_RMS_change_pct": 10.40512426782636
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "block_0_1h",
+            "RMSE_change_pct": -43.83400506195859,
+            "relative_RMS_change_pct": 3.626529404465084
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "block_1_3h",
+            "RMSE_change_pct": -24.47104141345645,
+            "relative_RMS_change_pct": 28.73015806161505
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "block_3_6h",
+            "RMSE_change_pct": -21.088961858951905,
+            "relative_RMS_change_pct": 39.88001092510742
+          }
+        ],
+        "Relative_RMS_better_RMSE_worse": [
+          {
+            "date": "2021-09-23",
+            "cutoff": 18,
+            "window": "block_0_1h",
+            "RMSE_change_pct": 20.651956365623292,
+            "relative_RMS_change_pct": -0.921560610987826
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 6,
+            "window": "block_0_1h",
+            "RMSE_change_pct": 1.888892715803947,
+            "relative_RMS_change_pct": -5.252292485807708
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 6,
+            "window": "block_3_6h",
+            "RMSE_change_pct": 33.31387981864329,
+            "relative_RMS_change_pct": -7.615422797188742
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 18,
+            "window": "block_1_3h",
+            "RMSE_change_pct": 13.536780010942984,
+            "relative_RMS_change_pct": -18.77824079390884
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 18,
+            "window": "block_3_6h",
+            "RMSE_change_pct": 19.062457131399334,
+            "relative_RMS_change_pct": -16.030034393695825
+          }
+        ]
+      }
+    },
+    "ShrinkageHalf_vs_Raw": {
+      "cumulative": {
+        "RMSE_better_Relative_RMS_worse": [
+          {
+            "date": "2021-03-25",
+            "cutoff": 6,
+            "window": "future_1h",
+            "RMSE_change_pct": -13.718530747410973,
+            "relative_RMS_change_pct": 26.034280713545698
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 6,
+            "window": "future_3h",
+            "RMSE_change_pct": -13.903762535863262,
+            "relative_RMS_change_pct": 18.053173600643845
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 6,
+            "window": "future_6h",
+            "RMSE_change_pct": -12.983565712135714,
+            "relative_RMS_change_pct": 17.115886805343106
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "future_3h",
+            "RMSE_change_pct": -19.09448816892535,
+            "relative_RMS_change_pct": 7.887453565953129
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "future_6h",
+            "RMSE_change_pct": -17.963330048432102,
+            "relative_RMS_change_pct": 11.134399879142197
+          }
+        ],
+        "Relative_RMS_better_RMSE_worse": [
+          {
+            "date": "2022-03-25",
+            "cutoff": 6,
+            "window": "future_1h",
+            "RMSE_change_pct": 0.8064090156646664,
+            "relative_RMS_change_pct": -2.7707846988127782
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 6,
+            "window": "future_3h",
+            "RMSE_change_pct": 3.40211207858494,
+            "relative_RMS_change_pct": -1.0680097971504932
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 18,
+            "window": "future_6h",
+            "RMSE_change_pct": 0.780694364139789,
+            "relative_RMS_change_pct": -12.34761502693641
+          }
+        ]
+      },
+      "nonoverlap": {
+        "RMSE_better_Relative_RMS_worse": [
+          {
+            "date": "2021-03-25",
+            "cutoff": 6,
+            "window": "block_0_1h",
+            "RMSE_change_pct": -13.718530747410973,
+            "relative_RMS_change_pct": 26.034280713545698
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 6,
+            "window": "block_1_3h",
+            "RMSE_change_pct": -13.967522616576423,
+            "relative_RMS_change_pct": 15.500230628468014
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 6,
+            "window": "block_3_6h",
+            "RMSE_change_pct": -12.416924524383898,
+            "relative_RMS_change_pct": 15.952466427277013
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 18,
+            "window": "block_1_3h",
+            "RMSE_change_pct": -12.307188646664368,
+            "relative_RMS_change_pct": 3.213619576972415
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 18,
+            "window": "block_3_6h",
+            "RMSE_change_pct": -13.652797544931328,
+            "relative_RMS_change_pct": 0.9402062384136878
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "block_1_3h",
+            "RMSE_change_pct": -16.02237703235727,
+            "relative_RMS_change_pct": 10.914477447821724
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "block_3_6h",
+            "RMSE_change_pct": -16.41773810699543,
+            "relative_RMS_change_pct": 15.15540816964116
+          }
+        ],
+        "Relative_RMS_better_RMSE_worse": [
+          {
+            "date": "2022-03-25",
+            "cutoff": 6,
+            "window": "block_0_1h",
+            "RMSE_change_pct": 0.8064090156646664,
+            "relative_RMS_change_pct": -2.7707846988127782
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 18,
+            "window": "block_1_3h",
+            "RMSE_change_pct": 3.4928789095106216,
+            "relative_RMS_change_pct": -11.062395446848006
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 18,
+            "window": "block_3_6h",
+            "RMSE_change_pct": 4.330921452678016,
+            "relative_RMS_change_pct": -11.920400290881405
+          }
+        ]
+      }
+    },
+    "ShrinkageHalf_vs_Global": {
+      "cumulative": {
+        "RMSE_better_Relative_RMS_worse": [
+          {
+            "date": "2021-09-23",
+            "cutoff": 18,
+            "window": "future_6h",
+            "RMSE_change_pct": -1.1760966403941087,
+            "relative_RMS_change_pct": 3.8272878227106233
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 6,
+            "window": "future_1h",
+            "RMSE_change_pct": -1.0624158053799126,
+            "relative_RMS_change_pct": 2.619068948579284
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 6,
+            "window": "future_3h",
+            "RMSE_change_pct": -3.3160897866764683,
+            "relative_RMS_change_pct": 0.7085075383070238
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 6,
+            "window": "future_1h",
+            "RMSE_change_pct": -26.541347681605075,
+            "relative_RMS_change_pct": 12.413097160921737
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 6,
+            "window": "future_3h",
+            "RMSE_change_pct": -2.1712895482681627,
+            "relative_RMS_change_pct": 15.569364801693443
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 6,
+            "window": "future_6h",
+            "RMSE_change_pct": -14.478690070081267,
+            "relative_RMS_change_pct": 12.173641480387687
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 18,
+            "window": "future_3h",
+            "RMSE_change_pct": -5.271568437298346,
+            "relative_RMS_change_pct": 12.579160403646416
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 18,
+            "window": "future_6h",
+            "RMSE_change_pct": -8.20286638470684,
+            "relative_RMS_change_pct": 10.219967223431503
+          }
+        ],
+        "Relative_RMS_better_RMSE_worse": [
+          {
+            "date": "2021-03-25",
+            "cutoff": 18,
+            "window": "future_3h",
+            "RMSE_change_pct": 14.308299248460866,
+            "relative_RMS_change_pct": -8.646299348849896
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 18,
+            "window": "future_6h",
+            "RMSE_change_pct": 14.448696468888734,
+            "relative_RMS_change_pct": -8.60301697915199
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "future_1h",
+            "RMSE_change_pct": 35.94950441896678,
+            "relative_RMS_change_pct": -9.472041116969033
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "future_3h",
+            "RMSE_change_pct": 18.678495287499388,
+            "relative_RMS_change_pct": -13.253491897952784
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "future_6h",
+            "RMSE_change_pct": 12.594314446138721,
+            "relative_RMS_change_pct": -15.422994869510564
+          }
+        ]
+      },
+      "nonoverlap": {
+        "RMSE_better_Relative_RMS_worse": [
+          {
+            "date": "2022-03-25",
+            "cutoff": 6,
+            "window": "block_0_1h",
+            "RMSE_change_pct": -1.0624158053799126,
+            "relative_RMS_change_pct": 2.619068948579284
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 6,
+            "window": "block_0_1h",
+            "RMSE_change_pct": -26.541347681605075,
+            "relative_RMS_change_pct": 12.413097160921737
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 18,
+            "window": "block_1_3h",
+            "RMSE_change_pct": -8.846385374382049,
+            "relative_RMS_change_pct": 9.499726948147892
+          },
+          {
+            "date": "2022-09-23",
+            "cutoff": 18,
+            "window": "block_3_6h",
+            "RMSE_change_pct": -12.372947807102063,
+            "relative_RMS_change_pct": 4.894171473265296
+          }
+        ],
+        "Relative_RMS_better_RMSE_worse": [
+          {
+            "date": "2021-03-25",
+            "cutoff": 6,
+            "window": "block_3_6h",
+            "RMSE_change_pct": 3.1430167359265626,
+            "relative_RMS_change_pct": -22.19087026492186
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 18,
+            "window": "block_1_3h",
+            "RMSE_change_pct": 10.651883830220378,
+            "relative_RMS_change_pct": -14.033149326537265
+          },
+          {
+            "date": "2021-03-25",
+            "cutoff": 18,
+            "window": "block_3_6h",
+            "RMSE_change_pct": 14.593485503013714,
+            "relative_RMS_change_pct": -8.572897401439628
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "block_0_1h",
+            "RMSE_change_pct": 35.94950441896678,
+            "relative_RMS_change_pct": -9.472041116969033
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "block_1_3h",
+            "RMSE_change_pct": 11.185993477479794,
+            "relative_RMS_change_pct": -13.83955467938296
+          },
+          {
+            "date": "2022-03-25",
+            "cutoff": 18,
+            "window": "block_3_6h",
+            "RMSE_change_pct": 5.91960752513101,
+            "relative_RMS_change_pct": -17.67557965712768
+          }
+        ]
+      }
+    }
+  },
+  "cumulative_improvement_late_degradation": {
+    "Global_vs_Raw": {
+      "RMSE_change_pct": [
+        {
+          "date": "2021-09-23",
+          "cutoff": 18,
+          "cumulative": -9.953169422719043,
+          "block_3_6h": 8.732104983533894
+        },
+        {
+          "date": "2022-09-23",
+          "cutoff": 6,
+          "cumulative": -2.209317329041205,
+          "block_3_6h": 33.31387981864329
+        }
+      ],
+      "relative_RMS_change_pct": [
+        {
+          "date": "2021-09-23",
+          "cutoff": 18,
+          "cumulative": -17.21828507384079,
+          "block_3_6h": 5.552975639496083
+        }
+      ],
+      "relative_P95_change": [
+        {
+          "date": "2021-09-23",
+          "cutoff": 6,
+          "cumulative": -0.005145955351548687,
+          "block_3_6h": 0.009002667754451937
+        },
+        {
+          "date": "2021-09-23",
+          "cutoff": 18,
+          "cumulative": -0.03656912689283984,
+          "block_3_6h": 0.03464028318745943
+        }
+      ],
+      "abs_relative_bias_change": []
+    },
+    "ShrinkageHalf_vs_Raw": {
+      "RMSE_change_pct": [],
+      "relative_RMS_change_pct": [
+        {
+          "date": "2021-03-25",
+          "cutoff": 18,
+          "cumulative": -0.4095980649611808,
+          "block_3_6h": 0.9402062384136878
+        }
+      ],
+      "relative_P95_change": [
+        {
+          "date": "2021-03-25",
+          "cutoff": 18,
+          "cumulative": -0.020659881664422897,
+          "block_3_6h": 0.030792116162177308
+        },
+        {
+          "date": "2021-09-23",
+          "cutoff": 18,
+          "cumulative": -0.02717945235369626,
+          "block_3_6h": 0.009617760321383173
+        }
+      ],
+      "abs_relative_bias_change": []
+    },
+    "ShrinkageHalf_vs_Global": {
+      "RMSE_change_pct": [
+        {
+          "date": "2021-03-25",
+          "cutoff": 6,
+          "cumulative": -0.16060413003134988,
+          "block_3_6h": 3.1430167359265626
+        }
+      ],
+      "relative_RMS_change_pct": [],
+      "relative_P95_change": [],
+      "abs_relative_bias_change": []
+    }
+  }
+}

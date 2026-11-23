@@ -1,0 +1,22 @@
+{
+  "windows": 48,
+  "exact_flags": 240,
+  "published_identical_0_to_1h_aliases": [
+    [
+      "2022-03-25",
+      6,
+      "block_0_1h"
+    ],
+    [
+      "2022-03-25",
+      18,
+      "block_0_1h"
+    ]
+  ],
+  "historical_SHA256": {
+    "experiments/causal_density_new_date_validation_v1/joint_assessment.csv": "7d0935ba082abc72c980ee3688e284bf6ff8add2c9d9f4f0b1b7862f14b8c1e7",
+    "experiments/tiegcm_2022_mar25_density_validation_v18/joint_assessment.csv": "498e8cd3be01320d262549eb7161937b6900d803ae9586183ce1b660c38aa55d",
+    "experiments/thermosphere_autumn_density_validation_v30/2021_joint.csv": "1acbab22469ed306e46460f226aebe7a0ba239c9b373d6b0797e3ce8009c1f49",
+    "experiments/thermosphere_autumn_density_validation_v30/2022_joint.csv": "b5bdb36939fab1e7fe15205ac3a534cb6437066eb08a6cffafe56c912ff9c79a"
+  }
+}

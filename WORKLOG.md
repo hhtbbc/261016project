@@ -1396,3 +1396,9 @@ CPU Python -B执行stability_zg_v32 roles/history/associate、review_zg_v32与ve
 ## 2026-11-23 V35 历史系数收缩设计冻结
 
 在已有 CPU 环境执行 scripts/verify_causal_shrinkage_v35.py 与 scripts/freeze_causal_shrinkage_v35.py。锁定 0/0.5/1、原 Global 参数和共同 ID。保留独立标量 log 舍入差，原 NumPy 对数合同与独立排序在八窗完全一致。25 项测试、两个 cutoff 毒化和 48 个未来窗口 ID 元数据核对通过；没有解码真实未来密度或进行评分。V36 候选仅四日期八窗，成果在 experiments/thermosphere_causal_shrinkage_design_v35/。
+
+
+
+## 2026-11-23 V36 四日期开发集收缩评价
+
+CPU 先用 scripts/causal_shrinkage_development_v36.py freeze 冻结参数、5,760 ID 与背景，修正春季 2021 缓存形状假设并补旧区域表索引后，仅一次 score。独立 scripts/verify_causal_shrinkage_development_v36.py 对原 CDF、17,280 个预测及指标计 33,195 项零失败。汇总脚本生成六图，记录累计、分块和负面结果。所有未见日、GPU、积分及后续科研执行均为零。成果 experiments/thermosphere_causal_shrinkage_development_v36/。

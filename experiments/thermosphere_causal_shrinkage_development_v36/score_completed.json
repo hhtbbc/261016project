@@ -1,0 +1,18 @@
+{
+  "UTC": "2026-11-23T08:22:55.810971+00:00",
+  "metric_rows": 576,
+  "joint_rows": 96,
+  "comparison_rows": 576,
+  "complete": true,
+  "resources": {
+    "wall_seconds": 0.978658527135849,
+    "cpu_seconds": 0.939658685,
+    "peak_RSS_KiB": 91024
+  },
+  "SHA256": {
+    "metrics.csv": "e2463e2bba14198f5a70b11057f8bb605678cbd585f7787bd8f1806592a5f418",
+    "joint.csv": "fab79fcdc90fe953ff3e26934d6e401ddef0e818dcbae045f459e49b180b361c",
+    "comparisons.csv": "34083ad52c014c0d79258951b959d0ddf4ccd7410fbead4a43c61729033fc242",
+    "baseline_verification.json": "c8770685aafc82800b3555ceefbb75cb733cf05a38cf6bc3faacfafebd9121f0"
+  }
+}

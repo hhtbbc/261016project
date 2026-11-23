@@ -1,0 +1,365 @@
+{
+  "UTC": "2026-11-23T08:22:28.569298+00:00",
+  "future_density_read": false,
+  "windows": [
+    {
+      "date": "2021-03-25",
+      "cutoff": 6,
+      "CDF": {
+        "path": "data/raw/causal_density_new_date_validation_v1/SW_OPER_DNSAPOD_2__20210325T000000_20210325T235930_0301.cdf",
+        "SHA256": "2f42b1eb3f75143ed40d48c377f37f82f76c544b0a0dd0433f71335cf26f5d7a"
+      },
+      "cache": "experiments/causal_density_new_date_validation_v1/matched_local.npz",
+      "cache_SHA256": "2161c6b6862e820fc27ad9f03c8dfad7778457854972ab16084723330c993325",
+      "N": 720,
+      "Raw_bitwise": true,
+      "Global_bitwise": true,
+      "max_absolute_difference": 0,
+      "max_relative_difference": 0,
+      "unit": "kg/m3",
+      "query_identity": "Frozen provisional Map-A",
+      "windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "ea389785e81615f2f1aa7cd3f4031dded650e37fb456677120410e3b18c5f2ae"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "ba79a228166a9a5c96d90e2fd97b59493879e7a6e7879e5ab381935a9f55ff9a"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "cb9cfb7fdc8d00d5a62922b0062e26aa243aad6e953cc2318f6a897f65b96d03"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "ea389785e81615f2f1aa7cd3f4031dded650e37fb456677120410e3b18c5f2ae"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "2866b9feed05c51fcc53336eeba6dc5784e774666201e6940dd830258acf14eb"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "d8922d41b9bec4cd29f988228341b2e86480e07512d71512140d7e740fc986b5"
+        }
+      }
+    },
+    {
+      "date": "2021-03-25",
+      "cutoff": 18,
+      "CDF": {
+        "path": "data/raw/causal_density_new_date_validation_v1/SW_OPER_DNSAPOD_2__20210325T000000_20210325T235930_0301.cdf",
+        "SHA256": "2f42b1eb3f75143ed40d48c377f37f82f76c544b0a0dd0433f71335cf26f5d7a"
+      },
+      "cache": "experiments/causal_density_new_date_validation_v1/matched_local.npz",
+      "cache_SHA256": "2161c6b6862e820fc27ad9f03c8dfad7778457854972ab16084723330c993325",
+      "N": 720,
+      "Raw_bitwise": true,
+      "Global_bitwise": true,
+      "max_absolute_difference": 0,
+      "max_relative_difference": 0,
+      "unit": "kg/m3",
+      "query_identity": "Frozen provisional Map-A",
+      "windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "4dd5c64b176d440a37deb2a658a1b9363267a97eaceb626253f59f26a3e14cfb"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "c9267b5813c00caca51ace13d1354573eec2ed430a1d82023c5644a29eb89ae5"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "2340a2c1ffc324fbb44a7a5a18d9eb2876703158c5747c17c42cb58b3c37bdf5"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "4dd5c64b176d440a37deb2a658a1b9363267a97eaceb626253f59f26a3e14cfb"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "0f3f7468311d8a3acc5a972aa3444ee8361faa482f407557a1cd3f4f74714ed1"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "d7c309c65cb1f9c398b20a08505d4945252df8986c800d44d5715b46622f397e"
+        }
+      }
+    },
+    {
+      "date": "2022-03-25",
+      "cutoff": 6,
+      "CDF": {
+        "path": "data/raw/tiegcm_2022_mar25_preparation_v1/SW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.cdf",
+        "SHA256": "d2f647f723f774a446e6c07c9b1108c1dc521b76bb21a2d524d321d379b440a8"
+      },
+      "cache": "experiments/tiegcm_2022_mar25_density_validation_v18/matched_local.npz",
+      "cache_SHA256": "4621d2fb62339a2a0f6c0d220cc31fcf6aa763eabb802701bc455cff3c85e94d",
+      "N": 720,
+      "Raw_bitwise": true,
+      "Global_bitwise": true,
+      "max_absolute_difference": 0,
+      "max_relative_difference": 0,
+      "unit": "kg/m3",
+      "query_identity": "Frozen provisional Map-A",
+      "windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "d33eb1a27d68120b385efbf705286772219e5e912ddb6b8b4d8b933b33e20de2"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "e2601018c796da161a899c51b4bccd09f4e9249040758e591324192fa4e10751"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "aaafb2d63a4c56367ba01664f32bd9e4162dbc17334a1d3224989fa3aef43dec"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "d33eb1a27d68120b385efbf705286772219e5e912ddb6b8b4d8b933b33e20de2"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "204f45c694417492c48e90097015d36bfc431184508304a3611ba5082aff14ec"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "3581f82d9e3e3362df7c87a2309c2748f7064a3aa09af16bfce5eb5087f8b848"
+        }
+      }
+    },
+    {
+      "date": "2022-03-25",
+      "cutoff": 18,
+      "CDF": {
+        "path": "data/raw/tiegcm_2022_mar25_preparation_v1/SW_OPER_DNSAPOD_2__20220325T000000_20220325T235930_0301.cdf",
+        "SHA256": "d2f647f723f774a446e6c07c9b1108c1dc521b76bb21a2d524d321d379b440a8"
+      },
+      "cache": "experiments/tiegcm_2022_mar25_density_validation_v18/matched_local.npz",
+      "cache_SHA256": "4621d2fb62339a2a0f6c0d220cc31fcf6aa763eabb802701bc455cff3c85e94d",
+      "N": 720,
+      "Raw_bitwise": true,
+      "Global_bitwise": true,
+      "max_absolute_difference": 0,
+      "max_relative_difference": 0,
+      "unit": "kg/m3",
+      "query_identity": "Frozen provisional Map-A",
+      "windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "81d5a48a49a6b2c7b09bd6a1cc454fa10b6439f039c8c232bfaee7fbca9c2a61"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "1a597344652fd82e399cd50cb36e39756bef19c1c8447b1a78166202ce7fc8d5"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "b47c65d3f0be9dfe2b4145b7bac1e981d9b83219baf358f742d72b739014323c"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "81d5a48a49a6b2c7b09bd6a1cc454fa10b6439f039c8c232bfaee7fbca9c2a61"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "ce687d8cd222847866d62ad00eedec3638f735b82eaaec33e86576b7e54a4661"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "4c7a65ddc1640ef94641f99d992dba817aaff8ad6a39186bd2c99b4cb96ac103"
+        }
+      }
+    },
+    {
+      "date": "2021-09-23",
+      "cutoff": 6,
+      "CDF": {
+        "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.cdf",
+        "SHA256": "4b5b7b390b46b8e3c984fd64defc2329e2708c2c2f5d5ccf99a195cbb6bd0404",
+        "bytes": 191682
+      },
+      "cache": "experiments/thermosphere_autumn_density_validation_v30/2021_matched_local.npz",
+      "cache_SHA256": "f48503792c86aa9f4dcd93f542f9860f03a22577265d06f246aae785c660d944",
+      "N": 720,
+      "Raw_bitwise": true,
+      "Global_bitwise": true,
+      "max_absolute_difference": 0,
+      "max_relative_difference": 0,
+      "unit": "kg/m3",
+      "query_identity": "Frozen provisional Map-A",
+      "windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "96632878d1d0ddb9daca5085a7a21334092fae90f88b45505dd2838bb789ba35"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "2c6b98e4e4e50181ea48d822763d3c7fde03229f7cb5dffedaf4a72cf66766ff"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "a47c36656d3321e4fc717fce2e30e3fb3cd5e86889248a9e5c4c56ffd4c5ba66"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "96632878d1d0ddb9daca5085a7a21334092fae90f88b45505dd2838bb789ba35"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "9caa35c437a0ce94d6d970eb166d29618d311a8c59b2d23071f205a3bb38c693"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "a5ed5239d72d8c21136bc6e38ade92d37832ca0ebbc34a089de3d9673ab48603"
+        }
+      }
+    },
+    {
+      "date": "2021-09-23",
+      "cutoff": 18,
+      "CDF": {
+        "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20210923T000000_20210923T235930_0301.cdf",
+        "SHA256": "4b5b7b390b46b8e3c984fd64defc2329e2708c2c2f5d5ccf99a195cbb6bd0404",
+        "bytes": 191682
+      },
+      "cache": "experiments/thermosphere_autumn_density_validation_v30/2021_matched_local.npz",
+      "cache_SHA256": "f48503792c86aa9f4dcd93f542f9860f03a22577265d06f246aae785c660d944",
+      "N": 720,
+      "Raw_bitwise": true,
+      "Global_bitwise": true,
+      "max_absolute_difference": 0,
+      "max_relative_difference": 0,
+      "unit": "kg/m3",
+      "query_identity": "Frozen provisional Map-A",
+      "windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "182bc1402af735976de5043ce8e2a2fb28d74aea99244b901add1867110e0b8b"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "17599e1279e7386ebdda6aaf666d9ac56ffdec39807516b3aea4a15d8af69eb2"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "96ed6ef2df8db22cefe00a24ac1d7926241d8ec48d7b04b0a21e262f5768e44b"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "182bc1402af735976de5043ce8e2a2fb28d74aea99244b901add1867110e0b8b"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "44a3e31e7224fae3b29ae13b03a7fa85eb51d0da2d528f227ef6c6e0ef66498b"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "d465946dc4a72a1473978c2d7ea054d8856aeeddc087c5b2b61cbcbfce4da75f"
+        }
+      }
+    },
+    {
+      "date": "2022-09-23",
+      "cutoff": 6,
+      "CDF": {
+        "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.cdf",
+        "SHA256": "c717855e07c2c1b3aa6f458525712572132e3b2fa54aaf91ce69959a95b1d9ab",
+        "bytes": 191682
+      },
+      "cache": "experiments/thermosphere_autumn_density_validation_v30/2022_matched_local.npz",
+      "cache_SHA256": "1c8d79cdbde68a5b4ee4691aa610f899a8e0849a1b820de6c3fa60780ba6d5bb",
+      "N": 720,
+      "Raw_bitwise": true,
+      "Global_bitwise": true,
+      "max_absolute_difference": 0,
+      "max_relative_difference": 0,
+      "unit": "kg/m3",
+      "query_identity": "Frozen provisional Map-A",
+      "windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "4a4f6c70795ff206a4d036980ea4b130c54493c7dcbcf36a7023d84179dc144d"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "37778ce689ed95a2ac29db678078b80b879e3e83d7688f9c5737c2a4fc53e381"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "e5dbe4ede772ec6f67f9c9ee1287ce1bd009657a54c11b2ad64999237a28889f"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "4a4f6c70795ff206a4d036980ea4b130c54493c7dcbcf36a7023d84179dc144d"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "b04913c39a09ba90254f1708a81b813d4ef8c4722d4ff66e6f973ad904768f41"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "003e3fa212468f698dd45aa140105f28493930884cdc121b33c54eeca6525bef"
+        }
+      }
+    },
+    {
+      "date": "2022-09-23",
+      "cutoff": 18,
+      "CDF": {
+        "path": "data/raw/thermosphere_autumn_data_acquisition_v21/SW_OPER_DNSAPOD_2__20220923T000000_20220923T235930_0301.cdf",
+        "SHA256": "c717855e07c2c1b3aa6f458525712572132e3b2fa54aaf91ce69959a95b1d9ab",
+        "bytes": 191682
+      },
+      "cache": "experiments/thermosphere_autumn_density_validation_v30/2022_matched_local.npz",
+      "cache_SHA256": "1c8d79cdbde68a5b4ee4691aa610f899a8e0849a1b820de6c3fa60780ba6d5bb",
+      "N": 720,
+      "Raw_bitwise": true,
+      "Global_bitwise": true,
+      "max_absolute_difference": 0,
+      "max_relative_difference": 0,
+      "unit": "kg/m3",
+      "query_identity": "Frozen provisional Map-A",
+      "windows": {
+        "future_1h": {
+          "N": 120,
+          "original_ID_SHA256": "a549881c32b407984a94a76569fc1283a99e24f6278502288aafcde6a7f7e09b"
+        },
+        "future_3h": {
+          "N": 360,
+          "original_ID_SHA256": "c62f2058739a44eb88297aeced52fd90af545b3b6483ec8419d4d90628c0f792"
+        },
+        "future_6h": {
+          "N": 720,
+          "original_ID_SHA256": "48fb3d4bee60eaa3395b9cc1f6119d377dc982bea365a004d355ec742b953890"
+        },
+        "block_0_1h": {
+          "N": 120,
+          "original_ID_SHA256": "a549881c32b407984a94a76569fc1283a99e24f6278502288aafcde6a7f7e09b"
+        },
+        "block_1_3h": {
+          "N": 240,
+          "original_ID_SHA256": "ab2aa0427734a0c0f9a38ed6913aa4445d976067d20c0bddaab081b96534fc36"
+        },
+        "block_3_6h": {
+          "N": 360,
+          "original_ID_SHA256": "c631d3e28e9fe666456c244c239800e4233ef80d164bb50bbbd20222bff8024c"
+        }
+      }
+    }
+  ],
+  "SHA256": {
+    "parameter_freeze.json": "a50be7a3e74510219fbf4de3e61ea739fe73bb790b453337eda3ee0f4fdb7a0e",
+    "common_background.csv": "c9a0107255cb7803be1f4d9bb041f2619c9d69b605e93166c8d932361ef9f0a8",
+    "predictions.csv": "c2880b77b5ad749965a9deb106ff459db7c7059a7b2dbb9db7c0fbf482373cec"
+  },
+  "runner_SHA256": "fc53378f4c1e097763f1c6e2511a11af0fe10b8b99a5dfa296731588930f1921",
+  "resources": {
+    "wall_seconds": 0.7454078383743763,
+    "cpu_seconds": 0.7172941669999999,
+    "peak_RSS_KiB": 85872
+  }
+}
