@@ -1,0 +1,43 @@
+{
+  "ACTUAL_MODEL_RUN": "NOT_RUN",
+  "ENGINEERING_STATUS": "NOT_RUN",
+  "main_acceptance": "NOT_RUN",
+  "independent_review": "NOT_RUN",
+  "conditional_user_authorization_received": true,
+  "conditions_all_met": false,
+  "site_CPU_queue_or_node_permission": "UNVERIFIED",
+  "sustained_session": "UNVERIFIED",
+  "required_session_seconds_before_extra_overhead": 5400,
+  "scheduler_clients_present": [],
+  "scheduler_allocation_marker_names": [],
+  "kubernetes_container": true,
+  "project_mount": "/workspace/data ext4",
+  "cpu_quota_us": 1400000,
+  "cpu_period_us": 100000,
+  "current_uid": 0,
+  "actual_model_launches": 0,
+  "gpu_calls": 0,
+  "run_id": null,
+  "formal_command_executed": false,
+  "cpu_session_flag_supplied": false,
+  "future_run_directory": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+  "original_V24_FAIL_SHA256": "3859b363b92f6f5cfb3d10a125db8d83356cfe91d557f72f6b64ad285b998271",
+  "V26_and_V24_evidence_pins": 12,
+  "V27_release_SHA256": "f994a9ce2814044af7b6d473f884ab078fddb3e1fbd252cbd659f38f9a0c9bb0",
+  "V27_code_SHA256": {
+    "scripts/execute_tiegcm_autumn_2022_v27.py": "09a81eb4df7ddaebf01e915616502c494d7012af76c218d56818943ae4eaf431",
+    "scripts/audit_tiegcm_autumn_2022_v27.py": "d277f46244c468df1d2d9fd47fd3be0369b225d34b99bbe42e2ed22d1f31397f",
+    "scripts/audit_tiegcm_autumn_v26.py": "deda3382885d7f13ea518fa09df863ca5548f5f55ae824040849b733bb318a92",
+    "scripts/tiegcm_autumn_v26_sha.py": "57f765d74360ed72541eccc2760c33e41d3b54bf264ab19abe21b3e2038a6207",
+    "src/runtime/supervisor.py": "a4eaa514590ac30e2bd5ee581630272ad637fdcf378ddf2446742a0a1508a1b7",
+    "src/runtime/tiegcm_rank_exit.py": "33e1aa50d3872c21eaf083fad2c49953cf986e31a1026be1403726be7e2cd0f9",
+    "src/runtime/readonly_audit_warning_channel.py": "22e798fe1db6916f2762f01b8e43808be534910727cdc0476faab4ff2ad2a89d",
+    "src/atmosphere/tiegcm_mar25_acceptance.py": "4263fa8fad4948932db5b74ddb6f067f0323878102fe7967f029f17f926aab5a"
+  },
+  "GFZ_2022_SHA256": {
+    "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Fobs_20220729_20221106.json": "fcfd9d337597aeca2b59c79c189680f0363ca8bcddd3bdd88725f33ac3524744",
+    "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Kp_def_20220907_20220927.json": "df6aff3f776881803f4d01227a8dd7593367d43271f50b43341b8297e6af99fb"
+  },
+  "GPI_2022_SHA256": "7d43db220fe7fbaded6b2182db8db32ee09cedf99dc5760815824ccf8298ebb2",
+  "no_model_output_files_created": true
+}

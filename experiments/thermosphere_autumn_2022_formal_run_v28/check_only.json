@@ -1,0 +1,53 @@
+{
+  "checked_utc": "2026-11-23T04:42:43.776591+00:00",
+  "git_HEAD": "1fd01541b18fd21a86ed917a2e0128e089add3a8",
+  "argv": [
+    "python",
+    "-B",
+    "scripts/execute_tiegcm_autumn_2022_v27.py",
+    "--year",
+    "2022",
+    "--check-only"
+  ],
+  "exit_code": 0,
+  "wall_s": 0.6242230348289013,
+  "stderr": "",
+  "reservations_before": {
+    "actual_run": false,
+    "execution_claim": false,
+    "v27_postrun": false,
+    "legacy_postrun": false
+  },
+  "reservations_after": {
+    "actual_run": false,
+    "execution_claim": false,
+    "v27_postrun": false,
+    "legacy_postrun": false
+  },
+  "CUDA_VISIBLE_DEVICES": "",
+  "OMP_NUM_THREADS": 1,
+  "OPENBLAS_NUM_THREADS": 1,
+  "gpu_calls": 0,
+  "model_launches": 0,
+  "resources": {
+    "libraries_match_spring": true,
+    "MPI_version": "mpirun (Open MPI) 5.0.8",
+    "CPU_affinity_count": 112,
+    "MemAvailable_bytes": 1769221095424,
+    "disk_free_bytes": 1344520609792,
+    "active_model_count": 0,
+    "resource_ready": true,
+    "monitoring": "session sampling/signals; not OS cgroup isolation",
+    "cpu_equivalent": 14.0,
+    "cgroup_memory_limit": 309237645312,
+    "cgroup_memory_usage": 4585537536,
+    "effective_memory_available": 304652107776,
+    "load_average": [
+      9.73974609375,
+      9.4765625,
+      9.0439453125
+    ],
+    "writable": true,
+    "queue_clients": []
+  }
+}
