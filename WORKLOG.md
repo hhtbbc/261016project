@@ -1402,3 +1402,9 @@ CPU Python -B执行stability_zg_v32 roles/history/associate、review_zg_v32与ve
 ## 2026-11-23 V36 四日期开发集收缩评价
 
 CPU 先用 scripts/causal_shrinkage_development_v36.py freeze 冻结参数、5,760 ID 与背景，修正春季 2021 缓存形状假设并补旧区域表索引后，仅一次 score。独立 scripts/verify_causal_shrinkage_development_v36.py 对原 CDF、17,280 个预测及指标计 33,195 项零失败。汇总脚本生成六图，记录累计、分块和负面结果。所有未见日、GPU、积分及后续科研执行均为零。成果 experiments/thermosphere_causal_shrinkage_development_v36/。
+
+
+
+## 2026-11-23 V37 未见日期验证预注册
+
+服务器 CPU 执行 scripts/audit_shrinkage_unseen_v37.py、scripts/verify_shrinkage_unseen_v37.py 和 scripts/freeze_shrinkage_unseen_v37.py。V21 秋季驱动补齐 2022 夏末7天、冬前12天。保存旧春分短例严格初态 schema 拒绝的起始失败，逐件审计后闭环。25项测试、40项保护SHA、11个驱动来源SHA通过。无新下载、目标密度、参数拟合、GPI、输入、积分或评分。成果 experiments/thermosphere_shrinkage_unseen_prereg_v37/，V38 等夏季获取授权。

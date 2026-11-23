@@ -752,3 +752,9 @@ SHRINKAGE_DESIGN_FROZEN_READY。Raw/Global 冻结，λ=0.5 为唯一新增固定
 ## 2026-11-23 V36 四日期开发集收缩评价
 
 DEVELOPMENT_EVALUATION_COMPLETE_VERIFIED + CANDIDATE_FOR_UNSEEN_VALIDATION。一次评分，Raw/Global 逐点精确重现。累计联合通过 7/24 → 14/24，无原 PASS 丢失，独立 33,195 项通过。λ=0.5 继续冻结，V37 仅建议注册新日验证。入口 reports/THERMOSPHERE_CAUSAL_SHRINKAGE_DEVELOPMENT_V36.md。
+
+
+
+## 2026-11-23 V37 未见日期验证预注册
+
+UNSEEN_PROTOCOL_FROZEN_READY + UNSEEN_DATA_PARTIAL。Raw、Global 与固定 Half 冻结，夏季优先；冬季只保留后续。2021 夏季两天 Fobs 无效，2022 夏季缺 70 日 Fobs、168 个 def Kp 桶；两日 Swarm 与季节初态尚未取得。25项门禁测试通过，目标密度解码零，RUN_READY=False。报告 reports/THERMOSPHERE_SHRINKAGE_UNSEEN_PREREG_V37.md。

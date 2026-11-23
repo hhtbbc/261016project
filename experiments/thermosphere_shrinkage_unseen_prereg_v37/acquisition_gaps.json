@@ -1,0 +1,291 @@
+{
+  "by_date": [
+    {
+      "date": "2021-06-21",
+      "state": "ASSET_PARTIAL",
+      "phase": "NEXT_WITH_AUTHORIZATION",
+      "driver_requests": [
+        {
+          "index": "Fobs",
+          "start": "2021-05-09",
+          "stop": "2021-05-09",
+          "days": 1,
+          "old_value": -1.0,
+          "URL": "https://kp.gfz.de/app/json/?start=2021-05-09T00%3A00%3A00Z&end=2021-05-09T23%3A59%3A59Z&index=Fobs",
+          "policy": "Official positive observed revision with provenance required"
+        },
+        {
+          "index": "Fobs",
+          "start": "2021-06-16",
+          "stop": "2021-06-16",
+          "days": 1,
+          "old_value": -1.0,
+          "URL": "https://kp.gfz.de/app/json/?start=2021-06-16T00%3A00%3A00Z&end=2021-06-16T23%3A59%3A59Z&index=Fobs",
+          "policy": "Official positive observed revision with provenance required"
+        }
+      ],
+      "available_asset_receipt": "experiments/thermosphere_shrinkage_unseen_prereg_v37/asset_audit.json",
+      "observation": {
+        "product": "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+        "status": "NOT_ACQUIRED",
+        "local": [],
+        "expected_products": [
+          "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+          "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.CDF",
+          "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.HDR"
+        ],
+        "historical_index_bytes": 140229,
+        "historical_index_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+        "current_remote_status": "NOT_VERIFIED_NO_NETWORK",
+        "quality": "NOT_VERIFIED"
+      },
+      "required_seed": "junsol smax for review"
+    },
+    {
+      "date": "2022-06-21",
+      "state": "ASSET_PARTIAL",
+      "phase": "NEXT_WITH_AUTHORIZATION",
+      "driver_requests": [
+        {
+          "index": "Fobs",
+          "start": "2022-05-20",
+          "stop": "2022-07-28",
+          "days": 70,
+          "URL": "https://kp.gfz.de/app/json/?start=2022-05-20T00%3A00%3A00Z&end=2022-07-28T23%3A59%3A59Z&index=Fobs"
+        },
+        {
+          "index": "Kp",
+          "start": "2022-06-05",
+          "stop": "2022-06-25",
+          "buckets": 168,
+          "URL": "https://kp.gfz.de/app/json/?start=2022-06-05T00%3A00%3A00Z&end=2022-06-25T23%3A59%3A59Z&index=Kp&status=def"
+        }
+      ],
+      "available_asset_receipt": "experiments/thermosphere_shrinkage_unseen_prereg_v37/asset_audit.json",
+      "observation": {
+        "product": "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+        "status": "NOT_ACQUIRED",
+        "local": [],
+        "expected_products": [
+          "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+          "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.CDF",
+          "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.HDR"
+        ],
+        "historical_index_bytes": 138722,
+        "historical_index_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+        "current_remote_status": "NOT_VERIFIED_NO_NETWORK",
+        "quality": "NOT_VERIFIED"
+      },
+      "required_seed": "junsol smax for review"
+    },
+    {
+      "date": "2021-12-21",
+      "state": "ASSET_PARTIAL",
+      "phase": "DEFERRED",
+      "driver_requests": [
+        {
+          "index": "Fobs",
+          "start": "2022-01-01",
+          "stop": "2022-01-25",
+          "days": 25,
+          "URL": "https://kp.gfz.de/app/json/?start=2022-01-01T00%3A00%3A00Z&end=2022-01-25T23%3A59%3A59Z&index=Fobs"
+        }
+      ],
+      "available_asset_receipt": "experiments/thermosphere_shrinkage_unseen_prereg_v37/asset_audit.json",
+      "observation": {
+        "product": "SW_OPER_DNSAPOD_2__20211221T000000_20211221T235930_0301.ZIP",
+        "status": "NOT_ACQUIRED",
+        "local": [],
+        "expected_products": [
+          "SW_OPER_DNSAPOD_2__20211221T000000_20211221T235930_0301.ZIP",
+          "SW_OPER_DNSAPOD_2__20211221T000000_20211221T235930_0301.CDF",
+          "SW_OPER_DNSAPOD_2__20211221T000000_20211221T235930_0301.HDR"
+        ],
+        "historical_index_bytes": 139625,
+        "historical_index_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20211221T000000_20211221T235930_0301.ZIP",
+        "current_remote_status": "NOT_VERIFIED_NO_NETWORK",
+        "quality": "NOT_VERIFIED"
+      },
+      "required_seed": "decsol smax for later review"
+    },
+    {
+      "date": "2022-12-21",
+      "state": "ASSET_PARTIAL",
+      "phase": "DEFERRED",
+      "driver_requests": [
+        {
+          "index": "Fobs",
+          "start": "2022-11-07",
+          "stop": "2023-01-30",
+          "days": 85,
+          "URL": "https://kp.gfz.de/app/json/?start=2022-11-07T00%3A00%3A00Z&end=2023-01-30T23%3A59%3A59Z&index=Fobs"
+        },
+        {
+          "index": "Kp",
+          "start": "2022-12-05",
+          "stop": "2022-12-25",
+          "buckets": 168,
+          "URL": "https://kp.gfz.de/app/json/?start=2022-12-05T00%3A00%3A00Z&end=2022-12-25T23%3A59%3A59Z&index=Kp&status=def"
+        }
+      ],
+      "available_asset_receipt": "experiments/thermosphere_shrinkage_unseen_prereg_v37/asset_audit.json",
+      "observation": {
+        "product": "SW_OPER_DNSAPOD_2__20221221T000000_20221221T235930_0301.ZIP",
+        "status": "NOT_ACQUIRED",
+        "local": [],
+        "expected_products": [
+          "SW_OPER_DNSAPOD_2__20221221T000000_20221221T235930_0301.ZIP",
+          "SW_OPER_DNSAPOD_2__20221221T000000_20221221T235930_0301.CDF",
+          "SW_OPER_DNSAPOD_2__20221221T000000_20221221T235930_0301.HDR"
+        ],
+        "historical_index_bytes": 139886,
+        "historical_index_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20221221T000000_20221221T235930_0301.ZIP",
+        "current_remote_status": "NOT_VERIFIED_NO_NETWORK",
+        "quality": "NOT_VERIFIED"
+      },
+      "required_seed": "decsol smax for later review"
+    }
+  ],
+  "summer_pair": [
+    "2021-06-21",
+    "2022-06-21"
+  ],
+  "winter_pair": [
+    "2021-12-21",
+    "2022-12-21"
+  ],
+  "reusable_GFZ": [
+    {
+      "path": "data/raw/f107_2021_recovery_v1/gfz_year.txt",
+      "index": "2021 Fobs + definitive Kp",
+      "anchor": "experiments/f107_2021_recovery_v1/gfz_requests.json",
+      "SHA256": "f969f23b0b0d4aba80dca6f35d3e95c2d35a7e482457bc1812e5c0827090caae",
+      "source_URL": "ftp://ftp.gfz-potsdam.de/pub/home/obs/Kp_ap_Ap_SN_F107/Kp_ap_Ap_SN_F107_2021.txt"
+    },
+    {
+      "path": "data/raw/tiegcm_training_years_v1/2022_Fobs.json",
+      "SHA256": "e5b665880486903071efa5ad33964288bcd0b74195e31f380099366df270aab8",
+      "index": "Fobs",
+      "anchor": "experiments/tiegcm_2022_mar25_preparation_v1/driver_source_audit.json",
+      "first_UTC": "2022-02-15T00:00:00Z",
+      "last_UTC": "2022-05-19T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/en/data"
+    },
+    {
+      "path": "data/raw/tiegcm_training_years_v1/2022_Kp.json",
+      "SHA256": "9ed616a8b8e8fceb56b41bc7f243b5f0f518e233505cd97632004bf8e02b25f5",
+      "index": "Kp",
+      "anchor": "experiments/tiegcm_2022_mar25_preparation_v1/driver_source_audit.json",
+      "first_UTC": "2022-03-27T00:00:00Z",
+      "last_UTC": "2022-04-09T21:00:00Z",
+      "source_URL": "https://kp.gfz.de/en/data"
+    },
+    {
+      "path": "data/raw/training_window_mar23_v2/2022_Fobs_additional.json",
+      "SHA256": "8318254b1fe966e805818bff0ff535ca0645ad7b8db1304dc0ffb9872d5b3f65",
+      "index": "Fobs",
+      "anchor": "experiments/tiegcm_2022_mar25_preparation_v1/driver_source_audit.json",
+      "first_UTC": "2022-02-02T00:00:00Z",
+      "last_UTC": "2022-02-14T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-02-02T00:00:00Z&end=2022-02-14T23:59:59Z&index=Fobs"
+    },
+    {
+      "path": "data/raw/training_window_mar23_v2/2022_Kp_additional.json",
+      "SHA256": "d38b7d3da6be7cab0bd01505740f0c64c491e093f1d3f72801e42a0317842d62",
+      "index": "Kp",
+      "anchor": "experiments/tiegcm_2022_mar25_preparation_v1/driver_source_audit.json",
+      "first_UTC": "2022-03-14T00:00:00Z",
+      "last_UTC": "2022-03-26T21:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-03-14T00:00:00Z&end=2022-03-26T23:59:59Z&index=Kp&status=def"
+    },
+    {
+      "path": "data/raw/tiegcm_2022_spinup_14day_v1/Fobs_extension.json",
+      "SHA256": "c25de3e9c5abfc87461abdda044d0489987ac7e380f75b3973bc607dfab514d7",
+      "index": "Fobs",
+      "anchor": "experiments/tiegcm_2022_mar25_preparation_v1/driver_source_audit.json",
+      "first_UTC": "2022-01-26T00:00:00Z",
+      "last_UTC": "2022-02-01T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-01-26T00:00:00Z&end=2022-02-01T23:59:59Z&index=Fobs"
+    },
+    {
+      "path": "data/raw/tiegcm_2022_spinup_14day_v1/Kp_extension.json",
+      "SHA256": "223ed5b584b6fd3db8642c61f266d0eddc4893d6f23d8441a714aab8a2b643de",
+      "index": "Kp",
+      "anchor": "experiments/tiegcm_2022_mar25_preparation_v1/driver_source_audit.json",
+      "first_UTC": "2022-03-07T00:00:00Z",
+      "last_UTC": "2022-03-13T21:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-03-07T00:00:00Z&end=2022-03-13T23:59:59Z&index=Kp&status=def"
+    },
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Fobs_20220729_20221106.json",
+      "SHA256": "fcfd9d337597aeca2b59c79c189680f0363ca8bcddd3bdd88725f33ac3524744",
+      "index": "Fobs",
+      "anchor": "experiments/thermosphere_autumn_data_acquisition_v21/GFZ2022_raw_contract_audit.json",
+      "first_UTC": "2022-07-29T00:00:00Z",
+      "last_UTC": "2022-11-06T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/en/data"
+    },
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Kp_def_20220907_20220927.json",
+      "SHA256": "df6aff3f776881803f4d01227a8dd7593367d43271f50b43341b8297e6af99fb",
+      "index": "Kp",
+      "anchor": "experiments/thermosphere_autumn_data_acquisition_v21/GFZ2022_raw_contract_audit.json",
+      "first_UTC": "2022-09-07T00:00:00Z",
+      "last_UTC": "2022-09-27T21:00:00Z",
+      "source_URL": "https://kp.gfz.de/en/data"
+    },
+    {
+      "path": "data/raw/meeting_sources/gfz_Fobs_spinup_support.txt",
+      "SHA256": "d820698b22c38316805ff5fc52f51c55e38a8ecf1e09a1f98822d42313e4d666",
+      "index": "Fobs",
+      "anchor": "experiments/thermosphere_independent_date_validation_plan_v20/driver_source_inventory.json",
+      "first_UTC": "2023-01-31T00:00:00Z",
+      "last_UTC": "2023-05-05T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/ (full request retained in logs/meeting_sources_http_round5.json)"
+    },
+    {
+      "path": "data/raw/f107_2021_recovery_v1/gfz_fobs_check.txt",
+      "SHA256": "8584353e9e027ecac3536939c47bcb5b7f29e175214a9519ffb7870c25e25f63",
+      "index": "Fobs",
+      "anchor": "experiments/f107_2021_recovery_v1/gfz_requests.json",
+      "first_UTC": "2021-05-07T00:00:00Z",
+      "last_UTC": "2021-05-11T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2021-05-07T00:00:00Z&end=2021-05-11T23:59:59Z&index=Fobs"
+    }
+  ],
+  "seasonal_seed_candidates": [
+    {
+      "season": "summer",
+      "name": "tiegcm_res5.0_junsol_smax_prim.nc",
+      "URL": "https://download.hao.ucar.edu/pub/tgcm/data/tiegcm2.0/tiegcm_res5.0_junsol_smax_prim.nc",
+      "cached_index_attested": true,
+      "index_SHA256": "41219d708de8112817dbb8576a3fb10e864c6292cd6542890992dfaf2c42682e",
+      "indexed_size": "~16 MiB estimated",
+      "local_paths": [],
+      "actual_identity": "NOT_ACQUIRED",
+      "approved": false
+    },
+    {
+      "season": "winter",
+      "name": "tiegcm_res5.0_decsol_smax_prim.nc",
+      "URL": "https://download.hao.ucar.edu/pub/tgcm/data/tiegcm2.0/tiegcm_res5.0_decsol_smax_prim.nc",
+      "cached_index_attested": true,
+      "index_SHA256": "41219d708de8112817dbb8576a3fb10e864c6292cd6542890992dfaf2c42682e",
+      "indexed_size": "~16 MiB estimated",
+      "local_paths": [],
+      "actual_identity": "NOT_ACQUIRED",
+      "approved": false
+    }
+  ],
+  "summer_cached_ZIP_size_bytes": 278951,
+  "summer_estimated_caps": {
+    "GFZ_and_ZIP_network_MiB": 1,
+    "optional_separate_junsol_network_MiB": 20,
+    "ZIP_extracted_MiB": 2,
+    "cpu_seconds": 600,
+    "RSS_GiB": 4
+  },
+  "caps_are_proposals_not_authorization": true,
+  "no_live_URL_probe_in_V37": true,
+  "next_action": "Check 2021 observed-Fobs corrections first. If a gap remains, keep the pair blocked; bounded preparation of independent 2022 assets may still proceed if authorized."
+}
