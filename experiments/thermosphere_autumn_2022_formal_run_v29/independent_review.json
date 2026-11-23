@@ -1,0 +1,452 @@
+{
+  "identity": {
+    "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+    "parent_returncode": 0,
+    "session": 32605,
+    "ranks": [
+      {
+        "rank": 0,
+        "returncode": 0,
+        "child_pid": 32616,
+        "started_unix": 1795409432.6832805,
+        "ended_unix": 1795411874.32166,
+        "receipt_SHA256": "91f6ecb2b089d6cbb8a42b692f0acfa238a00858633d24d6ce993237716a1964"
+      },
+      {
+        "rank": 1,
+        "returncode": 0,
+        "child_pid": 32614,
+        "started_unix": 1795409432.6830482,
+        "ended_unix": 1795411874.3210182,
+        "receipt_SHA256": "59c0931df7b157d547afc9a435307480dd253639834fcaf0045b36a49fd66fc8"
+      },
+      {
+        "rank": 2,
+        "returncode": 0,
+        "child_pid": 32617,
+        "started_unix": 1795409432.6972077,
+        "ended_unix": 1795411874.3210182,
+        "receipt_SHA256": "65fe996496aa6f11978a6471cfe2607f7af49dba3e393ee86401e907ab34d40a"
+      },
+      {
+        "rank": 3,
+        "returncode": 0,
+        "child_pid": 32615,
+        "started_unix": 1795409432.682992,
+        "ended_unix": 1795411874.3210177,
+        "receipt_SHA256": "7ad5a464c3d65dcf4d2d6d027f2f4d45b28a5b836a7db6f51afa82e7b6f5ff6f"
+      }
+    ],
+    "progress_records_per_rank": 2304,
+    "actual_steps": 23040,
+    "actual_final_UTC": "2022-09-25T00:00:00Z",
+    "direct_wait_journal_verified": true
+  },
+  "outputs": {
+    "secondary_schema": {
+      "TN": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "K",
+        "dtype": "float32"
+      },
+      "UN": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "cm/s",
+        "dtype": "float32"
+      },
+      "VN": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "cm/s",
+        "dtype": "float32"
+      },
+      "O1": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "mmr",
+        "dtype": "float32"
+      },
+      "O2": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "mmr",
+        "dtype": "float32"
+      },
+      "N2": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "mmr",
+        "dtype": "float32"
+      },
+      "HE": {
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "units": "mmr",
+        "dtype": "float32"
+      }
+    },
+    "primary_records": 17,
+    "secondary_records": 384,
+    "files": [
+      {
+        "file": "primary_001.nc",
+        "SHA256": "9cf3c6cc2082b1c3c209b5f5fa032db2048aeab9871533f2646accb016902067",
+        "bytes": 16993024,
+        "records": 1,
+        "first_UTC": "2022-09-09T00:00:00Z",
+        "last_UTC": "2022-09-09T00:00:00Z"
+      },
+      {
+        "file": "primary_002.nc",
+        "SHA256": "a8f81771ac535abe88c22a128eed52f35124e794fd4228d87303fcbc72237ee6",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-10T00:00:00Z",
+        "last_UTC": "2022-09-10T00:00:00Z"
+      },
+      {
+        "file": "primary_003.nc",
+        "SHA256": "da0af1688484cd4dc0d36fa9e3bd898a643d34523efc3c7d391ed33f051b9622",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-11T00:00:00Z",
+        "last_UTC": "2022-09-11T00:00:00Z"
+      },
+      {
+        "file": "primary_004.nc",
+        "SHA256": "0162e378724f594f7656d7c2d6d4096cf32779b65b0cedd2992b67b47bb60269",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-12T00:00:00Z",
+        "last_UTC": "2022-09-12T00:00:00Z"
+      },
+      {
+        "file": "primary_005.nc",
+        "SHA256": "e0fd72a3c59927d1ea44b733c57f7486c781bb7290116433ff504df97394b1ca",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-13T00:00:00Z",
+        "last_UTC": "2022-09-13T00:00:00Z"
+      },
+      {
+        "file": "primary_006.nc",
+        "SHA256": "644cba38cf28cb9ae9afb14558eae553548d9527be9064a3656e1506d3615504",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-14T00:00:00Z",
+        "last_UTC": "2022-09-14T00:00:00Z"
+      },
+      {
+        "file": "primary_007.nc",
+        "SHA256": "bfbc9c5c77fe5c027d2e7cdfdd1f199fb299953d755ce48c0cbf2fa262f2f87e",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-15T00:00:00Z",
+        "last_UTC": "2022-09-15T00:00:00Z"
+      },
+      {
+        "file": "primary_008.nc",
+        "SHA256": "96f7b6fb933386efafece012ad0711ccb1a0e63ff6991d79e9b66b05e7ff93a9",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-16T00:00:00Z",
+        "last_UTC": "2022-09-16T00:00:00Z"
+      },
+      {
+        "file": "primary_009.nc",
+        "SHA256": "29ccbf6d74d2554ebac6937975cdf9a10174bdbe59f7ea988bffac072d2327da",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-17T00:00:00Z",
+        "last_UTC": "2022-09-17T00:00:00Z"
+      },
+      {
+        "file": "primary_010.nc",
+        "SHA256": "1e2284607a6190e751a06a963221cd48a460ed46ea7bbcf89c4b4e221b4d06ab",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-18T00:00:00Z",
+        "last_UTC": "2022-09-18T00:00:00Z"
+      },
+      {
+        "file": "primary_011.nc",
+        "SHA256": "18626190a24dbc6e1cb5ec2d8b93985c6d882a8f1ea1b5652bc1457cc0d206a1",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-19T00:00:00Z",
+        "last_UTC": "2022-09-19T00:00:00Z"
+      },
+      {
+        "file": "primary_012.nc",
+        "SHA256": "0991594903e5083ec3d5faebd0e10f392b1791d98aa3cb81f6cdc4cfd8d11821",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-20T00:00:00Z",
+        "last_UTC": "2022-09-20T00:00:00Z"
+      },
+      {
+        "file": "primary_013.nc",
+        "SHA256": "555c9952d31f4aee670587ef6d4046f87cf16993d1fbebc4a1411e65663c9171",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-21T00:00:00Z",
+        "last_UTC": "2022-09-21T00:00:00Z"
+      },
+      {
+        "file": "primary_014.nc",
+        "SHA256": "ef855ed5aa9532e7d1841cfccaede822760189eeac736933d778cd7bd798979b",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-22T00:00:00Z",
+        "last_UTC": "2022-09-22T00:00:00Z"
+      },
+      {
+        "file": "primary_015.nc",
+        "SHA256": "29701645a80df69f23e80b12e3e457cf71b9dc9836082ad78e2078e09a540f5b",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-23T00:00:00Z",
+        "last_UTC": "2022-09-23T00:00:00Z"
+      },
+      {
+        "file": "primary_016.nc",
+        "SHA256": "feb20372e8635682fb9fb6d058e65424115f3908b751ea4a808e102a045f7bc4",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-24T00:00:00Z",
+        "last_UTC": "2022-09-24T00:00:00Z"
+      },
+      {
+        "file": "primary_017.nc",
+        "SHA256": "d9f28e9878a9218810de13936cfb5196490b4b37b8401011324176f65679f55d",
+        "bytes": 16993240,
+        "records": 1,
+        "first_UTC": "2022-09-25T00:00:00Z",
+        "last_UTC": "2022-09-25T00:00:00Z"
+      },
+      {
+        "file": "secondary_001.nc",
+        "SHA256": "1f1dea2e5bf923f1d225908130b51731b525b9b9bc6db88a855a268829bcff07",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-09T01:00:00Z",
+        "last_UTC": "2022-09-10T00:00:00Z"
+      },
+      {
+        "file": "secondary_002.nc",
+        "SHA256": "17a681b322200321737608405ff3543782811d4d59fdeff3e32d5dd10d076551",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-10T01:00:00Z",
+        "last_UTC": "2022-09-11T00:00:00Z"
+      },
+      {
+        "file": "secondary_003.nc",
+        "SHA256": "a09e2d027e9834c73f7f277f1463d9b3c9622d7dd2bd73783e9c9f4f511e1fcf",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-11T01:00:00Z",
+        "last_UTC": "2022-09-12T00:00:00Z"
+      },
+      {
+        "file": "secondary_004.nc",
+        "SHA256": "4af1406f55d1f60af41a69aeae49e1d87a83dd9c34fb2c93b17c479e5cb9873f",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-12T01:00:00Z",
+        "last_UTC": "2022-09-13T00:00:00Z"
+      },
+      {
+        "file": "secondary_005.nc",
+        "SHA256": "f1feb40560f72b0cb1818f2f4493380685eeea5c2fd89aab29dd161d616add57",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-13T01:00:00Z",
+        "last_UTC": "2022-09-14T00:00:00Z"
+      },
+      {
+        "file": "secondary_006.nc",
+        "SHA256": "c38b754d6a53af2210dc215ea8498b043f1f4f331a799296067a892a5255d078",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-14T01:00:00Z",
+        "last_UTC": "2022-09-15T00:00:00Z"
+      },
+      {
+        "file": "secondary_007.nc",
+        "SHA256": "13709a3e5885d39e07a6b740db6fc095b183f0b13420f7307ffe65154b56b8e3",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-15T01:00:00Z",
+        "last_UTC": "2022-09-16T00:00:00Z"
+      },
+      {
+        "file": "secondary_008.nc",
+        "SHA256": "6b80f7ba4090f3f8e5685c050f73396c81e0ab8e0414903ef039671f0a329615",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-16T01:00:00Z",
+        "last_UTC": "2022-09-17T00:00:00Z"
+      },
+      {
+        "file": "secondary_009.nc",
+        "SHA256": "8dc4731ac0725cdf8b23e894371a277c0c407b8fd593aba8b8998c70c41ad513",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-17T01:00:00Z",
+        "last_UTC": "2022-09-18T00:00:00Z"
+      },
+      {
+        "file": "secondary_010.nc",
+        "SHA256": "d421b676a1131554772e03576de6d1c808c151ac81a4418c755a9aa92db6bbf0",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-18T01:00:00Z",
+        "last_UTC": "2022-09-19T00:00:00Z"
+      },
+      {
+        "file": "secondary_011.nc",
+        "SHA256": "6c2277dd7d8f6972640b85fc6d53df55babe0e1efce74e252fd18c0429ed9924",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-19T01:00:00Z",
+        "last_UTC": "2022-09-20T00:00:00Z"
+      },
+      {
+        "file": "secondary_012.nc",
+        "SHA256": "cd10cfd72af72623724d59dc40f9e7ebdecd55c7590cbc48ec845debd45066ff",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-20T01:00:00Z",
+        "last_UTC": "2022-09-21T00:00:00Z"
+      },
+      {
+        "file": "secondary_013.nc",
+        "SHA256": "29a450233e4f8b46545e5a8ee4f770bd34b565a81093ed4bcba445c0d3e88fe5",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-21T01:00:00Z",
+        "last_UTC": "2022-09-22T00:00:00Z"
+      },
+      {
+        "file": "secondary_014.nc",
+        "SHA256": "ffd88c673b5e2e9faef33b34bb5fc26c340d1df22bca0322eab51713b298ca73",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-22T01:00:00Z",
+        "last_UTC": "2022-09-23T00:00:00Z"
+      },
+      {
+        "file": "secondary_015.nc",
+        "SHA256": "1045cadf0ea23789d2f401a66de4bcda1a89032758354d8c1618c5b30be733b2",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-23T01:00:00Z",
+        "last_UTC": "2022-09-24T00:00:00Z"
+      },
+      {
+        "file": "secondary_016.nc",
+        "SHA256": "c0bcfb6e00ca2bba708e2a1d2af3375c753f422c999a06a2df798ade67b7b198",
+        "bytes": 192669008,
+        "records": 24,
+        "first_UTC": "2022-09-24T01:00:00Z",
+        "last_UTC": "2022-09-25T00:00:00Z"
+      }
+    ],
+    "NetCDF_files": 33,
+    "NetCDF_bytes": 3371588992,
+    "all_warm_DEN_ZG_records": 384,
+    "cold_primary_echo": 1,
+    "actual_GFZ_max_abs_difference": {
+      "f107d": 2.842170943040401e-14,
+      "f107a": 5.684341886080802e-14,
+      "Kp": 8.881784197001252e-16,
+      "hpower": 1.4210854715202004e-14,
+      "ctpoten": 2.842170943040401e-14
+    },
+    "original_GPI_SHA256": "7d43db220fe7fbaded6b2182db8db32ee09cedf99dc5760815824ccf8298ebb2",
+    "physical_fixed_samples": [
+      {
+        "UTC": "2022-09-23T00:00:00Z",
+        "DEN_min_kg_m3": 8.459725017090074e-14,
+        "DEN_max_kg_m3": 1.2046440511781498e-06,
+        "ZG_min_m": 95678.43000000001,
+        "ZG_max_m": 678144.0
+      },
+      {
+        "UTC": "2022-09-23T12:00:00Z",
+        "DEN_min_kg_m3": 8.060095534319985e-14,
+        "DEN_max_kg_m3": 1.2054293119234671e-06,
+        "ZG_min_m": 95678.43000000001,
+        "ZG_max_m": 684127.2000000001
+      },
+      {
+        "UTC": "2022-09-25T00:00:00Z",
+        "DEN_min_kg_m3": 8.200195445540336e-14,
+        "DEN_max_kg_m3": 1.2062688625746887e-06,
+        "ZG_min_m": 95681.27,
+        "ZG_max_m": 697965.6
+      }
+    ]
+  },
+  "independent_queries": {
+    "total": 2880,
+    "eligible": 2880,
+    "success": 2880,
+    "failed": 0,
+    "reasons": {},
+    "column_checks": 23040,
+    "zero_weight_columns_checked": true,
+    "no_extrapolation": true,
+    "no_error_metrics": true,
+    "method": "Independent CDF/geodetic conversion and neighbor/time/log-vertical reconstruction; not main PASS fields",
+    "identity": "PROVISIONAL Map-A / HINDCAST / NOT_BLIND / EXTERNAL_DATUM_UNVERIFIED"
+  },
+  "overall": "ENGINEERING_PASS",
+  "independent_raw_checks": "PASS",
+  "ACTUAL_MODEL_RUN": "COMPLETED",
+  "main_acceptance_path": "experiments/thermosphere_autumn_2022_execution_preparation_v27/postrun_v27_local/acceptance.json",
+  "main_acceptance_SHA256": "4a969aa93a52c67776bacb45d5ce2c10a2294662ccae456a2a5cba4f17cfffc6",
+  "new_density_scores": 0,
+  "model_launches_this_verifier": 0,
+  "protected_original_files": 161,
+  "prior_pins": 25,
+  "GFZ_SHA256": {
+    "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Fobs_20220729_20221106.json": "fcfd9d337597aeca2b59c79c189680f0363ca8bcddd3bdd88725f33ac3524744",
+    "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Kp_def_20220907_20220927.json": "df6aff3f776881803f4d01227a8dd7593367d43271f50b43341b8297e6af99fb"
+  },
+  "verifier_SHA256": "08e528d621788fb7ab2de636760ee884287e9e8119cf8dcb1f86ad3bcfa03b42",
+  "wall_s": 7.3504245318472385,
+  "CPU_s": 7.349749176,
+  "self_peak_RSS_KiB": 167924
+}

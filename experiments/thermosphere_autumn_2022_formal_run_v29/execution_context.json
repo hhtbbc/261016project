@@ -1,0 +1,12 @@
+{
+  "checked_UTC": "2026-11-23T04:50:31.961854+00:00",
+  "pod_running": true,
+  "pid1_elapsed_seconds": 8265,
+  "execution": "Non-PTY managed command with durable V27 direct-wait supervisor, HUP ignored",
+  "pod_survival_guarantee": false,
+  "explicit_imminent_termination_evidence": false,
+  "project_mount": "ext4 /workspace/data",
+  "CPU_authorized": true,
+  "model_launch_limit": 1,
+  "CUDA_VISIBLE_DEVICES": ""
+}

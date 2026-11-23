@@ -1,0 +1,33 @@
+{
+  "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+  "parent_returncode": 0,
+  "wait_source": "direct subprocess.Popen.wait",
+  "cleanup_verified": true,
+  "monitoring_gaps": 0,
+  "ranks": [
+    {
+      "rank": 0,
+      "returncode": 0,
+      "receipt_SHA256": "91f6ecb2b089d6cbb8a42b692f0acfa238a00858633d24d6ce993237716a1964",
+      "wait_source": "direct subprocess.Popen.wait"
+    },
+    {
+      "rank": 1,
+      "returncode": 0,
+      "receipt_SHA256": "59c0931df7b157d547afc9a435307480dd253639834fcaf0045b36a49fd66fc8",
+      "wait_source": "direct subprocess.Popen.wait"
+    },
+    {
+      "rank": 2,
+      "returncode": 0,
+      "receipt_SHA256": "65fe996496aa6f11978a6471cfe2607f7af49dba3e393ee86401e907ab34d40a",
+      "wait_source": "direct subprocess.Popen.wait"
+    },
+    {
+      "rank": 3,
+      "returncode": 0,
+      "receipt_SHA256": "7ad5a464c3d65dcf4d2d6d027f2f4d45b28a5b836a7db6f51afa82e7b6f5ff6f",
+      "wait_source": "direct subprocess.Popen.wait"
+    }
+  ]
+}

@@ -1359,3 +1359,8 @@ THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21=DATA_PARTIAL，两年份均DATA_PARTIAL
 ## 2026-11-23 V28 2022 秋季积分预检
 
 起始本地与实查远端1fd01541b18fd21a86ed917a2e0128e089add3a8。激活冻结环境后执行 V27 --year 2022 --check-only，退出0，0.624秒；只读核验两份GFZ、发布及历史证据。Kubernetes会话中缺站点长作业许可和至少5400秒加开销的持续监督依据。未提供会话确认参数，未创建正式路径或预约。成果 experiments/thermosphere_autumn_2022_formal_run_v28/。后续待站点CPU与会话确认。
+
+
+## 2026-11-23 V29 2022 秋季正式积分与验收
+
+起始本地及远端46465e5e0c7cc72e272b0ee6b149def4fa710fc9。CPU明确授权，非PTY/HUP隔离及原V27监督；check-only 后正式命令一次，run_id 4a89e99eaee548f28240ea47f4b98e47。墙钟 2441.927s，MPI父/四rank 0，采样峰 980705280 bytes。独立只读 7.350s 重查33SHA、全部字段、GFZ、Swarm与历史保护，不评分。证据 experiments/thermosphere_autumn_2022_formal_run_v29/；原件 experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run/。
