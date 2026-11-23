@@ -1,0 +1,7 @@
+file,title_zh,caption_zh
+figures/01_four_dates_raw.png,四日期原始绝对与相对误差,同一截点后累计6小时；春季只引用冻结值。
+figures/02_residual_drift.png,秋季历史与未来逐小时残差变化,固定一小时块；未来中位数与分位数只用于事后诊断。
+figures/03_density_contributions.png,观测密度五分位的两类误差贡献,全窗口N分母，负为改善。案例依次为+3/+6/+6/+6小时，各箱独立于其他窗口定义。
+figures/04_coefficient_shift.png,同日 06Z 与 18Z 的冻结校正幅度,过去3小时 log 残差中位数取指数；未拟合新预测系数。
+figures/05_time_aggregation.png,累计改善与局部退化并存,左侧三条为累计，右侧三条为非重叠；正值表示误差变大。
+figures/06_case_latitude.png,四个案例的纬度贡献及误差冲突,各区增量按同一窗口Raw误差归一化，低中高纬之和为全窗口MSE变化比例。

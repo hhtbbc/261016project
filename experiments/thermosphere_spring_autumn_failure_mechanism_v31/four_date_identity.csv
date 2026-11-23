@@ -1,0 +1,5 @@
+date,season,PASS,FAIL,N_A,case,status,role
+2021-03-25,spring,1,11,0,B14,frozen_copy,historical_development_reference
+2021-09-23,autumn,8,4,0,B14,frozen_copy,previously_scored_test_used_for_exploratory_diagnosis
+2022-03-25,spring,0,12,0,B14,frozen_copy,historical_development_reference
+2022-09-23,autumn,6,6,0,B14,frozen_copy,previously_scored_test_used_for_exploratory_diagnosis

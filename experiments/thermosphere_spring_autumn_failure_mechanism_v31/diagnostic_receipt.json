@@ -1,0 +1,17 @@
+{
+  "PASS": true,
+  "identity": "EXPLORATORY / POST_HOC / HINDCAST / PROVISIONAL Map-A / EXTERNAL_DATUM_UNVERIFIED",
+  "residual_rows": 256,
+  "decomposition_rows": 48,
+  "contribution_rows": 1296,
+  "formal_scores": 0,
+  "new_prediction_arrays": 0,
+  "GPU_calls": 0,
+  "new_integrations": 0,
+  "pointwise_tolerance": 1e-12,
+  "resources": {
+    "wall_s": 8.242853958159685,
+    "CPU_s": 8.619920916,
+    "peak_RSS_KiB": 77792
+  }
+}

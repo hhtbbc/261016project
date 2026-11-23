@@ -1369,3 +1369,8 @@ THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21=DATA_PARTIAL，两年份均DATA_PARTIAL
 ## 2026-11-23 V30 两年秋季密度评价
 
 V30使用CPU-only Python -B运行 prepare/history/poison、逐年 score、独立verify及展示脚本。两年66卷、CDF和V20完整哈希；独立共5760点/46080列，详见两年各172行指标和各24行联合结果。初稿图的上标负号缺字，采用数学字体重绘，评分及复核数据未改。实验目录experiments/thermosphere_autumn_density_validation_v30/。没有模型/GPU/调参；后续另授权开展机制诊断与新预注册日期。
+
+
+## 2026-11-23 V31 春秋误差机制诊断
+
+V31仅复用V30缓存及春季冻结表。CPU Python -B运行 diagnose/verify/plot 三脚本，256残差、48窗、1296分组、6图；156个输入SHA及66卷独立重核，32,008项通过。主8.24s/独立8.27s，峰81572KiB。无重评分或科学阈值变更。方案 docs/THERMOSPHERE_MECHANISM_NEXT_STAGE_PLAN_V31.md。

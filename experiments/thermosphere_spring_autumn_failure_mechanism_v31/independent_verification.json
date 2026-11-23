@@ -1,0 +1,16 @@
+{
+  "PASS": true,
+  "status": "MECHANISM_DIAGNOSTIC_COMPLETE_VERIFIED",
+  "numeric_checks": 32008,
+  "failures": [],
+  "max_scale_normalized_difference": 4.740987933682966e-16,
+  "bounds": "1e-12 times magnitude or decomposed term scale; residual fractions scale 1",
+  "frozen_input_sha_rechecked": 156,
+  "native_volumes_rehashed": 66,
+  "joint_evaluations_recomputed": 0,
+  "resources": {
+    "wall_s": 8.274292584508657,
+    "CPU_s": 8.67407388,
+    "peak_RSS_KiB": 81572
+  }
+}
