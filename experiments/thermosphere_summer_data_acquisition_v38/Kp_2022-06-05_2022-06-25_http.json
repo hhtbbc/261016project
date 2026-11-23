@@ -1,0 +1,78 @@
+{
+  "key": "Kp_2022-06-05_2022-06-25",
+  "requests": [
+    {
+      "URL": "https://kp.gfz.de/app/json/?start=2022-06-05T00%3A00%3A00Z&end=2022-06-25T23%3A59%3A59Z&index=Kp&status=def",
+      "original_URL": "https://kp.gfz.de/app/json/?start=2022-06-05T00%3A00%3A00Z&end=2022-06-25T23%3A59%3A59Z&index=Kp&status=def",
+      "group": "small",
+      "redirect_hop": 0,
+      "started_unix": 1795424450.1157756,
+      "meter_before": {
+        "limits": {
+          "small": 1048576,
+          "initial": 20971520
+        },
+        "received_transport_bytes": {
+          "small": 16929,
+          "initial": 0
+        },
+        "sent_transport_bytes": {
+          "small": 5628,
+          "initial": 0
+        },
+        "conservative_failed_send_reservations": {
+          "small": 0,
+          "initial": 0
+        },
+        "charged_bytes": {
+          "small": 22557,
+          "initial": 0
+        },
+        "total_received_bytes": 16929,
+        "total_sent_bytes": 5628,
+        "total_charged_bytes": 22557,
+        "definition": "Application TCP-stream consumed bytes inclTLS/HTTP/CONNECT; outbound also charged conservatively; includes all attempts/redirects/errors, not only saved bodies. IP-level overhead/retransmissions not observable; not OS packet isolation."
+      },
+      "HTTP": 200,
+      "TLS_hostname_verified": true,
+      "headers": {
+        "Content-Length": "5871",
+        "Content-Type": "application/json"
+      },
+      "header_checked_before_body_write": true,
+      "body_bytes": 5871,
+      "final_URL": "https://kp.gfz.de/app/json/?start=2022-06-05T00%3A00%3A00Z&end=2022-06-25T23%3A59%3A59Z&index=Kp&status=def",
+      "SHA256": "ff0e70b81ea3e32b323adbba211edc73d7d35c2b60e26d4b8117c9d2307334bd",
+      "relative_path": "data/raw/thermosphere_summer_data_acquisition_v38/Kp_2022-06-05_2022-06-25.json",
+      "published_atomic_no_clobber": true,
+      "completed_unix": 1795424450.995161,
+      "file_elapsed_s": 0.8793954849243164,
+      "meter_after": {
+        "limits": {
+          "small": 1048576,
+          "initial": 20971520
+        },
+        "received_transport_bytes": {
+          "small": 27674,
+          "initial": 0
+        },
+        "sent_transport_bytes": {
+          "small": 7513,
+          "initial": 0
+        },
+        "conservative_failed_send_reservations": {
+          "small": 0,
+          "initial": 0
+        },
+        "charged_bytes": {
+          "small": 35187,
+          "initial": 0
+        },
+        "total_received_bytes": 27674,
+        "total_sent_bytes": 7513,
+        "total_charged_bytes": 35187,
+        "definition": "Application TCP-stream consumed bytes inclTLS/HTTP/CONNECT; outbound also charged conservatively; includes all attempts/redirects/errors, not only saved bodies. IP-level overhead/retransmissions not observable; not OS packet isolation."
+      }
+    }
+  ]
+}

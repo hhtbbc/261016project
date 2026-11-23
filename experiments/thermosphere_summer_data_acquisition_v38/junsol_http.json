@@ -1,0 +1,75 @@
+{
+  "key": "junsol",
+  "requests": [
+    {
+      "URL": "https://download.hao.ucar.edu/pub/tgcm/data/tiegcm2.0/tiegcm_res5.0_junsol_smax_prim.nc",
+      "original_URL": "https://download.hao.ucar.edu/pub/tgcm/data/tiegcm2.0/tiegcm_res5.0_junsol_smax_prim.nc",
+      "group": "initial",
+      "redirect_hop": 0,
+      "started_unix": 1795424502.6554215,
+      "meter_before": {
+        "limits": {
+          "small": 1048576,
+          "initial": 20971520
+        },
+        "received_transport_bytes": {
+          "small": 40134,
+          "initial": 0
+        },
+        "sent_transport_bytes": {
+          "small": 11445,
+          "initial": 0
+        },
+        "conservative_failed_send_reservations": {
+          "small": 0,
+          "initial": 0
+        },
+        "charged_bytes": {
+          "small": 51579,
+          "initial": 0
+        },
+        "total_received_bytes": 40134,
+        "total_sent_bytes": 11445,
+        "total_charged_bytes": 51579,
+        "definition": "Application TCP-stream consumed bytes inclTLS/HTTP/CONNECT; outbound also charged conservatively; includes all attempts/redirects/errors, not only saved bodies. IP-level overhead/retransmissions not observable; not OS packet isolation."
+      },
+      "HTTP": 403,
+      "TLS_hostname_verified": true,
+      "headers": {
+        "Content-Length": "199",
+        "Content-Type": "text/html; charset=iso-8859-1"
+      },
+      "header_checked_before_body_write": true,
+      "error_type": "ValueError",
+      "error": "HTTP status not200; no retry or authentication",
+      "body_bytes_saved": 0,
+      "partial_preserved": false,
+      "meter_after": {
+        "limits": {
+          "small": 1048576,
+          "initial": 20971520
+        },
+        "received_transport_bytes": {
+          "small": 40134,
+          "initial": 7178
+        },
+        "sent_transport_bytes": {
+          "small": 11445,
+          "initial": 1921
+        },
+        "conservative_failed_send_reservations": {
+          "small": 0,
+          "initial": 0
+        },
+        "charged_bytes": {
+          "small": 51579,
+          "initial": 9099
+        },
+        "total_received_bytes": 47312,
+        "total_sent_bytes": 13366,
+        "total_charged_bytes": 60678,
+        "definition": "Application TCP-stream consumed bytes inclTLS/HTTP/CONNECT; outbound also charged conservatively; includes all attempts/redirects/errors, not only saved bodies. IP-level overhead/retransmissions not observable; not OS packet isolation."
+      }
+    }
+  ]
+}

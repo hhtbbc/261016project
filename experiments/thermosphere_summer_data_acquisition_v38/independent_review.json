@@ -1,0 +1,22 @@
+{
+  "state": "VERIFIED_ACTUAL_AVAILABLE_ASSETS",
+  "tests": 31,
+  "failures": 0,
+  "rehashed_originals_and_reused_sources": 15,
+  "GFZ_independent": {
+    "2021-06-21": {
+      "Fobs": 99,
+      "Kp": 168,
+      "centers": 0
+    },
+    "2022-06-21": {
+      "Fobs": 101,
+      "Kp": 168,
+      "centers": 21
+    }
+  },
+  "V37_pins": 10,
+  "wall_s": 0.04456886649131775,
+  "CPU_s": 0.04062130199999997,
+  "peak_RSS_KiB": 77916
+}

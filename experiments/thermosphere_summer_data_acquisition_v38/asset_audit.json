@@ -1,0 +1,286 @@
+{
+  "V37_SHA256": {
+    "experiments/thermosphere_shrinkage_unseen_prereg_v37/acquisition_gaps.json": "588217ac94be9eb38120da9ac40f18537b1fc43f2892ce5bedd52fef4ea3e8c9",
+    "experiments/thermosphere_shrinkage_unseen_prereg_v37/asset_audit.json": "4456be5df61660d0e5c4f301010498032a65f58c4a5efa3e87c29990cea5b7bc",
+    "experiments/thermosphere_shrinkage_unseen_prereg_v37/audit_recovery.json": "f65553175efa1628878a22af2d7d3f9fb29e96c99eecd7e2b730ebc5797f97c6",
+    "experiments/thermosphere_shrinkage_unseen_prereg_v37/independent_review.json": "f0a1dc0048c2df25ce3ac1e3c6f0b6f8419cda78f747bec119517831fa8975c9",
+    "experiments/thermosphere_shrinkage_unseen_prereg_v37/preregistered_protocol.json": "3620790378027001cba916ec636c1a9786b42c194a440b2b2986c3b5981fe502",
+    "reports/THERMOSPHERE_SHRINKAGE_UNSEEN_PREREG_V37.md": "089a5e867a00697628ad7cb3ca3773cb31833a848b9c77edc2706d900525921c",
+    "scripts/audit_shrinkage_unseen_v37.py": "e0cf3a68a8ed804aa602413fbcb2eb57a47b4841f7ebe7447af4ea4db689545a",
+    "scripts/freeze_shrinkage_unseen_v37.py": "b632f6f8b3a4655a1b9a122a4648167e980cf34575b5b82b0893364ec46d8eb0",
+    "scripts/verify_shrinkage_unseen_v37.py": "595dffdef46523dc9b22e2ae3f233fae7e37b1f858f367f9ce687b582658ca41",
+    "src/evaluation/shrinkage_unseen_gate_v37.py": "d8cc827b148e3ad4f3accdedf1c15658405f39aaee8df4ddce46d38029f55a59"
+  },
+  "new_GFZ_counts": {
+    "Fobs_2022-05-20_2022-07-28": 70,
+    "Kp_2022-06-05_2022-06-25": 168
+  },
+  "GFZ_rechecks": {
+    "2021-05-09": {
+      "value": -1.0,
+      "archive_value": -1.0,
+      "source": "GFZ Potsdam",
+      "unit": "sfu per GFZ index definition",
+      "explicit_units_in_response": false,
+      "product_revision_in_payload": null,
+      "asset": {
+        "path": "data/raw/thermosphere_summer_data_acquisition_v38/Fobs_2021-05-09_2021-05-09.json",
+        "SHA256": "90114f1b2c07aa22ab5254286079a00015fa8eb898f6719ece7f1608c323c7fe",
+        "bytes": 106,
+        "URL": "https://kp.gfz.de/app/json/?start=2021-05-09T00%3A00%3A00Z&end=2021-05-09T23%3A59%3A59Z&index=Fobs",
+        "final_URL": "https://kp.gfz.de/app/json/?start=2021-05-09T00%3A00%3A00Z&end=2021-05-09T23%3A59%3A59Z&index=Fobs",
+        "HTTP": 200,
+        "Content_Length": 106,
+        "existing_reused": false
+      },
+      "status": "OFFICIAL_MISSING_STILL_PRESENT"
+    },
+    "2021-06-16": {
+      "value": -1.0,
+      "archive_value": -1.0,
+      "source": "GFZ Potsdam",
+      "unit": "sfu per GFZ index definition",
+      "explicit_units_in_response": false,
+      "product_revision_in_payload": null,
+      "asset": {
+        "path": "data/raw/thermosphere_summer_data_acquisition_v38/Fobs_2021-06-16_2021-06-16.json",
+        "SHA256": "68e26703fcdf3caeb10853a119d4255d95e0bdbafbac0cbdaa45c89860229296",
+        "bytes": 106,
+        "URL": "https://kp.gfz.de/app/json/?start=2021-06-16T00%3A00%3A00Z&end=2021-06-16T23%3A59%3A59Z&index=Fobs",
+        "final_URL": "https://kp.gfz.de/app/json/?start=2021-06-16T00%3A00%3A00Z&end=2021-06-16T23%3A59%3A59Z&index=Fobs",
+        "HTTP": 200,
+        "Content_Length": 106,
+        "existing_reused": false
+      },
+      "status": "OFFICIAL_MISSING_STILL_PRESENT"
+    }
+  },
+  "GFZ": {
+    "2021-06-21": {
+      "status": "GFZ_BLOCKED",
+      "Fobs_valid": 99,
+      "Fobs_missing": [
+        "2021-05-09",
+        "2021-06-16"
+      ],
+      "definitive_Kp_valid": 168,
+      "Kp_missing": [],
+      "valid_centers": 0,
+      "daily_center81_check_sfu": {
+        "2021-06-05": null,
+        "2021-06-06": null,
+        "2021-06-07": null,
+        "2021-06-08": null,
+        "2021-06-09": null,
+        "2021-06-10": null,
+        "2021-06-11": null,
+        "2021-06-12": null,
+        "2021-06-13": null,
+        "2021-06-14": null,
+        "2021-06-15": null,
+        "2021-06-16": null,
+        "2021-06-17": null,
+        "2021-06-18": null,
+        "2021-06-19": null,
+        "2021-06-20": null,
+        "2021-06-21": null,
+        "2021-06-22": null,
+        "2021-06-23": null,
+        "2021-06-24": null,
+        "2021-06-25": null
+      },
+      "support": {
+        "target_date": "2021-06-21",
+        "start": "2021-06-07",
+        "stop": "2021-06-23",
+        "raw_start": "2021-06-05",
+        "raw_stop": "2021-06-25",
+        "solar_start": "2021-04-26",
+        "solar_stop": "2021-08-04",
+        "run_days": 16,
+        "steps": 23040,
+        "primary_records": 17,
+        "secondary_records": 384,
+        "GPI_days": 21,
+        "Kp_buckets": 168,
+        "Fobs_days": 101
+      }
+    },
+    "2022-06-21": {
+      "status": "GFZ_COMPLETE",
+      "Fobs_valid": 101,
+      "Fobs_missing": [],
+      "definitive_Kp_valid": 168,
+      "Kp_missing": [],
+      "valid_centers": 21,
+      "daily_center81_check_sfu": {
+        "2022-06-05": 127.22469135802463,
+        "2022-06-06": 127.56172839506168,
+        "2022-06-07": 127.80493827160488,
+        "2022-06-08": 128.0172839506172,
+        "2022-06-09": 128.27160493827154,
+        "2022-06-10": 128.42592592592587,
+        "2022-06-11": 128.58271604938267,
+        "2022-06-12": 128.61728395061724,
+        "2022-06-13": 128.57654320987652,
+        "2022-06-14": 128.29259259259257,
+        "2022-06-15": 128.07530864197528,
+        "2022-06-16": 127.82345679012344,
+        "2022-06-17": 127.5753086419753,
+        "2022-06-18": 127.25679012345678,
+        "2022-06-19": 126.9604938271605,
+        "2022-06-20": 126.65185185185184,
+        "2022-06-21": 126.17530864197529,
+        "2022-06-22": 125.7111111111111,
+        "2022-06-23": 125.07283950617278,
+        "2022-06-24": 124.42098765432095,
+        "2022-06-25": 123.86790123456785
+      },
+      "support": {
+        "target_date": "2022-06-21",
+        "start": "2022-06-07",
+        "stop": "2022-06-23",
+        "raw_start": "2022-06-05",
+        "raw_stop": "2022-06-25",
+        "solar_start": "2022-04-26",
+        "solar_stop": "2022-08-04",
+        "run_days": 16,
+        "steps": 23040,
+        "primary_records": 17,
+        "secondary_records": 384,
+        "GPI_days": 21,
+        "Kp_buckets": 168,
+        "Fobs_days": 101
+      }
+    }
+  },
+  "prior_GFZ": [
+    {
+      "path": "data/raw/f107_2021_recovery_v1/gfz_year.txt",
+      "index": "2021 Fobs + definitive Kp",
+      "anchor": "experiments/f107_2021_recovery_v1/gfz_requests.json",
+      "SHA256": "f969f23b0b0d4aba80dca6f35d3e95c2d35a7e482457bc1812e5c0827090caae",
+      "source_URL": "ftp://ftp.gfz-potsdam.de/pub/home/obs/Kp_ap_Ap_SN_F107/Kp_ap_Ap_SN_F107_2021.txt"
+    },
+    {
+      "path": "data/raw/tiegcm_training_years_v1/2022_Fobs.json",
+      "SHA256": "e5b665880486903071efa5ad33964288bcd0b74195e31f380099366df270aab8",
+      "index": "Fobs",
+      "anchor": "experiments/tiegcm_2022_mar25_preparation_v1/driver_source_audit.json",
+      "first_UTC": "2022-02-15T00:00:00Z",
+      "last_UTC": "2022-05-19T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/en/data"
+    },
+    {
+      "path": "data/raw/tiegcm_training_years_v1/2022_Kp.json",
+      "SHA256": "9ed616a8b8e8fceb56b41bc7f243b5f0f518e233505cd97632004bf8e02b25f5",
+      "index": "Kp",
+      "anchor": "experiments/tiegcm_2022_mar25_preparation_v1/driver_source_audit.json",
+      "first_UTC": "2022-03-27T00:00:00Z",
+      "last_UTC": "2022-04-09T21:00:00Z",
+      "source_URL": "https://kp.gfz.de/en/data"
+    },
+    {
+      "path": "data/raw/training_window_mar23_v2/2022_Fobs_additional.json",
+      "SHA256": "8318254b1fe966e805818bff0ff535ca0645ad7b8db1304dc0ffb9872d5b3f65",
+      "index": "Fobs",
+      "anchor": "experiments/tiegcm_2022_mar25_preparation_v1/driver_source_audit.json",
+      "first_UTC": "2022-02-02T00:00:00Z",
+      "last_UTC": "2022-02-14T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-02-02T00:00:00Z&end=2022-02-14T23:59:59Z&index=Fobs"
+    },
+    {
+      "path": "data/raw/training_window_mar23_v2/2022_Kp_additional.json",
+      "SHA256": "d38b7d3da6be7cab0bd01505740f0c64c491e093f1d3f72801e42a0317842d62",
+      "index": "Kp",
+      "anchor": "experiments/tiegcm_2022_mar25_preparation_v1/driver_source_audit.json",
+      "first_UTC": "2022-03-14T00:00:00Z",
+      "last_UTC": "2022-03-26T21:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-03-14T00:00:00Z&end=2022-03-26T23:59:59Z&index=Kp&status=def"
+    },
+    {
+      "path": "data/raw/tiegcm_2022_spinup_14day_v1/Fobs_extension.json",
+      "SHA256": "c25de3e9c5abfc87461abdda044d0489987ac7e380f75b3973bc607dfab514d7",
+      "index": "Fobs",
+      "anchor": "experiments/tiegcm_2022_mar25_preparation_v1/driver_source_audit.json",
+      "first_UTC": "2022-01-26T00:00:00Z",
+      "last_UTC": "2022-02-01T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-01-26T00:00:00Z&end=2022-02-01T23:59:59Z&index=Fobs"
+    },
+    {
+      "path": "data/raw/tiegcm_2022_spinup_14day_v1/Kp_extension.json",
+      "SHA256": "223ed5b584b6fd3db8642c61f266d0eddc4893d6f23d8441a714aab8a2b643de",
+      "index": "Kp",
+      "anchor": "experiments/tiegcm_2022_mar25_preparation_v1/driver_source_audit.json",
+      "first_UTC": "2022-03-07T00:00:00Z",
+      "last_UTC": "2022-03-13T21:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2022-03-07T00:00:00Z&end=2022-03-13T23:59:59Z&index=Kp&status=def"
+    },
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Fobs_20220729_20221106.json",
+      "SHA256": "fcfd9d337597aeca2b59c79c189680f0363ca8bcddd3bdd88725f33ac3524744",
+      "index": "Fobs",
+      "anchor": "experiments/thermosphere_autumn_data_acquisition_v21/GFZ2022_raw_contract_audit.json",
+      "first_UTC": "2022-07-29T00:00:00Z",
+      "last_UTC": "2022-11-06T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/en/data"
+    },
+    {
+      "path": "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Kp_def_20220907_20220927.json",
+      "SHA256": "df6aff3f776881803f4d01227a8dd7593367d43271f50b43341b8297e6af99fb",
+      "index": "Kp",
+      "anchor": "experiments/thermosphere_autumn_data_acquisition_v21/GFZ2022_raw_contract_audit.json",
+      "first_UTC": "2022-09-07T00:00:00Z",
+      "last_UTC": "2022-09-27T21:00:00Z",
+      "source_URL": "https://kp.gfz.de/en/data"
+    },
+    {
+      "path": "data/raw/meeting_sources/gfz_Fobs_spinup_support.txt",
+      "SHA256": "d820698b22c38316805ff5fc52f51c55e38a8ecf1e09a1f98822d42313e4d666",
+      "index": "Fobs",
+      "anchor": "experiments/thermosphere_independent_date_validation_plan_v20/driver_source_inventory.json",
+      "first_UTC": "2023-01-31T00:00:00Z",
+      "last_UTC": "2023-05-05T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/ (full request retained in logs/meeting_sources_http_round5.json)"
+    },
+    {
+      "path": "data/raw/f107_2021_recovery_v1/gfz_fobs_check.txt",
+      "SHA256": "8584353e9e027ecac3536939c47bcb5b7f29e175214a9519ffb7870c25e25f63",
+      "index": "Fobs",
+      "anchor": "experiments/f107_2021_recovery_v1/gfz_requests.json",
+      "first_UTC": "2021-05-07T00:00:00Z",
+      "last_UTC": "2021-05-11T00:00:00Z",
+      "source_URL": "https://kp.gfz.de/app/json/?start=2021-05-07T00:00:00Z&end=2021-05-11T23:59:59Z&index=Fobs"
+    }
+  ],
+  "conflicts": [],
+  "validation_failures": [],
+  "Swarm": {
+    "2021-06-21": {
+      "status": "NOT_ACQUIRED",
+      "accessed_data_variables": [],
+      "target_density_decodes": 0
+    },
+    "2022-06-21": {
+      "status": "NOT_ACQUIRED",
+      "accessed_data_variables": [],
+      "target_density_decodes": 0
+    }
+  },
+  "junsol": {
+    "status": "JUNSOL_SEED_NOT_ACQUIRED",
+    "approval": "SEASON_SEED_POLICY_PENDING"
+  },
+  "unique_extraction_bytes": 0,
+  "conservative_decompression_bytes": 0,
+  "new_model_runs": 0,
+  "new_GPI": 0,
+  "new_formal_input": 0,
+  "unseen_target_density_reads": 0,
+  "new_scientific_scores": 0,
+  "new_fits": 0,
+  "GPU": 0,
+  "wall_s": 0.040010567754507065,
+  "CPU_s": 0.03119944400000002,
+  "peak_RSS_KiB": 74396
+}

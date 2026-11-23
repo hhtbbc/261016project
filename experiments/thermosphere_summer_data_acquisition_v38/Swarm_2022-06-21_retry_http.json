@@ -1,0 +1,69 @@
+{
+  "key": "Swarm_2022-06-21",
+  "requests": [
+    {
+      "URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+      "original_URL": "https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A%2FSW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+      "group": "small",
+      "redirect_hop": 0,
+      "started_unix": 1795424603.0239182,
+      "meter_before": {
+        "limits": {
+          "small": 1048576,
+          "initial": 20971520
+        },
+        "received_transport_bytes": {
+          "small": 46364,
+          "initial": 7178
+        },
+        "sent_transport_bytes": {
+          "small": 13411,
+          "initial": 1921
+        },
+        "conservative_failed_send_reservations": {
+          "small": 0,
+          "initial": 0
+        },
+        "charged_bytes": {
+          "small": 59775,
+          "initial": 9099
+        },
+        "total_received_bytes": 53542,
+        "total_sent_bytes": 15332,
+        "total_charged_bytes": 68874,
+        "definition": "Application TCP-stream consumed bytes inclTLS/HTTP/CONNECT; outbound also charged conservatively; includes all attempts/redirects/errors, not only saved bodies. IP-level overhead/retransmissions not observable; not OS packet isolation."
+      },
+      "HTTP": null,
+      "error_type": "TimeoutError",
+      "error": "timed out",
+      "body_bytes_saved": 0,
+      "partial_preserved": false,
+      "meter_after": {
+        "limits": {
+          "small": 1048576,
+          "initial": 20971520
+        },
+        "received_transport_bytes": {
+          "small": 52594,
+          "initial": 7178
+        },
+        "sent_transport_bytes": {
+          "small": 15377,
+          "initial": 1921
+        },
+        "conservative_failed_send_reservations": {
+          "small": 0,
+          "initial": 0
+        },
+        "charged_bytes": {
+          "small": 67971,
+          "initial": 9099
+        },
+        "total_received_bytes": 59772,
+        "total_sent_bytes": 17298,
+        "total_charged_bytes": 77070,
+        "definition": "Application TCP-stream consumed bytes inclTLS/HTTP/CONNECT; outbound also charged conservatively; includes all attempts/redirects/errors, not only saved bodies. IP-level overhead/retransmissions not observable; not OS packet isolation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "UTC": "2026-11-23T09:00:46.617848+00:00",
+  "dates": [
+    "2021-06-21",
+    "2022-06-21"
+  ],
+  "V37_SHA256": {
+    "experiments/thermosphere_shrinkage_unseen_prereg_v37/acquisition_gaps.json": "588217ac94be9eb38120da9ac40f18537b1fc43f2892ce5bedd52fef4ea3e8c9",
+    "experiments/thermosphere_shrinkage_unseen_prereg_v37/asset_audit.json": "4456be5df61660d0e5c4f301010498032a65f58c4a5efa3e87c29990cea5b7bc",
+    "experiments/thermosphere_shrinkage_unseen_prereg_v37/audit_recovery.json": "f65553175efa1628878a22af2d7d3f9fb29e96c99eecd7e2b730ebc5797f97c6",
+    "experiments/thermosphere_shrinkage_unseen_prereg_v37/independent_review.json": "f0a1dc0048c2df25ce3ac1e3c6f0b6f8419cda78f747bec119517831fa8975c9",
+    "experiments/thermosphere_shrinkage_unseen_prereg_v37/preregistered_protocol.json": "3620790378027001cba916ec636c1a9786b42c194a440b2b2986c3b5981fe502",
+    "reports/THERMOSPHERE_SHRINKAGE_UNSEEN_PREREG_V37.md": "089a5e867a00697628ad7cb3ca3773cb31833a848b9c77edc2706d900525921c",
+    "scripts/audit_shrinkage_unseen_v37.py": "e0cf3a68a8ed804aa602413fbcb2eb57a47b4841f7ebe7447af4ea4db689545a",
+    "scripts/freeze_shrinkage_unseen_v37.py": "b632f6f8b3a4655a1b9a122a4648167e980cf34575b5b82b0893364ec46d8eb0",
+    "scripts/verify_shrinkage_unseen_v37.py": "595dffdef46523dc9b22e2ae3f233fae7e37b1f858f367f9ce687b582658ca41",
+    "src/evaluation/shrinkage_unseen_gate_v37.py": "d8cc827b148e3ad4f3accdedf1c15658405f39aaee8df4ddce46d38029f55a59"
+  },
+  "scope": "official GFZ x4, ESA x2, NCAR x1"
+}

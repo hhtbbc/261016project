@@ -1,0 +1,32 @@
+{
+  "published": {
+    "experiments/thermosphere_summer_data_acquisition_v38/ESA_retry_manifest.json": "dfc96d42cd43ae42030472b309699cbc788865a163e112c2aa19c21f76938fc0",
+    "experiments/thermosphere_summer_data_acquisition_v38/ESA_retry_once.json": "11653983bd54159d985a24a7c94edf063dc19a9c7c79242c0927f0549992e039",
+    "experiments/thermosphere_summer_data_acquisition_v38/Fobs_2021-05-09_2021-05-09_http.json": "909c85e7d2b0b3177fb0fddc5c6b0fcb938c60c465f307f422a5f2f99d5a3364",
+    "experiments/thermosphere_summer_data_acquisition_v38/Fobs_2021-06-16_2021-06-16_http.json": "72a64040fed7f466fb83be08712b7e6b46d9221d07045b7d33dd4f977a4dffba",
+    "experiments/thermosphere_summer_data_acquisition_v38/Fobs_2022-05-20_2022-07-28_http.json": "3b511c66501ed6a0d6618f037ea6b1e4eb593ba4c07e18cd09762706f2bd2ec3",
+    "experiments/thermosphere_summer_data_acquisition_v38/Kp_2022-06-05_2022-06-25_http.json": "4fab3de2193ac1517b4d4917fc69824de458dcf0c55357d4699e42413c0a6dd7",
+    "experiments/thermosphere_summer_data_acquisition_v38/Swarm_2021-06-21_http.json": "e7a7b4ca4680555123516c0e22ea7ebf1dafc3fb9a4c22f61b6e13d904c8820b",
+    "experiments/thermosphere_summer_data_acquisition_v38/Swarm_2021-06-21_retry_http.json": "41bf8f986bc2968320335f851869e9c19b9f7147d343d7351c0544068127f54e",
+    "experiments/thermosphere_summer_data_acquisition_v38/Swarm_2022-06-21_http.json": "9277e1387e30b0dd310f0e373c55e7aab0d648fea926baac42aab18817dda610",
+    "experiments/thermosphere_summer_data_acquisition_v38/Swarm_2022-06-21_retry_http.json": "2efb2281ac7b727f8395a0364a725e0817f621a550a8c6b9d038f44b0b016821",
+    "experiments/thermosphere_summer_data_acquisition_v38/acquisition_once.json": "763757b3a3253942455e6933c2e542a0dcb68a534b89227d31c0b0540dee5baf",
+    "experiments/thermosphere_summer_data_acquisition_v38/asset_audit.json": "46111f100a2c07dd661c6b3bab112978a5bd65d928def63b7afdb24e7aa8bff5",
+    "experiments/thermosphere_summer_data_acquisition_v38/decision.json": "d74e0c54521da2ff61556af6e2ca5d98ca9fd13b67a19b3529fd6d1cc864f7fd",
+    "experiments/thermosphere_summer_data_acquisition_v38/download_manifest.json": "74bf31e337f589538477ccabb6683885ae54bac53a064ef38c32114802850d08",
+    "experiments/thermosphere_summer_data_acquisition_v38/independent_review.json": "831db18273b4f6810a981bc70978b6358bb79796fb15fcbce1b48b783897e27a",
+    "experiments/thermosphere_summer_data_acquisition_v38/junsol_http.json": "c70601561225173842cfa90c2cf2ba361b4508a336354d5fe482df40e6c924a5",
+    "experiments/thermosphere_summer_data_acquisition_v38/test_recovery.json": "a34b044fad2734a6a5041420e35058ccb000fd4d3414516b56d2a5409da55a7c",
+    "reports/THERMOSPHERE_SUMMER_DATA_ACQUISITION_V38.md": "fcbdfb72b1339d12e19c71293114ba4aeb51dc6f97e12bf013da659ec8d5ee2a",
+    "scripts/audit_summer_assets_v38.py": "23a7c36e17ed426f45884127862b9e27a83961056b6614dbda9396c03f5518e2",
+    "scripts/fetch_summer_assets_v38.py": "1faa4eed72478e3a832f259d99a804a6555c7432393b4c89189cc0b42a298736",
+    "scripts/retry_summer_swarm_v38.py": "e39a5ee429fa52c03b901abe658e531e63437b79147194cd9274e82248da00e3",
+    "scripts/verify_summer_assets_v38.py": "4861d2f32d30b06046f648128ee0e4eb93060ae41076c28a5dccd805114045e7"
+  },
+  "original_local_only": {
+    "data/raw/thermosphere_summer_data_acquisition_v38/Fobs_2021-05-09_2021-05-09.json": "90114f1b2c07aa22ab5254286079a00015fa8eb898f6719ece7f1608c323c7fe",
+    "data/raw/thermosphere_summer_data_acquisition_v38/Fobs_2021-06-16_2021-06-16.json": "68e26703fcdf3caeb10853a119d4255d95e0bdbafbac0cbdaa45c89860229296",
+    "data/raw/thermosphere_summer_data_acquisition_v38/Fobs_2022-05-20_2022-07-28.json": "75afdd57fbb4bae119ff7ca188c2aa88d856f8a42965f40ee5a02bddc598a274",
+    "data/raw/thermosphere_summer_data_acquisition_v38/Kp_2022-06-05_2022-06-25.json": "ff0e70b81ea3e32b323adbba211edc73d7d35c2b60e26d4b8117c9d2307334bd"
+  }
+}

@@ -1,0 +1,1 @@
+{"first_offline_tests":{"total":31,"errors":1,"reason":"A permissive MagicMock invented a fill attribute and caused a NumPy shape error."},"recovery":"Constrain the fixture to the explicit NetCDF variable methods. Production rules and source files unchanged.","independent_data_review_started_at_first_failure":false}

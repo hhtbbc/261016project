@@ -1,0 +1,32 @@
+{
+  "assets": {},
+  "network_cumulative": {
+    "limits": {
+      "small": 1048576,
+      "initial": 20971520
+    },
+    "received_transport_bytes": {
+      "small": 52594,
+      "initial": 7178
+    },
+    "sent_transport_bytes": {
+      "small": 15377,
+      "initial": 1921
+    },
+    "conservative_failed_send_reservations": {
+      "small": 0,
+      "initial": 0
+    },
+    "charged_bytes": {
+      "small": 67971,
+      "initial": 9099
+    },
+    "total_received_bytes": 59772,
+    "total_sent_bytes": 17298,
+    "total_charged_bytes": 77070,
+    "definition": "Application TCP-stream consumed bytes inclTLS/HTTP/CONNECT; outbound also charged conservatively; includes all attempts/redirects/errors, not only saved bodies. IP-level overhead/retransmissions not observable; not OS packet isolation."
+  },
+  "wall_s": 51.45293756946921,
+  "CPU_s": 0.013326688000000003,
+  "peak_RSS_KiB": 23884
+}

@@ -1408,3 +1408,9 @@ CPU 先用 scripts/causal_shrinkage_development_v36.py freeze 冻结参数、5,7
 ## 2026-11-23 V37 未见日期验证预注册
 
 服务器 CPU 执行 scripts/audit_shrinkage_unseen_v37.py、scripts/verify_shrinkage_unseen_v37.py 和 scripts/freeze_shrinkage_unseen_v37.py。V21 秋季驱动补齐 2022 夏末7天、冬前12天。保存旧春分短例严格初态 schema 拒绝的起始失败，逐件审计后闭环。25项测试、40项保护SHA、11个驱动来源SHA通过。无新下载、目标密度、参数拟合、GPI、输入、积分或评分。成果 experiments/thermosphere_shrinkage_unseen_prereg_v37/，V38 等夏季获取授权。
+
+
+
+## 2026-11-23 V38 夏季真实资产获取
+
+CPU 执行 fetch_summer_assets_v38、retry_summer_swarm_v38、audit_summer_assets_v38、verify_summer_assets_v38。四份 GFZ 官方原始 JSON 留服务器，2021仍−1，2022独立复核全部驱动通过。ESA 超时与 NCAR 403 原样留账。31项测试全通过，保留首次 mock fill 属性错误。累计应用层计额77070字节，全部未见读值、正式GPI/input、积分、拟合、评分、GPU均零。成果 experiments/thermosphere_summer_data_acquisition_v38/。

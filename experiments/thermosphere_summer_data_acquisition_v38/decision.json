@@ -1,0 +1,26 @@
+{
+  "status": "SUMMER_DATA_ACQUISITION_PARTIAL",
+  "RUN_READY": false,
+  "seasons": {
+    "2021-06-21": {
+      "GFZ": "GFZ_BLOCKED",
+      "Swarm": "NOT_ACQUIRED",
+      "junsol": "JUNSOL_SEED_NOT_ACQUIRED",
+      "policy": "SEASON_SEED_POLICY_PENDING",
+      "admission": "BLOCKED_BEFORE_CONFIGURATION"
+    },
+    "2022-06-21": {
+      "GFZ": "GFZ_COMPLETE",
+      "Swarm": "NOT_ACQUIRED",
+      "junsol": "JUNSOL_SEED_NOT_ACQUIRED",
+      "policy": "SEASON_SEED_POLICY_PENDING",
+      "admission": "BLOCKED_BEFORE_CONFIGURATION"
+    }
+  },
+  "NEW_MODEL_RUNS": 0,
+  "NEW_GPI": 0,
+  "NEW_FORMAL_INPUT": 0,
+  "UNSEEN_TARGET_DENSITY_READS": 0,
+  "NEW_SCIENTIFIC_SCORES": 0,
+  "GPU": 0
+}
