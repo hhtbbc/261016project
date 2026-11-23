@@ -1349,3 +1349,8 @@ THERMOSPHERE_AUTUMN_DATA_ACQUISITION_V21=DATA_PARTIAL，两年份均DATA_PARTIAL
 结果/问题：最终ENGINEERING_FAIL，物理积分COMPLETED。scripts/finalize_tiegcm_autumn_v24.py只汇总已完成记录；首result.json主计数null表示主扫描未完成，保留原件，result_final.json明确引用独立实测17/384及主失败；没有将独立PASS冒充完整验收PASS。161旧资产保持SHA，2022冻结配置不变且未启动。所有33输出/hash和完整日志本地保留，公开仅摘要/索引/代码/报告。
 
 交付：reports/THERMOSPHERE_AUTUMN_2021_FORMAL_RUN_V24.md；docs/THERMOSPHERE_AUTUMN_V24_POSTRUN_DECISION.md；experiments/thermosphere_autumn_2021_formal_run_v24/。下一轮先授权只读cold echo身份修复/回归与完整复验，不需重积分；2021主验收PASS前不直接启动2022，之后还需单独授权并审查其同类审计绑定。A_MAREQX_APPROVED有效，秋季适应/14天预热/外部ZG/Restart/科学训练/DART/轨道门禁均保留。新密度评分/拟合、新下载、2022模型、AI/GPU/DART/轨道均0。本轮同步后停止。
+
+
+## 2026-11-23 V27 2022 秋季运行准备
+
+起始本地与远端bd46914e2c3aca83c6b5bca95d91994336432365。复验V26证据链及冻结2022输入/GPI/mareqx/ELF；运行原Fortran探针四次与23041节点GPI静态检查。Python -B运行28项测试及无授权CLI反例；--check-only确认CPU资源、OpenMPI 5.0.8及65库。V27代码/发布、证据见experiments/thermosphere_autumn_2022_execution_preparation_v27/。无真实模型、预约、GPU、评分、DART、AI和轨道。下一轮先确认批准CPU会话与一次性授权。

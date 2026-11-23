@@ -1,0 +1,15 @@
+{
+  "PASS": true,
+  "baseline": "bd46914e2c3aca83c6b5bca95d91994336432365",
+  "protected_tracked_bytes_match": true,
+  "original_fail_SHA256": "3859b363b92f6f5cfb3d10a125db8d83356cfe91d557f72f6b64ad285b998271",
+  "code_SHA256": {
+    "scripts/execute_tiegcm_autumn_2022_v27.py": "09a81eb4df7ddaebf01e915616502c494d7012af76c218d56818943ae4eaf431",
+    "scripts/audit_tiegcm_autumn_2022_v27.py": "d277f46244c468df1d2d9fd47fd3be0369b225d34b99bbe42e2ed22d1f31397f"
+  },
+  "audit_has_no_process_creation_call": true,
+  "actual_unauthorized_CLI_exit": 2,
+  "reservation_paths_absent_before_and_after": true,
+  "model_launches": 0,
+  "GPU_calls": 0
+}
