@@ -1,0 +1,12 @@
+item,status,source,verified_scope,remaining_requirement
+Pressure and layer coordinate,SOURCE_CONFIRMED,NCAR 2.0 Grid 2016 and cons.F and two secondary headers,"Zp=ln(P0/P); P0=5e-5 Pa; interface ilev and midpoint lev",None for native identity
+Z versus ZG,SOURCE_CONFIRMED,NCAR 2.0 Grid 2016 and addiag.F,"Z uses constant 870 cm/s2; ZG uses variable gravity and is anchored at bottom Z",External datum of anchor
+ZGMID,SOURCE_CONFIRMED,NCAR 2.0 Grid and Diagnostics,"Interpolated midpoint geometric height; optional diagnostic",Use ZG for native DEN
+Total density,SOURCE_CONFIRMED,NCAR 2.0 Diagnostics and diags.F and two secondary headers,"DEN Total Density g/cm3 ilev caller dt.F",None for native identity
+Bottom boundary,SOURCE_CONFIRMED,cons.F and lbc.F and two frozen namelists,"Default Z about 96.37229 km; optional climatology and run-configured GSWM modulation",Height origin and physical direction of vertical
+Effective radius,SOURCE_CONFIRMED,addiag.F calczg,"Latitude-dependent fit in inverse-square gravity calculation",Separate external reference surface definition
+Native horizontal grid,INFERRED_ONLY,NCAR 2.0 Grid and cons.F and getapex.F and native headers,"Uniform geographic angular grid; apex auxiliary calls use their own conventions",Version-matched relationship to geodetic or geocentric latitude
+Swarm angular unit and height,SOURCE_CONFIRMED,VirES HAPI and V21 CDF/HDR and frozen HAPI info,"GRS80 geodetic degrees and height metres; live Height_GD prose has a latitude label",Detailed 0301 coordinate realization and precision
+POD versus geolocation sources,SOURCE_CONFIRMED,ESA MOD product catalogue and 0301 HDR,"ACCAPOD 0401 for POD accelerations; HDR also lists same-date MODA_SC 0504 orbit; ESA defines MOD product family in ITRF",Exact SP3 headers and documented reference point and processing chain
+Same-frame geometry,INTERNAL_NUMERIC_CONFIRMED,Frozen Map-A source and V33 independent receipt,"GRS80 geodetic to Cartesian to WGS84 geodetic on shared axes",Independent actual frame alignment before cross-realization use
+External ZG zero,EXTERNAL_UNVERIFIED,Reviewed NCAR source and product chain,"No version-matched mapping or physical offset bound",Authoritative target surface and angle definitions plus independent control

@@ -1,0 +1,10 @@
+source,url,review_date_UTC,version_or_date,result
+NCAR Grid,https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/grid.html,2026-11-23,TIE-GCM 2.0; altitude section Solomon April 2016,Opened and read
+NCAR Diagnostics,https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/diags.html,2026-11-23,TIE-GCM 2.0; 2016 guide,Opened and checked DEN registration
+VirES HAPI catalog,https://vires.services/hapi/,2026-11-23,Live catalog; no 0301 processing revision listed,Opened and confirmed Height_GD prose anomaly
+VirES HAPI dataset info,https://vires.services/hapi/info?id=SW_OPER_DNSAPOD_2_,2026-11-23,Live endpoint,Not accessible through browser tool; used frozen local response to verify units
+ESA DNS handbook,https://swarmhandbook.earth.esa.int/catalogue/SW_DNSxPOD_2_,2026-11-23,Product-family page,HTTP 406 on direct fetch
+ESA MOD handbook,https://swarmhandbook.earth.esa.int/catalogue/SW_MODx_SC_1B,2026-11-23,Product-family page,HTTP 406 on direct fetch
+ESA Swarm DISC MOD catalogue,https://swarm-disc.github.io/product-catalogue-tools/SW_MODx_SC_1B.html,2026-11-23,ESA Swarm PDGS 2013 catalogue entry,Opened; family-level ITRF definition
+ESA L2 reference index,https://swarm-diss.eo.esa.int/?do=download&file=swarm%2FMultimission%2FCombined_Mission_Data%2FConjunction%2FSW-TN-DUT-GS-129-01_TOLEOS_Product_Definition_Document.pdf,2026-11-23,TOLEOS revision 3 cites SW-DS-DTU-GS-0001 revision 2Y,Reference located; TOLEOS document has different product scope
+TU Delft POD density method,https://research.tudelft.nl/en/publications/thermosphere-densities-derived-from-swarm-gps-observations/,2026-11-23,van den IJssel et al. 2020 DOI 10.1016/j.asr.2020.01.004,Opened publication record; method and uncertainty context

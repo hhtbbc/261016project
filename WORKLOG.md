@@ -1384,3 +1384,9 @@ CPU Python -B执行stability_zg_v32 roles/history/associate、review_zg_v32与ve
 ## 2026-11-23 V33 原生 ZG 垂直敏感性
 
 在既有 TIE-GCM Python 环境依次执行 scripts/zg_vertical_v33.py 的 freeze、diagnostic，随后运行 scripts/verify_zg_vertical_v33.py 与 scripts/plot_zg_vertical_v33.py。四历史窗冻结 240 点，检验 1,920 列；独立校验按窗口修正次日午夜误判，保留初次错误收据。主任务 9.97 s、86.91 MiB，独立复核 1.54 s、86.52 MiB。CPU 测试 21/21；GPU、积分、正式评分和拟合均为零。成果在 experiments/thermosphere_zg_vertical_sensitivity_v33/。继续补充独立外部高度证据，固定物理偏移未准入。
+
+
+
+## 2026-11-23 V34 ZG 外部高度登记证据审查
+
+查阅 NCAR 2.0、VirES、ESA MOD 及产品方法原文，保留手册访问失败与 HAPI 标签歧义。CPU 执行 scripts/verify_zg_external_datum_v34.py；两处 Python 版本兼容问题经分块 SHA、整数 UTC 编码修复。152 个资产、320 项检查通过，包含 240 个 V33 样本身份及正反例。没有合格的外部物理控制点；未运行新映射、积分、GPU 或评分。成果 experiments/thermosphere_zg_external_datum_v34/。下一轮先冻结路线 B 设计，同步保留独立物理登记路线。

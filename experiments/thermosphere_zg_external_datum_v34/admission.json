@@ -1,0 +1,15 @@
+{
+  "review": "V34_EVIDENCE_REVIEW_COMPLETE",
+  "external_datum": "EXTERNAL_DATUM_UNVERIFIED",
+  "fixed_offset": "FIXED_OFFSET_NOT_ADMITTED",
+  "registered_development_sample_count": 240,
+  "eligible_independent_physical_controls": 0,
+  "new_physical_controls_evaluated": 0,
+  "physical_offsets": [],
+  "formal_scores": 0,
+  "new_gradient_runs": 0,
+  "model_integrations": 0,
+  "GPU_uses": 0,
+  "AI_training_runs": 0,
+  "next_authorization_recommendation": "V35 route B: freeze a development-only causal statistical design, retain Global and all datum gates; pursue independent evidence in parallel when available"
+}
