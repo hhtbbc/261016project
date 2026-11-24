@@ -1,0 +1,198 @@
+{
+  "status": "GPI_ENGINEERING_CANDIDATE_VERIFIED",
+  "numeric": "GPI_NUMERIC_VERIFIED",
+  "fortran_static_contract": "MATCH",
+  "model_runtime": "NOT_RUN",
+  "RUN_READY": false,
+  "path": "experiments/thermosphere_summer_gpi_candidate_v43/gpi_2022_summer_candidate_v43.nc",
+  "sha256": "d1e5cd2211a0ec6dd7e2c882341e3a2756626aa9ec4df74b8461ab4cc5d1a860",
+  "bytes": 2656,
+  "netcdf": {
+    "schema": {
+      "format": "NETCDF3_CLASSIC",
+      "variables": {
+        "year_day": {
+          "dimensions": [
+            "ndays"
+          ],
+          "dtype": "int32",
+          "units": "YYYYDDD"
+        },
+        "f107d": {
+          "dimensions": [
+            "ndays"
+          ],
+          "dtype": "float64",
+          "units": "sfu"
+        },
+        "f107a": {
+          "dimensions": [
+            "ndays"
+          ],
+          "dtype": "float64",
+          "units": "sfu"
+        },
+        "kp": {
+          "dimensions": [
+            "ndays",
+            "nkp"
+          ],
+          "dtype": "float64",
+          "units": "1"
+        }
+      },
+      "nkp": 8
+    },
+    "dimensions": {
+      "ndays": 21,
+      "nkp": 8
+    },
+    "year_day": [
+      2022156,
+      2022157,
+      2022158,
+      2022159,
+      2022160,
+      2022161,
+      2022162,
+      2022163,
+      2022164,
+      2022165,
+      2022166,
+      2022167,
+      2022168,
+      2022169,
+      2022170,
+      2022171,
+      2022172,
+      2022173,
+      2022174,
+      2022175,
+      2022176
+    ],
+    "valid_year_day": [
+      2022158,
+      2022174
+    ],
+    "mean_max_abs_sfu": 2.842170943040401e-14,
+    "ranges": {
+      "year_day": [
+        2022156.0,
+        2022176.0
+      ],
+      "f107d": [
+        96.4,
+        148.9
+      ],
+      "f107a": [
+        123.8679012345679,
+        128.6172839506173
+      ],
+      "kp": [
+        0.0,
+        4.667
+      ]
+    },
+    "centered_means_sfu": [
+      127.22469135802467,
+      127.56172839506173,
+      127.80493827160495,
+      128.01728395061727,
+      128.2716049382716,
+      128.42592592592592,
+      128.58271604938273,
+      128.6172839506173,
+      128.57654320987652,
+      128.2925925925926,
+      128.07530864197528,
+      127.82345679012344,
+      127.5753086419753,
+      127.25679012345681,
+      126.96049382716049,
+      126.65185185185184,
+      126.17530864197529,
+      125.71111111111111,
+      125.07283950617284,
+      124.420987654321,
+      123.8679012345679
+    ],
+    "missing_or_nonfinite": 0
+  },
+  "reader": {
+    "nodes": 23169,
+    "minute_nodes": 23041,
+    "max_abs_by_field": {
+      "f107d": 5.684341886080802e-14,
+      "f107a": 5.684341886080802e-14,
+      "Kp": 1.3322676295501878e-15,
+      "hpower": 4.263256414560601e-14,
+      "ctpoten": 4.263256414560601e-14
+    },
+    "endpoints": {
+      "2022-06-07T00:00:00+00:00": {
+        "f107d": 97.16250000000001,
+        "f107a": 127.69112654320989,
+        "Kp": 2.3335,
+        "hpower": 30.631337568293127,
+        "ctpoten": 54.358677799999995
+      },
+      "2022-06-23T00:00:00+00:00": {
+        "f107d": 124.79999999999998,
+        "f107a": 125.40370370370371,
+        "Kp": 2.5,
+        "hpower": 32.57359841724331,
+        "ctpoten": 57.5
+      }
+    }
+  },
+  "tests": [
+    "frozen source SHA accepted",
+    "modified SHA",
+    "missing Fobs",
+    "missing Kp",
+    "nondefinitive Kp",
+    "Fadj substituted",
+    "UTC shifted",
+    "2021 missing marker",
+    "nonfinite raw source",
+    "unseen density access",
+    "day beyond padding",
+    "24:00 rejected",
+    "leap and ordinary year index",
+    "incorrect native dimensions",
+    "altered mean",
+    "nonfinite NetCDF"
+  ],
+  "protected": {
+    "V37": {
+      "manifest_sha256": "cb2b8a76b52a9f5eae1ec5fff540211333bc5257e7488b12e76beb7fc5137a0f",
+      "entries": 10
+    },
+    "V38": {
+      "manifest_sha256": "af3b864e7496deff487fa16a3a76e490962bbf9473d52408ff7417a12966a156",
+      "entries": 26
+    },
+    "V39": {
+      "manifest_sha256": "4be62ca165f8adb499afaf332fe6ef893bad45ec8d50e08b2f590c138a93eb6e",
+      "entries": 8
+    },
+    "V40": {
+      "manifest_sha256": "ec962f4fcbe8e73f760501faaf8723709181a3632080861df82359134751f37e",
+      "entries": 7
+    },
+    "V41": {
+      "manifest_sha256": "68f98651fdaac5d1079c067d8d877affc0e1fd91e42e035ac896cec9830a590b",
+      "entries": 2
+    },
+    "experiments/thermosphere_summer_download_preflight_v42/publication_SHA256.json": 4,
+    "experiments/thermosphere_autumn_gpi_seed_policy_v22/sha256_manifest.json": 32
+  },
+  "tolerances_strict": {
+    "mean_sfu": 1e-12,
+    "driver": 1e-10
+  },
+  "new_model_runs": 0,
+  "formal_input": 0,
+  "GPU": 0,
+  "unseen_target_density_reads": 0
+}

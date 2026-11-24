@@ -1437,3 +1437,8 @@ CPU 执行 fetch_summer_assets_v38、retry_summer_swarm_v38、audit_summer_asset
 ## V42 夏季交付与 GFZ 预检
 
 V42 在冻结环境执行 preflight_summer_gfz_v42.py，独立 Decimal 核对 21 个中心均值，最大差 2.842170943040401e-14 sfu。ESA 首页 HEAD 在 TLS 后、HTTP 前超时。保留 Chrome 下载，服务器交接区无原件。V37–V41 共 53 项 SHA 一致。未解封目标密度，未生成正式驱动或 input，无积分与 GPU。后续接收原件并独立验收。 入口 reports/THERMOSPHERE_SUMMER_DOWNLOAD_AND_PREFLIGHT_V42.md。
+
+
+## V43 夏季 GPI 工程候选
+
+复用冻结 CPU 环境写入隔离 GPI，2656 bytes。21 个中心均值、168 个 Kp、23169 个查询时点独立验证通过，16 项 CPU 检查通过。起止交接目录为空；无正式 input、运行预约、积分、GPU、未见密度读取或科学评分。 入口 reports/THERMOSPHERE_SUMMER_GPI_CANDIDATE_V43.md。

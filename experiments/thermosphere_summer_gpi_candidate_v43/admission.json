@@ -1,0 +1,30 @@
+{
+  "state": "V43_PARTIAL",
+  "NCAR": "NCAR_AWAITING_DELIVERY",
+  "ESA": "ESA_NOT_ACQUIRED",
+  "handoff": {
+    "data/raw/thermosphere_ncar_junsol_acquisition_v40": [],
+    "data/raw/thermosphere_summer_data_handoff_v39/staging": [],
+    "data/raw/thermosphere_summer_data_handoff_v39/accepted": []
+  },
+  "2021": {
+    "GFZ": "GFZ_BLOCKED",
+    "Fobs_missing": [
+      "2021-05-09",
+      "2021-06-16"
+    ],
+    "RUN_READY": false
+  },
+  "2022": {
+    "GPI": "GPI_ENGINEERING_CANDIDATE_VERIFIED",
+    "RUN_READY": false
+  },
+  "SUMMER_SEED_POLICY": "PENDING",
+  "additional_static_checks": [
+    "V37 method weights and summer ordering unchanged",
+    "candidate writing is isolated",
+    "external process path limited to Git reads",
+    "no GPU or MPI invocation in entrypoint",
+    "unapproved configuration remains RUN_READY=False"
+  ]
+}
