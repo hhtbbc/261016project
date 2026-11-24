@@ -1,0 +1,28 @@
+{
+  "state": "V42_PARTIAL",
+  "start_head_and_remote_main": "def64e24e26d56b2c027797eca9526b2bf78fbb2",
+  "NCAR": "NCAR_AWAITING_DELIVERY",
+  "NCAR_server": "NCAR_SERVER_DOWNLOAD_AWAITING_AUTHORIZED_DELIVERY",
+  "TAR": "NOT_ACQUIRED",
+  "junsol": "NOT_ACQUIRED",
+  "ESA": "ESA_NOT_ACQUIRED",
+  "ESA_metadata_probe": {
+    "method": "HEAD",
+    "url": "https://swarm-diss.eo.esa.int/",
+    "http_status": null,
+    "curl_exit": 28,
+    "dns_seconds": 0.000025,
+    "tcp_seconds": 0.040794,
+    "tls_seconds": 1.480098,
+    "seconds": 12.002,
+    "body_bytes": 0
+  },
+  "2021": {"GFZ": "GFZ_BLOCKED", "missing_Fobs": ["2021-05-09", "2021-06-16"], "RUN_READY": false},
+  "2022": {"GFZ": "GFZ_PREFLIGHT_VERIFIED", "RUN_READY": false},
+  "SUMMER_SEED_POLICY": "PENDING",
+  "UNSEEN_TARGET_DENSITY_READS": 0,
+  "FORMAL_GPI": 0,
+  "FORMAL_INPUT": 0,
+  "MODEL_RUNS": 0,
+  "GPU": 0
+}

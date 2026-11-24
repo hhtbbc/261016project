@@ -1432,3 +1432,8 @@ CPU 执行 fetch_summer_assets_v38、retry_summer_swarm_v38、audit_summer_asset
 ## V41 夏季科研原件交接状态
 
 仅查阅并核对发布 SHA 和持久化目录。V40 数据目录、V39 staging/accepted 为空，项目 data/experiments 搜索未找到候选。原件验收未运行；无联网重试、旧 CPU 测试重跑、目标解码、GPU、模型积分或配置变更。轻量收据 experiments/thermosphere_summer_original_acceptance_v41/status.json，等待官方原件交接。
+
+
+## V42 夏季交付与 GFZ 预检
+
+V42 在冻结环境执行 preflight_summer_gfz_v42.py，独立 Decimal 核对 21 个中心均值，最大差 2.842170943040401e-14 sfu。ESA 首页 HEAD 在 TLS 后、HTTP 前超时。保留 Chrome 下载，服务器交接区无原件。V37–V41 共 53 项 SHA 一致。未解封目标密度，未生成正式驱动或 input，无积分与 GPU。后续接收原件并独立验收。 入口 reports/THERMOSPHERE_SUMMER_DOWNLOAD_AND_PREFLIGHT_V42.md。
