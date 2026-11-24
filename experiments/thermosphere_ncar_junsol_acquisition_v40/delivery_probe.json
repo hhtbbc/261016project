@@ -1,0 +1,28 @@
+{
+  "state": "NCAR_DOWNLOAD_REGISTRATION_REQUIRED",
+  "delivery": null,
+  "attempts": [
+    {
+      "URL": "https://registration.hao.ucar.edu/hao-reg_file-deliver.php?file=https://www.hao.ucar.edu/modeling/tgcm/download/files/tiegcm2.0_res5.0_data.tar&referer=https://www.hao.ucar.edu/modeling/tgcm/download.php&instrument=tiegcm",
+      "status": 302,
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Length": null,
+        "Content-Disposition": null,
+        "Accept-Ranges": null,
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "Location": "https://registration.hao.ucar.edu/hao-reg_email.php",
+      "TLS_hostname_verified": true,
+      "request_body_bytes": 0
+    }
+  ],
+  "stopped_before_form": true,
+  "UTC": "2026-11-24T08:59:07.853705+00:00",
+  "method": "HEAD only before direct delivery",
+  "no_credentials_or_form_submission": true,
+  "exploratory_HEAD_confirmed_same_302": true,
+  "archive_payload_bytes": 0,
+  "disk_available_bytes": 1341117849600
+}

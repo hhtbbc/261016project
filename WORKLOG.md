@@ -1420,3 +1420,9 @@ CPU 执行 fetch_summer_assets_v38、retry_summer_swarm_v38、audit_summer_asset
 ## 2026-11-23 V39 夏季原件交接
 
 服务器 CPU 运行 scripts/import_summer_handoff_v39.py --inspect 和 scripts/verify_summer_handoff_v39.py，实物零件；40 项合成及回归测试通过，复核 V38 四份 GFZ 原始 SHA、22 项历史发布、V37 10 项保护。加拿大原表 20Z 对照 58/58 完全一致，目标两日仍无合规 GFZ 修订。公开文档核实 ESA 和 NCAR 人工路径，不重复请求旧二进制地址。成果 experiments/thermosphere_summer_asset_handoff_v39/，无下载原件、目标解码、配置、积分、评分或 GPU。
+
+
+
+## 2026-11-24 V40 NCAR 夏至初态交付
+
+服务器 CPU 以 scripts/download_ncar_v40.py --download 核查官方注册入口，HEAD 返回 302 到邮件登记，未提交信息或请求 TAR 正文。新增 scripts/extract_ncar_junsol_v40.py 和 scripts/verify_ncar_junsol_v40.py。56 项测试通过；V39 空目录复核，实物验收零。V37–V39、旧 mareqx、两年 GFZ 状态保持，未见密度/GPI/input/积分/GPU 均零。成果 experiments/thermosphere_ncar_junsol_acquisition_v40/，等待官方手工交接。

@@ -770,3 +770,9 @@ SUMMER_DATA_ACQUISITION_PARTIAL；2021 GFZ_BLOCKED（两个 −1 未修订），
 ## 2026-11-23 V39 夏季原件交接
 
 V39_ASSET_PARTIAL。交接及验收脚本已测试，三份真实原件尚未取得。加拿大 06-16 两个非 20Z 实测和 NOAA 日汇编无法解除原 GFZ 合同缺测，2021 BLOCKED、2022 驱动 COMPLETE。40 项 CPU 验收通过，目标解码为零，RUN_READY=False。报告 reports/THERMOSPHERE_SUMMER_ASSET_HANDOFF_V39.md。
+
+
+
+## 2026-11-24 V40 NCAR 夏至初态交付
+
+V40_NCAR_ACQUISITION_BLOCKED。官方注册交付 HEAD 302 跳邮箱登记页，无 TAR；junsol 和两份 ESA 文件均未交接。限量续传、TAR 单成员提取及独立验收工具 56 项 CPU 测试通过，未见目标读取和积分为零。报告 reports/THERMOSPHERE_NCAR_JUNSOL_ACQUISITION_V40.md。

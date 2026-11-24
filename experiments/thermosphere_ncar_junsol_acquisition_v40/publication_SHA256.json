@@ -1,0 +1,9 @@
+{
+  "experiments/thermosphere_ncar_junsol_acquisition_v40/admission.json": "b16dbe112700cbe59a9bf27f42dfb80f246b7cef948bc88869c11169178e6ade",
+  "experiments/thermosphere_ncar_junsol_acquisition_v40/delivery_probe.json": "2281c928a540d147b00ae263d6376804b853694656542cfbdb129e5365955f82",
+  "experiments/thermosphere_ncar_junsol_acquisition_v40/verification.json": "3b5a1f6bd9b13a990fa89d2d9a8dad327d60e35cf0ffa1a0f528955290b5ee35",
+  "reports/THERMOSPHERE_NCAR_JUNSOL_ACQUISITION_V40.md": "620db616745d067fce0641dc5ab1ffe7d1a2d6334084fea00528535b89d65bdc",
+  "scripts/download_ncar_v40.py": "294290697a308fa5b19e458571bfde313a09c4d66043ad7edc3a21ab116e8d1e",
+  "scripts/extract_ncar_junsol_v40.py": "6bbf05c77d7d2a7b2e416ad5928b4ad390b9f3f714d541b4a88f3a638dfbae5f",
+  "scripts/verify_ncar_junsol_v40.py": "8ece14f3639b9b5cc669a57d587bd563b5a6f3a531274fde03461b1659e2b4af"
+}

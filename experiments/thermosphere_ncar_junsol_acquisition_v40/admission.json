@@ -1,0 +1,35 @@
+{
+  "state": "V40_NCAR_ACQUISITION_BLOCKED",
+  "download_status": "NCAR_DOWNLOAD_REGISTRATION_REQUIRED",
+  "archive_status": "NCAR_TAR_NOT_ACQUIRED",
+  "TAR": null,
+  "target_member": null,
+  "extracted_members": 0,
+  "junsol": "JUNSOL_SEED_NOT_ACQUIRED",
+  "source_start": null,
+  "native_UTC": null,
+  "states_34": "NOT_VERIFIED",
+  "model_compatible": "NOT_VERIFIED",
+  "V39_real_acceptance": "NOT_APPLICABLE_NO_ORIGINALS",
+  "seasonal_policy": "SUMMER_SEED_POLICY_PENDING",
+  "dates": {
+    "2021-06-21": {
+      "GFZ": "GFZ_BLOCKED",
+      "Swarm": "NOT_ACQUIRED",
+      "junsol": "NOT_ACQUIRED",
+      "run_ready": false
+    },
+    "2022-06-21": {
+      "GFZ": "GFZ_COMPLETE",
+      "Swarm": "NOT_ACQUIRED",
+      "junsol": "NOT_ACQUIRED",
+      "run_ready": false
+    }
+  },
+  "configuration_freeze_ready": false,
+  "unseen_density_decodes": 0,
+  "new_GPI": 0,
+  "new_input": 0,
+  "model_runs": 0,
+  "GPU": 0
+}

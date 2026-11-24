@@ -1,0 +1,21 @@
+{
+  "UTC": "2026-11-24T09:00:35.193977+00:00",
+  "CPU_tests": 56,
+  "failures": 0,
+  "historical_protection": {
+    "published": 22,
+    "original_local_only": 4,
+    "V37": 10,
+    "V39": 8,
+    "mareqx_SHA256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7"
+  },
+  "real_accepted": [],
+  "real_junsol_native": null,
+  "unseen_density_reads": 0,
+  "new_GPI": 0,
+  "new_formal_input": 0,
+  "model_runs": 0,
+  "GPU": 0,
+  "wall_s": 0.3993592970073223,
+  "peak_RSS_KiB": 78496
+}
