@@ -1442,3 +1442,8 @@ V42 在冻结环境执行 preflight_summer_gfz_v42.py，独立 Decimal 核对 21
 ## V43 夏季 GPI 工程候选
 
 复用冻结 CPU 环境写入隔离 GPI，2656 bytes。21 个中心均值、168 个 Kp、23169 个查询时点独立验证通过，16 项 CPU 检查通过。起止交接目录为空；无正式 input、运行预约、积分、GPU、未见密度读取或科学评分。 入口 reports/THERMOSPHERE_SUMMER_GPI_CANDIDATE_V43.md。
+
+
+## NCAR 服务器下载专项
+
+NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --download，并以有界 HEAD 检查官方直文件地址。登记流程停在邮箱门禁。直址 HEAD 约 1.38 秒收到首字节，正文传输 0 字节，真实续传和服务器会话限制未验证。V40 本地收据 http_probe_20261124T104226054643Z_local.json。无环境改动、GPU、模型、配置生成或未见目标读取。下一步完成官方登记并确认服务器授权交付。
