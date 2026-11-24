@@ -1,0 +1,83 @@
+{
+  "UTC": "2026-11-24T09:09:37.495223+00:00",
+  "status": "V41_NO_NEW_ORIGINALS",
+  "source_HEAD": "f209127841bc88c22e498addd45343e1dc154eaa",
+  "frozen_hash_checks": {
+    "V37": {
+      "manifest_SHA256": "cb2b8a76b52a9f5eae1ec5fff540211333bc5257e7488b12e76beb7fc5137a0f",
+      "verified_entries": 10
+    },
+    "V38": {
+      "manifest_SHA256": "af3b864e7496deff487fa16a3a76e490962bbf9473d52408ff7417a12966a156",
+      "verified_entries": 26
+    },
+    "V39": {
+      "manifest_SHA256": "4be62ca165f8adb499afaf332fe6ef893bad45ec8d50e08b2f590c138a93eb6e",
+      "verified_entries": 8
+    },
+    "V40": {
+      "manifest_SHA256": "ec962f4fcbe8e73f760501faaf8723709181a3632080861df82359134751f37e",
+      "verified_entries": 7
+    }
+  },
+  "mareqx_SHA256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+  "actual_directory_entries": {
+    "data/raw/thermosphere_ncar_junsol_acquisition_v40": [],
+    "data/raw/thermosphere_summer_data_handoff_v39/staging": [],
+    "data/raw/thermosphere_summer_data_handoff_v39/accepted": []
+  },
+  "TAR": "NCAR_TAR_NOT_ACQUIRED",
+  "partial_TAR": false,
+  "TAR_size": null,
+  "TAR_SHA256": null,
+  "TAR_complete": "NOT_VERIFIED",
+  "junsol": "JUNSOL_SEED_NOT_ACQUIRED",
+  "junsol_size": null,
+  "junsol_SHA256": null,
+  "SOURCE_START": null,
+  "native_UTC": null,
+  "native_34_states": "NOT_VERIFIED",
+  "status_V39_static": "NOT_RUN_NO_ORIGINAL",
+  "independent_original_review": "NOT_RUN_NO_ORIGINAL",
+  "dates": {
+    "2021-06-21": {
+      "GFZ": "GFZ_BLOCKED",
+      "Swarm": "NOT_ACQUIRED",
+      "junsol": "NOT_ACQUIRED",
+      "run_ready": false,
+      "Fobs_valid": 99,
+      "Fobs_missing": [
+        "2021-05-09",
+        "2021-06-16"
+      ],
+      "Kp": 168,
+      "center81_valid": 0,
+      "CDF_HDR_0301": "NOT_VERIFIED",
+      "model_configuration_freeze_ready": false
+    },
+    "2022-06-21": {
+      "GFZ": "GFZ_COMPLETE",
+      "Swarm": "NOT_ACQUIRED",
+      "junsol": "NOT_ACQUIRED",
+      "run_ready": false,
+      "Fobs_valid": 101,
+      "Fobs_missing": [],
+      "Kp": 168,
+      "center81_valid": 21,
+      "CDF_HDR_0301": "NOT_VERIFIED",
+      "model_configuration_freeze_ready": false
+    }
+  },
+  "seed_policy": "SUMMER_SEED_POLICY_PENDING",
+  "policy_draft": "NOT_STARTED_NO_REAL_JUNSOL",
+  "downloads": 0,
+  "old_CPU_tests_rerun": 0,
+  "target_density_reads": 0,
+  "GPU": 0,
+  "TIEGCM_runs": 0,
+  "new_GPI": 0,
+  "new_input": 0,
+  "science_scores": 0,
+  "history_fits": 0,
+  "RUN_READY": false
+}

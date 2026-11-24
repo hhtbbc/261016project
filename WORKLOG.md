@@ -1426,3 +1426,9 @@ CPU 执行 fetch_summer_assets_v38、retry_summer_swarm_v38、audit_summer_asset
 ## 2026-11-24 V40 NCAR 夏至初态交付
 
 服务器 CPU 以 scripts/download_ncar_v40.py --download 核查官方注册入口，HEAD 返回 302 到邮件登记，未提交信息或请求 TAR 正文。新增 scripts/extract_ncar_junsol_v40.py 和 scripts/verify_ncar_junsol_v40.py。56 项测试通过；V39 空目录复核，实物验收零。V37–V39、旧 mareqx、两年 GFZ 状态保持，未见密度/GPI/input/积分/GPU 均零。成果 experiments/thermosphere_ncar_junsol_acquisition_v40/，等待官方手工交接。
+
+
+
+## V41 夏季科研原件交接状态
+
+仅查阅并核对发布 SHA 和持久化目录。V40 数据目录、V39 staging/accepted 为空，项目 data/experiments 搜索未找到候选。原件验收未运行；无联网重试、旧 CPU 测试重跑、目标解码、GPU、模型积分或配置变更。轻量收据 experiments/thermosphere_summer_original_acceptance_v41/status.json，等待官方原件交接。
