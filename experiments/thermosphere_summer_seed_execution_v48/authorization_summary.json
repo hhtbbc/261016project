@@ -1,0 +1,15 @@
+{
+  "approval": "V48 direct user authorization; only one 2022 junsol B recovery",
+  "baseline_HEAD": "3972b381af46d63bdaccfd3ee32fdbf00d0120df",
+  "preparation_sha256": "47fae5ab306e35450350b2907e14e4b2c68ac80e92b381a258c955cac95f0842",
+  "authorization_sha256": "4e9798d8b3e7c3480d071169e7510bdab61c5d67f93e0e46c71f3c335daf29a2",
+  "A_id": "342ca7ee59a74a6aa600dd40f4459d91",
+  "V46_B_failed_id": "74e37781ad184841bb0b6114ff7cee4a",
+  "A_volumes_verified": 33,
+  "V47_publication_sha256": "3de29ae094adc2d892bd9e23b4f6cf5219d4801e4f1affb6906cdc845eced663",
+  "cpu_equivalent": 14.0,
+  "effective_memory_available": 291955388416,
+  "disk_free_bytes": 1332913340416,
+  "MPI_version": "mpirun (Open MPI) 5.0.8",
+  "V37_scoring": false
+}

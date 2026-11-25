@@ -1,0 +1,281 @@
+{
+  "days": {
+    "1": {
+      "UTC": "2022-06-08T00:00:00Z",
+      "DEN_P95": 0.05886979014667934,
+      "height450_P95": 0.1116978748733324,
+      "DEN_n": 75168,
+      "height450_n": 2592,
+      "TN_RMSE": 24.48751179625184,
+      "wind_vector_RMS_m_s": 16.554373830647936,
+      "composition_P95": {
+        "O1": 0.30853894862781395,
+        "O2": 0.9046316429951388,
+        "N2": 0.9480368000953991,
+        "HE": 0.8565761227241678
+      }
+    },
+    "3": {
+      "UTC": "2022-06-10T00:00:00Z",
+      "DEN_P95": 0.04006341608982397,
+      "height450_P95": 0.0839141330922551,
+      "DEN_n": 75168,
+      "height450_n": 2592,
+      "TN_RMSE": 13.109116859834602,
+      "wind_vector_RMS_m_s": 8.599974112099547,
+      "composition_P95": {
+        "O1": 0.21095485666860356,
+        "O2": 0.46412472437467045,
+        "N2": 0.45090109077655444,
+        "HE": 0.36211011313705815
+      }
+    },
+    "7": {
+      "UTC": "2022-06-14T00:00:00Z",
+      "DEN_P95": 0.02321420286848331,
+      "height450_P95": 0.04414133942200237,
+      "DEN_n": 75168,
+      "height450_n": 2592,
+      "TN_RMSE": 6.675779524374662,
+      "wind_vector_RMS_m_s": 4.354619369682158,
+      "composition_P95": {
+        "O1": 0.12312479013943523,
+        "O2": 0.20606969181755852,
+        "N2": 0.1878568140557086,
+        "HE": 0.13669038180862497
+      }
+    },
+    "14": {
+      "UTC": "2022-06-21T00:00:00Z",
+      "DEN_P95": 0.006517632613494369,
+      "height450_P95": 0.014375311087947257,
+      "DEN_n": 75168,
+      "height450_n": 2592,
+      "TN_RMSE": 1.890549284242547,
+      "wind_vector_RMS_m_s": 1.3050747028130865,
+      "composition_P95": {
+        "O1": 0.038131032090200814,
+        "O2": 0.058265447024472054,
+        "N2": 0.049960645170899584,
+        "HE": 0.03740669622236682
+      }
+    }
+  },
+  "day14_regional_DEN_P95": {
+    "global": 0.006517632613494369,
+    "south_polar": 0.019287248719959023,
+    "south_mid": 0.012487586822695143,
+    "tropics": 0.002928031401730256,
+    "north_mid": 0.003299780727915692,
+    "north_polar": 0.003383301416287761
+  },
+  "worst_ilev": {
+    "hour": "336",
+    "UTC": "2022-06-21T00:00:00Z",
+    "variable": "DEN",
+    "units": "g/cm3",
+    "region": "global",
+    "level_type": "ilev",
+    "level": "28",
+    "n": "2592",
+    "coverage": "1.0",
+    "relative_n": "2592",
+    "bias": "5.184953613630533e-19",
+    "MAE": "5.710750616525061e-19",
+    "RMSE": "9.85703251746611e-19",
+    "max_abs": "4.83631990080564e-18",
+    "abs_P95": "2.4024033944316553e-18",
+    "relative_mean": "0.005895591178914448",
+    "relative_median": "0.00138863090736888",
+    "relative_P95": "0.025865193767495617",
+    "log_RMSE": "0.01081558112031872"
+  },
+  "positive_trend_km": [],
+  "gate_variables": {
+    "DEN": {
+      "fail": 0,
+      "evaluated": 4350,
+      "worst_fraction": 1.0,
+      "failed_regions": []
+    },
+    "TN": {
+      "fail": 0,
+      "evaluated": 4200,
+      "worst_fraction": 1.0,
+      "failed_regions": []
+    },
+    "O1": {
+      "fail": 513,
+      "evaluated": 4350,
+      "worst_fraction": 0.016203703703703703,
+      "failed_regions": [
+        "global",
+        "south_mid",
+        "south_polar"
+      ]
+    },
+    "O2": {
+      "fail": 1054,
+      "evaluated": 4350,
+      "worst_fraction": 0.13425925925925927,
+      "failed_regions": [
+        "global",
+        "south_mid",
+        "south_polar",
+        "tropics"
+      ]
+    },
+    "N2": {
+      "fail": 547,
+      "evaluated": 4350,
+      "worst_fraction": 0.47685185185185186,
+      "failed_regions": [
+        "global",
+        "south_mid",
+        "south_polar",
+        "tropics"
+      ]
+    },
+    "HE": {
+      "fail": 82,
+      "evaluated": 4350,
+      "worst_fraction": 0.6759259259259259,
+      "failed_regions": [
+        "global",
+        "south_polar"
+      ]
+    },
+    "WIND_VECTOR": {
+      "fail": 0,
+      "evaluated": 4200,
+      "worst_fraction": 1.0,
+      "failed_regions": []
+    }
+  },
+  "science": {
+    "status": "SEED_SENSITIVITY_FAIL",
+    "hours": [
+      24,
+      72,
+      168,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      339,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384
+    ],
+    "evaluated_cells": 31050,
+    "failed_cells": 2196,
+    "excluded_empty_cells": 300,
+    "trend": [
+      {
+        "height_km": 200,
+        "last24h_log_RMSE_slope_per_hour": -3.407196609082694e-06,
+        "no_growth": true
+      },
+      {
+        "height_km": 300,
+        "last24h_log_RMSE_slope_per_hour": -1.8277696031162253e-05,
+        "no_growth": true
+      },
+      {
+        "height_km": 400,
+        "last24h_log_RMSE_slope_per_hour": -3.888931458909521e-05,
+        "no_growth": true
+      },
+      {
+        "height_km": 450,
+        "last24h_log_RMSE_slope_per_hour": -4.6822247340287994e-05,
+        "no_growth": true
+      },
+      {
+        "height_km": 475,
+        "last24h_log_RMSE_slope_per_hour": -5.1844804867835005e-05,
+        "no_growth": true
+      },
+      {
+        "height_km": 500,
+        "last24h_log_RMSE_slope_per_hour": -5.690188383434088e-05,
+        "no_growth": true
+      }
+    ],
+    "rules_SHA256": "5ea4e27db746d698f738b974fbf12ba81b09d186d94c0a9376aa2640517bb52b",
+    "unit_note": "Native units; wind vector threshold 2000 cm/s = 20 m/s.",
+    "reference": "mareqx",
+    "no_extrapolation": true,
+    "no_observation_access": true
+  },
+  "height_gates_failed": 0,
+  "450km_late_P95_percent": [
+    1.253983943206305,
+    1.1208792180936524
+  ]
+}

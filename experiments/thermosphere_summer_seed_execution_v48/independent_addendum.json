@@ -1,0 +1,21 @@
+{
+  "verified": true,
+  "old_history_entries": 18,
+  "old_archived_runtime_entries": 39,
+  "new_run_id": "aff143997075432d896fe8acf88fc53e",
+  "A_id": "342ca7ee59a74a6aa600dd40f4459d91",
+  "netcdf_A": 33,
+  "netcdf_B": 33,
+  "rank_short_source_and_final_timestep": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "B_GPI_hourly_nodes": 384,
+  "B_independent_GPI_max_abs": 5.684341886080802e-14,
+  "day14_map_cells": 15552,
+  "local_time_metrics": 288,
+  "unseen_density_reads": 0,
+  "GPU": 0
+}

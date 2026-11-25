@@ -1,0 +1,19 @@
+{
+  "failure_retained": "verify_summer_seed_recovery_v47_local.log",
+  "scope": "independent P95 evaluation only; frozen producer CSV unchanged",
+  "counterexample": {
+    "hour": 72,
+    "variable": "DEN",
+    "region": "global",
+    "native_ilev_index": 14,
+    "measure": "absolute_P95_g_cm3",
+    "stable_sort_verifier": 2.338714481127049e-15,
+    "historical_quicksort_producer": 2.338942330405996e-15,
+    "independent_formula_with_historical_order": 2.338942330405996e-15
+  },
+  "cause": "Exact ties had different latitude weights. A weighted empirical CDF linearly interpolated across the edge of the tied group; sorter-specific accumulation therefore mattered.",
+  "repair": "V48 process-local independent replay uses frozen quicksort ordering, retains separate interpolation formula and prior tolerances",
+  "after": "All 270102 base checks passed; independent forcing, map and local-time checks also passed",
+  "frozen_thresholds_changed": false,
+  "model_relaunched": false
+}

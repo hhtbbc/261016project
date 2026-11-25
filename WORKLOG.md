@@ -1467,3 +1467,8 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## V47 夏季 B 恢复预检
 
 2026-11-25：复核 V46 A 33 卷及 B 退出证据，复现 147→120 路径截断；只读副本与 V44 SHA 相同。33 项 CPU 测试通过，零 MPI、模型步及未见目标读取。下一轮单次新 B 须明确授权。 入口 reports/THERMOSPHERE_SUMMER_SEED_RECOVERY_V47.md。
+
+
+## V48 2022 夏季 junsol 恢复与配对验证
+
+2026-11-25：按 V48 批复只启动 B 一次，短 SOURCE 真实读取通过；保留原 A、旧失败 B、冷回显和资源收据。末 24 小时 31050 个有效单元中 2196 失败，全为组分。保留 P95 首轮复核失败，按历史等值排序独立重放 270102 项通过；11 图。未读取 Swarm 或使用 GPU。 入口 reports/THERMOSPHERE_SUMMER_SEED_RECOVERY_EXECUTION_V48.md。
