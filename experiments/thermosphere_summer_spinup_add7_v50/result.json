@@ -1,0 +1,17 @@
+{
+  "state": "V50_ADD7_READY_FOR_RUN_AUTHORIZATION",
+  "GFZ": "GFZ_ADD7_VERIFIED",
+  "GPI": "GPI_ADD7_CANDIDATE_VERIFIED",
+  "configuration": "ADD7_AB_CONFIG_VERIFIED",
+  "historical_V48": "SEED_SENSITIVITY_FAIL",
+  "runtime": "GPI_RUNTIME_NOT_RUN",
+  "new_model_runs": 0,
+  "unseen_target_density_reads": 0,
+  "GPU": 0,
+  "V51_requires_explicit_new_CPU_authorization": true,
+  "V51_runner_adapter_needed": true,
+  "phase_order": [
+    "A",
+    "B_AFTER_A_PASS"
+  ]
+}

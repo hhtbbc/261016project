@@ -1477,3 +1477,8 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## V49 2022 夏季组分慢调整诊断
 
 2026-11-25：冻结 CPU 环境运行 diagnose、verify、summarize、attribute 四入口，复核 66 卷原生 SHA、31350 单元和 15000 余关联及局地时记录。11 图；未使用 TIE-GCM、GPU 或未见密度。提前 7 天需补真实 Kp 56 桶。 入口 reports/THERMOSPHERE_SUMMER_COMPONENT_CONVERGENCE_V49.md。
+
+
+## V50 夏季追加七天预热准备
+
+2026-11-25：官方 GFZ 新取 56 definitive Kp，独立复算 33121 分钟节点及 736 边缘点，V43 重叠驱动相同。双初态各 34 字段 Fortran 读通；39 CPU 检查通过。无积分、未见密度或 GPU。 入口 reports/THERMOSPHERE_SUMMER_SPINUP_ADD7_PREPARATION_V50.md。

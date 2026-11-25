@@ -1,0 +1,21 @@
+{
+  "experiments/thermosphere_summer_spinup_add7_v50/GPI_verification.json": "98142935018294ec46536967db382e627a9371d11cd1de2bd3e293442eaa07a7",
+  "experiments/thermosphere_summer_spinup_add7_v50/acquisition.json": "8476294a4d13427d2b829208ca2ae2f051cc27e973305652b2551cde38140f87",
+  "experiments/thermosphere_summer_spinup_add7_v50/configuration.json": "88922e950a213b34b9483a711fff72b2f0c593db9454bfac9ae7b026f1373541",
+  "experiments/thermosphere_summer_spinup_add7_v50/definitive_Kp_56.csv": "35f2f3aa0e3d01c408ee83b683138e0d3ede7788f2515b14b8beb7f5a3459213",
+  "experiments/thermosphere_summer_spinup_add7_v50/final_history_check.json": "5baedb4ef64665fa9dddc2148164f45a149827800be82d0c776eb92f2c2a26ff",
+  "experiments/thermosphere_summer_spinup_add7_v50/independent.json": "e808f78fec4a6ba45f1665f92ef6109ba10b1acc61f003c838bae70af9898100",
+  "experiments/thermosphere_summer_spinup_add7_v50/input_freeze.json": "e5947510ae7a1edd0b60b08e8427f9c0a80e154c339d4fda4993c8d966f5a5ac",
+  "experiments/thermosphere_summer_spinup_add7_v50/paired_plan.json": "baac3a8331ff811fb02c48a6519fde6ffcd0cf9aed8367dc8b4089c1ca60c7e5",
+  "experiments/thermosphere_summer_spinup_add7_v50/result.json": "27c237f6951509f14ea97b029e8f676214c113020b16f7b2b117f461c70c3f87",
+  "experiments/thermosphere_summer_spinup_add7_v50/run_A_mareqx_add7.namelist": "9fa26fdea05a18d1676122ef83bdbbd89d8c3c6d0aabcaebc3222a74ef12651c",
+  "experiments/thermosphere_summer_spinup_add7_v50/run_B_junsol_add7.namelist": "1c050737a9ef84065e834067f026ef11afb921747592c80ed390edce84b38a70",
+  "experiments/thermosphere_summer_spinup_add7_v50/tests/run_A_mareqx_add7_readonly.txt": "7b87589e6669ff587709e28d6c2c8ea378f9235dc897f2c793c1709ff3313a2e",
+  "experiments/thermosphere_summer_spinup_add7_v50/tests/run_B_junsol_add7_readonly.txt": "22fd30243e12f53a7bcc7930823b65d82d7d1f406d230bc4f4970c2cb7e40555",
+  "reports/THERMOSPHERE_SUMMER_SPINUP_ADD7_PREPARATION_V50.md": "cc0e405e2714bc1ba0d62df9250e6ef4ef058bfcc6c3790f724768473661ed7e",
+  "scripts/analyze_summer_spinup_add7_v50.py": "2c864c9de677b6fa5e9dc6b381325e20b6081e688f1b0d217c20514587e76de2",
+  "scripts/check_summer_spinup_add7_v50.py": "7a08dd0016dfbf9e561c24dc2663350a09619923f01597c5d2d77f89737e1fbe",
+  "scripts/preflight_summer_spinup_add7_v50.py": "b6d7cee6f178ba7cfd581c5cd5ec67075b247623dab71fe137b3c0135dc51ee0",
+  "scripts/prepare_summer_gpi_extended_v50.py": "7003f130209e1fa62928777be2b1a8b44ed7b4ec5184fefde2a6f99564e2daa2",
+  "scripts/verify_summer_spinup_add7_v50.py": "3ebcf513440952bc5381eb38c83309476cdef3811ba9daef96974d4c20bb4d7a"
+}

@@ -1,0 +1,74 @@
+{
+  "status": "ENGINEERING_ONLY_PREPARATION",
+  "roles": [
+    "A",
+    "B"
+  ],
+  "work_directories": [
+    "run_A_mareqx_add7",
+    "run_B_junsol_add7"
+  ],
+  "chronology": "A then independent engineering PASS before B",
+  "MPI": 4,
+  "OMP": 1,
+  "GPU": 0,
+  "STEP": 60,
+  "steps": 33120,
+  "wall_hard_seconds": 4800,
+  "cleanup_trigger_seconds": 4770,
+  "RSS_budget_GiB": 16,
+  "output_budget_GiB": 5,
+  "per_volume_MiB": 256,
+  "start_free_GiB": 25,
+  "running_free_GiB": 20,
+  "restart": false,
+  "authenticated_V51_required": true,
+  "formal_launch_claims": 0,
+  "automatic_retry": false,
+  "configuration_sha256": "88922e950a213b34b9483a711fff72b2f0c593db9454bfac9ae7b026f1373541",
+  "budget_estimate": {
+    "scenario": "B_ADD7",
+    "start_UTC": "2022-05-31",
+    "end_UTC": "2022-06-23",
+    "unchanged_target_date": "2022-06-21",
+    "candidate_preheat_days": 21,
+    "steps_each": 33120,
+    "baseline_or_new_runs": 2,
+    "Fobs_start": "2022-04-19",
+    "Fobs_end": "2022-08-04",
+    "Fobs_total": 108,
+    "new_Fobs_dates": [],
+    "Kp_start": "2022-05-29",
+    "Kp_end": "2022-06-25",
+    "Kp_total": 224,
+    "new_Kp_days": [
+      "2022-05-29",
+      "2022-05-30",
+      "2022-05-31",
+      "2022-06-01",
+      "2022-06-02",
+      "2022-06-03",
+      "2022-06-04"
+    ],
+    "new_Kp_buckets": 56,
+    "estimated_minutes_per_run": 58.60414581981798,
+    "estimated_AB_minutes_if_executed": 117.20829163963596,
+    "estimated_NetCDF_bytes_per_run": 4846649056
+  },
+  "shared_supervisor_lock": "experiments/thermosphere_autumn_mareqx_config_v23/autumn_execution_lock_local",
+  "same_target_UTC_hours": {
+    "V48_target": 336,
+    "V50_target": 504,
+    "V48_late": [
+      360,
+      384
+    ],
+    "V50_late": [
+      528,
+      552
+    ]
+  },
+  "rules_sha256": "5ea4e27db746d698f738b974fbf12ba81b09d186d94c0a9376aa2640517bb52b",
+  "official_V37_admission": false,
+  "Swarm_target_density_reads": 0
+}

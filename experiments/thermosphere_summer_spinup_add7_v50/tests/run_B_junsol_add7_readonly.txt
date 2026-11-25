@@ -1,0 +1,52 @@
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/experiments/thermosphere_summer_spinup_add7_v50/gpi_2022_summer_add7_candidate_v50.nc
+Getfile: Found file /workspace/data/20261016/experiments/thermosphere_summer_spinup_add7_v50/gpi_2022_summer_add7_candidate_v50.nc
+------------------------------------------------------------------------
+
+GPI_NATIVE_28X8_PASS
+SOURCE_EXPANDED_LENGTH=7
+
+------------------------------------------------------------------------
+Getfile: remote=../b.nc
+Getfile: Found file ../b.nc
+------------------------------------------------------------------------
+
+Acquired source history file ../b.nc
+  (disk file is ../b.nc)
+FIELD_READ=TN 75168
+FIELD_READ=UN 75168
+FIELD_READ=VN 75168
+FIELD_READ=O2 75168
+FIELD_READ=O1 75168
+FIELD_READ=N4S 75168
+FIELD_READ=NO 75168
+FIELD_READ=HE 75168
+FIELD_READ=AR 75168
+FIELD_READ=OP 75168
+FIELD_READ=N2D 75168
+FIELD_READ=TI 75168
+FIELD_READ=TE 75168
+FIELD_READ=NE 75168
+FIELD_READ=O2P 75168
+FIELD_READ=OMEGA 75168
+FIELD_READ=Z 75168
+FIELD_READ=POTEN 75168
+FIELD_READ=TN_NM 75168
+FIELD_READ=UN_NM 75168
+FIELD_READ=VN_NM 75168
+FIELD_READ=O2_NM 75168
+FIELD_READ=O1_NM 75168
+FIELD_READ=N4S_NM 75168
+FIELD_READ=NO_NM 75168
+FIELD_READ=OP_NM 75168
+FIELD_READ=HE_NM 75168
+FIELD_READ=AR_NM 75168
+FIELD_READ=TLBC 2592
+FIELD_READ=ULBC 2592
+FIELD_READ=VLBC 2592
+FIELD_READ=TLBC_NM 2592
+FIELD_READ=ULBC_NM 2592
+FIELD_READ=VLBC_NM 2592
+NATIVE_CLOCK=2002 172   172    0    0
+READONLY_SEED_PASS

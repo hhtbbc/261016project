@@ -1,0 +1,10 @@
+{
+  "URL": "https://kp.gfz.de/app/json/?start=2022-05-29T00%3A00%3A00Z&end=2022-06-04T23%3A59%3A59Z&index=Kp&status=def",
+  "bytes": 2009,
+  "SHA256": "12d05f36b048d6578b6b92acf18b170d1968817b7ce425758d685b68c4505d78",
+  "HTTP": 200,
+  "UTC": "2026-11-25T10:05:18.758043+00:00",
+  "raw_path": "data/raw/thermosphere_summer_spinup_add7_v50/Kp_2022-05-29_2022-06-04.json",
+  "TLS_hostname_verified": true,
+  "acceptance": "requires parsed record validation"
+}

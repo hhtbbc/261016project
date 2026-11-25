@@ -1,0 +1,44 @@
+{
+  "sources": {
+    "data/raw/tiegcm_training_years_v1/2022_Fobs.json": "e5b665880486903071efa5ad33964288bcd0b74195e31f380099366df270aab8",
+    "data/raw/thermosphere_summer_data_acquisition_v38/Fobs_2022-05-20_2022-07-28.json": "75afdd57fbb4bae119ff7ca188c2aa88d856f8a42965f40ee5a02bddc598a274",
+    "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Fobs_20220729_20221106.json": "fcfd9d337597aeca2b59c79c189680f0363ca8bcddd3bdd88725f33ac3524744",
+    "data/raw/thermosphere_summer_data_acquisition_v38/Kp_2022-06-05_2022-06-25.json": "ff0e70b81ea3e32b323adbba211edc73d7d35c2b60e26d4b8117c9d2307334bd",
+    "data/raw/thermosphere_summer_spinup_add7_v50/Kp_2022-05-29_2022-06-04.json": "12d05f36b048d6578b6b92acf18b170d1968817b7ce425758d685b68c4505d78"
+  },
+  "source_counts": {
+    "data/raw/tiegcm_training_years_v1/2022_Fobs.json": 31,
+    "data/raw/thermosphere_summer_data_acquisition_v38/Fobs_2022-05-20_2022-07-28.json": 70,
+    "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Fobs_20220729_20221106.json": 7,
+    "data/raw/thermosphere_summer_data_acquisition_v38/Kp_2022-06-05_2022-06-25.json": 168,
+    "data/raw/thermosphere_summer_spinup_add7_v50/Kp_2022-05-29_2022-06-04.json": 56
+  },
+  "Fobs": 108,
+  "Kp": 224,
+  "new_Kp": 56,
+  "model_interval": [
+    "2022-05-31T00:00:00+00:00",
+    "2022-06-23T00:00:00+00:00"
+  ],
+  "STEP": 60,
+  "steps": 33120,
+  "old_inventory": {
+    "V49_entries": 42,
+    "V48_raw_volumes": 66,
+    "raw_run_ids": [
+      "342ca7ee59a74a6aa600dd40f4459d91",
+      "aff143997075432d896fe8acf88fc53e"
+    ]
+  },
+  "frozen_algorithm_sha256": {
+    "src/atmosphere/autumn_gpi_validation.py": "5f67d8d6a2ae89a50d54763776a2752dee56c45769f0ce2eedee1467cbe274e9",
+    "scripts/prepare_autumn_gpi_v22.py": "27665e898786834ba16a19b876ad721ca6f787402fdab67b86d5142f9c0ee0ba",
+    "tests/test_autumn_gpi_v22.py": "47a77c6925a944ddd896a9c1925cd735011b339ead3d850c263cc86df9bd6503",
+    "scripts/prepare_tiegcm_training_drivers.py": "82fdbf2c4d39f04041013de0b3e5a16bd9d9bbeedd7ee31b6c1c0f9eb7465675",
+    "src/atmosphere/tiegcm_drivers.py": "3bdbd2b576bbf9440be91f84efc6940280bac1b544716b2582e6d3f3196e7f3a",
+    "src/observations/autumn_validation.py": "a960f496c9e5419054d40fe615f5fc3db91c6a543b80f196b06fb376db04b356",
+    "third_party/TIEGCM2.0/src/gpi.F": "bbc1e592f569d19b9462401ee161209bea5e19b4becf674c2007125fc67ed56e",
+    "third_party/TIEGCM2.0/src/util.F": "19d505de53e8dc68ca249e9ba7cbbaeff0784f6dfd014de63a9bb29c502203f9"
+  },
+  "generator_sha256": "7003f130209e1fa62928777be2b1a8b44ed7b4ec5184fefde2a6f99564e2daa2"
+}
