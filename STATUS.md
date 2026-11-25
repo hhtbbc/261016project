@@ -812,3 +812,8 @@ V45_CONFIG_DESIGN_COMPLETE。2022 离线配置候选静态通过，B 初态政�
 ## V46 2022 夏季双初态工程对照
 
 V46_PARTIAL_RUN / SEED_SENSITIVITY_INCONCLUSIVE。A CPU 23040 步和 33 卷独立核验通过；B 源路径截断、初始化退出 2，零步零卷，无重试。 入口 reports/THERMOSPHERE_SUMMER_SEED_SENSITIVITY_V46.md。
+
+
+## V47 夏季 B 恢复预检
+
+V47_B_RECOVERY_READY_FOR_AUTHORIZATION。短相对路径以真实 NetCDF-Fortran 读取全部 34 项状态，保留 V46 A 和旧失败；未授权、未启动新 B。 入口 reports/THERMOSPHERE_SUMMER_SEED_RECOVERY_V47.md。

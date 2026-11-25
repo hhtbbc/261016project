@@ -1,0 +1,27 @@
+SOURCE_EXPANDED_LENGTH=147
+
+------------------------------------------------------------------------
+Getfile: remote=/workspace/data/20261016/data/raw/thermosphere_summer_data_handoff_v39/accepted/tiegcm_res5.0_junsol_smax_prim.nc/tiegcm_res5.0_junsol_smax_prim.nc
+Getfile: Found file /workspace/data/20261016/data/raw/thermosphere_summer_data_handoff_v39/accepted/tiegcm_res5.0_junsol_smax_prim.nc/tiegcm_res5.0_junsol_smax_prim.nc
+------------------------------------------------------------------------
+
+Acquired source history file /workspace/data/20261016/data/raw/thermosphere_summer_data_handoff_v39/accepted/tiegcm_res5.0_junsol_smax_prim.nc/tiegcm_res5.0_junsol_smax_prim.nc
+  (disk file is /workspace/data/20261016/data/raw/thermosphere_summer_data_handoff_v39/accepted/tiegcm_res5.0_junsol_smax_prim.nc/tiegcm)
+RDSOURCE_DISKFILE_LENGTH=120
+RDSOURCE_DISKFILE=/workspace/data/20261016/data/raw/thermosphere_summer_data_handoff_v39/accepted/tiegcm_res5.0_junsol_smax_prim.nc/tiegcm
+At line 170 of file /workspace/data/20261016/experiments/thermosphere_summer_seed_recovery_v47/tests/frozen_probe_routines.f
+Fortran runtime error: End of record
+
+Error termination. Backtrace:
+#0  0x7ff2beb7daf4 in formatted_transfer_scalar_write
+	at ../../../libgfortran/io/transfer.c:2380
+#1  0x7ff2beb7dde4 in formatted_transfer
+	at ../../../libgfortran/io/transfer.c:2625
+#2  0x55cde86359ec in ???
+#3  0x55cde86368c4 in ???
+#4  0x55cde8637ef0 in ???
+#5  0x55cde8638aee in ???
+#6  0x7ff2be53e1c9 in ???
+#7  0x7ff2be53e28a in ???
+#8  0x55cde8635304 in ???
+#9  0xffffffffffffffff in ???

@@ -1462,3 +1462,8 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## V46 2022 夏季双初态工程对照
 
 2026-11-25：两组各一次串行。A 约 40.44 分钟完成并通过独立验收；B 约 0.736 秒初始化失败。147 字节 SOURCE 被 rdsource.F 的 120 字符 diskfile 截断，nchist.F 报 End of record。冻结数据和 V37 顺序保持；拟议短相对路径方案需单独授权。未读 Swarm、未使用 GPU。 入口 reports/THERMOSPHERE_SUMMER_SEED_SENSITIVITY_V46.md。
+
+
+## V47 夏季 B 恢复预检
+
+2026-11-25：复核 V46 A 33 卷及 B 退出证据，复现 147→120 路径截断；只读副本与 V44 SHA 相同。33 项 CPU 测试通过，零 MPI、模型步及未见目标读取。下一轮单次新 B 须明确授权。 入口 reports/THERMOSPHERE_SUMMER_SEED_RECOVERY_V47.md。

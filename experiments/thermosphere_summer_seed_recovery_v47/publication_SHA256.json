@@ -1,0 +1,16 @@
+{
+  "reports/THERMOSPHERE_SUMMER_SEED_RECOVERY_V47.md": "ca13e0210547e90dd7cca6f26c178b921dc459d8144c90bcb4ef6cf3baddc0e6",
+  "scripts/verify_summer_seed_recovery_v47.py": "4a1f28c8b89b4dc3de685026ee406368d06145d434c27c302fcd651a84a56d1f",
+  "scripts/check_summer_seed_recovery_v47.py": "51f48f2e0a11661d2fbb3cc2eac934a27f3e542fd656259a8bfb568754595495",
+  "scripts/probe_summer_seed_recovery_v47.py": "9fab8370ccf68f7d53c68c2171ea333b5f5d0611a546c9f4d4e2201066222626",
+  "scripts/analyze_summer_seed_recovery_v47.py": "8b6b966ba83f269022aaa9a8d0477fea0b3925ab0966f78258a2bbda25bcd693",
+  "scripts/preflight_summer_seed_recovery_v47.py": "214f0295ebd2b194d703a0841a456a419f0abc4c44a3ad859be1ccc10b3a1426",
+  "experiments/thermosphere_summer_seed_recovery_v47/preparation.json": "47fae5ab306e35450350b2907e14e4b2c68ac80e92b381a258c955cac95f0842",
+  "experiments/thermosphere_summer_seed_recovery_v47/verification.json": "f3f5efe49a351487cd0b7710a6f1193e5a04f9690167eb1e8643a041fe97d680",
+  "experiments/thermosphere_summer_seed_recovery_v47/recovery_input.namelist": "e75f70222d8266807adc3bc06242e470f668f54a523831f720ffe75930d558c1",
+  "experiments/thermosphere_summer_seed_recovery_v47/archived_runtime_evidence.json": "d84c175ee36bee18b0f34aad39553d224da52504cacdf007a9ef6a3a9fdd00f5",
+  "experiments/thermosphere_summer_seed_recovery_v47/tests/fortran_probe.json": "03e4bd8c05a36a916a2c4b8440036862536bff5bfdb3041db90a1a911215287d",
+  "experiments/thermosphere_summer_seed_recovery_v47/tests/legacy_truncation.txt": "efb8d9d275a0685a70e0dfd8392642f0330716ee349752439eeb6b66e80a2b10",
+  "experiments/thermosphere_summer_seed_recovery_v47/tests/wrong_cwd.txt": "1e974b6d5ec1b58ec3007552e8b4ecd0990aa1bf18e465b4b5bed48474ef13eb",
+  "experiments/thermosphere_summer_seed_recovery_v47/tests/short_source.txt": "ce32aafb97dae208bc557d71954843297085cd89378c71948aca11cd92a01480"
+}
