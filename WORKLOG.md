@@ -1457,3 +1457,8 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## V45 夏季初态政策及离线配置
 
 冻结 CPU 环境完成候选写入、只读复核及 NetCDF-Fortran 时钟直读，16 项负例和实际 CLI 启动拒绝通过。保留 V37—V44 冻结证据，未创建运行目录或启动 TIE-GCM。 入口 reports/THERMOSPHERE_SUMMER_SEED_POLICY_AND_CONFIG_V45.md。
+
+
+## V46 2022 夏季双初态工程对照
+
+2026-11-25：两组各一次串行。A 约 40.44 分钟完成并通过独立验收；B 约 0.736 秒初始化失败。147 字节 SOURCE 被 rdsource.F 的 120 字符 diskfile 截断，nchist.F 报 End of record。冻结数据和 V37 顺序保持；拟议短相对路径方案需单独授权。未读 Swarm、未使用 GPU。 入口 reports/THERMOSPHERE_SUMMER_SEED_SENSITIVITY_V46.md。

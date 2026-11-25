@@ -1,0 +1,27 @@
+{
+  "A_engineering_independent": "PASS",
+  "A_output_sha_verified": 33,
+  "A_primary": 17,
+  "A_secondary": 384,
+  "A_independent_GPI_max_abs": 5.684341886080802e-14,
+  "B_initialization_exit_independent": "PASS_EVIDENCE_OF_FAILURE",
+  "B_exit": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "B_steps": 0,
+  "B_NetCDF": 0,
+  "B_source_path_bytes": 147,
+  "B_diskfile_buffer_bytes": 120,
+  "B_truncated_path_exists": false,
+  "failure_chain": [
+    "getfile found full path",
+    "rdsource diskfile truncated",
+    "nf_open entered error branch",
+    "nchist 120-character internal error write overflowed"
+  ],
+  "paired_metrics": "NOT_RUN",
+  "model_retries": 0
+}

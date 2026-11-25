@@ -1,0 +1,123 @@
+{
+  "frozen_before_any_paired_output_comparison": true,
+  "hours": [
+    24,
+    72,
+    168,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384
+  ],
+  "criteria": {
+    "DEN": [
+      0.05,
+      0
+    ],
+    "TN": [
+      10,
+      null
+    ],
+    "WIND_VECTOR": [
+      2000,
+      null
+    ],
+    "O1": [
+      0.05,
+      1e-08
+    ],
+    "O2": [
+      0.05,
+      1e-08
+    ],
+    "N2": [
+      0.05,
+      1e-08
+    ],
+    "HE": [
+      0.05,
+      1e-08
+    ]
+  },
+  "final_25_hourly_samples_inclusive": [
+    360,
+    384
+  ],
+  "reference": "mareqx",
+  "files_sha256": {
+    "experiments/tiegcm_2021_spinup_14day_v1/frozen_comparison_rules.json": "5ea4e27db746d698f738b974fbf12ba81b09d186d94c0a9376aa2640517bb52b",
+    "scripts/verify_summer_seed_sensitivity_v46.py": "a9610b94f9f132d7b432584893e5a3bf23130f29e43b6aa91cd00474b1becb77",
+    "scripts/analyze_summer_seed_sensitivity_v46.py": "bc1bdc6ecf87e36237b948b572fe8e177b0e256f4adc5ce86a57913e916c1f3e",
+    "scripts/plot_summer_seed_sensitivity_v46.py": "ef5c1e35e20b294790df7e4bb0a4385340677085dea61ca8e154ef789d6b74be",
+    "scripts/run_summer_seed_sensitivity_v46.py": "50eea646154817df2ebede616c3af9b413e6f3c3a911c76b61e2de090eecf5a6"
+  }
+}

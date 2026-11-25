@@ -1,0 +1,35 @@
+{
+  "status": "SOURCE_ONLY",
+  "TN_units": "K",
+  "TN": {
+    "n": 72576,
+    "coverage": 0.9655172413793104,
+    "relative_n": 72576,
+    "bias": 9.467343045578135,
+    "MAE": 61.26521911702509,
+    "RMSE": 91.85002116475523,
+    "max_abs": 373.72742893410816,
+    "abs_P95": 211.9108116247911,
+    "relative_mean": 0.06157694120222131,
+    "relative_median": 0.062192073072433705,
+    "relative_P95": 0.1789182293994306,
+    "log_RMSE": null
+  },
+  "source_DEN_present": [
+    false,
+    false
+  ],
+  "source_clock": [
+    [
+      80,
+      0,
+      0
+    ],
+    [
+      172,
+      0,
+      0
+    ]
+  ],
+  "notes": "Cold-source files contain no diagnostic DEN, first warm hour must be used for initial density comparison."
+}
