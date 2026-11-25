@@ -1,0 +1,9 @@
+[
+  {
+    "native_N2_near_1e_6_tolerance": 5e-15,
+    "n": 56125,
+    "failing_n": 1065,
+    "failing_median_abs_mmr": 0.00010322673222162848,
+    "source": "comp.F:97,952-985 composition normalization and residual N2"
+  }
+]

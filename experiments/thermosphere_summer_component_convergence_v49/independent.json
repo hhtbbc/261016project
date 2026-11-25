@@ -1,0 +1,18 @@
+{
+  "state": "PASS",
+  "run_ids": [
+    "342ca7ee59a74a6aa600dd40f4459d91",
+    "aff143997075432d896fe8acf88fc53e"
+  ],
+  "files_SHA256_verified": 66,
+  "all_frozen_cells_rechecked": 31350,
+  "failures_exactly_reproduced": 2196,
+  "V49_hour_region_rows": 9216,
+  "matched_hemisphere_rows": 208800,
+  "concentration_bins": 32,
+  "association_rows": 13176,
+  "strict_floor_relative_and_LT_negative_controls": "PASS",
+  "no_swarm_density": true,
+  "new_runs": 0,
+  "GPU": 0
+}

@@ -1,0 +1,17 @@
+{
+  "state": "V49_COMPONENT_DIAGNOSIS_COMPLETE_VERIFIED",
+  "scientific_state": "SEED_SENSITIVITY_FAIL",
+  "evidence_labels": [
+    "DENSITY_LIMITED_INSENSITIVITY_SUPPORTED",
+    "COMPONENT_SLOW_ADJUSTMENT_SUPPORTED",
+    "MECHANISM_INCONCLUSIVE"
+  ],
+  "unseen_swarm_density_reads": 0,
+  "tiegcm_launches": 0,
+  "GPU": 0,
+  "verified_figures": 11,
+  "recommended_future_design_if_full_state_is_goal": "B_ADD7_REQUIRES_NEW_AUTHORIZATION",
+  "local_detail": {
+    "experiments/thermosphere_summer_component_convergence_v49/hemisphere_pairs.csv": "5eb5ffe96e6b6aa0ddb292854829a5cb3b1ce4b2a2a867c505a61947b28017e2"
+  }
+}

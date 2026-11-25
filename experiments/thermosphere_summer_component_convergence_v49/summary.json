@@ -1,0 +1,20 @@
+{
+  "frozen_gate_result": "SEED_SENSITIVITY_FAIL",
+  "reconstructed_component_units": 17400,
+  "failed_units": 2196,
+  "diagnostics": "EXPLORATORY_DIAGNOSTIC_RESULT",
+  "hours": 384,
+  "window_inclusive": [
+    360,
+    384
+  ],
+  "floor": 1e-08,
+  "strict_threshold": 0.05,
+  "min_pass_fraction": 0.95,
+  "units": "composition mmr; midpoint internal ZG km; pressure Pa",
+  "midpoint": "Interpolate within adjacent ilev in log-pressure coordinate; lev 28 unbracketed, no extrapolation.",
+  "significance": "Associations only, no causal identification.",
+  "new_model_runs": 0,
+  "unseen_target_density_reads": 0,
+  "GPU": 0
+}

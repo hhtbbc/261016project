@@ -1472,3 +1472,8 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## V48 2022 夏季 junsol 恢复与配对验证
 
 2026-11-25：按 V48 批复只启动 B 一次，短 SOURCE 真实读取通过；保留原 A、旧失败 B、冷回显和资源收据。末 24 小时 31050 个有效单元中 2196 失败，全为组分。保留 P95 首轮复核失败，按历史等值排序独立重放 270102 项通过；11 图。未读取 Swarm 或使用 GPU。 入口 reports/THERMOSPHERE_SUMMER_SEED_RECOVERY_EXECUTION_V48.md。
+
+
+## V49 2022 夏季组分慢调整诊断
+
+2026-11-25：冻结 CPU 环境运行 diagnose、verify、summarize、attribute 四入口，复核 66 卷原生 SHA、31350 单元和 15000 余关联及局地时记录。11 图；未使用 TIE-GCM、GPU 或未见密度。提前 7 天需补真实 Kp 56 桶。 入口 reports/THERMOSPHERE_SUMMER_COMPONENT_CONVERGENCE_V49.md。
