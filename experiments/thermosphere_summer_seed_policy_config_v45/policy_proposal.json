@@ -1,0 +1,40 @@
+{
+  "recommendation": "SUMMER_SEED_POLICY_B_JUNSOL_RECOMMENDED",
+  "approval": "PENDING",
+  "seed_sha256": "baed93b59dee7f8e6355c8d0224bd2335cf355bd0d632c9d2327aa7d0227475e",
+  "calendar_UTC": {
+    "2021": [
+      "2021-06-07T00:00:00Z",
+      "2021-06-23T00:00:00Z"
+    ],
+    "2022": [
+      "2022-06-07T00:00:00Z",
+      "2022-06-23T00:00:00Z"
+    ]
+  },
+  "native_time_UTC": "2002-06-21T00:00:00Z",
+  "source_start": [
+    172,
+    0,
+    0
+  ],
+  "application": "Summer only, synchronized source SHA, separate complete observed GFZ by year",
+  "spinup_days_before_target": 14,
+  "spinup_sufficiency": "NOT_PROVEN",
+  "risks": [
+    "Solar maximum seed versus actual target forcing",
+    "Transient thermospheric response",
+    "External ZG datum unverified"
+  ],
+  "future_acceptance": [
+    "Separate policy and CPU run authorizations",
+    "Pinned assets and resources",
+    "Source read and cold echo",
+    "Observed GPI boundary and first-step driver",
+    "Step, time, field and output audits",
+    "V37 stage gates for formal evaluation"
+  ],
+  "failure": "Preserve partial run and logs in isolated directory, keep authorization claim, no retry or in-place rollback",
+  "runtime": "UNVERIFIED",
+  "run_ready": false
+}

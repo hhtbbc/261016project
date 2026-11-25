@@ -1,0 +1,28 @@
+{
+  "overall": "V45_CONFIG_DESIGN_COMPLETE",
+  "2022_candidate": "2022_SUMMER_CONFIG_CANDIDATE_VERIFIED",
+  "policy": "SUMMER_SEED_POLICY_RECOMMENDED_PENDING_APPROVAL",
+  "model_runtime": "UNVERIFIED",
+  "2021": {
+    "GFZ": "BLOCKED",
+    "missing_Fobs": [
+      "2021-05-09",
+      "2021-06-16"
+    ],
+    "ESA": "NOT_ACQUIRED",
+    "RUN_READY": false
+  },
+  "2022": {
+    "GFZ": "COMPLETE",
+    "GPI": "ENGINEERING_CANDIDATE_VERIFIED",
+    "ESA": "NOT_ACQUIRED",
+    "RUN_READY": false
+  },
+  "TAR_upload_and_copy_SHA256": "d93c93886ad7fc8ef5c1505168f782ed204b666b6f9d89bd873b7313aa15300f",
+  "V37_formal_integration_requires_Swarm_identity": true,
+  "V37_2021_first": true,
+  "new_tiegcm_runs": 0,
+  "GPU": 0,
+  "formal_input": 0,
+  "unseen_target_density_reads": 0
+}

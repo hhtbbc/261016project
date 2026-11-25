@@ -1452,3 +1452,8 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## V44 夏至初态验收
 
 2026-11-25：核对原件与受控副本 SHA 后定向提取 16,993,144 字节 junsol；V39/V40 真品复核通过，原生 SOURCE_START=172 0 0。冻结资产 SHA 一致。未运行模型、未读取未见目标密度、未生成正式配置。 入口 reports/THERMOSPHERE_NCAR_JUNSOL_REAL_ACCEPTANCE_V44.md。
+
+
+## V45 夏季初态政策及离线配置
+
+冻结 CPU 环境完成候选写入、只读复核及 NetCDF-Fortran 时钟直读，16 项负例和实际 CLI 启动拒绝通过。保留 V37—V44 冻结证据，未创建运行目录或启动 TIE-GCM。 入口 reports/THERMOSPHERE_SUMMER_SEED_POLICY_AND_CONFIG_V45.md。
