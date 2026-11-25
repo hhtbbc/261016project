@@ -1447,3 +1447,8 @@ V42 在冻结环境执行 preflight_summer_gfz_v42.py，独立 Decimal 核对 21
 ## NCAR 服务器下载专项
 
 NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --download，并以有界 HEAD 检查官方直文件地址。登记流程停在邮箱门禁。直址 HEAD 约 1.38 秒收到首字节，正文传输 0 字节，真实续传和服务器会话限制未验证。V40 本地收据 http_probe_20261124T104226054643Z_local.json。无环境改动、GPU、模型、配置生成或未见目标读取。下一步完成官方登记并确认服务器授权交付。
+
+
+## V44 夏至初态验收
+
+2026-11-25：核对原件与受控副本 SHA 后定向提取 16,993,144 字节 junsol；V39/V40 真品复核通过，原生 SOURCE_START=172 0 0。冻结资产 SHA 一致。未运行模型、未读取未见目标密度、未生成正式配置。 入口 reports/THERMOSPHERE_NCAR_JUNSOL_REAL_ACCEPTANCE_V44.md。

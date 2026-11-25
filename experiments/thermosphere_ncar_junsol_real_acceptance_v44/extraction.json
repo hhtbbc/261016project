@@ -1,0 +1,984 @@
+{
+  "tar_status": "NCAR_TAR_VERIFIED",
+  "tar_path": "data/raw/thermosphere_ncar_junsol_acquisition_v40/tiegcm2.0_res5.0_data.tar",
+  "tar_size": 1565061120,
+  "tar_SHA256": "d93c93886ad7fc8ef5c1505168f782ed204b666b6f9d89bd873b7313aa15300f",
+  "regular_directory_entries": 35,
+  "member_path": "tiegcm_res5.0_data/tiegcm_res5.0_junsol_smax_prim.nc",
+  "member_size": 16993144,
+  "member_SHA256": "baed93b59dee7f8e6355c8d0224bd2335cf355bd0d632c9d2327aa7d0227475e",
+  "member_status": "JUNSOL_MEMBER_EXTRACTED",
+  "UTC": "2026-11-25T07:04:00.732468+00:00",
+  "download_or_import_date": "2026-11-25",
+  "registration_URL": "https://registration.hao.ucar.edu/hao-reg_file-deliver.php?file=https://www.hao.ucar.edu/modeling/tgcm/download/files/tiegcm2.0_res5.0_data.tar&referer=https://www.hao.ucar.edu/modeling/tgcm/download.php&instrument=tiegcm",
+  "declared_official_source_URL": "https://www.hao.ucar.edu/modeling/tgcm/download.php",
+  "release": "TIE-GCM 2.0 5 degree startup and data",
+  "OFFICIAL_PROVENANCE_VERIFIED": false,
+  "static_status": "PRECHECK_PASS_V39_ADMISSION_REQUIRED",
+  "target_density_reads": 0,
+  "native": {
+    "status": "ENGINEERING_COMPATIBLE_CANDIDATE_NOT_SCIENCE_PASS",
+    "NetCDF_format": "NETCDF3_CLASSIC",
+    "primary_records": 1,
+    "years": [
+      2002
+    ],
+    "day_values": [
+      172
+    ],
+    "time_values": [
+      28800.0
+    ],
+    "time_units": "minutes since 2002-6-1 0:0:0",
+    "mtime": [
+      [
+        172,
+        0,
+        0
+      ]
+    ],
+    "SOURCE_START": [
+      172,
+      0,
+      0
+    ],
+    "actual_calendar_records": [
+      "2002-06-21T00:00:00"
+    ],
+    "required_complete_states": 34,
+    "all_state_schema_and_units_match_mareqx": true,
+    "grid": {
+      "lat": 36,
+      "lon": 72,
+      "lev": 29,
+      "ilev": 29
+    },
+    "vertical_coordinates": {
+      "lev": [
+        -6.75,
+        -6.25,
+        -5.75,
+        -5.25,
+        -4.75,
+        -4.25,
+        -3.75,
+        -3.25,
+        -2.75,
+        -2.25,
+        -1.75,
+        -1.25,
+        -0.75,
+        -0.25,
+        0.25,
+        0.75,
+        1.25,
+        1.75,
+        2.25,
+        2.75,
+        3.25,
+        3.75,
+        4.25,
+        4.75,
+        5.25,
+        5.75,
+        6.25,
+        6.75,
+        7.25
+      ],
+      "ilev": [
+        -7.0,
+        -6.5,
+        -6.0,
+        -5.5,
+        -5.0,
+        -4.5,
+        -4.0,
+        -3.5,
+        -3.0,
+        -2.5,
+        -2.0,
+        -1.5,
+        -1.0,
+        -0.5,
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0,
+        4.5,
+        5.0,
+        5.5,
+        6.0,
+        6.5,
+        7.0
+      ]
+    },
+    "height_structure": {
+      "Z": {
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "units": "cm"
+      }
+    },
+    "attributes": {
+      "label": "tiegcm_res5.0_junsol_smax",
+      "create_date": "02/01/16 13:51:43",
+      "model_name": "tiegcm",
+      "model_version": "tiegcm_trunk",
+      "svn_version": "1249",
+      "history_type": "primary",
+      "run_type": "initial"
+    },
+    "mareqx_attributes": {
+      "label": "tiegcm_res5.0_mareqx_smax",
+      "create_date": "02/01/16 13:52:15",
+      "model_name": "tiegcm",
+      "model_version": "tiegcm_trunk",
+      "svn_version": "1249",
+      "history_type": "primary",
+      "run_type": "initial"
+    },
+    "source_file_basename": "TGCM.tiegcm1.95.pcntr_junsol_smax.nc",
+    "source_file_attribute_SHA256": "3a518a5a59bcf227f00ced153d99682aec21aa06e7cb35702cd96063fd4b38e4",
+    "source_scalars": {
+      "f107d": [
+        200.0
+      ],
+      "f107a": [
+        200.0
+      ],
+      "Kp": [
+        1e+36
+      ],
+      "hpower": [
+        40.0
+      ],
+      "ctpoten": [
+        60.0
+      ]
+    },
+    "mareqx_SOURCE_START": [
+      [
+        80,
+        0,
+        0
+      ]
+    ],
+    "seasonal_sufficiency": "UNVERIFIED",
+    "restart_validated": false,
+    "state_values": [
+      {
+        "variable": "TN",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "K",
+        "finite": true,
+        "masked_count": 2592,
+        "valid_count": 72576,
+        "min_valid": 153.02608151012268,
+        "max_valid": 1564.3398605079785,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 373.72742893410816
+      },
+      {
+        "variable": "UN",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "cm/s",
+        "finite": true,
+        "masked_count": 2592,
+        "valid_count": 72576,
+        "min_valid": -52331.678834955565,
+        "max_valid": 47468.08071456848,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 22377.094909903783
+      },
+      {
+        "variable": "VN",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "cm/s",
+        "finite": true,
+        "masked_count": 2592,
+        "valid_count": 72576,
+        "min_valid": -53057.19318289419,
+        "max_valid": 58865.603005237805,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 16151.329957138105
+      },
+      {
+        "variable": "O2",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "mmr",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 9.781977554838098e-07,
+        "max_valid": 0.2299556253304573,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.037329738913432
+      },
+      {
+        "variable": "O1",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "mmr",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 0.003993264454321447,
+        "max_valid": 0.9695117889038156,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.5664026001847914
+      },
+      {
+        "variable": "N4S",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "mmr",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 1e-12,
+        "max_valid": 0.03733940583236512,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.017976109785719556
+      },
+      {
+        "variable": "NO",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "mmr",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 6.340588218212961e-09,
+        "max_valid": 0.0013175005058143191,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.0008303316703471356
+      },
+      {
+        "variable": "HE",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "mmr",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 1.1424916869776192e-06,
+        "max_valid": 0.67542998655966,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.570140635732663
+      },
+      {
+        "variable": "AR",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "MMR",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 1e-12,
+        "max_valid": 0.011184599938967464,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.003849690181533967
+      },
+      {
+        "variable": "OP",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "cm-3",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 0.0,
+        "max_valid": 2830968.3874434084,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 1593872.1913499574
+      },
+      {
+        "variable": "N2D",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "mmr",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 0.0,
+        "max_valid": 0.001623605872545428,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.0013659328541061778
+      },
+      {
+        "variable": "TI",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "K",
+        "finite": true,
+        "masked_count": 2592,
+        "valid_count": 72576,
+        "min_valid": 153.03175022220694,
+        "max_valid": 2998.194434054881,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 586.227631198469
+      },
+      {
+        "variable": "TE",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "K",
+        "finite": true,
+        "masked_count": 2592,
+        "valid_count": 72576,
+        "min_valid": 153.03867824238503,
+        "max_valid": 4600.101452682173,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 1728.7298449840264
+      },
+      {
+        "variable": "NE",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "cm-3",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 1029.0028545746545,
+        "max_valid": 2797802.824040321,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 1523304.1753453887
+      },
+      {
+        "variable": "O2P",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "cm-3",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 0.0,
+        "max_valid": 100701.14200324788,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 55382.07256595237
+      },
+      {
+        "variable": "OMEGA",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "s-1",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": -8.27804362556537e-05,
+        "max_valid": 0.00011299972489386869,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.00013512558797681225
+      },
+      {
+        "variable": "Z",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "cm",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 9578361.381017914,
+        "max_valid": 83513729.3662026,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 6654100.58179079
+      },
+      {
+        "variable": "POTEN",
+        "dimensions": [
+          "time",
+          "ilev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "volts",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": -33452.08015476309,
+        "max_valid": 24119.374965538445,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 3580.518069840601
+      },
+      {
+        "variable": "TN_NM",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "K",
+        "finite": true,
+        "masked_count": 2592,
+        "valid_count": 72576,
+        "min_valid": 153.0283644670742,
+        "max_valid": 1564.1774594256126,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 373.22788918086144
+      },
+      {
+        "variable": "UN_NM",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "cm/s",
+        "finite": true,
+        "masked_count": 2592,
+        "valid_count": 72576,
+        "min_valid": -52328.47506018747,
+        "max_valid": 47497.990249236784,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 22352.14323884631
+      },
+      {
+        "variable": "VN_NM",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "cm/s",
+        "finite": true,
+        "masked_count": 2592,
+        "valid_count": 72576,
+        "min_valid": -53034.79082598716,
+        "max_valid": 58843.64694348196,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 16161.822923467262
+      },
+      {
+        "variable": "O2_NM",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "mmr",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 9.994430851499899e-07,
+        "max_valid": 0.22995556249979174,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.03732077559925458
+      },
+      {
+        "variable": "O1_NM",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "mmr",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 0.003993325191210435,
+        "max_valid": 0.9695239975195927,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.5672977480018336
+      },
+      {
+        "variable": "N4S_NM",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "mmr",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 1e-12,
+        "max_valid": 0.03732091262933756,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.017970429346968523
+      },
+      {
+        "variable": "NO_NM",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "mmr",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 6.248199862652908e-09,
+        "max_valid": 0.0013188915151988922,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.0008301846521751148
+      },
+      {
+        "variable": "OP_NM",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "cm-3",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 0.0,
+        "max_valid": 2829569.175668015,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 1592114.3935410304
+      },
+      {
+        "variable": "HE_NM",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "mmr",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 1.1424915048628373e-06,
+        "max_valid": 0.6764224053697939,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.5710431511492933
+      },
+      {
+        "variable": "AR_NM",
+        "dimensions": [
+          "time",
+          "lev",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          29,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "MMR",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 75168,
+        "min_valid": 1e-12,
+        "max_valid": 0.011184599544985355,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 0.0038512070597062718
+      },
+      {
+        "variable": "TLBC",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "K",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 2592,
+        "min_valid": 168.75573163032533,
+        "max_valid": 198.01346101760862,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 12.520912244242965
+      },
+      {
+        "variable": "ULBC",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "cm/s",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 2592,
+        "min_valid": -3720.1552200317383,
+        "max_valid": 3336.0489463806152,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 3566.8988443190055
+      },
+      {
+        "variable": "VLBC",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "cm/s",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 2592,
+        "min_valid": -4181.7009353637695,
+        "max_valid": 5340.455055236816,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 4332.659878269318
+      },
+      {
+        "variable": "TLBC_NM",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "K",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 2592,
+        "min_valid": 168.77341318845748,
+        "max_valid": 197.99923599839212,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 12.501996393024285
+      },
+      {
+        "variable": "ULBC_NM",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "cm/s",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 2592,
+        "min_valid": -3715.495588620504,
+        "max_valid": 3327.183099667231,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 3562.2429597525183
+      },
+      {
+        "variable": "VLBC_NM",
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "shape": [
+          1,
+          36,
+          72
+        ],
+        "dtype": "float64",
+        "units": "cm/s",
+        "finite": true,
+        "masked_count": 0,
+        "valid_count": 2592,
+        "min_valid": -4178.3702573776245,
+        "max_valid": 5336.23549079895,
+        "padding_matches_mareqx": true,
+        "max_abs_state_difference_from_mareqx": 4325.915061304646
+      }
+    ]
+  }
+}

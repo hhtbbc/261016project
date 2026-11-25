@@ -1,0 +1,39 @@
+{
+  "state": "V44_JUNSOL_ACCEPTED_VERIFIED",
+  "seed": "JUNSOL_SEED_STATIC_COMPATIBLE",
+  "upload": "tiegcm2.0_res5.0_data.tar",
+  "upload_mtime_UTC": "2026-11-25T07:00:23.121926966Z",
+  "upload_and_controlled_copy_SHA256": "d93c93886ad7fc8ef5c1505168f782ed204b666b6f9d89bd873b7313aa15300f",
+  "upload_size": 1565061120,
+  "independent_member_stream_SHA256": "baed93b59dee7f8e6355c8d0224bd2335cf355bd0d632c9d2327aa7d0227475e",
+  "historical_entries_verified": {
+    "V37": 10,
+    "V38": 26,
+    "V39": 8,
+    "V40": 7,
+    "V41": 2,
+    "V42": 4,
+    "V43": 5
+  },
+  "GPI_candidate_SHA256": "d1e5cd2211a0ec6dd7e2c882341e3a2756626aa9ec4df74b8461ab4cc5d1a860",
+  "official_publication_checksum_verified": false,
+  "model_ELF_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+  "netcdf_fortran_SHA256": "f779248240b03523ad74e492e12bbe6ab7fd6e7e13593838d7d8cdb491b22d9a",
+  "seed_policy": "SUMMER_SEED_POLICY_B_JUNSOL_PROPOSED",
+  "policy_approval": "PENDING",
+  "2021": {
+    "GFZ": "BLOCKED",
+    "Fobs_missing": [
+      "2021-05-09",
+      "2021-06-16"
+    ],
+    "ESA": "NOT_ACQUIRED",
+    "RUN_READY": false
+  },
+  "2022": {
+    "GFZ": "COMPLETE",
+    "GPI": "ENGINEERING_CANDIDATE_VERIFIED",
+    "ESA": "NOT_ACQUIRED",
+    "RUN_READY": false
+  }
+}

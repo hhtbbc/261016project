@@ -1,0 +1,30 @@
+{
+  "UTC": "2026-11-25T07:04:09.910111+00:00",
+  "protected_pins": {
+    "published": 22,
+    "original_local_only": 4,
+    "V37": 10
+  },
+  "assets": [
+    {
+      "file": "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+      "status": "NOT_ACQUIRED"
+    },
+    {
+      "file": "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+      "status": "NOT_ACQUIRED"
+    },
+    {
+      "file": "tiegcm_res5.0_junsol_smax_prim.nc",
+      "status": "ACCEPTED_STATIC_ONLY",
+      "SHA256": "baed93b59dee7f8e6355c8d0224bd2335cf355bd0d632c9d2327aa7d0227475e",
+      "official_provenance": false
+    }
+  ],
+  "target_density_reads": 0,
+  "new_GPI": 0,
+  "new_formal_input": 0,
+  "new_model_runs": 0,
+  "new_scores": 0,
+  "GPU": 0
+}
