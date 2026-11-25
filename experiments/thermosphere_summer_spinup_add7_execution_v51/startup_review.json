@@ -1,0 +1,43 @@
+{
+  "V50_files": 20,
+  "history": {
+    "V49_entries": 42,
+    "V48_raw_volumes": 66,
+    "raw_run_ids": [
+      "342ca7ee59a74a6aa600dd40f4459d91",
+      "aff143997075432d896fe8acf88fc53e"
+    ]
+  },
+  "differences": [
+    {
+      "A": " SOURCE = '../a.nc'",
+      "B": " SOURCE = '../b.nc'"
+    },
+    {
+      "A": " SOURCE_START = 80 0 0",
+      "B": " SOURCE_START = 172 0 0"
+    }
+  ],
+  "plan_sha256": "baac3a8331ff811fb02c48a6519fde6ffcd0cf9aed8367dc8b4089c1ca60c7e5",
+  "resources": {
+    "libraries_match_spring": true,
+    "MPI_version": "mpirun (Open MPI) 5.0.8",
+    "CPU_affinity_count": 112,
+    "MemAvailable_bytes": 1764673208320,
+    "disk_free_bytes": 1329452867584,
+    "active_model_count": 0,
+    "resource_ready": true,
+    "monitoring": "session sampling/signals; not OS cgroup isolation",
+    "cpu_equivalent": 14.0,
+    "cgroup_memory_limit": 309237645312,
+    "cgroup_memory_usage": 20923588608,
+    "effective_memory_available": 288314056704,
+    "load_average": [
+      9.1201171875,
+      8.728515625,
+      8.85302734375
+    ],
+    "writable": true,
+    "queue_clients": []
+  }
+}

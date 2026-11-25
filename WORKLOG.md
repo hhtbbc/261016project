@@ -1482,3 +1482,8 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## V50 夏季追加七天预热准备
 
 2026-11-25：官方 GFZ 新取 56 definitive Kp，独立复算 33121 分钟节点及 736 边缘点，V43 重叠驱动相同。双初态各 34 字段 Fortran 读通；39 CPU 检查通过。无积分、未见密度或 GPU。 入口 reports/THERMOSPHERE_SUMMER_SPINUP_ADD7_PREPARATION_V50.md。
+
+
+## V51 2022 夏季 21 天预热执行
+
+2026-11-25：执行适配器经 V50 next_admission 和共享锁串行各启动一次。通过独立工程验收后运行 V50 冻结分析与复算（38460 行）及 12 图。V48/V49 原资产保持，联合失败 2196→118，无未见 Swarm 或 GPU。 入口 reports/THERMOSPHERE_SUMMER_SPINUP_ADD7_EXECUTION_V51.md。

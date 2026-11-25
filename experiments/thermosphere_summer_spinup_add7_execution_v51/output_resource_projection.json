@@ -1,0 +1,22 @@
+{
+  "histories_bytes": {
+    "primary": {
+      "16993216": 16,
+      "16993024": 1
+    },
+    "secondary": {
+      "192668984": 16
+    }
+  },
+  "projected_upper_NetCDF_bytes": 4839223816,
+  "estimated_headroom_bytes": 529485304,
+  "volume_upper_bytes": 192668984,
+  "schedule": {
+    "steps": 33120,
+    "primary": 24,
+    "secondary": 23,
+    "warm_hours": 552
+  },
+  "UTC": "2026-11-25T10:35:03.148601+00:00",
+  "actual_runtime_limits_unchanged": true
+}

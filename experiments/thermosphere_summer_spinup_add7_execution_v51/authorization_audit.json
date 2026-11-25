@@ -1,0 +1,13 @@
+{
+  "scope": "V51 2022 add7 A then B CPU",
+  "plan_sha256": "baac3a8331ff811fb02c48a6519fde6ffcd0cf9aed8367dc8b4089c1ca60c7e5",
+  "attempts_each": 1,
+  "approved": true,
+  "automatic_retry": false,
+  "recorded_UTC": "2026-11-25T10:20:02.421067+00:00",
+  "operator": "root",
+  "uid": 0,
+  "user_authorization": "\u6211\u660e\u786e\u6279\u51c6\u5728\u670d\u52a1\u5668CPU\u4e0a\u5f00\u5c552022\u5e74\u590f\u5b6321\u5929\u9884\u70ed\u53cc\u521d\u6001\u53d7\u9650HINDCAST\u5de5\u7a0b\u5b9e\u9a8c\u3002\u5141\u8bb8\u5206\u522b\u6b63\u5f0f\u6267\u884c\u4e00\u6b21\uff1aA\uff1amareqx smax\u521d\u6001\uff0c2022\u5e74\u590f\u5b6333,120\u6b65\u79ef\u5206\u3002B\uff1ajunsol smax\u521d\u6001\uff0c2022\u5e74\u590f\u5b6333,120\u6b65\u79ef\u5206\u3002",
+  "conditions": "A\u3001B \u4e32\u884c\uff1bA \u72ec\u7acb\u5de5\u7a0b\u9a8c\u6536 PASS \u540e\u624d\u542f\u52a8 B\uff1b\u5931\u8d25\u4e0d\u81ea\u52a8\u91cd\u8bd5\uff1bGPU\u3001Swarm \u672a\u89c1\u5bc6\u5ea6\u548c\u6b63\u5f0f\u8bc4\u5206\u7981\u7528\u3002",
+  "authorization_sha256": "140772d9cf65596b617617104151958e25a976cd922e6729776954500227f14b"
+}

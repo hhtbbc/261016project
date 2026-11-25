@@ -1,0 +1,23 @@
+{
+  "UTC": "2026-11-25T10:22:52.051417+00:00",
+  "checks": [
+    "V50 manifest and 19 constituent files verified before launching",
+    "V48 both original raw inventories (66 volumes) and V49 publication verified before launching",
+    "Resource gate and 65 library hashes verified",
+    "A new claim prevents A re-admission",
+    "B without independent A receipt rejected",
+    "B with wrong-plan A receipt rejected",
+    "33120-step frozen progress/calendar synthetic input accepted",
+    "Altered final step rejected",
+    "Altered planned total rejected",
+    "Independent 108 Fobs and 224 Kp parsed and checked against native GPI",
+    "Historical native 30450 cells paired by same UTC in identity fixture",
+    "Historical fixed-height 900 cells paired by same UTC in identity fixture"
+  ],
+  "source_sha256": {
+    "scripts/execute_summer_spinup_add7_v51.py": "91be589485cc46af544d35d478958403b8a3b1b8d09de909ffcc7c7d10a3e1f4",
+    "scripts/summarize_summer_spinup_add7_v51.py": "c1d84a3ac2a71908fd53b5c654f829a6a4e4f316faf2339e12980068b44db245",
+    "scripts/verify_summer_spinup_execution_v51.py": "690274054ea83c53fd68f3b61798aced185e2ec170ec00dde6897ae803d34b1a"
+  },
+  "model_starts_during_checks": 0
+}

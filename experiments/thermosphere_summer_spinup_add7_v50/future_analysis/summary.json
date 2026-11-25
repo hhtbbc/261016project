@@ -1,0 +1,19 @@
+{
+  "FULL_STATE_SEED_SENSITIVITY": "FAIL",
+  "DENSITY_LIMITED_INSENSITIVITY": "SUPPORTED",
+  "full_failed_cells": 118,
+  "lag_mapping": "V50=V48+168h on common physical UTC",
+  "run_ids": [
+    "ecd582e923ed4568a7d0be442eda445e",
+    "0e237fee82cf4b9e809e08bbde51cc31"
+  ],
+  "empty_cells": 300,
+  "trends": {
+    "200": -1.824203179251754e-06,
+    "300": -9.638233041738193e-06,
+    "400": -1.7377922277689566e-05,
+    "450": -1.9042320200049064e-05,
+    "475": -2.006158914706242e-05,
+    "500": -2.0983633817442445e-05
+  }
+}

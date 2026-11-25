@@ -1,0 +1,54 @@
+{
+  "V50_files": 20,
+  "history": {
+    "V49_entries": 42,
+    "V48_raw_volumes": 66,
+    "raw_run_ids": [
+      "342ca7ee59a74a6aa600dd40f4459d91",
+      "aff143997075432d896fe8acf88fc53e"
+    ]
+  },
+  "differences": [
+    {
+      "A": " SOURCE = '../a.nc'",
+      "B": " SOURCE = '../b.nc'"
+    },
+    {
+      "A": " SOURCE_START = 80 0 0",
+      "B": " SOURCE_START = 172 0 0"
+    }
+  ],
+  "plan_sha256": "baac3a8331ff811fb02c48a6519fde6ffcd0cf9aed8367dc8b4089c1ca60c7e5",
+  "UTC": "2026-11-25T11:14:08.773129+00:00",
+  "role": "B",
+  "B_frozen_assets": {
+    "role": "B",
+    "executable": {
+      "path": "experiments/tiegcm2_apex2023_v1/tiegcm2.0",
+      "SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776"
+    },
+    "mpirun": {
+      "path": ".envs/tiegcm/bin/mpirun",
+      "SHA256": "7b6c839e5d90310bf741efe3f9cbba68460083c74721513d5f3697b158119639"
+    },
+    "GPI": {
+      "path": "experiments/thermosphere_summer_spinup_add7_v50/gpi_2022_summer_add7_candidate_v50.nc",
+      "SHA256": "e3c90e0ae9524a9f9e71dabd2b549bc3b5611365a4eb66c2185d8e52f68af9f2"
+    },
+    "source": {
+      "path": "experiments/thermosphere_summer_spinup_add7_v50/b.nc",
+      "SHA256": "baed93b59dee7f8e6355c8d0224bd2335cf355bd0d632c9d2327aa7d0227475e"
+    },
+    "source_start": [
+      172,
+      0,
+      0
+    ],
+    "plan_sha256": "baac3a8331ff811fb02c48a6519fde6ffcd0cf9aed8367dc8b4089c1ca60c7e5",
+    "input": {
+      "path": "experiments/thermosphere_summer_spinup_add7_v50/run_B_junsol_add7.namelist",
+      "SHA256": "1c050737a9ef84065e834067f026ef11afb921747592c80ed390edce84b38a70"
+    }
+  },
+  "review_scope": "before A audit completed; no B model start in this audit"
+}
