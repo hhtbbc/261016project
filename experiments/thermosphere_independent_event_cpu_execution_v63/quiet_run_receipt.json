@@ -1,0 +1,3345 @@
+{
+  "engineering": "PASS",
+  "independent_science_status": "LOCKED_INDEPENDENT_TEST_CANDIDATE",
+  "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+  "directory": "experiments/thermosphere_independent_event_cpu_execution_v63/data_local/q",
+  "datetime_start": "2023-04-18T00:00:00Z",
+  "datetime_end": "2023-05-05T00:00:00Z",
+  "final_step": 24480,
+  "rank_progress": [
+    {
+      "final_step": 24480,
+      "progress_records": 2448,
+      "logging_stride": 10,
+      "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+    },
+    {
+      "final_step": 24480,
+      "progress_records": 2448,
+      "logging_stride": 10,
+      "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+    },
+    {
+      "final_step": 24480,
+      "progress_records": 2448,
+      "logging_stride": 10,
+      "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+    },
+    {
+      "final_step": 24480,
+      "progress_records": 2448,
+      "logging_stride": 10,
+      "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+    }
+  ],
+  "ranks": [
+    {
+      "rank": 0,
+      "returncode": 0,
+      "receipt_SHA256": "4cd1f6377acbcbfe911bd232349a55f5e9126077247280c509a0903638298b66",
+      "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+      "input_SHA256": "e37a8780e9f21068f39591989b8290c2b51c44febe0261616577fac1b0b4f14a"
+    },
+    {
+      "rank": 1,
+      "returncode": 0,
+      "receipt_SHA256": "37b91da5fe426b954c6d3951940d284add65967cd64232105cc6c0410fb291dc",
+      "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+      "input_SHA256": "e37a8780e9f21068f39591989b8290c2b51c44febe0261616577fac1b0b4f14a"
+    },
+    {
+      "rank": 2,
+      "returncode": 0,
+      "receipt_SHA256": "ed3b7dd9a7f44f4266adf22bd39095d5990aa506b4cd76f84efff39dedd0e53f",
+      "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+      "input_SHA256": "e37a8780e9f21068f39591989b8290c2b51c44febe0261616577fac1b0b4f14a"
+    },
+    {
+      "rank": 3,
+      "returncode": 0,
+      "receipt_SHA256": "20a0ef4737e1eb5934bb60bda3066cbf69f2a8aced631574d209cf1e3faa99ee",
+      "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+      "input_SHA256": "e37a8780e9f21068f39591989b8290c2b51c44febe0261616577fac1b0b4f14a"
+    }
+  ],
+  "parent_exit": 0,
+  "command": [
+    "/workspace/data/20261016/.envs/tiegcm/bin/mpirun",
+    "-np",
+    "4",
+    "/workspace/data/20261016/.venv310/bin/python",
+    "/workspace/data/20261016/src/runtime/tiegcm_rank_exit.py",
+    "--model",
+    "/workspace/data/20261016/experiments/tiegcm2_apex2023_v1/tiegcm2.0",
+    "--run-id",
+    "9438b5d05e764dcc8cc8c37cb7a89e97",
+    "--model-sha",
+    "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "--input-sha",
+    "e37a8780e9f21068f39591989b8290c2b51c44febe0261616577fac1b0b4f14a"
+  ],
+  "status_sha256": "dac0e4408852d9f0cfd537f676a2d3f0d2ce1e963c61fc9198b54c92184c93a6",
+  "peak_RSS_bytes": 1055444992,
+  "CPU_user_s": 9575.955141,
+  "CPU_system_s": 836.022099,
+  "elapsed_s": 2603.0466677211225,
+  "total_workdir_bytes": 3608552303,
+  "native_bytes": 3581243628,
+  "warnings_unique": [],
+  "warning_line_count": 0,
+  "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+  "input_SHA256": {
+    "input.inp": "e37a8780e9f21068f39591989b8290c2b51c44febe0261616577fac1b0b4f14a",
+    "seed.nc": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+    "gpi.nc": "1f919053cd7912f2cef066c51e9aa40d506f51cfcd4df1b5aece300d55145cd6"
+  },
+  "files": [
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_001.nc",
+      "kind": "primary",
+      "bytes": 16993028,
+      "sha256": "1249bf24d1b3fcf4f0cc3caec8be447fd00db22b70275aaf0a9ed144a4baee1b",
+      "records": 1,
+      "first_UTC": "2023-04-18T00:00:00Z",
+      "last_UTC": "2023-04-18T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_002.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "4092e30406d064959634f61a2f150e5c97f03e9ad89bd70582debfa46abe2f7d",
+      "records": 1,
+      "first_UTC": "2023-04-19T00:00:00Z",
+      "last_UTC": "2023-04-19T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_003.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "38bbd4ae76f80c5ccc68f44b66689e22a98d4427eb03d76604561c1f6cae7b71",
+      "records": 1,
+      "first_UTC": "2023-04-20T00:00:00Z",
+      "last_UTC": "2023-04-20T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_004.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "180c174f12005fe20923f4a36fed963840258cf3812ab5f863cf97c5f29ea702",
+      "records": 1,
+      "first_UTC": "2023-04-21T00:00:00Z",
+      "last_UTC": "2023-04-21T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_005.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "2f76d10164fe459b86fa81907a2c5413db3c58b9893fd56792c85a188da25aee",
+      "records": 1,
+      "first_UTC": "2023-04-22T00:00:00Z",
+      "last_UTC": "2023-04-22T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_006.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "9d998dc2ca3a1ccc0740e1a982eee157cbff9ac8a800b0876472f20a0a289658",
+      "records": 1,
+      "first_UTC": "2023-04-23T00:00:00Z",
+      "last_UTC": "2023-04-23T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_007.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "fa1aa9e95989870e2757f83c7103fb6a15651dc88f8f4dba2ad98e830952cd74",
+      "records": 1,
+      "first_UTC": "2023-04-24T00:00:00Z",
+      "last_UTC": "2023-04-24T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_008.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "ba92611551f4da7732667f1c585ad5a512d2cf41b602b44635d6843b183f14ad",
+      "records": 1,
+      "first_UTC": "2023-04-25T00:00:00Z",
+      "last_UTC": "2023-04-25T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_009.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "292534601fe37c3aa39c3ccbef6208be6d2aea7cfc1891465a03850a614a9832",
+      "records": 1,
+      "first_UTC": "2023-04-26T00:00:00Z",
+      "last_UTC": "2023-04-26T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_010.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "e81c198f30a20097e51f2f3dbfaa7db9a825a02fb8225b6070755028dcfb5c31",
+      "records": 1,
+      "first_UTC": "2023-04-27T00:00:00Z",
+      "last_UTC": "2023-04-27T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_011.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "f00a42d62f9b8d98806e158efe8805f9ab108ec11d1d95301ca3bf70a46c113b",
+      "records": 1,
+      "first_UTC": "2023-04-28T00:00:00Z",
+      "last_UTC": "2023-04-28T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_012.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "a77103d74c1fd064dec7770b7aa7ee3f58cf0011664b5cb898736c2dcd8b156e",
+      "records": 1,
+      "first_UTC": "2023-04-29T00:00:00Z",
+      "last_UTC": "2023-04-29T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_013.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "91dae7f9f00af26a7b411d50d699e8a1c4fcb6ba4a1a6dddf3e88d650fd13f6d",
+      "records": 1,
+      "first_UTC": "2023-04-30T00:00:00Z",
+      "last_UTC": "2023-04-30T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_014.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "0c30e37f9cb8b5fbe2219c360d126baa8572796c0cc0d595fe7b197047e2351a",
+      "records": 1,
+      "first_UTC": "2023-05-01T00:00:00Z",
+      "last_UTC": "2023-05-01T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_015.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "1c432d0da3dc804ce1c9cec84d5c25252a36732802546c3335d823d35973836d",
+      "records": 1,
+      "first_UTC": "2023-05-02T00:00:00Z",
+      "last_UTC": "2023-05-02T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_016.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "0d3f93c62f63e809f1eccda1f0581cfadade3df87874e34aa71e56835ab4e9ce",
+      "records": 1,
+      "first_UTC": "2023-05-03T00:00:00Z",
+      "last_UTC": "2023-05-03T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_017.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "ac975b356f965a5c2d01803125c353c8227be14139091c6f44bc3478eb871b4b",
+      "records": 1,
+      "first_UTC": "2023-05-04T00:00:00Z",
+      "last_UTC": "2023-05-04T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "primary_018.nc",
+      "kind": "primary",
+      "bytes": 16993016,
+      "sha256": "7296e585e10b27833f6c6aab63a5914cb67502ddd25d6c47144ab31122e0ae45",
+      "records": 1,
+      "first_UTC": "2023-05-05T00:00:00Z",
+      "last_UTC": "2023-05-05T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_001.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "2ae634ebbe4f33a4f58680db12716344cdc589edbf4ed2605a0b0ad5f2830633",
+      "records": 24,
+      "first_UTC": "2023-04-18T01:00:00Z",
+      "last_UTC": "2023-04-19T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_002.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "1ce6f6037e77021fdd4f2671f7b65f851814126d57753f74ec19dcfe0899556a",
+      "records": 24,
+      "first_UTC": "2023-04-19T01:00:00Z",
+      "last_UTC": "2023-04-20T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_003.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "e4489e499595f7da9478f029781d74e9e187a15ac490525e9d78380dafcb0e26",
+      "records": 24,
+      "first_UTC": "2023-04-20T01:00:00Z",
+      "last_UTC": "2023-04-21T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_004.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "2ad2c0a4421b84307ea178f724fd57776f2bab5c266c93c112dbdf3de574e59e",
+      "records": 24,
+      "first_UTC": "2023-04-21T01:00:00Z",
+      "last_UTC": "2023-04-22T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_005.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "3c96678bb2a216808908518fbe4327b66cc43072c88ddbcacbdd265f23370b90",
+      "records": 24,
+      "first_UTC": "2023-04-22T01:00:00Z",
+      "last_UTC": "2023-04-23T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_006.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "5a1bc7134e31cc1eeac65308b3d8a8cd4a6658dcaaed47be20fde7b8a6e75bf9",
+      "records": 24,
+      "first_UTC": "2023-04-23T01:00:00Z",
+      "last_UTC": "2023-04-24T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_007.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "6193a427e26ae95d7247f814816755e531855a4724d2a5f82d516fdd6199150f",
+      "records": 24,
+      "first_UTC": "2023-04-24T01:00:00Z",
+      "last_UTC": "2023-04-25T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_008.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "58e9e5a8fb683228b8e2aac471156c7585ec3707df0a30617ef845db3e2ca645",
+      "records": 24,
+      "first_UTC": "2023-04-25T01:00:00Z",
+      "last_UTC": "2023-04-26T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_009.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "75cbda10a161d8b28508fd11f3acc7672bc1aa1c28e121e1716582fa55b44bb7",
+      "records": 24,
+      "first_UTC": "2023-04-26T01:00:00Z",
+      "last_UTC": "2023-04-27T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_010.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "de6672427e0151365a37de9d4a981a48aff16e0bbb1e550d060a4632a47a3ce5",
+      "records": 24,
+      "first_UTC": "2023-04-27T01:00:00Z",
+      "last_UTC": "2023-04-28T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_011.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "44526f3772d6675e6faaf71ef19753fbfe0ee5c4e1e05ebe20a85acf078ebba2",
+      "records": 24,
+      "first_UTC": "2023-04-28T01:00:00Z",
+      "last_UTC": "2023-04-29T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_012.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "5ba9d1accf6dd2262aa524f9d938c53ba338bc5569f19c4a5bbc54f4a9aa4385",
+      "records": 24,
+      "first_UTC": "2023-04-29T01:00:00Z",
+      "last_UTC": "2023-04-30T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_013.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "b9d9f0d6a7f85fc123d648992c5e60b25a6dca59496e4fad092525b1f9769d94",
+      "records": 24,
+      "first_UTC": "2023-04-30T01:00:00Z",
+      "last_UTC": "2023-05-01T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_014.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "26c79b358121dca83d71d3a4224cf41591dd2d97695f0029cd33d35cf48e0700",
+      "records": 24,
+      "first_UTC": "2023-05-01T01:00:00Z",
+      "last_UTC": "2023-05-02T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_015.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "a8d27a8924247eef197fcdf77e45d189c4f73377dd76e7a349de130f7d5cd0ce",
+      "records": 24,
+      "first_UTC": "2023-05-02T01:00:00Z",
+      "last_UTC": "2023-05-03T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_016.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "e8052bee19191aed76a19a255a95e2b8023ceee2d8709608f42dff258af7e9c5",
+      "records": 24,
+      "first_UTC": "2023-05-03T01:00:00Z",
+      "last_UTC": "2023-05-04T00:00:00Z"
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "file": "secondary_017.nc",
+      "kind": "secondary",
+      "bytes": 192668784,
+      "sha256": "e9fb2704643ca584a9e8318cabf2efdc770f35b7d5627fd95b56823dde134b70",
+      "records": 24,
+      "first_UTC": "2023-05-04T01:00:00Z",
+      "last_UTC": "2023-05-05T00:00:00Z"
+    }
+  ],
+  "time_index": [
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T01:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T02:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T03:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T04:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T05:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T06:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T07:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T08:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T09:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T10:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T11:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T12:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T13:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T14:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T15:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T16:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T17:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T18:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T19:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T20:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T21:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T22:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-18T23:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T00:00:00Z",
+      "file": "secondary_001.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T01:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T02:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T03:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T04:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T05:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T06:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T07:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T08:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T09:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T10:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T11:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T12:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T13:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T14:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T15:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T16:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T17:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T18:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T19:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T20:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T21:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T22:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-19T23:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T00:00:00Z",
+      "file": "secondary_002.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T01:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T02:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T03:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T04:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T05:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T06:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T07:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T08:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T09:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T10:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T11:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T12:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T13:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T14:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T15:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T16:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T17:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T18:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T19:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T20:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T21:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T22:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-20T23:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T00:00:00Z",
+      "file": "secondary_003.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T01:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T02:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T03:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T04:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T05:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T06:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T07:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T08:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T09:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T10:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T11:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T12:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T13:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T14:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T15:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T16:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T17:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T18:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T19:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T20:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T21:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T22:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-21T23:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T00:00:00Z",
+      "file": "secondary_004.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T01:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T02:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T03:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T04:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T05:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T06:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T07:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T08:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T09:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T10:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T11:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T12:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T13:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T14:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T15:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T16:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T17:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T18:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T19:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T20:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T21:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T22:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-22T23:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T00:00:00Z",
+      "file": "secondary_005.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T01:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T02:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T03:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T04:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T05:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T06:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T07:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T08:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T09:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T10:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T11:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T12:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T13:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T14:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T15:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T16:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T17:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T18:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T19:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T20:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T21:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T22:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-23T23:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T00:00:00Z",
+      "file": "secondary_006.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T01:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T02:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T03:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T04:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T05:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T06:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T07:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T08:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T09:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T10:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T11:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T12:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T13:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T14:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T15:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T16:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T17:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T18:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T19:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T20:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T21:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T22:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-24T23:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T00:00:00Z",
+      "file": "secondary_007.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T01:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T02:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T03:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T04:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T05:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T06:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T07:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T08:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T09:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T10:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T11:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T12:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T13:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T14:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T15:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T16:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T17:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T18:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T19:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T20:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T21:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T22:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-25T23:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T00:00:00Z",
+      "file": "secondary_008.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T01:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T02:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T03:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T04:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T05:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T06:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T07:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T08:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T09:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T10:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T11:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T12:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T13:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T14:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T15:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T16:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T17:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T18:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T19:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T20:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T21:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T22:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-26T23:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T00:00:00Z",
+      "file": "secondary_009.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T01:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T02:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T03:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T04:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T05:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T06:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T07:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T08:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T09:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T10:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T11:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T12:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T13:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T14:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T15:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T16:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T17:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T18:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T19:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T20:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T21:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T22:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-27T23:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T00:00:00Z",
+      "file": "secondary_010.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T01:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T02:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T03:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T04:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T05:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T06:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T07:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T08:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T09:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T10:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T11:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T12:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T13:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T14:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T15:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T16:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T17:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T18:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T19:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T20:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T21:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T22:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-28T23:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T00:00:00Z",
+      "file": "secondary_011.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T01:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T02:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T03:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T04:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T05:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T06:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T07:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T08:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T09:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T10:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T11:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T12:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T13:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T14:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T15:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T16:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T17:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T18:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T19:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T20:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T21:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T22:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-29T23:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T00:00:00Z",
+      "file": "secondary_012.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T01:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T02:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T03:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T04:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T05:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T06:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T07:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T08:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T09:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T10:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T11:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T12:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T13:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T14:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T15:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T16:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T17:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T18:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T19:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T20:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T21:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T22:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-04-30T23:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T00:00:00Z",
+      "file": "secondary_013.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T01:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T02:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T03:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T04:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T05:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T06:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T07:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T08:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T09:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T10:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T11:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T12:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T13:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T14:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T15:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T16:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T17:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T18:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T19:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T20:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T21:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T22:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-01T23:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T00:00:00Z",
+      "file": "secondary_014.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T01:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T02:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T03:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T04:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T05:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T06:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T07:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T08:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T09:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T10:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T11:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T12:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T13:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T14:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T15:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T16:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T17:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T18:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T19:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T20:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T21:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T22:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-02T23:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T00:00:00Z",
+      "file": "secondary_015.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T01:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T02:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T03:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T04:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T05:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T06:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T07:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T08:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T09:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T10:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T11:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T12:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T13:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T14:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T15:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T16:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T17:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T18:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T19:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T20:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T21:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T22:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-03T23:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T00:00:00Z",
+      "file": "secondary_016.nc",
+      "record": 23
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T01:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 0
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T02:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 1
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T03:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 2
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T04:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 3
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T05:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 4
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T06:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 5
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T07:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 6
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T08:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 7
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T09:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 8
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T10:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 9
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T11:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 10
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T12:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 11
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T13:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 12
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T14:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 13
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T15:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 14
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T16:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 15
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T17:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 16
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T18:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 17
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T19:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 18
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T20:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 19
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T21:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 20
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T22:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 21
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-04T23:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 22
+    },
+    {
+      "event_id": "quiet_20230502T12",
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "UTC": "2023-05-05T00:00:00Z",
+      "file": "secondary_017.nc",
+      "record": 23
+    }
+  ],
+  "DEN_values_decoded": 0,
+  "scientific_convergence": "NOT_ESTABLISHED",
+  "launch_UTC": "2026-11-27T08:18:18.859488Z",
+  "exit_UTC": "2026-11-27T09:01:42.072827Z"
+}

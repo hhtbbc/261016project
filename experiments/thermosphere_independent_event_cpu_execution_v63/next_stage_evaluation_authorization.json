@@ -1,0 +1,43 @@
+{
+  "state": "NOT_AUTHORIZED_V64",
+  "phase_1": {
+    "authorize": "Trusted extractor only exact history records; isolate worker with input bytes only",
+    "history_index": "history_record_index.csv",
+    "history_records": 21,
+    "lock": "SHA inputs and all seven forecasts, read-only owner custody, test unprivileged open and no source access"
+  },
+  "phase_2": {
+    "authorize": "Only trusted evaluation after phase 1 lock",
+    "target_index": "target_record_index.csv",
+    "target_records": 21,
+    "scoring": "Event descriptive, paired valid cells, latitude weighted, strata V61",
+    "no_ML_training": true,
+    "Swarm_untouched": true
+  },
+  "optional_24h": {
+    "records": 21,
+    "index": "optional_periodic_history_index.csv",
+    "authorization": "SEPARATE"
+  },
+  "methods": [
+    "Persistence",
+    "TwoFrameLinear",
+    "LogLinear",
+    "ThreeFrameOLSLog",
+    "DampedLogTrend",
+    "LocalTimePersistence",
+    "TinyDirectCNN V60 frozen"
+  ],
+  "V62_recipe_sha256": "4d15b94b265ea3e735c20a40ebdeabd98221dc4abf16ee1e115e6c797b2a46f7",
+  "V60_checkpoint_SHA256": "c0c592e38c8bac9431a71f43f4b6358c8e125be724c9787fc46f0620c7136c53",
+  "V60_normalization_SHA256": "581f4c50f1dd06f60c47cc530ba1d131638874a525c6d604581249b5b48e4616",
+  "eastward_source_cells": {
+    "1": 6,
+    "3": 12,
+    "6": 21
+  },
+  "speed_degrees_hour": 15,
+  "role": "LOCKED_INDEPENDENT_TEST_CANDIDATE",
+  "exposure_policy": "No inference here. Any V64 selection/modification makes the pair exposed pilot events; keep fresh final events.",
+  "future_design": "Compare equal CNN with ordinary persistence against z_LT+f_theta(X) only after LT diagnostic and separately approved training. Historical Kp/F10.7 must be cutoff available; final drivers are hindcast."
+}

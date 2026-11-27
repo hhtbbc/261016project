@@ -1,0 +1,13 @@
+{
+  "DEN_access": "SEALED_ALL_NATIVE_RECORDS",
+  "root_directory_mode": "0700",
+  "run_directory_mode": "0500",
+  "native_file_mode": "0400",
+  "owner_uid": 0,
+  "unprivileged_UID": 65534,
+  "unprivileged_open_denied_per_run": 2,
+  "root_trusted_custody": true,
+  "note": "No claim to constrain privileged custodians. V64 needs a true process boundary and a history-only staging directory.",
+  "history_index_SHA256": "9e225b3b846a5b0456ce96a741b7dcfb80b2647abc8f151aa4c99a5db8dddbf7",
+  "target_index_SHA256": "b6d53079746cf06b19889f4501b47e491b2bda2e522160db982382fe5116984a"
+}

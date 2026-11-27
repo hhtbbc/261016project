@@ -1,0 +1,10 @@
+{
+  "process_uid": 65534,
+  "open_errno": 13,
+  "DEN_bytes_read": 0,
+  "GSWM_pinned": {
+    "data/raw/tiegcm2_support/gswm_diurn_5.0d_99km.nc": "91a9e5245f3e43807863b30bd9b08e8d8338f8278fb932fda81dd5d7690af4f0",
+    "data/raw/tiegcm2_support/gswm_semi_5.0d_99km.nc": "4c266f98bd496e0d681ed49cf6f08079ede53656af760c1914c1342067091340"
+  },
+  "stage": "live quiet run"
+}

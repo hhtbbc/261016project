@@ -1,0 +1,17 @@
+{
+  "user_message": "V63 explicit two single-use CPU cold starts",
+  "events": [
+    "quiet_20230502T12",
+    "disturbed_20230520T00"
+  ],
+  "MPI": 4,
+  "OMP": 1,
+  "serial": true,
+  "retries": false,
+  "GPU": 0,
+  "RSS_limit_bytes": 4294967296,
+  "hard_wall_seconds": 6000,
+  "output_limit_bytes": 8589934592,
+  "model_DEN_label_access": false,
+  "UTC": "2026-11-27T08:18:18.642482Z"
+}

@@ -1536,3 +1536,7 @@ activate_tiegcm.sh 环境运行 train_tiny_direct_v60.py、evaluate_tiny_direct_
 ## 2026-11-27 V62 独立生产配置与廉价基线
 
 通过 GFZ HTTPS 下载官方综合快照，用冻结事件规则生产候选、三规模估算和 q/d 短目录配置。长路径预检拒绝 123 字节后恢复至 103 字节，无启动。运行三个 v62 Python 入口锁定并评价三种新基线，独立重算 24 组预测并核验 45 GPI 日。无 GPU、新积分、训练、未授权 DEN 或 Swarm。V55 无新交接，旧10个原生运行身份未找到。成果见 experiments/thermosphere_independent_event_production_v62/。
+
+## 2026-11-27 V63 静稳与扰动原生事件封存
+
+activate_tiegcm.sh 下使用 run_independent_events_v63.py 串行积分，静稳 9438b5d05e764dcc8cc8c37cb7a89e97，扰动 3d4514d73a864f3d9aab5fc1475aed81。分别约 2603/2754 秒，四 rank 全正常退出。verify_index_independent_events_v63.py 复核 72 卷 SHA、840 整点、全部 GPI 标量及 21 个标签位置。uid 65534 打开原生文件返回 EACCES，输出只读保管。运行目录、日志、原始 NetCDF 保留服务器。无 DEN 数组读取、GPU、Restart、额外积分、模型训练、评分。V55 staging 无新增。两阶段 V64 申请和独立事件局限见报告。

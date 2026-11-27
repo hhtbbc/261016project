@@ -1,0 +1,41 @@
+{
+  "checks": {
+    "quiet": {
+      "engineering": "PASS",
+      "launches": 1,
+      "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+      "final_step": 24480,
+      "hourly_frames": 408,
+      "runtime_GPI_max_abs": {
+        "f107d": 2.842170943040401e-14,
+        "f107a": 8.526512829121202e-14,
+        "Kp": 1.7763568394002505e-15,
+        "hpower": 1.4210854715202004e-13,
+        "ctpoten": 2.842170943040401e-14
+      },
+      "unprivileged_open_errno": 13
+    },
+    "disturbed": {
+      "engineering": "PASS",
+      "launches": 1,
+      "run_id": "3d4514d73a864f3d9aab5fc1475aed81",
+      "final_step": 25920,
+      "hourly_frames": 432,
+      "runtime_GPI_max_abs": {
+        "f107d": 5.684341886080802e-14,
+        "f107a": 8.526512829121202e-14,
+        "Kp": 1.7763568394002505e-15,
+        "hpower": 4.263256414560601e-14,
+        "ctpoten": 4.263256414560601e-14
+      },
+      "unprivileged_open_errno": 13
+    }
+  },
+  "native_volumes": 72,
+  "cutoffs": 7,
+  "target_records": 21,
+  "native_time_rows": 840,
+  "DEN_reads": 0,
+  "Swarm_reads": 0,
+  "V37_unchanged": true
+}

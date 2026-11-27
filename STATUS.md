@@ -886,3 +886,7 @@ V61 误差归因已复核。底部三层占 2022 绝对 SSE 净改善 92.66%–9
 ## 2026-11-27 V62 独立事件与无训练基线
 
 V62 完成 GFZ 驱动及两份静态预检：2023-05-02 静稳、2023-05-20 中等扰动，均无新积分。冻结旧秋季比较中地方时旋转基线改善全层绝对及 log RMSE，仍需独立事件验证。V63 先申请两次 CPU 冷启动，标签另授权。入口 reports/THERMOSPHERE_INDEPENDENT_EVENT_PRODUCTION_AND_BASELINES_V62.md。
+
+## 2026-11-27 V63 独立事件真实 CPU 生产
+
+两次独立冷启动均 ENGINEERING_PASS。静稳 24,480 步、扰动 25,920 步，合计 72 卷、840 整点。7 个截点及 21 个目标已定位并封存，降权访问拒绝，DEN 值读取为零。V64 分阶段另授权，预热收敛和 V37 门槛保持。入口 reports/THERMOSPHERE_INDEPENDENT_EVENT_CPU_EXECUTION_V63.md。
