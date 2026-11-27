@@ -1540,3 +1540,7 @@ activate_tiegcm.sh 环境运行 train_tiny_direct_v60.py、evaluate_tiny_direct_
 ## 2026-11-27 V63 静稳与扰动原生事件封存
 
 activate_tiegcm.sh 下使用 run_independent_events_v63.py 串行积分，静稳 9438b5d05e764dcc8cc8c37cb7a89e97，扰动 3d4514d73a864f3d9aab5fc1475aed81。分别约 2603/2754 秒，四 rank 全正常退出。verify_index_independent_events_v63.py 复核 72 卷 SHA、840 整点、全部 GPI 标量及 21 个标签位置。uid 65534 打开原生文件返回 EACCES，输出只读保管。运行目录、日志、原始 NetCDF 保留服务器。无 DEN 数组读取、GPU、Restart、额外积分、模型训练、评分。V55 staging 无新增。两阶段 V64 申请和独立事件局限见报告。
+
+## 2026-11-27 V64-B 条件授权核查
+
+检查 HEAD、origin/main、远端分支、本地引用、近期 reflog、V64 成果及预测锁定候选，均无可核实的 V64-A 交付。V55 staging 为空。未读取目标 DEN 或 Swarm，未执行评价。续办需要锁定预测、程序及隔离收据。

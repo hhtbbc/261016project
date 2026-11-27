@@ -890,3 +890,7 @@ V62 完成 GFZ 驱动及两份静态预检：2023-05-02 静稳、2023-05-20 中�
 ## 2026-11-27 V63 独立事件真实 CPU 生产
 
 两次独立冷启动均 ENGINEERING_PASS。静稳 24,480 步、扰动 25,920 步，合计 72 卷、840 整点。7 个截点及 21 个目标已定位并封存，降权访问拒绝，DEN 值读取为零。V64 分阶段另授权，预热收敛和 V37 门槛保持。入口 reports/THERMOSPHERE_INDEPENDENT_EVENT_CPU_EXECUTION_V63.md。
+
+## 2026-11-27 V64-B 评价前置核查
+
+未取得 V64-A 预测锁定和隔离证据，评价在目标开放前停止。21 个目标保持封存。入口 reports/THERMOSPHERE_INDEPENDENT_EVENT_FORECAST_EVALUATION_V64.md。
