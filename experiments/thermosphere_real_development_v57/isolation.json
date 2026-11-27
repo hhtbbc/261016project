@@ -1,0 +1,26 @@
+{
+  "probes": [
+    "blocked_open_0=2",
+    "blocked_open_1=2",
+    "blocked_open_2=2",
+    "blocked_open_3=2",
+    "blocked_open_4=2",
+    "blocked_open_5=2",
+    "history_write=EACCES",
+    "network_socket=EPERM",
+    "chroot_escape=EPERM",
+    "unprivileged=65534"
+  ],
+  "poison_predictions_identical": true,
+  "before_label_SHA256": "a02256f3a81c8a21eaf43ad4d453eaf7b32db00e82a959d2540399ecaeec120a",
+  "after_label_SHA256": "9a15c8e81dec657e74979ab9fe589cccbe3dcbc2fd929fa0e38573c9be5cd82a",
+  "isolation": "chroot + uid/gid 65534 + no_new_privs + seccomp syscall allowlist",
+  "outside_open_probe_names": [
+    "absolute future",
+    "parent future",
+    "parent traversal future",
+    "absolute symlink",
+    "inherited fd proc path",
+    "other process proc root"
+  ]
+}

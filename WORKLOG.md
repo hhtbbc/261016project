@@ -1512,3 +1512,7 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## V56 多时效 UTC 与未来访问隔离
 
 2026-11-27：只读复核 V55 并准备三方咨询。运行三个 49 帧原生合成场和独立数值验证，24 次预测子进程通过成对毒化，156 条访问拒绝、18 条查询拒绝和 10 项独立测试。真实仅元数据 UTC，未见密度、新积分、GPU、拟合、评分和外发均 0。 入口 reports/THERMOSPHERE_EXTERNAL_EVIDENCE_AND_NON_TARGET_PROTOCOL_V56.md。
+
+## 2026-11-27 V57 真实历史切片和预测隔离
+
+在 activate_tiegcm.sh 环境执行 python -B scripts/run_real_development_v57.py 与 python -B scripts/verify_real_development_v57.py。V37 八日 CDF 仅按授权 VVR 字节范围读出 5,760 条历史记录。静态 CPU worker 运行于独立 chroot 和 seccomp 白名单，16 截点生成 96 条预测，独立逐记录重建及预测位值核对通过。首次数量断言 720 修正为 360，原证据保留。10 项权限断言、1 项毒化、5 项额外拒绝通过。V56/V55、V37、Swarm 和模型历史通过身份保护。完整结果见 experiments/thermosphere_real_development_v57/，原始切片仅服务器保留。无真实未来评分、模型积分、GPU、AI训练或对外联系。下一步扩大合规历史样本，正式标签仍封存。

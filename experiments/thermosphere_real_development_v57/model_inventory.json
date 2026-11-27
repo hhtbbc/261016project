@@ -1,0 +1,74 @@
+[
+  {
+    "day": "2021-03-23",
+    "folder": "tiegcm_2021_spinup_14day_v1/A14",
+    "examined_secondary_volumes": 17,
+    "history_frames_present": 6,
+    "missing_history_times": [],
+    "DEN_ZG_metadata_only": true,
+    "future_target_observation_read": false
+  },
+  {
+    "day": "2021-03-24",
+    "folder": "tiegcm_2021_spinup_14day_v1/A14",
+    "examined_secondary_volumes": 17,
+    "history_frames_present": 6,
+    "missing_history_times": [],
+    "DEN_ZG_metadata_only": true,
+    "future_target_observation_read": false
+  },
+  {
+    "day": "2021-03-25",
+    "folder": "tiegcm_2021_spinup_14day_v1/A14",
+    "examined_secondary_volumes": 17,
+    "history_frames_present": 6,
+    "missing_history_times": [],
+    "DEN_ZG_metadata_only": true,
+    "future_target_observation_read": false
+  },
+  {
+    "day": "2021-09-23",
+    "folder": "thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+    "examined_secondary_volumes": 16,
+    "history_frames_present": 6,
+    "missing_history_times": [],
+    "DEN_ZG_metadata_only": true,
+    "future_target_observation_read": false
+  },
+  {
+    "day": "2022-03-23",
+    "folder": "tiegcm_2022_spinup_14day_v1/A14",
+    "examined_secondary_volumes": 16,
+    "history_frames_present": 6,
+    "missing_history_times": [],
+    "DEN_ZG_metadata_only": true,
+    "future_target_observation_read": false
+  },
+  {
+    "day": "2022-03-24",
+    "folder": "tiegcm_2022_spinup_14day_v1/A14",
+    "examined_secondary_volumes": 16,
+    "history_frames_present": 6,
+    "missing_history_times": [],
+    "DEN_ZG_metadata_only": true,
+    "future_target_observation_read": false
+  },
+  {
+    "day": "2022-03-25",
+    "folder": "tiegcm_2022_mar25_execution_review_v1/actual_run",
+    "examined_secondary_volumes": 17,
+    "history_frames_present": 6,
+    "missing_history_times": [],
+    "DEN_ZG_metadata_only": true,
+    "future_target_observation_read": false
+  },
+  {
+    "day": "2022-09-23",
+    "folder": "thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+    "examined_secondary_volumes": 16,
+    "history_frames_present": 6,
+    "missing_history_times": [],
+    "DEN_ZG_metadata_only": true,
+    "future_target_observation_read": false
+  }
+]

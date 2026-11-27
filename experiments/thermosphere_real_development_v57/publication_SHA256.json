@@ -1,0 +1,15 @@
+{
+  "experiments/thermosphere_real_development_v57/availability.csv": "776324879ae3278da1d44f08706ab2b98897d1f9982aa2c53d8954889746fb99",
+  "experiments/thermosphere_real_development_v57/handoff.json": "6faa8f39c01ef2758246a4cca4d937d7352dad603346085e048fffc9de543e75",
+  "experiments/thermosphere_real_development_v57/independent.json": "7af1010a9c46eabcd6bb465c4d88b5f9daca2fb45581367987c435f8bc443802",
+  "experiments/thermosphere_real_development_v57/isolation.json": "cf8b931f6b464356eee8e62bbbd9a6903a46024199bfd8a6ed29a250278595da",
+  "experiments/thermosphere_real_development_v57/model_inventory.json": "52da924f4b4ec5e902daabcf17a4bec246aa07e9db599b37953e0b3012012cbe",
+  "experiments/thermosphere_real_development_v57/predictions.csv": "5f1483773551314bb9e2915b26f2fe874b973789e7d7f8e3714aad23d9cf1904",
+  "experiments/thermosphere_real_development_v57/synthetic_metrics.csv": "85e30e5f737104b2c97ad11e1f723a6a0f9c3edf6e0d6fe9341ee668ae7ac1cd",
+  "experiments/thermosphere_real_development_v57/verification_initial.txt": "e58d022c5aff494e93a2ce556b701e0ec9b528bb58f2c8aa2e86d2cf89f863a7",
+  "experiments/thermosphere_real_development_v57/windows.json": "3642e0eddb11d15b4d803d25d6e865d1b4f13d814a662a6d8cace09e2ca3f689",
+  "reports/THERMOSPHERE_REAL_DEVELOPMENT_BASELINE_V57.md": "69344d8ab4d9c67ce71386795565863ce65e9f0e070ee87e4baaec99f9e7b082",
+  "scripts/run_real_development_v57.py": "7fb56522a702f96684bfe1c8ae7604520031eb195c67cea4df8ce757e70e88d8",
+  "scripts/swarm_history_worker_v57.c": "26fe5e8dfbf6c7134e6eca04ed6e1fff2fe23851ca62e39055368e9baf247d71",
+  "scripts/verify_real_development_v57.py": "3cdd85951fad0a62bbe2ef1d6a575e4ca143afff3d3c64d4b71083658ddf5734"
+}
