@@ -1,0 +1,18 @@
+{
+  "reports/THERMOSPHERE_EXTERNAL_EVIDENCE_HANDOFF_V55.md": "8736760e6fdd3beaca177ad37c38bddbd329f3ef8e844029908aa7bddb057097",
+  "scripts/admit_swarm_sp3_v55.py": "a9fee81d4f5b2570ac596ff20be9856a1f99edc03a39ba6ca2c6615156984ca5",
+  "scripts/check_external_evidence_v55.py": "0b4199e4bad1f30942a3efa64586e6d7c8ff0746e5a666cf56e1f3d668f23f84",
+  "scripts/test_swarm_tiegcm_registration_v55.py": "5157a60d962ab637541ed18df7e06dcf02cea72dfd86d523ee5a171dd6e2afc2",
+  "scripts/verify_external_evidence_handoff_v55.py": "e1806756ce1645e28736cc88a0b7ec54edc4d2887e44f4b80489cb55abb59d73",
+  "docs/V55_ESA_INQUIRY_EN.md": "98263ac04f4c64c865ff7fdb7718365de4f0056524a131ae7e4a7cf0971bbe8d",
+  "docs/V55_FORMAL_VALIDATION_DEPENDENCIES.md": "366b5e45d882e1665ef1990814a2f41eda21872b8f6fdb0db0278b355a4f8767",
+  "docs/V55_GFZ_INQUIRY_EN.md": "36b53457916e744cb926e4143890fe1b8bf9dff5fa697e5a11bd8fb6e53b6ef3",
+  "docs/V55_MANUAL_HANDOFF_GUIDE.md": "85ccfa7e0ae7d590f09e4af379bffd3c4ae15e57f1577ca1f1b596b6d6658f5c",
+  "docs/V55_NCAR_INQUIRY_EN.md": "0cd838b4440d4680607931e0bd2cc17e5f74a7ed955d0e95a8b3b03fc15a8031",
+  "experiments/thermosphere_external_evidence_handoff_v55/V37_admission.csv": "9e85aec601620bddb8d11a63f7cb855110b5aea6048b294749fcf2a441dc0706",
+  "experiments/thermosphere_external_evidence_handoff_v55/handoff_contract.json": "d29b5a089536ce62ec36237e9538aeee82200a53e4969b7600be311175491315",
+  "experiments/thermosphere_external_evidence_handoff_v55/handoff_status.json": "216ac6980bd4e9e71ff68edd1cb5db074a2a77e3560139ae79e89866dd96177f",
+  "experiments/thermosphere_external_evidence_handoff_v55/independent.json": "028ac9bf77310a4cf28095d6cf94eccba8d3402121c403ceb1a15ea94de34707",
+  "experiments/thermosphere_external_evidence_handoff_v55/result.json": "6bfb73597d7c4d9766d5d614223809ff72fce14cb1de7ae7d77552d97023184d",
+  "experiments/thermosphere_external_evidence_handoff_v55/synthetic_interpolation.json": "dc5ec2b5ab2ee17ba8c147eab7c692ac701de3213fbea16dc7a518a3efe3e1d3"
+}

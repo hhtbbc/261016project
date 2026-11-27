@@ -1,0 +1,123 @@
+{
+  "template_status": "EXAMPLES_ONLY_FILL_FROM_ACTUAL_AUTHORITY_EVIDENCE",
+  "declarations": {
+    "GFZ_2021_evidence.json": {
+      "document_id": "Replace with issuer record ID",
+      "version_or_date": "Replace with actual date/version",
+      "public_reference": "https://example.invalid/public-reference",
+      "attachments": [],
+      "issuer": "GFZ",
+      "dates": [
+        "2021-05-09",
+        "2021-06-16"
+      ],
+      "observation_definition": "Replace with authority definition, observed time, quality and revision chain"
+    },
+    "ESA_0301_delivery.json": {
+      "document_id": "Replace with issuer record ID",
+      "version_or_date": "Replace with actual date/version",
+      "public_reference": "https://example.invalid/public-reference",
+      "attachments": [],
+      "issuer": "ESA",
+      "products": [
+        "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+        "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP"
+      ],
+      "delivery_record": "Replace with an authenticated delivery record identifier, verification source and official checksum if issued"
+    },
+    "NCAR_ZG_evidence.json": {
+      "document_id": "Replace with issuer record ID",
+      "version_or_date": "Replace with actual date/version",
+      "public_reference": "https://example.invalid/public-reference",
+      "attachments": [],
+      "issuer": "NCAR",
+      "ZG_zero_surface": "Authority evidence required",
+      "vertical_direction": "Authority evidence required",
+      "model_latitude": "Authority evidence required",
+      "control_points": []
+    }
+  },
+  "ESA_delivery_proof_fields": [
+    "official_product_name",
+    "baseline",
+    "issuer",
+    "delivery_date_UTC",
+    "official_record_identifier",
+    "public_verification_method",
+    "official_checksum_or_signature_if_available",
+    "independent_local_SHA256",
+    "byte_size"
+  ],
+  "accepted_SP3_names": {
+    "SW_OPER_MODA_SC_1B_20210621T000000_20210621T235959_0504.sp3": "2021-06-21",
+    "SW_OPER_MODA_SC_1B_20220621T000000_20220621T235959_0504.sp3": "2022-06-21"
+  },
+  "SP3_source_metadata": {
+    "source_url": "https://example.invalid/public-reference",
+    "sha256": "Replace with verified bytes SHA256",
+    "satellite": "Swarm A",
+    "satellite_record_id": "FROM_SOURCE",
+    "time_system": "FROM_HEADER",
+    "filename_day_scale": "FROM_SOURCE",
+    "SP3_frame_code": "FROM_HEADER",
+    "frame_realization": "FROM_SOURCE",
+    "frame_epoch": "FROM_SOURCE",
+    "point": "FROM_SOURCE",
+    "CDF_point": "FROM_SOURCE",
+    "reference_evidence": "Exact reference for validity and identity; label independent and supplied evidence",
+    "position_unit": "km",
+    "expected_interval_s": "FROM_SOURCE in seconds, numeric"
+  },
+  "SP3_geometry_review_fields": [
+    "scope=V55_GEOMETRY_ONLY",
+    "approved=true",
+    "SP3_SHA256",
+    "CDF_zip_SHA256",
+    "same_frame_and_epoch=true",
+    "same_spacecraft_point=true",
+    "input_ellipsoid=GRS80",
+    "independent_evidence_ref"
+  ],
+  "control_points": {
+    "required_fields": [
+      "id",
+      "UTC",
+      "longitude_deg",
+      "latitude_deg",
+      "external_XYZ_m",
+      "external_height_m",
+      "ellipsoid",
+      "frame_realization",
+      "frame_epoch",
+      "reference_point",
+      "model_position",
+      "model_ZG_m",
+      "allowed_transform",
+      "uncertainty_m",
+      "authority_source",
+      "independent_validation_source"
+    ],
+    "authority_metadata": [
+      "issuing institution",
+      "document ID",
+      "revision or publication date",
+      "public reference",
+      "attachment SHA"
+    ],
+    "matching_requirements": [
+      "UTC ISO 8601 Z",
+      "XYZ same realization/epoch and spacecraft point",
+      "externally established model position and ZG",
+      "transform version/domain",
+      "uncertainty and provenance separated from calculation under test"
+    ],
+    "validated_external_points": 0,
+    "datum_gate": "EXTERNAL_DATUM_UNVERIFIED"
+  },
+  "limits_bytes": {
+    "SP3": 20971520,
+    "declaration": 65536,
+    "per_attachment": 2097152,
+    "attachments_per_declaration": 8
+  }
+}

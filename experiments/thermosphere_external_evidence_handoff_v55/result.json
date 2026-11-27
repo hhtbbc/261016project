@@ -1,0 +1,21 @@
+{
+  "state": "V55_EXTERNAL_HANDOFF_AND_NUMERIC_PREPARATION_COMPLETE_VERIFIED",
+  "evidence": "NO_NEW_EXTERNAL_AUTHORITY_MATERIALS",
+  "GFZ": "GFZ_2021_GAP_UNRESOLVED",
+  "ESA": "OFFICIAL_PROVENANCE_UNVERIFIED",
+  "SP3": "SP3_EXACT_PRODUCT_NOT_ACQUIRED",
+  "datum": "EXTERNAL_DATUM_UNVERIFIED",
+  "numerical": "NUMERICAL_INTERPOLATION_VERIFIED",
+  "SP3_and_handoff_tests": 14,
+  "numeric_positive": 6050,
+  "numeric_negative": 14,
+  "independent_numeric_positive": 72,
+  "independent_external_controls": 0,
+  "density_reads": 0,
+  "density_orbitmean_reads": 0,
+  "GFZ_replacement": 0,
+  "new_TIEGCM_runs": 0,
+  "GPU": 0,
+  "formal_scores": 0,
+  "external_messages": 0
+}
