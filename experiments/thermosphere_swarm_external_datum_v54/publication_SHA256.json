@@ -1,0 +1,20 @@
+{
+  "reports/THERMOSPHERE_SWARM_EXTERNAL_DATUM_AND_GFZ_V54.md": "b5a7952866e3a34d53904c8d30208ddeca82edf79198afefd5263317f4947f9b",
+  "scripts/audit_2021_gfz_revision_v54.py": "967471854b24f0d5a2d62e3d493c48a5a47d14d0f3194a81afa4141647c51b23",
+  "scripts/audit_swarm_external_datum_v54.py": "44e866f5f6577bfe3de3dc2ea064b08b4657530396553ce7331d72d4dd859297",
+  "scripts/verify_swarm_external_datum_v54.py": "8d7f356afd7ae6b5dfa818a530c4afc43f3709151cb68e4d09c3c56861aa7629",
+  "experiments/thermosphere_swarm_external_datum_v54/V37_admission.csv": "1dc1e2ae870f5b248b33bf586a18c2a2ebd9fa0bbe2fd4697c07c62ece34c6da",
+  "experiments/thermosphere_swarm_external_datum_v54/catalogue_requests.json": "34f4ec53c7318a12b958c80cee003cb4367c2739e7c75add25823adbec53a67f",
+  "experiments/thermosphere_swarm_external_datum_v54/document_requests.json": "86fd7aec7f0e459b87e36c501c98efbe25562bf385c9f2a114b4ab7240d08533",
+  "experiments/thermosphere_swarm_external_datum_v54/esa_sata_requests.json": "13a90839b9aa325d064ad5c9acd80a5d894272618989f9bf69502da956a45649",
+  "experiments/thermosphere_swarm_external_datum_v54/exact_public_catalogue.json": "125ad38019b5e32f9d9512b2513f8fd1a6b87da34dfc18d475a715428aef43fc",
+  "experiments/thermosphere_swarm_external_datum_v54/external_audit.json": "6ae010a91da78ca8cb6c725cd759ac4b5ee92fb5f1ee7fa283ce9080b82877b2",
+  "experiments/thermosphere_swarm_external_datum_v54/gfz.json": "d637f832e9a24dc6c4f3c49af8d0c8b7111b4e3a8182e31726d2c52e127c35db",
+  "experiments/thermosphere_swarm_external_datum_v54/independent.json": "9c6c84075aa9c629e7b9fede533fbf3ea301309c1919fc007a15168026883379",
+  "experiments/thermosphere_swarm_external_datum_v54/level1b_entire_mission_request.json": "609c96b4088d64de170fdb50f2a2a07fe28cddb64eff4850a98a9f270cdfc008",
+  "experiments/thermosphere_swarm_external_datum_v54/level1b_request.json": "ebe93e6909f65d47f01875f82d4fee43c91167c935f318501f9fcb669361954d",
+  "experiments/thermosphere_swarm_external_datum_v54/mod_archive_days.json": "fb81c0d6546b6fb8be345c32a79dd2001bdbab083c6cdd1f59f75919039fdc67",
+  "experiments/thermosphere_swarm_external_datum_v54/mod_entire_mission_A_request.json": "b1dce8409c258749d0fed7bddb6466110fa9a1d0c58ace89905529c09f730ea3",
+  "experiments/thermosphere_swarm_external_datum_v54/mod_entire_mission_request.json": "9156af32cdc9a747bf6d63d81948a97e6edef9ae2e8c71a0c1c1bd30cd0695d5",
+  "experiments/thermosphere_swarm_external_datum_v54/result.json": "88dea0b92d4b7f64687bed153b37257ac1aded86b644a6703458807bb50bbe65"
+}

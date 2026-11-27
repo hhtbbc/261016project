@@ -1,0 +1,11 @@
+{
+  "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=40&pos=0&file=swarm%2FLevel1b%2FEntire_mission_data%2FMODx_SC%2FSat_A",
+  "retrieved_UTC": "2026-11-27T01:59:04.238731+00:00",
+  "cap": 49152,
+  "HTTP": 200,
+  "type": "text/html; charset=UTF-8",
+  "last_modified": null,
+  "bytes": 12528,
+  "SHA256": "c93b7b0d16723c19da144a034a19b28da1d14a2beeb7f5697fbfed1b89913b16",
+  "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_mod_entire_mission_A.json"
+}

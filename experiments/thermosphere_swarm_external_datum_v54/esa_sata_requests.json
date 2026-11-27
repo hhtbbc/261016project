@@ -1,0 +1,24 @@
+[
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=40&pos=0&file=swarm%2FLevel1b%2FLatest_baselines%2FMODx_SC%2FSat_A",
+    "retrieved_UTC": "2026-11-27T01:58:07.085729+00:00",
+    "cap": 49152,
+    "HTTP": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "bytes": 12408,
+    "SHA256": "1b92f71e21707c0b030fa38a45df5a4b86ee9422a71ce8e395be96ffc369fa8a",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_mod_A.json"
+  },
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=40&pos=0&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A",
+    "retrieved_UTC": "2026-11-27T01:58:07.087497+00:00",
+    "cap": 49152,
+    "HTTP": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "bytes": 12568,
+    "SHA256": "317fb9eed66725a3952da5b73bd4b25cedc66e9807351f7b1d392b2143050784",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_dns_A.json"
+  }
+]

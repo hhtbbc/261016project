@@ -1,0 +1,21 @@
+requirement,state,minimum_condition
+01 Swarm 产品字节,VERIFIED,两原件与 accepted/上传 SHA 一致
+02 CDF/HDR 身份及版本,VERIFIED,0301 和 Swarm A 内部身份已配对
+03 ESA 交付链,PARTIAL,官方目录精确名和长度匹配；需权威校验和值或合规交付字节复核
+04 0301/0504 坐标定义,PARTIAL,产品族和参考名已知；需匹配规范与两天 0504 SP3 头及参考点说明
+05 2021 官方 GFZ,BLOCKED,两日 Fobs 仍为 −1；需同定义官方更新或正式前瞻修订
+06 2022 官方 GFZ,VERIFIED,V50 冻结 GFZ 和扩展 GPI 保持
+07 共用初态方案,NOT_AUTHORIZED,需认可并冻结两年共用季节种子身份
+08 2021 正式模型积分,BLOCKED,先解决 2021 驱动与产品证明、冻结输入、单次 CPU 授权和独立验收
+09 2022 正式模型身份,NOT_RUN,V51 工程对照保留；正式资格按 V37 和 2021 顺序验收
+10 外部 ZG 高度,BLOCKED,需零面、方向、地理纬度登记、独立控制点及上界
+11 CDF UTC 元数据,VERIFIED,每年 2880 个 30 秒采样
+12 八列共同合法支持,PARTIAL,2022 暂行 ZG-only 包围通过；需外部登记与正式有效 DEN 列、2021 同法
+13 原历史截点,VERIFIED,规则冻结为 06Z、18Z；执行另授权
+14 Raw/Global/ShrinkageHalf,PARTIAL,方法和 λ=0.5 冻结；真实 b_H 和乘数待历史限定授权后冻结
+15 未来毒化隔离,NOT_RUN,两年、两截点和记录读权限均需通过独立模拟验证
+16 两年共同样本身份,PARTIAL,日内时刻匹配；正式各年同样本有序 ID、密度和模型支持待批准阶段检验
+17 2021 先于 2022,VERIFIED,顺序冻结并保持，按两年步骤执行
+18 正式一次性解封,NOT_AUTHORIZED,身份、工程、历史与毒化全通过后还需单独授权和签收
+19 独立科学复核,NOT_RUN,正式评分完成后独立重建
+20 AI 与轨道资格,NOT_AUTHORIZED,尚需正式独立观测验证和独立训练／轨道协议

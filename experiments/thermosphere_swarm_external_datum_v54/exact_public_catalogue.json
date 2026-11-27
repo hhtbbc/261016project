@@ -1,0 +1,114 @@
+[
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=450&pos=2555&file=swarm%2FLevel1b%2FLatest_baselines%2FMODx_SC%2FSat_A",
+    "retrieved_UTC": "2026-11-27T01:58:23.630801+00:00",
+    "cap": 215040,
+    "HTTP": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "bytes": 139098,
+    "SHA256": "1765b4039266dd16e6760a61f8d53a23ec812cde5b8a8416c10d41ef9ae230d4",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_MOD_2021_window.json",
+    "catalogue_success": true,
+    "records": 450,
+    "first": "SW_OPER_MODA_SC_1B_20201201T000000_20201201T235959_0601.ZIP",
+    "last": "SW_OPER_MODA_SC_1B_20220223T000000_20220223T235959_0601.ZIP",
+    "exact_day": [
+      {
+        "mtime": 1752935616,
+        "size": 4333349,
+        "name": "SW_OPER_MODA_SC_1B_20210621T000000_20210621T235959_0601.ZIP",
+        "path": "swarm/Level1b/Latest_baselines/MODx_SC/Sat_A/SW_OPER_MODA_SC_1B_20210621T000000_20210621T235959_0601.ZIP",
+        "is_dir": false,
+        "is_readable": true,
+        "is_writable": false,
+        "is_executable": false,
+        "more": 0
+      }
+    ]
+  },
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=450&pos=2920&file=swarm%2FLevel1b%2FLatest_baselines%2FMODx_SC%2FSat_A",
+    "retrieved_UTC": "2026-11-27T01:58:23.632548+00:00",
+    "cap": 215040,
+    "HTTP": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "bytes": 139098,
+    "SHA256": "fcfb83cec12382ac53bde48cbceaff89bc623cf296dbd94b9c9bcc386223fc0e",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_MOD_2022_window.json",
+    "catalogue_success": true,
+    "records": 450,
+    "first": "SW_OPER_MODA_SC_1B_20211201T000000_20211201T235959_0601.ZIP",
+    "last": "SW_OPER_MODA_SC_1B_20230223T000000_20230223T235959_0601.ZIP",
+    "exact_day": [
+      {
+        "mtime": 1752902981,
+        "size": 4330938,
+        "name": "SW_OPER_MODA_SC_1B_20220621T000000_20220621T235959_0601.ZIP",
+        "path": "swarm/Level1b/Latest_baselines/MODx_SC/Sat_A/SW_OPER_MODA_SC_1B_20220621T000000_20220621T235959_0601.ZIP",
+        "is_dir": false,
+        "is_readable": true,
+        "is_writable": false,
+        "is_executable": false,
+        "more": 0
+      }
+    ]
+  },
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=450&pos=2518&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A",
+    "retrieved_UTC": "2026-11-27T01:58:23.633716+00:00",
+    "cap": 215040,
+    "HTTP": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "bytes": 140898,
+    "SHA256": "dc5da48f5d0a498a59e1ed223db98cc6b2be40607d0563835abfdb55b5adf48f",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_DNS_2021_window.json",
+    "catalogue_success": true,
+    "records": 450,
+    "first": "SW_OPER_DNSAPOD_2__20201208T000000_20201208T235930_0301.ZIP",
+    "last": "SW_OPER_DNSAPOD_2__20220302T000000_20220302T235930_0301.ZIP",
+    "exact_day": [
+      {
+        "mtime": 1727335391,
+        "size": 140229,
+        "name": "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+        "path": "swarm/Level2daily/Latest_baselines/DNS/POD/Sat_A/SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+        "is_dir": false,
+        "is_readable": true,
+        "is_writable": false,
+        "is_executable": false,
+        "more": 0
+      }
+    ]
+  },
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=450&pos=2883&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD%2FSat_A",
+    "retrieved_UTC": "2026-11-27T01:58:23.634606+00:00",
+    "cap": 215040,
+    "HTTP": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "bytes": 140897,
+    "SHA256": "5e9bd431820980bb2390aec3029aaecd9b4144c5b6e9d4d4636c90a3ab83e9ff",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_DNS_2022_window.json",
+    "catalogue_success": true,
+    "records": 450,
+    "first": "SW_OPER_DNSAPOD_2__20211208T000000_20211208T235930_0301.ZIP",
+    "last": "SW_OPER_DNSAPOD_2__20230302T000000_20230302T235930_0301.ZIP",
+    "exact_day": [
+      {
+        "mtime": 1727127544,
+        "size": 138722,
+        "name": "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+        "path": "swarm/Level2daily/Latest_baselines/DNS/POD/Sat_A/SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+        "is_dir": false,
+        "is_readable": true,
+        "is_writable": false,
+        "is_executable": false,
+        "more": 0
+      }
+    ]
+  }
+]

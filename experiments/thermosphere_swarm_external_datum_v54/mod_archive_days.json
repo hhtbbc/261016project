@@ -1,0 +1,56 @@
+[
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=450&pos=2555&file=swarm%2FLevel1b%2FEntire_mission_data%2FMODx_SC%2FSat_A",
+    "retrieved_UTC": "2026-11-27T01:59:15.616985+00:00",
+    "cap": 235520,
+    "HTTP": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "bytes": 140448,
+    "SHA256": "5c0415f1e656e5f8da979ac30f7b433155c6b65f69948b1241585c0701c0bd51",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_MOD_entire_2021_window.json",
+    "first": "SW_OPER_MODA_SC_1B_20201128T000000_20201128T235959_0601.ZIP",
+    "last": "SW_OPER_MODA_SC_1B_20220220T000000_20220220T235959_0601.ZIP",
+    "records": 450,
+    "exact_day": [
+      {
+        "mtime": 1752935616,
+        "size": 4333349,
+        "name": "SW_OPER_MODA_SC_1B_20210621T000000_20210621T235959_0601.ZIP",
+        "path": "swarm/Level1b/Entire_mission_data/MODx_SC/Sat_A/SW_OPER_MODA_SC_1B_20210621T000000_20210621T235959_0601.ZIP",
+        "is_dir": false,
+        "is_readable": true,
+        "is_writable": false,
+        "is_executable": false,
+        "more": 0
+      }
+    ]
+  },
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=450&pos=2920&file=swarm%2FLevel1b%2FEntire_mission_data%2FMODx_SC%2FSat_A",
+    "retrieved_UTC": "2026-11-27T01:59:15.618309+00:00",
+    "cap": 235520,
+    "HTTP": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "bytes": 140446,
+    "SHA256": "a04c15fc738837cf09176b7d40fa491b8cd1d06e6639646c32d47b786948b370",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_MOD_entire_2022_window.json",
+    "first": "SW_OPER_MODA_SC_1B_20211128T000000_20211128T235959_0601.ZIP",
+    "last": "SW_OPER_MODA_SC_1B_20230214T000000_20230214T235959_0601.ZIP",
+    "records": 450,
+    "exact_day": [
+      {
+        "mtime": 1752902981,
+        "size": 4330938,
+        "name": "SW_OPER_MODA_SC_1B_20220621T000000_20220621T235959_0601.ZIP",
+        "path": "swarm/Level1b/Entire_mission_data/MODx_SC/Sat_A/SW_OPER_MODA_SC_1B_20220621T000000_20220621T235959_0601.ZIP",
+        "is_dir": false,
+        "is_readable": true,
+        "is_writable": false,
+        "is_executable": false,
+        "more": 0
+      }
+    ]
+  }
+]

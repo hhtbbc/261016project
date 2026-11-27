@@ -1,0 +1,96 @@
+[
+  {
+    "URL": "https://swarm-diss.eo.esa.int/",
+    "retrieved_UTC": "2026-11-27T01:55:24.807851+00:00",
+    "cap": 524288,
+    "HTTP": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "bytes": 43497,
+    "SHA256": "17f7dbeaab9959b88f3e72654975d054fb320a73740d9589da231484623c0327",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_product_entry.html"
+  },
+  {
+    "URL": "https://swarm-disc.github.io/product-catalogue-tools/SW_MODx_SC_1B.html",
+    "retrieved_UTC": "2026-11-27T01:55:24.809317+00:00",
+    "cap": 524288,
+    "HTTP": 200,
+    "type": "text/html; charset=utf-8",
+    "last_modified": "Tue, 29 Sep 2026 10:15:59 GMT",
+    "bytes": 3081,
+    "SHA256": "6ebcf69cd47daf3be09901e29c42a523dde36b086dd4714471a31ec422be229a",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/mod_product_catalogue.html"
+  },
+  {
+    "URL": "https://disc.vires.services/hapi/info?dataset=SW_OPER_MODA_SC_1B",
+    "retrieved_UTC": "2026-11-27T01:55:24.811391+00:00",
+    "cap": 524288,
+    "HTTP": 200,
+    "type": "application/json",
+    "last_modified": null,
+    "bytes": 1348,
+    "SHA256": "025c82f707431108bbd7a7721f5a24c56bc7cb5ec1ec643633bb9d2f49de7853",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/vires_mod_info.json"
+  },
+  {
+    "URL": "https://disc.vires.services/hapi/info?dataset=SW_OPER_DNSAPOD_2_",
+    "retrieved_UTC": "2026-11-27T01:55:24.810556+00:00",
+    "cap": 524288,
+    "HTTP": 200,
+    "type": "application/json",
+    "last_modified": null,
+    "bytes": 1831,
+    "SHA256": "74bfe8e20d6ce3ba89d768913d20ff236d603ed94bf96fd8fca8affc53c33eff",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/vires_dns_info.json"
+  },
+  {
+    "URL": "https://files.igs.org/pub/data/format/sp3c.txt",
+    "retrieved_UTC": "2026-11-27T01:55:25.709250+00:00",
+    "cap": 524288,
+    "HTTP": 200,
+    "type": "text/plain; charset=UTF-8",
+    "last_modified": "Mon, 30 Aug 2010 18:13:14 GMT",
+    "bytes": 52994,
+    "SHA256": "ac844f38cd1c1a1eafbaa45d7ba0baf89b0787cf307fb42ba645b03dc195da9d",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/sp3c_standard.txt"
+  },
+  {
+    "URL": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/grid.html",
+    "retrieved_UTC": "2026-11-27T01:55:26.443802+00:00",
+    "cap": 524288,
+    "HTTP": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": "Tue, 22 Dec 2020 05:19:55 GMT",
+    "bytes": 17939,
+    "SHA256": "ab394c295fc50894dbd98e4aeaeeb78ce86c36403b2e558005289d2ebd63d886",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/ncar_grid_2_0.html"
+  },
+  {
+    "URL": "https://www.hao.ucar.edu/modeling/tgcm/tiegcm2.0/userguide/html/diags.html",
+    "retrieved_UTC": "2026-11-27T01:55:27.052088+00:00",
+    "cap": 524288,
+    "HTTP": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": "Tue, 22 Dec 2020 05:19:55 GMT",
+    "bytes": 113899,
+    "SHA256": "d55b30d80dcc8f3a03122fb2bcfbc35ef98343a03f62c3d46cb178296d1d7d1a",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/ncar_diagnostics_2_0.html"
+  },
+  {
+    "URL": "https://kp.gfz.de/en/data",
+    "retrieved_UTC": "2026-11-27T01:55:27.919026+00:00",
+    "cap": 524288,
+    "HTTP": 200,
+    "type": "text/html; charset=utf-8",
+    "last_modified": null,
+    "bytes": 67747,
+    "SHA256": "1e4e455cec38152201a5125b6baa5a07e349d70566f10e718bc697c6cc8a2003",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/gfz_data_definition.html"
+  },
+  {
+    "URL": "https://lps25.esa.int/lps25-presentations/presentations/305/_305.pdf",
+    "retrieved_UTC": "2026-11-27T01:55:28.427383+00:00",
+    "cap": 524288,
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)>"
+  }
+]

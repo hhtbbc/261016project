@@ -1497,3 +1497,8 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## V53 夏季 Swarm 原件元数据准入
 
 2026-11-27：查找项目根上传ZIP，核验无覆盖staging和冻结V39 accepted，独立复读五字段及系统POSIX cksum。两年日内UTC匹配2880对。2022 A/B 内部ZG条件包围各2880点。50项CPU检查通过，原始目标密度解码、新积分、GPU、拟合和正式评分均0。 入口 reports/THERMOSPHERE_SWARM_SUMMER_METADATA_ADMISSION_V53.md。
+
+
+## V54 外部证据与 2021 GFZ 复核
+
+2026-11-27：访问有界官方目录/API/技术说明，核对 25 份公开响应 SHA、94+66 卷及前轮发布。5,760 点双路坐标计算、V51 底接口锚点、14 项 CPU 检查通过。无 ESA 产品下载、未见密度解码、GPI 改动、GPU、新积分或评分。 入口 reports/THERMOSPHERE_SWARM_EXTERNAL_DATUM_AND_GFZ_V54.md。

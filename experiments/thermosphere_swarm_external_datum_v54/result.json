@@ -1,0 +1,20 @@
+{
+  "state": "V54_EXTERNAL_EVIDENCE_PARTIAL",
+  "review": "public evidence audit and independent verification complete",
+  "provenance": "OFFICIAL_PROVENANCE_UNVERIFIED",
+  "catalogue": "EXACT_DNS_0301_NAME_AND_BYTE_COUNT_MATCH_BOTH_DAYS",
+  "exact_SP3": "SP3_EXACT_PRODUCT_NOT_ACQUIRED",
+  "SP3_FORMAT_DOCUMENTED": true,
+  "datum": "EXTERNAL_DATUM_UNVERIFIED",
+  "GFZ": "GFZ_2021_GAP_UNRESOLVED",
+  "decision": "C; no same-definition observed revision for either day; 06-16 alternate-time evidence only",
+  "CPU_tests": 14,
+  "independently_hashed_public_files": 25,
+  "Swarm_density_reads": 0,
+  "Swarm_density_orbitmean_reads": 0,
+  "model_DEN_reads": 0,
+  "new_TIEGCM_runs": 0,
+  "GPU": 0,
+  "formal_scores": 0,
+  "AI_training": 0
+}

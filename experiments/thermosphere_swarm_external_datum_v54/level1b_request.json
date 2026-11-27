@@ -1,0 +1,11 @@
+{
+  "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=80&pos=0&file=swarm%2FLevel1b",
+  "retrieved_UTC": "2026-11-27T01:58:39.509456+00:00",
+  "cap": 49152,
+  "HTTP": 200,
+  "type": "text/html; charset=UTF-8",
+  "last_modified": null,
+  "bytes": 416,
+  "SHA256": "b2a008061f03a02c54c2bd1ea467bd2062056347aa4d93598fc2786bc4d55adc",
+  "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_level1b_hierarchy.json"
+}

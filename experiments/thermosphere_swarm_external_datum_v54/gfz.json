@@ -1,0 +1,67 @@
+{
+  "API": {
+    "2021-05-09": {
+      "URL": "https://kp.gfz.de/app/json/?start=2021-05-09T00%3A00%3A00Z&end=2021-05-09T23%3A59%3A59Z&index=Fobs",
+      "retrieved_UTC": "2026-11-27T01:54:17.492973+00:00",
+      "cap": 16384,
+      "recovered_from_V54_local_copy": true,
+      "bytes": 106,
+      "SHA256": "90114f1b2c07aa22ab5254286079a00015fa8eb898f6719ece7f1608c323c7fe",
+      "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/2021-05-09_Fobs.json",
+      "Fobs": -1.0,
+      "status_fields": {
+        "meta": {
+          "license": "CC BY 4.0",
+          "source": "GFZ Potsdam"
+        }
+      },
+      "prior_Fobs": -1.0,
+      "same_parsed_payload": true
+    },
+    "2021-06-16": {
+      "URL": "https://kp.gfz.de/app/json/?start=2021-06-16T00%3A00%3A00Z&end=2021-06-16T23%3A59%3A59Z&index=Fobs",
+      "retrieved_UTC": "2026-11-27T01:54:19.292990+00:00",
+      "cap": 16384,
+      "recovered_from_V54_local_copy": true,
+      "bytes": 106,
+      "SHA256": "68e26703fcdf3caeb10853a119d4255d95e0bdbafbac0cbdaa45c89860229296",
+      "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/2021-06-16_Fobs.json",
+      "Fobs": -1.0,
+      "status_fields": {
+        "meta": {
+          "license": "CC BY 4.0",
+          "source": "GFZ Potsdam"
+        }
+      },
+      "prior_Fobs": -1.0,
+      "same_parsed_payload": true
+    }
+  },
+  "year_file": {
+    "URL": "https://www-app3.gfz-potsdam.de/kp_index/Kp_ap_Ap_SN_F107_2021.txt",
+    "retrieved_UTC": "2026-11-27T01:54:51.553097+00:00",
+    "cap": 184320,
+    "HTTP": 404,
+    "error": "HTTP request denied or unavailable; no redirect followed",
+    "old_rows": {
+      "2021-05-09": {
+        "Fobs": -1.0,
+        "Fadj": -1.0,
+        "D": 2
+      },
+      "2021-06-16": {
+        "Fobs": -1.0,
+        "Fadj": -1.0,
+        "D": 2
+      }
+    }
+  },
+  "alternate_year_file": {
+    "URL": "https://ftp.gfz.de/pub/home/obs/Kp_ap_Ap_SN_F107/Kp_ap_Ap_SN_F107_2021.txt",
+    "retrieved_UTC": "2026-11-27T01:54:52.955287+00:00",
+    "cap": 184320,
+    "error": "<urlopen error _ssl.c:1000: The handshake operation timed out>"
+  },
+  "writes_to_GPI": 0,
+  "fill_values_substituted": 0
+}

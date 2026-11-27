@@ -1,0 +1,35 @@
+[
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=25&pos=0&file=swarm%2FLevel1b%2FLatest_baselines%2FMODx_SC",
+    "retrieved_UTC": "2026-11-27T01:56:56.066630+00:00",
+    "cap": 40960,
+    "HTTP": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "bytes": 606,
+    "SHA256": "4762d7a0ca3a0cc4faf7fe84e7e451849cf1867e79455ec8c2dbfcfbd6b92389",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_mod_catalogue.json"
+  },
+  {
+    "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=25&pos=0&file=swarm%2FLevel2daily%2FLatest_baselines%2FDNS%2FPOD",
+    "retrieved_UTC": "2026-11-27T01:56:56.067543+00:00",
+    "cap": 40960,
+    "HTTP": 200,
+    "type": "text/html; charset=UTF-8",
+    "last_modified": null,
+    "bytes": 621,
+    "SHA256": "f0a8d0c21400ec3626f5ff3d03c65404f96d0983126cecfe764b92f2d9393cae",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_dns_catalogue.json"
+  },
+  {
+    "URL": "https://kp.gfz.de/app/format/Kp_ap_Ap_SN_F107_format.txt",
+    "retrieved_UTC": "2026-11-27T01:56:56.065343+00:00",
+    "cap": 40960,
+    "HTTP": 200,
+    "type": "text/plain; charset=utf-8",
+    "last_modified": "Wed, 18 Mar 2026 08:32:14 GMT",
+    "bytes": 11071,
+    "SHA256": "dccb51b9af7fc23a701ed857170e76c77bf151c91dda1dc2095e2b07e7ef7c94",
+    "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/gfz_format.txt"
+  }
+]

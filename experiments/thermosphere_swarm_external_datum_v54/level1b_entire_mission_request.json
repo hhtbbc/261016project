@@ -1,0 +1,11 @@
+{
+  "URL": "https://swarm-diss.eo.esa.int/?do=list&maxfiles=80&pos=0&file=swarm%2FLevel1b%2FEntire_mission_data",
+  "retrieved_UTC": "2026-11-27T01:58:47.873513+00:00",
+  "cap": 49152,
+  "HTTP": 200,
+  "type": "text/html; charset=UTF-8",
+  "last_modified": null,
+  "bytes": 5989,
+  "SHA256": "0cfa06b60dfe49be915b437b6edaf1dc47bd45188b05d7adf51e98eec9d3e13c",
+  "file": "experiments/thermosphere_swarm_external_datum_v54/public_evidence/esa_level1b_entire_mission.json"
+}

@@ -1,0 +1,61 @@
+{
+  "independent_iterative": {
+    "2021-06-21": {
+      "max_abs_height_roundtrip_m": 2.7939677238464355e-09,
+      "P95_XYZ_roundtrip_m": 1.919981701940699e-09,
+      "max_XYZ_roundtrip_m": 3.3980513735037352e-09,
+      "samples": 2880,
+      "max_same_XYZ_height_parameter_change_m": 0.0001046033576130867
+    },
+    "2022-06-21": {
+      "max_abs_height_roundtrip_m": 2.7939677238464355e-09,
+      "P95_XYZ_roundtrip_m": 1.9340365805938083e-09,
+      "max_XYZ_roundtrip_m": 3.732559164492739e-09,
+      "samples": 2880,
+      "max_same_XYZ_height_parameter_change_m": 0.00010460428893566132
+    }
+  },
+  "model_bottom_cells": 124416,
+  "checked_public_hashes": 25,
+  "test_cases": 14,
+  "access_ledger": [
+    {
+      "variable": "longitude",
+      "allowed": true
+    },
+    {
+      "variable": "latitude",
+      "allowed": true
+    },
+    {
+      "variable": "altitude",
+      "allowed": true
+    },
+    {
+      "variable": "longitude",
+      "allowed": true
+    },
+    {
+      "variable": "latitude",
+      "allowed": true
+    },
+    {
+      "variable": "altitude",
+      "allowed": true
+    },
+    {
+      "variable": "density",
+      "allowed": false
+    },
+    {
+      "variable": "density_orbitmean",
+      "allowed": false
+    }
+  ],
+  "density_reads": 0,
+  "density_orbitmean_reads": 0,
+  "formal_scores": 0,
+  "AI_training": 0,
+  "GPU": 0,
+  "new_model_runs": 0
+}
