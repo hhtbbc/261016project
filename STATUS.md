@@ -866,3 +866,7 @@ V56_NON_TARGET_TIME_INDEX_AND_SEALING_COMPLETE_VERIFIED / EXTERNAL_EVIDENCE_NOT_
 ## 2026-11-27 V57 真实非目标预测基线
 
 V57_REAL_DEVELOPMENT_BASELINES_AND_ISOLATION_VERIFIED。八个 V37 开发日 16 个合法窗、5,760 条输入记录、48 个样本 ID，Persistence 48/48、TwoFrameLinear 30/48 有效。Linux 沙箱及合成毒化实测通过，未见标签继续封存。GFZ/ESA/NCAR 无新交接。下一步优先扩展经授权的历史开发日期和独立日期块。入口 reports/THERMOSPHERE_REAL_DEVELOPMENT_BASELINE_V57.md。
+
+## 2026-11-27 V58 开发数据和 AI 准入
+
+V58_DEVELOPMENT_DATA_FEASIBILITY_COMPLETE_VERIFIED。272 卷原生次历史、107 个 UTC 日期、2,216 个去重整点、最长 552 帧；Swarm A 有 15 日，授权历史窗仍限八日。539 个工程候选端点，监督训练/验证/测试为 0/0/0。下一轮优先申请已有秋季固定网格 12+12 端点的模型标签，用于独立于 V37 的 CPU 工程 MVP。未见标签与其他外部门禁保持。入口 reports/THERMOSPHERE_DEVELOPMENT_DATA_AND_AI_FEASIBILITY_V58.md。

@@ -1,0 +1,39 @@
+{
+  "V57_publication_entries": 13,
+  "V51_secondary_matching": 46,
+  "V51_primary_identity": "V57 frozen receipt; primary not scanned again",
+  "candidate_sample_checks": 539,
+  "prospective_support_checks": 24,
+  "exact_duplicate_volume_groups": 0,
+  "synthetic_filesystem_probe_assertions": 10,
+  "synthetic_split_positive": 1,
+  "negatives": {
+    "same_run": "source_run_id reused across partitions",
+    "alternate_seed_shared_forcing": "forcing_family reused across partitions",
+    "shared_date_block": "date_block_id reused across partitions",
+    "support_overlap": "Cross-split support overlap",
+    "cross_midnight_into_unseen": "Touches V37 unseen date",
+    "PROPOSED_FOR_NEW_DEVELOPMENT": "Proposal and metadata status do not authorize labels",
+    "ALREADY_AUTHORIZED": "Proposal and metadata status do not authorize labels",
+    "EXCLUDED_BY_FROZEN_PROTOCOL": "Proposal and metadata status do not authorize labels"
+  },
+  "baseline": {
+    "common_valid": 30,
+    "Persistence": {
+      "total": 48,
+      "valid": 48,
+      "min_kg_m3": 1.7149002137154172e-13,
+      "max_kg_m3": 2.385542685138269e-12
+    },
+    "TwoFrameLinear": {
+      "total": 48,
+      "valid": 30,
+      "min_kg_m3": -7.704842048192215e-12,
+      "max_kg_m3": 1.6226934667148758e-11
+    }
+  },
+  "target_label_decodes": 0,
+  "new_integrations": 0,
+  "GPU": 0,
+  "AI_training": 0
+}
