@@ -870,3 +870,7 @@ V57_REAL_DEVELOPMENT_BASELINES_AND_ISOLATION_VERIFIED。八个 V37 开发日 16 
 ## 2026-11-27 V58 开发数据和 AI 准入
 
 V58_DEVELOPMENT_DATA_FEASIBILITY_COMPLETE_VERIFIED。272 卷原生次历史、107 个 UTC 日期、2,216 个去重整点、最长 552 帧；Swarm A 有 15 日，授权历史窗仍限八日。539 个工程候选端点，监督训练/验证/测试为 0/0/0。下一轮优先申请已有秋季固定网格 12+12 端点的模型标签，用于独立于 V37 的 CPU 工程 MVP。未见标签与其他外部门禁保持。入口 reports/THERMOSPHERE_DEVELOPMENT_DATA_AND_AI_FEASIBILITY_V58.md。
+
+## 2026-11-27 V59 原生模型 DEN 三基线
+
+V59_NATIVE_DENSITY_BASELINES_COMPLETE_VERIFIED。24 个真实秋季模型端点、8 截点、48 个不同原生场。+1h 对数线性绝对 MAE/RMSE 最低，+3/+6h Persistence 最低。+6h 原值线性 11 个非正格点。预测隔离及 1,782 行指标独立复核通过。独立科学测试、Swarm 评分和 AI 训练未启动。入口 reports/THERMOSPHERE_NATIVE_DENSITY_BASELINES_V59.md。

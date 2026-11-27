@@ -1520,3 +1520,7 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## 2026-11-27 V58 真实数据盘点与时空任务
 
 在 activate_tiegcm.sh 环境执行 inventory_historical_density_v58.py 和 verify_development_feasibility_v58.py。原始模型次历史目录、SHA、原生 UTC 与网格单位盘点；复核 V57 的 16 个历史切片和发布资产、V51 46 个次历史卷与 V37。独立重解 539 个候选端点时间和 24 个拟议划分支持，检查 10 项合成隔离、8 个拒绝及 1 个正例。中间复跑遇到独占文件保护，移动本轮草稿至本地子目录后复核通过。没有新积分、真实未来标签读取、AI、GPU、评分或外发。V55 staging 无回件。成果目录 experiments/thermosphere_development_feasibility_v58/。
+
+## 2026-11-27 V59 秋季模型场定量基线
+
+在 activate_tiegcm.sh 环境运行 run_native_density_baselines_v59.py、verify_native_density_baselines_v59.py 和 plot_native_density_baselines_v59.py。V58 两组收据及 32 卷 SHA 匹配。首轮 CPython memfd 绑定缺失，标签目录为空，以 libc 同等内核封条恢复，保留现场。主实验约 19 秒、峰 267 MiB、4 核。24 组预测先锁再读标签，1,782 行独立复核通过。无未见观测、训练、GPU、新积分、DART、轨道或外发。下一轮小型 Direct 仅可申请工程演示，成果见 experiments/thermosphere_native_density_baselines_v59/。

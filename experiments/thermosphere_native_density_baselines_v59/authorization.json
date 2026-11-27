@@ -1,0 +1,21 @@
+{
+  "V58_head": "8a8616d4562a98452cd82e38992f2bbbece59114",
+  "V58_manifest_sha256": "b87210e7deb1e1073c3e966fb8f2efb5c9d84ce5b633f31e84e067bb45124c4e",
+  "user_scope": "V59 once, frozen autumn native DEN records only",
+  "run_ids": {
+    "2021": "18726974f5d3450ba61f82c23c8da3a0",
+    "2022": "4a89e99eaee548f28240ea47f4b98e47"
+  },
+  "history_records": 24,
+  "target_records": 24,
+  "Swarm_fields_authorized": false,
+  "independent_science_test": false,
+  "authorized_fields": [
+    "DEN",
+    "time",
+    "ilev",
+    "lat",
+    "lon",
+    "metadata-only ZG"
+  ]
+}

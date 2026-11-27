@@ -1,0 +1,1 @@
+Initial execution stopped before any target DEN read. The activated CPython exposes neither os.memfd_create nor fcntl seal constants. Target directory was empty. Recovered with the host libc syscall wrapper and Linux header constants, retaining the same kernel seal requirement.

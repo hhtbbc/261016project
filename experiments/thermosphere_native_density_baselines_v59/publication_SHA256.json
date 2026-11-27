@@ -1,0 +1,20 @@
+{
+  "experiments/thermosphere_native_density_baselines_v59/authorization.json": "a780e8ea23520b09b1d57e9b52afb7c4931e3da106bc384497534c509fdde5ba",
+  "experiments/thermosphere_native_density_baselines_v59/baseline_comparison.png": "4d81e679d95cbcc29b2bc021b78598b6bc12c7b48bd43445d177698d01124419",
+  "experiments/thermosphere_native_density_baselines_v59/den_read_ledger.csv": "fc00698fcec7450c41d59315253444cd5f6ec7c27d43ea58ba9ba63f685ce380",
+  "experiments/thermosphere_native_density_baselines_v59/execution.json": "321ba7477673af9d1cac89ab43a1f3d98c4ad733273219d1c9a487c0430e1c4c",
+  "experiments/thermosphere_native_density_baselines_v59/handoff.json": "6faa8f39c01ef2758246a4cca4d937d7352dad603346085e048fffc9de543e75",
+  "experiments/thermosphere_native_density_baselines_v59/independent.json": "ac0997f24e075447b327173a11d0293e02731310797b079b60e1f4fdb7423e28",
+  "experiments/thermosphere_native_density_baselines_v59/initial_attempt.json.txt": "2c0af77e966fed52c010f758a312d087d9d5a5a735627b884e699fd5d15b2de6",
+  "experiments/thermosphere_native_density_baselines_v59/metrics.csv": "83856eb657cff452b484e7600515ca919bfa20c26b17ca1e104a06e8cb2429b2",
+  "experiments/thermosphere_native_density_baselines_v59/native_field_example.png": "9b2c583e181ed2bcc342c7e2b54959c6e6e11fed9f59ce9c12b05fed596e196c",
+  "experiments/thermosphere_native_density_baselines_v59/native_grid.json": "21af4f911282785244cee515765b39836bcd43afaf87a085e5dd650784eaa4c8",
+  "experiments/thermosphere_native_density_baselines_v59/prediction_lock.json": "ce32c9c2fc6d02843f8c40db718efd2dd0ba729ae866a659818f9b0113bd485a",
+  "experiments/thermosphere_native_density_baselines_v59/sample_manifest.csv": "f50b10c18885d6b4cf7e65913f1fb7802b8d51794e20b347373b3ae8f47ff0b6",
+  "experiments/thermosphere_native_density_baselines_v59/target_profiles.csv": "565e8d18b7cb4471d7dad5985a646ec95528a26b06eb8904b6b315c954eea213",
+  "reports/THERMOSPHERE_NATIVE_DENSITY_BASELINES_V59.md": "7cd6f09de85d806efa8e3d2f5169f389e19d7ca514f2decbdd1656d6a9ad023f",
+  "scripts/native_density_worker_v59.c": "881e3a5c5e9b83057be524aaa841aed5996a8b23d9ea8f740d374d8ea5687ce6",
+  "scripts/plot_native_density_baselines_v59.py": "0a54c64a1b361124ef32a3a893ba9d18cb6f2746ed23b4c69a7d16295f57665d",
+  "scripts/run_native_density_baselines_v59.py": "974a259e31963d512ee388336e4771824b2c00d2b18c15f44f5fbb566ba810e6",
+  "scripts/verify_native_density_baselines_v59.py": "9f15849bc446ef7784452786af9cfdf2e61eb5782aff68e6c3c43769f2eaa3f0"
+}

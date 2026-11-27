@@ -1,0 +1,24 @@
+{
+  "locked_predictions": 24,
+  "sample_manifest_sha256": "f50b10c18885d6b4cf7e65913f1fb7802b8d51794e20b347373b3ae8f47ff0b6",
+  "worker_SHA256": "61030da0881e065f164fbbae97d14153c264f9bf844e04b4766fcafc6873043d",
+  "kernel_memfd_write_rejections": 24,
+  "target_reads_at_lock": 0,
+  "kernel_probes": [
+    "blocked_open_0=2",
+    "blocked_open_1=2",
+    "blocked_open_2=2",
+    "blocked_open_3=2",
+    "blocked_open_4=2",
+    "blocked_open_5=2",
+    "history_write=EACCES",
+    "network_socket=EPERM",
+    "chroot_escape=EPERM",
+    "unprivileged=65534",
+    "blocked_other_source_3=2",
+    "blocked_other_source_4=2"
+  ],
+  "synthetic_poison_output_sha256": "89fc9e023c61c99e5d121f0e4f7807701038571cc9eb7c9935e19c2fefef7c23",
+  "synthetic_poison_invariant": true,
+  "real_label_in_worker": false
+}

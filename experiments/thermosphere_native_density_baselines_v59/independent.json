@@ -1,0 +1,17 @@
+{
+  "samples": 24,
+  "cutoffs": 8,
+  "run_ids": {
+    "2021": "18726974f5d3450ba61f82c23c8da3a0",
+    "2022": "4a89e99eaee548f28240ea47f4b98e47"
+  },
+  "records_rechecked_within_original_scope": 48,
+  "additional_distinct_records": 0,
+  "metric_rows": 1782,
+  "max_log_linear_formula_relative_difference": 2.731148640577885e-14,
+  "max_metric_relative_difference": 7.449319537905844e-13,
+  "Swarm_density_reads": 0,
+  "GPU": 0,
+  "AI_training": 0,
+  "new_TIEGCM_runs": 0
+}
