@@ -1,0 +1,40 @@
+{
+  "train_run": "18726974f5d3450ba61f82c23c8da3a0",
+  "verification_run": "4a89e99eaee548f28240ea47f4b98e47",
+  "train_cutoffs": [
+    "2021-09-23T06:00:00Z",
+    "2021-09-23T18:00:00Z",
+    "2021-09-24T06:00:00Z",
+    "2021-09-24T18:00:00Z"
+  ],
+  "verification_cutoffs": [
+    "2022-09-23T06:00:00Z",
+    "2022-09-23T18:00:00Z",
+    "2022-09-24T06:00:00Z",
+    "2022-09-24T18:00:00Z"
+  ],
+  "scope": "V60 once; reuse V59 archived DEN records; no new targets",
+  "no_Swarm": true,
+  "CPU_only": true,
+  "source_contracts": {
+    "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run": {
+      "path": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+      "native_run_id": "18726974f5d3450ba61f82c23c8da3a0",
+      "launch_receipt_SHA256": "5fca58bff6bc003f9322c9a5b2520e611b6583e74f4c60da1ee72516ae735178",
+      "model_ELF_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+      "GPI_SHA256": "d401d0ae525babb343faaa6d1dd9a8d3c4fb1c2ea85beb26d2b0025cdf001b9a",
+      "output_manifest_SHA256": "ecff2eea392ab45d0849a19e62132fadc1778d7070ddd0229451ef4d94e6f6b2",
+      "authorization": "NOT_AUTHORIZED"
+    },
+    "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run": {
+      "path": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+      "native_run_id": "4a89e99eaee548f28240ea47f4b98e47",
+      "launch_receipt_SHA256": "633e33b6dee671f79d5796ec952fd9c4a61db1907a80d98ab700a167dfb3ec96",
+      "model_ELF_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+      "GPI_SHA256": "7d43db220fe7fbaded6b2182db8db32ee09cedf99dc5760815824ccf8298ebb2",
+      "output_manifest_SHA256": "d062c75e04b4b12b83e0c3796b7d75d5a070a178c45657e3f2a244f13fe49c47",
+      "authorization": "NOT_AUTHORIZED"
+    }
+  },
+  "V59_release_sha256": "255b25fbcbfeac2d74f7b9d0c77c29ffb3ca197ef9098fa90f1536c5e0f216a6"
+}

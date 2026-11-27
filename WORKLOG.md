@@ -1524,3 +1524,7 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## 2026-11-27 V59 秋季模型场定量基线
 
 在 activate_tiegcm.sh 环境运行 run_native_density_baselines_v59.py、verify_native_density_baselines_v59.py 和 plot_native_density_baselines_v59.py。V58 两组收据及 32 卷 SHA 匹配。首轮 CPython memfd 绑定缺失，标签目录为空，以 libc 同等内核封条恢复，保留现场。主实验约 19 秒、峰 267 MiB、4 核。24 组预测先锁再读标签，1,782 行独立复核通过。无未见观测、训练、GPU、新积分、DART、轨道或外发。下一轮小型 Direct 仅可申请工程演示，成果见 experiments/thermosphere_native_density_baselines_v59/。
+
+## 2026-11-27 V60 真实模型密度小型 Direct
+
+activate_tiegcm.sh 环境运行 train_tiny_direct_v60.py、evaluate_tiny_direct_v60.py、verify_tiny_direct_v60.py 和 plot_tiny_direct_v60.py。核验 V59 与 32 卷 SHA，按 V60 授权重用 2021/2022 各四个截点。CPU 80 步、13.56 秒、峰 588248 KiB，独立复算 396 条模型指标，匹配 1188 条 V59 年份子集。2022 目标在预测锁后才打开。正值覆盖 100%，绝对误差下降且 log 误差上升。GPU、Swarm、新积分、正式评分为零。成果见 experiments/thermosphere_tiny_direct_cpu_v60/。

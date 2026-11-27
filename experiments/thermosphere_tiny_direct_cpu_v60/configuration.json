@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "steps": 80,
+  "batch_cutoffs": 1,
+  "torch_threads": 4,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "params": 1027,
+  "hidden_channels": 8,
+  "output_kernel": 3,
+  "latitude_boundary": "reflect",
+  "longitude_boundary": "circular",
+  "normalization": "per-ilev population moments of 2021 historical log inputs only",
+  "loss": "equal cutoff and horizon mean of cosine latitude weighted log MAE",
+  "order": "four cutoffs in UTC order repeated",
+  "device": "cpu",
+  "dtype": "float32",
+  "initialization": "zero output convolution; recent-density residual"
+}

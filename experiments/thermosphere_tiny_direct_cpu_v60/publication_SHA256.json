@@ -1,0 +1,23 @@
+{
+  "experiments/thermosphere_tiny_direct_cpu_v60/authorization.json": "cf5ec0dcf9bf4e16df5e51284690bcd7097788c44c50afb439e49206fe697179",
+  "experiments/thermosphere_tiny_direct_cpu_v60/comparison_and_loss.png": "5765524dd25419e94af3e252422adda8090c49310518c756f2e6204a4b66adf5",
+  "experiments/thermosphere_tiny_direct_cpu_v60/configuration.json": "c854375797b21fc157c0947ceaebabed2797f9a4f2831d354807ff2891044038",
+  "experiments/thermosphere_tiny_direct_cpu_v60/density_and_residual.png": "e4f47c2d98040e14d3e33a2d7330ce588e1c20f4a7dbab84eeae09f2656d7835",
+  "experiments/thermosphere_tiny_direct_cpu_v60/evaluation_prediction_lock.json": "08ab46bfc93ccded19c7663a15bce07ff0dc2c46cd1167c99ea2bcf56ec0ecf2",
+  "experiments/thermosphere_tiny_direct_cpu_v60/evaluation_receipt.json": "729fa22985c3ce7e54185284e180862b3ab44e803bda8577b50d2baa92f1963f",
+  "experiments/thermosphere_tiny_direct_cpu_v60/global_comparison.csv": "288bf37402e3a4a330e3c698aa15f631802ab153b122e5ef38895c7184730b39",
+  "experiments/thermosphere_tiny_direct_cpu_v60/independent.json": "25cf9204f091371cdc1c506fe7bfb8ae9d0bae04d55fc22287f91748ea92a90e",
+  "experiments/thermosphere_tiny_direct_cpu_v60/inference_timings.csv": "ecba38a8d17ecd714cc072bfc15fbc7bf385467d5a11c4355739be10797924c8",
+  "experiments/thermosphere_tiny_direct_cpu_v60/metrics.csv": "1d18a9035e190a51f5be26017c298448f23c2079e5adb1c27dfe7fe6b52ef83e",
+  "experiments/thermosphere_tiny_direct_cpu_v60/normalization.json": "581f4c50f1dd06f60c47cc530ba1d131638874a525c6d604581249b5b48e4616",
+  "experiments/thermosphere_tiny_direct_cpu_v60/prediction_manifest.csv": "0f8c4f8ea3e190890a1644aadfcd850428f72465968352900bfe4efbacd1a77d",
+  "experiments/thermosphere_tiny_direct_cpu_v60/sample_scope.csv": "a1d7583d887dfcc4a9689c717969cd486f3be4856da16351bf3990ba03ff009a",
+  "experiments/thermosphere_tiny_direct_cpu_v60/training_log.csv": "c2dad4e199b5fa5376a249fb7660d8e6a6116d4f54a65f04b69f4b51a4f8e7b2",
+  "experiments/thermosphere_tiny_direct_cpu_v60/training_receipt.json": "9d6f59387c9dbf0216df086e3cf5eb3e53d4dfb3892cf8f68e64d7e65e509a5c",
+  "reports/THERMOSPHERE_TINY_DIRECT_CPU_V60.md": "856d7dd4585a0c6f7fd02896cb8471af1cbca0e73ae2d5b9d8c5f16e45d1e459",
+  "scripts/evaluate_tiny_direct_v60.py": "7e110c1ef41d007ecb5e6d0d3e6715f5d56beb7e88f52bf47d8b56cc1f387245",
+  "scripts/plot_tiny_direct_v60.py": "4b3e8bcc6907ce2ced07d73fb1e46f26119f2161b36718a727b7f49c794a7d00",
+  "scripts/tiny_direct_worker_v60.c": "2ab60c1bd21d2e2a965723164ad4c10a8a054e1f382474fc125f92dcc34b36ae",
+  "scripts/train_tiny_direct_v60.py": "4c4027da9aa6a1bdfe4f5b93fe42730ea167807c028bf5607687e68f745633ce",
+  "scripts/verify_tiny_direct_v60.py": "d7586f3ab5b375470c1bc1de90e20fb75a936ffb37c9c5a0d406d2db61974ac5"
+}

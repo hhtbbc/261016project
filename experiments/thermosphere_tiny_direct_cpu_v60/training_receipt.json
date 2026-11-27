@@ -1,0 +1,33 @@
+{
+  "steps": 80,
+  "train_seconds": 13.556757763028145,
+  "preflight_seconds": 0.29173747077584267,
+  "peak_RSS_KiB": 588248,
+  "CPU_threads": 4,
+  "torch_version": "2.4.1+cu121",
+  "parameter_count": 1027,
+  "loss_before": [
+    0.047157470136880875,
+    0.04700064659118652,
+    0.04607110098004341,
+    0.048527248203754425
+  ],
+  "loss_after": [
+    0.02509441412985325,
+    0.02358097955584526,
+    0.023022454231977463,
+    0.02558249421417713
+  ],
+  "training_loss_before": 0.04718911647796631,
+  "training_loss_after": 0.024320085532963276,
+  "max_gradient": 0.282723605632782,
+  "weight_max_update": 0.08321211114525795,
+  "initial_parameter_sha": "bd9f90b64e8d7822e3fb54498f12c42c383ca41a1cce1b3187b252b2cccedaf1",
+  "weights_SHA256": "c0c592e38c8bac9431a71f43f4b6358c8e125be724c9787fc46f0620c7136c53",
+  "packet_SHA256": "a060bd7bf1d98a1404524a5cb09bdd82065bacbc479c66b6052d8f7f7c50bf2e",
+  "normalization_SHA256": "581f4c50f1dd06f60c47cc530ba1d131638874a525c6d604581249b5b48e4616",
+  "persistence_init_exact_log": true,
+  "validation_targets_read": 0,
+  "validation_inputs_read": 0,
+  "GPU": 0
+}

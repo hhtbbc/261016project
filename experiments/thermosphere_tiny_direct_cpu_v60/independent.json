@@ -1,0 +1,30 @@
+{
+  "train_cutoffs": 4,
+  "validation_cutoffs": 4,
+  "source_ids": [
+    "18726974f5d3450ba61f82c23c8da3a0",
+    "4a89e99eaee548f28240ea47f4b98e47"
+  ],
+  "checkpoint_inference_max_relative_delta": 2.0493128354281964e-06,
+  "independent_train_losses": [
+    0.02509441068367046,
+    0.023580976953102132,
+    0.02302245530621538,
+    0.025582491740695004
+  ],
+  "independent_initial_losses": [
+    0.04715746819895448,
+    0.047000645021930666,
+    0.04607109778053826,
+    0.048527237249187345
+  ],
+  "independent_metric_rows": 396,
+  "independent_metric_max_relative_delta": 7.899699987144669e-15,
+  "baseline_subset_rows_checked": 1188,
+  "checkpoint_shape": "[4,3,29,36,72]",
+  "boundary_check": true,
+  "Swarm_reads": 0,
+  "GPU": 0,
+  "new_model_integrations": 0,
+  "formal_scoring": 0
+}

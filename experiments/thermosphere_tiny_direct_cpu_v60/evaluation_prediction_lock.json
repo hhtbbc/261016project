@@ -1,0 +1,23 @@
+{
+  "n": 24,
+  "worker_SHA256": "03229ce991796c08652bbc6d43096809f2bf94bfbaeb1b28afd0b9e1b2135939",
+  "prediction_manifest_SHA256": "0f8c4f8ea3e190890a1644aadfcd850428f72465968352900bfe4efbacd1a77d",
+  "weight_packet_SHA256": "a060bd7bf1d98a1404524a5cb09bdd82065bacbc479c66b6052d8f7f7c50bf2e",
+  "lock_checks": 24,
+  "kernel_probes": [
+    "blocked_open_0=2",
+    "blocked_open_1=2",
+    "blocked_open_2=2",
+    "blocked_open_3=2",
+    "blocked_open_4=2",
+    "blocked_open_5=2",
+    "history_write=EACCES",
+    "network_socket=EPERM",
+    "chroot_escape=EPERM",
+    "unprivileged=65534",
+    "raw_or_archived_source_rejected_3=2",
+    "raw_or_archived_source_rejected_4=2"
+  ],
+  "synthetic_poison_invariant": true,
+  "validation_targets_read_before_lock": 0
+}

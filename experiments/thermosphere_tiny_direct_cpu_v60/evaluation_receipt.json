@@ -1,0 +1,13 @@
+{
+  "validation_cutoffs": 4,
+  "validation_targets_read_after_lock": 12,
+  "prediction_files": 24,
+  "rows": 1584,
+  "all_direct_positive": true,
+  "metrics": "cos(latitude), native pressure grid, exact V59 year/lead masks",
+  "additional_distinct_native_records": 0,
+  "Swarm_reads": 0,
+  "GPU": 0,
+  "new_integrations": 0,
+  "formal_scoring": 0
+}

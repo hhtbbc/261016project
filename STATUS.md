@@ -874,3 +874,7 @@ V58_DEVELOPMENT_DATA_FEASIBILITY_COMPLETE_VERIFIED。272 卷原生次历史、10
 ## 2026-11-27 V59 原生模型 DEN 三基线
 
 V59_NATIVE_DENSITY_BASELINES_COMPLETE_VERIFIED。24 个真实秋季模型端点、8 截点、48 个不同原生场。+1h 对数线性绝对 MAE/RMSE 最低，+3/+6h Persistence 最低。+6h 原值线性 11 个非正格点。预测隔离及 1,782 行指标独立复核通过。独立科学测试、Swarm 评分和 AI 训练未启动。入口 reports/THERMOSPHERE_NATIVE_DENSITY_BASELINES_V59.md。
+
+## 2026-11-27 V60 小型 Direct CPU 工程验证
+
+V60_TINY_DIRECT_CPU_ENGINEERING_COMPLETE_VERIFIED。固定 80 步、1,027 参数，2022 三时效绝对 RMSE 低于三基线，log RMSE 全部更高且层位与极区退化。独立复核通过，保留 Physics/HINDCAST 局限和 V37 门禁。V61 优先扩大合法独立日期和地磁事件。入口 reports/THERMOSPHERE_TINY_DIRECT_CPU_V60.md。
