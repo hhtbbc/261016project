@@ -1,0 +1,199 @@
+{
+  "sources": [
+    {
+      "source": "MONTH",
+      "split": "synthetic_train_fixture",
+      "start": "2020-01-31T00:00:00Z",
+      "stop": "2020-02-02T00:00:00Z",
+      "frames": 49,
+      "file": "synthetic_MONTH.nc",
+      "sha256": "f4c1df5cbd9d3c78b584259f1f892d3b2b9080a9b8c2e64efe4be8128a949423"
+    },
+    {
+      "source": "LEAP",
+      "split": "synthetic_validation_fixture",
+      "start": "2020-02-29T00:00:00Z",
+      "stop": "2020-03-02T00:00:00Z",
+      "frames": 49,
+      "file": "synthetic_LEAP.nc",
+      "sha256": "33e51c87537bf514b3300dca0ae284c0fb67e22cfa2781b246e05f99dbd69ce4"
+    },
+    {
+      "source": "YEAR",
+      "split": "synthetic_calendar_fixture",
+      "start": "2020-12-31T00:00:00Z",
+      "stop": "2021-01-02T00:00:00Z",
+      "frames": 49,
+      "file": "synthetic_YEAR.nc",
+      "sha256": "9cbf1137263bd5ae266ad0bc9a46e38720b35a830ae8e3da01e8701269e834f5"
+    }
+  ],
+  "endpoints": 36,
+  "controls": 5040,
+  "maximum_relative": 4.218847493575595e-15,
+  "maximum_absolute_kg_m3": 5.00832011506716e-26,
+  "P95_relative": 2.886579864025407e-15,
+  "rejected": [
+    {
+      "id": "MONTH_before",
+      "reason": "TIME_OUTSIDE"
+    },
+    {
+      "id": "MONTH_after",
+      "reason": "TIME_OUTSIDE"
+    },
+    {
+      "id": "MONTH_polar",
+      "reason": "POLAR_CAP_UNSUPPORTED"
+    },
+    {
+      "id": "MONTH_low",
+      "reason": "VERTICAL_OUTSIDE"
+    },
+    {
+      "id": "MONTH_high",
+      "reason": "VERTICAL_OUTSIDE"
+    },
+    {
+      "id": "MONTH_external",
+      "reason": "EXTERNAL_DATUM_UNVERIFIED"
+    },
+    {
+      "id": "LEAP_before",
+      "reason": "TIME_OUTSIDE"
+    },
+    {
+      "id": "LEAP_after",
+      "reason": "TIME_OUTSIDE"
+    },
+    {
+      "id": "LEAP_polar",
+      "reason": "POLAR_CAP_UNSUPPORTED"
+    },
+    {
+      "id": "LEAP_low",
+      "reason": "VERTICAL_OUTSIDE"
+    },
+    {
+      "id": "LEAP_high",
+      "reason": "VERTICAL_OUTSIDE"
+    },
+    {
+      "id": "LEAP_external",
+      "reason": "EXTERNAL_DATUM_UNVERIFIED"
+    },
+    {
+      "id": "YEAR_before",
+      "reason": "TIME_OUTSIDE"
+    },
+    {
+      "id": "YEAR_after",
+      "reason": "TIME_OUTSIDE"
+    },
+    {
+      "id": "YEAR_polar",
+      "reason": "POLAR_CAP_UNSUPPORTED"
+    },
+    {
+      "id": "YEAR_low",
+      "reason": "VERTICAL_OUTSIDE"
+    },
+    {
+      "id": "YEAR_high",
+      "reason": "VERTICAL_OUTSIDE"
+    },
+    {
+      "id": "YEAR_external",
+      "reason": "EXTERNAL_DATUM_UNVERIFIED"
+    }
+  ],
+  "metadata_index_status": "OBSERVATION_METADATA_TIME_INDEX_VERIFIED",
+  "metadata_rows": 4800,
+  "metadata_unique": 2880,
+  "metadata_groups": [
+    {
+      "day": "2021-06-21",
+      "cutoff": 6,
+      "horizon": 1,
+      "rows": 120,
+      "end_excluded": "2021-06-21T07:00:00Z"
+    },
+    {
+      "day": "2021-06-21",
+      "cutoff": 6,
+      "horizon": 3,
+      "rows": 360,
+      "end_excluded": "2021-06-21T09:00:00Z"
+    },
+    {
+      "day": "2021-06-21",
+      "cutoff": 6,
+      "horizon": 6,
+      "rows": 720,
+      "end_excluded": "2021-06-21T12:00:00Z"
+    },
+    {
+      "day": "2021-06-21",
+      "cutoff": 18,
+      "horizon": 1,
+      "rows": 120,
+      "end_excluded": "2021-06-21T19:00:00Z"
+    },
+    {
+      "day": "2021-06-21",
+      "cutoff": 18,
+      "horizon": 3,
+      "rows": 360,
+      "end_excluded": "2021-06-21T21:00:00Z"
+    },
+    {
+      "day": "2021-06-21",
+      "cutoff": 18,
+      "horizon": 6,
+      "rows": 720,
+      "end_excluded": "2021-06-22T00:00:00Z"
+    },
+    {
+      "day": "2022-06-21",
+      "cutoff": 6,
+      "horizon": 1,
+      "rows": 120,
+      "end_excluded": "2022-06-21T07:00:00Z"
+    },
+    {
+      "day": "2022-06-21",
+      "cutoff": 6,
+      "horizon": 3,
+      "rows": 360,
+      "end_excluded": "2022-06-21T09:00:00Z"
+    },
+    {
+      "day": "2022-06-21",
+      "cutoff": 6,
+      "horizon": 6,
+      "rows": 720,
+      "end_excluded": "2022-06-21T12:00:00Z"
+    },
+    {
+      "day": "2022-06-21",
+      "cutoff": 18,
+      "horizon": 1,
+      "rows": 120,
+      "end_excluded": "2022-06-21T19:00:00Z"
+    },
+    {
+      "day": "2022-06-21",
+      "cutoff": 18,
+      "horizon": 3,
+      "rows": 360,
+      "end_excluded": "2022-06-21T21:00:00Z"
+    },
+    {
+      "day": "2022-06-21",
+      "cutoff": 18,
+      "horizon": 6,
+      "rows": 720,
+      "end_excluded": "2022-06-22T00:00:00Z"
+    }
+  ]
+}

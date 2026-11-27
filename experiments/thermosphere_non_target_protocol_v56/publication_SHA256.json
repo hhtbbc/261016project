@@ -1,0 +1,23 @@
+{
+  "reports/THERMOSPHERE_EXTERNAL_EVIDENCE_AND_NON_TARGET_PROTOCOL_V56.md": "9a656c10b0bcb545a076d811fcdf0c017bf6875d3b0a6c574fa2be88b7f95f58",
+  "scripts/build_non_target_horizon_index_v56.py": "feaccd601d8ad4dee1f0576f462d443bfdf2be4085080ea4134ad88729bf5842",
+  "scripts/test_future_access_isolation_v56.py": "0af8e0dc96006e6c7266b6dda1137dbb23ebac8e22a08a073419c65ba3f3a300",
+  "scripts/test_multihorizon_time_alignment_v56.py": "9dfc0ee99e871475958127e58b94044c25c95eff10243ca7d299020de7e8d674",
+  "scripts/verify_non_target_prediction_protocol_v56.py": "11e9b515b3f124d0e0b7e7b4b5e53b0a5fb4e74936c2c5434e196438bc737629",
+  "docs/V56_MULTIHORIZON_SAMPLE_ID_CONTRACT.md": "6f3366cb878ab28ad5d0a95985cfe06b089b73257772bb58d39e9cfaaa4c56a2",
+  "docs/V56_NEXT_STAGE_DECISION.md": "7fa55269245bb41624b7f11ae182e6c5c283e5e99bd98eae3e1f0771c92dd6ad",
+  "docs/V56_NON_TARGET_DEVELOPMENT_PROTOCOL.md": "588ac54fe3e13fd82aa36a76cbf15a0ad35e99ccf291f3712cae0909a22975ed",
+  "docs/V56_OFFICIAL_INQUIRY_DISPATCH_GUIDE.md": "9ad3ba1365312b63317e32be522b6b3723a747fa1b0c76612ece36ef5528688d",
+  "experiments/thermosphere_non_target_protocol_v56/V37_admission.csv": "578648c34a41fe18ff51d14b7a8a0936889f97f9be5149fd535994a769556d9c",
+  "experiments/thermosphere_non_target_protocol_v56/handoff_status.json": "6faa8f39c01ef2758246a4cca4d937d7352dad603346085e048fffc9de543e75",
+  "experiments/thermosphere_non_target_protocol_v56/horizon_index.csv": "6636f2c708250878c992c64d285150086b1a8b0b4ac971696deb173ebff3a0a9",
+  "experiments/thermosphere_non_target_protocol_v56/hourly_results.json": "05891ca0f0c1055d3a356923b5858a574931d7f6a9fad795d743d0cdbb431841",
+  "experiments/thermosphere_non_target_protocol_v56/independent.json": "5fef452df27798a0103bc55bd54046c890b88a20cb547b383fb1b31e4aae8cf8",
+  "experiments/thermosphere_non_target_protocol_v56/interpolation_error_groups.csv": "cc67aa708cae9cb27dde370c1303f6c76e3dff82395421a93237675348b4c4a7",
+  "experiments/thermosphere_non_target_protocol_v56/isolation_results.json": "e50c6e73546d9e2e524609cc08d52c06a89626e5e414e83174b70c4f113659a9",
+  "experiments/thermosphere_non_target_protocol_v56/result.json": "22818304f6c6e75e8c39812d608d86b93078a3c5710531201afe63cf72829570",
+  "experiments/thermosphere_non_target_protocol_v56/swarm_metadata_time_index.csv": "8315b99186035cfcd9b779eeea3eeff5e82c977faf0f43bc347f3a417f89f60d",
+  "experiments/thermosphere_non_target_protocol_v56/synthetic_baseline_metrics.csv": "2d322898fcc4eccd5d2417a024b1e882ba653c907eb73e2ae8423cc6d8e43357",
+  "experiments/thermosphere_non_target_protocol_v56/synthetic_baseline_pairs.csv": "30c75b55ca2479f6d1bedc8bcf120469217140d49f4c59e47897ff6dc190075f",
+  "experiments/thermosphere_non_target_protocol_v56/synthetic_query_controls.csv": "d85247372f9ae2c25089938ad37f5805ab4bbf64fdb14cd6a66808be133c526f"
+}

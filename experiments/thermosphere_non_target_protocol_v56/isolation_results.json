@@ -1,0 +1,2146 @@
+{
+  "cutoffs": 12,
+  "negative_rejections": 156,
+  "identical_under_future_poison": true,
+  "predictor_processes": 24,
+  "actual_Swarm_density_reads": 0,
+  "guarantees": "Trusted predictor contract and separate files; not an OS sandbox for untrusted arbitrary Python",
+  "evidence": [
+    {
+      "source": "MONTH",
+      "cutoff_UTC": "2020-01-31T06:00:00Z",
+      "history_SHA": "8a231c3b944f760920cfe740ca6c789965d041f241708d0534dba47938ab63c8",
+      "split_identity": "synthetic_train_fixture",
+      "future_original_SHA": "2aa8aa21435aab50c8c4c2d7403e9957fd7c84f7be5196856caf0cdfd50873e7",
+      "future_poisoned_SHA": "2450c1a74347bfba2e06762d9acc8d8cad8b3201d9a40a1d0eb4178f352df33b",
+      "poison_multiplier": 1e+20,
+      "causal_input_and_output_bitwise_equal": true,
+      "predictor": {
+        "access_log": [
+          {
+            "UTC": [
+              "2020-01-31T03:00:00Z",
+              "2020-01-31T04:00:00Z",
+              "2020-01-31T05:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "density_history"
+          },
+          {
+            "UTC": [
+              "2020-01-31T03:00:00Z",
+              "2020-01-31T04:00:00Z",
+              "2020-01-31T05:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "history_normalization"
+          }
+        ],
+        "input_sha256": "8a231c3b944f760920cfe740ca6c789965d041f241708d0534dba47938ab63c8",
+        "normalization": {
+          "mean": 2.8136195672296697e-12,
+          "scale": 4.197773667119889e-14,
+          "unit": "kg/m3"
+        },
+        "predictions": [
+          {
+            "Persistence": 2.8648888739433605e-12,
+            "TwoFrameLinear": 2.966859000694749e-12,
+            "lead": 1
+          },
+          {
+            "Persistence": 2.8648888739433605e-12,
+            "TwoFrameLinear": 3.0688291274461373e-12,
+            "lead": 3
+          },
+          {
+            "Persistence": 2.8648888739433605e-12,
+            "TwoFrameLinear": 3.22178431757322e-12,
+            "lead": 6
+          }
+        ]
+      },
+      "negative_cases": [
+        {
+          "negative": "full_sequence_normalization",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "future_centered_rolling_mean",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "lag_sign_error",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "target_time_driver",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "all_data_prefit_stats",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "window_crosses_cutoff",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "metadata_density_call",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "outside_history_before_start",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "missing_half_hour",
+          "error": "Required frame absent"
+        },
+        {
+          "negative": "cross_split_support",
+          "error": "Cross-split temporal support collision"
+        },
+        {
+          "negative": "mixed_split_snapshot",
+          "error": "Wrong or mixed history-snapshot identity"
+        },
+        {
+          "negative": "wrong_snapshot_hash",
+          "error": "History identity mismatch"
+        },
+        {
+          "negative": "future_path",
+          "error": "Predictor only accepts an explicit history snapshot"
+        }
+      ],
+      "denial_trace": [
+        {
+          "feature": "history_normalization",
+          "UTC": [
+            "2020-01-31T03:00:00Z",
+            "2020-01-31T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "trailing_mean",
+          "UTC": [
+            "2020-01-31T03:00:00Z",
+            "2020-01-31T06:00:00Z",
+            "2020-01-31T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-01-31T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "future_driver",
+          "UTC": [
+            "2020-01-31T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "opaque_prefit_stats",
+          "UTC": [
+            "2020-01-31T03:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_history",
+          "UTC": [
+            "2020-01-31T03:00:00Z",
+            "2020-01-31T06:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_orbitmean",
+          "UTC": [
+            "2020-01-31T03:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-01-31T02:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-01-31T03:30:00Z"
+          ],
+          "allowed": false
+        }
+      ]
+    },
+    {
+      "source": "MONTH",
+      "cutoff_UTC": "2020-01-31T18:00:00Z",
+      "history_SHA": "5bc5c9358f093d8b9dd4801af30988cbe1286141c919bd15d94413755a00c3a2",
+      "split_identity": "synthetic_train_fixture",
+      "future_original_SHA": "f888c0d95697fd89f04687379848bd7c7244894709c5bf3ef6b6125a1ff94c4d",
+      "future_poisoned_SHA": "c6905967739846344f9f17499368f04389f22c4175318a8b36ed888eab0151c4",
+      "poison_multiplier": 1e+20,
+      "causal_input_and_output_bitwise_equal": true,
+      "predictor": {
+        "access_log": [
+          {
+            "UTC": [
+              "2020-01-31T15:00:00Z",
+              "2020-01-31T16:00:00Z",
+              "2020-01-31T17:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "density_history"
+          },
+          {
+            "UTC": [
+              "2020-01-31T15:00:00Z",
+              "2020-01-31T16:00:00Z",
+              "2020-01-31T17:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "history_normalization"
+          }
+        ],
+        "input_sha256": "5bc5c9358f093d8b9dd4801af30988cbe1286141c919bd15d94413755a00c3a2",
+        "normalization": {
+          "mean": 3.519713766103664e-12,
+          "scale": 8.875113430873851e-14,
+          "unit": "kg/m3"
+        },
+        "predictions": [
+          {
+            "Persistence": 3.6311111260566397e-12,
+            "TwoFrameLinear": 3.865140999305251e-12,
+            "lead": 1
+          },
+          {
+            "Persistence": 3.6311111260566397e-12,
+            "TwoFrameLinear": 4.099170872553862e-12,
+            "lead": 3
+          },
+          {
+            "Persistence": 3.6311111260566397e-12,
+            "TwoFrameLinear": 4.450215682426778e-12,
+            "lead": 6
+          }
+        ]
+      },
+      "negative_cases": [
+        {
+          "negative": "full_sequence_normalization",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "future_centered_rolling_mean",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "lag_sign_error",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "target_time_driver",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "all_data_prefit_stats",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "window_crosses_cutoff",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "metadata_density_call",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "outside_history_before_start",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "missing_half_hour",
+          "error": "Required frame absent"
+        },
+        {
+          "negative": "cross_split_support",
+          "error": "Cross-split temporal support collision"
+        },
+        {
+          "negative": "mixed_split_snapshot",
+          "error": "Wrong or mixed history-snapshot identity"
+        },
+        {
+          "negative": "wrong_snapshot_hash",
+          "error": "History identity mismatch"
+        },
+        {
+          "negative": "future_path",
+          "error": "Predictor only accepts an explicit history snapshot"
+        }
+      ],
+      "denial_trace": [
+        {
+          "feature": "history_normalization",
+          "UTC": [
+            "2020-01-31T15:00:00Z",
+            "2020-01-31T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "trailing_mean",
+          "UTC": [
+            "2020-01-31T15:00:00Z",
+            "2020-01-31T18:00:00Z",
+            "2020-01-31T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-01-31T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "future_driver",
+          "UTC": [
+            "2020-01-31T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "opaque_prefit_stats",
+          "UTC": [
+            "2020-01-31T15:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_history",
+          "UTC": [
+            "2020-01-31T15:00:00Z",
+            "2020-01-31T18:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_orbitmean",
+          "UTC": [
+            "2020-01-31T15:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-01-31T14:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-01-31T15:30:00Z"
+          ],
+          "allowed": false
+        }
+      ]
+    },
+    {
+      "source": "MONTH",
+      "cutoff_UTC": "2020-02-01T06:00:00Z",
+      "history_SHA": "796a86313d6ec4260cb3671e6e8c27a8731253372da112df92464d2e8bc638e7",
+      "split_identity": "synthetic_train_fixture",
+      "future_original_SHA": "922b2ea64e7aafc346f84979e7eb3298e829aa3e47b54f1a7fb3b508e4913630",
+      "future_poisoned_SHA": "83df61ebc1d1cc35f817a55c098c6a04ad8cb13d818747af20545cf8bde218e0",
+      "poison_multiplier": 1e+20,
+      "causal_input_and_output_bitwise_equal": true,
+      "predictor": {
+        "access_log": [
+          {
+            "UTC": [
+              "2020-02-01T03:00:00Z",
+              "2020-02-01T04:00:00Z",
+              "2020-02-01T05:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "density_history"
+          },
+          {
+            "UTC": [
+              "2020-02-01T03:00:00Z",
+              "2020-02-01T04:00:00Z",
+              "2020-02-01T05:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "history_normalization"
+          }
+        ],
+        "input_sha256": "796a86313d6ec4260cb3671e6e8c27a8731253372da112df92464d2e8bc638e7",
+        "normalization": {
+          "mean": 2.2136195672296695e-12,
+          "scale": 4.197773667119889e-14,
+          "unit": "kg/m3"
+        },
+        "predictions": [
+          {
+            "Persistence": 2.26488887394336e-12,
+            "TwoFrameLinear": 2.3668590006947486e-12,
+            "lead": 1
+          },
+          {
+            "Persistence": 2.26488887394336e-12,
+            "TwoFrameLinear": 2.468829127446137e-12,
+            "lead": 3
+          },
+          {
+            "Persistence": 2.26488887394336e-12,
+            "TwoFrameLinear": 2.6217843175732197e-12,
+            "lead": 6
+          }
+        ]
+      },
+      "negative_cases": [
+        {
+          "negative": "full_sequence_normalization",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "future_centered_rolling_mean",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "lag_sign_error",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "target_time_driver",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "all_data_prefit_stats",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "window_crosses_cutoff",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "metadata_density_call",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "outside_history_before_start",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "missing_half_hour",
+          "error": "Required frame absent"
+        },
+        {
+          "negative": "cross_split_support",
+          "error": "Cross-split temporal support collision"
+        },
+        {
+          "negative": "mixed_split_snapshot",
+          "error": "Wrong or mixed history-snapshot identity"
+        },
+        {
+          "negative": "wrong_snapshot_hash",
+          "error": "History identity mismatch"
+        },
+        {
+          "negative": "future_path",
+          "error": "Predictor only accepts an explicit history snapshot"
+        }
+      ],
+      "denial_trace": [
+        {
+          "feature": "history_normalization",
+          "UTC": [
+            "2020-02-01T03:00:00Z",
+            "2020-02-01T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "trailing_mean",
+          "UTC": [
+            "2020-02-01T03:00:00Z",
+            "2020-02-01T06:00:00Z",
+            "2020-02-01T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-02-01T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "future_driver",
+          "UTC": [
+            "2020-02-01T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "opaque_prefit_stats",
+          "UTC": [
+            "2020-02-01T03:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_history",
+          "UTC": [
+            "2020-02-01T03:00:00Z",
+            "2020-02-01T06:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_orbitmean",
+          "UTC": [
+            "2020-02-01T03:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-02-01T02:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-02-01T03:30:00Z"
+          ],
+          "allowed": false
+        }
+      ]
+    },
+    {
+      "source": "MONTH",
+      "cutoff_UTC": "2020-02-01T18:00:00Z",
+      "history_SHA": "6199499491acaa639f1d2de65eca5f253c2b1d5fadb4d4f7c254af8185d65c2f",
+      "split_identity": "synthetic_train_fixture",
+      "future_original_SHA": "bb1da2c31f7082a3e1cfa168db274ae46812efe163b38b6d3134860c114e4874",
+      "future_poisoned_SHA": "6533023c86e24ae3a63bb53790d54529ea1fef7a744af89965af5ad02d95bd4d",
+      "poison_multiplier": 1e+20,
+      "causal_input_and_output_bitwise_equal": true,
+      "predictor": {
+        "access_log": [
+          {
+            "UTC": [
+              "2020-02-01T15:00:00Z",
+              "2020-02-01T16:00:00Z",
+              "2020-02-01T17:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "density_history"
+          },
+          {
+            "UTC": [
+              "2020-02-01T15:00:00Z",
+              "2020-02-01T16:00:00Z",
+              "2020-02-01T17:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "history_normalization"
+          }
+        ],
+        "input_sha256": "6199499491acaa639f1d2de65eca5f253c2b1d5fadb4d4f7c254af8185d65c2f",
+        "normalization": {
+          "mean": 2.919713766103664e-12,
+          "scale": 8.875113430873852e-14,
+          "unit": "kg/m3"
+        },
+        "predictions": [
+          {
+            "Persistence": 3.03111112605664e-12,
+            "TwoFrameLinear": 3.2651409993052516e-12,
+            "lead": 1
+          },
+          {
+            "Persistence": 3.03111112605664e-12,
+            "TwoFrameLinear": 3.4991708725538634e-12,
+            "lead": 3
+          },
+          {
+            "Persistence": 3.03111112605664e-12,
+            "TwoFrameLinear": 3.850215682426781e-12,
+            "lead": 6
+          }
+        ]
+      },
+      "negative_cases": [
+        {
+          "negative": "full_sequence_normalization",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "future_centered_rolling_mean",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "lag_sign_error",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "target_time_driver",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "all_data_prefit_stats",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "window_crosses_cutoff",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "metadata_density_call",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "outside_history_before_start",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "missing_half_hour",
+          "error": "Required frame absent"
+        },
+        {
+          "negative": "cross_split_support",
+          "error": "Cross-split temporal support collision"
+        },
+        {
+          "negative": "mixed_split_snapshot",
+          "error": "Wrong or mixed history-snapshot identity"
+        },
+        {
+          "negative": "wrong_snapshot_hash",
+          "error": "History identity mismatch"
+        },
+        {
+          "negative": "future_path",
+          "error": "Predictor only accepts an explicit history snapshot"
+        }
+      ],
+      "denial_trace": [
+        {
+          "feature": "history_normalization",
+          "UTC": [
+            "2020-02-01T15:00:00Z",
+            "2020-02-01T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "trailing_mean",
+          "UTC": [
+            "2020-02-01T15:00:00Z",
+            "2020-02-01T18:00:00Z",
+            "2020-02-01T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-02-01T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "future_driver",
+          "UTC": [
+            "2020-02-01T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "opaque_prefit_stats",
+          "UTC": [
+            "2020-02-01T15:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_history",
+          "UTC": [
+            "2020-02-01T15:00:00Z",
+            "2020-02-01T18:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_orbitmean",
+          "UTC": [
+            "2020-02-01T15:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-02-01T14:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-02-01T15:30:00Z"
+          ],
+          "allowed": false
+        }
+      ]
+    },
+    {
+      "source": "LEAP",
+      "cutoff_UTC": "2020-02-29T06:00:00Z",
+      "history_SHA": "49695a202b1a15e5b1c5f29f87841288610b7d225b3f2e0c27c539c22a8aba51",
+      "split_identity": "synthetic_validation_fixture",
+      "future_original_SHA": "4d79716882b80baeb9f57e4fa5529ba29ddc5a2fd59aa1c612943a72149ee2b8",
+      "future_poisoned_SHA": "0f62fbbe5b8ebee261856933b3f80b147da1ec6fb4f8e57fc464af9595a120a4",
+      "poison_multiplier": 1e+20,
+      "causal_input_and_output_bitwise_equal": true,
+      "predictor": {
+        "access_log": [
+          {
+            "UTC": [
+              "2020-02-29T03:00:00Z",
+              "2020-02-29T04:00:00Z",
+              "2020-02-29T05:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "density_history"
+          },
+          {
+            "UTC": [
+              "2020-02-29T03:00:00Z",
+              "2020-02-29T04:00:00Z",
+              "2020-02-29T05:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "history_normalization"
+          }
+        ],
+        "input_sha256": "49695a202b1a15e5b1c5f29f87841288610b7d225b3f2e0c27c539c22a8aba51",
+        "normalization": {
+          "mean": 2.773619567229669e-12,
+          "scale": 4.197773667119889e-14,
+          "unit": "kg/m3"
+        },
+        "predictions": [
+          {
+            "Persistence": 2.8248888739433602e-12,
+            "TwoFrameLinear": 2.9268590006947487e-12,
+            "lead": 1
+          },
+          {
+            "Persistence": 2.8248888739433602e-12,
+            "TwoFrameLinear": 3.028829127446137e-12,
+            "lead": 3
+          },
+          {
+            "Persistence": 2.8248888739433602e-12,
+            "TwoFrameLinear": 3.1817843175732197e-12,
+            "lead": 6
+          }
+        ]
+      },
+      "negative_cases": [
+        {
+          "negative": "full_sequence_normalization",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "future_centered_rolling_mean",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "lag_sign_error",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "target_time_driver",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "all_data_prefit_stats",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "window_crosses_cutoff",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "metadata_density_call",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "outside_history_before_start",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "missing_half_hour",
+          "error": "Required frame absent"
+        },
+        {
+          "negative": "cross_split_support",
+          "error": "Cross-split temporal support collision"
+        },
+        {
+          "negative": "mixed_split_snapshot",
+          "error": "Wrong or mixed history-snapshot identity"
+        },
+        {
+          "negative": "wrong_snapshot_hash",
+          "error": "History identity mismatch"
+        },
+        {
+          "negative": "future_path",
+          "error": "Predictor only accepts an explicit history snapshot"
+        }
+      ],
+      "denial_trace": [
+        {
+          "feature": "history_normalization",
+          "UTC": [
+            "2020-02-29T03:00:00Z",
+            "2020-02-29T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "trailing_mean",
+          "UTC": [
+            "2020-02-29T03:00:00Z",
+            "2020-02-29T06:00:00Z",
+            "2020-02-29T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-02-29T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "future_driver",
+          "UTC": [
+            "2020-02-29T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "opaque_prefit_stats",
+          "UTC": [
+            "2020-02-29T03:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_history",
+          "UTC": [
+            "2020-02-29T03:00:00Z",
+            "2020-02-29T06:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_orbitmean",
+          "UTC": [
+            "2020-02-29T03:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-02-29T02:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-02-29T03:30:00Z"
+          ],
+          "allowed": false
+        }
+      ]
+    },
+    {
+      "source": "LEAP",
+      "cutoff_UTC": "2020-02-29T18:00:00Z",
+      "history_SHA": "d946c988faa020e15845fe370477a4f33ce62de52d01bb7b604117651c3bdae7",
+      "split_identity": "synthetic_validation_fixture",
+      "future_original_SHA": "3dc0625d61b4269aee2b0d9d2afce4174f5f94c6882ca05c030f4b329ec0d8f1",
+      "future_poisoned_SHA": "a1a74077328bae5234789f72e137820f14eed8188769753fc1aa306b4babf6c1",
+      "poison_multiplier": 1e+20,
+      "causal_input_and_output_bitwise_equal": true,
+      "predictor": {
+        "access_log": [
+          {
+            "UTC": [
+              "2020-02-29T15:00:00Z",
+              "2020-02-29T16:00:00Z",
+              "2020-02-29T17:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "density_history"
+          },
+          {
+            "UTC": [
+              "2020-02-29T15:00:00Z",
+              "2020-02-29T16:00:00Z",
+              "2020-02-29T17:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "history_normalization"
+          }
+        ],
+        "input_sha256": "d946c988faa020e15845fe370477a4f33ce62de52d01bb7b604117651c3bdae7",
+        "normalization": {
+          "mean": 3.4797137661036637e-12,
+          "scale": 8.875113430873852e-14,
+          "unit": "kg/m3"
+        },
+        "predictions": [
+          {
+            "Persistence": 3.59111112605664e-12,
+            "TwoFrameLinear": 3.825140999305252e-12,
+            "lead": 1
+          },
+          {
+            "Persistence": 3.59111112605664e-12,
+            "TwoFrameLinear": 4.0591708725538634e-12,
+            "lead": 3
+          },
+          {
+            "Persistence": 3.59111112605664e-12,
+            "TwoFrameLinear": 4.4102156824267814e-12,
+            "lead": 6
+          }
+        ]
+      },
+      "negative_cases": [
+        {
+          "negative": "full_sequence_normalization",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "future_centered_rolling_mean",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "lag_sign_error",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "target_time_driver",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "all_data_prefit_stats",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "window_crosses_cutoff",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "metadata_density_call",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "outside_history_before_start",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "missing_half_hour",
+          "error": "Required frame absent"
+        },
+        {
+          "negative": "cross_split_support",
+          "error": "Cross-split temporal support collision"
+        },
+        {
+          "negative": "mixed_split_snapshot",
+          "error": "Wrong or mixed history-snapshot identity"
+        },
+        {
+          "negative": "wrong_snapshot_hash",
+          "error": "History identity mismatch"
+        },
+        {
+          "negative": "future_path",
+          "error": "Predictor only accepts an explicit history snapshot"
+        }
+      ],
+      "denial_trace": [
+        {
+          "feature": "history_normalization",
+          "UTC": [
+            "2020-02-29T15:00:00Z",
+            "2020-02-29T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "trailing_mean",
+          "UTC": [
+            "2020-02-29T15:00:00Z",
+            "2020-02-29T18:00:00Z",
+            "2020-02-29T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-02-29T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "future_driver",
+          "UTC": [
+            "2020-02-29T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "opaque_prefit_stats",
+          "UTC": [
+            "2020-02-29T15:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_history",
+          "UTC": [
+            "2020-02-29T15:00:00Z",
+            "2020-02-29T18:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_orbitmean",
+          "UTC": [
+            "2020-02-29T15:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-02-29T14:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-02-29T15:30:00Z"
+          ],
+          "allowed": false
+        }
+      ]
+    },
+    {
+      "source": "LEAP",
+      "cutoff_UTC": "2020-03-01T06:00:00Z",
+      "history_SHA": "00cf88f33c011b492202091c2aefdc6ab481d4ba13634adc3c5c45ad3662c51a",
+      "split_identity": "synthetic_validation_fixture",
+      "future_original_SHA": "1b4d921274d17b924811fee92fd80d7c333756302379eff7e937e6d4ba55c709",
+      "future_poisoned_SHA": "68d411a3886a58c4ff510d18ebd3bd5dfc8786908eaa0dba31822192f747aa85",
+      "poison_multiplier": 1e+20,
+      "causal_input_and_output_bitwise_equal": true,
+      "predictor": {
+        "access_log": [
+          {
+            "UTC": [
+              "2020-03-01T03:00:00Z",
+              "2020-03-01T04:00:00Z",
+              "2020-03-01T05:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "density_history"
+          },
+          {
+            "UTC": [
+              "2020-03-01T03:00:00Z",
+              "2020-03-01T04:00:00Z",
+              "2020-03-01T05:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "history_normalization"
+          }
+        ],
+        "input_sha256": "00cf88f33c011b492202091c2aefdc6ab481d4ba13634adc3c5c45ad3662c51a",
+        "normalization": {
+          "mean": 2.2136195672296695e-12,
+          "scale": 4.197773667119889e-14,
+          "unit": "kg/m3"
+        },
+        "predictions": [
+          {
+            "Persistence": 2.26488887394336e-12,
+            "TwoFrameLinear": 2.3668590006947486e-12,
+            "lead": 1
+          },
+          {
+            "Persistence": 2.26488887394336e-12,
+            "TwoFrameLinear": 2.468829127446137e-12,
+            "lead": 3
+          },
+          {
+            "Persistence": 2.26488887394336e-12,
+            "TwoFrameLinear": 2.6217843175732197e-12,
+            "lead": 6
+          }
+        ]
+      },
+      "negative_cases": [
+        {
+          "negative": "full_sequence_normalization",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "future_centered_rolling_mean",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "lag_sign_error",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "target_time_driver",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "all_data_prefit_stats",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "window_crosses_cutoff",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "metadata_density_call",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "outside_history_before_start",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "missing_half_hour",
+          "error": "Required frame absent"
+        },
+        {
+          "negative": "cross_split_support",
+          "error": "Cross-split temporal support collision"
+        },
+        {
+          "negative": "mixed_split_snapshot",
+          "error": "Wrong or mixed history-snapshot identity"
+        },
+        {
+          "negative": "wrong_snapshot_hash",
+          "error": "History identity mismatch"
+        },
+        {
+          "negative": "future_path",
+          "error": "Predictor only accepts an explicit history snapshot"
+        }
+      ],
+      "denial_trace": [
+        {
+          "feature": "history_normalization",
+          "UTC": [
+            "2020-03-01T03:00:00Z",
+            "2020-03-01T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "trailing_mean",
+          "UTC": [
+            "2020-03-01T03:00:00Z",
+            "2020-03-01T06:00:00Z",
+            "2020-03-01T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-03-01T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "future_driver",
+          "UTC": [
+            "2020-03-01T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "opaque_prefit_stats",
+          "UTC": [
+            "2020-03-01T03:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_history",
+          "UTC": [
+            "2020-03-01T03:00:00Z",
+            "2020-03-01T06:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_orbitmean",
+          "UTC": [
+            "2020-03-01T03:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-03-01T02:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-03-01T03:30:00Z"
+          ],
+          "allowed": false
+        }
+      ]
+    },
+    {
+      "source": "LEAP",
+      "cutoff_UTC": "2020-03-01T18:00:00Z",
+      "history_SHA": "8290bd6f29294f020852b3855d12d7b68a96a65fdc6c71d944aa4295bd622d4c",
+      "split_identity": "synthetic_validation_fixture",
+      "future_original_SHA": "55a4bfce7b5d945f609b9872a6c86701c477c9ab4a8293ced118d48719662882",
+      "future_poisoned_SHA": "39cfd91dc59af3f9564ce6be11f739ee9617b8d60e52c1c5f1473b5c3c503b3e",
+      "poison_multiplier": 1e+20,
+      "causal_input_and_output_bitwise_equal": true,
+      "predictor": {
+        "access_log": [
+          {
+            "UTC": [
+              "2020-03-01T15:00:00Z",
+              "2020-03-01T16:00:00Z",
+              "2020-03-01T17:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "density_history"
+          },
+          {
+            "UTC": [
+              "2020-03-01T15:00:00Z",
+              "2020-03-01T16:00:00Z",
+              "2020-03-01T17:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "history_normalization"
+          }
+        ],
+        "input_sha256": "8290bd6f29294f020852b3855d12d7b68a96a65fdc6c71d944aa4295bd622d4c",
+        "normalization": {
+          "mean": 2.919713766103664e-12,
+          "scale": 8.875113430873852e-14,
+          "unit": "kg/m3"
+        },
+        "predictions": [
+          {
+            "Persistence": 3.03111112605664e-12,
+            "TwoFrameLinear": 3.2651409993052516e-12,
+            "lead": 1
+          },
+          {
+            "Persistence": 3.03111112605664e-12,
+            "TwoFrameLinear": 3.4991708725538634e-12,
+            "lead": 3
+          },
+          {
+            "Persistence": 3.03111112605664e-12,
+            "TwoFrameLinear": 3.850215682426781e-12,
+            "lead": 6
+          }
+        ]
+      },
+      "negative_cases": [
+        {
+          "negative": "full_sequence_normalization",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "future_centered_rolling_mean",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "lag_sign_error",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "target_time_driver",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "all_data_prefit_stats",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "window_crosses_cutoff",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "metadata_density_call",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "outside_history_before_start",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "missing_half_hour",
+          "error": "Required frame absent"
+        },
+        {
+          "negative": "cross_split_support",
+          "error": "Cross-split temporal support collision"
+        },
+        {
+          "negative": "mixed_split_snapshot",
+          "error": "Wrong or mixed history-snapshot identity"
+        },
+        {
+          "negative": "wrong_snapshot_hash",
+          "error": "History identity mismatch"
+        },
+        {
+          "negative": "future_path",
+          "error": "Predictor only accepts an explicit history snapshot"
+        }
+      ],
+      "denial_trace": [
+        {
+          "feature": "history_normalization",
+          "UTC": [
+            "2020-03-01T15:00:00Z",
+            "2020-03-01T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "trailing_mean",
+          "UTC": [
+            "2020-03-01T15:00:00Z",
+            "2020-03-01T18:00:00Z",
+            "2020-03-01T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-03-01T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "future_driver",
+          "UTC": [
+            "2020-03-01T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "opaque_prefit_stats",
+          "UTC": [
+            "2020-03-01T15:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_history",
+          "UTC": [
+            "2020-03-01T15:00:00Z",
+            "2020-03-01T18:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_orbitmean",
+          "UTC": [
+            "2020-03-01T15:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-03-01T14:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-03-01T15:30:00Z"
+          ],
+          "allowed": false
+        }
+      ]
+    },
+    {
+      "source": "YEAR",
+      "cutoff_UTC": "2020-12-31T06:00:00Z",
+      "history_SHA": "d24fa3eca49d27d96474c1ea3cc955090d58e16ccd0a84b0e031070c815d8329",
+      "split_identity": "synthetic_calendar_fixture",
+      "future_original_SHA": "767f3166f1bfa63ac40e9c686d7accd27f9846720353e362e8bfdc44108500ee",
+      "future_poisoned_SHA": "b46928d1afaff75a43b612861cffdcbad9847cadd557ab669882a7ac1f59ec32",
+      "poison_multiplier": 1e+20,
+      "causal_input_and_output_bitwise_equal": true,
+      "predictor": {
+        "access_log": [
+          {
+            "UTC": [
+              "2020-12-31T03:00:00Z",
+              "2020-12-31T04:00:00Z",
+              "2020-12-31T05:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "density_history"
+          },
+          {
+            "UTC": [
+              "2020-12-31T03:00:00Z",
+              "2020-12-31T04:00:00Z",
+              "2020-12-31T05:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "history_normalization"
+          }
+        ],
+        "input_sha256": "d24fa3eca49d27d96474c1ea3cc955090d58e16ccd0a84b0e031070c815d8329",
+        "normalization": {
+          "mean": 2.8136195672296697e-12,
+          "scale": 4.197773667119889e-14,
+          "unit": "kg/m3"
+        },
+        "predictions": [
+          {
+            "Persistence": 2.8648888739433605e-12,
+            "TwoFrameLinear": 2.966859000694749e-12,
+            "lead": 1
+          },
+          {
+            "Persistence": 2.8648888739433605e-12,
+            "TwoFrameLinear": 3.0688291274461373e-12,
+            "lead": 3
+          },
+          {
+            "Persistence": 2.8648888739433605e-12,
+            "TwoFrameLinear": 3.22178431757322e-12,
+            "lead": 6
+          }
+        ]
+      },
+      "negative_cases": [
+        {
+          "negative": "full_sequence_normalization",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "future_centered_rolling_mean",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "lag_sign_error",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "target_time_driver",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "all_data_prefit_stats",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "window_crosses_cutoff",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "metadata_density_call",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "outside_history_before_start",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "missing_half_hour",
+          "error": "Required frame absent"
+        },
+        {
+          "negative": "cross_split_support",
+          "error": "Cross-split temporal support collision"
+        },
+        {
+          "negative": "mixed_split_snapshot",
+          "error": "Wrong or mixed history-snapshot identity"
+        },
+        {
+          "negative": "wrong_snapshot_hash",
+          "error": "History identity mismatch"
+        },
+        {
+          "negative": "future_path",
+          "error": "Predictor only accepts an explicit history snapshot"
+        }
+      ],
+      "denial_trace": [
+        {
+          "feature": "history_normalization",
+          "UTC": [
+            "2020-12-31T03:00:00Z",
+            "2020-12-31T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "trailing_mean",
+          "UTC": [
+            "2020-12-31T03:00:00Z",
+            "2020-12-31T06:00:00Z",
+            "2020-12-31T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-12-31T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "future_driver",
+          "UTC": [
+            "2020-12-31T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "opaque_prefit_stats",
+          "UTC": [
+            "2020-12-31T03:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_history",
+          "UTC": [
+            "2020-12-31T03:00:00Z",
+            "2020-12-31T06:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_orbitmean",
+          "UTC": [
+            "2020-12-31T03:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-12-31T02:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-12-31T03:30:00Z"
+          ],
+          "allowed": false
+        }
+      ]
+    },
+    {
+      "source": "YEAR",
+      "cutoff_UTC": "2020-12-31T18:00:00Z",
+      "history_SHA": "f0fba4a4379de26a9673269473098e097e819ab0adaad450e93e6fb8f7727627",
+      "split_identity": "synthetic_calendar_fixture",
+      "future_original_SHA": "3cee6fa4d7c3f0134320d8380f4a092a6ee4c4564fbbc551a4fb880f9bdfca79",
+      "future_poisoned_SHA": "33bb0786f58b3c15c42bcb26c4d5903c16fc9776a36cfe02ba9ee759575ce633",
+      "poison_multiplier": 1e+20,
+      "causal_input_and_output_bitwise_equal": true,
+      "predictor": {
+        "access_log": [
+          {
+            "UTC": [
+              "2020-12-31T15:00:00Z",
+              "2020-12-31T16:00:00Z",
+              "2020-12-31T17:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "density_history"
+          },
+          {
+            "UTC": [
+              "2020-12-31T15:00:00Z",
+              "2020-12-31T16:00:00Z",
+              "2020-12-31T17:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "history_normalization"
+          }
+        ],
+        "input_sha256": "f0fba4a4379de26a9673269473098e097e819ab0adaad450e93e6fb8f7727627",
+        "normalization": {
+          "mean": 3.519713766103664e-12,
+          "scale": 8.875113430873851e-14,
+          "unit": "kg/m3"
+        },
+        "predictions": [
+          {
+            "Persistence": 3.6311111260566397e-12,
+            "TwoFrameLinear": 3.865140999305251e-12,
+            "lead": 1
+          },
+          {
+            "Persistence": 3.6311111260566397e-12,
+            "TwoFrameLinear": 4.099170872553862e-12,
+            "lead": 3
+          },
+          {
+            "Persistence": 3.6311111260566397e-12,
+            "TwoFrameLinear": 4.450215682426778e-12,
+            "lead": 6
+          }
+        ]
+      },
+      "negative_cases": [
+        {
+          "negative": "full_sequence_normalization",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "future_centered_rolling_mean",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "lag_sign_error",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "target_time_driver",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "all_data_prefit_stats",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "window_crosses_cutoff",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "metadata_density_call",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "outside_history_before_start",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "missing_half_hour",
+          "error": "Required frame absent"
+        },
+        {
+          "negative": "cross_split_support",
+          "error": "Cross-split temporal support collision"
+        },
+        {
+          "negative": "mixed_split_snapshot",
+          "error": "Wrong or mixed history-snapshot identity"
+        },
+        {
+          "negative": "wrong_snapshot_hash",
+          "error": "History identity mismatch"
+        },
+        {
+          "negative": "future_path",
+          "error": "Predictor only accepts an explicit history snapshot"
+        }
+      ],
+      "denial_trace": [
+        {
+          "feature": "history_normalization",
+          "UTC": [
+            "2020-12-31T15:00:00Z",
+            "2020-12-31T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "trailing_mean",
+          "UTC": [
+            "2020-12-31T15:00:00Z",
+            "2020-12-31T18:00:00Z",
+            "2020-12-31T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-12-31T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "future_driver",
+          "UTC": [
+            "2020-12-31T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "opaque_prefit_stats",
+          "UTC": [
+            "2020-12-31T15:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_history",
+          "UTC": [
+            "2020-12-31T15:00:00Z",
+            "2020-12-31T18:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_orbitmean",
+          "UTC": [
+            "2020-12-31T15:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-12-31T14:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2020-12-31T15:30:00Z"
+          ],
+          "allowed": false
+        }
+      ]
+    },
+    {
+      "source": "YEAR",
+      "cutoff_UTC": "2021-01-01T06:00:00Z",
+      "history_SHA": "2d4e006c8fb7fda3f698e6afe1f3541171449144dd883c626081d4edb04f7de2",
+      "split_identity": "synthetic_calendar_fixture",
+      "future_original_SHA": "92e7720c51b5b3408947640eb3f03647a8c98f345f01058fe0063ba5e215db59",
+      "future_poisoned_SHA": "22d497b8431acd2e1069132bdf04c09522e7f1dce3f769bba368345553847486",
+      "poison_multiplier": 1e+20,
+      "causal_input_and_output_bitwise_equal": true,
+      "predictor": {
+        "access_log": [
+          {
+            "UTC": [
+              "2021-01-01T03:00:00Z",
+              "2021-01-01T04:00:00Z",
+              "2021-01-01T05:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "density_history"
+          },
+          {
+            "UTC": [
+              "2021-01-01T03:00:00Z",
+              "2021-01-01T04:00:00Z",
+              "2021-01-01T05:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "history_normalization"
+          }
+        ],
+        "input_sha256": "2d4e006c8fb7fda3f698e6afe1f3541171449144dd883c626081d4edb04f7de2",
+        "normalization": {
+          "mean": 2.2136195672296695e-12,
+          "scale": 4.197773667119889e-14,
+          "unit": "kg/m3"
+        },
+        "predictions": [
+          {
+            "Persistence": 2.26488887394336e-12,
+            "TwoFrameLinear": 2.3668590006947486e-12,
+            "lead": 1
+          },
+          {
+            "Persistence": 2.26488887394336e-12,
+            "TwoFrameLinear": 2.468829127446137e-12,
+            "lead": 3
+          },
+          {
+            "Persistence": 2.26488887394336e-12,
+            "TwoFrameLinear": 2.6217843175732197e-12,
+            "lead": 6
+          }
+        ]
+      },
+      "negative_cases": [
+        {
+          "negative": "full_sequence_normalization",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "future_centered_rolling_mean",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "lag_sign_error",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "target_time_driver",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "all_data_prefit_stats",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "window_crosses_cutoff",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "metadata_density_call",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "outside_history_before_start",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "missing_half_hour",
+          "error": "Required frame absent"
+        },
+        {
+          "negative": "cross_split_support",
+          "error": "Cross-split temporal support collision"
+        },
+        {
+          "negative": "mixed_split_snapshot",
+          "error": "Wrong or mixed history-snapshot identity"
+        },
+        {
+          "negative": "wrong_snapshot_hash",
+          "error": "History identity mismatch"
+        },
+        {
+          "negative": "future_path",
+          "error": "Predictor only accepts an explicit history snapshot"
+        }
+      ],
+      "denial_trace": [
+        {
+          "feature": "history_normalization",
+          "UTC": [
+            "2021-01-01T03:00:00Z",
+            "2021-01-01T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "trailing_mean",
+          "UTC": [
+            "2021-01-01T03:00:00Z",
+            "2021-01-01T06:00:00Z",
+            "2021-01-01T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2021-01-01T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "future_driver",
+          "UTC": [
+            "2021-01-01T07:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "opaque_prefit_stats",
+          "UTC": [
+            "2021-01-01T03:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_history",
+          "UTC": [
+            "2021-01-01T03:00:00Z",
+            "2021-01-01T06:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_orbitmean",
+          "UTC": [
+            "2021-01-01T03:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2021-01-01T02:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2021-01-01T03:30:00Z"
+          ],
+          "allowed": false
+        }
+      ]
+    },
+    {
+      "source": "YEAR",
+      "cutoff_UTC": "2021-01-01T18:00:00Z",
+      "history_SHA": "30a83fdec67c689c4e69d5bd49350d1930ece62af745379953915bce7bb4971d",
+      "split_identity": "synthetic_calendar_fixture",
+      "future_original_SHA": "dd214d531c10cadce42cd219d076bf0e355a530151b976178265e0be34785537",
+      "future_poisoned_SHA": "43c73ee859f5e13fd7a630986e9c4286916cb5d7e9f084f8ec97056086939f25",
+      "poison_multiplier": 1e+20,
+      "causal_input_and_output_bitwise_equal": true,
+      "predictor": {
+        "access_log": [
+          {
+            "UTC": [
+              "2021-01-01T15:00:00Z",
+              "2021-01-01T16:00:00Z",
+              "2021-01-01T17:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "density_history"
+          },
+          {
+            "UTC": [
+              "2021-01-01T15:00:00Z",
+              "2021-01-01T16:00:00Z",
+              "2021-01-01T17:00:00Z"
+            ],
+            "allowed": true,
+            "feature": "history_normalization"
+          }
+        ],
+        "input_sha256": "30a83fdec67c689c4e69d5bd49350d1930ece62af745379953915bce7bb4971d",
+        "normalization": {
+          "mean": 2.919713766103664e-12,
+          "scale": 8.875113430873852e-14,
+          "unit": "kg/m3"
+        },
+        "predictions": [
+          {
+            "Persistence": 3.03111112605664e-12,
+            "TwoFrameLinear": 3.2651409993052516e-12,
+            "lead": 1
+          },
+          {
+            "Persistence": 3.03111112605664e-12,
+            "TwoFrameLinear": 3.4991708725538634e-12,
+            "lead": 3
+          },
+          {
+            "Persistence": 3.03111112605664e-12,
+            "TwoFrameLinear": 3.850215682426781e-12,
+            "lead": 6
+          }
+        ]
+      },
+      "negative_cases": [
+        {
+          "negative": "full_sequence_normalization",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "future_centered_rolling_mean",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "lag_sign_error",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "target_time_driver",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "all_data_prefit_stats",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "window_crosses_cutoff",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "metadata_density_call",
+          "error": "Feature type prohibited, including opaque statistics and future drivers"
+        },
+        {
+          "negative": "outside_history_before_start",
+          "error": "Timestamp outside half-open history"
+        },
+        {
+          "negative": "missing_half_hour",
+          "error": "Required frame absent"
+        },
+        {
+          "negative": "cross_split_support",
+          "error": "Cross-split temporal support collision"
+        },
+        {
+          "negative": "mixed_split_snapshot",
+          "error": "Wrong or mixed history-snapshot identity"
+        },
+        {
+          "negative": "wrong_snapshot_hash",
+          "error": "History identity mismatch"
+        },
+        {
+          "negative": "future_path",
+          "error": "Predictor only accepts an explicit history snapshot"
+        }
+      ],
+      "denial_trace": [
+        {
+          "feature": "history_normalization",
+          "UTC": [
+            "2021-01-01T15:00:00Z",
+            "2021-01-01T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "trailing_mean",
+          "UTC": [
+            "2021-01-01T15:00:00Z",
+            "2021-01-01T18:00:00Z",
+            "2021-01-01T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2021-01-01T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "future_driver",
+          "UTC": [
+            "2021-01-01T19:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "opaque_prefit_stats",
+          "UTC": [
+            "2021-01-01T15:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_history",
+          "UTC": [
+            "2021-01-01T15:00:00Z",
+            "2021-01-01T18:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "density_orbitmean",
+          "UTC": [
+            "2021-01-01T15:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2021-01-01T14:00:00Z"
+          ],
+          "allowed": false
+        },
+        {
+          "feature": "lag",
+          "UTC": [
+            "2021-01-01T15:30:00Z"
+          ],
+          "allowed": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "state": "V56_NON_TARGET_TIME_INDEX_AND_SEALING_COMPLETE_VERIFIED",
+  "external": "EXTERNAL_EVIDENCE_NOT_RECEIVED",
+  "external_gates": [
+    "OFFICIAL_PROVENANCE_UNVERIFIED",
+    "SP3_EXACT_PRODUCT_NOT_ACQUIRED",
+    "EXTERNAL_DATUM_UNVERIFIED",
+    "GFZ_2021_GAP_UNRESOLVED",
+    "TARGET_DENSITY_SEALED",
+    "FIXED_OFFSET_NOT_ADMITTED",
+    "V37_FORMAL_SCORING_NOT_AUTHORIZED"
+  ],
+  "V37_development_scope": [
+    {
+      "date": "2021-03-25",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "spring historical development/validation",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2022-03-25",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "spring historical development/validation",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2021-09-23",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "V30 preregistered held-out historical evaluation preserved",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2022-09-23",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "V30 preregistered held-out historical evaluation preserved",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2021-03-23",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "spring historical development/validation",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2021-03-24",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "spring historical development/validation",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2022-03-23",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "spring historical development/validation",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    },
+    {
+      "date": "2022-03-24",
+      "role": "DEVELOPMENT_SOURCE",
+      "historical_identity": "spring historical development/validation",
+      "cutoff_history_density_access": true,
+      "already_scored_future_aggregate_join": true,
+      "future_density_access": false
+    }
+  ],
+  "real_development_density_datasets_used": [],
+  "real_metadata": "V53 observation metadata CSV, 2021-06-21 and 2022-06-21",
+  "UTC_endpoint_samples": 36,
+  "native_synthetic_controls": 5040,
+  "native_rejections": 18,
+  "future_access_rejections": 156,
+  "independent_targeted_CPU_tests": 10,
+  "formal_scores": 0,
+  "density_reads": 0,
+  "density_orbitmean_reads": 0,
+  "forecasts": "SYNTHETIC_ONLY",
+  "AI_training": 0,
+  "physical_runs": 0,
+  "GPU": 0,
+  "external_messages": 0
+}
