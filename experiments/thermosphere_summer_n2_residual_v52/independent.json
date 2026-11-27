@@ -1,0 +1,60 @@
+{
+  "gates": 4350,
+  "failing_keys": 118,
+  "unique_failed_grid_hours": {
+    "both_fail": 0,
+    "A_only_fail": 251,
+    "B_only_fail": 7,
+    "neither_fail": 5344
+  },
+  "tests": 6,
+  "identity": {
+    "V50_history": {
+      "V50_files": 20,
+      "history": {
+        "V49_entries": 42,
+        "V48_raw_volumes": 66,
+        "raw_run_ids": [
+          "342ca7ee59a74a6aa600dd40f4459d91",
+          "aff143997075432d896fe8acf88fc53e"
+        ]
+      },
+      "differences": [
+        {
+          "A": " SOURCE = '../a.nc'",
+          "B": " SOURCE = '../b.nc'"
+        },
+        {
+          "A": " SOURCE_START = 80 0 0",
+          "B": " SOURCE_START = 172 0 0"
+        }
+      ],
+      "plan_sha256": "baac3a8331ff811fb02c48a6519fde6ffcd0cf9aed8367dc8b4089c1ca60c7e5"
+    },
+    "V51_run_ids": [
+      "ecd582e923ed4568a7d0be442eda445e",
+      "0e237fee82cf4b9e809e08bbde51cc31"
+    ],
+    "V51_native_volumes": 94,
+    "V51_manifest_files": 39,
+    "configuration": {
+      "run_A_mareqx_add7.namelist": "9fa26fdea05a18d1676122ef83bdbbd89d8c3c6d0aabcaebc3222a74ef12651c",
+      "run_B_junsol_add7.namelist": "1c050737a9ef84065e834067f026ef11afb921747592c80ed390edce84b38a70"
+    },
+    "source_sha": [
+      "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "baed93b59dee7f8e6355c8d0224bd2335cf355bd0d632c9d2327aa7d0227475e"
+    ],
+    "GPI": {
+      "path": "experiments/thermosphere_summer_spinup_add7_v50/gpi_2022_summer_add7_candidate_v50.nc",
+      "SHA256": "e3c90e0ae9524a9f9e71dabd2b549bc3b5611365a4eb66c2185d8e52f68af9f2"
+    },
+    "ELF": {
+      "path": "experiments/tiegcm2_apex2023_v1/tiegcm2.0",
+      "SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776"
+    }
+  },
+  "unseen_Swarm_reads": 0,
+  "model_runs": 0,
+  "GPU": 0
+}

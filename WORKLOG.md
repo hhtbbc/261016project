@@ -1487,3 +1487,8 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## V51 2022 夏季 21 天预热执行
 
 2026-11-25：执行适配器经 V50 next_admission 和共享锁串行各启动一次。通过独立工程验收后运行 V50 冻结分析与复算（38460 行）及 12 图。V48/V49 原资产保持，联合失败 2196→118，无未见 Swarm 或 GPU。 入口 reports/THERMOSPHERE_SUMMER_SPINUP_ADD7_EXECUTION_V51.md。
+
+
+## V52 夏季 N2 残余失败诊断
+
+2026-11-27：使用冻结 CPU 环境执行 diagnose / verify / summarize 三入口。94+66 原卷、4350 门槛行、25 个末期 P95 及 8 项 CPU 检查通过。12 图通过，首轮图表相关性元组接线已校正。21 天组分残差在保存舍入范围闭合，原因归因尚不充分。无新模型、未见密度、GPU、V37 正式评分。 入口 reports/THERMOSPHERE_SUMMER_N2_RESIDUAL_DIAGNOSIS_V52.md。

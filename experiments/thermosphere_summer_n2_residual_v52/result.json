@@ -1,0 +1,16 @@
+{
+  "state": "V52_N2_RESIDUAL_DIAGNOSIS_COMPLETE_VERIFIED",
+  "decision": "EXTEND_28D_NOT_RECOMMENDED",
+  "SEED_SENSITIVITY": "SEED_SENSITIVITY_FAIL",
+  "DENSITY_LIMITED_INSENSITIVITY": "SUPPORTED",
+  "failed_units": 118,
+  "raw_volumes_V51": 94,
+  "raw_volumes_V48": 66,
+  "independent_gate_rows": 4350,
+  "independent_terminal_rows": 25,
+  "CPU_tests": 8,
+  "figures": 12,
+  "new_model_runs": 0,
+  "unseen_Swarm_reads": 0,
+  "GPU": 0
+}

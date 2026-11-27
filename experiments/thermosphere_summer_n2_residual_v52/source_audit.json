@@ -1,0 +1,32 @@
+{
+  "SHA256": {
+    "third_party/TIEGCM2.0/src/comp.F": "93235f1b619b38dacd837d5897b83c47881a1566c247a260aad6168cb0718e3f",
+    "third_party/TIEGCM2.0/src/diags.F": "406a87917a5446493d7e0fdcb6a744271e7930f7151020f66134b4adc0b35a35",
+    "third_party/TIEGCM2.0/src/addiag.F": "0ad6c5cd0fa1058f10de0da6b156f5e466022a722f700ebf124f8efc4ac4e3e4"
+  },
+  "comp": {
+    "floor_def": [
+      97,
+      98
+    ],
+    "updated_clamps": [
+      936,
+      945
+    ],
+    "renormalization": [
+      947,
+      974
+    ],
+    "diagnostic_residual": [
+      978,
+      991
+    ]
+  },
+  "diags": [
+    1235,
+    1254
+  ],
+  "addiag": 78,
+  "model": "real-8 build, observed secondary float32",
+  "n2": "diagnostic mmr"
+}

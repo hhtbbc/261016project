@@ -1,0 +1,27 @@
+{
+  "model_floor": 9.999999974752427e-07,
+  "tolerance": 9.094947017729282e-13,
+  "acceptance_floor": 1e-08,
+  "counts_by_region": {
+    "south_mid": 64,
+    "south_polar": 28,
+    "tropics": 24,
+    "global": 2
+  },
+  "counts_by_level": {
+    "26": 36,
+    "27": 27,
+    "28": 40,
+    "25": 15
+  },
+  "unique_failed_grid_hours": {
+    "both_fail": 0,
+    "A_only_fail": 251,
+    "B_only_fail": 7,
+    "neither_fail": 5344
+  },
+  "total_failed_grid_hours": 5602,
+  "region_point_instances": 5843,
+  "reconstruction_within_output_rounding": 5843,
+  "V51_science": "SEED_SENSITIVITY_FAIL"
+}
