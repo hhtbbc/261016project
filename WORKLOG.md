@@ -1492,3 +1492,8 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## V52 夏季 N2 残余失败诊断
 
 2026-11-27：使用冻结 CPU 环境执行 diagnose / verify / summarize 三入口。94+66 原卷、4350 门槛行、25 个末期 P95 及 8 项 CPU 检查通过。12 图通过，首轮图表相关性元组接线已校正。21 天组分残差在保存舍入范围闭合，原因归因尚不充分。无新模型、未见密度、GPU、V37 正式评分。 入口 reports/THERMOSPHERE_SUMMER_N2_RESIDUAL_DIAGNOSIS_V52.md。
+
+
+## V53 夏季 Swarm 原件元数据准入
+
+2026-11-27：查找项目根上传ZIP，核验无覆盖staging和冻结V39 accepted，独立复读五字段及系统POSIX cksum。两年日内UTC匹配2880对。2022 A/B 内部ZG条件包围各2880点。50项CPU检查通过，原始目标密度解码、新积分、GPU、拟合和正式评分均0。 入口 reports/THERMOSPHERE_SWARM_SUMMER_METADATA_ADMISSION_V53.md。

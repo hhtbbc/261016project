@@ -1,0 +1,90 @@
+{
+  "screening_status": "PROVISIONAL_RAW_GEODETIC_NUMBERS_AS_NATIVE_NO_OFFSET_ZG_ONLY",
+  "model_2022": {
+    "A": {
+      "lat_centers_deg": [
+        -87.5,
+        87.5
+      ],
+      "lon_centers_deg": [
+        -180.0,
+        175.0
+      ],
+      "grid_shape": [
+        25,
+        29,
+        36,
+        72
+      ],
+      "frames": 25,
+      "first_UTC": "2022-06-21T00:00:00+00:00",
+      "last_UTC": "2022-06-22T00:00:00+00:00",
+      "all": {
+        "PROVISIONAL_ZG_BRACKET": 2880
+      },
+      "nominal": {
+        "PROVISIONAL_ZG_BRACKET": 2880
+      }
+    },
+    "B": {
+      "lat_centers_deg": [
+        -87.5,
+        87.5
+      ],
+      "lon_centers_deg": [
+        -180.0,
+        175.0
+      ],
+      "grid_shape": [
+        25,
+        29,
+        36,
+        72
+      ],
+      "frames": 25,
+      "first_UTC": "2022-06-21T00:00:00+00:00",
+      "last_UTC": "2022-06-22T00:00:00+00:00",
+      "all": {
+        "PROVISIONAL_ZG_BRACKET": 2880
+      },
+      "nominal": {
+        "PROVISIONAL_ZG_BRACKET": 2880
+      }
+    }
+  },
+  "model_2021": "BLOCKED_FOBS",
+  "Swarm_coordinates": {
+    "latitude": "geodetic degrees",
+    "longitude": "geodetic degrees UTC product",
+    "altitude": "Altitude m, GRS80 ellipsoidal interpretation supported by product family; exact 0301 datum implementation, reference point and uncertainty unverified"
+  },
+  "EXTERNAL_DATUM_UNVERIFIED": true,
+  "FIXED_OFFSET_NOT_ADMITTED": true,
+  "TARGET_DENSITY_SEALED": true,
+  "V37_FORMAL_SCORING_NOT_AUTHORIZED": true,
+  "formal_order": [
+    "2021",
+    "2022"
+  ],
+  "fobs_2021_missing": [
+    "2021-05-09",
+    "2021-06-16"
+  ],
+  "legacy_V51_science": "SEED_SENSITIVITY_FAIL",
+  "density_limited": "SUPPORTED",
+  "missing": [
+    "authenticated product provenance record",
+    "approved paired model/seed protocol",
+    "complete 2021 official drives and 2021 independently accepted model run",
+    "independent 0301 orbit frame and external-to-ZG registration",
+    "authorized history-only freeze at both cutoffs and synthetic poison verification",
+    "paired common identities and separate formal unlock/scoring authorization"
+  ],
+  "frozen_fixture_tests": 40,
+  "external_provider_negative_tests": 2,
+  "target_density_reads": 0,
+  "model_DEN_reads": 0,
+  "model_runs": 0,
+  "GPU": 0,
+  "formal_scores": 0
+}

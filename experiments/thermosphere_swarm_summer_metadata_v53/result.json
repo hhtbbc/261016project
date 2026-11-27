@@ -1,0 +1,18 @@
+{
+  "state": "V53_SWARM_METADATA_ADMISSION_COMPLETE_VERIFIED",
+  "product_states": [
+    "SWARM_2021_METADATA_VERIFIED",
+    "SWARM_2022_METADATA_VERIFIED"
+  ],
+  "provenance": "OFFICIAL_PROVENANCE_UNVERIFIED",
+  "density": "TARGET_DENSITY_SEALED",
+  "heights": "EXTERNAL_DATUM_UNVERIFIED",
+  "scoring": "V37_FORMAL_SCORING_NOT_AUTHORIZED",
+  "CPU_checks": 50,
+  "input_Git": "e955e2ca0ebb821db4c4636a8714aca95ef3e29c",
+  "target_density_reads": 0,
+  "model_DEN_reads": 0,
+  "new_TIEGCM_runs": 0,
+  "GPU": 0,
+  "formal_scores": 0
+}

@@ -1,0 +1,63 @@
+{
+  "protected": {
+    "published": 22,
+    "original_local_only": 4,
+    "V37": 10
+  },
+  "uploads": {
+    "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP": [
+      {
+        "path": "/workspace/data/20261016/SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+        "bytes": 140229,
+        "mtime_UTC": "2026-11-27T01:32:58.848263+00:00",
+        "SHA256": "eb94bafaf753c1986ff610caf10d03bea361f2a8c1f248eaa5c67f702cb2a48a",
+        "ZIP_magic": "504b0304",
+        "ZIP_CRC": "PASS",
+        "members": [
+          {
+            "name": "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.cdf",
+            "bytes": 191682,
+            "ZIP_CRC32": "7e4756a8"
+          },
+          {
+            "name": "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.HDR",
+            "bytes": 2757,
+            "ZIP_CRC32": "559b8338"
+          }
+        ],
+        "product": "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+        "regular_file": true,
+        "symlink": false
+      }
+    ],
+    "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP": [
+      {
+        "path": "/workspace/data/20261016/SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+        "bytes": 138722,
+        "mtime_UTC": "2026-11-27T01:32:53.952214+00:00",
+        "SHA256": "c899ddab110a82e65c70531acba396149ac156dbc267459a99a3566d1c84c23c",
+        "ZIP_magic": "504b0304",
+        "ZIP_CRC": "PASS",
+        "members": [
+          {
+            "name": "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.cdf",
+            "bytes": 191682,
+            "ZIP_CRC32": "67ea68b2"
+          },
+          {
+            "name": "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.HDR",
+            "bytes": 2757,
+            "ZIP_CRC32": "c914923f"
+          }
+        ],
+        "product": "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+        "regular_file": true,
+        "symlink": false
+      }
+    ]
+  },
+  "staging": {
+    "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP": "data/raw/thermosphere_summer_data_handoff_v39/staging/SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+    "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP": "data/raw/thermosphere_summer_data_handoff_v39/staging/SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP"
+  }
+}

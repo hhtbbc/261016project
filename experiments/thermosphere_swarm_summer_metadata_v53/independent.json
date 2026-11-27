@@ -1,0 +1,387 @@
+{
+  "history": {
+    "V50_history": {
+      "V50_files": 20,
+      "history": {
+        "V49_entries": 42,
+        "V48_raw_volumes": 66,
+        "raw_run_ids": [
+          "342ca7ee59a74a6aa600dd40f4459d91",
+          "aff143997075432d896fe8acf88fc53e"
+        ]
+      },
+      "differences": [
+        {
+          "A": " SOURCE = '../a.nc'",
+          "B": " SOURCE = '../b.nc'"
+        },
+        {
+          "A": " SOURCE_START = 80 0 0",
+          "B": " SOURCE_START = 172 0 0"
+        }
+      ],
+      "plan_sha256": "baac3a8331ff811fb02c48a6519fde6ffcd0cf9aed8367dc8b4089c1ca60c7e5"
+    },
+    "V51_run_ids": [
+      "ecd582e923ed4568a7d0be442eda445e",
+      "0e237fee82cf4b9e809e08bbde51cc31"
+    ],
+    "V51_native_volumes": 94,
+    "V51_manifest_files": 39,
+    "configuration": {
+      "run_A_mareqx_add7.namelist": "9fa26fdea05a18d1676122ef83bdbbd89d8c3c6d0aabcaebc3222a74ef12651c",
+      "run_B_junsol_add7.namelist": "1c050737a9ef84065e834067f026ef11afb921747592c80ed390edce84b38a70"
+    },
+    "source_sha": [
+      "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "baed93b59dee7f8e6355c8d0224bd2335cf355bd0d632c9d2327aa7d0227475e"
+    ],
+    "GPI": {
+      "path": "experiments/thermosphere_summer_spinup_add7_v50/gpi_2022_summer_add7_candidate_v50.nc",
+      "SHA256": "e3c90e0ae9524a9f9e71dabd2b549bc3b5611365a4eb66c2185d8e52f68af9f2"
+    },
+    "ELF": {
+      "path": "experiments/tiegcm2_apex2023_v1/tiegcm2.0",
+      "SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776"
+    }
+  },
+  "V52_files": 33,
+  "products": [
+    {
+      "file": "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+      "day": "2021-06-21",
+      "accepted": "data/raw/thermosphere_summer_data_handoff_v39/accepted/SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+      "size": 140229,
+      "SHA256": "eb94bafaf753c1986ff610caf10d03bea361f2a8c1f248eaa5c67f702cb2a48a",
+      "satellite_attribute": [
+        "Swarm-A"
+      ],
+      "upstream_geometry": [
+        "SA_FASTSPARTANF/Density_Direct/1 (in ZVar 'density')",
+        "SA_FASTSPARTANF/Density_Direct_OrbitMean/1 (in ZVar 'density_orbitmean')",
+        "SA_FASTSPARTANF/DataFlags_Validation/1 (in ZVar 'validity_flag')",
+        "SA_Basic/Orbit_Geo/1 (in ZVar 'altitude')",
+        "SA_Basic/Orbit_Geo/3 (in ZVar 'latitude')",
+        "SA_Basic/Orbit_Geo/2 (in ZVar 'longitude')",
+        "SA_Basic/Orbit_Geo/4 (in ZVar 'local_solar_time')"
+      ],
+      "orbital_period_seconds": 5585,
+      "members": {
+        "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.cdf": {
+          "SHA256": "737eeabe43fa71895a4f2e02cbb77df587bb1ef1be28cc37178a37cea784b5df",
+          "bytes": 191682,
+          "ZIP_CRC32": "7e4756a8"
+        },
+        "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.HDR": {
+          "SHA256": "aef65a3dcc1855be3efbdce0f8a1abd43ab5c1ba272d2ac0b7e131342b12b387",
+          "bytes": 2757,
+          "ZIP_CRC32": "559b8338"
+        }
+      },
+      "CDF_POSIX_CRC": 2197680607,
+      "CDF_bytes": 191682,
+      "variables": {
+        "time": {
+          "record_count": 2880,
+          "dimensions": [],
+          "dtype": "CDF_EPOCH",
+          "attributes": {
+            "VARIABLE DESCRIPTION": "Time of observation",
+            "UNITS": "-",
+            "FORMAT": "CDF Epoch (UTC time system)",
+            "FILLVAL": "0.99900E+33"
+          }
+        },
+        "latitude": {
+          "record_count": 2880,
+          "dimensions": [],
+          "dtype": "CDF_DOUBLE",
+          "attributes": {
+            "VARIABLE DESCRIPTION": "Geodetic latitude",
+            "UNITS": "deg",
+            "FORMAT": "E16.9",
+            "FILLVAL": "0.99900E+33"
+          }
+        },
+        "longitude": {
+          "record_count": 2880,
+          "dimensions": [],
+          "dtype": "CDF_DOUBLE",
+          "attributes": {
+            "VARIABLE DESCRIPTION": "Geodetic longitude",
+            "UNITS": "deg",
+            "FORMAT": "E16.9",
+            "FILLVAL": "0.99900E+33"
+          }
+        },
+        "altitude": {
+          "record_count": 2880,
+          "dimensions": [],
+          "dtype": "CDF_DOUBLE",
+          "attributes": {
+            "VARIABLE DESCRIPTION": "Altitude",
+            "UNITS": "m",
+            "FORMAT": "E16.9",
+            "FILLVAL": "0.99900E+33"
+          }
+        },
+        "validity_flag": {
+          "record_count": 2880,
+          "dimensions": [],
+          "dtype": "CDF_INT1",
+          "attributes": {
+            "VARIABLE DESCRIPTION": "Flag: 0 = nominal data, 1 = anomalous data",
+            "UNITS": "unknown units",
+            "FORMAT": "E16.9",
+            "FILLVAL": "127"
+          }
+        },
+        "density": {
+          "record_count": 2880,
+          "dimensions": [],
+          "dtype": "CDF_DOUBLE",
+          "attributes": {
+            "VARIABLE DESCRIPTION": "Density derived from GPS accelerations (FAST)",
+            "UNITS": "kg/m3",
+            "FORMAT": "E16.9",
+            "FILLVAL": "0.99900E+33"
+          }
+        }
+      },
+      "coordinate_ranges": {
+        "latitude_deg": [
+          -87.37327358564107,
+          0.7452633185775024,
+          87.37503772855914
+        ],
+        "longitude_deg": [
+          -178.61543188842398,
+          -1.5443697327390007,
+          179.52593756964626
+        ],
+        "altitude_m": [
+          430747.38990590815,
+          439059.4981592307,
+          460568.8726071082
+        ],
+        "nominal_altitude_m": [
+          430747.38990590815,
+          439059.4981592307,
+          460568.8726071082
+        ]
+      },
+      "flags": {
+        "0": 2880,
+        "1": 0,
+        "unknown": 0
+      },
+      "records": 2880,
+      "cadence_seconds": 30,
+      "first_UTC": "2021-06-21T00:00:00Z",
+      "last_UTC": "2021-06-21T23:59:30Z",
+      "BYTE_INTEGRITY_VERIFIED": true,
+      "PRODUCT_IDENTITY_VERIFIED": true,
+      "METADATA_VERIFIED": true,
+      "provenance": "OFFICIAL_PROVENANCE_UNVERIFIED",
+      "user_supplied": true,
+      "source_claim_present": false
+    },
+    {
+      "file": "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+      "day": "2022-06-21",
+      "accepted": "data/raw/thermosphere_summer_data_handoff_v39/accepted/SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+      "size": 138722,
+      "SHA256": "c899ddab110a82e65c70531acba396149ac156dbc267459a99a3566d1c84c23c",
+      "satellite_attribute": [
+        "Swarm-A"
+      ],
+      "upstream_geometry": [
+        "SA_FASTSPARTANF/Density_Direct/1 (in ZVar 'density')",
+        "SA_FASTSPARTANF/Density_Direct_OrbitMean/1 (in ZVar 'density_orbitmean')",
+        "SA_FASTSPARTANF/DataFlags_Validation/1 (in ZVar 'validity_flag')",
+        "SA_Basic/Orbit_Geo/1 (in ZVar 'altitude')",
+        "SA_Basic/Orbit_Geo/3 (in ZVar 'latitude')",
+        "SA_Basic/Orbit_Geo/2 (in ZVar 'longitude')",
+        "SA_Basic/Orbit_Geo/4 (in ZVar 'local_solar_time')"
+      ],
+      "orbital_period_seconds": 5621,
+      "members": {
+        "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.cdf": {
+          "SHA256": "3f7bb04ff2ec5a554427dad8281fd23ec2e5abfe7f0285d88b8301781abcd008",
+          "bytes": 191682,
+          "ZIP_CRC32": "67ea68b2"
+        },
+        "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.HDR": {
+          "SHA256": "c4ee4d43e013caa174f475815d587136d6ffec0c9372edc6387c7628561e7b56",
+          "bytes": 2757,
+          "ZIP_CRC32": "c914923f"
+        }
+      },
+      "CDF_POSIX_CRC": 3102020480,
+      "CDF_bytes": 191682,
+      "variables": {
+        "time": {
+          "record_count": 2880,
+          "dimensions": [],
+          "dtype": "CDF_EPOCH",
+          "attributes": {
+            "VARIABLE DESCRIPTION": "Time of observation",
+            "UNITS": "-",
+            "FORMAT": "CDF Epoch (UTC time system)",
+            "FILLVAL": "0.99900E+33"
+          }
+        },
+        "latitude": {
+          "record_count": 2880,
+          "dimensions": [],
+          "dtype": "CDF_DOUBLE",
+          "attributes": {
+            "VARIABLE DESCRIPTION": "Geodetic latitude",
+            "UNITS": "deg",
+            "FORMAT": "E16.9",
+            "FILLVAL": "0.99900E+33"
+          }
+        },
+        "longitude": {
+          "record_count": 2880,
+          "dimensions": [],
+          "dtype": "CDF_DOUBLE",
+          "attributes": {
+            "VARIABLE DESCRIPTION": "Geodetic longitude",
+            "UNITS": "deg",
+            "FORMAT": "E16.9",
+            "FILLVAL": "0.99900E+33"
+          }
+        },
+        "altitude": {
+          "record_count": 2880,
+          "dimensions": [],
+          "dtype": "CDF_DOUBLE",
+          "attributes": {
+            "VARIABLE DESCRIPTION": "Altitude",
+            "UNITS": "m",
+            "FORMAT": "E16.9",
+            "FILLVAL": "0.99900E+33"
+          }
+        },
+        "validity_flag": {
+          "record_count": 2880,
+          "dimensions": [],
+          "dtype": "CDF_INT1",
+          "attributes": {
+            "VARIABLE DESCRIPTION": "Flag: 0 = nominal data, 1 = anomalous data",
+            "UNITS": "unknown units",
+            "FORMAT": "E16.9",
+            "FILLVAL": "127"
+          }
+        },
+        "density": {
+          "record_count": 2880,
+          "dimensions": [],
+          "dtype": "CDF_DOUBLE",
+          "attributes": {
+            "VARIABLE DESCRIPTION": "Density derived from GPS accelerations (FAST)",
+            "UNITS": "kg/m3",
+            "FORMAT": "E16.9",
+            "FILLVAL": "0.99900E+33"
+          }
+        }
+      },
+      "coordinate_ranges": {
+        "latitude_deg": [
+          -87.37350698636521,
+          1.6665144530288332,
+          87.37679118061916
+        ],
+        "longitude_deg": [
+          -179.96885067491408,
+          4.545303374487434,
+          179.94013843811666
+        ],
+        "altitude_m": [
+          459920.1559855612,
+          468051.90275789006,
+          489874.7563780537
+        ],
+        "nominal_altitude_m": [
+          459920.1559855612,
+          468051.90275789006,
+          489874.7563780537
+        ]
+      },
+      "flags": {
+        "0": 2880,
+        "1": 0,
+        "unknown": 0
+      },
+      "records": 2880,
+      "cadence_seconds": 30,
+      "first_UTC": "2022-06-21T00:00:00Z",
+      "last_UTC": "2022-06-21T23:59:30Z",
+      "BYTE_INTEGRITY_VERIFIED": true,
+      "PRODUCT_IDENTITY_VERIFIED": true,
+      "METADATA_VERIFIED": true,
+      "provenance": "OFFICIAL_PROVENANCE_UNVERIFIED",
+      "user_supplied": true,
+      "source_claim_present": false
+    }
+  ],
+  "common_time_of_day": 2880,
+  "absolute_UTC_intersection": 0,
+  "both_nominal": 2880,
+  "negative_tests": 6,
+  "accessed": [
+    {
+      "variable": "time",
+      "allowed": true
+    },
+    {
+      "variable": "latitude",
+      "allowed": true
+    },
+    {
+      "variable": "longitude",
+      "allowed": true
+    },
+    {
+      "variable": "altitude",
+      "allowed": true
+    },
+    {
+      "variable": "validity_flag",
+      "allowed": true
+    },
+    {
+      "variable": "time",
+      "allowed": true
+    },
+    {
+      "variable": "latitude",
+      "allowed": true
+    },
+    {
+      "variable": "longitude",
+      "allowed": true
+    },
+    {
+      "variable": "altitude",
+      "allowed": true
+    },
+    {
+      "variable": "validity_flag",
+      "allowed": true
+    },
+    {
+      "variable": "density",
+      "allowed": false
+    },
+    {
+      "variable": "density_orbitmean",
+      "allowed": false
+    }
+  ],
+  "target_density_reads": 0,
+  "GPU": 0,
+  "model_runs": 0,
+  "formal_scores": 0
+}

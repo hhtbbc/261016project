@@ -1,0 +1,33 @@
+{
+  "truncation_rejected": true,
+  "symlink_rejected": true,
+  "existing_GFZ_missing": {
+    "2021-05-09": -1,
+    "2021-06-16": -1
+  },
+  "accepted_modes": [
+    {
+      "day": "2021-06-21",
+      "path": "data/raw/thermosphere_summer_data_handoff_v39/accepted/SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP",
+      "directory_mode": "0o555",
+      "files": {
+        "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.HDR": "0o444",
+        "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.ZIP": "0o444",
+        "SW_OPER_DNSAPOD_2__20210621T000000_20210621T235930_0301.cdf": "0o444",
+        "receipt.json": "0o444"
+      }
+    },
+    {
+      "day": "2022-06-21",
+      "path": "data/raw/thermosphere_summer_data_handoff_v39/accepted/SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP",
+      "directory_mode": "0o555",
+      "files": {
+        "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.HDR": "0o444",
+        "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.ZIP": "0o444",
+        "SW_OPER_DNSAPOD_2__20220621T000000_20220621T235930_0301.cdf": "0o444",
+        "receipt.json": "0o444"
+      }
+    }
+  ],
+  "full_UTC_intersection": 0
+}
