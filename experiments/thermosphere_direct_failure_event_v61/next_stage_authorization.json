@@ -1,0 +1,850 @@
+{
+  "state": "REQUEST_ONLY_NOT_GRANTED",
+  "fields": [
+    "DEN",
+    "time",
+    "lat",
+    "lon",
+    "ilev"
+  ],
+  "history_hours": [
+    -3,
+    -2,
+    -1
+  ],
+  "label_hours": [
+    1,
+    3,
+    6
+  ],
+  "requirements": [
+    "Explicit approval per run and listed UTC support",
+    "2022 engineering labels only after prediction lock; all unseen and V37 labels remain closed",
+    "Missing legacy run_id requires source receipt before data access",
+    "Freeze model config, scalers from training history and evaluation before any independent test unlock"
+  ],
+  "minimal_repeat": {
+    "train": [
+      {
+        "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+        "cutoff_UTC": "2021-09-23T06:00:00Z",
+        "support_start_UTC": "2021-09-23T03:00:00Z",
+        "support_end_exclusive_UTC": "2021-09-23T12:00:01Z",
+        "sample_ids": "b19d9365ebcb07085c4b27753f9295f34e06b0225486eed841bb58d8789f6b17;9521316694b4ae304de2bf5babff72e66f0d85ed912e47ca35336bd5bff76091;4916830a576e098cf7df84b0cf100fa4678b06746d4d4993571005af6c086545",
+        "event_id": "",
+        "forcing_family": "autumn_2021",
+        "role": "A",
+        "history_UTC": [
+          "2021-09-23T03:00:00Z",
+          "2021-09-23T04:00:00Z",
+          "2021-09-23T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-09-23T07:00:00Z",
+          "2021-09-23T09:00:00Z",
+          "2021-09-23T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+        "cutoff_UTC": "2021-09-23T18:00:00Z",
+        "support_start_UTC": "2021-09-23T15:00:00Z",
+        "support_end_exclusive_UTC": "2021-09-24T00:00:01Z",
+        "sample_ids": "8d0bf40bf486ce33b7956d66de0360bdf27e4953843047684da0d2b008d21c5c;587c8969334ece16ee335eb0e3870ffaa34b698f64e9086665335402bd9ce5e0;c8a6ea04d35568c3273c29d147c8bcaee54fd5063c185375c71be952ab88c13c",
+        "event_id": "",
+        "forcing_family": "autumn_2021",
+        "role": "A",
+        "history_UTC": [
+          "2021-09-23T15:00:00Z",
+          "2021-09-23T16:00:00Z",
+          "2021-09-23T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-09-23T19:00:00Z",
+          "2021-09-23T21:00:00Z",
+          "2021-09-24T00:00:00Z"
+        ]
+      },
+      {
+        "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+        "cutoff_UTC": "2021-09-24T06:00:00Z",
+        "support_start_UTC": "2021-09-24T03:00:00Z",
+        "support_end_exclusive_UTC": "2021-09-24T12:00:01Z",
+        "sample_ids": "52f321f922af0c0ec4661f9e45c975a03c5143fa9dad1210cc8d61161e37e95c;aedb00b4e5a529bf8e623b6250e8bc1d3402263088d30914a766e07a14036220;564163feeda178b7540ca9668b8b053b7bda1b31a043528bfacec75c6d3c0641",
+        "event_id": "",
+        "forcing_family": "autumn_2021",
+        "role": "A",
+        "history_UTC": [
+          "2021-09-24T03:00:00Z",
+          "2021-09-24T04:00:00Z",
+          "2021-09-24T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-09-24T07:00:00Z",
+          "2021-09-24T09:00:00Z",
+          "2021-09-24T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+        "cutoff_UTC": "2021-09-24T18:00:00Z",
+        "support_start_UTC": "2021-09-24T15:00:00Z",
+        "support_end_exclusive_UTC": "2021-09-25T00:00:01Z",
+        "sample_ids": "5f886da646484ee321fc2db1469c7056d21526f3465a2688ab237718d1951010;1c3c8e51f75a3ac87228ecb7afd2577447487307f6d087043041360590517bfa;35cf3d7a6f977c0c33cd0f71325d7d356efef98a2d2df4ab72ba6955cbbfbf0c",
+        "event_id": "",
+        "forcing_family": "autumn_2021",
+        "role": "A",
+        "history_UTC": [
+          "2021-09-24T15:00:00Z",
+          "2021-09-24T16:00:00Z",
+          "2021-09-24T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-09-24T19:00:00Z",
+          "2021-09-24T21:00:00Z",
+          "2021-09-25T00:00:00Z"
+        ]
+      }
+    ],
+    "engineering_validation": [
+      {
+        "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+        "cutoff_UTC": "2022-09-23T06:00:00Z",
+        "support_start_UTC": "2022-09-23T03:00:00Z",
+        "support_end_exclusive_UTC": "2022-09-23T12:00:01Z",
+        "sample_ids": "54a0a7ee8b83f52443db492e2f11e02c82bb6a46977fcfa637472e0e337bb2eb;cca5eaffecab4c6f8ac8bb8df59f00482cfbde6f4d0c21e9d8f467becc7c38bc;07f906dd0ed90e0f0c1a21415eb1d06531d5719a522bc23b4f2264115d6d18e7",
+        "event_id": "",
+        "forcing_family": "autumn_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-09-23T03:00:00Z",
+          "2022-09-23T04:00:00Z",
+          "2022-09-23T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-09-23T07:00:00Z",
+          "2022-09-23T09:00:00Z",
+          "2022-09-23T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+        "cutoff_UTC": "2022-09-23T18:00:00Z",
+        "support_start_UTC": "2022-09-23T15:00:00Z",
+        "support_end_exclusive_UTC": "2022-09-24T00:00:01Z",
+        "sample_ids": "fd784580e17010bc235df1a79b053522826c6e27998af5b11a9b649078e402be;b023282899d8e6348cdad85a8729af527f166569cd42dc78c38792626557cf58;672f330b75e2638e693f10339692d8af55b2d59ffd52565eaa36c676ea19a285",
+        "event_id": "",
+        "forcing_family": "autumn_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-09-23T15:00:00Z",
+          "2022-09-23T16:00:00Z",
+          "2022-09-23T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-09-23T19:00:00Z",
+          "2022-09-23T21:00:00Z",
+          "2022-09-24T00:00:00Z"
+        ]
+      },
+      {
+        "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+        "cutoff_UTC": "2022-09-24T06:00:00Z",
+        "support_start_UTC": "2022-09-24T03:00:00Z",
+        "support_end_exclusive_UTC": "2022-09-24T12:00:01Z",
+        "sample_ids": "284d29efffaebfee9d281ddcf1b1e0fcba434351194073324a1b3e6bc043194e;819d794c22210220821816a190a0507d3a63d6a0492c6fb478b79c73795e6adc;858a43354b75530379f79d4ab4bc06d602aa07a7cc255e41420d6f6ef655020e",
+        "event_id": "",
+        "forcing_family": "autumn_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-09-24T03:00:00Z",
+          "2022-09-24T04:00:00Z",
+          "2022-09-24T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-09-24T07:00:00Z",
+          "2022-09-24T09:00:00Z",
+          "2022-09-24T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+        "cutoff_UTC": "2022-09-24T18:00:00Z",
+        "support_start_UTC": "2022-09-24T15:00:00Z",
+        "support_end_exclusive_UTC": "2022-09-25T00:00:01Z",
+        "sample_ids": "d46572731f7c4eb1936de4812ea9c2a766d0c0520fd0fe44460d7d292b22fb13;f1db2cc9db54e5fd9112a69c184af1fd04a8891f438ecaeb6e5c43361842dc9c;1c18a268e27ccfb80d618bbb9b3c519ef3cdd413d0eecea1b08d57456f28f886",
+        "event_id": "",
+        "forcing_family": "autumn_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-09-24T15:00:00Z",
+          "2022-09-24T16:00:00Z",
+          "2022-09-24T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-09-24T19:00:00Z",
+          "2022-09-24T21:00:00Z",
+          "2022-09-25T00:00:00Z"
+        ]
+      }
+    ]
+  },
+  "smallest_new_data_MVP": {
+    "train": [
+      {
+        "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+        "cutoff_UTC": "2021-09-23T06:00:00Z",
+        "support_start_UTC": "2021-09-23T03:00:00Z",
+        "support_end_exclusive_UTC": "2021-09-23T12:00:01Z",
+        "sample_ids": "b19d9365ebcb07085c4b27753f9295f34e06b0225486eed841bb58d8789f6b17;9521316694b4ae304de2bf5babff72e66f0d85ed912e47ca35336bd5bff76091;4916830a576e098cf7df84b0cf100fa4678b06746d4d4993571005af6c086545",
+        "event_id": "",
+        "forcing_family": "autumn_2021",
+        "role": "A",
+        "history_UTC": [
+          "2021-09-23T03:00:00Z",
+          "2021-09-23T04:00:00Z",
+          "2021-09-23T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-09-23T07:00:00Z",
+          "2021-09-23T09:00:00Z",
+          "2021-09-23T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+        "cutoff_UTC": "2021-09-23T18:00:00Z",
+        "support_start_UTC": "2021-09-23T15:00:00Z",
+        "support_end_exclusive_UTC": "2021-09-24T00:00:01Z",
+        "sample_ids": "8d0bf40bf486ce33b7956d66de0360bdf27e4953843047684da0d2b008d21c5c;587c8969334ece16ee335eb0e3870ffaa34b698f64e9086665335402bd9ce5e0;c8a6ea04d35568c3273c29d147c8bcaee54fd5063c185375c71be952ab88c13c",
+        "event_id": "",
+        "forcing_family": "autumn_2021",
+        "role": "A",
+        "history_UTC": [
+          "2021-09-23T15:00:00Z",
+          "2021-09-23T16:00:00Z",
+          "2021-09-23T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-09-23T19:00:00Z",
+          "2021-09-23T21:00:00Z",
+          "2021-09-24T00:00:00Z"
+        ]
+      },
+      {
+        "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+        "cutoff_UTC": "2021-09-24T06:00:00Z",
+        "support_start_UTC": "2021-09-24T03:00:00Z",
+        "support_end_exclusive_UTC": "2021-09-24T12:00:01Z",
+        "sample_ids": "52f321f922af0c0ec4661f9e45c975a03c5143fa9dad1210cc8d61161e37e95c;aedb00b4e5a529bf8e623b6250e8bc1d3402263088d30914a766e07a14036220;564163feeda178b7540ca9668b8b053b7bda1b31a043528bfacec75c6d3c0641",
+        "event_id": "",
+        "forcing_family": "autumn_2021",
+        "role": "A",
+        "history_UTC": [
+          "2021-09-24T03:00:00Z",
+          "2021-09-24T04:00:00Z",
+          "2021-09-24T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-09-24T07:00:00Z",
+          "2021-09-24T09:00:00Z",
+          "2021-09-24T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+        "cutoff_UTC": "2021-09-24T18:00:00Z",
+        "support_start_UTC": "2021-09-24T15:00:00Z",
+        "support_end_exclusive_UTC": "2021-09-25T00:00:01Z",
+        "sample_ids": "5f886da646484ee321fc2db1469c7056d21526f3465a2688ab237718d1951010;1c3c8e51f75a3ac87228ecb7afd2577447487307f6d087043041360590517bfa;35cf3d7a6f977c0c33cd0f71325d7d356efef98a2d2df4ab72ba6955cbbfbf0c",
+        "event_id": "",
+        "forcing_family": "autumn_2021",
+        "role": "A",
+        "history_UTC": [
+          "2021-09-24T15:00:00Z",
+          "2021-09-24T16:00:00Z",
+          "2021-09-24T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-09-24T19:00:00Z",
+          "2021-09-24T21:00:00Z",
+          "2021-09-25T00:00:00Z"
+        ]
+      },
+      {
+        "run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+        "run": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run",
+        "cutoff_UTC": "2022-03-25T06:00:00Z",
+        "support_start_UTC": "2022-03-25T03:00:00Z",
+        "support_end_exclusive_UTC": "2022-03-25T12:00:01Z",
+        "sample_ids": "54ef3f7bfe1b2bfe48ac09cca5ea6522927729c9667323453d4f6b0c137d7def;69f521818d607d2fee45133e43078df5445ade059964d5a9dc5c2d6cad406ab7;5a94051bf4727694e4547378e3fd4d4a06882ed20d3ad0ca427e36f7ccfef0cd",
+        "event_id": "",
+        "forcing_family": "spring_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-03-25T03:00:00Z",
+          "2022-03-25T04:00:00Z",
+          "2022-03-25T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-03-25T07:00:00Z",
+          "2022-03-25T09:00:00Z",
+          "2022-03-25T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+        "run": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run",
+        "cutoff_UTC": "2022-03-25T18:00:00Z",
+        "support_start_UTC": "2022-03-25T15:00:00Z",
+        "support_end_exclusive_UTC": "2022-03-26T00:00:01Z",
+        "sample_ids": "91c733421145a99ec3ed556d6d11ea97fa93f3f2d4a56c18b57a32661d2dc62d;b96dcc838f248cbabee4b0fd837035d4212923617043f390a66b190145765c46;48de586a8da09eeed555fedcfddd44f24402baea21e28234b7c97619a95cb6f8",
+        "event_id": "",
+        "forcing_family": "spring_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-03-25T15:00:00Z",
+          "2022-03-25T16:00:00Z",
+          "2022-03-25T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-03-25T19:00:00Z",
+          "2022-03-25T21:00:00Z",
+          "2022-03-26T00:00:00Z"
+        ]
+      }
+    ],
+    "engineering_validation": [
+      {
+        "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+        "cutoff_UTC": "2022-09-23T06:00:00Z",
+        "support_start_UTC": "2022-09-23T03:00:00Z",
+        "support_end_exclusive_UTC": "2022-09-23T12:00:01Z",
+        "sample_ids": "54a0a7ee8b83f52443db492e2f11e02c82bb6a46977fcfa637472e0e337bb2eb;cca5eaffecab4c6f8ac8bb8df59f00482cfbde6f4d0c21e9d8f467becc7c38bc;07f906dd0ed90e0f0c1a21415eb1d06531d5719a522bc23b4f2264115d6d18e7",
+        "event_id": "",
+        "forcing_family": "autumn_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-09-23T03:00:00Z",
+          "2022-09-23T04:00:00Z",
+          "2022-09-23T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-09-23T07:00:00Z",
+          "2022-09-23T09:00:00Z",
+          "2022-09-23T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+        "cutoff_UTC": "2022-09-23T18:00:00Z",
+        "support_start_UTC": "2022-09-23T15:00:00Z",
+        "support_end_exclusive_UTC": "2022-09-24T00:00:01Z",
+        "sample_ids": "fd784580e17010bc235df1a79b053522826c6e27998af5b11a9b649078e402be;b023282899d8e6348cdad85a8729af527f166569cd42dc78c38792626557cf58;672f330b75e2638e693f10339692d8af55b2d59ffd52565eaa36c676ea19a285",
+        "event_id": "",
+        "forcing_family": "autumn_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-09-23T15:00:00Z",
+          "2022-09-23T16:00:00Z",
+          "2022-09-23T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-09-23T19:00:00Z",
+          "2022-09-23T21:00:00Z",
+          "2022-09-24T00:00:00Z"
+        ]
+      },
+      {
+        "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+        "cutoff_UTC": "2022-09-24T06:00:00Z",
+        "support_start_UTC": "2022-09-24T03:00:00Z",
+        "support_end_exclusive_UTC": "2022-09-24T12:00:01Z",
+        "sample_ids": "284d29efffaebfee9d281ddcf1b1e0fcba434351194073324a1b3e6bc043194e;819d794c22210220821816a190a0507d3a63d6a0492c6fb478b79c73795e6adc;858a43354b75530379f79d4ab4bc06d602aa07a7cc255e41420d6f6ef655020e",
+        "event_id": "",
+        "forcing_family": "autumn_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-09-24T03:00:00Z",
+          "2022-09-24T04:00:00Z",
+          "2022-09-24T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-09-24T07:00:00Z",
+          "2022-09-24T09:00:00Z",
+          "2022-09-24T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+        "cutoff_UTC": "2022-09-24T18:00:00Z",
+        "support_start_UTC": "2022-09-24T15:00:00Z",
+        "support_end_exclusive_UTC": "2022-09-25T00:00:01Z",
+        "sample_ids": "d46572731f7c4eb1936de4812ea9c2a766d0c0520fd0fe44460d7d292b22fb13;f1db2cc9db54e5fd9112a69c184af1fd04a8891f438ecaeb6e5c43361842dc9c;1c18a268e27ccfb80d618bbb9b3c519ef3cdd413d0eecea1b08d57456f28f886",
+        "event_id": "",
+        "forcing_family": "autumn_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-09-24T15:00:00Z",
+          "2022-09-24T16:00:00Z",
+          "2022-09-24T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-09-24T19:00:00Z",
+          "2022-09-24T21:00:00Z",
+          "2022-09-25T00:00:00Z"
+        ]
+      }
+    ]
+  },
+  "expanded_request": {
+    "train": [
+      {
+        "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+        "cutoff_UTC": "2021-09-23T06:00:00Z",
+        "support_start_UTC": "2021-09-23T03:00:00Z",
+        "support_end_exclusive_UTC": "2021-09-23T12:00:01Z",
+        "sample_ids": "b19d9365ebcb07085c4b27753f9295f34e06b0225486eed841bb58d8789f6b17;9521316694b4ae304de2bf5babff72e66f0d85ed912e47ca35336bd5bff76091;4916830a576e098cf7df84b0cf100fa4678b06746d4d4993571005af6c086545",
+        "event_id": "",
+        "forcing_family": "autumn_2021",
+        "role": "A",
+        "history_UTC": [
+          "2021-09-23T03:00:00Z",
+          "2021-09-23T04:00:00Z",
+          "2021-09-23T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-09-23T07:00:00Z",
+          "2021-09-23T09:00:00Z",
+          "2021-09-23T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+        "cutoff_UTC": "2021-09-23T18:00:00Z",
+        "support_start_UTC": "2021-09-23T15:00:00Z",
+        "support_end_exclusive_UTC": "2021-09-24T00:00:01Z",
+        "sample_ids": "8d0bf40bf486ce33b7956d66de0360bdf27e4953843047684da0d2b008d21c5c;587c8969334ece16ee335eb0e3870ffaa34b698f64e9086665335402bd9ce5e0;c8a6ea04d35568c3273c29d147c8bcaee54fd5063c185375c71be952ab88c13c",
+        "event_id": "",
+        "forcing_family": "autumn_2021",
+        "role": "A",
+        "history_UTC": [
+          "2021-09-23T15:00:00Z",
+          "2021-09-23T16:00:00Z",
+          "2021-09-23T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-09-23T19:00:00Z",
+          "2021-09-23T21:00:00Z",
+          "2021-09-24T00:00:00Z"
+        ]
+      },
+      {
+        "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+        "cutoff_UTC": "2021-09-24T06:00:00Z",
+        "support_start_UTC": "2021-09-24T03:00:00Z",
+        "support_end_exclusive_UTC": "2021-09-24T12:00:01Z",
+        "sample_ids": "52f321f922af0c0ec4661f9e45c975a03c5143fa9dad1210cc8d61161e37e95c;aedb00b4e5a529bf8e623b6250e8bc1d3402263088d30914a766e07a14036220;564163feeda178b7540ca9668b8b053b7bda1b31a043528bfacec75c6d3c0641",
+        "event_id": "",
+        "forcing_family": "autumn_2021",
+        "role": "A",
+        "history_UTC": [
+          "2021-09-24T03:00:00Z",
+          "2021-09-24T04:00:00Z",
+          "2021-09-24T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-09-24T07:00:00Z",
+          "2021-09-24T09:00:00Z",
+          "2021-09-24T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "18726974f5d3450ba61f82c23c8da3a0",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run",
+        "cutoff_UTC": "2021-09-24T18:00:00Z",
+        "support_start_UTC": "2021-09-24T15:00:00Z",
+        "support_end_exclusive_UTC": "2021-09-25T00:00:01Z",
+        "sample_ids": "5f886da646484ee321fc2db1469c7056d21526f3465a2688ab237718d1951010;1c3c8e51f75a3ac87228ecb7afd2577447487307f6d087043041360590517bfa;35cf3d7a6f977c0c33cd0f71325d7d356efef98a2d2df4ab72ba6955cbbfbf0c",
+        "event_id": "",
+        "forcing_family": "autumn_2021",
+        "role": "A",
+        "history_UTC": [
+          "2021-09-24T15:00:00Z",
+          "2021-09-24T16:00:00Z",
+          "2021-09-24T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-09-24T19:00:00Z",
+          "2021-09-24T21:00:00Z",
+          "2021-09-25T00:00:00Z"
+        ]
+      },
+      {
+        "run_id": "UNRESOLVED",
+        "run": "experiments/tiegcm_2021_spinup_14day_v1/A14",
+        "cutoff_UTC": "2021-03-23T06:00:00Z",
+        "support_start_UTC": "2021-03-23T03:00:00Z",
+        "support_end_exclusive_UTC": "2021-03-23T12:00:01Z",
+        "sample_ids": "a25a157d032de20b6e2efb1c2c4640ff477f8deaeb3dd12031054124c3c13c8b;52121eae592bd6f9bb09e975c58c3f74573762ed5ff8dc0901d36f9055932b2e;f5a0898f2aa1d815120b288eeda10fc3736c5f9b41883e611e071a114ecbd17d",
+        "event_id": "",
+        "forcing_family": "spring_2021",
+        "role": "D",
+        "history_UTC": [
+          "2021-03-23T03:00:00Z",
+          "2021-03-23T04:00:00Z",
+          "2021-03-23T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-03-23T07:00:00Z",
+          "2021-03-23T09:00:00Z",
+          "2021-03-23T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "UNRESOLVED",
+        "run": "experiments/tiegcm_2021_spinup_14day_v1/A14",
+        "cutoff_UTC": "2021-03-23T18:00:00Z",
+        "support_start_UTC": "2021-03-23T15:00:00Z",
+        "support_end_exclusive_UTC": "2021-03-24T00:00:01Z",
+        "sample_ids": "2a45da8af04f4ffe0ce8dee51484060d534942344371068d730906678c1c91db;86d556606d78fa5de62089e8d8fd0e73a8a62d4d25b1f47a5325ed7ef3ffc999;ec32aa3b1dd9a1bb1c56720f9642ac1866ad231ba0d592ee1b5a1788badf76f8",
+        "event_id": "",
+        "forcing_family": "spring_2021",
+        "role": "D",
+        "history_UTC": [
+          "2021-03-23T15:00:00Z",
+          "2021-03-23T16:00:00Z",
+          "2021-03-23T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-03-23T19:00:00Z",
+          "2021-03-23T21:00:00Z",
+          "2021-03-24T00:00:00Z"
+        ]
+      },
+      {
+        "run_id": "UNRESOLVED",
+        "run": "experiments/tiegcm_2021_spinup_14day_v1/A14",
+        "cutoff_UTC": "2021-03-24T06:00:00Z",
+        "support_start_UTC": "2021-03-24T03:00:00Z",
+        "support_end_exclusive_UTC": "2021-03-24T12:00:01Z",
+        "sample_ids": "3bce516f1f5aeb0636922e2f1b153f32b0e202963c0454780724e1814efadf85;3cd71b320095b940867606409d607a1f7ba801a9fa39a60916d08b734ca516fe;503a73007d6132c816549737b9af9aeb3e3f3d95e069210eddfaab5ab967a435",
+        "event_id": "",
+        "forcing_family": "spring_2021",
+        "role": "D",
+        "history_UTC": [
+          "2021-03-24T03:00:00Z",
+          "2021-03-24T04:00:00Z",
+          "2021-03-24T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-03-24T07:00:00Z",
+          "2021-03-24T09:00:00Z",
+          "2021-03-24T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "UNRESOLVED",
+        "run": "experiments/tiegcm_2021_spinup_14day_v1/A14",
+        "cutoff_UTC": "2021-03-24T18:00:00Z",
+        "support_start_UTC": "2021-03-24T15:00:00Z",
+        "support_end_exclusive_UTC": "2021-03-25T00:00:01Z",
+        "sample_ids": "bdbcf02d7f4cde4f59a0f203adcb1d0b6623414ba71ab5546ee95ffe30577757;4f475fb1ae1835dc5b382cd36ab8943dbeab2cc739934ee23ce85d70718696dd;9b93c9250aa25f04a19d00459e44400a8bfe0faf02c053b78fbd29ceef104cc0",
+        "event_id": "",
+        "forcing_family": "spring_2021",
+        "role": "D",
+        "history_UTC": [
+          "2021-03-24T15:00:00Z",
+          "2021-03-24T16:00:00Z",
+          "2021-03-24T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-03-24T19:00:00Z",
+          "2021-03-24T21:00:00Z",
+          "2021-03-25T00:00:00Z"
+        ]
+      },
+      {
+        "run_id": "UNRESOLVED",
+        "run": "experiments/tiegcm_2021_spinup_14day_v1/A14",
+        "cutoff_UTC": "2021-03-25T06:00:00Z",
+        "support_start_UTC": "2021-03-25T03:00:00Z",
+        "support_end_exclusive_UTC": "2021-03-25T12:00:01Z",
+        "sample_ids": "ed8c564289316d638e85f490d36c42c149317be541905e5b25565b8943d1a4ae;d1e86b9655f4f7ffe22250314b2377ebd3eb36843573163050206c42b353a096;f8df5cdbe0d67dd0753054012140f012642f24dfed284a57202b8b4e7c20437c",
+        "event_id": "",
+        "forcing_family": "spring_2021",
+        "role": "D",
+        "history_UTC": [
+          "2021-03-25T03:00:00Z",
+          "2021-03-25T04:00:00Z",
+          "2021-03-25T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-03-25T07:00:00Z",
+          "2021-03-25T09:00:00Z",
+          "2021-03-25T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "UNRESOLVED",
+        "run": "experiments/tiegcm_2021_spinup_14day_v1/A14",
+        "cutoff_UTC": "2021-03-25T18:00:00Z",
+        "support_start_UTC": "2021-03-25T15:00:00Z",
+        "support_end_exclusive_UTC": "2021-03-26T00:00:01Z",
+        "sample_ids": "08470bf2dc21cf542609a3d333a1da5d19bac66af953606ee744699dc039c9cf;0dc6f8738ce006ee5a4d3271a356a70420f7526aee9f4cfd4aef3ecf616fc107;5e2a58cf1d80c809ff299362f7cea366b46fdf9431455ce4d4ccf5a0aa9f33dd",
+        "event_id": "",
+        "forcing_family": "spring_2021",
+        "role": "D",
+        "history_UTC": [
+          "2021-03-25T15:00:00Z",
+          "2021-03-25T16:00:00Z",
+          "2021-03-25T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2021-03-25T19:00:00Z",
+          "2021-03-25T21:00:00Z",
+          "2021-03-26T00:00:00Z"
+        ]
+      },
+      {
+        "run_id": "UNRESOLVED",
+        "run": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14",
+        "cutoff_UTC": "2022-03-23T06:00:00Z",
+        "support_start_UTC": "2022-03-23T03:00:00Z",
+        "support_end_exclusive_UTC": "2022-03-23T12:00:01Z",
+        "sample_ids": "89bc132c1e22651e74c3049ee6271a5ef18b2cf5c20f2425d4688bdc1622a149;0d990de7e0291ce114ee2455c23580a8ed9b6dc6ecf3fc143b43e6ea99bfab33;e9f7fa686a429907cd087a77d35ad44595b3896918123437c79edeef181a971f",
+        "event_id": "",
+        "forcing_family": "spring_2022",
+        "role": "D",
+        "history_UTC": [
+          "2022-03-23T03:00:00Z",
+          "2022-03-23T04:00:00Z",
+          "2022-03-23T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-03-23T07:00:00Z",
+          "2022-03-23T09:00:00Z",
+          "2022-03-23T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "UNRESOLVED",
+        "run": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14",
+        "cutoff_UTC": "2022-03-23T18:00:00Z",
+        "support_start_UTC": "2022-03-23T15:00:00Z",
+        "support_end_exclusive_UTC": "2022-03-24T00:00:01Z",
+        "sample_ids": "3def11cf287e5836c0998c6fa765542fe74b055a49457f76715d5ab07c202ac1;a7da8c0d4a9103e058afa4adab4c62979d39d2a57f33ec0768a98d7b15d7262e;fc486bcf76865e3c180874de387c19fae9ee0c7c36347f65277aac5ccb134dbd",
+        "event_id": "",
+        "forcing_family": "spring_2022",
+        "role": "D",
+        "history_UTC": [
+          "2022-03-23T15:00:00Z",
+          "2022-03-23T16:00:00Z",
+          "2022-03-23T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-03-23T19:00:00Z",
+          "2022-03-23T21:00:00Z",
+          "2022-03-24T00:00:00Z"
+        ]
+      },
+      {
+        "run_id": "UNRESOLVED",
+        "run": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14",
+        "cutoff_UTC": "2022-03-24T06:00:00Z",
+        "support_start_UTC": "2022-03-24T03:00:00Z",
+        "support_end_exclusive_UTC": "2022-03-24T12:00:01Z",
+        "sample_ids": "1fe795ad1fd458dce3f0d2de60665b6d19aaf24ba473384c11c46bb177891519;3a0236f84c5226c627cf2d3707ac92a7e3e87c32f21eb8a28b40b902be569aa6;df2910011a70dc84a14fcc79b17e96fa52726400e63c6feab32da7b95eee8333",
+        "event_id": "",
+        "forcing_family": "spring_2022",
+        "role": "D",
+        "history_UTC": [
+          "2022-03-24T03:00:00Z",
+          "2022-03-24T04:00:00Z",
+          "2022-03-24T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-03-24T07:00:00Z",
+          "2022-03-24T09:00:00Z",
+          "2022-03-24T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "UNRESOLVED",
+        "run": "experiments/tiegcm_2022_b14_exploratory_pair_v2/B14",
+        "cutoff_UTC": "2022-03-24T18:00:00Z",
+        "support_start_UTC": "2022-03-24T15:00:00Z",
+        "support_end_exclusive_UTC": "2022-03-25T00:00:01Z",
+        "sample_ids": "6cc028a48eac19c7745b14336f740bb5e06d0323fab4a4c54b7bd4fcba4abd23;ea41c3c483156cd216ca14686202d14ceff0c362cfd6793c89c4e8fca5c440f6;efe1c6c43e4a7a5fffacd2ef1eb85d0ca040e5c5d67e73a0f9c7d2a9920c7ffa",
+        "event_id": "",
+        "forcing_family": "spring_2022",
+        "role": "D",
+        "history_UTC": [
+          "2022-03-24T15:00:00Z",
+          "2022-03-24T16:00:00Z",
+          "2022-03-24T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-03-24T19:00:00Z",
+          "2022-03-24T21:00:00Z",
+          "2022-03-25T00:00:00Z"
+        ]
+      },
+      {
+        "run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+        "run": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run",
+        "cutoff_UTC": "2022-03-25T06:00:00Z",
+        "support_start_UTC": "2022-03-25T03:00:00Z",
+        "support_end_exclusive_UTC": "2022-03-25T12:00:01Z",
+        "sample_ids": "54ef3f7bfe1b2bfe48ac09cca5ea6522927729c9667323453d4f6b0c137d7def;69f521818d607d2fee45133e43078df5445ade059964d5a9dc5c2d6cad406ab7;5a94051bf4727694e4547378e3fd4d4a06882ed20d3ad0ca427e36f7ccfef0cd",
+        "event_id": "",
+        "forcing_family": "spring_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-03-25T03:00:00Z",
+          "2022-03-25T04:00:00Z",
+          "2022-03-25T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-03-25T07:00:00Z",
+          "2022-03-25T09:00:00Z",
+          "2022-03-25T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+        "run": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run",
+        "cutoff_UTC": "2022-03-25T18:00:00Z",
+        "support_start_UTC": "2022-03-25T15:00:00Z",
+        "support_end_exclusive_UTC": "2022-03-26T00:00:01Z",
+        "sample_ids": "91c733421145a99ec3ed556d6d11ea97fa93f3f2d4a56c18b57a32661d2dc62d;b96dcc838f248cbabee4b0fd837035d4212923617043f390a66b190145765c46;48de586a8da09eeed555fedcfddd44f24402baea21e28234b7c97619a95cb6f8",
+        "event_id": "",
+        "forcing_family": "spring_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-03-25T15:00:00Z",
+          "2022-03-25T16:00:00Z",
+          "2022-03-25T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-03-25T19:00:00Z",
+          "2022-03-25T21:00:00Z",
+          "2022-03-26T00:00:00Z"
+        ]
+      }
+    ],
+    "engineering_validation": [
+      {
+        "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+        "cutoff_UTC": "2022-09-23T06:00:00Z",
+        "support_start_UTC": "2022-09-23T03:00:00Z",
+        "support_end_exclusive_UTC": "2022-09-23T12:00:01Z",
+        "sample_ids": "54a0a7ee8b83f52443db492e2f11e02c82bb6a46977fcfa637472e0e337bb2eb;cca5eaffecab4c6f8ac8bb8df59f00482cfbde6f4d0c21e9d8f467becc7c38bc;07f906dd0ed90e0f0c1a21415eb1d06531d5719a522bc23b4f2264115d6d18e7",
+        "event_id": "",
+        "forcing_family": "autumn_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-09-23T03:00:00Z",
+          "2022-09-23T04:00:00Z",
+          "2022-09-23T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-09-23T07:00:00Z",
+          "2022-09-23T09:00:00Z",
+          "2022-09-23T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+        "cutoff_UTC": "2022-09-23T18:00:00Z",
+        "support_start_UTC": "2022-09-23T15:00:00Z",
+        "support_end_exclusive_UTC": "2022-09-24T00:00:01Z",
+        "sample_ids": "fd784580e17010bc235df1a79b053522826c6e27998af5b11a9b649078e402be;b023282899d8e6348cdad85a8729af527f166569cd42dc78c38792626557cf58;672f330b75e2638e693f10339692d8af55b2d59ffd52565eaa36c676ea19a285",
+        "event_id": "",
+        "forcing_family": "autumn_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-09-23T15:00:00Z",
+          "2022-09-23T16:00:00Z",
+          "2022-09-23T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-09-23T19:00:00Z",
+          "2022-09-23T21:00:00Z",
+          "2022-09-24T00:00:00Z"
+        ]
+      },
+      {
+        "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+        "cutoff_UTC": "2022-09-24T06:00:00Z",
+        "support_start_UTC": "2022-09-24T03:00:00Z",
+        "support_end_exclusive_UTC": "2022-09-24T12:00:01Z",
+        "sample_ids": "284d29efffaebfee9d281ddcf1b1e0fcba434351194073324a1b3e6bc043194e;819d794c22210220821816a190a0507d3a63d6a0492c6fb478b79c73795e6adc;858a43354b75530379f79d4ab4bc06d602aa07a7cc255e41420d6f6ef655020e",
+        "event_id": "",
+        "forcing_family": "autumn_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-09-24T03:00:00Z",
+          "2022-09-24T04:00:00Z",
+          "2022-09-24T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-09-24T07:00:00Z",
+          "2022-09-24T09:00:00Z",
+          "2022-09-24T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "4a89e99eaee548f28240ea47f4b98e47",
+        "run": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run",
+        "cutoff_UTC": "2022-09-24T18:00:00Z",
+        "support_start_UTC": "2022-09-24T15:00:00Z",
+        "support_end_exclusive_UTC": "2022-09-25T00:00:01Z",
+        "sample_ids": "d46572731f7c4eb1936de4812ea9c2a766d0c0520fd0fe44460d7d292b22fb13;f1db2cc9db54e5fd9112a69c184af1fd04a8891f438ecaeb6e5c43361842dc9c;1c18a268e27ccfb80d618bbb9b3c519ef3cdd413d0eecea1b08d57456f28f886",
+        "event_id": "",
+        "forcing_family": "autumn_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-09-24T15:00:00Z",
+          "2022-09-24T16:00:00Z",
+          "2022-09-24T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-09-24T19:00:00Z",
+          "2022-09-24T21:00:00Z",
+          "2022-09-25T00:00:00Z"
+        ]
+      }
+    ]
+  },
+  "science_split_status": "BLOCKED: no new independent test or selection block",
+  "budget": {
+    "CPU_threads": 4,
+    "RSS_GiB": 4,
+    "max_seconds": 1800,
+    "minimal_float32_payload_MiB": 13.8,
+    "expanded_float32_payload_MiB": 34.4
+  }
+}

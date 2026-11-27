@@ -1,0 +1,170 @@
+[
+  {
+    "year": "2021",
+    "horizon": 1,
+    "net_sse_reduction": 8.194061686878768e-12,
+    "top_layers": [
+      0,
+      1,
+      2
+    ],
+    "top_layer_reductions": [
+      5.266149687975494e-12,
+      1.1608873636072285e-12,
+      1.1447087056416867e-12
+    ],
+    "top_layer_pct_net": [
+      64.26787946212598,
+      14.167422799198214,
+      13.969979106634261
+    ],
+    "worsened_sse": 0.0,
+    "worsened_layers": 0,
+    "worsened_log_layers": 0,
+    "log_sse_delta": -179.48409649800405,
+    "untrimmed_direct_log_rmse": 0.015581437544047408,
+    "top1pct_direct_log_sse_share": 0.15683429074335883,
+    "trim99_direct_log_rmse": 0.014378647815943647,
+    "trim99_persistence_log_rmse": 0.03317537509075487
+  },
+  {
+    "year": "2021",
+    "horizon": 3,
+    "net_sse_reduction": 2.3111701061525398e-11,
+    "top_layers": [
+      0,
+      1,
+      2
+    ],
+    "top_layer_reductions": [
+      1.5260236149137305e-11,
+      3.2706431499986705e-12,
+      2.996992381356675e-12
+    ],
+    "top_layer_pct_net": [
+      66.02818247135166,
+      14.151460082024807,
+      12.967424480692335
+    ],
+    "worsened_sse": 0.0,
+    "worsened_layers": 0,
+    "worsened_log_layers": 0,
+    "log_sse_delta": -492.6673251226754,
+    "untrimmed_direct_log_rmse": 0.03377332490356311,
+    "top1pct_direct_log_sse_share": 0.1350103369543765,
+    "trim99_direct_log_rmse": 0.03159555156817486,
+    "trim99_persistence_log_rmse": 0.05893002144774755
+  },
+  {
+    "year": "2021",
+    "horizon": 6,
+    "net_sse_reduction": 4.039078145588649e-11,
+    "top_layers": [
+      0,
+      2,
+      1
+    ],
+    "top_layer_reductions": [
+      2.8820603111475425e-11,
+      4.645538689800145e-12,
+      4.612318914360001e-12
+    ],
+    "top_layer_pct_net": [
+      71.35440828980336,
+      11.501482571892929,
+      11.41923663793786
+    ],
+    "worsened_sse": 0.0,
+    "worsened_layers": 0,
+    "worsened_log_layers": 0,
+    "log_sse_delta": -935.6241211764305,
+    "untrimmed_direct_log_rmse": 0.045648546670992614,
+    "top1pct_direct_log_sse_share": 0.13623832125878185,
+    "trim99_direct_log_rmse": 0.04268982465507491,
+    "trim99_persistence_log_rmse": 0.08139023223299895
+  },
+  {
+    "year": "2022",
+    "horizon": 1,
+    "net_sse_reduction": 8.224880858634858e-12,
+    "top_layers": [
+      0,
+      1,
+      2
+    ],
+    "top_layer_reductions": [
+      5.271044429522476e-12,
+      1.1900089982340176e-12,
+      1.1604498740903963e-12
+    ],
+    "top_layer_pct_net": [
+      64.08657487103527,
+      14.468404086178237,
+      14.10901743181
+    ],
+    "worsened_sse": 9.258328931377197e-16,
+    "worsened_layers": 21,
+    "worsened_log_layers": 21,
+    "log_sse_delta": 693.2836146688012,
+    "untrimmed_direct_log_rmse": 0.07289822990863157,
+    "top1pct_direct_log_sse_share": 0.05178880375423069,
+    "trim99_direct_log_rmse": 0.0714994582614416,
+    "trim99_persistence_log_rmse": 0.0411406930856641
+  },
+  {
+    "year": "2022",
+    "horizon": 3,
+    "net_sse_reduction": 2.3165023082166983e-11,
+    "top_layers": [
+      0,
+      1,
+      2
+    ],
+    "top_layer_reductions": [
+      1.5269742787280046e-11,
+      3.3459402202777825e-12,
+      3.0291338860380522e-12
+    ],
+    "top_layer_pct_net": [
+      65.91723536435877,
+      14.443932166221632,
+      13.076325783460822
+    ],
+    "worsened_sse": 1.1829159191465399e-14,
+    "worsened_layers": 22,
+    "worsened_log_layers": 22,
+    "log_sse_delta": 7278.950250278051,
+    "untrimmed_direct_log_rmse": 0.20872259385343717,
+    "top1pct_direct_log_sse_share": 0.04498910520240328,
+    "trim99_direct_log_rmse": 0.20544057028273116,
+    "trim99_persistence_log_rmse": 0.07492871649413801
+  },
+  {
+    "year": "2022",
+    "horizon": 6,
+    "net_sse_reduction": 4.020667123359686e-11,
+    "top_layers": [
+      0,
+      2,
+      1
+    ],
+    "top_layer_reductions": [
+      2.8821620319280487e-11,
+      4.620100678495972e-12,
+      4.612021383379469e-12
+    ],
+    "top_layer_pct_net": [
+      71.68367694960288,
+      11.49088083331653,
+      11.470786418960357
+    ],
+    "worsened_sse": 5.358988807604174e-14,
+    "worsened_layers": 23,
+    "worsened_log_layers": 23,
+    "log_sse_delta": 20028.33998448329,
+    "untrimmed_direct_log_rmse": 0.3409467204045099,
+    "top1pct_direct_log_sse_share": 0.03591986576009361,
+    "trim99_direct_log_rmse": 0.3370193292587708,
+    "trim99_persistence_log_rmse": 0.10835259585040832
+  }
+]

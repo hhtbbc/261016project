@@ -1,0 +1,23 @@
+{
+  "main": {
+    "distinct_targets": 24,
+    "cutoffs": 8,
+    "weights_SHA256": "c0c592e38c8bac9431a71f43f4b6358c8e125be724c9787fc46f0620c7136c53",
+    "max_relative_layer_closure": 8.881784197001252e-16,
+    "frozen_global_metrics_checked": 24,
+    "threads": 4,
+    "seconds": 6.044679559767246,
+    "peak_RSS_KiB": 202504,
+    "new_DEN_labels": 0,
+    "Swarm_reads": 0,
+    "training": 0,
+    "GPU": 0,
+    "integrations": 0
+  },
+  "verification_plot_seconds": 2.195100001990795,
+  "verification_plot_peak_RSS_KiB": 267364,
+  "GPU": 0,
+  "new_training": 0,
+  "new_integrations": 0,
+  "new_label_decodes": 0
+}

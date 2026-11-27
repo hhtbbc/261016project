@@ -1,0 +1,18 @@
+{
+  "quiet_Kp_max": 2.0,
+  "quiet_min_hours": 48,
+  "disturbed_Kp_min": 5.0,
+  "merge_disturbed_gap_hours": 72,
+  "disturbed_pre_hours": 24,
+  "disturbed_post_hours": 48,
+  "minimum_between_event_supports_hours": 72,
+  "minimum_elapsed_spinup_days": 14,
+  "moderate_or_unclassified": "Exclude from quiet/disturbed claims, retain metadata",
+  "selection": "Kp and source metadata only; class thresholds fixed before new DEN decoding",
+  "validation_roles": [
+    "TRAIN",
+    "MODEL_SELECTION_VALIDATION",
+    "LOCKED_INDEPENDENT_TEST"
+  ],
+  "scientific_independence": "No historical analysis or model selection exposure; whole events, runs and forcing families cannot straddle assignments"
+}

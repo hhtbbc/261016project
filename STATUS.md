@@ -878,3 +878,7 @@ V59_NATIVE_DENSITY_BASELINES_COMPLETE_VERIFIED。24 个真实秋季模型端点�
 ## 2026-11-27 V60 小型 Direct CPU 工程验证
 
 V60_TINY_DIRECT_CPU_ENGINEERING_COMPLETE_VERIFIED。固定 80 步、1,027 参数，2022 三时效绝对 RMSE 低于三基线，log RMSE 全部更高且层位与极区退化。独立复核通过，保留 Physics/HINDCAST 局限和 V37 门禁。V61 优先扩大合法独立日期和地磁事件。入口 reports/THERMOSPHERE_TINY_DIRECT_CPU_V60.md。
+
+## 2026-11-27 V61 跨年失效与独立事件
+
+V61 误差归因已复核。底部三层占 2022 绝对 SSE 净改善 92.66%–94.65%，删最坏 1% 后 log 误差仍退化。20 个保守预热截点中 8 已用、12 待申请，严格静稳/扰动独立候选均为 0。保持 V37 与 Swarm 门禁。入口 reports/THERMOSPHERE_DIRECT_FAILURE_AND_EVENT_DESIGN_V61.md。

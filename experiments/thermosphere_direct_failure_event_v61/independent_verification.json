@@ -1,0 +1,27 @@
+{
+  "SSE_blocks": 6,
+  "max_independent_relative_layer_closure": 4.6629367034256575e-15,
+  "normalization_layers": 29,
+  "training_runs": 0,
+  "split_modes_checked": 2,
+  "synthetic_event_controls": 3,
+  "event_thresholds": {
+    "quiet_Kp_max": 2.0,
+    "quiet_min_hours": 48,
+    "disturbed_Kp_min": 5.0,
+    "merge_disturbed_gap_hours": 72,
+    "disturbed_pre_hours": 24,
+    "disturbed_post_hours": 48,
+    "minimum_between_event_supports_hours": 72,
+    "minimum_elapsed_spinup_days": 14,
+    "moderate_or_unclassified": "Exclude from quiet/disturbed claims, retain metadata",
+    "selection": "Kp and source metadata only; class thresholds fixed before new DEN decoding",
+    "validation_roles": [
+      "TRAIN",
+      "MODEL_SELECTION_VALIDATION",
+      "LOCKED_INDEPENDENT_TEST"
+    ],
+    "scientific_independence": "No historical analysis or model selection exposure; whole events, runs and forcing families cannot straddle assignments"
+  },
+  "status": "VERIFIED"
+}

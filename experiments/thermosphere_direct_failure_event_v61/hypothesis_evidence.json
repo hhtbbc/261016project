@@ -1,0 +1,49 @@
+{
+  "H1": {
+    "status": "SUPPORTED",
+    "bottom_three_pct_net": [
+      92.66399638902351,
+      93.43749331404123,
+      94.64534420187977
+    ],
+    "worse_layer_counts": [
+      21,
+      22,
+      23
+    ]
+  },
+  "H2": {
+    "status": "SUPPORTED",
+    "num_layers_abs_mean_at_least_one": 23,
+    "num_layers_abs_mean_at_least_three": 19,
+    "largest_abs_mean": 4.519417519416773,
+    "causal": "not identifiable"
+  },
+  "H3": {
+    "status": "INCONCLUSIVE",
+    "notes": "Shared parameters and pressure-localized error establish an association. Requires single-factor ilev-conditioned control."
+  },
+  "H4": {
+    "status": "PARTIALLY_SUPPORTED",
+    "notes": "Polar degradation is observed, also occurs away from latitude boundaries; reflected-padding causation needs an ablation."
+  },
+  "H5": {
+    "status": "SUPPORTED",
+    "mean_cutoff_global_log_bias": [
+      0.05924091193081521,
+      0.17385454266949396,
+      0.29078607564989306
+    ],
+    "mean_cutoff_index10_residual_rms_amplification_at_6h": 7.773063152624175,
+    "strongest_tail_fraction": 0.01,
+    "direct_log_sse_tail_share": [
+      0.05178880375423069,
+      0.04498910520240328,
+      0.03591986576009361
+    ]
+  },
+  "H6": {
+    "status": "PARTIALLY_SUPPORTED",
+    "notes": "Four correlated training cutoffs and a strong log-error gap indicate risk; distribution shift versus overfit cannot be isolated."
+  }
+}

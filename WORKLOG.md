@@ -1528,3 +1528,7 @@ NCAR 服务器专项使用冻结 CPU 环境运行 download_ncar_v40.py --downloa
 ## 2026-11-27 V60 真实模型密度小型 Direct
 
 activate_tiegcm.sh 环境运行 train_tiny_direct_v60.py、evaluate_tiny_direct_v60.py、verify_tiny_direct_v60.py 和 plot_tiny_direct_v60.py。核验 V59 与 32 卷 SHA，按 V60 授权重用 2021/2022 各四个截点。CPU 80 步、13.56 秒、峰 588248 KiB，独立复算 396 条模型指标，匹配 1188 条 V59 年份子集。2022 目标在预测锁后才打开。正值覆盖 100%，绝对误差下降且 log 误差上升。GPU、Swarm、新积分、正式评分为零。成果见 experiments/thermosphere_tiny_direct_cpu_v60/。
+
+## 2026-11-27 V61 冻结 V60 误差归因与地磁事件
+
+在 activate_tiegcm.sh 环境执行三个 v61 分析/元数据/复核脚本。只读复用 24 个授权 DEN 目标和预测，分解逐层/纬区 SSE 和残差，按 definitive Kp 编目。独立归约与归一化复核通过，合成缺桶夹具补齐后通过。没有新模型 DEN 解码、Swarm、网络训练、GPU、积分、评分或外发。V55 staging 无回件。下一轮优先受权增独立事件、廉价基线，避免按旧验证调参。结果 experiments/thermosphere_direct_failure_event_v61/。

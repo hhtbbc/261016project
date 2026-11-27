@@ -1,0 +1,87 @@
+{
+  "metadata_endpoints": 539,
+  "metadata_cutoffs": 180,
+  "complete_three_lead_cutoffs": 179,
+  "warm_nonsealed_cutoffs": 20,
+  "already_authorized_diagnostic_cutoffs": 8,
+  "additional_candidate_cutoffs": 12,
+  "warm_cutoffs_with_verified_native_identity": 10,
+  "warm_dates": 10,
+  "events_with_any_model_cutoff": {
+    "quiet": 7,
+    "disturbed": 1
+  },
+  "events_with_warm_nonsealed_cutoff": {},
+  "classified_warm_cutoffs": {
+    "unclassified": 20
+  },
+  "proven_independent_test_events": 0,
+  "FourCastDEN_archive_dates": [
+    "2023-01-04",
+    "2023-03-23",
+    "2023-03-24",
+    "2023-06-21",
+    "2023-09-23",
+    "2023-12-21"
+  ],
+  "kp_sources": [
+    {
+      "source": "data/raw/meeting_sources/gfz_Kp_candidate.txt",
+      "sha256": "e259e9538686e9ef34a0ec14514007365d5ace8a04751b93d44ca3b002932ed7",
+      "definitive_bins": 25
+    },
+    {
+      "source": "data/raw/meeting_sources/gfz_Kp_extended_support.txt",
+      "sha256": "2b0e4fb21e0b5a56e675a5b31a2ba3d966ea71bf0580f80ffa7a3cb944978ecb",
+      "definitive_bins": 105
+    },
+    {
+      "source": "data/raw/meeting_sources/gfz_Kp_preconditioning.txt",
+      "sha256": "dc30d23193fdd964206c8dd5b88745b7b77fa66275d603e2dc627e76a8a3ac63",
+      "definitive_bins": 73
+    },
+    {
+      "source": "data/raw/thermosphere_autumn_data_acquisition_v21/GFZ_Kp_def_20220907_20220927.json",
+      "sha256": "df6aff3f776881803f4d01227a8dd7593367d43271f50b43341b8297e6af99fb",
+      "definitive_bins": 168
+    },
+    {
+      "source": "data/raw/thermosphere_summer_data_acquisition_v38/Kp_2022-06-05_2022-06-25.json",
+      "sha256": "ff0e70b81ea3e32b323adbba211edc73d7d35c2b60e26d4b8117c9d2307334bd",
+      "definitive_bins": 168
+    },
+    {
+      "source": "data/raw/thermosphere_summer_spinup_add7_v50/Kp_2022-05-29_2022-06-04.json",
+      "sha256": "12d05f36b048d6578b6b92acf18b170d1968817b7ce425758d685b68c4505d78",
+      "definitive_bins": 56
+    },
+    {
+      "source": "data/raw/tiegcm2023_sources/gfz_Kp_mar25.json",
+      "sha256": "b48c1d48bf43b7bad7b7fb79ea655350f9ba6b1be6db0a980146791583b1dc26",
+      "definitive_bins": 7
+    },
+    {
+      "source": "data/raw/tiegcm_2022_spinup_14day_v1/Kp_extension.json",
+      "sha256": "223ed5b584b6fd3db8642c61f266d0eddc4893d6f23d8441a714aab8a2b643de",
+      "definitive_bins": 56
+    },
+    {
+      "source": "data/raw/tiegcm_training_years_v1/2022_Kp.json",
+      "sha256": "9ed616a8b8e8fceb56b41bc7f243b5f0f518e233505cd97632004bf8e02b25f5",
+      "definitive_bins": 112
+    },
+    {
+      "source": "data/raw/training_window_mar23_v2/2022_Kp_additional.json",
+      "sha256": "d38b7d3da6be7cab0bd01505740f0c64c491e093f1d3f72801e42a0317842d62",
+      "definitive_bins": 104
+    },
+    {
+      "source": "data/raw/f107_2021_recovery_v1/gfz_year.txt",
+      "sha256": "f969f23b0b0d4aba80dca6f35d3e95c2d35a7e482457bc1812e5c0827090caae",
+      "definitive_bins": 2920
+    }
+  ],
+  "minimum_train_cutoffs": 4,
+  "planned_expanded_train_cutoffs": 16,
+  "engineering_validation_already_used_cutoffs": 4
+}
