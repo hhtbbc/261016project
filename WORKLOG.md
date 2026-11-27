@@ -1532,3 +1532,7 @@ activate_tiegcm.sh 环境运行 train_tiny_direct_v60.py、evaluate_tiny_direct_
 ## 2026-11-27 V61 冻结 V60 误差归因与地磁事件
 
 在 activate_tiegcm.sh 环境执行三个 v61 分析/元数据/复核脚本。只读复用 24 个授权 DEN 目标和预测，分解逐层/纬区 SSE 和残差，按 definitive Kp 编目。独立归约与归一化复核通过，合成缺桶夹具补齐后通过。没有新模型 DEN 解码、Swarm、网络训练、GPU、积分、评分或外发。V55 staging 无回件。下一轮优先受权增独立事件、廉价基线，避免按旧验证调参。结果 experiments/thermosphere_direct_failure_event_v61/。
+
+## 2026-11-27 V62 独立生产配置与廉价基线
+
+通过 GFZ HTTPS 下载官方综合快照，用冻结事件规则生产候选、三规模估算和 q/d 短目录配置。长路径预检拒绝 123 字节后恢复至 103 字节，无启动。运行三个 v62 Python 入口锁定并评价三种新基线，独立重算 24 组预测并核验 45 GPI 日。无 GPU、新积分、训练、未授权 DEN 或 Swarm。V55 无新交接，旧10个原生运行身份未找到。成果见 experiments/thermosphere_independent_event_production_v62/。

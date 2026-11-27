@@ -1,0 +1,120 @@
+{
+  "A": {
+    "roles": {
+      "LOCKED_INDEPENDENT_TEST": [
+        "quiet_20230502T12",
+        "disturbed_20230520T00"
+      ]
+    },
+    "events": 2,
+    "quiet": 1,
+    "disturbed": 1,
+    "strong": 0,
+    "years": [
+      "2023"
+    ],
+    "seasons": [
+      "MAM"
+    ],
+    "cutoffs": 7,
+    "targets": 21,
+    "estimated_wall_hours": 1.4983611111111113,
+    "estimated_native_GiB": 6.868830807507038
+  },
+  "B": {
+    "roles": {
+      "LOCKED_INDEPENDENT_TEST": [
+        "quiet_20230502T12",
+        "disturbed_20230520T00"
+      ],
+      "TRAIN": [
+        "quiet_20240329T00",
+        "quiet_20211125T06",
+        "disturbed_20250915T00",
+        "disturbed_20210301T03"
+      ],
+      "MODEL_SELECTION_VALIDATION": [
+        "quiet_20220301T21",
+        "disturbed_20211103T21"
+      ]
+    },
+    "events": 8,
+    "quiet": 4,
+    "disturbed": 4,
+    "strong": 1,
+    "years": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "seasons": [
+      "MAM",
+      "SON"
+    ],
+    "cutoffs": 22,
+    "targets": 66,
+    "estimated_wall_hours": 5.822222222222222,
+    "estimated_native_GiB": 26.69031399488449
+  },
+  "C": {
+    "roles": {
+      "LOCKED_INDEPENDENT_TEST": [
+        "quiet_20230502T12",
+        "disturbed_20230520T00",
+        "disturbed_20231105T09",
+        "quiet_20231009T21"
+      ],
+      "TRAIN": [
+        "quiet_20240329T00",
+        "quiet_20211125T06",
+        "disturbed_20250915T00",
+        "disturbed_20210301T03",
+        "disturbed_20220414T15",
+        "disturbed_20240416T18",
+        "disturbed_20250415T15",
+        "disturbed_20250529T00",
+        "quiet_20240527T15",
+        "quiet_20220509T06",
+        "quiet_20241024T09",
+        "quiet_20251025T09"
+      ],
+      "MODEL_SELECTION_VALIDATION": [
+        "quiet_20220301T21",
+        "disturbed_20211103T21",
+        "disturbed_20230902T12",
+        "disturbed_20251112T00",
+        "quiet_20211006T21",
+        "quiet_20221121T06"
+      ]
+    },
+    "events": 22,
+    "quiet": 11,
+    "disturbed": 11,
+    "strong": 6,
+    "years": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "seasons": [
+      "MAM",
+      "SON"
+    ],
+    "cutoffs": 93,
+    "targets": 279,
+    "estimated_wall_hours": 16.995694444444442,
+    "estimated_native_GiB": 77.9121665880084
+  },
+  "C_goal": "24 events; actual design availability tabulated; engineering start only, not a power claim",
+  "comparison": {
+    "A_event_cold_start": "Matched physical setup and simple leakage isolation; preferred first",
+    "B_continuous": "Only within same role; integrate gaps only when cheaper than another 14-day spin-up",
+    "C_extraction": "Keep all native outputs initially, after acceptance store selected-hour DEN plus headers; no new continuous restart",
+    "D_archive": "GDEX d947640 covers 2014-2024 but TIEGCM 3.0, 2.5 deg, 15 min; separate transfer study, not native 2.0 substitute"
+  },
+  "statistical_contract": "06Z/18Z design; optional hourly windows increase within-event correlation, never independent event n"
+}

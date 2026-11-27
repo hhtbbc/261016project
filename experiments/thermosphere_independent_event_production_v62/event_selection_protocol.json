@@ -1,0 +1,16 @@
+{
+  "years": [
+    2021,
+    2025
+  ],
+  "disturbed_subclasses": "moderate peak [5,7), strong peak >=7; V61 disturbed class unchanged",
+  "event_windows": "all complete 06Z/18Z cutoffs with history t-3 through target t+6 inside the core",
+  "spinup_days": 14,
+  "force_padding_days": 2,
+  "centered_solar_days": 81,
+  "candidate_max_days": 29,
+  "pair_rank": "same year/same equinox seed season; disjoint complete integrations; closest core centers; moderate preferred only as final tie breaker",
+  "ensemble_rank": "pair then two independent quiet/moderate/strong as available; event-support spacing >=72h; no cross-role integration overlap",
+  "season_eligibility": "MAM/SON for mareqx_smax candidate; same seed for paired runs, distinguish spinup from convergence",
+  "provenance": "exclude whole V58 model date ranges with 72h edge, V37 dates and known FourCastDEN dates; no guaranteed absence outside indexed local history"
+}

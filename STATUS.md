@@ -882,3 +882,7 @@ V60_TINY_DIRECT_CPU_ENGINEERING_COMPLETE_VERIFIED。固定 80 步、1,027 参数
 ## 2026-11-27 V61 跨年失效与独立事件
 
 V61 误差归因已复核。底部三层占 2022 绝对 SSE 净改善 92.66%–94.65%，删最坏 1% 后 log 误差仍退化。20 个保守预热截点中 8 已用、12 待申请，严格静稳/扰动独立候选均为 0。保持 V37 与 Swarm 门禁。入口 reports/THERMOSPHERE_DIRECT_FAILURE_AND_EVENT_DESIGN_V61.md。
+
+## 2026-11-27 V62 独立事件与无训练基线
+
+V62 完成 GFZ 驱动及两份静态预检：2023-05-02 静稳、2023-05-20 中等扰动，均无新积分。冻结旧秋季比较中地方时旋转基线改善全层绝对及 log RMSE，仍需独立事件验证。V63 先申请两次 CPU 冷启动，标签另授权。入口 reports/THERMOSPHERE_INDEPENDENT_EVENT_PRODUCTION_AND_BASELINES_V62.md。

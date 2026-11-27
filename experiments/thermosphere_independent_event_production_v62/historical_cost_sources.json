@@ -1,0 +1,52 @@
+{
+  "measured": [
+    {
+      "id": "autumn_2021",
+      "days": 16,
+      "elapsed_s": 2444.204256169498,
+      "nc_bytes": 3371588992,
+      "mpi_ranks": 4,
+      "omp_threads": 1,
+      "source": "experiments/thermosphere_autumn_mareqx_config_v23/2021/actual_run/status.json"
+    },
+    {
+      "id": "autumn_2022",
+      "days": 16,
+      "elapsed_s": 2441.9273071177304,
+      "nc_bytes": 3371588992,
+      "mpi_ranks": 4,
+      "omp_threads": 1,
+      "source": "experiments/thermosphere_autumn_mareqx_config_v23/2022/actual_run/status.json"
+    },
+    {
+      "id": "summer14_spinup_plus_2d",
+      "days": 16,
+      "elapsed_s": 2465.8657588772476,
+      "nc_bytes": 3371581952,
+      "mpi_ranks": 4,
+      "omp_threads": 1,
+      "source": "experiments/thermosphere_summer_seed_execution_v48/result.json"
+    },
+    {
+      "id": "summer21_spinup_plus_2d_A",
+      "days": 23,
+      "elapsed_s": 3459.560101661831,
+      "nc_bytes": 4839214612,
+      "mpi_ranks": 4,
+      "omp_threads": 1,
+      "source": "experiments/thermosphere_summer_spinup_add7_execution_v51/engineering_A.json"
+    },
+    {
+      "id": "summer21_spinup_plus_2d_B",
+      "days": 23,
+      "elapsed_s": 3456.87465634197,
+      "nc_bytes": 4839214612,
+      "mpi_ranks": 4,
+      "omp_threads": 1,
+      "source": "experiments/thermosphere_summer_spinup_add7_execution_v51/engineering_B.json"
+    }
+  ],
+  "estimate_wall_seconds_per_day": 154.11660992982797,
+  "estimate_bytes_per_day": 210724312.0,
+  "caveat": "Scaling at 4 MPI ranks, OMP=1; no guarantee; 25% extra runtime and disk buffer requested"
+}

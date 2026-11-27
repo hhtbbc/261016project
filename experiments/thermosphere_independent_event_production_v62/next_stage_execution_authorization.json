@@ -1,0 +1,164 @@
+{
+  "state": "NOT_AUTHORIZED",
+  "requested_action": "V63 one cold-start CPU launch per listed event, via audited supervisor",
+  "signed_config_manifest_sha256": "ccb988a77ac16ff3bcc427446cd57371bfaf615c34f682eb2b0f9ac2f2af5264",
+  "accepted_after_run": "Seal current targets; approve DEN evaluation separately and freeze preregistered baselines",
+  "runs": [
+    {
+      "event_id": "quiet_20230502T12",
+      "start": "2023-04-18T00:00:00Z",
+      "end": "2023-05-05T00:00:00Z",
+      "days": 17,
+      "steps_60s": 24480,
+      "primary_volumes": 18,
+      "secondary_volumes": 17,
+      "hourly_DEN_frames": 408,
+      "cutoff_count": 4,
+      "targets": 12,
+      "estimated_wall_s": 2620.0,
+      "rank_hours_at_4": 2.911,
+      "estimated_native_bytes": 3582313304,
+      "estimates_only": true,
+      "cutoff_UTC": [
+        "2023-05-02T18:00:00Z",
+        "2023-05-03T06:00:00Z",
+        "2023-05-03T18:00:00Z",
+        "2023-05-04T06:00:00Z"
+      ],
+      "history_hours": [
+        -3,
+        -2,
+        -1
+      ],
+      "target_hours": [
+        1,
+        3,
+        6
+      ],
+      "fields": [
+        "DEN",
+        "time",
+        "lat",
+        "lon",
+        "ilev"
+      ],
+      "role": "LOCKED_INDEPENDENT_TEST_CANDIDATE"
+    },
+    {
+      "event_id": "disturbed_20230520T00",
+      "start": "2023-05-06T00:00:00Z",
+      "end": "2023-05-24T00:00:00Z",
+      "days": 18,
+      "steps_60s": 25920,
+      "primary_volumes": 19,
+      "secondary_volumes": 18,
+      "hourly_DEN_frames": 432,
+      "cutoff_count": 3,
+      "targets": 9,
+      "estimated_wall_s": 2774.1,
+      "rank_hours_at_4": 3.082,
+      "estimated_native_bytes": 3793037616,
+      "estimates_only": true,
+      "cutoff_UTC": [
+        "2023-05-20T06:00:00Z",
+        "2023-05-20T18:00:00Z",
+        "2023-05-21T06:00:00Z"
+      ],
+      "history_hours": [
+        -3,
+        -2,
+        -1
+      ],
+      "target_hours": [
+        1,
+        3,
+        6
+      ],
+      "fields": [
+        "DEN",
+        "time",
+        "lat",
+        "lon",
+        "ilev"
+      ],
+      "role": "LOCKED_INDEPENDENT_TEST_CANDIDATE"
+    }
+  ],
+  "parallel_development_label_request": {
+    "identity": {
+      "run": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run",
+      "native_run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+      "identity_state": "VERIFIED_ARCHIVE_WITH_NATIVE_ID",
+      "evidence": {
+        "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run/launch_once.json": "7cceefd7a8115aaebc45f8665a340e56bd83015a45110f336dc0e83ea2ad20dc",
+        "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run/status.json": "c7a8c234aa2b49e50c11e4cc932c76528711028e716a7c8f45a6d594455c3ccd"
+      },
+      "archive_output_manifest_sha": "47c0a392115449a1eb73af94dc4bb78507bea4e43130b7335af9e75218dbe9ab"
+    },
+    "exact_scope": [
+      {
+        "run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+        "run": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run",
+        "cutoff_UTC": "2022-03-25T06:00:00Z",
+        "support_start_UTC": "2022-03-25T03:00:00Z",
+        "support_end_exclusive_UTC": "2022-03-25T12:00:01Z",
+        "sample_ids": "54ef3f7bfe1b2bfe48ac09cca5ea6522927729c9667323453d4f6b0c137d7def;69f521818d607d2fee45133e43078df5445ade059964d5a9dc5c2d6cad406ab7;5a94051bf4727694e4547378e3fd4d4a06882ed20d3ad0ca427e36f7ccfef0cd",
+        "event_id": "",
+        "forcing_family": "spring_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-03-25T03:00:00Z",
+          "2022-03-25T04:00:00Z",
+          "2022-03-25T05:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-03-25T07:00:00Z",
+          "2022-03-25T09:00:00Z",
+          "2022-03-25T12:00:00Z"
+        ]
+      },
+      {
+        "run_id": "094fcac3949c4e2e981d3baac1a5d8bf",
+        "run": "experiments/tiegcm_2022_mar25_execution_review_v1/actual_run",
+        "cutoff_UTC": "2022-03-25T18:00:00Z",
+        "support_start_UTC": "2022-03-25T15:00:00Z",
+        "support_end_exclusive_UTC": "2022-03-26T00:00:01Z",
+        "sample_ids": "91c733421145a99ec3ed556d6d11ea97fa93f3f2d4a56c18b57a32661d2dc62d;b96dcc838f248cbabee4b0fd837035d4212923617043f390a66b190145765c46;48de586a8da09eeed555fedcfddd44f24402baea21e28234b7c97619a95cb6f8",
+        "event_id": "",
+        "forcing_family": "spring_2022",
+        "role": "A",
+        "history_UTC": [
+          "2022-03-25T15:00:00Z",
+          "2022-03-25T16:00:00Z",
+          "2022-03-25T17:00:00Z"
+        ],
+        "target_UTC": [
+          "2022-03-25T19:00:00Z",
+          "2022-03-25T21:00:00Z",
+          "2022-03-26T00:00:00Z"
+        ]
+      }
+    ],
+    "fields": [
+      "DEN",
+      "time",
+      "lat",
+      "lon",
+      "ilev"
+    ],
+    "role": "HISTORICAL_DEVELOPMENT_NOT_INDEPENDENT_TEST"
+  },
+  "launcher": {
+    "method": "Existing project audited MPI supervisor adapted to each prepared directory",
+    "projectroot": "/workspace/data/20261016",
+    "mpi_ranks": 4,
+    "omp_threads": 1,
+    "cuda_visible_devices": "",
+    "prelaunch": [
+      "Recheck GPI/seed/deck/ELF SHAs and resource availability",
+      "Gate explicit V63 approval per event",
+      "Ensure no prior launch or output; store exit/rank receipts and retain failed attempts"
+    ],
+    "never_automatic": true
+  }
+}

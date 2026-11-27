@@ -1,0 +1,47 @@
+{
+  "preflight_runs": [
+    {
+      "event_id": "quiet_20230502T12",
+      "directory": "experiments/thermosphere_independent_event_production_v62/data_local/q",
+      "template_SHA256": "f01f3913f9f15b79132fe8f824c7ce9f5ce7c4c1b6591c9622be184ee7b0fa49",
+      "seed_original": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+      "seed_sha256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "GPI_sha256": "1f919053cd7912f2cef066c51e9aa40d506f51cfcd4df1b5aece300d55145cd6",
+      "input_sha256": "e37a8780e9f21068f39591989b8290c2b51c44febe0261616577fac1b0b4f14a",
+      "model_ELF_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+      "source_path_bytes": 103,
+      "all_local_inputs_present": true,
+      "source_day80_from_equinox": true,
+      "den_fields_metadata_only": true,
+      "preflight": "Static verified; model executable not invoked; V63 authorization and supervisor required",
+      "post_run_acceptance": "exact registered 60s steps, exit/rank success, output cadence/shape/units/SHA and confirmed forcing; DEN sealed after indexing"
+    },
+    {
+      "event_id": "disturbed_20230520T00",
+      "directory": "experiments/thermosphere_independent_event_production_v62/data_local/d",
+      "template_SHA256": "f01f3913f9f15b79132fe8f824c7ce9f5ce7c4c1b6591c9622be184ee7b0fa49",
+      "seed_original": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+      "seed_sha256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "GPI_sha256": "1b413881cf86bcb8c600be98bf22fef481cf669c8fabc4a8713f1fd080f363ae",
+      "input_sha256": "85de066c0ce65bf6834c9a476d3c5d2e3e43b5b61114aca27121650aaba5cb21",
+      "model_ELF_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+      "source_path_bytes": 103,
+      "all_local_inputs_present": true,
+      "source_day80_from_equinox": true,
+      "den_fields_metadata_only": true,
+      "preflight": "Static verified; model executable not invoked; V63 authorization and supervisor required",
+      "post_run_acceptance": "exact registered 60s steps, exit/rank success, output cadence/shape/units/SHA and confirmed forcing; DEN sealed after indexing"
+    }
+  ],
+  "launch_count": 0,
+  "ELF": "experiments/tiegcm2_apex2023_v1/tiegcm2.0",
+  "reference_seed": "mareqx smax; seasonal proxy warning; identical cold start both runs; no Restart",
+  "limits": {
+    "MPI_ranks": 4,
+    "OMP_threads": 1,
+    "gpu": false,
+    "RSS_GiB": 4,
+    "each_wall_s": 6000,
+    "each_disk_GiB": 8
+  }
+}

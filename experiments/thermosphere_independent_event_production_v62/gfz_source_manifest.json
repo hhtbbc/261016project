@@ -1,0 +1,70 @@
+{
+  "source_URL": "https://kp.gfz.de/fileadmin/files_for_gfz_cms/Kp_ap_Ap_SN_F107_since_1932.txt",
+  "source_sha256": "c1006bfb4443a01a979bce6203d58abb47941e504a3d31e9197cd3323b8e3d46",
+  "bytes": 5515168,
+  "stored_path": "experiments/thermosphere_independent_event_production_v62/data_local/Kp_ap_Ap_SN_F107_since_1932.txt",
+  "server_Date": "Fri, 27 Nov 2026 07:57:16 GMT",
+  "last_modified": "Thu, 26 Nov 2026 23:54:26 GMT",
+  "retrieval_window_UTC": [
+    "2026-11-27T07:58:20Z",
+    "2026-11-27T07:58:24Z"
+  ],
+  "source_format": "GFZ combined ASCII snapshot; Kp DOI 10.5880/Kp.0001 V1.0; full original bytes local",
+  "raw_first_UT_day": "1932-01-01",
+  "raw_last_UT_day": "2026-11-26",
+  "parsed_context": [
+    "2020-01-01",
+    "2026-11-26"
+  ],
+  "annual": {
+    "2021": {
+      "days": 365,
+      "definitive_Kp_bins": 2920,
+      "missing_Fobs": [
+        "2021-05-09",
+        "2021-06-16"
+      ],
+      "missing_Fadj": [
+        "2021-05-09",
+        "2021-06-16"
+      ]
+    },
+    "2022": {
+      "days": 365,
+      "definitive_Kp_bins": 2920,
+      "missing_Fobs": [],
+      "missing_Fadj": []
+    },
+    "2023": {
+      "days": 365,
+      "definitive_Kp_bins": 2920,
+      "missing_Fobs": [],
+      "missing_Fadj": []
+    },
+    "2024": {
+      "days": 366,
+      "definitive_Kp_bins": 2928,
+      "missing_Fobs": [
+        "2024-08-26"
+      ],
+      "missing_Fadj": [
+        "2024-08-26"
+      ]
+    },
+    "2025": {
+      "days": 365,
+      "definitive_Kp_bins": 2920,
+      "missing_Fobs": [
+        "2025-02-12",
+        "2025-02-17"
+      ],
+      "missing_Fadj": [
+        "2025-02-12",
+        "2025-02-17"
+      ]
+    }
+  },
+  "Kp": "three-hour UTC starts, D=1/2 only",
+  "Fobs": "daily observed sfu; adjusted Fadj at nominal unit distance kept separate",
+  "missing": "-1, excluded; no correction to the V37 historical forcing"
+}

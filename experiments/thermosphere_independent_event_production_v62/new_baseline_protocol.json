@@ -1,0 +1,11 @@
+{
+  "A": "OLS z on UTC offsets -3,-2,-1; intercept at -2 equals mean(z); slope=(z[-1]-z[-3])/2; forecast mean+(h+2)*slope",
+  "B": "Latest z plus slope*tau*(1-exp(-(h+1)/tau)); fixed exponential trend memory tau=3h, one 3h forcing interval; not learned",
+  "C": "NOT_EXECUTED: lawful new history request at t+h-24h; no prior target repurposing",
+  "D": "Solar local phase lon+15*UTC_hours. Sample east-positive source longitude lon+15*(h+1), wrap 360, linear interpolation of log density",
+  "newer_parameters": 0,
+  "tuning": "none; all formulas frozen before opening target data",
+  "low_density": "per native level fifth percentile of authorized 2021 target values, frozen after predictions",
+  "weights": "cos(latitude); own and all-method common validity; separately report finite nonpositive",
+  "roles": "2021/2022 prior historical engineering data; no independent test"
+}
