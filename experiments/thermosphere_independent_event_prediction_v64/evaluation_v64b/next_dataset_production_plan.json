@@ -1,0 +1,181 @@
+{
+  "roles": {
+    "LOCKED_INDEPENDENT_TEST": [
+      {
+        "event": "disturbed_20231105T09",
+        "subclass": "disturbed_strong",
+        "season": "SON",
+        "peak_kp": 7.333,
+        "core_start": "2023-11-05T09:00:00Z",
+        "core_end_exclusive": "2023-11-07T03:00:00Z",
+        "start": "2023-10-22T00:00:00Z",
+        "end": "2023-11-10T00:00:00Z",
+        "cutoffs": [
+          "2023-11-05T18:00:00Z",
+          "2023-11-06T06:00:00Z",
+          "2023-11-06T18:00:00Z"
+        ],
+        "steps": 27360,
+        "wall_hours": 0.8078000404731859,
+        "cpu_hours": 3.231108830349207,
+        "native_GiB": 3.7271750093570777
+      },
+      {
+        "event": "quiet_20231009T21",
+        "subclass": "quiet",
+        "season": "SON",
+        "peak_kp": 2.0,
+        "core_start": "2023-10-09T21:00:00Z",
+        "core_end_exclusive": "2023-10-13T03:00:00Z",
+        "start": "2023-09-26T00:00:00Z",
+        "end": "2023-10-14T00:00:00Z",
+        "cutoffs": [
+          "2023-10-10T06:00:00Z",
+          "2023-10-10T18:00:00Z",
+          "2023-10-11T06:00:00Z",
+          "2023-10-11T18:00:00Z",
+          "2023-10-12T06:00:00Z",
+          "2023-10-12T18:00:00Z"
+        ],
+        "steps": 25920,
+        "wall_hours": 0.765284248869334,
+        "cpu_hours": 3.0610504708571433,
+        "native_GiB": 3.5310079036014423
+      }
+    ],
+    "TRAIN": [
+      {
+        "event": "quiet_20240329T00",
+        "subclass": "quiet",
+        "season": "MAM",
+        "peak_kp": 1.667,
+        "core_start": "2024-03-29T00:00:00Z",
+        "core_end_exclusive": "2024-03-31T00:00:00Z",
+        "start": "2024-03-15T00:00:00Z",
+        "end": "2024-03-31T00:00:00Z",
+        "cutoffs": [
+          "2024-03-29T06:00:00Z",
+          "2024-03-29T18:00:00Z",
+          "2024-03-30T06:00:00Z"
+        ],
+        "steps": 23040,
+        "wall_hours": 0.6802526656616301,
+        "cpu_hours": 2.7209337518730163,
+        "native_GiB": 3.1386736920901708
+      },
+      {
+        "event": "quiet_20211125T06",
+        "subclass": "quiet",
+        "season": "SON",
+        "peak_kp": 1.333,
+        "core_start": "2021-11-25T06:00:00Z",
+        "core_end_exclusive": "2021-11-27T21:00:00Z",
+        "start": "2021-11-11T00:00:00Z",
+        "end": "2021-11-28T00:00:00Z",
+        "cutoffs": [
+          "2021-11-25T18:00:00Z",
+          "2021-11-26T06:00:00Z",
+          "2021-11-26T18:00:00Z",
+          "2021-11-27T06:00:00Z"
+        ],
+        "steps": 24480,
+        "wall_hours": 0.7227684572654821,
+        "cpu_hours": 2.8909921113650796,
+        "native_GiB": 3.3348407978458066
+      },
+      {
+        "event": "disturbed_20250915T00",
+        "subclass": "disturbed_moderate",
+        "season": "SON",
+        "peak_kp": 6.667,
+        "core_start": "2025-09-15T00:00:00Z",
+        "core_end_exclusive": "2025-09-15T15:00:00Z",
+        "start": "2025-09-01T00:00:00Z",
+        "end": "2025-09-18T00:00:00Z",
+        "cutoffs": [
+          "2025-09-15T06:00:00Z"
+        ],
+        "steps": 24480,
+        "wall_hours": 0.7227684572654821,
+        "cpu_hours": 2.8909921113650796,
+        "native_GiB": 3.3348407978458066
+      },
+      {
+        "event": "disturbed_20210301T03",
+        "subclass": "disturbed_moderate",
+        "season": "MAM",
+        "peak_kp": 5.667,
+        "core_start": "2021-03-01T03:00:00Z",
+        "core_end_exclusive": "2021-03-02T21:00:00Z",
+        "start": "2021-02-15T00:00:00Z",
+        "end": "2021-03-05T00:00:00Z",
+        "cutoffs": [
+          "2021-03-01T06:00:00Z",
+          "2021-03-01T18:00:00Z",
+          "2021-03-02T06:00:00Z"
+        ],
+        "steps": 25920,
+        "wall_hours": 0.765284248869334,
+        "cpu_hours": 3.0610504708571433,
+        "native_GiB": 3.5310079036014423
+      }
+    ],
+    "MODEL_SELECTION_VALIDATION": [
+      {
+        "event": "quiet_20220301T21",
+        "subclass": "quiet",
+        "season": "MAM",
+        "peak_kp": 2.0,
+        "core_start": "2022-03-01T21:00:00Z",
+        "core_end_exclusive": "2022-03-03T21:00:00Z",
+        "start": "2022-02-16T00:00:00Z",
+        "end": "2022-03-04T00:00:00Z",
+        "cutoffs": [
+          "2022-03-02T06:00:00Z",
+          "2022-03-02T18:00:00Z",
+          "2022-03-03T06:00:00Z"
+        ],
+        "steps": 23040,
+        "wall_hours": 0.6802526656616301,
+        "cpu_hours": 2.7209337518730163,
+        "native_GiB": 3.1386736920901708
+      },
+      {
+        "event": "disturbed_20211103T21",
+        "subclass": "disturbed_strong",
+        "season": "SON",
+        "peak_kp": 7.667,
+        "core_start": "2021-11-03T21:00:00Z",
+        "core_end_exclusive": "2021-11-04T15:00:00Z",
+        "start": "2021-10-21T00:00:00Z",
+        "end": "2021-11-07T00:00:00Z",
+        "cutoffs": [
+          "2021-11-04T06:00:00Z"
+        ],
+        "steps": 24480,
+        "wall_hours": 0.7227684572654821,
+        "cpu_hours": 2.8909921113650796,
+        "native_GiB": 3.3348407978458066
+      }
+    ]
+  },
+  "estimate_4_rank_basis": "V63 measured 35 integration days, extrapolated linearly",
+  "totals": {
+    "wall_hours": 5.86717924133156,
+    "cpu_hours": 23.468053609904764,
+    "native_GiB": 27.071060594277725
+  },
+  "training_first": {
+    "wall_hours": 2.8910738290619284,
+    "cpu_hours": 11.563968445460318,
+    "native_GiB": 13.339363191383228
+  },
+  "constraints": [
+    "new authorization",
+    "verify forcing and model calendar",
+    "validate season seed and convergence",
+    "use separate role families",
+    "seal locked test labels",
+    "V65 scope is new training events first"
+  ]
+}

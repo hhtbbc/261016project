@@ -1,0 +1,14 @@
+{
+  "quiet_20230502T12": {
+    "run_id": "9438b5d05e764dcc8cc8c37cb7a89e97",
+    "role": "EXPOSED_PILOT_EVALUATION",
+    "reason": "Results used for residual-background design and method selection",
+    "eligible_for_final_unseen_test": false
+  },
+  "disturbed_20230520T00": {
+    "run_id": "3d4514d73a864f3d9aab5fc1475aed81",
+    "role": "EXPOSED_PILOT_EVALUATION",
+    "reason": "Results used for residual-background design and method selection",
+    "eligible_for_final_unseen_test": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "descriptive_only": true,
+  "causal_inference": false,
+  "rows": [
+    {
+      "event": "quiet_20230502T12",
+      "lead": 1,
+      "cutoffs": 4,
+      "target_Kp_vs_LT_RMS_pearson": 0.8171708581593514
+    },
+    {
+      "event": "quiet_20230502T12",
+      "lead": 3,
+      "cutoffs": 4,
+      "target_Kp_vs_LT_RMS_pearson": -0.6183437843898517
+    },
+    {
+      "event": "quiet_20230502T12",
+      "lead": 6,
+      "cutoffs": 4,
+      "target_Kp_vs_LT_RMS_pearson": -0.8718747804803398
+    },
+    {
+      "event": "disturbed_20230520T00",
+      "lead": 1,
+      "cutoffs": 3,
+      "target_Kp_vs_LT_RMS_pearson": 0.9578287653186073
+    },
+    {
+      "event": "disturbed_20230520T00",
+      "lead": 3,
+      "cutoffs": 3,
+      "target_Kp_vs_LT_RMS_pearson": 0.8998735297103185
+    },
+    {
+      "event": "disturbed_20230520T00",
+      "lead": 6,
+      "cutoffs": 3,
+      "target_Kp_vs_LT_RMS_pearson": -0.6046398934307666
+    }
+  ]
+}

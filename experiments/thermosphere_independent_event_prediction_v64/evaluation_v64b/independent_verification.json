@@ -1,0 +1,14 @@
+{
+  "global_rows_independently_recomputed": 96,
+  "layer_SSE_identity": true,
+  "confirmed_predictions": 168,
+  "confirmed_target_records": 21,
+  "target_cache_SHA256": "6cb5310fdcbba1ebbf2612e4a0ca93fef8d9a04949136b4166d2853e4d6da6f4",
+  "target_index_SHA256": "b6d53079746cf06b19889f4501b47e491b2bda2e522160db982382fe5116984a",
+  "forecast_lock_SHA256": "f66ed4fb06a2f849a32d6b10261f986f4826b9d802159fb011d1eeb2e226b47f",
+  "nonpositive_target_cells": 0,
+  "Swarm_reads": 0,
+  "GPU": 0,
+  "training": 0,
+  "new_integrations": 0
+}

@@ -1,0 +1,19 @@
+{
+  "state": "V64_B_COMPLETE_VERIFIED",
+  "selected_cases": [
+    "A",
+    "D",
+    "E"
+  ],
+  "LT": "Candidate background for future matched residual experiment; retain DailyPersistence",
+  "CNN": "Failed to generalize on primary log RMSE in both pilot events",
+  "next_model": "log(rho_hat)=log(rho_background)+f_theta(X)",
+  "controls": [
+    "Same architecture, log residual target, inputs, train-only normalization, seeds and training budget",
+    "Only switch background: Persistence vs LocalTimePersistence",
+    "Compare to both untrained backgrounds and DailyPersistence",
+    "Select on validation events and open fresh final locked test only after choices frozen"
+  ],
+  "evidence": "Two descriptive pilot events, no causal Kp attribution, no Swarm or orbit inference",
+  "v65": "Request fresh training event production; no production or training authorized here"
+}

@@ -1548,3 +1548,7 @@ activate_tiegcm.sh 下使用 run_independent_events_v63.py 串行积分，静稳
 ## 2026-11-28 V64-A 真实预测和锁定
 
 activate_tiegcm.sh 下用 run_independent_predictions_v64.py 逐截点隔离执行，4.53 秒、144660880 工作字节。最初编译宏冲突在实际数据提取前修复。verify_independent_predictions_v64.py 复核 168 个预测 SHA、9 个历史重合及 101 个非正原值线性格点。两类历史各 21，评分读取和训练、GPU、新积分、Swarm 为零。
+
+## 2026-11-28 V64-B 冻结预测评价与路线
+
+activate_tiegcm.sh 下运行 score_independent_events_v64.py 一次提取 21 个索引目标。诊断脚本只读授权缓存，修复 NumPy 整数 JSON 问题后生成九图。96 行全球指标、共同口径及层 SSE 独立复算通过。未读取 Swarm 或其他 DEN，未用 GPU、训练及新积分。
