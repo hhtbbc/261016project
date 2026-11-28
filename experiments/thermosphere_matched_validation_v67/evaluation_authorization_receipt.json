@@ -1,0 +1,9 @@
+{
+  "verified_prediction_lock_SHA256": "c8482cda922186e378c017d5cce1be0d2019e25b3eab9f4677c8708df67dcb80",
+  "target_index_SHA256": "95be01742743c042ef30bc1afc69587fe959d6185717108bb5690b99fb5eb64b",
+  "isolation_verified": true,
+  "conditional_user_release": true,
+  "target_fields": 12,
+  "prelock_current_future_reads": 0,
+  "historical_overlap_reads": 3
+}

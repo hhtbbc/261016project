@@ -1,0 +1,21 @@
+{
+  "proposals": [
+    {
+      "name": "TRAIN-only amplitude shrinkage",
+      "formula": "log(rho_LT)+alpha_train(ilev,h)*c",
+      "parameters": 1027,
+      "changes": "Shrinkage only; fixed range [0,1], nested out-of-event estimates on TRAIN"
+    },
+    {
+      "name": "add independent strong TRAIN event",
+      "changes": "Training event coverage only, same network and hyperparameters",
+      "caveat": "Fresh data authorization and no rerole of VAL2"
+    }
+  ],
+  "guard": "Freeze once before fresh validation; oracle alpha cannot select deployable shrinkage. Original final test events remain sealed.",
+  "hypothesis": "Where correction cross term cannot cover its energy, conservative shrinkage may prevent degradation.",
+  "secondary_candidate": "Eastward align t\u22123 and t\u22122 to latest t\u22121 by +6/+3 cells, keep output LT background. Prioritize only if signal survives per-event validation.",
+  "budget": "Same CNN 200 CPU updates; historical V66 whole-arm below 18 s, plan <=600 s per training arm",
+  "primary": "event-by-lead area weighted log RMSE versus untrained LT; flag degradation against LT",
+  "failure": "No consistent improvement at held-out event level or meaningful polar/upper deterioration"
+}

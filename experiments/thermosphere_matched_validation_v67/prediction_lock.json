@@ -1,0 +1,20 @@
+{
+  "cutoffs": {
+    "cut_00_lock.json": "560b7d8c5166cfd7d492516d27d2b2c6f1b9ef9997201faca966b6f3554d9643",
+    "cut_01_lock.json": "3fbc43849997b50bccbe669866e176998f0ecad1a9da5fca011a7bd0e0e66cce",
+    "cut_02_lock.json": "22e6fa6c8666d21f9b7ecb269b37e120441bbb58b0b04569e78d6db1d11f1173",
+    "cut_03_lock.json": "be1655fded9f65411aea0a72f61279291c8da8555b3335725f47b807cdaef418"
+  },
+  "SHA256": {
+    "execution_authorization.json": "70022f99449ca3125ff19df4878ab95af69fe809cc9cef99e548bf4074ba9874",
+    "prediction_manifest.csv": "6815d5921190272b2a4ee8a7d21be2acf547e5898ef8c5ae56be063c63607ba3",
+    "frozen_method_protocol.json": "61eb649ce7cb42cd0a41d6a41aca5b9d936c715ead6093d157e1aaa86d93ccfe",
+    "frozen_evaluation_protocol.json": "ca12d0f6334331495e73a630bf233b255d3a142b2801c7bcf96594f7a0ee811d",
+    "input_distribution_shift.csv": "57b98889a7e02ae8f614190ae41e3e0a48974a4412a2674dd7ab943fd5658d41",
+    "isolation_probe_results.json": "e18a95a46bd14811a2b9ed332c6dce619e18d446c8b8aa49b9935c99d428d9b2",
+    "history_extraction_receipts.json": "8ac847be872bf5219f98134602ccea4f24de6431d4a25f79ed646a34e1690637",
+    "checkpoint_identity.json": "9c20b845b865c64fcee2c9437dff814342a5e254bfaf3dadf7a4516e82925e12",
+    "temporal_overlap_audit.json": "801bb35d975b54b1afc5964e88b5a6a2b539401afb6b74ceb18ff6dcf1dd1a47"
+  },
+  "fields": 72
+}

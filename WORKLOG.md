@@ -1560,3 +1560,7 @@ activate_tiegcm.sh 下执行 run_training_events_v65.py、build_training_dataset
 ## 2026-11-28 V66 CPU 对照、验证积分及补值候选
 
 run_validation_events_v66.py 执行两次冷启动，独立检查 68 卷、792 整点及 36 个位置关联。train_matched_residual_v66.py 顺序完成双臂 CPU，各 200 更新，恢复一致。诊断只用 V65 TRAIN。build_gfz_gap_fill_v66.py 对六套候选逐分钟复算；GFZ 原表不改、2021 夏季未启动。无 GPU、Swarm、验证/测试 DEN 或额外积分。
+
+## 2026-11-28 V67 冻结预测、归因与两次积分
+
+activate_tiegcm.sh 下执行 evaluate_matched_validation_v67.py 与诊断、推理/能量独立复核。首轮舍入容差预检无目标读取，正式预测锁后仅开 12 个目标。run_summer_2021_v67.py 串行完成 A1/A2，94 卷、1,104 小时，V51 内部字段 38,934 项复算。无训练、GPU、Swarm、额外积分或重试。

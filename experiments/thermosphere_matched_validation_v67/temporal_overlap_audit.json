@@ -1,0 +1,26 @@
+{
+  "overlaps": [
+    {
+      "current_cutoff": "2022-03-03T06:00:00Z",
+      "prior_cutoff": "2022-03-02T06:00:00Z",
+      "UTC": "2022-03-02T07:00:00Z",
+      "prior_lock_SHA256": "3fbc43849997b50bccbe669866e176998f0ecad1a9da5fca011a7bd0e0e66cce",
+      "access_sequence": 22
+    },
+    {
+      "current_cutoff": "2022-03-03T06:00:00Z",
+      "prior_cutoff": "2022-03-02T06:00:00Z",
+      "UTC": "2022-03-02T09:00:00Z",
+      "prior_lock_SHA256": "3fbc43849997b50bccbe669866e176998f0ecad1a9da5fca011a7bd0e0e66cce",
+      "access_sequence": 23
+    },
+    {
+      "current_cutoff": "2022-03-03T06:00:00Z",
+      "prior_cutoff": "2022-03-02T06:00:00Z",
+      "UTC": "2022-03-02T12:00:00Z",
+      "prior_lock_SHA256": "3fbc43849997b50bccbe669866e176998f0ecad1a9da5fca011a7bd0e0e66cce",
+      "access_sequence": 24
+    }
+  ],
+  "scoring_reads_before_lock": 0
+}

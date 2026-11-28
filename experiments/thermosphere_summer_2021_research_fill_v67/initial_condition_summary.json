@@ -1,0 +1,43 @@
+{
+  "FULL_STATE_SEED_SENSITIVITY": "FAIL",
+  "DENSITY_LIMITED_INSENSITIVITY": "FAIL",
+  "failed_cells_by_variable": {
+    "O1": 40,
+    "N2": 146,
+    "O2": 41
+  },
+  "late_slopes": {
+    "200": -4.740871114052576e-06,
+    "300": -1.0419337291379473e-05,
+    "400": -2.174846811820904e-05,
+    "450": -1.125918522831863e-05,
+    "475": 1.6631899822433239e-06,
+    "500": -1.7743096597884523e-05
+  },
+  "evaluated_gate_cells": 31050,
+  "empty_gate_cells": 300,
+  "historical_V51_2022": {
+    "FULL_STATE_SEED_SENSITIVITY": "FAIL",
+    "DENSITY_LIMITED_INSENSITIVITY": "SUPPORTED",
+    "full_failed_cells": 118,
+    "lag_mapping": "V50=V48+168h on common physical UTC",
+    "run_ids": [
+      "ecd582e923ed4568a7d0be442eda445e",
+      "0e237fee82cf4b9e809e08bbde51cc31"
+    ],
+    "empty_cells": 300,
+    "trends": {
+      "200": -1.824203179251754e-06,
+      "300": -9.638233041738193e-06,
+      "400": -1.7377922277689566e-05,
+      "450": -1.9042320200049064e-05,
+      "475": -2.006158914706242e-05,
+      "500": -2.0983633817442445e-05
+    }
+  },
+  "independent_checks": 38934,
+  "nominal_ZG_external_datum": "NOT_ADMITTED",
+  "unique_UTC": 79,
+  "selector": "V51 matching month/day/time and spinup hour",
+  "new_Swarm_DEN_reads": 0
+}

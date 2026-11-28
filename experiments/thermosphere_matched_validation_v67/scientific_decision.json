@@ -1,0 +1,10 @@
+{
+  "AI_incremental_value": "NOT_ESTABLISHED",
+  "strongest_baselines": [
+    "LocalTimePersistence",
+    "DailyPersistence"
+  ],
+  "LT_CNN": "One held-out +1h gain, five other combinations favor frozen LT; no broad incremental improvement",
+  "P_CNN": "Short lead improvements but +6h deterioration in both events",
+  "caveat": "Two events, one strong disturbance cutoff; no Swarm or causal validation"
+}

@@ -1,0 +1,16 @@
+{
+  "global_recomputations": 36,
+  "energy_rows": 1188,
+  "max_energy_identity_error": 5.637851296924623e-18,
+  "predictions": 72,
+  "target_reads": 12,
+  "target_valid_cells": 902016,
+  "prediction_nonpositive": 0,
+  "prediction_nonfinite": 0,
+  "prediction_fields": 72,
+  "forecast_sha256": "5515849f94a586997f277c131df5bafafa59c14a0ee0ba7c1a6dc0d3fc1ba39d",
+  "target_sha256": "1c38b21c2b5d5599577a7bf7b057100015fa58bd81f77ed5eba4eefd8b9b7341",
+  "Swarm_reads": 0,
+  "timing_s": 31.764879774302244,
+  "max_RSS_KiB": 267728
+}

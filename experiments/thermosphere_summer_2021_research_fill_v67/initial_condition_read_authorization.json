@@ -1,0 +1,20 @@
+{
+  "fields": [
+    "DEN",
+    "TN",
+    "UN",
+    "VN",
+    "O1",
+    "O2",
+    "N2",
+    "HE",
+    "ZG"
+  ],
+  "UTC_hours": 79,
+  "exact_rows_SHA256": "5a70e5a9de1d63686f73b134891a4152d2c27fe324fb2abd1081ee162960c9ec",
+  "Swarm_observations": false,
+  "physics_only": true,
+  "training": false,
+  "prior_2022_science_unchanged": true,
+  "thresholds_sha256": "5ea4e27db746d698f738b974fbf12ba81b09d186d94c0a9376aa2640517bb52b"
+}

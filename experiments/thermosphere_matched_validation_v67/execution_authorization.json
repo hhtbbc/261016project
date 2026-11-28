@@ -1,0 +1,29 @@
+{
+  "stage1": [
+    "12 regular history",
+    "12 daily history"
+  ],
+  "stage2": "12 exact model targets after verified locks and isolation; conditional user approval in V67",
+  "training": 0,
+  "GPU": 0,
+  "Swarm_reads": 0,
+  "V55": {
+    "GFZ_2021_evidence.json": {
+      "state": "RECEIVED_PENDING_AUTHORITY_REVIEW",
+      "document_id": "V66-user-relayed-GFZ-correspondence",
+      "attachments": []
+    },
+    "ESA_0301_delivery.json": {
+      "state": "NOT_ACQUIRED"
+    },
+    "NCAR_ZG_evidence.json": {
+      "state": "NOT_ACQUIRED"
+    },
+    "SW_OPER_MODA_SC_1B_20210621T000000_20210621T235959_0504.sp3": {
+      "state": "NOT_ACQUIRED"
+    },
+    "SW_OPER_MODA_SC_1B_20220621T000000_20220621T235959_0504.sp3": {
+      "state": "NOT_ACQUIRED"
+    }
+  }
+}

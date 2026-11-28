@@ -1,0 +1,95 @@
+{
+  "base": {
+    "denials": [
+      "blocked_open_0=2",
+      "blocked_open_1=2",
+      "blocked_open_2=2",
+      "blocked_open_3=2",
+      "blocked_open_4=2",
+      "blocked_open_5=2",
+      "history_write=EACCES",
+      "network_socket=EPERM",
+      "chroot_escape=EPERM",
+      "unprivileged=65534",
+      "raw_or_archived_source_rejected_3=2",
+      "raw_or_archived_source_rejected_4=2"
+    ],
+    "synthetic_poison_invariant": true,
+    "existing_sibling_denials": [
+      "blocked_open_0=2",
+      "blocked_open_1=2",
+      "blocked_open_2=2",
+      "blocked_open_3=2",
+      "blocked_open_4=2",
+      "blocked_open_5=2",
+      "history_write=EACCES",
+      "network_socket=EPERM",
+      "chroot_escape=EPERM",
+      "unprivileged=65534",
+      "raw_or_archived_source_rejected_3=2",
+      "raw_or_archived_source_rejected_4=2"
+    ]
+  },
+  "P": {
+    "denials": [
+      "blocked_open_0=2",
+      "blocked_open_1=2",
+      "blocked_open_2=2",
+      "blocked_open_3=2",
+      "blocked_open_4=2",
+      "blocked_open_5=2",
+      "history_write=EACCES",
+      "network_socket=EPERM",
+      "chroot_escape=EPERM",
+      "unprivileged=65534",
+      "raw_or_archived_source_rejected_3=2",
+      "raw_or_archived_source_rejected_4=2"
+    ],
+    "synthetic_poison_invariant": true,
+    "existing_sibling_denials": [
+      "blocked_open_0=2",
+      "blocked_open_1=2",
+      "blocked_open_2=2",
+      "blocked_open_3=2",
+      "blocked_open_4=2",
+      "blocked_open_5=2",
+      "history_write=EACCES",
+      "network_socket=EPERM",
+      "chroot_escape=EPERM",
+      "unprivileged=65534",
+      "raw_or_archived_source_rejected_3=2",
+      "raw_or_archived_source_rejected_4=2"
+    ]
+  },
+  "LT": {
+    "denials": [
+      "blocked_open_0=2",
+      "blocked_open_1=2",
+      "blocked_open_2=2",
+      "blocked_open_3=2",
+      "blocked_open_4=2",
+      "blocked_open_5=2",
+      "history_write=EACCES",
+      "network_socket=EPERM",
+      "chroot_escape=EPERM",
+      "unprivileged=65534",
+      "raw_or_archived_source_rejected_3=2",
+      "raw_or_archived_source_rejected_4=2"
+    ],
+    "synthetic_poison_invariant": true,
+    "existing_sibling_denials": [
+      "blocked_open_0=2",
+      "blocked_open_1=2",
+      "blocked_open_2=2",
+      "blocked_open_3=2",
+      "blocked_open_4=2",
+      "blocked_open_5=2",
+      "history_write=EACCES",
+      "network_socket=EPERM",
+      "chroot_escape=EPERM",
+      "unprivileged=65534",
+      "raw_or_archived_source_rejected_3=2",
+      "raw_or_archived_source_rejected_4=2"
+    ]
+  }
+}

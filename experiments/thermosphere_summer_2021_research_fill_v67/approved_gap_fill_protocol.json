@@ -1,0 +1,28 @@
+{
+  "protocol": "GFZ_FOBS_GAP_FILL_V1",
+  "status": "GFZ_RESEARCH_FILL_POLICY_A_APPROVED",
+  "validation_role": "PHYSICS_SENSITIVITY_ONLY",
+  "selection": "A only",
+  "fills": {
+    "2021-05-09T00:00:00Z": {
+      "sfu": 76.0,
+      "identity": "RESEARCH_ESTIMATED_FILL"
+    },
+    "2021-06-16T00:00:00Z": {
+      "sfu": 77.0,
+      "identity": "RESEARCH_ESTIMATED_FILL"
+    }
+  },
+  "original_GFZ_missing_preserved": true,
+  "original_GFZ_SHA256": "c1006bfb4443a01a979bce6203d58abb47941e504a3d31e9197cd3323b8e3d46",
+  "GPI_SHA256": "efbc645f53a2d89f7c2c1555d8373eff141ebc13617c2f1456f849d587121a40",
+  "forcing": {
+    "days": 28,
+    "definitive_Kp_bins": 224,
+    "observed_F107_center_days": 81,
+    "adjusted_flux_used": false
+  },
+  "Fadj_used": false,
+  "V37_modified": false,
+  "Swarm_DEN_access": false
+}

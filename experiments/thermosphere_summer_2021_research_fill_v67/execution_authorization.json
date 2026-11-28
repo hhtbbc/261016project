@@ -1,0 +1,25 @@
+{
+  "role": "RESEARCH_FILL_PHYSICS_SENSITIVITY",
+  "plan": {
+    "start": "2021-05-31T00:00:00Z",
+    "end": "2021-06-23T00:00:00Z",
+    "days": 23,
+    "steps_60s": 33120,
+    "primary_volumes": 24,
+    "secondary_volumes": 23,
+    "hourly_DEN_frames": 552
+  },
+  "protected": "V37 Swarm targets sealed, 2022 results unchanged",
+  "attempts_each": 1,
+  "auto_retry": false,
+  "both_seeds": true,
+  "cumulative_wall_s": 12000,
+  "total_budget_GiB": 16,
+  "each_wall_s": 6000,
+  "each_RSS_GiB": 4,
+  "each_disk_GiB": 8,
+  "MPI": 4,
+  "OMP": 1,
+  "GPU": 0,
+  "UTC": "2026-11-28T08:49:38.266378Z"
+}

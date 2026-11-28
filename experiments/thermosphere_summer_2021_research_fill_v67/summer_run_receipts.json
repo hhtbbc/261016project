@@ -1,0 +1,214 @@
+{
+  "A1": {
+    "engineering": "PASS",
+    "independent_science_status": "PHYSICS_SENSITIVITY_ONLY",
+    "run_id": "a938ae2659a24065b13193052db40199",
+    "directory": "experiments/thermosphere_summer_2021_research_fill_v67/data_local/a1",
+    "datetime_start": "2021-05-31T00:00:00Z",
+    "datetime_end": "2021-06-23T00:00:00Z",
+    "final_step": 33120,
+    "rank_progress": [
+      {
+        "final_step": 33120,
+        "progress_records": 3312,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 33120,
+        "progress_records": 3312,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 33120,
+        "progress_records": 3312,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 33120,
+        "progress_records": 3312,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      }
+    ],
+    "ranks": [
+      {
+        "rank": 0,
+        "returncode": 0,
+        "receipt_SHA256": "470ac88e92646b41807da7da418d80f33fe6463b82a47d4d9ca38c8def2c9c1e",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "88a771580f15a0743862a2ae48b50acabcf0817564ef3f34a2f0a6796530eef4"
+      },
+      {
+        "rank": 1,
+        "returncode": 0,
+        "receipt_SHA256": "516a730d8832995ef4849b139e3495ed1b14083e1eb209a47fc0e1e4a2736b87",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "88a771580f15a0743862a2ae48b50acabcf0817564ef3f34a2f0a6796530eef4"
+      },
+      {
+        "rank": 2,
+        "returncode": 0,
+        "receipt_SHA256": "b68518939ab0df86a063d97a9d8ea8ee807578b556d743181da83f77e36d6a71",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "88a771580f15a0743862a2ae48b50acabcf0817564ef3f34a2f0a6796530eef4"
+      },
+      {
+        "rank": 3,
+        "returncode": 0,
+        "receipt_SHA256": "6b825282c3a038134e5d8a93b076f6f070af1a705f3d8187e4395bba5bf17f12",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "88a771580f15a0743862a2ae48b50acabcf0817564ef3f34a2f0a6796530eef4"
+      }
+    ],
+    "parent_exit": 0,
+    "status_sha256": "0d06326ef63418403c60a36520f50b47d8627cd48ccdcf2afe6d7bc8e59bda57",
+    "peak_RSS_bytes": 1066991616,
+    "CPU_user_s": 13002.508049,
+    "CPU_system_s": 1215.4938610000002,
+    "elapsed_s": 3554.8051665872335,
+    "total_workdir_bytes": 4870109848,
+    "native_bytes": 4839214428,
+    "warnings_unique": [],
+    "warning_line_count": 0,
+    "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "input_SHA256": {
+      "input.inp": "88a771580f15a0743862a2ae48b50acabcf0817564ef3f34a2f0a6796530eef4",
+      "seed.nc": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "gpi.nc": "efbc645f53a2d89f7c2c1555d8373eff141ebc13617c2f1456f849d587121a40"
+    },
+    "DEN_values_decoded": 0,
+    "scientific_convergence": "NOT_ESTABLISHED",
+    "launch_UTC": "2026-11-28T08:49:38.506564Z",
+    "exit_UTC": "2026-11-28T09:48:53.536115Z",
+    "runtime_GPI_max_abs": {
+      "f107d": 2.842170943040401e-14,
+      "f107a": 4.263256414560601e-14,
+      "Kp": 8.881784197001252e-16,
+      "hpower": 2.842170943040401e-14,
+      "ctpoten": 2.842170943040401e-14
+    },
+    "forcing": {
+      "days": 28,
+      "definitive_Kp_bins": 224,
+      "observed_F107_center_days": 81,
+      "adjusted_flux_used": false
+    },
+    "initial_clock": [
+      80,
+      0,
+      0
+    ],
+    "full_receipt_sha256": "8e21083d9d4758f77b59152091331cfe63155736ffb3319410aa82f2617d0a89",
+    "volumes": 47,
+    "hourly": 552
+  },
+  "A2": {
+    "engineering": "PASS",
+    "independent_science_status": "PHYSICS_SENSITIVITY_ONLY",
+    "run_id": "a98db603cad34ecfb123611b10f29b6c",
+    "directory": "experiments/thermosphere_summer_2021_research_fill_v67/data_local/a2",
+    "datetime_start": "2021-05-31T00:00:00Z",
+    "datetime_end": "2021-06-23T00:00:00Z",
+    "final_step": 33120,
+    "rank_progress": [
+      {
+        "final_step": 33120,
+        "progress_records": 3312,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 33120,
+        "progress_records": 3312,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 33120,
+        "progress_records": 3312,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 33120,
+        "progress_records": 3312,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      }
+    ],
+    "ranks": [
+      {
+        "rank": 0,
+        "returncode": 0,
+        "receipt_SHA256": "95c5d61263c2fe3327738601c2ac9d94a8a5e5186847086fdcad1e782ea3431f",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "71df9f02fefa290591f0da26938452bcb3823765615e99c9c71e96c39643bf5b"
+      },
+      {
+        "rank": 1,
+        "returncode": 0,
+        "receipt_SHA256": "5e8ed377844d8769e15e607d30a87d31adcca3f50cc0832f8f8389024fc256af",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "71df9f02fefa290591f0da26938452bcb3823765615e99c9c71e96c39643bf5b"
+      },
+      {
+        "rank": 2,
+        "returncode": 0,
+        "receipt_SHA256": "fa0ee5f58b04b0f38b076060b913d0bb1f884f471516c819f15174b52c19d11b",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "71df9f02fefa290591f0da26938452bcb3823765615e99c9c71e96c39643bf5b"
+      },
+      {
+        "rank": 3,
+        "returncode": 0,
+        "receipt_SHA256": "cccedb3c55c8095bc2be5834ca40c01a3050561b8c4401466730284184b112f4",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "71df9f02fefa290591f0da26938452bcb3823765615e99c9c71e96c39643bf5b"
+      }
+    ],
+    "parent_exit": 0,
+    "status_sha256": "83dd746bc1872e3ee45b5913a747f1e3e9391f3f16ef3bf57e0612a61d8bc95e",
+    "peak_RSS_bytes": 1056235520,
+    "CPU_user_s": 12774.836039000002,
+    "CPU_system_s": 1090.4492320000002,
+    "elapsed_s": 3466.466310929507,
+    "total_workdir_bytes": 4869869205,
+    "native_bytes": 4839214428,
+    "warnings_unique": [],
+    "warning_line_count": 0,
+    "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "input_SHA256": {
+      "input.inp": "71df9f02fefa290591f0da26938452bcb3823765615e99c9c71e96c39643bf5b",
+      "seed.nc": "baed93b59dee7f8e6355c8d0224bd2335cf355bd0d632c9d2327aa7d0227475e",
+      "gpi.nc": "efbc645f53a2d89f7c2c1555d8373eff141ebc13617c2f1456f849d587121a40"
+    },
+    "DEN_values_decoded": 0,
+    "scientific_convergence": "NOT_ESTABLISHED",
+    "launch_UTC": "2026-11-28T09:49:05.750495Z",
+    "exit_UTC": "2026-11-28T10:46:52.450582Z",
+    "runtime_GPI_max_abs": {
+      "f107d": 2.842170943040401e-14,
+      "f107a": 4.263256414560601e-14,
+      "Kp": 8.881784197001252e-16,
+      "hpower": 2.842170943040401e-14,
+      "ctpoten": 2.842170943040401e-14
+    },
+    "forcing": {
+      "days": 28,
+      "definitive_Kp_bins": 224,
+      "observed_F107_center_days": 81,
+      "adjusted_flux_used": false
+    },
+    "initial_clock": [
+      172,
+      0,
+      0
+    ],
+    "full_receipt_sha256": "07e3448520b8344d373ce6a3749afd06ad69c9708525ffb02d374b474cdec744",
+    "volumes": 47,
+    "hourly": 552
+  }
+}
