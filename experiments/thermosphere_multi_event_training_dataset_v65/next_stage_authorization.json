@@ -1,0 +1,16 @@
+{
+  "states": [
+    "TRAIN_DATA_READY_IF_INDEPENDENT_VERIFICATION_PASSES",
+    "V66_TRAINING_NEEDS_NEW_AUTHORIZATION",
+    "VALIDATION_AND_TEST_NOT_PRODUCED_OR_OPENED"
+  ],
+  "validation": [
+    "quiet_20220301T21",
+    "disturbed_20211103T21"
+  ],
+  "locked_test": [
+    "quiet_20231009T21",
+    "disturbed_20231105T09"
+  ],
+  "limitation": "Two events per role; strong disturbance outside moderate-only training set."
+}

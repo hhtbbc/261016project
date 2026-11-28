@@ -1,0 +1,32 @@
+{
+  "preferred": "uniform event then uniform window within event, deterministic shared sampler",
+  "comparison": [
+    "all windows equally weighted",
+    "all events equally weighted",
+    "quiet/disturbed classes equally weighted",
+    "uniform within each event; varying event weight separately"
+  ],
+  "event_windows": {
+    "quiet_20240329T00": 39,
+    "quiet_20211125T06": 54,
+    "disturbed_20250915T00": 6,
+    "disturbed_20210301T03": 33
+  },
+  "window_weights": {
+    "quiet_20240329T00": 0.29545454545454547,
+    "quiet_20211125T06": 0.4090909090909091,
+    "disturbed_20250915T00": 0.045454545454545456,
+    "disturbed_20210301T03": 0.25
+  },
+  "event_weights": {
+    "quiet_20240329T00": 0.25,
+    "quiet_20211125T06": 0.25,
+    "disturbed_20250915T00": 0.25,
+    "disturbed_20210301T03": 0.25
+  },
+  "class_weights": {
+    "quiet": 0.5,
+    "disturbed": 0.5
+  },
+  "caution": "Six neighboring short-storm windows describe one event; equal exposure increases reuse, not independence."
+}

@@ -1,0 +1,51 @@
+{
+  "plan": {
+    "event": "disturbed_20210301T03",
+    "subclass": "disturbed_moderate",
+    "season": "MAM",
+    "peak_kp": 5.667,
+    "core_start": "2021-03-01T03:00:00Z",
+    "core_end_exclusive": "2021-03-02T21:00:00Z",
+    "start": "2021-02-15T00:00:00Z",
+    "end": "2021-03-05T00:00:00Z",
+    "cutoffs": [
+      "2021-03-01T06:00:00Z",
+      "2021-03-01T18:00:00Z",
+      "2021-03-02T06:00:00Z"
+    ],
+    "steps": 25920,
+    "wall_hours": 0.765284248869334,
+    "cpu_hours": 3.0610504708571433,
+    "native_GiB": 3.5310079036014423,
+    "event_id": "disturbed_20210301T03",
+    "days": 18,
+    "steps_60s": 25920,
+    "primary_volumes": 19,
+    "secondary_volumes": 18,
+    "hourly_DEN_frames": 432,
+    "Training_role": "TRAIN"
+  },
+  "proof": {
+    "executable": {
+      "path": "experiments/tiegcm2_apex2023_v1/tiegcm2.0",
+      "SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776"
+    },
+    "mpirun": {
+      "path": ".envs/tiegcm/bin/mpirun"
+    },
+    "input": {
+      "SHA256": "f396d8ebbee48ff9f0d6b80f673d3d653d8f3f9f2491077ecb96ab9681c8d98a"
+    },
+    "seed_sha256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+    "gpi_sha256": "2bbc3e2f17713e4177c073bbfaf1a25c989c3409927710db12947659c0990b90"
+  },
+  "driver": {
+    "days": 23,
+    "definitive_Kp_bins": 184,
+    "observed_F107_center_days": 81,
+    "adjusted_flux_used": false
+  },
+  "expected_first_Fobs": "2021-01-04",
+  "expected_last_Fobs": "2021-04-16",
+  "source_path_bytes": 104
+}

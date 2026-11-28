@@ -1,0 +1,11 @@
+{
+  "SHA256": {
+    "native_output_inventory.csv": "d855929133f3e391096e6c085aab40947e2f505cb03fb495348be0fa50fc9ff3",
+    "native_time_index.csv": "bc0f69584889d00324bee03bf35a89cc1236f6e648d47829cc69c58c0cb8375d",
+    "train_cutoff_inventory.csv": "c91ec22ef33eeeff4b0997c9ff41985a30af7e5cf1826c06fec6ab9c2bb8cd2f",
+    "hourly_training_sample_manifest.csv": "32a59ad328cc5c6633080f1703ed95d473529d3fc92134ba909715914232ee37",
+    "training_field_manifest.csv": "50c8e38f6d7e2391cd4135a16dc1c14062196672561420c2608b63046da68a57"
+  },
+  "TRAIN_only": true,
+  "scope": "approved core, first history age >= 14 days"
+}

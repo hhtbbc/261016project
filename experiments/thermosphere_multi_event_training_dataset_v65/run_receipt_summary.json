@@ -1,0 +1,426 @@
+[
+  {
+    "engineering": "PASS",
+    "independent_science_status": "TRAIN",
+    "run_id": "a274f3d9e4944749ac94ecd56b4e5dfd",
+    "directory": "experiments/thermosphere_multi_event_training_dataset_v65/data_local/t1",
+    "datetime_start": "2024-03-15T00:00:00Z",
+    "datetime_end": "2024-03-31T00:00:00Z",
+    "final_step": 23040,
+    "rank_progress": [
+      {
+        "final_step": 23040,
+        "progress_records": 2304,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 23040,
+        "progress_records": 2304,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 23040,
+        "progress_records": 2304,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 23040,
+        "progress_records": 2304,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      }
+    ],
+    "ranks": [
+      {
+        "rank": 0,
+        "returncode": 0,
+        "receipt_SHA256": "c7ff514e4525c4dfa4b4a57dc51f1faab2ef28934d9e6ffd0e1e2c45190174f0",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "b9a0a175feea5d919074ed80c2fd50d42c794ccc62ae4d26d102f1d5e4a7a09b"
+      },
+      {
+        "rank": 1,
+        "returncode": 0,
+        "receipt_SHA256": "3f0e8668e4dfd3bbff9d626e316bd512341d096d732da640c2578b45273e0562",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "b9a0a175feea5d919074ed80c2fd50d42c794ccc62ae4d26d102f1d5e4a7a09b"
+      },
+      {
+        "rank": 2,
+        "returncode": 0,
+        "receipt_SHA256": "724bf8b89bc7c7fd0a3a7e913cdd077658571326ff2e7179cba228e15b85b697",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "b9a0a175feea5d919074ed80c2fd50d42c794ccc62ae4d26d102f1d5e4a7a09b"
+      },
+      {
+        "rank": 3,
+        "returncode": 0,
+        "receipt_SHA256": "1cfddc64fad46527002d6de26d679f7da1782b0467a48211a825e2c325a8db53",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "b9a0a175feea5d919074ed80c2fd50d42c794ccc62ae4d26d102f1d5e4a7a09b"
+      }
+    ],
+    "parent_exit": 0,
+    "status_sha256": "edb8652611ac73d020a79f309e48eee437623960689a509d8a27bcfe4a4c084d",
+    "peak_RSS_bytes": 1052303360,
+    "CPU_user_s": 9011.803489,
+    "CPU_system_s": 771.92213,
+    "elapsed_s": 2446.0820996947587,
+    "total_workdir_bytes": 3398275465,
+    "native_bytes": 3371581572,
+    "warnings_unique": [],
+    "warning_line_count": 0,
+    "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "input_SHA256": {
+      "input.inp": "b9a0a175feea5d919074ed80c2fd50d42c794ccc62ae4d26d102f1d5e4a7a09b",
+      "seed.nc": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "gpi.nc": "8900c0b02d800dd084f05811bb2572d5a303046c5218aee222d545bc729c9e74"
+    },
+    "DEN_values_decoded": 0,
+    "scientific_convergence": "NOT_ESTABLISHED",
+    "launch_UTC": "2026-11-28T02:49:16.776456Z",
+    "exit_UTC": "2026-11-28T03:30:03.014201Z",
+    "runtime_GPI_max_abs": {
+      "f107d": 5.684341886080802e-14,
+      "f107a": 5.684341886080802e-14,
+      "Kp": 8.881784197001252e-16,
+      "hpower": 5.684341886080802e-14,
+      "ctpoten": 2.842170943040401e-14
+    },
+    "forcing": {
+      "days": 21,
+      "definitive_Kp_bins": 168,
+      "observed_F107_center_days": 81,
+      "adjusted_flux_used": false
+    },
+    "event_id": "quiet_20240329T00",
+    "tag": "T1",
+    "receipt_SHA256": "28f255e23fc82865ce0760ec8247281e4acafff68609b616ebf2fcf3cd21f691",
+    "primary": 17,
+    "secondary": 16,
+    "hours": 384,
+    "sample_count": 39,
+    "target_count": 117
+  },
+  {
+    "engineering": "PASS",
+    "independent_science_status": "TRAIN",
+    "run_id": "1bdca1dfd79b4d06b5a0c934977ee8a8",
+    "directory": "experiments/thermosphere_multi_event_training_dataset_v65/data_local/t2",
+    "datetime_start": "2021-11-11T00:00:00Z",
+    "datetime_end": "2021-11-28T00:00:00Z",
+    "final_step": 24480,
+    "rank_progress": [
+      {
+        "final_step": 24480,
+        "progress_records": 2448,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 24480,
+        "progress_records": 2448,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 24480,
+        "progress_records": 2448,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 24480,
+        "progress_records": 2448,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      }
+    ],
+    "ranks": [
+      {
+        "rank": 0,
+        "returncode": 0,
+        "receipt_SHA256": "41cc00189d98ba9b5d37be3a490e4c770535c3eaed1e3683e814762e842d91a2",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "7c55e912f8039dd611d0e1076e66c696ed47ae079b3fb149ba741ac22b96f4a9"
+      },
+      {
+        "rank": 1,
+        "returncode": 0,
+        "receipt_SHA256": "4463c4768522aee38e05b9927ddd03f7da3c2a07b9abc975bd921522dd07ac99",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "7c55e912f8039dd611d0e1076e66c696ed47ae079b3fb149ba741ac22b96f4a9"
+      },
+      {
+        "rank": 2,
+        "returncode": 0,
+        "receipt_SHA256": "ce00ae21905074093803c5236a766fdc005e3282a4dbe66291c7b9936c93da8b",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "7c55e912f8039dd611d0e1076e66c696ed47ae079b3fb149ba741ac22b96f4a9"
+      },
+      {
+        "rank": 3,
+        "returncode": 0,
+        "receipt_SHA256": "9eba283e94c58815fc55608827d5b6966df8bdf5b210c45377b7e129271fb56d",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "7c55e912f8039dd611d0e1076e66c696ed47ae079b3fb149ba741ac22b96f4a9"
+      }
+    ],
+    "parent_exit": 0,
+    "status_sha256": "02e0986c1f6e1d2f793fc6e072f36c78b56c10fc7f12ac2b1a2129b4d784a728",
+    "peak_RSS_bytes": 1059258368,
+    "CPU_user_s": 9548.792501,
+    "CPU_system_s": 813.718588,
+    "elapsed_s": 2590.8480309583247,
+    "total_workdir_bytes": 3608496163,
+    "native_bytes": 3581243356,
+    "warnings_unique": [],
+    "warning_line_count": 0,
+    "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "input_SHA256": {
+      "input.inp": "7c55e912f8039dd611d0e1076e66c696ed47ae079b3fb149ba741ac22b96f4a9",
+      "seed.nc": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "gpi.nc": "d143abecbc119f4c683bc05994b0bd55a2547636baab11843b894900063dc805"
+    },
+    "DEN_values_decoded": 0,
+    "scientific_convergence": "NOT_ESTABLISHED",
+    "launch_UTC": "2026-11-28T03:30:11.900320Z",
+    "exit_UTC": "2026-11-28T04:13:22.914866Z",
+    "runtime_GPI_max_abs": {
+      "f107d": 2.842170943040401e-14,
+      "f107a": 4.263256414560601e-14,
+      "Kp": 8.881784197001252e-16,
+      "hpower": 1.4210854715202004e-14,
+      "ctpoten": 2.1316282072803006e-14
+    },
+    "forcing": {
+      "days": 22,
+      "definitive_Kp_bins": 176,
+      "observed_F107_center_days": 81,
+      "adjusted_flux_used": false
+    },
+    "event_id": "quiet_20211125T06",
+    "tag": "T2",
+    "receipt_SHA256": "6af985c9326fea5c9b23ba9e76f5b0457c7c51de4dd902f0c1c2c8ca21a9f6e3",
+    "primary": 18,
+    "secondary": 17,
+    "hours": 408,
+    "sample_count": 54,
+    "target_count": 162
+  },
+  {
+    "engineering": "PASS",
+    "independent_science_status": "TRAIN",
+    "run_id": "a84c62ccb58e4b15b1cf76d0acc9a409",
+    "directory": "experiments/thermosphere_multi_event_training_dataset_v65/data_local/t3",
+    "datetime_start": "2025-09-01T00:00:00Z",
+    "datetime_end": "2025-09-18T00:00:00Z",
+    "final_step": 24480,
+    "rank_progress": [
+      {
+        "final_step": 24480,
+        "progress_records": 2448,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 24480,
+        "progress_records": 2448,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 24480,
+        "progress_records": 2448,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 24480,
+        "progress_records": 2448,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      }
+    ],
+    "ranks": [
+      {
+        "rank": 0,
+        "returncode": 0,
+        "receipt_SHA256": "0ddcd53642093aeb8be29e5a39c6d9feb17ef1ca92d768bf0c36bd06094a2136",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "8962d35abdd682c82ca7c208682615c2d1e26677b545c54e6183a2fd62d2f644"
+      },
+      {
+        "rank": 1,
+        "returncode": 0,
+        "receipt_SHA256": "5163ab0c4cd34cbea7fe03c4c9ab05a4f082bca804d86ee5ef0b979df9ed505a",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "8962d35abdd682c82ca7c208682615c2d1e26677b545c54e6183a2fd62d2f644"
+      },
+      {
+        "rank": 2,
+        "returncode": 0,
+        "receipt_SHA256": "32f3cd2eb285999aaee889d9eafd008dcf3aa8ebb18e45175da855343ca452a2",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "8962d35abdd682c82ca7c208682615c2d1e26677b545c54e6183a2fd62d2f644"
+      },
+      {
+        "rank": 3,
+        "returncode": 0,
+        "receipt_SHA256": "b7b3c5c6206f2662c03eeb3d1ce4ee25d8da8d9513daa729a5c224714068af92",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "8962d35abdd682c82ca7c208682615c2d1e26677b545c54e6183a2fd62d2f644"
+      }
+    ],
+    "parent_exit": 0,
+    "status_sha256": "6e730c68a766e57474cd044ac23ea383c68f481b508075ba7762fb1845f2ab7f",
+    "peak_RSS_bytes": 1062854656,
+    "CPU_user_s": 9497.188744000003,
+    "CPU_system_s": 830.577151,
+    "elapsed_s": 2582.0893979631364,
+    "total_workdir_bytes": 3608477935,
+    "native_bytes": 3581243216,
+    "warnings_unique": [],
+    "warning_line_count": 0,
+    "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "input_SHA256": {
+      "input.inp": "8962d35abdd682c82ca7c208682615c2d1e26677b545c54e6183a2fd62d2f644",
+      "seed.nc": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "gpi.nc": "56f44d8ba8558e5363536495ca83c0af383fd6f95eeee1be47ad3bf2a84deb05"
+    },
+    "DEN_values_decoded": 0,
+    "scientific_convergence": "NOT_ESTABLISHED",
+    "launch_UTC": "2026-11-28T04:13:32.275631Z",
+    "exit_UTC": "2026-11-28T04:56:34.530490Z",
+    "runtime_GPI_max_abs": {
+      "f107d": 5.684341886080802e-14,
+      "f107a": 5.684341886080802e-14,
+      "Kp": 8.881784197001252e-16,
+      "hpower": 4.263256414560601e-14,
+      "ctpoten": 2.842170943040401e-14
+    },
+    "forcing": {
+      "days": 22,
+      "definitive_Kp_bins": 176,
+      "observed_F107_center_days": 81,
+      "adjusted_flux_used": false
+    },
+    "event_id": "disturbed_20250915T00",
+    "tag": "T3",
+    "receipt_SHA256": "67f96832d0b184dc4f8cebe56009b60509ac84bf83bbc308595070b8094a4415",
+    "primary": 18,
+    "secondary": 17,
+    "hours": 408,
+    "sample_count": 6,
+    "target_count": 18
+  },
+  {
+    "engineering": "PASS",
+    "independent_science_status": "TRAIN",
+    "run_id": "da026b6eb87f4a8f87af2ef45b8e628f",
+    "directory": "experiments/thermosphere_multi_event_training_dataset_v65/data_local/t4",
+    "datetime_start": "2021-02-15T00:00:00Z",
+    "datetime_end": "2021-03-05T00:00:00Z",
+    "final_step": 25920,
+    "rank_progress": [
+      {
+        "final_step": 25920,
+        "progress_records": 2592,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 25920,
+        "progress_records": 2592,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 25920,
+        "progress_records": 2592,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 25920,
+        "progress_records": 2592,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      }
+    ],
+    "ranks": [
+      {
+        "rank": 0,
+        "returncode": 0,
+        "receipt_SHA256": "586aac35e77600215c8524d81c4b65ede5ce29b34cc6b664305d19c803cc99ff",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "f396d8ebbee48ff9f0d6b80f673d3d653d8f3f9f2491077ecb96ab9681c8d98a"
+      },
+      {
+        "rank": 1,
+        "returncode": 0,
+        "receipt_SHA256": "f9ec561f634103e42b1c0e7f47e173f9c1139b5f1d7a4046f7a8568f9db7ac60",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "f396d8ebbee48ff9f0d6b80f673d3d653d8f3f9f2491077ecb96ab9681c8d98a"
+      },
+      {
+        "rank": 2,
+        "returncode": 0,
+        "receipt_SHA256": "30256d882368be891f624b92267b8ac39f9409d20b455a1738a476d5aff35fca",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "f396d8ebbee48ff9f0d6b80f673d3d653d8f3f9f2491077ecb96ab9681c8d98a"
+      },
+      {
+        "rank": 3,
+        "returncode": 0,
+        "receipt_SHA256": "a87eb0ec0c2d70da5f80ac5defdc6318b61d33ec45a895aac57dabb36bfff1cb",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "f396d8ebbee48ff9f0d6b80f673d3d653d8f3f9f2491077ecb96ab9681c8d98a"
+      }
+    ],
+    "parent_exit": 0,
+    "status_sha256": "b0fba457cdfb50030138621470eaad21399c1dcd043f4828dca31cef21b56cba",
+    "peak_RSS_bytes": 1052291072,
+    "CPU_user_s": 10143.395755000001,
+    "CPU_system_s": 871.3058209999999,
+    "elapsed_s": 2753.8468352891505,
+    "total_workdir_bytes": 3818769874,
+    "native_bytes": 3790905140,
+    "warnings_unique": [],
+    "warning_line_count": 0,
+    "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "input_SHA256": {
+      "input.inp": "f396d8ebbee48ff9f0d6b80f673d3d653d8f3f9f2491077ecb96ab9681c8d98a",
+      "seed.nc": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "gpi.nc": "2bbc3e2f17713e4177c073bbfaf1a25c989c3409927710db12947659c0990b90"
+    },
+    "DEN_values_decoded": 0,
+    "scientific_convergence": "NOT_ESTABLISHED",
+    "launch_UTC": "2026-11-28T04:56:43.807730Z",
+    "exit_UTC": "2026-11-28T05:42:37.828792Z",
+    "runtime_GPI_max_abs": {
+      "f107d": 2.842170943040401e-14,
+      "f107a": 2.842170943040401e-14,
+      "Kp": 8.881784197001252e-16,
+      "hpower": 2.842170943040401e-14,
+      "ctpoten": 2.842170943040401e-14
+    },
+    "forcing": {
+      "days": 23,
+      "definitive_Kp_bins": 184,
+      "observed_F107_center_days": 81,
+      "adjusted_flux_used": false
+    },
+    "event_id": "disturbed_20210301T03",
+    "tag": "T4",
+    "receipt_SHA256": "44ec0b16726a46397b2827ea89b0191cb55da49a2b351b520bc08ebcb18b7c02",
+    "primary": 19,
+    "secondary": 18,
+    "hours": 432,
+    "sample_count": 33,
+    "target_count": 99
+  }
+]

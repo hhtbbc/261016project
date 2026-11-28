@@ -1552,3 +1552,7 @@ activate_tiegcm.sh 下用 run_independent_predictions_v64.py 逐截点隔离执�
 ## 2026-11-28 V64-B 冻结预测评价与路线
 
 activate_tiegcm.sh 下运行 score_independent_events_v64.py 一次提取 21 个索引目标。诊断脚本只读授权缓存，修复 NumPy 整数 JSON 问题后生成九图。96 行全球指标、共同口径及层 SSE 独立复算通过。未读取 Swarm 或其他 DEN，未用 GPU、训练及新积分。
+
+## 2026-11-28 V65 四事件 CPU 和数据集
+
+activate_tiegcm.sh 下执行 run_training_events_v65.py、build_training_dataset_v65.py、verify_and_plot_training_v65.py 和 report_training_dataset_v65.py。4×MPI 串行 10,372.9 s。四组独立工程复核及 792 残差场复算通过。训练集无无效 DEN。无 GPU、训练、封存标签访问或非授权积分。原生文件、全精度结果和训练数组留服务器。

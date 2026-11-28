@@ -1,0 +1,18 @@
+{
+  "model": "V60 TinyDirectCNN 1027 parameters, same 3x3 3\u21928\u21928\u21923 kernels per ilev, ReLU, linear output",
+  "inputs": "same t-3,t-2,t-1 logDEN, unique TRAIN history normalization, no future forcing",
+  "backgrounds": [
+    "Persistence",
+    "LocalTimePersistence"
+  ],
+  "loss": "three-horizon mean of cosine-weighted log residual MAE",
+  "initial": "same seeded initialization, zero output head; seed 42",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "updates_per_arm": 200,
+  "historical_v60_80_updates_seconds": 13.556757763028145,
+  "extrapolated_optimizer_seconds_per_arm": 33.9,
+  "budget_note": "Linear V60 update-time extrapolation at same native grid and four CPU threads. Data reading, validation and setup excluded. No V65 training performed.",
+  "ceiling_s_per_arm_proposed": 600,
+  "comparison_policy": "same event/window order and updates; independent validation and fresh event test after lock"
+}

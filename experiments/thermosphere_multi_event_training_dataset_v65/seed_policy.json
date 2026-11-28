@@ -1,0 +1,59 @@
+{
+  "seed": "data/raw/tiegcm_2021_spinup_initial_condition_v1/tiegcm_res5.0_mareqx_smax_prim.nc",
+  "sha256": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+  "source_clock": [
+    80,
+    0,
+    0
+  ],
+  "policy": "V62 MAM/SON same verified mareqx smax cold-start background",
+  "rationale": "Use existing executed and validated seed policy for all four events. No date-specific mature seed; alternative archive members inspected by metadata only and not admitted for this frozen family. T2 November and T3 September use spring proxy.",
+  "archived_alternatives": {
+    "sepeqx": {
+      "mtime": [
+        [
+          264,
+          0,
+          0
+        ]
+      ],
+      "grid": [
+        29,
+        36,
+        72
+      ],
+      "source_member": "tiegcm_res5.0_data/tiegcm_res5.0_sepeqx_smax_prim.nc"
+    },
+    "decsol": {
+      "mtime": [
+        [
+          355,
+          0,
+          0
+        ]
+      ],
+      "grid": [
+        29,
+        36,
+        72
+      ],
+      "source_member": "tiegcm_res5.0_data/tiegcm_res5.0_decsol_smax_prim.nc"
+    },
+    "mareqx": {
+      "mtime": [
+        [
+          80,
+          0,
+          0
+        ]
+      ],
+      "grid": [
+        29,
+        36,
+        72
+      ],
+      "source_member": "tiegcm_res5.0_data/tiegcm_res5.0_mareqx_smax_prim.nc"
+    }
+  },
+  "convergence": "NOT_ESTABLISHED"
+}

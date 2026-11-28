@@ -42,10 +42,10 @@ else:
     require(child.returncode==errno.EACCES,'Real different-UID open probe did not get EACCES')
 
 
-def inspect(receipt,plan,solar,kp):
+def inspect(receipt,plan,solar,kp, *, private=PRIVATE):
     run=ROOT/receipt['directory']
-    require(run.resolve()==run and PRIVATE.stat().st_uid==run.stat().st_uid==0
-      and PRIVATE.stat().st_mode&0o777==0o700 and run.stat().st_mode&0o777==0o500,'Custody modes')
+    require(run.resolve()==run and private.stat().st_uid==run.stat().st_uid==0
+      and private.stat().st_mode&0o777==0o700 and run.stat().st_mode&0o777==0o500,'Custody modes')
     status=load(run/'status.json')
     require(digest(run/'status.json')==receipt['status_sha256'] and status['returncode']==0
          and status['wait_source']=='direct subprocess.Popen.wait' and status['cleanup_verified'],'Parent identity')

@@ -1,0 +1,18 @@
+{
+  "density_kg_m3.npy": {
+    "SHA256": "3accbf214ac31c6456f5f319ff05d7b3b878bda56933b29726c76ae4e464073e",
+    "bytes": 50513024
+  },
+  "log_density.npy": {
+    "SHA256": "0dffe456b44997a979dde1080d0673e503a6214ac7e179306cbe14a02f252f6d",
+    "bytes": 50513024
+  },
+  "log_residuals.npy": {
+    "SHA256": "79054420b0dbe895b5250587eb324f9c09f02f1c72b6533b8ad2012d5a604a08",
+    "bytes": 238132352
+  },
+  "sample_field_indices.npy": {
+    "SHA256": "783cbfbbdda3950be7a9f4d0a3dbc1144f3b0604aec0934c98015df8b9343a28",
+    "bytes": 6464
+  }
+}

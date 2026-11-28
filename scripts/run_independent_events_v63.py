@@ -111,7 +111,8 @@ def available(p):
     return review
 
 
-def engineering(run,plan,p,run_id,status):
+def engineering(run,plan,p,run_id,status, *, source_clock=(80,0,0),
+                role="LOCKED_INDEPENDENT_TEST_CANDIDATE"):
     require(status['qualification']=='PASS' and status['returncode']==0 and status['cleanup_verified']
          and not status['gaps'] and status['stop_reason'] is None and status['elapsed_s']<=6000
          and 0<status['peak_sampled_tree_rss_bytes']<=4*G,'Execution supervisor failure')
@@ -154,10 +155,10 @@ def engineering(run,plan,p,run_id,status):
                 m=metadata(n,i)
                 doy=t.timetuple().tm_yday
                 require(m['utc']==t and m['history_type']==kind and
-                   (m['initial_year'],m['initial_day'],m['initial_mtime'])==(2023,start.timetuple().tm_yday,[start.timetuple().tm_yday,0,0])
-                   and (m['year'],m['day'],m['mtime'])==(2023,doy,[doy,t.hour,0]),'Output clock shift')
+                   (m['initial_year'],m['initial_day'],m['initial_mtime'])==(start.year,start.timetuple().tm_yday,[start.timetuple().tm_yday,0,0])
+                   and (m['year'],m['day'],m['mtime'])==(t.year,doy,[doy,t.hour,0]),'Output clock shift')
                 if hour==0:
-                    require(m['iter']==seed_iter and list(n.source_mtime)==[80,0,0],'Cold source identity')
+                    require(m['iter']==seed_iter and tuple(n.source_mtime)==source_clock,'Cold source identity')
                 else:
                     require(m['run_type']=='initial' and m['iter']==start.timetuple().tm_yday*1440+hour*60,'Warm iter')
                 times.append(utc(t))
@@ -177,7 +178,7 @@ def engineering(run,plan,p,run_id,status):
         for line in f.read_text(errors='replace').splitlines():
             if re.search(r'\bwarning\b|\bcaution\b',line,re.I):
                 warning.append(line.strip())
-    return dict(engineering='PASS',independent_science_status='LOCKED_INDEPENDENT_TEST_CANDIDATE',run_id=run_id,
+    return dict(engineering='PASS',independent_science_status=role,run_id=run_id,
           directory=str(run.relative_to(ROOT)),datetime_start=plan['start'],datetime_end=plan['end'],
           final_step=last[0]['final_step'],rank_progress=last,ranks=ranks,parent_exit=0,command=launch['argv'],
           status_sha256=sha(run/'status.json'),peak_RSS_bytes=status['peak_sampled_tree_rss_bytes'],

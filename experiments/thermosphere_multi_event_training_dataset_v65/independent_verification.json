@@ -1,0 +1,15 @@
+{
+  "all_four_PASS": true,
+  "model_launch_count": 4,
+  "scanned_volumes": 140,
+  "hourly_frames": 1632,
+  "sample_count": 132,
+  "fields": 168,
+  "residual_checks": 792,
+  "max_residual_float32_delta": 1.2127986437349136e-07,
+  "role": "TRAIN",
+  "cross_role_DEN_reads": 0,
+  "GPU": 0,
+  "Swarm_label_reads": 0,
+  "training": 0
+}

@@ -1,0 +1,230 @@
+{
+  "experiments/thermosphere_multi_event_training_dataset_v65/data_quality_report.json": {
+    "SHA256": "6c653aa330629036f4c7afe87f51c8f62cf1b9055522f64e643daa229846b997",
+    "bytes": 2476
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/diurnal_structure.csv": {
+    "SHA256": "5e02ed395e5b4021260063ff91ce126f35d6c3891b150639ce7fc1b9d3066c46",
+    "bytes": 9519
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/event_layer_density_stats.csv": {
+    "SHA256": "aed4526639a4776bb66b6deaddc4ab1c3a5ce117d38b14188595ffdaeeb71419",
+    "bytes": 23818
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/event_residual_contribution.csv": {
+    "SHA256": "1c516d7b07fc60f509db84a09e2b486651d8d7e1e99662ca07d84ce7c8aad523",
+    "bytes": 773
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/event_role_registry.json": {
+    "SHA256": "85b6358fdc9eb529c0266a8773e7860c70b56551edfd8bf68ba20b0e6de35a83",
+    "bytes": 4613
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/event_sampling_plan.json": {
+    "SHA256": "47fde9eeedb11887779ffed398e2cf0a3f6d6f393e0797f498c74e33bc4b0c0e",
+    "bytes": 999
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/execution_authorization.json": {
+    "SHA256": "82436527a1a6509edd3a3341523bcfbac00abab22b158f0ed68e6c5693282b51",
+    "bytes": 924
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/figures/event_kp.png": {
+    "SHA256": "cc7eee2213f20c8007ab90a3836a9f740f62bf3a5fc28dd3bd2b505af15b7719",
+    "bytes": 48074
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/figures/exposure_weights.png": {
+    "SHA256": "4101ed6bcbe12237eab3b3a07ade91eab3e78e0cde7ab29af38b7b1c7d6e3596",
+    "bytes": 21961
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/figures/layer_residuals.png": {
+    "SHA256": "81b078e725d878ff9ad3a8d62bd70c40d65daccde69b898603c53c3bafe721bf",
+    "bytes": 103042
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/figures/native_density.png": {
+    "SHA256": "bcb4ec1ec5f896a6abd21bc3111d2e79a5d26abdf4becc072a1b806d92a0fb55",
+    "bytes": 40890
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/figures/residual_backgrounds.png": {
+    "SHA256": "5ab8aaf7cd11dfb066dbdddd8ec8eaf0ee4ca6fd5c560610ac59cc282e4c56dc",
+    "bytes": 64928
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/figures/residual_distributions.png": {
+    "SHA256": "4e390e7647683397a4028a0189aab290c03f922e45966dfa6d9f11da06e9fd30",
+    "bytes": 39240
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/figures/run_resources.png": {
+    "SHA256": "acbd4b19bb437c127fe2c4b3f9e820635efa8fd2c4bd582a7a9de7442893292b",
+    "bytes": 27701
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/figures/window_timeline.png": {
+    "SHA256": "b9af1ff9a7a014b36ce311fa22b8422c8d9d541b46e90b273b264e57b554f278",
+    "bytes": 15091
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/forcing_completeness.csv": {
+    "SHA256": "5e6404754909ddd4419d95b7ff4447ba10f8133db712b47b6e9e6a91f32c1c0f",
+    "bytes": 361
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/hourly_training_sample_manifest.csv": {
+    "SHA256": "32a59ad328cc5c6633080f1703ed95d473529d3fc92134ba909715914232ee37",
+    "bytes": 36531
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/independent_verification.json": {
+    "SHA256": "afe2a89c49c6ab28c9b30016a7dba5866f9ca98eadc247cde3a3e9f298a5423f",
+    "bytes": 330
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/matched_model_preregistration.json": {
+    "SHA256": "6fc1cbcaa6d6bcf2be288da8ede0ed2ece3a8e296c8741abe6b25788165e92f8",
+    "bytes": 933
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/native_output_inventory.csv": {
+    "SHA256": "d855929133f3e391096e6c085aab40947e2f505cb03fb495348be0fa50fc9ff3",
+    "bytes": 39963
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/native_time_index.csv": {
+    "SHA256": "bc0f69584889d00324bee03bf35a89cc1236f6e648d47829cc69c58c0cb8375d",
+    "bytes": 152856
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/next_stage_authorization.json": {
+    "SHA256": "78fe796d1e355fbe13d2a8bb84745050265f3be2ee77469a7b81296918542cb7",
+    "bytes": 421
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/prepared_configs/T1/input.inp": {
+    "SHA256": "b9a0a175feea5d919074ed80c2fd50d42c794ccc62ae4d26d102f1d5e4a7a09b",
+    "bytes": 1441
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/prepared_configs/T1/preflight.json": {
+    "SHA256": "1f2056a1d21163f0fa062363dcb77688aaef1bb9e0d73ff674be3281235472e4",
+    "bytes": 1490
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/prepared_configs/T2/input.inp": {
+    "SHA256": "7c55e912f8039dd611d0e1076e66c696ed47ae079b3fb149ba741ac22b96f4a9",
+    "bytes": 1479
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/prepared_configs/T2/preflight.json": {
+    "SHA256": "1beee1196277db9c239959ac29ffba87d214bf7d64c6b795c20593d8e9bb09f8",
+    "bytes": 1520
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/prepared_configs/T3/input.inp": {
+    "SHA256": "8962d35abdd682c82ca7c208682615c2d1e26677b545c54e6183a2fd62d2f644",
+    "bytes": 1479
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/prepared_configs/T3/preflight.json": {
+    "SHA256": "1586606b1829725c7ee09d957df211bf508718e7cd56a8aba207faab0293ec00",
+    "bytes": 1451
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/prepared_configs/T4/input.inp": {
+    "SHA256": "f396d8ebbee48ff9f0d6b80f673d3d653d8f3f9f2491077ecb96ab9681c8d98a",
+    "bytes": 1517
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/prepared_configs/T4/preflight.json": {
+    "SHA256": "2579412c7911d90f282aff74a3bed43db1d607a16abe6c02966d08a7d9b7598e",
+    "bytes": 1510
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/residual_comparison.csv": {
+    "SHA256": "a67855727026e20279e8f51bdde84b5921be8a9202bcd7f19e7067025bc7f1b6",
+    "bytes": 354143
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/residual_spatial_correlation.csv": {
+    "SHA256": "251cadd63593c893f5fd0fd236a9bf8e4f34c6540522a2a63faa774092d7c666",
+    "bytes": 3509
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/residual_summary.csv": {
+    "SHA256": "cb1693d7f758db1c6db09e748eab5d853c731e8a8d648510675cf7806a97f529",
+    "bytes": 2419
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/resource_usage.json": {
+    "SHA256": "a911f150f935545144d013748fe8275c29f184c8445e780e7387eee344c428c6",
+    "bytes": 1225
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/run_receipt_summary.json": {
+    "SHA256": "813dfea9b6956e41609da96a0d0a74ba78fd1c70e66d1f8d37dde4d32110c718",
+    "bytes": 16856
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/run_receipts/T1_claim.json": {
+    "SHA256": "0ee87829cd54bbfd0c114bfa3bda48c9d0e2275f10b27768f4410cf106869bc6",
+    "bytes": 142
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/run_receipts/T1_resources_before.json": {
+    "SHA256": "7a018644f84ed5c8db9198eb4d3416ec85497ab765f4af564e875731ad5ed34e",
+    "bytes": 6450
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/run_receipts/T1_run_receipt.json": {
+    "SHA256": "28f255e23fc82865ce0760ec8247281e4acafff68609b616ebf2fcf3cd21f691",
+    "bytes": 91143
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/run_receipts/T2_claim.json": {
+    "SHA256": "81dd62c6ddc8f16f1d532820867d50be42c9683ed3ee7a79dcdcb6e9164b7662",
+    "bytes": 142
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/run_receipts/T2_resources_before.json": {
+    "SHA256": "2da5ac5707fd7c40cd87b06178b0e2824aace61e73f72fb5c09d7e3f007efe07",
+    "bytes": 6452
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/run_receipts/T2_run_receipt.json": {
+    "SHA256": "6af985c9326fea5c9b23ba9e76f5b0457c7c51de4dd902f0c1c2c8ca21a9f6e3",
+    "bytes": 96546
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/run_receipts/T3_claim.json": {
+    "SHA256": "c8224622a1209c7a0af8d508458c15c6b6cdea3ab1f7c011300aa074a6f86d48",
+    "bytes": 146
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/run_receipts/T3_resources_before.json": {
+    "SHA256": "2c510acebb51dd017ec4c79842d6852d692ca2d0a2593100fbcf99c467f54386",
+    "bytes": 6449
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/run_receipts/T3_run_receipt.json": {
+    "SHA256": "67f96832d0b184dc4f8cebe56009b60509ac84bf83bbc308595070b8094a4415",
+    "bytes": 98326
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/run_receipts/T4_claim.json": {
+    "SHA256": "f428874dafa08cbd533099a43812a00aaa7ce65af9f5c6f661bf7aad7996e374",
+    "bytes": 146
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/run_receipts/T4_resources_before.json": {
+    "SHA256": "72e49ccbda6b653abc5ce38e891696b9763091a2b400ad4246e8402d0dd1f734",
+    "bytes": 6452
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/run_receipts/T4_run_receipt.json": {
+    "SHA256": "44ec0b16726a46397b2827ea89b0191cb55da49a2b351b520bc08ebcb18b7c02",
+    "bytes": 103838
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/seed_policy.json": {
+    "SHA256": "71f19438a99e0e8c79daf413943e1c9c2d6adb98f47077e7a9371eac969278d9",
+    "bytes": 1368
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/train_cutoff_inventory.csv": {
+    "SHA256": "c91ec22ef33eeeff4b0997c9ff41985a30af7e5cf1826c06fec6ab9c2bb8cd2f",
+    "bytes": 3116
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/train_normalization.json": {
+    "SHA256": "5b950380f1b31c80117164f84cb55b50473b401fb8344d629fe7ea1398e761ca",
+    "bytes": 4307
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/training_arrays_SHA256.json": {
+    "SHA256": "4dd93ead36875ce8f8ba4f36516f0effaa3937235bacac87d9ba5a3967777eae",
+    "bytes": 540
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/training_baseline_metrics.csv": {
+    "SHA256": "b118ebf1fce626ed5be56ec7b92a7efee2d52f41aa007742dc1bcbf3f39627c3",
+    "bytes": 19233
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/training_data_resources.json": {
+    "SHA256": "fdfda38b4339fae325ab0413e0332590b701bbb987ee83b7541b000b4ff6ca4b",
+    "bytes": 163
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/training_field_manifest.csv": {
+    "SHA256": "50c8e38f6d7e2391cd4135a16dc1c14062196672561420c2608b63046da68a57",
+    "bytes": 42115
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/training_field_receipt.csv": {
+    "SHA256": "b5a8e36532efa71f1c06f0f43526ccae15460fb84daf031ca2a9a5d4074c1a9d",
+    "bytes": 69126
+  },
+  "experiments/thermosphere_multi_event_training_dataset_v65/training_scope_lock.json": {
+    "SHA256": "b158180eb4fdcb7f8a28a3b3e9248f1a781dca2c219e7e632daeeb64113dd539",
+    "bytes": 616
+  },
+  "reports/THERMOSPHERE_MULTI_EVENT_TRAINING_DATASET_V65.md": {
+    "SHA256": "15b001cc023d5dcc0e2df6914f423440d54a832cf01aa098cad2cc373ee6c827",
+    "bytes": 5196
+  }
+}
