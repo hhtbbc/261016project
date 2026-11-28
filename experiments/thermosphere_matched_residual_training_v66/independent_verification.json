@@ -1,0 +1,11 @@
+{
+  "parameters_each": 1027,
+  "updates_each": 200,
+  "matched_initial_and_sequence": true,
+  "checkpoint_restore_and_zero_correction_at_step0": true,
+  "V65_baseline_max_abs_log_RMS_diff": 5.467620245447335e-10,
+  "validation_DEN_reads": 0,
+  "validated_train_windows": 132,
+  "forecast_diagnostic_rows": 3465,
+  "training_GPU": 0
+}

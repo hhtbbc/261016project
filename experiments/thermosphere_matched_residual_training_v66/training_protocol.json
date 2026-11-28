@@ -1,0 +1,50 @@
+{
+  "arms": [
+    "P",
+    "LT"
+  ],
+  "updates_per_arm": 200,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "loss": "equally weighted lead and cosine latitude log residual MAE",
+  "batch_cutoffs": 1,
+  "seed": 42,
+  "dtype": "float32",
+  "device": "cpu",
+  "CPU_threads": 4,
+  "deterministic": true,
+  "sampling_SHA256": "32c1e70576d115c14a59c036b4a820883e06b6b14f36f491b87f5895ebc1ab44",
+  "normalization_SHA256": "5b950380f1b31c80117164f84cb55b50473b401fb8344d629fe7ea1398e761ca",
+  "input_array_HASHES": {
+    "density_kg_m3.npy": {
+      "SHA256": "3accbf214ac31c6456f5f319ff05d7b3b878bda56933b29726c76ae4e464073e",
+      "bytes": 50513024
+    },
+    "log_density.npy": {
+      "SHA256": "0dffe456b44997a979dde1080d0673e503a6214ac7e179306cbe14a02f252f6d",
+      "bytes": 50513024
+    },
+    "log_residuals.npy": {
+      "SHA256": "79054420b0dbe895b5250587eb324f9c09f02f1c72b6533b8ad2012d5a604a08",
+      "bytes": 238132352
+    },
+    "sample_field_indices.npy": {
+      "SHA256": "783cbfbbdda3950be7a9f4d0a3dbc1144f3b0604aec0934c98015df8b9343a28",
+      "bytes": 6464
+    }
+  },
+  "validation_early_stopping": false,
+  "longitude": "circular",
+  "latitude": "reflect",
+  "architecture": "V60 TinyDirectCNN 3\u21928\u21928\u21923",
+  "field_shape": [
+    29,
+    36,
+    72
+  ],
+  "LT_eastward_grid_offsets": [
+    6,
+    12,
+    21
+  ]
+}

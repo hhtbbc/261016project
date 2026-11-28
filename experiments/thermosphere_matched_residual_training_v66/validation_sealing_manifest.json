@@ -1,0 +1,117 @@
+{
+  "role": "MODEL_SELECTION_VALIDATION",
+  "cutoffs": 4,
+  "targets": 12,
+  "history": 12,
+  "periodic": 12,
+  "DEN_reads": 0,
+  "unprivileged_uid": 65534,
+  "denied_open": "EACCES",
+  "private_mode": "0700",
+  "run_mode": "0500",
+  "native_mode": "0400",
+  "periodic_overlap": [
+    {
+      "historical": {
+        "event_id": "quiet_20220301T21",
+        "run_id": "50d3c9fbdb6f43b785eaa544c637e269",
+        "UTC": "2022-03-02T07:00:00Z",
+        "file": "secondary_015.nc",
+        "record": 6,
+        "volume_SHA256": "8901252a5833df76f988470e72af465c04b8d9987a8d3d3d5c56118a8d641c60",
+        "cutoff_UTC": "2022-03-03T06:00:00Z",
+        "lead_hours": 1,
+        "role": "MODEL_SELECTION_VALIDATION",
+        "stage": "periodic",
+        "record_id": "e9dbead7580c40bb66152c84d413d5d48f3cef7c6de2fff97c58f6d89b35bc7c",
+        "relative_directory": "experiments/thermosphere_matched_residual_training_v66/validation_local/val1",
+        "DEN_access": "SEALED"
+      },
+      "earlier_target": {
+        "event_id": "quiet_20220301T21",
+        "run_id": "50d3c9fbdb6f43b785eaa544c637e269",
+        "UTC": "2022-03-02T07:00:00Z",
+        "file": "secondary_015.nc",
+        "record": 6,
+        "volume_SHA256": "8901252a5833df76f988470e72af465c04b8d9987a8d3d3d5c56118a8d641c60",
+        "cutoff_UTC": "2022-03-02T06:00:00Z",
+        "lead_hours": 1,
+        "role": "MODEL_SELECTION_VALIDATION",
+        "stage": "target",
+        "record_id": "5aa1078a8196e2956452aed13797d590d95d09e883bcb1f120af3d699ba628bd",
+        "relative_directory": "experiments/thermosphere_matched_residual_training_v66/validation_local/val1",
+        "DEN_access": "SEALED"
+      }
+    },
+    {
+      "historical": {
+        "event_id": "quiet_20220301T21",
+        "run_id": "50d3c9fbdb6f43b785eaa544c637e269",
+        "UTC": "2022-03-02T09:00:00Z",
+        "file": "secondary_015.nc",
+        "record": 8,
+        "volume_SHA256": "8901252a5833df76f988470e72af465c04b8d9987a8d3d3d5c56118a8d641c60",
+        "cutoff_UTC": "2022-03-03T06:00:00Z",
+        "lead_hours": 3,
+        "role": "MODEL_SELECTION_VALIDATION",
+        "stage": "periodic",
+        "record_id": "ee29aa5cc46f438f8616e813bc2b2f166935bf24a7026a9984211d3c030f0215",
+        "relative_directory": "experiments/thermosphere_matched_residual_training_v66/validation_local/val1",
+        "DEN_access": "SEALED"
+      },
+      "earlier_target": {
+        "event_id": "quiet_20220301T21",
+        "run_id": "50d3c9fbdb6f43b785eaa544c637e269",
+        "UTC": "2022-03-02T09:00:00Z",
+        "file": "secondary_015.nc",
+        "record": 8,
+        "volume_SHA256": "8901252a5833df76f988470e72af465c04b8d9987a8d3d3d5c56118a8d641c60",
+        "cutoff_UTC": "2022-03-02T06:00:00Z",
+        "lead_hours": 3,
+        "role": "MODEL_SELECTION_VALIDATION",
+        "stage": "target",
+        "record_id": "becc4db43b3eac1554453094707517c60bc0eabba6b2623711e94de78a856249",
+        "relative_directory": "experiments/thermosphere_matched_residual_training_v66/validation_local/val1",
+        "DEN_access": "SEALED"
+      }
+    },
+    {
+      "historical": {
+        "event_id": "quiet_20220301T21",
+        "run_id": "50d3c9fbdb6f43b785eaa544c637e269",
+        "UTC": "2022-03-02T12:00:00Z",
+        "file": "secondary_015.nc",
+        "record": 11,
+        "volume_SHA256": "8901252a5833df76f988470e72af465c04b8d9987a8d3d3d5c56118a8d641c60",
+        "cutoff_UTC": "2022-03-03T06:00:00Z",
+        "lead_hours": 6,
+        "role": "MODEL_SELECTION_VALIDATION",
+        "stage": "periodic",
+        "record_id": "cb3b4c7a5d5f7d2f705a19d1025773cb9b2a665756fad2ee66d38325d195279c",
+        "relative_directory": "experiments/thermosphere_matched_residual_training_v66/validation_local/val1",
+        "DEN_access": "SEALED"
+      },
+      "earlier_target": {
+        "event_id": "quiet_20220301T21",
+        "run_id": "50d3c9fbdb6f43b785eaa544c637e269",
+        "UTC": "2022-03-02T12:00:00Z",
+        "file": "secondary_015.nc",
+        "record": 11,
+        "volume_SHA256": "8901252a5833df76f988470e72af465c04b8d9987a8d3d3d5c56118a8d641c60",
+        "cutoff_UTC": "2022-03-02T06:00:00Z",
+        "lead_hours": 6,
+        "role": "MODEL_SELECTION_VALIDATION",
+        "stage": "target",
+        "record_id": "1990cdc8386ae1675fb9b7816ce72aef6bfabbea345b9c8c670d4d2e8268c458",
+        "relative_directory": "experiments/thermosphere_matched_residual_training_v66/validation_local/val1",
+        "DEN_access": "SEALED"
+      }
+    }
+  ],
+  "SHA256": {
+    "validation_history_record_index.csv": "a5cb913a639a861172a6f55e5ef747437551ea5a60f39bb6ffe75525579f7569",
+    "validation_target_record_index.csv": "95be01742743c042ef30bc1afc69587fe959d6185717108bb5690b99fb5eb64b",
+    "validation_periodic_history_index.csv": "97cbeebd5df9722edbde4776ef9823bbb8eac5381f200725261c48d285bddc06"
+  },
+  "status": "SEALED_AWAITING_SEPARATE_AUTHORIZATION"
+}

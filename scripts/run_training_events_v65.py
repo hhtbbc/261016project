@@ -66,7 +66,7 @@ def seed_policy():
                 archived_alternatives=alternatives,convergence='NOT_ESTABLISHED')
 
 
-def prepare(tag,event,dp,c,kp,solar):
+def prepare(tag,event,dp,c,kp,solar, *, out=OUT, private=PRIVATE, role="TRAIN"):
     event_id,lo_date,hi_date,days,peak=event
     lo,hi=at(dp['start']),at(dp['end'])
     require(lo.isoformat()==lo_date+'T00:00:00' and hi.isoformat()==hi_date+'T00:00:00'
@@ -76,16 +76,16 @@ def prepare(tag,event,dp,c,kp,solar):
     core=(at(c['core_start']),at(c['core_end_exclusive']))
     for cut in map(at,dp['cutoffs']):
         require(max(core[0],lo+timedelta(days=14))<=cut-3*H and cut+6*H<core[1], 'Fixed cutoff scope')
-    run=PRIVATE/tag.lower()
+    run=private/tag.lower()
     require(run.resolve()==run and len(os.fsencode(run/'seed.nc'))<120,'SOURCE path bound')
-    folder=OUT/'prepared_configs'/tag
+    folder=out/'prepared_configs'/tag
     folder.mkdir()
     template=pinned(V62/'configs/q_input.inp').read_text()
     def volumes(kind,count):
         return ',\n           '.join(', '.join(f"'{kind}_{i:03d}.nc'" for i in range(a,min(a+5,count+1)))
                                      for a in range(1,count+1,5))
     a,b=lo.strftime('%j'),hi.strftime('%j')
-    replacements=dict(LABEL="'V65 TRAIN EVENT HINDCAST'",START_YEAR=str(lo.year),START_DAY=a,
+    replacements=dict(LABEL=f"'{'V65' if role=='TRAIN' else 'V66'} {role} EVENT HINDCAST'",START_YEAR=str(lo.year),START_DAY=a,
                       START=f'{a} 0 0',STOP=f'{b} 0 0',SECSTART=f'{a} 1 0',SECSTOP=f'{b} 0 0',
                       OUTPUT=volumes('primary',days+1),SECOUT=volumes('secondary',days))
     for name,value in replacements.items():
@@ -103,7 +103,7 @@ def prepare(tag,event,dp,c,kp,solar):
         p=ROOT/rel
         require(p.resolve()==p and p.is_file(),'Missing tide file')
     (folder/'input.inp').write_text(template)
-    gpi_dir=PRIVATE/f'forcing_{tag}'
+    gpi_dir=private/f'forcing_{tag}'
     gpi_dir.mkdir(mode=0o700)
     gpi=gpi_dir/'gpi.nc'
     grid,f,mean,k=builder.arrays(solar,kp,(lo-48*H).date(),(hi+48*H).date())
@@ -114,7 +114,7 @@ def prepare(tag,event,dp,c,kp,solar):
     for p in (folder/'input.inp',gpi):
         p.chmod(0o444)
     metadata=dict(dp, event_id=event_id,days=days,steps_60s=days*1440,primary_volumes=days+1,
-                  secondary_volumes=days,hourly_DEN_frames=days*24,Training_role='TRAIN')
+                  secondary_volumes=days,hourly_DEN_frames=days*24,Training_role=role)
     proof=dict(executable=dict(path=str(ELF.relative_to(ROOT)),SHA256=ELF_SHA),
                mpirun=dict(path='.envs/tiegcm/bin/mpirun'),input=dict(SHA256=sha(folder/'input.inp')),
                seed_sha256=SEED_SHA,gpi_sha256=sha(gpi))

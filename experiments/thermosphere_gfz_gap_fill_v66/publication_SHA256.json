@@ -1,0 +1,42 @@
+{
+  "V55_handoff_check.json": {
+    "SHA256": "1073036427ac5a771ea21279b36c6369f022247c65f303fa829c3b2ad671fcae",
+    "bytes": 959
+  },
+  "candidate_daily_nodes.csv": {
+    "SHA256": "e1fd63ca7843cbf589f64e7fd7ef3850b331658f6f4e804d8671ace77d0a47c2",
+    "bytes": 45363
+  },
+  "candidate_driver_comparison.csv": {
+    "SHA256": "0c5a16d7d3d8684d2de3874b5662b474d97d892769ea4ab42e50a4f3d5585c09",
+    "bytes": 1716
+  },
+  "candidate_gap_fill_protocol.json": {
+    "SHA256": "a7010123b18b0afd7fa2b9e594dece2d8a518fb5c865caa519898865cd1197da",
+    "bytes": 3112
+  },
+  "figures/candidate_daily_sensitivity.png": {
+    "SHA256": "6d11a39443f2c3bef4b8f48774f0afdd83b755b9970f6482684427cfdb335aea",
+    "bytes": 55083
+  },
+  "figures_public/candidate_daily_sensitivity.png": {
+    "SHA256": "c761111e6e35b378dd4198c7596a78f7ff53602ce791ab5b7e5d99b4e3766a56",
+    "bytes": 15354
+  },
+  "gap_fill_candidates.csv": {
+    "SHA256": "aeade98c6fced99a5f4b427173424917dc7ba2ad19ce0e4cca9b47d1d5cdffb6",
+    "bytes": 1128
+  },
+  "gfz_reply_evidence.json": {
+    "SHA256": "fa6a56283045c7e44bb2d17e6144b11feaf2cc417639f236f497653dbcad94b5",
+    "bytes": 2427
+  },
+  "public_reference_checks.json": {
+    "SHA256": "9293b5aac9f12416f2760b5487c4624c0d7b1d490808ff6257bb531afae77ec6",
+    "bytes": 1091
+  },
+  "summer_2021_execution_proposal.json": {
+    "SHA256": "d97fddb38a7c0f4212546e4d8132a1ebe026101bea73288188c78ef85ec522ec",
+    "bytes": 1178
+  }
+}

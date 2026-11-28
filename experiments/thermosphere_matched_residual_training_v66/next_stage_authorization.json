@@ -1,0 +1,61 @@
+{
+  "V67": "Separate history then scoring authorization; both models and comparing untrained backgrounds frozen.",
+  "labels": 12,
+  "target_index": "validation_target_record_index.csv",
+  "history_index": "validation_history_record_index.csv",
+  "daily_index": "validation_periodic_history_index.csv",
+  "periodic_requires_order": true,
+  "current_label_state": "SEALED",
+  "trial_methods": [
+    "Persistence",
+    "LocalTimePersistence",
+    "DailyPersistence",
+    "P-Residual-CNN",
+    "LT-Residual-CNN",
+    "LogLinear"
+  ],
+  "unused_final_tests": [
+    {
+      "event": "disturbed_20231105T09",
+      "subclass": "disturbed_strong",
+      "season": "SON",
+      "peak_kp": 7.333,
+      "core_start": "2023-11-05T09:00:00Z",
+      "core_end_exclusive": "2023-11-07T03:00:00Z",
+      "start": "2023-10-22T00:00:00Z",
+      "end": "2023-11-10T00:00:00Z",
+      "cutoffs": [
+        "2023-11-05T18:00:00Z",
+        "2023-11-06T06:00:00Z",
+        "2023-11-06T18:00:00Z"
+      ],
+      "steps": 27360,
+      "wall_hours": 0.8078000404731859,
+      "cpu_hours": 3.231108830349207,
+      "native_GiB": 3.7271750093570777
+    },
+    {
+      "event": "quiet_20231009T21",
+      "subclass": "quiet",
+      "season": "SON",
+      "peak_kp": 2.0,
+      "core_start": "2023-10-09T21:00:00Z",
+      "core_end_exclusive": "2023-10-13T03:00:00Z",
+      "start": "2023-09-26T00:00:00Z",
+      "end": "2023-10-14T00:00:00Z",
+      "cutoffs": [
+        "2023-10-10T06:00:00Z",
+        "2023-10-10T18:00:00Z",
+        "2023-10-11T06:00:00Z",
+        "2023-10-11T18:00:00Z",
+        "2023-10-12T06:00:00Z",
+        "2023-10-12T18:00:00Z"
+      ],
+      "steps": 25920,
+      "wall_hours": 0.765284248869334,
+      "cpu_hours": 3.0610504708571433,
+      "native_GiB": 3.5310079036014423
+    }
+  ],
+  "GFZ_gap_policy_pending": true
+}

@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "parameters": 1027,
+  "last_layer_zero": true,
+  "initial_checkpoint_SHA256": "a5df025ec754ee501cacfa0fa9a9e341f48c152c138dec2cf22923f271997c1e",
+  "initial_vector_SHA256": "bd9f90b64e8d7822e3fb54498f12c42c383ca41a1cce1b3187b252b2cccedaf1",
+  "sampler_final_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 206105892271149074598500896005987417616,
+      "inc": 332724090758049132448979897138935081983
+    },
+    "has_uint32": 0,
+    "uinteger": 1332830026
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "VAL1": {
+    "engineering": "PASS",
+    "independent_science_status": "MODEL_SELECTION_VALIDATION",
+    "run_id": "50d3c9fbdb6f43b785eaa544c637e269",
+    "directory": "experiments/thermosphere_matched_residual_training_v66/validation_local/val1",
+    "datetime_start": "2022-02-16T00:00:00Z",
+    "datetime_end": "2022-03-04T00:00:00Z",
+    "final_step": 23040,
+    "rank_progress": [
+      {
+        "final_step": 23040,
+        "progress_records": 2304,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 23040,
+        "progress_records": 2304,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 23040,
+        "progress_records": 2304,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 23040,
+        "progress_records": 2304,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      }
+    ],
+    "ranks": [
+      {
+        "rank": 0,
+        "returncode": 0,
+        "receipt_SHA256": "900fe2a9a0f53db259c8ac631c8d312e8e83769510927ff59e9d0c4413d5bd0a",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "8e36d4df3e1263f20c56a9aef82d0cbdec74d6bb9009f7b814abd7c3cfecdcd9"
+      },
+      {
+        "rank": 1,
+        "returncode": 0,
+        "receipt_SHA256": "7d3def3d6d6a41d689ce305edbc23e28619e2ee8bdd8d566997814234aa311d4",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "8e36d4df3e1263f20c56a9aef82d0cbdec74d6bb9009f7b814abd7c3cfecdcd9"
+      },
+      {
+        "rank": 2,
+        "returncode": 0,
+        "receipt_SHA256": "b6a2f8d710699615637b91a10e297ca33551c158fb9530112d24cbd892fb9680",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "8e36d4df3e1263f20c56a9aef82d0cbdec74d6bb9009f7b814abd7c3cfecdcd9"
+      },
+      {
+        "rank": 3,
+        "returncode": 0,
+        "receipt_SHA256": "0be67c829a8c5bc6fd7eec06cde4cb41daf27d4f6055cfc2a122e6da9b92415b",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "8e36d4df3e1263f20c56a9aef82d0cbdec74d6bb9009f7b814abd7c3cfecdcd9"
+      }
+    ],
+    "parent_exit": 0,
+    "status_sha256": "3ebb2561252095d6259cacd368c692f00d8c89e0f2b897ae5470f4256f61f649",
+    "peak_RSS_bytes": 1052540928,
+    "CPU_user_s": 8929.980176000001,
+    "CPU_system_s": 779.770797,
+    "elapsed_s": 2427.696493972093,
+    "total_workdir_bytes": 3398232761,
+    "native_bytes": 3371582340,
+    "warnings_unique": [],
+    "warning_line_count": 0,
+    "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "input_SHA256": {
+      "input.inp": "8e36d4df3e1263f20c56a9aef82d0cbdec74d6bb9009f7b814abd7c3cfecdcd9",
+      "seed.nc": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "gpi.nc": "5e89d45e9d5e3f325eecb04ef342268e6175f2911cde8bcebdfa06fb0c42a875"
+    },
+    "DEN_values_decoded": 0,
+    "scientific_convergence": "NOT_ESTABLISHED",
+    "event_id": "quiet_20220301T21",
+    "launch_UTC": "2026-11-28T06:41:38.894501Z",
+    "exit_UTC": "2026-11-28T07:22:06.738119Z",
+    "runtime_GPI_max_abs": {
+      "f107d": 2.842170943040401e-14,
+      "f107a": 4.263256414560601e-14,
+      "Kp": 8.881784197001252e-16,
+      "hpower": 2.842170943040401e-14,
+      "ctpoten": 2.1316282072803006e-14
+    },
+    "forcing": {
+      "days": 21,
+      "definitive_Kp_bins": 168,
+      "observed_F107_center_days": 81,
+      "adjusted_flux_used": false
+    },
+    "file_count": 33,
+    "hourly_frames": 384,
+    "full_receipt_SHA256": "c554caa5b8765b7cdd20156f769c5a3fafb62eda5be3c554074ab14413e5471e"
+  },
+  "VAL2": {
+    "engineering": "PASS",
+    "independent_science_status": "MODEL_SELECTION_VALIDATION",
+    "run_id": "1d45eae9a8694415899797844ad13c70",
+    "directory": "experiments/thermosphere_matched_residual_training_v66/validation_local/val2",
+    "datetime_start": "2021-10-21T00:00:00Z",
+    "datetime_end": "2021-11-07T00:00:00Z",
+    "final_step": 24480,
+    "rank_progress": [
+      {
+        "final_step": 24480,
+        "progress_records": 2448,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 24480,
+        "progress_records": 2448,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 24480,
+        "progress_records": 2448,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      },
+      {
+        "final_step": 24480,
+        "progress_records": 2448,
+        "logging_stride": 10,
+        "limit": "Progress + independent warm iter/time checks; no synthetic logs substitute for actual process receipts"
+      }
+    ],
+    "ranks": [
+      {
+        "rank": 0,
+        "returncode": 0,
+        "receipt_SHA256": "365844cb81baadc692428442885fc65cdead6c634d8cac7d3bc7a8c48728e922",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "724e9e16e1f203c8950276eff1b254239b04eb91a9c39f422edfbf216c6f16e9"
+      },
+      {
+        "rank": 1,
+        "returncode": 0,
+        "receipt_SHA256": "2cec10016b4828875832c37046be2cd00be79d983d3cf2ab1a0df6b13d168350",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "724e9e16e1f203c8950276eff1b254239b04eb91a9c39f422edfbf216c6f16e9"
+      },
+      {
+        "rank": 2,
+        "returncode": 0,
+        "receipt_SHA256": "0f00cc29bf4657fd85c56a24e53086f048d74dfcd6b4138ab0c80792b88d24f2",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "724e9e16e1f203c8950276eff1b254239b04eb91a9c39f422edfbf216c6f16e9"
+      },
+      {
+        "rank": 3,
+        "returncode": 0,
+        "receipt_SHA256": "8428301b5006e4c0893f8103b97e89639727bb230abfea2c90c5d2445ab2a7ef",
+        "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+        "input_SHA256": "724e9e16e1f203c8950276eff1b254239b04eb91a9c39f422edfbf216c6f16e9"
+      }
+    ],
+    "parent_exit": 0,
+    "status_sha256": "40ef41106fe79e1fe6f8c949e777879a20d41b683f7be2a89cdb3b1014b923d0",
+    "peak_RSS_bytes": 1056018432,
+    "CPU_user_s": 9495.742860000002,
+    "CPU_system_s": 810.3708300000001,
+    "elapsed_s": 2576.6409629657865,
+    "total_workdir_bytes": 3608467814,
+    "native_bytes": 3581244172,
+    "warnings_unique": [],
+    "warning_line_count": 0,
+    "model_SHA256": "f60832a66caf7f95d5de8e7aafa44f0b6981ae38d130fe237b9df28fdf896776",
+    "input_SHA256": {
+      "input.inp": "724e9e16e1f203c8950276eff1b254239b04eb91a9c39f422edfbf216c6f16e9",
+      "seed.nc": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+      "gpi.nc": "fb21444350b695a6708a5284fdcc98b23111d1907d464637279c4b4c85b910d6"
+    },
+    "DEN_values_decoded": 0,
+    "scientific_convergence": "NOT_ESTABLISHED",
+    "event_id": "disturbed_20211103T21",
+    "launch_UTC": "2026-11-28T07:22:15.580907Z",
+    "exit_UTC": "2026-11-28T08:05:12.388115Z",
+    "runtime_GPI_max_abs": {
+      "f107d": 2.842170943040401e-14,
+      "f107a": 4.263256414560601e-14,
+      "Kp": 8.881784197001252e-16,
+      "hpower": 8.526512829121202e-14,
+      "ctpoten": 5.684341886080802e-14
+    },
+    "forcing": {
+      "days": 22,
+      "definitive_Kp_bins": 176,
+      "observed_F107_center_days": 81,
+      "adjusted_flux_used": false
+    },
+    "file_count": 35,
+    "hourly_frames": 408,
+    "full_receipt_SHA256": "87e55f2843643046cdaa30d8c6eb7e9ff1bc6c8ee56bb37b2cc43732b9f01d73"
+  }
+}

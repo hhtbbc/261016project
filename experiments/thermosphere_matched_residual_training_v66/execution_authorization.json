@@ -1,0 +1,37 @@
+{
+  "validation_events": {
+    "VAL1": [
+      "quiet_20220301T21",
+      "2022-02-16",
+      "2022-03-04",
+      16,
+      2.0
+    ],
+    "VAL2": [
+      "disturbed_20211103T21",
+      "2021-10-21",
+      "2021-11-07",
+      17,
+      7.667
+    ]
+  },
+  "role": "MODEL_SELECTION_VALIDATION",
+  "TRAIN_arms": [
+    "P",
+    "LT"
+  ],
+  "updates_each": 200,
+  "attempts_per_event": 1,
+  "automatic_retry": false,
+  "serial": true,
+  "MPI": 4,
+  "OMP": 1,
+  "wall_s": 6000,
+  "RSS_bytes": 4294967296,
+  "output_bytes": 8589934592,
+  "GPU": 0,
+  "GFZ_SHA256": "c1006bfb4443a01a979bce6203d58abb47941e504a3d31e9197cd3323b8e3d46",
+  "seed": "a710e39b9b992cab55b839e1ab11298305e02d0205135efa5a93254cb30fd4e7",
+  "target_DEN_access": false,
+  "UTC": "2026-11-28T06:41:38.633923Z"
+}

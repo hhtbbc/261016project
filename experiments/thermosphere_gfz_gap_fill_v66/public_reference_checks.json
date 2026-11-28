@@ -1,0 +1,34 @@
+{
+  "canada": {
+    "url": "https://spaceweather.gc.ca/solar_flux_data/daily_flux_values/fluxtable.txt",
+    "curl_exit": 28,
+    "http_status": "000",
+    "detail": "curl: (28) SSL connection timeout",
+    "bytes": 0,
+    "sha256": null
+  },
+  "xras": {
+    "url": "https://xras.ru/magnetic_storms.html/cambridge_bay/?m=5&d=9&y=2021",
+    "curl_exit": 0,
+    "http_status": "403",
+    "detail": "",
+    "bytes": 313,
+    "sha256": "8a4a0d2dfe5a5e052c1f295bd6fe2cbb716ab6380c64e6e23606b0a62087e759"
+  },
+  "arrl": {
+    "url": "https://www.arrl.org/news/view/the-k7ra-solar-update-685",
+    "curl_exit": 0,
+    "http_status": "200",
+    "detail": "",
+    "bytes": 39635,
+    "sha256": "651d439ee9643881b76271042c3788092e5a7732382d9df5ed6f3108619b4c12"
+  },
+  "noaa_dsd": {
+    "url": "https://www.ngdc.noaa.gov/stp/space-weather/swpc-products/annual_reports/daily_solar_indices_summaries/daily_solar_data/2021Q2_DSD.txt",
+    "curl_exit": 0,
+    "http_status": "200",
+    "detail": "",
+    "bytes": 7554,
+    "sha256": "bdfbb4ae63798184a9710c3b1e8fd5a468d74f2bd7cc55fee5eca78433b0f37c"
+  }
+}

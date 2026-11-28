@@ -1556,3 +1556,7 @@ activate_tiegcm.sh 下运行 score_independent_events_v64.py 一次提取 21 个
 ## 2026-11-28 V65 四事件 CPU 和数据集
 
 activate_tiegcm.sh 下执行 run_training_events_v65.py、build_training_dataset_v65.py、verify_and_plot_training_v65.py 和 report_training_dataset_v65.py。4×MPI 串行 10,372.9 s。四组独立工程复核及 792 残差场复算通过。训练集无无效 DEN。无 GPU、训练、封存标签访问或非授权积分。原生文件、全精度结果和训练数组留服务器。
+
+## 2026-11-28 V66 CPU 对照、验证积分及补值候选
+
+run_validation_events_v66.py 执行两次冷启动，独立检查 68 卷、792 整点及 36 个位置关联。train_matched_residual_v66.py 顺序完成双臂 CPU，各 200 更新，恢复一致。诊断只用 V65 TRAIN。build_gfz_gap_fill_v66.py 对六套候选逐分钟复算；GFZ 原表不改、2021 夏季未启动。无 GPU、Swarm、验证/测试 DEN 或额外积分。

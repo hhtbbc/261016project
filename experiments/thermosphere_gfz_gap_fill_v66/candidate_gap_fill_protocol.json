@@ -1,0 +1,88 @@
+{
+  "protocol": "GFZ_FOBS_GAP_FILL_V1",
+  "status": "GAP_FILL_POLICY_PENDING_REVIEW",
+  "original_source_SHA256": "c1006bfb4443a01a979bce6203d58abb47941e504a3d31e9197cd3323b8e3d46",
+  "original_state": "GFZ_2021_GAP_UNRESOLVED",
+  "proposal": "A: May 9 76.0 corroborated by NOAA integer daily compilation; definition of XRAS reference unverified. June 16 77.0 midpoint of same-day 17Z and 23Z measurements independently described by ARRL.",
+  "backup": "B: interpolate both gaps linearly between immediately neighboring valid GFZ observed days",
+  "daily_time_model": "F107D/F107A GPI nodes daily, model solar cubic interpolation around noon; evidence 20Z convention separate",
+  "central_81_day_affected": {
+    "May09": [
+      "2021-03-30",
+      "2021-06-18"
+    ],
+    "Jun16": [
+      "2021-05-07",
+      "2021-07-26"
+    ]
+  },
+  "envelopes_note": "May bounds span adjacent official observations and corroborated daily compilation; June bounds span two same-day observations. Neither is a confidence interval.",
+  "Fadj": "not used or modified",
+  "candidate_files": {
+    "A_reference_same_day": {
+      "file": "data_local/A_reference_same_day_HINDCAST_RESEARCH_FILL.nc",
+      "SHA256": "efbc645f53a2d89f7c2c1555d8373eff141ebc13617c2f1456f849d587121a40",
+      "daily_pad": [
+        "2021-05-29",
+        "2021-06-25"
+      ],
+      "GPI_D_rows": 28,
+      "Kp_bins": 224
+    },
+    "B_adjacent_observed_days": {
+      "file": "data_local/B_adjacent_observed_days_HINDCAST_RESEARCH_FILL.nc",
+      "SHA256": "d0b4536cbd2bae12883a1344ace731c1361720431e45c9a6a2604cdc6fe650a6",
+      "daily_pad": [
+        "2021-05-29",
+        "2021-06-25"
+      ],
+      "GPI_D_rows": 28,
+      "Kp_bins": 224
+    },
+    "A_Jun16_low": {
+      "file": "data_local/A_Jun16_low_HINDCAST_RESEARCH_FILL.nc",
+      "SHA256": "5a3067fe71b2707c5e6ca9950db7ef4dcd9fdeffc6c26d4276ff9171f25b8a79",
+      "daily_pad": [
+        "2021-05-29",
+        "2021-06-25"
+      ],
+      "GPI_D_rows": 28,
+      "Kp_bins": 224
+    },
+    "A_Jun16_high": {
+      "file": "data_local/A_Jun16_high_HINDCAST_RESEARCH_FILL.nc",
+      "SHA256": "3d41af3bf61e776ee0e23ae6d73a1e32d727f67a690e15983462857f381f9c15",
+      "daily_pad": [
+        "2021-05-29",
+        "2021-06-25"
+      ],
+      "GPI_D_rows": 28,
+      "Kp_bins": 224
+    },
+    "A_May09_neighbor_low": {
+      "file": "data_local/A_May09_neighbor_low_HINDCAST_RESEARCH_FILL.nc",
+      "SHA256": "ddc30761e2c7954af4b288c73635dfced611bbf152549a95d0db5851c7dc29ab",
+      "daily_pad": [
+        "2021-05-29",
+        "2021-06-25"
+      ],
+      "GPI_D_rows": 28,
+      "Kp_bins": 224
+    },
+    "A_May09_neighbor_high": {
+      "file": "data_local/A_May09_neighbor_high_HINDCAST_RESEARCH_FILL.nc",
+      "SHA256": "ac487c0c5092aa81ca8b9c7226a5bf625d08b15feacf5adb8f752cb167474b88",
+      "daily_pad": [
+        "2021-05-29",
+        "2021-06-25"
+      ],
+      "GPI_D_rows": 28,
+      "Kp_bins": 224
+    }
+  },
+  "minute_points": 33121,
+  "max_independent_check_abs": 4.263256414560601e-14,
+  "Kp_hpower_ctpoten_change": 0,
+  "real_20Z_recovered": false,
+  "model_execution": false
+}

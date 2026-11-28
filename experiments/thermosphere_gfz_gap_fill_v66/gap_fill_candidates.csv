@@ -1,0 +1,13 @@
+variant,date,candidate_sfu,previous_observed,following_observed,source
+A_reference_same_day,2021-05-09,76.0,75.9,76.5,explicit researcher estimate; see protocol
+A_reference_same_day,2021-06-16,77.0,75.5,85.0,explicit researcher estimate; see protocol
+B_adjacent_observed_days,2021-05-09,76.2,75.9,76.5,explicit researcher estimate; see protocol
+B_adjacent_observed_days,2021-06-16,80.25,75.5,85.0,explicit researcher estimate; see protocol
+A_Jun16_low,2021-05-09,76.0,75.9,76.5,explicit researcher estimate; see protocol
+A_Jun16_low,2021-06-16,76.9,75.5,85.0,explicit researcher estimate; see protocol
+A_Jun16_high,2021-05-09,76.0,75.9,76.5,explicit researcher estimate; see protocol
+A_Jun16_high,2021-06-16,77.1,75.5,85.0,explicit researcher estimate; see protocol
+A_May09_neighbor_low,2021-05-09,75.9,75.9,76.5,explicit researcher estimate; see protocol
+A_May09_neighbor_low,2021-06-16,77.0,75.5,85.0,explicit researcher estimate; see protocol
+A_May09_neighbor_high,2021-05-09,76.5,75.9,76.5,explicit researcher estimate; see protocol
+A_May09_neighbor_high,2021-06-16,77.0,75.5,85.0,explicit researcher estimate; see protocol

@@ -1,0 +1,21 @@
+{
+  "state": "PROPOSAL_ONLY_REQUIRES_FRESH_EXPLICIT_AUTHORIZATION",
+  "start_UTC": "2021-05-31T00:00:00Z",
+  "target_UTC": "2021-06-21T00:00:00Z",
+  "stop_UTC": "2021-06-23T00:00:00Z",
+  "spinup_days": 21,
+  "total_days": 23,
+  "steps_60s": 33120,
+  "match": "Repeat V51 2022 21-day elapsed protocol with mareqx smax and junsol smax in same seed arms",
+  "primary_proposal": "A_reference_same_day",
+  "backup_sensitivity": "B_adjacent_observed_days",
+  "preferred_design": "A two-seed pair first. If separate authorization, B holding seed and all other conditions fixed, optionally both seeds for interaction. Compare model-only sensitivity before further requests.",
+  "estimated_wall_hours_each": 0.9745748284313727,
+  "estimated_raw_GiB_each": 4.512397058823529,
+  "scientific_controls": "Same dates, initial seed per contrast, model/Heelis/GSWM and scoring protocol. No choice from withheld Swarm errors.",
+  "gates": [
+    "Approve versioned fill policy separate from V37 and explicit 2021 model run window/seed/forcing",
+    "Explicit additional sensitivity runs if desired",
+    "Keep ESA, ZG and V37 scoring gates; later separate observation/scoring authorization"
+  ]
+}
