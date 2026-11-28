@@ -1,0 +1,87 @@
+{
+  "overlaps": [
+    {
+      "access_cutoff": "aa4b42ee664c96d00e339582e557deb87186176bbae9567018a47beee0501b51",
+      "stage": "periodic",
+      "record_UTC": "2023-05-02T19:00:00Z",
+      "earlier_cutoff": "27ecaf2c3a3c1f598388f93379fe9be9cc948bf054863cc2811b6e26939840e5",
+      "earlier_record_id": "7a003bb603857d0d102af2b416ac36304c77fb2fa82058408995194ca05a2aa5",
+      "earlier_lock_SHA256": "d570a7ca494595c19ad604fbddb51b5862ffe2f864581f5baf69c128cb66f17a",
+      "access_sequence": 16
+    },
+    {
+      "access_cutoff": "aa4b42ee664c96d00e339582e557deb87186176bbae9567018a47beee0501b51",
+      "stage": "periodic",
+      "record_UTC": "2023-05-02T21:00:00Z",
+      "earlier_cutoff": "27ecaf2c3a3c1f598388f93379fe9be9cc948bf054863cc2811b6e26939840e5",
+      "earlier_record_id": "e43fd80153b9580412df352c4e00bab64de3d102215110dba525369c1ad1c546",
+      "earlier_lock_SHA256": "d570a7ca494595c19ad604fbddb51b5862ffe2f864581f5baf69c128cb66f17a",
+      "access_sequence": 17
+    },
+    {
+      "access_cutoff": "aa4b42ee664c96d00e339582e557deb87186176bbae9567018a47beee0501b51",
+      "stage": "periodic",
+      "record_UTC": "2023-05-03T00:00:00Z",
+      "earlier_cutoff": "27ecaf2c3a3c1f598388f93379fe9be9cc948bf054863cc2811b6e26939840e5",
+      "earlier_record_id": "111a58c40cbfd0b7fa83498b80af5e2722384752c8ef8e44043086609dc20e42",
+      "earlier_lock_SHA256": "d570a7ca494595c19ad604fbddb51b5862ffe2f864581f5baf69c128cb66f17a",
+      "access_sequence": 18
+    },
+    {
+      "access_cutoff": "f66d2e7d65deb79b5b86b8e7ac2a09a37a50e9c2330ab24a301231e495cd0e80",
+      "stage": "periodic",
+      "record_UTC": "2023-05-03T07:00:00Z",
+      "earlier_cutoff": "6f0166a2bf5ef6213386c616af5f5fd04e1891e99417c6ff86d22ea55165e6eb",
+      "earlier_record_id": "524b6a0e5a7f9e32639f8b4584843581df869e747b5559130279c00ee4f70a7c",
+      "earlier_lock_SHA256": "4eb3fbeeb238ff5812b91ca5957125dea13986622ac5c6872962bd0f00c96f3a",
+      "access_sequence": 22
+    },
+    {
+      "access_cutoff": "f66d2e7d65deb79b5b86b8e7ac2a09a37a50e9c2330ab24a301231e495cd0e80",
+      "stage": "periodic",
+      "record_UTC": "2023-05-03T09:00:00Z",
+      "earlier_cutoff": "6f0166a2bf5ef6213386c616af5f5fd04e1891e99417c6ff86d22ea55165e6eb",
+      "earlier_record_id": "d74f5f97785f221a1b1037e2bdf46666468712f197a68cb82f4d50353ad6c2cb",
+      "earlier_lock_SHA256": "4eb3fbeeb238ff5812b91ca5957125dea13986622ac5c6872962bd0f00c96f3a",
+      "access_sequence": 23
+    },
+    {
+      "access_cutoff": "f66d2e7d65deb79b5b86b8e7ac2a09a37a50e9c2330ab24a301231e495cd0e80",
+      "stage": "periodic",
+      "record_UTC": "2023-05-03T12:00:00Z",
+      "earlier_cutoff": "6f0166a2bf5ef6213386c616af5f5fd04e1891e99417c6ff86d22ea55165e6eb",
+      "earlier_record_id": "a966f4f6531452bffc590786da458bbf496409ef3f93f1cabd2d2681610431f3",
+      "earlier_lock_SHA256": "4eb3fbeeb238ff5812b91ca5957125dea13986622ac5c6872962bd0f00c96f3a",
+      "access_sequence": 24
+    },
+    {
+      "access_cutoff": "0699eee685a87f2c51084caa04ac9a271994357330da5d02dfae4521eadd998b",
+      "stage": "periodic",
+      "record_UTC": "2023-05-20T07:00:00Z",
+      "earlier_cutoff": "22b83b1e87b2a52cd8027357387a337dc1fa4534ef75629133b7f205612c851c",
+      "earlier_record_id": "86d19c657254fc44118d51dae9306ebc9a380d19a923760d05ccce8f5953973b",
+      "earlier_lock_SHA256": "b42ffa949cedcfda98c2722824e95bf8115832c44d89d218e9faefe0ccac7f03",
+      "access_sequence": 40
+    },
+    {
+      "access_cutoff": "0699eee685a87f2c51084caa04ac9a271994357330da5d02dfae4521eadd998b",
+      "stage": "periodic",
+      "record_UTC": "2023-05-20T09:00:00Z",
+      "earlier_cutoff": "22b83b1e87b2a52cd8027357387a337dc1fa4534ef75629133b7f205612c851c",
+      "earlier_record_id": "570c197ed8fc5553c471211b1e476300aa9119b6186c8253337b3579085843a2",
+      "earlier_lock_SHA256": "b42ffa949cedcfda98c2722824e95bf8115832c44d89d218e9faefe0ccac7f03",
+      "access_sequence": 41
+    },
+    {
+      "access_cutoff": "0699eee685a87f2c51084caa04ac9a271994357330da5d02dfae4521eadd998b",
+      "stage": "periodic",
+      "record_UTC": "2023-05-20T12:00:00Z",
+      "earlier_cutoff": "22b83b1e87b2a52cd8027357387a337dc1fa4534ef75629133b7f205612c851c",
+      "earlier_record_id": "c626f54078088043832e0caca06cdb567f54ab1c4392979c9b67e77d5f503d24",
+      "earlier_lock_SHA256": "b42ffa949cedcfda98c2722824e95bf8115832c44d89d218e9faefe0ccac7f03",
+      "access_sequence": 42
+    }
+  ],
+  "exact_sequence": true,
+  "target_scoring_reads": 0
+}

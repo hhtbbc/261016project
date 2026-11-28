@@ -1,0 +1,38 @@
+{
+  "methods": [
+    "Persistence",
+    "TwoFrameLinear",
+    "LogLinear",
+    "ThreeFrameOLSLog",
+    "DampedLogTrend",
+    "LocalTimePersistence",
+    "DailyPersistence",
+    "TinyDirectCNN"
+  ],
+  "leads": [
+    1,
+    3,
+    6
+  ],
+  "shape": [
+    29,
+    36,
+    72
+  ],
+  "dtype": "<f8",
+  "unit": "kg/m3",
+  "worker_source_SHA256": {
+    "event_worker_v64.c": "05196d36732789ab7f531f2bcd4dd7058643459e7ce7ea4f2323ae196b54d140",
+    "tiny_direct_worker_v60.c": "2ab60c1bd21d2e2a965723164ad4c10a8a054e1f382474fc125f92dcc34b36ae",
+    "swarm_history_worker_v57.c": "26fe5e8dfbf6c7134e6eca04ed6e1fff2fe23851ca62e39055368e9baf247d71"
+  },
+  "checkpoint_SHA256": "c0c592e38c8bac9431a71f43f4b6358c8e125be724c9787fc46f0620c7136c53",
+  "normalization_SHA256": "581f4c50f1dd06f60c47cc530ba1d131638874a525c6d604581249b5b48e4616",
+  "model_packet_SHA256": "a060bd7bf1d98a1404524a5cb09bdd82065bacbc479c66b6052d8f7f7c50bf2e",
+  "tau_hours": 3,
+  "eastward_source_cells": [
+    6,
+    12,
+    21
+  ]
+}

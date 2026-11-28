@@ -1,0 +1,66 @@
+{
+  "event_worker_v64": {
+    "rejections": [
+      "blocked_open_0=2",
+      "blocked_open_1=2",
+      "blocked_open_2=2",
+      "blocked_open_3=2",
+      "blocked_open_4=2",
+      "blocked_open_5=2",
+      "history_write=EACCES",
+      "network_socket=EPERM",
+      "chroot_escape=EPERM",
+      "unprivileged=65534",
+      "raw_or_archived_source_rejected_3=2",
+      "raw_or_archived_source_rejected_4=2"
+    ],
+    "poison_invariant": true,
+    "worker_SHA256": "a20dbf6fadad9a24897f17e0a6d00946d0c3ba28af2f813677bd8434c2217197",
+    "actual_sibling_rejections": [
+      "blocked_open_0=2",
+      "blocked_open_1=2",
+      "blocked_open_2=2",
+      "blocked_open_3=2",
+      "blocked_open_4=2",
+      "blocked_open_5=2",
+      "history_write=EACCES",
+      "network_socket=EPERM",
+      "chroot_escape=EPERM",
+      "unprivileged=65534",
+      "raw_or_archived_source_rejected_3=2",
+      "raw_or_archived_source_rejected_4=2"
+    ]
+  },
+  "tiny_direct_worker_v60": {
+    "rejections": [
+      "blocked_open_0=2",
+      "blocked_open_1=2",
+      "blocked_open_2=2",
+      "blocked_open_3=2",
+      "blocked_open_4=2",
+      "blocked_open_5=2",
+      "history_write=EACCES",
+      "network_socket=EPERM",
+      "chroot_escape=EPERM",
+      "unprivileged=65534",
+      "raw_or_archived_source_rejected_3=2",
+      "raw_or_archived_source_rejected_4=2"
+    ],
+    "poison_invariant": true,
+    "worker_SHA256": "03229ce991796c08652bbc6d43096809f2bf94bfbaeb1b28afd0b9e1b2135939",
+    "actual_sibling_rejections": [
+      "blocked_open_0=2",
+      "blocked_open_1=2",
+      "blocked_open_2=2",
+      "blocked_open_3=2",
+      "blocked_open_4=2",
+      "blocked_open_5=2",
+      "history_write=EACCES",
+      "network_socket=EPERM",
+      "chroot_escape=EPERM",
+      "unprivileged=65534",
+      "raw_or_archived_source_rejected_3=2",
+      "raw_or_archived_source_rejected_4=2"
+    ]
+  }
+}

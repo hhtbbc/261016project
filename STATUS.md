@@ -894,3 +894,7 @@ V62 完成 GFZ 驱动及两份静态预检：2023-05-02 静稳、2023-05-20 中�
 ## 2026-11-27 V64-B 评价前置核查
 
 未取得 V64-A 预测锁定和隔离证据，评价在目标开放前停止。21 个目标保持封存。入口 reports/THERMOSPHERE_INDEPENDENT_EVENT_FORECAST_EVALUATION_V64.md。
+
+## 2026-11-28 V64-A 真实独立事件预测
+
+8 方法、168 场已锁定且独立复核。两个授权历史范围各 21 场，9 个跨截点重合在早期预测锁定后提取。真实标签评分读取为零，等待新提交 V64-B 授权。入口 reports/THERMOSPHERE_INDEPENDENT_EVENT_PREDICTION_LOCK_V64.md。

@@ -1544,3 +1544,7 @@ activate_tiegcm.sh 下使用 run_independent_events_v63.py 串行积分，静稳
 ## 2026-11-27 V64-B 条件授权核查
 
 检查 HEAD、origin/main、远端分支、本地引用、近期 reflog、V64 成果及预测锁定候选，均无可核实的 V64-A 交付。V55 staging 为空。未读取目标 DEN 或 Swarm，未执行评价。续办需要锁定预测、程序及隔离收据。
+
+## 2026-11-28 V64-A 真实预测和锁定
+
+activate_tiegcm.sh 下用 run_independent_predictions_v64.py 逐截点隔离执行，4.53 秒、144660880 工作字节。最初编译宏冲突在实际数据提取前修复。verify_independent_predictions_v64.py 复核 168 个预测 SHA、9 个历史重合及 101 个非正原值线性格点。两类历史各 21，评分读取和训练、GPU、新积分、Swarm 为零。

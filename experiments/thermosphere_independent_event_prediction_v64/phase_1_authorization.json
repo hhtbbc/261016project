@@ -1,0 +1,18 @@
+{
+  "index_SHA256": {
+    "history": "9e225b3b846a5b0456ce96a741b7dcfb80b2647abc8f151aa4c99a5db8dddbf7",
+    "periodic": "1deaca7801a6a8d7d46a9191e59c489b87bf85aed557488fb50ecd6f654d6fa6",
+    "target": "b6d53079746cf06b19889f4501b47e491b2bda2e522160db982382fe5116984a",
+    "cutoff": "6485a42e540c6eefdba5cc2bd39362908c47a00cffb1577a3e8639718ef1ce9d",
+    "next_stage_evaluation_authorization.json": "47306c0b1c74f4d9724ad41f9e932be38a804fb32ac21ff216b8427cbf96732c",
+    "target_sealing_manifest.json": "b70c800f592330667ca28d68986a2cc735713eb066f66b3d7c79c1334cd874ed",
+    "new_baseline_protocol.json": "4d15b94b265ea3e735c20a40ebdeabd98221dc4abf16ee1e115e6c797b2a46f7",
+    "low_density_thresholds.json": "cebbb4f6b601b0d2d5023e1fab2d973e7fdb54864bfb200571fcc3a509b1f32e",
+    "normalization.json": "581f4c50f1dd06f60c47cc530ba1d131638874a525c6d604581249b5b48e4616",
+    "training_receipt.json": "9d6f59387c9dbf0216df086e3cf5eb3e53d4dfb3892cf8f68e64d7e65e509a5c"
+  },
+  "regular_history": 21,
+  "daily_history": 21,
+  "scoring_target_DEN": 0,
+  "scope": "Separate V64-A authorizations, exact indexed records only"
+}

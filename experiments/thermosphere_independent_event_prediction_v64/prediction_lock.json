@@ -1,0 +1,65 @@
+{
+  "state": "V64_A_PREDICTIONS_LOCKED_AWAITING_V64_B",
+  "methods": [
+    "Persistence",
+    "TwoFrameLinear",
+    "LogLinear",
+    "ThreeFrameOLSLog",
+    "DampedLogTrend",
+    "LocalTimePersistence",
+    "DailyPersistence",
+    "TinyDirectCNN"
+  ],
+  "forecasts": 168,
+  "cutoffs": 7,
+  "grid_values": 12628224,
+  "target_scoring_reads": 0,
+  "cutoff_locks": {
+    "27ecaf2c3a3c1f598388f93379fe9be9cc948bf054863cc2811b6e26939840e5": {
+      "file": "data_local/cutoff_00_lock.json",
+      "SHA256": "d570a7ca494595c19ad604fbddb51b5862ffe2f864581f5baf69c128cb66f17a"
+    },
+    "6f0166a2bf5ef6213386c616af5f5fd04e1891e99417c6ff86d22ea55165e6eb": {
+      "file": "data_local/cutoff_01_lock.json",
+      "SHA256": "4eb3fbeeb238ff5812b91ca5957125dea13986622ac5c6872962bd0f00c96f3a"
+    },
+    "aa4b42ee664c96d00e339582e557deb87186176bbae9567018a47beee0501b51": {
+      "file": "data_local/cutoff_02_lock.json",
+      "SHA256": "b9010698ca7ebc9b6aaeb21767a7dcf3c1f3c1e0e31f9f075b657edcf1488e87"
+    },
+    "f66d2e7d65deb79b5b86b8e7ac2a09a37a50e9c2330ab24a301231e495cd0e80": {
+      "file": "data_local/cutoff_03_lock.json",
+      "SHA256": "bfebcbad4065a4ff6699b6d3746688bd53d7e8958eedf0709e7f1906f81c9086"
+    },
+    "22b83b1e87b2a52cd8027357387a337dc1fa4534ef75629133b7f205612c851c": {
+      "file": "data_local/cutoff_04_lock.json",
+      "SHA256": "b42ffa949cedcfda98c2722824e95bf8115832c44d89d218e9faefe0ccac7f03"
+    },
+    "afcbf4d5b0964de370526ba0ca073dbfd1b943db7d20cba0c7b2375179706b26": {
+      "file": "data_local/cutoff_05_lock.json",
+      "SHA256": "d8c52509e6094310dce74d13b2fcadee0c04402a573002c0489516a28bdbf337"
+    },
+    "0699eee685a87f2c51084caa04ac9a271994357330da5d02dfae4521eadd998b": {
+      "file": "data_local/cutoff_06_lock.json",
+      "SHA256": "32a697664dbabc05678cec43ac5d370386dc207d592f2efc52127368afd3b960"
+    }
+  },
+  "artifact_SHA256": {
+    "approved_history_manifest.csv": "d4f289fcaf02531f800d398593d470fde297c721d76d305ce008afc74de75f53",
+    "approved_periodic_history_manifest.csv": "9a309102b4cd71639f25e5f97a7c3f2117c1a95bff2e03875b3bac841a1f2cb8",
+    "cross_cutoff_probe_results.json": "b9bd920ffe0f446ab933842f7810ebde9203d261963490b0b3ed536c0b673b62",
+    "evaluation_code_SHA256.json": "098589e88bbef31b2a4fe751ff3c8c9f13a1b853142ca34a310240ff349340a2",
+    "frozen_evaluation_protocol.json": "9f8ebff7e3604383f9ef67a20c63cb4b4afce1cd014fb98671b686e0db2d1b56",
+    "frozen_method_protocol.json": "17de6ea5aeb715148db58a35271b34e91c333c91f3755f0d22e8ed673a621945",
+    "history_extraction_receipt.json": "b106250ab2156ae4f11e8ad26b642c7504576a5ff4f263c1edddf604add33516",
+    "independent_verification.json": "6569f1a407f682ddb4059e5e77dffd9f69143b4eab5e304b3481a140a2a580db",
+    "isolation_probe_results.json": "855170aa9ef6d35344f49c17ef2bd0c3d8da3936fbfc6e8b65f7f036fde25cb9",
+    "native_coordinates.json": "21af4f911282785244cee515765b39836bcd43afaf87a085e5dd650784eaa4c8",
+    "next_phase_authorization_request.json": "592f7494501fb6d046343a82015c9a81b4e5535e648baf0818b69587f7d725b0",
+    "phase_1_authorization.json": "57a1173b80bbf8a5ff759057561a75148152f493aa5fb323bef6a348edc1fe1d",
+    "prediction_manifest.csv": "a114d2026d7410c345c57be344b6887d23505d0b24718081b8b31d4d95c21203",
+    "prediction_sha256.json": "82beb282a2939621074fedda0bc473b8a7aafce6362cf72b8d09e67291a5395d",
+    "resource_usage.json": "85e6b26e5441ea3547f210fb6ad2b97f267b9017f39dca51320f41997ddfcd74",
+    "temporal_overlap_audit.json": "7e1199179737e485980a8b1653af475da647224fe443c655a8b1199f66fa0911"
+  }
+}

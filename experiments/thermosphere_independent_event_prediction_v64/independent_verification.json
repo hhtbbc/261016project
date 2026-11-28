@@ -1,0 +1,8 @@
+{
+  "baseline_formula_checks": 147,
+  "maximum_relative_difference": 3.918003860587049e-14,
+  "cnn": "V60 worker unchanged and pinned packet, weight and normalization SHA",
+  "synthetic_evaluation": "PASS",
+  "synthetic_rotation_and_seam": "PASS",
+  "target_values_for_evaluation_read": 0
+}

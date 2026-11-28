@@ -1,0 +1,66 @@
+{
+  "prediction_lock_SHA256": "f66ed4fb06a2f849a32d6b10261f986f4826b9d802159fb011d1eeb2e226b47f",
+  "cutoffs": 7,
+  "forecasts": 168,
+  "history_associations": 42,
+  "historical_overlaps": 9,
+  "target_scoring_reads": 0,
+  "methods": {
+    "Persistence": {
+      "fields": 21,
+      "grid": 1578528,
+      "nonpositive": 0,
+      "nonfinite": 0,
+      "coverage": 1.0
+    },
+    "TwoFrameLinear": {
+      "fields": 21,
+      "grid": 1578528,
+      "nonpositive": 101,
+      "nonfinite": 0,
+      "coverage": 0.9999360163392731
+    },
+    "LogLinear": {
+      "fields": 21,
+      "grid": 1578528,
+      "nonpositive": 0,
+      "nonfinite": 0,
+      "coverage": 1.0
+    },
+    "ThreeFrameOLSLog": {
+      "fields": 21,
+      "grid": 1578528,
+      "nonpositive": 0,
+      "nonfinite": 0,
+      "coverage": 1.0
+    },
+    "DampedLogTrend": {
+      "fields": 21,
+      "grid": 1578528,
+      "nonpositive": 0,
+      "nonfinite": 0,
+      "coverage": 1.0
+    },
+    "LocalTimePersistence": {
+      "fields": 21,
+      "grid": 1578528,
+      "nonpositive": 0,
+      "nonfinite": 0,
+      "coverage": 1.0
+    },
+    "DailyPersistence": {
+      "fields": 21,
+      "grid": 1578528,
+      "nonpositive": 0,
+      "nonfinite": 0,
+      "coverage": 1.0
+    },
+    "TinyDirectCNN": {
+      "fields": 21,
+      "grid": 1578528,
+      "nonpositive": 0,
+      "nonfinite": 0,
+      "coverage": 1.0
+    }
+  }
+}

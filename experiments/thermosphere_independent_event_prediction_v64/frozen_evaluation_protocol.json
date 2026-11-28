@@ -1,0 +1,25 @@
+{
+  "primary": "cos(latitude) weighted log RMSE",
+  "relative_rmse": "sqrt(weighted mean squared pointwise relative error)",
+  "p95": "weighted empirical CDF",
+  "masks": [
+    "own positive finite",
+    "all methods positive finite"
+  ],
+  "nonpositive": "report separately",
+  "stratification": [
+    "event",
+    "cutoff",
+    "horizon",
+    "native ilev",
+    "north/south polar >=60",
+    "fixed V62 low-density P5"
+  ],
+  "low_density_SHA256": "cebbb4f6b601b0d2d5023e1fab2d973e7fdb54864bfb200571fcc3a509b1f32e",
+  "macro": "arithmetic mean of two event metrics",
+  "residual": "log(target)-log(prediction); negate log bias and reverse log-error quantiles",
+  "compare_to": [
+    "Persistence",
+    "LocalTimePersistence"
+  ]
+}
